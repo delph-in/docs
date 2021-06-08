@@ -1,5 +1,4 @@
 
 The DELPH-IN Documentation (wiki).
 
-Olga: I've been trying to experiment with GitHub pages as well, to see if we can use this repo to project a convenient portal, e.g. for the current summit or for the organization in general? Since the wiki is not the best place to look at a summit as an event. However I cannot figure out how to make it actually read in all the current wiki pages. I can just link to them directly from the website, which kind of defeats the purpose, in the sense that then the website can be anywhere.
 
