@@ -1,0 +1,3 @@
+;;;; settings for CHEAP -*- Mode: TDL; Coding: utf-8 -*-
+include "flop".
+include "pet".

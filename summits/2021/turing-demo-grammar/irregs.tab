@@ -1,0 +1,8 @@
+"
+; Irregs.tab is used to define irregular forms
+; The syntax is as follows:
+; irreg_form IRREG_TYPE reg_form
+; e.g.:
+; ate VERB_eat PAST
+
+"

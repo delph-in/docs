@@ -1,0 +1,54 @@
+;;; -*- Mode: TDL; Package: DISCO -*-
+;;;
+;;; $Id: pet.tdl,v 1.2 2008-05-23 01:44:21 sfd Exp $
+;;;
+
+:begin :type.
+
+;;
+;; type hierarchy
+;;
+
+:include "head-types".
+:include "matrix".
+:include "mtr".
+
+
+:end :type.
+
+;;
+;; lexicon entries (instances of status lex-entry or generic-lex-entry)
+;;
+
+:begin :instance :status lex-entry.
+:include "lexicon".
+:end :instance.
+
+;;
+;; grammar rules and lexical rules (instances of status rule)
+;;
+
+:begin :instance :status rule.
+:include "rules".
+:end :instance.
+
+:begin :instance :status lex-rule.
+:include "lrules".
+:include "irules".
+:end :instance.
+
+;;
+;; parse-tree labels (instances)
+;;
+
+:begin :instance.
+:include "labels".
+:end :instance.
+
+;;
+;; start symbols of the grammar (instances)
+;;
+
+:begin :instance.
+:include "roots".
+:end :instance.

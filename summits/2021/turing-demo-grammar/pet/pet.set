@@ -1,0 +1,162 @@
+;;; -*- Mode: TDL; -*-
+
+;;;
+;;; grammar-specific settings for PET; run-time part for cheap parser.
+;;;
+
+include "global".
+
+;;
+;; encoding used in grammar source files (should be `euc-jp' for Japanese).
+;;
+;encoding := iso-8859-1.
+encoding := utf-8.
+
+;;
+;; input preprocessing: disable downcasing and (English-specific) explosion of
+;; apostrophes.
+;;
+trivial-tokenizer.
+
+;;
+;; type of a valid parse, start symbol
+;;
+start-symbols := $root.
+
+;;
+;; word-breaking characters in tokenization --- treated as whitespace
+;;
+punctuation-characters := "!\"&'()*+,−./\;<>?@[]^`{|}~。！？…．　○●◎＊☆★◇◆".
+;;
+;; suppress results of regular morphology rules if irregular form exists
+;;
+irregular-forms-only.
+lex-entries-can-fail.
+
+;;
+;; names of attributes not to pass from daughter to mother in parsing
+;;
+deleted-daughters := ARGS HEAD-DTR NON-HEAD-DTR.
+
+;;
+;; names of attributes to filter for packing parser
+;;
+packing-restrictor := RELS HCONS.
+
+;;
+;; path into the MRS semantics
+;;
+mrs-path := "SYNSEM.LOCAL.CONT".
+
+
+;;
+;; path to LABEL for relation-to-word mapping, absolute and within a relation
+;;
+label-path := "SYNSEM.LKEYS.--KEYREL.WLINK".
+label-path-tail := "WLINK".
+
+;;
+;; name of type containing quick check structure
+;;
+qc-structure := $qc_paths.
+
+;; 
+;; the scoring model, either for on-line use in best-first parsing or off-line
+;; ranking of complete parse results after parsing.
+;;
+#|
+sm := "my_language.mem".
+|#
+
+;;
+;; as an alternative to the `KEY-ARG' mechanism in the actual rules, one can
+;; stipulate the key daughter for each rule, e.g. (using names that will most
+;; likely not be used in a grammar to avoid interference):
+;;
+#|
+rule-keyargs := 
+  $subj-head-example 2
+  $head-complement-example 1.
+|#
+
+;;
+;; some rules should be constrained to only apply over the entire string, i.e.
+;; to edges that span the full input; this should improve parsing efficiency
+;; only, rather than be considered part of the linguistic analyses.  e.g.
+;;
+#|
+spanning-only-rules := 
+  $runon-s-example.
+|#
+
+;;;
+;;; generic lexical entries for unknown words: basically, for each unknown
+;;; token in the input all generic entries are postulated.  optionally, there
+;;; are two devices to filter out generic entries: suffix-based and by virtue
+;;; of POS tag information.  generic entries that require a certain suffix
+;;; (`generic-le-suffixes') only fire if the input form has the suffix.  if
+;;; the input word has one more more POS tags associated to it, these are
+;;; looked up in the `posmapping' table: this table is a list of pairs (tag,
+;;; gle) where `gle' is the name of one of the generic items in `generic-les'.
+;;; a non-empty `posmapping' table will filter all generic entries that are not
+;;; explicitly licensed by a POS tag.
+;;;
+#|
+generic-lexentry-status-values := generic-lex-entry.
+|#
+;;
+;; some generic lexical entries require inflectional marking.  this mechanism
+;; is a filter on which generic entries proposed by other means can survive:
+;; generic entries listed here will only be postulated if the required suffix 
+;; can be matched against the input token.
+;;
+;; when using only generic entries licensed by a POS tag, the suffix filter
+;; really does not make a lot of sense anymore.               (6-jun-03; oe)
+;;
+#|
+generic-le-suffixes := 
+  $generic_trans_verb_pres3sg "S" 
+  $generic_trans_verb_past "ED" 
+  $generic_trans_verb_psp "ED" 
+  $generic_trans_verb_prp "ING" 
+  $generic_pl_noun "S"
+.
+|#
+
+;;
+;; a sample mapping of POS tags to generic lexical entries, borrowed from the
+;; ERG and using the Penn Treebank tagset.
+;;
+#|
+posmapping := 
+  JJ $generic_adj
+  JJR $generic_adj_compar
+  JJS $generic_adj_superl
+  NN $generic_sg_noun
+  NN $generic_mass_noun
+  NNS $generic_pl_noun
+  NNPS $generic_pl_noun
+  NNP $genericname
+  FW $generic_mass_noun
+  RB $generic_adverb
+  VB $generic_trans_verb_bse
+  VBD $generic_trans_verb_past
+  VBG $generic_trans_verb_prp
+  VBN $generic_trans_verb_psp
+  VBP $generic_trans_verb_presn3sg
+  VBZ $generic_trans_verb_pres3sg
+|#
+
+;;
+;; as of august 2003, PET includes ECL and the generic (R)MRS code; hence, we
+;; need to include the MRS settings from the grammar.
+;;
+postload-lisp-files := "lkb/mrsglobals.lisp".
+
+;;
+;; SSH 2012-03-28 MRS interface.  In order to make the customized
+;; grammars work with pet off the shelf, mrs.set is newly added with
+;; reference to Jacy.
+;;
+include "mrs".
+

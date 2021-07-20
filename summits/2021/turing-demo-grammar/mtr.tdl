@@ -1,0 +1,92 @@
+;;; Hey, emacs(1), this is -*- Mode: tdl; Coding: utf-8; -*- got it?
+
+;;;
+;;; Copyright (c) 2005 -- 2010 Dan Flickinger (danf@stanford.edu);
+;;; copyright (c) 2005 -- 2010 Stephan Oepen (oe@ifi.uio.no);
+;;; see `LICENSE' for conditions.
+;;;
+
+;;;
+;;; first shot of minimal type hierarchy for paraphrasing transfer rules.
+;;;
+
+;;;
+;;; minimal hierarchy of variable types, using the new (R)MRS naming scheme.
+;;;
+
+u := *top* & [ SCRATCH scratch ].
+i := u.
+p := u.
+h := p.
+e := i.
+x := i & p.
+
+;;;
+;;; to check for `arity' in MTRs, maybe we need an `anti-'variable type
+;;;
+a := u.
+
+;;;
+;;; the scratch slot in variables: used during transfer to control application
+;;; of rules, e.g. the rules that introduce selected preposition EPs in the ERG
+;;; accomodation phase which would otherwise be cyclic, i.e. the rule would
+;;; fire on its own output (since it does not consume anything).
+;;;
+scratch := *top*.
+test := scratch.
+complete := scratch.
+
+flags := *top* &
+[ OPTIONAL luk,
+  EQUAL list,
+  SUBSUME list,
+  TRIGGER string ].
+
+mrs_transfer_rule := *top* &
+[ FILTER mrs,
+  CONTEXT mrs,
+  INPUT mrs,
+  OUTPUT mrs,
+  FLAGS flags ].
+
+generator_rule := mrs_transfer_rule &
+[ INPUT.RELS.LIST < > ].
+
+monotonic_mtr := mrs_transfer_rule &
+[ CONTEXT.HOOK.LTOP #h,
+  INPUT.HOOK.LTOP #h,
+  OUTPUT.HOOK.LTOP #h ].
+  
+monotonic_omtr := monotonic_mtr & optional_mtr.
+
+optional_mtr := mrs_transfer_rule &
+[ FLAGS.OPTIONAL + ].
+
+
+
+;;;
+;;; a few `special-purpose' types, transfer operators in a sense
+;;;
++upcase+ := string.
++downcase+ := string.
+
+;;;
+;;; common types for generator trigger rules
+;;;
+
+arg0e_gtr := generator_rule &
+[ CONTEXT [ RELS.LIST < [ ARG0 #e & event ], ... > ],
+  FLAGS.EQUAL < #e, ... > ].
+
+arg0e-1x_gr := generator_rule &
+[ CONTEXT [ RELS.LIST < [ ARG0 #e & event, ARG1 #i ] > ],
+  FLAGS.EQUAL < #e, #i > ].
+
+arg0e-2x_gr := generator_rule &
+[ CONTEXT [ RELS.LIST < [ ARG0 #e & event, ARG2 #i ] > ],
+  FLAGS.EQUAL < #e, #i > ].
+
+arg0e-3x_gr := generator_rule &
+[ CONTEXT [ RELS.LIST < [ ARG0 #e & event, ARG3 #i ] > ],
+  FLAGS.EQUAL < #e, #i > ].
+

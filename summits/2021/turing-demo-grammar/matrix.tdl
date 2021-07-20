@@ -1,0 +1,3955 @@
+
+;;; -*- Mode: TDL; Package: LKB -*-
+;;;
+;;; HPSG Grammar Matrix
+;;;
+;;; $Id: matrix.tdl,v 1.51 2008-05-23 01:44:21 sfd Exp $
+;;;
+;;;  Copyright (c) 2002-2005
+;;;    Emily M. Bender, Dan Flickinger, Stephan Oepen
+;;;    see licence.txt for conditions
+;;;
+;;;  Projects using the Grammar Matrix should reference
+;;;  http://www.delph-in.net/matrix, the version used
+;;;  and Bender, Flickinger, & Oepen 2002.
+;;;
+;;;  Based on:
+;;;
+;;;  LinGO Grammar: fundamentals.tdl
+;;;  Copyright Daniel Flickinger 1994-2001
+;;;  Initial development Rob Malouf, 3-Nov-1994
+;;;
+;;;  JACY Grammar: fundamentals.tdl, mrsbasic.tdl
+;;;  Developed by Melanie Siegel, Emily M. Bender
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;
+;;  Top-level feature geometry
+;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Types for Sign, Word, Phrase, and Lex-Entry
+
+sign-min := avm &
+  [ STEM list ].
+
+basic-sign := sign-min &
+  [ KEY-ARG bool ].
+
+; SSH 2013-03-06 - added PHON.
+; SSH 2013-04-19 - PHON is temporarily commented out.
+; sign := basic-sign &
+;   [ SYNSEM synsem,
+;     ARGS list,
+;     PHON phon,
+;     INFLECTED inflected ].
+sign := basic-sign &
+  [ SYNSEM synsem,
+    ARGS list,
+    INFLECTED inflected ].
+
+; C-CONT encodes the semantic contribution of the rule (phrasal
+; or lexical).
+
+phrase-or-lexrule := sign &
+  [ SYNSEM canonical-synsem &
+	   [ LOCAL.CONT.HOOK #hook],
+    C-CONT mrs-min & [ HOOK #hook] ].
+
+word-or-lexrule-min := sign-min.
+
+; ALTS allow lexical entries to block lexical rule application
+; ARG-ST is the argument structure list.  It appears only on
+; lexical items (words or lexical rules), not on phrases.
+
+word-or-lexrule := word-or-lexrule-min & sign &
+  [ ALTS alts-min,
+    ARG-ST list ].
+
+nocoord := sign &
+  [ SYNSEM.LOCAL.COORD - ].
+
+alts-min := avm.
+alts := alts-min &
+  [ PASSIVE bool ].
+no-alts := alts-min.
+
+; Not all words have lex-synsem - e.g. lexical PPs like "tomorrow" are
+; phr-synsem since they can be post-nominal modifiers.
+
+word := word-or-lexrule & nocoord.
+
+lex-item := word-or-lexrule & nocoord.
+
+;; Not all phrases have SYNSEM phr-synsem, since we need to allow the
+;; head-comp rules to build signs which are still [ SYNSEM lex-synsem
+;; ], for constructions like "twenty-two" and "five fifteen p.m.".  So
+;; most phrases will assign the type phr-synsem to the value of
+;; SYNSEM, but not all.
+
+phrase := phrase-or-lexrule.
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Affixation
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+non-affix-bearing := word-or-lexrule &
+  [ INFLECTED infl-satisfied,
+    SYNSEM.LKEYS.KEYREL.WLINK cons ].
+
+; Rule
+
+rule := sign &
+  [ RULE-NAME string ].
+
+; LABEL-NAME and META used for labeling nodes in parse trees
+
+tree-node-label := *top* &
+  [ NODE sign ].
+
+label := sign &
+  [ LABEL-NAME string ].
+
+; For complex node labels, like S/NP
+meta := sign &
+  [ META-PREFIX string,
+    META-SUFFIX string ].
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; SYNSEM values
+
+; ERB 2004-05-10 DEF-OPT and OPT are used in the analysis of
+; optional complements (null instantiation).  DEF-OPT allows words
+; to lexically specify how their arguments will be interpreted
+; in case of null instantiation.  This solution may be superceded
+; by a Sem-I based alternative.
+
+; ERB 2007-02-05 Moving to an analysis of discourse status/cognitive
+; status of referents following Borthen & Haugereid 2005.  Replacing
+; DEF and DEF-OPT with COG-ST and OPT-CS.
+
+synsem-min := avm &
+  [ OPT bool,
+    OPT-CS cog-st,
+    LOCAL mod-local,
+    NON-LOCAL non-local-min ].
+
+; The feature LIGHT is used to model phenomena which distinguish
+; shorter words from longer ones, or constituents which are lexical
+; or nearly so from larger phrases.  It is inspired by the work
+; of Abeille and Godard (e.g., 2003).
+
+lex-or-phrase-synsem := synsem-min &
+  [ LIGHT luk ].
+
+; SSH (2013-03-05) L/R-PERIPH are newly added in order to constrain
+; clause-initial/final focus.
+
+synsem := synsem-min &
+  [ L-PERIPH luk,
+    R-PERIPH luk ].
+
+expressed-synsem := synsem.
+
+canonical-synsem := expressed-synsem &
+  [ MODIFIED xmod ].
+
+lex-synsem := canonical-synsem & lex-or-phrase-synsem &
+  [ LOCAL local-min,
+    LIGHT +,
+    LKEYS lexkeys ].
+
+; ERB (2005-08-10) We want to make sure that head-comp phrases
+; don't have the feature LKEYS, even if they are LIGHT +.
+
+phr-synsem-min := canonical-synsem & lex-or-phrase-synsem &
+  [ LOCAL local-min ].
+
+phr-synsem := phr-synsem-min &
+  [ LIGHT - ].
+
+non-canonical := synsem &
+  [ LOCAL.CONT.HOOK.INDEX event-or-ref-index ].
+
+expressed-non-canonical := non-canonical & expressed-synsem.
+
+gap := expressed-non-canonical &
+  [ LOCAL #local,
+    NON-LOCAL [ REL.LIST <>,
+		QUE.LIST <>,
+		SLASH.LIST < #local > ] ].
+
+unexpressed := synsem-min &
+  [ NON-LOCAL [ SLASH.LIST <>,
+		REL.LIST <>,
+		QUE.LIST <> ] ].
+
+unexpressed-reg := unexpressed & non-canonical.
+
+
+; A contrasting type to ordinary synsems (expressed
+; and unexpressed) which is sometimes useful.  No longer
+; explicitly used in the Matrix.
+
+anti-synsem := unexpressed.
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; LOCAL & NON-LOCAL values
+
+mod-local := avm.
+
+; sfd 08/02/2005: Added COORD and COORD-REL for coordination.  COORD
+; is a bool that's used to enforce the syntax of coordination.
+; COORD-REL is the coordination relation.
+
+local-min := mod-local &
+  [ CAT cat-min,
+    CONT mrs-min,
+    AGR individual,
+    COORD bool,
+    COORD-REL coordination-relation,
+    COORD-STRAT string ].
+
+local := local-min &
+  [ CTXT ctxt-min ].
+
+; Types for distinguishing scopal v. intersective modifiers.
+; (These types are used in the MOD value of modifiers, and
+; referenced by the scopal/intersective head-adjunct rules.)
+
+scopal-mod := local.
+intersective-mod := local.
+
+non-local-min := avm.
+
+non-local := non-local-min &
+  [ SLASH list-wrapper,
+    QUE list-wrapper,
+    REL list-wrapper ].
+
+non-local-none := non-local &
+  [ SLASH.LIST <>,
+    QUE.LIST <>,
+    REL.LIST <> ].
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;  CAT values
+
+cat-min := avm.
+
+; ERB 2004-05-05 Following ERG, add a feature HC-LIGHT which indicates
+; whether a head-comp phrase projected from a head is treated as light
+; or heavy.  That is, whether or not a phrase consisting of heads and
+; complements is light or heavy is taken to be a lexical property of
+; the head.
+
+; MC stands for 'Main clause', and is used to distinguish phenomena
+; which can only occur in main (+) or subordinate clauses (-).  The
+; value of MC is luk, allowing for a third possibility of na, for
+; not applicable.
+
+; SSH 2012-02-16 MKG stands for "MarKinG" which represents lexical
+; markings for information structure.
+
+cat := cat-min &
+  [ HEAD head-min,
+    VAL valence-min,
+    MC luk,
+    MKG mkg,
+    HC-LIGHT luk,
+    POSTHEAD bool ].
+
+cat-sat := cat &
+ [ VAL [ SPR olist,
+         SPEC olist,
+         COMPS olist,
+         SUBJ olist ],
+  HEAD.MOD olist ].
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;  HEAD
+
+head-min := avm.
+
+; It is expected that head will have many more features, but it
+; is not yet clear which are relevant crosslinguistically.  In
+; the English grammar, HEAD features include CASE, PRD, AUX, INV,
+; TAM, and VFORM.  (Re: TAM --- it is sometimes useful to have the
+; semantic information encoded in EVENT.E accessible via the head
+; path.)
+
+; TJT 2014-04-24 Adding PRD for predicatives (such as predicative adjectives)
+
+head := head-min &
+  [ MOD list,
+    PRD bool,
+    KEYS keys_min ].
+
+
+; (ERB 2004-08-19) We had previously shied away from defining head
+; types because even head types that are expected to occur across
+; all languages are probably grouped differently in the head subhierarchy
+; for different languages.  There are plenty of things which we
+; think will be the same across languages, however.  Thus the current
+; strategy is to allow for all possible groupings of head types,
+; and expect most of the disjunctive types to be ignored in most
+; languages.  Perhaps one day the LKB will be modified so that
+; users can declare certain types to suppress in the hierarchy
+; displays.
+
+; One recent LKB addition which will be helpful here is the
+; type addendum statements (':+').  Head types often bear
+; features, but none are declared for any of these Matrix head
+; types, since we don't yet know of any universal ones.  With
+; the new ':+' notation, you can add constraints (including feature
+; declarations) to existing types.  We encourage you to use this
+; when adding information to Matrix types, but not to types defined
+; solely within your grammar.  For example:
+
+; CASE on nouns:
+
+; noun :+
+; [ CASE case ].
+
+; VFORM on verbs and complementizers
+
+; +vc :+
+; [ FORM form].
+
+; We expect that particular grammars will need to add new head
+; types, and may find that the new types should inherit from
+; existing disjunctions.  If you do this, we encourage you to
+; make use of type addendum statements (':+') to add a comment
+; to the existing disjunction, e.g.:
+
+; co-verb := +jv.
+; +jv :+
+; "Adjectives, verbs, and co-verbs.".
+
+; Anticipated future developments include Lisp commands for
+; generating the appropriate type addenda and/or additional
+; types when you want to add a new head type.
+
+; Our basic inventory of head types will consist of
+; verb (v), noun (n), adjective (j), adverb (r), adposition (p),
+; complementizer (c), determiner (d), number-name (m),
+; and conjunction (o). The letters in parentheses indicate
+; the abbreviation for each part of speech used in the disjunctive
+; types.  Each disjunctive type is also associated with
+; a documentation string explaining the disjuncts.
+
+; With all the disjuntive types, we need 510 types to encode this.
+; The parent types are in a separate file called head-types.tdl, with
+; just the leaves here.
+
+conj := +mo & +do & +co & +po & +ro & +jo & +vo & +no.
+num := +mo & +dm & +cm & +pm & +rm & +jm & +vm & +nm.
+det := +do & +dm & +cd & +pd & +rd & +jd & +vd & +nd.
+comp := +co & +cm & +cd & +pc & +rc & +jc & +vc & +nc.
+adp := +po & +pm & +pd & +pc & +rp & +jp & +vp & +np.
+adv := +ro & +rm & +rd & +rc & +rp & +jr & +vr & +nr.
+adj := +jo & +jm & +jd & +jc & +jp & +jr & +vj & +nj.
+verb := +vo & +vm & +vd & +vc & +vp & +vr & +vj & +nv.
+noun := +no & +nm & +nd & +nc & +np & +nr & +nj & +nv.
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; VAL
+
+
+valence-min := avm.
+
+valence := valence-min &
+  [ SUBJ list,
+    SPR list,
+    COMPS list,
+    SPEC list,
+    --KEYCOMP avm ].
+
+keys_min := avm.
+keys := keys_min &
+  [ KEY predsort,
+    ALTKEY predsort ].
+
+; One of a grammatically salient inventory of semantic sorts, such as
+; 'animate' or 'time'
+
+semsort := sort.
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; CONT values
+;
+;   HOOK                   ; Externally visible attributes of a sign
+;   RELS append-list         ; List of semantic relations
+;   HCONS append-list        ; Scope constraints: list of qeq's
+;   ICONS append-list        ; Individual constraints: list of icons
+
+mrs-min := avm.
+
+; ERB 2007-01-21 Removing feature MSG here (moving it to a feature--SF---
+; of events).
+
+; SSH 2012-02-16 ICONS (individual contraints)
+
+mrs := mrs-min &
+  [ HOOK hook,
+    RELS append-list,
+    HCONS append-list,
+    ICONS append-list ].
+
+; HOOK values include
+;    GTOP                  ; Global top handle
+;    LTOP                  ; Local top handle
+;    INDEX                 ; The salient nominal instance or event
+;    XARG                  ; The external (controlled) argument of a phrase
+;    ICONS-KEY             ; Indexes for icons
+;    CLAUSE-KEY            ; A feature to mediate between the INDEX of the
+;                            head and the CLAUSE value of the dependent.
+
+; SSH 2012-02-16 --ICONS
+hook := avm &
+  [ GTOP handle,
+    LTOP handle,
+    INDEX individual,
+    XARG individual,
+    ICONS-KEY icons,
+    CLAUSE-KEY event ].
+
+; MRSs are divided into psoas (with a distinguished event) and
+; nom-objs (with a distinguished index).  We use a polymorphic
+; attribute name INDEX for both of these, to simplify manipulation of
+; these objects; for example, modifying PPs assign as their ARG's
+; value the INDEX of the phrase they modify, whether it's an N-bar
+; (with a ref-ind value) or a VP (with an event value).  Similarly
+; useful for coordination.
+
+psoa := mrs &
+  [ HOOK.INDEX event ].
+
+nom-obj := mrs &
+  [ HOOK.INDEX index ].
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; LKEYS attributes, providing pointers to semantic relations and complement
+; predsorts in lexical types:
+;  KEYREL relation         ; Pointer to main relation in RELS
+;  ALTKEYREL relation      ; Pointer to an alternate relation in RELS
+;  --COMPKEY predsort      ; Pointer to the first complement's KEY predsort
+;  --OCOMPKEY predsort     ; Pointer to the oblique complement's KEY predsort
+
+lexkeys := avm &
+  [ KEYREL relation,
+    ALTKEYREL relation,
+    --COMPKEY predsort,
+    --OCOMPKEY predsort ].
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;  CTXT values
+
+ctxt-min := avm.
+
+ctxt := ctxt-min &
+  [ ACTIVATED bool,
+    PRESUP append-list ].
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Basic semantic types
+
+; The message represents the semantic type of a clause (cf. Ginzburg &
+; Sag 2000).  All clauses have messages.  Elements that take clauses
+; as semantic arguments should end up with the LBL of the clause as
+; the value of ARGn, L/R-HNDL, etc.  The MARG (message argument) of a
+; message is a handle that qeqs the LBL of the main verb in the clause.
+; This leaves room for quantifiers to scope at each clause without
+; allowing scope ambiguity between quanitifers and messages, as it is
+; not clear what that would mean.
+
+; ERB 2007-01-21 Moving to a message free universe.
+
+;basic_message := relation.
+;message := basic_message &
+;  [ PRED message_m_rel,
+;    MARG handle ].
+
+;no-msg := basic_message.
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Message preds
+
+; ERB 2007-01-21 Moving to a message free universe.
+
+;message_m_rel := predsort.
+;command_m_rel := message_m_rel.
+;prop-or-ques_m_rel := message_m_rel.          ;for COMPS of e.g. 'know'
+;proposition_m_rel := prop-or-ques_m_rel.
+;abstr-ques_m_rel := prop-or-ques_m_rel.
+;question_m_rel := abstr-ques_m_rel.
+
+
+
+; Subtype of int_rel for tag questions and structures in other languages
+; with equivalent pragmatics.
+;ne_m_rel := abstr-ques_m_rel.
+
+; Constrains handle of scopable argument HARG relative to one
+; outscoped LARG handle (the "H" is mnemonic for either "higher" or
+; "hole" argument, while the "L" is mnemonic for either "lower" or
+; "label" argument.
+
+qeq := avm &
+  [ HARG handle,
+    LARG handle ].
+
+
+; "INSTLOC is used by generator to index input.  Changed from
+; value instloc to value string in July 2004.  The grammar
+; should never need to make reference to it beyond this."
+
+semarg := avm &
+  [ INSTLOC string ].
+
+handle := semarg.
+individual := semarg &
+  [ SORT semsort ].
+
+; The INDEX value of a nom-obj is an index (expletive or
+; referential).
+; ERB 2004-05-10 Add a feature DEF which encodes definiteness
+; for (in)definite null instantiation, and possibly other uses.
+; The null instantiation use might get superceded by a Sem-I based
+; solution.
+
+; ERB 2007-02-05 Moving to an analysis of discourse status/cognitive
+; status of referents following Borthen & Haugereid 2005.  Replacing
+; DEF and DEF-OPT with COG-ST and OPT-CS.
+
+; ERB 2007-05-16 Can't put SPECI inside COG-ST, or the generator won't
+; pay attention to the value of COG-ST.  So, making it parallel.
+
+index := individual &
+	 [ COG-ST cog-st,
+	   SPECI bool ].
+
+; ERB 2007-02-05 Hierarchy from Borthen and Haugereid of possible
+; COG-ST values.  Departing from B&H analysis by putting SPECI on
+; this type (as well as by making COG-ST a feature of indicies rather
+; than parallel to the indices in the next level up).
+
+cog-st := avm.
+
+activ-or-less := cog-st.
+uniq-or-more := cog-st.
+uniq+fam+act := activ-or-less & uniq-or-more.
+fam-or-less := activ-or-less.
+fam-or-more := uniq-or-more.
+activ+fam := uniq+fam+act & fam-or-more.
+uniq+fam := uniq+fam+act & fam-or-less.
+uniq-or-less := fam-or-less.
+activ-or-more := fam-or-more.
+type-id := uniq-or-less.
+uniq-id := uniq-or-less & uniq+fam.
+familiar := uniq+fam & activ+fam.
+activated := activ+fam & activ-or-more.
+in-foc := activ-or-more.
+
+
+
+; This is the type of the index of the phrase modified by predicative
+; PPs, which can either modify a ref-ind nominal or an event VP.
+
+event-or-ref-index := individual.
+
+; Expletives get distinguished index type so they can be
+; selected semantically.  In English, this type has subtypes
+; for it and there.  Most languages have at most one expletive,
+; so those aren't included here.
+
+expl-ind := index.
+
+ref-ind := index & event-or-ref-index &
+	[ PNG png ].
+
+; Types encoding agreement information, analyzed as a part of the
+; index, following Pollard & Sag 1994.  Which subtypes and features
+; are appropriate seems highly language dependent.  The agreement
+; system of English doesn't justify a full cross-classification of
+; number and gender, so the features of png are PN and GENDER in the
+; English grammar.  (See Flickinger 2000.) Sag & Wasow 1999 declare
+; GENDER as a feature of the png type 3sg.
+
+png := avm.
+
+; Create subtypes of tense, aspect and mood as appropriate.
+
+tense := sort.
+aspect := sort.
+mood := sort.
+
+tam := avm &
+  [ TENSE tense,
+    ASPECT aspect,
+    MOOD mood ].
+
+; ERB 2006-10-05 First pass at de-messaging.  I'm going to leave
+; the messages in for now, but add a feature MESG to events.  Will
+; have to update once I see what Dan has actually done with the ERG.
+
+; ERB 2006-10-05 Update this little hierarchy enventually to
+; include commands, etc.
+
+; ERB 2007-01-21 Consider renaming the feature MSG to something more
+; reminiscent of illocutionary force?
+
+; ERB 2007-01-22 MSG renamed SF.
+
+iforce := avm.
+prop-or-ques := iforce.
+prop := prop-or-ques.
+ques := prop-or-ques.
+comm := iforce.
+
+event := event-or-ref-index &
+  [ E tam,
+    SF iforce ].
+
+; Coordinated phrases have coordinated indices as their INDEX
+; values.  These are meant to be interpreted as pointers to
+; the set of coordinated indices.
+
+coord-index := event-or-ref-index.
+coord-event := coord-index & event.
+coord-ref-ind := coord-index & ref-ind.
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Basic relation types
+
+; Relations are classified according to the types of arguments they take.  All
+; relations have a handle.  In addition, quantifier relations have a bound
+; variable and a restriction, nominal relations have an instance, and event
+; relations have an event.  Furthermore, nominal relations and event relations
+; can have additional roles, depending on their meaning.
+
+; WLINK links semantic relation to input string elements, more or less.
+; This becomes useful whenever a grammar is used in some application.
+
+relation := avm &
+  [ LBL handle,
+    WLINK list,
+    PRED predsort ].
+
+; Abstract relation subtypes.  We recommend not positing a type
+; for each lexical relation, but rather using the feature PRED
+; to distinguish different lexical relations of the same type.
+; Relation types are modified in one of two circumstances:
+;
+; (i) A feature needs to be introduced that is relevant for some
+; relations and not others, or
+;
+; (ii) Something in the grammar needs to make reference to a family
+; of relations that are not otherwise distinguished by a type.
+
+arg0-relation := relation &
+  [ ARG0 individual ].
+
+arg1-relation := arg0-relation &
+  [ ARG1 semarg ].
+
+arg12-relation := arg1-relation &
+  [ ARG2 semarg ].
+
+arg123-relation := arg12-relation &
+  [ ARG3 semarg ].
+
+arg1234-relation := arg123-relation &
+  [ ARG4 semarg ].
+
+event-relation := arg0-relation &
+  [ ARG0 event ].
+
+arg1-ev-relation := arg1-relation & event-relation.
+arg12-ev-relation := arg1-ev-relation & arg12-relation.
+arg123-ev-relation := arg12-ev-relation & arg123-relation.
+arg1234-ev-relation := arg123-ev-relation & arg1234-relation.
+
+; Noun relations
+
+noun-relation := arg0-relation &
+  [ ARG0 ref-ind ].
+
+; Relational nouns like 'picture' or 'claim' take an additional semantic
+; argument
+noun-arg1-relation := noun-relation & arg1-relation.
+
+named-relation := noun-relation &
+  [ PRED named_rel,
+    CARG string ].
+
+; coordinating and subordinating conjunctions
+
+subord-or-coord-relation := relation &
+  [ L-HNDL handle,
+    R-HNDL handle ].
+
+coordination-relation := subord-or-coord-relation &
+  [ C-ARG coord-index,
+    L-INDEX individual,
+    R-INDEX individual ].
+
+; NB: "if_then_rel" is now a PRED value of subord-relation.
+subord-relation := subord-or-coord-relation.
+
+; quantifier relation
+
+quant-relation := arg0-relation &
+  [ ARG0 ref-ind,
+    RSTR handle,
+    BODY handle ].
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; predsorts
+
+norm_rel := predsort.
+named_rel := norm_rel.
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; individual contraints
+; SSH 2012-02-16 ICONS was originally designed in order to represent
+; anaphoric items, such as reflecxives.  constraints on anaphora
+; SSH 2013-02-13 revised
+
+icons := avm.
+
+; SSH 2014-11-26: Following the specification in the ERG,
+; CLAUSE/TARGET is changed into IARG1/IARG2.  Since ICONS can be used
+; to contrain honorifics, reference binding, etc., more general names
+; should be used from now.
+
+; info-str := icons &
+;   [ CLAUSE individual,
+;     TARGET individual ].
+
+info-str := icons &
+  [ IARG1 individual,
+    IARG2 individual ].
+
+; constraints on information structure
+non-topic := info-str.
+contrast-or-focus := info-str.
+focus-or-topic := info-str.
+contrast-or-topic := info-str.
+non-focus := info-str.
+
+focus := non-topic & contrast-or-focus & focus-or-topic.
+contrast := focus-or-topic & contrast-or-focus & contrast-or-topic.
+topic := non-focus & focus-or-topic & contrast-or-topic.
+
+bg := non-topic & non-focus.
+
+semantic-focus := focus.
+contrast-focus := contrast & focus.
+contrast-topic := contrast & topic.
+aboutness-topic := topic.
+
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Head types
+
+; Values for head features such as CASE, VFORM, ...
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;  Sorts for atomic values
+
+; person, number and gender
+
+; clause mode
+
+; voice
+
+; mood
+
+; pronoun type
+
+; Three-valued sort evoking Polish logician Jan Lukasiewicz
+
+luk := sort.
+
+; These types allow the statement of constraints (e.g., in
+; subcategorization) of the form:  If you care, you must have
+; the value + (-), but you don't have to care.  Useful for keeping
+; down the number of constructions and subcategorization types.
+
+na-or-+ := luk.
+na-or-- := luk.
+bool := luk.
+
+na := na-or-+ & na-or--.
++ := bool & na-or-+.
+- := bool & na-or--.
+
+; Three-valued sort for distinguishing unmodified signs from both
+; left-modified and right-modified signs PERIPH indicates whether this
+; modifier is left- or right-peripheral in its phrase - e.g., "the IBM
+; temporary employees" but "*the IBM five employees"
+
+xmod := sort &
+  [ PERIPH luk ].
+notmod-or-rmod := xmod.
+notmod-or-lmod := xmod.
+notmod := notmod-or-rmod & notmod-or-lmod.
+
+hasmod := xmod.
+lmod := hasmod & notmod-or-lmod.
+rmod := hasmod & notmod-or-rmod.
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;  Basic types
+
+sort := *top*.
+predsort := sort.
+atom := predsort.
+no-pred := predsort.
+integer := atom.
+; NB: strings should be enclosed in double quotes, e.g., [PRED "named_rel"].
+string := atom.
+
+avm := *top*.
+list := avm.
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;  List types
+
+cons := list &
+  [ FIRST *top*,
+    REST list ].
+
+0-1-list := list.
+1-list := 0-1-list & cons &
+  [ REST null ].
+null := 0-1-list.
+1-plus-list := cons &
+  [ REST cons ].
+
+; supertype for diff-lists and append-lists
+list-wrapper := avm &
+  [ LIST list ].
+
+diff-list := list-wrapper &
+  [ LAST list ].
+
+0-1-dlist := diff-list &
+  [ LIST 0-1-list ].
+
+0-dlist := 0-1-dlist &
+  [ LIST #list,
+    LAST #list ].
+
+1-dlist := 0-1-dlist &
+  [ LIST 1-list &
+	 [ REST #rest ],
+    LAST #rest ].
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;  Computation types
+
+with-computation := *top* &
+  [ RESULT *top* ].
+
+; APPEND holds the lists to be appended
+; LIST holds the result of the append
+append-list := list-wrapper &
+  [ LIST #list,
+    APPEND list-of-list-wrappers-with-append & [ RESULT #list ] ].
+
+list-of-list-wrappers-with-append := list & with-computation &
+  [ RESULT list ].
+
+; If there is at least one list to be appended,
+; we need to create a copy (list-with-append),
+; which becomes the beginning of the new list (#start),
+; and continues with the result of appending the rest (#middle).
+cons-of-list-wrappers-with-append := list-of-list-wrappers-with-append & cons &
+  [ FIRST.LIST list-with-diff-list & [ RESULT [ LIST #start,
+                                                LAST #middle ] ],
+    REST list-of-list-wrappers-with-append & [ RESULT #middle ],
+    RESULT #start ].
+
+; If there are no lists to be appended,
+; the result is an empty list.
+null-of-list-wrappers-with-append := list-of-list-wrappers-with-append & null &
+  [ RESULT null ].
+
+; Copy a closed list to create an open list, which can be appended
+list-with-diff-list := list & with-computation &
+  [ RESULT diff-list ].
+
+; If there is at least one thing in the old list,
+; create a pointer to the same element (#first),
+; continue the rest of the new list with the rest of the old (#rest),
+; and propagate the end of the list (#end).
+cons-with-diff-list := list-with-diff-list & cons &
+  [ FIRST #first,
+    REST list-with-diff-list & [ RESULT [ LIST #rest,
+		                          LAST #end ]],
+    RESULT [ LIST [ FIRST #first,
+	            REST #rest ],
+             LAST #end ]].
+
+; If there is nothing in the old list,
+; the new list ends immediately.
+null-with-diff-list := list-with-diff-list & null &
+  [ RESULT [ LIST #end,
+             LAST #end ]].
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Some useful kinds of lists
+
+; A list of optional arguments.
+
+olist := list.
+
+ocons := olist & cons &
+  [ FIRST unexpressed & [ OPT + ],
+    REST  olist ].
+
+onull := olist & null.
+
+; The LinGO grammar also makes use of a prolist -- or list
+; of synsems of type pro-ss.
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Boolean logic
+
+bool-wrapper := avm &
+  [ BOOL bool ].
+
+;;;
+;;; tidying in progress... check back soon...
+;;;
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Lexical rules
+
+; Grammars should be monotonic in their construction of semantic
+; representations.  That is, as the tree is built, no relations should
+; ever be thrown away.  This has implications for the way lexical rules
+; are written.  If two forms are related to each other, and one has
+; more semantic relations than the other, it has to be the output.
+; We are interested in cases where this constraint is or appears to
+; be problematic.
+
+; SSH 2012-03-03 ICONS is newly added in lex-rule.
+lex-rule := phrase-or-lexrule & word-or-lexrule &
+  [ NEEDS-AFFIX bool,
+    SYNSEM.LOCAL.CONT [ RELS.APPEND < #r1, #r2 >,
+			HCONS.APPEND < #h1, #h2 >,
+			ICONS.APPEND < #i1, #i2 > ],
+    DTR #dtr & word-or-lexrule &
+		[ SYNSEM.LOCAL.CONT [ RELS #r1,
+				      HCONS #h1,
+				      ICONS #i1 ],
+		  ALTS #alts ],
+    C-CONT [ RELS #r2,
+	     HCONS #h2,
+	     ICONS #i2 ],
+    ALTS #alts,
+    ARGS < #dtr > ].
+
+; To model the morphotactics, we introduce a complex type on which we
+; set or check flags. The flags (luk features) change value based on
+; whether a set of lexical rules have occurred, need to occur, or are
+; forbidden from occurring. The actual features inside inflected will
+; be defined in the language-specific grammar files.
+
+inflected := avm.
+infl-satisfied := inflected.
+
+; ERB 2005-04-14 But it's a bad idea to copy the whole synsem
+; value, since that means identifying RELS and HCONS lists, breaking
+; the diff-list append.
+
+; ERB 2005-04-13 Add a few subtypes that copy up most other information,
+; so that folks don't have to keep doing this.
+
+same-local-lex-rule := same-cat-lex-rule &
+		       same-cont-lex-rule &
+		       same-ctxt-lex-rule &
+		       same-agr-lex-rule.
+
+same-non-local-lex-rule := lex-rule &
+  [ SYNSEM.NON-LOCAL #nl,
+    DTR.SYNSEM.NON-LOCAL #nl ].
+
+; ERB 2007-05-16 Not everything is inside LOCAL or NON-LOCAL.
+
+same-modified-lex-rule := lex-rule &
+  [ SYNSEM.MODIFIED #mod,
+    DTR.SYNSEM.MODIFIED #mod ].
+
+same-light-lex-rule := lex-rule &
+  [ SYNSEM.LIGHT #light,
+    DTR.SYNSEM.LIGHT #light ].
+
+same-ctxt-lex-rule := lex-rule &
+  [ SYNSEM.LOCAL.CTXT #ctxt,
+    DTR.SYNSEM.LOCAL.CTXT #ctxt ].
+
+; ERB 2005-04-14 Can't just identify CONT values,since
+; that makes it impossible to add any RELS/HCONS through
+; C-CONT. Instead this type should identify HOOK.
+
+; ERB 2005-05-16 Copy MSG too!
+; ERB 2007-01-21 Making MSG a feature (SF) of events.
+; ERB 2007-02-20 Copy daughter's HOOK to C-CONT rather than to mother's
+; HOOK, for uniformity.
+
+same-cont-lex-rule := lex-rule &
+  [ C-CONT [ HOOK #hook ],
+    DTR.SYNSEM.LOCAL.CONT [ HOOK #hook ]].
+
+same-agr-lex-rule := lex-rule &
+  [ SYNSEM.LOCAL.AGR #agr,
+    DTR.SYNSEM.LOCAL.AGR #agr ].
+
+same-cat-lex-rule := lex-rule &
+  [ SYNSEM.LOCAL.CAT #cat,
+    DTR.SYNSEM.LOCAL.CAT #cat ].
+
+same-head-lex-rule := lex-rule &
+  [ SYNSEM.LOCAL.CAT.HEAD #head,
+    DTR.SYNSEM.LOCAL.CAT.HEAD #head ].
+
+same-val-lex-rule := lex-rule &
+  [ SYNSEM.LOCAL.CAT.VAL #val,
+    DTR.SYNSEM.LOCAL.CAT.VAL #val ].
+
+; CMC 2017-03-19 adding finer granularity for VAL
+
+same-subj-lex-rule := lex-rule &
+  [ SYNSEM.LOCAL.CAT.VAL.SUBJ #subj,
+    DTR.SYNSEM.LOCAL.CAT.VAL.SUBJ #subj ].
+
+same-spr-lex-rule := lex-rule &
+  [ SYNSEM.LOCAL.CAT.VAL.SPR #spr,
+    DTR.SYNSEM.LOCAL.CAT.VAL.SPR #spr ].
+
+same-spec-lex-rule := lex-rule &
+  [ SYNSEM.LOCAL.CAT.VAL.SPEC #spec,
+    DTR.SYNSEM.LOCAL.CAT.VAL.SPEC #spec ].
+
+same-comps-lex-rule := lex-rule &
+  [ SYNSEM.LOCAL.CAT.VAL.COMPS #comps,
+    DTR.SYNSEM.LOCAL.CAT.VAL.COMPS #comps ].
+
+same-hc-light-lex-rule := lex-rule &
+  [ SYNSEM.LOCAL.CAT.HC-LIGHT #hcl,
+    DTR.SYNSEM.LOCAL.CAT.HC-LIGHT #hcl ].
+
+same-posthead-lex-rule := lex-rule &
+  [ SYNSEM.LOCAL.CAT.POSTHEAD #ph,
+    DTR.SYNSEM.LOCAL.CAT.POSTHEAD #ph ].
+
+same-mc-lex-rule := lex-rule &
+  [ SYNSEM.LOCAL.CAT.MC #mc,
+    DTR.SYNSEM.LOCAL.CAT.MC #mc ].
+
+; SSH 2012-03-03
+no-rels-hcons-lex-rule := lex-rule &
+  [ C-CONT [ RELS.LIST < >, HCONS.LIST < >  ] ].
+
+no-ccont-lex-rule := no-rels-hcons-lex-rule &
+  [ C-CONT.ICONS.LIST < > ].
+
+; ERB 2007-05-16 Realized I haven't been copying up MODIFIED
+; and LIGHT.  Fixing that.
+
+non-local-change-only-lex-rule := same-local-lex-rule &
+				  same-modified-lex-rule &
+				  same-light-lex-rule &
+				  no-ccont-lex-rule.
+
+local-change-only-lex-rule := same-non-local-lex-rule &
+			      same-modified-lex-rule &
+			      same-light-lex-rule &
+			      no-ccont-lex-rule.
+
+; ERB 2004-04-13 The only permissible changes to CONT are
+; inside HOOK.  If any RELS or HCONS need to be added, they
+; should be added through the lex-rule's C-CONT.  For this reason,
+; this type does not inherit from no-ccont-lex-rule, and any
+; subtypes/instances should properly constrain the values of
+; C-CONT.RELS and C-CONT.HCONS. No relations may be dropped.
+
+; ERB 2004-04-14  But identifying RELS and HCONS is no good,
+; because that breaks the diff-list append that should
+; let you add info through C-CONT.  So just go with the
+; text warning above.
+
+cont-change-only-lex-rule := same-non-local-lex-rule &
+			     same-modified-lex-rule &
+			     same-light-lex-rule &
+			     same-ctxt-lex-rule &
+			     same-cat-lex-rule &
+			     same-agr-lex-rule.
+
+ctxt-change-only-lex-rule := local-change-only-lex-rule &
+			     same-cont-lex-rule &
+			     same-cat-lex-rule &
+			     same-agr-lex-rule.
+
+agr-change-only-lex-rule := local-change-only-lex-rule &
+			    same-cont-lex-rule &
+			    same-cat-lex-rule &
+			    same-ctxt-lex-rule.
+
+cat-change-only-lex-rule := local-change-only-lex-rule &
+			    same-ctxt-lex-rule &
+			    same-cont-lex-rule &
+			    same-agr-lex-rule.
+
+head-change-only-lex-rule := cat-change-only-lex-rule &
+			     same-val-lex-rule &
+			     same-hc-light-lex-rule &
+			     same-posthead-lex-rule &
+			     same-mc-lex-rule.
+
+mc-change-only-lex-rule := cat-change-only-lex-rule &
+			   same-val-lex-rule &
+			   same-hc-light-lex-rule &
+			   same-posthead-lex-rule &
+			   same-head-lex-rule.
+
+; ERB 2005-04-13 When using val-change-only-lex rule, be sure
+; to constrain the values of all of the VAL features (SPR, SUBJ,
+; COMPS and SPEC) on the mother.
+
+val-change-only-lex-rule := cat-change-only-lex-rule &
+			    same-head-lex-rule &
+			    same-hc-light-lex-rule &
+			    same-posthead-lex-rule &
+			    same-mc-lex-rule.
+
+; CMC 2017-03-21 Additional convenience subtypes for
+; valence-changing operations, e.g., may need to change
+; local, non-local, and ccont.
+; CMC 2017-04-10 Revised to be less-constrained for scopal predicates
+; CMC 2017-05-08 Renamed to reduce confusion of rule intent. Note that these two
+; rules (cat-change-with-ccont-lex-rule and val-change-with-ccont-lex-rule)
+; also leave local and non-local unconstrained.
+
+same-gtop-lex-rule := lex-rule &
+ [ C-CONT.HOOK.GTOP #gtop,
+   DTR.SYNSEM.LOCAL.CONT.HOOK.GTOP #gtop ].
+
+same-ltop-lex-rule := lex-rule &
+ [ C-CONT.HOOK.LTOP #ltop,
+   DTR.SYNSEM.LOCAL.CONT.HOOK.LTOP #ltop ].
+
+same-index-lex-rule := lex-rule &
+ [ C-CONT.HOOK.INDEX #idx,
+   DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX #idx ].
+
+same-icons-key-lex-rule := lex-rule &
+ [ C-CONT.HOOK.ICONS-KEY #icons,
+   DTR.SYNSEM.LOCAL.CONT.HOOK.ICONS-KEY #icons ].
+
+same-clause-key-lex-rule := lex-rule &
+ [ C-CONT.HOOK.CLAUSE-KEY #clause,
+   DTR.SYNSEM.LOCAL.CONT.HOOK.CLAUSE-KEY #clause ].
+
+
+
+xarg-change-only-ccont-lex-rule :=  same-gtop-lex-rule &
+                                    same-ltop-lex-rule &
+                                    same-index-lex-rule &
+                                    same-icons-key-lex-rule &
+                                    same-clause-key-lex-rule.
+
+cat-change-with-ccont-lex-rule := same-modified-lex-rule &
+                                  same-light-lex-rule &
+                                  same-ctxt-lex-rule &
+                                  same-agr-lex-rule.
+
+val-change-with-ccont-lex-rule := cat-change-with-ccont-lex-rule &
+                                  same-head-lex-rule &
+                                  same-hc-light-lex-rule &
+                                  same-posthead-lex-rule &
+                                  same-mc-lex-rule.
+
+comps-change-only-lex-rule := same-subj-lex-rule &
+                              same-spr-lex-rule &
+                              same-spec-lex-rule.
+
+subj-change-only-lex-rule := same-comps-lex-rule &
+                             same-spr-lex-rule &
+                             same-spec-lex-rule.
+
+subj-and-comps-change-only-lex-rule := same-spr-lex-rule &
+                                       same-spec-lex-rule.
+
+; EKN 2017-12-13 Convenience types for possessive rules:
+
+local-change-with-ccont-lex-rule := same-non-local-lex-rule &
+                                    same-modified-lex-rule &
+                                    same-light-lex-rule.
+
+cat-mod-change-with-ccont-lex-rule := local-change-with-ccont-lex-rule &
+                                      same-ctxt-lex-rule &
+                                      same-cont-lex-rule &
+                                      same-agr-lex-rule.
+
+head-change-with-ccont-lex-rule := cat-mod-change-with-ccont-lex-rule &
+                                   same-val-lex-rule &
+                                   same-hc-light-lex-rule &
+                                   same-posthead-lex-rule &
+                                   same-mc-lex-rule.
+
+; ERB 2007-02-13 These two should only be inherited by ltol types,
+; since they are redundant with constraints on lexeme-to-word-rule.
+
+add-only-rule := same-local-lex-rule &
+                 same-modified-lex-rule &
+                 same-light-lex-rule &
+                 same-non-local-lex-rule.
+
+add-only-no-ccont-rule := add-only-rule &
+                          no-ccont-lex-rule.
+
+add-only-no-rels-hcons-rule := add-only-rule &
+                               no-rels-hcons-lex-rule.
+
+; Lexical rules vary on one dimensions: whether they involve spelling changes.
+; Accordingly, we define two subtypes of lex-rule.
+
+; Spelling changing rules.  The LKB identifies these rules based
+; on the NEEDS-AFFIX value.
+
+inflecting-lex-rule := lex-rule &
+  [ NEEDS-AFFIX + ].
+
+; Spelling-preserving rules copy up the STEM (orthography) of
+; the daughter.
+
+constant-lex-rule := lex-rule &
+  [ STEM #stem,
+    DTR [ STEM #stem ]].
+
+; Cross-classified types packaing spelling change status and
+; feature copying.
+
+infl-lex-rule := inflecting-lex-rule & nocoord.
+const-lex-rule := constant-lex-rule & nocoord.
+
+infl-non-local-change-only-lex-rule := non-local-change-only-lex-rule &
+                                       infl-lex-rule.
+
+infl-local-change-only-lex-rule := local-change-only-lex-rule &
+                                   infl-lex-rule.
+
+infl-cont-change-only-lex-rule := cont-change-only-lex-rule &
+                                  infl-lex-rule.
+
+infl-ctxt-change-only-lex-rule := ctxt-change-only-lex-rule &
+                                  infl-lex-rule.
+
+infl-agr-change-only-lex-rule := agr-change-only-lex-rule &
+                                 infl-lex-rule.
+
+infl-cat-change-only-lex-rule := cat-change-only-lex-rule &
+                                 infl-lex-rule.
+
+infl-head-change-only-lex-rule := head-change-only-lex-rule &
+                                  infl-lex-rule.
+
+infl-val-change-only-lex-rule := val-change-only-lex-rule &
+                                 infl-lex-rule.
+
+; ERB 2005-04-26 Take care with the following two rules.  While
+; they likely won't be circular for parsing (since the surface form
+; of the word will usually limit the number of times each can apply)
+; they can easily spin in generation.  To make the input and output
+; incompatible, I recommend constraining the type of the DTR to
+; something incompatible with the type of the rule.
+
+infl-add-only-lex-rule := add-only-rule & infl-lex-rule.
+
+infl-add-only-no-rels-hcons-lex-rule := add-only-rule & infl-lex-rule &
+  [ C-CONT [ RELS.LIST < >, HCONS.LIST < > ] ].
+
+infl-add-only-no-ccont-lex-rule := add-only-no-ccont-rule &
+                                   infl-lex-rule.
+
+const-non-local-change-only-lex-rule := non-local-change-only-lex-rule &
+                                        const-lex-rule.
+
+const-local-change-only-lex-rule := local-change-only-lex-rule &
+                                    const-lex-rule.
+
+const-cont-change-only-lex-rule := cont-change-only-lex-rule &
+                                   const-lex-rule.
+
+const-ctxt-change-only-lex-rule := ctxt-change-only-lex-rule &
+                                   const-lex-rule.
+
+const-agr-change-only-lex-rule := agr-change-only-lex-rule &
+                                  const-lex-rule.
+
+const-cat-change-only-lex-rule := cat-change-only-lex-rule &
+                                  const-lex-rule.
+
+const-head-change-only-lex-rule := head-change-only-lex-rule &
+                                   const-lex-rule.
+
+const-val-change-only-lex-rule := val-change-only-lex-rule &
+                                  const-lex-rule.
+
+; ERB 2005-04-14 Take care when using the following two types
+; not to create circular rules.  They may still be useful (the
+; latter is employed in the Slave grammar), but you'll need to
+; make sure that the DTR type is incompatible with the rule type.
+
+const-add-only-lex-rule := add-only-rule & const-lex-rule.
+
+const-add-only-no-rels-hcons-lex-rule := add-only-rule & const-lex-rule &
+  [ C-CONT [ RELS.LIST < >, HCONS.LIST < > ] ].
+
+const-add-only-no-ccont-lex-rule := add-only-no-ccont-rule & const-lex-rule.
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Phrase structure rules
+
+; Headed phrases must obey the Head Feature Principle and the Revised
+; Marking Principle.  They do not all obey the NLFP with respect to
+; QUE, but it appears that all CLAUSE phrases account for QUE on
+; mother and non-head-dtr.  Hence moved the QUE coreference to
+; NON-CLAUSE.  Headed phrases also identify the value of AGR on mother
+; and head daughter, unlike e.g. the coordination schemata which
+; identify HEAD but not AGR.
+;
+; sfd 08/02/2005: Added constraints on COORD and COORD-REL.  COORD
+; must be "-" for all phrases that aren't participating in
+; coordination.  Also identify the COORD-REL so it gets passed up.
+
+headed-phrase := phrase &
+  [ SYNSEM.LOCAL [ CAT.HEAD head & #head,
+                   AGR #agr,
+                   COORD -,
+                   COORD-REL #crel ],
+    C-CONT.HOOK.ICONS-KEY #icons,
+    HEAD-DTR.SYNSEM.LOCAL local &
+		 [ CAT.HEAD #head,
+		   CONT.HOOK.ICONS-KEY #icons,
+		   AGR #agr,
+		   COORD -,
+		   COORD-REL #crel ] ].
+
+non-headed-phrase := phrase.
+
+; Most but not all phrases have SYNSEM phr-synsem; head-complement
+; constructions have their SYNSEM type determined by the head-dtr.
+
+phrasal := phrase &
+  [ SYNSEM phr-synsem ].
+
+; ERB 2005-05-04 If messages are introduced by unary rules at the
+; top of each clause, most phrase types should say [MSG no-msg]
+; on the mother.  The exceptions to this are the clauses themselves
+; and coordination constructions.
+
+; ERB 2005-05-11 This is not the right way to do it.  There are
+; going to be cases (e.g., quantifiers) where we want the MSG
+; of the head daughter copied up to the mother.   Let's try
+; making (normal) lexical items MSG no-msg, and having the no-msg-phrase
+; copy the info up.  Make no-msg-phrase inherit from headed-phrase.
+; Non-headed phrases will have to say something about the MSG
+; of the mother.
+
+; ERB 2007-01-21 Getting rid of message relations.  SF will now
+; be a feature of the EVENT, so it will go up the semantic head path
+; anyway. (Need to be careful about not setting it too early.)
+
+;no-msg-phrase := headed-phrase &
+;  [ SYNSEM.LOCAL.CONT.MSG #msg,
+;    HEAD-DTR.SYNSEM.LOCAL.CONT.MSG #msg ].
+
+; Head/nexus phrases pass up the REL and QUE values of the head daughter
+; (which has amalgamated the REL and QUE values of its arguments as in
+; Sag 1997) to the mother.
+
+head-nexus-rel-phrase := headed-phrase &
+  [ SYNSEM.NON-LOCAL.REL #rel,
+    HEAD-DTR.SYNSEM.NON-LOCAL.REL #rel ].
+
+head-nexus-que-phrase := headed-phrase &
+  [ SYNSEM.NON-LOCAL.QUE #que,
+    HEAD-DTR.SYNSEM.NON-LOCAL.QUE #que ].
+
+; ERB 2005-05-04 If messages are introduced by unary rules at the
+; top of each clause, most phrase types should say [MSG no-msg]
+; on the mother.  The exceptions to this are the clauses themselves
+; and coordination constructions.
+
+; ERB 2007-01-21 Removed supertype no-msg-phrase.
+
+head-nexus-phrase := head-nexus-rel-phrase & head-nexus-que-phrase.
+
+
+; In a head/local dependent phrase, the SLASH feature of the mother is
+; token-identical to that of the head daughter, which has already amalgamated
+; the SLASH values of its arguments.  See discussion of head-nexus-phrase for
+; treatment of REL and QUE.
+
+head-valence-phrase := head-nexus-phrase &
+  [ SYNSEM.NON-LOCAL.SLASH #slash,
+    HEAD-DTR.SYNSEM.NON-LOCAL.SLASH #slash ].
+
+; All phrases are either unary or binary.
+
+; SSH 2012-02-16 ICONS in basic-unary-phrase and basic-binary-phrase.
+basic-unary-phrase := phrase &
+  [ STEM #stem,
+    SYNSEM [ L-PERIPH #lperiph,
+	     R-PERIPH #rperiph,
+	     LOCAL [ CAT.MKG #mkg,
+		     CONT [ RELS.APPEND < #r1, #r2 >,
+			    HCONS.APPEND < #h1, #h2 >,
+			    ICONS.APPEND < #i1, #i2 > ] ] ],
+    C-CONT [ RELS #r1,
+	     HCONS #h1,
+	     ICONS #i1 ],
+    ARGS < sign & [ STEM #stem,
+		    SYNSEM [ L-PERIPH #lperiph,
+			     R-PERIPH #rperiph,
+			     LOCAL local &
+				   [ CAT.MKG #mkg,
+				     CONT [ RELS #r2,
+					    HCONS #h2,
+					    ICONS #i2 ] ] ] ] > ].
+
+unary-phrase := basic-unary-phrase &
+  [ INFLECTED infl-satisfied,
+    ARGS < [ INFLECTED infl-satisfied ] > ].
+
+basic-binary-phrase := phrase &
+  [ SYNSEM.LOCAL.CONT [ RELS.APPEND < #r1, #r2, #r3 >,
+			HCONS.APPEND < #h1, #h2, #h3 >,
+			ICONS.APPEND < #i1, #i2, #i3 > ],
+    C-CONT [ RELS #r1,
+	     HCONS #h1,
+	     ICONS #i1 ],
+    ARGS < sign & [ SYNSEM.LOCAL local &
+				 [ CONT [ RELS #r2,
+					  HCONS #h2,
+					  ICONS #i2 ] ] ],
+	   sign & [ SYNSEM.LOCAL local &
+				 [ CONT [ RELS #r3,
+					  HCONS #h3,
+					  ICONS #i3 ] ] ] > ].
+
+binary-phrase := basic-binary-phrase &
+  [ INFLECTED infl-satisfied,
+    ARGS < [ INFLECTED infl-satisfied ],
+           [ INFLECTED infl-satisfied ] > ].
+
+basic-binary-headed-phrase := headed-phrase & basic-binary-phrase &
+  [ NON-HEAD-DTR sign & [ SYNSEM.LOCAL.COORD - ] ].
+
+binary-headed-phrase := basic-binary-headed-phrase & binary-phrase.
+
+; ERB (2007-02-13) Adding these for handling constructions where a marker
+; shows up simultaneously on both ends of the phrase, such as negation
+; in Hausa and question marking in ASL.  (For the latter case, what's
+; really going on is a non-manual sign extending the length of the clause,
+; but a convenient single-line representation uses left and right brackets
+; to show the duration of the non-manual.)
+
+basic-ternary-phrase := phrase &
+  [ SYNSEM.LOCAL.CONT [ RELS.APPEND < #r1, #r2, #r3, #r4 >,
+			HCONS.APPEND < #h1, #h2, #h3, #h4 >,
+			ICONS.APPEND < #i1, #i2, #i3, #i4 > ],
+    C-CONT [ RELS #r1,
+	     HCONS #h1,
+	     ICONS #i1 ],
+    ARGS < sign & [ SYNSEM.LOCAL local &
+				 [ CONT [ RELS #r2,
+					  HCONS #h2,
+					  ICONS #i2 ] ] ],
+	   sign & [ SYNSEM.LOCAL local &
+				 [ CONT [ RELS #r3,
+					  HCONS #h3,
+					  ICONS #i3 ] ] ],
+	   sign & [ SYNSEM.LOCAL local &
+				 [ CONT [ RELS #r4,
+					  HCONS #h4,
+					  ICONS #i4 ] ] ] > ].
+
+ternary-phrase := basic-ternary-phrase &
+  [ INFLECTED infl-satisfied,
+    ARGS < [ INFLECTED infl-satisfied,
+             SYNSEM.LOCAL.COORD - ],
+           [ INFLECTED infl-satisfied,
+             SYNSEM.LOCAL.COORD - ],
+           [ INFLECTED infl-satisfied,
+             SYNSEM.LOCAL.COORD - ] > ].
+
+
+ternary-headed-phrase := headed-phrase & ternary-phrase.
+
+; ERB (2007-02-12) Hypothesizing for now that these will never be fulfilling
+; valence requirements of the head, so just copy that up.
+
+; ERB (2007-02-26) Clearly this shouldn't be head-compositional, since
+; we're using it for negation in Hausa and ASL.
+
+ternary-head-middle-phrase := ternary-headed-phrase &
+  [ SYNSEM.LOCAL.CAT.VAL #val,
+    HEAD-DTR #head &
+        [ SYNSEM.LOCAL.CAT.VAL #val ],
+    ARGS.REST.FIRST #head ].
+
+
+; For more efficient parsing, designate one argument or the other
+; as the KEY-ARG: that which should be unified with first.
+
+binary-rule-left-to-right := basic-binary-phrase &
+  [ ARGS < [ KEY-ARG + ] , [ KEY-ARG bool ] > ].
+
+binary-rule-right-to-left := basic-binary-phrase &
+  [ ARGS < [ KEY-ARG bool ], [ KEY-ARG + ] > ].
+
+; ERB 2005-05-04 If messages are introduced by unary rules at the
+; top of each clause, most phrase types should say [MSG no-msg]
+; on the mother.  The exceptions to this are the clauses themselves
+; and coordination constructions.  Basic-head-only is for
+; the clauses.
+
+; ERB 2007-01-21 Removing no-msg-phrase.
+
+head-only := unary-phrase & headed-phrase &
+  [ HEAD-DTR #head,
+    ARGS < #head > ].
+
+;head-only := basic-head-only & no-msg-phrase.
+
+head-initial := binary-headed-phrase &
+  [ HEAD-DTR #head,
+    NON-HEAD-DTR #non-head,
+    ARGS < #head, #non-head > ].
+
+basic-head-final := basic-binary-headed-phrase &
+  [ HEAD-DTR #head,
+    NON-HEAD-DTR #non-head,
+    ARGS < #non-head, #head > ].
+
+head-final := basic-head-final & binary-headed-phrase.
+
+; C-CONT is the semantic contribution of the phrase itself.  The hook
+; of the phrase is identified with the hook of C-CONT (which is possibly
+; but not necessarily identified with the hook of one of the daughters.
+; The rels of the phrase result from appending the rels of C-CONT and the
+; rels of the daughters.
+
+; Head-compositional phrases identify the syntactic head daughter as the
+; semantic head.
+
+head-compositional := headed-phrase &
+  [ C-CONT.HOOK #hook,
+    HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK #hook ].
+
+
+; Clauses have message types as values, non-clauses have the value no-msg.
+; Constrain the HEAD value of clause to verb or whatever type is
+; appropriate.  Clauses have empty QUE values.
+; Later versions of the Matrix might have clause v. non-clause as
+; an independent dimension from headed v. non-headed phrase, as in
+; Ginzburg & Sag 2000.  The phrase types are meant to cross-classify
+; with the clause types to give e.g., decl-head-subj from decl-clause
+; and head-subj-phrase.
+
+; ERB 2004-08-26 Remove [MC na], which is probably specific
+; to some analysis for English.
+
+; ERB 2005-05-11 I'm not sure what use non-clause is in the current
+; system, and the constraint MSG no-msg is a little suspicious.
+; It seems to only be used for head-spec phrases right now, though,
+; so leave it for now.
+
+; ERB 2007-01-21 I'm not sure there's really any use for non-clause
+; in the message-free universe.
+
+;non-clause := head-nexus-phrase &
+;  [ SYNSEM.LOCAL [ CONT.MSG no-msg ] ].
+
+;clause := phrasal &
+;  [ SYNSEM [ LOCAL.CAT.VAL.COMPS olist,
+;	     NON-LOCAL.QUE 0-dlist ] ].
+
+; ERB 2007-01-21 COMPS olist is no longer a fair constraint on
+; clauses, under current analysis.
+
+clause := phrasal &
+  [ SYNSEM.NON-LOCAL.QUE.LIST <> ].
+
+
+; The following subtypes of clause will need more constraints,
+; as appropriate:
+
+; Relative clauses are propositions, but depending on the analysis
+; of the construction, the message may actually come from the daughter.
+
+; ERB 2007-01-21 Adding constraint that should specialize prop-or-ques
+; to prop as value of SF.  (See notes at interrogative-clause.)
+
+; ERB 2007-01-22 ... but I'm not sure we can assume that relative-clauses
+; are headed phrases.  So, I'm going to comment out this type for now,
+; pending the developmet of a relative clause library.
+
+;relative-clause := clause &
+;  [ HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX.SF prop ].
+
+; This type does not constrain the length of the C-CONT..RELS
+; in order to allow for clause types which insert two messages
+; (e.g., interrogatives, which need to add both a question_m_rel
+; and the embedded proposition_m_rel), or which some other
+; constructional content in addition to the message.
+
+; The MARG isn't related to anything in this type.  There are
+; two canonical possibilities: either the MARG qeqs the LTOP of
+; the head daughter, or it is equal to the LBL of another message
+; (again, the case of interrogatives, if there is one construction
+; which introduces both messages).
+
+; ERB 2005-05-04 Making all of these basic-head-only (non-branching
+; constructions).  Need to work on relative clauses at a later date.
+
+; ERB 2007-01-21 No more messages.  This type now enforces some
+; constraints on the non-local features, but that's just about it.
+; (And we haven't really worked on LDDs in the Matrix yet.)  I'm not
+; sure that there's really that much work for this type to do...
+; Since we're not adding message relations anymore, I'm going to assume
+; that the C-CONT.RELS and C-CONT.HCONS are empty.
+
+; ERB 2007-01-21 Er, not head-only any more, though.
+
+; SSH 2012-05-07 ICONS <! !>
+; SSH 2014-11-26 CLAUSE -> IARG1
+basic-non-rel-clause := clause & head-compositional &
+  [ SYNSEM.NON-LOCAL.REL.LIST <>,
+    HEAD-DTR.SYNSEM [ LOCAL.CONT.HOOK [ INDEX #index,
+					ICONS-KEY.IARG1 #index,
+					CLAUSE-KEY #index ],
+		      NON-LOCAL [ QUE.LIST <>,
+				  REL.LIST <> ] ],
+    C-CONT [ RELS.LIST < >,
+	     HCONS.LIST < > ] ].
+
+; For non-interrogative non-rel clauses, hook up
+; MARG to head daughter's LTOP.  Subtypes will need
+; to constrain length of HCONS and RELS.
+
+; ERB 2007-01-21 No more messages.
+
+;non-rel-clause := basic-non-rel-clause &
+;   [ SYNSEM.LOCAL.CONT.MSG.MARG #marg,
+;     HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.LTOP #ltop,
+;     C-CONT.HCONS.LIST.FIRST qeq & [ HARG #marg,
+;				     LARG #ltop ]].
+
+; ERB 2004-05-18 Make these inherit from non-rel-clause instead
+; of just clause, so that something does the work of putting
+; the message on the RELS list.
+
+; ERB 2005-05-04 Trying out an analysis of clausal semantics where the
+; message is always introduced by a non-branching construction.  This
+; goes against Ginzburg & Sag's (2000) strategy of cross-classifying
+; phrase types with clause types, but it seems more practical for the
+; Matrix, for two reasons: (i) In a free word order language, the
+; `root' node in their strategy could be a head-subj, could be a
+; head-comp, etc. and (ii) it's just easier to conceive of the
+; crosslinguistic variation this way.  Leave the length of C-CONT.RELS
+; and C-CONT.HCONS unspecified for the moment on interrogatives.  In
+; some cases, it might be helpful to have the interrogatives put in
+; both the prpstn and the ques messages.  Likewise, don't require
+; MSG no-msg on the head daugther of interrogatives.
+
+; ERB 2007-01-21 Moving to a message-free universe.  These guys
+; now constrain the value of SF on the INDEX (event variable).
+; How to keep them from spinning, though?  For now, trying the following
+; strategy:
+; 1. All rules that satisfy the subject requirement add clausal semantics
+; (either prop-or-ques or comm).
+; 2. Complementizers (including matrix question/statement particles) can
+; further constrain message value.
+; 3. Head-filler phrases (for questions) can further constraint message value.
+; 4. To force things to undergo question rules like the yesno rule from
+; the ERG, take advanteg of [MC na] --- see ERG
+; 5. Relative-clause rule constrains down from prop-or-ques to prop.
+; 6. Since clausal semantics is tied to satisfaction of subject requirement
+; and/or an appropriate MC value, assume that these will be enough and
+; no further modification of the root condition is required.
+
+interrogative-clause := basic-non-rel-clause &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.SF ques,
+    C-CONT [ RELS.LIST < >, HCONS.LIST < >, ICONS.LIST < > ] ].
+
+declarative-clause := basic-non-rel-clause &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.SF prop-or-ques ].
+
+imperative-clause := basic-non-rel-clause &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX.SF comm ].
+
+; ERB 2004-08-26 The analysis of relative clauses in the ERG
+; requires that the relative clause construction (a kind of
+; "head" filler phrase) not actually be a subtype of
+; headed-phrase.  This is because the HEAD.MOD value of
+; the mother and the would-be head daughter differ.
+; Thus basic-filler-phrase does not inherit form headed-phrase.
+; We provide a subtype, basic-head-filler-phrase, below, which does.
+
+basic-filler-phrase := binary-phrase & phrasal &
+  [ SYNSEM [ LOCAL.CAT.VAL [ COMPS < >,
+                             SPR < > ],
+	     NON-LOCAL.SLASH.LIST <> ],
+    ARGS < [ SYNSEM [ LOCAL #slash & local &
+			    [ CAT.VAL [ SUBJ olist,
+					COMPS olist,
+					SPR olist ],
+			      CTXT.ACTIVATED + ],
+		      NON-LOCAL.SLASH.LIST <> ] ],
+	   [ SYNSEM [ LOCAL.CAT [ VAL.COMPS olist ],
+		      NON-LOCAL [ SLASH.LIST < #slash >,
+				  QUE.LIST <>,
+				  REL.LIST <> ] ] ] > ].
+
+; ASF 2011-10-05 changed supertype 'headed-phrase' to more specific 'head-compostional'
+; in order to make sure matrix.tdl provides the right semantics.
+
+basic-head-filler-phrase := basic-filler-phrase & head-compositional.
+
+; SSH 2013-04-08 non-cannonical filler-phrase (Rigth Dislocation, etc.)
+nc-filler-phrase := binary-phrase & phrasal &
+  [ SYNSEM [ LOCAL.CAT.VAL [ COMPS < >,
+                             SPR < > ],
+	     NON-LOCAL.SLASH.LIST <> ],
+    ARGS <  [ SYNSEM [ LOCAL.CAT [ VAL.COMPS olist ],
+		       NON-LOCAL [ SLASH.LIST < #slash >,
+				   QUE.LIST <>,
+				   REL.LIST <> ] ] ],
+	    [ SYNSEM [ LOCAL #slash & local &
+			     [ CAT.VAL [ SUBJ olist,
+					 COMPS olist,
+					 SPR olist ],
+			       CTXT.ACTIVATED + ],
+		       NON-LOCAL.SLASH.LIST <> ] ] > ].
+
+nc-head-filler-phrase := nc-filler-phrase & head-compositional.
+
+
+; These phrase types should all inherit from head-final or head-initial,
+; as appropriate, replacing binary-headed-phrase.
+
+; Don't assume that all comps are realized before the subject
+; in all languages.  Remove COMPS olist from this one.  In languages
+; which do realize all COMPS before the SUBJ, the head-subj-phrase
+; should allow [COMPS olist] on the head daughter but constrain
+; the mother to be [COMPS < >].
+
+; ERB 2004-05-24 In anticipation of this type being cross-classified
+; with decl-clause in at least some languages, it does not inherit
+; from head-compositional, nor constrain the length of its C-CONT.RELS
+; and C-CONT.HCONS lists.  Subtypes of this type in specific grammars
+; should inherit from either a clause-type or from head-compositional,
+; and ensure that the length of these lists is specified appropriately.
+
+; ERB 2004-12-14 For purposes of testing word order modules, assume
+; for now that we're going to go with a non-branching rule analysis
+; of message introduction.  Make basic-head-subj phrase inherit from
+; head-compositional and constraint C-CONT.RELS and C-CONT.HCONS like
+; everyone else.
+
+; ERB 2004-08-26 Remove [MC na] on head daughter; probably specific
+; to some analysis for English.
+
+; ERB 2005-08-12 Need [ LIGHT - ] on mother, so add SYNSEM phr-synsem.
+
+; ERB 2007-01-21 Moving to message-free universe.  Working with the
+; hypothesis that head-subj phrases give clausal semantics --- either
+; declarative (prop-or-ques) or imperative (comm).  Can further constrain
+; C-CONT to be  RELS <! !>, now that we're not putting in messages.  (Hey:
+; that was already the case. Or not, now I don't see it?)
+
+; JDC 2012-06-02 adding [HC-LIGHT -] to basic-head-* phrases
+; (with the exception of except head-comps)
+
+basic-head-subj-phrase := head-valence-phrase & head-compositional &
+			  basic-binary-headed-phrase &
+  [ SYNSEM phr-synsem &
+           [ LOCAL.CAT [ HC-LIGHT -,
+                         VAL [ SUBJ < >,
+                               COMPS #comps,
+                               SPR #spr ] ] ],
+    HEAD-DTR.SYNSEM.LOCAL.CAT.VAL [ SUBJ < #synsem >,
+                                    COMPS #comps,
+                                    SPR #spr ],
+    NON-HEAD-DTR.SYNSEM #synsem & canonical-synsem &
+           [ LOCAL [ CAT [ VAL [ SUBJ olist,
+                                 COMPS olist,
+                                 SPR olist ] ] ],
+             NON-LOCAL [ SLASH.LIST <>,
+                         REL.LIST <>,
+                         QUE.LIST <> ] ],
+    C-CONT [ RELS.LIST < >, HCONS.LIST < >, ICONS.LIST < > ] ].
+
+decl-head-subj-phrase := basic-head-subj-phrase & declarative-clause.
+imp-head-subj-phrase := basic-head-subj-phrase & imperative-clause.
+
+; SSH 2013-04-08 non-canonical and non-matrix clausal head-subj-phrase
+; This type cannot be a root node by itself ([MC -]).
+; This typed phrase is supposed to be combined with a filler-phrase.
+basic-head-subj-nmc-phrase := head-valence-phrase & basic-binary-headed-phrase &
+                              declarative-clause &
+  [ SYNSEM phr-synsem &
+           [ LOCAL.CAT [ MC -,
+                         HC-LIGHT -,
+                         VAL [ SUBJ < >,
+                               COMPS < >,
+                       SPR #spr ] ] ],
+    HEAD-DTR.SYNSEM
+       [ LOCAL.CAT.VAL [ SUBJ < #synsem >,
+                         COMPS < [ LOCAL #slash ] >,
+                         SPR #spr ],
+         NON-LOCAL.SLASH.LIST < #slash > ],
+    NON-HEAD-DTR.SYNSEM #synsem & canonical-synsem &
+       [ LOCAL [ CAT [ VAL [ SUBJ olist,
+                             COMPS olist,
+                             SPR olist ] ] ],
+         NON-LOCAL [ SLASH.LIST <>,
+                     REL.LIST <>,
+                     QUE.LIST <> ] ],
+    C-CONT [ RELS.LIST < >, HCONS.LIST < >, ICONS.LIST < > ] ].
+
+
+; ERB 2004-08-26 Remove [MC na] on both daughters; probably specific
+; to some analysis for English.
+
+
+; ERB 2007-01-21 Removing non-clause, which doesn't seem to be doing
+; any work any more.
+
+basic-head-spec-phrase-super := head-valence-phrase & phrasal &
+              binary-headed-phrase &
+  [ INFLECTED infl-satisfied,
+    SYNSEM [ LOCAL.CAT [ VAL [ SUBJ #subj,
+                               COMPS #spcomps,
+                               SPR #spr,
+                               SPEC #spec ],
+                         POSTHEAD #ph,
+                         HC-LIGHT - ],
+              MODIFIED #modif ],
+    HEAD-DTR [ INFLECTED infl-satisfied,
+               SYNSEM [ LOCAL [ CAT [ HEAD #head,
+                                      VAL [ SUBJ #subj,
+                                            COMPS olist & #comps,
+                                            SPR < #synsem &
+                                                  canonical-synsem . #spr >,
+                                            SPEC #spec ],
+                                      POSTHEAD #ph ],
+                                CONT.HOOK #hdhook ],
+                        MODIFIED #hmodif ] ],
+    NON-HEAD-DTR.SYNSEM #synsem &
+     [ LOCAL [ CAT [ VAL [ SPEC < [ LOCAL [ CAT [ HEAD #head,
+                                                  VAL.COMPS #comps ],
+                                            CONT.HOOK #hdhook ],
+                                    MODIFIED #hmodif ] >,
+                           COMPS #spcomps ] ] ],
+       MODIFIED #modif ],
+    C-CONT [ RELS.LIST < >, HCONS.LIST < >, ICONS.LIST < > ] ].
+
+basic-head-spec-phrase := basic-head-spec-phrase-super &
+  [ NON-HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK #hook,
+    C-CONT.HOOK #hook ].
+
+; Value of LIGHT comes from head-daughter's specification in HC-LIGHT.
+
+; ERB (2005-08-10) Change value of SYNSEM from canonical-synsem to
+; phr-synsem-min, so that LKEYS is not an appropriate feature.
+
+; ERB (2005-08-12) We need to copy of HC-LIGHT as well, for cases
+; where there are multiple complements.
+; ASF (2008-11-03) for the current v2 analysis, we need head-comp-phrase
+; that does not pass up the MC feature..token id between mother and head
+; daughter removed
+
+basic-head-comp-phrase := head-valence-phrase & head-compositional &
+              binary-headed-phrase &
+  [ SYNSEM phr-synsem-min &
+           [ LOCAL.CAT [ VAL [ SUBJ #subj,
+                               SPEC #spec,
+                               SPR #spr ],
+                         POSTHEAD #ph,
+                         HC-LIGHT #light ],
+             LIGHT #light ],
+    HEAD-DTR.SYNSEM [ LOCAL.CAT [ VAL [ SUBJ #subj,
+                                        SPEC #spec,
+                                        SPR #spr ],
+                                  HC-LIGHT #light,
+                                  POSTHEAD #ph ]],
+    NON-HEAD-DTR.SYNSEM canonical-synsem,
+    C-CONT [ RELS.LIST < >, HCONS.LIST < >, ICONS.LIST < > ] ].
+
+
+; ERB 2004-12-14 This is what used to be called basic-head-comp-phrase.
+
+basic-head-1st-comp-phrase := basic-head-comp-phrase &
+  [ SYNSEM.LOCAL.CAT.VAL.COMPS #comps,
+    HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.COMPS < #synsem . #comps >,
+    NON-HEAD-DTR.SYNSEM #synsem ].
+
+; ERB 2004-12-14 First pass at a rule that realizes complements
+; out of order.
+
+basic-head-2nd-comp-phrase := basic-head-comp-phrase &
+  [ SYNSEM.LOCAL.CAT.VAL.COMPS < #firstcomp . #othercomps >,
+    HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.COMPS [ FIRST #firstcomp,
+                                          REST < #synsem . #othercomps > ],
+    NON-HEAD-DTR.SYNSEM #synsem ].
+
+
+; SSH 2013-04-08 non-canonical and non-matrix clausal head-comp-phrase
+; This type cannot be a root node by itself ([MC -]).
+; This typed phrase is supposed to be combined with a filler-phrase.
+basic-head-comp-nmc-phrase := head-valence-phrase & head-compositional &
+                              binary-headed-phrase &
+  [ SYNSEM phr-synsem &
+       [ LOCAL.CAT [ MC -,
+                     VAL [ SUBJ < >,
+                           SPR #spr ],
+                     POSTHEAD #ph,
+                     HC-LIGHT #light ],
+         LIGHT #light ],
+    HEAD-DTR.SYNSEM
+       [ LOCAL.CAT [ VAL [ SUBJ < [ LOCAL #slash ] >,
+                           SPR #spr ],
+                     HC-LIGHT #light,
+                     POSTHEAD #ph ],
+         NON-LOCAL.SLASH.LIST < #slash > ],
+    NON-HEAD-DTR.SYNSEM canonical-synsem,
+    C-CONT [ RELS.LIST < >, HCONS.LIST < >, ICONS.LIST < > ] ].
+
+
+; Skip an optional complement as long as there is still another obligatory
+; complement on the list.  Two subtypes allow for one or two optional
+; complements before an obligatory one.
+
+; ERB 2004-05-10 Moving towards discharing all optional complements,
+; so we no longer require that there are other expressed arguments
+; before suppressing something with unexpressed.
+; Still requiring [ HEAD-DTR..INDEX event ] as we might not
+; want to go around discharging all optional complements of nouns.
+; We'll probably want to make this a language-specific choice, eventually.
+; Need to decide what to do about LIGHT here.
+; The feature DEF-OPT allows the head to specify whether the optional
+; complement is interpreted as definite (+), indefinite (-), or
+; either (underspecified).  basic-head-opt-comp-phrase copies this
+; information into the index of the unexpressed argument.
+
+; SSH 2014-11-26: Dan said the ICONS list should be terminated. That
+; is, using [ ICONS.LIST.FIRST ... ] is dangerous. Plus, CLAUSE/TARGET
+; are replaced by IARG1/IARG2.
+
+basic-head-opt-comp-phrase := head-valence-phrase & head-only &
+                              head-compositional &
+  [ INFLECTED #infl,
+    SYNSEM canonical-synsem &
+	      [ LOCAL.CAT [ VAL [ SUBJ #subj,
+				  COMPS #comps,
+				  SPR #spr,
+				  SPEC #spec ],
+			    MC #mc,
+			    POSTHEAD #ph ],
+		MODIFIED #mod ],
+    HEAD-DTR [ INFLECTED #infl & infl-satisfied,
+	       SYNSEM [ LOCAL [ CAT [ VAL [ SUBJ #subj,
+					    COMPS < unexpressed &
+						    [ OPT +,
+						      OPT-CS #def,
+						      LOCAL.CONT.HOOK [ INDEX #index & [ COG-ST #def ],
+									ICONS-KEY #ikey,
+									CLAUSE-KEY #ckey ] ] . #comps >,
+					    SPR #spr,
+					    SPEC #spec ],
+				      MC #mc,
+				      POSTHEAD #ph ],
+				CONT.HOOK.INDEX event ],
+			MODIFIED #mod ] ],
+    C-CONT [ RELS.LIST < >,
+	     HCONS.LIST < >,
+	     ICONS.LIST < #ikey & non-focus & [ IARG1 #ckey,
+						IARG2 #index ] > ] ].
+
+
+; ERB 2004-05-10 For languages that allow "pro-drop" of subjects.
+; (Languages that also allow "pro-drop" of other arguments will
+; use this rule in addition to the head-opt-comp-phrase.)  Hypothesizing
+; that null instantiation of subjects is always definite null instantiation.
+; This rule is constrained to apply after all complements are discharged.
+
+; ERB 2004-06-08 In anticipation of this type being cross-classified
+; with decl-clause in at least some languages, it does not inherit
+; from head-compositional, nor constrain the length of its C-CONT.RELS
+; and C-CONT.HCONS lists.  Subtypes of this type in specific grammars
+; should inherit from either a clause-type or from head-compositional,
+; and ensure that the length of these lists is specified appropriately.
+
+; ERB 2007-01-21 Removing messages in favor of the feature SF.  On
+; this first pass, trying to insert SF information whenever subject
+; requirements are discharged.  Hmmm, again this was already RELS <! !>
+; and HCONS <! !> in C-CONT.
+
+; ERB 2007-05-16 Moving MC identification from basic-head-opt-subj-phrase
+; down to decl-head-opt-subj-phrase, since we might *not* want it for
+; imperatives.
+
+basic-head-opt-subj-phrase := head-valence-phrase & head-only &
+  [ INFLECTED #infl,
+    SYNSEM canonical-synsem &
+	      [ LOCAL.CAT [ VAL [ SUBJ < >,
+				  COMPS #comps,
+				  SPR #spr,
+				  SPEC #spec ],
+			    POSTHEAD #ph ],
+		MODIFIED #mod ],
+    HEAD-DTR [ INFLECTED #infl & infl-satisfied,
+	       SYNSEM [ LOCAL [ CAT [ HEAD.MOD olist,
+	       	      	      	      VAL [ SUBJ < unexpressed-reg &
+						   [ OPT +,
+						     LOCAL.CONT.HOOK [ INDEX #index & [ COG-ST in-foc ],
+								       ICONS-KEY #ikey,
+								       CLAUSE-KEY #ckey ] ] >,
+					    COMPS #comps,
+					    SPR #spr,
+					    SPEC #spec ],
+				      POSTHEAD #ph ],
+				CONT.HOOK.INDEX event ],
+			MODIFIED #mod ] ],
+    C-CONT [ RELS.LIST < >,
+	     HCONS.LIST < >,
+	     ICONS.LIST < #ikey & non-focus & [ IARG1 #ckey,
+						IARG2 #index ] > ] ].
+
+; ERB 2007-01-21 Subtypes for declaratives and imperatives
+
+decl-head-opt-subj-phrase := basic-head-opt-subj-phrase & declarative-clause &
+  [ SYNSEM.LOCAL.CAT.MC #mc,
+    HEAD-DTR.SYNSEM.LOCAL.CAT.MC #mc ].
+
+imp-head-opt-subj-phrase := basic-head-opt-subj-phrase & imperative-clause.
+
+
+; ASF 2008-11-18 Introducing a "basic-marker-comp-phrase", which basically
+; behaves just like a head-comp-phrase, except that the phrase's head is not
+; token-identical to that of the HEAD-DTR. We found this solution necessary to
+; implement non-harmonic word order of auxiliaries that take a verb (not vp) as
+; complement. The general idea of behaviour as head-comp, but without sharing
+; all head-features could be useful for other phenomena, hence our decision to
+; put it in the matrix.
+
+; ASF 2008-11-18 The name MARKER-DTR is based on theoretical HPSG's HEAD-MARKER
+; structure, but note that the marker-comp construction does not correspond to
+; PS-84's head-marker structure (since the complement is not a head)
+
+
+marker-phrase := binary-phrase &
+  [ SYNSEM.LOCAL [ AGR #agr,
+                   COORD -,
+                   COORD-REL #crel,
+                   CONT.HOOK #hook ],
+    C-CONT.HOOK #hook,
+    MARKER-DTR.SYNSEM.LOCAL local &
+               [ AGR #agr,
+                 COORD -,
+                 COORD-REL #crel,
+                 CONT.HOOK #hook ] ].
+
+
+basic-binary-marker-phrase := marker-phrase &
+ [ NON-MARKER-DTR sign & [ SYNSEM.LOCAL.COORD - ] ].
+
+basic-marker-comp-phrase := basic-binary-marker-phrase &
+  [ SYNSEM phr-synsem-min &
+	   [ LOCAL.CAT [ MC #mc,
+			 VAL [ SUBJ #subj,
+			       SPR #spr,
+                               COMPS #comps ],
+			 POSTHEAD #ph,
+			 HC-LIGHT #light ],
+             NON-LOCAL [ SLASH #slash,
+                         REL #rel,
+                         QUE #que ],
+             LIGHT #light ],
+    MARKER-DTR.SYNSEM [ LOCAL.CAT [ MC #mc,
+                                  VAL [ SUBJ #subj,
+                                        SPR #spr,
+                                        COMPS < #synsem . #comps > ],
+				  HC-LIGHT #light,
+                                  POSTHEAD #ph ],
+                      NON-LOCAL [ SLASH #slash,
+                                  REL #rel,
+                                  QUE #que ] ],
+    NON-MARKER-DTR.SYNSEM canonical-synsem & #synsem,
+    C-CONT [ RELS.LIST < >,
+	     HCONS.LIST < >,
+	     ICONS.LIST < > ] ].
+
+
+
+marker-initial-phrase := basic-binary-marker-phrase &
+ [ MARKER-DTR #marker,
+   NON-MARKER-DTR #non-marker,
+   ARGS < #marker, #non-marker > ].
+
+
+marker-final-phrase := basic-binary-marker-phrase &
+ [ MARKER-DTR #marker,
+   NON-MARKER-DTR #non-marker,
+   ARGS < #non-marker, #marker > ].
+
+
+
+; ERB 2004-12-14 Type for optional specifier (determiner) phrases.
+; Build NPs out of N's.  The specification [OPT +] on the head
+; daughter's SPR value is meant to allow this rule to apply to
+; some nouns and not others.  Nouns which require an overt specifier
+; should lexically say [ OPT - ].  Nouns which optionally occur
+; with a specifier can leave the OPT value of that argument unmarked.
+; Nouns which only appear without a specifier need a SPR value which
+; is incompatible with any of the available overt determiners.  This
+; could conceivably be regulated on the basis of semantics.
+
+; SSH 2012-03-03 ICONS
+; SSH 2013-02-19 deleting ICONS ?
+
+
+; EKN 2018-01-30
+basic-bare-np-phrase := head-only & head-valence-phrase &
+  [ SYNSEM.LOCAL.CAT.VAL [ SPR < >,
+                           SUBJ < >,
+                           COMPS < > ],
+    HEAD-DTR.SYNSEM.LOCAL [ CAT [ HEAD noun,
+                                  VAL [ SPR < unexpressed &
+                                              [ LOCAL.CAT.HEAD +nd,
+                                                OPT + ] >,
+                                        SUBJ < >,
+                                        COMPS < > ] ],
+                            CONT.HOOK [ INDEX #index,
+                                        LTOP #larg ] ],
+    C-CONT [ RELS.LIST < quant-relation &
+			 [ ARG0 #index,
+			   RSTR #harg ] >,
+             HCONS.LIST < qeq &
+			  [ HARG #harg,
+			    LARG #larg ] >,
+             ICONS.LIST < >,
+             HOOK [ INDEX #index ] ] ].
+
+; Unary rules for extraction
+
+basic-extracted-arg-phrase := head-valence-phrase & head-only &
+  [ SYNSEM.LIGHT - ].
+
+basic-extracted-comp-phrase := basic-extracted-arg-phrase &
+                               head-compositional &
+  [ SYNSEM canonical-synsem &
+       [ LOCAL.CAT [ VAL [ SUBJ #subj,
+                           SPR #spr,
+                           COMPS #comps ],
+                     MC #mc ] ],
+    HEAD-DTR [ SYNSEM
+               [ LOCAL.CAT [ VAL [ SUBJ #subj,
+                                   SPR #spr,
+                                   COMPS < gap & [ NON-LOCAL.SLASH #slash ]
+                                          . #comps > ],
+                             MC #mc ],
+                 NON-LOCAL.SLASH #slash ] ],
+    C-CONT [ RELS.LIST < >,
+             HCONS.LIST < >,
+             ICONS.LIST < > ] ].
+
+; ERB 2004-08-26 Remove [MC -] on mother; probably specific
+; to analysis of subject extraction for English.
+; ASF 2011-10-05 Added supertype 'head-compositional' to basic-extracted-subj-phrase
+; in order to make sure matrix.tdl provides the right semantics for extracted subjects.
+
+basic-extracted-subj-phrase := basic-extracted-arg-phrase & head-compositional &
+  [ SYNSEM.LOCAL.CAT.VAL [ SUBJ < >,
+                           SPR < >,
+                           COMPS < > ],
+    HEAD-DTR.SYNSEM [ LOCAL.CAT [ VAL [ SUBJ < gap &
+                                             [ LOCAL #local & local &
+                                               [ CONT.HOOK.INDEX ref-ind ] ] >,
+                                        COMPS olist ],
+                                  MC na ],
+                      NON-LOCAL.SLASH.LIST < #local > ],
+    C-CONT [ RELS.LIST < >,
+             HCONS.LIST < >,
+             ICONS.LIST < > ] ].
+
+; ERB 2004-05-05 Allow modifiers to attach to things with
+; non-empty comps lists.  The head-mod-phrase will pass up
+; the COMPS requirement, whatever it was.
+
+head-mod-phrase := head-nexus-phrase &
+  [ SYNSEM [ LOCAL.CAT.VAL [ SUBJ #subj,
+                             SPR #spr,
+                             COMPS #comps ],
+             MODIFIED hasmod ],
+    HEAD-DTR.SYNSEM [ LOCAL.CAT.VAL [ SUBJ #subj,
+                                      SPR #spr,
+                                      COMPS #comps ],
+                      NON-LOCAL [ REL.LIST <> ] ] ].
+
+basic-extracted-adj-phrase := head-mod-phrase & head-only & phrasal.
+
+extracted-adj-phrase := basic-extracted-adj-phrase &
+  [ SYNSEM [ LOCAL.CAT [ POSTHEAD #ph,
+                         MC #mc ],
+	     NON-LOCAL.SLASH.LIST < [ CAT [ HEAD [ MOD < [ LOCAL intersective-mod &
+								   [ CAT [ HEAD #head,
+									   VAL #val,
+									   POSTHEAD #ph,
+									   MC #mc ],
+								     CONT.HOOK #hook,
+								     CTXT #ctxt ] ] > ],
+					      VAL [ SUBJ olist,
+						    COMPS olist,
+						    SPR olist ] ] ] > ],
+    HEAD-DTR.SYNSEM canonical-synsem &
+	   [ LOCAL local &
+		   [ CAT [ HEAD #head,
+                           VAL #val & [ SUBJ < synsem-min &
+                                               [ NON-LOCAL.SLASH.LIST <> ] > ],
+			   POSTHEAD #ph,
+                           MC #mc ],
+                     CONT.HOOK #hook,
+                     CTXT #ctxt ],
+             NON-LOCAL.SLASH.LIST <>,
+	     MODIFIED notmod ],
+    C-CONT [ HOOK #hook,
+	     HCONS.LIST < >,
+	     ICONS.LIST < > ] ].
+
+; ERB 2004-05-10 Bug fix: non-head daughter's MOD..LIGHT value should
+; be matched to head-daughters LIGHT value.
+; ASF (2008-11-03) for the v2 analysis, the MC feature cannot be shared between
+; mother and non-head-daughter, token-identity removed
+; TJT 2015-01-31 Adding [MOD.OPT -] to NON-HEAD-DTR to keep predicative
+; adjectives out of optional subject constructions
+
+basic-head-mod-phrase-simple := head-mod-phrase & binary-headed-phrase &
+  [ SYNSEM [ LOCAL.CAT.MKG #mkg,
+             NON-LOCAL [ SLASH.APPEND < #s1, #s2 >,
+                         REL.LIST <> ] ],
+    HEAD-DTR.SYNSEM
+           [ LOCAL [ CAT [ HEAD #head,
+                           VAL #val,
+                           POSTHEAD #ph,
+                           MC #hmc,
+                           HC-LIGHT - ],
+                     CONT.HOOK #hdhook & [ ICONS-KEY.IARG1 #clause,
+                                           CLAUSE-KEY #clause ],
+                     AGR #agr ],
+             NON-LOCAL #nonloc &
+                   [ SLASH #s2 ],
+             LIGHT #light,
+             MODIFIED #modif ],
+    NON-HEAD-DTR.SYNSEM
+           [ LOCAL [ CAT [ HEAD [ MOD < [ LOCAL local &
+                                              [ CAT [ HEAD #head,
+                                                      VAL #val,
+                                                      POSTHEAD #ph,
+                                                      MC #hmc ],
+                                                AGR #agr,
+                                                CONT.HOOK #hdhook ],
+                                          NON-LOCAL #nonloc,
+                                          LIGHT #light,
+                                          MODIFIED #modif,
+                                          OPT - ] > ],
+                           VAL [ COMPS olist,
+                                 SPR olist ],
+                           MKG #mkg ],
+                     CONT.HOOK [ ICONS-KEY.IARG1 #clause,
+                     CLAUSE-KEY #clause ] ],
+             NON-LOCAL [ SLASH #s1,
+                         QUE.LIST <> ] ],
+    C-CONT [ RELS.LIST < >, ICONS.LIST < > ] ].
+
+;;;2011-11-07 removing head-mod-phrase-simple
+;;;As pointed out by Bart Cramer, this does not add anything to
+;;;basic-head-mod-phrase-simple, where the HOOK is already shared between
+;;;HEAD-DTR and NON-HEAD-DTR
+; head-mod-phrase-simple := basic-head-mod-phrase-simple &
+;  [ HEAD-DTR.SYNSEM.LOCAL.CONT.HOOK.LTOP #htop,
+;    NON-HEAD-DTR.SYNSEM.LOCAL.CAT.HEAD.MOD < [ LOCAL.CONT.HOOK.LTOP #htop ] >].
+
+adj-head-phrase := basic-head-mod-phrase-simple & head-final &
+  [ SYNSEM [ LOCAL.CAT.POSTHEAD #ph,
+	     MODIFIED lmod & [ PERIPH #periph ],
+             LIGHT #light ],
+    HEAD-DTR.SYNSEM [ LOCAL.CAT.POSTHEAD #ph,
+                      LIGHT #light ],
+    NON-HEAD-DTR.SYNSEM [ LOCAL.CAT [ VAL [ SPR olist,
+    			  	      	    COMPS < > ] ],
+			  NON-LOCAL [ SLASH.LIST <>,
+				      REL.LIST <> ],
+                          MODIFIED.PERIPH #periph ] ].
+
+;;; 2012-26-09 removed this constraint from head-adj-phrase
+;;    HEAD-DTR.SYNSEM.MODIFIED notmod-or-rmod,
+;; As Antske Fokkens points out in an e-mail to matrix-dev,
+;;   this is an english-specific leftover ---JDC
+;;; LLD 2016-3-25 removed SYNSEM.LOCAL.CAT.POSTHEAD +, which
+;; EMB pointed out as another english-specific leftover.
+head-adj-phrase := basic-head-mod-phrase-simple & head-initial & phrasal &
+  [ SYNSEM.MODIFIED rmod,
+    NON-HEAD-DTR.SYNSEM [ LOCAL.CAT [ VAL.SPR olist,
+                                      POSTHEAD + ],
+                          NON-LOCAL.QUE.LIST <> ] ].
+
+; We split head-adj-phrase and adj-head-phrase into two each,
+; one for intersective modifiers and one for scopal modifiers, in order to
+; get desired results for recursive modification as in "apparently difficult
+; problem" (cf. Kasper '98).  This split is also used in generation, where
+; we delay construction of intersective modification, but not scopal.
+
+scopal-mod-phrase := basic-head-mod-phrase-simple &
+  [ NON-HEAD-DTR.SYNSEM.LOCAL [ CAT [ VAL.SPR olist,
+                                      HEAD.MOD < [ LOCAL scopal-mod ] > ],
+                                CONT.HOOK #hook ],
+    C-CONT [ HOOK #hook,
+             HCONS.LIST < >,
+             ICONS.LIST < > ] ].
+
+; EKN 2018-02-23 Adding adv-list to use as constraint on SPR
+; value non-head dtr of isect-mod-phrase, so that the SPR of
+; the non-head dtr will be either empty or only adverbs
+
+adv-list := olist.
+
+adv-cons := adv-list & ocons &
+[ FIRST [ LOCAL.CAT.HEAD adv ],
+REST adv-list ].
+
+adv-null := adv-list & onull.
+
+; ERB 2004-05-18 I'm guessing that MSG no-msg on the head
+; daughter here is going to turn out too restrictive for other
+; languages.
+
+; ERB 2007-01-21 The option to say MSG no-msg is no longer available.
+; But, it's probably less necessary, since we'll have fewer non-branching
+; rules?
+
+isect-mod-phrase := basic-head-mod-phrase-simple & head-compositional &
+  [ HEAD-DTR.SYNSEM.LOCAL [ CAT.MKG #mkg, CONT [ HOOK.LTOP #hand ] ],
+    NON-HEAD-DTR.SYNSEM.LOCAL [ CAT [ VAL.SPR adv-list,
+                                      HEAD.MOD < [ LOCAL intersective-mod & [ CAT.MKG #mkg ] ] > ],
+                                CONT.HOOK.LTOP #hand ],
+    C-CONT [ HCONS.LIST < >,
+             ICONS.LIST < > ] ].
+
+adj-head-scop-phrase := adj-head-phrase & scopal-mod-phrase &
+  [ NON-HEAD-DTR.SYNSEM.LOCAL.CAT.POSTHEAD - ].
+head-adj-scop-phrase := head-adj-phrase & scopal-mod-phrase &
+  [ NON-HEAD-DTR.SYNSEM.NON-LOCAL.REL.LIST <> ].
+adj-head-int-phrase := adj-head-phrase & isect-mod-phrase &
+  [ NON-HEAD-DTR.SYNSEM.LOCAL.CAT [ POSTHEAD - ] ].
+head-adj-int-phrase := head-adj-phrase & isect-mod-phrase.
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;
+;;  Lexical types
+;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+; Lexical entries will be cross-classified along many dimensions,
+; including:
+;
+; -- Whether or not they introduce non-empty non-local feature values
+; -- Amalgamation of non-local features
+; -- Whether or not they are fully inflected as listed
+;     in the lexicon.
+; -- Part of speech (and associated semantic generalizations)
+; -- Subcategorization
+; -- Values for the HOOK features
+;
+; On the first three dimensions, the vast majority of words will
+; actually follow the general pattern.  In order to facilitate the
+; definition of types (in particular grammars) for those cases that
+; don't, the constraints are stated on separate types.  Additional
+; types can be created as required by inheriting from all of the types
+; that are still relevant.  This is clearly an area to investigate
+; the use of defaults, as we learn more about best practice concerning
+; their use.
+;
+; Note that we don't treat these dimensions as entirely independent
+; of each other, but rather hope to strike a balance between flexibility
+; and redundancy.
+;
+; We are currently avoiding any development within the Matrix of the
+; subhierarchy under head (see notes at the definition of type head
+; above), believing that the exact geometry of that hierarchy to be
+; somewhat language dependent.  Thus, even the types for the part of
+; speech dimension will not specify head values, and will need to be
+; specialized in particular grammars to do so.  Furthermore, the
+; subcategorization types will specify only the number of syntactic
+; arguments and their linking to the semantic relations.
+
+; Update: 2004-08-26 We have devised a means of adding in a subhierarchy
+; under head without prejudging the disjunctive types needed.  Therefore,
+; the part of speech types will now specify HEAD values.  Nonetheless,
+; the HEAD values of arguments are left underspecified, as that does
+; vary across languages.
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; HOOK feature values
+
+; LKEYS.KEYREL is a short-cut to the relation that is going to
+; contribute the LTOP and INDEX for the word, such that linking
+; types and lexical entries don't have to refer to a specific position
+; on the RELS list.
+
+norm-ltop-lex-item := lex-item &
+  [ SYNSEM [ LOCAL.CONT [ HOOK [ LTOP #ltop ],
+                          RELS.LIST.FIRST #keyrel ],
+             LKEYS.KEYREL #keyrel & [ LBL #ltop ] ] ].
+
+norm-hook-lex-item := norm-ltop-lex-item &
+  [ SYNSEM [ LOCAL.CONT.HOOK.INDEX #index,
+             LKEYS.KEYREL.ARG0 #index ] ].
+
+; EKN 2018-02-20 For determiners:
+no-ltop-lex-item := lex-item &
+  [ SYNSEM [ LOCAL.CONT [ RELS.LIST.FIRST #keyrel,
+                          HOOK.INDEX #index ],
+             LKEYS.KEYREL #keyrel & [ ARG0 #index ] ] ].
+
+
+; ERB 2007-02-26 For modifiers. Elements that have a double life
+; as attributive and predicative become tricky.  Attributive adjectives
+; and PPs should be raise-index-mod-lex-item, while predicative
+; ones should be norm-hook-lex-item. But how to relate the two?
+; Also, reconsider whether I want to do this for intersective as
+; well as scopal modifiers, or just the scopal guys.
+
+; TJT 2014-04-24 raise-index-mod-lex-item should not be used for
+; intersective adjectives or adverbs as the MOD...INDEX is identified with the
+; CONT.HOOK.XARG, not the CONT.HOOK.INDEX. Removing raise-index-mod-lex-item.
+; See ERG as example of not using this for intersectives.
+
+; TJT 2014-09-05 raise-index-mod-lex-item is used for scopal adverbs like negation (and maybe scopal adjectives?). Adding back in.
+
+raise-index-mod-lex-item := norm-ltop-lex-item &
+  [ SYNSEM.LOCAL [ CAT.HEAD.MOD < [ LOCAL.CONT.HOOK.INDEX #index ] >,
+				   CONT.HOOK.INDEX #index ] ].
+
+; Furthermore, most lexical items contribute only one relation, and
+; have empty HCONS values.
+
+single-rel-lex-item := lex-item &
+  [ SYNSEM.LOCAL.CONT.RELS.LIST < relation > ].
+
+no-hcons-lex-item := lex-item &
+  [ SYNSEM.LOCAL.CONT.HCONS.LIST < > ].
+
+; SSH 2013-03-27
+no-rels-hcons-lex-item := no-hcons-lex-item &
+  [ SYNSEM.LOCAL.CONT.RELS.LIST < > ].
+
+; SSH 2012-03-03
+; SSH 2012-05-07
+no-icons-lex-item := lex-item &
+  [ SYNSEM.LOCAL [ CAT.MKG [ FC na, TP na ],
+	           CONT.ICONS.LIST < > ] ].
+
+no-rels-hcons-icons-lex-item := no-hcons-lex-item &
+  [ SYNSEM.LOCAL.CONT [ RELS.LIST < >, ICONS.LIST < > ] ].
+
+; SSH 2013-06-05 Now therer are two icons-lex-items (for embedded clauses).
+basic-icons-lex-item := lex-item & [ SYNSEM.LOCAL.CONT.ICONS.LIST < > ].
+
+one-icons-lex-item := lex-item & [ SYNSEM.LOCAL.CONT.ICONS.LIST < info-str & [ ] > ].
+
+two-icons-lex-item := lex-item & [ SYNSEM.LOCAL.CONT.ICONS.LIST < info-str & [ ], info-str & [ ] > ].
+
+
+; ERB 2005-05-11 Normal lex items don't introduce messages.
+; Since I'm trying out an analysis where the no-msg-phrases
+; copy of MSG values, need to bottom out in MSG no-msg
+; on most lex items.
+
+; ERB 2007-01-21 No more messages.
+
+;no-msg-lex-item := lex-item &
+; [ SYNSEM.LOCAL.CONT.MSG no-msg ].
+
+; ERB 2007-01-22 Removing no-hcons-lex-item here, since now
+; there are many words which introduce hcons (in the absence of
+; messages). HCONS should now (in most cases) be constrained
+; by the linking types.
+
+norm-sem-lex-item := norm-hook-lex-item & single-rel-lex-item.
+
+hcons-lex-item := norm-hook-lex-item & single-rel-lex-item.
+
+; ERB 2005-08-07 For lexical items like case-marking adpositions
+; and auxiliaries which only contribute tense/aspect information.
+; These all take HOOK from their first complements.
+
+; SSH 2012-03-03
+
+raise-sem-lex-item := no-hcons-lex-item &
+  [ SYNSEM.LOCAL [ CONT [ RELS.LIST < >,
+			  HOOK #hook ],
+		   CAT.VAL.COMPS < [ LOCAL.CONT.HOOK #hook ] , ... > ]].
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; inflected v. uninflected
+
+;uninflected-lexeme := lex-item &
+;  [ INFLECTED inflected ].
+;
+;fully-inflected-lexeme := lex-item &
+;  [ INFLECTED infl-satisfied ].
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Non-local features: Values and amalgamation
+
+; Not all of the non-local features will necessarily be useful in
+; all languages.  SLASH is for `topicalization' style long distance
+; dependencies.  REL and QUE are used in the analysis of pied piping
+; in relative clauses and questions respectively, and also to signal
+; the presence of a question element in in-situ questions so that
+; clausal constructions with question semantics can require the presence
+; of a question word.
+
+; basic_zero_arg lexical items have empty ARG-ST lists.  They may
+; introduce a non-empty value for one of the non-local features.
+
+basic-zero-arg := lex-item &
+  [ ARG-ST < > ].
+
+zero-arg-nonslash := basic-zero-arg &
+  [ SYNSEM.NON-LOCAL.SLASH.LIST <> ].
+
+zero-arg-nonrel := basic-zero-arg &
+  [ SYNSEM.NON-LOCAL.REL.LIST <> ].
+
+zero-arg-nonque := basic-zero-arg &
+  [ SYNSEM.NON-LOCAL.QUE.LIST <> ].
+
+; Non-argument taking items which introduce no non-local values.
+
+norm-zero-arg := zero-arg-nonslash & zero-arg-nonrel & zero-arg-nonque.
+
+; Items introducing a rel value.
+
+zero-arg-rel := zero-arg-nonslash & zero-arg-nonque.
+
+; Items introducing a que value.
+; ERB 2004-05-24 Bug fix: This was inheriting from zero-arg-nonque
+; instead of zero-arg-nonrel.
+
+zero-arg-que := zero-arg-nonslash & zero-arg-nonrel.
+
+; Items introducing a slash value, e.g., resumptive pronouns in French.
+
+zero-arg-slash := zero-arg-nonrel & zero-arg-nonque.
+
+; These non-zero argument types only amalgamate the non-local
+; feature values of their complements.  They do not introduce any
+; non-local values of their own, nor do they bind off any non-local
+; feature values.  This assumes that the bottom of most long-distance
+; dependencies is handles by a rule that constrains an argument (either
+; on the ARG-ST list or a valence list) to be a synsem of type gap.
+; Elements like English tough adjectives which bind off a slash value
+; will need a new type that doesn't amalgamate that slash value.
+; Elements which both introduce REL or QUE values and take one or
+; more arguments will require appropriate new types as well, which
+; amalgamate everything but add a value in addition.
+
+basic-one-arg := lex-item &
+  [ ARG-ST < [ NON-LOCAL [ SLASH #slash,
+                           REL #rel,
+                           QUE #que ] ] >,
+    SYNSEM.NON-LOCAL [ SLASH #slash,
+                       REL #rel,
+                       QUE #que ] ].
+
+
+basic-two-arg := lex-item &
+  [ ARG-ST < [ NON-LOCAL [ SLASH #s2,
+                           REL #r2,
+                           QUE #q2 ] ],
+	     [ NON-LOCAL [ SLASH #s1,
+			   REL #r1,
+			   QUE #q1 ] ] >,
+    SYNSEM.NON-LOCAL [ SLASH.APPEND < #s1, #s2 >,
+                       REL.APPEND < #r1, #r2 >,
+                       QUE.APPEND < #q1, #q2 > ] ].
+
+basic-three-arg := lex-item &
+  [ ARG-ST < [ NON-LOCAL [ SLASH #s3,
+                           REL #r3,
+                           QUE #q3 ] ],
+             [ NON-LOCAL [ SLASH #s1,
+                           REL #r1,
+                           QUE #q1 ] ],
+             [ NON-LOCAL [ SLASH #s2,
+                           REL #r2,
+                           QUE #q2 ] ] >,
+    SYNSEM.NON-LOCAL [ SLASH.APPEND < #s1, #s2, #s3 >,
+                       REL.APPEND < #r1, #r2, #r3 >,
+                       QUE.APPEND < #q1, #q2, #q3 > ] ].
+
+; ERB 2007-01-22  In the message-free universe, many more qeqs are
+; introduced by lexical items (basically any head that selects a clausal
+; complement).  To facilitate this, I'm going to move the no-hcons
+; distinction to the linking types part of the hierarchy (and out of
+; the pos part of the hierarchy).  In this connection, it's useful
+; to have subtypes of basic-n-arg which inherit from no-hcons-lex-item.
+
+basic-one-arg-no-hcons := basic-one-arg & no-hcons-lex-item.
+basic-two-arg-no-hcons := basic-two-arg & no-hcons-lex-item.
+basic-three-arg-no-hcons := basic-three-arg & no-hcons-lex-item.
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Subcategorization/linking
+
+; These types specify the number of syntactic arguments, a relation
+; type, and the relationship between the syntactic arguments and the
+; relation type.  They inherit from the amalgamation types above,
+; since we believe that the need for cross-classification across these
+; two dimensions is minimal.  That is, words which do something other
+; than simply amalgamate the non-local feature values of their
+; arguments probably have quirky subcategorization frames as well.
+
+; It is expected that further types will need to be defined in
+; every particular grammar, but these types should cover the vast
+; majority of open-class lexical items, and assist with some closed-class
+; items as well.
+
+; As explained above, we are leaving the HEAD values of the syntactic
+; arguments underspecified as there are cross-linguistic differences
+; in the part of speech of arguments in otherwise similar
+; subcategorization types: English transitive verbs select two NPs.
+; Japanese transitives select two PPs, as the case particles are
+; treated as postpositions.
+
+; We will, however, specify the semantic type of arguments, since it
+; is relevant to the semantic constraints associated with each lexical
+; item.  Clausal-argument taking elements identify the LTOP of their
+; complement with an ARGn position, rather than the INDEX.  (Even
+; though handles are involved here, we do identification rather than a
+; relationship mediated by HCONS because the messages already leave
+; enough room for quantifiers to scope at the top of the embedded
+; clause, and scope ambiguities between quantifiers and messages would
+; be meaningless.)  Subordinating conjunctions will have even more
+; to say semantically.
+
+; We are also leaving underspecified the mapping from ARG-ST to
+; valence features.  The phrase structure rules assume one particular
+; inventory of valence features (SPR, SUBJ, COMPS), but the exact
+; deployment of those features might be language-specific (e.g.,
+; in syntactically ergative languages).  NB: The phrase structure
+; rules differentiate SPR and SUBJ in that SPR is treated as the
+; semantic head.
+
+; By hypothesis, the order of the syntactic arguments on the ARG-ST
+; list corresponds to the order of the semantic arguments ARGn, with
+; the caveat that not all syntactic arguments are also semantic
+; arguments, as in constructions involving expletives or raising.  The
+; ARGn features do not correspond to theta roles but rather should
+; have their interpretation specified in the Sem-I, where the
+; interpretations of each ARGn will be relative to (classes of)
+; predicates.  Nonetheless, we expect the order of elements on the
+; ARG-ST list follow a thematic role or grammatical function hierarchy
+; in underived lexical items.  This order may be perturbed by lexical
+; rules.  In addition, there are degrees of freedom allowed by the
+; mapping from ARG-ST to the valence features and the possibility of
+; scrambling by realizing elements of a valence list "out of order".
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; For verbs, adjectives and nouns that don't require specifiers
+
+
+; Kim is tired, Kim sleeps, Kim is in the park, Kim is a student.
+; Kim ga nemui, Kim ga neru.
+; Kim est fatigue, Kim dort, Kim est a la maison, Kim est etudiant.
+
+; (Kim is a student requires an analysis of predicative NPs.)
+
+; CHANGING: add cat-sat to args here (PASSES all reg tests)
+
+intransitive-lex-item := basic-one-arg-no-hcons & basic-icons-lex-item &
+  [ ARG-ST < [ LOCAL [ CAT cat-sat,
+                       CONT.HOOK [ INDEX ref-ind & #ind,
+               ICONS-KEY.IARG1 #clause ] ] ] >,
+    SYNSEM [ LKEYS.KEYREL.ARG1 #ind,
+             LOCAL.CONT.HOOK.CLAUSE-KEY #clause ] ].
+
+; It rains.
+; Il pleut.
+
+; SSH 2013-12-11 Expletives cannot be topic or focus.
+
+expl-arg-only-lex-item := basic-one-arg-no-hcons & basic-icons-lex-item &
+   [ ARG-ST < [ LOCAL [ CONT.HOOK.INDEX expl-ind,
+                        CAT cat-sat ] ] > ].
+
+; Kim eats lunch.  Kim is fond of apples.
+; Kim ga hiru gohan wo taberu.
+; Kim mange le dejeuner.
+
+; CHANGING: add cat-sat to args here (PASSES all reg tests)
+
+transitive-lex-item := basic-two-arg-no-hcons & basic-icons-lex-item &
+   [ ARG-ST < [ LOCAL [ CAT cat-sat,
+                        CONT.HOOK [ INDEX ref-ind & #ind1,
+                                    ICONS-KEY.IARG1 #clause ] ] ],
+              [ LOCAL [ CAT cat-sat,
+                        CONT.HOOK [ INDEX ref-ind & #ind2,
+                                    ICONS-KEY.IARG1 #clause ] ] ]>,
+     SYNSEM [ LKEYS.KEYREL [ ARG1 #ind1,
+                             ARG2 #ind2 ],
+              LOCAL.CONT.HOOK.CLAUSE-KEY #clause ] ].
+
+; Kim gives Sandy a book.
+; Kim ga Sandy ni hon wo ageru.
+; Kim donne un livre a Sandy.
+
+; CHANGING: add cat-sat to args here  (PASSES all reg tests)
+
+ditransitive-lex-item := basic-three-arg-no-hcons & basic-icons-lex-item &
+   [ ARG-ST < [ LOCAL [ CAT cat-sat,
+                        CONT.HOOK [ INDEX ref-ind & #ind1,
+                                    ICONS-KEY.IARG1 #clause ] ] ],
+              [ LOCAL [ CAT cat-sat,
+                        CONT.HOOK [ INDEX ref-ind & #ind2,
+                                    ICONS-KEY.IARG1 #clause ] ] ],
+              [ LOCAL [ CAT cat-sat,
+                        CONT.HOOK [ INDEX ref-ind & #ind3,
+                                    ICONS-KEY.IARG1 #clause ] ] ] >,
+     SYNSEM [ LKEYS.KEYREL [ ARG1 #ind1,
+                             ARG2 #ind2,
+                             ARG3 #ind3 ],
+               LOCAL.CONT.HOOK.CLAUSE-KEY #clause ] ].
+
+; That Kim sleeps is obvious.
+; [NB: This is just one possible analysis of clausal subjects.
+;  in English, a non-branching NP -> CP rule is also plausible.
+;  We are interested in arguments from other languages supporting
+;  one analysis or the other.]
+
+; ERB 2007-01-22 Inserting qeqs now that we no longer have messages
+; intervening.
+
+
+; Changing: planning on adding cat-sat to all arguments that have ref-ind indexes from here on.
+
+clausal-arg-intrans-lex-item := basic-one-arg & one-icons-lex-item &
+   [ ARG-ST < [ LOCAL.CONT.HOOK [ LTOP #larg,
+                                  INDEX #target ] ] >,
+     SYNSEM [ LOCAL.CONT [ HOOK.CLAUSE-KEY #clause,
+                           HCONS.LIST < qeq & [ HARG #harg,
+						LARG #larg ] >,
+                           ICONS.LIST < [ IARG1 #clause, IARG2 #target ] > ],
+              LKEYS.KEYREL [ ARG1 #harg ] ] ].
+
+; That Kim sleeps surprises Sandy.
+
+; ERB 2007-01-22 Inserting qeqs now that we no longer have messages
+; intervening.
+
+; changing: added cat-sat (PASSES all reg tests)
+
+clausal-first-arg-trans-lex-item := basic-two-arg & one-icons-lex-item &
+   [ ARG-ST < [ LOCAL.CONT.HOOK [ LTOP #larg,
+                                  INDEX #target ] ],
+              [ LOCAL [ CAT cat-sat,
+                        CONT.HOOK [ INDEX ref-ind & #ind,
+                                    ICONS-KEY.IARG1 #clause ] ] ]>,
+     SYNSEM [ LOCAL.CONT [ HOOK.CLAUSE-KEY #clause,
+                           HCONS.LIST < qeq & [ HARG #harg,
+						LARG #larg ] >,
+               ICONS.LIST < [ IARG1 #clause, IARG2 #target ] > ],
+               LKEYS.KEYREL [ ARG1 #harg,
+                              ARG2 #ind ] ] ].
+
+; Sandy believes that Kim sleeps.
+; Sandy ga Kim ga neru to shinjita.
+; Sandy croit que Kim dors.
+
+; ERB 2007-01-22 Inserting qeqs now that we no longer have messages
+; intervening.
+
+; changing: added cat-sat (PASSES all reg tests)
+
+clausal-second-arg-trans-lex-item := basic-two-arg & one-icons-lex-item &
+   [ ARG-ST < [ LOCAL [ CAT cat-sat,
+                        CONT.HOOK [ INDEX ref-ind & #ind,
+                                    ICONS-KEY.IARG1 #clause ] ] ],
+              [ LOCAL.CONT.HOOK [ LTOP #larg,
+                                  INDEX #target ] ] >,
+     SYNSEM [ LOCAL.CONT [ HOOK.CLAUSE-KEY #clause,
+                           HCONS.LIST < qeq & [ HARG #harg,
+						LARG #larg ] >,
+                           ICONS.LIST < [ IARG1 #clause, IARG2 #target ] > ],
+              LKEYS.KEYREL [ ARG1 #ind,
+                             ARG2 #harg ] ] ].
+
+; Kim told Sandy that Pat slept.
+; Kim ga Sandy ni Pat ga neta to itta.
+; Kim a dit a Sandy que Pat dormait.
+
+; ERB 2007-01-22 Inserting qeqs now that we no longer have messages
+; intervening.
+
+
+clausal-third-arg-ditrans-lex-item := basic-three-arg & one-icons-lex-item &
+   [ ARG-ST < [ LOCAL [ CAT cat-sat,
+                        CONT.HOOK [ INDEX ref-ind & #ind1,
+                                    ICONS-KEY.IARG1 #clause ] ] ],
+              [ LOCAL [ CAT cat-sat,
+                        CONT.HOOK [ INDEX ref-ind & #ind2,
+                                    ICONS-KEY.IARG1 #clause ] ] ],
+              [ LOCAL.CONT.HOOK [ LTOP #larg,
+                                  INDEX #target ] ] >,
+     SYNSEM [ LOCAL.CONT [ HOOK.CLAUSE-KEY #clause,
+                           HCONS.LIST < qeq & [ HARG #harg,
+						LARG #larg ] >,
+                           ICONS.LIST < [ IARG1 #clause, IARG2 #target ] > ],
+               LKEYS.KEYREL [ ARG1 #ind1,
+                              ARG2 #ind2,
+                              ARG3 #harg ] ] ].
+
+; It is obvious that Kim sleeps.
+; Il est evident que Kim dors.
+
+; (Many of these might be generated via a lexical rule from
+; clausal-arg-intrans-lex-items, but some probably don't alternate).
+
+
+; ERB 2007-01-22 Inserting qeqs now that we no longer have messages
+; intervening.
+
+
+clausal-expl-arg-lex-item := basic-two-arg & one-icons-lex-item &
+   [ ARG-ST < [ LOCAL [ CAT cat-sat,
+                        CONT.HOOK.INDEX expl-ind ] ],
+              [ LOCAL.CONT.HOOK [ LTOP #larg,
+                                  INDEX #target ] ] >,
+     SYNSEM [ LOCAL.CONT [ HOOK.CLAUSE-KEY #clause,
+                           HCONS.LIST < qeq & [ HARG #harg,
+						LARG #larg ] >,
+              ICONS.LIST < [ IARG1 #clause, IARG2 #target ] > ],
+              LKEYS.KEYREL [ ARG1 #harg ] ] ].
+
+; Kim seems to sleep; Kim is sleeping.
+
+
+trans-first-arg-raising-lex-item := basic-two-arg &
+   [ ARG-ST < [ LOCAL [ CAT cat-sat,
+                        CONT.HOOK.INDEX #ind ] ],
+          [ LOCAL [ CAT cat-sat,
+                    CONT.HOOK.XARG #ind ] ] > ].
+
+; Variant expecting a relation introduced by the raising
+; predicate.  Adding qeq between ARG1 and LTOP.  Can't
+; cross-classify with norm-sem-lex-item.
+
+; These can't inherit from basic-verb-lex, since they
+; introduce a non-empty HCONS value.  Need to get
+; event-relation from somewhere else.
+
+; ERB (2007-02-20) They should be able to now that things
+; are de-messaged, since basic-verb-lex no longer inherits
+; from no-hcons-lex-item.
+
+
+trans-first-arg-raising-lex-item-1 := trans-first-arg-raising-lex-item &
+				      basic-icons-lex-item &
+   [ ARG-ST < [ LOCAL.CONT.HOOK [ ICONS-KEY.IARG1 #clause,
+				  CLAUSE-KEY #clause ] ],
+	      [ LOCAL.CONT.HOOK [ LTOP #larg,
+				  ICONS-KEY.IARG1 #clause,
+				  CLAUSE-KEY #clause ] ] >,
+     SYNSEM [ LOCAL.CONT [ HOOK.CLAUSE-KEY #clause,
+			   HCONS.LIST < qeq &
+					[ HARG #harg,
+					  LARG #larg ] > ],
+	      LKEYS.KEYREL event-relation &
+			       [ ARG1 #harg ]]].
+
+; Variant for raising verbs/auxiliaries which don't
+; introduce a predicate of their own.
+
+trans-first-arg-raising-lex-item-2 := trans-first-arg-raising-lex-item &
+				      raise-sem-lex-item &
+				      no-icons-lex-item &
+  [ ARG-ST < [ LOCAL.CONT.HOOK.ICONS-KEY.IARG1 #clause ],
+	     [ LOCAL.CONT.HOOK.CLAUSE-KEY #clause ] > ].
+
+; Kim tries to sleep.
+
+; ERB 2007-01-22 Adding in qeq here.
+
+trans-first-arg-control-lex-item := basic-two-arg & basic-icons-lex-item &
+   [ ARG-ST < [ LOCAL [ CAT cat-sat,
+     	      	      	CONT.HOOK [ INDEX ref-ind & #ind,
+				  ICONS-KEY.IARG1 #clause,
+				  CLAUSE-KEY #clause ] ] ],
+	      [ LOCAL.CONT.HOOK [ XARG #ind,
+				  LTOP #larg,
+				  ICONS-KEY.IARG1 #clause,
+				  CLAUSE-KEY #clause ] ] >,
+     SYNSEM [ LOCAL.CONT [ HOOK.CLAUSE-KEY #clause,
+			   HCONS.LIST < qeq & [ HARG #harg,
+						LARG #larg ] > ],
+	      LKEYS.KEYREL [ ARG1 #ind,
+			     ARG2 #harg ] ] ].
+
+; Kim appeared to Sandy to leave, Kim seems to Sandy to have left.
+; (Treat "Kim seems happy to Sandy" as derived in some way?)
+
+; ERB 2007-01-22 Adding in qeq here.
+
+
+ditrans-first-arg-raising-lex-item := basic-three-arg & basic-icons-lex-item &
+   [ ARG-ST < [ LOCAL.CONT.HOOK [ INDEX #ind1,
+                                  ICONS-KEY.IARG1 #clause,
+                                  CLAUSE-KEY #clause ] ],
+          [ LOCAL [ CAT cat-sat,
+                    CONT.HOOK [ INDEX ref-ind & #ind2,
+                                ICONS-KEY.IARG1 #clause,
+                                CLAUSE-KEY #clause ] ] ],
+          [ LOCAL.CONT.HOOK [ XARG #ind1,
+                              LTOP #larg,
+                              ICONS-KEY.IARG1 #clause,
+                              CLAUSE-KEY #clause ] ] >,
+     SYNSEM [ LOCAL.CONT [ HOOK.CLAUSE-KEY #clause,
+                           HCONS.LIST < qeq & [ HARG #harg,
+						LARG #larg ] > ],
+              LKEYS.KEYREL [ ARG1 #ind2,
+                             ARG2 #harg ] ] ].
+
+; Kim promised Sandy to leave.
+
+; ERB 2007-01-22 Adding in qeq here.
+
+
+ditrans-first-arg-control-lex-item := basic-three-arg & basic-icons-lex-item &
+   [ ARG-ST < [ LOCAL [ CAT cat-sat,
+                        CONT.HOOK [ INDEX ref-ind & #ind1,
+                                    ICONS-KEY.IARG1 #clause,
+                                    CLAUSE-KEY #clause ] ] ],
+          [ LOCAL [ CAT cat-sat,
+                    CONT.HOOK [ INDEX ref-ind & #ind2,
+                                ICONS-KEY.IARG1 #clause,
+                                CLAUSE-KEY #clause ] ] ],
+          [ LOCAL [ CONT.HOOK [ XARG #ind1,
+                                LTOP #larg,
+                                ICONS-KEY.IARG1 #clause,
+                                CLAUSE-KEY #clause ] ] ]>,
+     SYNSEM [ LOCAL.CONT [ HOOK.CLAUSE-KEY #clause,
+                           HCONS.LIST < qeq & [ HARG #harg,
+						LARG #larg ] > ],
+              LKEYS.KEYREL [ ARG1 #ind1,
+                             ARG2 #ind2,
+                             ARG3 #harg ] ] ].
+
+
+; Kim believed Sandy to have left.
+
+; ERB 2007-01-22 Adding in qeq here.
+
+
+ditrans-second-arg-raising-lex-item := basic-three-arg & basic-icons-lex-item &
+   [ ARG-ST < [ LOCAL [ CAT cat-sat,
+                        CONT.HOOK [ INDEX ref-ind & #ind1,
+                                    ICONS-KEY.IARG1 #clause,
+                                    CLAUSE-KEY #clause ] ] ],
+              [ LOCAL.CONT.HOOK [ INDEX #ind2,
+                                  ICONS-KEY.IARG1 #clause,
+                                  CLAUSE-KEY #clause ] ],
+              [ LOCAL.CONT.HOOK [ XARG #ind2,
+                                  LTOP #larg,
+                                  ICONS-KEY.IARG1 #clause,
+                                  CLAUSE-KEY #clause ] ] >,
+     SYNSEM [ LOCAL.CONT [ HOOK.CLAUSE-KEY #clause,
+                           HCONS.LIST < qeq & [ HARG #harg,
+						LARG #larg ] > ],
+              LKEYS.KEYREL [ ARG1 #ind1,
+                             ARG2 #harg ] ] ].
+
+; Kim appealed to Sandy to leave.
+
+; ERB 2007-01-22 Adding in qeq here.
+
+ditrans-second-arg-control-lex-item := basic-three-arg & basic-icons-lex-item &
+   [ ARG-ST < [ LOCAL [ CAT cat-sat,
+                        CONT.HOOK [ INDEX ref-ind & #ind1,
+                                    ICONS-KEY.IARG1 #clause,
+                                    CLAUSE-KEY #clause ] ] ],
+          [ LOCAL [ CAT cat-sat,
+                    CONT.HOOK [ INDEX ref-ind & #ind2,
+                                ICONS-KEY.IARG1 #clause,
+                                CLAUSE-KEY #clause ] ] ],
+          [ LOCAL.CONT.HOOK [ XARG #ind2,
+                              LTOP #larg,
+                              ICONS-KEY.IARG1 #clause,
+                              CLAUSE-KEY #clause ] ] >,
+     SYNSEM [ LOCAL.CONT [ HOOK.CLAUSE-KEY #clause,
+                           HCONS.LIST < qeq & [ HARG #harg,
+						LARG #larg ] > ],
+              LKEYS.KEYREL [ ARG1 #ind1,
+                             ARG2 #ind2,
+                             ARG3 #harg ] ] ].
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; For nouns requiring specifiers, adjectives taking degree specifiers, etc.
+
+; Keep specifiers on ARG-ST because amalgamation constraints are
+; stated there.  Also, in the eventual hope of implementing
+; a binding theory, which seems to need to take account of possessor
+; nouns in picture NPs (Runner et al 2004).
+
+; a dog, Kim's dog
+
+; The specifier does not play a semantic role in the 'dog' relation,
+; so there is nothing more to say: these can just inherit from
+; basic-one-arg and no-hcons-lex-item, and not link in that one
+; argument.  The head-spec rule identifies the head's HOOK with the
+; SPEC..HOOK of the specifier, which gives the specifier access to the
+; noun's index for linking purposes.
+
+; a book about dogs
+; very fond of apples
+
+spr-plus-one-arg-lex-item := basic-two-arg-no-hcons & basic-icons-lex-item &
+   [ ARG-ST < synsem,
+	      [ LOCAL.CONT.HOOK.INDEX ref-ind & #ind ] >,
+     SYNSEM.LKEYS.KEYREL.ARG1 #ind ].
+
+; the claim that Sandy slept.
+; very happy that Sandy slept
+
+; ERB 2007-01-22 Adding qeq in here.
+
+spr-plus-clausal-arg-lex-item := basic-two-arg & one-icons-lex-item &
+   [ ARG-ST < synsem,
+	      [ LOCAL.CONT.HOOK [ LTOP #larg,
+				  INDEX #target ] ] >,
+     SYNSEM [ LOCAL.CONT [ HOOK.CLAUSE-KEY #clause,
+			   HCONS.LIST < qeq & [ HARG #harg,
+						LARG #larg ] >,
+			   ICONS.LIST < [ IARG1 #clause, IARG2 #target ] > ],
+	      LKEYS.KEYREL.ARG1 #harg ] ].
+
+; Whether or not we need more types here is going to largely depend
+; on whether we treat deverbal nouns semantically as nominalizations,
+; and how we handle the linking in that case.  Leave this for later.
+
+; Kim is very eager to sleep.
+; How eager to sleep is Kim?
+
+; ERB 2007-01-22 Adding qeq in here.
+
+spr-trans-first-arg-control-lex-item := basic-three-arg & basic-icons-lex-item &
+   [ ARG-ST < synsem,
+	      [ LOCAL.CONT.HOOK [ INDEX ref-ind & #ind,
+				  ICONS-KEY.IARG1 #clause,
+				  CLAUSE-KEY #clause ] ],
+	      [ LOCAL.CONT.HOOK [ XARG #ind,
+				  LTOP #larg,
+				  ICONS-KEY.IARG1 #clause,
+				  CLAUSE-KEY #clause ] ] >,
+     SYNSEM [ LOCAL.CONT [ HOOK.CLAUSE-KEY #clause,
+			   HCONS.LIST < qeq & [ HARG #harg,
+						LARG #larg ] > ],
+	      LKEYS.KEYREL [ ARG1 #ind,
+			     ARG2 #harg ] ] ].
+
+; Possibly more types related to the above.
+
+; TJT 2014-04-24 Editing out "Modifiers" for new adjective hierarchy; See below
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Part of speech
+
+; These types are meant to cross-classify with the above, but
+; many closed-class items have linking constraints which are particular
+; to the part of speech class, and so some linking constraints are
+; included.
+
+;;; Verbs
+
+; TJT 2014-04-26 Creating basic-verb-lex-super for copula
+; TJT 2015-02-05 Changing supertype of basic-verb-lex-super to lex-item
+; because copulas do not have a KEYREL (or any REL)
+
+basic-verb-lex-super := lex-item &
+  [ SYNSEM.LOCAL.CAT.HEAD verb ].
+
+; Bringing in norm-sem-lex-item here where relevant, although this
+; might be too stringent.
+
+; ERB 2006-10-05 Temporarily constraining INDEX.MESG to be
+; prop-or-ques.  This will need to be revisited if we're going to
+; allow commands, but look at what ERG does first.
+
+; ERB 2007-01-21 Moving to constructionally introduced SF values.
+; Removing that constraint on now defunct feature MESG.
+
+basic-verb-lex := basic-verb-lex-super & norm-sem-lex-item &
+  [ SYNSEM.LKEYS.KEYREL event-relation ].
+
+; ERB 2004-08-26 Put in qeq, assuming that for all scopal modifiers
+; the relevant argument position is ARG1, and there will be
+; no further handle constraints.  The latter especially may be
+; too strong.
+
+; Adpositions and adjectives (also adverbs, somewhere?) may
+; have additional arguments, but the modified element is assumed
+; to always be the ARG1.  These types should be cross-classified
+; with argument structure types appropriate to their combinatoric
+; potential.
+
+scopal-mod-lex := lex-item &
+  [ SYNSEM [ LOCAL [ CAT.HEAD.MOD < [ LOCAL scopal-mod &
+					    [ CONT.HOOK.LTOP #larg ]] >,
+		     CONT.HCONS.LIST < qeq &
+				       [ HARG #harg,
+					 LARG #larg ] > ],
+	     LKEYS.KEYREL.ARG1 #harg ]].
+
+intersective-mod-lex := no-hcons-lex-item &
+  [ SYNSEM [ LOCAL.CAT.HEAD.MOD < [ LOCAL intersective-mod &
+					  [ CONT.HOOK.INDEX #ind ]] >,
+	     LKEYS.KEYREL.ARG1 #ind ] ].
+
+no-mod-lex := no-hcons-lex-item &
+  [ SYNSEM.LOCAL.CAT.HEAD.MOD < > ].
+
+;;; Adjectives
+
+;basic-adjective-lex := single-rel-lex-item &
+;  [ SYNSEM [ LOCAL.CAT.HEAD adj,
+;	     LKEYS.KEYREL event-relation ]].
+
+; ERB 2007-02-26 New type raise-index-mod-lex-item to get the
+; INDEX value right on modifiers.  Attributive adjectives should
+; inherit from this one, predicatives from norm-hook-lex-item.
+; Need to worry about the relationship between the two.
+
+; ASF 2011-10-20 basic-mod-adj-lex should not inherit from
+; raise-index-mod-lex-item: this leads to conflicting index values
+; (event for adj, index for nouns) preventing coordination from working
+; changed to norm-sem-lex-item.
+
+; TJT 2014-05-01 raise-index-mod-lex-item incorrectly identifies the
+; modificand's index with the modifier's index, which is incorrect. The MOD
+; value's index should be the XARG / ARG1 of the modifier,
+; as in intersective-mod-lex
+
+;basic-mod-adj-lex := basic-adjective-lex & norm-sem-lex-item.
+;basic-scopal-mod-adj-lex := basic-mod-adj-lex & scopal-mod-lex.
+;basic-int-mod-adj-lex := basic-mod-adj-lex & intersective-mod-lex.
+;basic-nomod-adj-lex := basic-adjective-lex & no-mod-lex & norm-hook-lex-item.
+
+; TJT 2014-04-24 New adjective hierarchy
+; TJT 2014-09-04 Most of the adjective hierarchy is now calculated for mylanguage.tdl in order to accomodate argument agreement languages.
+; TJT 2015-02-03 Adjective's specifiers are degree words, currently modeled as adverbs. One day a degree word category should probably be made...
+
+basic-adjective-lex := norm-sem-lex-item &
+  [ SYNSEM [ LOCAL [ CAT [ HEAD adj,
+                           VAL [ COMPS < >,
+                                 SPEC < >,
+                                 SPR.FIRST.LOCAL [ CAT.HEAD adv,
+                           CONT.HOOK.XARG #index ] ] ] ],
+             LKEYS.KEYREL event-relation &
+                    [ ARG0 #index ] ] ].
+
+basic-intersective-adjective-lex := basic-adjective-lex &
+  [ SYNSEM [ LOCAL.CONT.HOOK.XARG ref-ind & #xarg,
+             LKEYS.KEYREL.ARG1 #xarg ] ].
+
+; Scopal Adjectives
+; TJT 2014-05-07 Trying to fit scopals back into new hierarchy.
+; Use with caution!
+
+basic-scopal-mod-adj-lex := basic-adjective-lex & scopal-mod-lex.
+
+;;; Adpositions
+
+
+basic-adposition-lex := single-rel-lex-item & basic-icons-lex-item &
+  [ SYNSEM [ LOCAL [ CAT [ HEAD adp,
+                           VAL.COMPS < [ LOCAL [ CAT cat-sat,
+                                                 CONT.HOOK [ INDEX #ind,
+                                                             ICONS-KEY.IARG1 #clause ] ] ] > ],
+                     CONT.HOOK.CLAUSE-KEY #clause ],
+             LKEYS.KEYREL arg12-ev-relation & [ ARG2 #ind ] ] ].
+
+basic-mod-adp-lex := basic-adposition-lex & norm-sem-lex-item.
+basic-scopal-mod-adposition-lex := basic-mod-adp-lex & scopal-mod-lex.
+basic-int-mod-adposition-lex := basic-mod-adp-lex & intersective-mod-lex.
+basic-nomod-adposition-lex := basic-adposition-lex & no-mod-lex & norm-hook-lex-item.
+
+; TJT 2014-04-24 Removing raise-index-mod-lex-item from basic-adverb-lex:
+; replacing with norm-ltop-lex-item. See below for more info.
+
+basic-adverb-lex := single-rel-lex-item & norm-ltop-lex-item & norm-zero-arg &
+  [ SYNSEM [ LOCAL.CAT.HEAD adv,
+             LKEYS.KEYREL event-relation ] ].
+
+; TJT 2014-09-05 As a scopal modifier, basic-scopal-adverb-lex needs to
+; identify its MOD's INDEX with its own INDEX: adding raise-index-mod-lex-item.
+
+basic-scopal-adverb-lex := basic-adverb-lex & scopal-mod-lex & raise-index-mod-lex-item.
+basic-int-adverb-lex := basic-adverb-lex & intersective-mod-lex.
+
+; Anticipate subtypes of basic-noun-lex for common nouns,
+; proper nouns, and pronouns.  All are treated as norm-sem-lex-item
+; (i.e., only introducing a single relation, and no H-CONS).  One
+; might think otherwise based on canonical examples from familiar
+; languages in which pronouns and proper nouns don't have determiners.
+; However, even in languages like English, we find examples like
+; "The Kim that I know is younger than the one that you know."
+; So, rather than build the quantifier for proper nouns/pronouns
+; into the lexical entry, use (potentially obligatory) non-branching
+; rules to introduce the quantifier and discharge the SPR requirement.
+
+basic-noun-lex := norm-sem-lex-item & basic-icons-lex-item &
+  [ SYNSEM [ LOCAL.CAT.HEAD noun,
+             LKEYS.KEYREL noun-relation ]].
+
+; Note the use of the feature SPEC in basic-determiner-lex.
+; This is important semantically to allow the determiner to grab
+; onto the INDEX and LTOP of the N' it combines with.  Elsewhere
+; in the lexical types we have avoided mentioning the valence features,
+; believing the mapping from ARG-ST to valence features to be somewhat
+; language-specific.  In this case, however, it does not concern
+; a mapping to ARG-ST.
+
+basic-determiner-lex := no-ltop-lex-item &
+  [ SYNSEM [ LOCAL [ CAT [ HEAD det,
+			   VAL.SPEC.FIRST.LOCAL.CONT.HOOK [ INDEX #ind,
+							    LTOP #larg ]],
+		     CONT [ HCONS.LIST < qeq &
+					 [ HARG #harg,
+					   LARG #larg ] >,
+			    RELS.LIST < relation > ] ],
+	     LKEYS.KEYREL quant-relation &
+		   [ ARG0 #ind,
+		     RSTR #harg ] ] ].
+
+; SSH 2013-12-07: Some determiners mark information structure.
+infostr-marking-determiner-lex := basic-determiner-lex & one-icons-lex-item &
+  [ SYNSEM.LOCAL [ CAT.VAL.SPEC.FIRST.LOCAL.CONT.HOOK [ INDEX #target,
+							ICONS-KEY #icons ],
+		   CONT.ICONS.LIST < info-str & #icons & [ IARG2 #target] > ] ].
+
+
+; Subordinating conjunctions take two clauses, one as an argument
+; (i.e., element of ARG-ST) and one as modifiee.  We allow quantifiers
+; to scope between the messages of the clauses and the subord-relation
+; in order to capture the ambiguity of:
+
+; No one drinks coffee because it tastes good.
+
+; We are interested in examples from languages where the analogous
+; sentence is not analogously ambiguous.
+
+; No hypothesis yet about the HEAD value of these cross-linguistically.
+
+; ERB 2007-01-21 Quickly trying to bring this into the non-message
+; universe.  I'm not sure why we needed space bewteen the subord-relation
+; and the messages, nor if the equivalent thing can't be modeled without
+; messages.  Isn't enough for the quantifiers to be able to out-scope
+; the subord-relation?
+
+; basic-subord-conjunction-lex := basic-one-arg &
+;   [ ARG-ST < [ LOCAL.CONT.HOOK.LTOP #ltop1 ] >,
+;     SYNSEM [ LOCAL [ CAT.HEAD.MOD < [ LOCAL.CONT.HOOK.LTOP #ltop2 ] >,
+; 		     CONT [ HCONS <! qeq &
+; 				   [ HARG #harg,
+; 				     LARG #larg ] !>,
+; 			    RELS <! relation,
+; 				  message &
+; 				  [ LBL #msg,
+; 				    PRED proposition_m_rel,
+; 				    MARG #harg ] !>,
+; 			    HOOK [ LTOP #msg ] ] ],
+; 	     LKEYS.KEYREL subord-relation &
+; 		   [ LBL #larg,
+; 		     L-HNDL #ltop1,
+; 		     R-HNDL #ltop2 ] ] ].
+
+
+basic-subord-conjunction-lex := basic-one-arg &
+  [ ARG-ST < [ LOCAL.CONT.HOOK.LTOP #ltop1 ] >,
+    SYNSEM [ LOCAL [ CAT.HEAD.MOD < [ LOCAL.CONT.HOOK.LTOP #ltop2 ] >,
+		     CONT [ HCONS.LIST < >,
+			    RELS.LIST < relation >,
+			    HOOK [ LTOP #ltop ] ] ],
+	     LKEYS.KEYREL subord-relation &
+		   [ LBL #ltop,
+		     L-HNDL #ltop1,
+		     R-HNDL #ltop2 ] ] ].
+
+
+
+; Coming soon:
+; Lexical type for negative particles like English "not"
+; Lexical type for WH elements
+; Documentation listing the phenomena handled by these lexical types.
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Coordination (added by sfd 08/02/2005)
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Two relations used in coordination:
+;
+; implicit-coord-rel: used when there's no overt conjunction (or
+; morpheme) providing the coordination relation.
+;
+; null-coord-rel: used when a conjunction contributes *no* relation.
+
+; TJT 2014-05-07 Changing to "implicit_coord_rel" and "null_coord_rel" at
+; ACE's suggestion, which claims the unquoted versions are deprecated
+
+;implicit-coord-rel := coordination-relation &
+;  [ PRED 'implicit_coord_rel ].
+;null-coord-rel := coordination-relation &
+;  [ PRED 'null_coord_rel ].
+
+implicit-coord-rel := coordination-relation &
+  [ PRED "implicit_coord_rel" ].
+null-coord-rel := coordination-relation &
+  [ PRED "null_coord_rel" ].
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Conjunction parts of speech
+
+basic-conj-lex := norm-zero-arg & no-hcons-lex-item &
+  [ CFORM string ].
+
+conj-lex := basic-conj-lex & single-rel-lex-item &
+  [ SYNSEM [ LOCAL [ CAT [ HEAD conj & [ MOD null ],
+                           VAL [ SPR < >,
+                                 COMPS < >,
+                                 SUBJ < > ]],
+                     CONT [ HOOK [ LTOP #ltop,
+                                   INDEX #index ],
+                            RELS.LIST.FIRST #keyrel ]],
+             LKEYS.KEYREL #keyrel & coordination-relation & [ LBL #ltop,
+                                                              C-ARG #index ]]].
+
+; A nosem-conj-lex is a conjunction that contributes no relation.
+; Used below in "omnisyndeton" coordination.
+
+nosem-conj-lex := basic-conj-lex &
+  [ SYNSEM [ LOCAL [ CAT [ HEAD conj & [ MOD null ],
+                           VAL [ SPR < >,
+                                 COMPS < >,
+                                 SUBJ < > ]],
+                     CONT.RELS.LIST < > ]]].
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Coordination phrases and rules
+coord-phrase := binary-phrase &
+  [ SYNSEM [ LOCAL [ COORD-STRAT #cstrat,
+                   CAT [ HEAD.MOD #mod,
+                         VAL #val ] ],
+	     NON-LOCAL #nl ],
+    LCOORD-DTR #ldtr & sign & [ SYNSEM [ LOCAL [ CAT [ HEAD.MOD #mod,
+                                                     VAL #val ] ],
+				         NON-LOCAL #nl ] ],
+    RCOORD-DTR #rdtr & sign & [ SYNSEM [ LOCAL [ COORD-STRAT #cstrat,
+                                               CAT [ HEAD.MOD #mod,
+                                                     VAL #val ] ],
+					 NON-LOCAL #nl ] ],
+    ARGS < #ldtr, #rdtr > ].
+
+topormid-coord-phrase := coord-phrase &
+  [ C-CONT.HOOK [ LTOP #lbl, INDEX #carg ],
+    LCOORD-DTR.SYNSEM.LOCAL.CONT.HOOK.INDEX #lind,
+    RCOORD-DTR.SYNSEM.LOCAL [ COORD-REL [ LBL #lbl,
+                                          C-ARG #carg,
+                                          L-INDEX #lind,
+                                          R-INDEX #rind ],
+                              CONT.HOOK.INDEX #rind ]].
+
+top-coord-rule := topormid-coord-phrase &
+  [ SYNSEM.LOCAL.COORD - ].
+
+mid-coord-rule := topormid-coord-phrase &
+  [ SYNSEM.LOCAL [ COORD +,
+                   COORD-REL implicit-coord-rel ]].
+
+bottom-coord-phrase := phrase &
+  [ SYNSEM.NON-LOCAL #nl,
+    CONJ-DTR sign,
+    NONCONJ-DTR sign & [ SYNSEM.NON-LOCAL #nl ] ].
+
+unary-bottom-coord-rule := bottom-coord-phrase & unary-phrase &
+  [ SYNSEM.LOCAL [ CAT [ HEAD.MOD #mod,
+                         VAL #val ],
+                   COORD +,
+                   COORD-REL #crel ],
+    C-CONT [ HOOK [ INDEX #rind ],
+	     RELS.LIST < #crel >,
+	     HCONS.LIST < > ],
+    NONCONJ-DTR #ncdtr,
+    ARGS < #ncdtr & [ SYNSEM.LOCAL [ CAT [ HEAD.MOD #mod,
+                                           VAL #val ],
+                                     COORD -,
+                                     CONT.HOOK [ INDEX #rind ]]] > ].
+
+infl-bottom-coord-rule := add-only-rule &
+			  inflecting-lex-rule &
+  [ INFLECTED infl-satisfied,
+    DTR.INFLECTED inflected,
+    SYNSEM.LOCAL [ COORD +,
+                   COORD-REL #crel ],
+    C-CONT [ RELS.LIST < #crel >,
+             HCONS.LIST < > ]].
+
+binary-bottom-coord-rule := bottom-coord-phrase & binary-phrase &
+  [ SYNSEM.LOCAL [ CAT [ HEAD.MOD #mod,
+                         VAL #val ],
+                   COORD +,
+                   COORD-REL #crel,
+                   COORD-STRAT #cform ],
+    C-CONT [ HOOK [ INDEX #rind ],
+	     RELS.LIST < >,
+	     HCONS.LIST < > ],
+    CONJ-DTR conj-lex & [ CFORM #cform,
+                          SYNSEM.LKEYS.KEYREL #crel ],
+    NONCONJ-DTR [ SYNSEM.LOCAL [ CAT [ HEAD.MOD #mod,
+                                       VAL #val ],
+                                 COORD -,
+                                 CONT.HOOK [ INDEX #rind ]]]].
+
+conj-first-bottom-coord-rule := binary-bottom-coord-rule &
+  [ CONJ-DTR #cdtr,
+    NONCONJ-DTR #ncdtr,
+    ARGS < #cdtr, #ncdtr > ].
+
+conj-last-bottom-coord-rule := binary-bottom-coord-rule &
+  [ CONJ-DTR #cdtr,
+    NONCONJ-DTR #ncdtr,
+    ARGS < #ncdtr, #cdtr > ].
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; *syndeton rules: Rules that describe the different kinds of marking
+; strategies used for coordination in various languages.
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; monopoly*: Mandatory monosyndeton with optional polysyndeton.  This
+; is the familiar Indo-European pattern, in which at least one
+; coordinator is mandatory ("A B and C") and more than one is possible
+; ("A and B and C").
+
+monopoly-top-coord-rule := top-coord-rule &
+  [ LCOORD-DTR.SYNSEM.LOCAL.COORD -,
+    RCOORD-DTR.SYNSEM.LOCAL.COORD + ].
+
+monopoly-mid-coord-rule := mid-coord-rule &
+  [ LCOORD-DTR.SYNSEM.LOCAL.COORD -,
+    RCOORD-DTR.SYNSEM.LOCAL.COORD + ].
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; apoly: These rules handle two coordination strategies:
+;
+; Asyndeton, in which no coordinators appear: "A B C".
+;
+; Polysyndeton, in which an N-way coordination is marked with  N-1
+; coordinators:
+;     "A and B and C", not "A B and C"
+;
+; For both of these, there is NO MID RULE.  The difference between
+; them is captured in the bottom rule: asyndeton will have a unary
+; (and non-inflecting) bottom rule.
+
+apoly-top-coord-rule := top-coord-rule &
+  [ LCOORD-DTR.SYNSEM.LOCAL.COORD -,
+    RCOORD-DTR.SYNSEM.LOCAL.COORD + ].
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; omni: This handles a variety of polysyndeton, called here for
+; clarity "omnisyndeton", in which for an N-way coordination, N
+; coordinators are required:
+;
+;     "and A and B and C" or "A and B and C and".
+;
+; This coordination strategy requires a significantly approach than
+; the others.  Rather than a single kind of bottom rule, there are two
+; kinds.  The first kind, still called "bottom", handles the single
+; lowest (rightmost) coordinand.  The other kind, called "left",
+; handles all other coordinands (it's called "left" because it is
+; always the left daughter of a top- or mid- rule).  Because there are
+; N coordinators for N coordinands in this strategy, one of the
+; conjunctions must contribute *no* coordination relation, or else
+; we'd have too many.  The bottom rule is the exceptional one: it
+; requires that its conjunction daughter be of type nosem-conj-lex.
+;
+; The mid- and top- rules are also slightly different from the other
+; coordination strategies, in that they take the COORD-REL from the
+; *left* daughter instead of the right.
+
+omni-binary-bottom-coord-rule := bottom-coord-phrase & binary-phrase &
+  [ SYNSEM.LOCAL [ CAT [ HEAD.MOD #mod,
+                         VAL #val ],
+                   COORD +,
+                   COORD-REL null-coord-rel,
+                   COORD-STRAT #cform ],
+    C-CONT [ HOOK [ INDEX #rind ],
+	     RELS.LIST < >,
+	     HCONS.LIST < > ],
+    CONJ-DTR nosem-conj-lex & [ CFORM #cform ],
+    NONCONJ-DTR [ SYNSEM.LOCAL [ CAT [ HEAD.MOD #mod,
+                                       VAL #val ],
+                                 COORD -,
+                                 CONT.HOOK [ INDEX #rind ]]]].
+
+omni-conj-first-bottom-coord-rule := omni-binary-bottom-coord-rule &
+  [ CONJ-DTR #cdtr,
+    NONCONJ-DTR #ncdtr,
+    ARGS < #cdtr, #ncdtr > ].
+
+omni-conj-last-bottom-coord-rule := omni-binary-bottom-coord-rule &
+  [ CONJ-DTR #cdtr,
+    NONCONJ-DTR #ncdtr,
+    ARGS < #ncdtr, #cdtr > ].
+
+omni-left-coord-rule := bottom-coord-phrase.
+
+omni-binary-left-coord-rule := omni-left-coord-rule & binary-phrase &
+  [ SYNSEM.LOCAL [ CAT [ HEAD.MOD #mod,
+                         VAL #val ],
+                   COORD -,
+                   COORD-REL #crel,
+                   COORD-STRAT #cform ],
+    C-CONT [ HOOK [ INDEX #rind ],
+	     RELS.LIST < >,
+	     HCONS.LIST < > ],
+    CONJ-DTR conj-lex & [ CFORM #cform,
+                          SYNSEM.LKEYS.KEYREL #crel ],
+    NONCONJ-DTR sign & [ SYNSEM.LOCAL [ CAT [ HEAD.MOD #mod,
+                                              VAL #val ],
+                                        COORD -,
+                                        CONT.HOOK [ INDEX #rind ]]]].
+
+omni-conj-first-left-coord-rule := omni-binary-left-coord-rule &
+  [ CONJ-DTR #cdtr,
+    NONCONJ-DTR #ncdtr,
+    ARGS < #cdtr, #ncdtr > ].
+
+omni-conj-last-left-coord-rule := omni-binary-left-coord-rule &
+  [ CONJ-DTR #cdtr,
+    NONCONJ-DTR #ncdtr,
+    ARGS < #ncdtr, #cdtr > ].
+
+
+infl-left-coord-rule := omni-left-coord-rule &
+		     	infl-add-only-lex-rule &
+  [ INFLECTED infl-satisfied,
+    DTR.INFLECTED inflected,
+    SYNSEM.LOCAL [ COORD-REL #crel ],
+    C-CONT [ RELS.LIST < #crel >,
+             HCONS.LIST < > ]].
+
+omni-coord-phrase := coord-phrase &
+  [ SYNSEM.LOCAL.COORD-STRAT #cstrat,
+    C-CONT.HOOK [ LTOP #lbl, INDEX #carg ],
+    LCOORD-DTR omni-left-coord-rule &
+               [ SYNSEM.LOCAL [ COORD-STRAT #cstrat,
+                                COORD-REL [ LBL #lbl,
+                                            C-ARG #carg,
+                                            L-INDEX #lind,
+                                            R-INDEX #rind ],
+                                CONT.HOOK.INDEX #lind ]],
+    RCOORD-DTR.SYNSEM.LOCAL [ COORD +,
+                              CONT.HOOK.INDEX #rind ]].
+
+omni-top-coord-rule := omni-coord-phrase &
+  [ SYNSEM.LOCAL.COORD - ].
+
+omni-mid-coord-rule := omni-coord-phrase &
+  [ SYNSEM.LOCAL.COORD + ].
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; N Coordination rules
+
+n-coord-phrase := coord-phrase &
+  [ SYNSEM.LOCAL.CAT [ HEAD noun,
+    		       VAL.SPR < [ ] > ],
+    LCOORD-DTR.SYNSEM.LOCAL.CAT.HEAD noun,
+    RCOORD-DTR.SYNSEM.LOCAL.CAT.HEAD noun ].
+
+basic-n-top-coord-rule := n-coord-phrase &
+  [ C-CONT [ RELS.LIST < >,
+	     HCONS.LIST < > ]].
+
+basic-n-mid-coord-rule := n-coord-phrase &
+  [ SYNSEM.LOCAL.COORD-REL #crel,
+    C-CONT [ RELS.LIST < #crel >,
+	     HCONS.LIST < > ]].
+
+n-bottom-coord-phrase := bottom-coord-phrase &
+  [ SYNSEM.LOCAL.CAT [ HEAD noun,
+                       VAL.SPR < [ ] > ],
+    NONCONJ-DTR.SYNSEM.LOCAL.CAT [ HEAD noun,
+                                   VAL.SPR < [ ] > ]].
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; NP Coordination rules
+
+np-coord-phrase := coord-phrase &
+  [ SYNSEM.LOCAL.CAT [ HEAD noun,
+    		       VAL.SPR < > ],
+    LCOORD-DTR.SYNSEM.LOCAL.CAT.HEAD noun,
+    RCOORD-DTR.SYNSEM.LOCAL.CAT.HEAD noun ].
+
+basic-np-top-coord-rule := np-coord-phrase &
+  [ C-CONT [ HOOK [ LTOP #ltop,
+                    INDEX #ind ],
+             RELS.LIST < [ PRED "exist_q_rel", ARG0 #ind, RSTR #ltop ] >,
+	     HCONS.LIST < > ]].
+
+basic-np-mid-coord-rule := np-coord-phrase &
+  [ SYNSEM.LOCAL.COORD-REL #crel,
+    C-CONT [ RELS.LIST < [ ARG0 #carg, RSTR #lbl ], #crel >,
+	     HCONS.LIST < > ],
+    RCOORD-DTR.SYNSEM.LOCAL.COORD-REL [ LBL #lbl,
+                                        C-ARG #carg ]].
+
+np-bottom-coord-phrase := bottom-coord-phrase &
+  [ SYNSEM.LOCAL.CAT [ HEAD noun,
+                       VAL.SPR < > ],
+    NONCONJ-DTR.SYNSEM.LOCAL.CAT [ HEAD noun,
+                                   VAL.SPR < > ]].
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Event Coordination rules (for verbs and adjectives)
+
+event-coord-phrase := coord-phrase &
+  [ SYNSEM.LOCAL.CONT.HOOK.INDEX [ E #tam ],
+    LCOORD-DTR.SYNSEM.LOCAL.CONT.HOOK.LTOP #lhndl,
+    RCOORD-DTR.SYNSEM.LOCAL [ COORD-REL [ L-HNDL #lhndl,
+                                          R-HNDL #rhndl,
+                                          R-INDEX.E #tam ],
+                              CONT.HOOK.LTOP #rhndl ]].
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; ADJ Coordination rules
+
+adj-coord-phrase := event-coord-phrase &
+  [ SYNSEM.LOCAL.CAT [ POSTHEAD #ph,
+                       HEAD adj ],
+    LCOORD-DTR.SYNSEM.LOCAL.CAT [ POSTHEAD #ph,
+                                  HEAD adj ],
+    RCOORD-DTR.SYNSEM.LOCAL.CAT [ POSTHEAD #ph,
+                                  HEAD adj ]].
+
+basic-adj-top-coord-rule := adj-coord-phrase &
+  [ C-CONT [ RELS.LIST < >,
+	     HCONS.LIST < > ]].
+
+basic-adj-mid-coord-rule := adj-coord-phrase &
+  [ SYNSEM.LOCAL.COORD-REL #crel,
+    C-CONT [ RELS.LIST < #crel >,
+	     HCONS.LIST < > ]].
+
+adj-bottom-coord-phrase := bottom-coord-phrase &
+  [ SYNSEM.LOCAL.CAT.HEAD adj,
+    NONCONJ-DTR.SYNSEM.LOCAL.CAT.HEAD adj ].
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; ADV Coordination rules
+
+adv-coord-phrase := event-coord-phrase &
+  [ SYNSEM.LOCAL.CAT [ POSTHEAD #ph,
+                       HEAD adv ],
+    LCOORD-DTR.SYNSEM.LOCAL.CAT [ POSTHEAD #ph,
+                                  HEAD adv ],
+    RCOORD-DTR.SYNSEM.LOCAL.CAT [ POSTHEAD #ph,
+                                  HEAD adv ]].
+
+basic-adv-top-coord-rule := adv-coord-phrase &
+  [ C-CONT [ RELS.LIST < >,
+	     HCONS.LIST < > ]].
+
+basic-adv-mid-coord-rule := adv-coord-phrase &
+  [ SYNSEM.LOCAL.COORD-REL #crel,
+    C-CONT [ RELS.LIST < #crel >,
+	     HCONS.LIST < > ]].
+
+adv-bottom-coord-phrase := bottom-coord-phrase &
+  [ SYNSEM.LOCAL.CAT.HEAD adv,
+    NONCONJ-DTR.SYNSEM.LOCAL.CAT.HEAD adv ].
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; VP Coordination rules
+
+vp-coord-phrase := event-coord-phrase &
+  [ SYNSEM.LOCAL.CAT [ HEAD verb,
+                       VAL.SUBJ < [ ] > ],
+    LCOORD-DTR.SYNSEM.LOCAL.CAT.HEAD verb,
+    RCOORD-DTR.SYNSEM.LOCAL.CAT.HEAD verb ].
+
+basic-vp-top-coord-rule := vp-coord-phrase &
+  [ C-CONT [ RELS.LIST < >,
+	     HCONS.LIST < > ]].
+
+basic-vp-mid-coord-rule := vp-coord-phrase &
+  [ SYNSEM.LOCAL.COORD-REL #crel,
+    C-CONT [ RELS.LIST < #crel >,
+	     HCONS.LIST < > ]].
+
+vp-bottom-coord-phrase := bottom-coord-phrase &
+  [ SYNSEM.LOCAL.CAT [ HEAD verb,
+                       VAL.SUBJ < [ ] > ],
+    NONCONJ-DTR.SYNSEM.LOCAL.CAT [ HEAD verb,
+                                   VAL.SUBJ < [ ] > ]].
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; S Coordination rules
+
+s-coord-phrase := event-coord-phrase &
+  [ SYNSEM.LOCAL.CAT [ HEAD verb,
+                       VAL.SUBJ < > ],
+    LCOORD-DTR.SYNSEM.LOCAL.CAT.HEAD verb,
+    RCOORD-DTR.SYNSEM.LOCAL.CAT.HEAD verb ].
+
+basic-s-top-coord-rule := s-coord-phrase &
+  [ C-CONT [ RELS.LIST < >,
+	     HCONS.LIST < > ]].
+
+basic-s-mid-coord-rule := s-coord-phrase &
+  [ SYNSEM.LOCAL.COORD-REL #crel,
+    C-CONT [ RELS.LIST < #crel >,
+	     HCONS.LIST < > ]].
+
+s-bottom-coord-phrase := bottom-coord-phrase &
+  [ SYNSEM.LOCAL.CAT [ HEAD verb,
+                       VAL.SUBJ < > ],
+    NONCONJ-DTR.SYNSEM.LOCAL.CAT [ HEAD verb,
+                                   VAL.SUBJ < > ]].
+
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Information Structure
+; (SSH 2012-02-17)
+; (SSH 2013-02-13): revised
+
+
+;;; lexical marking (a value of cat)
+mkg := avm & [ FC luk, TP luk ].
+fc := mkg & [ FC + ].
+non-tp := mkg & [ TP - ].
+tp := mkg & [ TP + ].
+non-fc := mkg & [ FC - ].
+fc-only := fc & non-tp.
+fc-+-tp := tp & fc.
+unmkg := non-tp & non-fc.
+tp-only := tp & non-fc.
+
+mkg-tp-lex := lex-item &
+  [ SYNSEM.LOCAL.CAT.MKG tp ].
+mkg-tp-only-lex := lex-item &
+  [ SYNSEM.LOCAL.CAT.MKG tp-only ].
+mkg-fc-lex := lex-item &
+  [ SYNSEM.LOCAL.CAT.MKG fc ].
+mkg-fc-only-lex := lex-item &
+  [ SYNSEM.LOCAL.CAT.MKG fc-only ].
+mkg-unmkg-lex := lex-item &
+  [ SYNSEM.LOCAL.CAT.MKG unmkg ].
+
+same-mkg-phrase := headed-phrase &
+  [ SYNSEM.LOCAL.CAT.MKG #mkg,
+    HEAD-DTR.SYNSEM.LOCAL.CAT.MKG #mkg ].
+
+
+;;; sentential forms (syntactic types which make differences in
+;;; information structure)
+sform := basic-binary-headed-phrase.
+
+focality := sform & [ SYNSEM.LOCAL.CAT.MKG fc-only ].
+topicality := sform.
+
+narrow-focus := focality &
+ [ SYNSEM.LIGHT - ].
+wide-focus := focality.
+
+topicless := topicality &
+ [ HEAD-DTR.SYNSEM.LOCAL.CAT.MKG non-tp,
+   NON-HEAD-DTR.SYNSEM.LOCAL.CAT.MKG non-tp ].
+topic-comment := topicality &
+ [ SYNSEM.LOCAL.CAT.MKG tp,
+   NON-HEAD-DTR.SYNSEM.LOCAL.CAT.MKG tp ].
+
+focus-bg := narrow-focus & topicless.
+all-focus := wide-focus & topicless &
+  [ HEAD-DTR.SYNSEM.LOCAL.CAT.MKG fc ].
+
+frame-setting := topic-comment &
+  [ SYNSEM.L-PERIPH +,
+    NON-HEAD-DTR.SYNSEM.L-PERIPH + ].
+non-frame-setting := topic-comment &
+  [ HEAD-DTR.SYNSEM.LOCAL.CAT.MKG non-tp ].
+
+;;; icons-realted lexrules
+no-icons-lexrule := lex-rule & [ C-CONT.ICONS.LIST < > ].
+
+add-icons-rule := lex-rule &
+  [ SYNSEM.LOCAL.CONT.HOOK [ INDEX #index,
+                             ICONS-KEY #icons ],
+    C-CONT.ICONS.LIST < info-str & #icons & [ IARG2 #index ] > ].
+
+add-icons-subj-rule := lex-rule &
+  [ SYNSEM.LOCAL.CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK [ INDEX #index,
+                                                      ICONS-KEY #icons ],
+    C-CONT.ICONS.LIST < info-str & #icons & [ IARG2 #index ] > ].
+
+add-icons-comp-rule := lex-rule &
+  [ SYNSEM.LOCAL.CAT.VAL.COMPS.FIRST.LOCAL.CONT.HOOK [ INDEX #index,
+                                                       ICONS-KEY #icons ],
+    C-CONT.ICONS.LIST < info-str & #icons & [ IARG2 #index ] > ].
+
+add-icons-subj-verb-rule := lex-rule &
+  [ SYNSEM.LOCAL [ CONT.HOOK [ INDEX #index1,
+			       ICONS-KEY #icons1 ],
+		   CAT.VAL.SUBJ.FIRST.LOCAL.CONT.HOOK [ INDEX #index2,
+							ICONS-KEY #icons2 ] ],
+    C-CONT.ICONS.LIST < info-str & #icons1 & [ IARG2 #index1 ],
+			info-str & #icons2 & [ IARG2 #index2 ] > ].
+
+add-icons-comp-verb-rule := lex-rule &
+  [ SYNSEM.LOCAL [ CONT.HOOK [ INDEX #index1,
+			       ICONS-KEY #icons1 ],
+		   CAT.VAL.COMPS.FIRST.LOCAL.CONT.HOOK [ INDEX #index2,
+							ICONS-KEY #icons2 ] ],
+    C-CONT.ICONS.LIST < info-str & #icons1 & [ IARG2 #index1 ],
+			info-str & #icons2 & [ IARG2 #index2 ] > ].
+
+add-icons-subj-comp-rule := lex-rule &
+  [ SYNSEM.LOCAL.CAT.VAL [ SUBJ.FIRST.LOCAL.CONT.HOOK [ INDEX #index1,
+				                        ICONS-KEY #icons1 ],
+                           COMPS.FIRST.LOCAL.CONT.HOOK [ INDEX #index2,
+							 ICONS-KEY #icons2 ] ],
+    C-CONT.ICONS.LIST < info-str & #icons1 & [ IARG2 #index1 ],
+			info-str & #icons2 & [ IARG2 #index2 ] > ].
+
+add-icons-subj-comp-verb-rule := lex-rule &
+  [ SYNSEM.LOCAL [ CONT.HOOK [ INDEX #index1,
+			       ICONS-KEY #icons1 ],
+		   CAT.VAL [ SUBJ.FIRST.LOCAL.CONT.HOOK [ INDEX #index2,
+							  ICONS-KEY #icons2 ],
+			     COMPS.FIRST.LOCAL.CONT.HOOK [ INDEX #index3,
+							   ICONS-KEY #icons3 ] ] ],
+    C-CONT.ICONS.LIST < info-str & #icons1 & [ IARG2 #index1 ],
+			info-str & #icons2 & [ IARG2 #index2 ],
+			info-str & #icons3 & [ IARG2 #index3 ] > ].
+
+; ;;; PHON information
+
+; phon-min := avm  &
+;   [ ONSET onset ].
+
+; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; ;  PA      ; Pitch Accents
+; ;  BT      ; Boundary Tones
+; ;  UT      ; phonological UTterance
+; ;  IP      ; Intonational Phrase
+; ;  PHP     ; PHonological Phrase
+; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; phon := phon-min &
+;   [ PA tone-or-none,
+;     BT tone-or-none,
+;     UT epr,
+;     IP epr,
+;     PHP epr ].
+
+
+; onset := sort &
+;   [ --TL list ].
+
+; con-or-unk := onset.
+; voc-or-unk := onset.
+; con-or-voc := onset &
+;   [ --TL native-token-list ].
+; con := con-or-unk & con-or-voc.
+; voc := voc-or-unk & con-or-voc.
+; ; For unknown words
+; unk-onset := con-or-unk & voc-or-unk &
+;  [ --TL generic-token-list ].
+
+; native-token-list := list.
+; generic-token-list := list.
+
+
+; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; ;  EPR     ; Edges and PRominence
+; ;  LE      ; Left Edge
+; ;  RE      ; Right Edge
+; ;  DTE     ; Designated Terminal Element
+; ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; epr := avm &
+;   [ LE luk,
+;     RE luk,
+;     DTE luk ].
+
+
+; tone-or-none := avm.
+; no-tone := tone-or-none.
+; tone := tone-or-none.
+; simple-tone := tone.
+; complex-tone := tone.
+
+; ;basic tones
+; low := simple-tone.
+; high := simple-tone.
+
+; ;simple pitch accents
+; low-star := simple-tone.
+; high-star := simple-tone.
+
+; ;simple boundary tones
+; low-percent := simple-tone.
+; high-percent := simple-tone.
+
+; ;complex pitch accents
+; low-star-high := complex-tone.
+; low-high-star := complex-tone.
+; high-star-low := complex-tone.
+; high-low-star := complex-tone.
+
+; ;complex boundary tones on intonational phrases
+; low-low-percent := complex-tone.
+; low-high-percent := complex-tone.
+; high-low-percent := complex-tone.
+; high-high-percent := complex-tone.

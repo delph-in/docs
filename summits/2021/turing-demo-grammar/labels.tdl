@@ -1,0 +1,230 @@
+;;; -*- Mode: TDL; Package: LKB -*-
+;;;
+;;; $Id: labels.tdl,v 1.8 2008-05-23 01:44:21 sfd Exp $
+
+;;; These label definitions are used by the LKB to put
+;;; labels on the nodes of the trees it displays.  They
+;;; are solely for the convenience of the grammar developer
+;;; and do not carry theoretical significance.  Accordingly,
+;;; though they are provided as part of the Matrix distribution,
+;;; users should customize them without hesitation.
+
+;;; NB: This is one tdl file in which order matters.
+;;; The LKB will choose the first label it encounters (in the
+;;; order below) which is consistent with the node it is
+;;; labeling.  If two labels are consistent with each other,
+;;; the more specific one must appear first in this list, or
+;;; it will never get used.
+
+n-mid-label := label &
+            [ SYNSEM.LOCAL [ CAT [ HEAD noun,
+                                   VAL.SPR < [ ] > ],
+                             COORD +,
+			     COORD-REL implicit-coord-rel ],
+	      LABEL-NAME "NP-M" ].
+
+n-bottom-label := label &
+            [ SYNSEM.LOCAL [ CAT [ HEAD noun,
+                                   VAL.SPR < [ ] > ],
+                             COORD + ],
+              LABEL-NAME "NP-B" ].
+
+n-label := label & 
+	   [ SYNSEM.LOCAL [ CAT [ HEAD noun,
+                                  VAL.SPR < [ ] > ],
+                            COORD-STRAT "" ],
+             LABEL-NAME "N" ].
+
+n-top-label := label &
+            [ SYNSEM.LOCAL.CAT [ HEAD noun,
+                                 VAL.SPR < [ ] > ],
+              LABEL-NAME "NP-T" ].
+
+np-mid-label := label &
+            [ SYNSEM.LOCAL [ CAT [ HEAD noun,
+                                   VAL.SPR < > ],
+                             COORD +,
+			     COORD-REL implicit-coord-rel ],
+	      LABEL-NAME "NP-M" ].
+
+np-bottom-label := label &
+            [ SYNSEM.LOCAL [ CAT [ HEAD noun,
+                                   VAL.SPR < > ],
+                             COORD + ],
+              LABEL-NAME "NP-B" ].
+
+np-label := label & 
+            [ SYNSEM.LOCAL [ CAT [ HEAD noun,
+                                   VAL.SPR < > ],
+                             COORD-STRAT "" ],
+              LABEL-NAME "NP" ].
+
+np-top-label := label & 
+	    [ SYNSEM.LOCAL.CAT [ HEAD noun,
+				 VAL.SPR < > ],
+	      LABEL-NAME "NP-T" ].
+
+v-mid-label := label &
+	   [ SYNSEM.LOCAL [ CAT [ HEAD verb,
+                                  VAL.COMPS < [ ], ... > ],
+                            COORD +,
+                            COORD-REL implicit-coord-rel ],
+             LABEL-NAME "V-M" ].
+
+v-bottom-label := label &
+	   [ SYNSEM.LOCAL [ CAT [ HEAD verb,
+                                  VAL.COMPS < [ ], ... > ],
+                            COORD + ],
+             LABEL-NAME "V-B" ].
+
+v-label := label & 
+           [ SYNSEM.LOCAL [ CAT [ HEAD verb,
+                                  VAL.COMPS < [ ], ... > ],
+                            COORD-STRAT "" ],
+             LABEL-NAME "V" ].
+
+v-top-label := label & 
+	   [ SYNSEM.LOCAL.CAT [ HEAD verb,
+				VAL.COMPS < [ ], ... > ],
+	     LABEL-NAME "V-T" ].
+
+vp-mid-label := label &
+	    [ SYNSEM.LOCAL [ CAT [ HEAD verb,
+                                   VAL [ COMPS < >,
+                                         SUBJ < [ ] > ]],
+                             COORD +,
+                             COORD-REL implicit-coord-rel ],
+              LABEL-NAME "VP-M" ].
+
+vp-bottom-label := label &
+	    [ SYNSEM.LOCAL [ CAT [ HEAD verb,
+                                   VAL [ COMPS < >,
+                                         SUBJ < [ ] > ]],
+                             COORD + ],
+              LABEL-NAME "VP-B" ].
+
+vp-label := label & 
+            [ SYNSEM.LOCAL [ CAT [ HEAD verb,
+                                   VAL [ COMPS < >,
+                                         SUBJ < [ ] > ]],
+                             COORD-STRAT "" ],
+              LABEL-NAME "VP" ].
+
+vp-top-label := label & 
+	    [ SYNSEM.LOCAL.CAT [ HEAD verb,
+				 VAL [ COMPS < >,
+				       SUBJ < [ ] > ]],
+	      LABEL-NAME "VP-T" ].
+
+s-mid-label := label &
+	   [ SYNSEM.LOCAL [ CAT [ HEAD verb,
+                                  VAL [ COMPS < >,
+                                        SUBJ < > ] ],
+                            COORD +,
+                            COORD-REL implicit-coord-rel ],
+             LABEL-NAME "S-M"].
+
+s-bottom-label := label &
+	   [ SYNSEM.LOCAL [ CAT [ HEAD verb,
+                                  VAL [ COMPS < >,
+                                        SUBJ < > ] ],
+                            COORD + ],
+             LABEL-NAME "S-B"].
+
+s-label := label &
+           [ SYNSEM.LOCAL [ CAT [ HEAD verb,
+                                  VAL [ COMPS < >,
+                                        SUBJ < > ] ],
+                            COORD-STRAT "" ],
+             LABEL-NAME "S"].
+
+s-top-label := label &
+	   [ SYNSEM.LOCAL.CAT [ HEAD verb,
+				VAL [ COMPS < >,
+				      SUBJ < > ] ],
+	     LABEL-NAME "S-T"].
+
+p-label := label & 
+	   [ SYNSEM.LOCAL.CAT [ HEAD adp,
+				VAL.COMPS < [ ], ... > ],
+	     LABEL-NAME "P" ].
+
+pp-label := label & 
+	    [ SYNSEM.LOCAL.CAT [ HEAD adp,
+				 VAL.COMPS < > ],
+	      LABEL-NAME "PP" ].
+
+c-label := label &
+	   [ SYNSEM.LOCAL.CAT [ HEAD comp,
+				VAL.COMPS < [ ], ... > ],
+	     LABEL-NAME "C" ].
+
+cp-label := label &
+	    [ SYNSEM.LOCAL.CAT [ HEAD comp,
+				 VAL.COMPS < > ],
+	      LABEL-NAME "CP"].
+
+det-label := label &
+	     [ SYNSEM.LOCAL.CAT.HEAD det,
+	       LABEL-NAME "D"].
+
+adv-mid-label := label & 
+	   [ SYNSEM.LOCAL [ CAT.HEAD adv,
+                            COORD +,
+                            COORD-REL implicit-coord-rel ],
+	     LABEL-NAME "ADV-M" ].
+
+adv-bottom-label := label & 
+	   [ SYNSEM.LOCAL [ CAT.HEAD adv,
+                            COORD + ],
+	     LABEL-NAME "ADV-B" ].
+
+adv-label := label & 
+	     [ SYNSEM.LOCAL [ CAT.HEAD adv,
+                              COORD-STRAT "" ],
+               LABEL-NAME "ADV" ].
+
+adv-top-label := label & 
+	     [ SYNSEM.LOCAL.CAT.HEAD adv,
+	       LABEL-NAME "ADV-T" ].
+
+adj-mid-label := label & 
+	   [ SYNSEM.LOCAL [ CAT.HEAD adj,
+                            COORD +,
+                            COORD-REL implicit-coord-rel ],
+	     LABEL-NAME "ADJ-M" ].
+
+adj-bottom-label := label & 
+	   [ SYNSEM.LOCAL [ CAT.HEAD adj,
+                            COORD + ],
+	     LABEL-NAME "ADJ-B" ].
+
+adj-label := label & 
+	   [ SYNSEM.LOCAL[ CAT.HEAD adj,
+                           COORD-STRAT "" ],
+	     LABEL-NAME "ADJ" ].
+
+adj-top-label := label & 
+	   [ SYNSEM.LOCAL.CAT.HEAD adj,
+	     LABEL-NAME "ADJ-T" ].
+
+conj-label := label & 
+	      [ SYNSEM.LOCAL.CAT.HEAD conj,
+		LABEL-NAME "CONJ" ].
+
+num-label := label & 
+	     [ SYNSEM.LOCAL.CAT [ HEAD num,
+				  VAL.COMPS < [ ], ... > ],
+	       LABEL-NAME "NUM" ].
+
+numbar-label := label &
+	     [ SYNSEM.LOCAL.CAT [ HEAD num,
+				  VAL [ COMPS < >,
+					SPR < [ ] > ]],
+	       LABEL-NAME "NUM-BAR" ].
+
+nump-label := label &
+	     [ SYNSEM.LOCAL.CAT [ HEAD num,
+				  VAL [ COMPS < >,
+					SPR < > ]],
+	       LABEL-NAME "NUMP" ].

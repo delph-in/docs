@@ -1,0 +1,48 @@
+;;; -*- Mode: TDL; Coding: utf-8 -*-
+;;; Nouns
+
+cat := common-noun-lex &
+  [ STEM < "cat" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_cat_n_rel" ].
+
+dog := common-noun-lex &
+  [ STEM < "dog" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_dog_n_rel" ].
+
+I := 1sg-nom-pronoun-noun-lex &
+  [ STEM < "I" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_pronoun_n_rel" ].
+
+me := 1sg-acc-pronoun-noun-lex &
+  [ STEM < "me" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_pronoun_n_rel" ].
+
+;;; Adjectives
+
+;;; Verbs
+
+dance := itr-verb-lex &
+  [ STEM < "dance" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_dance_v_rel" ].
+
+chase := tr-verb-lex &
+  [ STEM < "chase" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_chase_v_rel" ].
+
+give := ditr-verb-lex &
+  [ STEM < "give" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_give_v_rel" ].
+
+;;; Determiners
+
+the := det1-determiner-lex &
+  [ STEM < "the" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_the_q_rel" ].
+
+a := det2-determiner-lex &
+  [ STEM < "a" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_a_q_rel" ].
+
+many := det3-determiner-lex &
+  [ STEM < "many" >,
+    SYNSEM.LKEYS.KEYREL.PRED "_many_q_rel" ].

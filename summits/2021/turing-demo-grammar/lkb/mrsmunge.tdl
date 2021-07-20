@@ -1,0 +1,18 @@
+;;;
+;;; a couple of type declarations for MRS `munging' rules, e.g. to filter
+;;; semantically vacuous entries for more efficient generation or for transfer
+;;; in an MT set-up.
+;;;
+
+general_mrs_rule := avm &
+[ CONDITION mrs,
+  OUTPUT *top* ] .
+
+mrs_rule :=  general_mrs_rule &
+[ INPUT mrs,
+  CONDITION mrs,
+  OUTPUT mrs ] .
+
+generator_rule :=  general_mrs_rule &
+[ CONDITION mrs,
+  OUTPUT string ] .

@@ -1,0 +1,287 @@
+list := *top*.
+null := list.
+cons := list &
+  [ FIRST *top*,
+    REST list ].
+diff-list := *top* &
+  [ LIST list,
+    LAST list ].
+
+with-operation := *top* &
+  [ RESULT *top* ].
+
+; De Bruijn indices for variables
+index := *top*.
+zero := index.
+pos := index &
+  [ SUCC index ].
+; negative indices only for intermediate structures
+neg := index &
+  [ NEG-SUCC index ].
+
+lambda := *top* &
+  [ LAMBDA *top* ].
+
+apply := *top* &
+  [ FUNC *top*,
+    ARG *top* ].
+
+apply-with-outcome := apply &
+  [ FUNC reduce & [ RED #arg,
+                    RESULT #result ],
+    ARG #arg,
+    OUTCOME #result ].
+
+; to indicate that the expression cannot be simplified further
+frozen-apply := *top* &
+  [ FR-FUNC *top*,
+    FR-ARG *top* ].
+
+reduce := with-operation &
+  [ RED *top* ].
+; if the functor is a variable, no reduction is possible
+red-pos := reduce & pos &
+  [ RED #red,
+    SUCC #succ,
+    RESULT [ FR-FUNC.SUCC #succ,
+             FR-ARG #red ]].
+; this can recurse
+red-frozen-apply := reduce & frozen-apply &
+  [ RED #red,
+    FR-FUNC #func,
+    FR-ARG #arg,
+    RESULT [ FR-FUNC [ FR-FUNC #func,
+                       FR-ARG #arg ],
+             FR-ARG #red ]].
+; if the functor is a lambda expression, apply beta reduction
+red-lambda := reduce & lambda &
+  [ RED decrement & [ RESULT #red ],
+    LAMBDA decrement & [ RESULT [ SUB #red,
+                                  RESULT increment & [ RESULT #result ]]],
+    RESULT #result ].
+; if the functor is an application, do that first, then use the result
+red-apply := reduce & apply-with-outcome &
+  [ RED #red,
+    OUTCOME reduce & [ RED #red,
+                       RESULT #result ],
+    RESULT #result ].
+
+with-final-result := *top* &
+  [ FINAL-RESULT *top* ].
+
+apply-with-final-result := apply-with-outcome & with-final-result &
+  [ OUTCOME.FINAL-RESULT #final,
+    FINAL-RESULT #final ].
+frozen-apply-with-final-result := frozen-apply & with-final-result &
+  [ FR-FUNC.FINAL-RESULT #func,
+    FR-ARG.FINAL-RESULT #arg,
+    FINAL-RESULT [ FUNC #func,
+                   ARG #arg ]].
+pos-with-final-result := pos & with-final-result &
+  [ SUCC #succ,
+    FINAL-RESULT.SUCC #succ ].
+lambda-with-final-result := lambda & with-final-result &
+  [ LAMBDA with-final-result & [ FINAL-RESULT #lambda ],
+    FINAL-RESULT.LAMBDA #lambda ].
+
+with-double-copy := with-operation &
+  [ RESULT < *top*, *top* > ].
+index-with-double-copy := index & with-double-copy &
+  [ RESULT < index, index > ].
+zero-with-double-copy := zero & index-with-double-copy &
+  [ RESULT < zero, zero > ].
+pos-with-double-copy := pos & index-with-double-copy &
+  [ SUCC index-with-double-copy & [ RESULT < #1, #2 > ],
+    RESULT < [ SUCC #1 ], [ SUCC #2 ] > ].
+neg-with-double-copy := neg & index-with-double-copy &
+  [ NEG-SUCC index-with-double-copy & [ RESULT < #1, #2 > ],
+    RESULT < [ NEG-SUCC #1 ], [ NEG-SUCC #2 ] > ].
+lambda-with-double-copy := lambda & with-double-copy &
+  [ LAMBDA with-double-copy & [ RESULT < #1, #2 > ],
+    RESULT < [ LAMBDA #1 ], [ LAMBDA #2 ] > ].
+apply-with-double-copy := apply & with-double-copy &
+  [ FUNC with-double-copy & [ RESULT < #F1, #F2 > ],
+    ARG with-double-copy & [ RESULT < #A1, #A2 > ],
+    RESULT < [ FUNC #F1,
+               ARG #A1 ],
+             [ FUNC #F2,
+               ARG #A2 ] > ].
+
+substitute := with-operation &
+  [ SUB *top*,
+    RESULT *top* ].
+sub-zero := substitute & zero &
+  [ SUB #sub,
+    RESULT #sub ].
+; decrement free variables
+sub-pos := substitute & pos &
+  [ SUCC #succ,
+    RESULT #succ ].
+sub-neg := substitute & neg &
+  [ NEG-SUCC #succ,
+    RESULT.NEG-SUCC #succ ].
+sub-apply := substitute & apply &
+  [ SUB with-double-copy & [ RESULT < #1, #2 > ],
+    FUNC [ SUB #1,
+           RESULT #func ],
+    ARG [ SUB #2,
+          RESULT #arg ],
+    RESULT [ FUNC #func,
+             ARG #arg ]].
+sub-lambda := substitute & lambda &
+  [ SUB decrement-bound & [ RESULT #sub ],
+    LAMBDA decrement & [ RESULT [ SUB #sub,
+                                  RESULT increment & [ RESULT #result ]]],
+    RESULT.LAMBDA #result ].
+
+decrement := with-operation &
+  [ RESULT *top* ].
+dec-zero := decrement & zero &
+  [ RESULT.NEG-SUCC zero ].
+dec-pos := decrement & pos &
+  [ SUCC #succ,
+    RESULT #succ ].
+dec-neg := decrement & neg &
+  [ NEG-SUCC #succ,
+    RESULT.NEG-SUCC.NEG-SUCC #succ ].
+dec-lambda := decrement & lambda &
+  [ LAMBDA decrement & [ RESULT #result ],
+    RESULT.LAMBDA #result ].
+dec-apply := decrement & apply &
+  [ FUNC decrement & [ RESULT #func ],
+    ARG decrement & [ RESULT #arg ],
+    RESULT [ FUNC #func,
+             ARG #arg ]].
+
+decrement-bound := with-operation.
+db-pos := decrement-bound & pos &
+  [ SUCC #succ,
+    RESULT.SUCC #succ ].
+db-zero := decrement-bound & zero &
+  [ RESULT.NEG-SUCC zero ].
+db-neg := decrement-bound & neg &
+  [ NEG-SUCC #succ,
+    RESULT.NEG-SUCC.NEG-SUCC #succ ].
+db-lambda := decrement-bound & lambda &
+  [ LAMBDA decrement & [ RESULT decrement-bound & [ RESULT increment & [ RESULT #result ]]],
+    RESULT.LAMBDA #result ].
+db-apply := decrement-bound & apply &
+  [ FUNC decrement-bound & [ RESULT #func ],
+    ARG decrement-bound & [ RESULT #arg ],
+    RESULT [ FUNC #func,
+             ARG #arg ]].
+
+increment := with-operation &
+  [ RESULT *top* ].
+inc-zero := increment & zero &
+  [ RESULT.SUCC zero ].
+inc-pos := increment & pos &
+  [ SUCC #succ,
+    RESULT.SUCC.SUCC #succ ].
+inc-neg := increment & neg &
+  [ NEG-SUCC #succ,
+    RESULT #succ ].
+inc-lambda := increment & lambda &
+  [ LAMBDA increment & [ RESULT #result ],
+    RESULT.LAMBDA #result ].
+inc-apply := increment & apply &
+  [ FUNC increment & [ RESULT #func ],
+    ARG increment & [ RESULT #arg ],
+    RESULT [ FUNC #func,
+             ARG #arg ]].
+
+; one wrapper type for any expression
+; sufficient to only use: LAMBDA, FUNC, ARG, and SUCC
+expr := *top* &
+  [ EXPR *top* ].
+
+; one operation for any computation
+apply-expr := expr &
+  [ EXPR #result,
+    APPLY < [ EXPR #func ], [ EXPR #arg ] >,
+    APPLY-EXPR with-final-result & [ FUNC #func,
+                                     ARG #arg,
+                                     FINAL-RESULT #result ]].
+
+id := expr &
+  [ EXPR.LAMBDA.SUCC zero ].
+
+apply-self := expr &
+  [ EXPR.LAMBDA [ FUNC.SUCC zero,
+                  ARG.SUCC zero ]].
+
+church-zero := expr &
+  [ EXPR.LAMBDA.LAMBDA.SUCC zero ].
+
+church-one := expr &
+  [ EXPR.LAMBDA.LAMBDA [ FUNC.SUCC.SUCC zero,
+                         ARG.SUCC zero ]].
+
+church-two := expr &
+  [ EXPR.LAMBDA.LAMBDA [ FUNC.SUCC.SUCC zero,
+                         ARG [ FUNC.SUCC.SUCC zero,
+                               ARG.SUCC zero ]]].
+
+church-three := expr &
+  [ EXPR.LAMBDA.LAMBDA [ FUNC.SUCC.SUCC zero,
+                         ARG [ FUNC.SUCC.SUCC zero,
+                               ARG [ FUNC.SUCC.SUCC zero,
+                                     ARG.SUCC zero ]]]].
+
+church-four := expr &
+  [ EXPR.LAMBDA.LAMBDA [ FUNC.SUCC.SUCC zero,
+                         ARG [ FUNC.SUCC.SUCC zero,
+                               ARG [ FUNC.SUCC.SUCC zero,
+                                     ARG [ FUNC.SUCC.SUCC zero,
+                                           ARG.SUCC zero ]]]]].
+
+church-five := expr &
+  [ EXPR.LAMBDA.LAMBDA [ FUNC.SUCC.SUCC zero,
+                         ARG [ FUNC.SUCC.SUCC zero,
+                               ARG [ FUNC.SUCC.SUCC zero,
+                                     ARG [ FUNC.SUCC.SUCC zero,
+                                           ARG [ FUNC.SUCC.SUCC zero,
+                                                 ARG.SUCC zero ]]]]]].
+
+church-six := expr &
+  [ EXPR.LAMBDA.LAMBDA [ FUNC.SUCC.SUCC zero,
+                         ARG [ FUNC.SUCC.SUCC zero,
+                               ARG [ FUNC.SUCC.SUCC zero,
+                                     ARG [ FUNC.SUCC.SUCC zero,
+                                           ARG [ FUNC.SUCC.SUCC zero,
+                                                 ARG [ FUNC.SUCC.SUCC zero,
+                                                       ARG.SUCC zero ]]]]]]].
+
+add := expr &
+  [ EXPR.LAMBDA.LAMBDA.LAMBDA.LAMBDA [ FUNC [ FUNC.SUCC.SUCC.SUCC.SUCC zero,
+                                              ARG.SUCC.SUCC zero ],
+                                       ARG [ FUNC [ FUNC.SUCC.SUCC.SUCC zero,
+                                                    ARG.SUCC.SUCC zero ],
+                                             ARG.SUCC zero ]]].
+
+multiply := expr &
+  [ EXPR.LAMBDA.LAMBDA.LAMBDA.LAMBDA [ FUNC [ FUNC.SUCC.SUCC.SUCC.SUCC zero,
+                                              ARG [ FUNC.SUCC.SUCC.SUCC zero,
+                                                    ARG.SUCC.SUCC zero ]],
+                                       ARG.SUCC zero ]].
+
+ackermann := expr &
+  [ EXPR.LAMBDA [ FUNC [ FUNC.SUCC zero,
+                         ARG.LAMBDA.LAMBDA [ FUNC [ FUNC.SUCC zero,
+                                                    ARG.SUCC.SUCC zero ],
+                                             ARG [ FUNC.SUCC.SUCC zero,
+                                                   ARG.LAMBDA.LAMBDA [ FUNC.SUCC.SUCC zero,
+                                                                       ARG.SUCC zero ]]]],
+                  ARG.LAMBDA.LAMBDA.LAMBDA [ FUNC [ FUNC.SUCC.SUCC.SUCC zero,
+                                                    ARG.SUCC.SUCC zero ],
+                                             ARG [ FUNC.SUCC.SUCC zero,
+                                                   ARG.SUCC zero ]]]].
+
+ack-test0 := apply-expr &
+  [ APPLY < ackermann, church-zero > ].
+
+ack-test1 := apply-expr &
+  [ APPLY < ackermann, church-one > ].
+
+ack-test := apply-expr &
+  [ APPLY < [ APPLY < ackermann, church-two > ], church-one > ].

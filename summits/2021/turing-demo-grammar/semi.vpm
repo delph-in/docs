@@ -1,0 +1,63 @@
+;;; -*- Mode: TDL; Coding: utf-8 -*-
+; A basic VPM for Matrix grammars.
+event          <> e
+ref-ind        <> x
+individual     <> i
+handle         <> h
+non_event      <> p
+*              >> u
+semarg         << u
+
+SPECI : SPECI
+  * <> *
+
+SF : SF
+  prop <> prop
+  ques <> ques
+  prop-or-ques >> prop-or-ques
+  prop << prop-or-ques
+  comm <> comm
+  * <> *
+
+COG-ST : COG-ST
+  type-id <> type-id
+  uniq-id <> uniq-id
+  familiar <> familiar
+  activated <> activated
+  in-foc <> in-foc
+  activ+fam <> activ+fam
+  uniq+fam <> uniq+fam
+  activ-or-more <> activ-or-more
+  uniq-or-less <> uniq-or-less
+  uniq+fam+act <> uniq+fam+act
+  fam-or-more <> fam-or-more
+  fam-or-less <> fam-or-less
+  uniq-or-more <> uniq-or-more
+  activ-or-less <> activ-or-less
+  * <> *
+
+
+PNG.PER : PNG.PER
+  3rd <> 3rd
+  2nd <> 2nd
+  1st <> 1st
+  * <> *
+
+PNG.NUM : PNG.NUM
+  pl <> pl
+  sg <> sg
+  * <> *
+
+PNG.GEND : PNG.GEND
+  * <> *
+
+E.TENSE : E.TENSE
+  nonpast <> nonpast
+  past <> past
+  * <> *
+
+E.ASPECT : E.ASPECT
+  * <> *
+
+E.MOOD : E.MOOD
+  * <> *

@@ -1,0 +1,484 @@
+Demo for Delph-in Summit 2021
+
+------------------------------------------------------------------------------
+LinGO Grammar Matrix
+
+$Id: README,v 1.13 2008-05-23 01:44:21 sfd Exp $
+
+NB: This version of the Matrix requires LKB version
+$Date: 2008-05-23 01:44:21 $ or later.  
+
+Changes since v 0.6:
+
+1. Head types
+
+   We had previously hesitated to posit head types, as we
+   expect the exact subhierarchy under the type head to be
+   language-specific, even for those head types that are
+   found cross-linguistically.  However, this hesitation
+   was hampering our ability to develop lexical types for
+   the Matrix.  In this version, we have included 10 basic
+   head types, as well as types for all possible
+   disjunctive combinations for the basic 10.  See further
+   documentation near 'head' in matrix.tdl.  Note that the
+   disjunctive types are stored in a separate file
+   head-types.tdl.
+
+   We still have not posited any head features.  In order
+   to add features to one of the head types (disjunctive
+   or otherwise) already defined in the Matrix, you'll
+   need to use the new 'type addendum' syntax.  (This is
+   why a current LKB is required.)  Type addenda can be
+   used to add information (not override information)
+   associated with previously defined types.  They have :+
+   in place of :=.  Type addenda can add parent types,
+   constraints, or documentation strings, as long as they
+   are consistent with the existing definition.  As with
+   subtypes, it is good practice to refrain from stating
+   redundant information on type addenda.  The LKB will
+   print an error if a parent is declared redundantly.  No
+   such checking exists for constraints.
+	
+   NB: The :+ syntax is not yet supported in the PET
+   system.  
+
+2. Lexical types (mostly from v 0.7)
+
+   The Matrix now has a set of underspecified lexical types.
+   Lexical entries are classified along multiple dimensions,
+   including part-of-speech and subcategorization.  Particular
+   grammars can cross-classify these types to create the
+   lexical types they need.  We're particularly interested to
+   learn about cases where additional types parallel to those
+   posited in this part of the Matrix are required.
+
+3. anti-synsem
+
+   The type anti-synsem is still present, but no longer explicitly
+   used in the Matrix.  (In previous versions of the Matrix,
+   the mother of the head-subj phrase was SUBJ < anti-synsem >
+   instead of SUBJ < >.  This and similar constraints are part
+   of English-specific analyses.)
+
+4. COMPS and the head-subject phrase
+
+   In response to Ellingsen 2003, we have removed the requirement
+   that complements be realized before subjects cross-linguistically.
+   We expect this to be true in many, but not all, languages.
+
+5. MC and ROOT
+
+   Again in response to Ellingsen 2003, we have removed many
+   of the constraints on the value of MC (`main clause'). 
+   This feature is meant to be used for phenomena which are
+   restricted to either main (MC +) or subordinate (MC -) 
+   clauses.  The particular constraints present in earlier versions
+   of the Matrix were part of English-specific analyses.
+
+   The feature ROOT has been removed.  Its intended purpose
+   was redundant with the combination of MC and root conditions.
+
+6. Changes to the script
+
+   The script (lkb/script) has been changed somewhat, including:
+
+	-- (index-for-generator) is run at load time,
+	since most Matrix grammars are small and since
+        it is now relatively easy to create grammars which
+        can be used for parsing and generation.  We have 
+        found that the generator can be very useful in 
+        detecting flaws in a grammar.  For a grammar with
+        a large lexicon, this may be too slow.  If so,
+        just comment it out in the script.
+
+	-- There is a short expression at the end which
+    	can be used to change the default string (or indeed
+	list of strings) in the parse dialogue to something
+	appropriate for your language.  Uncomment this expression
+	and customize it appropriately.  
+
+	-- The default script no longer uses a cache file for
+ 	the lexicon.  For lexicons with >1000 words, the 
+	cache may be a good idea.  See the comments in the
+	script file for how to invoke caching.
+
+7. labels.tdl
+
+   With the addition of head types, we are now able to include
+   a basic set of node labels.  As noted in labels.tdl, these
+   are provided only for the convenience of the grammar developer,
+   and do not have any theoretical status.  As such, even though
+   they are provided as part of the Matrix distribution, they
+   should be customized (edited) without hesitation.
+
+8. Other minor technical changes
+
+   The value of INSTLOC is now string (formerly "instloc") for
+   compatibility with recent versions of the LKB.
+
+   The head daughters of head-modifier phrases are no longer
+   required to have empty COMPS lists.  Furthermore, additional
+   features are matched between modifiers' MOD values and 
+   the head daughters' SYNSEMs.
+
+   The feature ARG-S has been moved from the type local
+   to the type word-or-lexrule and renamed as ARG-ST to
+   differentiate it a bit better from ARGS.
+
+9. Some semantic types (adv-relation, prep-mod-relation, 
+   verb-ellipsis-relation, and unspec-compound-relation)
+   have been removed, as these types did not add any features
+   nor express any constraints.  In their place, existing
+   argn relations should be used, with appropriate PRED values.
+   adv-relation and verb-ellipsis-relation should be replaced
+   with arg1-ev-relation, prep-mod-relation with arg12-ev-relation
+   and unspec-compound-relation with arg12-relation.
+
+------------------------------------------------------------------------------
+
+LinGO Grammar Matrix v 0.6, October 15, 2003 (dpf)
+
+This is a minor tuning of version 0.5, including a refinement of the KEYS
+attributes, more normalization of predicate names (especially for messages),
+some bug fixes in the syntactic rule schemata, and a few additional lexical
+types.  Details on these changes will be available in the soon-to-be-released 
+Matrix Users' Guide.
+
+For those who have already developed a grammar baaed on the Matrix, the
+following changes will have to be made manually in your language-specific
+files in order to make them consistent with this version:
+
+1. Changes in feature geometry
+
+   a. SYNSEM.LOCAL.LKEYS ==>
+      SYNSEM.LKEYS
+
+      The feature LKEYS has been moved up from LOCAL to SYNSEM, to shorten
+      this frequently mentioned path.  (NB: As a related change, the type
+      'local-basic' which formerly introduced LKEYS has been deleted.)
+
+   b. LKEYS.--KEYREL ==>
+      LKEYS.KEYREL
+
+      LKEYS.--ALTKEYREL ==>
+      LKEYS.ALTKEYREL
+
+      These two attributes are the only pointers to relations in the RELS
+      list for lexical types, and since they are not shortcuts, the leading
+      hyphens have been dropped.  (NB: Since the attributes --COMPKEY and
+      --OCOMPKEY are just shortcuts, the leading hyphens for these two names
+      remain as a reminder).
+
+   c. CAT.HEAD.KEYS.MESSAGE ==>
+      CONT.MSG
+
+      Since the message value of a headed phrase is not always identified 
+      with that of its head daughter, it was an error to make the attribute
+      MESSAGE a head feature.  This attribute is now moved to CONT, and its
+      name shortened for convenience to MSG.
+
+
+2. Strings and symbols: RULE-NAME
+   
+   The type 'symbol', which along with 'string' was a subtype of 'atom', has
+   been dropped, since the distinction between symbols and strings is not
+   useful, and was a source of potential confusion.  So any attributes whose
+   values were of type 'symbol' should be changed to be of type 'string',
+   and values assigned to these attributes should be converted accordingly.
+   In particular, in subtypes of 'rule', the value of the attribute RULE-NAME
+   should be changed to be enclosed in double quotes; e.g.
+          [ RULE-NAME 'subj-head ] ==>
+          [ RULE-NAME "subj-head" ]
+
+3. KEYS attributes
+
+   The attributes KEY and ALTKEY can have as values subsorts of the type
+   'predsort' (the same kinds of values allowed for the attribute PREDSORT
+   in semantic relations).  These attributes enable a word or phrase to be
+   semantically selected by a predicate, and as head features they propagate
+   up from the lexical head of the phrase.  For example, a verb can select
+   for a prepositional phrase headed by a particular preposition, as long as
+   the preposition has lexically assigned a specific value (a subtype of
+   predsort) to its SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY attribute, and the verb 
+   similarly constrains the KEY value of its PP complement (accessed via the 
+   SYNSEM.LKEYS.--COMPKEY or --OCOMPKEY of the verb).  Note that the values
+   of KEY and ALTKEY are of the same type as the values of the PRED attribute
+   within semantic relations, but it is not always the case that the KEY
+   value of a sign is identified with the PRED value of one of the relations
+   in its RELS list.  Typically, closed-class lexical entries may identify
+   KEY and PRED values, but open-class lexical entries won't, since their
+   KEY value will be some underspecified subtype of 'predsort' (e.g.
+   'noun_rel' or 'verb_rel')
+
+4. Relations and messages
+
+   The revisions introduced in version 0.5 for improved MRSs have led to a
+   potential confusion in naming of relations and their PRED values, so we
+   introduce a simple naming convention where all subtypes of the type
+   'relation' bear the suffix "-relation" as part of their name, and all
+   values of the attribute PRED (subsorts of 'predsort') within relations 
+   bear the suffix "_rel" as part of their name.
+
+   In keeping with the reduction to a small number of subtypes of 'relation',
+   the value of the attribute MSG is now always the relation subtype 'message'
+   with appropriate values in the PRED attribute of the 'message' relation,
+   drawing from subtypes of the type 'predsort'.  For example, in the type
+   'imperative-clause', the following change has been made: 
+
+   imperative-clause := clause &
+     [ SYNSEM.LOCAL.CAT.HEAD.KEYS.MESSAGE command ].    ==>
+
+   imperative-clause := clause &
+     [ SYNSEM.LOCAL.CONT.MSG.PRED command_m_rel ].
+
+5. Rules
+
+   This version incorporates several corrections and improvements to the
+   definitions of lexical and syntactic rules proposed by colleagues working 
+   on the Japanese and Norwegian grammars, as follows:
+
+   a. In the definition of 'lex-rule', the order of appending of the RELS 
+      lists has been reversed, for convenience.
+   b. The type 'basic-head-subj-phrase' no longer inherits from the type
+      'head-compositional' - this was an error preventing coherent MRSs.
+   c. The type 'basic-extracted-comp-phrase' no longer identifies the LEX value
+      of mother and daughter - this too was an error making the rule unusable.
+   d. The type 'basic-head-mod-phrase-simple' no longer identifies the value
+      of HOOK on mother and nonhead daughter, since this is no longer uniform
+      for scopal and intersective modifiers.  Instead this identification is
+      done in the type 'scopal-mod-phrase'; in contrast, the type
+      'isect-mod-phrase' now inherits from 'head-compositional', identifying
+      the HOOK values of mother and head daughter.
+   e. In a related change, the type 'extracted-adj-phrase' is now restricted
+      to extracting intersective modifiers, so that the value of HOOK can be
+      correctly constrained.
+
+6. Lexeme types
+
+   In order to capture the usual configuration of semantic constraints for
+   open-class lexical entries, the types 'lex-item', 'norm-lex-item', and
+   'lexeme' have been added.  Some closed-class lexical entries, like those
+   for determiners in English, do not conform to the constraints in 
+   'norm-lex-item', but most lexical entries will.  We further add the
+   constraint that the outputs of lexeme-to-lexeme rules will conform to the 
+   constraints in 'norm-lex-item'.  We look forward to feedback, as always.
+  
+------------------------------------------------------------------------------
+Grammar matrix v 0.5, August 15, 2003 (dpf)
+
+This is an upgrade of version 0.4 of the grammar matrix, with some
+further normalization of relation names and MRS feature geometry to be
+consistent with the Copestake et al.  paper, "Introduction to MRS",
+being readied for publication.
+
+If you have already developed a grammar based on the matrix, you will
+need to make at least one set of manual adjustments to your
+language-specific grammar files, since the location of the KEYS
+attribute has changed, and the constraints on its attributes have also
+changed.  The KEYS attributes had been used in matrix-derived grammars
+for two distinct purposes, first to simplify the notation when defining
+lexical types, and second to express constraints on semantic selection
+within phrases.  The first usage was a convenient shorthand notation
+which is irrelevant to phrasal signs, while the second is crucial in
+constraining phrases.  These two notions are now distinct in the
+matrix, with the attribute LKEYS now containing these 'shorthand'
+attributes convenient for defining lexical types, and the attribute
+KEYS now made a HEAD feature.  The attributes in KEYS are also more
+strictly constrained, with KEY and ALTKEY no longer taking whole
+relations as values, but only semantic sorts (see the User Guide for
+elaboration).  Likewise, the MESSAGE attribute now simply takes a
+'message' type (or the distinguished type 'no-msg') as its value,
+rather than a difference list.
+
+Obligatory changes to make to language-specific grammar files:
+
+(1) Where your grammar used the KEY and ALTKEY attributes to constrain
+    the properties of a selected constituent (complement, specifier, 
+    subject, or modifier), change these values of KEYS.KEY and 
+    KEYS.ALTKEY to be subtypes of the type 'semsort'.  See the User 
+    Guide for elaboration.
+(2) Change these paths for SYNSEM.LOCAL.KEYS.KEY and ...ALTKEY to be
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.KEY and ...ALTKEY
+(3) Where your grammar used the KEY and ALTKEY attributes to constrain
+    the value of a lexical type's own semantic relations, change these
+    paths for SYNSEM.LOCAL.KEYS.KEY and ...ALTKEY to be
+    SYNSEM.LOCAL.LKEYS.--KEYREL and ...--ALTKEYREL
+(4) Change the value of KEYS.MESSAGE by removing the diff-list brackets.
+(5) Change the paths SYNSEM.LOCAL.KEYS.MESSAGE to
+    SYNSEM.LOCAL.CAT.HEAD.KEYS.MESSAGE
+(6) Change the values for --COMPKEY and --OCOMPKEY to be the semantic
+    sort of the relevant complement, rather than the type of a relation
+    (again, see the User Guide for elaboration of semantic sorts).
+(7) Change the paths SYNSEM.LOCAL.KEYS.--COMPKEY and ...--OCOMPKEY to
+    SYNSEM.LOCAL.LKEYS.--COMPKEY and ...--OCOMPKEY
+
+In addition, you may need to make further adjustments, depending on
+whether you have made explicit reference to the affected features or
+types, which have been changed as follows:
+
+(a) Deleted feature
+
+    The feature E-INDEX was introduced into the matrix for v 0.4,based 
+    on its use in the ERG at the time for treating the semantics of 
+    predicative PPs and gerunds.  However, improved analysis of English 
+    has removed the current motivation for this attribute in HOOK, so 
+    it has been deleted from the matrix in order to be consistent with 
+    the emerging MRS documentation.
+
+(b) Renaming of type 'mrs-thing', and changes to its subtypes
+
+    The name of the supertype of 'individual' and 'handle' has been 
+    renamed from 'mrs-thing' to 'semarg' (for 'semantic argument').  
+    Also, one of its subtypes 'non-expl' has been deleted, since it was 
+    confusingly redundant with the type 'event-or-ref-index'.  
+    Corresponding adjustments have been made to the type hierarchy under 
+    'semarg', though the leaf types remain the same.
+
+(c) Renaming of other relations
+
+    To support a more consistent naming convention for relations, any 
+    relation or predicate whose name formerly ended in "-rel" now has a 
+    name which is like the previous one except that the hyphen ("-") is 
+    always replaced with an underscore ("_").  An explanation of the 
+    naming conventions can be found in the Matrix User Guide.
+
+------------------------------------------------------------------------------
+Grammar matrix v 0.4, March 10, 2003
+
+This is a minor upgrade of the first version of the grammar matrix
+(v 0.3), designed to standardize the feature geometry and naming
+conventions for MRS feature structures, and to enable stronger
+principles of semantic composition, as presented in Copestake,
+Lascarides, and Flickinger (2001).
+
+If you have already developed a grammar based on the matrix, you will
+need to make the following manual adjustments to your language-specific
+grammar files:
+
+(1) Renamed features 
+    Summary: Naming conventions now made consistent with soon-to-be-published
+    standard reference on MRS.
+    Recommended procedure: Do a global replace for each of the following in
+    all of your *.tdl files:
+    LISZT    -->  RELS
+    H-CONS   -->  HCONS
+    TOP      -->  LTOP
+    HNDL     -->  LBL
+    SC-ARG   -->  HARG
+    OUTSCPD  -->  LARG
+    SOA      -->  MARG
+    RESTR    -->  RSTR
+    BV       -->  ARG0
+    EVENT    -->  ARG0
+    INST     -->  ARG0
+    LABEL    -->  WLINK
+
+(2) Introduction of HOOK attribute
+    Summary: The externally visible attributes of an MRS are now grouped
+    within a single attribute called HOOK, which is consistently used in
+    constructions to identify the properties of the semantic head daughter
+    with those of the phrase.  The features in HOOK include the familiar
+    LTOP (formerly TOP), INDEX, and E-INDEX, as well as a new feature XARG
+    which is unified with the semantic index of the controlled argument of
+    a phrase (to simplify the definition of e.g. equi and raising types)
+    Recommended procedure: In each of your *.tdl files, search for each 
+    occurrence of the three features LTOP, INDEX, and E-INDEX, and insert 
+    HOOK into the path preceding each feature.  In some cases, you will see 
+    that you can simplify the re-entrancies in your feature structures by 
+    referring to HOOK instead of individually referring to each of the three
+    attributes separately.  In addition, consider revising your lexical types 
+    for equi and raising predicates to make use of the new XARG feature, 
+    which should enable you to avoid reference to arguments of arguments.
+    
+(3) Naming of argument roles (ARG1, ARG2, ARG3, ARG4)
+    Summary: Each relation now assigns its first (least oblique) argument
+    to ARG1, its next argument to ARG2, and so on.   The major change from
+    the first version of the matrix is to assign objects of transitive verbs
+    to ARG2 rather than ARG3, and similarly for objects of prepositions.
+    Recommended procedure: In each of your *.tdl files, search for ARG3, and 
+    consider replacing it with ARG2.  Check all other role name assignments 
+    to ensure that role names are assigned consistently.
+
+(4) Basic relation types
+    Summary: The inventory of basic relation types has been simplified.
+    Recommended procedure: Review the subtypes that your grammar defined for
+    the original basic relation types, and revise them to employ the new
+    relation types, consistent with the changes made in step (3) above.  Note
+    that a basic relation type has been added for quantifiers: quant-rel.
+
+(5) Deleted features (--TOPKEY)
+    Summary: Some semantics-related features proved to be unnecessary
+    Recommended procedure: None required, unless your grammar makes use of
+    the feature --TOPKEY, in which case you may choose to introduce this
+    feature as part of your language-specific inventory of features.
+
+
+------------------------------------------------------------------------------
+[Original notes for v 0.3]
+
+This is an extremely preliminary first cut at the grammar
+matrix.  It has not been tested except by being loaded into
+the LKB.  It contains the following:
+
+-- basic types which define the feature geometry
+-- types for MRS semantics
+-- underspecified supertypes of lexical rules
+-- underspecified supertypes of phrase structure rules
+
+Of these, the last were the most hastily thrown together.
+They are basically taken from the syntax.tdl file of the LinGO
+English grammar, and then simplified by removing constraints
+that are either likely to be specific to English or are
+related to the LinGO analysis of coordination.
+
+These phrase structure rule types are of necessity underconstrained
+and merely instantiating them will surely lead to a grammar
+with gross overgeneration.  Thus, it is expected that they
+will be either augmented directly, or via subtypes that fill
+in some of the missing constraints.  One clear example of this
+is the lack of constraints on the HEAD values in phrase structure
+rules.  Since it's not clear what the appropriate 'universal'
+head type hierarchy will/could be, I've refrained from even 
+defining types like 'verbal'...
+
+Similarly, certain parts of the type hierarchy might need to be
+modified.  In an ideal world, the matrix type hierarchy would only
+need to be extended at the bottom for individual grammars.  However,
+it is not clear that this is possible or desirable even in principle,
+and it is certainly not the case for this preliminary first version!
+(Defaults may help here...)
+
+The single biggest gap in the matrix is the utter lack of
+lexical types.  I hope that it can be useful even with this
+huge lacuna.  Since the matrix holds so closely to the LinGO
+grammar, the lexical types of the LinGO grammar should be 
+used as models for creating lexical types.  Note in particular
+that the rules assume lexical threading of NON-LOCAL features.
+Beware that some feature names (notably HNDL) and many type names
+differ between the matrix and the LinGO grammar, even when they
+are logically and mnemonically related.
+
+Future versions of the matrix should include further documentation
+as well as more types (especially lexical types).  Revisions to
+the types included in this version should also be anticipated, 
+since it seems extremely unlikely that this first guess as to
+what's universally useful will turn out to be entirely correct.
+
+Stephan Oepen has kindly cleaned up the collateral .lsp files
+included in this distribution of the matrix.  Take a look at
+lkb/script for information on how various files (including .tdl
+files) are included, and which aspects of the grammar should
+be encoded in which .tdl files.
+
+April 5, 2002 (erb)
+
+Added improvements to supertypes for lexical rules.  "Derivational"
+lexical rules are now lexeme-to-lexeme, rather than word-to-word
+(a hold-over from PAGE).  Lexeme-to-lexeme rules can be spelling
+changing, and apply _inside_ lexeme-to-word, or inflectional rules,
+as expected.
+
+June 18, 2002 (oe)
+
+Fix generator support (by adding a suitable `mrsglobals.lsp'); more
+cleaning up of `script' and related collateral files.

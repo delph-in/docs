@@ -1,0 +1,94 @@
+turing-machine := *top* &
+  [ TAPE-LEFT list,
+    TAPE-RIGHT list ].
+
+list := *top*.
+null := list.
+cons := list &
+  [ FIRST *top*,
+    REST list ].
+
+bit := *top*.
+0 := bit.
+1 := bit.
+
+turing-machine-with-next := turing-machine &
+  [ WRITE bit,
+    NEXT turing-machine,
+    FINAL turing-machine ].
+
+continue := turing-machine-with-next &
+  [ NEXT.FINAL #final,
+    FINAL #final ].
+halt := turing-machine-with-next & 
+  [ TAPE-LEFT #left,
+    TAPE-RIGHT #right,
+    FINAL [ TAPE-LEFT #left,
+            TAPE-RIGHT #right ]].
+
+list-with-pop := list &
+  [ RESULT < turing-machine, list > ].
+
+cons-with-pop := cons & list-with-pop &
+  [ FIRST #first,
+    REST #rest,
+    RESULT < #first, #rest > ].
+
+null-with-pop := null & list-with-pop &
+  [ RESULT < 0, null > ].
+
+move-right := continue &
+  [ TAPE-LEFT #left,
+    TAPE-RIGHT list-with-pop & [ RESULT < #first, #rest > ],
+    WRITE #write,
+    NEXT #first & [ TAPE-LEFT < #write . #left >,
+                    TAPE-RIGHT #rest ] ].
+
+move-left := continue &
+  [ TAPE-LEFT list-with-pop & [ RESULT < #first, #rest > ],
+    TAPE-RIGHT #right,
+    WRITE #write,
+    NEXT #first & [ TAPE-LEFT #rest,
+                    TAPE-RIGHT < #write . #right > ] ].
+
+; Define states:
+
+a := continue.
+b := continue.
+c := continue.
+
+; Define transitions:
+; (example: busy beaver)
+
+halt-0 := halt & 0.
+halt-1 := halt & 1.
+
+a-0 := a & 0 & move-right &
+  [ WRITE 1,
+    NEXT b ].
+
+a-1 := a & 1 & move-left &
+  [ WRITE 1,
+    NEXT c ].
+
+b-0 := b & 0 & move-left &
+  [ WRITE 1,
+    NEXT a ].
+
+b-1 := b & 1 & move-right &
+  [ WRITE 1,
+    NEXT b ].
+
+c-0 := c & 0 & move-left &
+  [ WRITE 1,
+    NEXT b ].
+
+c-1 := c & 1 & move-right &
+  [ WRITE 1,
+    NEXT halt ].
+
+; Run machine from state a with an empty tape:
+
+run-turing-machine := a-0 &
+  [ TAPE-LEFT null,
+    TAPE-RIGHT null ].

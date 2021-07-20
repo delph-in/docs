@@ -1,0 +1,69 @@
+sign :+ [ NONDETERMINISTIC nondeterministic-min ].
+
+nondeterministic-min := avm &
+  [ PENDING bool ].
+
+nondeterministic-pending := nondeterministic-min &
+  [ PENDING +,
+    POINTER *top* ].
+
+basic-unary-phrase :+ [ ARGS < [ NONDETERMINISTIC.PENDING - ] > ].
+basic-binary-phrase :+ [ ARGS < [ NONDETERMINISTIC.PENDING - ],
+                                [ NONDETERMINISTIC.PENDING - ] > ].
+basic-ternary-phrase :+ [ ARGS < [ NONDETERMINISTIC.PENDING - ],
+                                 [ NONDETERMINISTIC.PENDING - ],
+                                 [ NONDETERMINISTIC.PENDING - ] > ].
+lex-rule :+ [ NONDETERMINISTIC.PENDING -,
+              ARGS < [ NONDETERMINISTIC.PENDING - ] > ].
+lex-item :+ [ NONDETERMINISTIC.PENDING - ].
+word :+ [ NONDETERMINISTIC.PENDING - ].
+deterministic := phrase &
+  [ NONDETERMINISTIC.PENDING - ].
+
+nondeterministic-computation-phrase := phrase &
+  [ STEM #stem,
+    SYNSEM #ss,
+    KEY-ARG #key,
+    INFLECTED #infl,
+    ARGS < [ STEM #stem,
+             SYNSEM #ss,
+             KEY-ARG #key,
+             INFLECTED #infl,
+             NONDETERMINISTIC nondeterministic-pending ] > ].
+
+nondeterministic-pop := nondeterministic-pending &
+  [ POP-INPUT #input & cons-with-nondeterministic-pop & [ RESULT < #list, #item > ],
+    POP-OUTPUT-LIST #list,
+	POP-OUTPUT-ITEM #item,
+    POINTER #input ].
+
+cons-with-nondeterministic-pop := cons & with-computation &
+  [ RESULT < list, *top* > ].
+
+cons-with-pop-select := cons-with-nondeterministic-pop &
+  [ FIRST #first,
+    REST #rest,
+    RESULT < #rest, #first > ].
+
+cons-with-pop-increment := cons-with-nondeterministic-pop &
+  [ FIRST #first,
+    REST cons-with-nondeterministic-pop & [ RESULT < #list, #item > ],
+    RESULT < < #first . #list >, #item > ].
+
+nondeterministic-pop-select-phrase := nondeterministic-computation-phrase &
+  [ NONDETERMINISTIC.PENDING -,
+    ARGS < [ NONDETERMINISTIC.POINTER cons-with-pop-select ] > ].
+
+nondeterministic-pop-increment-phrase := nondeterministic-computation-phrase &
+  [ NONDETERMINISTIC.POINTER #rest,
+    ARGS < [ NONDETERMINISTIC.POINTER cons-with-pop-increment & [ REST #rest ] ] > ].
+
+;;; testing
+
+basic-head-any-comp-phrase := basic-head-comp-phrase &
+  [ SYNSEM.LOCAL.CAT.VAL.COMPS #new-comps,
+    HEAD-DTR.SYNSEM.LOCAL.CAT.VAL.COMPS #old-comps,
+    NON-HEAD-DTR.SYNSEM #synsem,
+    NONDETERMINISTIC [ POP-INPUT #old-comps,
+                       POP-OUTPUT-LIST #new-comps,
+                       POP-OUTPUT-ITEM #synsem ] ].

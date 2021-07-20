@@ -1,0 +1,1016 @@
+;;; $Id: head-types.tdl,v 1.2 2008-05-23 01:44:21 sfd Exp $
+
+; Disjunctive type for verbs, adjectives, adverbs, adpositions, complementizers, determiners, number names and conjunctions.
++vjrpcdmo := head.
+; Disjunctive type for nouns, adjectives, adverbs, adpositions, complementizers, determiners, number names and conjunctions.
++njrpcdmo := head.
+; Disjunctive type for nouns, verbs, adverbs, adpositions, complementizers, determiners, number names and conjunctions.
++nvrpcdmo := head.
+; Disjunctive type for nouns, verbs, adjectives, adpositions, complementizers, determiners, number names and conjunctions.
++nvjpcdmo := head.
+; Disjunctive type for nouns, verbs, adjectives, adverbs, complementizers, determiners, number names and conjunctions.
++nvjrcdmo := head.
+; Disjunctive type for nouns, verbs, adjectives, adverbs, adpositions, determiners, number names and conjunctions.
++nvjrpdmo := head.
+; Disjunctive type for nouns, verbs, adjectives, adverbs, adpositions, complementizers, number names and conjunctions.
++nvjrpcmo := head.
+; Disjunctive type for nouns, verbs, adjectives, adverbs, adpositions, complementizers, determiners and conjunctions.
++nvjrpcdo := head.
+; Disjunctive type for nouns, verbs, adjectives, adverbs, adpositions, complementizers, determiners and number names.
++nvjrpcdm := head.
+; Disjunctive type for adjectives, adverbs, adpositions, complementizers, determiners, number names and conjunctions.
++jrpcdmo := +vjrpcdmo & +njrpcdmo.
+; Disjunctive type for verbs, adverbs, adpositions, complementizers, determiners, number names and conjunctions.
++vrpcdmo := +vjrpcdmo & +nvrpcdmo.
+; Disjunctive type for verbs, adjectives, adpositions, complementizers, determiners, number names and conjunctions.
++vjpcdmo := +vjrpcdmo & +nvjpcdmo.
+; Disjunctive type for verbs, adjectives, adverbs, complementizers, determiners, number names and conjunctions.
++vjrcdmo := +vjrpcdmo & +nvjrcdmo.
+; Disjunctive type for verbs, adjectives, adverbs, adpositions, determiners, number names and conjunctions.
++vjrpdmo := +vjrpcdmo & +nvjrpdmo.
+; Disjunctive type for verbs, adjectives, adverbs, adpositions, complementizers, number names and conjunctions.
++vjrpcmo := +vjrpcdmo & +nvjrpcmo.
+; Disjunctive type for verbs, adjectives, adverbs, adpositions, complementizers, determiners and conjunctions.
++vjrpcdo := +vjrpcdmo & +nvjrpcdo.
+; Disjunctive type for verbs, adjectives, adverbs, adpositions, complementizers, determiners and number names.
++vjrpcdm := +vjrpcdmo & +nvjrpcdm.
+; Disjunctive type for nouns, adverbs, adpositions, complementizers, determiners, number names and conjunctions.
++nrpcdmo := +njrpcdmo & +nvrpcdmo.
+; Disjunctive type for nouns, adjectives, adpositions, complementizers, determiners, number names and conjunctions.
++njpcdmo := +njrpcdmo & +nvjpcdmo.
+; Disjunctive type for nouns, adjectives, adverbs, complementizers, determiners, number names and conjunctions.
++njrcdmo := +njrpcdmo & +nvjrcdmo.
+; Disjunctive type for nouns, adjectives, adverbs, adpositions, determiners, number names and conjunctions.
++njrpdmo := +njrpcdmo & +nvjrpdmo.
+; Disjunctive type for nouns, adjectives, adverbs, adpositions, complementizers, number names and conjunctions.
++njrpcmo := +njrpcdmo & +nvjrpcmo.
+; Disjunctive type for nouns, adjectives, adverbs, adpositions, complementizers, determiners and conjunctions.
++njrpcdo := +njrpcdmo & +nvjrpcdo.
+; Disjunctive type for nouns, adjectives, adverbs, adpositions, complementizers, determiners and number names.
++njrpcdm := +njrpcdmo & +nvjrpcdm.
+; Disjunctive type for nouns, verbs, adpositions, complementizers, determiners, number names and conjunctions.
++nvpcdmo := +nvrpcdmo & +nvjpcdmo.
+; Disjunctive type for nouns, verbs, adverbs, complementizers, determiners, number names and conjunctions.
++nvrcdmo := +nvrpcdmo & +nvjrcdmo.
+; Disjunctive type for nouns, verbs, adverbs, adpositions, determiners, number names and conjunctions.
++nvrpdmo := +nvrpcdmo & +nvjrpdmo.
+; Disjunctive type for nouns, verbs, adverbs, adpositions, complementizers, number names and conjunctions.
++nvrpcmo := +nvrpcdmo & +nvjrpcmo.
+; Disjunctive type for nouns, verbs, adverbs, adpositions, complementizers, determiners and conjunctions.
++nvrpcdo := +nvrpcdmo & +nvjrpcdo.
+; Disjunctive type for nouns, verbs, adverbs, adpositions, complementizers, determiners and number names.
++nvrpcdm := +nvrpcdmo & +nvjrpcdm.
+; Disjunctive type for nouns, verbs, adjectives, complementizers, determiners, number names and conjunctions.
++nvjcdmo := +nvjpcdmo & +nvjrcdmo.
+; Disjunctive type for nouns, verbs, adjectives, adpositions, determiners, number names and conjunctions.
++nvjpdmo := +nvjpcdmo & +nvjrpdmo.
+; Disjunctive type for nouns, verbs, adjectives, adpositions, complementizers, number names and conjunctions.
++nvjpcmo := +nvjpcdmo & +nvjrpcmo.
+; Disjunctive type for nouns, verbs, adjectives, adpositions, complementizers, determiners and conjunctions.
++nvjpcdo := +nvjpcdmo & +nvjrpcdo.
+; Disjunctive type for nouns, verbs, adjectives, adpositions, complementizers, determiners and number names.
++nvjpcdm := +nvjpcdmo & +nvjrpcdm.
+; Disjunctive type for nouns, verbs, adjectives, adverbs, determiners, number names and conjunctions.
++nvjrdmo := +nvjrcdmo & +nvjrpdmo.
+; Disjunctive type for nouns, verbs, adjectives, adverbs, complementizers, number names and conjunctions.
++nvjrcmo := +nvjrcdmo & +nvjrpcmo.
+; Disjunctive type for nouns, verbs, adjectives, adverbs, complementizers, determiners and conjunctions.
++nvjrcdo := +nvjrcdmo & +nvjrpcdo.
+; Disjunctive type for nouns, verbs, adjectives, adverbs, complementizers, determiners and number names.
++nvjrcdm := +nvjrcdmo & +nvjrpcdm.
+; Disjunctive type for nouns, verbs, adjectives, adverbs, adpositions, number names and conjunctions.
++nvjrpmo := +nvjrpdmo & +nvjrpcmo.
+; Disjunctive type for nouns, verbs, adjectives, adverbs, adpositions, determiners and conjunctions.
++nvjrpdo := +nvjrpdmo & +nvjrpcdo.
+; Disjunctive type for nouns, verbs, adjectives, adverbs, adpositions, determiners and number names.
++nvjrpdm := +nvjrpdmo & +nvjrpcdm.
+; Disjunctive type for nouns, verbs, adjectives, adverbs, adpositions, complementizers and conjunctions.
++nvjrpco := +nvjrpcmo & +nvjrpcdo.
+; Disjunctive type for nouns, verbs, adjectives, adverbs, adpositions, complementizers and number names.
++nvjrpcm := +nvjrpcmo & +nvjrpcdm.
+; Disjunctive type for nouns, verbs, adjectives, adverbs, adpositions, complementizers and determiners.
++nvjrpcd := +nvjrpcdo & +nvjrpcdm.
+; Disjunctive type for adverbs, adpositions, complementizers, determiners, number names and conjunctions.
++rpcdmo := +jrpcdmo & +vrpcdmo & +nrpcdmo.
+; Disjunctive type for adjectives, adpositions, complementizers, determiners, number names and conjunctions.
++jpcdmo := +jrpcdmo & +vjpcdmo & +njpcdmo.
+; Disjunctive type for adjectives, adverbs, complementizers, determiners, number names and conjunctions.
++jrcdmo := +jrpcdmo & +vjrcdmo & +njrcdmo.
+; Disjunctive type for adjectives, adverbs, adpositions, determiners, number names and conjunctions.
++jrpdmo := +jrpcdmo & +vjrpdmo & +njrpdmo.
+; Disjunctive type for adjectives, adverbs, adpositions, complementizers, number names and conjunctions.
++jrpcmo := +jrpcdmo & +vjrpcmo & +njrpcmo.
+; Disjunctive type for adjectives, adverbs, adpositions, complementizers, determiners and conjunctions.
++jrpcdo := +jrpcdmo & +vjrpcdo & +njrpcdo.
+; Disjunctive type for adjectives, adverbs, adpositions, complementizers, determiners and number names.
++jrpcdm := +jrpcdmo & +vjrpcdm & +njrpcdm.
+; Disjunctive type for verbs, adpositions, complementizers, determiners, number names and conjunctions.
++vpcdmo := +vrpcdmo & +vjpcdmo & +nvpcdmo.
+; Disjunctive type for verbs, adverbs, complementizers, determiners, number names and conjunctions.
++vrcdmo := +vrpcdmo & +vjrcdmo & +nvrcdmo.
+; Disjunctive type for verbs, adverbs, adpositions, determiners, number names and conjunctions.
++vrpdmo := +vrpcdmo & +vjrpdmo & +nvrpdmo.
+; Disjunctive type for verbs, adverbs, adpositions, complementizers, number names and conjunctions.
++vrpcmo := +vrpcdmo & +vjrpcmo & +nvrpcmo.
+; Disjunctive type for verbs, adverbs, adpositions, complementizers, determiners and conjunctions.
++vrpcdo := +vrpcdmo & +vjrpcdo & +nvrpcdo.
+; Disjunctive type for verbs, adverbs, adpositions, complementizers, determiners and number names.
++vrpcdm := +vrpcdmo & +vjrpcdm & +nvrpcdm.
+; Disjunctive type for verbs, adjectives, complementizers, determiners, number names and conjunctions.
++vjcdmo := +vjpcdmo & +vjrcdmo & +nvjcdmo.
+; Disjunctive type for verbs, adjectives, adpositions, determiners, number names and conjunctions.
++vjpdmo := +vjpcdmo & +vjrpdmo & +nvjpdmo.
+; Disjunctive type for verbs, adjectives, adpositions, complementizers, number names and conjunctions.
++vjpcmo := +vjpcdmo & +vjrpcmo & +nvjpcmo.
+; Disjunctive type for verbs, adjectives, adpositions, complementizers, determiners and conjunctions.
++vjpcdo := +vjpcdmo & +vjrpcdo & +nvjpcdo.
+; Disjunctive type for verbs, adjectives, adpositions, complementizers, determiners and number names.
++vjpcdm := +vjpcdmo & +vjrpcdm & +nvjpcdm.
+; Disjunctive type for verbs, adjectives, adverbs, determiners, number names and conjunctions.
++vjrdmo := +vjrcdmo & +vjrpdmo & +nvjrdmo.
+; Disjunctive type for verbs, adjectives, adverbs, complementizers, number names and conjunctions.
++vjrcmo := +vjrcdmo & +vjrpcmo & +nvjrcmo.
+; Disjunctive type for verbs, adjectives, adverbs, complementizers, determiners and conjunctions.
++vjrcdo := +vjrcdmo & +vjrpcdo & +nvjrcdo.
+; Disjunctive type for verbs, adjectives, adverbs, complementizers, determiners and number names.
++vjrcdm := +vjrcdmo & +vjrpcdm & +nvjrcdm.
+; Disjunctive type for verbs, adjectives, adverbs, adpositions, number names and conjunctions.
++vjrpmo := +vjrpdmo & +vjrpcmo & +nvjrpmo.
+; Disjunctive type for verbs, adjectives, adverbs, adpositions, determiners and conjunctions.
++vjrpdo := +vjrpdmo & +vjrpcdo & +nvjrpdo.
+; Disjunctive type for verbs, adjectives, adverbs, adpositions, determiners and number names.
++vjrpdm := +vjrpdmo & +vjrpcdm & +nvjrpdm.
+; Disjunctive type for verbs, adjectives, adverbs, adpositions, complementizers and conjunctions.
++vjrpco := +vjrpcmo & +vjrpcdo & +nvjrpco.
+; Disjunctive type for verbs, adjectives, adverbs, adpositions, complementizers and number names.
++vjrpcm := +vjrpcmo & +vjrpcdm & +nvjrpcm.
+; Disjunctive type for verbs, adjectives, adverbs, adpositions, complementizers and determiners.
++vjrpcd := +vjrpcdo & +vjrpcdm & +nvjrpcd.
+; Disjunctive type for nouns, adpositions, complementizers, determiners, number names and conjunctions.
++npcdmo := +nrpcdmo & +njpcdmo & +nvpcdmo.
+; Disjunctive type for nouns, adverbs, complementizers, determiners, number names and conjunctions.
++nrcdmo := +nrpcdmo & +njrcdmo & +nvrcdmo.
+; Disjunctive type for nouns, adverbs, adpositions, determiners, number names and conjunctions.
++nrpdmo := +nrpcdmo & +njrpdmo & +nvrpdmo.
+; Disjunctive type for nouns, adverbs, adpositions, complementizers, number names and conjunctions.
++nrpcmo := +nrpcdmo & +njrpcmo & +nvrpcmo.
+; Disjunctive type for nouns, adverbs, adpositions, complementizers, determiners and conjunctions.
++nrpcdo := +nrpcdmo & +njrpcdo & +nvrpcdo.
+; Disjunctive type for nouns, adverbs, adpositions, complementizers, determiners and number names.
++nrpcdm := +nrpcdmo & +njrpcdm & +nvrpcdm.
+; Disjunctive type for nouns, adjectives, complementizers, determiners, number names and conjunctions.
++njcdmo := +njpcdmo & +njrcdmo & +nvjcdmo.
+; Disjunctive type for nouns, adjectives, adpositions, determiners, number names and conjunctions.
++njpdmo := +njpcdmo & +njrpdmo & +nvjpdmo.
+; Disjunctive type for nouns, adjectives, adpositions, complementizers, number names and conjunctions.
++njpcmo := +njpcdmo & +njrpcmo & +nvjpcmo.
+; Disjunctive type for nouns, adjectives, adpositions, complementizers, determiners and conjunctions.
++njpcdo := +njpcdmo & +njrpcdo & +nvjpcdo.
+; Disjunctive type for nouns, adjectives, adpositions, complementizers, determiners and number names.
++njpcdm := +njpcdmo & +njrpcdm & +nvjpcdm.
+; Disjunctive type for nouns, adjectives, adverbs, determiners, number names and conjunctions.
++njrdmo := +njrcdmo & +njrpdmo & +nvjrdmo.
+; Disjunctive type for nouns, adjectives, adverbs, complementizers, number names and conjunctions.
++njrcmo := +njrcdmo & +njrpcmo & +nvjrcmo.
+; Disjunctive type for nouns, adjectives, adverbs, complementizers, determiners and conjunctions.
++njrcdo := +njrcdmo & +njrpcdo & +nvjrcdo.
+; Disjunctive type for nouns, adjectives, adverbs, complementizers, determiners and number names.
++njrcdm := +njrcdmo & +njrpcdm & +nvjrcdm.
+; Disjunctive type for nouns, adjectives, adverbs, adpositions, number names and conjunctions.
++njrpmo := +njrpdmo & +njrpcmo & +nvjrpmo.
+; Disjunctive type for nouns, adjectives, adverbs, adpositions, determiners and conjunctions.
++njrpdo := +njrpdmo & +njrpcdo & +nvjrpdo.
+; Disjunctive type for nouns, adjectives, adverbs, adpositions, determiners and number names.
++njrpdm := +njrpdmo & +njrpcdm & +nvjrpdm.
+; Disjunctive type for nouns, adjectives, adverbs, adpositions, complementizers and conjunctions.
++njrpco := +njrpcmo & +njrpcdo & +nvjrpco.
+; Disjunctive type for nouns, adjectives, adverbs, adpositions, complementizers and number names.
++njrpcm := +njrpcmo & +njrpcdm & +nvjrpcm.
+; Disjunctive type for nouns, adjectives, adverbs, adpositions, complementizers and determiners.
++njrpcd := +njrpcdo & +njrpcdm & +nvjrpcd.
+; Disjunctive type for nouns, verbs, complementizers, determiners, number names and conjunctions.
++nvcdmo := +nvpcdmo & +nvrcdmo & +nvjcdmo.
+; Disjunctive type for nouns, verbs, adpositions, determiners, number names and conjunctions.
++nvpdmo := +nvpcdmo & +nvrpdmo & +nvjpdmo.
+; Disjunctive type for nouns, verbs, adpositions, complementizers, number names and conjunctions.
++nvpcmo := +nvpcdmo & +nvrpcmo & +nvjpcmo.
+; Disjunctive type for nouns, verbs, adpositions, complementizers, determiners and conjunctions.
++nvpcdo := +nvpcdmo & +nvrpcdo & +nvjpcdo.
+; Disjunctive type for nouns, verbs, adpositions, complementizers, determiners and number names.
++nvpcdm := +nvpcdmo & +nvrpcdm & +nvjpcdm.
+; Disjunctive type for nouns, verbs, adverbs, determiners, number names and conjunctions.
++nvrdmo := +nvrcdmo & +nvrpdmo & +nvjrdmo.
+; Disjunctive type for nouns, verbs, adverbs, complementizers, number names and conjunctions.
++nvrcmo := +nvrcdmo & +nvrpcmo & +nvjrcmo.
+; Disjunctive type for nouns, verbs, adverbs, complementizers, determiners and conjunctions.
++nvrcdo := +nvrcdmo & +nvrpcdo & +nvjrcdo.
+; Disjunctive type for nouns, verbs, adverbs, complementizers, determiners and number names.
++nvrcdm := +nvrcdmo & +nvrpcdm & +nvjrcdm.
+; Disjunctive type for nouns, verbs, adverbs, adpositions, number names and conjunctions.
++nvrpmo := +nvrpdmo & +nvrpcmo & +nvjrpmo.
+; Disjunctive type for nouns, verbs, adverbs, adpositions, determiners and conjunctions.
++nvrpdo := +nvrpdmo & +nvrpcdo & +nvjrpdo.
+; Disjunctive type for nouns, verbs, adverbs, adpositions, determiners and number names.
++nvrpdm := +nvrpdmo & +nvrpcdm & +nvjrpdm.
+; Disjunctive type for nouns, verbs, adverbs, adpositions, complementizers and conjunctions.
++nvrpco := +nvrpcmo & +nvrpcdo & +nvjrpco.
+; Disjunctive type for nouns, verbs, adverbs, adpositions, complementizers and number names.
++nvrpcm := +nvrpcmo & +nvrpcdm & +nvjrpcm.
+; Disjunctive type for nouns, verbs, adverbs, adpositions, complementizers and determiners.
++nvrpcd := +nvrpcdo & +nvrpcdm & +nvjrpcd.
+; Disjunctive type for nouns, verbs, adjectives, determiners, number names and conjunctions.
++nvjdmo := +nvjcdmo & +nvjpdmo & +nvjrdmo.
+; Disjunctive type for nouns, verbs, adjectives, complementizers, number names and conjunctions.
++nvjcmo := +nvjcdmo & +nvjpcmo & +nvjrcmo.
+; Disjunctive type for nouns, verbs, adjectives, complementizers, determiners and conjunctions.
++nvjcdo := +nvjcdmo & +nvjpcdo & +nvjrcdo.
+; Disjunctive type for nouns, verbs, adjectives, complementizers, determiners and number names.
++nvjcdm := +nvjcdmo & +nvjpcdm & +nvjrcdm.
+; Disjunctive type for nouns, verbs, adjectives, adpositions, number names and conjunctions.
++nvjpmo := +nvjpdmo & +nvjpcmo & +nvjrpmo.
+; Disjunctive type for nouns, verbs, adjectives, adpositions, determiners and conjunctions.
++nvjpdo := +nvjpdmo & +nvjpcdo & +nvjrpdo.
+; Disjunctive type for nouns, verbs, adjectives, adpositions, determiners and number names.
++nvjpdm := +nvjpdmo & +nvjpcdm & +nvjrpdm.
+; Disjunctive type for nouns, verbs, adjectives, adpositions, complementizers and conjunctions.
++nvjpco := +nvjpcmo & +nvjpcdo & +nvjrpco.
+; Disjunctive type for nouns, verbs, adjectives, adpositions, complementizers and number names.
++nvjpcm := +nvjpcmo & +nvjpcdm & +nvjrpcm.
+; Disjunctive type for nouns, verbs, adjectives, adpositions, complementizers and determiners.
++nvjpcd := +nvjpcdo & +nvjpcdm & +nvjrpcd.
+; Disjunctive type for nouns, verbs, adjectives, adverbs, number names and conjunctions.
++nvjrmo := +nvjrdmo & +nvjrcmo & +nvjrpmo.
+; Disjunctive type for nouns, verbs, adjectives, adverbs, determiners and conjunctions.
++nvjrdo := +nvjrdmo & +nvjrcdo & +nvjrpdo.
+; Disjunctive type for nouns, verbs, adjectives, adverbs, determiners and number names.
++nvjrdm := +nvjrdmo & +nvjrcdm & +nvjrpdm.
+; Disjunctive type for nouns, verbs, adjectives, adverbs, complementizers and conjunctions.
++nvjrco := +nvjrcmo & +nvjrcdo & +nvjrpco.
+; Disjunctive type for nouns, verbs, adjectives, adverbs, complementizers and number names.
++nvjrcm := +nvjrcmo & +nvjrcdm & +nvjrpcm.
+; Disjunctive type for nouns, verbs, adjectives, adverbs, complementizers and determiners.
++nvjrcd := +nvjrcdo & +nvjrcdm & +nvjrpcd.
+; Disjunctive type for nouns, verbs, adjectives, adverbs, adpositions and conjunctions.
++nvjrpo := +nvjrpmo & +nvjrpdo & +nvjrpco.
+; Disjunctive type for nouns, verbs, adjectives, adverbs, adpositions and number names.
++nvjrpm := +nvjrpmo & +nvjrpdm & +nvjrpcm.
+; Disjunctive type for nouns, verbs, adjectives, adverbs, adpositions and determiners.
++nvjrpd := +nvjrpdo & +nvjrpdm & +nvjrpcd.
+; Disjunctive type for nouns, verbs, adjectives, adverbs, adpositions and complementizers.
++nvjrpc := +nvjrpco & +nvjrpcm & +nvjrpcd.
+; Disjunctive type for adpositions, complementizers, determiners, number names and conjunctions.
++pcdmo := +rpcdmo & +jpcdmo & +vpcdmo & +npcdmo.
+; Disjunctive type for adverbs, complementizers, determiners, number names and conjunctions.
++rcdmo := +rpcdmo & +jrcdmo & +vrcdmo & +nrcdmo.
+; Disjunctive type for adverbs, adpositions, determiners, number names and conjunctions.
++rpdmo := +rpcdmo & +jrpdmo & +vrpdmo & +nrpdmo.
+; Disjunctive type for adverbs, adpositions, complementizers, number names and conjunctions.
++rpcmo := +rpcdmo & +jrpcmo & +vrpcmo & +nrpcmo.
+; Disjunctive type for adverbs, adpositions, complementizers, determiners and conjunctions.
++rpcdo := +rpcdmo & +jrpcdo & +vrpcdo & +nrpcdo.
+; Disjunctive type for adverbs, adpositions, complementizers, determiners and number names.
++rpcdm := +rpcdmo & +jrpcdm & +vrpcdm & +nrpcdm.
+; Disjunctive type for adjectives, complementizers, determiners, number names and conjunctions.
++jcdmo := +jpcdmo & +jrcdmo & +vjcdmo & +njcdmo.
+; Disjunctive type for adjectives, adpositions, determiners, number names and conjunctions.
++jpdmo := +jpcdmo & +jrpdmo & +vjpdmo & +njpdmo.
+; Disjunctive type for adjectives, adpositions, complementizers, number names and conjunctions.
++jpcmo := +jpcdmo & +jrpcmo & +vjpcmo & +njpcmo.
+; Disjunctive type for adjectives, adpositions, complementizers, determiners and conjunctions.
++jpcdo := +jpcdmo & +jrpcdo & +vjpcdo & +njpcdo.
+; Disjunctive type for adjectives, adpositions, complementizers, determiners and number names.
++jpcdm := +jpcdmo & +jrpcdm & +vjpcdm & +njpcdm.
+; Disjunctive type for adjectives, adverbs, determiners, number names and conjunctions.
++jrdmo := +jrcdmo & +jrpdmo & +vjrdmo & +njrdmo.
+; Disjunctive type for adjectives, adverbs, complementizers, number names and conjunctions.
++jrcmo := +jrcdmo & +jrpcmo & +vjrcmo & +njrcmo.
+; Disjunctive type for adjectives, adverbs, complementizers, determiners and conjunctions.
++jrcdo := +jrcdmo & +jrpcdo & +vjrcdo & +njrcdo.
+; Disjunctive type for adjectives, adverbs, complementizers, determiners and number names.
++jrcdm := +jrcdmo & +jrpcdm & +vjrcdm & +njrcdm.
+; Disjunctive type for adjectives, adverbs, adpositions, number names and conjunctions.
++jrpmo := +jrpdmo & +jrpcmo & +vjrpmo & +njrpmo.
+; Disjunctive type for adjectives, adverbs, adpositions, determiners and conjunctions.
++jrpdo := +jrpdmo & +jrpcdo & +vjrpdo & +njrpdo.
+; Disjunctive type for adjectives, adverbs, adpositions, determiners and number names.
++jrpdm := +jrpdmo & +jrpcdm & +vjrpdm & +njrpdm.
+; Disjunctive type for adjectives, adverbs, adpositions, complementizers and conjunctions.
++jrpco := +jrpcmo & +jrpcdo & +vjrpco & +njrpco.
+; Disjunctive type for adjectives, adverbs, adpositions, complementizers and number names.
++jrpcm := +jrpcmo & +jrpcdm & +vjrpcm & +njrpcm.
+; Disjunctive type for adjectives, adverbs, adpositions, complementizers and determiners.
++jrpcd := +jrpcdo & +jrpcdm & +vjrpcd & +njrpcd.
+; Disjunctive type for verbs, complementizers, determiners, number names and conjunctions.
++vcdmo := +vpcdmo & +vrcdmo & +vjcdmo & +nvcdmo.
+; Disjunctive type for verbs, adpositions, determiners, number names and conjunctions.
++vpdmo := +vpcdmo & +vrpdmo & +vjpdmo & +nvpdmo.
+; Disjunctive type for verbs, adpositions, complementizers, number names and conjunctions.
++vpcmo := +vpcdmo & +vrpcmo & +vjpcmo & +nvpcmo.
+; Disjunctive type for verbs, adpositions, complementizers, determiners and conjunctions.
++vpcdo := +vpcdmo & +vrpcdo & +vjpcdo & +nvpcdo.
+; Disjunctive type for verbs, adpositions, complementizers, determiners and number names.
++vpcdm := +vpcdmo & +vrpcdm & +vjpcdm & +nvpcdm.
+; Disjunctive type for verbs, adverbs, determiners, number names and conjunctions.
++vrdmo := +vrcdmo & +vrpdmo & +vjrdmo & +nvrdmo.
+; Disjunctive type for verbs, adverbs, complementizers, number names and conjunctions.
++vrcmo := +vrcdmo & +vrpcmo & +vjrcmo & +nvrcmo.
+; Disjunctive type for verbs, adverbs, complementizers, determiners and conjunctions.
++vrcdo := +vrcdmo & +vrpcdo & +vjrcdo & +nvrcdo.
+; Disjunctive type for verbs, adverbs, complementizers, determiners and number names.
++vrcdm := +vrcdmo & +vrpcdm & +vjrcdm & +nvrcdm.
+; Disjunctive type for verbs, adverbs, adpositions, number names and conjunctions.
++vrpmo := +vrpdmo & +vrpcmo & +vjrpmo & +nvrpmo.
+; Disjunctive type for verbs, adverbs, adpositions, determiners and conjunctions.
++vrpdo := +vrpdmo & +vrpcdo & +vjrpdo & +nvrpdo.
+; Disjunctive type for verbs, adverbs, adpositions, determiners and number names.
++vrpdm := +vrpdmo & +vrpcdm & +vjrpdm & +nvrpdm.
+; Disjunctive type for verbs, adverbs, adpositions, complementizers and conjunctions.
++vrpco := +vrpcmo & +vrpcdo & +vjrpco & +nvrpco.
+; Disjunctive type for verbs, adverbs, adpositions, complementizers and number names.
++vrpcm := +vrpcmo & +vrpcdm & +vjrpcm & +nvrpcm.
+; Disjunctive type for verbs, adverbs, adpositions, complementizers and determiners.
++vrpcd := +vrpcdo & +vrpcdm & +vjrpcd & +nvrpcd.
+; Disjunctive type for verbs, adjectives, determiners, number names and conjunctions.
++vjdmo := +vjcdmo & +vjpdmo & +vjrdmo & +nvjdmo.
+; Disjunctive type for verbs, adjectives, complementizers, number names and conjunctions.
++vjcmo := +vjcdmo & +vjpcmo & +vjrcmo & +nvjcmo.
+; Disjunctive type for verbs, adjectives, complementizers, determiners and conjunctions.
++vjcdo := +vjcdmo & +vjpcdo & +vjrcdo & +nvjcdo.
+; Disjunctive type for verbs, adjectives, complementizers, determiners and number names.
++vjcdm := +vjcdmo & +vjpcdm & +vjrcdm & +nvjcdm.
+; Disjunctive type for verbs, adjectives, adpositions, number names and conjunctions.
++vjpmo := +vjpdmo & +vjpcmo & +vjrpmo & +nvjpmo.
+; Disjunctive type for verbs, adjectives, adpositions, determiners and conjunctions.
++vjpdo := +vjpdmo & +vjpcdo & +vjrpdo & +nvjpdo.
+; Disjunctive type for verbs, adjectives, adpositions, determiners and number names.
++vjpdm := +vjpdmo & +vjpcdm & +vjrpdm & +nvjpdm.
+; Disjunctive type for verbs, adjectives, adpositions, complementizers and conjunctions.
++vjpco := +vjpcmo & +vjpcdo & +vjrpco & +nvjpco.
+; Disjunctive type for verbs, adjectives, adpositions, complementizers and number names.
++vjpcm := +vjpcmo & +vjpcdm & +vjrpcm & +nvjpcm.
+; Disjunctive type for verbs, adjectives, adpositions, complementizers and determiners.
++vjpcd := +vjpcdo & +vjpcdm & +vjrpcd & +nvjpcd.
+; Disjunctive type for verbs, adjectives, adverbs, number names and conjunctions.
++vjrmo := +vjrdmo & +vjrcmo & +vjrpmo & +nvjrmo.
+; Disjunctive type for verbs, adjectives, adverbs, determiners and conjunctions.
++vjrdo := +vjrdmo & +vjrcdo & +vjrpdo & +nvjrdo.
+; Disjunctive type for verbs, adjectives, adverbs, determiners and number names.
++vjrdm := +vjrdmo & +vjrcdm & +vjrpdm & +nvjrdm.
+; Disjunctive type for verbs, adjectives, adverbs, complementizers and conjunctions.
++vjrco := +vjrcmo & +vjrcdo & +vjrpco & +nvjrco.
+; Disjunctive type for verbs, adjectives, adverbs, complementizers and number names.
++vjrcm := +vjrcmo & +vjrcdm & +vjrpcm & +nvjrcm.
+; Disjunctive type for verbs, adjectives, adverbs, complementizers and determiners.
++vjrcd := +vjrcdo & +vjrcdm & +vjrpcd & +nvjrcd.
+; Disjunctive type for verbs, adjectives, adverbs, adpositions and conjunctions.
++vjrpo := +vjrpmo & +vjrpdo & +vjrpco & +nvjrpo.
+; Disjunctive type for verbs, adjectives, adverbs, adpositions and number names.
++vjrpm := +vjrpmo & +vjrpdm & +vjrpcm & +nvjrpm.
+; Disjunctive type for verbs, adjectives, adverbs, adpositions and determiners.
++vjrpd := +vjrpdo & +vjrpdm & +vjrpcd & +nvjrpd.
+; Disjunctive type for verbs, adjectives, adverbs, adpositions and complementizers.
++vjrpc := +vjrpco & +vjrpcm & +vjrpcd & +nvjrpc.
+; Disjunctive type for nouns, complementizers, determiners, number names and conjunctions.
++ncdmo := +npcdmo & +nrcdmo & +njcdmo & +nvcdmo.
+; Disjunctive type for nouns, adpositions, determiners, number names and conjunctions.
++npdmo := +npcdmo & +nrpdmo & +njpdmo & +nvpdmo.
+; Disjunctive type for nouns, adpositions, complementizers, number names and conjunctions.
++npcmo := +npcdmo & +nrpcmo & +njpcmo & +nvpcmo.
+; Disjunctive type for nouns, adpositions, complementizers, determiners and conjunctions.
++npcdo := +npcdmo & +nrpcdo & +njpcdo & +nvpcdo.
+; Disjunctive type for nouns, adpositions, complementizers, determiners and number names.
++npcdm := +npcdmo & +nrpcdm & +njpcdm & +nvpcdm.
+; Disjunctive type for nouns, adverbs, determiners, number names and conjunctions.
++nrdmo := +nrcdmo & +nrpdmo & +njrdmo & +nvrdmo.
+; Disjunctive type for nouns, adverbs, complementizers, number names and conjunctions.
++nrcmo := +nrcdmo & +nrpcmo & +njrcmo & +nvrcmo.
+; Disjunctive type for nouns, adverbs, complementizers, determiners and conjunctions.
++nrcdo := +nrcdmo & +nrpcdo & +njrcdo & +nvrcdo.
+; Disjunctive type for nouns, adverbs, complementizers, determiners and number names.
++nrcdm := +nrcdmo & +nrpcdm & +njrcdm & +nvrcdm.
+; Disjunctive type for nouns, adverbs, adpositions, number names and conjunctions.
++nrpmo := +nrpdmo & +nrpcmo & +njrpmo & +nvrpmo.
+; Disjunctive type for nouns, adverbs, adpositions, determiners and conjunctions.
++nrpdo := +nrpdmo & +nrpcdo & +njrpdo & +nvrpdo.
+; Disjunctive type for nouns, adverbs, adpositions, determiners and number names.
++nrpdm := +nrpdmo & +nrpcdm & +njrpdm & +nvrpdm.
+; Disjunctive type for nouns, adverbs, adpositions, complementizers and conjunctions.
++nrpco := +nrpcmo & +nrpcdo & +njrpco & +nvrpco.
+; Disjunctive type for nouns, adverbs, adpositions, complementizers and number names.
++nrpcm := +nrpcmo & +nrpcdm & +njrpcm & +nvrpcm.
+; Disjunctive type for nouns, adverbs, adpositions, complementizers and determiners.
++nrpcd := +nrpcdo & +nrpcdm & +njrpcd & +nvrpcd.
+; Disjunctive type for nouns, adjectives, determiners, number names and conjunctions.
++njdmo := +njcdmo & +njpdmo & +njrdmo & +nvjdmo.
+; Disjunctive type for nouns, adjectives, complementizers, number names and conjunctions.
++njcmo := +njcdmo & +njpcmo & +njrcmo & +nvjcmo.
+; Disjunctive type for nouns, adjectives, complementizers, determiners and conjunctions.
++njcdo := +njcdmo & +njpcdo & +njrcdo & +nvjcdo.
+; Disjunctive type for nouns, adjectives, complementizers, determiners and number names.
++njcdm := +njcdmo & +njpcdm & +njrcdm & +nvjcdm.
+; Disjunctive type for nouns, adjectives, adpositions, number names and conjunctions.
++njpmo := +njpdmo & +njpcmo & +njrpmo & +nvjpmo.
+; Disjunctive type for nouns, adjectives, adpositions, determiners and conjunctions.
++njpdo := +njpdmo & +njpcdo & +njrpdo & +nvjpdo.
+; Disjunctive type for nouns, adjectives, adpositions, determiners and number names.
++njpdm := +njpdmo & +njpcdm & +njrpdm & +nvjpdm.
+; Disjunctive type for nouns, adjectives, adpositions, complementizers and conjunctions.
++njpco := +njpcmo & +njpcdo & +njrpco & +nvjpco.
+; Disjunctive type for nouns, adjectives, adpositions, complementizers and number names.
++njpcm := +njpcmo & +njpcdm & +njrpcm & +nvjpcm.
+; Disjunctive type for nouns, adjectives, adpositions, complementizers and determiners.
++njpcd := +njpcdo & +njpcdm & +njrpcd & +nvjpcd.
+; Disjunctive type for nouns, adjectives, adverbs, number names and conjunctions.
++njrmo := +njrdmo & +njrcmo & +njrpmo & +nvjrmo.
+; Disjunctive type for nouns, adjectives, adverbs, determiners and conjunctions.
++njrdo := +njrdmo & +njrcdo & +njrpdo & +nvjrdo.
+; Disjunctive type for nouns, adjectives, adverbs, determiners and number names.
++njrdm := +njrdmo & +njrcdm & +njrpdm & +nvjrdm.
+; Disjunctive type for nouns, adjectives, adverbs, complementizers and conjunctions.
++njrco := +njrcmo & +njrcdo & +njrpco & +nvjrco.
+; Disjunctive type for nouns, adjectives, adverbs, complementizers and number names.
++njrcm := +njrcmo & +njrcdm & +njrpcm & +nvjrcm.
+; Disjunctive type for nouns, adjectives, adverbs, complementizers and determiners.
++njrcd := +njrcdo & +njrcdm & +njrpcd & +nvjrcd.
+; Disjunctive type for nouns, adjectives, adverbs, adpositions and conjunctions.
++njrpo := +njrpmo & +njrpdo & +njrpco & +nvjrpo.
+; Disjunctive type for nouns, adjectives, adverbs, adpositions and number names.
++njrpm := +njrpmo & +njrpdm & +njrpcm & +nvjrpm.
+; Disjunctive type for nouns, adjectives, adverbs, adpositions and determiners.
++njrpd := +njrpdo & +njrpdm & +njrpcd & +nvjrpd.
+; Disjunctive type for nouns, adjectives, adverbs, adpositions and complementizers.
++njrpc := +njrpco & +njrpcm & +njrpcd & +nvjrpc.
+; Disjunctive type for nouns, verbs, determiners, number names and conjunctions.
++nvdmo := +nvcdmo & +nvpdmo & +nvrdmo & +nvjdmo.
+; Disjunctive type for nouns, verbs, complementizers, number names and conjunctions.
++nvcmo := +nvcdmo & +nvpcmo & +nvrcmo & +nvjcmo.
+; Disjunctive type for nouns, verbs, complementizers, determiners and conjunctions.
++nvcdo := +nvcdmo & +nvpcdo & +nvrcdo & +nvjcdo.
+; Disjunctive type for nouns, verbs, complementizers, determiners and number names.
++nvcdm := +nvcdmo & +nvpcdm & +nvrcdm & +nvjcdm.
+; Disjunctive type for nouns, verbs, adpositions, number names and conjunctions.
++nvpmo := +nvpdmo & +nvpcmo & +nvrpmo & +nvjpmo.
+; Disjunctive type for nouns, verbs, adpositions, determiners and conjunctions.
++nvpdo := +nvpdmo & +nvpcdo & +nvrpdo & +nvjpdo.
+; Disjunctive type for nouns, verbs, adpositions, determiners and number names.
++nvpdm := +nvpdmo & +nvpcdm & +nvrpdm & +nvjpdm.
+; Disjunctive type for nouns, verbs, adpositions, complementizers and conjunctions.
++nvpco := +nvpcmo & +nvpcdo & +nvrpco & +nvjpco.
+; Disjunctive type for nouns, verbs, adpositions, complementizers and number names.
++nvpcm := +nvpcmo & +nvpcdm & +nvrpcm & +nvjpcm.
+; Disjunctive type for nouns, verbs, adpositions, complementizers and determiners.
++nvpcd := +nvpcdo & +nvpcdm & +nvrpcd & +nvjpcd.
+; Disjunctive type for nouns, verbs, adverbs, number names and conjunctions.
++nvrmo := +nvrdmo & +nvrcmo & +nvrpmo & +nvjrmo.
+; Disjunctive type for nouns, verbs, adverbs, determiners and conjunctions.
++nvrdo := +nvrdmo & +nvrcdo & +nvrpdo & +nvjrdo.
+; Disjunctive type for nouns, verbs, adverbs, determiners and number names.
++nvrdm := +nvrdmo & +nvrcdm & +nvrpdm & +nvjrdm.
+; Disjunctive type for nouns, verbs, adverbs, complementizers and conjunctions.
++nvrco := +nvrcmo & +nvrcdo & +nvrpco & +nvjrco.
+; Disjunctive type for nouns, verbs, adverbs, complementizers and number names.
++nvrcm := +nvrcmo & +nvrcdm & +nvrpcm & +nvjrcm.
+; Disjunctive type for nouns, verbs, adverbs, complementizers and determiners.
++nvrcd := +nvrcdo & +nvrcdm & +nvrpcd & +nvjrcd.
+; Disjunctive type for nouns, verbs, adverbs, adpositions and conjunctions.
++nvrpo := +nvrpmo & +nvrpdo & +nvrpco & +nvjrpo.
+; Disjunctive type for nouns, verbs, adverbs, adpositions and number names.
++nvrpm := +nvrpmo & +nvrpdm & +nvrpcm & +nvjrpm.
+; Disjunctive type for nouns, verbs, adverbs, adpositions and determiners.
++nvrpd := +nvrpdo & +nvrpdm & +nvrpcd & +nvjrpd.
+; Disjunctive type for nouns, verbs, adverbs, adpositions and complementizers.
++nvrpc := +nvrpco & +nvrpcm & +nvrpcd & +nvjrpc.
+; Disjunctive type for nouns, verbs, adjectives, number names and conjunctions.
++nvjmo := +nvjdmo & +nvjcmo & +nvjpmo & +nvjrmo.
+; Disjunctive type for nouns, verbs, adjectives, determiners and conjunctions.
++nvjdo := +nvjdmo & +nvjcdo & +nvjpdo & +nvjrdo.
+; Disjunctive type for nouns, verbs, adjectives, determiners and number names.
++nvjdm := +nvjdmo & +nvjcdm & +nvjpdm & +nvjrdm.
+; Disjunctive type for nouns, verbs, adjectives, complementizers and conjunctions.
++nvjco := +nvjcmo & +nvjcdo & +nvjpco & +nvjrco.
+; Disjunctive type for nouns, verbs, adjectives, complementizers and number names.
++nvjcm := +nvjcmo & +nvjcdm & +nvjpcm & +nvjrcm.
+; Disjunctive type for nouns, verbs, adjectives, complementizers and determiners.
++nvjcd := +nvjcdo & +nvjcdm & +nvjpcd & +nvjrcd.
+; Disjunctive type for nouns, verbs, adjectives, adpositions and conjunctions.
++nvjpo := +nvjpmo & +nvjpdo & +nvjpco & +nvjrpo.
+; Disjunctive type for nouns, verbs, adjectives, adpositions and number names.
++nvjpm := +nvjpmo & +nvjpdm & +nvjpcm & +nvjrpm.
+; Disjunctive type for nouns, verbs, adjectives, adpositions and determiners.
++nvjpd := +nvjpdo & +nvjpdm & +nvjpcd & +nvjrpd.
+; Disjunctive type for nouns, verbs, adjectives, adpositions and complementizers.
++nvjpc := +nvjpco & +nvjpcm & +nvjpcd & +nvjrpc.
+; Disjunctive type for nouns, verbs, adjectives, adverbs and conjunctions.
++nvjro := +nvjrmo & +nvjrdo & +nvjrco & +nvjrpo.
+; Disjunctive type for nouns, verbs, adjectives, adverbs and number names.
++nvjrm := +nvjrmo & +nvjrdm & +nvjrcm & +nvjrpm.
+; Disjunctive type for nouns, verbs, adjectives, adverbs and determiners.
++nvjrd := +nvjrdo & +nvjrdm & +nvjrcd & +nvjrpd.
+; Disjunctive type for nouns, verbs, adjectives, adverbs and complementizers.
++nvjrc := +nvjrco & +nvjrcm & +nvjrcd & +nvjrpc.
+; Disjunctive type for nouns, verbs, adjectives, adverbs and adpositions.
++nvjrp := +nvjrpo & +nvjrpm & +nvjrpd & +nvjrpc.
+; Disjunctive type for complementizers, determiners, number names and conjunctions.
++cdmo := +pcdmo & +rcdmo & +jcdmo & +vcdmo & +ncdmo.
+; Disjunctive type for adpositions, determiners, number names and conjunctions.
++pdmo := +pcdmo & +rpdmo & +jpdmo & +vpdmo & +npdmo.
+; Disjunctive type for adpositions, complementizers, number names and conjunctions.
++pcmo := +pcdmo & +rpcmo & +jpcmo & +vpcmo & +npcmo.
+; Disjunctive type for adpositions, complementizers, determiners and conjunctions.
++pcdo := +pcdmo & +rpcdo & +jpcdo & +vpcdo & +npcdo.
+; Disjunctive type for adpositions, complementizers, determiners and number names.
++pcdm := +pcdmo & +rpcdm & +jpcdm & +vpcdm & +npcdm.
+; Disjunctive type for adverbs, determiners, number names and conjunctions.
++rdmo := +rcdmo & +rpdmo & +jrdmo & +vrdmo & +nrdmo.
+; Disjunctive type for adverbs, complementizers, number names and conjunctions.
++rcmo := +rcdmo & +rpcmo & +jrcmo & +vrcmo & +nrcmo.
+; Disjunctive type for adverbs, complementizers, determiners and conjunctions.
++rcdo := +rcdmo & +rpcdo & +jrcdo & +vrcdo & +nrcdo.
+; Disjunctive type for adverbs, complementizers, determiners and number names.
++rcdm := +rcdmo & +rpcdm & +jrcdm & +vrcdm & +nrcdm.
+; Disjunctive type for adverbs, adpositions, number names and conjunctions.
++rpmo := +rpdmo & +rpcmo & +jrpmo & +vrpmo & +nrpmo.
+; Disjunctive type for adverbs, adpositions, determiners and conjunctions.
++rpdo := +rpdmo & +rpcdo & +jrpdo & +vrpdo & +nrpdo.
+; Disjunctive type for adverbs, adpositions, determiners and number names.
++rpdm := +rpdmo & +rpcdm & +jrpdm & +vrpdm & +nrpdm.
+; Disjunctive type for adverbs, adpositions, complementizers and conjunctions.
++rpco := +rpcmo & +rpcdo & +jrpco & +vrpco & +nrpco.
+; Disjunctive type for adverbs, adpositions, complementizers and number names.
++rpcm := +rpcmo & +rpcdm & +jrpcm & +vrpcm & +nrpcm.
+; Disjunctive type for adverbs, adpositions, complementizers and determiners.
++rpcd := +rpcdo & +rpcdm & +jrpcd & +vrpcd & +nrpcd.
+; Disjunctive type for adjectives, determiners, number names and conjunctions.
++jdmo := +jcdmo & +jpdmo & +jrdmo & +vjdmo & +njdmo.
+; Disjunctive type for adjectives, complementizers, number names and conjunctions.
++jcmo := +jcdmo & +jpcmo & +jrcmo & +vjcmo & +njcmo.
+; Disjunctive type for adjectives, complementizers, determiners and conjunctions.
++jcdo := +jcdmo & +jpcdo & +jrcdo & +vjcdo & +njcdo.
+; Disjunctive type for adjectives, complementizers, determiners and number names.
++jcdm := +jcdmo & +jpcdm & +jrcdm & +vjcdm & +njcdm.
+; Disjunctive type for adjectives, adpositions, number names and conjunctions.
++jpmo := +jpdmo & +jpcmo & +jrpmo & +vjpmo & +njpmo.
+; Disjunctive type for adjectives, adpositions, determiners and conjunctions.
++jpdo := +jpdmo & +jpcdo & +jrpdo & +vjpdo & +njpdo.
+; Disjunctive type for adjectives, adpositions, determiners and number names.
++jpdm := +jpdmo & +jpcdm & +jrpdm & +vjpdm & +njpdm.
+; Disjunctive type for adjectives, adpositions, complementizers and conjunctions.
++jpco := +jpcmo & +jpcdo & +jrpco & +vjpco & +njpco.
+; Disjunctive type for adjectives, adpositions, complementizers and number names.
++jpcm := +jpcmo & +jpcdm & +jrpcm & +vjpcm & +njpcm.
+; Disjunctive type for adjectives, adpositions, complementizers and determiners.
++jpcd := +jpcdo & +jpcdm & +jrpcd & +vjpcd & +njpcd.
+; Disjunctive type for adjectives, adverbs, number names and conjunctions.
++jrmo := +jrdmo & +jrcmo & +jrpmo & +vjrmo & +njrmo.
+; Disjunctive type for adjectives, adverbs, determiners and conjunctions.
++jrdo := +jrdmo & +jrcdo & +jrpdo & +vjrdo & +njrdo.
+; Disjunctive type for adjectives, adverbs, determiners and number names.
++jrdm := +jrdmo & +jrcdm & +jrpdm & +vjrdm & +njrdm.
+; Disjunctive type for adjectives, adverbs, complementizers and conjunctions.
++jrco := +jrcmo & +jrcdo & +jrpco & +vjrco & +njrco.
+; Disjunctive type for adjectives, adverbs, complementizers and number names.
++jrcm := +jrcmo & +jrcdm & +jrpcm & +vjrcm & +njrcm.
+; Disjunctive type for adjectives, adverbs, complementizers and determiners.
++jrcd := +jrcdo & +jrcdm & +jrpcd & +vjrcd & +njrcd.
+; Disjunctive type for adjectives, adverbs, adpositions and conjunctions.
++jrpo := +jrpmo & +jrpdo & +jrpco & +vjrpo & +njrpo.
+; Disjunctive type for adjectives, adverbs, adpositions and number names.
++jrpm := +jrpmo & +jrpdm & +jrpcm & +vjrpm & +njrpm.
+; Disjunctive type for adjectives, adverbs, adpositions and determiners.
++jrpd := +jrpdo & +jrpdm & +jrpcd & +vjrpd & +njrpd.
+; Disjunctive type for adjectives, adverbs, adpositions and complementizers.
++jrpc := +jrpco & +jrpcm & +jrpcd & +vjrpc & +njrpc.
+; Disjunctive type for verbs, determiners, number names and conjunctions.
++vdmo := +vcdmo & +vpdmo & +vrdmo & +vjdmo & +nvdmo.
+; Disjunctive type for verbs, complementizers, number names and conjunctions.
++vcmo := +vcdmo & +vpcmo & +vrcmo & +vjcmo & +nvcmo.
+; Disjunctive type for verbs, complementizers, determiners and conjunctions.
++vcdo := +vcdmo & +vpcdo & +vrcdo & +vjcdo & +nvcdo.
+; Disjunctive type for verbs, complementizers, determiners and number names.
++vcdm := +vcdmo & +vpcdm & +vrcdm & +vjcdm & +nvcdm.
+; Disjunctive type for verbs, adpositions, number names and conjunctions.
++vpmo := +vpdmo & +vpcmo & +vrpmo & +vjpmo & +nvpmo.
+; Disjunctive type for verbs, adpositions, determiners and conjunctions.
++vpdo := +vpdmo & +vpcdo & +vrpdo & +vjpdo & +nvpdo.
+; Disjunctive type for verbs, adpositions, determiners and number names.
++vpdm := +vpdmo & +vpcdm & +vrpdm & +vjpdm & +nvpdm.
+; Disjunctive type for verbs, adpositions, complementizers and conjunctions.
++vpco := +vpcmo & +vpcdo & +vrpco & +vjpco & +nvpco.
+; Disjunctive type for verbs, adpositions, complementizers and number names.
++vpcm := +vpcmo & +vpcdm & +vrpcm & +vjpcm & +nvpcm.
+; Disjunctive type for verbs, adpositions, complementizers and determiners.
++vpcd := +vpcdo & +vpcdm & +vrpcd & +vjpcd & +nvpcd.
+; Disjunctive type for verbs, adverbs, number names and conjunctions.
++vrmo := +vrdmo & +vrcmo & +vrpmo & +vjrmo & +nvrmo.
+; Disjunctive type for verbs, adverbs, determiners and conjunctions.
++vrdo := +vrdmo & +vrcdo & +vrpdo & +vjrdo & +nvrdo.
+; Disjunctive type for verbs, adverbs, determiners and number names.
++vrdm := +vrdmo & +vrcdm & +vrpdm & +vjrdm & +nvrdm.
+; Disjunctive type for verbs, adverbs, complementizers and conjunctions.
++vrco := +vrcmo & +vrcdo & +vrpco & +vjrco & +nvrco.
+; Disjunctive type for verbs, adverbs, complementizers and number names.
++vrcm := +vrcmo & +vrcdm & +vrpcm & +vjrcm & +nvrcm.
+; Disjunctive type for verbs, adverbs, complementizers and determiners.
++vrcd := +vrcdo & +vrcdm & +vrpcd & +vjrcd & +nvrcd.
+; Disjunctive type for verbs, adverbs, adpositions and conjunctions.
++vrpo := +vrpmo & +vrpdo & +vrpco & +vjrpo & +nvrpo.
+; Disjunctive type for verbs, adverbs, adpositions and number names.
++vrpm := +vrpmo & +vrpdm & +vrpcm & +vjrpm & +nvrpm.
+; Disjunctive type for verbs, adverbs, adpositions and determiners.
++vrpd := +vrpdo & +vrpdm & +vrpcd & +vjrpd & +nvrpd.
+; Disjunctive type for verbs, adverbs, adpositions and complementizers.
++vrpc := +vrpco & +vrpcm & +vrpcd & +vjrpc & +nvrpc.
+; Disjunctive type for verbs, adjectives, number names and conjunctions.
++vjmo := +vjdmo & +vjcmo & +vjpmo & +vjrmo & +nvjmo.
+; Disjunctive type for verbs, adjectives, determiners and conjunctions.
++vjdo := +vjdmo & +vjcdo & +vjpdo & +vjrdo & +nvjdo.
+; Disjunctive type for verbs, adjectives, determiners and number names.
++vjdm := +vjdmo & +vjcdm & +vjpdm & +vjrdm & +nvjdm.
+; Disjunctive type for verbs, adjectives, complementizers and conjunctions.
++vjco := +vjcmo & +vjcdo & +vjpco & +vjrco & +nvjco.
+; Disjunctive type for verbs, adjectives, complementizers and number names.
++vjcm := +vjcmo & +vjcdm & +vjpcm & +vjrcm & +nvjcm.
+; Disjunctive type for verbs, adjectives, complementizers and determiners.
++vjcd := +vjcdo & +vjcdm & +vjpcd & +vjrcd & +nvjcd.
+; Disjunctive type for verbs, adjectives, adpositions and conjunctions.
++vjpo := +vjpmo & +vjpdo & +vjpco & +vjrpo & +nvjpo.
+; Disjunctive type for verbs, adjectives, adpositions and number names.
++vjpm := +vjpmo & +vjpdm & +vjpcm & +vjrpm & +nvjpm.
+; Disjunctive type for verbs, adjectives, adpositions and determiners.
++vjpd := +vjpdo & +vjpdm & +vjpcd & +vjrpd & +nvjpd.
+; Disjunctive type for verbs, adjectives, adpositions and complementizers.
++vjpc := +vjpco & +vjpcm & +vjpcd & +vjrpc & +nvjpc.
+; Disjunctive type for verbs, adjectives, adverbs and conjunctions.
++vjro := +vjrmo & +vjrdo & +vjrco & +vjrpo & +nvjro.
+; Disjunctive type for verbs, adjectives, adverbs and number names.
++vjrm := +vjrmo & +vjrdm & +vjrcm & +vjrpm & +nvjrm.
+; Disjunctive type for verbs, adjectives, adverbs and determiners.
++vjrd := +vjrdo & +vjrdm & +vjrcd & +vjrpd & +nvjrd.
+; Disjunctive type for verbs, adjectives, adverbs and complementizers.
++vjrc := +vjrco & +vjrcm & +vjrcd & +vjrpc & +nvjrc.
+; Disjunctive type for verbs, adjectives, adverbs and adpositions.
++vjrp := +vjrpo & +vjrpm & +vjrpd & +vjrpc & +nvjrp.
+; Disjunctive type for nouns, determiners, number names and conjunctions.
++ndmo := +ncdmo & +npdmo & +nrdmo & +njdmo & +nvdmo.
+; Disjunctive type for nouns, complementizers, number names and conjunctions.
++ncmo := +ncdmo & +npcmo & +nrcmo & +njcmo & +nvcmo.
+; Disjunctive type for nouns, complementizers, determiners and conjunctions.
++ncdo := +ncdmo & +npcdo & +nrcdo & +njcdo & +nvcdo.
+; Disjunctive type for nouns, complementizers, determiners and number names.
++ncdm := +ncdmo & +npcdm & +nrcdm & +njcdm & +nvcdm.
+; Disjunctive type for nouns, adpositions, number names and conjunctions.
++npmo := +npdmo & +npcmo & +nrpmo & +njpmo & +nvpmo.
+; Disjunctive type for nouns, adpositions, determiners and conjunctions.
++npdo := +npdmo & +npcdo & +nrpdo & +njpdo & +nvpdo.
+; Disjunctive type for nouns, adpositions, determiners and number names.
++npdm := +npdmo & +npcdm & +nrpdm & +njpdm & +nvpdm.
+; Disjunctive type for nouns, adpositions, complementizers and conjunctions.
++npco := +npcmo & +npcdo & +nrpco & +njpco & +nvpco.
+; Disjunctive type for nouns, adpositions, complementizers and number names.
++npcm := +npcmo & +npcdm & +nrpcm & +njpcm & +nvpcm.
+; Disjunctive type for nouns, adpositions, complementizers and determiners.
++npcd := +npcdo & +npcdm & +nrpcd & +njpcd & +nvpcd.
+; Disjunctive type for nouns, adverbs, number names and conjunctions.
++nrmo := +nrdmo & +nrcmo & +nrpmo & +njrmo & +nvrmo.
+; Disjunctive type for nouns, adverbs, determiners and conjunctions.
++nrdo := +nrdmo & +nrcdo & +nrpdo & +njrdo & +nvrdo.
+; Disjunctive type for nouns, adverbs, determiners and number names.
++nrdm := +nrdmo & +nrcdm & +nrpdm & +njrdm & +nvrdm.
+; Disjunctive type for nouns, adverbs, complementizers and conjunctions.
++nrco := +nrcmo & +nrcdo & +nrpco & +njrco & +nvrco.
+; Disjunctive type for nouns, adverbs, complementizers and number names.
++nrcm := +nrcmo & +nrcdm & +nrpcm & +njrcm & +nvrcm.
+; Disjunctive type for nouns, adverbs, complementizers and determiners.
++nrcd := +nrcdo & +nrcdm & +nrpcd & +njrcd & +nvrcd.
+; Disjunctive type for nouns, adverbs, adpositions and conjunctions.
++nrpo := +nrpmo & +nrpdo & +nrpco & +njrpo & +nvrpo.
+; Disjunctive type for nouns, adverbs, adpositions and number names.
++nrpm := +nrpmo & +nrpdm & +nrpcm & +njrpm & +nvrpm.
+; Disjunctive type for nouns, adverbs, adpositions and determiners.
++nrpd := +nrpdo & +nrpdm & +nrpcd & +njrpd & +nvrpd.
+; Disjunctive type for nouns, adverbs, adpositions and complementizers.
++nrpc := +nrpco & +nrpcm & +nrpcd & +njrpc & +nvrpc.
+; Disjunctive type for nouns, adjectives, number names and conjunctions.
++njmo := +njdmo & +njcmo & +njpmo & +njrmo & +nvjmo.
+; Disjunctive type for nouns, adjectives, determiners and conjunctions.
++njdo := +njdmo & +njcdo & +njpdo & +njrdo & +nvjdo.
+; Disjunctive type for nouns, adjectives, determiners and number names.
++njdm := +njdmo & +njcdm & +njpdm & +njrdm & +nvjdm.
+; Disjunctive type for nouns, adjectives, complementizers and conjunctions.
++njco := +njcmo & +njcdo & +njpco & +njrco & +nvjco.
+; Disjunctive type for nouns, adjectives, complementizers and number names.
++njcm := +njcmo & +njcdm & +njpcm & +njrcm & +nvjcm.
+; Disjunctive type for nouns, adjectives, complementizers and determiners.
++njcd := +njcdo & +njcdm & +njpcd & +njrcd & +nvjcd.
+; Disjunctive type for nouns, adjectives, adpositions and conjunctions.
++njpo := +njpmo & +njpdo & +njpco & +njrpo & +nvjpo.
+; Disjunctive type for nouns, adjectives, adpositions and number names.
++njpm := +njpmo & +njpdm & +njpcm & +njrpm & +nvjpm.
+; Disjunctive type for nouns, adjectives, adpositions and determiners.
++njpd := +njpdo & +njpdm & +njpcd & +njrpd & +nvjpd.
+; Disjunctive type for nouns, adjectives, adpositions and complementizers.
++njpc := +njpco & +njpcm & +njpcd & +njrpc & +nvjpc.
+; Disjunctive type for nouns, adjectives, adverbs and conjunctions.
++njro := +njrmo & +njrdo & +njrco & +njrpo & +nvjro.
+; Disjunctive type for nouns, adjectives, adverbs and number names.
++njrm := +njrmo & +njrdm & +njrcm & +njrpm & +nvjrm.
+; Disjunctive type for nouns, adjectives, adverbs and determiners.
++njrd := +njrdo & +njrdm & +njrcd & +njrpd & +nvjrd.
+; Disjunctive type for nouns, adjectives, adverbs and complementizers.
++njrc := +njrco & +njrcm & +njrcd & +njrpc & +nvjrc.
+; Disjunctive type for nouns, adjectives, adverbs and adpositions.
++njrp := +njrpo & +njrpm & +njrpd & +njrpc & +nvjrp.
+; Disjunctive type for nouns, verbs, number names and conjunctions.
++nvmo := +nvdmo & +nvcmo & +nvpmo & +nvrmo & +nvjmo.
+; Disjunctive type for nouns, verbs, determiners and conjunctions.
++nvdo := +nvdmo & +nvcdo & +nvpdo & +nvrdo & +nvjdo.
+; Disjunctive type for nouns, verbs, determiners and number names.
++nvdm := +nvdmo & +nvcdm & +nvpdm & +nvrdm & +nvjdm.
+; Disjunctive type for nouns, verbs, complementizers and conjunctions.
++nvco := +nvcmo & +nvcdo & +nvpco & +nvrco & +nvjco.
+; Disjunctive type for nouns, verbs, complementizers and number names.
++nvcm := +nvcmo & +nvcdm & +nvpcm & +nvrcm & +nvjcm.
+; Disjunctive type for nouns, verbs, complementizers and determiners.
++nvcd := +nvcdo & +nvcdm & +nvpcd & +nvrcd & +nvjcd.
+; Disjunctive type for nouns, verbs, adpositions and conjunctions.
++nvpo := +nvpmo & +nvpdo & +nvpco & +nvrpo & +nvjpo.
+; Disjunctive type for nouns, verbs, adpositions and number names.
++nvpm := +nvpmo & +nvpdm & +nvpcm & +nvrpm & +nvjpm.
+; Disjunctive type for nouns, verbs, adpositions and determiners.
++nvpd := +nvpdo & +nvpdm & +nvpcd & +nvrpd & +nvjpd.
+; Disjunctive type for nouns, verbs, adpositions and complementizers.
++nvpc := +nvpco & +nvpcm & +nvpcd & +nvrpc & +nvjpc.
+; Disjunctive type for nouns, verbs, adverbs and conjunctions.
++nvro := +nvrmo & +nvrdo & +nvrco & +nvrpo & +nvjro.
+; Disjunctive type for nouns, verbs, adverbs and number names.
++nvrm := +nvrmo & +nvrdm & +nvrcm & +nvrpm & +nvjrm.
+; Disjunctive type for nouns, verbs, adverbs and determiners.
++nvrd := +nvrdo & +nvrdm & +nvrcd & +nvrpd & +nvjrd.
+; Disjunctive type for nouns, verbs, adverbs and complementizers.
++nvrc := +nvrco & +nvrcm & +nvrcd & +nvrpc & +nvjrc.
+; Disjunctive type for nouns, verbs, adverbs and adpositions.
++nvrp := +nvrpo & +nvrpm & +nvrpd & +nvrpc & +nvjrp.
+; Disjunctive type for nouns, verbs, adjectives and conjunctions.
++nvjo := +nvjmo & +nvjdo & +nvjco & +nvjpo & +nvjro.
+; Disjunctive type for nouns, verbs, adjectives and number names.
++nvjm := +nvjmo & +nvjdm & +nvjcm & +nvjpm & +nvjrm.
+; Disjunctive type for nouns, verbs, adjectives and determiners.
++nvjd := +nvjdo & +nvjdm & +nvjcd & +nvjpd & +nvjrd.
+; Disjunctive type for nouns, verbs, adjectives and complementizers.
++nvjc := +nvjco & +nvjcm & +nvjcd & +nvjpc & +nvjrc.
+; Disjunctive type for nouns, verbs, adjectives and adpositions.
++nvjp := +nvjpo & +nvjpm & +nvjpd & +nvjpc & +nvjrp.
+; Disjunctive type for nouns, verbs, adjectives and adverbs.
++nvjr := +nvjro & +nvjrm & +nvjrd & +nvjrc & +nvjrp.
+; Disjunctive type for determiners, number names and conjunctions.
++dmo := +cdmo & +pdmo & +rdmo & +jdmo & +vdmo & +ndmo.
+; Disjunctive type for complementizers, number names and conjunctions.
++cmo := +cdmo & +pcmo & +rcmo & +jcmo & +vcmo & +ncmo.
+; Disjunctive type for complementizers, determiners and conjunctions.
++cdo := +cdmo & +pcdo & +rcdo & +jcdo & +vcdo & +ncdo.
+; Disjunctive type for complementizers, determiners and number names.
++cdm := +cdmo & +pcdm & +rcdm & +jcdm & +vcdm & +ncdm.
+; Disjunctive type for adpositions, number names and conjunctions.
++pmo := +pdmo & +pcmo & +rpmo & +jpmo & +vpmo & +npmo.
+; Disjunctive type for adpositions, determiners and conjunctions.
++pdo := +pdmo & +pcdo & +rpdo & +jpdo & +vpdo & +npdo.
+; Disjunctive type for adpositions, determiners and number names.
++pdm := +pdmo & +pcdm & +rpdm & +jpdm & +vpdm & +npdm.
+; Disjunctive type for adpositions, complementizers and conjunctions.
++pco := +pcmo & +pcdo & +rpco & +jpco & +vpco & +npco.
+; Disjunctive type for adpositions, complementizers and number names.
++pcm := +pcmo & +pcdm & +rpcm & +jpcm & +vpcm & +npcm.
+; Disjunctive type for adpositions, complementizers and determiners.
++pcd := +pcdo & +pcdm & +rpcd & +jpcd & +vpcd & +npcd.
+; Disjunctive type for adverbs, number names and conjunctions.
++rmo := +rdmo & +rcmo & +rpmo & +jrmo & +vrmo & +nrmo.
+; Disjunctive type for adverbs, determiners and conjunctions.
++rdo := +rdmo & +rcdo & +rpdo & +jrdo & +vrdo & +nrdo.
+; Disjunctive type for adverbs, determiners and number names.
++rdm := +rdmo & +rcdm & +rpdm & +jrdm & +vrdm & +nrdm.
+; Disjunctive type for adverbs, complementizers and conjunctions.
++rco := +rcmo & +rcdo & +rpco & +jrco & +vrco & +nrco.
+; Disjunctive type for adverbs, complementizers and number names.
++rcm := +rcmo & +rcdm & +rpcm & +jrcm & +vrcm & +nrcm.
+; Disjunctive type for adverbs, complementizers and determiners.
++rcd := +rcdo & +rcdm & +rpcd & +jrcd & +vrcd & +nrcd.
+; Disjunctive type for adverbs, adpositions and conjunctions.
++rpo := +rpmo & +rpdo & +rpco & +jrpo & +vrpo & +nrpo.
+; Disjunctive type for adverbs, adpositions and number names.
++rpm := +rpmo & +rpdm & +rpcm & +jrpm & +vrpm & +nrpm.
+; Disjunctive type for adverbs, adpositions and determiners.
++rpd := +rpdo & +rpdm & +rpcd & +jrpd & +vrpd & +nrpd.
+; Disjunctive type for adverbs, adpositions and complementizers.
++rpc := +rpco & +rpcm & +rpcd & +jrpc & +vrpc & +nrpc.
+; Disjunctive type for adjectives, number names and conjunctions.
++jmo := +jdmo & +jcmo & +jpmo & +jrmo & +vjmo & +njmo.
+; Disjunctive type for adjectives, determiners and conjunctions.
++jdo := +jdmo & +jcdo & +jpdo & +jrdo & +vjdo & +njdo.
+; Disjunctive type for adjectives, determiners and number names.
++jdm := +jdmo & +jcdm & +jpdm & +jrdm & +vjdm & +njdm.
+; Disjunctive type for adjectives, complementizers and conjunctions.
++jco := +jcmo & +jcdo & +jpco & +jrco & +vjco & +njco.
+; Disjunctive type for adjectives, complementizers and number names.
++jcm := +jcmo & +jcdm & +jpcm & +jrcm & +vjcm & +njcm.
+; Disjunctive type for adjectives, complementizers and determiners.
++jcd := +jcdo & +jcdm & +jpcd & +jrcd & +vjcd & +njcd.
+; Disjunctive type for adjectives, adpositions and conjunctions.
++jpo := +jpmo & +jpdo & +jpco & +jrpo & +vjpo & +njpo.
+; Disjunctive type for adjectives, adpositions and number names.
++jpm := +jpmo & +jpdm & +jpcm & +jrpm & +vjpm & +njpm.
+; Disjunctive type for adjectives, adpositions and determiners.
++jpd := +jpdo & +jpdm & +jpcd & +jrpd & +vjpd & +njpd.
+; Disjunctive type for adjectives, adpositions and complementizers.
++jpc := +jpco & +jpcm & +jpcd & +jrpc & +vjpc & +njpc.
+; Disjunctive type for adjectives, adverbs and conjunctions.
++jro := +jrmo & +jrdo & +jrco & +jrpo & +vjro & +njro.
+; Disjunctive type for adjectives, adverbs and number names.
++jrm := +jrmo & +jrdm & +jrcm & +jrpm & +vjrm & +njrm.
+; Disjunctive type for adjectives, adverbs and determiners.
++jrd := +jrdo & +jrdm & +jrcd & +jrpd & +vjrd & +njrd.
+; Disjunctive type for adjectives, adverbs and complementizers.
++jrc := +jrco & +jrcm & +jrcd & +jrpc & +vjrc & +njrc.
+; Disjunctive type for adjectives, adverbs and adpositions.
++jrp := +jrpo & +jrpm & +jrpd & +jrpc & +vjrp & +njrp.
+; Disjunctive type for verbs, number names and conjunctions.
++vmo := +vdmo & +vcmo & +vpmo & +vrmo & +vjmo & +nvmo.
+; Disjunctive type for verbs, determiners and conjunctions.
++vdo := +vdmo & +vcdo & +vpdo & +vrdo & +vjdo & +nvdo.
+; Disjunctive type for verbs, determiners and number names.
++vdm := +vdmo & +vcdm & +vpdm & +vrdm & +vjdm & +nvdm.
+; Disjunctive type for verbs, complementizers and conjunctions.
++vco := +vcmo & +vcdo & +vpco & +vrco & +vjco & +nvco.
+; Disjunctive type for verbs, complementizers and number names.
++vcm := +vcmo & +vcdm & +vpcm & +vrcm & +vjcm & +nvcm.
+; Disjunctive type for verbs, complementizers and determiners.
++vcd := +vcdo & +vcdm & +vpcd & +vrcd & +vjcd & +nvcd.
+; Disjunctive type for verbs, adpositions and conjunctions.
++vpo := +vpmo & +vpdo & +vpco & +vrpo & +vjpo & +nvpo.
+; Disjunctive type for verbs, adpositions and number names.
++vpm := +vpmo & +vpdm & +vpcm & +vrpm & +vjpm & +nvpm.
+; Disjunctive type for verbs, adpositions and determiners.
++vpd := +vpdo & +vpdm & +vpcd & +vrpd & +vjpd & +nvpd.
+; Disjunctive type for verbs, adpositions and complementizers.
++vpc := +vpco & +vpcm & +vpcd & +vrpc & +vjpc & +nvpc.
+; Disjunctive type for verbs, adverbs and conjunctions.
++vro := +vrmo & +vrdo & +vrco & +vrpo & +vjro & +nvro.
+; Disjunctive type for verbs, adverbs and number names.
++vrm := +vrmo & +vrdm & +vrcm & +vrpm & +vjrm & +nvrm.
+; Disjunctive type for verbs, adverbs and determiners.
++vrd := +vrdo & +vrdm & +vrcd & +vrpd & +vjrd & +nvrd.
+; Disjunctive type for verbs, adverbs and complementizers.
++vrc := +vrco & +vrcm & +vrcd & +vrpc & +vjrc & +nvrc.
+; Disjunctive type for verbs, adverbs and adpositions.
++vrp := +vrpo & +vrpm & +vrpd & +vrpc & +vjrp & +nvrp.
+; Disjunctive type for verbs, adjectives and conjunctions.
++vjo := +vjmo & +vjdo & +vjco & +vjpo & +vjro & +nvjo.
+; Disjunctive type for verbs, adjectives and number names.
++vjm := +vjmo & +vjdm & +vjcm & +vjpm & +vjrm & +nvjm.
+; Disjunctive type for verbs, adjectives and determiners.
++vjd := +vjdo & +vjdm & +vjcd & +vjpd & +vjrd & +nvjd.
+; Disjunctive type for verbs, adjectives and complementizers.
++vjc := +vjco & +vjcm & +vjcd & +vjpc & +vjrc & +nvjc.
+; Disjunctive type for verbs, adjectives and adpositions.
++vjp := +vjpo & +vjpm & +vjpd & +vjpc & +vjrp & +nvjp.
+; Disjunctive type for verbs, adjectives and adverbs.
++vjr := +vjro & +vjrm & +vjrd & +vjrc & +vjrp & +nvjr.
+; Disjunctive type for nouns, number names and conjunctions.
++nmo := +ndmo & +ncmo & +npmo & +nrmo & +njmo & +nvmo.
+; Disjunctive type for nouns, determiners and conjunctions.
++ndo := +ndmo & +ncdo & +npdo & +nrdo & +njdo & +nvdo.
+; Disjunctive type for nouns, determiners and number names.
++ndm := +ndmo & +ncdm & +npdm & +nrdm & +njdm & +nvdm.
+; Disjunctive type for nouns, complementizers and conjunctions.
++nco := +ncmo & +ncdo & +npco & +nrco & +njco & +nvco.
+; Disjunctive type for nouns, complementizers and number names.
++ncm := +ncmo & +ncdm & +npcm & +nrcm & +njcm & +nvcm.
+; Disjunctive type for nouns, complementizers and determiners.
++ncd := +ncdo & +ncdm & +npcd & +nrcd & +njcd & +nvcd.
+; Disjunctive type for nouns, adpositions and conjunctions.
++npo := +npmo & +npdo & +npco & +nrpo & +njpo & +nvpo.
+; Disjunctive type for nouns, adpositions and number names.
++npm := +npmo & +npdm & +npcm & +nrpm & +njpm & +nvpm.
+; Disjunctive type for nouns, adpositions and determiners.
++npd := +npdo & +npdm & +npcd & +nrpd & +njpd & +nvpd.
+; Disjunctive type for nouns, adpositions and complementizers.
++npc := +npco & +npcm & +npcd & +nrpc & +njpc & +nvpc.
+; Disjunctive type for nouns, adverbs and conjunctions.
++nro := +nrmo & +nrdo & +nrco & +nrpo & +njro & +nvro.
+; Disjunctive type for nouns, adverbs and number names.
++nrm := +nrmo & +nrdm & +nrcm & +nrpm & +njrm & +nvrm.
+; Disjunctive type for nouns, adverbs and determiners.
++nrd := +nrdo & +nrdm & +nrcd & +nrpd & +njrd & +nvrd.
+; Disjunctive type for nouns, adverbs and complementizers.
++nrc := +nrco & +nrcm & +nrcd & +nrpc & +njrc & +nvrc.
+; Disjunctive type for nouns, adverbs and adpositions.
++nrp := +nrpo & +nrpm & +nrpd & +nrpc & +njrp & +nvrp.
+; Disjunctive type for nouns, adjectives and conjunctions.
++njo := +njmo & +njdo & +njco & +njpo & +njro & +nvjo.
+; Disjunctive type for nouns, adjectives and number names.
++njm := +njmo & +njdm & +njcm & +njpm & +njrm & +nvjm.
+; Disjunctive type for nouns, adjectives and determiners.
++njd := +njdo & +njdm & +njcd & +njpd & +njrd & +nvjd.
+; Disjunctive type for nouns, adjectives and complementizers.
++njc := +njco & +njcm & +njcd & +njpc & +njrc & +nvjc.
+; Disjunctive type for nouns, adjectives and adpositions.
++njp := +njpo & +njpm & +njpd & +njpc & +njrp & +nvjp.
+; Disjunctive type for nouns, adjectives and adverbs.
++njr := +njro & +njrm & +njrd & +njrc & +njrp & +nvjr.
+; Disjunctive type for nouns, verbs and conjunctions.
++nvo := +nvmo & +nvdo & +nvco & +nvpo & +nvro & +nvjo.
+; Disjunctive type for nouns, verbs and number names.
++nvm := +nvmo & +nvdm & +nvcm & +nvpm & +nvrm & +nvjm.
+; Disjunctive type for nouns, verbs and determiners.
++nvd := +nvdo & +nvdm & +nvcd & +nvpd & +nvrd & +nvjd.
+; Disjunctive type for nouns, verbs and complementizers.
++nvc := +nvco & +nvcm & +nvcd & +nvpc & +nvrc & +nvjc.
+; Disjunctive type for nouns, verbs and adpositions.
++nvp := +nvpo & +nvpm & +nvpd & +nvpc & +nvrp & +nvjp.
+; Disjunctive type for nouns, verbs and adverbs.
++nvr := +nvro & +nvrm & +nvrd & +nvrc & +nvrp & +nvjr.
+; Disjunctive type for nouns, verbs and adjectives.
++nvj := +nvjo & +nvjm & +nvjd & +nvjc & +nvjp & +nvjr.
+; Disjunctive type for number names and conjunctions.
++mo := +dmo & +cmo & +pmo & +rmo & +jmo & +vmo & +nmo.
+; Disjunctive type for determiners and conjunctions.
++do := +dmo & +cdo & +pdo & +rdo & +jdo & +vdo & +ndo.
+; Disjunctive type for determiners and number names.
++dm := +dmo & +cdm & +pdm & +rdm & +jdm & +vdm & +ndm.
+; Disjunctive type for complementizers and conjunctions.
++co := +cmo & +cdo & +pco & +rco & +jco & +vco & +nco.
+; Disjunctive type for complementizers and number names.
++cm := +cmo & +cdm & +pcm & +rcm & +jcm & +vcm & +ncm.
+; Disjunctive type for complementizers and determiners.
++cd := +cdo & +cdm & +pcd & +rcd & +jcd & +vcd & +ncd.
+; Disjunctive type for adpositions and conjunctions.
++po := +pmo & +pdo & +pco & +rpo & +jpo & +vpo & +npo.
+; Disjunctive type for adpositions and number names.
++pm := +pmo & +pdm & +pcm & +rpm & +jpm & +vpm & +npm.
+; Disjunctive type for adpositions and determiners.
++pd := +pdo & +pdm & +pcd & +rpd & +jpd & +vpd & +npd.
+; Disjunctive type for adpositions and complementizers.
++pc := +pco & +pcm & +pcd & +rpc & +jpc & +vpc & +npc.
+; Disjunctive type for adverbs and conjunctions.
++ro := +rmo & +rdo & +rco & +rpo & +jro & +vro & +nro.
+; Disjunctive type for adverbs and number names.
++rm := +rmo & +rdm & +rcm & +rpm & +jrm & +vrm & +nrm.
+; Disjunctive type for adverbs and determiners.
++rd := +rdo & +rdm & +rcd & +rpd & +jrd & +vrd & +nrd.
+; Disjunctive type for adverbs and complementizers.
++rc := +rco & +rcm & +rcd & +rpc & +jrc & +vrc & +nrc.
+; Disjunctive type for adverbs and adpositions.
++rp := +rpo & +rpm & +rpd & +rpc & +jrp & +vrp & +nrp.
+; Disjunctive type for adjectives and conjunctions.
++jo := +jmo & +jdo & +jco & +jpo & +jro & +vjo & +njo.
+; Disjunctive type for adjectives and number names.
++jm := +jmo & +jdm & +jcm & +jpm & +jrm & +vjm & +njm.
+; Disjunctive type for adjectives and determiners.
++jd := +jdo & +jdm & +jcd & +jpd & +jrd & +vjd & +njd.
+; Disjunctive type for adjectives and complementizers.
++jc := +jco & +jcm & +jcd & +jpc & +jrc & +vjc & +njc.
+; Disjunctive type for adjectives and adpositions.
++jp := +jpo & +jpm & +jpd & +jpc & +jrp & +vjp & +njp.
+; Disjunctive type for adjectives and adverbs.
++jr := +jro & +jrm & +jrd & +jrc & +jrp & +vjr & +njr.
+; Disjunctive type for verbs and conjunctions.
++vo := +vmo & +vdo & +vco & +vpo & +vro & +vjo & +nvo.
+; Disjunctive type for verbs and number names.
++vm := +vmo & +vdm & +vcm & +vpm & +vrm & +vjm & +nvm.
+; Disjunctive type for verbs and determiners.
++vd := +vdo & +vdm & +vcd & +vpd & +vrd & +vjd & +nvd.
+; Disjunctive type for verbs and complementizers.
++vc := +vco & +vcm & +vcd & +vpc & +vrc & +vjc & +nvc.
+; Disjunctive type for verbs and adpositions.
++vp := +vpo & +vpm & +vpd & +vpc & +vrp & +vjp & +nvp.
+; Disjunctive type for verbs and adverbs.
++vr := +vro & +vrm & +vrd & +vrc & +vrp & +vjr & +nvr.
+; Disjunctive type for verbs and adjectives.
++vj := +vjo & +vjm & +vjd & +vjc & +vjp & +vjr & +nvj.
+; Disjunctive type for nouns and conjunctions.
++no := +nmo & +ndo & +nco & +npo & +nro & +njo & +nvo.
+; Disjunctive type for nouns and number names.
++nm := +nmo & +ndm & +ncm & +npm & +nrm & +njm & +nvm.
+; Disjunctive type for nouns and determiners.
++nd := +ndo & +ndm & +ncd & +npd & +nrd & +njd & +nvd.
+; Disjunctive type for nouns and complementizers.
++nc := +nco & +ncm & +ncd & +npc & +nrc & +njc & +nvc.
+; Disjunctive type for nouns and adpositions.
++np := +npo & +npm & +npd & +npc & +nrp & +njp & +nvp.
+; Disjunctive type for nouns and adverbs.
++nr := +nro & +nrm & +nrd & +nrc & +nrp & +njr & +nvr.
+; Disjunctive type for nouns and adjectives.
++nj := +njo & +njm & +njd & +njc & +njp & +njr & +nvj.
+; Disjunctive type for nouns and verbs.
++nv := +nvo & +nvm & +nvd & +nvc & +nvp & +nvr & +nvj.
+
+;In matrix.tdl
+
+;conj := +mo & +do & +co & +po & +ro & +jo & +vo & +no.
+;num := +mo & +dm & +cm & +pm & +rm & +jm & +vm & +nm.
+;det := +do & +dm & +cd & +pd & +rd & +jd & +vd & +nd.
+;comp := +co & +cm & +cd & +pc & +rc & +jc & +vc & +nc.
+;adp := +po & +pm & +pd & +pc & +rp & +jp & +vp & +np.
+;adv := +ro & +rm & +rd & +rc & +rp & +jr & +vr & +nr.
+;adj := +jo & +jm & +jd & +jc & +jp & +jr & +vj & +nj.
+;verb := +vo & +vm & +vd & +vc & +vp & +vr & +vj & +nv.
+;noun := +no & +nm & +nd & +nc & +np & +nr & +nj & +nv.

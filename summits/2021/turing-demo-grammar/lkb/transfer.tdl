@@ -1,0 +1,90 @@
+;;; Hey, emacs(1), this is -*- Mode: TDL; Package: LKB; -*- got it?
+
+;;; ERB 2004-06-01
+
+;;; First attempt at transfer rules to handle
+;;; variation in covert/overt pronouns
+;;; variation in determiner inventories.
+
+;;; Copying liberally from oe's noex transfer grammar
+;;; But trying to do things with types that are matrix-consistent
+
+
+;u := *top* & [ SCRATCH scratch ].
+u := *top*.
+h := u.
+i := u.
+e := i.
+x := i.
+
+; The un-variable:
+
+a := u.
+
+;u := *top* & [ SKOLEM string, SCRATCH scratch, MARK scratch, DITCH bool ].
+;h := u & handle.
+;i := u & individual.
+;e := i & event.
+;;[ TENSE tense, PERF luk, PROG luk, STATIVE luk, BOUNDED luk ].
+;x := i & ref-ind.
+;;[ PERS person, NUM number, NATGEND gender ].
+
+scratch := *top*.
+test := scratch.
+complete := scratch.
+one := scratch.
+two := scratch.
+three := scratch.
+four := scratch.
+five := scratch.
+six := scratch.
+
+; I'm not sure if it's crucial that RELS and HCONS are list
+; valued here, rather than diff-list-valued, so make up a new
+; type and new features.
+
+;tmrs := *top* &
+;[ T-LTOP h,
+;  T-INDEX u,
+;  T-RELS list,
+;  T-HCONS list ].
+
+;thook := hook &
+;[ LTOP h,
+;  INDEX i ].
+
+flags := *top* &
+[ OPTIONAL luk,
+  UNIQUE list ].
+
+mrs_transfer_rule :=  *top* &
+[ FILTER mrs,
+  CONTEXT mrs,
+  INPUT mrs,
+  OUTPUT mrs,
+  FLAGS flags ].
+
+
+;mrs_transfer_rule :=  *top* &
+;[ FILTER mrs & [ HOOK thook ],
+;  CONTEXT mrs & [ HOOK thook ],
+;  INPUT mrs & [ HOOK thook ],
+;  OUTPUT mrs & [ HOOK thook ],
+;  FLAGS flags ].
+
+monotonic_mtr := mrs_transfer_rule &
+[ CONTEXT.HOOK.LTOP #h,
+  INPUT.HOOK.LTOP #h,
+  OUTPUT.HOOK.LTOP #h ].
+  
+monotonic_omtr := monotonic_mtr & optional_mtr.
+
+optional_mtr := mrs_transfer_rule &
+[ FLAGS.OPTIONAL + ].
+
+quantifier_mtr := monotonic_mtr &
+[ INPUT.RELS <! [ LBL #h1, ARG0 #x1, RSTR #h2, BODY #h3 ] !>,
+  OUTPUT.RELS <! [ LBL #h1, ARG0 #x1, RSTR #h2, BODY #h3 ] !> ].
+
+oquantifier_mtr := optional_mtr & quantifier_mtr.
+

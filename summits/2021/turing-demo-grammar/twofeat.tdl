@@ -1,0 +1,189 @@
+with-operation := *top* &
+  [ RESULT *top* ].
+container := *top* &
+  [ REST *top* ].
+
+tape := *top*.
+null := tape.
+not-null := tape & container &
+  [ REST tape ].
+1 := not-null.
+0 := not-null &
+  [ REST not-null ].
+
+; states
+
+turing-machine := container & with-operation &
+  [ REST state,
+    RESULT state ].
+halt := turing-machine &
+  [ REST #final,
+    RESULT #final ].
+run := turing-machine &
+  [ REST.RESULT.RESULT #final,
+    RESULT #final ].
+
+state := container &
+  [ REST tape ].
+0-state := state.
+1-state := state.
+
+state-with-next := state & with-operation &
+  [ REST.RESULT.RESULT tape-as-state & [ RESULT #result ],
+    RESULT turing-machine & [ REST #result ]].
+
+with-shift-left := state-with-next &
+  [ REST with-push-here & [ RESULT with-switch-here ]].
+with-shift-right := state-with-next &
+  [ REST with-push-skip & [ RESULT with-switch-skip ]].
+with-write-0 := state-with-next &
+  [ REST with-push-0 ].
+with-write-1 := state-with-next &
+  [ REST with-push-1 ].
+
+0-state-with-write-0-shift-left := 0-state & with-write-0 & with-shift-left.
+0-state-with-write-1-shift-left := 0-state & with-write-1 & with-shift-left.
+0-state-with-write-0-shift-right := 0-state & with-write-0 & with-shift-right.
+0-state-with-write-1-shift-right := 0-state & with-write-1 & with-shift-right.
+1-state-with-write-0-shift-left := 1-state & with-write-0 & with-shift-left.
+1-state-with-write-1-shift-left := 1-state & with-write-1 & with-shift-left.
+1-state-with-write-0-shift-right := 1-state & with-write-0 & with-shift-right.
+1-state-with-write-1-shift-right := 1-state & with-write-1 & with-shift-right.
+
+tape-as-state := tape & with-operation &
+  [ RESULT state ].
+null-as-state := null & tape-as-state &
+  [ RESULT 0-state & [ REST null ]].
+not-null-as-state := not-null & tape-as-state &
+  [ REST #rest,
+    RESULT.REST #rest ].
+0-as-state := 0 & not-null-as-state &
+  [ RESULT 0-state ].
+1-as-state := 1 & not-null-as-state &
+  [ RESULT 1-state ].
+
+with-tape-operation := tape & with-operation &
+  [ RESULT tape ].
+with-push := with-tape-operation.
+with-switch := with-tape-operation.
+with-skip := with-tape-operation.
+with-here := with-tape-operation.
+with-push-0 := with-push.
+with-push-1 := with-push.
+with-push-here := with-push & with-here.
+with-push-skip := with-push & with-skip.
+with-switch-here := with-switch & with-here.
+with-switch-skip := with-switch & with-skip.
+
+null-with-push-0 := null & with-push-0 &
+  [ RESULT null ].
+null-with-switch := null & with-switch &
+  [ RESULT null ].
+
+null-with-push-1-here := null & with-push-1 & with-push-here &
+  [ RESULT 1 & [ REST null ]].
+null-with-push-1-skip := null & with-push-1 & with-push-skip &
+  [ RESULT 0 & [ REST 1 & [ REST null ]]].
+null-with-push-0-here := null-with-push-0 & with-push-here.
+null-with-push-0-skip := null-with-push-0 & with-push-skip.
+null-with-switch-here := null-with-switch & with-switch-here.
+null-with-switch-skip := null-with-switch & with-switch-skip.
+
+not-null-with-diagonal-operation := not-null & with-tape-operation &
+  [ REST.RESULT #rest,
+    RESULT.REST #rest ].
+
+not-null-with-push-here := not-null-with-diagonal-operation & with-push-here &
+  [ REST with-push-skip ].
+not-null-with-push-skip := not-null-with-diagonal-operation & with-push-skip &
+  [ REST with-push-here ].
+not-null-with-switch-skip := not-null-with-diagonal-operation & with-switch-skip &
+  [ REST with-switch-here ].
+not-null-with-switch-here := not-null & with-switch-here &
+  [ REST with-push-skip & [ RESULT #result ],
+    RESULT #result ].
+
+not-null-with-push-0-skip := not-null-with-push-skip & with-push-0 &
+  [ REST with-push-0 ].
+not-null-with-push-1-skip := not-null-with-push-skip & with-push-1 &
+  [ REST with-push-1 ].
+not-null-with-push-0-here := not-null-with-push-here & with-push-0 &
+  [ RESULT 0 ].
+not-null-with-push-1-here := not-null-with-push-here & with-push-1 &
+  [ RESULT 1 ].
+
+0-with-skip := 0 & with-skip &
+  [ RESULT 0 ].
+1-with-skip := 1 & with-skip &
+  [ RESULT 1 ].
+0-with-here := 0 & with-here &
+  [ REST with-push-0 ].
+1-with-here := 1 & with-here &
+  [ REST with-push-1 ].
+
+0-with-push-0-here := 0-with-here & not-null-with-push-0-here.
+0-with-push-1-here := 0-with-here & not-null-with-push-1-here.
+0-with-push-0-skip := 0-with-skip & not-null-with-push-0-skip.
+0-with-push-1-skip := 0-with-skip & not-null-with-push-1-skip.
+0-with-switch-here := 0-with-here & not-null-with-switch-here.
+0-with-switch-skip := 0-with-skip & not-null-with-switch-skip.
+1-with-push-0-here := 1-with-here & not-null-with-push-0-here.
+1-with-push-1-here := 1-with-here & not-null-with-push-1-here.
+1-with-push-0-skip := 1-with-skip & not-null-with-push-0-skip.
+1-with-push-1-skip := 1-with-skip & not-null-with-push-1-skip.
+1-with-switch-here := 1-with-here & not-null-with-switch-here.
+1-with-switch-skip := 1-with-skip & not-null-with-switch-skip.
+
+; example: three-state busy beaver
+
+a := state-with-next.
+b := state-with-next.
+c := state-with-next.
+
+a-0 := a & 0-state & with-write-1 & with-shift-right &
+  [ RESULT run & [ REST b ]].
+a-1 := a & 1-state & with-write-1 & with-shift-left &
+  [ RESULT run & [ REST c ]].
+b-0 := b & 0-state & with-write-1 & with-shift-left &
+  [ RESULT run & [ REST a ]].
+b-1 := b & 1-state & with-write-1 & with-shift-right &
+  [ RESULT run & [ REST b ]].
+c-0 := c & 0-state & with-write-1 & with-shift-left &
+  [ RESULT run & [ REST b ]].
+c-1 := c & 1-state & with-write-1 & with-shift-right &
+  [ RESULT halt ].
+
+busy-beaver := run &
+  [ REST a-0 & [ REST null ]].
+
+; example: copy
+
+s := state-with-next.
+t := state-with-next.
+u := state-with-next.
+v := state-with-next.
+w := state-with-next.
+
+s-0 := s & 0-state & with-write-0 & with-shift-right &
+  [ RESULT halt ].
+s-1 := s & 1-state & with-write-0 & with-shift-right &
+  [ RESULT run & [ REST t ]].
+t-0 := t & 0-state & with-write-0 & with-shift-right &
+  [ RESULT run & [ REST u ]].
+t-1 := t & 1-state & with-write-1 & with-shift-right &
+  [ RESULT run & [ REST t ]].
+u-0 := u & 0-state & with-write-1 & with-shift-left &
+  [ RESULT run & [ REST v ]].
+u-1 := u & 1-state & with-write-1 & with-shift-right &
+  [ RESULT run & [ REST u ]].
+v-0 := v & 0-state & with-write-0 & with-shift-left &
+  [ RESULT run & [ REST w ]].
+v-1 := v & 1-state & with-write-1 & with-shift-left &
+  [ RESULT run & [ REST v ]].
+w-0 := w & 0-state & with-write-1 & with-shift-right &
+  [ RESULT run & [ REST s ]].
+w-1 := w & 1-state & with-write-1 & with-shift-left &
+  [ RESULT run & [ REST w ]].
+
+copy-3 := run &
+  [ REST s-1 & [ REST 1 & [ REST 0 & [ REST 1 & [ REST null ]]]]].

@@ -1,0 +1,141 @@
+version=18
+
+section=general
+language=567_English
+archive=no
+
+section=word-order
+word-order=svo
+has-dets=yes
+noun-det-order=det-noun
+has-aux=no
+
+section=number
+  number1_name=sg
+  number2_name=pl
+
+section=person
+person=1-2-3
+first-person=none
+
+section=gender
+
+section=case
+case-marking=nom-acc
+nom-acc-nom-case-name=nom
+nom-acc-acc-case-name=acc
+
+section=direct-inverse
+
+section=tense-aspect
+tense-definition=choose
+past=on
+nonpast=on
+
+section=other-features
+
+section=sentential-negation
+
+section=coordination
+
+section=matrix-yes-no
+
+section=arg-opt
+
+section=lexicon
+  noun1_name=common
+    noun1_feat1_name=person
+    noun1_feat1_value=3rd
+  noun1_det=obl
+    noun1_stem1_orth=cat
+    noun1_stem1_pred=_cat_n_rel
+    noun1_stem2_orth=dog
+    noun1_stem2_pred=_dog_n_rel
+  noun2_name=1sg-nom-pronoun
+    noun2_feat1_name=person
+    noun2_feat1_value=1st
+    noun2_feat2_name=number
+    noun2_feat2_value=sg
+    noun2_feat3_name=case
+    noun2_feat3_value=nom
+  noun2_det=imp
+    noun2_stem1_orth=I
+    noun2_stem1_pred=_pronoun_n_rel
+  noun3_name=1sg-acc-pronoun
+    noun3_feat1_name=person
+    noun3_feat1_value=1st
+    noun3_feat2_name=number
+    noun3_feat2_value=sg
+    noun3_feat3_name=case
+    noun3_feat3_value=acc
+  noun3_det=imp
+    noun3_stem1_orth=me
+    noun3_stem1_pred=_pronoun_n_rel
+  noun-slot1_name=num
+  noun-slot1_order=after
+    noun-slot1_input1_type=noun1
+    noun-slot1_morph1_name=singular
+      noun-slot1_morph1_feat1_name=number
+      noun-slot1_morph1_feat1_value=sg
+    noun-slot1_morph2_name=plural
+    noun-slot1_morph2_orth=s
+      noun-slot1_morph2_feat1_name=number
+      noun-slot1_morph2_feat1_value=pl
+  verb1_name=itr
+  verb1_valence=nom
+    verb1_stem1_orth=dance
+    verb1_stem1_pred=_dance_v_rel
+  verb2_name=tr
+  verb2_valence=nom-acc
+    verb2_stem1_orth=chase
+    verb2_stem1_pred=_chase_v_rel
+  verb-slot1_name=pernumtense
+  verb-slot1_order=after
+    verb-slot1_input1_type=verb
+    verb-slot1_morph1_name=3sg
+    verb-slot1_morph1_orth=s
+      verb-slot1_morph1_feat1_name=person
+      verb-slot1_morph1_feat1_value=3rd
+      verb-slot1_morph1_feat1_head=subj
+      verb-slot1_morph1_feat2_name=number
+      verb-slot1_morph1_feat2_value=sg
+      verb-slot1_morph1_feat2_head=subj
+      verb-slot1_morph1_feat3_name=tense
+      verb-slot1_morph1_feat3_value=nonpast
+      verb-slot1_morph1_feat3_head=verb
+    verb-slot1_morph2_name=pl
+      verb-slot1_morph2_feat1_name=number
+      verb-slot1_morph2_feat1_value=pl
+      verb-slot1_morph2_feat1_head=subj
+      verb-slot1_morph2_feat2_name=person
+      verb-slot1_morph2_feat2_value=3rd
+      verb-slot1_morph2_feat2_head=subj
+      verb-slot1_morph2_feat3_name=tense
+      verb-slot1_morph2_feat3_value=nonpast
+      verb-slot1_morph2_feat3_head=verb
+    verb-slot1_morph3_name=non-3rd
+      verb-slot1_morph3_feat1_name=person
+      verb-slot1_morph3_feat1_value=1st, 2nd
+      verb-slot1_morph3_feat1_head=subj
+      verb-slot1_morph3_feat2_name=tense
+      verb-slot1_morph3_feat2_value=nonpast
+      verb-slot1_morph3_feat2_head=verb
+    verb-slot1_morph4_name=past
+    verb-slot1_morph4_orth=d
+      verb-slot1_morph4_feat1_name=tense
+      verb-slot1_morph4_feat1_value=past
+      verb-slot1_morph4_feat1_head=verb
+    det1_stem1_orth=the
+    det1_stem1_pred=_the_q_rel
+    det2_stem1_orth=a
+    det2_stem1_pred=_a_q_rel
+    det2_feat1_name=number
+    det2_feat1_value=sg
+    det3_stem1_orth=many
+    det3_stem1_pred=_many_q_rel
+    det3_feat1_name=number
+    det3_feat1_value=pl
+
+section=test-sentences
+  sentence1_orth=A cat chased me
+  sentence2_orth=The cats dance
