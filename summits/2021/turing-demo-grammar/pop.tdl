@@ -1,3 +1,10 @@
+; This file adds and extends types, to allow nondeterministic operations
+; which are "callable" by invoking particular features.
+; This also requires a few changes elsewhere in the grammar:
+;   - rules.tdl: the two nondeterministic rules are included
+;   - roots.tdl: the root has [ NONDETERMINISTIC.PENDING - ]
+;   - 567_english.tdl: deterministic rules inherit from "deterministic"
+
 sign :+ [ NONDETERMINISTIC nondeterministic-min ].
 
 nondeterministic-min := avm &
