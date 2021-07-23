@@ -1,12 +1,13 @@
 This grammar consists of three sources of information:
 
 1. The Grammar Matrix core grammar
-2. Analyses from the Grammar Matrix customization system,
-as selected by the user who created this grammar
-3. Any further extensions by the user
+2. Analyses from the Grammar Matrix customization system
+3. Extensions by Guy Emerson
 
 The Grammar Matrix core grammar and analyses in the library
 are copyright (c) 2002- Emily M. Bender and licensed under
+the MIT license.  
+Extensions are are copyright (c) 2017-2021 Guy Emerson and licensed under
 the MIT license.  
 
 Grammar Matrix contributors: 
