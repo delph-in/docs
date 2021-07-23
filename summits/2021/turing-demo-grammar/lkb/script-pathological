@@ -15,8 +15,8 @@
 ;;;
 ;;; vanilla.rpp file contains rules for tokenization
 ;;; see http://moin.delph-in.net/ReppTop for docs
-(read-repp (lkb-pathname (parent-directory) "repp/vanilla.rpp"))
-(setf *repp-interactive* '(:vanilla))
+;(read-repp (lkb-pathname (parent-directory) "repp/vanilla.rpp"))
+;(setf *repp-interactive* '(:vanilla))
 
 ;;;
 ;;; Optionally, load a set of irregular morphological patterns
@@ -42,12 +42,11 @@
 ;;;
 (read-tdl-type-files-aux
 (list
-(lkb-pathname (parent-directory) "matrix.tdl")
-(lkb-pathname (parent-directory) "head-types.tdl")
-   (lkb-pathname (parent-directory) "567_english.tdl")
-   (lkb-pathname (parent-directory) "computation.tdl")
-   (lkb-pathname (parent-directory) "pop.tdl")
-(lkb-pathname (parent-directory) "mtr.tdl")
+;(lkb-pathname (parent-directory) "matrix.tdl")
+;(lkb-pathname (parent-directory) "head-types.tdl")
+;   (lkb-pathname (parent-directory) "567_english.tdl")
+   (lkb-pathname (parent-directory) "pathological.tdl")
+;(lkb-pathname (parent-directory) "mtr.tdl")
 ))
 
 ;;;
@@ -55,7 +54,7 @@
 ;;; (some grammars with larger lexica organize them into multiple files).
 ;;;
 
-(read-tdl-lex-file-aux (list (lkb-pathname (parent-directory) "lexicon.tdl")))
+;(read-tdl-lex-file-aux (list (lkb-pathname (parent-directory) "lexicon.tdl")))
 
 ;;; For grammars with small lexicons, no need to use a cache file:
 ;;; Once your lexicon has >1000 words or so, consider using the
@@ -69,31 +68,31 @@
 ;;; `inflectional' rules themselves (rules with an associated orthographemic
 ;;; alternation of the surface string).
 ;;;
-(read-tdl-grammar-file-aux (lkb-pathname (parent-directory) "rules.tdl"))
-(read-tdl-lex-rule-file-aux (lkb-pathname (parent-directory) "lrules.tdl"))
-(read-morph-file-aux (lkb-pathname (parent-directory) "irules.tdl"))
+;(read-tdl-grammar-file-aux (lkb-pathname (parent-directory) "rules.tdl"))
+;(read-tdl-lex-rule-file-aux (lkb-pathname (parent-directory) "lrules.tdl"))
+;(read-morph-file-aux (lkb-pathname (parent-directory) "irules.tdl"))
 
 
 ;;;
 ;;; The `start symbol(s)' of the grammar.
 ;;;
-(read-tdl-psort-file-aux (lkb-pathname (parent-directory) "roots.tdl"))
+;(read-tdl-psort-file-aux (lkb-pathname (parent-directory) "roots.tdl"))
 
 ;;;
 ;;; Optionally, a set of types providing labels for nodes in parse trees
 ;;;
-(read-tdl-parse-node-file-aux (lkb-pathname (parent-directory) "labels.tdl"))
+;(read-tdl-parse-node-file-aux (lkb-pathname (parent-directory) "labels.tdl"))
 
 ;;;
 ;;; A few more LKB-specific settings, this time for MRS post-processing and
 ;;; generation; also, we always compute the generation index (while we have
 ;;; small lexica) in the hope that the generator will be used frequently.
 ;;;
-(lkb-load-lisp (this-directory) "mrsglobals.lsp" t)
+;(lkb-load-lisp (this-directory) "mrsglobals.lsp" t)
 
-(mt:read-vpm (lkb-pathname (parent-directory) "semi.vpm") :semi)
+;(mt:read-vpm (lkb-pathname (parent-directory) "semi.vpm") :semi)
 
-(lkb-load-lisp (this-directory) "mt.lsp" t)
+;(lkb-load-lisp (this-directory) "mt.lsp" t)
 
 
 ;;;
@@ -106,11 +105,11 @@
 ;;; trigger.mtr file in lkb/script for correct interaction.
 ;;;
 
-(mt:read-transfer-rules
-(list
-(lkb-pathname (parent-directory) "trigger.mtr"))
-"Generation trigger rules"
-:filter nil :task :trigger :recurse nil :edges 200 :subsume nil)
+;(mt:read-transfer-rules
+;(list
+;(lkb-pathname (parent-directory) "trigger.mtr"))
+;"Generation trigger rules"
+;:filter nil :task :trigger :recurse nil :edges 200 :subsume nil)
 
 ;;;
 ;;; Matrix-derived grammars often have stable enough semantic
@@ -124,7 +123,7 @@
 ;;; Generate.
 ;;;
 
-(index-for-generator)
+;(index-for-generator)
 
 ;;;
 ;;; The following overwrites the LKB's default for what
@@ -133,6 +132,6 @@
 ;;; in that position may be helpful.
 ;;;
 
-(if (eq (length *last-parses*) 1)
-(setf *last-parses* '("A cat chased me" "The cats dance" )))
+;(if (eq (length *last-parses*) 1)
+;(setf *last-parses* '("A cat chased me" "The cats dance" )))
 

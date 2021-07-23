@@ -1,0 +1,41 @@
+; The following type system has pathological behaviour:
+; each type has finite expanded type constraints,
+; but unification can give an infinite structure.
+
+a := *top* &
+  [ F *top* ].
+
+b := *top* &
+  [ G *top* ].
+
+ab := a & b &
+  [ F.G #1,
+    G.F #1 ].
+
+x := *top*.
+
+ax := a & x &
+  [ F.G x ].
+
+bx := b & x &
+  [ G.F x ].
+
+; Note that ab, ax, and bx all create new edges.
+; This is not a problem when they all appear on the same node:
+abx := ab & ax & bx.
+
+; But it creates infinite recursion in this configuration:
+danger1 := *top* &
+  [ DANGER1 a & [ F x ]].
+danger2 := *top* &
+  [ DANGER2 b & [ G x ]].
+;fail := danger1 & danger2 &
+;  [ DANGER1 #fail,
+;    DANGER2 #fail ].
+
+; Viewing feature structures as directed acyclic graphs,
+; this unification creates an infinite chain of squares, connected diagonally.
+; The initial set of edges has two sides of a square,
+; then ab completes the two other sides of the square,
+; then ax and bx add two sides to the next square,
+; then ab completes the two other sides of that new square... and so on...

@@ -58,7 +58,7 @@ nondeterministic-pop-increment-phrase := nondeterministic-computation-phrase &
   [ NONDETERMINISTIC.POINTER #rest,
     ARGS < [ NONDETERMINISTIC.POINTER cons-with-pop-increment & [ REST #rest ] ] > ].
 
-;;; testing
+;;; example: flexible word order
 
 basic-head-any-comp-phrase := basic-head-comp-phrase &
   [ SYNSEM.LOCAL.CAT.VAL.COMPS #new-comps,

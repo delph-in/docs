@@ -26,6 +26,13 @@ halt := turing-machine-with-next &
     FINAL [ TAPE-LEFT #left,
             TAPE-RIGHT #right ]].
 
+final-0 := 0 & turing-machine.
+final-1 := 1 & turing-machine.
+halt-0 := halt & 0 &
+  [ FINAL final-0 ].
+halt-1 := halt & 1 &
+  [ FINAL final-1 ].
+
 list-with-pop := list &
   [ RESULT < turing-machine, list > ].
 
@@ -58,10 +65,7 @@ b := continue.
 c := continue.
 
 ; Define transitions:
-; (example: busy beaver)
-
-halt-0 := halt & 0.
-halt-1 := halt & 1.
+; (example: 3-state busy beaver: write as many 1s as possible before halting)
 
 a-0 := a & 0 & move-right &
   [ WRITE 1,
@@ -92,3 +96,47 @@ c-1 := c & 1 & move-right &
 run-turing-machine := a-0 &
   [ TAPE-LEFT null,
     TAPE-RIGHT null ].
+
+
+; Example 2: copy a string of 1s
+
+s := continue.
+t := continue.
+u := continue.
+v := continue.
+w := continue.
+
+s-0 := s & 0 & move-right &
+  [ WRITE 0,
+    NEXT halt ].
+s-1 := s & 1 & move-right &
+  [ WRITE 0,
+    NEXT t ].
+t-0 := t & 0 & move-right &
+  [ WRITE 0,
+    NEXT u ].
+t-1 := t & 1 & move-right &
+  [ WRITE 1,
+    NEXT t ].
+u-0 := u & 0 & move-left &
+  [ WRITE 1,
+    NEXT v ].
+u-1 := u & 1 & move-right &
+  [ WRITE 1,
+    NEXT u ].
+v-0 := v & 0 & move-left &
+  [ WRITE 0,
+    NEXT w ].
+v-1 := v & 1 & move-left &
+  [ WRITE 1,
+    NEXT v ].
+w-0 := w & 0 & move-right &
+  [ WRITE 1,
+    NEXT s ].
+w-1 := w & 1 & move-left &
+  [ WRITE 1,
+    NEXT w ].
+
+run-copy-3 := s-1 &
+  [ TAPE-LEFT null,
+    TAPE-RIGHT < 1, 1 > ].

@@ -858,13 +858,32 @@ diff-list := list-wrapper &
     LAST #rest ].
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;  Computation types
+; Some useful kinds of lists
+
+; A list of optional arguments.
+
+olist := list.
+
+ocons := olist & cons &
+  [ FIRST unexpressed & [ OPT + ],
+    REST  olist ].
+
+onull := olist & null.
+
+; The LinGO grammar also makes use of a prolist -- or list
+; of synsems of type pro-ss.
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;  Computation types and wrapper types
 
 with-computation := *top* &
   [ RESULT *top* ].
 
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;  List operations
+
 ; APPEND holds the lists to be appended
-; LIST holds the result of the append
+; LIST holds the result of the append operation
 append-list := list-wrapper &
   [ LIST #list,
     APPEND list-of-list-wrappers-with-append & [ RESULT #list ] ].
@@ -909,31 +928,67 @@ null-with-diff-list := list-with-diff-list & null &
   [ RESULT [ LIST #end,
              LAST #end ]].
 
+; Reverse a list
+reverse-list := list-wrapper &
+  [ LIST #result,
+    REVERSE.LIST list-with-reverse-diff-list & [ RESULT [ LIST #result,
+                                                          LAST null ]]].
+
+list-with-reverse-diff-list := list & with-computation &
+  [ RESULT diff-list ].
+cons-with-reverse-diff-list := list-with-reverse-diff-list & cons &
+  [ FIRST #first,
+    REST list-with-reverse-diff-list & [ RESULT [ LIST #end,
+		                                  LAST [ FIRST #first,
+                                                         REST #rest ]]],
+    RESULT [ LIST #end ,
+             LAST #rest ]].
+null-with-reverse-diff-list := list-with-reverse-diff-list & null &
+  [ RESULT <!!> ].
+
+; The following is slightly more efficient than APPEND
+; (the feature structure is smaller),
+; but the lists are appended in the reverse order.
+; For example, [ PREPEND < [ LIST < a, b > ], [ LIST < c, d > ] > ]
+; will give:   [ LIST < c, d, a, b > ]
+prepend-list := list-wrapper &
+  [ LIST #list,
+    PREPEND list-of-list-wrappers-with-prepend & [ RESULT #list ]].
+
+; The following gives the same result as APPEND,
+; being more efficient when appending a small number of long lists,
+; but less efficient when appending a large number of short lists.
+append-alt-list := list-wrapper &
+  [ LIST #list,
+    APPEND-ALT list-with-reverse-diff-list &
+      [ RESULT [ LAST null,
+                 LIST list-of-list-wrappers-with-prepend & [ RESULT #list ]]]].
+
+list-of-list-wrappers-with-prepend := list & with-computation &
+  [ RESULT list ].
+cons-of-list-wrappers-with-prepend := list-of-list-wrappers-with-prepend & cons &
+  [ FIRST.LIST #middle,
+    REST list-of-list-wrappers-with-prepend &
+      [ RESULT list-with-diff-list & [ RESULT [ LIST #start,
+                                                LAST #middle ]]],
+    RESULT #start ].
+null-of-list-wrappers-with-prepend := list-of-list-wrappers-with-prepend & null &
+  [ RESULT null ].
+
+; Examples
+
+test-append := avm &
+  [ TEST-A [ APPEND < [ LIST < +, - > ], [ LIST < -, -, + > ], [ LIST null ] > ],
+    TEST-B [ PREPEND < [ LIST < +, - > ], [ LIST < -, -, + > ], [ LIST null ] > ],
+    TEST-C [ APPEND-ALT < [ LIST < +, - > ], [ LIST < -, -, + > ], [ LIST null ] > ],
+    TEST-D [ APPEND < [ LIST < +, -, +, - > ], [ LIST < -, -, + > ] > ],
+    TEST-E [ PREPEND < [ LIST < +, -, +, - > ], [ LIST < -, -, + > ] > ],
+    TEST-F [ APPEND-ALT < [ LIST < +, -, +, - > ], [ LIST < -, -, + > ] > ]].
+
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-; Some useful kinds of lists
+; Boolean logic and Peano arithmetic
 
-; A list of optional arguments.
-
-olist := list.
-
-ocons := olist & cons &
-  [ FIRST unexpressed & [ OPT + ],
-    REST  olist ].
-
-onull := olist & null.
-
-; The LinGO grammar also makes use of a prolist -- or list
-; of synsems of type pro-ss.
-
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-; Boolean logic
-
-bool-wrapper := avm &
-  [ BOOL bool ].
-
-;;;
-;;; tidying in progress... check back soon...
-;;;
+; See computation.tdl
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; Lexical rules

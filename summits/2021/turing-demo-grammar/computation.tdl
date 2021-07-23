@@ -1,0 +1,429 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Boolean logic
+
+bool-wrapper := avm &
+  [ BOOL bool ].
+
+;;; Unary function (negation)
+
+neg-bool := bool-wrapper &
+  [ BOOL #result,
+    NEG.BOOL bool-with-neg & [ RESULT #result ]].
+
+bool-with-neg := bool & with-computation &
+  [ RESULT bool ].
++-with-neg := + & bool-with-neg &
+  [ RESULT - ].
+--with-neg := - & bool-with-neg &
+  [ RESULT + ].
+
+;;; Binary functions
+
+and-bool := bool-wrapper &
+  [ BOOL #result,
+    AND pair-of-bool-wrappers-with-bool-pair & [ RESULT bool-pair-with-and & [ RESULT #result ]]].
+
+or-bool := bool-wrapper &
+  [ BOOL #result,
+    OR pair-of-bool-wrappers-with-bool-pair & [ RESULT bool-pair-with-or & [ RESULT #result ]]].
+
+;;; Binary functions: helper types
+
+bool-pair := sort.
++bool := bool-pair.
+-bool := bool-pair.
+bool+ := bool-pair.
+bool- := bool-pair.
+++ := +bool & bool+.
++- := +bool & bool-.
+-+ := -bool & bool+.
+-- := -bool & bool-.
+
+bool-with-bool-pair-1st := bool & with-computation &
+  [ RESULT bool-pair ].
++-with-bool-pair-1st := + & bool-with-bool-pair-1st &
+  [ RESULT +bool ].
+--with-bool-pair-1st := - & bool-with-bool-pair-1st &
+  [ RESULT -bool ].
+
+bool-with-bool-pair-2nd := bool & with-computation &
+  [ RESULT bool-pair ].
++-with-bool-pair-2nd := + & bool-with-bool-pair-2nd &
+  [ RESULT bool+ ].
+--with-bool-pair-2nd := - & bool-with-bool-pair-2nd &
+  [ RESULT bool- ].
+
+pair-of-bool-wrappers-with-bool-pair := cons & with-computation &
+  [ FIRST [ BOOL bool-with-bool-pair-1st & [ RESULT #result ]],
+    REST < [ BOOL bool-with-bool-pair-2nd & [ RESULT #result ]] >,
+    RESULT #result ].
+
+;;; Binary functions: computation types
+
+bool-pair-with-and := bool-pair & with-computation &
+  [ RESULT bool ].
+-bool-with-and := -bool & bool-pair-with-and &
+  [ RESULT - ].
+bool--with-and := bool- & bool-pair-with-and &
+  [ RESULT - ].
++bool-with-and := +bool & bool-pair-with-and.
+bool+-with-and := bool+ & bool-pair-with-and.
+++-with-and := ++ & +bool-with-and & bool+-with-and &
+  [ RESULT + ].
++--with-and := +- & +bool-with-and & bool--with-and.
+-+-with-and := -+ & -bool-with-and & bool+-with-and.
+---with-and := -- & -bool-with-and & bool--with-and.
+
+bool-pair-with-or := bool-pair & with-computation &
+  [ RESULT bool ].
++bool-with-or := +bool & bool-pair-with-or &
+  [ RESULT + ].
+bool+-with-or := bool+ & bool-pair-with-or &
+  [ RESULT + ].
+-bool-with-or := -bool & bool-pair-with-or.
+bool--with-or := bool- & bool-pair-with-or.
+---with-or := -- & -bool-with-or & bool--with-or &
+  [ RESULT - ].
++--with-or := +- & +bool-with-or & bool--with-or.
+-+-with-or := -+ & -bool-with-or & bool+-with-or.
+++-with-or := ++ & +bool-with-or & bool+-with-or.
+
+;;; Recursive application of binary operations
+
+all-bool := bool-wrapper &
+  [ BOOL #result,
+    ALL list-of-bool-wrappers-with-all & [ RESULT #result ]].
+
+any-bool := bool-wrapper &
+  [ BOOL #result,
+    ANY list-of-bool-wrappers-with-any & [ RESULT #result ]].
+
+list-of-bool-wrappers-with-recursion := list & with-computation &
+  [ RESULT bool ].
+null-of-bool-wrappers-with-recursion := null & list-of-bool-wrappers-with-recursion.
+cons-of-bool-wrappers-with-recursion := cons & list-of-bool-wrappers-with-recursion &
+  [ FIRST [ BOOL bool-with-bool-pair-1st & [ RESULT #pair & [ RESULT #result ]]],
+    REST list-of-bool-wrappers-with-recursion & [ RESULT bool-with-bool-pair-2nd & [ RESULT #pair ]],
+    RESULT #result ].
+
+list-of-bool-wrappers-with-all := list-of-bool-wrappers-with-recursion.
+null-of-bool-wrappers-with-all := null-of-bool-wrappers-with-recursion & list-of-bool-wrappers-with-all &
+  [ RESULT + ].
+cons-of-bool-wrappers-with-all := cons-of-bool-wrappers-with-recursion & list-of-bool-wrappers-with-all &
+  [ FIRST.BOOL.RESULT bool-pair-with-and,
+    REST list-of-bool-wrappers-with-all ].
+
+list-of-bool-wrappers-with-any := list-of-bool-wrappers-with-recursion.
+null-of-bool-wrappers-with-any := null-of-bool-wrappers-with-recursion & list-of-bool-wrappers-with-any &
+  [ RESULT - ].
+cons-of-bool-wrappers-with-any := cons-of-bool-wrappers-with-recursion & list-of-bool-wrappers-with-any &
+  [ FIRST.BOOL.RESULT bool-pair-with-or,
+    REST list-of-bool-wrappers-with-any ].
+
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+; Peano arithmetic
+
+int := sort.
+natnum := int.
+nonzero := int.
+nonposint := int.
+zero := natnum & nonposint.
+posint := natnum & nonzero &
+  [ SUCC natnum ].
+negint := nonposint & nonzero &
+  [ PREDEC nonposint ].
+
+natnum-wrapper := avm &
+  [ NATNUM natnum ].
+
+; analogously to a diff-list:
+diff-num := natnum-wrapper &
+  [ LASTNUM natnum ].
+
+add-natnum := natnum-wrapper &
+  [ NATNUM #result,
+    ADD list-of-natnum-wrappers-with-add & [ RESULT #result ]].
+
+; subtraction with unification failure if the output is negative
+subtract-natnum := natnum-wrapper &
+  [ NATNUM #result,
+    SUBTRACT pair-of-natnum-wrappers-with-natnum-pair &
+      [ RESULT natnum-pair-with-subtract & [ RESULT #result ]]].
+
+multiply-natnum := natnum-wrapper &
+  [ NATNUM #result,
+    MULTIPLY list-of-natnum-wrappers-with-multiply & [ RESULT #result ]].
+
+more-than-bool := bool-wrapper &
+  [ BOOL #result,
+    MORE-THAN pair-of-natnum-wrappers-with-natnum-pair &
+      [ RESULT natnum-pair-with-subtract &
+        [ RESULT int-with-if-positive & [ RESULT #result ]]]].
+
+equals-bool := bool-wrapper &
+  [ BOOL #result,
+    EQUALS pair-of-natnum-wrappers-with-natnum-pair &
+      [ RESULT natnum-pair-with-subtract &
+        [ RESULT int-with-if-zero & [ RESULT #result ]]]].
+
+less-than-bool := bool-wrapper &
+  [ BOOL #result,
+    LESS-THAN pair-of-natnum-wrappers-with-natnum-pair &
+      [ RESULT natnum-pair-with-subtract &
+        [ RESULT int-with-minus &
+          [ RESULT int-with-if-positive & [ RESULT #result ]]]]].
+
+; Helper data types and computation types
+
+int-with-diff-num := int & with-computation &
+  [ RESULT diff-num ].
+natnum-with-diff-num := natnum & int-with-diff-num.
+nonzero-with-diff-num := nonzero & int-with-diff-num.
+nonposint-with-diff-num := nonposint & int-with-diff-num.
+zero-with-diff-num := zero & natnum-with-diff-num & nonposint-with-diff-num &
+  [ RESULT [ NATNUM #zero,
+             LASTNUM #zero ]].
+posint-with-diff-num := posint & natnum-with-diff-num & nonzero-with-diff-num &
+  [ SUCC natnum-with-diff-num & [ RESULT [ NATNUM #num,
+                                           LASTNUM #last ]],
+    RESULT [ NATNUM.SUCC #num,
+             LASTNUM #last ]].
+negint-with-diff-num := negint & nonposint-with-diff-num & nonzero-with-diff-num &
+  [ PREDEC nonposint-with-diff-num & [ RESULT [ NATNUM #num,
+                                                LASTNUM #last ]],
+    RESULT [ NATNUM #num,
+             LASTNUM.SUCC #last ]].
+
+; the following computation type assumes that there is an appropriate re-entrancy,
+; and will fail if the diff-num is overspecified
+diff-num-with-int := diff-num & with-computation &
+  [ NATNUM natnum-with-int-plus-end & [ RESULT.REST.FIRST #result ],
+    LASTNUM natnum-with-int-minus-end & [ RESULT.REST.FIRST #result ],
+    RESULT #result ].
+
+natnum-with-int-plus := natnum & with-computation &
+  [ RESULT < int, int > ].
+natnum-with-int-minus := natnum & with-computation &
+  [ RESULT < int, int > ].
+natnum-with-int-plus-end := natnum-with-int-plus.
+natnum-with-int-plus-mid := natnum-with-int-plus.
+natnum-with-int-minus-end := natnum-with-int-minus.
+natnum-with-int-minus-mid := natnum-with-int-minus.
+posint-with-int-plus := posint & natnum-with-int-plus &
+  [ SUCC natnum-with-int-plus-mid & [ RESULT.FIRST #succ ],
+    RESULT.FIRST.SUCC #succ ].
+posint-with-int-minus := posint & natnum-with-int-minus &
+  [ SUCC natnum-with-int-minus-mid & [ RESULT.FIRST #succ ],
+    RESULT.FIRST.PREDEC #succ ].
+posint-with-int-plus-mid := posint-with-int-plus & natnum-with-int-plus-mid.
+posint-with-int-minus-mid := posint-with-int-minus & natnum-with-int-minus-mid.
+posint-with-int-plus-end := posint-with-int-plus & natnum-with-int-plus-end &
+  [ RESULT < #result, #result > ].
+posint-with-int-minus-end := posint-with-int-minus & natnum-with-int-minus-end &
+  [ RESULT < #result, #result > ].
+natnum-with-zero-plus-end := natnum-with-int-plus-end & natnum-with-int-minus-mid &
+  [ RESULT.FIRST zero ].
+natnum-with-zero-minus-end := natnum-with-int-minus-end & natnum-with-int-plus-mid &
+  [ RESULT.FIRST zero ].
+natnum-with-int-zero := natnum-with-int-plus-end & natnum-with-int-minus-end &
+  [ RESULT.REST.FIRST zero ].
+
+list-of-natnum-wrappers-with-add := list & with-computation.
+null-of-natnum-wrappers-with-add := null & list-of-natnum-wrappers-with-add &
+  [ RESULT zero ].
+cons-of-natnum-wrappers-with-add := cons & list-of-natnum-wrappers-with-add &
+  [ FIRST.NATNUM natnum-with-diff-num & [ RESULT [ NATNUM #first,
+                                                   LASTNUM #middle ]],
+    REST list-of-natnum-wrappers-with-add & [ RESULT #middle ],
+    RESULT #first ].
+
+natnum-pair := sort.
+zero-nat := natnum-pair.
+nat-zero := natnum-pair.
+pos-nat := natnum-pair &
+  [ X-SUCC natnum-pair ].
+nat-pos := natnum-pair &
+  [ Y-SUCC natnum-pair ].
+zero-zero := zero-nat & nat-zero.
+zero-pos := zero-nat & nat-pos.
+pos-zero := pos-nat & nat-zero.
+pos-pos := pos-nat & nat-pos.
+
+natnum-grid := natnum-pair.
+zero-nat-grid := zero-nat & natnum-grid.
+nat-zero-grid := nat-zero & natnum-grid.
+pos-nat-grid := pos-nat & natnum-grid &
+  [ X-SUCC natnum-grid ].
+nat-pos-grid := nat-pos & natnum-grid &
+  [ Y-SUCC natnum-grid ].
+zero-zero-grid := zero-zero & zero-nat-grid & nat-zero-grid.
+pos-zero-grid := pos-zero & pos-nat-grid & nat-zero-grid &
+  [ X-SUCC nat-zero-grid ].
+zero-pos-grid := zero-pos & zero-nat-grid & nat-pos-grid &
+  [ Y-SUCC zero-nat-grid ].
+pos-pos-grid := pos-pos & pos-nat-grid & nat-pos-grid &
+  [ X-SUCC.Y-SUCC #diag,
+    Y-SUCC.X-SUCC #diag ].
+
+natnum-grid-with-project-x := natnum-grid & with-computation &
+  [ RESULT diff-num ].
+zero-nat-grid-with-project-x := zero-nat-grid & natnum-grid-with-project-x &
+  [ RESULT [ NATNUM #zero,
+             LASTNUM #zero ]].
+pos-nat-grid-with-project-x := pos-nat-grid & natnum-grid-with-project-x &
+  [ X-SUCC natnum-grid-with-project-x & [ RESULT [ NATNUM #succ,
+                                                   LASTNUM #last ]],
+    RESULT [ NATNUM.SUCC #succ,
+             LASTNUM #last ]].
+nat-zero-grid-with-project-x := nat-zero-grid & natnum-grid-with-project-x.
+nat-pos-grid-with-project-x := nat-pos-grid & natnum-grid-with-project-x.
+zero-zero-grid-with-project-x := zero-zero-grid & zero-nat-grid-with-project-x & nat-zero-grid-with-project-x.
+zero-pos-grid-with-project-x := zero-pos-grid & zero-nat-grid-with-project-x & nat-pos-grid-with-project-x.
+pos-zero-grid-with-project-x := pos-zero-grid & pos-nat-grid-with-project-x & nat-zero-grid-with-project-x.
+pos-pos-grid-with-project-x := pos-pos-grid & pos-nat-grid-with-project-x & nat-pos-grid-with-project-x.
+
+natnum-grid-with-project-y := natnum-grid & with-computation &
+  [ RESULT diff-num ].
+nat-zero-grid-with-project-y := nat-zero-grid & natnum-grid-with-project-y &
+  [ RESULT [ NATNUM #zero,
+             LASTNUM #zero ]].
+nat-pos-grid-with-project-y := nat-pos-grid & natnum-grid-with-project-y &
+  [ Y-SUCC natnum-grid-with-project-y & [ RESULT [ NATNUM #succ,
+                                                   LASTNUM #last ]],
+    RESULT [ NATNUM.SUCC #succ,
+             LASTNUM #last ]].
+zero-nat-grid-with-project-y := zero-nat-grid & natnum-grid-with-project-y.
+pos-nat-grid-with-project-y := pos-nat-grid & natnum-grid-with-project-y.
+zero-zero-grid-with-project-y := zero-zero-grid & zero-nat-grid-with-project-y & nat-zero-grid-with-project-y.
+zero-pos-grid-with-project-y := zero-pos-grid & zero-nat-grid-with-project-y & nat-pos-grid-with-project-y.
+pos-zero-grid-with-project-y := pos-zero-grid & pos-nat-grid-with-project-y & nat-zero-grid-with-project-y.
+pos-pos-grid-with-project-y := pos-pos-grid & pos-nat-grid-with-project-y & nat-pos-grid-with-project-y.
+
+natnum-pair-with-subtract := natnum-pair & with-computation &
+  [ RESULT int ].
+zero-nat-with-subtract := zero-nat & natnum-pair-with-subtract.
+nat-zero-with-subtract := nat-zero & natnum-pair-with-subtract.
+pos-nat-with-subtract := pos-nat & natnum-pair-with-subtract.
+nat-pos-with-subtract := nat-pos & natnum-pair-with-subtract.
+zero-zero-with-subtract := zero-zero & zero-nat-with-subtract & nat-zero-with-subtract &
+  [ RESULT zero ].
+pos-zero-with-subtract := pos-zero & pos-nat-with-subtract & nat-zero-with-subtract &
+  [ X-SUCC nat-zero-with-subtract & [ RESULT #succ ],
+    RESULT.SUCC #succ ].
+zero-pos-with-subtract := zero-pos & zero-nat-with-subtract & nat-pos-with-subtract &
+  [ Y-SUCC zero-nat-with-subtract & [ RESULT #succ ],
+    RESULT.PREDEC #succ ].
+pos-pos-with-subtract := pos-pos & pos-nat-with-subtract & nat-pos-with-subtract &
+  [ X-SUCC #succ & natnum-pair-with-subtract & [ RESULT #result ],
+    Y-SUCC #succ,
+    RESULT #result ].
+
+natnum-with-natnum-pair-1st := natnum & with-computation &
+  [ RESULT natnum-pair ].
+zero-with-natnum-pair-1st := zero & natnum-with-natnum-pair-1st &
+  [ RESULT zero-nat ].
+posint-with-natnum-pair-1st := posint & natnum-with-natnum-pair-1st &
+  [ SUCC natnum-with-natnum-pair-1st & [ RESULT #succ ],
+    RESULT.X-SUCC #succ ].
+
+natnum-with-natnum-pair-2nd := natnum & with-computation &
+  [ RESULT natnum-pair ].
+zero-with-natnum-pair-2nd := zero & natnum-with-natnum-pair-2nd &
+  [ RESULT nat-zero ].
+posint-with-natnum-pair-2nd := posint & natnum-with-natnum-pair-2nd &
+  [ SUCC natnum-with-natnum-pair-2nd & [ RESULT #succ ],
+    RESULT.Y-SUCC #succ ].
+
+pair-of-natnum-wrappers-with-natnum-pair := cons & with-computation &
+  [ FIRST [ NATNUM natnum-with-natnum-pair-1st & [ RESULT #result ]],
+    REST < [ NATNUM natnum-with-natnum-pair-2nd & [ RESULT #result ]] >,
+    RESULT #result ].
+
+list-of-natnum-wrappers-with-recursion := list & with-computation &
+  [ RESULT natnum ].
+null-of-natnum-wrappers-with-recursion := null & list-of-natnum-wrappers-with-recursion.
+cons-of-natnum-wrappers-with-recursion := cons & list-of-natnum-wrappers-with-recursion &
+  [ FIRST [ NATNUM natnum-with-natnum-pair-1st & [ RESULT #pair & [ RESULT #result ]]],
+    REST list-of-natnum-wrappers-with-recursion & [ RESULT natnum-with-natnum-pair-2nd & [ RESULT #pair ]],
+    RESULT #result].
+
+list-of-natnum-wrappers-with-multiply := list-of-natnum-wrappers-with-recursion.
+null-of-natnum-wrappers-with-multiply := null-of-natnum-wrappers-with-recursion & list-of-natnum-wrappers-with-multiply &
+  [ RESULT.SUCC zero ].
+cons-of-natnum-wrappers-with-multiply := cons-of-natnum-wrappers-with-recursion & list-of-natnum-wrappers-with-multiply &
+  [ FIRST.NATNUM.RESULT natnum-grid-with-product,
+    REST list-of-natnum-wrappers-with-multiply ].
+
+natnum-grid-with-product := natnum-grid & with-computation &
+  [ RESULT natnum ].
+zero-nat-grid-with-product := zero-nat-grid & natnum-grid-with-product &
+  [ RESULT zero ].
+pos-nat-grid-with-product := pos-nat-grid & natnum-grid-with-product.
+nat-zero-grid-with-product := nat-zero-grid & natnum-grid-with-product.
+nat-pos-grid-with-product := nat-pos-grid & natnum-grid-with-product.
+pos-zero-grid-with-product := pos-zero-grid & pos-nat-grid-with-product & nat-zero-grid-with-product &
+  [ RESULT zero ].
+pos-pos-grid-with-product := pos-pos-grid & pos-nat-grid-with-product & nat-pos-grid-with-product &
+  [ X-SUCC natnum-grid-with-product & [ RESULT #middle ],
+    Y-SUCC natnum-grid-with-project-y & [ RESULT [ NATNUM #first,
+                                                   LASTNUM.SUCC #middle ]],
+    RESULT #first ].
+zero-zero-grid-with-product := zero-zero-grid & zero-nat-grid-with-product & nat-zero-grid-with-product.
+zero-pos-grid-with-product := zero-pos-grid & zero-nat-grid-with-product & nat-pos-grid-with-product.
+
+int-with-if-positive := int & with-computation &
+  [ RESULT bool ].
+natnum-with-if-positive := natnum & int-with-if-positive.
+nonzero-with-if-positive := nonzero & int-with-if-positive.
+nonposint-with-if-positive := nonposint & int-with-if-positive &
+  [ RESULT - ].
+zero-with-if-positive := zero & natnum-with-if-positive & nonposint-with-if-positive.
+posint-with-if-positive := posint & natnum-with-if-positive & nonzero-with-if-positive &
+  [ RESULT + ].
+negint-with-if-positive := negint & nonposint-with-if-positive & nonzero-with-if-positive.
+
+int-with-if-zero := int & with-computation &
+  [ RESULT bool ].
+natnum-with-if-zero := natnum & int-with-if-zero.
+nonzero-with-if-zero := nonzero & int-with-if-zero &
+  [ RESULT - ].
+nonposint-with-if-zero := nonposint & int-with-if-zero.
+zero-with-if-zero := zero & natnum-with-if-zero & nonposint-with-if-zero &
+  [ RESULT + ].
+posint-with-if-zero := posint & natnum-with-if-zero & nonzero-with-if-zero.
+negint-with-if-zero := negint & nonposint-with-if-zero & nonzero-with-if-zero.
+
+int-with-minus := int & with-computation &
+  [ RESULT int ].
+natnum-with-minus := natnum & int-with-minus &
+  [ RESULT nonposint ].
+nonzero-with-minus := nonzero & int-with-minus &
+  [ RESULT nonzero ].
+nonposint-with-minus := nonposint & int-with-minus &
+  [ RESULT natnum ].
+zero-with-minus := zero & natnum-with-minus & nonposint-with-minus &
+  [ RESULT zero ].
+posint-with-minus := posint & natnum-with-minus & nonzero-with-minus &
+  [ SUCC natnum-with-minus & [ RESULT #succ ],
+    RESULT.PREDEC #succ ].
+negint-with-minus := negint & nonposint-with-minus & nonzero-with-minus &
+  [ PREDEC nonposint-with-minus & [ RESULT #succ ],
+    RESULT.SUCC #succ ].
+
+; Examples
+
+test-arithmetic := avm &
+  [ TEST-1 [ ADD < [ NATNUM zero ], [ NATNUM [ SUCC zero ] ], [ NATNUM [ SUCC.SUCC zero ] ], [ NATNUM zero ] > ],
+    TEST-2 [ SUBTRACT < [ NATNUM [ SUCC.SUCC.SUCC zero ] ], [ NATNUM [ SUCC zero ] ] > ],
+    TEST-3 [ MULTIPLY < [ NATNUM [ SUCC.SUCC zero ] ], [ NATNUM [ SUCC.SUCC.SUCC zero ] ], [ NATNUM [ SUCC zero ] ], [ NATNUM [ SUCC.SUCC.SUCC.SUCC zero ] ] > ],
+    TEST-4 [ MULTIPLY < [ NATNUM zero ], [ NATNUM [ SUCC.SUCC.SUCC zero ] ] > ],
+    TEST-5 [ LESS-THAN < [ NATNUM [ SUCC.SUCC.SUCC zero ] ],
+			 [ MULTIPLY < [ NATNUM [ SUCC.SUCC zero ] ], [ NATNUM [ SUCC.SUCC zero ] ] > ] > ] ].
+
+
+; Defining integer operations is left as an exercise for the reader
+
+int-wrapper := avm &
+  [ INT int ].
+
+; ...-int := int-wrapper & ...
