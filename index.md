@@ -11,4 +11,9 @@ The DELPH-IN wiki now lives on GitHub, [here](https://github.com/delph-in/docs/w
   </form>
 </div>
 
-[The 2021 summit](https://github.com/delph-in/docs/wiki/Virtual2021Participants) is taking place online, July 19--23.
+# Summits
+
+The last summit
+([2021](https://github.com/delph-in/docs/wiki/Virtual2021Top)) was
+held online, July 19--23. For links to previous summits, see the
+[SummitTop](https://github.com/delph-in/docs/wiki/SummitTop) wiki.
