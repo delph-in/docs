@@ -1,2 +1,4 @@
 theme: jekyll-theme-cayman
 title: DELPH-IN wiki portal
+github:
+  is_project_page: false
