@@ -1,8 +1,7 @@
 ;;; -*- Mode: LISP; Syntax: Common-Lisp; Package: LKB; Coding: utf-8 -*-
 
 ;;;
-;;; First, load a number of LKB-specific settings; typically no need to look
-;;; too closely here
+;;; First, load a number of LKB-specific settings
 ;;;
 (lkb-load-lisp (parent-directory) "Version.lsp" t)
 (setf *grammar-directory* (parent-directory))
@@ -10,128 +9,10 @@
 (lkb-load-lisp (this-directory) "user-fns.lsp")
 (load-lkb-preferences (this-directory) "user-prefs.lsp")
 
-(lkb-load-lisp (this-directory) "debug-unify2-patch.lsp")
-
 ;;;
-;;; vanilla.rpp file contains rules for tokenization
-;;; see http://moin.delph-in.net/ReppTop for docs
-(read-repp (lkb-pathname (parent-directory) "repp/vanilla.rpp"))
-(setf *repp-interactive* '(:vanilla))
-
-;;;
-;;; Optionally, load a set of irregular morphological patterns
-;;;
-;(load-irregular-spellings (lkb-pathname (parent-directory) "irregs.tab"))
-
-;;;
-;;; Now the core grammar, which will typically be spread out
-;;; across multiple files.  The Matrix provides matrix.tdl,
-;;; defining most of the matrix types and head-types.tdl, which
-;;; contains the intermediate types in the subhierarchy under head
-;;; (as they would unnecessarily clutter matrix.tdl).  You should
-;;; rename my_language.tdl to something appropriate, and enter
-;;; language-specific types there.  In larger grammars, it is common
-;;; to separate out e.g. lexical types from construction types
-;;; into distinct files.  All files containing types used in
-;;; the grammar should be mentioned in the following command.
-
-;;;
-;;; (2004-06-08) transfer.tdl includes some types which support
-;;; transfer rules.  Still under development -- ignore for the
-;;; time being.
+;;; Now the core grammar
 ;;;
 (read-tdl-type-files-aux
 (list
-;(lkb-pathname (parent-directory) "matrix.tdl")
-;(lkb-pathname (parent-directory) "head-types.tdl")
-;   (lkb-pathname (parent-directory) "567_english.tdl")
-   (lkb-pathname (parent-directory) "lambda.tdl")
-;(lkb-pathname (parent-directory) "mtr.tdl")
+(lkb-pathname (parent-directory) "lambda.tdl")
 ))
-
-;;;
-;;; Next, the lexicon itself, instantiating (lexical) types of the grammar
-;;; (some grammars with larger lexica organize them into multiple files).
-;;;
-
-;(read-tdl-lex-file-aux (list (lkb-pathname (parent-directory) "lexicon.tdl")))
-
-;;; For grammars with small lexicons, no need to use a cache file:
-;;; Once your lexicon has >1000 words or so, consider using the
-;;; cache file:
-
-;(read-cached-lex-if-available (lkb-pathname (parent-directory) "lexicon.tdl"))
-
-;;;
-;;; Finally, the grammar rules, lexical rules (given special treatment in the
-;;; parser in that they can apply _prior_ to `inflectional' rules), and the
-;;; `inflectional' rules themselves (rules with an associated orthographemic
-;;; alternation of the surface string).
-;;;
-;(read-tdl-grammar-file-aux (lkb-pathname (parent-directory) "rules.tdl"))
-;(read-tdl-lex-rule-file-aux (lkb-pathname (parent-directory) "lrules.tdl"))
-;(read-morph-file-aux (lkb-pathname (parent-directory) "irules.tdl"))
-
-
-;;;
-;;; The `start symbol(s)' of the grammar.
-;;;
-;(read-tdl-psort-file-aux (lkb-pathname (parent-directory) "roots.tdl"))
-
-;;;
-;;; Optionally, a set of types providing labels for nodes in parse trees
-;;;
-;(read-tdl-parse-node-file-aux (lkb-pathname (parent-directory) "labels.tdl"))
-
-;;;
-;;; A few more LKB-specific settings, this time for MRS post-processing and
-;;; generation; also, we always compute the generation index (while we have
-;;; small lexica) in the hope that the generator will be used frequently.
-;;;
-;(lkb-load-lisp (this-directory) "mrsglobals.lsp" t)
-
-;(mt:read-vpm (lkb-pathname (parent-directory) "semi.vpm") :semi)
-
-;(lkb-load-lisp (this-directory) "mt.lsp" t)
-
-
-;;;
-;;; SSH 2012-03-27 This invokes trigger rules for semantically empty
-;;; lexical entries. The trigger rules themselves should be in
-;;; trigger.mtr in the grammar directory. The documentation on trigger
-;;; rules: http://moin.delph-in.net/LkbGeneration
-;;;
-;;; SSH 2013-05-23 The semi.vpm file needs to be loaded *before* the
-;;; trigger.mtr file in lkb/script for correct interaction.
-;;;
-
-;(mt:read-transfer-rules
-;(list
-;(lkb-pathname (parent-directory) "trigger.mtr"))
-;"Generation trigger rules"
-;:filter nil :task :trigger :recurse nil :edges 200 :subsume nil)
-
-;;;
-;;; Matrix-derived grammars often have stable enough semantic
-;;; representations that the grammar can usefully be tested
-;;; by generating from them.  The function index-for-generator()
-;;; must be called for generation to be enabled.  In grammars with
-;;; small lexica, this takes a trivial amount of time.  If
-;;; generation is not being used regularly, and the indexing
-;;; is taking too long, comment out the following.  index-for-generator()
-;;; can also be run from the expanded LKB top menu, under
-;;; Generate.
-;;;
-
-;(index-for-generator)
-
-;;;
-;;; The following overwrites the LKB's default for what
-;;; appears in the parse input dialog box.  Putting a
-;;; short list of basic sentences from your language
-;;; in that position may be helpful.
-;;;
-
-;(if (eq (length *last-parses*) 1)
-;(setf *last-parses* '("A cat chased me" "The cats dance" )))
-

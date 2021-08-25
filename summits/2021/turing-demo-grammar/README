@@ -7,7 +7,7 @@ There are 5 LKB scripts:
 - script-twofeat-turing loads another implementation of Turing machines, using a lot more types but only two features, along with the same two example machines (see twofeat.tdl)
 - script-lambda loads an implementation of untyped lambda calculus (see lambda.tdl)
 - script-pseudoenglish loads a Matrix-derived grammar which includes types for list operations (defined in matrix.tdl), Boolean logic and Peano arithmetic (defined in computation.tdl), as well as non-deterministic list operations (defined in pop.tdl). It's a pseudo-English grammar, because the head-comp rule allows the elements to be taken off in any order, so that "I give the cat the dog" has two analyses, differing in the ARG2 and ARG3 of "give". The following operations are implemented:
-  - List operations: append (three variants), reverse, non-deterministic pop
+  - List operations: append (five variants), reverse, non-deterministic pop
   - Boolean operations: and, or, negation
   - Arithmetic operations: addition, subtraction, multiplication, comparison
 

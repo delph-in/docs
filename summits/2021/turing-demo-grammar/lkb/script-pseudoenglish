@@ -10,8 +10,6 @@
 (lkb-load-lisp (this-directory) "user-fns.lsp")
 (load-lkb-preferences (this-directory) "user-prefs.lsp")
 
-(lkb-load-lisp (this-directory) "debug-unify2-patch.lsp")
-
 ;;;
 ;;; vanilla.rpp file contains rules for tokenization
 ;;; see http://moin.delph-in.net/ReppTop for docs
@@ -112,6 +110,11 @@
 "Generation trigger rules"
 :filter nil :task :trigger :recurse nil :edges 200 :subsume nil)
 
+
+;;; Added Jan 2021 for compatibility with LKB-FOS
+
+(setq mrs::*normalize-predicates-p* nil)
+
 ;;;
 ;;; Matrix-derived grammars often have stable enough semantic
 ;;; representations that the grammar can usefully be tested
@@ -134,5 +137,5 @@
 ;;;
 
 (if (eq (length *last-parses*) 1)
-(setf *last-parses* '("A cat chased me" "The cats dance" )))
+(setf *last-parses* '("I give a cat a dog" "A cat chased me" "The cats dance" )))
 
