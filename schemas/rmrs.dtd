@@ -1,0 +1,63 @@
+<!ELEMENT rmrs-list (rmrs)*>
+<!-- Documentation in dtd-notes.txt -->
+<!-- features and values now correspond to 09/02 ERG SEMI -->
+<!ELEMENT rmrs (label, (ep|rarg|ing|hcons)*)>
+<!ATTLIST rmrs
+          cfrom CDATA #REQUIRED
+          cto   CDATA #REQUIRED 
+          surface   CDATA #IMPLIED 
+          ident     CDATA #IMPLIED >
+
+<!ELEMENT ep ((realpred|gpred), label, var)>
+<!ATTLIST ep
+          cfrom CDATA #REQUIRED
+          cto   CDATA #REQUIRED 
+          surface   CDATA #IMPLIED
+	  base      CDATA #IMPLIED >
+
+<!ELEMENT realpred EMPTY>
+
+<!ATTLIST realpred
+          lemma CDATA #REQUIRED
+          pos (v|n|j|r|p|q|c|x|u|a|s) #REQUIRED
+          sense CDATA #IMPLIED >
+
+<!ELEMENT gpred (#PCDATA)>
+
+<!ELEMENT label EMPTY>
+
+<!ATTLIST label 
+          vid CDATA #REQUIRED >
+
+<!ELEMENT var EMPTY>
+<!ATTLIST var
+          sort (x|e|h|u|l) #REQUIRED
+          vid  CDATA #REQUIRED 
+          num  (sg|pl|u) #IMPLIED
+          pers (1|2|3|1-or-3|u) #IMPLIED
+          gend (m|f|n|m-or-f|u) #IMPLIED
+          sf (prop|ques|comm|prop-or-ques|u) #IMPLIED
+          tense (past|pres|fut|tensed|untensed|u) #IMPLIED
+          mood (indicative|subjunctive|u) #IMPLIED
+          prontype (std_pron|zero_pron|refl|u) #IMPLIED 
+          prog (plus|minus|u) #IMPLIED
+          perf (plus|minus|u) #IMPLIED
+          ind  (plus|minus|u) #IMPLIED >
+
+
+<!ELEMENT rarg (rargname, label, (var|constant))>
+
+<!ELEMENT rargname (#PCDATA)>
+
+<!ELEMENT constant (#PCDATA)>
+
+<!ELEMENT ing (ing-a, ing-b)>
+<!ELEMENT ing-a (var)>
+<!ELEMENT ing-b (var)>
+
+<!ELEMENT hcons (hi, lo)>
+<!ATTLIST hcons 
+          hreln (qeq|lheq|outscopes) #REQUIRED >
+
+<!ELEMENT hi (var)>
+<!ELEMENT lo (label|var)>
