@@ -8,7 +8,7 @@
           surface   CDATA #IMPLIED 
           ident     CDATA #IMPLIED >
 
-<!ELEMENT node ((realpred|gpred), sortinfo)>
+<!ELEMENT node ((realpred|gpred), sortinfo?)>
 <!ATTLIST node
           nodeid CDATA #REQUIRED
           cfrom CDATA #REQUIRED
