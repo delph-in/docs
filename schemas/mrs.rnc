@@ -1,0 +1,55 @@
+start = MrsList
+MrsList = element mrs-list { Mrs* }
+Mrs = element mrs {
+  Label,
+  Var,
+  (EP|Hcons|Icons)*,
+  attribute cfrom { xsd:int }?,
+  attribute cto { xsd:int }?,
+  attribute surface { text }?,
+  attribute ident { text }?
+}
+EP = element ep {
+  (Pred|SPred|RealPred),
+  Label,
+  FVPair*,
+  attribute cfrom { xsd:int }?,
+  attribute cto { xsd:int }?,
+  attribute surface { text }?,
+  attribute base { text }?
+}
+Pred = element pred { text }
+SPred = element spred { text }
+RealPred = element realpred {
+  attribute lemma { text },
+  attribute pos { xsd:string { pattern="[nvajrscpqxud]" } },
+  attribute sense { text }?
+}
+Label = element label {
+  ExtraPair*,
+  attribute vid { xsd:int }
+}
+Var = element var {
+  ExtraPair*,
+  attribute vid { xsd:int },
+  attribute sort { text }
+}
+ExtraPair = element extrapair {
+  element path { text },
+  element value { text }
+}
+FVPair = element fvpair {
+  element rargname { text },
+  ( Var | element constant { text } )
+}
+Hcons = element hcons {
+  element hi { Var },
+  element lo { ( Label | Var ) },
+  attribute hreln { "qeq" | "lheq" | "outscopes" }
+}
+Icons = element icons {
+  element left { Var },
+  element right { Var },
+  attribute ireln { text }
+}
+
