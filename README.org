@@ -1,4 +1,4 @@
 
 The DELPH-IN Documentation (wiki).
 
-Navigate to the [DELPH-IN Wiki](https://github.com/delph-in/docs/wiki) to browse the documentation
+Navigate to the DELPH-IN Wiki (https://github.com/delph-in/docs/wiki) to browse the documentation.
