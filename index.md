@@ -1,5 +1,5 @@
 
-# Wiki
+# DELPH-IN Documentation
 
 The DELPH-IN wiki now lives on GitHub, [here](https://github.com/delph-in/docs/wiki).
 
