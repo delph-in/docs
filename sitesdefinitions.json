@@ -13,10 +13,8 @@
   ],
   "SourceRepositories":
     {
-      "main": {"Repository": "ericzinda/docsproto"},
-      "websitewiki": {"Repository": "ericzinda/docsproto/wiki"},
-      "docswiki": {"Repository": "delph-in/docs/wiki", "ReportUnusedWikiEntries": true},
-      "perplexity": {"Repository": "ericzinda/Perplexity"}
+      "docs": {"Repository": "delph-in/docs"},
+      "docswiki": {"Repository": "delph-in/docs/wiki", "ReportUnusedWikiEntries": true}
     },
   "Sites":
   [
@@ -357,7 +355,7 @@
     ],
     "matrix": [
       {"Section": "Grammar Matrix Docs", "Pages": [
-        {"Page": "Overview", "SrcDir": "main", "SrcFile": "MatrixDocsOverview.md"}
+        {"Page": "Overview", "SrcDir": "docs", "SrcFile": "MatrixDocsOverview.md"}
       ]},
       {"Section": "Overview and Tools", "Pages": [
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "MatrixTop.md", "Referrer": "home/RussianQuestionsGrammarTop.md"},
@@ -965,8 +963,8 @@
         {"Page": "PET API Proposal", "SrcDir": "docswiki", "SrcFile": "FeforPetApi.md", "Referrer": "tools/PetTop.md"}
       ]},
       {"Section": "Documentation", "Pages": [
-        {"Page": "Quick Start", "SrcDir": "main", "SrcFile": "DocsQuickStart.md"},
-        {"Page": "Reference", "SrcDir": "main", "SrcFile": "DelphinDocsReference.md"},
+        {"Page": "Quick Start", "SrcDir": "docs", "SrcFile": "DocsQuickStart.md"},
+        {"Page": "Reference", "SrcDir": "docs", "SrcFile": "DelphinDocsReference.md"},
         {"Page": "Background", "SrcDir": "docswiki", "SrcFile": "ERDW_StructureForNewDocsSite.md"},
         {"Page": "Season of Docs", "SrcDir": "docswiki", "SrcFile": "GoogleSeasonOfDocs2023ProjectProposal.md"}
       ]}

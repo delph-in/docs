@@ -1,7 +1,7 @@
 # DELPH-IN Docs Reference Guide
 The documentation system is designed to be able to combine documentation from any publicly accessible git repository into an arbitrary set of sites.  Pages from one repository can be put into different sites and will automatically keep their links valid. Furthermore, documentation can be generated from, for example, grammar source and included as well.  The definition of the sites created is copied into the docs repository so that git can be used to see what changed and observe the history.  Branches can be used to test, etc.
 
-It does this by using a [GitHub Workflow](https://docs.github.com/en/actions/using-workflows/about-workflows) which is located in the [/.github/workflows folder](https://github.com/EricZinda/docsproto/tree/main/.github/workflows) of the DELPH-IN docs repository to build the docs. A workflow is simply a way of defining computer code that can run on GitHub's servers.  The workflow runs on an actual computer at GitHub, it has access to a file system and it can run any command you can run from a linux shell (including git commands), etc.  It is just a large script running on a Linux server. It uses a [system called Jekyll to create a set of sites and then uses GitHub pages to publish the sites.](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll)
+It does this by using a [GitHub Workflow](https://docs.github.com/en/actions/using-workflows/about-workflows) which is located in the [/.github/workflows folder](https://github.com/delph-in/docs/tree/main/.github/workflows) of the DELPH-IN docs repository to build the docs. A workflow is simply a way of defining computer code that can run on GitHub's servers.  The workflow runs on an actual computer at GitHub, it has access to a file system and it can run any command you can run from a linux shell (including git commands), etc.  It is just a large script running on a Linux server. It uses a [system called Jekyll to create a set of sites and then uses GitHub pages to publish the sites.](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll)
 
 In a nutshell the workflow does the following to build the documentation site:
 1. Clone (in a git sense, i.e. git clone ...) every repository that has any content we want to use in the ultimate documentation. This will make a copy of it available on the GitHub server the script is running on. We will selectively choose which files to include in later steps. Step 1 simply grabs the entire set of repositories we want access to.
@@ -77,7 +77,7 @@ The `SourceRepositories` section declares what repositories will be used to popu
 - `Repository` is the name of the repository in Github.  If it is a Wiki, replace the dot in the name (delph-in/docs.wiki) with a slash (delph-in/docs/wiki)
 - `ReportUnusedWikiEntries` should be set to true if you want the `Fixes for Broken Links to Pages` report to include any pages from a github wiki site that were *not* included in the docs
 
-To add a new repository, a row must be added here *and* the [workflow](https://github.com/EricZinda/docsproto/blob/main/.github/workflows/BuildDocs.yml) must be modified to also clone it so the data is available. Below is where a new row would be added to declare that a new repository should be available for entries in `sitesdefinitions.json`:
+To add a new repository, a row must be added here *and* the [workflow](https://github.com/delph-in/docs/tree/main/.github/workflows/BuildDocs.yml) must be modified to also clone it so the data is available. Below is where a new row would be added to declare that a new repository should be available for entries in `sitesdefinitions.json`:
 ~~~
   ...
   
@@ -90,7 +90,7 @@ To add a new repository, a row must be added here *and* the [workflow](https://g
   ...
 ~~~
 
-You can see how to update the [workflow](https://github.com/EricZinda/docsproto/blob/main/.github/workflows/BuildDocs.yml) by looking for where the existing repositories are cloned and adding a new section.
+You can see how to update the [workflow](https://github.com/delph-in/docs/tree/main/.github/workflows/BuildDocs.yml) by looking for where the existing repositories are cloned and adding a new section.
 
 ### Sites
 The `Sites` section declares what top level sites exist to hold content. Think of these like chapters in a book. These create the top level navigation on the site.

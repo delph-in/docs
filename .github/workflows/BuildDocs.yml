@@ -40,15 +40,7 @@ jobs:
           path: main
           fetch-depth: 0
 
-      # This repo's wiki
-      - name: Checkout docsproto wiki 
-        uses: actions/checkout@v3
-        with:
-          repository: ericzinda/docsproto.wiki
-          path: websitewiki
-          fetch-depth: 0
-
-      # Official docs wiki
+      # This repo's wiki (the Official docs wiki)
       - name: Checkout docs wiki repo
         uses: actions/checkout@v3
         with:
@@ -56,17 +48,10 @@ jobs:
           path: docswiki
           fetch-depth: 0
 
-      # Perplexity repo for developer tutorial
-      - name: Checkout Perplexity repo
-        uses: actions/checkout@v3
-        with:
-          repository: ericzinda/Perplexity
-          path: perplexity
-          fetch-depth: 0
 
       # Create blank sites and then
       # process and copy all pages into the sites
-      - run: python $GITHUB_WORKSPACE/main/sitescripts/createdocs.py https://blog.inductorsoftware.com/docsproto $GITHUB_WORKSPACE/ $GITHUB_WORKSPACE/main/latestsrc/ $GITHUB_WORKSPACE/main/latestsites/ $GITHUB_WORKSPACE/main/sitesdefinitions.json ${{ github.event.inputs.quickAndDirty }} ${{ github.event.inputs.externalUrlCheck }}
+      - run: python $GITHUB_WORKSPACE/main/sitescripts/createdocs.py https://delph-in.github.io/docs $GITHUB_WORKSPACE/ $GITHUB_WORKSPACE/main/latestsrc/ $GITHUB_WORKSPACE/main/latestsites/ $GITHUB_WORKSPACE/main/sitesdefinitions.json ${{ github.event.inputs.quickAndDirty }} ${{ github.event.inputs.externalUrlCheck }}
 
 
       # Build the index using the new site data
