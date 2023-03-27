@@ -1,0 +1,963 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>DELPH-IN Grammar Matrix</title>
+<meta name="description" content="An amazing website.">
+
+
+  <meta name="author" content="Your Name">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="DELPH-IN Grammar Matrix">
+<meta property="og:title" content="DELPH-IN Grammar Matrix">
+<meta property="og:url" content="https://delph-in.github.io/docs/matrix/MatrixDoc_Coordination/">
+
+
+  <meta property="og:description" content="An amazing website.">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://delph-in.github.io/docs/matrix/MatrixDoc_Coordination/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Your Name",
+      "url": "https://delph-in.github.io/docs/matrix/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/docs/matrix/feed.xml" type="application/atom+xml" rel="alternate" title="DELPH-IN Grammar Matrix Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/docs/matrix/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--delphin_page wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/docs/matrix/"><img src="/docs/matrix/assets/images/Delph-In.png" alt="DELPH-IN Grammar Matrix"></a>
+        
+        <a class="site-title" href="/docs/matrix/">
+          DELPH-IN Grammar Matrix
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/home/Home">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/howto/DelphinWelcome">How-To</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/erg/ErgTop">ERG</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/tools/ToolsTop">Tools</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/grammars/GrammarsOverview">Grammars</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/matrix/MatrixDocsOverview">Matrix</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/summits/SummitTop">Summits</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/garage/GarageTop">Garage</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammar Matrix Docs</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixDocsOverview/">Overview</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Overview and Tools</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixTop/">Overview</a></li>
+          
+            <li><a href="/docs/matrix/MatrixGettingStarted/">Getting Started</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDevTop/">Development Overview</a></li>
+          
+            <li><a href="/docs/matrix/Updating_the_Customization_System/">Customization System</a></li>
+          
+            <li><a href="/docs/matrix/MatrixCustomizationUnitTesting/">Customization Unit Testing</a></li>
+          
+            <li><a href="/docs/matrix/MatrixCustomizationWebTesting/">Customization Web Testing</a></li>
+          
+            <li><a href="/docs/matrix/MatrixRegressionTesting/">Regression Testing</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_TestSentences/">Test Sentences</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_TestByGeneration/">Test By Generation</a></li>
+          
+            <li><a href="/docs/matrix/MatrixWishList/">Wish List</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammar Engineering</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixDevBlueprints/">Dev Blueprints</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDevConventions/">Dev Conventions</a></li>
+          
+            <li><a href="/docs/matrix/GrammarDevelopment/">Grammar Development</a></li>
+          
+            <li><a href="/docs/matrix/MatrixLibraryDevelopment/">Library Development</a></li>
+          
+            <li><a href="/docs/matrix/MatrixLibraryWishList/">Library WishList</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMorphology/">Morphology</a></li>
+          
+            <li><a href="/docs/matrix/PythonIdioms/">Python Idioms</a></li>
+          
+            <li><a href="/docs/matrix/MatrixRegressionTestingSetup/">Regression Testing Setup</a></li>
+          
+            <li><a href="/docs/matrix/MatrixRegressionTestingSetupMac/">Regression Testing Setup (Mac)</a></li>
+          
+            <li><a href="/docs/matrix/MatrixTDBProcedures/">TDB Procedures</a></li>
+          
+            <li><a href="/docs/matrix/MatrixTDB2Tables/">TDB2 Tables</a></li>
+          
+            <li><a href="/docs/matrix/MatrixValidationDebugging/">Validation Debugging</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Matrix Doc</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixDocTop/">Overview</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_AdnominalPossession/">Adnominal Possession</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_ArgumentOptionality/">Argument Optionality</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Case/">Case</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_ClausalComplements/">Clausal Complements</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_ClausalModifiers/">Clausal Modifiers</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Coordination/" class="active">Coordination</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_DirectInverse/">Direct Inverse</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Evidentials/">Evidentials</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Gender/">Gender</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_GeneralInfo/">General Info</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_ImportToolboxLexicon/">Import Toolbox Lexicon</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_InformationStructure/">Information Structure</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Lexicon/">Lexicon</a></li>
+          
+            <li><a href="/docs/matrix/matrixdef_File_Syntax/">Matrixdef File Syntax</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Morphology/">Morphology</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_NominalizedClauses/">Nominalized Clauses</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Number/">Number</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_OtherFeatures/">Other Features</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Person/">Person</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_SententialNegation/">Sentential Negation</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_TenseAspectMood/">Tense/Aspect/Mood</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_WhQuestions/">Wh Questions</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_WordOrder/">Word Order</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_YesNoQ/">YesNoQ</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">FAQ</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/GrammarEngineeringFAQ/">Grammar Engineering FAQ</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqFeatureGeometry/">Feature Geometry FAQ</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqChartTwice/">Chart Twice</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqCircularLexRule/">Circular Lex Rule</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqClickX/">Click X</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqConfusingTypo/">Confusing Typo</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqCyclicCheck/">Cyclic Check</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqDiffList/">Diff List</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqDisjunctiveValue/">Disjunctive Value</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqDistributedDisjunction/">Distributed Disjunction</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqExpandMenu/">Expand Menu</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqExpandedType/">Expanded Type</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqFeatureMultiType/">Feature Multi-Type</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqFindTypeForFeatures/">Find Type For Features</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqForgottenConstraint/">Forgotten Constraint</a></li>
+          
+            <li><a href="/docs/matrix/GeFaq/">GeFaq</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqGotoChar/">Goto Char</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqGrammarDocumentation/">Grammar Documentation</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqInteractiveUnify/">Interactive Unify</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqLkbInstallation/">LKB Installation</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqLispPromptTips/">Lisp Prompt Tips</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqLoadScript/">Load Script</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqKeyboardNotWorking/">Keyboard Not Working</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqMissingEdge/">Missing Edge</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqMissingHowTo/">Missing How-To</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqMissingRels/">Missing Rels</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNegValue/">Neg Value</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNewFeature/">New Feature</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoEntry2/">No Entry 2</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoError/">No Error</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoPossibleType/">No Possible Type</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoRule/">No Rule</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoSign/">No Sign</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNonAlpha/">Non-Alpha</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqOverApplicationLexRule/">Over Application Lex Rule</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqOrderMatters/">Order Matters</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqPasteShortcut/">Paste Shortcut</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRightBracket/">Right Bracket</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRootFail/">Root Fail</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRuleWithoutDaughter/">Rule Without Daughter</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRuleWithoutDaughters/">Rule Without Daughters</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRunawayRule1/">Runaway Rule 1</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRunawayRule2/">Runaway Rule 2</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqShowChart/">Show Chart</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqSpanningEdge/">Spanning Edge</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqSwitchingGrammars/">Switching Grammars</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqTabIndentation/">Tab Indentation</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqTdlSyntax/">TDL Syntax</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqTdlTxt/">TDL TXT</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqTypeAddendum/">Type Addendum</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqUnicodeInput/">Unicode Input</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqUnifySurprise/">Unify Surprise</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqViewEntry/">View Entry</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqViewHierarchy/">View Hierarchy</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqViewType/">View Type</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">MRS Tests</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuite/">Overview</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteBg/">Bulgarian</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteCantonese/">Cantonese</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsCatb/">Cathedral Test</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteEn/">English</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteFr/">French</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteDe/">German</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteGr/">Greek</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteIndonesian/">Indonesian</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteJa/">Japanese</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteMandarin/">Mandarin</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteNo/">Norwegian</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuitePt/">Portuguese</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteRu/">Russian</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteSv/">Swedish</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteTatoeba/">Tatoeba</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteZhTw/">ZhTw</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <h1 id="documentation-for-the-grammar-matrix-customization-coordination-library">Documentation for the Grammar Matrix Customization Coordination Library</h1>
+
+<h1 id="introduction">Introduction</h1>
+
+<p>While the coordination library is optional (you can create a grammar
+without using it), if your language has AND-style coordination of any
+constituent type it is a good idea to have it in the grammar from the
+beginning. Coordination interacts with many different phenomena, and so
+building your analyses of the various phenomena with coordination in the
+mix from the start is a good idea.</p>
+
+<p>Generally, the Grammar Matrix Coordination customization page is divided
+into two pieces. The coordination library enables users to add
+coordination strategies to their grammars (“Add a Coordination
+Strategy”). Additionally, users may describe how agreement features
+(like person, number, and gender) work in coordinated phrases in the
+language they are describing.</p>
+
+<p>Descriptive grammars frequently describe coordination strategies, and
+somewhat less frequently describe how agreement features work within
+those coordination strategies. It may make sense to add a coordination
+strategy without also describing how agreement works in that language’s
+coordinated phrases.</p>
+
+<h1 id="coordination-strategy-options">Coordination Strategy Options</h1>
+
+<ul>
+  <li>[ This documentation is under construction. When it is more
+complete, this section should describe the effects of the various
+options provided in this library in terms of the behavior of the
+grammar. It is also a good place for tips on how to get the most
+from the library. ]</li>
+</ul>
+
+<h1 id="coordination-strategy-analyses">Coordination Strategy Analyses</h1>
+
+<ul>
+  <li>[ This documentation is under construction. When it is more
+complete, this section should describe the analyses that are
+implemented as part of this library and/or point to publications
+where those analyses are described. ]</li>
+</ul>
+
+<p>The coordination library allows the user to specify different
+coorindation strategies for different types of coordinands (e.g., NP and
+S). This results in specialized grammar rules for each type of
+coordinand. This may seem surprising in light of the very general
+coordination schemas sometimes encountered in the HPSG literatures, but
+in fact it is well-supported from both typological and theoretical
+angles. From a typological point of view, many languages use different
+coordination strategies for the coordination of different constituent
+types. From a theoretical point of view, the work that the coordination
+rule needs to do, both syntactically and semantically, differs according
+to the type of constituent being coordinated.</p>
+
+<p>The coordination library does not presently constrain the value of any
+HEAD or INDEX features on the mother. Such constraints can be added to
+the starter grammar by hand. Note that in some cases, you’ll need to
+create further subtypes of each rule type (e.g., to handle the
+resolution of such features as PERSON and NUMBER in NP coordination,
+based on the value of these features on the coordinands).</p>
+
+<p>The analyses implemented in this library are partially described in
+<a href="http://cslipublications.stanford.edu/HPSG/6/drellishak-bender.pdf">Drellishak and Bender
+2005</a>.</p>
+
+<h1 id="agreement-features-in-coordinated-phrases">Agreement Features in Coordinated Phrases</h1>
+
+<p>The following sections describe the additions to the Matrix that account
+for how agreement features work in coordinated phrases.</p>
+
+<h1 id="agreement-pattern-options">Agreement Pattern Options</h1>
+
+<p>Generally, the agreement features of a coordinated phrase are decided
+one of two ways: <strong>feature resolution</strong> or <strong>distinguished conjunct</strong>
+(which includes closest conjunct and first/last conjunct). The term
+“agreement pattern” is used throughout these <a href="/MatrixDoc">MatrixDoc</a>
+pages, as well as on the Coordination page, as an overarching term for
+the feature resolution and distinguished conjunct patterns defined on
+the page.</p>
+
+<h2 id="feature-resolution">Feature Resolution</h2>
+
+<p>In feature resolution, the grammar follows fairly predictable logic
+and/or sets of rules (e.g. “whenever a noun phrase includes a masculine
+conjunct, the gender of the entire phrase will be masculine”, “all
+coordinated phrases are plural”, “any noun phrase including a 1st person
+element is also 1st person”) to derive the entire coordinated phrase’s
+agreement feature value.</p>
+
+<p>If a language uses any sort of hierarchy in a coordinated phrase, this
+section is where to define that hierarchy. In addition, you can define
+other patterns that depend on sets of rules: requiring conjuncts to have
+the same feature values for particular features, or defining “default”
+values for mismatched values of conjunct.</p>
+
+<h2 id="distinguished-conjunct">Distinguished Conjunct</h2>
+
+<p>In distinguished conjunct patterns, a single conjunct in a predictable
+position (first, last, or closest to the verb) decides the features used
+by a word agreeing with the coordinated phrase. No matter how long or
+what other elements the phrase contains, the agreement features are
+always decided by the first conjunct, last conjunct, or the closest
+conjunct to the verb.</p>
+
+<h1 id="agreement-pattern-analyses">Agreement Pattern Analyses</h1>
+
+<p>This section describes the various options and typical paths for
+defining how agreement features work in coordinated phrases.</p>
+
+<p>Once you have defined at least one agreement pattern, you may associate
+it with any coordination strategy. In fact, you must link it with a
+coordination strategy for it to work.</p>
+
+<h2 id="feature-resolution-1">Feature Resolution</h2>
+
+<p>The feature resolution section allows you to add full feature
+resolution-style rule sets to a coordination strategy.</p>
+
+<p>Optionally, you may define a name for each feature resolution pattern.
+The “name” is a label you write yourself (e.g. “case_only”, “full”,
+“resolution”, “experimental”) that will make the pattern easy to find
+when attaching it to a coordination strategy.</p>
+
+<h3 id="adding-a-feature-resolution-rule-set">Adding a Feature Resolution Rule Set</h3>
+
+<p>In feature resolution, some or all coordinated phrases use sets of rules
+to decide the agreement value of the coordinated phrase as a whole. You
+can add a feature resolution pattern, which will allow you to define
+these sets of rules.</p>
+
+<p>Feature resolution rules can be complex. Defining feature resolution
+rules for person values, for example, can easily result in a dozen
+rules. Unfortunately, you must list these out yourself, making sure not
+to duplicate or leave out any combinations.</p>
+
+<p>Some things to remember:</p>
+
+<ul>
+  <li>The “Any” value can be used to underspecify a feature value. This
+allows any feature value to fill that slot.</li>
+  <li>The “direction” of the rules does matter. For example, if you define
+a rule that a value “f” Child 1 and “any” Child 2 result in an “f”
+Parent, the Matrix will not create a rule for you with an “any”
+Child 1, “f” Child 2, and “f” Parent.</li>
+  <li>Avoid accidentally duplicating rules using “any”. For example, a
+feature resolution rule set containing two rules: “f” &amp; “any” = “f”
+and “any” &amp; “f” = “f” will effectively duplicate the “f” &amp; “f” = “f”
+rule. As a result, example sentences with two feminine conjuncts
+would have two parses.</li>
+</ul>
+
+<h4 id="first-example-all-coordinated-phrases-are-plural">First example: all coordinated phrases are plural</h4>
+
+<p>Suppose, in your language, all coordinated noun phrases are plural.</p>
+
+<p>Define a feature resolution pattern. Then, add a feature. Select
+“number” from the feature list. Select “any” for both children, and “pl”
+for the parent. Now, all coordinated phrases that use this feature
+resolution pattern will be plural.</p>
+
+<p>“any” &amp; “any” = “pl”</p>
+
+<h4 id="second-example-two-grammatical-genders">Second example: two grammatical genders</h4>
+
+<p>In some languages, there are two grammatical genders, e.g. “m” and “f”,
+and any coordinated phrase including one value will always be that
+value. You can define this pattern using three rules:</p>
+
+<p>“any” &amp; “f” = “f”</p>
+
+<p>“f” &amp; “m” = “f”</p>
+
+<p>“m” &amp; “m” = “m”</p>
+
+<p>This covers all the possible combinations of the two values, without
+duplicating or skipping any.</p>
+
+<h4 id="third-example-person">Third example: Person</h4>
+
+<p>Values for the person feature can require many rules.</p>
+
+<p>If you want any phrase that includes a 1st person conjunct to resolve to
+1st person, you could follow the general pattern for defining a
+grammatical gender hierarchy:</p>
+
+<p>“any” &amp; “1st” = “1st”</p>
+
+<p>“1st” &amp; “2nd” = “1st”</p>
+
+<p>“1st” &amp; “3rd” = “1st”</p>
+
+<p>For subsequent person values, if the language used 1st, 2nd, and 3rd
+person, with no inclusive or exclusive values, you could continue like
+this:</p>
+
+<p>“2nd” &amp; “3rd” = “2nd”</p>
+
+<p>“3rd” &amp; “2nd” = “2nd”</p>
+
+<p>“3rd” &amp; “3rd” = “3rd”</p>
+
+<h3 id="special-feature-resolution-values">Special Feature Resolution Values</h3>
+
+<h4 id="the-same-identify-two-or-more-values">“The same”: Identify two or more values</h4>
+
+<p>“The same” is used to identify two or more values.</p>
+
+<p>For example, if your language has three genders, “m” , “n” , and “f”,
+and a coordinated phrase with conjuncts of the same gender always has
+that gender value, you could use this option. By choosing “the same” for
+Child 1, “the same” for Child 2, and “the same” for Parent, these values
+will be identified.</p>
+
+<h4 id="any-an-underspecified-value">“Any”: An underspecified value</h4>
+
+<p>Selecting a value of “any” will leave the feature value for that child
+underspecified.</p>
+
+<p>For example, to write a feature resolution rule that any coordinated
+phrase including a 1st person conjunct is 1st person, you could choose
+“1st” for Child 1, “any” for Child 2, and “1st” for Parent.</p>
+
+<p>Note that in this case, you would also want to fill in the remaining two
+feature resolution rules, covering all possible combinations of person
+that include 1st person: “2nd” &amp; “1st” = “1st”; “3rd” &amp; “1st” = “1st”.</p>
+
+<h4 id="any-non-matching-value-in-that-list">“Any non-matching value in that list”</h4>
+
+<p>Some languages have feature resolution patterns that define a “default”
+value for non-matching conjuncts.</p>
+
+<p>For example, if a language has 5 noun classes, and any combination of
+two different noun classes resulted in a value of noun class 3, you
+would use this option.</p>
+
+<p>In this case, define a list of feature values under Child 1. The Child 1
+list allows you to select multiple options, so select all possible
+feature values (e.g. noun classes 1, 2, 3, 4, and 5). Then, select “Any
+non-matching value in that list” for Child 2. Define the “default” value
+by selecting a feature value under Parent (e.g. noun class 3).</p>
+
+<h2 id="feature-resolution-tips">Feature Resolution Tips</h2>
+
+<p>Some descriptive grammars do not include very much information about how
+agreement features work in coordinated phrases. Even without detailed
+information about agreement patterns in a language, it can be useful to
+add some constraints to coordinated phrases to cut down on
+overgeneration and spurious ambiguity in the final grammar.</p>
+
+<p>Out of the box, coordination strategies are underspecified for HEAD and
+INDEX features. If you do not plan to add additional information about
+agreement patterns, the Feature Resolution section is a place where you
+can add some constraints on coordinated phrases.</p>
+
+<p>For example, even if you aren’t specifically modeling how case works in
+coordinated phrases in the language we’re modeling, it’s possible to
+identify case values to reduce spurious ambiguity in sentences with
+coordinated phrases. (See the section on the “the same” value for
+information on how to identify feature values.)</p>
+
+<p>This will force both coordinands to have the same case value, and the
+top-level node of the coordinated phrase will also have the matching
+case value.</p>
+
+<h2 id="distinguished-conjunct-1">Distinguished Conjunct</h2>
+
+<p>Compared to a feature resolution pattern, distinguished conjunct
+patterns are relatively simple to define.</p>
+
+<p>Click the “Add a distinguished conjunct pattern” button, then select one
+of the radio button options: “First,” “Last,” or “Closest Conjunct.”</p>
+
+<p>Optionally, you may define a name for the pattern. This is simply a
+label that will make the pattern easy to find when attaching it to a
+coordination strategy.</p>
+
+<h2 id="attaching-an-agreement-pattern-to-a-coordination-strategy">Attaching an Agreement Pattern to a Coordination Strategy</h2>
+
+<p>As mentioned above, an agreement pattern must be “attached” to a
+coordination strategy. Coordination strategies are underspecified for
+agreement features by default. A coordination strategy with an
+associated agreement pattern will, when customized, allow only the
+feature combinations described in the agreement pattern.</p>
+
+<p>Note that it is possible to attach multiple agreement patterns to a
+coordination strategy.</p>
+
+<h3 id="typical-path">Typical Path</h3>
+
+<p>Typically, “All arguments” is the correct option for attaching an
+agreement pattern to a coordination strategy.</p>
+
+<p>For example, if the language you’re modeling uses feature resolution for
+all of its coordinated phrases, you would first define a feature
+resolution pattern. After defining as many coordination strategies as
+you would like, you would attach the feature resolution pattern to all
+coordination strategies, marking “all arguments” on each.</p>
+
+<h3 id="all-arguments-vs-subjectobject-only">“All Arguments” vs. “Subject/Object Only”</h3>
+
+<p>Even when modeling languages whose verbs only agree with the subject,
+you should specify “all arguments” when attaching an agreement pattern
+to a coordination strategy, because feature resolution will typically be
+used for all coordinated phrases, whether they occur in the subject or
+object.</p>
+
+<p>The “subject only” and “object only” options support languages that
+allow particular agreement patterns in the subject or object position
+only, and exclude it in the others.</p>
+
+<p>For example, if a language allowed feature resolution for coordinated
+phrases in any argument, but additionally allowed closest conjunct for
+subjects, you could attach a feature resolution pattern for “all
+arguments” and the closest conjunct pattern for “subject only.”</p>
+
+<p>Similarly, some languages use e.g. feature resolution in subject
+position, but closest conjunct in object position. In this case, you
+would attach a feature resolution pattern for “subject only” and a
+closest conjunct pattern for “object only.”</p>
+
+<h1 id="upcoming-work">Upcoming Work</h1>
+
+<ul>
+  <li>[ This documentation is under construction. When it is more
+complete, this section should describe any modifications to or
+enhancements of this library that are either in progress or planned.
+]</li>
+</ul>
+
+<h1 id="references">References</h1>
+
+<p>Greville G Corbett. 2006. Agreement. Cambridge University Press,
+Cambridge, UK.</p>
+
+<p>Drellishak, Scott and Emily M. Bender. 2005. <a href="http://cslipublications.stanford.edu/HPSG/6/drellishak-bender.pdf">A Coordination Module for
+a Crosslinguistic Grammar
+Resource</a>.
+Stephan Müller, ed. Proceedings of the 12th International Conference on
+Head-Driven Phrase Structure Grammar. Stanford: CSLI.</p>
+
+<p>Last update: 2018-08-22 by LaurieDermer [<a href="https://github.com/delph-in/docs/wiki/MatrixDoc_Coordination/_edit">edit</a>]</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+<!--Scroll the navbar to the current page-->
+<script type="text/javascript">
+  let el = document.querySelector('.nav__list .active');
+  if(el){
+    el.scrollIntoView({block: "center", inline: "start"});
+  }
+</script>
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/docs/matrix/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/docs/matrix/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/docs/matrix/assets/js/lunr/lunr.min.js"></script>
+<script src="/docs/matrix/assets/js/lunr/lunr-store.js"></script>
+<script src="/docs/matrix/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

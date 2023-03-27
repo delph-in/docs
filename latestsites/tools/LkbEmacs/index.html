@@ -1,0 +1,1025 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>DELPH-IN Tools</title>
+<meta name="description" content="An amazing website.">
+
+
+  <meta name="author" content="Your Name">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="DELPH-IN Tools">
+<meta property="og:title" content="DELPH-IN Tools">
+<meta property="og:url" content="https://delph-in.github.io/docs/tools/LkbEmacs/">
+
+
+  <meta property="og:description" content="An amazing website.">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://delph-in.github.io/docs/tools/LkbEmacs/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Your Name",
+      "url": "https://delph-in.github.io/docs/tools/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/docs/tools/feed.xml" type="application/atom+xml" rel="alternate" title="DELPH-IN Tools Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/docs/tools/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--delphin_page wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/docs/tools/"><img src="/docs/tools/assets/images/Delph-In.png" alt="DELPH-IN Tools"></a>
+        
+        <a class="site-title" href="/docs/tools/">
+          DELPH-IN Tools
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/home/Home">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/howto/DelphinWelcome">How-To</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/erg/ErgTop">ERG</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/tools/ToolsTop">Tools</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/grammars/GrammarsOverview">Grammars</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/matrix/MatrixDocsOverview">Matrix</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/summits/SummitTop">Summits</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/garage/GarageTop">Garage</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Tools</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/ToolsTop/">Overview</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">PyDelphin</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/PyDelphinTop/">Overview</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">LKB</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/LkbTop/">Overview</a></li>
+          
+            <li><a href="/docs/tools/LkbInstallation/">Installation</a></li>
+          
+            <li><a href="/docs/tools/LkbFos/">Fully Open Source Version</a></li>
+          
+            <li><a href="/docs/tools/LkbMacintosh/">Macintosh Version</a></li>
+          
+            <li><a href="/docs/tools/LkbCourses/">Courses</a></li>
+          
+            <li><a href="/docs/tools/LkbConventions/">Conventions</a></li>
+          
+            <li><a href="/docs/tools/LkbGeneration/">Generation</a></li>
+          
+            <li><a href="/docs/tools/LkbCompilation/">Compilation</a></li>
+          
+            <li><a href="/docs/tools/LkbEmacs/" class="active">Emacs</a></li>
+          
+            <li><a href="/docs/tools/LkbTrollet/">Trollet</a></li>
+          
+            <li><a href="/docs/tools/LkbSppp/">Simple PreProcessor Protocol</a></li>
+          
+            <li><a href="/docs/tools/RmrsVpm/">Variable Property Mapping (VPM)</a></li>
+          
+            <li><a href="/docs/tools/LkbLpconstraints/">LkbLpconstraints</a></li>
+          
+            <li><a href="/docs/tools/LkbUserGroup/">User Group</a></li>
+          
+            <li><a href="/docs/tools/LkbFaq/">FAQ</a></li>
+          
+            <li><a href="/docs/tools/LkbMode/">Emacs FAQ</a></li>
+          
+            <li><a href="/docs/tools/LkbWishlist/">Wish list</a></li>
+          
+            <li><a href="/docs/tools/LkbBugs/">Bugs</a></li>
+          
+            <li><a href="/docs/tools/LkbCopyright/">Copyright</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">ACE Parser</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/AceTop/">Overview</a></li>
+          
+            <li><a href="/docs/tools/AceInstall/">Install</a></li>
+          
+            <li><a href="/docs/tools/AceConfiguration/">Configuration</a></li>
+          
+            <li><a href="/docs/tools/AceOptions/">Options</a></li>
+          
+            <li><a href="/docs/tools/AceUse/">Examples</a></li>
+          
+            <li><a href="/docs/tools/AceLui/">LUI Mode</a></li>
+          
+            <li><a href="/docs/tools/AceCsaw/">Csaw</a></li>
+          
+            <li><a href="/docs/tools/AceTransfer/">Transfer</a></li>
+          
+            <li><a href="/docs/tools/AceExperimental/">Experimental</a></li>
+          
+            <li><a href="/docs/tools/AceFaq/">Faq</a></li>
+          
+            <li><a href="/docs/tools/AceWishlist/">Wish list</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">LKB LUI</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/LkbLui/">Overview</a></li>
+          
+            <li><a href="/docs/tools/LuiRc/">User Configuration</a></li>
+          
+            <li><a href="/docs/tools/LuiUi/">UI Quick Reference</a></li>
+          
+            <li><a href="/docs/tools/LuiTree/">Tree</a></li>
+          
+            <li><a href="/docs/tools/LuiAvm/">Feature Structure (AVM)</a></li>
+          
+            <li><a href="/docs/tools/LuiUnification/">Unification</a></li>
+          
+            <li><a href="/docs/tools/LuiMrs/">MRS Display</a></li>
+          
+            <li><a href="/docs/tools/LuiChart/">Chart Browser</a></li>
+          
+            <li><a href="/docs/tools/LuiWishlist/">Wish list</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">LKB LexDB</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/LexDbSimplePsql/">Simple PSQL</a></li>
+          
+            <li><a href="/docs/tools/LexDbInitialize/">Initialization</a></li>
+          
+            <li><a href="/docs/tools/LexDbPsqlInitialize/">PSQL Initialization</a></li>
+          
+            <li><a href="/docs/tools/LexDbFieldMappings/">Field Mappings</a></li>
+          
+            <li><a href="/docs/tools/LkbLexDbMultiUser/">Multi-User</a></li>
+          
+            <li><a href="/docs/tools/LkbLexDbSingleUser/">Single User</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">[incr tsdb()]</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/ItsdbTop/">Overview</a></li>
+          
+            <li><a href="/docs/tools/TsdbTop/">Deep Dive</a></li>
+          
+            <li><a href="/docs/tools/ItsdbDerivations/">Derivations</a></li>
+          
+            <li><a href="/docs/tools/ItsdbProfileManipulation/">Profile Manipulation</a></li>
+          
+            <li><a href="/docs/tools/ItsdbProfile/">Profile</a></li>
+          
+            <li><a href="/docs/tools/ItsdbProfiling/">Profiling</a></li>
+          
+            <li><a href="/docs/tools/ItsdbDistributedProcessing/">Distributed Processing</a></li>
+          
+            <li><a href="/docs/tools/ItsdbBatch/">Batch</a></li>
+          
+            <li><a href="/docs/tools/ItsdbReference/">Reference</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTroubleshooting/">Troubleshooting</a></li>
+          
+            <li><a href="/docs/tools/GeFaqTsdbRc/">FAQ</a></li>
+          
+            <li><a href="/docs/tools/ItsdbWishlist/">Wish List</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Logon</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/LogonTop/">Overview</a></li>
+          
+            <li><a href="/docs/tools/LogonInstallation/">Installation</a></li>
+          
+            <li><a href="/docs/tools/LogonRedhat/">Red Hat</a></li>
+          
+            <li><a href="/docs/tools/LogonUbuntu/">Ubuntu</a></li>
+          
+            <li><a href="/docs/tools/LogonArch/">Arch Linux</a></li>
+          
+            <li><a href="/docs/tools/LogonDebian/">Debian</a></li>
+          
+            <li><a href="/docs/tools/LogonHandon/">Hands-On Release</a></li>
+          
+            <li><a href="/docs/tools/LogonSvn/">SVN</a></li>
+          
+            <li><a href="/docs/tools/LogonProcessing_BatchGeneration/">Batch Generation</a></li>
+          
+            <li><a href="/docs/tools/LogonProcessing_BatchTranslation/">Batch Translation</a></li>
+          
+            <li><a href="/docs/tools/LogonPet/">PET Integration</a></li>
+          
+            <li><a href="/docs/tools/LogonAnswer/">ACE Integration</a></li>
+          
+            <li><a href="/docs/tools/LogonExtras/">Extras</a></li>
+          
+            <li><a href="/docs/tools/LogonReports/">Reports</a></li>
+          
+            <li><a href="/docs/tools/LogonProcessing/">Processing</a></li>
+          
+            <li><a href="/docs/tools/LogonProcessing_BatchParsing/">Batch Parsing</a></li>
+          
+            <li><a href="/docs/tools/LogonModeling/">Modeling</a></li>
+          
+            <li><a href="/docs/tools/LogonOnline/">Online</a></li>
+          
+            <li><a href="/docs/tools/LogonTransfer/">Transfer</a></li>
+          
+            <li><a href="/docs/tools/LogonVpm/">Variable Property Mapping</a></li>
+          
+            <li><a href="/docs/tools/NoJa/">Setting up New Languages</a></li>
+          
+            <li><a href="/docs/tools/LogonIdiosyncrasies/">Idiosyncrasies</a></li>
+          
+            <li><a href="/docs/tools/LogonWishlist/">Wishlist</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammar Tips</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/GrammarPerformance/">Grammar Performance</a></li>
+          
+            <li><a href="/docs/tools/VersionControlForGrammarDevelopment/">Grammar Version Control</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Treebanking</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/TreebankingTop/">Overview</a></li>
+          
+            <li><a href="/docs/tools/FftbTop/">Full Forest Treebanker (FFTB)</a></li>
+          
+            <li><a href="/docs/tools/FftbWishlist/">Full Forest Treebanker Wishlist</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking/">[incr tsdb()] Treebanking</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking_ItsdbAnnotation/">[incr tsdb()] Treebanking Annotation</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking_ItsdbUpdating/">[incr tsdb()] Treebanking Updating</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking_ItsdbExporting/">[incr tsdb()] Treebanking Exporting</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking_ItsdbModeling/">[incr tsdb()] Treebanking Modeling</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking_ItsdbUpdating/">[incr tsdb()] Treebanking Updating</a></li>
+          
+            <li><a href="/docs/tools/ItsdbCustomization/">[incr tsdb()] Treebanking Customization</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking_ItsdbModeling/">[incr tsdb()] Treebanking Modeling</a></li>
+          
+            <li><a href="/docs/tools/IndraTreebanking/">Indra</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Formats</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/DelphinRFCs/">Delphin RFCs</a></li>
+          
+            <li><a href="/docs/tools/PredicateRfc/">Predicate RFC</a></li>
+          
+            <li><a href="/docs/tools/MrsRFC/">MRS Format RFC</a></li>
+          
+            <li><a href="/docs/tools/MrsIsomorphism/">MRS Isomorphism</a></li>
+          
+            <li><a href="/docs/tools/EdsTop/">EDS Format</a></li>
+          
+            <li><a href="/docs/tools/EdsConversion/">EDS Conversion</a></li>
+          
+            <li><a href="/docs/tools/EdsGeneration/">EDS Generation</a></li>
+          
+            <li><a href="/docs/tools/SemiRfc/">SEM-I RFC</a></li>
+          
+            <li><a href="/docs/tools/TdlRFC/">TDL RFC</a></li>
+          
+            <li><a href="/docs/tools/TsqlRfc/">TSQL RFC</a></li>
+          
+            <li><a href="/docs/tools/GrammarVersionRfc/">Grammar Version RFC</a></li>
+          
+            <li><a href="/docs/tools/GrammarConfigurationRfc/">Grammar Configuration RFC</a></li>
+          
+            <li><a href="/docs/tools/TsdbSchemaRfc/">TSDB Schema RFC</a></li>
+          
+            <li><a href="/docs/tools/MatrixChoicesRfc/">Matrix Choices RFC</a></li>
+          
+            <li><a href="/docs/tools/RmrsTop/">(R)MRS Overview</a></li>
+          
+            <li><a href="/docs/tools/RmrsWellformedness/">(R)MRS Wellformedness</a></li>
+          
+            <li><a href="/docs/tools/RmrsPos/">(R)MRS Predicate Naming</a></li>
+          
+            <li><a href="/docs/tools/RmrsSpan/">(R)MRS Span</a></li>
+          
+            <li><a href="/docs/tools/RmrsDesign/">(R)MRS Design</a></li>
+          
+            <li><a href="/docs/tools/RmrsParaphrasing/">(R)MRS Paraphrasing</a></li>
+          
+            <li><a href="/docs/tools/RmrsModel/">(R)MRS Model</a></li>
+          
+            <li><a href="/docs/tools/RmrsDistributional/">(R)MRS Distributional</a></li>
+          
+            <li><a href="/docs/tools/RmrsSemi/">(R)MRS Semi</a></li>
+          
+            <li><a href="/docs/tools/RmrsDmrs/">(R)MRS Dmrs</a></li>
+          
+            <li><a href="/docs/tools/RmrsFaq/">(R)MRS Faq</a></li>
+          
+            <li><a href="/docs/tools/RmrsDiscussions/">(R)MRS Discussions</a></li>
+          
+            <li><a href="/docs/tools/TransferRules/">Transfer Rules</a></li>
+          
+            <li><a href="/docs/tools/FormatSpecifications/">Format Specifications</a></li>
+          
+            <li><a href="/docs/tools/ErgGml/">Grammar Markup Language</a></li>
+          
+            <li><a href="/docs/tools/SmafTop/">SMAF</a></li>
+          
+            <li><a href="/docs/tools/SmafLkb/">SMAF in LKB</a></li>
+          
+            <li><a href="/docs/tools/SmafPet/">SMAF in PET</a></li>
+          
+            <li><a href="/docs/tools/SmafSample/">SMAF Sample</a></li>
+          
+            <li><a href="/docs/tools/SmafDtd/">SMAF DTD</a></li>
+          
+            <li><a href="/docs/tools/SafTop/">SAF Overview</a></li>
+          
+            <li><a href="/docs/tools/SafDtd/">SAF DTD</a></li>
+          
+            <li><a href="/docs/tools/IconsSpecs/">Icons Specs</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <h1 id="overview">Overview</h1>
+
+<p>The LKB is a stand-alone grammar development environment and can be used
+in connection with any text editor. The basic engineering cycle is
+similar to software development: a set of source files (aka a grammar)
+is maintained using a text editor and then compiled for run-time use in
+the LKB system. At the same time, integrating the LKB with the <em>emacs</em>
+editor brings certain advantages, among them ease of start-up, editing
+support for LKB grammar files, and some additional debugging facilities.</p>
+
+<p>Extending the terse discussion from the
+<a href="https://delph-in.github.io/docs/tools/LkbInstallation">LkbInstallation</a> page (which hopefully just worked for
+you), the following paragraphs provide some more background on using the
+LKB with <em>emacs</em>, including help on running a Lisp environment as a
+sub-process to <em>emacs</em> (so as to compile the LKB source code).</p>
+
+<p>Contents</p>
+
+<ol>
+  <li><a href="https://delph-in.github.io/docs/tools/LkbEmacs">Overview</a></li>
+  <li><a href="https://delph-in.github.io/docs/tools/LkbEmacs">About emacs</a></li>
+  <li><a href="https://delph-in.github.io/docs/tools/LkbEmacs">After you have emacs installed</a></li>
+  <li><a href="https://delph-in.github.io/docs/tools/LkbEmacs">Simple way to load a grammar</a></li>
+  <li><a href="https://delph-in.github.io/docs/tools/LkbEmacs">Working with other scripts in
+Emacs</a>
+    <ol>
+      <li><a href="https://delph-in.github.io/docs/tools/LkbEmacs">Proposal to Standardize Configuration
+Settings</a>
+        <ol>
+          <li><a href="https://delph-in.github.io/docs/tools/LkbEmacs">Working with Greek
+(UTF-8)</a></li>
+          <li><a href="https://delph-in.github.io/docs/tools/LkbEmacs">Working with Japanese
+(EUC)</a>
+            <ol>
+              <li>
+                <ol>
+                  <li><a href="https://delph-in.github.io/docs/tools/LkbEmacs">ACL 8.0</a></li>
+                </ol>
+              </li>
+              <li>
+                <ol>
+                  <li><a href="https://delph-in.github.io/docs/tools/LkbEmacs">Other Components</a></li>
+                </ol>
+              </li>
+            </ol>
+          </li>
+        </ol>
+      </li>
+    </ol>
+  </li>
+</ol>
+
+<h1 id="about-emacs">About emacs</h1>
+
+<p>See <a href="http://www.gnu.org/software/emacs/emacs.html">Gnu emacs</a> or
+<a href="http://www.xemacs.org/">Xemacs</a> (or
+<a href="http://www.cs.iupui.edu/~n241/faqs/faq0.html">http://www.cs.iupui.edu/~n241/faqs/faq0.html</a> for Windows users) which
+give information and download instructions. Note that these notes
+concern Gnu emacs.</p>
+
+<h1 id="after-you-have-emacs-installed">After you have emacs installed</h1>
+
+<p>If you use the semi-automated installation process as in
+<a href="https://delph-in.github.io/docs/tools/LkbInstallation">LkbInstallation</a> then all the emacs files will
+magically be in the correct place and it will all work! If you are
+unable to use this, or if something doesn’t work, here are instructions:</p>
+
+<ul>
+  <li>Get the additional files:
+<a href="http://lingo.delph-in.net/etc/dot.emacs">dot.emacs</a> and
+<a href="http://lingo.delph-in.net/etc/eli.tgz">eli.tgz</a></li>
+  <li>Unpack eli.tgz into your DELPHINHOME directory.</li>
+  <li>Start emacs, open ~/.emacs (probably C:\.emacs on Windows) and
+edit it to load the dot.emacs file as described in the comments at
+the start of that file.</li>
+  <li>Save and restart emacs.</li>
+  <li>If all is well, you should now be able to run the LKB as `M-x lkb
+RET’ in emacs.</li>
+  <li>load <a href="https://delph-in.github.io/docs/tools/LkbMode">lkb.el</a> (dot.emacs may do it for you) or some user
+friendly menus and shortcuts.</li>
+  <li>load <a href="https://delph-in.github.io/docs/tools/LkbMode">tdl-mode.el</a> for syntax coloring and useful
+keybindings when dealing with TDL files.</li>
+</ul>
+
+<h1 id="simple-way-to-load-a-grammar">Simple way to load a grammar</h1>
+
+<p>Add this to your .emacs file and you can then call your grammar with
+M-x jacy.</p>
+
+<p>This starts the lkb, loads the grammar, sets the skeleton and home
+directories for itsdb and sets up the input encoding. You should change
+the paths to the ones for your grammar.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(defun jacy ()
+  (interactive)
+  ;; set up logon  (use  (lkb) for the MATRIX default set-up
+  (logon)
+  ;; put the path to your grammar here
+  (insert "(lkb::read-script-file-aux \"/home/bond/logon/dfki/jacy/lkb/script\")")
+  (fi:inferior-lisp-newline)
+  ;; skeletons
+  (insert "(tsdb:tsdb :skeletons  \"/home/bond/logon/dfki/jacy/tsdb/skeletons\")" )
+  (fi:inferior-lisp-newline)
+  ;; tsdb database (home)
+  (insert "(tsdb:tsdb :home  \"~/jacy-debug\")") 
+  (fi:inferior-lisp-newline)
+  ;; set up input method
+  (set-input-method "japanese-anthy"))
+</code></pre></div></div>
+
+<h1 id="working-with-other-scripts-in-emacs">Working with other scripts in Emacs</h1>
+
+<h2 id="proposal-to-standardize-configuration-settings">Proposal to Standardize Configuration Settings</h2>
+
+<ul>
+  <li>
+    <p>1. <strong>(Ensure Lisp/LKB reads grammar files using correct encoding)</strong></p>
+
+    <ul>
+      <li>In grammar’s global.lsp use the set-coding-system macro to set
+the character encoding. Eg. (set-coding-system utf-8) at the top
+of the file.</li>
+      <li>if running Allegro the following will then be executed
+(setf excl:*locale* (excl::find-locale ”.utf8”))</li>
+      <li>ISSUES: <em>canonical encoding (take from Emacs?), mapping into
+encoding names used by specific Lisps, Lisp function
+grammar-encoding must be written and incorporated into LKB code
+base, backwards compatibility?</em></li>
+    </ul>
+  </li>
+  <li>
+    <p>2. <strong>(Ensure Emacs reads grammar files using correct encoding)</strong></p>
+
+    <ul>
+      <li>In every grammar file require header
+;;; -*- Mode: TDL; Coding: utf-8 -*-</li>
+      <li>ISSUES: <em>all files must have correct header, mulitbyte users
+also need to load mule-ucs for emacs 21</em></li>
+    </ul>
+  </li>
+  <li>
+    <p>3. <strong>(Ensure Emacs and Lisp/LKB communicate in compatible and
+sufficient character encoding)</strong></p>
+
+    <ul>
+      <li>fi:common-lisp already takes care of this</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Above assumes UTF-8 as the character encoding used of the grammar files.
+This should be strongly recommended, but any other (GNU Emacs supported)
+character encodings must also be allowed. Name used to specify character
+encoding should be same in both 1 and 2 above.</p>
+
+<p>Also:</p>
+
+<ul>
+  <li>4. <strong>(Links to PET, Lexdb and Lui settings)</strong></li>
+</ul>
+
+<p>Some of the known issues:</p>
+
+<ul>
+  <li>text input doesn’t work for multibyte characters in CLIM;</li>
+  <li>not all character sets display properly (e.g. Korean);</li>
+  <li>do we need to add notes for versions compiled with ACL 6.2 (where
+the encoding names are different)?</li>
+  <li>postscript/LaTeX printing from CLIM/LUI with non-ascii characters.</li>
+</ul>
+
+<h3 id="working-with-greek-utf-8">Working with Greek (UTF-8)</h3>
+
+<p>This is the documentation of how to use LKB and Emacs with Greek
+(grammar files in UTF-8). You need an Emacs upwards of 21.3 (I do not
+know about the requirements for XEmacs).</p>
+
+<p>Start the LKB in Emacs.</p>
+
+<p>In your Emacs startup file, add the following settings:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>;; Sets character set to greek-iso8859-7, and coding system to greek-iso-8bit
+;; Also sets a default input method (Greek)
+(set-language-environment 'Greek)
+(set-default-coding-systems 'mule-utf-8)
+(unless (boundp 'fi:common-lisp-image-arguments)
+  (setq fi:common-lisp-image-arguments nil))
+(setq fi:common-lisp-image-arguments
+      (nconc (list "-locale" "el_GR.utf8") fi:common-lisp-image-arguments))
+</code></pre></div></div>
+
+<p>The first line sets most required values. The second one changes the
+default coding systems (the default in the Greek language environment is
+ISO-8859-7, not UTF-8) so that the grammar and test suite files are read
+with the correct encoding. The remaining lines tells Allegro Common Lisp
+to use Greek.</p>
+
+<p>At the end of lkb/globals.lsp, add the following:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>;; Write CDB temporary files as binary
+(defparameter cdb::*cdb-ascii-p* nil)
+</code></pre></div></div>
+
+<p>Exit LKB and Emacs, delete the temporary lexicon files.</p>
+
+<p>Your LKB setup is now capable of working with Greek. You can run batch
+parses from Greek files, pass on Greek sentences to do-parse-tty in the
+*common-lisp* buffer, and the results can be viewed (with Greek
+characters) in the chart window, parse tree windows, etc.</p>
+
+<p>For other languages, the settings are probably analogous: choose an
+appropriate language environment in Emacs, and choose the appropriate
+file coding system (if it is different from the default in the language
+environment - see M-x describe-language-environment).</p>
+
+<p>Remain to do:</p>
+
+<ul>
+  <li>Greek input in the “Parse…” window</li>
+  <li>Greek characters in the title bars (an UTF-8-capable window manager
+is probably enough to solve this problem)</li>
+  <li>Greek characters in the menus of the parse tree window (e.g.
+specifying what rules or lexicon entries were used)</li>
+</ul>
+
+<p>Note: this setup was working as described with Emacs 21.3 and Allegro
+Common Lisp 6.2. A recent change in Emacs seems to be causing some
+problems (for Greek keyboard input, input-method ‘greek-jis seems to be
+working, but ‘greek is not (anymore); the final sigma in the generation
+of the temporary lexicon files is problematic). We are investigating.</p>
+
+<h3 id="working-with-japanese-euc">Working with Japanese (EUC)</h3>
+
+<p>The Japanese grammar now uses UTF-8, and we recommend everyone else
+does.</p>
+
+<p>This is left for historical interest.</p>
+
+<p>Define a function to set a buffer’s encoding japanify.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>;;; this sets up an encoding
+(defun japanify (buffer encoding)
+  (save-excursion
+    (switch-to-buffer buffer)
+    (set-language-environment 'japanese)
+    (set-buffer-file-coding-system encoding)
+    (set-buffer-process-coding-system encoding encoding))
+  (setq default-buffer-file-coding-system encoding))
+</code></pre></div></div>
+
+<p>Use this when calling lisp (for Japanese):</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(defun lisp (&amp;optional prefix)
+  (setq lkb-tmp-dir "/tmp")
+  (interactive "P")
+  (load "/usr/local/delphin/acl/eli/fi-site-init")
+  (setq fi:common-lisp-image-name "/usr/local/delphin/acl/alisp")
+  (setq fi:common-lisp-image-file "/usr/local/delphin/acl/bclim.dxl")
+  (setq fi:common-lisp-image-arguments 
+    (list 
+     "-locale" "japan.EUC"
+     "-qq" "-L" "/usr/local/delphin/cl-init.cl"))
+  (fi:common-lisp)
+  (japanify "*common-lisp*" 'euc-jp))
+</code></pre></div></div>
+
+<p>We have found that for the latest eli and emacs 21.4, that it always
+sets the (stream-external-format *terminal-io*) to :emacs-mule. We
+prefer it to be EUC-JP, so we evaluate the following in the lisp buffer:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(setf excl:*default-external-format*
+ (setf (stream-external-format *terminal-io*) :euc))
+</code></pre></div></div>
+
+<p>We also need to change lkb/globals.lsp by adding the following:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>;; Write CDB temporary files as binary
+(defparameter cdb::*cdb-ascii-p* nil)
+</code></pre></div></div>
+
+<p>While not strictly necessary, we also make a point of explicitly marking
+the encoding in the grammar and lexicon files. This is because some
+users prefer their defult to be euc-jp, others to be junet and others to
+be utf-8. The grammar, however, must be uniformly euc-jp.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>;;; -*- Mode: TDL; Coding: euc-jp -*-
+</code></pre></div></div>
+
+<h5 id="acl-80">ACL 8.0</h5>
+
+<p>In newer versions of allegro lisp, you can reset the locale in the
+grammar itself (we also set the locale for pvm here). In lkb/globals.lsp</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#+:allegro
+(setf excl:*locale* (excl:find-locale "japan.EUC"))
+#+:allegro
+(setf *pvm-encoding* :euc-base)
+</code></pre></div></div>
+
+<p>In 2007 JACY intends to move to utf-8, and much of this will become
+redundent.</p>
+
+<h5 id="other-components">Other Components</h5>
+
+<p>If you are working with <a href="https://delph-in.github.io/docs/garage/PetTop">PetTop</a>, don’t forget to specify the
+encoding in grammar.set as well:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>;;;; settings for CHEAP                 -*- Mode: TDL; Coding: euc-jp -*-
+encoding := EUC-JP.
+</code></pre></div></div>
+
+<p>If you use the <a href="/LkbLexDb">LkbLexDb</a>, don’t forget to specify the
+encoding when you install the lexical database:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>bash install-lexdb.sh jap ~/jap/lexdb.fld ~/jap/lexdb.dfn "-E EUC_JP"
+</code></pre></div></div>
+
+<p>Last update: 2019-07-16 by FrancisBond [<a href="https://github.com/delph-in/docs/wiki/LkbEmacs/_edit">edit</a>]</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+<!--Scroll the navbar to the current page-->
+<script type="text/javascript">
+  let el = document.querySelector('.nav__list .active');
+  if(el){
+    el.scrollIntoView({block: "center", inline: "start"});
+  }
+</script>
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/docs/tools/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/docs/tools/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/docs/tools/assets/js/lunr/lunr.min.js"></script>
+<script src="/docs/tools/assets/js/lunr/lunr-store.js"></script>
+<script src="/docs/tools/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

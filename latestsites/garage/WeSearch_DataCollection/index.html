@@ -1,0 +1,1456 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>DELPH-IN Garage</title>
+<meta name="description" content="An amazing website.">
+
+
+  <meta name="author" content="Your Name">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="DELPH-IN Garage">
+<meta property="og:title" content="DELPH-IN Garage">
+<meta property="og:url" content="https://delph-in.github.io/docs/garage/WeSearch_DataCollection/">
+
+
+  <meta property="og:description" content="An amazing website.">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://delph-in.github.io/docs/garage/WeSearch_DataCollection/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Your Name",
+      "url": "https://delph-in.github.io/docs/garage/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/docs/garage/feed.xml" type="application/atom+xml" rel="alternate" title="DELPH-IN Garage Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/docs/garage/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--delphin_page wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/docs/garage/"><img src="/docs/garage/assets/images/Delph-In.png" alt="DELPH-IN Garage"></a>
+        
+        <a class="site-title" href="/docs/garage/">
+          DELPH-IN Garage
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/home/Home">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/howto/DelphinWelcome">How-To</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/erg/ErgTop">ERG</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/tools/ToolsTop">Tools</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/grammars/GrammarsOverview">Grammars</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/matrix/MatrixDocsOverview">Matrix</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/summits/SummitTop">Summits</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/garage/GarageTop">Garage</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Overview</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/GarageTop/">Overview</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammar Tools</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/AgreeTop/">Agree</a></li>
+          
+            <li><a href="/docs/garage/ChartMapping/">Chart Mapping</a></li>
+          
+            <li><a href="/docs/garage/ChartMappingSetup/">Chart Mapping Setup</a></li>
+          
+            <li><a href="/docs/garage/ClimbTop/">CLIMB</a></li>
+          
+            <li><a href="/docs/garage/Climb_GClimb/">CLIMB for Germanic languages</a></li>
+          
+            <li><a href="/docs/garage/DelphinTools/">Delphin Tools</a></li>
+          
+            <li><a href="/docs/garage/EgadTop/">Erroneous Generation Analysis and Detection (EGAD)</a></li>
+          
+            <li><a href="/docs/garage/EgadInstallation/">EGAD Installation</a></li>
+          
+            <li><a href="/docs/garage/SafFspp/">Finite-State PreProcessor</a></li>
+          
+            <li><a href="/docs/garage/Climb_GClimb_German/">gCLIMB Phenomena</a></li>
+          
+            <li><a href="/docs/garage/GDeltaTop/">gDelta</a></li>
+          
+            <li><a href="/docs/garage/SpringCleaningTop/">Grammar Spring Cleaning</a></li>
+          
+            <li><a href="/docs/garage/HeartofgoldTop/">Heart of Gold</a></li>
+          
+            <li><a href="/docs/garage/HogInstallation/">Hog Installation</a></li>
+          
+            <li><a href="/docs/garage/LkbLtdb/">Linguistic Type Database</a></li>
+          
+            <li><a href="/docs/garage/ReppTop/">Regular Expression Pre-Processor</a></li>
+          
+            <li><a href="/docs/garage/RmrsDmrsComparison/">Rmrs/Dmrs Comparison</a></li>
+          
+            <li><a href="/docs/garage/ClimbShortClimb/">SHORT-CLIMB</a></li>
+          
+            <li><a href="/docs/garage/TestingWithAnt/">Testing With Ant</a></li>
+          
+            <li><a href="/docs/garage/TypediffTop/">Typediff</a></li>
+          
+            <li><a href="/docs/garage/VistaExtractionTop/">Vista Extraction</a></li>
+          
+            <li><a href="/docs/garage/PhenomenaTop/">Phenomena</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Completed Projects</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/RedwoodsTop/">Redwoods</a></li>
+          
+            <li><a href="/docs/garage/WeScience/">WeScience</a></li>
+          
+            <li><a href="/docs/garage/DeepBank/">DeepBank</a></li>
+          
+            <li><a href="/docs/garage/DeepBank_OneZero/">DeepBank 1.0</a></li>
+          
+            <li><a href="/docs/garage/WikiWoods/">WikiWoods</a></li>
+          
+            <li><a href="/docs/garage/SemCor/">SC corpus</a></li>
+          
+            <li><a href="/docs/garage/OldOverviews/">Old DELPH-IN Overview</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammars (experimental)</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/GrenouilleSummary/">French</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Lexical Semantics</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/LexsemTop/">Overview</a></li>
+          
+            <li><a href="/docs/garage/LexsemMapping/">Mapping</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Machine Translation</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/MachineTranslationTop/">Overview</a></li>
+          
+            <li><a href="/docs/garage/MachineTranslationTutorial/">Tutorial</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Japanese/English Machine Translation</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/MtJaen/">Overview</a></li>
+          
+            <li><a href="/docs/garage/MtSetup/">Setup</a></li>
+          
+            <li><a href="/docs/garage/MtRuleExtraction/">MtRuleExtraction</a></li>
+          
+            <li><a href="/docs/garage/MtJaenFeedbackCleaning/">Feedback Cleaning</a></li>
+          
+            <li><a href="/docs/garage/NE_Tagging_For_Improving_SMT/">Improving SMT</a></li>
+          
+            <li><a href="/docs/garage/MtJaenTanaka/">Tanaka Corpus</a></li>
+          
+            <li><a href="/docs/garage/MtJaenSmt/">Discussion</a></li>
+          
+            <li><a href="/docs/garage/JaenTodo/">Jaen TODO</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Indra/English Transfer Grammar</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/IndraAce/">Ace</a></li>
+          
+            <li><a href="/docs/garage/IndraPreprocessing/">Preprocessing</a></li>
+          
+            <li><a href="/docs/garage/IndraTranslation/">Translation</a></li>
+          
+            <li><a href="/docs/garage/IndraRegressionTest/">RegressionTest</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">WeSearch</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/WeSearch/">WeSearch</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_Ccs/">CCS</a></li>
+          
+            <li><a href="/docs/garage/CcsGroup/">CCS Attendees</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_CcsDayOne/">CCS Day One</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_CcsDayTwo/">CCS Day Two</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_CcsDayThree/">CCS Day Three</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_DesignPrinciples/">WeSearch_DesignPrinciples</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_AnalysisCatalog/">WeSearch_AnalysisCatalog</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_ScopalArgCoord/">WeSearch_ScopalArgCoord</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_ICONS/">WeSearch_ICONS</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_UnderspecifedAttachment/">WeSearch_UnderspecifedAttachment</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_UnderspecifiedPreds/">WeSearch_UnderspecifiedPreds</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_VariablePropertySharing/">WeSearch_VariablePropertySharing</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_DataCollection/" class="active">WeSearch_DataCollection</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">PET</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/PetTop/">Overview</a></li>
+          
+            <li><a href="/docs/garage/PetDependencies/">Dependencies</a></li>
+          
+            <li><a href="/docs/garage/PetEclipse/">Eclipse</a></li>
+          
+            <li><a href="/docs/garage/PetRoadMap/">RoadMap</a></li>
+          
+            <li><a href="/docs/garage/PetInput/">Input</a></li>
+          
+            <li><a href="/docs/garage/ReppPet/">ReppPet</a></li>
+          
+            <li><a href="/docs/garage/PetOutput/">Output</a></li>
+          
+            <li><a href="/docs/garage/PetOptions/">Options</a></li>
+          
+            <li><a href="/docs/garage/PetParameters/">Parameters</a></li>
+          
+            <li><a href="/docs/garage/PetSelectiveUnpacking/">Selective Unpacking</a></li>
+          
+            <li><a href="/docs/garage/PetInputFsc/">Input Feature Structure Chart</a></li>
+          
+            <li><a href="/docs/garage/PetInputChart/">Input Chart</a></li>
+          
+            <li><a href="/docs/garage/UtTop/">Ubertagging</a></li>
+          
+            <li><a href="/docs/garage/PetLogging/">Logging</a></li>
+          
+            <li><a href="/docs/garage/PetRobustness/">Robustness</a></li>
+          
+            <li><a href="/docs/garage/FeforPetApi/">PET API Proposal</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Documentation</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/DocsQuickStart/">Quick Start</a></li>
+          
+            <li><a href="/docs/garage/DelphinDocsReference/">Reference</a></li>
+          
+            <li><a href="/docs/garage/ERDW_StructureForNewDocsSite/">Background</a></li>
+          
+            <li><a href="/docs/garage/GoogleSeasonOfDocs2023ProjectProposal/">Season of Docs</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <h1 id="background">Background</h1>
+
+<p>We are seeking to collect user-generated text to support the evaluation
+of parser adaptation across domain/genre. We are interested in a variety
+of registers: Open Access Research Literature, Wikipedia, Technology
+Blogs, Product Reviews and User Forums. Secondly we collect text from
+sources that discuess with the Linux operating system or natural
+language processing. The choice of these domains is motivated by our
+assumption that the users of the corpus will be more familiar with the
+language used in connection with these topics.</p>
+
+<h1 id="collected-data">Collected Data</h1>
+
+<p>NLP blogs were obtained in mid-April from the following sites:</p>
+
+<ul>
+  <li><a href="http://blog.cyberling.org">http://blog.cyberling.org</a></li>
+  <li><a href="http://gameswithwords.fieldofscience.com">http://gameswithwords.fieldofscience.com</a></li>
+  <li><a href="http://lingpipe-blog.com">http://lingpipe-blog.com</a></li>
+  <li><a href="http://nlpers.blogspot.com">http://nlpers.blogspot.com</a></li>
+  <li><a href="http://thelousylinguist.blogspot.com">http://thelousylinguist.blogspot.com</a></li>
+</ul>
+
+<p>Linux blogs were also downloaded in mid-April, from:</p>
+
+<ul>
+  <li><a href="http://embraceubuntu.com">http://embraceubuntu.com</a></li>
+  <li><a href="http://www.linuxscrew.com">http://www.linuxscrew.com</a></li>
+  <li><a href="http://www.markshuttleworth.com">http://www.markshuttleworth.com</a></li>
+  <li><a href="http://www.ubuntugeek.com">http://www.ubuntugeek.com</a></li>
+  <li><a href="http://ubuntu.philipcasey.com">http://ubuntu.philipcasey.com</a></li>
+  <li><a href="http://www.ubuntu-unleashed.com">http://www.ubuntu-unleashed.com</a></li>
+</ul>
+
+<p>Linux forums were extracted from the Unix &amp; Linux subset of the April
+2011 <a href="http://blog.stackoverflow.com/category/cc-wiki-dump/">Stack Exchange Creative Commons
+Dump</a>. In this set
+a text corresponds to a post (be it a question or an answer). If
+necessary threads can be reconstructed by using the primary/new id xref
+file.</p>
+
+<p>Linux reviews are from <a href="http://www.softpedia.com/reviews/linux/">http://www.softpedia.com/reviews/linux/</a>. They
+possible require some manual cleaning - each review typically ends with
+a sentence like ‘Check out these screenshots’</p>
+
+<p>The Linux wiki set was created following the method used for
+<a href="https://delph-in.github.io/docs/garage/WikiWoods">WikiWoods</a>.</p>
+
+<p>All data and scripts are in
+/ltg/jread/workspace/wesearch/data-collection. The content has been
+extracted by finding the most specific element that contains all the
+relevant text (for example, blog posts typically contain some element
+with an attribute indicating that is the content element). All mark-up
+related to rendering has been retained for now. Sentences were obtained
+from <a href="http://www.cis.uni-muenchen.de/~wastl/misc/">tokenizer</a> (as used
+in creating <a href="https://delph-in.github.io/docs/garage/WikiWoods">WikiWoods</a>).</p>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+      <th> </th>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Section</strong></td>
+      <td><strong>Source</strong></td>
+      <td><strong>Documents</strong></td>
+      <td><strong>Total Items</strong></td>
+      <td><strong>Avg. Items</strong></td>
+    </tr>
+    <tr>
+      <td>NLP, blog</td>
+      <td><a href="http://blog.cyberling.org">http://blog.cyberling.org</a></td>
+      <td>51</td>
+      <td>659</td>
+      <td>12.9</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><a href="http://gameswithwords.fieldofscience.com">http://gameswithwords.fieldofscience.com</a></td>
+      <td>457</td>
+      <td>11,014</td>
+      <td>24.1</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><a href="http://lingpipe-blog.com">http://lingpipe-blog.com</a></td>
+      <td>343</td>
+      <td>12,693</td>
+      <td>37.0</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><a href="http://nlpers.blogspot.com">http://nlpers.blogspot.com</a></td>
+      <td>249</td>
+      <td>7,612</td>
+      <td>30.6</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><a href="http://thelousylinguist.blogspot.com">http://thelousylinguist.blogspot.com</a></td>
+      <td>536</td>
+      <td>7,748</td>
+      <td>14.5</td>
+    </tr>
+    <tr>
+      <td>Linux, blog</td>
+      <td><a href="http://embraceubuntu.com">http://embraceubuntu.com</a></td>
+      <td>220</td>
+      <td>2,957</td>
+      <td>13.4</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><a href="http://www.linuxscrew.com">http://www.linuxscrew.com</a></td>
+      <td>312</td>
+      <td>4,049</td>
+      <td>13.0</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><a href="http://www.markshuttleworth.com">http://www.markshuttleworth.com</a></td>
+      <td>159</td>
+      <td>4,503</td>
+      <td>28.3</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><a href="http://www.ubuntugeek.com">http://www.ubuntugeek.com</a></td>
+      <td>1,631</td>
+      <td>42,770</td>
+      <td>26.2</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><a href="http://ubuntu.philipcasey.com">http://ubuntu.philipcasey.com</a></td>
+      <td>105</td>
+      <td>1,577</td>
+      <td>15.0</td>
+    </tr>
+    <tr>
+      <td> </td>
+      <td><a href="http://www.ubuntu-unleashed.com">http://www.ubuntu-unleashed.com</a></td>
+      <td>278</td>
+      <td>6,362</td>
+      <td>22.9</td>
+    </tr>
+    <tr>
+      <td>Linux, forums</td>
+      <td>stack exchange</td>
+      <td>9,945</td>
+      <td>54249</td>
+      <td>5.5</td>
+    </tr>
+    <tr>
+      <td>Linux, reviews</td>
+      <td>softpedia</td>
+      <td>249</td>
+      <td>13,430</td>
+      <td>53.9</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="initial-parsing-results">Initial Parsing Results</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+      <th> </th>
+      <th> </th>
+      <th> </th>
+      <th> </th>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Section</td>
+      <td>Items</td>
+      <td>Coverage</td>
+      <td>Length</td>
+      <td>Ambiguity</td>
+      <td>Time</td>
+      <td>Tokens</td>
+      <td>Types</td>
+    </tr>
+    <tr>
+      <td>NLP, wiki</td>
+      <td>11558</td>
+      <td>86.4%</td>
+      <td>18.0</td>
+      <td>10859</td>
+      <td>8.2</td>
+      <td>238059</td>
+      <td>19396</td>
+    </tr>
+    <tr>
+      <td>NLP, blog</td>
+      <td>46106</td>
+      <td>81.9%</td>
+      <td>15.5</td>
+      <td>8158</td>
+      <td>6.1</td>
+      <td>838592</td>
+      <td>41771</td>
+    </tr>
+    <tr>
+      <td>Linux, wiki</td>
+      <td>40738</td>
+      <td>85.0%</td>
+      <td>18.5</td>
+      <td>12407</td>
+      <td>9.6</td>
+      <td>843082</td>
+      <td>45783</td>
+    </tr>
+    <tr>
+      <td>Linux, blog</td>
+      <td>92280</td>
+      <td>83.7%</td>
+      <td>11.1</td>
+      <td>5151</td>
+      <td>3.9</td>
+      <td>1000683</td>
+      <td>48511</td>
+    </tr>
+    <tr>
+      <td>Linux, review</td>
+      <td>14761</td>
+      <td>84.6%</td>
+      <td>18.1</td>
+      <td>10610</td>
+      <td>7.5</td>
+      <td>304672</td>
+      <td>13158</td>
+    </tr>
+    <tr>
+      <td>Linux, forum</td>
+      <td>85743</td>
+      <td>74.8%</td>
+      <td>11.0</td>
+      <td>4885</td>
+      <td>3.1</td>
+      <td>1115412</td>
+      <td>56673</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Corpus statistics for each section. <em>Coverage</em> shows what precentage of
+items received an analysis (using the unadapted parser ‘out of the
+box’), and <em>ambiguity</em> and <em>time</em> give an indication of average parsing
+complexity (for the ‘vanilla’ parser configuration). <em>Tokens</em> shows the
+token count of each section and <em>types</em> is the number of unique,
+non-punctuation tokens seen per section.</p>
+
+<h1 id="data-preparation">Data Preparation</h1>
+
+<ul>
+  <li>Given an HTML document, extract elements specified by a set of
+XPaths.</li>
+  <li>Sentence segment using tokenizer adapted to handle HTML tags—P,
+LI, PRE, DIV force line breaks.</li>
+  <li>Simplify by:
+    <ul>
+      <li>removing automatically generated text</li>
+      <li>removing superfluous whitespace</li>
+      <li>removing comments</li>
+      <li>removing some attributes (e.g. HREF)</li>
+      <li>ersatzing CODE and IMG</li>
+    </ul>
+  </li>
+  <li>Filter CODE and IMG if they occur in isolation. Filter OL, UL,
+TABLE.</li>
+  <li>Create line-oriented <a href="/itsdb">itsdb</a> import files with only one
+source and up to 1,000 items. Do not split documents across
+profiles.</li>
+</ul>
+
+<h2 id="identifier-format">Identifier Format</h2>
+
+<p>Initial WDC identifiers take the form of:</p>
+
+<ul>
+  <li>DGSPPPPPIIII</li>
+</ul>
+
+<p>where:</p>
+
+<ul>
+  <li>D : ‘domain’ (1=linux, 2=nlp)</li>
+  <li>G : ‘genre’ (1=academic, 2=blogs, 3=forum, 4=reviews, 5=wiki)</li>
+  <li>S : source (unique to domain and genre):
+    <ul>
+      <li>121=embraceubuntu.com</li>
+      <li>122=ubuntu.philipcasey.com</li>
+      <li>123=www.linuxscrew.com</li>
+      <li>124=www.markshuttleworth.com</li>
+      <li>125=www.ubuntugeek.com</li>
+      <li>126=www.ubuntu-unleashed.com</li>
+      <li>221=blog.cyberling.org</li>
+      <li>222=gameswithwords.fieldofscience.com</li>
+      <li>223=lingpipe-blog.com</li>
+      <li>224=nlpers.blogspot.com</li>
+      <li>225=thelousylinguist.blogspot.com</li>
+    </ul>
+  </li>
+  <li>P : post (unique to domain, genre and source)</li>
+  <li>I : item, (unique to domain, genre, source and post)</li>
+</ul>
+
+<h2 id="output">Output</h2>
+
+<ul>
+  <li>Profile import files as lists of IDs and items.</li>
+  <li>Pointer file for each profile, with lines corresponding to items,
+with item start index in source document, and lists of pairs (start,
+length) indicating deletions.</li>
+  <li>Cross-reference file with document ids CSDDDDDD and source URL.</li>
+</ul>
+
+<h1 id="parsing-results-on-clean-data">Parsing Results on clean data</h1>
+
+<p><em>(wiki results just copied from above)</em></p>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+      <th> </th>
+      <th> </th>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Section</td>
+      <td>Items</td>
+      <td>Coverage</td>
+      <td>Length</td>
+      <td>Time</td>
+      <td>Tokens</td>
+    </tr>
+    <tr>
+      <td>NLP, wiki</td>
+      <td>11558</td>
+      <td>86.4%</td>
+      <td>18.0</td>
+      <td>8.2</td>
+      <td>238059</td>
+    </tr>
+    <tr>
+      <td>NLP, blog</td>
+      <td>38498</td>
+      <td>80.8%</td>
+      <td>17.6</td>
+      <td>8.3</td>
+      <td>676080</td>
+    </tr>
+    <tr>
+      <td>Linux, wiki</td>
+      <td>40738</td>
+      <td>85.0%</td>
+      <td>18.5</td>
+      <td>9.6</td>
+      <td>843082</td>
+    </tr>
+    <tr>
+      <td>Linux, blog</td>
+      <td>64520</td>
+      <td>82.3%</td>
+      <td>13.2</td>
+      <td>5.7</td>
+      <td>854157</td>
+    </tr>
+    <tr>
+      <td>Linux, review</td>
+      <td>13430</td>
+      <td>80.4%</td>
+      <td>19.8</td>
+      <td>9.2</td>
+      <td>266063</td>
+    </tr>
+    <tr>
+      <td>Linux, forum</td>
+      <td>54249</td>
+      <td>82.0%</td>
+      <td>14.8</td>
+      <td>5.6</td>
+      <td>802736</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>And again on clean blog data:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+      <th> </th>
+      <th> </th>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Section</td>
+      <td>Items</td>
+      <td>Coverage</td>
+      <td>Length (parsed)</td>
+      <td>Time</td>
+      <td>Tokens</td>
+    </tr>
+    <tr>
+      <td>NLP, blog</td>
+      <td>39726</td>
+      <td>82.9%</td>
+      <td>17.2 (14.8)</td>
+      <td>7.0</td>
+      <td>681896</td>
+    </tr>
+    <tr>
+      <td>Linux, blog</td>
+      <td>62216</td>
+      <td>82.2%</td>
+      <td>13.0 (11.1)</td>
+      <td>4.6</td>
+      <td>808600</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="observed-tags">Observed Tags</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Tag</td>
+      <td>Frequency</td>
+      <td>Definition</td>
+    </tr>
+    <tr>
+      <td>p</td>
+      <td>51214</td>
+      <td>paragraph</td>
+    </tr>
+    <tr>
+      <td>br</td>
+      <td>39709</td>
+      <td>single line break</td>
+    </tr>
+    <tr>
+      <td>div</td>
+      <td>17426</td>
+      <td>section in a document</td>
+    </tr>
+    <tr>
+      <td>li</td>
+      <td>17267</td>
+      <td>list item</td>
+    </tr>
+    <tr>
+      <td>strong</td>
+      <td>8103</td>
+      <td>strong text</td>
+    </tr>
+    <tr>
+      <td>img</td>
+      <td>7329</td>
+      <td>image</td>
+    </tr>
+    <tr>
+      <td>blockquote</td>
+      <td>3474</td>
+      <td>long quotation</td>
+    </tr>
+    <tr>
+      <td>h1</td>
+      <td>3265</td>
+      <td>Header 1</td>
+    </tr>
+    <tr>
+      <td>code</td>
+      <td>2821</td>
+      <td>computer code text</td>
+    </tr>
+    <tr>
+      <td>td</td>
+      <td>2623</td>
+      <td>cell in a table</td>
+    </tr>
+    <tr>
+      <td>em</td>
+      <td>1320</td>
+      <td>emphasized text</td>
+    </tr>
+    <tr>
+      <td>h4</td>
+      <td>1313</td>
+      <td>Header 4</td>
+    </tr>
+    <tr>
+      <td>var</td>
+      <td>1166</td>
+      <td>variable part of a text</td>
+    </tr>
+    <tr>
+      <td>h3</td>
+      <td>1051</td>
+      <td>Header 3</td>
+    </tr>
+    <tr>
+      <td>h2</td>
+      <td>988</td>
+      <td>Header 2</td>
+    </tr>
+    <tr>
+      <td>small</td>
+      <td>976</td>
+      <td>small text</td>
+    </tr>
+    <tr>
+      <td>tr</td>
+      <td>945</td>
+      <td>row in a table</td>
+    </tr>
+    <tr>
+      <td>param</td>
+      <td>211</td>
+      <td>parameter for an object</td>
+    </tr>
+    <tr>
+      <td>ol</td>
+      <td>204</td>
+      <td>ordered list</td>
+    </tr>
+    <tr>
+      <td>font</td>
+      <td>184</td>
+      <td>font, color and size for text (deprecated)</td>
+    </tr>
+    <tr>
+      <td>table</td>
+      <td>183</td>
+      <td>table</td>
+    </tr>
+    <tr>
+      <td>input</td>
+      <td>157</td>
+      <td>input control</td>
+    </tr>
+    <tr>
+      <td>th</td>
+      <td>146</td>
+      <td>header cell in a table</td>
+    </tr>
+    <tr>
+      <td>tt</td>
+      <td>115</td>
+      <td>teletype text</td>
+    </tr>
+    <tr>
+      <td>kbd</td>
+      <td>80</td>
+      <td>keyboard text</td>
+    </tr>
+    <tr>
+      <td>sup</td>
+      <td>76</td>
+      <td>superscripted text</td>
+    </tr>
+    <tr>
+      <td>s</td>
+      <td>71</td>
+      <td>strikethrough text (deprecated)</td>
+    </tr>
+    <tr>
+      <td>tbody</td>
+      <td>68</td>
+      <td>groups the body content in a table</td>
+    </tr>
+    <tr>
+      <td>sub</td>
+      <td>53</td>
+      <td>subscripted text</td>
+    </tr>
+    <tr>
+      <td>col</td>
+      <td>44</td>
+      <td>attribute values for one or more columns in a table</td>
+    </tr>
+    <tr>
+      <td>label</td>
+      <td>38</td>
+      <td>label for an input element</td>
+    </tr>
+    <tr>
+      <td>dt</td>
+      <td>12</td>
+      <td>term in a definition list</td>
+    </tr>
+    <tr>
+      <td>dd</td>
+      <td>10</td>
+      <td>description of a term in a definition list</td>
+    </tr>
+    <tr>
+      <td>acronym</td>
+      <td>6</td>
+      <td>acronym</td>
+    </tr>
+    <tr>
+      <td>dl</td>
+      <td>6</td>
+      <td>definition list</td>
+    </tr>
+    <tr>
+      <td>abbr</td>
+      <td>4</td>
+      <td>abbreviation</td>
+    </tr>
+    <tr>
+      <td>noscript</td>
+      <td>4</td>
+      <td>an alternate content for users that do not support client-side scripts</td>
+    </tr>
+    <tr>
+      <td>h5</td>
+      <td>2</td>
+      <td>Header 5</td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="other-potential-sources">Other Potential Sources</h1>
+
+<h2 id="open-access-research-literature">Open Access Research Literature</h2>
+
+<ul>
+  <li>The <a href="http://acl-arc.comp.nus.edu.sg/">ACL Anthology Reference
+Corpus</a>, a snapshot of the ACL
+Anthology content up to February 2007. 10,921 articles in PDF, and
+text dumps from <a href="http://pdfbox.apache.org/">pdfbox</a>. The data is
+available in ~jread/data/acl-arc.</li>
+  <li>The <a href="http://books.nips.cc/">Proceedings of Advances in Neural Information Processing
+Systems</a>, 24 volumes of PDFs</li>
+  <li>The <a href="http://www.ncbi.nlm.nih.gov/pubmed">PubMed</a> database, indexing
+approximately 3,000,000 free full text English biomedical articles
+(and 4,000 Norwegian free full text articles).</li>
+</ul>
+
+<h2 id="wikis">Wikis</h2>
+
+<ul>
+  <li>The <a href="https://delph-in.github.io/docs/garage/WeScience">WeScience</a> corpus composed of Wikipedia articles in
+the domain of Natural Language Processing.</li>
+  <li><a href="http://www.thinkwiki.org/wiki/ThinkWiki">ThinkWiki</a>, a collection
+of reference materials and HOWTOs for Think Pad users, with a
+particular focus on linux. All information found on this wiki is
+published under the GNU Free Documentation License.</li>
+  <li><a href="http://wiki.laptop.org/go/The_OLPC_Wiki">The One Laptop Per Child
+Wiki</a> describes work and
+ideas related to the One Laptop Per Child project. The content is
+available under Creative Commons Attribution 3.0.</li>
+  <li><a href="http://askdrwiki.com/mediawiki/index.php?title=Physician_Medical_Wiki">Dr
+Wiki</a>
+is a nonprofit educational web site made by physicians for
+physicians, medical students, and healthcare providers. Content is
+available under Creative Commons Attribution-Non Commercial-Share
+Alike 3.0 Unported.</li>
+</ul>
+
+<h2 id="product-reviews">Product Reviews</h2>
+
+<ul>
+  <li><a href="http://www.cs.cornell.edu/people/pabo/movie-review-data/">Polarity
+2.0</a>, a
+collection of 2,000 movie reviews originally posted on Usenet.
+Reviews are classified according to sentiment, and tokenised by
+sentence. Capitalisation information has been removed. About
+1,400,000 tokens in 64,000 sentences.</li>
+  <li>Bing Lui’s <a href="http://www.cs.uic.edu/~liub/FBS/sentiment-analysis.html">Amazon Product Review
+Data</a>
+contains about 5.8 million customer product reviews from Amazon,
+(about 980 million words). Licensing information is not mentioned,
+but Amazon’s website says <em><span class="small">“Amazon grants you a
+limited license to access and make personal use of this site and not
+to download (other than page caching) or modify it, or any portion
+of it, except with express written consent of Amazon. This license
+does not include any resale or commercial use of this site or its
+contents; any collection and use of any product listings,
+descriptions, or prices; any derivative use of this site or its
+contents; any downloading or copying of account information for the
+benefit of another merchant; or any use of data mining, robots, or
+similar data gathering and extraction tools. This site or any
+portion of this site may not be reproduced, duplicated, copied,
+sold, resold, visited, or otherwise exploited for any commercial
+purpose without express written consent of Amazon.”</span></em>. The
+data is available in ~jread/data/lui</li>
+  <li>The <a href="http://www.cs.jhu.edu/~mdredze/datasets/sentiment/">Multi-Domain Sentiment
+Dataset</a> also
+contains Amazon product reviews in several domains. The processed
+reviews are distributed as feature vectors. The unprocessed data is
+available in ~jread/data/mdsd.</li>
+  <li><a href="http://www.epinions.com/">Epinions</a> collects consumer reviews in
+the domains of: cars, books, movies, music, computers, electronics,
+gifts, home/garden, kids/family, office supply, sports and travel.
+Their usage policy states that <span class="small"><em>“Using any
+automated means to access the site or collect any information from
+the site”</em></span> is inappropriate, but perhaps it’s worth sending
+an email, as <a href="http://www.trustlet.org/wiki/Extended_Epinions_dataset">Paolo
+Massa</a>
+obtained a dump directly from Epinions (but unfortunately did not
+retain the textual data).</li>
+  <li><a href="http://www.category5.tv/product_reviews/">http://www.category5.tv/product_reviews/</a> (creative commons).</li>
+  <li><a href="http://www.geek.com/">http://www.geek.com/</a> <em><span class="small">“© 2010 Geeknet, Inc.
+“</span></em>… but copyright details make no mention of
+redistribution.</li>
+  <li><a href="http://www.reviewlinux.com/">http://www.reviewlinux.com/</a>. Creative Commons licensed reviews of
+linux distributions.</li>
+  <li><a href="http://news.softpedia.com/cat/Reviews/Linux-software/">http://news.softpedia.com/cat/Reviews/Linux-software/</a>
+‘enthusiast’-generated content. Need to request copyright exemption.</li>
+</ul>
+
+<h2 id="blogs">Blogs</h2>
+
+<ul>
+  <li>The <a href="http://www.icwsm.org/data/">Spinn3r Blog Dataset</a> contains 44
+million blog posts, with metadata including original site and topic
+tags. The <a href="http://icwsm.org/2009/data/icwsm-spinn3r.pdf">usage
+agreement</a> prohibits
+redistribution of the content. A sample is available at
+~jread/data/sp inn3r-sample.xml.</li>
+  <li>Glasgow distributes the
+<a href="http://ir.dcs.gla.ac.uk/test_collections/">Blogs06</a> collection of
+3.2 million blog articles. Costs £400 and subject to a user
+agreement prohibiting redistribution.</li>
+  <li>The <a href="http://u.cs.biu.ac.il/~koppel/BlogCorpus.htm">Blog Authorship
+Corpus</a>, 140 million
+words in posts collected from blogger.com. Annotated with blogger
+gender and age. No license information provided. Available at
+~jread/data/koppel.</li>
+  <li><a href="http://slashdot.org/">SlashDot</a> <em><span class="small">“All
+trademarks and copyrights on this page are owned by their respective
+owners. Comments are owned by the Poster. The Rest © 1997-2010
+Geeknet, Inc.”</span></em>… but copyright details make no mention of
+redistribution.</li>
+  <li>Linux: <a href="http://embraceubuntu.com/">http://embraceubuntu.com/</a> <a href="http://linuxhelp.blogspot.com/">http://linuxhelp.blogspot.com/</a></li>
+</ul>
+<p><a href="http://planet.ubuntu.com/">http://planet.ubuntu.com/</a> <a href="http://www.ubuntuhq.com/">http://www.ubuntuhq.com/</a>
+<a href="http://polishlinux.org/">http://polishlinux.org/</a> <a href="http://linuxhelp.blogspot.com/">http://linuxhelp.blogspot.com/</a>
+<a href="http://www.ubuntu-unleashed.com/">http://www.ubuntu-unleashed.com/</a> <a href="http://www.linuxscrew.com/">http://www.linuxscrew.com/</a>
+<a href="http://www.fsckin.com/">http://www.fsckin.com/</a> <a href="http://www.ubuntugeek.com/">http://www.ubuntugeek.com/</a>
+<a href="http://bashcurescancer.com/">http://bashcurescancer.com/</a> <a href="http://tweako.com/section/Linux">http://tweako.com/section/Linux</a>
+<a href="http://www.markshuttleworth.com/">http://www.markshuttleworth.com/</a> <a href="http://ubuntu.philipcasey.com/">http://ubuntu.philipcasey.com/</a></p>
+<ul>
+  <li>NLP/IR: <a href="http://nlpers.blogspot.com/">http://nlpers.blogspot.com/</a> <a href="http://lingpipe-blog.com/">http://lingpipe-blog.com/</a></li>
+</ul>
+<p><a href="http://apperceptual.wordpress.com/">http://apperceptual.wordpress.com/</a>
+<a href="http://arnoldit.com/wordpress/">http://arnoldit.com/wordpress/</a> <a href="http://blog.codalism.com/">http://blog.codalism.com/</a>
+<a href="http://researchonsearch.blogspot.com/">http://researchonsearch.blogspot.com/</a>
+<a href="http://anand.typepad.com/datawocky/">http://anand.typepad.com/datawocky/</a> <a href="http://battellemedia.com/">http://battellemedia.com/</a>
+<a href="http://www.searchenginecaffe.com/">http://www.searchenginecaffe.com/</a></p>
+<ul>
+  <li>ML: <a href="http://anyall.org/blog/">http://anyall.org/blog/</a> <a href="http://blog.smola.org/">http://blog.smola.org/</a></li>
+</ul>
+<p><a href="http://datamining.typepad.com">http://datamining.typepad.com</a> <a href="http://www.dataists.com/">http://www.dataists.com/</a>
+<a href="http://mark.reid.name/iem/">http://mark.reid.name/iem/</a> <a href="http://mlstat.wordpress.com/">http://mlstat.wordpress.com/</a>
+<a href="http://hunch.net/">http://hunch.net/</a> <a href="http://www.machinedlearnings.com/">http://www.machinedlearnings.com/</a>
+<a href="http://thenoisychannel.com/">http://thenoisychannel.com/</a></p>
+
+<h2 id="mailing-lists">Mailing Lists</h2>
+
+<ul>
+  <li>DELPH-IN</li>
+  <li>MOSES</li>
+  <li>The <a href="http://www.psych.ualberta.ca/~westburylab/downloads/usenetcorpus.download.html">Usenet
+Corpus</a>,
+consisting of 28 million documents (each between 500 and 500,000
+words in length, from around 48,000 different newsgroups. Licensed
+under a Creative Commons Attribution-Noncommercial-Share Alike 2.5
+Canada License.</li>
+</ul>
+
+<h2 id="user-forums">User Forums</h2>
+
+<ul>
+  <li>The <a href="http://blog.stackoverflow.com/category/cc-wiki-dump/">Stack Overflow Data
+Dump</a> is from
+a question/answer website with content relating to cooking, game
+development, gaming, mathematics, photography, server faults, stack
+apps, programming, system administration, ubuntu, web applications
+and web administration. Shared under Creative Commons Attribution
+Share Alike 2.5 Generic.</li>
+  <li><a href="http://www.linuxquestions.org">LinuxQuestions</a>, no license
+declaration.</li>
+  <li><a href="http://www.ubuntuforums.org">UbuntuForums</a>, license owned by
+Canonical, but no restrictions specified.</li>
+  <li><a href="http://www.nabble.com/">Nabble</a> is a free forum hosting service
+with no license declaration. Many different topics and several
+languages.</li>
+</ul>
+
+<h1 id="related-work">Related Work</h1>
+
+<ul>
+  <li>Baldwin, T., Martinez, D., Penman, R. B., Kim, S. N., Lui, M.,
+Wang, L. and <a href="/MacKinlay">MacKinlay</a>, A. (2010) <a href="http://www.aclweb.org/anthology/W/W10/W10-0508.pdf">Intelligent Linux
+Information Access by Data Mining: the ILIAD
+Project</a>.
+Proceedings of the NAACL HLT 2010 Workshop on Computational
+Linguistics in a World of Social Media.</li>
+  <li>Nichols, E., Murakami, K., Inui, K., and Matsumoto, Y. (2009)
+<a href="http://cl.naist.jp/~eric-n/papers/bscorpus-pacling2009-paper.pdf">Constructing a Scientific Blog Corpus for Information Credibility
+Analysis</a>.
+Proceedings of PACLING 2009.</li>
+  <li>Weimer, M., Gurevych, I and Mühlhäuser, M. (2007). <a href="http://www.aclweb.org/anthology-new/P/P07/P07-2032.pdf">Automatically
+Assessing the Post Quality in Online Discussions on
+Software</a>.
+Proceedings of the ACL 2007 Demo and Poster Sessions.</li>
+</ul>
+
+<h1 id="next-steps">Next Steps</h1>
+
+<ul>
+  <li>count numbers of sources and documents (within each source)</li>
+  <li>two-level stratification: across sources, then across documents</li>
+  <li>2,000 items per collection as held-out data for future generations</li>
+  <li>2,000 items per collection as test data, to be treebanked</li>
+</ul>
+
+<p>Last update: 2012-03-05 by RebeccaDridan [<a href="https://github.com/delph-in/docs/wiki/WeSearch_DataCollection/_edit">edit</a>]</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+<!--Scroll the navbar to the current page-->
+<script type="text/javascript">
+  let el = document.querySelector('.nav__list .active');
+  if(el){
+    el.scrollIntoView({block: "center", inline: "start"});
+  }
+</script>
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/docs/garage/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/docs/garage/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/docs/garage/assets/js/lunr/lunr.min.js"></script>
+<script src="/docs/garage/assets/js/lunr/lunr-store.js"></script>
+<script src="/docs/garage/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

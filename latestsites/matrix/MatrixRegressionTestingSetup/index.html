@@ -1,0 +1,775 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>DELPH-IN Grammar Matrix</title>
+<meta name="description" content="An amazing website.">
+
+
+  <meta name="author" content="Your Name">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="DELPH-IN Grammar Matrix">
+<meta property="og:title" content="DELPH-IN Grammar Matrix">
+<meta property="og:url" content="https://delph-in.github.io/docs/matrix/MatrixRegressionTestingSetup/">
+
+
+  <meta property="og:description" content="An amazing website.">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://delph-in.github.io/docs/matrix/MatrixRegressionTestingSetup/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Your Name",
+      "url": "https://delph-in.github.io/docs/matrix/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/docs/matrix/feed.xml" type="application/atom+xml" rel="alternate" title="DELPH-IN Grammar Matrix Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/docs/matrix/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--delphin_page wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/docs/matrix/"><img src="/docs/matrix/assets/images/Delph-In.png" alt="DELPH-IN Grammar Matrix"></a>
+        
+        <a class="site-title" href="/docs/matrix/">
+          DELPH-IN Grammar Matrix
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/home/Home">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/howto/DelphinWelcome">How-To</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/erg/ErgTop">ERG</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/tools/ToolsTop">Tools</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/grammars/GrammarsOverview">Grammars</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/matrix/MatrixDocsOverview">Matrix</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/summits/SummitTop">Summits</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/garage/GarageTop">Garage</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammar Matrix Docs</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixDocsOverview/">Overview</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Overview and Tools</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixTop/">Overview</a></li>
+          
+            <li><a href="/docs/matrix/MatrixGettingStarted/">Getting Started</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDevTop/">Development Overview</a></li>
+          
+            <li><a href="/docs/matrix/Updating_the_Customization_System/">Customization System</a></li>
+          
+            <li><a href="/docs/matrix/MatrixCustomizationUnitTesting/">Customization Unit Testing</a></li>
+          
+            <li><a href="/docs/matrix/MatrixCustomizationWebTesting/">Customization Web Testing</a></li>
+          
+            <li><a href="/docs/matrix/MatrixRegressionTesting/">Regression Testing</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_TestSentences/">Test Sentences</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_TestByGeneration/">Test By Generation</a></li>
+          
+            <li><a href="/docs/matrix/MatrixWishList/">Wish List</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammar Engineering</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixDevBlueprints/">Dev Blueprints</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDevConventions/">Dev Conventions</a></li>
+          
+            <li><a href="/docs/matrix/GrammarDevelopment/">Grammar Development</a></li>
+          
+            <li><a href="/docs/matrix/MatrixLibraryDevelopment/">Library Development</a></li>
+          
+            <li><a href="/docs/matrix/MatrixLibraryWishList/">Library WishList</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMorphology/">Morphology</a></li>
+          
+            <li><a href="/docs/matrix/PythonIdioms/">Python Idioms</a></li>
+          
+            <li><a href="/docs/matrix/MatrixRegressionTestingSetup/" class="active">Regression Testing Setup</a></li>
+          
+            <li><a href="/docs/matrix/MatrixRegressionTestingSetupMac/">Regression Testing Setup (Mac)</a></li>
+          
+            <li><a href="/docs/matrix/MatrixTDBProcedures/">TDB Procedures</a></li>
+          
+            <li><a href="/docs/matrix/MatrixTDB2Tables/">TDB2 Tables</a></li>
+          
+            <li><a href="/docs/matrix/MatrixValidationDebugging/">Validation Debugging</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Matrix Doc</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixDocTop/">Overview</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_AdnominalPossession/">Adnominal Possession</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_ArgumentOptionality/">Argument Optionality</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Case/">Case</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_ClausalComplements/">Clausal Complements</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_ClausalModifiers/">Clausal Modifiers</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Coordination/">Coordination</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_DirectInverse/">Direct Inverse</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Evidentials/">Evidentials</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Gender/">Gender</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_GeneralInfo/">General Info</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_ImportToolboxLexicon/">Import Toolbox Lexicon</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_InformationStructure/">Information Structure</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Lexicon/">Lexicon</a></li>
+          
+            <li><a href="/docs/matrix/matrixdef_File_Syntax/">Matrixdef File Syntax</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Morphology/">Morphology</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_NominalizedClauses/">Nominalized Clauses</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Number/">Number</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_OtherFeatures/">Other Features</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Person/">Person</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_SententialNegation/">Sentential Negation</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_TenseAspectMood/">Tense/Aspect/Mood</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_WhQuestions/">Wh Questions</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_WordOrder/">Word Order</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_YesNoQ/">YesNoQ</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">FAQ</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/GrammarEngineeringFAQ/">Grammar Engineering FAQ</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqFeatureGeometry/">Feature Geometry FAQ</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqChartTwice/">Chart Twice</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqCircularLexRule/">Circular Lex Rule</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqClickX/">Click X</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqConfusingTypo/">Confusing Typo</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqCyclicCheck/">Cyclic Check</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqDiffList/">Diff List</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqDisjunctiveValue/">Disjunctive Value</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqDistributedDisjunction/">Distributed Disjunction</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqExpandMenu/">Expand Menu</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqExpandedType/">Expanded Type</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqFeatureMultiType/">Feature Multi-Type</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqFindTypeForFeatures/">Find Type For Features</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqForgottenConstraint/">Forgotten Constraint</a></li>
+          
+            <li><a href="/docs/matrix/GeFaq/">GeFaq</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqGotoChar/">Goto Char</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqGrammarDocumentation/">Grammar Documentation</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqInteractiveUnify/">Interactive Unify</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqLkbInstallation/">LKB Installation</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqLispPromptTips/">Lisp Prompt Tips</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqLoadScript/">Load Script</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqKeyboardNotWorking/">Keyboard Not Working</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqMissingEdge/">Missing Edge</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqMissingHowTo/">Missing How-To</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqMissingRels/">Missing Rels</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNegValue/">Neg Value</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNewFeature/">New Feature</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoEntry2/">No Entry 2</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoError/">No Error</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoPossibleType/">No Possible Type</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoRule/">No Rule</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoSign/">No Sign</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNonAlpha/">Non-Alpha</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqOverApplicationLexRule/">Over Application Lex Rule</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqOrderMatters/">Order Matters</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqPasteShortcut/">Paste Shortcut</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRightBracket/">Right Bracket</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRootFail/">Root Fail</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRuleWithoutDaughter/">Rule Without Daughter</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRuleWithoutDaughters/">Rule Without Daughters</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRunawayRule1/">Runaway Rule 1</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRunawayRule2/">Runaway Rule 2</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqShowChart/">Show Chart</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqSpanningEdge/">Spanning Edge</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqSwitchingGrammars/">Switching Grammars</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqTabIndentation/">Tab Indentation</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqTdlSyntax/">TDL Syntax</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqTdlTxt/">TDL TXT</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqTypeAddendum/">Type Addendum</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqUnicodeInput/">Unicode Input</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqUnifySurprise/">Unify Surprise</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqViewEntry/">View Entry</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqViewHierarchy/">View Hierarchy</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqViewType/">View Type</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">MRS Tests</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuite/">Overview</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteBg/">Bulgarian</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteCantonese/">Cantonese</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsCatb/">Cathedral Test</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteEn/">English</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteFr/">French</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteDe/">German</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteGr/">Greek</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteIndonesian/">Indonesian</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteJa/">Japanese</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteMandarin/">Mandarin</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteNo/">Norwegian</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuitePt/">Portuguese</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteRu/">Russian</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteSv/">Swedish</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteTatoeba/">Tatoeba</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteZhTw/">ZhTw</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <h1 id="matrix-regression-testing-setup">Matrix Regression Testing Setup</h1>
+
+<p>NB: This set up is needed to run the classic regression testing system.
+Consider using the newer, pydelphin-based regression testing script
+which does not require you to set up a VM (you can just run tests
+locally on your Linux or Mac). <a href="https://delph-in.github.io/docs/matrix/MatrixRegressionTesting">Read this</a>
+before proceeding with the below setup.</p>
+
+<p>This page describes setting up a fresh <a href="/VirtualBox">VirtualBox</a> virtual
+machine to do Grammar Matrix Regression Testing (See
+<a href="https://delph-in.github.io/docs/matrix/MatrixDevTop">MatrixDevTop</a>,
+<a href="https://delph-in.github.io/docs/matrix/MatrixRegressionTesting">MatrixRegressionTesting</a>). The basic
+requirements to run the regression tests are:</p>
+
+<ul>
+  <li>Ubuntu 12.04+</li>
+  <li>emacs23+</li>
+  <li>gcc</li>
+  <li>The Grammar Matrix (<a href="https://delph-in.github.io/docs/matrix/MatrixTop">MatrixTop</a>)</li>
+  <li>LOGON (<a href="https://delph-in.github.io/docs/tools/LogonTop">LogonTop</a>)</li>
+  <li>ACE (<a href="https://delph-in.github.io/docs/tools/AceTop">AceTop</a>)</li>
+</ul>
+
+<p>This page is current as of 02-10-16 - CMC</p>
+
+<p>For experimental regression testing on Mac, see
+<a href="https://delph-in.github.io/docs/matrix/MatrixRegressionTestingSetupMac">MatrixRegressionTestingSetupMac</a></p>
+
+<h2 id="setting-up-a-virtualbox-virtual-machine">Setting up a VirtualBox virtual machine</h2>
+
+<p>This section describes setting up a VirtualBox virtual machine to run
+the regression tests. Much of it is also applicable to running Ubuntu
+natively.</p>
+
+<p>1) Install <a href="https://www.virtualbox.org">VirtualBox</a></p>
+
+<p>2) Download a 64 bit version of Ubuntu 12.04+ (12.04 and 14.04 are good
+choices, downloadable <a href="http://releases.ubuntu.com">here</a>; or you can try
+the latest version <a href="http://www.ubuntu.com/download/desktop">here</a>, in
+which case make sure to update your <a href="/VirtualBox">VirtualBox</a> as well.)</p>
+
+<p>3) Create an Ubuntu VirtualBox machine. Give it as much memory as you
+can, and you’ll need ~20GB of storage space to get the right software
+and run the regression tests. Once you have it ready, it is also
+advisable to increase the GPU RAM available to the VM (usually you can
+max this out). (<a href="http://www.wikihow.com/Install-Ubuntu-on-VirtualBox">Windows
+instructions</a>, <a href="http://www.tuaw.com/2013/09/06/running-linux-on-your-mac-2013-edition">Mac
+instructions</a>)</p>
+
+<p>4) Install the VirtualBox Guest Additions:
+(<a href="https://help.ubuntu.com/community/VirtualBox/GuestAdditions">https://help.ubuntu.com/community/VirtualBox/GuestAdditions</a>)</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo apt-get update
+sudo apt-get install virtualbox-guest-x11 # This may not work anymore. Try using a different method in the above link.
+</code></pre></div></div>
+
+<p>5) Restart you Virtual Machine.</p>
+
+<p>6) Get necessary additions for the LOGON tree (including 32-bit
+compatibility modules). (libpng12-0 can be downloaded here:
+<a href="https://packages.ubuntu.com/xenial/i386/libpng12-0/download">https://packages.ubuntu.com/xenial/i386/libpng12-0/download</a>):</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo dpkg --add-architecture i386
+sudo apt-get update
+sudo apt-get install libjpeg62 libx11-6:i386 libxext6:i386 libfontconfig1:i386
+sudo apt-get install libxpm4 libxt6 libxmu6 libxft2 libjpeg62 libpng12-0 # This may not work anymore. Try downloading and installing libpng12-0 from the above link.
+sudo apt-get install subversion
+sudo apt-get install emacs
+sudo apt-get install gcc
+</code></pre></div></div>
+
+<p>7) Note: before performing the following step, open emacs normally (not
+with sudo). If the first time emacs is opened is with sudo, it does not
+work normally for the normal user. After you’ve opened emacs normally,
+you can open it with sudo and perform the next step.</p>
+
+<p>A bug in the current system causes regression tests to fail when running
+a certain number of tests consecutively, about 260. To avoid this bug,
+the user limit can be increased to allow for more files to be open at
+the same time. In Ubuntu, the limit can be changed by appending the
+following to this file: /etc/security/limits.conf</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>* soft nofile 40000
+* hard nofile 40000
+</code></pre></div></div>
+
+<p>Logout and login to initiate this change.</p>
+
+<p>8) Download the LOGON tree (typically into ~/delphin/):</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cd ~/delphin/
+svn checkout http://svn.emmtee.net/trunk logon
+</code></pre></div></div>
+
+<p>9) Download <a href="http://sweaglesw.org/linguistics/ace/">ACE</a>
+(<a href="https://delph-in.github.io/docs/tools/AceTop">AceTop</a>)</p>
+
+<p>10) Download the matrix:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cd ~/delphin/
+svn co svn://lemur.ling.washington.edu/shared/matrix/(trunk|branches/my_branch)
+</code></pre></div></div>
+
+<p>11) Set the proper variables in ~/.bashrc (Make sure to customize the
+variable values to the location where these packages are actually stored
+on your system, and the proper branch if applicable) (also, make sure to
+reload your ~/.bashrc by either logging out/in, restarting your
+terminal, or source ~/.bashrc:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>export ACEROOT=~/delphin/ace/ # directory containing ACE binary
+export DELPHINHOME=~/delphin # installation location for DELPHIN stuff
+export LUI=yzlui # Set yzlui to be the default LUI for the LKB
+# include LOGON-specific settings
+export LOGONROOT=~/delphin/logon # installation location for LOGON
+if [ -f ${LOGONROOT}/dot.bashrc ]; then
+    . ${LOGONROOT}/dot.bashrc
+fi
+# Add ACE to PATH # Not necessary, but nice
+export PATH=$PATH:$ACEROOT
+</code></pre></div></div>
+
+<p>12) reload .bashrc, using either source ~/.bashrc, quitting and
+re-opening the terminal, or logging out and back in.</p>
+
+<p>13) Add the following to ~/.emacs to configure emacs:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>;;; include LOGON-specific settings
+(if (getenv "LOGONROOT")
+  (let ((logon (substitute-in-file-name "$LOGONROOT")))
+   (if (file-exists-p (format "%s/dot.emacs" logon))
+    (load (format "%s/dot.emacs" logon) nil t t))))
+</code></pre></div></div>
+
+<p>14) Download the latest ISO table from SIL to your Grammar Matrix root
+directory (e.g. ~/delphin/matrix/trunk/ )</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget http://www-01.sil.org/iso639-3/iso-639-3_20120206.tab -O iso.tab
+</code></pre></div></div>
+
+<p>15) You should now be able to run the regression tests
+(<a href="https://delph-in.github.io/docs/matrix/MatrixRegressionTesting">MatrixRegressionTesting</a>):</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cd ~/delphin/matrix/trunk/
+python matrix.py r
+</code></pre></div></div>
+
+<p>By default, this will run the regression tests using the customization
+system under the current directory (~/delphin/matrix/trunk/gmcs in this
+example). You can also override the default to use a different
+customization system installation, either by using the -C argument (e.g.
+python matrix.py -C gmcs/ r) or by setting the CUSTOMIZATIONROOT
+environment variable.</p>
+
+<p>Last update: 2019-10-17 by KristenHowell [<a href="https://github.com/delph-in/docs/wiki/MatrixRegressionTestingSetup/_edit">edit</a>]</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+<!--Scroll the navbar to the current page-->
+<script type="text/javascript">
+  let el = document.querySelector('.nav__list .active');
+  if(el){
+    el.scrollIntoView({block: "center", inline: "start"});
+  }
+</script>
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/docs/matrix/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/docs/matrix/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/docs/matrix/assets/js/lunr/lunr.min.js"></script>
+<script src="/docs/matrix/assets/js/lunr/lunr-store.js"></script>
+<script src="/docs/matrix/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

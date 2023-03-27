@@ -1,0 +1,729 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>DELPH-IN ERG</title>
+<meta name="description" content="An amazing website.">
+
+
+  <meta name="author" content="Your Name">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="DELPH-IN ERG">
+<meta property="og:title" content="DELPH-IN ERG">
+<meta property="og:url" content="https://delph-in.github.io/docs/erg/ErgSemantics_Design/">
+
+
+  <meta property="og:description" content="An amazing website.">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://delph-in.github.io/docs/erg/ErgSemantics_Design/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Your Name",
+      "url": "https://delph-in.github.io/docs/erg/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/docs/erg/feed.xml" type="application/atom+xml" rel="alternate" title="DELPH-IN ERG Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/docs/erg/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--delphin_page wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/docs/erg/"><img src="/docs/erg/assets/images/Delph-In.png" alt="DELPH-IN ERG"></a>
+        
+        <a class="site-title" href="/docs/erg/">
+          DELPH-IN ERG
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/home/Home">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/howto/DelphinWelcome">How-To</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/erg/ErgTop">ERG</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/tools/ToolsTop">Tools</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/grammars/GrammarsOverview">Grammars</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/matrix/MatrixDocsOverview">Matrix</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/summits/SummitTop">Summits</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/garage/GarageTop">Garage</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Overview</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/erg/ErgTop/">ERG Summary</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_HowToCite/">How to Cite This Work</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">ERG Usage</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/erg/ErgProcessing/">Overview</a></li>
+          
+            <li><a href="/docs/erg/QuickStart/">QuickStart</a></li>
+          
+            <li><a href="/docs/erg/ErgProcessing_SampleExport/">ERG Usage Sample Export</a></li>
+          
+            <li><a href="/docs/erg/AceErgTuning/">Tuning Ace for ERG</a></li>
+          
+            <li><a href="/docs/erg/ErgApi/">ERG REST API</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Erg Semantics</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/erg/ErgSemantics/">Semantics</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Essence/">Essence</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Basics/">Basics</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Design/" class="active">Design</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Conventions/">Conventions</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Interface/">Semantics Interface (SEM-I)</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Discovery/">Semantics Discovery</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Inventory</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/erg/ErgSemantics_Inventory/">Overview</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_OneAnaphora/">Anaphora</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Apposition/">Apposition</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Comparatives/">Comparatives</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Compounding/">Compounding</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Conditionals/">Conditionals</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_ControlRelations/">Control Relations</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Coordination/">Coordination</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Ellipsis/">Ellipsis</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_ForeignExpressions/">Foreign Expressions</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Fragments/">Fragments</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_IdentityCopulae/">Identity Copulae</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Imperatives/">Imperatives</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_ImplicitLocatives/">Implicit Locatives</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_ImplicitNominals/">Implicit Nominals</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_ImplicitQuantifiers/">Implicit Quantifiers</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_InstrumentalRelatives/">Instrumental Relatives</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_MeasurePhrases/">Measure Phrases</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Nominalization/">Nominalization</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_NonAdverbialClausalModifiers/">Non-Adverbial Clausal Modifiers</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_NumberSequences/">Number Sequences</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Parentheticals/">Parentheticals</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Partitives/">Partitives</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_PropositionalArguments/">Propositional Arguments</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Quantification/">Quantification</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_QuasiModalInfinitivals/">Quasi-Modal Infinitivals</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_RelationalNouns/">Relational Nouns</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_RelativeClauses/">Relative Clauses</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_TimeExpressions/">Time Expressions</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Vocatives/">Vocatives</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Raw_Materials/">Raw Materials</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">ERG Grammar</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/erg/ErgLeTypes/">LE Types</a></li>
+          
+            <li><a href="/docs/erg/ErgRules/">Rules</a></li>
+          
+            <li><a href="/docs/erg/ErgTokenization/">Tokenization</a></li>
+          
+            <li><a href="/docs/erg/ErgTokenization_ComplexExample/">Tokenization Complex Example</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">ERG Treebanking</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/erg/ErgTreebanking/">Overview</a></li>
+          
+            <li><a href="/docs/erg/ErgTreebankingGuidelines/">Guidelines</a></li>
+          
+            <li><a href="/docs/erg/ErgTreebankingRules/">Treebanking Rules</a></li>
+          
+            <li><a href="/docs/erg/ErgTreebankingBridges/">Bridges</a></li>
+          
+            <li><a href="/docs/erg/CapitolHillTreebank/">Discussion</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Discussions</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/erg/SaarlandSententialArgument/">Saarland Sentential Argument</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <h1 id="background">Background</h1>
+
+<h1 id="linguistic-design-principles">Linguistic Design Principles</h1>
+
+<p>Design principles for DELPH-IN/MRS semantic representations identified
+during the Hankø meeting:</p>
+
+<ul>
+  <li>Interface representation should include all information that is
+constrained by the grammar</li>
+  <li>Interface representation should be highly normalized, abstracting
+away from details of surface syntax</li>
+  <li>Close paraphrases should lead to comparable or identical structures
+in the interface representation
+    <ul>
+      <li>Ex: Predicative copula does not contribute an EP (The fierce dog
+barks ~ The dog that is fierce barks)</li>
+      <li>Ex: Dative alternation, passive (modulo discourse rel)</li>
+    </ul>
+  </li>
+  <li>Minimize ambiguity
+    <ul>
+      <li>Corollary: Differentiate lexical predicates only if that
+distinction corresponds to morphosyntactic differences</li>
+    </ul>
+  </li>
+  <li>Decomposition is desirable, but not a goal in itself. If the
+predicates required for decomposition exist, then it is good.</li>
+</ul>
+
+<p>cf. Copestake et al 2005 and “Slacker Semantics” (Copestake 2009)</p>
+
+<p><a name="intrinsic_arguments"></a></p>
+
+<h1 id="intrinsic-arguments-on-adjectives-and-adverbs">Intrinsic Arguments on Adjectives and Adverbs</h1>
+
+<p>While the assumption of an intrinsic argument should be
+non-controversial for the predications associated with verbal and
+nominal phrases, more explanation is in order for extending this
+assumption to the predications introduced by adjectives and even
+adverbs.</p>
+
+<p>One design decision for the ERG is that the same predicative copula <em>be</em>
+is used both for present participles as in <em>the cat is sleeping</em> and for
+predicative adjectives as in <em>the cat is happy</em>. Since we only want one
+EP for the verb phrase <em>is sleeping</em>, the copula <em>be</em> does not introduce
+an EP of its own, but rather constrains variable properties (tense and
+aspect) of the semantics introduced by its verbal complement. Hence
+predicative adjectives need to supply the eventuality that the copula
+will so constrain, and this variable is unsurprisingly the intrinsic
+argument of the EP introduced by the adjective.</p>
+
+<p>A second design decision is that the same lexical entry is used both for
+predicative and attributive uses of adjectives, rather than either
+making distinct lexical entry pairs for most adjectives, or deriving the
+predicative entry from the attributive one via lexical rule. As a
+consequence, the EP introduced by this lexical entry has an intrinsic
+argument present even when the entry is used as an attributive
+adjective, where nothing else in the structure will constrain its
+variable properties. The grammar makes use of this ARG0 when the
+adjective itself is modified by a non-scopal word or phrase, as in
+<em>extremely happy</em>, with <em>extremely</em> introducing an EP which takes the
+ARG0 of the adjective it modifies as its ARG1. Without an intrinsic
+argument present in the EPs of attributive adjectives, all modifiers of
+adjectives would have to be treated as scopal, but this would create an
+unwanted asymmetry for <em>consistently won</em> and <em>consistently happy</em>,
+where we expect manner adverbs to be non-scopal modifiers of verbs.</p>
+
+<p>A third design decision is that morphologically related adjective-adverb
+pairs introduce the same EP, with the syntactic category difference
+reflected in the semantics only in that the ARG1 of this predication
+will turn out to be an instance for adjectives but an eventuality for
+adverbs. Given the prior design decisions, even adverbs therefore have
+an intrinsic eventuality argument in their EPs, and this ARG0 is again
+employed by the ERG in composing the semantics of adverbial phrases
+containing a non-scopal modifier of the adverb, as in <em>consistently
+victoriously</em>. Here again, if <em>victoriously</em> lacked an intrinsic
+argument, then <em>consistently</em> would have to be treated as a scopal
+modifier taking the label of <em>victoriously</em> as its argument, leading to
+a similarly undesirable asymmetry between <em>consistently won</em> and
+<em>consistently victoriously</em>, assuming that the adverb modifying the verb
+here is non-scopal.</p>
+
+<p>The presence of these intrinsic arguments in the predications for
+adverbs and attribute adjectives is thus motivated by the desires to
+minimize proliferation of lexical entries, to capture the morphological
+regularity of most adjective-adverb pairs in English, and to enable a
+consistent representation of non-scopal modifiers when they themselves
+modify modifiers.</p>
+
+<h1 id="predicate-hierarchies">Predicate Hierarchies</h1>
+
+<h1 id="non-scopal-modification">Non-Scopal Modification</h1>
+
+<p>The term ‘non-scopal modifiers’ includes all those which combine with
+their modifiee in such a way that quantifiers cannot take scope in
+between. This is a very broad phenomenon, including both modifiers of
+EPs with instance-type ARG0s and of EPs with event-type ARG0s. Among
+nominal (instance-type) non-scopal modifiers, we find that the semantic
+category includes subtypes that are syntactically quite distinct, viz.,
+relative clauses (which involve a long-distance dependency) on the one
+hand, and non-relative clause modifiers (adjectives, PPs, etc.) on the
+other.</p>
+
+<p>The key property of non-scopal modification is the sharing of labels
+between the modifier and modifiee. This in turn means that the two EPs
+will necessarily occupy the same node in the scope tree, and
+differentiates non-scopal modification from other predicate-argument
+relations. However, label sharing between two predications is not a
+sufficient condition to determine non-scopal modification: although it
+is rare in current ERG analyses, it is possible for a predicate to take
+a non-scopal, unquantified argument, as is the case, for example, in the
+1214 analysis of a complex temporal expression like <em>[at] four
+thirty</em>:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  h:numbered_hour(4)[ARG0 x, ARG1 i]
+  h:card(30)[ARG0 i]
+</code></pre></div></div>
+
+<p>A similar configuration would arise if nominal arguments like pronouns
+or proper names were analyzed as unquantified (and the rules of MRS
+composition mandate the label sharing between the semantic head and its
+argument in such cases).</p>
+
+<p>The shared scopal position (of non-scopal modifiers as well as
+non-scopal, unquantified arguments) is illustrated by the contrast
+between the following examples:</p>
+
+<ul>
+  <li>All white cats are deaf.</li>
+  <li>All deaf cats are white.</li>
+</ul>
+
+<p>Though the ARG0 of _cat_n_1 is the ARG1 of both _deaf_a_1 and
+_white_a_1 in both of these examples, they do not mean the same
+thing. This, in turn, is because the modifier, but not the predicate,
+shares its label with _cat_n_1 and thus ends up in the same place in
+the scope tree (inside the restriction of the quantifier, as opposed to
+its body). A similar contrast can be built with relative clauses:</p>
+
+<ul>
+  <li>All cats that are white are deaf.</li>
+  <li>All cats that are deaf are white.</li>
+</ul>
+
+<p>The shared scopal position between non-scopal modifiers and modified
+verbs can be observed with respect to quantifier scope. A modifier like
+<em>loudly</em> does not provide any additional slots for quantifiers to scope
+into, such that the following example is unambiguous:</p>
+
+<ul>
+  <li>Every dog barked loudly.</li>
+</ul>
+
+<p>This contrasts with scopal modifiers, which do interact with
+quantifiers, giving two readings in cases such as:</p>
+
+<ul>
+  <li>Every dog probably barked.</li>
+</ul>
+
+<p>Non-scopal modification is not a semantic phenomenon in the practical
+sense that we use in this documentation, i.e. there is no set of
+semantic fingerprints that uniquely picks out sentences with this
+property. Rather, non-scopal modification is a property of several
+phenomena discussed in this documentation, including at least:</p>
+
+<ul>
+  <li><a href="https://delph-in.github.io/docs/erg/ErgSemantics_Apposition">Apposition</a> (pending reanalysis in terms
+of ICONS)</li>
+  <li><a href="https://delph-in.github.io/docs/erg/ErgSemantics_Compounding">Compounding</a>: ‘compound’,
+‘compound_name’, including titles and N-ed (J-N_CRD-T_C cuts
+across compounding and coordination)</li>
+  <li><a href="https://delph-in.github.io/docs/erg/ErgSemantics_ImplicitLocatives">Implicit Locatives</a>: (‘today’,
+‘every time he arrives’): ‘loc_nonsp’</li>
+  <li><a href="https://delph-in.github.io/docs/erg/ErgSemantics_InstrumentalRelatives">Instrumental
+Relatives</a>: ‘with_p_rel’</li>
+  <li>Extraposed relative clauses (create page for these?)</li>
+</ul>
+
+<p>Some previous descriptions of ERS have used the term ‘intersective
+modifiers’ for this phenomenon, but here we prefer ‘non-scopal
+modifiers’ since we give the same treatment in ERS to intersective,
+subsective and privative adjectives (Kamp &amp; Partee 1993). At the level
+of MRS representations, we argue that it is appropriate to treat these
+equivalently, as they all share the property of disallowing intervening
+quantifiers.</p>
+
+<p>There is a semantic distinction within non-scopal modifiers that
+cross-cuts the relative clause/other modifier distinction, namely,
+whether or not the head being modified plays a role in the predication
+sharing its label. For example in <em>The dog Abrams bought barked</em>,
+_buy_v_1 shares its label with _dog_n_1 and the ARG0 of
+_dog_n_1 is also the ARG2 of _buy_v_1. However, in <em>The dog Kim
+told Abrams to buy barked</em>, _dog_n_1, despite sharing its label with
+_tell_v_1 has no role to play in that predication. For non-relative
+clause modifiers of nouns, we find an analogous case with the so-called
+<em>tough</em> adjectives, as in <em>Abrams is an easy editor to impress</em>, where
+_easy_a_for shares a label with _editor_n_1 but does not take its
+ARG0 as an argument.</p>
+
+<p>Note, too, that certain elements can be syntactic complements but
+semantic modifiers. This happens, for example, in the analysis of
+adverbial-complement taking verbs such as (certain senses of) <em>behave</em>,
+<em>do</em> and <em>go</em>, as well as verbs of motion taking directional
+complements:</p>
+
+<ul>
+  <li>Kim behaved badly.</li>
+  <li>Kim did well.</li>
+  <li>It went well.</li>
+  <li>Kim walked to the store.</li>
+</ul>
+
+<p>Similarly, degree specifiers such as <em>very</em> in <em>Kim is very happy</em> are
+syntactically combined as specifiers (not modifiers) but appear in the
+ERS as non-scopal modifiers.</p>
+
+<h1 id="references">References</h1>
+
+<ul>
+  <li>Kamp, H., &amp; Partee, B. (1995). Prototype theory and
+compositionality. Cognition, 57(2), 129-191.</li>
+</ul>
+
+<p>Last update: 2021-06-04 by Olga Zamaraeva [<a href="https://github.com/delph-in/docs/wiki/ErgSemantics_Design/_edit">edit</a>]</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+<!--Scroll the navbar to the current page-->
+<script type="text/javascript">
+  let el = document.querySelector('.nav__list .active');
+  if(el){
+    el.scrollIntoView({block: "center", inline: "start"});
+  }
+</script>
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/docs/erg/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/docs/erg/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/docs/erg/assets/js/lunr/lunr.min.js"></script>
+<script src="/docs/erg/assets/js/lunr/lunr-store.js"></script>
+<script src="/docs/erg/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

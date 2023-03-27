@@ -1,0 +1,1063 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>DELPH-IN Grammar Matrix</title>
+<meta name="description" content="An amazing website.">
+
+
+  <meta name="author" content="Your Name">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="DELPH-IN Grammar Matrix">
+<meta property="og:title" content="DELPH-IN Grammar Matrix">
+<meta property="og:url" content="https://delph-in.github.io/docs/matrix/MatrixDoc_TenseAspectMood/">
+
+
+  <meta property="og:description" content="An amazing website.">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://delph-in.github.io/docs/matrix/MatrixDoc_TenseAspectMood/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Your Name",
+      "url": "https://delph-in.github.io/docs/matrix/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/docs/matrix/feed.xml" type="application/atom+xml" rel="alternate" title="DELPH-IN Grammar Matrix Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/docs/matrix/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--delphin_page wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/docs/matrix/"><img src="/docs/matrix/assets/images/Delph-In.png" alt="DELPH-IN Grammar Matrix"></a>
+        
+        <a class="site-title" href="/docs/matrix/">
+          DELPH-IN Grammar Matrix
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/home/Home">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/howto/DelphinWelcome">How-To</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/erg/ErgTop">ERG</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/tools/ToolsTop">Tools</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/grammars/GrammarsOverview">Grammars</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/matrix/MatrixDocsOverview">Matrix</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/summits/SummitTop">Summits</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/garage/GarageTop">Garage</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammar Matrix Docs</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixDocsOverview/">Overview</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Overview and Tools</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixTop/">Overview</a></li>
+          
+            <li><a href="/docs/matrix/MatrixGettingStarted/">Getting Started</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDevTop/">Development Overview</a></li>
+          
+            <li><a href="/docs/matrix/Updating_the_Customization_System/">Customization System</a></li>
+          
+            <li><a href="/docs/matrix/MatrixCustomizationUnitTesting/">Customization Unit Testing</a></li>
+          
+            <li><a href="/docs/matrix/MatrixCustomizationWebTesting/">Customization Web Testing</a></li>
+          
+            <li><a href="/docs/matrix/MatrixRegressionTesting/">Regression Testing</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_TestSentences/">Test Sentences</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_TestByGeneration/">Test By Generation</a></li>
+          
+            <li><a href="/docs/matrix/MatrixWishList/">Wish List</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammar Engineering</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixDevBlueprints/">Dev Blueprints</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDevConventions/">Dev Conventions</a></li>
+          
+            <li><a href="/docs/matrix/GrammarDevelopment/">Grammar Development</a></li>
+          
+            <li><a href="/docs/matrix/MatrixLibraryDevelopment/">Library Development</a></li>
+          
+            <li><a href="/docs/matrix/MatrixLibraryWishList/">Library WishList</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMorphology/">Morphology</a></li>
+          
+            <li><a href="/docs/matrix/PythonIdioms/">Python Idioms</a></li>
+          
+            <li><a href="/docs/matrix/MatrixRegressionTestingSetup/">Regression Testing Setup</a></li>
+          
+            <li><a href="/docs/matrix/MatrixRegressionTestingSetupMac/">Regression Testing Setup (Mac)</a></li>
+          
+            <li><a href="/docs/matrix/MatrixTDBProcedures/">TDB Procedures</a></li>
+          
+            <li><a href="/docs/matrix/MatrixTDB2Tables/">TDB2 Tables</a></li>
+          
+            <li><a href="/docs/matrix/MatrixValidationDebugging/">Validation Debugging</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Matrix Doc</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixDocTop/">Overview</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_AdnominalPossession/">Adnominal Possession</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_ArgumentOptionality/">Argument Optionality</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Case/">Case</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_ClausalComplements/">Clausal Complements</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_ClausalModifiers/">Clausal Modifiers</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Coordination/">Coordination</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_DirectInverse/">Direct Inverse</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Evidentials/">Evidentials</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Gender/">Gender</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_GeneralInfo/">General Info</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_ImportToolboxLexicon/">Import Toolbox Lexicon</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_InformationStructure/">Information Structure</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Lexicon/">Lexicon</a></li>
+          
+            <li><a href="/docs/matrix/matrixdef_File_Syntax/">Matrixdef File Syntax</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Morphology/">Morphology</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_NominalizedClauses/">Nominalized Clauses</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Number/">Number</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_OtherFeatures/">Other Features</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Person/">Person</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_SententialNegation/">Sentential Negation</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_TenseAspectMood/" class="active">Tense/Aspect/Mood</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_WhQuestions/">Wh Questions</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_WordOrder/">Word Order</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_YesNoQ/">YesNoQ</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">FAQ</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/GrammarEngineeringFAQ/">Grammar Engineering FAQ</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqFeatureGeometry/">Feature Geometry FAQ</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqChartTwice/">Chart Twice</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqCircularLexRule/">Circular Lex Rule</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqClickX/">Click X</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqConfusingTypo/">Confusing Typo</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqCyclicCheck/">Cyclic Check</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqDiffList/">Diff List</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqDisjunctiveValue/">Disjunctive Value</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqDistributedDisjunction/">Distributed Disjunction</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqExpandMenu/">Expand Menu</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqExpandedType/">Expanded Type</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqFeatureMultiType/">Feature Multi-Type</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqFindTypeForFeatures/">Find Type For Features</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqForgottenConstraint/">Forgotten Constraint</a></li>
+          
+            <li><a href="/docs/matrix/GeFaq/">GeFaq</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqGotoChar/">Goto Char</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqGrammarDocumentation/">Grammar Documentation</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqInteractiveUnify/">Interactive Unify</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqLkbInstallation/">LKB Installation</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqLispPromptTips/">Lisp Prompt Tips</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqLoadScript/">Load Script</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqKeyboardNotWorking/">Keyboard Not Working</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqMissingEdge/">Missing Edge</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqMissingHowTo/">Missing How-To</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqMissingRels/">Missing Rels</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNegValue/">Neg Value</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNewFeature/">New Feature</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoEntry2/">No Entry 2</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoError/">No Error</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoPossibleType/">No Possible Type</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoRule/">No Rule</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoSign/">No Sign</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNonAlpha/">Non-Alpha</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqOverApplicationLexRule/">Over Application Lex Rule</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqOrderMatters/">Order Matters</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqPasteShortcut/">Paste Shortcut</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRightBracket/">Right Bracket</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRootFail/">Root Fail</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRuleWithoutDaughter/">Rule Without Daughter</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRuleWithoutDaughters/">Rule Without Daughters</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRunawayRule1/">Runaway Rule 1</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRunawayRule2/">Runaway Rule 2</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqShowChart/">Show Chart</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqSpanningEdge/">Spanning Edge</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqSwitchingGrammars/">Switching Grammars</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqTabIndentation/">Tab Indentation</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqTdlSyntax/">TDL Syntax</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqTdlTxt/">TDL TXT</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqTypeAddendum/">Type Addendum</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqUnicodeInput/">Unicode Input</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqUnifySurprise/">Unify Surprise</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqViewEntry/">View Entry</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqViewHierarchy/">View Hierarchy</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqViewType/">View Type</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">MRS Tests</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuite/">Overview</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteBg/">Bulgarian</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteCantonese/">Cantonese</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsCatb/">Cathedral Test</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteEn/">English</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteFr/">French</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteDe/">German</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteGr/">Greek</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteIndonesian/">Indonesian</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteJa/">Japanese</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteMandarin/">Mandarin</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteNo/">Norwegian</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuitePt/">Portuguese</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteRu/">Russian</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteSv/">Swedish</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteTatoeba/">Tatoeba</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteZhTw/">ZhTw</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <h1 id="documentation-for-the-grammar-matrix-customization-tense-aspect-and-mood-library">Documentation for the Grammar Matrix Customization Tense, Aspect and Mood Library</h1>
+
+<h1 id="introduction">Introduction</h1>
+
+<p>This document explains how to fill out the <a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=tense-aspect-mood">Tense, Aspect, and
+Mood</a>
+page of the Grammar Matrix Customization questionnaire and presents
+background information on the Tense, Aspect and Mood (TAM) library of
+the Grammar Matrix Customization System (Bender et al., 2002; Bender and
+Flickinger, 2005; Bender et al., 2010). General instructions on using
+the questionnaire can be found
+<a href="/MatrixDocTop#General_instructions_on_how_to_use_the_questionnaire">here</a>.</p>
+
+<h1 id="citing-the-tense-aspect-and-mood-library">Citing the Tense, Aspect, and Mood Library</h1>
+
+<p>The standard reference for the Tense, Aspect, and Mood Library and its
+implementations is <a href="http://depts.washington.edu/uwwpl/vol28/poulson_2011.pdf">Poulson
+2011</a>. The
+full reference and .bib entry can be found
+<a href="/MatrixDoc/TenseAspectMood#References">here</a>.</p>
+
+<h1 id="options">Options</h1>
+
+<p>The <a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=tense-aspect-mood">Tense, Aspect, and
+Mood</a>
+page allows you to specify a range of values for each of these features
+in your language either by choosing pre-existing values or creating your
+own values. This page is divided into two sections: <strong>(1). Semantic
+Features</strong> (semantic features of Tense/Aspect/Mood) and <strong>(2). Syntactic
+Feature</strong> (verb forms if your grammar contains auxiliary verbs).</p>
+
+<p>The Tense, Aspect, and Mood library allows you to specify the range of
+values for the features [TENSE tense], [ASPECT aspect], [SITUATION
+situation] , [MOOD mood], and [FORM form] that will be available
+elsewhere in the customization system and in the resulting grammar (see
+more on that in the <a href="/MatrixDoc/TenseAspectMood#Analyses">Analyses</a>
+section below). The values you define for TENSE, ASPECT, SITUATION,
+MOOD, and FORM on this page will determine the values available on the
+<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=lexicon">Lexicon</a>
+and
+<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=morphology">Morphology</a>
+pages. <strong>Note</strong> that feature values defined on the lexicon and
+morphology libraries may affect the hierarchy of Tense, Aspect, and
+Mood. Underspecifications in the lexicon or morphosyntax will
+automatically be integrated in the hierarchy of Tense, Aspect, and Mood:
+you do not need to define these explicitly on the <a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=tense-aspect-mood">Tense, Aspect, and
+Mood</a>
+page.</p>
+
+<h2 id="semantic-features">Semantic Features</h2>
+
+<p>This section describes <strong>semantic</strong> features of Tense, Aspect, and Mood.
+For both TENSE and ASPECT features, user can select among common values
+and/or define additional ones. MOOD values are purely user-defined.</p>
+
+<p>1. <strong>Tense</strong></p>
+
+<p>In this section please define TENSE values and their subtypes (if
+applicable) for your language. You can either choose from TENSE values
+pre-defined for you by the Matrix Customization system or you can create
+your own TENSE values.</p>
+
+<p>You are provided with the pre-defined TENSE values, which cover the most
+common tense hierarchies across the languages. If these pre-defined
+values provided below are sufficient to describe the tense system in
+your language, please choose “Select among common hierarchy elements”
+option and select from the values below as applicable to your language.
+For each option you select, please add a subtype if applicable.</p>
+
+<ul>
+  <li>
+    <p>1). <strong>present</strong></p>
+
+    <p>2). <strong>past</strong></p>
+
+    <p>3). <strong>future</strong></p>
+
+    <p>4). <strong>nonpast</strong> (note: If present and/or future are also selected
+they are assumed to be subtypes of nonpast.)</p>
+
+    <p>5). <strong>nonfuture</strong> (note: If present and/or past are also selected
+they are assumed to be subtypes of nonfuture.)</p>
+  </li>
+</ul>
+
+<p>If the pre-defined tense values provided above are not sufficient to
+describe the tense hierarchy in your language, you can build your own
+tense hierarchy. If your language requires a deeper tense hierarchy,
+please choose the option “Build your own TENSE hierarchy” on the bottom
+of TENSE section and enter all tense types and their supertypes existing
+in your language. If you choose to build your own tense hierarchy, the
+number of values that you can enter for tense types and their subtypes
+is unlimited.</p>
+
+<p><strong>Motivation for build your own hierarchy</strong></p>
+
+<p>This option is especially useful for the languages with deeper tense
+hierarchies, such as Amerindian language Kiksht. Kiksht tense system is
+divided into non-past and past, with the past tense being subdivided
+into remote (further subdivided into early-remote and late-remote
+tenses), far (further subdivided into early-far and late-far tenses),
+middle, and near tenses (Comrie 1985). Clearly, languages like Kiksht
+with deep tense hierarchies require a user to build a more elaborate
+tense hierarchy than the one already provided by Matrix customization
+system.</p>
+
+<p>2. <strong>Aspect</strong></p>
+
+<p>In this section please define ASPECT values existing in your language.
+As with tense, you can either choose from the aspect values pre-defined
+for you by the Matrix Customization system or you can create your own
+aspect hierarchy. This section is divided into two parts: <strong>Viewpoint
+aspect</strong> and <strong>Situation aspect</strong>.</p>
+
+<ul>
+  <li>
+    <p>(1). <strong>Viewpoint aspect</strong></p>
+
+    <p>Viewpoint aspect (or ‘grammatical aspect’) describes the situation
+from a particular viewpoint, dividing it into endpoints and stages
+(Smith 1991, 1997). It is usually marked by verbal inflection or by
+presence of auxiliary with complement. The most common viewpoint
+aspect values are <strong>perfective</strong> (a view including two endpoints)
+and <strong>imperfective</strong> (a view not including endpoints). If your
+language only has these two aspect values, they are covered by the
+pre-defined option provided by Matrix Customization system. In this
+case please select the “Create a hierarchy consisting of just the
+values <strong>perfective</strong> and <strong>imperfective</strong> as subtypes of aspect”
+option.</p>
+
+    <p>If your language uses other and/or additional aspect subcategories
+(for example, <em>post-inchoative</em>, <em>semi-perfective</em>, etc.), you can
+build you own aspect hierarchy by adding aspect names and their
+supertypes using provided drop-down menu under “Add an aspect type”
+option.</p>
+
+    <p>If your language does not have a viewpoint aspect, please skip this
+section entirely and move to the next section <strong>Situation
+aspect</strong>.</p>
+
+    <p>(2). <strong>Situation aspect</strong></p>
+
+    <p>Situation aspect (also referred to as ‘lexical aspect’, ‘inner
+aspect’, ‘inherent aspect’ or sometimes ‘Aktionsart’) describes the
+type of situation, particularly in terms of its temporal properties.
+The most common subcategories of situation aspect are: <strong>States</strong>,
+<strong>Activities</strong>, <strong>Achievements</strong> and <strong>Accomplishments</strong> (Vendler
+1957). Situation aspect can be expressed through the meaning of the
+verb (its inherent lexical quality) or by presence of overt
+morphological markers, both of which are implemented in Grammar
+Matrix Customization system. However, the customization system
+currently does not cover compositionally derived situation aspect,
+i.e. marked by other elements (e.g. on qualities of verbal arguments
+or sentential adjuncts).</p>
+
+    <p>Unlike the sections for tense and viewpoint aspect, there are no
+pre-defined values for situation aspect in the questionnaire. So, if
+situation aspect exists in your language, please build your own
+situation aspect hierarchy by adding situation aspect values for the
+feature [SITUATION situation], as well as their supertypes using
+the drop-down menu in this section.</p>
+
+    <p>If situation aspect does not exist in your language, please skip
+this section entirely and move to the next section <strong>Mood</strong>.</p>
+
+    <p>For more information about Grammar Matrix coverage of situation
+aspect and its current limitations please refer to <a href="/MatrixDoc/TenseAspectMood#Upcoming_Work">Upcoming
+Work</a> section below.</p>
+  </li>
+</ul>
+
+<p>3. <strong>Mood</strong></p>
+
+<p>This section is designed to help you define the Mood and Modality system
+in general as applicable to your language. Modality roughly describes
+the opinions or attitudes of the speaker, with most common values being
+<strong>Subjunctive</strong> and <strong>Indicative</strong>. If your language has only these two
+subcategories of mood, please choose the pre-defined MOOD values
+available in Matrix Customization system by checking the “Create a
+hierarchy consisting of just the values <strong>subjunctive</strong> and
+<strong>indicative</strong> as subtypes of mood” option.</p>
+
+<p>Otherwise, you can either skip this section entirely or build your own
+Mood hierarchy by adding mood types and their supertypes as applicable
+to your language. <strong>Please note that if you choose the option of
+building your own Mood hierarchy, this will override the pre-defined
+values binary Subjunctive/Indicative option above.</strong></p>
+
+<p>4.<strong>Additional features</strong></p>
+
+<p>If you need to define additional features for Tense, Aspect, and Mood in
+your language, such as for the arbitrary or quasi-semantic verb classes,
+e.g. French verbs in terms of their auxiliary selection (for more
+information about these verb classes please refer to Section 5.4 in
+<a href="http://depts.washington.edu/uwwpl/vol28/poulson_2011.pdf">Poulson
+2011</a>), you
+can define these features on the <a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=other-features">Other
+Features</a>
+questionnaire page.</p>
+
+<h2 id="syntactic-feature">Syntactic Feature</h2>
+
+<p>The only syntactic feature this section deals with is the verb form,
+distinguishing <strong>finite verbs</strong> from <strong>nonfinite verbs</strong>. The main
+difference between these two verb forms is that finite verbs can head
+stand-alone clauses, while nonfinite verb forms cannot.</p>
+
+<p>If you have indicated on the <a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=word-order">Word
+Order</a>
+questionnaire page that your language contains auxiliaries, your starter
+grammar will have finite and nonfinite values of FORM by default.</p>
+
+<p>If your language does not use auxiliary verbs, but makes a syntactic
+distinction between finite and nonfinite verbs, please check the
+corresponding option: “My language has no auxiliaries but does make a
+syntactically relevant finite/non-finite distinction.”</p>
+
+<p>Often languages have subtypes of nonfinite verbs. For example, English
+has Infinitive, Past Participle, and Present participle as subtypes of
+nonfinite verbs. If applicable to your language, please add the subtypes
+of finite and/or nonfinite verbs.</p>
+
+<p>If your language does not make any syntactic distinction between finite
+and nonfinite verbs, you can skip this section entirely and move to the
+next page <a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=other-features">Other
+Features</a>.</p>
+
+<p>If you need to define additional syntactic features, you can define
+these features on the <a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=other-features">Other
+Features</a>
+questionnaire page.</p>
+
+<p>For more information on how to use the questionnaire to define values
+for Tense, Aspect, and Mood in your language, please refer to the
+<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=tense-aspect-mood">Tense, Aspect, and
+Mood</a>
+page in Matrix Customization.</p>
+
+<p>For more information on the implementation of Tense, Aspect, and Mood
+features in Grammar Matrix please refer to the Section
+<a href="/MatrixDoc/TenseAspectMood#Analyses">Analyses</a>.</p>
+
+<h1 id="motivation">Motivation</h1>
+
+<p>Unlike some well-understood grammatical phenomena that can be covered by
+pre-defined analyses in Matrix libraries, Tense, Aspect, and Mood are
+more complicated phenomena with varying terminology and
+values/hierarchies that vary tremendously from language to language. A
+library with pre-defined analyses is not sufficient for such a
+complicated grammatical phenomenon. To allow user to have more
+flexibility for coverage of Tense, Aspect and Mood, Matrix Customization
+system uses a meta-modeling approach, enabling the user to define
+tense/aspect/mood values themselves instead of relying on a library with
+limited pre-defined analyses. For more information on the meta-modeling
+approach and its use in Matrix Customization system please refer to
+Section 4.1 of <a href="http://depts.washington.edu/uwwpl/vol28/poulson_2011.pdf">Poulson
+2011</a>.</p>
+
+<h1 id="analyses">Analyses</h1>
+
+<p>When you define tense, aspect, and mood hierarchies, your starter
+grammar will include the features [TENSE tense], [ASPECT aspect],
+[SITUATION situation], and [MOOD mood], with values based on the
+choices you make on the <a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=tense-aspect-mood">Tense, Aspect, and
+Mood</a>
+customization page. TENSE, ASPECT, SITUATION, and MOOD are features of
+semantic INDEX. On the other hand, FORM is a feature of syntactic HEAD
+and can be used to constrain auxiliary complement forms. Below are
+snippets of code related to Tense, Aspect, and Mood (TAM) in matrix.tdl
+and in the your_language_name.tdl files (given no additional
+information comes from the lexicon and morphology libraries).</p>
+
+<p>Code from matrix.tdl file:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>tense := sort.
+aspect := sort.
+mood := sort.
+
+tam := avm &amp;
+  [ TENSE tense,
+    ASPECT aspect,
+    MOOD mood ]. 
+</code></pre></div></div>
+
+<p>Below is an example of what the relevant code would look like in
+your_language_name.tdl file, if you were working on a language that
+contains only <em>perfective</em> and <em>imperfective</em> viewpoint aspects, covered
+by pre-defined option in Matrix Customization system:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>perfective := aspect.
+imperfective := aspect.
+</code></pre></div></div>
+
+<p>Below is an example of what the relevant code would look like in
+your_language_name.tdl file, if you were working on a language that
+has a deeper hierarchy system, with the <em>imperfective</em> aspect further
+subdivided into <em>habitual</em> and <em>continuous</em> aspects, with <em>continuous</em>
+aspect further subdivided into <em>nonprogressive</em> and <em>progressive</em>
+aspects, in which case you would have to build your own viewpoint aspect
+hierarchy:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>perfective := aspect.
+imperfective := aspect.
+habitual := imperfective.
+continuous := imperfective.
+nonprogresssive := continuous.
+progressive := continuous.
+</code></pre></div></div>
+
+<p>The choices you make on the <a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=tense-aspect-mood">Tense, Aspect, and
+Mood</a>
+customization page will also affect the lexical types
+(your_language_name.tdl file), lexical rules (lrules.tdl file), and
+inflectional rules (irules.tdl file).</p>
+
+<p><strong>Note</strong> that feature values defined on the lexicon and morphology
+libraries may affect the hierarchies of Tense, Aspect, and Mood.
+Underspecifications in the lexicon or morphosyntax will automatically be
+integrated in the hierarchies of Tense, Aspect, and Mood: you do not
+need to define these explicitly on the <a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=tense-aspect-mood">Tense, Aspect, and
+Mood</a>
+page.</p>
+
+<h1 id="upcoming-work">Upcoming Work</h1>
+
+<p>The main direction of the future work in the Tense, Aspect, and Mood
+implementation in the Matrix Customization system is to extend the
+overall meta-modeling coverage. Although quite flexible, the
+meta-modeling approach currently cannot accommodate all analyses. In
+particular, the process of defining lexical types and type hierarchies
+needs more flexibility, both in terms of expanding the questionnaire and
+coverage of grammatical phenomena.</p>
+
+<p>For example, as noted in the situation aspect section of the
+questionnaire, the coverage of situation aspect needs to be expanded. At
+present, the coverage of situation aspect in the Matrix customization
+system is limited only to the aspect expressed by inherent lexical
+qualities or overt morphological marking. More work is required in order
+to implement the compositionally derived situation aspect in the Matrix
+Customization system, which is not covered yet. Another possible
+enhancement of the situation aspect section is to provide a user with
+the pre-defined hierarchy of situation aspect features (such as
+<em>dynamic</em>, <em>durative</em>, and <em>telic</em>). These and other enhancements to the
+Tense, Aspect, and Mood section will help provide more flexibility and
+more coverage across languages.</p>
+
+<p>For a more detailed discussion about future work on expanding the
+coverage of the Matrix Customization system please refer to Section 5.7
+in <a href="http://depts.washington.edu/uwwpl/vol28/poulson_2011.pdf">Poulson
+2011</a>.</p>
+
+<h1 id="references">References</h1>
+
+<p>Comrie, B. (1985). Tense. Cambridge [Cambridgeshire]; New York:
+Cambridge University Press.</p>
+
+<ul>
+  <li>
+    <p>bibtex:</p>
+
+    <p>@book{Comrie:1985,<br />
+author = {Bernard Comrie},<br />
+year = {1985},<br />
+title = {Tense},<br />
+publisher = {Cambridge [Cambridgeshire]; New York: Cambridge
+University Press}<br />
+}</p>
+  </li>
+</ul>
+
+<p>Poulson, L. (2011). <a href="http://depts.washington.edu/uwwpl/vol28/poulson_2011.pdf">Meta-modeling of Tense and Aspect in a
+Cross-linguistic Grammar Engineering
+Platform</a>. UW
+Working Papers in Linguistics, <em>28</em>.</p>
+
+<ul>
+  <li>
+    <p>bibtex:</p>
+
+    <p>@article{Poulson:11,<br />
+author = {Laurie Poulson},<br />
+year = {2011},<br />
+title = {Meta-modeling of Tense and Aspect in a Cross-linguistic
+Grammar Engineering Platform},<br />
+volume = {28}<br />
+}</p>
+  </li>
+</ul>
+
+<p>Smith, C. S. (1991). The parameter of aspect. Dordrecht; Boston: Kluwer
+Academic Publishers, 1st ed.</p>
+
+<ul>
+  <li>
+    <p>bibtex:</p>
+
+    <p>@article{Smith:1991,<br />
+author = {C. S. Smith},<br />
+year = {1991},<br />
+title = {The parameter of aspect},<br />
+publisher = {Dordrecht; Boston: Kluwer Academic Publishers},<br />
+edition = {first},<br />
+}</p>
+  </li>
+</ul>
+
+<p>Smith, C. S. (1997). The parameter of aspect. Dordrecht; Boston: Kluwer,
+2nd ed.</p>
+
+<ul>
+  <li>
+    <p>bibtex:</p>
+
+    <p>@article{Smith:1997,<br />
+author = {C. S. Smith},<br />
+year = {1997},<br />
+title = {The parameter of aspect},<br />
+publisher = {Dordrecht; Boston: Kluwer},<br />
+edition = {second},<br />
+}</p>
+  </li>
+</ul>
+
+<p>Vendler, Z. (1957). Verbs and times. The Philosophical Review, <em>66</em>(2),
+143-160. (Reprinted in a revised version in Vendler, 1967).</p>
+
+<ul>
+  <li>
+    <p>bibtex:</p>
+
+    <p>@book{Vendler:1957,<br />
+author = {Zeno Vendler},<br />
+year = {1957},<br />
+title = {Verbs and times},<br />
+journal = {The Philosophical Review},<br />
+volume = {66},<br />
+issue = { 2 }<br />
+}</p>
+  </li>
+</ul>
+
+<p>Last update: 2013-02-23 by VaryaGracheva [<a href="https://github.com/delph-in/docs/wiki/MatrixDoc_TenseAspectMood/_edit">edit</a>]</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+<!--Scroll the navbar to the current page-->
+<script type="text/javascript">
+  let el = document.querySelector('.nav__list .active');
+  if(el){
+    el.scrollIntoView({block: "center", inline: "start"});
+  }
+</script>
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/docs/matrix/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/docs/matrix/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/docs/matrix/assets/js/lunr/lunr.min.js"></script>
+<script src="/docs/matrix/assets/js/lunr/lunr-store.js"></script>
+<script src="/docs/matrix/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

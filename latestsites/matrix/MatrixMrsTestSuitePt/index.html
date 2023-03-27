@@ -1,0 +1,1173 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>DELPH-IN Grammar Matrix</title>
+<meta name="description" content="An amazing website.">
+
+
+  <meta name="author" content="Your Name">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="DELPH-IN Grammar Matrix">
+<meta property="og:title" content="DELPH-IN Grammar Matrix">
+<meta property="og:url" content="https://delph-in.github.io/docs/matrix/MatrixMrsTestSuitePt/">
+
+
+  <meta property="og:description" content="An amazing website.">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://delph-in.github.io/docs/matrix/MatrixMrsTestSuitePt/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Your Name",
+      "url": "https://delph-in.github.io/docs/matrix/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/docs/matrix/feed.xml" type="application/atom+xml" rel="alternate" title="DELPH-IN Grammar Matrix Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/docs/matrix/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--delphin_page wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/docs/matrix/"><img src="/docs/matrix/assets/images/Delph-In.png" alt="DELPH-IN Grammar Matrix"></a>
+        
+        <a class="site-title" href="/docs/matrix/">
+          DELPH-IN Grammar Matrix
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/home/Home">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/howto/DelphinWelcome">How-To</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/erg/ErgTop">ERG</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/tools/ToolsTop">Tools</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/grammars/GrammarsOverview">Grammars</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/matrix/MatrixDocsOverview">Matrix</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/summits/SummitTop">Summits</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/garage/GarageTop">Garage</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammar Matrix Docs</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixDocsOverview/">Overview</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Overview and Tools</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixTop/">Overview</a></li>
+          
+            <li><a href="/docs/matrix/MatrixGettingStarted/">Getting Started</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDevTop/">Development Overview</a></li>
+          
+            <li><a href="/docs/matrix/Updating_the_Customization_System/">Customization System</a></li>
+          
+            <li><a href="/docs/matrix/MatrixCustomizationUnitTesting/">Customization Unit Testing</a></li>
+          
+            <li><a href="/docs/matrix/MatrixCustomizationWebTesting/">Customization Web Testing</a></li>
+          
+            <li><a href="/docs/matrix/MatrixRegressionTesting/">Regression Testing</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_TestSentences/">Test Sentences</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_TestByGeneration/">Test By Generation</a></li>
+          
+            <li><a href="/docs/matrix/MatrixWishList/">Wish List</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammar Engineering</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixDevBlueprints/">Dev Blueprints</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDevConventions/">Dev Conventions</a></li>
+          
+            <li><a href="/docs/matrix/GrammarDevelopment/">Grammar Development</a></li>
+          
+            <li><a href="/docs/matrix/MatrixLibraryDevelopment/">Library Development</a></li>
+          
+            <li><a href="/docs/matrix/MatrixLibraryWishList/">Library WishList</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMorphology/">Morphology</a></li>
+          
+            <li><a href="/docs/matrix/PythonIdioms/">Python Idioms</a></li>
+          
+            <li><a href="/docs/matrix/MatrixRegressionTestingSetup/">Regression Testing Setup</a></li>
+          
+            <li><a href="/docs/matrix/MatrixRegressionTestingSetupMac/">Regression Testing Setup (Mac)</a></li>
+          
+            <li><a href="/docs/matrix/MatrixTDBProcedures/">TDB Procedures</a></li>
+          
+            <li><a href="/docs/matrix/MatrixTDB2Tables/">TDB2 Tables</a></li>
+          
+            <li><a href="/docs/matrix/MatrixValidationDebugging/">Validation Debugging</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Matrix Doc</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixDocTop/">Overview</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_AdnominalPossession/">Adnominal Possession</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_ArgumentOptionality/">Argument Optionality</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Case/">Case</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_ClausalComplements/">Clausal Complements</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_ClausalModifiers/">Clausal Modifiers</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Coordination/">Coordination</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_DirectInverse/">Direct Inverse</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Evidentials/">Evidentials</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Gender/">Gender</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_GeneralInfo/">General Info</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_ImportToolboxLexicon/">Import Toolbox Lexicon</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_InformationStructure/">Information Structure</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Lexicon/">Lexicon</a></li>
+          
+            <li><a href="/docs/matrix/matrixdef_File_Syntax/">Matrixdef File Syntax</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Morphology/">Morphology</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_NominalizedClauses/">Nominalized Clauses</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Number/">Number</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_OtherFeatures/">Other Features</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Person/">Person</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_SententialNegation/">Sentential Negation</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_TenseAspectMood/">Tense/Aspect/Mood</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_WhQuestions/">Wh Questions</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_WordOrder/">Word Order</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_YesNoQ/">YesNoQ</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">FAQ</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/GrammarEngineeringFAQ/">Grammar Engineering FAQ</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqFeatureGeometry/">Feature Geometry FAQ</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqChartTwice/">Chart Twice</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqCircularLexRule/">Circular Lex Rule</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqClickX/">Click X</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqConfusingTypo/">Confusing Typo</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqCyclicCheck/">Cyclic Check</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqDiffList/">Diff List</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqDisjunctiveValue/">Disjunctive Value</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqDistributedDisjunction/">Distributed Disjunction</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqExpandMenu/">Expand Menu</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqExpandedType/">Expanded Type</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqFeatureMultiType/">Feature Multi-Type</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqFindTypeForFeatures/">Find Type For Features</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqForgottenConstraint/">Forgotten Constraint</a></li>
+          
+            <li><a href="/docs/matrix/GeFaq/">GeFaq</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqGotoChar/">Goto Char</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqGrammarDocumentation/">Grammar Documentation</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqInteractiveUnify/">Interactive Unify</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqLkbInstallation/">LKB Installation</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqLispPromptTips/">Lisp Prompt Tips</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqLoadScript/">Load Script</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqKeyboardNotWorking/">Keyboard Not Working</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqMissingEdge/">Missing Edge</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqMissingHowTo/">Missing How-To</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqMissingRels/">Missing Rels</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNegValue/">Neg Value</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNewFeature/">New Feature</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoEntry2/">No Entry 2</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoError/">No Error</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoPossibleType/">No Possible Type</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoRule/">No Rule</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoSign/">No Sign</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNonAlpha/">Non-Alpha</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqOverApplicationLexRule/">Over Application Lex Rule</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqOrderMatters/">Order Matters</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqPasteShortcut/">Paste Shortcut</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRightBracket/">Right Bracket</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRootFail/">Root Fail</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRuleWithoutDaughter/">Rule Without Daughter</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRuleWithoutDaughters/">Rule Without Daughters</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRunawayRule1/">Runaway Rule 1</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRunawayRule2/">Runaway Rule 2</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqShowChart/">Show Chart</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqSpanningEdge/">Spanning Edge</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqSwitchingGrammars/">Switching Grammars</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqTabIndentation/">Tab Indentation</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqTdlSyntax/">TDL Syntax</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqTdlTxt/">TDL TXT</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqTypeAddendum/">Type Addendum</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqUnicodeInput/">Unicode Input</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqUnifySurprise/">Unify Surprise</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqViewEntry/">View Entry</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqViewHierarchy/">View Hierarchy</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqViewType/">View Type</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">MRS Tests</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuite/">Overview</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteBg/">Bulgarian</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteCantonese/">Cantonese</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsCatb/">Cathedral Test</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteEn/">English</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteFr/">French</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteDe/">German</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteGr/">Greek</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteIndonesian/">Indonesian</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteJa/">Japanese</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteMandarin/">Mandarin</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteNo/">Norwegian</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuitePt/" class="active">Portuguese</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteRu/">Russian</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteSv/">Swedish</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteTatoeba/">Tatoeba</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteZhTw/">ZhTw</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <p>This is the <a href="https://delph-in.github.io/docs/matrix/MatrixMrsTestSuite">MRS Test Suite</a> for Portuguese.</p>
+
+<h2 id="portuguese-mrs-test-suite">Portuguese MRS Test Suite</h2>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>11</td>
+      <td>Choveu.</td>
+      <td>It rained.</td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td>O Atlas ladrou.</td>
+      <td>Abrams barked.</td>
+    </tr>
+    <tr>
+      <td>31</td>
+      <td>A janela abriu-se.</td>
+      <td>The window opened.</td>
+    </tr>
+    <tr>
+      <td>41</td>
+      <td>O Atlas perseguiu o Bobi.</td>
+      <td>Abrams chased Browne.</td>
+    </tr>
+    <tr>
+      <td>51</td>
+      <td>O Atlas passou o cigarro ao Bobi.</td>
+      <td>Abrams handed Browne the cigarette.</td>
+    </tr>
+    <tr>
+      <td>61</td>
+      <td>O Atlas passou ao Bobi o cigarro.</td>
+      <td>Abrams handed the cigarette to Browne.</td>
+    </tr>
+    <tr>
+      <td>71</td>
+      <td>O Atlas apostou um cigarro com o Bobi em como choveu.</td>
+      <td>Abrams bet Browne a cigarette that it rained.</td>
+    </tr>
+    <tr>
+      <td>81</td>
+      <td>O Atlas sabia que choveu.</td>
+      <td>Abrams knew that it rained.</td>
+    </tr>
+    <tr>
+      <td>91</td>
+      <td>O Atlas tinha a intenção de ladrar.</td>
+      <td>Abrams intended to bark.</td>
+    </tr>
+    <tr>
+      <td>101</td>
+      <td>O Atlas queria que o Bobi ladrasse.</td>
+      <td>Abrams intended Browne to bark.</td>
+    </tr>
+    <tr>
+      <td>111</td>
+      <td>Todos os gatos ladraram.</td>
+      <td>Every cat barked.</td>
+    </tr>
+    <tr>
+      <td>121</td>
+      <td>Todos os gatos perseguiram algum cão.</td>
+      <td>Every cat chased some dog.</td>
+    </tr>
+    <tr>
+      <td>131</td>
+      <td>O meu gato ladrou.</td>
+      <td>My cat barked.</td>
+    </tr>
+    <tr>
+      <td>141</td>
+      <td>Ladrou.</td>
+      <td>It barked.</td>
+    </tr>
+    <tr>
+      <td>151</td>
+      <td>O gato perseguiu-o.</td>
+      <td>The cat chased it.</td>
+    </tr>
+    <tr>
+      <td>161</td>
+      <td>O gato perseguiu-se.</td>
+      <td>The cat chased itself.</td>
+    </tr>
+    <tr>
+      <td>171</td>
+      <td>O gato perseguiu um.</td>
+      <td>The cat chased one.</td>
+    </tr>
+    <tr>
+      <td>181</td>
+      <td>O meu ladrou.</td>
+      <td>Mine barked.</td>
+    </tr>
+    <tr>
+      <td>191</td>
+      <td>Isso abriu-se.</td>
+      <td>That opened.</td>
+    </tr>
+    <tr>
+      <td>201</td>
+      <td>Os gatos ladram.</td>
+      <td>Cats bark.</td>
+    </tr>
+    <tr>
+      <td>211</td>
+      <td>Chegou tabaco.</td>
+      <td>Tobacco arrived.</td>
+    </tr>
+    <tr>
+      <td>221</td>
+      <td>Alguns ladram.</td>
+      <td>Some bark.</td>
+    </tr>
+    <tr>
+      <td>231</td>
+      <td>Alguns dos gatos ladram.</td>
+      <td>Some of the cats bark.</td>
+    </tr>
+    <tr>
+      <td>241</td>
+      <td>Nenhum gato ladrou.</td>
+      <td>No cat barked.</td>
+    </tr>
+    <tr>
+      <td>251</td>
+      <td>O cão ladrou?</td>
+      <td>Did the dog bark?</td>
+    </tr>
+    <tr>
+      <td>261</td>
+      <td>Que cão ladrou?</td>
+      <td>Which dog barked?</td>
+    </tr>
+    <tr>
+      <td>271</td>
+      <td>Ladrou o cão de quem?</td>
+      <td>Whose dog barked?</td>
+    </tr>
+    <tr>
+      <td>281</td>
+      <td>Persegue o Bobi!</td>
+      <td>Chase Browne!</td>
+    </tr>
+    <tr>
+      <td>291</td>
+      <td>O Atlas perguntou-se que cão ladrou.</td>
+      <td>Abrams wondered which dog barked.</td>
+    </tr>
+    <tr>
+      <td>301</td>
+      <td>O Atlas perguntou-se se o Bobi ladrou.</td>
+      <td>Abrams wondered whether Browne barked.</td>
+    </tr>
+    <tr>
+      <td>311</td>
+      <td>O cão que o Bobi perseguiu ladrou.</td>
+      <td>The dog that Browne chased barked.</td>
+    </tr>
+    <tr>
+      <td>321</td>
+      <td>O cão a perseguir está a ladrar.</td>
+      <td>The dog to chase is barking.</td>
+    </tr>
+    <tr>
+      <td>331</td>
+      <td>O cão foi perseguido pelo Bobi.</td>
+      <td>The dog was chased by Browne.</td>
+    </tr>
+    <tr>
+      <td>341</td>
+      <td>O cão perseguido pelo Bobi ladrou.</td>
+      <td>The dog chased by Browne barked.</td>
+    </tr>
+    <tr>
+      <td>351</td>
+      <td>O cão está a ladrar.</td>
+      <td>The dog is barking.</td>
+    </tr>
+    <tr>
+      <td>361</td>
+      <td>O cão ladrou.</td>
+      <td>The dog has barked.</td>
+    </tr>
+    <tr>
+      <td>371</td>
+      <td>O cão tem estado a ladrar.</td>
+      <td>The dog has been barking.</td>
+    </tr>
+    <tr>
+      <td>381</td>
+      <td>O cão tinha estado a ladrar.</td>
+      <td>The dog had been barking.</td>
+    </tr>
+    <tr>
+      <td>391</td>
+      <td>O cão ladrará.</td>
+      <td>The dog will bark.</td>
+    </tr>
+    <tr>
+      <td>401</td>
+      <td>O cão vai ladrar.</td>
+      <td>The dog is going to bark.</td>
+    </tr>
+    <tr>
+      <td>411</td>
+      <td>O cão conseguiu ladrar.</td>
+      <td>The dog could bark.</td>
+    </tr>
+    <tr>
+      <td>421</td>
+      <td>O cão não conseguiu ladrar.</td>
+      <td>The dog couldn’t bark.</td>
+    </tr>
+    <tr>
+      <td>431</td>
+      <td>O cão velho ladrou.</td>
+      <td>The old dog barked.</td>
+    </tr>
+    <tr>
+      <td>441</td>
+      <td>O cão ladrou baixinho.</td>
+      <td>The dog barked softly.</td>
+    </tr>
+    <tr>
+      <td>451</td>
+      <td>O cão provavelmente ladrou.</td>
+      <td>The dog probably barked.</td>
+    </tr>
+    <tr>
+      <td>461</td>
+      <td>O cão ladrou no jardim.</td>
+      <td>The dog barked in the garden.</td>
+    </tr>
+    <tr>
+      <td>471</td>
+      <td>O cão agora ladra.</td>
+      <td>The dog barks now.</td>
+    </tr>
+    <tr>
+      <td>481</td>
+      <td>O cão do jardim ladrou.</td>
+      <td>The garden dog barked.</td>
+    </tr>
+    <tr>
+      <td>491</td>
+      <td>O cão do jardim do tabaco ladrou.</td>
+      <td>The tobacco garden dog barked.</td>
+    </tr>
+    <tr>
+      <td>501</td>
+      <td>O gato é velho.</td>
+      <td>The cat is old.</td>
+    </tr>
+    <tr>
+      <td>511</td>
+      <td>O gato está no jardim.</td>
+      <td>The cat is in the garden.</td>
+    </tr>
+    <tr>
+      <td>521</td>
+      <td>O cão que está a ladrar perseguiu o Bobi.</td>
+      <td>The barking dog chased Browne.</td>
+    </tr>
+    <tr>
+      <td>531</td>
+      <td>Os cães perseguidos ladram.</td>
+      <td>Chased dogs bark.</td>
+    </tr>
+    <tr>
+      <td>541</td>
+      <td>Perseguir o gato está batido.</td>
+      <td>Chasing the cat is old.</td>
+    </tr>
+    <tr>
+      <td>551</td>
+      <td>O gato perseguir o Bobi está batido.</td>
+      <td>That the cat chases Browne is old.</td>
+    </tr>
+    <tr>
+      <td>561</td>
+      <td>Os cães perseguem tudo o que ladra.</td>
+      <td>Dogs chase whatever barks.</td>
+    </tr>
+    <tr>
+      <td>571</td>
+      <td>O cão ladrou todos os dias.</td>
+      <td>The dog barked every day.</td>
+    </tr>
+    <tr>
+      <td>581</td>
+      <td>Quando é que o cão ladrou?</td>
+      <td>When did the dog bark?</td>
+    </tr>
+    <tr>
+      <td>591</td>
+      <td>Três dos cães ladram.</td>
+      <td>Three of the dogs bark.</td>
+    </tr>
+    <tr>
+      <td>601</td>
+      <td>Três ladram.</td>
+      <td>Three bark.</td>
+    </tr>
+    <tr>
+      <td>611</td>
+      <td>O cão do Bobi ladra.</td>
+      <td>Browne’s dog barks.</td>
+    </tr>
+    <tr>
+      <td>621</td>
+      <td>O do Bobi ladra.</td>
+      <td>Browne’s barks.</td>
+    </tr>
+    <tr>
+      <td>631</td>
+      <td>Ladram vinte e três cães.</td>
+      <td>Twenty three dogs bark.</td>
+    </tr>
+    <tr>
+      <td>641</td>
+      <td>Ladram duzentos e vinte cães.</td>
+      <td>Two hundred twenty dogs bark.</td>
+    </tr>
+    <tr>
+      <td>651</td>
+      <td>O Atlas chegou de carro.</td>
+      <td>Abrams arrived by car.</td>
+    </tr>
+    <tr>
+      <td>661</td>
+      <td>O Atlas não parou de ladrar.</td>
+      <td>Abrams kept barking.</td>
+    </tr>
+    <tr>
+      <td>671</td>
+      <td>O Bobi enfiou o gato à força.</td>
+      <td>Browne squeezed the cat in.</td>
+    </tr>
+    <tr>
+      <td>681</td>
+      <td>O Bobi enfiou o gato à força.</td>
+      <td>Browne squeezed in the cat.</td>
+    </tr>
+    <tr>
+      <td>691</td>
+      <td>A foto do Atlas chegou.</td>
+      <td>The picture of Abrams arrived.</td>
+    </tr>
+    <tr>
+      <td>701</td>
+      <td>O Atlas limpou a mesa completamente.</td>
+      <td>Abrams wiped the table clean.</td>
+    </tr>
+    <tr>
+      <td>711</td>
+      <td>O Atlas pôs o Bobi no jardim.</td>
+      <td>Abrams put Browne in the garden.</td>
+    </tr>
+    <tr>
+      <td>721</td>
+      <td>O cão vai ladrar se o Bobi chegar.</td>
+      <td>The dog will bark if Browne arrives.</td>
+    </tr>
+    <tr>
+      <td>731</td>
+      <td>O Atlas e o Bobi chegaram.</td>
+      <td>Abrams and Browne arrived.</td>
+    </tr>
+    <tr>
+      <td>741</td>
+      <td>O Atlas, o Bobi e o cão chegaram.</td>
+      <td>Abrams, Browne and the dog arrived.</td>
+    </tr>
+    <tr>
+      <td>751</td>
+      <td>O cão chegou e ladrou.</td>
+      <td>The dog arrived and barked.</td>
+    </tr>
+    <tr>
+      <td>761</td>
+      <td>O cão chegou, e o Bobi ladrou.</td>
+      <td>The dog arrived and Browne barked.</td>
+    </tr>
+    <tr>
+      <td>771</td>
+      <td>O cão ladrou, não ladrou?</td>
+      <td>The dog barked, didn’t it?</td>
+    </tr>
+    <tr>
+      <td>781</td>
+      <td>É óbvio que o cão ladrou.</td>
+      <td>It is obvious that the dog barked.</td>
+    </tr>
+    <tr>
+      <td>791</td>
+      <td>O Atlas prometeu ao Bobi ladrar.</td>
+      <td>Abrams promised Browne to bark.</td>
+    </tr>
+    <tr>
+      <td>801</td>
+      <td>O Atlas parece ladrar.</td>
+      <td>Abrams seems to bark.</td>
+    </tr>
+    <tr>
+      <td>811</td>
+      <td>O Atlas acredita que o Bobi está a ladrar.</td>
+      <td>Abrams believes Browne to be barking.</td>
+    </tr>
+    <tr>
+      <td>821</td>
+      <td>O Bobi ter ladrado incomodou o Atlas.</td>
+      <td>It bothered Abrams that Browne barked.</td>
+    </tr>
+    <tr>
+      <td>831</td>
+      <td>O Atlas levou dez minutos a chegar.</td>
+      <td>It took Abrams ten minutes to arrive.</td>
+    </tr>
+    <tr>
+      <td>841</td>
+      <td>O Atlas deixou o ladrar para o Bobi.</td>
+      <td>Abrams left it to Browne to bark.</td>
+    </tr>
+    <tr>
+      <td>851</td>
+      <td>O Atlas parece velho ao Bobi.</td>
+      <td>Abrams strikes Browne as old.</td>
+    </tr>
+    <tr>
+      <td>861</td>
+      <td>O Bobi considera o Atlas velho.</td>
+      <td>Browne considers Abrams old.</td>
+    </tr>
+    <tr>
+      <td>871</td>
+      <td>O Atlas gostou da ideia de que o Bobi conseguia ladrar.</td>
+      <td>Abrams liked the idea that Browne could bark.</td>
+    </tr>
+    <tr>
+      <td>881</td>
+      <td>O Atlas ladrou das dez às três.</td>
+      <td>Abrams barked from ten to three.</td>
+    </tr>
+    <tr>
+      <td>891</td>
+      <td>O Atlas era muito velho.</td>
+      <td>Abrams was very old.</td>
+    </tr>
+    <tr>
+      <td>901</td>
+      <td>Quase todos os cães ladraram.</td>
+      <td>Nearly every dog barked.</td>
+    </tr>
+    <tr>
+      <td>911</td>
+      <td>O Atlas ladrou muito baixinho.</td>
+      <td>Abrams barked very softly.</td>
+    </tr>
+    <tr>
+      <td>921</td>
+      <td>O Bobi perseguir gatos incomodou o Atlas.</td>
+      <td>Browne’s chasing of cats bothered Abrams.</td>
+    </tr>
+    <tr>
+      <td>931</td>
+      <td>O Atlas ter perseguido gatos incomodou o Bobi.</td>
+      <td>It bothered Browne that Abrams chased cats.</td>
+    </tr>
+    <tr>
+      <td>941</td>
+      <td>O três de junho chegou.</td>
+      <td>June third arrived.</td>
+    </tr>
+    <tr>
+      <td>951</td>
+      <td>O Atlas chegou às três e vinte.</td>
+      <td>Abrams arrived at three twenty.</td>
+    </tr>
+    <tr>
+      <td>961</td>
+      <td>O Bobi chegou na terça-feira de manhã.</td>
+      <td>Browne arrived on Tuesday morning.</td>
+    </tr>
+    <tr>
+      <td>971</td>
+      <td>Os gatos arranjaram uma forma de ladrar.</td>
+      <td>The cats found a way to bark.</td>
+    </tr>
+    <tr>
+      <td>981</td>
+      <td>O cão mais feliz perseguiu o Bobi.</td>
+      <td>The happier dog chased Browne.</td>
+    </tr>
+    <tr>
+      <td>991</td>
+      <td>Havia gatos no jardim.</td>
+      <td>There were cats in the garden.</td>
+    </tr>
+    <tr>
+      <td>1001</td>
+      <td>Aquele cão perseguiu o Bobi.</td>
+      <td>That dog chased Browne.</td>
+    </tr>
+    <tr>
+      <td>1011</td>
+      <td>Alguém perseguiu o Atlas.</td>
+      <td>Somebody chased Abrams.</td>
+    </tr>
+    <tr>
+      <td>1021</td>
+      <td>Quão feliz estava o Atlas?</td>
+      <td>How happy was Abrams?</td>
+    </tr>
+    <tr>
+      <td>1031</td>
+      <td>O número cinco incomoda o Bobi.</td>
+      <td>The number five bothers Browne.</td>
+    </tr>
+    <tr>
+      <td>1041</td>
+      <td>O Atlas conseguiu.</td>
+      <td>Abrams could.</td>
+    </tr>
+    <tr>
+      <td>1051</td>
+      <td>O Bobi tentou.</td>
+      <td>Browne tried to.</td>
+    </tr>
+    <tr>
+      <td>1061</td>
+      <td>Não ladres!</td>
+      <td>Don’t bark!</td>
+    </tr>
+    <tr>
+      <td>1071</td>
+      <td>O cão chegou a ladrar.</td>
+      <td>The dog arrived barking.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Last update: 2013-07-31 by FranciscoCosta [<a href="https://github.com/delph-in/docs/wiki/MatrixMrsTestSuitePt/_edit">edit</a>]</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+<!--Scroll the navbar to the current page-->
+<script type="text/javascript">
+  let el = document.querySelector('.nav__list .active');
+  if(el){
+    el.scrollIntoView({block: "center", inline: "start"});
+  }
+</script>
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/docs/matrix/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/docs/matrix/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/docs/matrix/assets/js/lunr/lunr.min.js"></script>
+<script src="/docs/matrix/assets/js/lunr/lunr-store.js"></script>
+<script src="/docs/matrix/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

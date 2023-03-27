@@ -1,0 +1,927 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>DELPH-IN Tools</title>
+<meta name="description" content="An amazing website.">
+
+
+  <meta name="author" content="Your Name">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="DELPH-IN Tools">
+<meta property="og:title" content="DELPH-IN Tools">
+<meta property="og:url" content="https://delph-in.github.io/docs/tools/RmrsDesign/">
+
+
+  <meta property="og:description" content="An amazing website.">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://delph-in.github.io/docs/tools/RmrsDesign/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Your Name",
+      "url": "https://delph-in.github.io/docs/tools/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/docs/tools/feed.xml" type="application/atom+xml" rel="alternate" title="DELPH-IN Tools Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/docs/tools/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--delphin_page wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/docs/tools/"><img src="/docs/tools/assets/images/Delph-In.png" alt="DELPH-IN Tools"></a>
+        
+        <a class="site-title" href="/docs/tools/">
+          DELPH-IN Tools
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/home/Home">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/howto/DelphinWelcome">How-To</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/erg/ErgTop">ERG</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/tools/ToolsTop">Tools</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/grammars/GrammarsOverview">Grammars</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/matrix/MatrixDocsOverview">Matrix</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/summits/SummitTop">Summits</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/garage/GarageTop">Garage</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Tools</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/ToolsTop/">Overview</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">PyDelphin</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/PyDelphinTop/">Overview</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">LKB</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/LkbTop/">Overview</a></li>
+          
+            <li><a href="/docs/tools/LkbInstallation/">Installation</a></li>
+          
+            <li><a href="/docs/tools/LkbFos/">Fully Open Source Version</a></li>
+          
+            <li><a href="/docs/tools/LkbMacintosh/">Macintosh Version</a></li>
+          
+            <li><a href="/docs/tools/LkbCourses/">Courses</a></li>
+          
+            <li><a href="/docs/tools/LkbConventions/">Conventions</a></li>
+          
+            <li><a href="/docs/tools/LkbGeneration/">Generation</a></li>
+          
+            <li><a href="/docs/tools/LkbCompilation/">Compilation</a></li>
+          
+            <li><a href="/docs/tools/LkbEmacs/">Emacs</a></li>
+          
+            <li><a href="/docs/tools/LkbTrollet/">Trollet</a></li>
+          
+            <li><a href="/docs/tools/LkbSppp/">Simple PreProcessor Protocol</a></li>
+          
+            <li><a href="/docs/tools/RmrsVpm/">Variable Property Mapping (VPM)</a></li>
+          
+            <li><a href="/docs/tools/LkbLpconstraints/">LkbLpconstraints</a></li>
+          
+            <li><a href="/docs/tools/LkbUserGroup/">User Group</a></li>
+          
+            <li><a href="/docs/tools/LkbFaq/">FAQ</a></li>
+          
+            <li><a href="/docs/tools/LkbMode/">Emacs FAQ</a></li>
+          
+            <li><a href="/docs/tools/LkbWishlist/">Wish list</a></li>
+          
+            <li><a href="/docs/tools/LkbBugs/">Bugs</a></li>
+          
+            <li><a href="/docs/tools/LkbCopyright/">Copyright</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">ACE Parser</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/AceTop/">Overview</a></li>
+          
+            <li><a href="/docs/tools/AceInstall/">Install</a></li>
+          
+            <li><a href="/docs/tools/AceConfiguration/">Configuration</a></li>
+          
+            <li><a href="/docs/tools/AceOptions/">Options</a></li>
+          
+            <li><a href="/docs/tools/AceUse/">Examples</a></li>
+          
+            <li><a href="/docs/tools/AceLui/">LUI Mode</a></li>
+          
+            <li><a href="/docs/tools/AceCsaw/">Csaw</a></li>
+          
+            <li><a href="/docs/tools/AceTransfer/">Transfer</a></li>
+          
+            <li><a href="/docs/tools/AceExperimental/">Experimental</a></li>
+          
+            <li><a href="/docs/tools/AceFaq/">Faq</a></li>
+          
+            <li><a href="/docs/tools/AceWishlist/">Wish list</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">LKB LUI</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/LkbLui/">Overview</a></li>
+          
+            <li><a href="/docs/tools/LuiRc/">User Configuration</a></li>
+          
+            <li><a href="/docs/tools/LuiUi/">UI Quick Reference</a></li>
+          
+            <li><a href="/docs/tools/LuiTree/">Tree</a></li>
+          
+            <li><a href="/docs/tools/LuiAvm/">Feature Structure (AVM)</a></li>
+          
+            <li><a href="/docs/tools/LuiUnification/">Unification</a></li>
+          
+            <li><a href="/docs/tools/LuiMrs/">MRS Display</a></li>
+          
+            <li><a href="/docs/tools/LuiChart/">Chart Browser</a></li>
+          
+            <li><a href="/docs/tools/LuiWishlist/">Wish list</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">LKB LexDB</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/LexDbSimplePsql/">Simple PSQL</a></li>
+          
+            <li><a href="/docs/tools/LexDbInitialize/">Initialization</a></li>
+          
+            <li><a href="/docs/tools/LexDbPsqlInitialize/">PSQL Initialization</a></li>
+          
+            <li><a href="/docs/tools/LexDbFieldMappings/">Field Mappings</a></li>
+          
+            <li><a href="/docs/tools/LkbLexDbMultiUser/">Multi-User</a></li>
+          
+            <li><a href="/docs/tools/LkbLexDbSingleUser/">Single User</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">[incr tsdb()]</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/ItsdbTop/">Overview</a></li>
+          
+            <li><a href="/docs/tools/TsdbTop/">Deep Dive</a></li>
+          
+            <li><a href="/docs/tools/ItsdbDerivations/">Derivations</a></li>
+          
+            <li><a href="/docs/tools/ItsdbProfileManipulation/">Profile Manipulation</a></li>
+          
+            <li><a href="/docs/tools/ItsdbProfile/">Profile</a></li>
+          
+            <li><a href="/docs/tools/ItsdbProfiling/">Profiling</a></li>
+          
+            <li><a href="/docs/tools/ItsdbDistributedProcessing/">Distributed Processing</a></li>
+          
+            <li><a href="/docs/tools/ItsdbBatch/">Batch</a></li>
+          
+            <li><a href="/docs/tools/ItsdbReference/">Reference</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTroubleshooting/">Troubleshooting</a></li>
+          
+            <li><a href="/docs/tools/GeFaqTsdbRc/">FAQ</a></li>
+          
+            <li><a href="/docs/tools/ItsdbWishlist/">Wish List</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Logon</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/LogonTop/">Overview</a></li>
+          
+            <li><a href="/docs/tools/LogonInstallation/">Installation</a></li>
+          
+            <li><a href="/docs/tools/LogonRedhat/">Red Hat</a></li>
+          
+            <li><a href="/docs/tools/LogonUbuntu/">Ubuntu</a></li>
+          
+            <li><a href="/docs/tools/LogonArch/">Arch Linux</a></li>
+          
+            <li><a href="/docs/tools/LogonDebian/">Debian</a></li>
+          
+            <li><a href="/docs/tools/LogonHandon/">Hands-On Release</a></li>
+          
+            <li><a href="/docs/tools/LogonSvn/">SVN</a></li>
+          
+            <li><a href="/docs/tools/LogonProcessing_BatchGeneration/">Batch Generation</a></li>
+          
+            <li><a href="/docs/tools/LogonProcessing_BatchTranslation/">Batch Translation</a></li>
+          
+            <li><a href="/docs/tools/LogonPet/">PET Integration</a></li>
+          
+            <li><a href="/docs/tools/LogonAnswer/">ACE Integration</a></li>
+          
+            <li><a href="/docs/tools/LogonExtras/">Extras</a></li>
+          
+            <li><a href="/docs/tools/LogonReports/">Reports</a></li>
+          
+            <li><a href="/docs/tools/LogonProcessing/">Processing</a></li>
+          
+            <li><a href="/docs/tools/LogonProcessing_BatchParsing/">Batch Parsing</a></li>
+          
+            <li><a href="/docs/tools/LogonModeling/">Modeling</a></li>
+          
+            <li><a href="/docs/tools/LogonOnline/">Online</a></li>
+          
+            <li><a href="/docs/tools/LogonTransfer/">Transfer</a></li>
+          
+            <li><a href="/docs/tools/LogonVpm/">Variable Property Mapping</a></li>
+          
+            <li><a href="/docs/tools/NoJa/">Setting up New Languages</a></li>
+          
+            <li><a href="/docs/tools/LogonIdiosyncrasies/">Idiosyncrasies</a></li>
+          
+            <li><a href="/docs/tools/LogonWishlist/">Wishlist</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammar Tips</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/GrammarPerformance/">Grammar Performance</a></li>
+          
+            <li><a href="/docs/tools/VersionControlForGrammarDevelopment/">Grammar Version Control</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Treebanking</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/TreebankingTop/">Overview</a></li>
+          
+            <li><a href="/docs/tools/FftbTop/">Full Forest Treebanker (FFTB)</a></li>
+          
+            <li><a href="/docs/tools/FftbWishlist/">Full Forest Treebanker Wishlist</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking/">[incr tsdb()] Treebanking</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking_ItsdbAnnotation/">[incr tsdb()] Treebanking Annotation</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking_ItsdbUpdating/">[incr tsdb()] Treebanking Updating</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking_ItsdbExporting/">[incr tsdb()] Treebanking Exporting</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking_ItsdbModeling/">[incr tsdb()] Treebanking Modeling</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking_ItsdbUpdating/">[incr tsdb()] Treebanking Updating</a></li>
+          
+            <li><a href="/docs/tools/ItsdbCustomization/">[incr tsdb()] Treebanking Customization</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking_ItsdbModeling/">[incr tsdb()] Treebanking Modeling</a></li>
+          
+            <li><a href="/docs/tools/IndraTreebanking/">Indra</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Formats</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/DelphinRFCs/">Delphin RFCs</a></li>
+          
+            <li><a href="/docs/tools/PredicateRfc/">Predicate RFC</a></li>
+          
+            <li><a href="/docs/tools/MrsRFC/">MRS Format RFC</a></li>
+          
+            <li><a href="/docs/tools/MrsIsomorphism/">MRS Isomorphism</a></li>
+          
+            <li><a href="/docs/tools/EdsTop/">EDS Format</a></li>
+          
+            <li><a href="/docs/tools/EdsConversion/">EDS Conversion</a></li>
+          
+            <li><a href="/docs/tools/EdsGeneration/">EDS Generation</a></li>
+          
+            <li><a href="/docs/tools/SemiRfc/">SEM-I RFC</a></li>
+          
+            <li><a href="/docs/tools/TdlRFC/">TDL RFC</a></li>
+          
+            <li><a href="/docs/tools/TsqlRfc/">TSQL RFC</a></li>
+          
+            <li><a href="/docs/tools/GrammarVersionRfc/">Grammar Version RFC</a></li>
+          
+            <li><a href="/docs/tools/GrammarConfigurationRfc/">Grammar Configuration RFC</a></li>
+          
+            <li><a href="/docs/tools/TsdbSchemaRfc/">TSDB Schema RFC</a></li>
+          
+            <li><a href="/docs/tools/MatrixChoicesRfc/">Matrix Choices RFC</a></li>
+          
+            <li><a href="/docs/tools/RmrsTop/">(R)MRS Overview</a></li>
+          
+            <li><a href="/docs/tools/RmrsWellformedness/">(R)MRS Wellformedness</a></li>
+          
+            <li><a href="/docs/tools/RmrsPos/">(R)MRS Predicate Naming</a></li>
+          
+            <li><a href="/docs/tools/RmrsSpan/">(R)MRS Span</a></li>
+          
+            <li><a href="/docs/tools/RmrsDesign/" class="active">(R)MRS Design</a></li>
+          
+            <li><a href="/docs/tools/RmrsParaphrasing/">(R)MRS Paraphrasing</a></li>
+          
+            <li><a href="/docs/tools/RmrsModel/">(R)MRS Model</a></li>
+          
+            <li><a href="/docs/tools/RmrsDistributional/">(R)MRS Distributional</a></li>
+          
+            <li><a href="/docs/tools/RmrsSemi/">(R)MRS Semi</a></li>
+          
+            <li><a href="/docs/tools/RmrsDmrs/">(R)MRS Dmrs</a></li>
+          
+            <li><a href="/docs/tools/RmrsFaq/">(R)MRS Faq</a></li>
+          
+            <li><a href="/docs/tools/RmrsDiscussions/">(R)MRS Discussions</a></li>
+          
+            <li><a href="/docs/tools/TransferRules/">Transfer Rules</a></li>
+          
+            <li><a href="/docs/tools/FormatSpecifications/">Format Specifications</a></li>
+          
+            <li><a href="/docs/tools/ErgGml/">Grammar Markup Language</a></li>
+          
+            <li><a href="/docs/tools/SmafTop/">SMAF</a></li>
+          
+            <li><a href="/docs/tools/SmafLkb/">SMAF in LKB</a></li>
+          
+            <li><a href="/docs/tools/SmafPet/">SMAF in PET</a></li>
+          
+            <li><a href="/docs/tools/SmafSample/">SMAF Sample</a></li>
+          
+            <li><a href="/docs/tools/SmafDtd/">SMAF DTD</a></li>
+          
+            <li><a href="/docs/tools/SafTop/">SAF Overview</a></li>
+          
+            <li><a href="/docs/tools/SafDtd/">SAF DTD</a></li>
+          
+            <li><a href="/docs/tools/IconsSpecs/">Icons Specs</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        
+<!-- markdown-toc start - Don't edit this section. Run M-x markdown-toc-refresh-toc -->
+
+<p><strong>Table of Contents</strong></p>
+
+<ul>
+  <li><a href="https://delph-in.github.io/docs/tools/RmrsDesign">Sets of interests or constituencies that have a stake in the design of (R)MRS representations:</a></li>
+  <li><a href="https://delph-in.github.io/docs/tools/RmrsDesign">Agenda items</a></li>
+  <li><a href="https://delph-in.github.io/docs/tools/RmrsDesign">Demise of pronoun_q_rel</a></li>
+  <li><a href="https://delph-in.github.io/docs/tools/RmrsDesign">Optionality of pronoun_n_rel</a></li>
+  <li><a href="https://delph-in.github.io/docs/tools/RmrsDesign">PRED with internal structure</a></li>
+  <li><a href="https://delph-in.github.io/docs/tools/RmrsDesign">Non-restrictive relative clauses</a></li>
+  <li><a href="https://delph-in.github.io/docs/tools/RmrsDesign">Predicate Hierarchies</a></li>
+  <li><a href="https://delph-in.github.io/docs/tools/RmrsDesign">EPs v. properties</a></li>
+</ul>
+
+<!-- markdown-toc end -->
+
+<h3 id="sets-of-interests-or-constituencies-that-have-a-stake-in-the-design-of-rmrs-representations">Sets of interests or constituencies that have a stake in the design of (R)MRS representations:</h3>
+
+<ul>
+  <li>parsing/underspecification</li>
+  <li>generation</li>
+  <li>integration with shallow systems</li>
+  <li>shallow inference/IE</li>
+  <li>inference</li>
+  <li>syntax, composition</li>
+  <li>multilingual harmonization</li>
+  <li>transfer</li>
+  <li>anaphora</li>
+</ul>
+
+<h3 id="agenda-items">Agenda items</h3>
+
+<ul>
+  <li>cross-linguistic similarity</li>
+  <li>paraphrase</li>
+  <li>robustness, underspecifiability
+    <ul>
+      <li>predicate names</li>
+    </ul>
+  </li>
+  <li>stability, documentation (core phenomena)</li>
+  <li>abstract predicates</li>
+  <li>decomposition</li>
+  <li>near-equivalences</li>
+  <li>clean IE</li>
+  <li>sense mapping</li>
+  <li>`real’ documentation</li>
+  <li>naming conventions for unknown word predicates
+    <ul>
+      <li>proper names</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="demise-of-pronoun_q_rel">Demise of pronoun_q_rel</h3>
+
+<p>When we remove pronoun_q_rel, we run into the problem that the tree
+gets smaller, and the labels of the pronoun relation have to get
+identified with something. This was troubling for quite a while until we
+convinced ourselves that modified pronouns are always pseudopartitives.</p>
+
+<p>Pronouns don’t ever get quantifiers, and share their labels with the
+verbal projection they combine with (“You who brought laptops probably
+have the right idea.” “You with laptops must leave now.”). Modified
+pronouns (“You who brought laptops”) involve a pseudopartitive
+construction which introduces both a new variable and a quantifier for
+that variable.</p>
+
+<p>Proper names can go without quantifiers, but might get them when they
+are overt (“Every Kim I’ve met”). “John in Paris” doesn’t need a
+quantifier.</p>
+
+<h3 id="optionality-of-pronoun_n_rel">Optionality of pronoun_n_rel</h3>
+
+<p>In languages with pro-drop (of various kinds), dropped arguments often
+fill the role of unstressed pronouns in a language like English (used
+for reference to discourse entities currently in focus). But dropped
+arguments can also have other uses (e.g., like indefinite null
+instantiation in English). The question is what would break if we didn’t
+put in any ep for these dropped arguments.</p>
+
+<p>Raises questions about the notion of characteristic variables/eps: Every
+ep has an ARG0 and every non-u index is the ARG0 of exactly one ep (with
+special exceptions). The rmrs matching code uses this notion, and drops
+those variables that can’t be grounded in an ep for which they are the
+characteristic variable. The notion of characteristic variable is also
+relevant to dependency extraction code (used e.g., in producing n-gram
+models against which to rank transfer outputs) and potentially to
+filtering lexical edges based on information from other lexical edges in
+the gender.</p>
+
+<p>In terms of the model theory, both sleep(e,u) and sleep(e,x) are fine,
+but the lack of any characteristic ep affects the complexity of tasks
+such as deciding the mutual satisfiability of two rmrs.</p>
+
+<h3 id="pred-with-internal-structure">PRED with internal structure</h3>
+
+<p>It may be useful to make explicit the internal structure of (open-class)
+PRED values, which by common consent are currently strings which have
+the following structure: “_LEMMA_POS_SENSE”</p>
+
+<p>We explored a proposal to change PRED so its value is no longer a string
+for open-class lexical entries, but a type with the following structure:</p>
+
+<ul>
+  <li>[ LEMMA string, POS type, SENSE type ]</li>
+</ul>
+
+<p>There are several possible benefits of this increased transparency:</p>
+
+<ul>
+  <li>More direct comparison of MRS and RMRS structures</li>
+  <li>Enabling of lexical redundancy rules like causative-inchoative in
+English, where each of the entries has a single EP, and where the
+PRED value in one entry is systematically related to that of the
+other entry. For example, with “open”, the ERG has two entries, the
+intransitive verb with “_open_v_1”, and the transitive verb wtih
+“_open_v_caus”. On this proposal, the redundancy rule would
+replace just the SENSE value ‘1’ with ‘caus’. (Note that the LKB
+does not yet have TDL notation defined to support a definition of a
+lexentry1 as lexentry2+lexrule3, but this is not expected to be
+hard. Note also that such a redundancy rule is a descriptive device,
+not a unary rule to be applied in parsing or generation, since it
+does not preserve monotonicity of the MRS. (But it was suggested
+that this monotonicity could be preserved if the entry for ‘open’
+were underspecified for SENSE, with two rules, one for inchoative
+and one for causative.))</li>
+  <li>Improving treatment of subregularities for verb-particles, such as
+with semi-productive “up” as in “wake up”. Here it is good to have
+SENSE as a type, since we could arrange its value here to be
+something like the following, in order to capture the
+causative-inchoative alternation for “wake up”. up caus
+    <ul>
+      <li>\ /</li>
+    </ul>
+
+    <p>up-caus</p>
+  </li>
+</ul>
+
+<h3 id="non-restrictive-relative-clauses">Non-restrictive relative clauses</h3>
+
+<p>The following MRS is proposed for non-restrictive relatives, making them
+analogous to appositions. For this example:</p>
+
+<p>Dogs, which bark, sleep.</p>
+
+<p>the target MRS will be roughly as follows, introducing a distinguished
+quantifier (ignoring HCONS here):</p>
+
+<p>l1:dog_n(x1)</p>
+
+<p>l2:udef_q(x1,h1,h2)</p>
+
+<p>l1:appos(x1,x2)</p>
+
+<p>l3:nonrestr_q(x2,h3,h4)</p>
+
+<p>l4:generic_nom(x2)</p>
+
+<p>l4:bark_v(e1,x2)</p>
+
+<p>l5:sleep_v(e2,x1)</p>
+
+<h3 id="predicate-hierarchies">Predicate Hierarchies</h3>
+
+<p>It would be interesting to add external hierarchies (for descriptions or
+denotations) to the current predicates. However, this is a non-trivial
+extension to the current software.</p>
+
+<p>These hierarchies would have to be made available to MRS manipulation
+routines such as MRS comparison and generation.</p>
+
+<p>Currently at last two kinds of groupings have been proposed:</p>
+
+<p>(a) subsumption relations</p>
+
+<ul>
+  <li>(a-1) subsumption relations with fixed arity (can be used to
+underspecify generation)</li>
+</ul>
+
+<p>(b) lemma-pos-sense underspecification</p>
+
+<p>Such hierarchies could be description level (bottoming out in MRSs) or
+denotation level (bearing a relationship to ontological truth within
+some domain). They would also be application/domain/MT-pair dependent,
+which particular applications calling the appropriate hierarchies at
+appropriate points.</p>
+
+<p>FCB volunteers to cheerfully test this in MT.</p>
+
+<h3 id="eps-v-properties">EPs v. properties</h3>
+
+<p>How do we decide for any piece of information we would like to encode in
+the MRS whether it should be a variable property or an EP? Some
+guidelines:</p>
+
+<ol>
+  <li>If it is constrained by multiple things in the syntax, it is more
+convenient for it to be a feature. It may be possible to specialize
+PRED values from multiple sources, but that might also violate
+compositionality.</li>
+  <li>If it takes more than one argument, it should be an EP.</li>
+  <li>Quantifiers have to be EPs, even though compositionally they only
+take one argument (never directly associating their BODY element
+with anything), because it’s not enough to know which variable they
+are associated with: In “All brown dogs bark”, there are ‘x’s
+appearing in brown, dog, and bark, and we need to know which belong
+in the definition of which of the sets that the quantifier is
+comparing (RSTR/BODY).</li>
+  <li>Being scope-taking, however, is not enough to require something to
+be an EP: Tense can bear scope, but knowing which event the tense is
+associated with is enough to know what its scope possibilities are,
+so tense can be a variable property.</li>
+</ol>
+
+<p>Last update: 2021-07-01 by Alexandre Rademaker [<a href="https://github.com/delph-in/docs/wiki/RmrsDesign/_edit">edit</a>]</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+<!--Scroll the navbar to the current page-->
+<script type="text/javascript">
+  let el = document.querySelector('.nav__list .active');
+  if(el){
+    el.scrollIntoView({block: "center", inline: "start"});
+  }
+</script>
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/docs/tools/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/docs/tools/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/docs/tools/assets/js/lunr/lunr.min.js"></script>
+<script src="/docs/tools/assets/js/lunr/lunr-store.js"></script>
+<script src="/docs/tools/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

@@ -1,0 +1,877 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>DELPH-IN Tools</title>
+<meta name="description" content="An amazing website.">
+
+
+  <meta name="author" content="Your Name">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="DELPH-IN Tools">
+<meta property="og:title" content="DELPH-IN Tools">
+<meta property="og:url" content="https://delph-in.github.io/docs/tools/AceFaq/">
+
+
+  <meta property="og:description" content="An amazing website.">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://delph-in.github.io/docs/tools/AceFaq/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Your Name",
+      "url": "https://delph-in.github.io/docs/tools/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/docs/tools/feed.xml" type="application/atom+xml" rel="alternate" title="DELPH-IN Tools Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/docs/tools/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--delphin_page wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/docs/tools/"><img src="/docs/tools/assets/images/Delph-In.png" alt="DELPH-IN Tools"></a>
+        
+        <a class="site-title" href="/docs/tools/">
+          DELPH-IN Tools
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/home/Home">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/howto/DelphinWelcome">How-To</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/erg/ErgTop">ERG</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/tools/ToolsTop">Tools</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/grammars/GrammarsOverview">Grammars</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/matrix/MatrixDocsOverview">Matrix</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/summits/SummitTop">Summits</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/garage/GarageTop">Garage</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Tools</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/ToolsTop/">Overview</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">PyDelphin</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/PyDelphinTop/">Overview</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">LKB</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/LkbTop/">Overview</a></li>
+          
+            <li><a href="/docs/tools/LkbInstallation/">Installation</a></li>
+          
+            <li><a href="/docs/tools/LkbFos/">Fully Open Source Version</a></li>
+          
+            <li><a href="/docs/tools/LkbMacintosh/">Macintosh Version</a></li>
+          
+            <li><a href="/docs/tools/LkbCourses/">Courses</a></li>
+          
+            <li><a href="/docs/tools/LkbConventions/">Conventions</a></li>
+          
+            <li><a href="/docs/tools/LkbGeneration/">Generation</a></li>
+          
+            <li><a href="/docs/tools/LkbCompilation/">Compilation</a></li>
+          
+            <li><a href="/docs/tools/LkbEmacs/">Emacs</a></li>
+          
+            <li><a href="/docs/tools/LkbTrollet/">Trollet</a></li>
+          
+            <li><a href="/docs/tools/LkbSppp/">Simple PreProcessor Protocol</a></li>
+          
+            <li><a href="/docs/tools/RmrsVpm/">Variable Property Mapping (VPM)</a></li>
+          
+            <li><a href="/docs/tools/LkbLpconstraints/">LkbLpconstraints</a></li>
+          
+            <li><a href="/docs/tools/LkbUserGroup/">User Group</a></li>
+          
+            <li><a href="/docs/tools/LkbFaq/">FAQ</a></li>
+          
+            <li><a href="/docs/tools/LkbMode/">Emacs FAQ</a></li>
+          
+            <li><a href="/docs/tools/LkbWishlist/">Wish list</a></li>
+          
+            <li><a href="/docs/tools/LkbBugs/">Bugs</a></li>
+          
+            <li><a href="/docs/tools/LkbCopyright/">Copyright</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">ACE Parser</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/AceTop/">Overview</a></li>
+          
+            <li><a href="/docs/tools/AceInstall/">Install</a></li>
+          
+            <li><a href="/docs/tools/AceConfiguration/">Configuration</a></li>
+          
+            <li><a href="/docs/tools/AceOptions/">Options</a></li>
+          
+            <li><a href="/docs/tools/AceUse/">Examples</a></li>
+          
+            <li><a href="/docs/tools/AceLui/">LUI Mode</a></li>
+          
+            <li><a href="/docs/tools/AceCsaw/">Csaw</a></li>
+          
+            <li><a href="/docs/tools/AceTransfer/">Transfer</a></li>
+          
+            <li><a href="/docs/tools/AceExperimental/">Experimental</a></li>
+          
+            <li><a href="/docs/tools/AceFaq/" class="active">Faq</a></li>
+          
+            <li><a href="/docs/tools/AceWishlist/">Wish list</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">LKB LUI</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/LkbLui/">Overview</a></li>
+          
+            <li><a href="/docs/tools/LuiRc/">User Configuration</a></li>
+          
+            <li><a href="/docs/tools/LuiUi/">UI Quick Reference</a></li>
+          
+            <li><a href="/docs/tools/LuiTree/">Tree</a></li>
+          
+            <li><a href="/docs/tools/LuiAvm/">Feature Structure (AVM)</a></li>
+          
+            <li><a href="/docs/tools/LuiUnification/">Unification</a></li>
+          
+            <li><a href="/docs/tools/LuiMrs/">MRS Display</a></li>
+          
+            <li><a href="/docs/tools/LuiChart/">Chart Browser</a></li>
+          
+            <li><a href="/docs/tools/LuiWishlist/">Wish list</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">LKB LexDB</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/LexDbSimplePsql/">Simple PSQL</a></li>
+          
+            <li><a href="/docs/tools/LexDbInitialize/">Initialization</a></li>
+          
+            <li><a href="/docs/tools/LexDbPsqlInitialize/">PSQL Initialization</a></li>
+          
+            <li><a href="/docs/tools/LexDbFieldMappings/">Field Mappings</a></li>
+          
+            <li><a href="/docs/tools/LkbLexDbMultiUser/">Multi-User</a></li>
+          
+            <li><a href="/docs/tools/LkbLexDbSingleUser/">Single User</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">[incr tsdb()]</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/ItsdbTop/">Overview</a></li>
+          
+            <li><a href="/docs/tools/TsdbTop/">Deep Dive</a></li>
+          
+            <li><a href="/docs/tools/ItsdbDerivations/">Derivations</a></li>
+          
+            <li><a href="/docs/tools/ItsdbProfileManipulation/">Profile Manipulation</a></li>
+          
+            <li><a href="/docs/tools/ItsdbProfile/">Profile</a></li>
+          
+            <li><a href="/docs/tools/ItsdbProfiling/">Profiling</a></li>
+          
+            <li><a href="/docs/tools/ItsdbDistributedProcessing/">Distributed Processing</a></li>
+          
+            <li><a href="/docs/tools/ItsdbBatch/">Batch</a></li>
+          
+            <li><a href="/docs/tools/ItsdbReference/">Reference</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTroubleshooting/">Troubleshooting</a></li>
+          
+            <li><a href="/docs/tools/GeFaqTsdbRc/">FAQ</a></li>
+          
+            <li><a href="/docs/tools/ItsdbWishlist/">Wish List</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Logon</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/LogonTop/">Overview</a></li>
+          
+            <li><a href="/docs/tools/LogonInstallation/">Installation</a></li>
+          
+            <li><a href="/docs/tools/LogonRedhat/">Red Hat</a></li>
+          
+            <li><a href="/docs/tools/LogonUbuntu/">Ubuntu</a></li>
+          
+            <li><a href="/docs/tools/LogonArch/">Arch Linux</a></li>
+          
+            <li><a href="/docs/tools/LogonDebian/">Debian</a></li>
+          
+            <li><a href="/docs/tools/LogonHandon/">Hands-On Release</a></li>
+          
+            <li><a href="/docs/tools/LogonSvn/">SVN</a></li>
+          
+            <li><a href="/docs/tools/LogonProcessing_BatchGeneration/">Batch Generation</a></li>
+          
+            <li><a href="/docs/tools/LogonProcessing_BatchTranslation/">Batch Translation</a></li>
+          
+            <li><a href="/docs/tools/LogonPet/">PET Integration</a></li>
+          
+            <li><a href="/docs/tools/LogonAnswer/">ACE Integration</a></li>
+          
+            <li><a href="/docs/tools/LogonExtras/">Extras</a></li>
+          
+            <li><a href="/docs/tools/LogonReports/">Reports</a></li>
+          
+            <li><a href="/docs/tools/LogonProcessing/">Processing</a></li>
+          
+            <li><a href="/docs/tools/LogonProcessing_BatchParsing/">Batch Parsing</a></li>
+          
+            <li><a href="/docs/tools/LogonModeling/">Modeling</a></li>
+          
+            <li><a href="/docs/tools/LogonOnline/">Online</a></li>
+          
+            <li><a href="/docs/tools/LogonTransfer/">Transfer</a></li>
+          
+            <li><a href="/docs/tools/LogonVpm/">Variable Property Mapping</a></li>
+          
+            <li><a href="/docs/tools/NoJa/">Setting up New Languages</a></li>
+          
+            <li><a href="/docs/tools/LogonIdiosyncrasies/">Idiosyncrasies</a></li>
+          
+            <li><a href="/docs/tools/LogonWishlist/">Wishlist</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammar Tips</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/GrammarPerformance/">Grammar Performance</a></li>
+          
+            <li><a href="/docs/tools/VersionControlForGrammarDevelopment/">Grammar Version Control</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Treebanking</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/TreebankingTop/">Overview</a></li>
+          
+            <li><a href="/docs/tools/FftbTop/">Full Forest Treebanker (FFTB)</a></li>
+          
+            <li><a href="/docs/tools/FftbWishlist/">Full Forest Treebanker Wishlist</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking/">[incr tsdb()] Treebanking</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking_ItsdbAnnotation/">[incr tsdb()] Treebanking Annotation</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking_ItsdbUpdating/">[incr tsdb()] Treebanking Updating</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking_ItsdbExporting/">[incr tsdb()] Treebanking Exporting</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking_ItsdbModeling/">[incr tsdb()] Treebanking Modeling</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking_ItsdbUpdating/">[incr tsdb()] Treebanking Updating</a></li>
+          
+            <li><a href="/docs/tools/ItsdbCustomization/">[incr tsdb()] Treebanking Customization</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking_ItsdbModeling/">[incr tsdb()] Treebanking Modeling</a></li>
+          
+            <li><a href="/docs/tools/IndraTreebanking/">Indra</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Formats</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/DelphinRFCs/">Delphin RFCs</a></li>
+          
+            <li><a href="/docs/tools/PredicateRfc/">Predicate RFC</a></li>
+          
+            <li><a href="/docs/tools/MrsRFC/">MRS Format RFC</a></li>
+          
+            <li><a href="/docs/tools/MrsIsomorphism/">MRS Isomorphism</a></li>
+          
+            <li><a href="/docs/tools/EdsTop/">EDS Format</a></li>
+          
+            <li><a href="/docs/tools/EdsConversion/">EDS Conversion</a></li>
+          
+            <li><a href="/docs/tools/EdsGeneration/">EDS Generation</a></li>
+          
+            <li><a href="/docs/tools/SemiRfc/">SEM-I RFC</a></li>
+          
+            <li><a href="/docs/tools/TdlRFC/">TDL RFC</a></li>
+          
+            <li><a href="/docs/tools/TsqlRfc/">TSQL RFC</a></li>
+          
+            <li><a href="/docs/tools/GrammarVersionRfc/">Grammar Version RFC</a></li>
+          
+            <li><a href="/docs/tools/GrammarConfigurationRfc/">Grammar Configuration RFC</a></li>
+          
+            <li><a href="/docs/tools/TsdbSchemaRfc/">TSDB Schema RFC</a></li>
+          
+            <li><a href="/docs/tools/MatrixChoicesRfc/">Matrix Choices RFC</a></li>
+          
+            <li><a href="/docs/tools/RmrsTop/">(R)MRS Overview</a></li>
+          
+            <li><a href="/docs/tools/RmrsWellformedness/">(R)MRS Wellformedness</a></li>
+          
+            <li><a href="/docs/tools/RmrsPos/">(R)MRS Predicate Naming</a></li>
+          
+            <li><a href="/docs/tools/RmrsSpan/">(R)MRS Span</a></li>
+          
+            <li><a href="/docs/tools/RmrsDesign/">(R)MRS Design</a></li>
+          
+            <li><a href="/docs/tools/RmrsParaphrasing/">(R)MRS Paraphrasing</a></li>
+          
+            <li><a href="/docs/tools/RmrsModel/">(R)MRS Model</a></li>
+          
+            <li><a href="/docs/tools/RmrsDistributional/">(R)MRS Distributional</a></li>
+          
+            <li><a href="/docs/tools/RmrsSemi/">(R)MRS Semi</a></li>
+          
+            <li><a href="/docs/tools/RmrsDmrs/">(R)MRS Dmrs</a></li>
+          
+            <li><a href="/docs/tools/RmrsFaq/">(R)MRS Faq</a></li>
+          
+            <li><a href="/docs/tools/RmrsDiscussions/">(R)MRS Discussions</a></li>
+          
+            <li><a href="/docs/tools/TransferRules/">Transfer Rules</a></li>
+          
+            <li><a href="/docs/tools/FormatSpecifications/">Format Specifications</a></li>
+          
+            <li><a href="/docs/tools/ErgGml/">Grammar Markup Language</a></li>
+          
+            <li><a href="/docs/tools/SmafTop/">SMAF</a></li>
+          
+            <li><a href="/docs/tools/SmafLkb/">SMAF in LKB</a></li>
+          
+            <li><a href="/docs/tools/SmafPet/">SMAF in PET</a></li>
+          
+            <li><a href="/docs/tools/SmafSample/">SMAF Sample</a></li>
+          
+            <li><a href="/docs/tools/SmafDtd/">SMAF DTD</a></li>
+          
+            <li><a href="/docs/tools/SafTop/">SAF Overview</a></li>
+          
+            <li><a href="/docs/tools/SafDtd/">SAF DTD</a></li>
+          
+            <li><a href="/docs/tools/IconsSpecs/">Icons Specs</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <h1 id="ace-frequently-asked-questions">ACE Frequently Asked Questions</h1>
+
+<h2 id="when-i-try-to-compile-my-grammar-with-ace-i-see-a-lot-of-errors">When I try to compile my grammar with ACE, I see a lot of errors</h2>
+
+<p>You may inadvertently be using a very old copy of ACE. If you have
+installed an older version of the LOGON distribution (dating to before
+mid-June 2013), there used to be an <strong>ace</strong> binary on your PATH which
+dates to roughly 2005. Current versions of the LOGON tree include
+up-to-date ACE binaries (invoked through a wrapper script called
+‘answer’; see the <a href="https://delph-in.github.io/docs/tools/LogonAnswer">LogonAnswer</a> page). Or, if you have a
+locally installed binary, you may try invoking a modern copy of ACE by
+its full path. Modern versions of ACE support the -V command-line option
+to report the version; if your ACE does not recognize the -V option, it
+is too old to be useful.</p>
+
+<h2 id="why-are-the-compiled-grammar-images-so-big">Why are the compiled grammar images so big?</h2>
+
+<p>The ACE precompiler prepares a complete image of the initial contents of
+memory that will be needed for runtime processing. For complex grammars,
+this can be a few hundred megabytes. The advantage of this is that ACE
+can start up and be ready to parse or generate in a matter of a few
+milliseconds, if the file is in cache.</p>
+
+<h2 id="why-isnt-ace-stripping-punctuation-like-the-lkb-or-pet">Why isn’t ACE stripping punctuation like the LKB or PET?</h2>
+
+<p>The LKB and PET used to have their own idiosyncratic methods for
+stripping punctuation, pre-dating the inclusion of Regular
+Expression-Based Pre-Processing (REPP) rules as part of each grammar.
+Older grammars may not have been upgraded yet for REPP usage. For
+example, in Jacy’s pet/japanese.set file:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  punctuation-characters := "!\\"!&amp;'()\*+,-−./;&amp;lt;=&amp;gt;?@\[\\\]^\_\`{\|}\~。！？…．　○●◎＊☆★◇◆" 
+</code></pre></div></div>
+
+<p>ACE uses the REPP tokenizer (see <a href="https://delph-in.github.io/docs/garage/ReppTop">ReppTop</a>) to accomplish this.
+The above can be made into a REPP rule as follows (where → is a tab
+character and ▁ is a space; note that special characters may need to be
+escaped):</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  !\[!"&amp;'()\*+,\\-−./;&amp;lt;=&amp;gt;?@\[\\\]^\_\`{\|}\~。！？…．　○●◎＊☆★◇◆\]→   →       ▁ 
+</code></pre></div></div>
+
+<h2 id="does-ace-use-the-maxent-model-for-both-parsing-and-generation">Does ACE use the maxent model for both parsing and generation?</h2>
+
+<p>Yes. If you want separate models, you can make two grammar images.</p>
+
+<h2 id="i-tried-using-the--l-option-for-lui-display-and-yzlui-is-on-path-but-the-display-window-closed-immediately-after-opening">I tried using the -l option for LUI display, and yzlui is on PATH, but the display window closed immediately after opening.</h2>
+
+<p>The LUI window closes when ACE exits, and ACE exits when it reaches the
+end of its input stream. If you piped sentences to ACE at the command
+line (e.g. echo ”Abrams chased Brown” | ace -g erg.dat -l), ACE will
+close as soon as it finishes parsing those sentences, and thus the LUI
+window won’t be open for long. Try using ACE without a pipe, such that
+it waits for input on STDIN:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ ace -g erg.dat -l
+Abrams chased Brown
+
+# LUI window displayed here
+# Ctrl-D exits ACE
+</code></pre></div></div>
+
+<h2 id="what-does-lexemes-do-not-span-position---message-means-when-ace-is-run-to-parse-sentences">What does “Lexemes do not span position … “ message means when ACE is run to parse sentences?</h2>
+
+<p>This message means ACE couldn’t find any appropriate feature structure
+to use for that word for the bottom of a derivation tree, so it couldn’t
+even try to build the rest of the derivation. Position N (0,1…) means
+it was the N-1 word in the sentence (0 means 1st).</p>
+
+<p>Given a surface form, ACE has to apply all the morphological rules you
+supplied (in reverse, so to speak) to hypothesize every conceivable stem
+that might give rise to that form, and then check the lexicon to see if
+any of those stems actually exist. If none of them do, that error crops
+up. It can also happen when a lexeme does exist whose stem form would
+inflect to the observed surface form but the required lexical rules fail
+to unify. Either way, the basic content of the error message is that ACE
+thinks the surface form in question is unanalyzeable according to your
+grammar. The most likely explanation is you are missing a lexeme or
+missing a morpheme / orthographemic rule.</p>
+
+<p>If you find the error surprising, you can check what hypotheses were
+generated with something like this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  echo "my sentence" | ace -g mygrammar.dat -vvv | less
+</code></pre></div></div>
+
+<p>The section of the output that you’re interested in is after “finished
+token mapping” and before “finished lexical lookup”. When I try the
+following:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  echo "eatinginging" | ace -g erg-1214.dat -vvv | less
+</code></pre></div></div>
+
+<p>the section of the output that talks about these hypotheses is something
+like this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>eatinginging -&amp;gt; eatinginging \[2 ways\]
+
+-   non\_third\_sg\_fin\_v\_rbst
+
+eatinginging -&amp;gt; eatinginge \[1 ways\]
+
+-   v\_prp\_olr
+
+eatinginging -&amp;gt; eatinging \[1 ways\]
+
+-   v\_prp\_olr
+
+eatinginging -&amp;gt; eatinge \[0 ways\] eatinginging -&amp;gt; eating \[0
+ways\] eatinginging -&amp;gt; eate \[0 ways\] eatinginging -&amp;gt; eat \[0
+ways\] .......
+
+-   lexical lookup found lexeme 'eat\_in\_v1' lexical lookup found
+    lexeme 'eat\_of\_v1' lexical lookup found lexeme 'eat\_out\_v1'
+    lexical lookup found lexeme 'eat\_up\_v1' lexical lookup found
+    lexeme 'eat1'
+</code></pre></div></div>
+
+<p>If you actually try it you’ll see the list of hypotheses is triplicated,
+because the ERG posits 3 tokens for the single input word. After each
+hypothesis is the list of rule sequences that arrive at that hypothesis,
+already somewhat filtered by rule unifiability considerations. For a
+healthy analysis, you would want to see something like the following:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pre1-stem-suf1-suf2 -&amp;gt; sten \[1 way\]
+
+-   rule-pre1-prefix rule-suf1-suffix rule-suf2-suffix
+
+</code></pre></div></div>
+
+<h2 id="i-am-fairly-sure-i-have-all-the-lexemes-and-morphemes-in-the-grammar-but-ace-fails-to-parse-the-sentence-and-gives-the-lexemes-do-not-span-position--message-why-could-that-be">I am fairly sure I have all the lexemes and morphemes in the grammar, but ACE fails to parse the sentence and gives the “lexemes do not span position …” message. Why could that be?</h2>
+
+<p>A problem may arise with polysynthetic languages. By default ACE is
+willing to entertain the possibility of up to 7 orthographemic rules
+applying to a stem before giving up. This is to protect the unwary from
+large search spaces.</p>
+
+<p>You should then see something like:</p>
+
+<blockquote>
+  <p>WARNING: ran up against orthographemic rule chain limit (configured at 7) during orthographemic analysis</p>
+</blockquote>
+
+<p>when you try to parse, although if you are parsing with art rather than
+directly with ace from the commandline, that warning will likely be
+silently ignored.</p>
+
+<p>It can be changed in your ace/config.tdl as follows:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  ortho-max-rules := 500.
+</code></pre></div></div>
+
+<p>or whatever number you like.</p>
+
+<h2 id="how-to-cite-ace">How to cite Ace?</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@inproceedings{crysmann-packard-2012-towards,
+title = "Towards Efficient {HPSG} Generation for {G}erman, a Non-Configurational Language",
+author = "Crysmann, Berthold  and
+  Packard, Woodley",
+booktitle = "Proceedings of {COLING} 2012",
+month = dec,
+year = "2012",
+address = "Mumbai, India",
+publisher = "The COLING 2012 Organizing Committee",
+url = "https://www.aclweb.org/anthology/C12-1043",
+pages = "695--710"}
+</code></pre></div></div>
+
+<p>Last update: 2021-06-21 by Alexandre Rademaker [<a href="https://github.com/delph-in/docs/wiki/AceFaq/_edit">edit</a>]</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+<!--Scroll the navbar to the current page-->
+<script type="text/javascript">
+  let el = document.querySelector('.nav__list .active');
+  if(el){
+    el.scrollIntoView({block: "center", inline: "start"});
+  }
+</script>
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/docs/tools/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/docs/tools/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/docs/tools/assets/js/lunr/lunr.min.js"></script>
+<script src="/docs/tools/assets/js/lunr/lunr-store.js"></script>
+<script src="/docs/tools/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

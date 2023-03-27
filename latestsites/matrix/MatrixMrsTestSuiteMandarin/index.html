@@ -1,0 +1,1394 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>DELPH-IN Grammar Matrix</title>
+<meta name="description" content="An amazing website.">
+
+
+  <meta name="author" content="Your Name">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="DELPH-IN Grammar Matrix">
+<meta property="og:title" content="DELPH-IN Grammar Matrix">
+<meta property="og:url" content="https://delph-in.github.io/docs/matrix/MatrixMrsTestSuiteMandarin/">
+
+
+  <meta property="og:description" content="An amazing website.">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://delph-in.github.io/docs/matrix/MatrixMrsTestSuiteMandarin/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Your Name",
+      "url": "https://delph-in.github.io/docs/matrix/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/docs/matrix/feed.xml" type="application/atom+xml" rel="alternate" title="DELPH-IN Grammar Matrix Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/docs/matrix/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--delphin_page wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/docs/matrix/"><img src="/docs/matrix/assets/images/Delph-In.png" alt="DELPH-IN Grammar Matrix"></a>
+        
+        <a class="site-title" href="/docs/matrix/">
+          DELPH-IN Grammar Matrix
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/home/Home">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/howto/DelphinWelcome">How-To</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/erg/ErgTop">ERG</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/tools/ToolsTop">Tools</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/grammars/GrammarsOverview">Grammars</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/matrix/MatrixDocsOverview">Matrix</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/summits/SummitTop">Summits</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/garage/GarageTop">Garage</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammar Matrix Docs</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixDocsOverview/">Overview</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Overview and Tools</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixTop/">Overview</a></li>
+          
+            <li><a href="/docs/matrix/MatrixGettingStarted/">Getting Started</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDevTop/">Development Overview</a></li>
+          
+            <li><a href="/docs/matrix/Updating_the_Customization_System/">Customization System</a></li>
+          
+            <li><a href="/docs/matrix/MatrixCustomizationUnitTesting/">Customization Unit Testing</a></li>
+          
+            <li><a href="/docs/matrix/MatrixCustomizationWebTesting/">Customization Web Testing</a></li>
+          
+            <li><a href="/docs/matrix/MatrixRegressionTesting/">Regression Testing</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_TestSentences/">Test Sentences</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_TestByGeneration/">Test By Generation</a></li>
+          
+            <li><a href="/docs/matrix/MatrixWishList/">Wish List</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammar Engineering</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixDevBlueprints/">Dev Blueprints</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDevConventions/">Dev Conventions</a></li>
+          
+            <li><a href="/docs/matrix/GrammarDevelopment/">Grammar Development</a></li>
+          
+            <li><a href="/docs/matrix/MatrixLibraryDevelopment/">Library Development</a></li>
+          
+            <li><a href="/docs/matrix/MatrixLibraryWishList/">Library WishList</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMorphology/">Morphology</a></li>
+          
+            <li><a href="/docs/matrix/PythonIdioms/">Python Idioms</a></li>
+          
+            <li><a href="/docs/matrix/MatrixRegressionTestingSetup/">Regression Testing Setup</a></li>
+          
+            <li><a href="/docs/matrix/MatrixRegressionTestingSetupMac/">Regression Testing Setup (Mac)</a></li>
+          
+            <li><a href="/docs/matrix/MatrixTDBProcedures/">TDB Procedures</a></li>
+          
+            <li><a href="/docs/matrix/MatrixTDB2Tables/">TDB2 Tables</a></li>
+          
+            <li><a href="/docs/matrix/MatrixValidationDebugging/">Validation Debugging</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Matrix Doc</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixDocTop/">Overview</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_AdnominalPossession/">Adnominal Possession</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_ArgumentOptionality/">Argument Optionality</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Case/">Case</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_ClausalComplements/">Clausal Complements</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_ClausalModifiers/">Clausal Modifiers</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Coordination/">Coordination</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_DirectInverse/">Direct Inverse</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Evidentials/">Evidentials</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Gender/">Gender</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_GeneralInfo/">General Info</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_ImportToolboxLexicon/">Import Toolbox Lexicon</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_InformationStructure/">Information Structure</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Lexicon/">Lexicon</a></li>
+          
+            <li><a href="/docs/matrix/matrixdef_File_Syntax/">Matrixdef File Syntax</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Morphology/">Morphology</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_NominalizedClauses/">Nominalized Clauses</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Number/">Number</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_OtherFeatures/">Other Features</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Person/">Person</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_SententialNegation/">Sentential Negation</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_TenseAspectMood/">Tense/Aspect/Mood</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_WhQuestions/">Wh Questions</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_WordOrder/">Word Order</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_YesNoQ/">YesNoQ</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">FAQ</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/GrammarEngineeringFAQ/">Grammar Engineering FAQ</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqFeatureGeometry/">Feature Geometry FAQ</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqChartTwice/">Chart Twice</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqCircularLexRule/">Circular Lex Rule</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqClickX/">Click X</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqConfusingTypo/">Confusing Typo</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqCyclicCheck/">Cyclic Check</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqDiffList/">Diff List</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqDisjunctiveValue/">Disjunctive Value</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqDistributedDisjunction/">Distributed Disjunction</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqExpandMenu/">Expand Menu</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqExpandedType/">Expanded Type</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqFeatureMultiType/">Feature Multi-Type</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqFindTypeForFeatures/">Find Type For Features</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqForgottenConstraint/">Forgotten Constraint</a></li>
+          
+            <li><a href="/docs/matrix/GeFaq/">GeFaq</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqGotoChar/">Goto Char</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqGrammarDocumentation/">Grammar Documentation</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqInteractiveUnify/">Interactive Unify</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqLkbInstallation/">LKB Installation</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqLispPromptTips/">Lisp Prompt Tips</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqLoadScript/">Load Script</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqKeyboardNotWorking/">Keyboard Not Working</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqMissingEdge/">Missing Edge</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqMissingHowTo/">Missing How-To</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqMissingRels/">Missing Rels</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNegValue/">Neg Value</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNewFeature/">New Feature</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoEntry2/">No Entry 2</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoError/">No Error</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoPossibleType/">No Possible Type</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoRule/">No Rule</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoSign/">No Sign</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNonAlpha/">Non-Alpha</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqOverApplicationLexRule/">Over Application Lex Rule</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqOrderMatters/">Order Matters</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqPasteShortcut/">Paste Shortcut</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRightBracket/">Right Bracket</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRootFail/">Root Fail</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRuleWithoutDaughter/">Rule Without Daughter</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRuleWithoutDaughters/">Rule Without Daughters</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRunawayRule1/">Runaway Rule 1</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRunawayRule2/">Runaway Rule 2</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqShowChart/">Show Chart</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqSpanningEdge/">Spanning Edge</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqSwitchingGrammars/">Switching Grammars</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqTabIndentation/">Tab Indentation</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqTdlSyntax/">TDL Syntax</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqTdlTxt/">TDL TXT</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqTypeAddendum/">Type Addendum</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqUnicodeInput/">Unicode Input</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqUnifySurprise/">Unify Surprise</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqViewEntry/">View Entry</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqViewHierarchy/">View Hierarchy</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqViewType/">View Type</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">MRS Tests</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuite/">Overview</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteBg/">Bulgarian</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteCantonese/">Cantonese</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsCatb/">Cathedral Test</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteEn/">English</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteFr/">French</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteDe/">German</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteGr/">Greek</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteIndonesian/">Indonesian</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteJa/">Japanese</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteMandarin/" class="active">Mandarin</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteNo/">Norwegian</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuitePt/">Portuguese</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteRu/">Russian</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteSv/">Swedish</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteTatoeba/">Tatoeba</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteZhTw/">ZhTw</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <p>Matrix MRS Test Suite Mandarin</p>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+      <th> </th>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>No.</strong></td>
+      <td><strong>Mandarin</strong></td>
+      <td><strong>English</strong></td>
+      <td><strong>Comment</strong></td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>11</td>
+      <td>下 了 雨 。</td>
+      <td>It rained.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td>张三 哭 了 。</td>
+      <td>Zhangsan cried.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>31</td>
+      <td>窗户 打开 了 。</td>
+      <td>The window opened.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>41</td>
+      <td>张三 追赶 了 李四 。</td>
+      <td>Zhangsan chased Lisi.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>51</td>
+      <td>张三 给 了 李四 香烟 。</td>
+      <td>Zhangsan handed Lisi the cigarette.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>61</td>
+      <td>张三 把 香烟 递 给 了 李四 。</td>
+      <td>Zhangsan handed the cigarette to Lisi.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>71</td>
+      <td>张三 用 一 根 香烟 跟 李四 打赌 下 过 雨 。</td>
+      <td>Zhangsan bet Lisi a cigarette that it rained.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>81</td>
+      <td>张三 知道 下 过 雨 。</td>
+      <td>Zhangsan knew that it rained.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>91</td>
+      <td>张三 打算 哭 。</td>
+      <td>Zhangsan intended to cry.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>101</td>
+      <td>张三 打算 让 李四 哭 。</td>
+      <td>Zhangsan intended Lisi to cry.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>111</td>
+      <td>每 一 只 猫 都 哭 了 。</td>
+      <td>Every cat cried.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>121</td>
+      <td>每 一 只 猫 都 追赶 了 某 条 狗 。</td>
+      <td>Every cat chased some dog.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>131</td>
+      <td>我 的 猫 哭 了 。</td>
+      <td>My cat cried.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>141</td>
+      <td>它 哭 了 。</td>
+      <td>It cried.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>151</td>
+      <td>猫 追赶 了 它 。</td>
+      <td>She chased it.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>161</td>
+      <td>猫 追赶 了 它 自己 。</td>
+      <td>The cat chased itself.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>171</td>
+      <td>猫 追赶 了 一 只 。</td>
+      <td>The cat chased one.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>181</td>
+      <td>我 的 哭 了 。</td>
+      <td>Mine cried.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>191</td>
+      <td>那 个 打开 了 。</td>
+      <td>That opened.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>201</td>
+      <td>猫 哭 。</td>
+      <td>Cats cry.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>211</td>
+      <td>烟草 到 了 。</td>
+      <td>Tobacco arrived.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>221</td>
+      <td>有 些 哭 。</td>
+      <td>Some cry.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>231</td>
+      <td>有 些 猫 哭 。</td>
+      <td>Some of the cats cry.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>241</td>
+      <td>一 只 猫 也 没 哭 。</td>
+      <td>No cat cried.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>251</td>
+      <td>狗 哭 了 吗 ？</td>
+      <td>Did the dog cry?</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>261</td>
+      <td>哪 一 只 狗 哭 了 ？</td>
+      <td>Which dog cried?</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>271</td>
+      <td>谁 的 狗 哭 了 ？</td>
+      <td>Whose dog cried?</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>281</td>
+      <td>追赶 张三 ！</td>
+      <td>Chase Zhangsan!</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>291</td>
+      <td>张三 想 知道 是 哪 只 狗 哭 了 。</td>
+      <td>Zhangsan wondered which dog cried.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>301</td>
+      <td>张三 想 知道 李四 哭 没 哭 。</td>
+      <td>Zhangsan wondered whether Lisi cried.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>311</td>
+      <td>那 只 张三 追赶 的 狗 哭 了 。</td>
+      <td>The dog that Zhangsan chased cried.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>321</td>
+      <td>要 追赶 的 那 只 狗 在 哭 。</td>
+      <td>The dog to chase is crying.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>331</td>
+      <td>那 只 狗 被 张三 追赶 。</td>
+      <td>The dog was chased by Zhangsan.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>341</td>
+      <td>那 只 被 张三 追赶 的 狗 哭 了 。</td>
+      <td>The dog chased by Zhangsan cried.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>351</td>
+      <td>狗 在 哭 。</td>
+      <td>The dog is crying.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>361</td>
+      <td>狗 哭 过 。</td>
+      <td>The dog has cried.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>371</td>
+      <td>狗 一直 在 哭 。</td>
+      <td>The dog has been crying.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>381</td>
+      <td>狗 以前 一直 哭 。</td>
+      <td>The dog had been crying.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>391</td>
+      <td>狗 要 哭 了 。</td>
+      <td>The dog will cry.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>401</td>
+      <td>狗 要 哭 。</td>
+      <td>The dog is going to cry.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>411</td>
+      <td>狗 会 哭 了 。</td>
+      <td>The dog could cry.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>421</td>
+      <td>狗 不 会 哭 了 。</td>
+      <td>The dog couldn’t cry.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>431</td>
+      <td>老 狗 哭 了 。</td>
+      <td>The old dog cried.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>441</td>
+      <td>狗 轻轻 地 哭 了 。</td>
+      <td>The dog cried softly.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>451</td>
+      <td>狗 很 可能 哭 了 。</td>
+      <td>The dog probably cried.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>461</td>
+      <td>狗 在 花园 里 哭 了 。</td>
+      <td>The dog cried in the garden.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>471</td>
+      <td>现在 狗 哭 了 。</td>
+      <td>The dog crys now.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>481</td>
+      <td>花园 的 狗 哭 了 。</td>
+      <td>The garden dog cried.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>491</td>
+      <td>烟草园 的 狗 哭 了 。</td>
+      <td>The tobacco garden dog cried.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>501</td>
+      <td>猫 很 老 。</td>
+      <td>The cat is old.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>511</td>
+      <td>猫 在 花园 里 。</td>
+      <td>The cat is in the garden.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>521</td>
+      <td>狗 哭 着 追赶 了 张三 。</td>
+      <td>The crying dog chased Zhangsan.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>531</td>
+      <td>被 追赶 的 狗 哭 。</td>
+      <td>Chased dogs cry.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>541</td>
+      <td>追赶 猫 很 过时 。</td>
+      <td>Chasing the cat is old.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>551</td>
+      <td>猫 追赶 张三 是 很 显然 的 。</td>
+      <td>That the cat chases Zhangsan is obvious.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>561</td>
+      <td>狗 追赶 所有 会 哭 的 东西 。</td>
+      <td>Dogs chase whatever crys.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>571</td>
+      <td>以前 狗 每 天 都 哭 。</td>
+      <td>The dog cried every day.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>581</td>
+      <td>狗 什么 时候 哭 的 ? 。</td>
+      <td>When did the dog cry?</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>591</td>
+      <td>其中 的 三 只 狗 哭 。</td>
+      <td>Three of the dogs cry.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>601</td>
+      <td>三 只 哭 。</td>
+      <td>Three cry.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>611</td>
+      <td>张三 的 狗 哭 。</td>
+      <td>Zhang’s dog crys.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>621</td>
+      <td>张三 的 哭 。</td>
+      <td>Zhang’s crys.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>631</td>
+      <td>23 只 狗 哭 。</td>
+      <td>Twenty three dogs cry.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>641</td>
+      <td>220 只 狗 哭 。</td>
+      <td>Two hundred twenty dogs cry.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>651</td>
+      <td>张三 坐 汽车 到 了 。</td>
+      <td>Zhangsan arrived by car.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>661</td>
+      <td>张三 不停 地 哭 。</td>
+      <td>Zhangsan kept crying.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>671</td>
+      <td>张三 把 猫 挤 了 进去 。</td>
+      <td>Zhangsan squeezed the cat in.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>681</td>
+      <td>张三 把 猫 挤 了 进去 。</td>
+      <td>Zhangsan squeezed in the cat.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>691</td>
+      <td>张三 的 照片 到 了 。</td>
+      <td>The picture of Zhangsan arrived.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>701</td>
+      <td>张三 把 桌子 擦 干净 了 。</td>
+      <td>Zhangsan wiped the table clean.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>711</td>
+      <td>张三 把 李四 放 在 了 花园 里 。</td>
+      <td>Zhangsan put Lisi in the garden.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>721</td>
+      <td>如果 张三 到 了 ， 狗 会 哭 。</td>
+      <td>The dog will cry if Zhangsan arrives.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>731</td>
+      <td>张三 和 李四 到 了 。</td>
+      <td>Zhangsan and Lisi arrived.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>741</td>
+      <td>张三 李四 和 狗 到 了 。</td>
+      <td>Zhangsan, Lisi and the dog arrived.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>751</td>
+      <td>狗 到 了 而且 哭 了 。</td>
+      <td>The dog arrived and cried.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>761</td>
+      <td>狗 到 了 而且 张三 哭 了 。</td>
+      <td>The dog arrived and Zhangsan cried.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>771</td>
+      <td>狗 哭 了 , 是 不 是 ? 。</td>
+      <td>The dog cried, didn’t it?</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>781</td>
+      <td>很 明显 狗 哭 了 。</td>
+      <td>It is obvious that the dog cried.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>791</td>
+      <td>张三 向 李四 保证 他 会 哭 。</td>
+      <td>Zhangsan promised Lisi to cry.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>801</td>
+      <td>张三 好像 会 哭 。</td>
+      <td>Zhangsan seems to cry.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>811</td>
+      <td>张三 相信 李四 在 哭 。</td>
+      <td>Zhangsan believes Lisi to be crying.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>821</td>
+      <td>李四 哭 打扰 了 张三 。</td>
+      <td>It bothered Zhangsan that Lisi cried.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>831</td>
+      <td>张三 花 了 十 分钟 到 。</td>
+      <td>It took Zhangsan 10 minutes to arrive.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>841</td>
+      <td>张三 让 李四 哭 。</td>
+      <td>Zhangsan left it to Lisi to cry.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>851</td>
+      <td>张三 觉得 李四 老 。</td>
+      <td>Lisi strikes Zhangsan as old.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>861</td>
+      <td>张三 觉得 李四 老 。</td>
+      <td>Zhangsan considers Lisi as old.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>871</td>
+      <td>张三 喜欢 李四 会 哭 的 想法 。</td>
+      <td>Zhangsan liked the idea that Lisi could cry.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>881</td>
+      <td>张三 从 10 点 哭 到 3 点 。</td>
+      <td>Zhangsan cried from 10 to 3.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>891</td>
+      <td>以前 张三 很 老 。</td>
+      <td>Zhangsan was very old.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>901</td>
+      <td>差不多 每 一 只 狗 都 哭 了 。</td>
+      <td>Nearly every dog cried.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>911</td>
+      <td>张三 很 轻 地 哭 。</td>
+      <td>Zhangsan cried very softly.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>921</td>
+      <td>李四 追赶 猫 打扰 了 张三 。</td>
+      <td>Lisi’s chasing of cats botherd Zhangsan.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>931</td>
+      <td>张三 追赶 猫 打扰 了 李四 。</td>
+      <td>It bothered Lisi that Zhangsan chased cats.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>941</td>
+      <td>六月 三号 到 了 。</td>
+      <td>June 3rd arrived.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>951</td>
+      <td>张三 三点 二十分 到 了 。</td>
+      <td>Zhangsan arrived at three twenty.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>961</td>
+      <td>张三 星期二 早上 到 了 。</td>
+      <td>Zhangsan arrived on Tuesday morning.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>971</td>
+      <td>那些 猫 找到 了 一种 哭 的 方法 。</td>
+      <td>The cats found a way to cry.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>981</td>
+      <td>那 只 比较 快乐 的 狗 追赶 了 李四 。</td>
+      <td>The happier dog chased Lisi.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>991</td>
+      <td>以前 花园 里 有 猫 。</td>
+      <td>There were cats in the garden.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>1001</td>
+      <td>那 只 狗 追赶 了 李四 。</td>
+      <td>That dog chased Lisi.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>1011</td>
+      <td>有 人 追赶 了 张三 。</td>
+      <td>Somebody chased Zhangsan.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>1021</td>
+      <td>张三 有 多 高兴 ？</td>
+      <td>How happy was Zhangsan?</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>1031</td>
+      <td>号码 五 让 张三 困扰 。</td>
+      <td>The number five bothers Zhangsan.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>1041</td>
+      <td>张三 可以 。</td>
+      <td>Zhangsan could.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>1051</td>
+      <td>李四 试 过 了 。</td>
+      <td>Lisi tried.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>1061</td>
+      <td>别 哭 ！</td>
+      <td>Don’t cry!</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>1071</td>
+      <td>狗 哭 着 到 了</td>
+      <td>The dog arrived crying.</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Last update: 2015-04-15 by SanghounSong [<a href="https://github.com/delph-in/docs/wiki/MatrixMrsTestSuiteMandarin/_edit">edit</a>]</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+<!--Scroll the navbar to the current page-->
+<script type="text/javascript">
+  let el = document.querySelector('.nav__list .active');
+  if(el){
+    el.scrollIntoView({block: "center", inline: "start"});
+  }
+</script>
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/docs/matrix/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/docs/matrix/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/docs/matrix/assets/js/lunr/lunr.min.js"></script>
+<script src="/docs/matrix/assets/js/lunr/lunr-store.js"></script>
+<script src="/docs/matrix/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

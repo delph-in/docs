@@ -1,0 +1,81 @@
+{% raw %}The following was the list of people invited for the Annual DELPH-IN Summit,
+at the point when this wiki was migrated from MoinMoin to GitHub.
+(It also used to provide the access control list for private pages.)
+
+This list provides an incomplete mapping from MoinMoin usernames to GitHub usernames.
+
+- GabrielAguilaMultner
+- [TaniaAvgustinova](/SlavicLab)
+- TimBaldwin
+- NuriaBel
+- [EmilyBender](/emilymbender)
+- [FrancisBond](/fcbond)
+- [JanBuys](/janmbuys)
+- UlrichCallmeier
+- [JohnCarroll](/john-a-carroll)
+- YufeiChen
+- [AnnCopestake](/anncopestake)
+- JoshuaCrowgey
+- BertholdCrysmann
+- [ChrisCurtis](/curtosis)
+- [PaulaCzarnowska](/pczarnowska)
+- [RebeccaDridan](/becdridan)
+- [GuyEmerson](/guyemerson)
+- [ZhenzhenFan](/zhenzhenfan)
+- [DanFlickinger](/danflick)
+- AntskeFokkens
+- ClaireGardent
+- AjdaGokcen
+- [MichaelGoodman](/goodmami)
+- BrandonGraves
+- [JonasGroschwitz](/jgroschwitz)
+- PetterHaugereid
+- LarsHellan
+- AurelieHerbelot
+- [MaticHorvat](/matichorvat)
+- KristenHowell
+- [DavidInman](/davidainman)
+- BerndKiefer
+- [AlexanderKoller](/alexanderkoller)
+- [AlexanderKuhnle](/AlexKuhnle)
+- [AlexLascarides](/lascarid)
+- [TuấnAnhLê](/letuananh)
+- [TuanAnhLe](/letuananh)
+- [Gyu-minLee](/gyulukeyi)
+- [NedLetcher](/ned2)
+- MatthiasLindemann
+- MontserratMarimon
+- [AngelinaMcMillanMajor](/mcmillanmajora)
+- [DavidMoeljadi](/davidmoeljadi)
+- [LuisMorgadoCosta](/lmorgadodacosta)
+- [EwaMuszynska](/emm68)
+- ElizabethNielsen
+- [StephanOepen](/oepen)
+- PetyaOsenova
+- [WoodleyPackard](/sweaglesw)
+- ZinaPozen
+- [AlexandreRademaker](/arademaker)
+- [UlrichSchaefer](/uschaefer)
+- MelanieSiegel
+- KirilSimov
+- [GlennSlayden](/glenn-slayden)
+- [SanghounSong](/sanghoun)
+- [LonnyStrunk](/lonnystrunk)
+- WeiweiSun
+- [LilingTan](/alvations)
+- [TJTrimble](/dantiston)
+- JunichiTsujii
+- HansUszkoreit
+- AntoineVenant
+- TomWasow
+- [HuangYangXiao](/capfle)
+- [HuiyuanXie](/xiehuiyuan)
+- [PingXue](/p-xue)
+- [JustinChunleiYang](/JustinChunleiYang)
+- [OlgaZamaraeva](/olzama)
+- ClaudeZhang
+- YiZhang
+- [ChowSiewYeng](/siewyeng)
+- TestUser
+
+Last update: 2021-07-23 by Guy Emerson [[edit](https://github.com/delph-in/docs/wiki/ParticipantsGroup/_edit)]{% endraw %}

@@ -1,0 +1,1783 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>DELPH-IN Grammar Matrix</title>
+<meta name="description" content="An amazing website.">
+
+
+  <meta name="author" content="Your Name">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="DELPH-IN Grammar Matrix">
+<meta property="og:title" content="DELPH-IN Grammar Matrix">
+<meta property="og:url" content="https://delph-in.github.io/docs/matrix/MatrixTDB2Tables/">
+
+
+  <meta property="og:description" content="An amazing website.">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://delph-in.github.io/docs/matrix/MatrixTDB2Tables/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Your Name",
+      "url": "https://delph-in.github.io/docs/matrix/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/docs/matrix/feed.xml" type="application/atom+xml" rel="alternate" title="DELPH-IN Grammar Matrix Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/docs/matrix/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--delphin_page wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/docs/matrix/"><img src="/docs/matrix/assets/images/Delph-In.png" alt="DELPH-IN Grammar Matrix"></a>
+        
+        <a class="site-title" href="/docs/matrix/">
+          DELPH-IN Grammar Matrix
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/home/Home">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/howto/DelphinWelcome">How-To</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/erg/ErgTop">ERG</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/tools/ToolsTop">Tools</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/grammars/GrammarsOverview">Grammars</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/matrix/MatrixDocsOverview">Matrix</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/summits/SummitTop">Summits</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/garage/GarageTop">Garage</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammar Matrix Docs</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixDocsOverview/">Overview</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Overview and Tools</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixTop/">Overview</a></li>
+          
+            <li><a href="/docs/matrix/MatrixGettingStarted/">Getting Started</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDevTop/">Development Overview</a></li>
+          
+            <li><a href="/docs/matrix/Updating_the_Customization_System/">Customization System</a></li>
+          
+            <li><a href="/docs/matrix/MatrixCustomizationUnitTesting/">Customization Unit Testing</a></li>
+          
+            <li><a href="/docs/matrix/MatrixCustomizationWebTesting/">Customization Web Testing</a></li>
+          
+            <li><a href="/docs/matrix/MatrixRegressionTesting/">Regression Testing</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_TestSentences/">Test Sentences</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_TestByGeneration/">Test By Generation</a></li>
+          
+            <li><a href="/docs/matrix/MatrixWishList/">Wish List</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammar Engineering</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixDevBlueprints/">Dev Blueprints</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDevConventions/">Dev Conventions</a></li>
+          
+            <li><a href="/docs/matrix/GrammarDevelopment/">Grammar Development</a></li>
+          
+            <li><a href="/docs/matrix/MatrixLibraryDevelopment/">Library Development</a></li>
+          
+            <li><a href="/docs/matrix/MatrixLibraryWishList/">Library WishList</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMorphology/">Morphology</a></li>
+          
+            <li><a href="/docs/matrix/PythonIdioms/">Python Idioms</a></li>
+          
+            <li><a href="/docs/matrix/MatrixRegressionTestingSetup/">Regression Testing Setup</a></li>
+          
+            <li><a href="/docs/matrix/MatrixRegressionTestingSetupMac/">Regression Testing Setup (Mac)</a></li>
+          
+            <li><a href="/docs/matrix/MatrixTDBProcedures/">TDB Procedures</a></li>
+          
+            <li><a href="/docs/matrix/MatrixTDB2Tables/" class="active">TDB2 Tables</a></li>
+          
+            <li><a href="/docs/matrix/MatrixValidationDebugging/">Validation Debugging</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Matrix Doc</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixDocTop/">Overview</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_AdnominalPossession/">Adnominal Possession</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_ArgumentOptionality/">Argument Optionality</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Case/">Case</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_ClausalComplements/">Clausal Complements</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_ClausalModifiers/">Clausal Modifiers</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Coordination/">Coordination</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_DirectInverse/">Direct Inverse</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Evidentials/">Evidentials</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Gender/">Gender</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_GeneralInfo/">General Info</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_ImportToolboxLexicon/">Import Toolbox Lexicon</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_InformationStructure/">Information Structure</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Lexicon/">Lexicon</a></li>
+          
+            <li><a href="/docs/matrix/matrixdef_File_Syntax/">Matrixdef File Syntax</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Morphology/">Morphology</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_NominalizedClauses/">Nominalized Clauses</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Number/">Number</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_OtherFeatures/">Other Features</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Person/">Person</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_SententialNegation/">Sentential Negation</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_TenseAspectMood/">Tense/Aspect/Mood</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_WhQuestions/">Wh Questions</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_WordOrder/">Word Order</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_YesNoQ/">YesNoQ</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">FAQ</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/GrammarEngineeringFAQ/">Grammar Engineering FAQ</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqFeatureGeometry/">Feature Geometry FAQ</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqChartTwice/">Chart Twice</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqCircularLexRule/">Circular Lex Rule</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqClickX/">Click X</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqConfusingTypo/">Confusing Typo</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqCyclicCheck/">Cyclic Check</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqDiffList/">Diff List</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqDisjunctiveValue/">Disjunctive Value</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqDistributedDisjunction/">Distributed Disjunction</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqExpandMenu/">Expand Menu</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqExpandedType/">Expanded Type</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqFeatureMultiType/">Feature Multi-Type</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqFindTypeForFeatures/">Find Type For Features</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqForgottenConstraint/">Forgotten Constraint</a></li>
+          
+            <li><a href="/docs/matrix/GeFaq/">GeFaq</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqGotoChar/">Goto Char</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqGrammarDocumentation/">Grammar Documentation</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqInteractiveUnify/">Interactive Unify</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqLkbInstallation/">LKB Installation</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqLispPromptTips/">Lisp Prompt Tips</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqLoadScript/">Load Script</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqKeyboardNotWorking/">Keyboard Not Working</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqMissingEdge/">Missing Edge</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqMissingHowTo/">Missing How-To</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqMissingRels/">Missing Rels</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNegValue/">Neg Value</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNewFeature/">New Feature</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoEntry2/">No Entry 2</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoError/">No Error</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoPossibleType/">No Possible Type</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoRule/">No Rule</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoSign/">No Sign</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNonAlpha/">Non-Alpha</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqOverApplicationLexRule/">Over Application Lex Rule</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqOrderMatters/">Order Matters</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqPasteShortcut/">Paste Shortcut</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRightBracket/">Right Bracket</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRootFail/">Root Fail</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRuleWithoutDaughter/">Rule Without Daughter</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRuleWithoutDaughters/">Rule Without Daughters</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRunawayRule1/">Runaway Rule 1</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRunawayRule2/">Runaway Rule 2</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqShowChart/">Show Chart</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqSpanningEdge/">Spanning Edge</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqSwitchingGrammars/">Switching Grammars</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqTabIndentation/">Tab Indentation</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqTdlSyntax/">TDL Syntax</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqTdlTxt/">TDL TXT</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqTypeAddendum/">Type Addendum</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqUnicodeInput/">Unicode Input</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqUnifySurprise/">Unify Surprise</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqViewEntry/">View Entry</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqViewHierarchy/">View Hierarchy</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqViewType/">View Type</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">MRS Tests</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuite/">Overview</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteBg/">Bulgarian</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteCantonese/">Cantonese</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsCatb/">Cathedral Test</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteEn/">English</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteFr/">French</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteDe/">German</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteGr/">Greek</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteIndonesian/">Indonesian</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteJa/">Japanese</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteMandarin/">Mandarin</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteNo/">Norwegian</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuitePt/">Portuguese</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteRu/">Russian</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteSv/">Swedish</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteTatoeba/">Tatoeba</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteZhTw/">ZhTw</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <h1 id="documentation-for-matrixtdb-tables">Documentation for MatrixTDB tables</h1>
+
+<p>Some brief notes about the tables in MatrixTDB2, what they are for, and
+what is stored in each of the columns.</p>
+
+<p>Note that we discuss MatrixTDB as the system, but the current database
+on the MySQL server on capuchin being used by the system is MatrixTDB2,
+not MatrixTDB. MatrixTDB (the database) still exists, but is no longer
+being used.</p>
+
+<h2 id="overview-of-tables">Overview of tables</h2>
+
+<p>First, what they are for, in alphabetical order:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>extr_source_profile</td>
+      <td>not used in MatrixTDB2</td>
+    </tr>
+    <tr>
+      <td>extract_profile_run</td>
+      <td>not used in MatrixTDB2</td>
+    </tr>
+    <tr>
+      <td>extract_result</td>
+      <td>not used in MatrixTDB2</td>
+    </tr>
+    <tr>
+      <td>extract_results</td>
+      <td>not used in MatrixTDB2</td>
+    </tr>
+    <tr>
+      <td>feat_grp</td>
+      <td>Puts combinations of features that are used in filters together. Every feature/value combination found in filters and imported choices files (language types) is entered as a singleton group (group with just one feature/value combo). Every ‘and’ group of feature/value combos in filters is entered as a group, i.e. with a common fg_grp_id</td>
+    </tr>
+    <tr>
+      <td>filter</td>
+      <td>Filter repository whose purpose is to match the names of the filters in s_filters.py to the IDs used as foreign keys in fltr_feat_grp.</td>
+    </tr>
+    <tr>
+      <td>fltr_feat_grp</td>
+      <td>Intersection table that matches filters up to the feature groups to which they apply. Used in combination with lt_feat_grp to get the filters that apply to a language type</td>
+    </tr>
+    <tr>
+      <td>fltr_mrs</td>
+      <td>For all filters, lists the mrs tags (aka semantic equivalence classes) that they apply to.</td>
+    </tr>
+    <tr>
+      <td>grammar</td>
+      <td>not used in MatrixTDB2</td>
+    </tr>
+    <tr>
+      <td>harv_str</td>
+      <td>Stores the harvester strings given when importing a source profile</td>
+    </tr>
+    <tr>
+      <td>item</td>
+      <td>Mirrors the item file in a [incr_tsdb()] profile with the addition of i_osp_id which is a foreign key to orig_source_profile.osp_orig_src_prof_id</td>
+    </tr>
+    <tr>
+      <td>lt</td>
+      <td>A repository of language types that have been imported, either by importing source profiles or separately</td>
+    </tr>
+    <tr>
+      <td>lt_feat_grp</td>
+      <td>Intersection table that matches language types up with the feature groups they have. Used in combination with fltr_feat_grp to find filters that are relevant to a language type</td>
+    </tr>
+    <tr>
+      <td>mrs</td>
+      <td>Stores the mrs semantics for each of the mrs tags imported</td>
+    </tr>
+    <tr>
+      <td>orig_source_profile</td>
+      <td>Stores import information about the source profiles</td>
+    </tr>
+    <tr>
+      <td>parse</td>
+      <td>Mirrors the item file in a [incr_tsdb()] profile with the addition of p_osp_id which is a foreign key to orig_source_profile.osp_orig_src_prof_id</td>
+    </tr>
+    <tr>
+      <td>res_fltr</td>
+      <td>Obsolete intersection table that stores the ‘result’ of applying a universal filter to the ‘result’ in a [incr_tsdb()] profile. Was only being used to track at most the first fail found for a given result, now not being used at all since we run through universal filters before even adding to item_tsdb, parse, result tables</td>
+    </tr>
+    <tr>
+      <td>res_sfltr</td>
+      <td>Intersection table that stores the ‘result’ of applying a specific filter to the ‘result’ in a [incr_tsdb()] profile. Currently only used to store fails, not passes or does-not-applys</td>
+    </tr>
+    <tr>
+      <td>result</td>
+      <td>Mirrors the result file in the source profile with the addition of the r_osp_id which is a foreign key to orig_source_profile.osp_orig_src_prof_id and r_esp_id which is NULL</td>
+    </tr>
+    <tr>
+      <td>seed_str</td>
+      <td>Stores the seed strings which are the harvester strings after having gone through stringmods stored in a canonical form: words, prefixes, suffixes, with all three of those being in alphabetical order</td>
+    </tr>
+    <tr>
+      <td>sp_item</td>
+      <td>Mirrors the item file in the source profile with the addition of the spi_osp_id which is a foreign key to orig_source_profile.osp_orig_src_prof_id</td>
+    </tr>
+    <tr>
+      <td>sp_parse</td>
+      <td>Mirrors the parse file in the source profile with the addition of the spp_osp_id which is a foreign key to orig_source_profile.osp_orig_src_prof_id.</td>
+    </tr>
+    <tr>
+      <td>sp_result</td>
+      <td>Mirrors the result file in the source profile with the addition of the spr_osp_id which is a foreign key to orig_source_profile.osp_orig_src_prof_id.</td>
+    </tr>
+    <tr>
+      <td>str_lst</td>
+      <td>Intersection table that maps seed strings to mrs tags</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2 id="documentation-of-columns">Documentation of columns</h2>
+
+<p>Next, for each table, some documentation of the columns. Note that these
+are grouped by function.</p>
+
+<h3 id="tables-used-to-store-source-profile-information">Tables used to store source profile information</h3>
+
+<p>These tables are updated by import_from_itsdb.py and used by
+add_permutes.py.</p>
+
+<h4 id="orig_source_profile">orig_source_profile</h4>
+
+<p>Stores import information about the source profiles</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>+----------------------+------------------+------+-----+-------------------+----------------+
+| Field                | Type             | Null | Key | Default           | Extra          |
++----------------------+------------------+------+-----+-------------------+----------------+
+| osp_orig_src_prof_id | int(10) unsigned | NO   | PRI | NULL              | auto_increment | 
+| osp_developer_name   | char(24)         | YES  |     | NULL              |                | 
+| osp_prod_date        | timestamp        | NO   |     | CURRENT_TIMESTAMP |                | 
+| osp_orig_lt_id       | int(11)          | YES  |     | NULL              |                | 
+| osp_comment          | varchar(1000)    | NO   |     |                   |                | 
++----------------------+------------------+------+-----+-------------------+----------------+
+</code></pre></div></div>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>osp_orig_src_prof_id</td>
+      <td>Primary key</td>
+    </tr>
+    <tr>
+      <td>osp_developer_name</td>
+      <td>The developer who imported the source profile</td>
+    </tr>
+    <tr>
+      <td>osp_prod_date</td>
+      <td>The date the profile was imported</td>
+    </tr>
+    <tr>
+      <td>osp_orig_ld_id</td>
+      <td>he ID of the language type that produced the profile</td>
+    </tr>
+    <tr>
+      <td>osp_comment</td>
+      <td>A user-entered description of the source profile</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="harv_str">harv_str</h4>
+
+<p>Stores the harvester strings given when importing a source profile.
+Harvester strings serve a dual purpose: They are parsed with a harvester
+grammar in order to get the mrs for the semantic equivalence class they
+represent, and they are also used by the constructor function as the
+starting point for creating the strings for that equivalence class.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>+----------------+--------------+------+-----+---------+----------------+
+| Field          | Type         | Null | Key | Default | Extra          |
++----------------+--------------+------+-----+---------+----------------+
+| hs_id          | int(11)      | NO   | PRI | NULL    | auto_increment | 
+| hs_string      | varchar(100) | NO   | MUL |         |                | 
+| hs_mrs_tag     | char(20)     | NO   | MUL |         |                | 
+| hs_init_osp_id | int(11)      | NO   |     |         |                | 
+| hs_cur_osp_id  | int(11)      | NO   | MUL |         |                | 
++----------------+--------------+------+-----+---------+----------------+
+</code></pre></div></div>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>hs_id</td>
+      <td>Primary key</td>
+    </tr>
+    <tr>
+      <td>hs_string</td>
+      <td>The harvester string</td>
+    </tr>
+    <tr>
+      <td>hs_mrs_tag</td>
+      <td>The mrs tag that labels the sem. equiv. class</td>
+    </tr>
+    <tr>
+      <td>hs_init_osp_id</td>
+      <td>The initial original source profile this string/tag combo was imported as a part of</td>
+    </tr>
+    <tr>
+      <td>hs_cur_osp_id</td>
+      <td>The most recent original source profile this string/tag combo was imported as a part of (this is how we update mrss)</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="mrs">mrs</h4>
+
+<p>The filters (and parts of the constructor function) are sensistive to
+the semantic equivalence class of the items they apply to. We use mrs
+tags to identify the equivalence classes instead of the actual mrss for
+two reasons 1) they’re much easier to manipulate (and store) and 2) this
+should help when we get to irreducibly ambiguous harvester strings.</p>
+
+<p>Because the actual mrs values will change over time, we allow multiple
+rows in this table per mrs tag. The field mrs_current flags only one
+row per mrs tag as the one to use in test suites for the current system.
+Previous mrs as preserved in case we need to create test suites
+corresponding to an older state of the system.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>+-------------+---------------+------+-----+---------+----------------+
+| Field       | Type          | Null | Key | Default | Extra          |
++-------------+---------------+------+-----+---------+----------------+
+| mrs_id      | int(11)       | NO   | PRI | NULL    | auto_increment | 
+| mrs_tag     | char(20)      | YES  | MUL | NULL    |                | 
+| mrs_value   | varchar(1000) | YES  | MUL | NULL    |                | 
+| mrs_date    | datetime      | YES  |     | NULL    |                | 
+| mrs_osp_id  | int(11)       | YES  |     | NULL    |                | 
+| mrs_current | tinyint(4)    | YES  |     | 1       |                | 
++-------------+---------------+------+-----+---------+----------------+
+</code></pre></div></div>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>mrs_id</td>
+      <td>Primary key</td>
+    </tr>
+    <tr>
+      <td>mrs_tag</td>
+      <td>Mrs semantic tag</td>
+    </tr>
+    <tr>
+      <td>mrs_vale</td>
+      <td>The hairy mrs semantics produced in the source profile by [incr_tsdb()]</td>
+    </tr>
+    <tr>
+      <td>mrs_date</td>
+      <td>NULL</td>
+    </tr>
+    <tr>
+      <td>mrs_osp_id</td>
+      <td>The ID of the original source profile the mrs was imported from</td>
+    </tr>
+    <tr>
+      <td>mrs_current</td>
+      <td>1 if this value of the tag is the current one</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="sp_item">sp_item</h4>
+
+<p>Mirrors the item file in the source profile with the addition of the
+spi_osp_id which is a foreign key to
+orig_source_profile.osp_orig_src_prof_id. sp_item stands for
+`source profile: item’ In [incr tsdb()], the item file contains the
+input items, along with information about their well-formedness, length,
+and other characteristics.</p>
+
+<p>Here are the columns:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>+----------------+------------------+------+-----+---------+----------------+
+| Field          | Type             | Null | Key | Default | Extra          |
++----------------+------------------+------+-----+---------+----------------+
+| spi_id         | int(10) unsigned | NO   | PRI | NULL    | auto_increment | 
+| spi_origin     | char(20)         | YES  |     |         |                | 
+| spi_register   | char(20)         | YES  |     |         |                | 
+| spi_format     | char(20)         | YES  |     |         |                | 
+| spi_difficulty | int(4)           | YES  |     | -1      |                | 
+| spi_category   | char(20)         | YES  |     |         |                | 
+| spi_input      | varchar(512)     | YES  |     |         |                | 
+| spi_wf         | int(4)           | YES  |     | 1       |                | 
+| spi_length     | int(4)           | YES  |     | -1      |                | 
+| spi_comment    | varchar(256)     | YES  |     |         |                | 
+| spi_author     | char(50)         | YES  |     |         |                | 
+| spi_date       | char(10)         | YES  |     |         |                | 
+| spi_osp_id     | int(11)          | NO   |     |         |                | 
++----------------+------------------+------+-----+---------+----------------+
+</code></pre></div></div>
+
+<p>Most of these are not of interest here (and will likely soon be
+suppressed). We have meaningful data in the following columns:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>spi_id</td>
+      <td>the item id</td>
+    </tr>
+    <tr>
+      <td>spi_input</td>
+      <td>the actual input string</td>
+    </tr>
+    <tr>
+      <td>spi_length</td>
+      <td>the number of words in the input string</td>
+    </tr>
+    <tr>
+      <td>spi_author</td>
+      <td>the author of the item as recorded by [incr tsdb()]</td>
+    </tr>
+    <tr>
+      <td>spi_osp_id</td>
+      <td>the ID of the original source profile the item came from (not an itsdb field)</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="sp_parse">sp_parse</h4>
+
+<p>Mirrors the parse file in the source profile with the addition of the
+spp_osp_id which is a foreign key to
+orig_source_profile.osp_orig_src_prof_id. sp_parse stands for
+`source profile: parse’ and corresponds to the [incr tsdb()] parse
+file. The parse file contains information about the processing of each
+item in a given test run. For our purposes (constructing gold standard
+profiles for comparison), most of this data is not useful. Instead,
+parse serves to link item and result, and we may end up dispensing with
+it and creating it on the fly on export.</p>
+
+<p>Here are the columns:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>+------------------+------------------+------+-----+---------+----------------+
+| Field            | Type             | Null | Key | Default | Extra          |
++------------------+------------------+------+-----+---------+----------------+
+| spp_parse_id     | int(10) unsigned | NO   | PRI | NULL    | auto_increment | 
+| spp_run_id       | int(11)          | YES  |     | -1      |                | 
+| spp_i_id         | int(11)          | NO   |     |         |                | 
+| spp_readings     | int(11)          | YES  |     | -1      |                | 
+| spp_first        | int(11)          | YES  |     | -1      |                | 
+| spp_total        | int(11)          | YES  |     | -1      |                | 
+| spp_tcpu         | int(11)          | YES  |     | -1      |                | 
+| spp_tgc          | int(11)          | YES  |     | -1      |                | 
+| spp_treal        | int(11)          | YES  |     | -1      |                | 
+| spp_words        | int(11)          | YES  |     | -1      |                | 
+| spp_l_stasks     | int(11)          | YES  |     | -1      |                | 
+| spp_ctasks       | int(11)          | YES  |     | -1      |                | 
+| spp_ftasks       | int(11)          | YES  |     | -1      |                | 
+| spp_etasks       | int(11)          | YES  |     | -1      |                | 
+| spp_stasks       | int(11)          | YES  |     | -1      |                | 
+| spp_aedges       | int(11)          | YES  |     | -1      |                | 
+| spp_pedges       | int(11)          | YES  |     | -1      |                | 
+| spp_raedges      | int(11)          | YES  |     | -1      |                | 
+| spp_rpedges      | int(11)          | YES  |     | -1      |                | 
+| spp_unifications | int(11)          | YES  |     | -1      |                | 
+| spp_copies       | int(11)          | YES  |     | -1      |                | 
+| spp_conses       | int(11)          | YES  |     | -1      |                | 
+| spp_symbols      | int(11)          | YES  |     | -1      |                | 
+| spp_others       | int(11)          | YES  |     | -1      |                | 
+| spp_gcs          | int(11)          | YES  |     | -1      |                | 
+| spp_i_load       | int(11)          | YES  |     | -1      |                | 
+| spp_a_load       | int(11)          | YES  |     | -1      |                | 
+| spp_date         | char(22)         | YES  |     |         |                | 
+| spp_error        | varchar(1000)    | YES  |     |         |                | 
+| spp_comment      | varchar(1000)    | YES  |     |         |                | 
+| spp_osp_id       | int(11)          | NO   |     |         |                | 
++------------------+------------------+------+-----+---------+----------------+
+</code></pre></div></div>
+
+<p>The only ones we are actively using are as follows:</p>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>spp_parse_id</td>
+      <td>id for this row, linked by sp_result</td>
+    </tr>
+    <tr>
+      <td>spp_i_id</td>
+      <td>pointer to item used as input to the parse</td>
+    </tr>
+    <tr>
+      <td>spp_osp_id</td>
+      <td>id of original source profile this information came from</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="sp_result">sp_result</h4>
+
+<p>Mirrors the result file in the source profile with the addition of the
+spr_osp_id which is a foreign key to
+orig_source_profile.osp_orig_src_prof_id. sp_result stands for
+`source profile: result’ and corresponds to the [incr tsdb()] result
+file. The result file contains information about the result of
+processing of each item in a given test run, including the derivation
+and the output MRS. Again, there are many columns we are not using
+(which are in there initially to mirror the [incr tsdb()] tables). The
+ones we are using are glossed below:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>+----------------+------------------+------+-----+---------+----------------+
+| Field          | Type             | Null | Key | Default | Extra          |
++----------------+------------------+------+-----+---------+----------------+
+| spr_parse_id   | int(11)          | NO   | MUL |         |                | 
+| spr_result_id  | int(10) unsigned | NO   | PRI | NULL    | auto_increment | 
+| spr_time       | int(11)          | YES  |     | -1      |                | 
+| spr_ctasks     | int(11)          | YES  |     | -1      |                | 
+| spr_ftasks     | int(11)          | YES  |     | -1      |                | 
+| spr_etasks     | int(11)          | YES  |     | -1      |                | 
+| spr_stasks     | int(11)          | YES  |     | -1      |                | 
+| spr_size       | int(11)          | YES  |     | -1      |                | 
+| spr_aedges     | int(11)          | YES  |     | -1      |                | 
+| spr_pedges     | int(11)          | YES  |     | -1      |                | 
+| spr_derivation | varchar(1000)    | YES  |     |         |                | 
+| spr_surface    | varchar(1000)    | YES  |     |         |                | 
+| spr_tree       | varchar(1000)    | YES  |     |         |                | 
+| spr_mrs        | varchar(1000)    | YES  |     |         |                | 
+| spr_flags      | varchar(24)      | YES  |     |         |                | 
+| spr_wf         | tinyint(4)       | YES  |     | 1       |                | 
+| spr_osp_id     | int(11)          | NO   |     |         |                | 
++----------------+------------------+------+-----+---------+----------------+
+</code></pre></div></div>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>spr_parse_id</td>
+      <td>pointer to row in sp_parse table and through it, row in sp_item</td>
+    </tr>
+    <tr>
+      <td>spr_result_id</td>
+      <td>id for this result</td>
+    </tr>
+    <tr>
+      <td>spr_mrs</td>
+      <td>tag corresponding to actual mrs value to be found in the mrs table; itsdb would have an actual mrs here</td>
+    </tr>
+    <tr>
+      <td>spr_wf</td>
+      <td>?</td>
+    </tr>
+    <tr>
+      <td>spr_osp_id</td>
+      <td>id of original source profile this information came from</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="tables-for-storing-master-item-list">Tables for storing master item list</h3>
+
+<p>After we import items, we then run add_permutes to make a master list
+of derived items on the basis of the imported ones. We store these
+derived items in the tables item_tsdb, parse, result, which are
+parallel to sp_item, sp_parse, and sp_result.</p>
+
+<p>Note: add_permutes only adds those items to item_tsdb/parse/result
+that pass all universal filters.</p>
+
+<h4 id="seed_str">seed_str</h4>
+
+<p>Stores the seed strings which are the harvester strings after having
+gone through stringmods stored in a canonical form: words, prefixes,
+suffixes, with all three of those being in alphabetical order.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>+----------------+--------------+------+-----+---------+----------------+
+| Field          | Type         | Null | Key | Default | Extra          |
++----------------+--------------+------+-----+---------+----------------+
+| seed_id        | int(11)      | NO   | PRI | NULL    | auto_increment | 
+| seed_str_value | varchar(100) | YES  |     | NULL    |                | 
++----------------+--------------+------+-----+---------+----------------+
+</code></pre></div></div>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>seed_id</td>
+      <td>Primary key</td>
+    </tr>
+    <tr>
+      <td>seed_str_value</td>
+      <td>Seed string in normalized form</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="str_lst">str_lst</h4>
+
+<p>Intersection table that maps seed strings to mrs tags.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>+--------------+------------------+------+-----+---------+----------------+
+| Field        | Type             | Null | Key | Default | Extra          |
++--------------+------------------+------+-----+---------+----------------+
+| sl_id        | int(11)          | NO   | PRI | NULL    | auto_increment | 
+| sl_mrs_tag   | char(20)         | YES  |     | NULL    |                | 
+| sl_seed_type | char(2)          | YES  |     | NULL    |                | 
+| sl_seed_id   | int(10) unsigned | YES  |     | NULL    |                | 
++--------------+------------------+------+-----+---------+----------------+
+</code></pre></div></div>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>sl_id</td>
+      <td>Primary key</td>
+    </tr>
+    <tr>
+      <td>sl_mrs_tag</td>
+      <td>The semantic mrs tag this seed string belongs to. Can serve as a foreign key to mrs.mrs_tag and result.r_mrs.</td>
+    </tr>
+    <tr>
+      <td>sl_seed_type</td>
+      <td>intended to indicate seed/harv status; currently NULL</td>
+    </tr>
+    <tr>
+      <td>sl_seed_id</td>
+      <td>Foreign key to seed_str.seed_id</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="item">item</h4>
+
+<p>Mirrors the item file in a [incr_tsdb()] profile with the addition of
+i_osp_id which is a foreign key to
+orig_source_profile.osp_orig_src_prof_id.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>+--------------+------------------+------+-----+---------+----------------+
+| Field        | Type             | Null | Key | Default | Extra          |
++--------------+------------------+------+-----+---------+----------------+
+| i_id         | int(10) unsigned | NO   | PRI | NULL    | auto_increment | 
+| i_origin     | char(20)         | YES  |     |         |                | 
+| i_register   | char(20)         | YES  |     |         |                | 
+| i_format     | char(20)         | YES  |     |         |                | 
+| i_difficulty | int(4)           | YES  |     | -1      |                | 
+| i_category   | char(20)         | YES  |     |         |                | 
+| i_input      | varchar(512)     | YES  | MUL |         |                | 
+| i_wf         | int(4)           | YES  |     | 1       |                | 
+| i_length     | int(4)           | YES  |     | -1      |                | 
+| i_comment    | varchar(256)     | YES  |     |         |                | 
+| i_author     | char(50)         | YES  |     |         |                | 
+| i_date       | char(10)         | YES  |     |         |                | 
+| i_osp_id     | int(11)          | NO   |     |         |                | 
++--------------+------------------+------+-----+---------+----------------+
+</code></pre></div></div>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>i_id</td>
+      <td>Primary key</td>
+    </tr>
+    <tr>
+      <td>i_input</td>
+      <td>string, as created by add_permutes.py</td>
+    </tr>
+    <tr>
+      <td>i_length</td>
+      <td>length of string in words</td>
+    </tr>
+    <tr>
+      <td>i_author</td>
+      <td>records add_permutes.py as the author of the item</td>
+    </tr>
+    <tr>
+      <td>i_osp_id</td>
+      <td>original source profile that the harvester string the item is based on comes from</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="parse">parse</h4>
+
+<p>Mirrors the item file in a [incr_tsdb()] profile with the addition of
+p_osp_id which is a foreign key to
+orig_source_profile.osp_orig_src_prof_id.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> +----------------+------------------+------+-----+---------+----------------+
+| Field          | Type             | Null | Key | Default | Extra          |
++----------------+------------------+------+-----+---------+----------------+
+| p_parse_id     | int(10) unsigned | NO   | PRI | NULL    | auto_increment | 
+| p_run_id       | int(11)          | YES  |     | -1      |                | 
+| p_i_id         | int(11)          | NO   | MUL |         |                | 
+| p_readings     | int(11)          | YES  |     | -1      |                | 
+| p_first        | int(11)          | YES  |     | -1      |                | 
+| p_total        | int(11)          | YES  |     | -1      |                | 
+| p_tcpu         | int(11)          | YES  |     | -1      |                | 
+| p_tgc          | int(11)          | YES  |     | -1      |                | 
+| p_treal        | int(11)          | YES  |     | -1      |                | 
+| p_words        | int(11)          | YES  |     | -1      |                | 
+| p_l_stasks     | int(11)          | YES  |     | -1      |                | 
+| p_ctasks       | int(11)          | YES  |     | -1      |                | 
+| p_ftasks       | int(11)          | YES  |     | -1      |                | 
+| p_etasks       | int(11)          | YES  |     | -1      |                | 
+| p_stasks       | int(11)          | YES  |     | -1      |                | 
+| p_aedges       | int(11)          | YES  |     | -1      |                | 
+| p_pedges       | int(11)          | YES  |     | -1      |                | 
+| p_raedges      | int(11)          | YES  |     | -1      |                | 
+| p_rpedges      | int(11)          | YES  |     | -1      |                | 
+| p_unifications | int(11)          | YES  |     | -1      |                | 
+| p_copies       | int(11)          | YES  |     | -1      |                | 
+| p_conses       | int(11)          | YES  |     | -1      |                | 
+| p_symbols      | int(11)          | YES  |     | -1      |                | 
+| p_others       | int(11)          | YES  |     | -1      |                | 
+| p_gcs          | int(11)          | YES  |     | -1      |                | 
+| p_i_load       | int(11)          | YES  |     | -1      |                | 
+| p_a_load       | int(11)          | YES  |     | -1      |                | 
+| p_date         | char(22)         | YES  |     |         |                | 
+| p_error        | varchar(1000)    | YES  |     |         |                | 
+| p_comment      | varchar(1000)    | YES  |     |         |                | 
+| p_osp_id       | int(11)          | NO   |     |         |                | 
++----------------+------------------+------+-----+---------+----------------+
+</code></pre></div></div>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>p_parse_id</td>
+      <td>Primary key</td>
+    </tr>
+    <tr>
+      <td>p_i_id</td>
+      <td>id of the input item this parse corresponds to. As of now they are always the same.</td>
+    </tr>
+    <tr>
+      <td>p_osp_id</td>
+      <td>original source profile that the harvester string the item is based on comes from</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="result">result</h4>
+
+<p>Mirrors the result file in the source profile with the addition of the
+r_osp_id which is a foreign key to
+orig_source_profile.osp_orig_src_prof_id and r_esp_id which is
+NULL</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>+--------------+------------------+------+-----+---------+----------------+
+| Field        | Type             | Null | Key | Default | Extra          |
++--------------+------------------+------+-----+---------+----------------+
+| r_parse_id   | int(11)          | NO   | MUL |         |                | 
+| r_result_id  | int(10) unsigned | NO   | PRI | NULL    | auto_increment | 
+| r_time       | int(11)          | YES  |     | -1      |                | 
+| r_ctasks     | int(11)          | YES  |     | -1      |                | 
+| r_ftasks     | int(11)          | YES  |     | -1      |                | 
+| r_etasks     | int(11)          | YES  |     | -1      |                | 
+| r_stasks     | int(11)          | YES  |     | -1      |                | 
+| r_size       | int(11)          | YES  |     | -1      |                | 
+| r_aedges     | int(11)          | YES  |     | -1      |                | 
+| r_pedges     | int(11)          | YES  |     | -1      |                | 
+| r_derivation | varchar(1000)    | YES  |     |         |                | 
+| r_surface    | varchar(1000)    | YES  |     |         |                | 
+| r_tree       | varchar(1000)    | YES  |     |         |                | 
+| r_mrs        | varchar(1000)    | YES  | MUL |         |                | 
+| r_flags      | varchar(24)      | YES  |     |         |                | 
+| r_wf         | tinyint(4)       | YES  |     | 1       |                | 
+| r_osp_id     | int(11)          | NO   |     |         |                | 
+| r_esp_id     | int(11)          | YES  |     | NULL    |                | 
++--------------+------------------+------+-----+---------+----------------+
+</code></pre></div></div>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>r_parse_id</td>
+      <td>parse row this result corresponds to. As of now, the IDs are always the same.</td>
+    </tr>
+    <tr>
+      <td>r_result_id</td>
+      <td>id for this result. As of now, the result, parse, and item IDs are always the same</td>
+    </tr>
+    <tr>
+      <td>r_mrs</td>
+      <td>mrs tag corresponding to mrs_value in mrs</td>
+    </tr>
+    <tr>
+      <td>r_wf</td>
+      <td>1 if this result passes all universal filters, 0 if it fails at least one; filled in by stored procedure in MatrixTDB</td>
+    </tr>
+    <tr>
+      <td>r_osp_id</td>
+      <td>original source profile that the harvester item the result is based on comes from</td>
+    </tr>
+    <tr>
+      <td>r_esp_id</td>
+      <td>NULL. Originally intended to be most recent profile this has been exported to?</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="tables-for-language-types-and-filters">Tables for language types and filters</h3>
+
+<p>These tables are used by sql_lg_type (to import language types),
+run_specific_filters (to run the master items through specific filters
+and record their pass/fail results), and generate_s_profile (to
+generate a validation [incr_tsdb()] profile).</p>
+
+<h4 id="feat_grp">feat_grp</h4>
+
+<p>This table stores groups of features referred to elsewhere. There are
+singleton groups (containing just one feature) and larger groups. The
+largest groups (whole language types) aren’t stored here, but rather in
+lt_feat_grp (see below). The non-singleton groups which are stored
+here are the conjunctions referred to by filters.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>+-----------+----------+------+-----+---------+----------------+
+| Field     | Type     | Null | Key | Default | Extra          |
++-----------+----------+------+-----+---------+----------------+
+| fg_id     | int(11)  | NO   | PRI | NULL    | auto_increment | 
+| fg_grp_id | int(11)  | YES  | MUL | NULL    |                | 
+| fg_feat   | char(20) | YES  | MUL | NULL    |                | 
+| fg_value  | char(20) | YES  |     | NULL    |                | 
++-----------+----------+------+-----+---------+----------------+
+</code></pre></div></div>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>fg_id</td>
+      <td>Primary key</td>
+    </tr>
+    <tr>
+      <td>fg_grp_id</td>
+      <td>the ID of the feature group</td>
+    </tr>
+    <tr>
+      <td>fg_feat</td>
+      <td>feature name</td>
+    </tr>
+    <tr>
+      <td>fg_value</td>
+      <td>feature value</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="filter">filter</h4>
+
+<p>Filter repository whose purpose is to match the names of the filters in
+s_filters.py to the IDs used as foreign keys in fltr_feat_grp.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>+-------------+-----------+------+-----+---------+----------------+
+| Field       | Type      | Null | Key | Default | Extra          |
++-------------+-----------+------+-----+---------+----------------+
+| filter_id   | int(11)   | NO   | PRI | NULL    | auto_increment | 
+| filter_name | char(100) | YES  |     | NULL    |                | 
+| filter_type | char(2)   | YES  |     | s       |                | 
++-------------+-----------+------+-----+---------+----------------+
+</code></pre></div></div>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>filter_id</td>
+      <td>Primary key</td>
+    </tr>
+    <tr>
+      <td>filter_name</td>
+      <td>The name member of the filter in s_filters.py</td>
+    </tr>
+    <tr>
+      <td>filter_type</td>
+      <td>Either ‘u’ for universal or ‘s’ for specific. Now we’re just using ‘s’ since add_permutes only enters those items that pass all universal filters and we’re skipping run_u_filters.py which used this table for ‘u’ filters.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="fltr_feat_grp">fltr_feat_grp</h4>
+
+<p>Intersection table that stores the feature groups that each specific
+filter cares about. These feature groups are the specification of the
+language types that the filter applies to. Used in combination with
+lt_feat_grp to get the filters thatapply to a language type</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>+-------------+---------+------+-----+---------+----------------+
+| Field       | Type    | Null | Key | Default | Extra          |
++-------------+---------+------+-----+---------+----------------+
+| ffg_id      | int(11) | NO   | PRI | NULL    | auto_increment | 
+| ffg_fltr_id | int(11) | YES  | MUL | NULL    |                | 
+| ffg_grp_id  | int(11) | YES  | MUL | NULL    |                | 
++-------------+---------+------+-----+---------+----------------+
+</code></pre></div></div>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>ffg_id</td>
+      <td>Primary key</td>
+    </tr>
+    <tr>
+      <td>ffg_fltr_id</td>
+      <td>A foreign key to filter.filter_id</td>
+    </tr>
+    <tr>
+      <td>ffg_grp_id</td>
+      <td>A foreign key to feat_grp.fg_grp_id</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="fltr_mrs">fltr_mrs</h4>
+
+<p>NOTE: Not used in MatrixTDB2.</p>
+
+<p>Each filter has some set of semantic equivalence classes that it applies
+to. This table seems to have been intended to record that information.
+Note that there can be multiple rows with for any given filter (i.e.,
+with the same fm_fltr_id).</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>+------------+----------+------+-----+---------+----------------+
+| Field      | Type     | Null | Key | Default | Extra          |
++------------+----------+------+-----+---------+----------------+
+| fm_id      | int(11)  | NO   | PRI | NULL    | auto_increment | 
+| fm_fltr_id | int(11)  | YES  |     | NULL    |                | 
+| fm_mrs_tag | char(20) | YES  |     | NULL    |                | 
+| fm_value   | int(11)  | YES  |     | NULL    |                | 
++------------+----------+------+-----+---------+----------------+
+</code></pre></div></div>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>fm_id</td>
+      <td>row id</td>
+    </tr>
+    <tr>
+      <td>fm_fltr_id</td>
+      <td>filter id, points to filter</td>
+    </tr>
+    <tr>
+      <td>fm_mrs_tag</td>
+      <td>mrs tag, indicating equivalence class</td>
+    </tr>
+    <tr>
+      <td>fm_value</td>
+      <td>whether or not the filter applies?</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>NOTE: There is no data in this table right now. The filters are defined
+as filter objects in the python code, and they each contain as list of
+mrs tags they apply to. This information could be stored in the DB, for
+reference, I supposed, but it isn’t currently.</p>
+
+<h4 id="lt">lt</h4>
+
+<p>This table stores language types that we have worked with.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>+------------+---------------+------+-----+---------+----------------+
+| Field      | Type          | Null | Key | Default | Extra          |
++------------+---------------+------+-----+---------+----------------+
+| lt_id      | int(11)       | NO   | PRI | NULL    | auto_increment | 
+| lt_origin  | char(2)       | YES  |     | NULL    |                | 
+| lt_comment | varchar(1000) | YES  |     | NULL    |                | 
++------------+---------------+------+-----+---------+----------------+
+</code></pre></div></div>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>lt_id</td>
+      <td>Primary key</td>
+    </tr>
+    <tr>
+      <td>lt_origin</td>
+      <td>Either ‘r’ or ‘p’. Indicates whether the language type was purpose-built or randomly-generated</td>
+    </tr>
+    <tr>
+      <td>lt_comment</td>
+      <td>A user-entered comment about what the language type is</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="lt_feat_grp">lt_feat_grp</h4>
+
+<p>Intersection table that matches language types up with the feature
+groups they have. This table stores pointers from language types to the
+feature groups they comprise. On the one hand, it points to all the
+singleton group (feature-value pairs) that define the lt. On the other
+hand, it also points to the larger groups that are consistent with the
+lt definition. We update this table through create_or_update_lt() in
+sql_lg_types.py and update_all_lts_in_lfg() in
+run_specific_filters.py. We use it to find the filters that are
+appropriate for a given lt. Used in combination with fltr_feat_grp to
+find filters that are relevant to a language type.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>+------------+---------+------+-----+---------+----------------+
+| Field      | Type    | Null | Key | Default | Extra          |
++------------+---------+------+-----+---------+----------------+
+| lfg_id     | int(11) | NO   | PRI | NULL    | auto_increment | 
+| lfg_lt_id  | int(11) | YES  | MUL | NULL    |                | 
+| lfg_grp_id | int(11) | YES  | MUL | NULL    |                | 
++------------+---------+------+-----+---------+----------------+
+</code></pre></div></div>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>lfg_id</td>
+      <td>Primary key</td>
+    </tr>
+    <tr>
+      <td>lfg_lt_id</td>
+      <td>Foreign key to lt.lt_id</td>
+    </tr>
+    <tr>
+      <td>lfg_grp_id</td>
+      <td>A foreign key to feat_grp.fg_grp_id</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>One final note on this set of tables: If you are debugging the system
+and trying to figure out why a given string was not grammatical, you
+will want to know what specific filters it failed. The way to do this is
+to run the query that generate_s_profile runs when determine which
+strings fail filters specific to the relevant language type. This query,
+in a slightly different from from that used by genereate_s_profile,
+is:</p>
+
+<ul>
+  <li>SELECT filter_name FROM filter
+    <ul>
+      <li>INNER JOIN res_sfltr ON filter_id = rsf_sfltr_id</li>
+    </ul>
+
+    <p>INNER JOIN fltr_feat_grp ON rsf_sfltr_id = ffg_fltr_id</p>
+    <ul>
+      <li>INNER JOIN lt_feat_grp ON ffg_grp_id = lfg_grp_id</li>
+    </ul>
+
+    <p>WHERE rsf_value = 0</p>
+    <ul>
+      <li>AND lfg_lt_id = [lt_id] AND rsf_res_id = [result_id]</li>
+    </ul>
+  </li>
+</ul>
+
+<p>where lt_id is the lt_id of the language type you are generating the
+profile for and result_id is the id of the result you are wondering
+about. Be sure you find the ID that matches item_tsdb.i_input (the
+string) and r.r_mrs (the semantic tag) you’re wondering about. This
+will get you a list of all specific filters that the item failed. If the
+item didn’t fail any specific filters and still isn’t appearing as a
+grammatical item in your profile it probably failed a universal filter
+(in which case you won’t even have a result id for it.)</p>
+
+<h3 id="tables-for-running-filters">Tables for running filters</h3>
+
+<p>These tables are used by run_u_filters (no longer used) and
+run_specific_filters to record the results or running filters on
+string/mrs combos.</p>
+
+<h4 id="res_fltr">res_fltr</h4>
+
+<p>NOTE: No longer used since add_permutes just puts in those items that
+pass all universal filters.</p>
+
+<p>This table records the results of each universal filter on each item
+(row from result, actually) that it applies to. Now rows are created in
+this table for filter/result combinations where the filter does not
+apply to that result.</p>
+
+<p>Might get renamed to res_ufltr for clarity.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>+------------+---------+------+-----+---------+----------------+
+| Field      | Type    | Null | Key | Default | Extra          |
++------------+---------+------+-----+---------+----------------+
+| rf_id      | int(11) | NO   | PRI | NULL    | auto_increment | 
+| rf_res_id  | int(11) | YES  | MUL | NULL    |                | 
+| rf_fltr_id | int(11) | YES  |     | NULL    |                | 
+| rf_value   | int(4)  | YES  |     | NULL    |                | 
++------------+---------+------+-----+---------+----------------+
+</code></pre></div></div>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>rf_id</td>
+      <td>Primary key</td>
+    </tr>
+    <tr>
+      <td>rf_res_id</td>
+      <td>Foreign key to result.r_result_id, parse.p_parse_id, and item_tsdb.i_id</td>
+    </tr>
+    <tr>
+      <td>rf_fltr_id</td>
+      <td>Foreign key to filter.filter_id</td>
+    </tr>
+    <tr>
+      <td>rf_value</td>
+      <td>The ‘result’ of applying the filter to the ‘result’. 0 for fail, 1 for pass, 2 for does-not-apply</td>
+    </tr>
+  </tbody>
+</table>
+
+<h4 id="res_sfltr">res_sfltr</h4>
+
+<p>Intersection table that stores the ‘result’ of applying a specific
+filter to the ‘result’ in a [incr_tsdb()] profile. Currently only
+used to store fails, not passes or does-not-applys.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>+--------------+---------+------+-----+---------+----------------+
+| Field        | Type    | Null | Key | Default | Extra          |
++--------------+---------+------+-----+---------+----------------+
+| rsf_id       | int(11) | NO   | PRI | NULL    | auto_increment | 
+| rsf_res_id   | int(11) | YES  | MUL | NULL    |                | 
+| rsf_sfltr_id | int(11) | YES  | MUL | NULL    |                | 
+| rsf_value    | int(4)  | YES  |     | NULL    |                | 
++--------------+---------+------+-----+---------+----------------+
+</code></pre></div></div>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>rsf_id</td>
+      <td>row id</td>
+    </tr>
+    <tr>
+      <td>rsf_res_id</td>
+      <td>Foreign key to result.r_result_id, parse.p_parse_id, and item_tsdb.i_id</td>
+    </tr>
+    <tr>
+      <td>rsf_sfltr_id</td>
+      <td>Foreign key to filter.filter_id</td>
+    </tr>
+    <tr>
+      <td>rsf_value</td>
+      <td>The ‘result’ of applying the filter to the ‘result’. 0 for fail, 1 for pass, 2 for does-not-apply</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="ancillary-tables">Ancillary tables</h3>
+
+<p>Last update: 2009-09-17 by EmilyBender [<a href="https://github.com/delph-in/docs/wiki/MatrixTDB2Tables/_edit">edit</a>]</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+<!--Scroll the navbar to the current page-->
+<script type="text/javascript">
+  let el = document.querySelector('.nav__list .active');
+  if(el){
+    el.scrollIntoView({block: "center", inline: "start"});
+  }
+</script>
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/docs/matrix/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/docs/matrix/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/docs/matrix/assets/js/lunr/lunr.min.js"></script>
+<script src="/docs/matrix/assets/js/lunr/lunr-store.js"></script>
+<script src="/docs/matrix/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

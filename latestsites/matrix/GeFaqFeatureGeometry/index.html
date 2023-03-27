@@ -1,0 +1,875 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>DELPH-IN Grammar Matrix</title>
+<meta name="description" content="An amazing website.">
+
+
+  <meta name="author" content="Your Name">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="DELPH-IN Grammar Matrix">
+<meta property="og:title" content="DELPH-IN Grammar Matrix">
+<meta property="og:url" content="https://delph-in.github.io/docs/matrix/GeFaqFeatureGeometry/">
+
+
+  <meta property="og:description" content="An amazing website.">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://delph-in.github.io/docs/matrix/GeFaqFeatureGeometry/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Your Name",
+      "url": "https://delph-in.github.io/docs/matrix/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/docs/matrix/feed.xml" type="application/atom+xml" rel="alternate" title="DELPH-IN Grammar Matrix Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/docs/matrix/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--delphin_page wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/docs/matrix/"><img src="/docs/matrix/assets/images/Delph-In.png" alt="DELPH-IN Grammar Matrix"></a>
+        
+        <a class="site-title" href="/docs/matrix/">
+          DELPH-IN Grammar Matrix
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/home/Home">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/howto/DelphinWelcome">How-To</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/erg/ErgTop">ERG</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/tools/ToolsTop">Tools</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/grammars/GrammarsOverview">Grammars</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/matrix/MatrixDocsOverview">Matrix</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/summits/SummitTop">Summits</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/garage/GarageTop">Garage</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammar Matrix Docs</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixDocsOverview/">Overview</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Overview and Tools</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixTop/">Overview</a></li>
+          
+            <li><a href="/docs/matrix/MatrixGettingStarted/">Getting Started</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDevTop/">Development Overview</a></li>
+          
+            <li><a href="/docs/matrix/Updating_the_Customization_System/">Customization System</a></li>
+          
+            <li><a href="/docs/matrix/MatrixCustomizationUnitTesting/">Customization Unit Testing</a></li>
+          
+            <li><a href="/docs/matrix/MatrixCustomizationWebTesting/">Customization Web Testing</a></li>
+          
+            <li><a href="/docs/matrix/MatrixRegressionTesting/">Regression Testing</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_TestSentences/">Test Sentences</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_TestByGeneration/">Test By Generation</a></li>
+          
+            <li><a href="/docs/matrix/MatrixWishList/">Wish List</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammar Engineering</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixDevBlueprints/">Dev Blueprints</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDevConventions/">Dev Conventions</a></li>
+          
+            <li><a href="/docs/matrix/GrammarDevelopment/">Grammar Development</a></li>
+          
+            <li><a href="/docs/matrix/MatrixLibraryDevelopment/">Library Development</a></li>
+          
+            <li><a href="/docs/matrix/MatrixLibraryWishList/">Library WishList</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMorphology/">Morphology</a></li>
+          
+            <li><a href="/docs/matrix/PythonIdioms/">Python Idioms</a></li>
+          
+            <li><a href="/docs/matrix/MatrixRegressionTestingSetup/">Regression Testing Setup</a></li>
+          
+            <li><a href="/docs/matrix/MatrixRegressionTestingSetupMac/">Regression Testing Setup (Mac)</a></li>
+          
+            <li><a href="/docs/matrix/MatrixTDBProcedures/">TDB Procedures</a></li>
+          
+            <li><a href="/docs/matrix/MatrixTDB2Tables/">TDB2 Tables</a></li>
+          
+            <li><a href="/docs/matrix/MatrixValidationDebugging/">Validation Debugging</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Matrix Doc</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixDocTop/">Overview</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_AdnominalPossession/">Adnominal Possession</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_ArgumentOptionality/">Argument Optionality</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Case/">Case</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_ClausalComplements/">Clausal Complements</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_ClausalModifiers/">Clausal Modifiers</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Coordination/">Coordination</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_DirectInverse/">Direct Inverse</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Evidentials/">Evidentials</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Gender/">Gender</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_GeneralInfo/">General Info</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_ImportToolboxLexicon/">Import Toolbox Lexicon</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_InformationStructure/">Information Structure</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Lexicon/">Lexicon</a></li>
+          
+            <li><a href="/docs/matrix/matrixdef_File_Syntax/">Matrixdef File Syntax</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Morphology/">Morphology</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_NominalizedClauses/">Nominalized Clauses</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Number/">Number</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_OtherFeatures/">Other Features</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Person/">Person</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_SententialNegation/">Sentential Negation</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_TenseAspectMood/">Tense/Aspect/Mood</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_WhQuestions/">Wh Questions</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_WordOrder/">Word Order</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_YesNoQ/">YesNoQ</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">FAQ</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/GrammarEngineeringFAQ/">Grammar Engineering FAQ</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqFeatureGeometry/" class="active">Feature Geometry FAQ</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqChartTwice/">Chart Twice</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqCircularLexRule/">Circular Lex Rule</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqClickX/">Click X</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqConfusingTypo/">Confusing Typo</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqCyclicCheck/">Cyclic Check</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqDiffList/">Diff List</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqDisjunctiveValue/">Disjunctive Value</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqDistributedDisjunction/">Distributed Disjunction</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqExpandMenu/">Expand Menu</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqExpandedType/">Expanded Type</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqFeatureMultiType/">Feature Multi-Type</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqFindTypeForFeatures/">Find Type For Features</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqForgottenConstraint/">Forgotten Constraint</a></li>
+          
+            <li><a href="/docs/matrix/GeFaq/">GeFaq</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqGotoChar/">Goto Char</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqGrammarDocumentation/">Grammar Documentation</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqInteractiveUnify/">Interactive Unify</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqLkbInstallation/">LKB Installation</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqLispPromptTips/">Lisp Prompt Tips</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqLoadScript/">Load Script</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqKeyboardNotWorking/">Keyboard Not Working</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqMissingEdge/">Missing Edge</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqMissingHowTo/">Missing How-To</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqMissingRels/">Missing Rels</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNegValue/">Neg Value</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNewFeature/">New Feature</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoEntry2/">No Entry 2</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoError/">No Error</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoPossibleType/">No Possible Type</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoRule/">No Rule</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoSign/">No Sign</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNonAlpha/">Non-Alpha</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqOverApplicationLexRule/">Over Application Lex Rule</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqOrderMatters/">Order Matters</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqPasteShortcut/">Paste Shortcut</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRightBracket/">Right Bracket</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRootFail/">Root Fail</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRuleWithoutDaughter/">Rule Without Daughter</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRuleWithoutDaughters/">Rule Without Daughters</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRunawayRule1/">Runaway Rule 1</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRunawayRule2/">Runaway Rule 2</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqShowChart/">Show Chart</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqSpanningEdge/">Spanning Edge</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqSwitchingGrammars/">Switching Grammars</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqTabIndentation/">Tab Indentation</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqTdlSyntax/">TDL Syntax</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqTdlTxt/">TDL TXT</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqTypeAddendum/">Type Addendum</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqUnicodeInput/">Unicode Input</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqUnifySurprise/">Unify Surprise</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqViewEntry/">View Entry</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqViewHierarchy/">View Hierarchy</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqViewType/">View Type</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">MRS Tests</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuite/">Overview</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteBg/">Bulgarian</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteCantonese/">Cantonese</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsCatb/">Cathedral Test</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteEn/">English</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteFr/">French</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteDe/">German</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteGr/">Greek</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteIndonesian/">Indonesian</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteJa/">Japanese</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteMandarin/">Mandarin</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteNo/">Norwegian</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuitePt/">Portuguese</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteRu/">Russian</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteSv/">Swedish</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteTatoeba/">Tatoeba</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteZhTw/">ZhTw</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <h1 id="grammar-engineering-frequently-asked-questions">Grammar Engineering Frequently Asked Questions</h1>
+
+<h2 id="what-is-the-feature-geometry-assigned-in-the-matrix-or-how-do-i-figure-out-what-paths-i-need-to-use">What is the feature geometry assigned in the Matrix? (Or: How do I figure out what paths I need to use?)</h2>
+
+<p>It’s not possible to exhaustively describe the feature geometry for at
+least two reasons:</p>
+
+<ol>
+  <li>It’s not the same for every sign (consider the features inside COMPS
+on transitive versus intransitive verbs).</li>
+  <li>It’s not static: Anyone using the Matrix is adding features.
+Furthermore, depending on how you configured the Matrix (if you’re
+using the modules and the configuration script), you might have
+slightly different feature sets (e.g., with or without AUX).</li>
+</ol>
+
+<p>Nonetheless, it can be useful to have a quick reference guide to the
+basic feature geometry, especially if you’re having a hard time getting
+path names right. This FAQ attempts to provide that basic guide.</p>
+
+<hr />
+
+<h3 id="outermost-features">Outermost features</h3>
+
+<p>The top level features on all signs are as follows:</p>
+
+<ul>
+  <li>STEM the orthography</li>
+  <li>SYNSEM syntactic and semantic constraints</li>
+  <li>KEY-ARG is this the daughter that should be instantiated first? (NB:
+This feature is typically set not in the definition of the sign
+itself but in the definition of a rule describing which of its
+daughters should be instantiated first.)</li>
+  <li>ARGS daughters (for lexical entries, this is just ignored; for
+phrase structure rules, it is the daughters, for lexical rules, it
+is (logically) the input)</li>
+  <li>INFLECTED is a bundle of features (“FLAG” features) that track
+whether required lexical rules have applied.</li>
+</ul>
+
+<p>In addition, phrases and lex-rules also have the following:</p>
+
+<ul>
+  <li>C-CONT constructional content (the semantic contribution of the
+phrase or lex rule)</li>
+  <li>RULE-NAME a string giving the rule a name for LKB display purposes</li>
+</ul>
+
+<p>Headed-phrases further have:</p>
+
+<ul>
+  <li>HEAD-DTR the sign that is the head-daughter, linked (by
+<strong>basic-head-only</strong>, <strong>basic-head-final</strong>, or <strong>head-initial</strong>) to
+the appropriate element of the ARGS list.</li>
+</ul>
+
+<p>Binary headed-phrases have an analogous feature</p>
+
+<ul>
+  <li>NON-HEAD-DTR the sign that is the non-head daughter.</li>
+</ul>
+
+<p>And lexical entries (lex-item) and lexical rules also have the
+following:</p>
+
+<ul>
+  <li>ALTS a place for features tracking which lexical rules an item can
+undergo (not well-developed within the Matrix as of 4/2006)</li>
+  <li>ARG-ST the argument structure of the lexical item (only on words,
+but NB we don’t do binding theory; ARG-ST is used to assist in
+cross-linguistic statements of linking facts, or the mapping of
+syntactic and semantic arugments)</li>
+</ul>
+
+<hr />
+
+<h3 id="synsem-features">Synsem Features</h3>
+
+<p>Most of the action happens within SYNSEM (either the SYNSEM of the sign
+itself, or the SYNSEM of its ARGS). Inside SYNSEM, one finds:</p>
+
+<ul>
+  <li>LOCAL syntactic and semantic information, excluding that dealing
+with non-local dependencies.</li>
+  <li>NON-LOCAL information about non-local dependencies</li>
+  <li>OPT for marking certain arguments as optional or obligatory (note
+that this feature is usually used by selecting heads inside their
+valence features)</li>
+  <li>OPT-CS a feature allowing lexical heads to specify how their
+arguments are to be interpreted (as definite or indefinite) when
+they are left unxpressed. This may be superseded by a Sem-I based
+solution. Like OPT, signs don’t specify their own OPT-CS value, but
+rather the OPT-CS value of their dependents.</li>
+  <li>LIGHT a feature useful for handling phenomena that distinguish words
+(or word-like small phrases) from phrases (see Abeille and Godard
+2003).</li>
+  <li>MODIFIED a feature used in the analysis of modification to control
+spurious ambiguity in the case of left and right modifiers.</li>
+  <li>LKEYS pointers into the semantics of lexical items, useful for
+syntax-semantic linking in defining lexical types.</li>
+</ul>
+
+<hr />
+
+<h3 id="local-features">Local features</h3>
+
+<p>Inside LOCAL, one finds the following:</p>
+
+<ul>
+  <li>CAT category (head, valence)</li>
+  <li>CONT content (semantics)</li>
+  <li>CTXT context (pragmatic information; not well developed as of
+4/2006)</li>
+  <li>AGR (syntactic) agreement</li>
+  <li>COORD a feature which distinguishes phrases that are inside of
+coordinate structures from those that are not.</li>
+  <li>COORD-REL a feature which mediates semantic composition in the case
+of coordination</li>
+  <li>COORD-STRAT a feature for distinguishing coordination strategies in
+languages which have more than one.</li>
+</ul>
+
+<h3 id="non-local-features">Non-local features</h3>
+
+<p>Inside NON-LOCAL, one finds the following features, which all take
+difference lists as their values:</p>
+
+<ul>
+  <li>SLASH long-distance dependencies (topicalization, wh-questions,
+relativization, easy-adjectives)</li>
+  <li>QUE marks the presence of wh- question words within a consituent;
+used in the analysis of wh-questions</li>
+  <li>REL marks the presence of relative pronouns within a constituent;
+used in the analysis of pied piping in relative clauses</li>
+</ul>
+
+<hr />
+
+<h3 id="category-features">Category features</h3>
+
+<p>Inside CAT, one finds the following:</p>
+
+<ul>
+  <li>HEAD Part of speech information. NB: as of 4/2006, the Matrix
+provides a hierarchy of types which serve as the value of HEAD, but
+no features for those types, beyond MOD and KEYS.</li>
+  <li>VAL Valence requirements (specifier, subject, complements)</li>
+  <li>MC distinguishes main from subordinate clauses, in case of phenomena
+sensitive to this distinction</li>
+  <li>HC-LIGHT determines the LIGHT value of a head-complement phrase with
+the current item as its head.</li>
+  <li>POSTHEAD controls order of modifiers with respect to heads</li>
+</ul>
+
+<hr />
+
+<h3 id="head-and-valence-features">Head and Valence features</h3>
+
+<p>Inside HEAD, one finds the following:</p>
+
+<ul>
+  <li>MOD list valued; either a list containing a single synsem that
+matches the kind of constituent the sign can modify, or empty.</li>
+  <li>KEYS fine-grained subclassification of part of speech types (e.g.,
+temporal v. non-temporal nouns, specific adpositions)</li>
+</ul>
+
+<p>Inside VAL, one finds the follwing, which all take lists of synsems as
+their values.</p>
+
+<ul>
+  <li>SUBJ subject of verbs, other predicates</li>
+  <li>SPR specifier of nouns, adjectives; as a basic rule of thumb,
+specifiers are semantic heads, subjects are not</li>
+  <li>COMPS complements of any kind of head</li>
+  <li>SPEC feature used by specifiers to select their heads (and therefore
+gain access to information for semantic composition)</li>
+  <li>–KEYCOMP pointer to ‘key complement’ on COMPS list.</li>
+</ul>
+
+<hr />
+
+<h3 id="content-features">Content features</h3>
+
+<p>Inside CONT as well as C-CONT, one finds the following:</p>
+
+<ul>
+  <li>HOOK information available for further semantic composition</li>
+  <li>RELS list of elementary predications (difference list to facilitate
+append)</li>
+  <li>HCONS list of handle constraints (difference list to facilitate
+append)</li>
+  <li>MSG pointer to message on RELS list.</li>
+</ul>
+
+<p>The value of RELS is a list of elementary predications, which typically
+have the following features:</p>
+
+<ul>
+  <li>LBL the handle which labels the ep.</li>
+  <li>WLINK a list used (by the underlying machinery) for linking an ep to
+the lexical item that contributed it; useful in some applications</li>
+  <li>PRED the predicate name of the relation</li>
+  <li>some list of ARGn features, each taking an index or a handle as
+their value.</li>
+</ul>
+
+<p>The value of HCONS is a list of qeqs, which have the following features:</p>
+
+<ul>
+  <li>HARG the handle with higher scope</li>
+  <li>LARG the handle with lower scope</li>
+</ul>
+
+<p>Inside HOOK, one finds the following:</p>
+
+<ul>
+  <li>LTOP local top handle</li>
+  <li>INDEX index (individual or event) of the local sign</li>
+  <li>XARG distinguished argument of the local sign, available for control
+by outside predicates</li>
+</ul>
+
+<hr />
+
+<h3 id="lexkeys">Lexkeys</h3>
+
+<p>Inside LKEYS one finds the following:</p>
+
+<ul>
+  <li>KEYREL pointer to main relation in RELS</li>
+  <li>ALTKEYREL pointer to an alternate relation in RELS</li>
+  <li>–COMPKEY pointer to the first complement’s KEY predsort</li>
+  <li>–OCOMPKEY pointer to the oblique complements’s KEY predsort</li>
+</ul>
+
+<hr />
+
+<h3 id="examples">Examples</h3>
+
+<p>Here are a couple of pdf files meant to be used as “cheat sheets” for
+reading of the path names of features you want to constrain in your
+grammars. They are not complete, but aim to present the most commonly
+used features in a readable format.</p>
+
+<ul>
+  <li><a href="http://depts.washington.edu/uwcl/docs/geo1.pdf">for phrases</a></li>
+  <li><a href="http://depts.washington.edu/uwcl/docs/geo2.pdf">for lexical
+entries</a></li>
+</ul>
+
+<p><a href="/GrammarEngineeringFaq">Back to the Grammar Engineering FAQ</a>.</p>
+
+<p>Last update: 2016-03-03 by EmilyBender [<a href="https://github.com/delph-in/docs/wiki/GeFaqFeatureGeometry/_edit">edit</a>]</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+<!--Scroll the navbar to the current page-->
+<script type="text/javascript">
+  let el = document.querySelector('.nav__list .active');
+  if(el){
+    el.scrollIntoView({block: "center", inline: "start"});
+  }
+</script>
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/docs/matrix/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/docs/matrix/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/docs/matrix/assets/js/lunr/lunr.min.js"></script>
+<script src="/docs/matrix/assets/js/lunr/lunr-store.js"></script>
+<script src="/docs/matrix/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

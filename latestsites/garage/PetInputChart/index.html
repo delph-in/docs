@@ -1,0 +1,851 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>DELPH-IN Garage</title>
+<meta name="description" content="An amazing website.">
+
+
+  <meta name="author" content="Your Name">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="DELPH-IN Garage">
+<meta property="og:title" content="DELPH-IN Garage">
+<meta property="og:url" content="https://delph-in.github.io/docs/garage/PetInputChart/">
+
+
+  <meta property="og:description" content="An amazing website.">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://delph-in.github.io/docs/garage/PetInputChart/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Your Name",
+      "url": "https://delph-in.github.io/docs/garage/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/docs/garage/feed.xml" type="application/atom+xml" rel="alternate" title="DELPH-IN Garage Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/docs/garage/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--delphin_page wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/docs/garage/"><img src="/docs/garage/assets/images/Delph-In.png" alt="DELPH-IN Garage"></a>
+        
+        <a class="site-title" href="/docs/garage/">
+          DELPH-IN Garage
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/home/Home">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/howto/DelphinWelcome">How-To</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/erg/ErgTop">ERG</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/tools/ToolsTop">Tools</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/grammars/GrammarsOverview">Grammars</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/matrix/MatrixDocsOverview">Matrix</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/summits/SummitTop">Summits</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/garage/GarageTop">Garage</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Overview</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/GarageTop/">Overview</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammar Tools</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/AgreeTop/">Agree</a></li>
+          
+            <li><a href="/docs/garage/ChartMapping/">Chart Mapping</a></li>
+          
+            <li><a href="/docs/garage/ChartMappingSetup/">Chart Mapping Setup</a></li>
+          
+            <li><a href="/docs/garage/ClimbTop/">CLIMB</a></li>
+          
+            <li><a href="/docs/garage/Climb_GClimb/">CLIMB for Germanic languages</a></li>
+          
+            <li><a href="/docs/garage/DelphinTools/">Delphin Tools</a></li>
+          
+            <li><a href="/docs/garage/EgadTop/">Erroneous Generation Analysis and Detection (EGAD)</a></li>
+          
+            <li><a href="/docs/garage/EgadInstallation/">EGAD Installation</a></li>
+          
+            <li><a href="/docs/garage/SafFspp/">Finite-State PreProcessor</a></li>
+          
+            <li><a href="/docs/garage/Climb_GClimb_German/">gCLIMB Phenomena</a></li>
+          
+            <li><a href="/docs/garage/GDeltaTop/">gDelta</a></li>
+          
+            <li><a href="/docs/garage/SpringCleaningTop/">Grammar Spring Cleaning</a></li>
+          
+            <li><a href="/docs/garage/HeartofgoldTop/">Heart of Gold</a></li>
+          
+            <li><a href="/docs/garage/HogInstallation/">Hog Installation</a></li>
+          
+            <li><a href="/docs/garage/LkbLtdb/">Linguistic Type Database</a></li>
+          
+            <li><a href="/docs/garage/ReppTop/">Regular Expression Pre-Processor</a></li>
+          
+            <li><a href="/docs/garage/RmrsDmrsComparison/">Rmrs/Dmrs Comparison</a></li>
+          
+            <li><a href="/docs/garage/ClimbShortClimb/">SHORT-CLIMB</a></li>
+          
+            <li><a href="/docs/garage/TestingWithAnt/">Testing With Ant</a></li>
+          
+            <li><a href="/docs/garage/TypediffTop/">Typediff</a></li>
+          
+            <li><a href="/docs/garage/VistaExtractionTop/">Vista Extraction</a></li>
+          
+            <li><a href="/docs/garage/PhenomenaTop/">Phenomena</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Completed Projects</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/RedwoodsTop/">Redwoods</a></li>
+          
+            <li><a href="/docs/garage/WeScience/">WeScience</a></li>
+          
+            <li><a href="/docs/garage/DeepBank/">DeepBank</a></li>
+          
+            <li><a href="/docs/garage/DeepBank_OneZero/">DeepBank 1.0</a></li>
+          
+            <li><a href="/docs/garage/WikiWoods/">WikiWoods</a></li>
+          
+            <li><a href="/docs/garage/SemCor/">SC corpus</a></li>
+          
+            <li><a href="/docs/garage/OldOverviews/">Old DELPH-IN Overview</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammars (experimental)</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/GrenouilleSummary/">French</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Lexical Semantics</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/LexsemTop/">Overview</a></li>
+          
+            <li><a href="/docs/garage/LexsemMapping/">Mapping</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Machine Translation</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/MachineTranslationTop/">Overview</a></li>
+          
+            <li><a href="/docs/garage/MachineTranslationTutorial/">Tutorial</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Japanese/English Machine Translation</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/MtJaen/">Overview</a></li>
+          
+            <li><a href="/docs/garage/MtSetup/">Setup</a></li>
+          
+            <li><a href="/docs/garage/MtRuleExtraction/">MtRuleExtraction</a></li>
+          
+            <li><a href="/docs/garage/MtJaenFeedbackCleaning/">Feedback Cleaning</a></li>
+          
+            <li><a href="/docs/garage/NE_Tagging_For_Improving_SMT/">Improving SMT</a></li>
+          
+            <li><a href="/docs/garage/MtJaenTanaka/">Tanaka Corpus</a></li>
+          
+            <li><a href="/docs/garage/MtJaenSmt/">Discussion</a></li>
+          
+            <li><a href="/docs/garage/JaenTodo/">Jaen TODO</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Indra/English Transfer Grammar</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/IndraAce/">Ace</a></li>
+          
+            <li><a href="/docs/garage/IndraPreprocessing/">Preprocessing</a></li>
+          
+            <li><a href="/docs/garage/IndraTranslation/">Translation</a></li>
+          
+            <li><a href="/docs/garage/IndraRegressionTest/">RegressionTest</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">WeSearch</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/WeSearch/">WeSearch</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_Ccs/">CCS</a></li>
+          
+            <li><a href="/docs/garage/CcsGroup/">CCS Attendees</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_CcsDayOne/">CCS Day One</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_CcsDayTwo/">CCS Day Two</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_CcsDayThree/">CCS Day Three</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_DesignPrinciples/">WeSearch_DesignPrinciples</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_AnalysisCatalog/">WeSearch_AnalysisCatalog</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_ScopalArgCoord/">WeSearch_ScopalArgCoord</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_ICONS/">WeSearch_ICONS</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_UnderspecifedAttachment/">WeSearch_UnderspecifedAttachment</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_UnderspecifiedPreds/">WeSearch_UnderspecifiedPreds</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_VariablePropertySharing/">WeSearch_VariablePropertySharing</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_DataCollection/">WeSearch_DataCollection</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">PET</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/PetTop/">Overview</a></li>
+          
+            <li><a href="/docs/garage/PetDependencies/">Dependencies</a></li>
+          
+            <li><a href="/docs/garage/PetEclipse/">Eclipse</a></li>
+          
+            <li><a href="/docs/garage/PetRoadMap/">RoadMap</a></li>
+          
+            <li><a href="/docs/garage/PetInput/">Input</a></li>
+          
+            <li><a href="/docs/garage/ReppPet/">ReppPet</a></li>
+          
+            <li><a href="/docs/garage/PetOutput/">Output</a></li>
+          
+            <li><a href="/docs/garage/PetOptions/">Options</a></li>
+          
+            <li><a href="/docs/garage/PetParameters/">Parameters</a></li>
+          
+            <li><a href="/docs/garage/PetSelectiveUnpacking/">Selective Unpacking</a></li>
+          
+            <li><a href="/docs/garage/PetInputFsc/">Input Feature Structure Chart</a></li>
+          
+            <li><a href="/docs/garage/PetInputChart/" class="active">Input Chart</a></li>
+          
+            <li><a href="/docs/garage/UtTop/">Ubertagging</a></li>
+          
+            <li><a href="/docs/garage/PetLogging/">Logging</a></li>
+          
+            <li><a href="/docs/garage/PetRobustness/">Robustness</a></li>
+          
+            <li><a href="/docs/garage/FeforPetApi/">PET API Proposal</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Documentation</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/DocsQuickStart/">Quick Start</a></li>
+          
+            <li><a href="/docs/garage/DelphinDocsReference/">Reference</a></li>
+          
+            <li><a href="/docs/garage/ERDW_StructureForNewDocsSite/">Background</a></li>
+          
+            <li><a href="/docs/garage/GoogleSeasonOfDocs2023ProjectProposal/">Season of Docs</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <h1 id="overview">Overview</h1>
+
+<p>This page provides an in-depth discussion of the so-called <em>PET Input
+Chart</em> (PIC) input mode for the cheap parser. PIC is an XML-based
+generalization of the older YY input mode (see the <a href="https://delph-in.github.io/docs/garage/PetInput">PetInput</a>
+page for background). However, PIC too has its limitations and issues,
+including its (apparent) incompatibility with the <a href="http://www.delph-in.net/itsdb">[incr
+tsdb()]</a> profiler, see below. Where YY
+input mode is sufficient, it may still be the most versatile and widely
+supported option.</p>
+
+<p>XML input mode is very similar to YY input mode. It allows you to
+specify only simple tokens that get analysed internally by \cheap or to
+put all kinds of preprocessing information \cheap can handle into the
+input directly, namely POS, morphology, lexicon lookup and
+multi-component entries.</p>
+
+<p>It extends the YY mode in that it allows to have structured input tokens
+to provide a means to encode, say, named entities resulting from base
+tokens. It also allows to specify modifications to feature structures
+(coming from lexicon entries).</p>
+
+<p>It is called with -tok=pic_counts and can be used in combination with
+-default-les (see the <a href="https://delph-in.github.io/docs/garage/PetInput">PetInput</a> page for details) to trigger
+unknown words with POS tags, much like in YY mode.</p>
+
+<h1 id="examples">Examples</h1>
+
+<p>A typical way of calling it, with xml input and the best ranked xml rmrs
+output) would be:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  cat input.xml | cheap -tok=pic_counts -default-les -packing -mrs=rmrx -results=1 grammar.grm
+</code></pre></div></div>
+
+<p>A simple example input is given below:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;?xml version="1.0" encoding="utf-8" standalone="no" ?&gt;
+&lt;!DOCTYPE pet-input-chart
+ SYSTEM "/use/local/lib/xml/pic.dtd"&gt;
+&lt;pet-input-chart&gt;
+&lt;!-- This FAQ is short --&gt;
+  &lt;w id="W1" cstart="1" cend="5"&gt;
+    &lt;surface&gt;This&lt;/surface&gt;
+    &lt;pos tag="DD1" prio = "1.0" /&gt;
+  &lt;/w&gt;
+  &lt;w id="W2" cstart="7" cend="9"&gt;
+    &lt;surface&gt;FAQ&lt;/surface&gt;
+    &lt;pos tag="NP1" prio = "1.0" /&gt;
+  &lt;/w&gt;
+   &lt;w id="W2" cstart="7" cend="9" constant="yes"&gt;
+    &lt;surface&gt;FAQ&lt;/surface&gt;
+    &lt;typeinfo id="n_-_pn_le" baseform="no" prio="1.0"&gt;
+      &lt;stem&gt;$genericname&lt;/stem&gt;
+      &lt;fsmod path="SYNSEM.LKEYS.KEYREL.CARG" value="F.A.Q."/&gt;
+      &lt;/typeinfo&gt;
+  &lt;/w&gt;
+  &lt;w id="W3" cstart="11" cend="12"&gt;
+    &lt;surface&gt;is&lt;/surface&gt;
+    &lt;pos tag="BE" prio = "1.0" /&gt;
+  &lt;/w&gt;
+  &lt;w id="W4" cstart="14" cend="18"&gt;
+    &lt;surface&gt;short&lt;/surface&gt;
+    &lt;pos tag="JJ" prio = "1.0" /&gt;
+  &lt;/w&gt;
+ &lt;/pet-input-chart&gt;
+</code></pre></div></div>
+
+<p><em>Note:</em> the two empty lines at the end of the input file appear
+necessary when piping data into PET using the above command. This is
+possibly the reason why folks have not succeeded in recording PIC inputs
+in <a href="http://www.delph-in.net/itsdb">[incr tsdb()]</a> profiles and sending
+them to PET via the <a href="http://www.delph-in.net/itsdb">[incr tsdb()]</a>
+API: trailing newlines are truncated in this mode of operation. Someone
+should look into this more …</p>
+
+<p>The input is broken up into tokens &lt;w&gt;…&lt;/w&gt;, which must
+have unique <strong>id</strong>s. Each token gives its start (cstart) and end (cend)
+(inclusive) character position. It can also include a pos element, with
+the tag and confidence (priority).</p>
+
+<p>It also allows more detailed specifications (named entities, modified
+feature structures, …).</p>
+
+<p>You can only enter a single pet-input-chart in a stream, and it must
+start with the XML declaration and finish with at least two empty lines.
+Alternatively, you can give the name of a file consisting of a single
+pet-input-chart, or a list of such filenames, one on each line.</p>
+
+<p>The example given below illustrates most of the available features.
+Tokens <strong>W0</strong> and <strong>W1</strong> are not analysed at all by <strong>cheap</strong> because
+the (boolean) <strong>constant</strong> attribute is <strong>yes</strong>.</p>
+
+<ul>
+  <li>The default value of this attribute is {\tt no}, which means that</li>
+</ul>
+
+<p>the token <strong>W3</strong> will be analysed by all of the activated preprocessing
+modules in <strong>cheap</strong>.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;?xml version="1.0" encoding="ISO-8859-1" standalone="no" ?&gt;
+&lt;!DOCTYPE pet-input-chart
+  SYSTEM "/path/to/src/pet/doc/pic.dtd"&gt;
+&lt;pet-input-chart&gt;
+  &lt;w id="W0" cstart="1" cend="3" constant="yes"&gt;
+    &lt;surface&gt;Kim&lt;/surface&gt;
+  &lt;/w&gt;
+  &lt;w id="W1" cstart="5" cend="9" constant="yes"&gt;
+    &lt;surface&gt;Novak&lt;/surface&gt;
+  &lt;/w&gt;
+  &lt;ne id="NE0" prio="1.0"&gt;
+    &lt;ref dtr="W0"&gt;
+    &lt;ref dtr="W1"&gt;
+    &lt;pos tag="PN" prio="1.0"&gt;
+    &lt;typeinfo id="TNE0" baseform="no"&gt;
+      &lt;stem&gt;$generic_name&lt;/stem&gt;
+      &lt;fsmod path="SYNSEM.LOCAL.HEAD.FORM" value="Kim Novak"/&gt;
+    &lt;/typeinfo&gt;
+  &lt;/ne&gt;
+  &lt;w id="W2" cstart="11" cend="16" constant="yes"&gt;
+    &lt;surface&gt;sleeps&lt;/surface&gt;
+    &lt;pos tag="VVFIN" prio="7.80000e-1"/&gt;
+    &lt;pos tag="NN" prio="2.30000e-2"/&gt;
+    &lt;typeinfo id="W1A1"&gt;
+      &lt;stem&gt;sleep&lt;/stem&gt;
+      &lt;infl name="$third_sg_fin_verb_infl_rule"/&gt;
+    &lt;/typeinfo&gt;
+    &lt;typeinfo id="W1A2"&gt;
+      &lt;stem&gt;sleep&lt;/stem&gt;
+      &lt;infl name="$plur_noun_infl_rule"/&gt;
+    &lt;/typeinfo&gt;
+  &lt;/w&gt;
+  &lt;w id="W3" cstart="18" cend="22"&gt;
+    &lt;surface&gt;badly&lt;/surface&gt;
+    &lt;pos tag="ADV" prio="1.00000e+1"/&gt;
+  &lt;/w&gt;
+&lt;/pet-input-chart&gt;
+</code></pre></div></div>
+
+<p>Token <strong>NE0</strong> is an example of a complex token referencing a sequence of
+two base tokens. Its <strong>typeinfo</strong> directly gives the HPSG type name
+whose feature structure should be used as lexical item in <strong>cheap</strong>.
+While in YY mode this was triggered by a leading special character, in
+XML the attribute <strong>baseform</strong> decides if the string enclosed by the
+<strong>&lt;stem&gt;</strong> tag is to be interpreted as lexical base form or as
+type name. The default value of <strong>baseform</strong> is <strong>yes</strong>. In this token,
+the surface string is unified into the feature structure under path
+<strong>SYNSEM.LOCAL.HEAD.FORM</strong>, which is specified with the
+<strong>&lt;fsmod&gt;</strong> tag. The value of an <strong>&lt;fsmod&gt;</strong> may be an
+arbitrary string. <strong>cheap</strong> will add a dynamic symbol if the string is
+not a known type or symbol name.</p>
+
+<p>Every <strong>&lt;typeinfo&gt;</strong> tag potentially generates a lexical item (if
+it leads to a valid lexical feature structure). Thus, there will be two
+readings for the token <strong>W2</strong> (<em>sleeps</em>), whereas internal analysis of
+the surface form has been inhibited. This need not be necessarily so. It
+is possible to provide external analyses and have a <strong>&lt;w&gt;</strong> token
+also being analysed internally if the <strong>constant</strong> flag is omitted or
+set to <strong>no</strong>.</p>
+
+<p>The XML tag <strong>&lt;surface&gt;</strong> encloses the surface string,
+<strong>&lt;pos&gt;</strong> and <strong>&lt;path&gt;</strong> tags are analogous to YY mode;
+multiple <strong>&lt;infl&gt;</strong> rules in a <strong>&lt;typeinfo&gt;</strong> will have to
+be considered from first to last.</p>
+
+<p>XML input mode can be used in two different ways, either by specifying a
+file name containing the XML data (preferably with correct XML header
+and DTD or DTD URL specification) or by giving the XML data directly.</p>
+
+<p>If the XML data is put directly into the standard input, it <em>must</em> start
+with a valid XML header <strong>&lt;?xml version=”1.0” … ?&gt;</strong> with no
+leading whitespace, because recognition of the header triggers the
+reading of XML from standard input. The end of the data is marked by an
+empty line (two consecutive newline characters), therefore, the data
+itself, including an eventually given DTD, may not contain empty lines.</p>
+
+<h1 id="pic-pet-input-chart-dtd">PIC (pet-input-chart) DTD</h1>
+
+<p>This is the pic.dtd from the <a href="https://delph-in.github.io/docs/garage/HeartofgoldTop">Heart of Gold</a>.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;!ELEMENT pet-input-chart ( w | ne )* &gt;
+  &lt;!-- base input token --&gt;
+  &lt;!ELEMENT w ( surface, path*, pos*, typeinfo* ) &gt;
+  &lt;!ATTLIST w         id ID      #REQUIRED
+                  cstart NMTOKEN #REQUIRED
+                    cend NMTOKEN #REQUIRED
+                    prio CDATA   #IMPLIED
+                constant (yes | no) "no" &gt;
+  &lt;!-- constant "yes" means: do not analyse, i.e., if the tag contains
+       no typeinfo, no lexical item will be build by the token --&gt;
+ 
+  &lt;!-- The surface string --&gt;
+  &lt;!ELEMENT surface ( #PCDATA ) &gt;
+
+  &lt;!-- numbers that encode valid paths through the input graph (optional) --&gt;
+  &lt;!ELEMENT path EMPTY &gt;
+  &lt;!ATTLIST path     num NMTOKEN #REQUIRED &gt;
+ 
+  &lt;!-- every typeinfo generates a lexical token --&gt;
+  &lt;!ELEMENT typeinfo ( stem, infl*, fsmod* ) &gt;
+  &lt;!ATTLIST typeinfo   id ID     #REQUIRED
+                     prio CDATA  #IMPLIED
+                 baseform (yes | no) "yes" &gt;
+  &lt;!-- Baseform yes: lexical base form; no: type name --&gt;
+
+  &lt;!-- lexical base form or type name --&gt;
+  &lt;!ELEMENT stem ( #PCDATA ) &gt;
+
+  &lt;!-- type name of an inflection rule--&gt;
+  &lt;!ELEMENT infl  EMPTY &gt;
+  &lt;!ATTLIST infl    name CDATA   #REQUIRED &gt;
+
+  &lt;!-- put type value under path into the lexical feature structure --&gt;
+  &lt;!ELEMENT fsmod  EMPTY &gt;
+  &lt;!ATTLIST fsmod   path CDATA   #REQUIRED
+                   value CDATA   #REQUIRED &gt;
+
+  &lt;!-- part-of-speech tags with priorities --&gt;
+  &lt;!ELEMENT pos  EMPTY &gt;
+  &lt;!ATTLIST pos      tag CDATA   #REQUIRED
+                    prio CDATA   #IMPLIED &gt;
+
+  &lt;!-- structured input items, mostly to encode named entities --&gt;
+  &lt;!ELEMENT ne  ( ref+, pos*, typeinfo+ )  &gt;
+  &lt;!ATTLIST ne        id ID      #REQUIRED
+                    prio CDATA   #IMPLIED &gt;
+ 
+  &lt;!-- reference to a base token --&gt;
+  &lt;!ELEMENT ref  EMPTY &gt;
+  &lt;!ATTLIST ref      dtr IDREF   #REQUIRED &gt;
+</code></pre></div></div>
+
+<h1 id="encoding-issues">Encoding issues</h1>
+
+<p>By default the XML parser used with cheap (libxerces) can handle
+iso-8859-1 and utf-8. To get other encodings, such as euc-jp, you need
+to link the xml parser against the icu libraries.</p>
+
+<p>For <strong>debian</strong> and derivatives this means:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>apt-get install sudo apt-get install libxercesicu25 icu
+</code></pre></div></div>
+
+<p>rather than:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>apt-get install sudo apt-get install libxerces25 
+</code></pre></div></div>
+
+<p>Last update: 2011-10-09 by anonymous [<a href="https://github.com/delph-in/docs/wiki/PetInputChart/_edit">edit</a>]</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+<!--Scroll the navbar to the current page-->
+<script type="text/javascript">
+  let el = document.querySelector('.nav__list .active');
+  if(el){
+    el.scrollIntoView({block: "center", inline: "start"});
+  }
+</script>
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/docs/garage/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/docs/garage/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/docs/garage/assets/js/lunr/lunr.min.js"></script>
+<script src="/docs/garage/assets/js/lunr/lunr-store.js"></script>
+<script src="/docs/garage/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

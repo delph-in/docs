@@ -1,0 +1,1013 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>DELPH-IN Tools</title>
+<meta name="description" content="An amazing website.">
+
+
+  <meta name="author" content="Your Name">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="DELPH-IN Tools">
+<meta property="og:title" content="DELPH-IN Tools">
+<meta property="og:url" content="https://delph-in.github.io/docs/tools/RmrsVpm/">
+
+
+  <meta property="og:description" content="An amazing website.">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://delph-in.github.io/docs/tools/RmrsVpm/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Your Name",
+      "url": "https://delph-in.github.io/docs/tools/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/docs/tools/feed.xml" type="application/atom+xml" rel="alternate" title="DELPH-IN Tools Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/docs/tools/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--delphin_page wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/docs/tools/"><img src="/docs/tools/assets/images/Delph-In.png" alt="DELPH-IN Tools"></a>
+        
+        <a class="site-title" href="/docs/tools/">
+          DELPH-IN Tools
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/home/Home">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/howto/DelphinWelcome">How-To</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/erg/ErgTop">ERG</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/tools/ToolsTop">Tools</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/grammars/GrammarsOverview">Grammars</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/matrix/MatrixDocsOverview">Matrix</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/summits/SummitTop">Summits</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/garage/GarageTop">Garage</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Tools</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/ToolsTop/">Overview</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">PyDelphin</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/PyDelphinTop/">Overview</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">LKB</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/LkbTop/">Overview</a></li>
+          
+            <li><a href="/docs/tools/LkbInstallation/">Installation</a></li>
+          
+            <li><a href="/docs/tools/LkbFos/">Fully Open Source Version</a></li>
+          
+            <li><a href="/docs/tools/LkbMacintosh/">Macintosh Version</a></li>
+          
+            <li><a href="/docs/tools/LkbCourses/">Courses</a></li>
+          
+            <li><a href="/docs/tools/LkbConventions/">Conventions</a></li>
+          
+            <li><a href="/docs/tools/LkbGeneration/">Generation</a></li>
+          
+            <li><a href="/docs/tools/LkbCompilation/">Compilation</a></li>
+          
+            <li><a href="/docs/tools/LkbEmacs/">Emacs</a></li>
+          
+            <li><a href="/docs/tools/LkbTrollet/">Trollet</a></li>
+          
+            <li><a href="/docs/tools/LkbSppp/">Simple PreProcessor Protocol</a></li>
+          
+            <li><a href="/docs/tools/RmrsVpm/" class="active">Variable Property Mapping (VPM)</a></li>
+          
+            <li><a href="/docs/tools/LkbLpconstraints/">LkbLpconstraints</a></li>
+          
+            <li><a href="/docs/tools/LkbUserGroup/">User Group</a></li>
+          
+            <li><a href="/docs/tools/LkbFaq/">FAQ</a></li>
+          
+            <li><a href="/docs/tools/LkbMode/">Emacs FAQ</a></li>
+          
+            <li><a href="/docs/tools/LkbWishlist/">Wish list</a></li>
+          
+            <li><a href="/docs/tools/LkbBugs/">Bugs</a></li>
+          
+            <li><a href="/docs/tools/LkbCopyright/">Copyright</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">ACE Parser</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/AceTop/">Overview</a></li>
+          
+            <li><a href="/docs/tools/AceInstall/">Install</a></li>
+          
+            <li><a href="/docs/tools/AceConfiguration/">Configuration</a></li>
+          
+            <li><a href="/docs/tools/AceOptions/">Options</a></li>
+          
+            <li><a href="/docs/tools/AceUse/">Examples</a></li>
+          
+            <li><a href="/docs/tools/AceLui/">LUI Mode</a></li>
+          
+            <li><a href="/docs/tools/AceCsaw/">Csaw</a></li>
+          
+            <li><a href="/docs/tools/AceTransfer/">Transfer</a></li>
+          
+            <li><a href="/docs/tools/AceExperimental/">Experimental</a></li>
+          
+            <li><a href="/docs/tools/AceFaq/">Faq</a></li>
+          
+            <li><a href="/docs/tools/AceWishlist/">Wish list</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">LKB LUI</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/LkbLui/">Overview</a></li>
+          
+            <li><a href="/docs/tools/LuiRc/">User Configuration</a></li>
+          
+            <li><a href="/docs/tools/LuiUi/">UI Quick Reference</a></li>
+          
+            <li><a href="/docs/tools/LuiTree/">Tree</a></li>
+          
+            <li><a href="/docs/tools/LuiAvm/">Feature Structure (AVM)</a></li>
+          
+            <li><a href="/docs/tools/LuiUnification/">Unification</a></li>
+          
+            <li><a href="/docs/tools/LuiMrs/">MRS Display</a></li>
+          
+            <li><a href="/docs/tools/LuiChart/">Chart Browser</a></li>
+          
+            <li><a href="/docs/tools/LuiWishlist/">Wish list</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">LKB LexDB</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/LexDbSimplePsql/">Simple PSQL</a></li>
+          
+            <li><a href="/docs/tools/LexDbInitialize/">Initialization</a></li>
+          
+            <li><a href="/docs/tools/LexDbPsqlInitialize/">PSQL Initialization</a></li>
+          
+            <li><a href="/docs/tools/LexDbFieldMappings/">Field Mappings</a></li>
+          
+            <li><a href="/docs/tools/LkbLexDbMultiUser/">Multi-User</a></li>
+          
+            <li><a href="/docs/tools/LkbLexDbSingleUser/">Single User</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">[incr tsdb()]</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/ItsdbTop/">Overview</a></li>
+          
+            <li><a href="/docs/tools/TsdbTop/">Deep Dive</a></li>
+          
+            <li><a href="/docs/tools/ItsdbDerivations/">Derivations</a></li>
+          
+            <li><a href="/docs/tools/ItsdbProfileManipulation/">Profile Manipulation</a></li>
+          
+            <li><a href="/docs/tools/ItsdbProfile/">Profile</a></li>
+          
+            <li><a href="/docs/tools/ItsdbProfiling/">Profiling</a></li>
+          
+            <li><a href="/docs/tools/ItsdbDistributedProcessing/">Distributed Processing</a></li>
+          
+            <li><a href="/docs/tools/ItsdbBatch/">Batch</a></li>
+          
+            <li><a href="/docs/tools/ItsdbReference/">Reference</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTroubleshooting/">Troubleshooting</a></li>
+          
+            <li><a href="/docs/tools/GeFaqTsdbRc/">FAQ</a></li>
+          
+            <li><a href="/docs/tools/ItsdbWishlist/">Wish List</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Logon</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/LogonTop/">Overview</a></li>
+          
+            <li><a href="/docs/tools/LogonInstallation/">Installation</a></li>
+          
+            <li><a href="/docs/tools/LogonRedhat/">Red Hat</a></li>
+          
+            <li><a href="/docs/tools/LogonUbuntu/">Ubuntu</a></li>
+          
+            <li><a href="/docs/tools/LogonArch/">Arch Linux</a></li>
+          
+            <li><a href="/docs/tools/LogonDebian/">Debian</a></li>
+          
+            <li><a href="/docs/tools/LogonHandon/">Hands-On Release</a></li>
+          
+            <li><a href="/docs/tools/LogonSvn/">SVN</a></li>
+          
+            <li><a href="/docs/tools/LogonProcessing_BatchGeneration/">Batch Generation</a></li>
+          
+            <li><a href="/docs/tools/LogonProcessing_BatchTranslation/">Batch Translation</a></li>
+          
+            <li><a href="/docs/tools/LogonPet/">PET Integration</a></li>
+          
+            <li><a href="/docs/tools/LogonAnswer/">ACE Integration</a></li>
+          
+            <li><a href="/docs/tools/LogonExtras/">Extras</a></li>
+          
+            <li><a href="/docs/tools/LogonReports/">Reports</a></li>
+          
+            <li><a href="/docs/tools/LogonProcessing/">Processing</a></li>
+          
+            <li><a href="/docs/tools/LogonProcessing_BatchParsing/">Batch Parsing</a></li>
+          
+            <li><a href="/docs/tools/LogonModeling/">Modeling</a></li>
+          
+            <li><a href="/docs/tools/LogonOnline/">Online</a></li>
+          
+            <li><a href="/docs/tools/LogonTransfer/">Transfer</a></li>
+          
+            <li><a href="/docs/tools/LogonVpm/">Variable Property Mapping</a></li>
+          
+            <li><a href="/docs/tools/NoJa/">Setting up New Languages</a></li>
+          
+            <li><a href="/docs/tools/LogonIdiosyncrasies/">Idiosyncrasies</a></li>
+          
+            <li><a href="/docs/tools/LogonWishlist/">Wishlist</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammar Tips</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/GrammarPerformance/">Grammar Performance</a></li>
+          
+            <li><a href="/docs/tools/VersionControlForGrammarDevelopment/">Grammar Version Control</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Treebanking</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/TreebankingTop/">Overview</a></li>
+          
+            <li><a href="/docs/tools/FftbTop/">Full Forest Treebanker (FFTB)</a></li>
+          
+            <li><a href="/docs/tools/FftbWishlist/">Full Forest Treebanker Wishlist</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking/">[incr tsdb()] Treebanking</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking_ItsdbAnnotation/">[incr tsdb()] Treebanking Annotation</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking_ItsdbUpdating/">[incr tsdb()] Treebanking Updating</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking_ItsdbExporting/">[incr tsdb()] Treebanking Exporting</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking_ItsdbModeling/">[incr tsdb()] Treebanking Modeling</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking_ItsdbUpdating/">[incr tsdb()] Treebanking Updating</a></li>
+          
+            <li><a href="/docs/tools/ItsdbCustomization/">[incr tsdb()] Treebanking Customization</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking_ItsdbModeling/">[incr tsdb()] Treebanking Modeling</a></li>
+          
+            <li><a href="/docs/tools/IndraTreebanking/">Indra</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Formats</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/DelphinRFCs/">Delphin RFCs</a></li>
+          
+            <li><a href="/docs/tools/PredicateRfc/">Predicate RFC</a></li>
+          
+            <li><a href="/docs/tools/MrsRFC/">MRS Format RFC</a></li>
+          
+            <li><a href="/docs/tools/MrsIsomorphism/">MRS Isomorphism</a></li>
+          
+            <li><a href="/docs/tools/EdsTop/">EDS Format</a></li>
+          
+            <li><a href="/docs/tools/EdsConversion/">EDS Conversion</a></li>
+          
+            <li><a href="/docs/tools/EdsGeneration/">EDS Generation</a></li>
+          
+            <li><a href="/docs/tools/SemiRfc/">SEM-I RFC</a></li>
+          
+            <li><a href="/docs/tools/TdlRFC/">TDL RFC</a></li>
+          
+            <li><a href="/docs/tools/TsqlRfc/">TSQL RFC</a></li>
+          
+            <li><a href="/docs/tools/GrammarVersionRfc/">Grammar Version RFC</a></li>
+          
+            <li><a href="/docs/tools/GrammarConfigurationRfc/">Grammar Configuration RFC</a></li>
+          
+            <li><a href="/docs/tools/TsdbSchemaRfc/">TSDB Schema RFC</a></li>
+          
+            <li><a href="/docs/tools/MatrixChoicesRfc/">Matrix Choices RFC</a></li>
+          
+            <li><a href="/docs/tools/RmrsTop/">(R)MRS Overview</a></li>
+          
+            <li><a href="/docs/tools/RmrsWellformedness/">(R)MRS Wellformedness</a></li>
+          
+            <li><a href="/docs/tools/RmrsPos/">(R)MRS Predicate Naming</a></li>
+          
+            <li><a href="/docs/tools/RmrsSpan/">(R)MRS Span</a></li>
+          
+            <li><a href="/docs/tools/RmrsDesign/">(R)MRS Design</a></li>
+          
+            <li><a href="/docs/tools/RmrsParaphrasing/">(R)MRS Paraphrasing</a></li>
+          
+            <li><a href="/docs/tools/RmrsModel/">(R)MRS Model</a></li>
+          
+            <li><a href="/docs/tools/RmrsDistributional/">(R)MRS Distributional</a></li>
+          
+            <li><a href="/docs/tools/RmrsSemi/">(R)MRS Semi</a></li>
+          
+            <li><a href="/docs/tools/RmrsDmrs/">(R)MRS Dmrs</a></li>
+          
+            <li><a href="/docs/tools/RmrsFaq/">(R)MRS Faq</a></li>
+          
+            <li><a href="/docs/tools/RmrsDiscussions/">(R)MRS Discussions</a></li>
+          
+            <li><a href="/docs/tools/TransferRules/">Transfer Rules</a></li>
+          
+            <li><a href="/docs/tools/FormatSpecifications/">Format Specifications</a></li>
+          
+            <li><a href="/docs/tools/ErgGml/">Grammar Markup Language</a></li>
+          
+            <li><a href="/docs/tools/SmafTop/">SMAF</a></li>
+          
+            <li><a href="/docs/tools/SmafLkb/">SMAF in LKB</a></li>
+          
+            <li><a href="/docs/tools/SmafPet/">SMAF in PET</a></li>
+          
+            <li><a href="/docs/tools/SmafSample/">SMAF Sample</a></li>
+          
+            <li><a href="/docs/tools/SmafDtd/">SMAF DTD</a></li>
+          
+            <li><a href="/docs/tools/SafTop/">SAF Overview</a></li>
+          
+            <li><a href="/docs/tools/SafDtd/">SAF DTD</a></li>
+          
+            <li><a href="/docs/tools/IconsSpecs/">Icons Specs</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <h1 id="background">Background</h1>
+
+<p>In the MRSs derived by grammars like the ERG, a fair amount of
+information is encoded as <em>variable</em> (or <em>index</em>) <em>properties</em>, i.e.
+attributes and values associated to semantic variables. TENSE, MOOD, and
+NUM(ber) are typical such properties, and often they facilitate an
+encoding of information that remains relatively close to
+morpho-syntactic, grammar-internal distinctions. For the external
+interface to each grammar, it seems desirable to aim for a unified, yet
+simple inventory of properties and values, shared across grammars (to
+the extent of actually being relevant for a token language). At the same
+time, a grammar may have internal constraints on the organization of
+morpho-syntactic information, and often there may be distinctions made
+in a grammar that need not be projected into the external, semantic
+interface. The <em>Variable Property Mapping</em> (VPM) facility is a
+bi-directional tool that relates grammar-internal and -external encoding
+on the basis of a declarative specification of the mapping relations.</p>
+
+<p>This page was predominantly authored by StephanOepen,
+who is the original VPM designer and current maintainer. Please do not
+make substantial changes unless you (a) are reasonably sure of the
+technical correctness of your revisions and (b) believe strongly that
+your changes are compatible with the general design and recommended use
+patterns for the VPM machinery, and of course with the goals of this
+page.</p>
+
+<h1 id="variable-types">Variable Types</h1>
+
+<p>The types of variables themselves often require adjustment in creating
+an MRS from a feature structure (AVM), or vice versa. In the ERG, for
+example, the grammar-internal type names are <em>event</em> and <em>ref-ind</em>,
+while the canonical MRS variable types are <em>e</em> and <em>x</em>. Traditionally,
+such correspondences in the LKB were established by means of the
+built-in function determine-variable-type(), which in turn builds on a
+family of globals (named, not co-incidentally, similar to the
+ERG-internal choices, e.g. *event-type* and *ref-ind-type* for the
+above example). This original mapping of variable types in the LKB was
+uni-directional, i.e. it is applied when constructing an MRS from a
+feature structure, but not in the inverse direction (that means, in
+principle, that information cast as variable types is not utilized in
+generation until the very end, i.e. the post-generation semantic
+compatibility check).</p>
+
+<p>As of early 2009, variable type correspondences can be encoded as part
+of the VPM too. The ERG, for example, now includes in its semi.vpm:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  event      &lt;&gt; e
+  ref-ind    &lt;&gt; x
+  individual &lt;&gt; i
+  handle     &lt;&gt; h
+  non_event  &lt;&gt; p
+  *          &gt;&gt; u
+  semarg     &lt;&lt; u
+</code></pre></div></div>
+
+<p>This section has to precede all variable property mappings (see below)
+in the file. To make VPM-based variable type mapping replace
+determine-variable-type(), it is necessary to further set a new MRS
+global (typically in the file mrsglobals.lsp):</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  (setf *variable-type-mapping* :semi)
+</code></pre></div></div>
+
+<p>With the variable type correspondences as part of the VPM, the grammar
+no longer needs to provide MRS globals *event-type* et al. Note,
+however, that (just like in the original LKB machinery) VPM-based
+variable type mapping is at present only applied in forward direction
+(see comments in vpm.lsp, generate.lsp, and transfer.lsp for the
+remaining issues that require LKB backwards compatibility in this
+respect).</p>
+
+<h1 id="properties-a-simple-example">Properties: A Simple Example</h1>
+
+<p>Consider a grammar which records information about person and number in
+a single sortal hierarchy, with values like 1sg, 2per, et al. The
+grammar makes use of a feature PN as the home for the combined person
+and number values, and for grammar-internal reasons, PN is embedded
+below a feature PNG inside of the feature structures that correspond to
+semantic variables in the MRS (keep in mind that MRSs are not feature
+structures, yet for each grammar there is a known bijection between the
+AVM and the MRS universes). Following is a mapping to convert the
+grammar-internal, conflated encoding of person and number into an
+external representation that is compatible with the MRS best practice in
+LOGON and the RMRS DTD.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  PNG.PN : PERS NUM
+    1sg  &lt;&gt; 1 sg
+    1pl  &lt;&gt; 1 pl
+    1per &lt;&gt; 1 !
+    1per &lt;&lt; 1 *
+    2sg  &lt;&gt; 2 sg
+    2pl  &lt;&gt; 2 pl
+    2per &lt;&gt; 2 !
+    2per &lt;&lt; 2 *
+    3sg  &lt;&gt; 3 sg
+    3pl  &lt;&gt; 3 pl
+    3per &lt;&gt; 3 !
+    3per &lt;&lt; 3 *
+    *    &gt;&gt; ! !
+    !    &lt;&lt; * *
+</code></pre></div></div>
+
+<p>The above example defines a set of rules that map one (or more)
+properties into one or more properties. When reading an MRS off the AVM
+produced by the grammar, for each correspondence of (groups of)
+properties, values are compared to sub-rules in order, until the first
+match: at that point, output values are inserted into the result set of
+properties. Processing of subsequent rules continues against the
+original properties, so that there could be multiple matches: the PNG.PN
+to PERS and NUM decomposition, thus, could also be done in two separate
+rule sets.</p>
+
+<p>At the end of the day, however, only properties resulting from
+successful matches will be included in the output MRS, i.e. <strong>everything
+not explicitly carried over will be suppressed.</strong></p>
+
+<h1 id="the-general-syntax">The General Syntax</h1>
+
+<p>VPMs can be applied in two directions: <em>forward</em> application, mapping
+from the left-hand side of rules into the right-hand side, and
+<em>backward</em> application, producing the inverse mapping. While the
+prototypical mapping rule is bi-directional, there may be special cases.
+The VPM machinery provides the following operators:</p>
+
+<ul>
+  <li>
+    <p>&lt;&gt; defines an equivalence mapping, i.e. operates in either
+direction</p>
+
+    <p>&gt;&gt; provides a forward-only mapping, i.e. in left to right
+direction</p>
+
+    <p>&lt;&lt; provides a backward-only mapping, i.e. in right to left
+direction</p>
+  </li>
+</ul>
+
+<p>By default, values are compared by subsumption (against the type
+hierarchy of the grammar, for the time being). There are variants of the
+mapping operators that use equality for testing instead. These are ==,
+=&gt;, and &lt;=, respectively.</p>
+
+<p>Furthermore, there are a few special operators for matching and
+outputting of values. In a nutshell, * will match any (existing) value
+in the input or insert whatever was matched into the output; conversely,
+! will not insert the corresponding property into the output, e.g. the
+sub-rule from our example above</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  1per &lt;&gt; 1 !
+</code></pre></div></div>
+
+<p>will have the effect of only inserting [PERS 1] into the output, while
+the NUM property will be omitted. When applied in backward direction, !
+can be used to match <em>absence</em> of the corresponding property, but this
+usage is really only useful in conjunction with additional properties:
+without conditioning on another property, a rule matching on the absense
+of a value would insert the output property on variables of all types. A
+potentially more useful matching operator that facilitates the insertion
+of default values conditions a rule on the type of the embedding
+variable. The ERG, for example, includes the following mapping of TENSE
+values:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  E.TENSE : TENSE
+    past       &lt;&gt; past
+    present    &lt;&gt; pres
+    future     &lt;&gt; fut
+    real_tense &lt;&gt; tensed
+    untensed   &lt;&gt; untensed
+    *          &gt;&gt; untensed
+    untensed   &lt;&lt; *
+    untensed   &lt;&lt; [e]
+</code></pre></div></div>
+
+<p>Here the effect of the last two sub-rules, which are limited to the
+backward direction, is to (a) convert all values not matched by earlier
+rules into untensed and (b) insert untensed on all variables of type <em>e</em>
+that have no TENSE property already. In other words, the [e] match
+operator subsumes the use of ! but additionally conditions on a specific
+variable type, so as to avoid inserting TENSE values into referential
+indices, say.</p>
+
+<h2 id="corner-cases">Corner Cases</h2>
+
+<p>VPM allows information from multiple feature structure paths to be
+merged into a single multi-valued property in the MRS space; for
+example:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  E.ASPECT.SOON E.ASPECT.EVER E.ASPECT.ALREADY : TENSE
+    bool bool +    &lt;&gt; past
+    bool +    bool &lt;&gt; nonpresent
+    +    bool bool &lt;&gt; fut
+</code></pre></div></div>
+
+<p>Although a technique which uses multiple VPM sections (one per ‘input’
+path) might seem to achieve a similar goal, the latter is discouraged as
+it might be subject to inconsistent interpretation (as regards the final
+effective value in the case of duplicate target properties) by various
+VPM processing engines.</p>
+
+<h1 id="activating-the-vpm-machinery-in-the-lkb-and-pet">Activating the VPM Machinery in the LKB and PET</h1>
+
+<p>A grammar can include any number of VPMs; the function mt:read-vpm() can
+be used in the LKB `script’ file to load a VPM and associate an
+identifier to it, e.g.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  (mt:read-vpm (lkb-pathname (parent-directory) "semi.vpm") :semi)
+</code></pre></div></div>
+
+<p>The distinguished identifier :semi will activate its VPM for the
+read-out of MRSs from parsing results (where the VPM is applied in
+forward direction) and, conversely, for the reverse mapping of MRSs
+given as input to the generator. Additional VPMs can be put to use in
+transfer, as an input or output filter for example.</p>
+
+<p>In PET, there is provisional support for loading the SEM-I VPM, i.e. the
+VPM that applies to the extraction of MRSs from feature structures
+obtained from parsing results; add a statement like the following to
+your settings file:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  vpm := "semi".
+</code></pre></div></div>
+
+<p>To provide multi-VPM support in PET, this interface will likely change
+in the future.</p>
+
+<h1 id="internals-vpms-transfer-rules-and-generation">Internals: VPMs, Transfer Rules, and Generation</h1>
+
+<p>The duality of grammar-internal and external (aka SEM-I) naming
+conventions creates a number of challenges for processing that,
+conceptually, operates on MRSs but at the same time needs to make use of
+the type hierarchy, e.g. to test for compatibility or subsumption (aka
+underspecification) of MRS predicates, variable types, and variable
+properties. The ultimate solution will require that the SEM-I provides
+complete information about MRS-level hierarchical relations that the
+grammar wants to make available in its interface (in principle, the
+SEM-I could also provide additional layers of hierarchical relations,
+i.e. ones that hold at the MRS level but are not part of the
+grammar-internal hierarchy). The SEM-I could then be imported into its
+own hierarchy, possibly in a private namespace per grammar, such that
+multiple MRS-level hierarchies can be loaded in parallel, e.g.
+corresponding to source and target language in transfer.</p>
+
+<p>But this vision is not yet implemented in the LKB MRS core and transfer
+machinery, and hence the current technology (as of early 2009) takes
+some ‘short-cuts’ in the creation and application of transfer rules, as
+well as in MRS-related parts of the generator. In debugging, it may be
+necessary to understand in detail the duality of MRS naming conventions,
+and the following paragraph provides a brief summary of the current
+state of play.</p>
+
+<p>For transfer rules (and thus trigger rules in generation), we require
+the internal hierarchy of property values. Therefore, the :semi VPM is
+not applied during the creation of transfer rules, <em>except</em> for its
+variable type correspondences (see above), if any. Unlike variable
+properties, the application of transfer rules to an MRS assumes
+canonical (external) variable types, e.g. <em>h</em>, <em>e</em>, <em>x</em>, et al. This is
+primarily a matter of convenience: grammars tend to have large sets of
+intermediate variable types, and in testing an input MRS which only
+provides information in the much simpler, external hierarchy, the extra
+grammar-internal type distinctions would at best be a nuisance.
+Accordingly, grammars need to provide, as part of their type hierarchy,
+the canonical MRS variable types too, i.e.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  u := *top*.
+  i := u.
+  p := u.
+  h := p.
+  e := i.
+  x := i &amp; p.
+</code></pre></div></div>
+
+<p>The situation is parallel for generation. To instantiate and Skolemize
+lexical entries, the input MRS is mapped through the VPM in reverse
+direction, <em>except</em> for variable types. In the current setup (and the
+LKB generator ever since its inception), variable types are not
+considered during lexical instantiation. Thus, in principle, semantic
+distinctions cast in the input semantics by virtue of variable types are
+not considered by the generator until very late in the process, viz. the
+post-generation semantic compatibility test. For all we know, however,
+existing grammars hardly, if at all, make use of variable types in this
+manner; for example, a grammar would have to provide distinct lexical
+entries, both with the same predicate but incompatible variable types on
+their ARG0, say.</p>
+
+<p>Because of this interaction between the trigger rules (as a type of
+transfer rules) and the VPM, they must be loaded in the correct order in
+the script file: the :semi VPM must already be available when trigger
+rules are loaded.</p>
+
+<h1 id="todo">ToDo</h1>
+
+<h1 id="questions">Questions</h1>
+
+<ul>
+  <li>Can ! appear in variable type mappings? If not, should it be a
+syntax error?</li>
+  <li>Can * appear in the target side of one-to-many, many-to-one, or
+many-to-many property mappings? If so, what exactly is copied over?</li>
+  <li>With the new SEM-I infrastructure, should we revisit the question of
+backward-application of variable type mappings?</li>
+  <li>If variable type mappings only apply in the forward direction, why
+bother with &lt;&gt; operators (instead of just &gt;&gt;), and
+what’s the point of the semarg &lt;&lt; u line in the example?</li>
+</ul>
+
+<p>Last update: 2017-02-23 by MichaelGoodman [<a href="https://github.com/delph-in/docs/wiki/RmrsVpm/_edit">edit</a>]</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+<!--Scroll the navbar to the current page-->
+<script type="text/javascript">
+  let el = document.querySelector('.nav__list .active');
+  if(el){
+    el.scrollIntoView({block: "center", inline: "start"});
+  }
+</script>
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/docs/tools/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/docs/tools/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/docs/tools/assets/js/lunr/lunr.min.js"></script>
+<script src="/docs/tools/assets/js/lunr/lunr-store.js"></script>
+<script src="/docs/tools/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

@@ -1,0 +1,32 @@
+main:
+  - title: "Home"
+    url: https://delph-in.github.io/docs/home/Home
+  - title: "How-To"
+    url: https://delph-in.github.io/docs/howto/DelphinWelcome
+  - title: "ERG"
+    url: https://delph-in.github.io/docs/erg/ErgTop
+  - title: "Tools"
+    url: https://delph-in.github.io/docs/tools/ToolsTop
+  - title: "Grammars"
+    url: https://delph-in.github.io/docs/grammars/GrammarsOverview
+  - title: "Matrix"
+    url: https://delph-in.github.io/docs/matrix/MatrixDocsOverview
+  - title: "Summits"
+    url: https://delph-in.github.io/docs/summits/SummitTop
+  - title: "Garage"
+    url: https://delph-in.github.io/docs/garage/GarageTop
+toc:
+  - title: "DELPH-IN"
+    children:
+      - title: "Overview"
+        url: "/Home/"
+      - title: "Welcome"
+        url: "/DelphinWelcome/"
+      - title: "Applications"
+        url: "/DelphinApplications/"
+      - title: "DELPH-IN News"
+        url: "/DelphinNews/"
+  - title: "Projects"
+    children:
+      - title: "Archive"
+        url: "/OldProjects/"

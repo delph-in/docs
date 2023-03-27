@@ -1,0 +1,2528 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>DELPH-IN Grammar Matrix</title>
+<meta name="description" content="An amazing website.">
+
+
+  <meta name="author" content="Your Name">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="DELPH-IN Grammar Matrix">
+<meta property="og:title" content="DELPH-IN Grammar Matrix">
+<meta property="og:url" content="https://delph-in.github.io/docs/matrix/MatrixDoc_Lexicon/">
+
+
+  <meta property="og:description" content="An amazing website.">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://delph-in.github.io/docs/matrix/MatrixDoc_Lexicon/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Your Name",
+      "url": "https://delph-in.github.io/docs/matrix/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/docs/matrix/feed.xml" type="application/atom+xml" rel="alternate" title="DELPH-IN Grammar Matrix Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/docs/matrix/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--delphin_page wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/docs/matrix/"><img src="/docs/matrix/assets/images/Delph-In.png" alt="DELPH-IN Grammar Matrix"></a>
+        
+        <a class="site-title" href="/docs/matrix/">
+          DELPH-IN Grammar Matrix
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/home/Home">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/howto/DelphinWelcome">How-To</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/erg/ErgTop">ERG</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/tools/ToolsTop">Tools</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/grammars/GrammarsOverview">Grammars</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/matrix/MatrixDocsOverview">Matrix</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/summits/SummitTop">Summits</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/garage/GarageTop">Garage</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammar Matrix Docs</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixDocsOverview/">Overview</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Overview and Tools</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixTop/">Overview</a></li>
+          
+            <li><a href="/docs/matrix/MatrixGettingStarted/">Getting Started</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDevTop/">Development Overview</a></li>
+          
+            <li><a href="/docs/matrix/Updating_the_Customization_System/">Customization System</a></li>
+          
+            <li><a href="/docs/matrix/MatrixCustomizationUnitTesting/">Customization Unit Testing</a></li>
+          
+            <li><a href="/docs/matrix/MatrixCustomizationWebTesting/">Customization Web Testing</a></li>
+          
+            <li><a href="/docs/matrix/MatrixRegressionTesting/">Regression Testing</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_TestSentences/">Test Sentences</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_TestByGeneration/">Test By Generation</a></li>
+          
+            <li><a href="/docs/matrix/MatrixWishList/">Wish List</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammar Engineering</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixDevBlueprints/">Dev Blueprints</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDevConventions/">Dev Conventions</a></li>
+          
+            <li><a href="/docs/matrix/GrammarDevelopment/">Grammar Development</a></li>
+          
+            <li><a href="/docs/matrix/MatrixLibraryDevelopment/">Library Development</a></li>
+          
+            <li><a href="/docs/matrix/MatrixLibraryWishList/">Library WishList</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMorphology/">Morphology</a></li>
+          
+            <li><a href="/docs/matrix/PythonIdioms/">Python Idioms</a></li>
+          
+            <li><a href="/docs/matrix/MatrixRegressionTestingSetup/">Regression Testing Setup</a></li>
+          
+            <li><a href="/docs/matrix/MatrixRegressionTestingSetupMac/">Regression Testing Setup (Mac)</a></li>
+          
+            <li><a href="/docs/matrix/MatrixTDBProcedures/">TDB Procedures</a></li>
+          
+            <li><a href="/docs/matrix/MatrixTDB2Tables/">TDB2 Tables</a></li>
+          
+            <li><a href="/docs/matrix/MatrixValidationDebugging/">Validation Debugging</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Matrix Doc</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixDocTop/">Overview</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_AdnominalPossession/">Adnominal Possession</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_ArgumentOptionality/">Argument Optionality</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Case/">Case</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_ClausalComplements/">Clausal Complements</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_ClausalModifiers/">Clausal Modifiers</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Coordination/">Coordination</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_DirectInverse/">Direct Inverse</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Evidentials/">Evidentials</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Gender/">Gender</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_GeneralInfo/">General Info</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_ImportToolboxLexicon/">Import Toolbox Lexicon</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_InformationStructure/">Information Structure</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Lexicon/" class="active">Lexicon</a></li>
+          
+            <li><a href="/docs/matrix/matrixdef_File_Syntax/">Matrixdef File Syntax</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Morphology/">Morphology</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_NominalizedClauses/">Nominalized Clauses</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Number/">Number</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_OtherFeatures/">Other Features</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Person/">Person</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_SententialNegation/">Sentential Negation</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_TenseAspectMood/">Tense/Aspect/Mood</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_WhQuestions/">Wh Questions</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_WordOrder/">Word Order</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_YesNoQ/">YesNoQ</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">FAQ</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/GrammarEngineeringFAQ/">Grammar Engineering FAQ</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqFeatureGeometry/">Feature Geometry FAQ</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqChartTwice/">Chart Twice</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqCircularLexRule/">Circular Lex Rule</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqClickX/">Click X</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqConfusingTypo/">Confusing Typo</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqCyclicCheck/">Cyclic Check</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqDiffList/">Diff List</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqDisjunctiveValue/">Disjunctive Value</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqDistributedDisjunction/">Distributed Disjunction</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqExpandMenu/">Expand Menu</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqExpandedType/">Expanded Type</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqFeatureMultiType/">Feature Multi-Type</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqFindTypeForFeatures/">Find Type For Features</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqForgottenConstraint/">Forgotten Constraint</a></li>
+          
+            <li><a href="/docs/matrix/GeFaq/">GeFaq</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqGotoChar/">Goto Char</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqGrammarDocumentation/">Grammar Documentation</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqInteractiveUnify/">Interactive Unify</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqLkbInstallation/">LKB Installation</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqLispPromptTips/">Lisp Prompt Tips</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqLoadScript/">Load Script</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqKeyboardNotWorking/">Keyboard Not Working</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqMissingEdge/">Missing Edge</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqMissingHowTo/">Missing How-To</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqMissingRels/">Missing Rels</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNegValue/">Neg Value</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNewFeature/">New Feature</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoEntry2/">No Entry 2</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoError/">No Error</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoPossibleType/">No Possible Type</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoRule/">No Rule</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoSign/">No Sign</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNonAlpha/">Non-Alpha</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqOverApplicationLexRule/">Over Application Lex Rule</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqOrderMatters/">Order Matters</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqPasteShortcut/">Paste Shortcut</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRightBracket/">Right Bracket</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRootFail/">Root Fail</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRuleWithoutDaughter/">Rule Without Daughter</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRuleWithoutDaughters/">Rule Without Daughters</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRunawayRule1/">Runaway Rule 1</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRunawayRule2/">Runaway Rule 2</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqShowChart/">Show Chart</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqSpanningEdge/">Spanning Edge</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqSwitchingGrammars/">Switching Grammars</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqTabIndentation/">Tab Indentation</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqTdlSyntax/">TDL Syntax</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqTdlTxt/">TDL TXT</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqTypeAddendum/">Type Addendum</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqUnicodeInput/">Unicode Input</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqUnifySurprise/">Unify Surprise</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqViewEntry/">View Entry</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqViewHierarchy/">View Hierarchy</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqViewType/">View Type</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">MRS Tests</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuite/">Overview</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteBg/">Bulgarian</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteCantonese/">Cantonese</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsCatb/">Cathedral Test</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteEn/">English</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteFr/">French</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteDe/">German</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteGr/">Greek</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteIndonesian/">Indonesian</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteJa/">Japanese</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteMandarin/">Mandarin</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteNo/">Norwegian</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuitePt/">Portuguese</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteRu/">Russian</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteSv/">Swedish</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteTatoeba/">Tatoeba</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteZhTw/">ZhTw</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <h1 id="documentation-for-the-grammar-matrix-customization-lexicon-library">Documentation for the Grammar Matrix Customization Lexicon Library</h1>
+
+<h1 id="introduction">Introduction</h1>
+
+<p>This document explains how to fill out the <a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=lexicon">Lexicon
+page</a>
+of the Grammar Matrix Customization questionnaire and presents
+background information on the person library of the Grammar Matrix
+Customization System (Bender et al., 2002; Bender and Flickinger, 2005;
+Bender et al., 2010). General instructions on using the questionnaire
+can be found
+<a href="/MatrixDocTop#General_instructions_on_how_to_use_the_questionnaire">here</a>.</p>
+
+<p>The <a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=lexicon">Lexicon
+page</a>
+interacts with virtually every library in the customization system. On
+the Lexicon page, the user can define various lexical types. The
+features and values available to use in the definition of these lexical
+types depend on the answers to other parts of the questionnaire.</p>
+
+<h1 id="citing-the-lexicon-library">Citing the Lexicon Library</h1>
+
+<p>Most of the work for the Lexicon Library and its implementations has
+been done as part of <a href="http://depts.washington.edu/uwcl/matrix/sfd/Drellishak%20-%20Widespread%20but%20Not%20Universal.pdf">Drellishak
+2009</a>.
+The full reference and .bib entry can be found
+<a href="/MatrixDoc/Lexicon#References">here</a>. The adjectives and copulas were
+added as part of Trimble 2014 (forthcoming).</p>
+
+<h1 id="table-of-contents">Table of Contents</h1>
+
+<ul>
+  <li>
+    <p><a href="/MatrixDoc/Lexicon#Options">Options</a></p>
+
+    <ul>
+      <li><a href="/MatrixDoc/Lexicon#General">General Information</a></li>
+      <li><a href="/MatrixDoc/Lexicon#Nouns">Nouns</a></li>
+      <li><a href="/MatrixDoc/Lexicon#Verbs">Verbs</a></li>
+      <li><a href="/MatrixDoc/Lexicon#Adjectives">Adjectives</a></li>
+      <li><a href="/MatrixDoc/Lexicon#Auxiliaries">Auxiliaries</a></li>
+      <li><a href="/MatrixDoc/Lexicon#Copulas">Copulas</a></li>
+      <li><a href="/MatrixDoc/Lexicon#Determiners">Determiners</a></li>
+      <li><a href="/MatrixDoc/Lexicon#Case_Marking_Adpositions">Case Marking
+Adpositions</a></li>
+    </ul>
+  </li>
+  <li><a href="/MatrixDoc/Lexicon#Analyses">Analyses</a></li>
+  <li><a href="/MatrixDoc/Lexicon#References">References</a></li>
+</ul>
+
+<h1 id="options">Options</h1>
+
+<h2 id="general">General</h2>
+
+<p>The <a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=lexicon">Lexicon
+page</a>
+provides means to define grammatical properties of nouns, transitive and
+intransitive verbs, adjectives, auxiliaries and copulas, determiners and
+case-marking adpositions. The page bears a red question mark when
+unfilled. This means that it is possible to create a grammar with an
+empty lexicon, but generally assumed that it makes sense to define at
+least a noun and two verb types (typically intransitive and transitive)
+so that the grammar will be able to parse something. The question mark
+disappears as soon as at least one noun type and two verb types are
+given.</p>
+
+<p>Nouns, verbs, adjectives, and copula types that partially share
+grammatical properties can be defined as a hierarchy, where a general
+supertype defines properties shared by more than one class of nouns or
+verbs. The noun or verb classes that exhibit these shared properties
+will inherit them from the supertype (see the specific documentation on
+noun and verb classes for details).</p>
+
+<h2 id="nouns">Nouns</h2>
+
+<p>The following information can be provided for each noun type:</p>
+
+<ul>
+  <li>Type name</li>
+  <li>Supertypes</li>
+  <li>Features (name value)</li>
+  <li><strong>Determiners (obligatory)</strong></li>
+  <li>Stems (Spelling Predicate)</li>
+  <li>Morphotactic constraints</li>
+</ul>
+
+<p>A more detailed description of each of these properties follows below.</p>
+
+<h3 id="type-name">Type name</h3>
+
+<p>Defines the name of the class of nouns. It should be noted that:</p>
+
+<ul>
+  <li>The suffix <em>-noun-lex</em> will be added to the given name, e.g. <em>mass</em>
+becomes <em>mass-noun-lex</em> and <em>mass-noun</em>, <em>mass-noun-noun-lex</em></li>
+  <li>Noun types without a type name will be numbered: <em>noun1-noun-lex</em>,
+<em>noun2-noun-lex</em>, etc.</li>
+  <li>Good engineering style: pick transparent names, such as <em>mass</em> and
+<em>count</em>, <em>1st-sg-pro</em>, <em>1st-pl-incl-pro</em> rather than cryptic names</li>
+</ul>
+
+<h3 id="supertypes">Supertypes</h3>
+
+<p>This dropbox allows you to select supertypes of the noun-class. The
+dropbox will contain all other noun types you have defined, the order is
+not relevant. You can select several supertypes. This is useful if you
+want to cross-classify properties such as grammatical gender and
+countability for classes of nouns.</p>
+
+<p>A noun inherits the feature values of its supertype. For instance:</p>
+
+<ul>
+  <li>noun_type has feature Name: PERSON Value: 3rd</li>
+  <li>noun_type2 has supertype noun1</li>
+</ul>
+
+<p>In the resulting grammar, all nouns belonging to the class of
+noun_type2 will be 3rd person.</p>
+
+<p>Next to <strong>Noun Types</strong>, you find a(n experimental) link saying
+<em>visualize noun hierarchy</em>. It will display the supertype relations that
+are defined at that moment as a hierarchy.</p>
+
+<p>Cycles of inheritance are not allowed (and they do not make sense
+anyway). So if noun_type2 is a supertype of noun_type1, noun_type1
+may not be a supertype of noun_type2. Note that the supertype-subtype
+relation is transitive, so if <em>a := b</em> indicates a supertype relation
+where <em>b</em> is supertype of <em>a</em>, the following is forbidden as well:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>a := b.
+b := c.
+c := a.
+</code></pre></div></div>
+
+<p>In the supertype hierarchy above, <em>c</em> is a supertype of <em>a</em> through <em>b</em>.
+So <em>a</em> cannot be a supertype of <em>c</em>.</p>
+
+<p><strong>CAREFUL!!!!!!</strong></p>
+
+<p>Validation does not check whether constraints on supertypes and subtypes
+are compatible. This means that grammars with such errors can be created
+by the customization system, <strong>but they will not load in lkb and cannot
+be compiled to work with PET or ACE</strong>. An example of this would be the
+following:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>NounType 1
+Type name: 2nd-sg
+supertype: 3rd-sg
+Feature: PERSON 2nd
+
+NounType 2
+Type name: 3rd-sg
+
+Feature: PERSON 3rd
+</code></pre></div></div>
+
+<p>The 2nd-sg noun will inherit the property [PERSON 3rd] from the 3rd-sg
+noun, but have the additional property of [PERSON 2nd] from its own
+definition. Assuming that 3rd and 2nd are conflicting values, the
+grammar contains an ill-defined type. The following hierarchy would be
+possible:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>NounType 1
+Type name: 2nd-sg
+supertype: 3rd-sg
+Feature: PERSON 2nd
+
+NounType 2
+Type name: 3rd-sg
+
+Feature: PERSON 3rd, 2nd
+</code></pre></div></div>
+
+<p>In this case, Noun Type 2 will have a value for PERSON that is an
+underspecification of 2nd and 3rd. This value can unify with the value
+of Noun Type 1.</p>
+
+<p>There is a bug report for this problem, but it is extremely hard to
+implement so that it works at the time of validation. So for now and the
+near future: <strong>pay attention while defining inheritance!</strong></p>
+
+<h3 id="features">Features</h3>
+
+<p>The Feature option for verbs has three fields <em>name</em>, <em>value</em>. You can
+select a feature under <em>name</em> and its value(s) under <em>value</em>.</p>
+
+<p>The drop-boxes will show features and values based on what was filled
+out at the pages
+<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=person">Person</a>,
+<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=number">Number</a>,
+<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=gender">Gender</a>,
+<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=case">Case</a>,
+and <a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=other-features">Other
+Features</a>.
+The first four libraries
+(<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=person">Person</a>,
+<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=number">Number</a>,
+<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=gender">Gender</a>,
+<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=case">Case</a>)
+each define features typically appropriate for nouns. <a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=other-features">Other
+Features</a>
+allows you to define customized features. These features can be assigned
+to nouns, verbs or both. Features that are defined for both categories
+or for nouns will appear in the drop-box.</p>
+
+<p>Select the feature you want to specify from the left drop-box.
+Appropriate values will appear in the right drop-box. Each value is
+preceded by a check box. You can select as many values as you want for
+each feature (but note that selecting all values leads to the same
+behavior as not specifying a feature value pair at all).</p>
+
+<p>If you select more than one value for a feature, the noun class will
+assign an underspecified value to the feature that may unify with any of
+the selected values. The customization system will adapt the type
+hierarchy of the feature value accordingly. See the <a href="/MatrixDoc/Lexicon#A_Features_Analyses">analysis
+section</a> for an example of the
+impact on the type hierarchy.</p>
+
+<h3 id="determiners">Determiners</h3>
+
+<p>This is the only obligatory question for noun classes, validation
+indicates an error when this question is not answered, while other
+questions for a given noun class are.</p>
+
+<p>You must indicate whether determiners are <em>optional</em>, <em>obligatory</em> or
+<em>impossible</em>. Nouns with optional determiners can either form a noun
+phrase by themselves or by being combined with a determiner. If
+determiners are obligatory, they can only form a noun phrase (and hence
+only occur in a parsed sentence) when combined with a determiner. If
+determiners are impossible, the nouns form NPs by themselves and cannot
+be combined with determiners.</p>
+
+<p>If you indicated on the <a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=word-order">Word
+Order</a>
+page that the grammar does not have determiners, you must select
+<em>impossible</em> (else validation will indicate there is an error).</p>
+
+<h3 id="stems">Stems</h3>
+
+<p>Here you can define the actual stems of nouns belonging to a given
+class. Note that classes that are meant to serve as a supertype for
+other noun classes should (in most cases) not have stems. You can add as
+many noun stems per class as you want. It is not the fastest way to
+define a large scale lexicon, so you probably want to limit it to a
+hand-full that allows you to build decent test suites.</p>
+
+<p>For each noun stem, spelling and a predicate must be provided. After you
+fill out the spelling and hit tab, a predicate name based on the stem
+and MRS standards is suggested. This has the following form:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Spelling: myStem     Predicate: _myStem_n_rel
+</code></pre></div></div>
+
+<p>You can change the predicate if you like, but it is recommended to stick
+to the conventions of starting with _ and ending nominal relations by
+_n_rel.</p>
+
+<p>Pronouns are typical examples where predicates are not based on the
+spelling of the stem (e.g. <em>_pronoun_n_rel</em>, <em>_pro_n_rel</em> for all
+pronouns, INDEX features indicate the person, number, gender and other
+distinctive properties it may have).</p>
+
+<h3 id="morphotactic-constraints">Morphotactic constraints</h3>
+
+<p>This part of the lexicon library allows you to define interactions with
+morphotactics, which morphemes are required and which are forbidden to
+combine with a given lexical type.</p>
+
+<p>When you click either of the buttons, a constraint description appears
+with a drop-down menu. The position classes and morphological rules
+defined for nouns on the <a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=morphology">morphology
+page</a>
+appear in the drop-down. Select a class to define complete the
+constraint. You can define as many constraints as necessary.</p>
+
+<p>A Require constraint makes sure the lexical item is only accepted as a
+word after combining with a morpheme belonging to the selected position
+class or an instance of the selected lexical rule (depending on whether
+a position class or lexical rule was selected).</p>
+
+<p>A Forbid constraint makes sure the lexical item cannot combine with a
+morpheme belonging to the selected position class or an instance of the
+selected lexical rule (depending on whether a position class or lexical
+rule was selected).</p>
+
+<h2 id="verbs">Verbs</h2>
+
+<p>The following information can be provided for each noun type:</p>
+
+<ul>
+  <li>Type name</li>
+  <li>Supertypes</li>
+  <li>Features (name, value, specified on)</li>
+  <li><strong>Argument structure</strong></li>
+  <li>Stems (Spelling Predicate)</li>
+  <li>Morphotactic constraints</li>
+</ul>
+
+<p>A more detailed description of each of these properties follows below.</p>
+
+<h3 id="type-name-1">Type name</h3>
+
+<p>Defines the name of the class of verbs (similar to nouns). It should be
+noted that:</p>
+
+<ul>
+  <li>The suffix <em>-verb-lex</em> will be added to the given name, e.g. <em>trans</em>
+becomes <em>trans-verb-lex</em> and <em>trans-verb</em>, <em>trans-verb-verb-lex</em></li>
+  <li>Verb types without a type name will be numbered: <em>verb1-verb-lex</em>,
+<em>verb2-verb-lex</em>, etc.</li>
+  <li>Good engineering style: pick transparent names, such as <em>trans</em> and
+<em>intrans</em>, <em>nom-acc-trans</em>, <em>nom-dat-trans</em> rather than cryptic
+names</li>
+</ul>
+
+<h3 id="supertypes-1">Supertypes</h3>
+
+<p>This dropbox allows you to select supertypes of the verb-class. The
+dropbox will contain all other verb types you have defined, the order is
+not relevant. You can select several supertypes. This is useful if you
+want to cross-classify properties such as argument structure, case
+marking on arguments and subject or object agreement (if not handled by
+morphotactics).</p>
+
+<p>A verb inherits the feature values of its supertype. For instance:</p>
+
+<ul>
+  <li>verb_type1 has argument-structure intransitive</li>
+  <li>verb_type2 has argument-structure transitive</li>
+  <li>verb_type3 has supertype verb_type2 and feature value [ CASE nom
+] on the subject</li>
+  <li>verb_type4 has supertype verb_type2 and feature value [ CASE acc
+] on the object</li>
+  <li>verb_type5 has supertype verb_type1 and feature value [ CASE nom
+] on the subject</li>
+  <li>verb_type6 has supertypes verb_type3 and verb_type4</li>
+</ul>
+
+<p>In the resulting grammar, all verbs belonging to the class of
+verb_type5 will be intransitive verbs with nominative subjects, all
+verbs belonging to the class of verb_type6 will be transitive verbs
+with nominative subjects and accusative objects.</p>
+
+<p>Next to <strong>Verb Types</strong>, you find a(n experimental) link saying
+<em>visualize verb hierarchy</em>. It will display the supertype relations that
+are defined at that moment as a hierarchy.</p>
+
+<p>Cycles of inheritance are not allowed (and they do not make sense
+anyway). So if verb_type2 is a supertype of verb_type1, verb_type1
+may not be a supertype of verb_type2. Note that the supertype-subtype
+relation is transitive, so if <em>a := b</em> indicates a supertype relation
+where <em>b</em> is supertype of <em>a</em>, the following is forbidden as well:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>a := b.
+b := c.
+c := a.
+</code></pre></div></div>
+
+<p>In the supertype hierarchy above, <em>c</em> is a supertype of <em>a</em> through <em>b</em>.
+So <em>a</em> cannot be a supertype of <em>c</em></p>
+
+<p><strong>CAREFUL!!!!!!</strong></p>
+
+<p>Validation does not check whether constraints on supertypes and subtypes
+are compatible. This means that grammars with such errors can be created
+by the customization system, <strong>but they will not load in lkb and cannot
+be compiled to work with PET or ACE</strong>. An example of this would be the
+following:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>VerbType 1
+Type name: past
+supertype: present-v
+Feature: TENSE past
+
+NounType 2
+Type name: present-v
+
+Feature: TENSE present
+</code></pre></div></div>
+
+<p>The past verb will inherit the property [TENSE present] from the
+future verb, but have the additional property of [TENSE past] from its
+own definition. Assuming that past and future are conflicting values,
+the grammar contains an ill-defined type. The following hierarchy would
+be possible:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>VerbType 1
+Type name: past
+supertype: past-v
+Feature: TENSE past
+
+VerbType 2
+Type name: present
+
+Feature: TENSE present, past
+</code></pre></div></div>
+
+<p>In this case, Verb Type 2 will have a value for TENSE that is an
+underspecification of present and past (typically this would be
+non-future defined on verbal features). This value can unify with the
+value of Noun Type 1.</p>
+
+<p>There is a bug report for this problem, but it is extremely hard to
+implement so that it works at the time of validation. So for now and the
+near future: <strong>pay attention while defining inheritance!</strong></p>
+
+<h3 id="features-1">Features</h3>
+
+<p>The Feature option for verbs has three fields: <em>name</em>, <em>value</em>, and
+<em>specified on</em>. The name of the feature can be selected under <em>name</em>,
+its value(s) under <em>value</em> and where the feature-value pair applies to
+under <em>specified on</em>. Further explanation follows below.</p>
+
+<p>The first two drop-boxes will show features and values based on what was
+filled out at the pages
+<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=person">Person</a>,
+<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=number">Number</a>,
+<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=gender">Gender</a>,
+<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=case">Case</a>,
+<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=tense-mood-aspect">Tense-Mood-Aspect</a>,
+and <a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=other-features">Other
+Features</a>.
+The first four libraries
+(<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=person">Person</a>,
+<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=number">Number</a>,
+<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=gender">Gender</a>,
+<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=case">Case</a>)
+each define features typically appropriate for nouns.
+<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=tense-mood-aspect">Tense-Mood-Aspect</a>
+library provides the means to define typical verbal features (including
+grammatical features such as finiteness). <a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=other-features">Other
+Features</a>
+allows you to define customized features, which can be assigned to
+nouns, verbs or both. All features, regardless of whether they are
+defined for nouns, verbs or both categories will appear in the drop-box.</p>
+
+<p>The third drop-box provides five options: <em>the verb</em>, <em>the subject NP</em>,
+<em>the object NP</em>, <em>the higher-ranked NP</em> and <em>the lower-ranked NP</em>.
+Typical verbal properties such as Tense, Aspect, Mood and verb form
+should be assigned to <em>the verb</em>. Agreement between verbs and their
+arguments can be modeled by assigning properties to an NP. Be careful to
+only assign properties that are defined for verbs or both categories to
+<em>the verb</em> and only properties that are defined for nouns or both to the
+NPs. <strong>Currently validation does not check for such errors.</strong> You will
+therefore be allowed to do define properties this way on the
+questionnaire, but your grammar will not load. A bug report has been
+filed to fix validation.</p>
+
+<p>If your grammar has optional arguments and you defined the related
+properties on <a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=arg-opt">Argument
+Optionality</a>
+page of the questionnaire, you can define which arguments are optional
+and which are not by defining feature value pair [OPT +] and [OPT
+-], respectively, for the <strong>arguments</strong> in question. In other words, an
+optional object is defined by assigning [OPT +] to <em>the Object NP</em>.
+The OPT feature cannot be defined for <em>the verb</em>. Validation checks for
+this.</p>
+
+<p>Select the feature you want to specify from the left drop-box.
+Appropriate values will appear in the right drop-box. Each value is
+preceded by a check box. You can select as many values as you want for
+each feature (but note that selecting all values leads to the same
+behavior as not specifying a feature value pair at all). Assign the
+feature value pair to the appropriate element, keeping in mind the
+comments made above.</p>
+
+<p>If you select more than one value for a feature, the verb class will
+assign an underspecified value to the feature that may unify with any of
+the selected values. The customization system will adapt the type
+hierarchy of the feature value accordingly. See the <a href="/MatrixDoc/Lexicon#A_Features_Analyses">analysis
+section</a> for an example of the
+impact on the type hierarchy.</p>
+
+<p><strong>Please not that you cannot define argument-structure here</strong>,
+argument-structure should be defined by the special argument-structure
+drop-down explained below. The option <em>argument-structure</em> is intended
+for the morphemes only (to be defined on the morphology page).</p>
+
+<h3 id="argument-structure">Argument Structure</h3>
+
+<p>The argument structure drop-box allows you to indicate whether a verb is
+transitive or intransitive. Depending on the definitions you provided on
+the
+<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=case">Case</a>
+page, the drop-box also provides the standard case marking of your
+language’s subjects and objects (e.g. intransitive (nom) transitive
+(nom-acc), intransitive (erg), transitive (erg-abs)). For split case
+marking, no basic marking will be given for the case marking on the
+argument structure.</p>
+
+<p>If you want to define a verb with non-standard case marking (e.g. a verb
+with dative objects in a nominative-accusative language,
+nominative-nominative case marking for copula verbs), you can select the
+option <em>case unspecified</em>. You can then specify the case marking on
+subject and object using ‘features’.</p>
+
+<p>For verbs that will undergo nominalization, choose “case unspecified”
+and then constrain the output of the morphological rule associated with
+nominalization appropriately.</p>
+
+<p>For verbs that will take clausal complements, you have three options:</p>
+
+<ul>
+  <li>Choose case unspecified and use the Feature button to constrain
+subject or object case, where appropriate.</li>
+  <li>Choose normal case marking. This will only work for verbs taking
+nominalized complements, since only they will have case.</li>
+  <li>Specify the subject case but not the object case. It is expected
+that the subject case will be the same as for other verbs in most
+cases. Object case will not be appropriate for non-nominalized
+clausal complements.</li>
+</ul>
+
+<p>Argument structure is obligatory for all verb classes.</p>
+
+<h3 id="stems-1">Stems</h3>
+
+<p>Here you can define the actual stems of verbs belonging to a given
+class. Note that classes that are meant to serve as a supertype for
+other verb classes should (in most cases) not have stems. You can add as
+many verb stems per class as you want. It is not the fastest way to
+define a large scale lexicon, so you probably want to limit it to a
+hand-full that allows you to build decent test suites.</p>
+
+<p>For each verb stem, spelling and a predicate must be provided. After you
+fill out the spelling and hit tab, a predicate name based on the stem
+and MRS standards is suggested. This has the following form:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Spelling: myStem     Predicate: _myStem_v_rel
+</code></pre></div></div>
+
+<p>You can change the predicate if you like, but it is recommended to stick
+to the conventions of starting with _ and ending verbal relations by
+_v_rel.</p>
+
+<h3 id="bipartite-stems">Bipartite stems</h3>
+
+<p>“The term bipartite stem was coined by William Jacobsen (1980) to
+describe a pervasive type of verb formation in Washo, a Hokan language
+of western Nevada in which […] bound morphemes neither of which can
+constitute a verb stem on its own, are combined to form a “bipartite”
+stem.” (<a href="/DeLancey">DeLancey</a>, p.1)</p>
+
+<p>Above ‘Stems’ you will find the line <em>If this verb class includes
+bipartite stems, select the position class for the affix portion of the
+stems:</em> followed by a dropbox. Here, you can select a position class
+defined on the <a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=morphology">Morphology
+page</a>.
+Position classes define whether an affix is a prefix or suffix and the
+morphemes (stems or other affixes) it is preceded or followed by.</p>
+
+<p>If the verbs in the language have positions specific to the affix of the
+bipartite stem, you should go to the <a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=morphology">Morphology
+page</a>
+and define this position. You can then select it for the verb class on
+the
+<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=lexicon">Lexicon</a>
+page.</p>
+
+<p>If you click on <em>Add a bipartite Stem</em> three boxes appear, one for the
+root, one for the affix and one for the predicate. As for regular stems,
+a predicate is suggested as soon as you enter the root:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Root spelling: myRoot       Affix spelling: myAffix        Predicate: _myroot_v_rel
+</code></pre></div></div>
+
+<h3 id="morphotactic-constraints-1">Morphotactic Constraints</h3>
+
+<p>This part of the lexicon library allows you to define interactions with
+morphotactics, which morphemes are required and which are forbidden to
+combine with a given lexical type.</p>
+
+<p>When you click either of the buttons, a constraint description appears
+with a drop-down menu. The position classes and morphological rules
+defined for verbs on the <a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=morphology">Morphology
+page</a>
+appear in the drop-down. Select a class to define the constraint. You
+can define as many constraints as necessary.</p>
+
+<p>A Require constraint makes sure the lexical item is only accepted as a
+word after combining with a morpheme belonging to the selected position
+class or an instance of the selected lexical rule (depending on whether
+a position class or lexical rule was selected).</p>
+
+<p>A Forbid constraint makes sure the lexical item cannot combine with a
+morpheme belonging to the selected position class or an instance of the
+selected lexical rule (depending on whether a position class or lexical
+rule was selected).</p>
+
+<h2 id="adjectives">Adjectives</h2>
+
+<p>The following information can be provided for each adjective type:</p>
+
+<ul>
+  <li>Type name</li>
+  <li>Supertypes</li>
+  <li>Syntactic behavoir</li>
+  <li>Features (name, value, specified on)</li>
+  <li>Modification direction</li>
+  <li>Unique modification</li>
+  <li>Predicative behavoir</li>
+  <li>Stems (Spelling Predicate)</li>
+  <li>Morphotactic constraints</li>
+</ul>
+
+<p>A more detailed description of each of these properties follows below.</p>
+
+<h3 id="type-name-2">Type name</h3>
+
+<p>Defines the name of the class of adjectives (similar to nouns and
+verbs). It should be noted that:</p>
+
+<ul>
+  <li>The suffix <em>-adj-lex</em> will be added to the given name, e.g.
+<em>regular</em> becomes <em>regular-adj-lex</em> and <em>regular-adjective</em>,
+<em>regular-adjective-adj-lex</em></li>
+  <li>Adjective types without a type name will be numbered:
+<em>adj1-adj-lex</em>, <em>adj2-adj-lex</em>, etc.</li>
+  <li>Good engineering style: pick transparent names, such as
+<em>regular-both</em>, <em>irregular-both</em>, <em>regular-attributive-posthead</em> or
+<em>irregular-predicative-stative</em> rather than cryptic names like
+<em>basic</em>.</li>
+</ul>
+
+<h3 id="supertypes-2">Supertypes</h3>
+
+<p>This dropbox allows you to select supertypes of the adjective-class. The
+dropbox will contain all other adjective types you have defined, the
+order is not relevant. You can select several supertypes. This is useful
+when defining agreement features, such as gender or number.</p>
+
+<p>An adjective inherits the feature values of its supertype. For instance:</p>
+
+<ul>
+  <li>adj_type1 has the feature value [ GENDER masculine ] on both
+positions</li>
+  <li>adj_type2 has the feature value [ GENDER feminine ] on both
+positions</li>
+  <li>adj_type3 has the feature value [ NUMBER singular ] on both
+positions</li>
+  <li>adj_type4 has the feature value [ NUMBER plural ] on both
+positions</li>
+  <li>adj_type5 has supertypes adj_type1 and adj_type3</li>
+  <li>adj_type6 has supertypes adj_type2 and adj_type3</li>
+  <li>adj_type7 has supertype adj_type4</li>
+</ul>
+
+<p>In the resulting grammar, there will be three <em>leaf</em> adjective types,
+one for each of the possible combinations of the two two-valued
+features, which can easily have lexical instances (lexicon entries)
+added to. Doing this helps the grammar remain structured, and to easily
+place additional constraints on types, say if it is discovered that
+plural nouns are inherently feminine.</p>
+
+<p>Next to <strong>Adjective Types</strong>, you find a(n experimental) link saying
+<em>visualize adjective hierarchy</em>. It will display the supertype relations
+that are defined at that moment as a hierarchy.</p>
+
+<p>Cycles of inheritance are not allowed (and they do not make sense
+anyway). So if adj_type2 is a supertype of adj_type1, adj_type1 may
+not be a supertype of adj_type2. Note that the supertype-subtype
+relation is transitive, so if <em>a := b</em> indicates a supertype relation
+where <em>b</em> is supertype of <em>a</em>, the following is forbidden as well:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>a := b.
+b := c.
+c := a.
+</code></pre></div></div>
+
+<p>In the supertype hierarchy above, <em>c</em> is a supertype of <em>a</em> through <em>b</em>.
+So <em>a</em> cannot be a supertype of <em>c</em></p>
+
+<p><strong>CAREFUL!!!!!!</strong></p>
+
+<p>Validation does not check whether constraints on supertypes and subtypes
+are compatible. This means that grammars with such errors can be created
+by the customization system, <strong>but they will not load in lkb and cannot
+be compiled to work with PET or ACE</strong>. An example of this would be the
+following:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>AdjType 1
+Type name: regular-both
+supertype: regular-attributive
+
+AdjType 2
+Type name: regular-attributive
+This adjective is attributive.
+</code></pre></div></div>
+
+<p>The regular-both adjective will inherit the property
+Behavoir:attributive from the regular-attributive adjective, but have
+the additional property of Behavoir:both from its own definition. This
+results in an ill-defined type, and should be avoided.</p>
+
+<p>There is a bug report for this problem, but it is extremely hard to
+implement so that it works at the time of validation. So for now and the
+near future: <strong>pay attention while defining inheritance!</strong></p>
+
+<h3 id="syntactic-behavoir">Syntactic behavoir</h3>
+
+<p>There are four options for syntactic behavior:</p>
+
+<ul>
+  <li>attributive</li>
+  <li>predicative</li>
+  <li>both</li>
+  <li>unspecified</li>
+</ul>
+
+<p>Examples of attributive adjectives include:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>English: a tall man
+Apatani: Abraham 1985: 23
+  aki atu
+  dog small
+  'a small dog'
+French:
+  le chien noir
+  DET.DEF dog black
+  'the black dog'
+</code></pre></div></div>
+
+<p>Examples of predicative adjectives include:</p>
+
+<p>Many adjectives in many languages can be both attributive and
+predicative, such as in English:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>the big dog barks
+the dog is big
+</code></pre></div></div>
+
+<p>The <em>unspecified</em> choice is for adjectives that either agree with only
+their subject or modificand (but not both), or are optionally the
+complement of a copula. The <em>unspecified</em> option is currently only
+useful for these situations, and should be avoided otherwise.</p>
+
+<h3 id="features-2">Features</h3>
+
+<p>The Feature option for adjectives has three fields: <em>name</em>, <em>value</em>, and
+<em>specified on</em>. The name of the feature can be selected under <em>name</em>,
+its value(s) under <em>value</em> and where the feature-value pair applies to
+under <em>specified on</em>. Further explanation follows below.</p>
+
+<p>The first two drop-boxes will show features and values based on what was
+filled out at the pages
+<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=person">Person</a>,
+<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=number">Number</a>,
+<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=gender">Gender</a>,
+<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=case">Case</a>,
+<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=tense-mood-aspect">Tense-Mood-Aspect</a>,
+and <a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=other-features">Other
+Features</a>.
+The first four libraries
+(<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=person">Person</a>,
+<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=number">Number</a>,
+<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=gender">Gender</a>,
+<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=case">Case</a>)
+each define features typically appropriate for nouns.
+<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=tense-mood-aspect">Tense-Mood-Aspect</a>
+library provides the means to define typical predicate or ‘verbal’
+features (including grammatical features such as finiteness). <a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=other-features">Other
+Features</a>
+allows you to define customized features, which can be assigned to
+nouns, verbs or both. All features, regardless of whether they are
+defined for nouns, verbs, or both categories will appear in the
+drop-box.</p>
+
+<p>The third drop-box provides four options: <em>the modified noun</em>, <em>the
+subject</em>, <em>both positions</em>, and <em>the adjective</em>. Typical verbal
+properties such as Tense, Aspect, Mood and form should be assigned to
+<em>the adjective</em>. Agreement between adjectives and their modificand or
+subject can be modeled by assigning properties to one of the other
+options. Be careful to only assign properties that are defined for verbs
+or both categories to <em>the adjective</em> and only properties that are
+defined for nouns or both to the NPs.</p>
+
+<p><strong>Note</strong> that <em>both positions</em> is typologically more common, and <em>both
+positions</em> can and <strong>should</strong> be used for attributive only or
+predicative only adjectives. The options <em>the modified noun</em> and <em>the
+subject</em> are for cases where the adjective can appear in either position
+but only agrees with one position, or agrees differently with each
+argument. For instance, German adjectives only agree in attributive
+constructions, so they might be specified to agree with <em>the modified
+noun</em> as opposed to <em>both positions</em>.</p>
+
+<p>Select the feature you want to specify from the left drop-box.
+Appropriate values will appear in the right drop-box. Each value is
+preceded by a check box. You can select as many values as you want for
+each feature (but note that selecting all values leads to the same
+behavior as not specifying a feature value pair at all). Assign the
+feature value pair to the appropriate element, keeping in mind the
+comments made above.</p>
+
+<p>If you select more than one value for a feature, the adjective class
+will assign an underspecified value to the feature that may unify with
+any of the selected values. The customization system will adapt the type
+hierarchy of the feature value accordingly. See the <a href="/MatrixDoc/Lexicon#A_Features_Analyses">analysis
+section</a> for an example of the
+impact on the type hierarchy.</p>
+
+<p>On the use of <em>the subject</em> and <em>the modified noun</em>, in order to enable
+this functionality, the system automatically does two things on the
+selection of one of these options:</p>
+
+<ul>
+  <li>Sets the behavior of the adjective to <em>unspecified</em></li>
+  <li>Creates a new position class on the
+<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=morphology">Morphology</a>
+page with two lexical rule types that can be specified <em>attributive</em>
+or <em>predicative</em>. Any features you have specified on the Lexicon
+page are <strong>moved</strong> to the Morphology page upon saving or going to
+another page. These lexical rule types are automatically set up with
+the proper behavior and features, so you should not have to change
+anything on the Morphology page after using this feature, but best
+to check.</li>
+</ul>
+
+<h3 id="modification-direction">Modification direction</h3>
+
+<p>This choice is only relevant for <em>attributive</em> or <em>both</em> adjectives, and
+specifies whether the adjective appears <strong>before</strong> or <strong>after</strong> the noun
+it modifies, or <strong>either</strong>. The configurations are as follows:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>after the adjective: adj n
+before the adjective: n adj
+either position: adj n OR n adj
+</code></pre></div></div>
+
+<p>While some free word order languages allow adjectives to appear in any
+discourse constrained position, the word order library does not
+currently support this.</p>
+
+<h3 id="unique-modification">Unique modification</h3>
+
+<p>This choice is only relevant for <em>attributive</em> or <em>both</em> adjectives, and
+specifies whether the adjective can be the only modifier of the noun it
+modifies. That is, the string adj adj n is illegal in the target
+language because two adjectives modify the same noun.</p>
+
+<h3 id="predicative-behavior">Predicative behavior</h3>
+
+<p>This choice is only relevant for <em>predicative</em> or <em>both</em> adjectives, and
+specifies whether an adjective <em>obligatorily</em>, <em>optionally</em>, or
+<em>impossibly</em> appears as a copula complement. These are described below:</p>
+
+<ul>
+  <li>obligatory: the adjective <strong>must</strong> appear as a copula complement to
+be grammatical. Currently, the order of adjective and copula is the
+same as the order of Verb and Subject (VS/SV) on the <a href="http://www.trimbleworks.us/matrix/web/matrix.cgi?subpage=word-order">Word
+Order</a>
+page. This choices requires a copula to be defined on the Lexicon
+page.</li>
+  <li>impossibly: the adjective is a stative predicate, and <strong>never</strong>
+appears as a copula complement.</li>
+  <li>optionally: the adjective can appear as a copula complement <strong>or</strong> a
+stative predicate. This is facilitated through the use of a special
+position class, which is created automatically on the
+<a href="http://www.trimbleworks.us/matrix/web/matrix.cgi?subpage=morphology">Morphology</a>
+page upon <strong>saving</strong> this choice. On the Morphology page, users can
+then define special morphology or other features of the copula
+complement or stative predicate instances of this adjective.</li>
+</ul>
+
+<h3 id="stems-2">Stems</h3>
+
+<p>Here you can define the actual stems of verbs belonging to a given
+class. Note that classes that are meant to serve as a supertype for
+other verb classes should (in most cases) not have stems. You can add as
+many verb stems per class as you want. It is not the fastest way to
+define a large scale lexicon, so you probably want to limit it to a
+hand-full that allows you to build decent test suites.</p>
+
+<p>For each verb stem, spelling and a predicate must be provided. After you
+fill out the spelling and hit tab, a predicate name based on the stem
+and MRS standards is suggested. This has the following form:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Spelling: myStem     Predicate: _myStem_a_rel
+</code></pre></div></div>
+
+<p>You can change the predicate if you like, but it is recommended to stick
+to the conventions of starting with _ and ending adjectival relations
+by _a_rel.</p>
+
+<h3 id="morphotactic-constraints-2">Morphotactic Constraints</h3>
+
+<p><strong>NOTE</strong>: morphotactic constraints on adjectives are still under
+development and may not work as intended.</p>
+
+<p>This part of the lexicon library allows you to define interactions with
+morphotactics, which morphemes are required and which are forbidden to
+combine with a given lexical type.</p>
+
+<p>When you click either of the buttons, a constraint description appears
+with a drop-down menu. The position classes and morphological rules
+defined for verbs on the <a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=morphology">Morphology
+page</a>
+appear in the drop-down. Select a class to define the constraint. You
+can define as many constraints as necessary.</p>
+
+<p>A Require constraint makes sure the lexical item is only accepted as a
+word after combining with a morpheme belonging to the selected position
+class or an instance of the selected lexical rule (depending on whether
+a position class or lexical rule was selected).</p>
+
+<p>A Forbid constraint makes sure the lexical item cannot combine with a
+morpheme belonging to the selected position class or an instance of the
+selected lexical rule (depending on whether a position class or lexical
+rule was selected).</p>
+
+<h2 id="auxiliaries">Auxiliaries</h2>
+
+<p>Auxiliaries represent verbs that take other verbs as their complement. A
+basic description is provided on the <a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=lexicon">Lexicon
+page</a>.
+You can add an auxiliary by clicking on the <em>Add an Auxiliary Type</em>.
+This opens up a range of relevant fields and questions to define
+auxiliaries.</p>
+
+<p>They are:</p>
+
+<ul>
+  <li>Type Name</li>
+  <li><em>No predicate</em> or <em>An independent predicate</em></li>
+  <li>Auxiliary Features</li>
+  <li>Subject Type</li>
+  <li>Complement Features</li>
+  <li>Stems</li>
+  <li>Morphotactic Constraints</li>
+</ul>
+
+<p>A more detailed description of each of these properties follows below
+(<strong>note</strong>: currently under development)</p>
+
+<h3 id="type-name-3">Type Name</h3>
+
+<p>Defines the name of the class of auxiliaries (similar to nouns and
+verbs). It should be noted that:</p>
+
+<ul>
+  <li>The suffix <em>-aux-lex</em> will be added to the given name, e.g. <em>modal</em>
+becomes <em>modal-aux-lex</em> and <em>modal-aux</em>, <em>modal-aux-aux-lex</em></li>
+  <li>Aux types without a type name just receive the suffix (<em>-aux-lex</em>),
+you should therefore <strong>provide a type name!</strong></li>
+  <li>Good engineering style: pick transparent names, such as <em>modal</em> and
+<em>participle</em>, <em>future</em>, <em>past</em> rather than cryptic names</li>
+</ul>
+
+<h3 id="no-predicate-or-an-independent-predicate">No predicate or An independent predicate</h3>
+
+<p>By selecting a radio button, you indicate whether the auxiliaries
+belonging to a class have an independent predicate (e.g. English <em>can</em>,
+<em>may</em>) or not (e.g. English <em>will</em> contributing future tense through a
+feature).</p>
+
+<h3 id="auxiliary-features">Auxiliary features</h3>
+
+<p>The Feature option for auxiliaries has three fields <em>name</em>, <em>value</em> and
+<em>specified on</em>. The name of the feature can be selected under <em>name</em>,
+its value(s) under <em>value</em> and where the feature-value pair applies to
+under <em>specified on</em>. Further explanation follows below.</p>
+
+<p>The first two drop-boxes will show features and values based on what was
+filled out at the pages
+<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=person">Person</a>,
+<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=number">Number</a>,
+<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=gender">Gender</a>,
+<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=case">Case</a>,
+<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=tense-mood-aspect">Tense-Mood-Aspect</a>,
+and <a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=other-features">Other
+Features</a>.
+The first four libraries
+(<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=person">Person</a>,
+<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=number">Number</a>,
+<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=gender">Gender</a>,
+<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=case">Case</a>)
+each define features typically appropriate for nouns.
+<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=tense-mood-aspect">Tense-Mood-Aspect</a>
+provides the means to define typical verbal features (including
+grammatical features such as finiteness). <a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=other-features">Other
+Features</a>
+allows you to define customized features, which can be assigned to
+nouns, verbs (including auxiliaries) or both. All features, regardless
+of whether they are defined for nouns, verbs or both categories will
+appear in the drop-box.</p>
+
+<p>The third drop-box provides five options: <em>the auxiliary</em>, <em>the subject
+NP</em>, <em>the object NP</em>, <em>the higher-ranked NP</em> and <em>the lower-ranked NP</em>.
+Typical verbal properties such as Tense, Aspect, Mood and verb form
+should be assigned to <em>the auxiliary</em>. Agreement between verbs and their
+arguments can be modeled by assigning properties to an NP. Be careful to
+only assign properties that are defined for auxiliaries or both
+categories to <em>the auxilaries</em> and only properties that are defined for
+nouns or both to the NPs. <strong>Currently validation does not check for such
+errors.</strong> You will therefore be allowed to do define properties this way
+on the questionnaire, but your grammar will not load. A bug report has
+been filed to fix validation.</p>
+
+<p>If your grammar has optional arguments and you defined the related
+properties on <a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=arg-opt">Argument
+Optionality</a>
+page of the questionnaire, you can define which arguments are optional
+and which are not by defining feature value pair [OPT +] and [OPT
+-], respectively, for the <strong>arguments</strong> in question. In other words, an
+optional object is defined by assigning [OPT +] to <em>the Object NP</em>.
+The OPT feature cannot be defined for <em>the verb</em>. Validation checks for
+this.</p>
+
+<p>Select the feature you want to specify from the left drop-box.
+Appropriate values will appear in the right drop-box. Each value is
+preceded by a check box. You can select as many values as you want for
+each feature (but note that selecting all values leads to the same
+behavior as not specifying a feature value pair at all). Assign the
+feature value pair to the appropriate element, keeping in mind the
+comments made above.</p>
+
+<p>If you select more than one value for a feature, the auxiliary class
+will assign an underspecified value to the feature that may unify with
+any of the selected values. The customization system will adapt the type
+hierarchy of the feature value accordingly. See the <a href="/MatrixDoc/Lexicon#A_Features_Analyses">analysis
+section</a> for an example of the
+impact on the type hierarchy.</p>
+
+<p><strong>Please not that you cannot define argument-structure here</strong>, the
+argument-structure for auxiliaries is currently defined on the <a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=word-order">Word
+Order</a>
+page, because its specifications are mostly seen in word order. In
+principle, all that can be defined on argument structure for auxiliaries
+is which arguments of the verbal complement are raised, and which are
+picked up by the verbal complement itself. The option
+<em>argument-structure</em> is intended for the morphemes only (to be defined
+on the <a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=morphology">Morphology
+page</a>).</p>
+
+<h3 id="subject-type">Subject Type</h3>
+
+<p>Here you can define the kind of subject the auxiliary takes. There are
+three options concerning case marking of nouns and the option to select
+an adpositional phrase as a subject. Case options include <em>no case
+marking</em>, <em>the case the verbal complement assigns to its subject</em>, i.e.
+similar to a raising analysis and <em>receiving the following case from the
+auxiliary</em>, which allows you to define a specific case the auxiliary
+will assign to the subject.</p>
+
+<h3 id="complement-features">Complement Features</h3>
+
+<p>Click on the button <em>Add a complement feature</em> to define features on the
+verbal complement. As mentioned on the page, a feature for FORM is
+required. If no feature values for form where defined, the options
+<em>finite</em> and <em>nonfinite</em> will be available for FORM.</p>
+
+<p>The features in the drop-down menu are all suitable for verbal
+complements.</p>
+
+<h3 id="stems-3">Stems</h3>
+
+<p>Here you can define the actual stems of auxiliaries belonging to a given
+class. You can add as many stems per auxiliary class as you want.</p>
+
+<p>For each auxiliary stem must be provided. Depending on the option you
+filled out regarding predicates (<em>No predicate</em> or <em>An independent
+predicate</em>) you may also need to define a predicate (validation will
+throw an error if you define a predicate for a predicateless auxiliary
+or no predicate for an auxiliary requiring one). Since not all
+auxiliaries have their own predicate, no predicate form is suggested for
+auxiliaries. The recommended form is however similar to that of nouns
+and main verbs:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Spelling: myStem     Predicate: _myStem_v_rel
+</code></pre></div></div>
+
+<p>You can provide any predicate you like, but it is recommended to stick
+to the conventions of starting with _ and ending verbal relations by
+_v_rel.</p>
+
+<h3 id="morphotactic-constraints-3">Morphotactic Constraints</h3>
+
+<p>This part of the lexicon library allows you to define interactions with
+morphotactics, which morphemes are required and which are forbidden to
+combine with a given lexical type.</p>
+
+<p>When you click either of the buttons, a constraint description appears
+with a drop-down menu. The position classes and morphological rules
+defined for verbs on the <a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=morphology">morphology
+page</a>
+appear in the drop-down. <strong>Note that position classes for auxiliaries
+are included in position classes for verbs</strong>. Select a class to define
+the constraint. You can define as many constraints as necessary.</p>
+
+<p>A Require constraint makes sure the lexical item is only accepted as a
+word after combining with a morpheme belonging to the selected position
+class or an instance of the selected lexical rule (depending on whether
+a position class or lexical rule was selected).</p>
+
+<p>A Forbid constraint makes sure the lexical item cannot combine with a
+morpheme belonging to the selected position class or an instance of the
+selected lexical rule (depending on whether a position class or lexical
+rule was selected).</p>
+
+<h2 id="copulas">Copulas</h2>
+
+<p><strong>NOTE</strong> Currently, the Grammar Matrix customization system only
+supports copulas with adjectival complements. However, if these sorts of
+copulas fit your needs for other complement types, you can use the
+Grammar Matrix customization system to define your copula types and
+lexical items, and then edit the output grammar.</p>
+
+<p>The following values can be defined on Copulas.</p>
+
+<ul>
+  <li>Type name</li>
+  <li>Supertypes</li>
+  <li>Complement Types</li>
+  <li>Features (name, value, specified on)</li>
+  <li>Stems (Spelling Predicate)</li>
+  <li>Morphotactic constraints</li>
+</ul>
+
+<p>Each of these is covered in detail below.</p>
+
+<h3 id="type-name-4">Type Name</h3>
+
+<p>Defines the name of the class of copulas (similar to nouns and verbs).
+It should be noted that:</p>
+
+<ul>
+  <li>The suffix <em>-cop-lex</em> will be added to the given name, e.g.
+<em>regular</em> becomes <em>regular-cop-lex</em> and <em>regular-copula</em>,
+<em>regular-copula-cop-lex</em></li>
+  <li>Copula types without a type name will be numbered: <em>cop1-cop-lex</em>,
+<em>cop2-cop-lex</em>, etc.</li>
+  <li>Good engineering style: pick transparent names, such as
+<em>regular-adj-comp-1st-sg</em> or <em>irregular-2nd-pl</em>.</li>
+</ul>
+
+<h3 id="supertypes-3">Supertypes</h3>
+
+<p>This dropbox allows you to select supertypes of the copula-class. The
+dropbox will contain all other copula types you have defined, the order
+is not relevant. You can select several supertypes. This is useful when
+defining agreement features, such as gender or number.</p>
+
+<p>An adjective inherits the feature values of its supertype. For instance:</p>
+
+<ul>
+  <li>cop_type1 has the feature value [ GENDER masculine ] on the
+subject</li>
+  <li>cop_type2 has the feature value [ GENDER feminine ] on the
+subject</li>
+  <li>cop_type3 has the feature value [ NUMBER singular ] on the
+subject</li>
+  <li>cop_type4 has the feature value [ NUMBER plural ] on the subject</li>
+  <li>cop_type5 has supertypes cop_type1 and cop_type3</li>
+  <li>cop_type6 has supertypes cop_type2 and cop_type3</li>
+  <li>cop_type7 has supertype cop_type4</li>
+</ul>
+
+<p>In the resulting grammar, there will be three <em>leaf</em> copula types, one
+for each of the possible combinations of the two two-valued features,
+which can easily have lexical instances (lexicon entries) added to.
+Doing this helps the grammar remain structured, and to easily place
+additional constraints on types, say if it is discovered that plural
+nouns are inherently feminine.</p>
+
+<p>Next to <strong>Copula Types</strong>, you find a(n experimental) link saying
+<em>visualize copula hierarchy</em>. It will display the supertype relations
+that are defined at that moment as a hierarchy.</p>
+
+<p>Cycles of inheritance are not allowed (and they do not make sense
+anyway). So if cop_type2 is a supertype of cop_type1, cop_type1 may
+not be a supertype of cop_type2. Note that the supertype-subtype
+relation is transitive, so if <em>a := b</em> indicates a supertype relation
+where <em>b</em> is supertype of <em>a</em>, the following is forbidden as well:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>a := b.
+b := c.
+c := a.
+</code></pre></div></div>
+
+<p>In the supertype hierarchy above, <em>c</em> is a supertype of <em>a</em> through <em>b</em>.
+So <em>a</em> cannot be a supertype of <em>c</em></p>
+
+<p><strong>CAREFUL!!!!!!</strong></p>
+
+<p>Validation does not check whether constraints on supertypes and subtypes
+are compatible. This means that grammars with such errors can be created
+by the customization system, <strong>but they will not load in lkb and cannot
+be compiled to work with PET or ACE</strong>. An example of this would be the
+following:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>CopType 1
+Type name: regular-adj-comp-pl
+supertype: regular-adj-comp-sg
+
+CopType 2
+Type name: regular-adj-comp-sg
+This copula constrains its subject to be singular.
+</code></pre></div></div>
+
+<p>The regular-adj-comp-pl copula will inherit the property
+Feature:subject:singular from the regular-adj-comp-sg copula, but have
+the additional property of Feature:subject:plural from its own
+definition. This results in an ill-defined type, and should be avoided.</p>
+
+<p>There is a bug report for this problem, but it is extremely hard to
+implement so that it works at the time of validation. So for now and the
+near future: <strong>pay attention while defining inheritance!</strong></p>
+
+<h3 id="complement-type">Complement Type</h3>
+
+<p>Choose the part of speech type that can appear as a complement to this
+copula type. Options are <em>NPs</em>, or Noun Phrases; <em>PPs</em>, or Prepositional
+Phrases; and <em>APs</em>, or Adjective Phrases. Currently, the only available
+option is <em>APs</em>, which generates a copula type in the output grammar
+with its complement constrained to be an adjective.</p>
+
+<h3 id="features-3">Features</h3>
+
+<h3 id="stems-4">Stems</h3>
+
+<p>Here you can define the actual stems of copulas belonging to a given
+class. You can add as many stems per auxiliary class as you want.</p>
+
+<p>Copulas are analyzed as having empty semantics, so there is not an
+option for copula predicates.</p>
+
+<h3 id="morphotactic-constraints-4">Morphotactic Constraints</h3>
+
+<p><strong>NOTE</strong>: morphotactic constraints on copulas are still under
+development and may not work as intended.</p>
+
+<p>This part of the lexicon library allows you to define interactions with
+morphotactics, which morphemes are required and which are forbidden to
+combine with a given lexical type.</p>
+
+<p>When you click either of the buttons, a constraint description appears
+with a drop-down menu. The position classes and morphological rules
+defined for verbs on the <a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=morphology">Morphology
+page</a>
+appear in the drop-down. Select a class to define the constraint. You
+can define as many constraints as necessary.</p>
+
+<p>A Require constraint makes sure the lexical item is only accepted as a
+word after combining with a morpheme belonging to the selected position
+class or an instance of the selected lexical rule (depending on whether
+a position class or lexical rule was selected).</p>
+
+<p>A Forbid constraint makes sure the lexical item cannot combine with a
+morpheme belonging to the selected position class or an instance of the
+selected lexical rule (depending on whether a position class or lexical
+rule was selected).</p>
+
+<h2 id="determiners-1">Determiners</h2>
+
+<p>The following information can be provided for each determiner:</p>
+
+<ul>
+  <li>Type name</li>
+  <li>Stems</li>
+  <li>Features</li>
+  <li>Morphotactic constraints</li>
+</ul>
+
+<h3 id="type-name-5">Type name</h3>
+
+<p>Defines the name of the class of auxiliaries (similar to nouns, verbs
+and determiners). It should be noted that:</p>
+
+<ul>
+  <li>The suffix <em>-determiner-lex</em> will be added to the given name, e.g.
+<em>def</em> becomes <em>def-determiner-lex</em> and <em>def-det</em>,
+<em>def-det-determiner-lex</em></li>
+  <li>Determiner types without a type name will be numbered:
+<em>det1-determiner-lex</em>, <em>det2-determiner-lex</em>, etc.</li>
+  <li>Good engineering style: pick transparent names, such as <em>definite</em>
+and <em>def-nom-sg</em>, <em>indef-fem-erg</em> rather than cryptic names</li>
+</ul>
+
+<h3 id="stems-5">Stems</h3>
+
+<p>Here you can define the actual stems of determiners belonging to a given
+class. You can add as many determiner stems per class as you want.</p>
+
+<p>For each determiner stem, spelling and a predicate must be provided.
+After you fill out the spelling and hit tab, a predicate name based on
+the stem and MRS standards is suggested. This has the following form:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Spelling: myStem     Predicate: _myStem_q_rel
+</code></pre></div></div>
+
+<p>You can change the predicate if you like, but it is recommended to stick
+to the conventions of starting with _ and ending quantifier relations
+by _q_rel.</p>
+
+<h3 id="features-4">Features</h3>
+
+<p>The Feature option for determiners has two fields <em>name</em> and <em>value</em>.
+You can select a feature under <em>name</em> and its value(s) under <em>value</em>.</p>
+
+<p>The drop-boxes will show features and values based on what was filled
+out at the pages
+<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=person">Person</a>,
+<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=number">Number</a>,
+<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=gender">Gender</a>,
+<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=case">Case</a>,
+and <a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=other-features">Other
+Features</a>.
+The first four libraries
+(<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=person">Person</a>,
+<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=number">Number</a>,
+<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=gender">Gender</a>,
+<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=case">Case</a>)
+each define features typically appropriate for nouns, which can also be
+assigned to determiners. <a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=other-features">Other
+Features</a>
+allows you to define customized features. These features can be assigned
+to nouns, verbs or both. Features that are defined for both categories
+or for nouns will appear in the drop-box.</p>
+
+<p>Select the feature you want to specify from the left drop-box.
+Appropriate values will appear in the right drop-box. Each value is
+preceded by a check box. You can select as many values as you want for
+each feature (but note that selecting all values leads to the same
+behavior as not specifying a feature value pair at all).</p>
+
+<p>If you select more than one value for a feature, the determiner class
+will assign an underspecified value to the feature that may unify with
+any of the selected values. The customization system will adapt the type
+hierarchy of the feature value accordingly. See the <a href="/MatrixDoc/Lexicon#A_Features_Analyses">analysis
+section</a> for an example of the
+impact on the type hierarchy.</p>
+
+<h3 id="morphological-constraints">Morphological constraints</h3>
+
+<p>This part of the lexicon library allows you to define interactions with
+morphotactics, which morphemes are required and which are forbidden to
+combine with a given lexical type.</p>
+
+<p>When you click either of the buttons, a constraint description appears
+with a drop-down menu. The position classes and morphological rules
+defined for determiners on the <a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=morphology">Morphology
+page</a>
+appear in the drop-down. Select a class to define the constraint. You
+can define as many constraints as necessary.</p>
+
+<p>A Require constraint makes sure the lexical item is only accepted as a
+word after combining with a morpheme belonging to the selected position
+class or an instance of the selected lexical rule (depending on whether
+a position class or lexical rule was selected).</p>
+
+<p>A Forbid constraint makes sure the lexical item cannot combine with a
+morpheme belonging to the selected position class or an instance of the
+selected lexical rule (depending on whether a position class or lexical
+rule was selected).</p>
+
+<h2 id="case-marking-adpositions">Case Marking Adpositions</h2>
+
+<p>This part of the <a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=lexicon">Lexicon
+page</a>
+allows you to define case marking adpositions. Unlike the other lexical
+items on this page, you cannot define an adposition class, but only
+individual adpositions with grammmatical properties.</p>
+
+<p>You can provide the following information for each adposition:</p>
+
+<ul>
+  <li>Spelling</li>
+  <li>Optionality or not</li>
+  <li>Order (before or after the noun)</li>
+  <li>Features</li>
+</ul>
+
+<p>Note that these adpositions are meant to fill the role of case markers.
+They thus have no predicates of their own. If the adposition is
+optional, check the check box before ‘optional’ in the sentence
+following <em>Spelling</em>.</p>
+
+<p>You can indicate whether the adposition is a preposition or postposition
+by indicating whether it appears before or after the noun phrase.</p>
+
+<h3 id="features-5">Features</h3>
+
+<p>The Feature option for case-marking adpositions has two fields <em>name</em>
+and <em>value</em>. You can select a feature under <em>name</em> and its value(s)
+under <em>value</em>.</p>
+
+<p>The drop-boxes will show features and values based on what was filled
+out at the pages
+<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=person">Person</a>,
+<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=number">Number</a>,
+<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=gender">Gender</a>,
+<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=case">Case</a>,
+and <a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=other-features">Other
+Features</a>.
+The first four libraries
+(<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=person">Person</a>,
+<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=number">Number</a>,
+<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=gender">Gender</a>,
+<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=case">Case</a>)
+each define features typically appropriate for nouns, which can all be
+defined on adpositions. <a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=other-features">Other
+Features</a>
+allows you to define customized features. These features can be assigned
+to nouns, verbs or both. Features that are defined for both categories
+or for nouns will appear in the drop-box.</p>
+
+<p>Select the feature you want to specify from the left drop-box.
+Appropriate values will appear in the right drop-box. Each value is
+preceded by a check box. You can select as many values as you want for
+each feature (but note that selecting all values leads to the same
+behavior as not specifying a feature value pair at all).</p>
+
+<p>If you select more than one value for a feature, the adposition will
+assign an underspecified value to the feature that may unify with any of
+the selected values. The customization system will adapt the type
+hierarchy of the feature value accordingly. See the <a href="/MatrixDoc/Lexicon#A_Features_Analyses">analysis
+section</a> for an example of the
+impact on the type hierarchy.</p>
+
+<h1 id="analyses">Analyses</h1>
+
+<h2 id="general-introduced-underspecification-of-feature-values">General: Introduced underspecification of feature values</h2>
+
+<p>If you select more than one value for a feature, the noun class will
+assign an underspecified value to the feature that may unify with any of
+the selected values. The customization system will adapt the type
+hierarchy of the feature value accordingly.</p>
+
+<p>For instance, the basic customized hierarchy for the option
+‘first-second-third’ person and ‘none’ first person distinction will
+look as follows:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>person := avm.
+1st := person.
+2nd := person.
+3rd := person.
+</code></pre></div></div>
+
+<p>If you define the following Feature-value pair:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Feature: PERSON value [x] 1st []2nd [x]3rd
+</code></pre></div></div>
+
+<p>The hierarchy will look like this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>person := avm.
+2nd := person.
+non-2nd := person.
+1st := non-2nd.
+3rd := non-2nd.
+</code></pre></div></div>
+
+<p>The resulting noun class will bear the feature-value pair [PERSON
+non-2nd]</p>
+
+<h2 id="nouns-1">Nouns</h2>
+
+<h3 id="generally-included-argument-structure">Generally included: Argument structure</h3>
+
+<p>A basic type for noun-phrases is introduced in the grammar. It looks as
+follows:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>noun-lex := basic-noun-lex &amp; basic-one-arg &amp; no-hcons-lex-item &amp;
+   [ SYNSEM.LOCAL [ CAT.VAL [ SPR &lt; #spr &amp; [ LOCAL.CAT.HEAD det ] &gt;,
+                              COMPS &lt; &gt;,
+                              SUBJ &lt; &gt;,
+                              SPEC &lt; &gt; ] ],
+     ARG-ST &lt; #spr &gt; ].
+</code></pre></div></div>
+
+<p>It inherits from three matrix.tdl types: <em>basic-noun-lex</em>,
+<em>basic-one-arg</em> and <em>no-hcons-lex-item</em>.</p>
+
+<ul>
+  <li><em>basic-noun-lex</em> inherits from <em>norm-sem-lex-item</em> and introduces
+the features [ HEAD noun ], and [ KEYREL noun-relation ]. All
+together, this makes sure that the nouns have standard semantics
+(introducing one relation) and have a referential index (which can
+bear features for person, number, gender).</li>
+  <li><em>basic-one-arg</em> and <em>no-hcons-lex-item</em> reflect that the
+customization system currently does not support nouns with arguments
+of their own, or funky semantics for nouns involving scope</li>
+</ul>
+
+<p>The argument structure makes it select for a specifier of category
+<em>determiner</em> ([HEAD det]). Note that this also applies to languages
+that do not have determiners: in these languages, all nouns will use the
+<em>bare-np-phrase</em> rule to cancel the determiner from the argument list.
+The application of the bare-np-rule is regulated through the feature [
+OPT bool ] on the synsem of the specifier. The bare-np-rule can only
+apply when the determiner on the argument list is [ OPT + ], the
+head-specifier rule combining determiners with nouns, requires [ OPT -
+] (which is added to the rule if the language has determiners, and
+nouns that cannot take one are defined in the questionnaire).</p>
+
+<p>If all nouns in the language have the same requirements towards
+determiners (i.e. they are always obligatory, always impossible or
+always optional) the required constraint is regulated on the basic
+definition of <em>noun-lex</em> as follows (in partial structures of the
+<em>noun-lex</em> type presented above):</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>always obligatory determiners:
+noun-lex := ...
+ [ SYNSEM.LOCAL [ CAT.VAL [ SPR &lt; #spr &amp; [ LOCAL.CAT.HEAD det,
+                                           OPT - ] &gt;,
+  .... ].
+
+determiners are never allowed:
+noun-lex := ...
+ [ SYNSEM.LOCAL [ CAT.VAL [ SPR &lt; #spr &amp; [ LOCAL.CAT.HEAD det,
+                                           OPT + ] &gt;,
+  .... ].
+
+determiners are always optional:
+noun-lex := ...
+ [ SYNSEM.LOCAL [ CAT.VAL [ SPR &lt; #spr &amp; [ LOCAL.CAT.HEAD det ] &gt;,
+  .... ].
+</code></pre></div></div>
+
+<p>In the first case, the <em>bare-np-phrase</em> cannot apply, but the
+<em>spr-head-phrase</em> can combine the noun with a determiner. The [ OPT +
+] feature blocks the <em>spr-head-phrase</em>, forcing the <em>bare-np-phrase</em> to
+apply to create NPs (even if the language has determiners, nouns can
+only be part of <em>bare-np-phrases</em> in this case). If they are always
+optional, the [ OPT bool ] feature remains underspecified, so that
+both rules can apply.</p>
+
+<p>If restrictions towards determiners vary, subtypes of <em>noun-lex</em>
+introducing the right constraints are introduced:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>If obligatory determiners occur:
+obl-spr-noun-lex := noun-lex &amp;
+  [ SYNSEM.LOCAL.CAT.VAL.SPR &lt; [ OPT - ] &gt; ].
+
+If nouns for which determiners are impossible occur:
+no-spr-noun-lex := noun-lex &amp;
+  [ SYNSEM.LOCAL.CAT.VAL.SPR &lt; [ OPT + ] &gt; ].
+</code></pre></div></div>
+
+<h3 id="generally-included-case-marking">Generally included: Case Marking</h3>
+
+<p>If the language has case, the feature [ CASE case ] is added to the
+head-type noun as an addendum:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>noun :+ [ CASE case ]
+</code></pre></div></div>
+
+<h3 id="noun-class-specific-type-name">Noun Class Specific: Type Name</h3>
+
+<p>The name provided to the class will serve as the type identifier in the
+lexicon with the suffix indicated above.</p>
+
+<p>If a type has supertypes identified on the <a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=lexicon">Lexicon
+page</a>,
+these will be the only supertypes it receives. Else, the following
+supertypes will be provided:</p>
+
+<h3 id="noun-class-specific-supertypes">Noun Class Specific: Supertypes</h3>
+
+<p>The supertypes of a noun class depend on:</p>
+
+<ul>
+  <li>its behavior towards determiners</li>
+  <li>its user-specified supertypes</li>
+  <li>the behavior of the supertype towards determiners</li>
+</ul>
+
+<p>The noun class will only have <em>noun-lex</em> as supertype if either of the
+following applies:</p>
+
+<ul>
+  <li>no supertypes were assigned in the questionnaire and all nouns
+behave the same towards determiners in the language</li>
+  <li>no supertypes were assigned and the behavior of the type towards
+determiners was underspecified in the questionnaire</li>
+  <li>no supertypes were assigned and determiners are optional</li>
+</ul>
+
+<p>Else if no supertypes are defined, it will inherit from the
+<em>obl-spr-noun-lex</em> or <em>no-spr-noun-lex</em>, depending on which is
+applicable according to its behavior towards determiners.</p>
+
+<p>If specific supertypes are defined on the questionnaire, they will
+appear as supertypes of the noun-class. Additionally, the noun class may
+take <em>obl-spr-noun-lex</em> or <em>no-spr-noun-lex</em> as a supertype. This
+happens when <strong>all</strong> supertypes have underspecified behavior towards
+determiners, and the noun class itself either has obligatory determiners
+or cannot occur with them at all.</p>
+
+<h3 id="noun-class-specific-feature-values">Noun Class Specific: Feature values</h3>
+
+<p>All features associated with the noun class will be added to the
+language specific type definition.</p>
+
+<ul>
+  <li>[ CASE ] restrictions are added to [ SYNSEM.LOCAL.CAT.HEAD.CASE
+]</li>
+  <li>[ PER, NUM, GEND ] are added to [
+SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.PER ], [
+SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.NUM ] and [
+SYNSEM.LOCAL.CONT.HOOK.INDEX.PNG.GEND ], respectively</li>
+</ul>
+
+<p>See <em>General: Introduced underspecification of feature values</em> to see
+how the hierarchy is modified to include underspecified features, if you
+define multiple values to a feature. The created underspecified value is
+assigned to the feature in this case.</p>
+
+<h3 id="noun-class-specific-stems-and-predicates">Noun Class Specific: Stems and Predicates</h3>
+
+<p>For each stem ‘my_stem’ and predicate ‘my_pred’ belonging to noun
+class ‘my_nclass’ will be added to the lexicon:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>my_stem := my_nclass &amp;
+[ STEM &lt; "my_stem" &gt;,
+  SYNSEM.LKEYS.KEYREL.PRED "my_pred" ].
+</code></pre></div></div>
+
+<p>If several words with the same stem occur in the language, the stem
+identifiers (<em>my_stem</em> left of the assignment sign <em>:=</em> in the
+representation above) receive numbers.</p>
+
+<h2 id="verbs-1">Verbs</h2>
+
+<h3 id="general-basic-type-definitions">General: basic type definitions</h3>
+
+<p>If the language has auxiliaries, the addenda include:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>﻿head :+ [ AUX bool ].
+</code></pre></div></div>
+
+<p>The following basic types for verbs are included:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>verb-lex := non-mod-lex-item &amp;
+                 [ SYNSEM.LOCAL.CAT.HEAD verb ].
+
+main-verb-lex := verb-lex &amp; basic-verb-lex &amp;
+       [ SYNSEM.LOCAL [ CAT [ VAL [ SPR &lt; &gt;,
+                                    SPEC &lt; &gt;,
+                                    SUBJ &lt; #subj &gt; ],
+                              HEAD.AUX - ],
+                        CONT.HOOK.XARG #xarg ],
+         ARG-ST &lt; #subj &amp;
+                  [ LOCAL [ CAT.VAL [ SPR &lt; &gt;,
+                                      COMPS &lt; &gt; ],
+                            CONT.HOOK.INDEX #xarg ] ], ... &gt; ].
+aux-lex := verb-lex &amp;
+                [ SYNSEM.LOCAL.CAT.HEAD.AUX + ].
+</code></pre></div></div>
+
+<p>Else, if there are no auxiliaries, only the following will be included:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>verb-lex := verb-lex &amp; basic-verb-lex &amp;
+       [ SYNSEM.LOCAL [ CAT.VAL [ SPR &lt; &gt;,
+                                  SPEC &lt; &gt;,
+                                  SUBJ &lt; #subj &gt; ],
+                        CONT.HOOK.XARG #xarg ],
+         ARG-ST &lt; #subj &amp;
+                  [ LOCAL [ CAT.VAL [ SPR &lt; &gt;,
+                                      COMPS &lt; &gt; ],
+                            CONT.HOOK.INDEX #xarg ] ], ... &gt; ].
+</code></pre></div></div>
+
+<p><em>basic-verb-lex</em> is a definition from matrix.tdl, defining standard
+semantics [ KEY-REL event-relation ] and [ HEAD verb ].</p>
+
+<p>The basic types for intransitive and transitive verbs are the following
+(where mainorverbtype stands for <em>main-verb-lex</em> when the language has
+auxiliaries and <em>verb-lex</em> when it does not:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>intransitive-verb-lex := mainorverbtype  &amp; intransitive-lex-item &amp;
+       [ SYNSEM.LOCAL.CAT.VAL.COMPS &lt; &gt; ].
+
+
+transitive-verb-lex := mainorverbtype &amp; transitive-lex-item &amp;
+       [ SYNSEM.LOCAL.CAT.VAL.COMPS &lt; #comps &gt;,
+         ARG-ST &lt; [ ],
+                  #comps &amp;
+                  [ LOCAL.CAT [ VAL [ SPR &lt; &gt;,
+                                      COMPS &lt; &gt; ] ] ] &gt; ].
+</code></pre></div></div>
+
+<h3 id="verb-class-specific-supertypes">Verb Class Specific: Supertypes</h3>
+
+<p>The supertypes of a verb class depend on:</p>
+
+<ul>
+  <li>its argument structure</li>
+  <li>its user-specified supertypes</li>
+  <li>the argument structure of its supertypes</li>
+</ul>
+
+<p>The verb class will only have <em>main-verb-lex</em> (if the language has
+auxiliaries) or <em>verb-lex</em> (if the languages does not have auxiliaries)
+as supertype if no supertypes are defined for the verb</p>
+
+<p>Else if no supertypes are defined, it will inherit from the
+<em>obl-spr-noun-lex</em> or <em>no-spr-noun-lex</em>, depending on which is
+applicable according to its behavior towards determiners.</p>
+
+<p>If specific supertypes are defined on the questionnaire, they will
+appear as supertypes of the noun-class. Additionally, the noun class may
+take <em>obl-spr-noun-lex</em> or <em>no-spr-noun-lex</em> as a supertype. This
+happens when <strong>all</strong> supertypes have underspecified behavior towards
+determiners, and the noun class itself either has obligatory determiners
+or cannot occur with them at all.</p>
+
+<h3 id="general-case-marking">General: case marking</h3>
+
+<p>If the language has case marking, subtypes representing the basic case
+patterns of the languages are added to the language. A few examples are
+given below:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>nominative accusative language:
+
+nom-intransitive-lex := intransitive-lex-item &amp;
+  [ ARG-ST.FIRST.LOCAL.CAT.HEAD noun &amp; [ CASE nom ]].
+
+nom-acc-transitive-lex := transitive-lex-item &amp;
+  [ ARG-ST &lt; [ LOCAL.CAT.HEAD noun &amp; [ CASE nom ] ], [ LOCAL.CAT.HEAD noun &amp; [ CASE acc ] ] &gt; ].
+
+
+ergative language:
+
+abs-intransitive-lex := intransitive-lex-item &amp;
+  [ ARG-ST.FIRST.LOCAL.CAT.HEAD noun &amp; [ CASE abs ]].
+
+erg-abs-transitive-lex := transitive-lex-item &amp;
+  [ ARG-ST &lt; [ LOCAL.CAT.HEAD noun &amp; [ CASE erg ] ], [ LOCAL.CAT.HEAD noun &amp; [ CASE abs ] ] &gt; ].
+</code></pre></div></div>
+
+<h3 id="verb-class-specific-supertypes-1">Verb class specific: supertypes</h3>
+
+<p>The supertype of a verb depends on its argument structure and the
+supertypes defined on the questionnaire. Verb classes inherit from the
+argument-structure types described above as well as the user-defined
+supertypes.</p>
+
+<h2 id="auxiliaries-1">Auxiliaries</h2>
+
+<p>Depending on the definition of the complement of the verbal complement
+of auxiliaries on the word order page, one of the following basic types
+will be provided:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sentential complements:
+aux-lex := basic-one-arg &amp;
+              [ SYNSEM.LOCAL.CAT.VAL [ SUBJ &lt; &gt;,
+                                       COMPS &lt; #comps &gt; ],
+                ARG-ST &lt; #comps &amp; [ LOCAL.CAT [ VAL [ SUBJ &lt; &gt;,
+                                                      COMPS &lt; &gt;,
+                                                       SPR &lt; &gt;,
+                                                       SPEC &lt; &gt; ],
+                                                HEAD verb ]] &gt; ].
+
+
+vp complements:
+aux-lex := trans-first-arg-raising-lex-item  &amp;
+                     [ SYNSEM.LOCAL.CAT.VAL.COMPS &lt; #comps &gt;,
+                       ARG-ST &lt; [ ],
+                                #comps &amp;
+                                [ LOCAL.CAT [ VAL [ SUBJ &lt; [ ] &gt;,
+                                                    COMPS &lt; &gt;,
+                                                    SPR &lt; &gt;,
+                                                    SPEC &lt; &gt; ],
+                                              HEAD verb ]] &gt; ].
+
+v complements:
+aux-lex := basic-two-arg &amp;
+             [ SYNSEM.LOCAL.CAT.VAL.COMPS &lt; #comps . #vcomps &gt;,
+               ARG-ST &lt; [ ],
+                      #comps &amp;
+                      [ LIGHT +,
+                        LOCAL [ CAT [ VAL [ SUBJ &lt; [ ] &gt;,
+                                            COMPS #vcomps ],
+                                      HEAD verb ],
+                                CONT.HOOK.XARG #xarg ]] &gt; ].
+</code></pre></div></div>
+
+<p>For vp-complements, the subject is raised (which is defined on the
+supertype it takes).</p>
+
+<p>The subject of verbs taking v-complements is underspecified. Its
+definition depends on the case restrictions defined for subjects of the
+auxiliary.</p>
+
+<h2 id="determiners-2">Determiners</h2>
+
+<p>The following basic type is introduced for determiners:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>determiner-lex := basic-determiner-lex &amp; basic-zero-arg &amp;
+          [ SYNSEM.LOCAL.CAT.VAL [ SPR &lt; &gt;,
+                                   COMPS &lt; &gt;,
+                                   SUBJ &lt; &gt; ]].
+</code></pre></div></div>
+
+<p>The type inherits from <em>basic-zero-arg</em> (the customization system only
+covers determiners that do not take any arguments for now) and
+<em>basic-determiner-lex</em> in matrix.tdl. The definition of
+<em>basic-determiner-lex</em> in matrix.tdl is the following:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>basic-determiner-lex := norm-hook-lex-item &amp;
+  [ SYNSEM [ LOCAL [ CAT [ HEAD det,
+                           VAL.SPEC.FIRST.LOCAL.CONT.HOOK [ INDEX #ind,
+                                                            LTOP #larg ]],
+                     CONT [ HCONS &lt;! qeq &amp;
+                                   [ HARG #harg,
+                                     LARG #larg ] !&gt;,
+                            RELS &lt;! relation !&gt; ] ],
+             LKEYS.KEYREL quant-relation &amp;
+                   [ ARG0 #ind,
+                     RSTR #harg ] ] ].
+</code></pre></div></div>
+
+<p>The most important property of this type is that it defines the
+quantifier relation of the determiner over the noun. The index of the
+determiner [ ARG0 #ind ] and [ SPEC….INDEX #ind ] on the noun
+are identical. The HARG (corresponding to the RSTR imposed by the
+semantics of the determiner) has scope over its LARG, which is identical
+to the LTOP of the noun.</p>
+
+<h2 id="case-marking-adpositions-1">Case Marking Adpositions</h2>
+
+<p>The basic type for case marking adpositions is presented below:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>case-marking-adp-lex := basic-one-arg &amp; raise-sem-lex-item &amp;
+          [ SYNSEM.LOCAL.CAT [ HEAD adp &amp; [ CASE #case, MOD &lt; &gt; ],
+                               VAL [ SPR &lt; &gt;,
+                                     SUBJ &lt; &gt;,
+                                     COMPS &lt; #comps &gt;,
+                                     SPEC &lt; &gt; ]],
+            ARG-ST &lt; #comps &amp; [ LOCAL.CAT [ HEAD noun &amp; [ CASE #case ],
+                                            VAL.SPR &lt; &gt; ]] &gt; ].
+</code></pre></div></div>
+
+<p>The restruction on the SPR of the ARG-ST makes sure the adposition only
+takes NPs (not Ns) as an argument. Note that these adpositions are pure
+case-markers, they do not assign CASE to their NP complement, but they
+share a CASE value with the noun they are combined with.</p>
+
+<h1 id="references">References</h1>
+
+<p>Delancey, S. (2009). <a href="http://www.academia.edu/226407/Bipartite_verbs_in_languages_of_western_North_America">Bipartite Verbs in Languages of Western North
+America</a>.
+In A. Filchenko and O. Potanina, (eds.), Time and Space in Languages of
+Various Typology. Proceedings of the XXV International Conference
+“Dulson Readings”. Tomsk: Tomsk State Pedagogical University.</p>
+
+<ul>
+  <li>
+    <p>bibtex:</p>
+
+    <p>@article{Delancey:2009,<br />
+author = {Scott Delancey},<br />
+year = {2009},<br />
+title = {Bipartite Verbs in Languages of Western North America},<br />
+conference = {In proceedings of the XXV International Conference
+“Dulson Readings”: Time and Space in Languages of Various
+Typology},<br />
+editors = {A. Filchenko and O. Potanina},<br />
+publisher = {Tomsk: Tomsk State Pedagogical University}<br />
+}</p>
+  </li>
+</ul>
+
+<p>Drellishak, S. (2009). <a href="http://depts.washington.edu/uwcl/matrix/sfd/Drellishak%20-%20Widespread%20but%20Not%20Universal.pdf">Widespread but Not Universal: Improving the
+Typological Coverage of the Grammar
+Matrix</a>.
+PhD thesis, University of Washington.</p>
+
+<ul>
+  <li>
+    <p>bibtex:</p>
+
+    <p>@phdthesis{Drellishak:09,<br />
+author = {Scott Drellishak},<br />
+year = {2009},<br />
+title = {Widespread but Not Universal: Improving the Typological
+Coverage of the {G}rammar {M}atrix},<br />
+school = {University of Washington}<br />
+}</p>
+  </li>
+</ul>
+
+<p>Jacobsen, W. H. (1980). Washo bipartite verb stems. In K. Klar, M.
+Langdon, &amp; S. Silver (Eds.), <em>Trends in Linguistics: Studies and
+Monographs 16: American Indian and Indoeuropean Studies: Papers in Honor
+of Madison S. Beeler</em> (pp. 85-99). The Hague: Mouton.</p>
+
+<ul>
+  <li>
+    <p>bibtex:</p>
+
+    <p>@incollection{Jacobsen:1980,<br />
+author = {William H. Jacobsen},<br />
+year = {1980},<br />
+title = {Washo bipartite verb stems},<br />
+booktitle = {Trends in Linguistics: Studies and Monographs 16:
+American Indian and Indoeuropean Studies: Papers in Honor of
+Madison S. Beeler},<br />
+editors = {K. Klar, M. Langdon, and S. Silver},<br />
+pages = {85-99},<br />
+publisher = {The Hague: Mouton}<br />
+}</p>
+  </li>
+</ul>
+
+<p>Last update: 2018-01-04 by OlgaZamaraeva [<a href="https://github.com/delph-in/docs/wiki/MatrixDoc_Lexicon/_edit">edit</a>]</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+<!--Scroll the navbar to the current page-->
+<script type="text/javascript">
+  let el = document.querySelector('.nav__list .active');
+  if(el){
+    el.scrollIntoView({block: "center", inline: "start"});
+  }
+</script>
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/docs/matrix/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/docs/matrix/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/docs/matrix/assets/js/lunr/lunr.min.js"></script>
+<script src="/docs/matrix/assets/js/lunr/lunr-store.js"></script>
+<script src="/docs/matrix/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

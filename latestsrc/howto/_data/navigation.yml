@@ -1,0 +1,42 @@
+main:
+  - title: "Home"
+    url: https://delph-in.github.io/docs/home/Home
+  - title: "How-To"
+    url: https://delph-in.github.io/docs/howto/DelphinWelcome
+  - title: "ERG"
+    url: https://delph-in.github.io/docs/erg/ErgTop
+  - title: "Tools"
+    url: https://delph-in.github.io/docs/tools/ToolsTop
+  - title: "Grammars"
+    url: https://delph-in.github.io/docs/grammars/GrammarsOverview
+  - title: "Matrix"
+    url: https://delph-in.github.io/docs/matrix/MatrixDocsOverview
+  - title: "Summits"
+    url: https://delph-in.github.io/docs/summits/SummitTop
+  - title: "Garage"
+    url: https://delph-in.github.io/docs/garage/GarageTop
+toc:
+  - title: "DELPH-IN"
+    children:
+      - title: "Welcome"
+        url: "/DelphinWelcome/"
+  - title: "Grammarian Tutorial"
+    children:
+      - title: "Overview"
+        url: "/DelphinTutorial/"
+      - title: "Formalisms"
+        url: "/DelphinTutorial_Formalisms/"
+      - title: "Grammars"
+        url: "/DelphinTutorial_Grammars/"
+      - title: "Processing"
+        url: "/DelphinTutorial_Processing/"
+      - title: "Distributions"
+        url: "/DelphinTutorial_Distributions/"
+      - title: "HPSG"
+        url: "/HpsgTutorial/"
+  - title: "Other Tutorials"
+    children:
+      - title: "Ace/Agree Tutorial (2013)"
+        url: "/SaarlandAceAgree/"
+      - title: "English Resource Semantics Tutorial (NAACL 2016)"
+        url: "/ErsTutorial/"

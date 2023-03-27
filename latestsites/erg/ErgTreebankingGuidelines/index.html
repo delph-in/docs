@@ -1,0 +1,1005 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>DELPH-IN ERG</title>
+<meta name="description" content="An amazing website.">
+
+
+  <meta name="author" content="Your Name">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="DELPH-IN ERG">
+<meta property="og:title" content="DELPH-IN ERG">
+<meta property="og:url" content="https://delph-in.github.io/docs/erg/ErgTreebankingGuidelines/">
+
+
+  <meta property="og:description" content="An amazing website.">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://delph-in.github.io/docs/erg/ErgTreebankingGuidelines/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Your Name",
+      "url": "https://delph-in.github.io/docs/erg/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/docs/erg/feed.xml" type="application/atom+xml" rel="alternate" title="DELPH-IN ERG Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/docs/erg/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--delphin_page wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/docs/erg/"><img src="/docs/erg/assets/images/Delph-In.png" alt="DELPH-IN ERG"></a>
+        
+        <a class="site-title" href="/docs/erg/">
+          DELPH-IN ERG
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/home/Home">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/howto/DelphinWelcome">How-To</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/erg/ErgTop">ERG</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/tools/ToolsTop">Tools</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/grammars/GrammarsOverview">Grammars</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/matrix/MatrixDocsOverview">Matrix</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/summits/SummitTop">Summits</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/garage/GarageTop">Garage</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Overview</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/erg/ErgTop/">ERG Summary</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_HowToCite/">How to Cite This Work</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">ERG Usage</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/erg/ErgProcessing/">Overview</a></li>
+          
+            <li><a href="/docs/erg/QuickStart/">QuickStart</a></li>
+          
+            <li><a href="/docs/erg/ErgProcessing_SampleExport/">ERG Usage Sample Export</a></li>
+          
+            <li><a href="/docs/erg/AceErgTuning/">Tuning Ace for ERG</a></li>
+          
+            <li><a href="/docs/erg/ErgApi/">ERG REST API</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Erg Semantics</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/erg/ErgSemantics/">Semantics</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Essence/">Essence</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Basics/">Basics</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Design/">Design</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Conventions/">Conventions</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Interface/">Semantics Interface (SEM-I)</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Discovery/">Semantics Discovery</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Inventory</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/erg/ErgSemantics_Inventory/">Overview</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_OneAnaphora/">Anaphora</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Apposition/">Apposition</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Comparatives/">Comparatives</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Compounding/">Compounding</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Conditionals/">Conditionals</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_ControlRelations/">Control Relations</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Coordination/">Coordination</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Ellipsis/">Ellipsis</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_ForeignExpressions/">Foreign Expressions</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Fragments/">Fragments</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_IdentityCopulae/">Identity Copulae</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Imperatives/">Imperatives</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_ImplicitLocatives/">Implicit Locatives</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_ImplicitNominals/">Implicit Nominals</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_ImplicitQuantifiers/">Implicit Quantifiers</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_InstrumentalRelatives/">Instrumental Relatives</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_MeasurePhrases/">Measure Phrases</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Nominalization/">Nominalization</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_NonAdverbialClausalModifiers/">Non-Adverbial Clausal Modifiers</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_NumberSequences/">Number Sequences</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Parentheticals/">Parentheticals</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Partitives/">Partitives</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_PropositionalArguments/">Propositional Arguments</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Quantification/">Quantification</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_QuasiModalInfinitivals/">Quasi-Modal Infinitivals</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_RelationalNouns/">Relational Nouns</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_RelativeClauses/">Relative Clauses</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_TimeExpressions/">Time Expressions</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Vocatives/">Vocatives</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Raw_Materials/">Raw Materials</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">ERG Grammar</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/erg/ErgLeTypes/">LE Types</a></li>
+          
+            <li><a href="/docs/erg/ErgRules/">Rules</a></li>
+          
+            <li><a href="/docs/erg/ErgTokenization/">Tokenization</a></li>
+          
+            <li><a href="/docs/erg/ErgTokenization_ComplexExample/">Tokenization Complex Example</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">ERG Treebanking</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/erg/ErgTreebanking/">Overview</a></li>
+          
+            <li><a href="/docs/erg/ErgTreebankingGuidelines/" class="active">Guidelines</a></li>
+          
+            <li><a href="/docs/erg/ErgTreebankingRules/">Treebanking Rules</a></li>
+          
+            <li><a href="/docs/erg/ErgTreebankingBridges/">Bridges</a></li>
+          
+            <li><a href="/docs/erg/CapitolHillTreebank/">Discussion</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Discussions</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/erg/SaarlandSententialArgument/">Saarland Sentential Argument</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <h1 id="heuristics-for-efficient-treebanking">Heuristics for efficient treebanking</h1>
+
+<p>Contents</p>
+
+<ol>
+  <li><a href="https://delph-in.github.io/docs/erg/ErgTreebankingGuidelines">Heuristics for efficient
+treebanking</a>
+    <ol>
+      <li><a href="https://delph-in.github.io/docs/erg/ErgTreebankingGuidelines">Top-down</a></li>
+      <li><a href="https://delph-in.github.io/docs/erg/ErgTreebankingGuidelines">Bottom-up</a></li>
+      <li><a href="https://delph-in.github.io/docs/erg/ErgTreebankingGuidelines">Prefer Simpler</a></li>
+    </ol>
+  </li>
+  <li><a href="https://delph-in.github.io/docs/erg/ErgTreebankingGuidelines">Technical choices</a>
+    <ol>
+      <li><a href="https://delph-in.github.io/docs/erg/ErgTreebankingGuidelines">Complex proper names</a>
+        <ol>
+          <li><a href="https://delph-in.github.io/docs/erg/ErgTreebankingGuidelines">Titles</a></li>
+          <li><a href="https://delph-in.github.io/docs/erg/ErgTreebankingGuidelines">Capitalized words in name</a></li>
+          <li><a href="https://delph-in.github.io/docs/erg/ErgTreebankingGuidelines">Profession modifier</a></li>
+          <li><a href="https://delph-in.github.io/docs/erg/ErgTreebankingGuidelines">Native names preferred when
+available</a></li>
+        </ol>
+      </li>
+      <li><a href="https://delph-in.github.io/docs/erg/ErgTreebankingGuidelines">Proper names and punctuation</a></li>
+      <li><a href="https://delph-in.github.io/docs/erg/ErgTreebankingGuidelines">PP/modifier attachment</a></li>
+      <li><a href="https://delph-in.github.io/docs/erg/ErgTreebankingGuidelines">Temporal modifiers</a></li>
+      <li><a href="https://delph-in.github.io/docs/erg/ErgTreebankingGuidelines">Complex compound nouns</a></li>
+      <li><a href="https://delph-in.github.io/docs/erg/ErgTreebankingGuidelines">Coordination</a></li>
+      <li><a href="https://delph-in.github.io/docs/erg/ErgTreebankingGuidelines">Passive verb vs. adjective</a></li>
+      <li><a href="https://delph-in.github.io/docs/erg/ErgTreebankingGuidelines">Punctuation</a></li>
+      <li><a href="https://delph-in.github.io/docs/erg/ErgTreebankingGuidelines">Adverbs</a></li>
+      <li><a href="https://delph-in.github.io/docs/erg/ErgTreebankingGuidelines">Measure phrases</a></li>
+      <li><a href="https://delph-in.github.io/docs/erg/ErgTreebankingGuidelines">Quotations with explicit
+attribution</a></li>
+      <li><a href="https://delph-in.github.io/docs/erg/ErgTreebankingGuidelines">Partitive NPs</a></li>
+      <li><a href="https://delph-in.github.io/docs/erg/ErgTreebankingGuidelines">Modification in noun phrases</a></li>
+    </ol>
+  </li>
+  <li><a href="https://delph-in.github.io/docs/erg/ErgTreebankingGuidelines">Notes from Tomar meeting</a></li>
+</ol>
+
+<h2 id="top-down">Top-down</h2>
+
+<ul>
+  <li>Choose the construction that spans the whole sentence
+    <ul>
+      <li>Typically SUBJH</li>
+      <li>Typically not one of the FRAG* rules</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="bottom-up">Bottom-up</h2>
+
+<ul>
+  <li>Disambiguate lexical entries early, to reduce remaining ambiguity</li>
+</ul>
+
+<h2 id="prefer-simpler">Prefer Simpler</h2>
+
+<ul>
+  <li>in general prefer the simpler choice
+    <ul>
+      <li>e.g. for nominal <em>seating</em> prefer NP over intransitive V, rather
+than NP over transitive V with an optional complement.</li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="technical-choices">Technical choices</h1>
+
+<h2 id="complex-proper-names">Complex proper names</h2>
+
+<h3 id="titles">Titles</h3>
+
+<ul>
+  <li>|Mr. Browne|
+    <ul>
+      <li>Choose NP-TITLE-CMPND, not APPOS</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="capitalized-words-in-name">Capitalized words in name</h3>
+
+<ul>
+  <li>treat as parts of name, not ordinary words</li>
+  <li>|Rolls-Royce Motor Cars Inc.|
+    <ul>
+      <li>|Motor Cars|
+        <ul>
+          <li>NP_NAME_CMPND, not NOUN_N_CMPND</li>
+        </ul>
+      </li>
+      <li>|Rolls-Royce|
+        <ul>
+          <li>Choose multi-word entry when available</li>
+        </ul>
+      </li>
+      <li>|Rolls-Royce Motor Cars|
+        <ul>
+          <li>NP_NAME_CMPND</li>
+        </ul>
+      </li>
+      <li>Attach |Inc.| with NADJ_RR</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="profession-modifier">Profession modifier</h3>
+
+<ul>
+  <li>treat as appositive</li>
+  <li>|Howard Mosher, president and CEO|
+    <ul>
+      <li>First combine |Howard Mosher|</li>
+      <li>Then combine it with |president and CEO| using APPOS_NBAR</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="native-names-preferred-when-available">Native names preferred when available</h3>
+
+<ul>
+  <li>Company names
+    <ul>
+      <li>|Rolls-Royce|
+        <ul>
+          <li>Choose n_-_pn_le, not NP_NAME_CMPND</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Country names
+    <ul>
+      <li>|U.S.|
+        <ul>
+          <li>Choose n_-_c-nm-pd_le, not n_-_pn-gen_le</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="proper-names-and-punctuation">Proper names and punctuation</h2>
+
+<ul>
+  <li>Unknown names
+    <ul>
+      <li>|Elianti.|
+        <ul>
+          <li>Choose PUNCT_PERIOD_ORULE (period is not part of name)</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Name abbreviations containing periods
+    <ul>
+      <li>|U.S.|
+        <ul>
+          <li>Choose PUNCT_PERIOD_ORULE if word is at end of sentence</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="ppmodifier-attachment">PP/modifier attachment</h2>
+
+<ul>
+  <li>Choose highest attachment point consistent with meaning
+    <ul>
+      <li>|remain steady at 1,200 cars|
+        <ul>
+          <li>attach to VP, not to |steady|</li>
+        </ul>
+      </li>
+      <li>|reserve a room for Browne|
+        <ul>
+          <li>attach to VP, not to |room|</li>
+        </ul>
+      </li>
+      <li>
+        <p><strong>but</strong> disprefer modifier attachment to semantically vacuous
+heads</p>
+
+        <ul>
+          <li>e.g. attach modifiers to <em>hiring …</em>, not <em>be hiring …</em></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>In copula constructions (with forms of verb “be”), attach PP inside
+    <ul>
+      <li>|be payable Feb. 15|
+        <ul>
+          <li>First combine |payable| with |Feb. 15| with HADJ_I_UNS</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Complement vs. modifier - choose complement when available
+    <ul>
+      <li>|based in Los Angeles|
+        <ul>
+          <li>Choose HCOMP, not HADJ_I_UNS</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>PP modifier inserted between verb and its complement NP
+    <ul>
+      <li>|publish in statements the names of insiders|
+        <ul>
+          <li>First combine |publish| with |in statements| using
+VMOD_I</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="temporal-modifiers">Temporal modifiers</h2>
+
+<ul>
+  <li>When precede VP, attach to subject NP
+    <ul>
+      <li>|the maker last year sold cars|
+        <ul>
+          <li>attach |last year| to |maker|</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Treat as modifiers, pumping temporal NP to a PP
+    <ul>
+      <li>|last year|
+        <ul>
+          <li>Choose NPADV, not ADJN</li>
+        </ul>
+      </li>
+      <li>|Feb. 15|
+        <ul>
+          <li>Combine with HSPECHC, then choose NPADV</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Complex phrases
+    <ul>
+      <li>|early next year|
+        <ul>
+          <li>Combine |early| with |next year| using NADJ_RR</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="complex-compound-nouns">Complex compound nouns</h2>
+
+<ul>
+  <li>Choose bracketing with intended sense
+    <ul>
+      <li>|luxury auto maker|
+        <ul>
+          <li>first combine |luxury| with |auto|</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>When intended bracketing is not clear, group from right to left
+    <ul>
+      <li>|airline ticket counter|
+        <ul>
+          <li>first combine |ticket| with |counter|</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="coordination">Coordination</h2>
+
+<ul>
+  <li>
+    <p>if you have a choice between <em>XP CCONJ XP</em>vs <em>X CCONJ X</em> choose the
+XP (or S), that is, the highest constituent</p>
+
+    <ul>
+      <li>e.g., for <em>cats and dogs</em>, prefer NP coordination over N
+coordination with a bare NP rule on top</li>
+    </ul>
+  </li>
+  <li>Nominal phrases
+    <ul>
+      <li>Choose N_COORD_TOP_2, not N_COORD_TOP_3 when given the
+choice</li>
+    </ul>
+  </li>
+  <li>Sentence-initial conjunction - treat as incomplete coordination of
+clauses
+    <ul>
+      <li>|But Abrams arrived early.|
+        <ul>
+          <li>Combine |But| with |Abrams arrived early.| with
+HMARK_CL</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="passive-verb-vs-adjective">Passive verb vs. adjective</h2>
+
+<ul>
+  <li>Choose verb if the meaning is agentive; otherwise choose adjective
+    <ul>
+      <li>|A date hasn’t been set|
+        <ul>
+          <li>For |set|, choose v_np*_le, not aj_-_i_le</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="punctuation">Punctuation</h2>
+
+<ul>
+  <li>Attach punctuation to the preceding words
+    <ul>
+      <li>except for some rare conjunctions</li>
+    </ul>
+  </li>
+  <li>Paired commas marking off a modifier: choose “paired” rule (-PR
+suffix)
+    <ul>
+      <li>|Bell, based in Los Angeles|
+        <ul>
+          <li>Choose NADJ_RC_PR to combine modifier phrase with |Bell|</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="adverbs">Adverbs</h2>
+
+<ul>
+  <li>Negation - always attach |not| to preceding auxiliary if possible
+    <ul>
+      <li>|did not meet|
+        <ul>
+          <li>First combine |did| with |not| using HCOMP</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Other adverbs between auxiliary and main VP - attach adverb to
+following VP
+    <ul>
+      <li>|can really sing|
+        <ul>
+          <li>First combine |really| with |sing| using ADJH_S</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Sentence-initial - Prefer attachment without extraction when
+possible
+    <ul>
+      <li>|Apparently the commission met|
+        <ul>
+          <li>Choose ADJ_S, not FILLHEAD_NON_WH_IG</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="measure-phrases">Measure phrases</h2>
+
+<ul>
+  <li>Degree modifiers - combine with the number word
+    <ul>
+      <li>|about 25 % of them|
+        <ul>
+          <li>First combine |about| with |25| using HSPECHC</li>
+          <li>Combine |%| with |of them| using HCOMP</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Dollar amounts - treat the symbol |$| as the head (the unit of
+measure)
+    <ul>
+      <li>|$ 80 billion|
+        <ul>
+          <li>Combine |$| with |80 billion| using MEAS_NP_SYMB</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="quotations-with-explicit-attribution">Quotations with explicit attribution</h2>
+
+<ul>
+  <li>treat as extraction from ‘saying’ verb
+    <ul>
+      <li>|They arrived, Browne said.|
+        <ul>
+          <li>Combine |They arrived,| with |Browne said.| using
+FILLHEAD_NON_WH</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="partitive-nps">Partitive NPs</h2>
+
+<ul>
+  <li>First pump determiner to noun, and treat of-PP as complement
+    <ul>
+      <li>|some of the books|
+        <ul>
+          <li>Combine |some| with |of the books| using HCOMP</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>For |all|, |not all|, |both|, and |half|, treat following NP
+as complement
+    <ul>
+      <li>|not all those who wrote|
+        <ul>
+          <li>For |not all|, choose native entry n_np_mc-neg_le</li>
+          <li>Combine |not all| with |those who wrote| using HCOMP</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="modification-in-noun-phrases">Modification in noun phrases</h2>
+
+<ul>
+  <li>Modifiers to the right of the head noun are always attached
+_before_
+    <ul>
+      <li>any modifiers to the left</li>
+      <li>|important changes by the SEC|
+        <ul>
+          <li>First combine |changes| with |by the SEC| using NADJ_RR</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="notes-from-tomar-meeting">Notes from Tomar meeting</h1>
+
+<ol>
+  <li>Where lexical ambiguity is hard to decide (e.g. even-deg vs
+even-conj), choose based on frequency in redwoods/deepbank</li>
+  <li>Disprefer modifier attachment to semantically vacuous heads e.g.
+attach adverbs to <em>hiring…</em>, not <em>be hiring…</em></li>
+  <li>For there-copula:
+    <ol>
+      <li>Avoid double-object choice and avoid modification of there-cop</li>
+      <li>Also prefer low attachment of modifier after obj NP</li>
+      <li>Accept extraction of PP for there-cop as is</li>
+    </ol>
+  </li>
+  <li>When choice of verb-particle or verb-mod as in <em>go away</em>, if you can
+modify the `particle’ as in <em>go far away</em>, it is not verb-particle.</li>
+  <li>When choice of spr-hd or mod-hd for Adv-Adj, choose mod-hd</li>
+  <li>Avoid adv-add except for <em>not</em></li>
+  <li>When WH-Q of form NP-be-NP [EMB: guessing this is choose subj-head;
+Dan please confirm]</li>
+  <li>For complement of saying, if there’s a main clause option for the
+quoted material choose it:
+    <ul>
+      <li>|“Who did Kim hire” asked Mary| not |*Who Kim hired, asked
+Mary|</li>
+    </ul>
+  </li>
+  <li>No free relatives</li>
+  <li>Attach three-dot punct as low as possible</li>
+  <li>Reject ellipsis</li>
+  <li>For ndash between clauses, use run-on</li>
+  <li>For degree specifiers, when there’s a choice, take the shortest
+lexent type name</li>
+  <li>Attach subord clause high [EMB: subordinate clauses are understood
+as clauses with all arguments overt; do not include in+order+to
+purposives, etc.]</li>
+</ol>
+
+<p>Last update: 2020-07-23 by AlexandreRademaker [<a href="https://github.com/delph-in/docs/wiki/ErgTreebankingGuidelines/_edit">edit</a>]</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+<!--Scroll the navbar to the current page-->
+<script type="text/javascript">
+  let el = document.querySelector('.nav__list .active');
+  if(el){
+    el.scrollIntoView({block: "center", inline: "start"});
+  }
+</script>
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/docs/erg/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/docs/erg/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/docs/erg/assets/js/lunr/lunr.min.js"></script>
+<script src="/docs/erg/assets/js/lunr/lunr-store.js"></script>
+<script src="/docs/erg/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

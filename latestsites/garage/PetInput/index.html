@@ -1,0 +1,1095 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>DELPH-IN Garage</title>
+<meta name="description" content="An amazing website.">
+
+
+  <meta name="author" content="Your Name">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="DELPH-IN Garage">
+<meta property="og:title" content="DELPH-IN Garage">
+<meta property="og:url" content="https://delph-in.github.io/docs/garage/PetInput/">
+
+
+  <meta property="og:description" content="An amazing website.">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://delph-in.github.io/docs/garage/PetInput/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Your Name",
+      "url": "https://delph-in.github.io/docs/garage/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/docs/garage/feed.xml" type="application/atom+xml" rel="alternate" title="DELPH-IN Garage Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/docs/garage/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--delphin_page wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/docs/garage/"><img src="/docs/garage/assets/images/Delph-In.png" alt="DELPH-IN Garage"></a>
+        
+        <a class="site-title" href="/docs/garage/">
+          DELPH-IN Garage
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/home/Home">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/howto/DelphinWelcome">How-To</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/erg/ErgTop">ERG</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/tools/ToolsTop">Tools</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/grammars/GrammarsOverview">Grammars</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/matrix/MatrixDocsOverview">Matrix</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/summits/SummitTop">Summits</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/garage/GarageTop">Garage</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Overview</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/GarageTop/">Overview</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammar Tools</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/AgreeTop/">Agree</a></li>
+          
+            <li><a href="/docs/garage/ChartMapping/">Chart Mapping</a></li>
+          
+            <li><a href="/docs/garage/ChartMappingSetup/">Chart Mapping Setup</a></li>
+          
+            <li><a href="/docs/garage/ClimbTop/">CLIMB</a></li>
+          
+            <li><a href="/docs/garage/Climb_GClimb/">CLIMB for Germanic languages</a></li>
+          
+            <li><a href="/docs/garage/DelphinTools/">Delphin Tools</a></li>
+          
+            <li><a href="/docs/garage/EgadTop/">Erroneous Generation Analysis and Detection (EGAD)</a></li>
+          
+            <li><a href="/docs/garage/EgadInstallation/">EGAD Installation</a></li>
+          
+            <li><a href="/docs/garage/SafFspp/">Finite-State PreProcessor</a></li>
+          
+            <li><a href="/docs/garage/Climb_GClimb_German/">gCLIMB Phenomena</a></li>
+          
+            <li><a href="/docs/garage/GDeltaTop/">gDelta</a></li>
+          
+            <li><a href="/docs/garage/SpringCleaningTop/">Grammar Spring Cleaning</a></li>
+          
+            <li><a href="/docs/garage/HeartofgoldTop/">Heart of Gold</a></li>
+          
+            <li><a href="/docs/garage/HogInstallation/">Hog Installation</a></li>
+          
+            <li><a href="/docs/garage/LkbLtdb/">Linguistic Type Database</a></li>
+          
+            <li><a href="/docs/garage/ReppTop/">Regular Expression Pre-Processor</a></li>
+          
+            <li><a href="/docs/garage/RmrsDmrsComparison/">Rmrs/Dmrs Comparison</a></li>
+          
+            <li><a href="/docs/garage/ClimbShortClimb/">SHORT-CLIMB</a></li>
+          
+            <li><a href="/docs/garage/TestingWithAnt/">Testing With Ant</a></li>
+          
+            <li><a href="/docs/garage/TypediffTop/">Typediff</a></li>
+          
+            <li><a href="/docs/garage/VistaExtractionTop/">Vista Extraction</a></li>
+          
+            <li><a href="/docs/garage/PhenomenaTop/">Phenomena</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Completed Projects</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/RedwoodsTop/">Redwoods</a></li>
+          
+            <li><a href="/docs/garage/WeScience/">WeScience</a></li>
+          
+            <li><a href="/docs/garage/DeepBank/">DeepBank</a></li>
+          
+            <li><a href="/docs/garage/DeepBank_OneZero/">DeepBank 1.0</a></li>
+          
+            <li><a href="/docs/garage/WikiWoods/">WikiWoods</a></li>
+          
+            <li><a href="/docs/garage/SemCor/">SC corpus</a></li>
+          
+            <li><a href="/docs/garage/OldOverviews/">Old DELPH-IN Overview</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammars (experimental)</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/GrenouilleSummary/">French</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Lexical Semantics</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/LexsemTop/">Overview</a></li>
+          
+            <li><a href="/docs/garage/LexsemMapping/">Mapping</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Machine Translation</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/MachineTranslationTop/">Overview</a></li>
+          
+            <li><a href="/docs/garage/MachineTranslationTutorial/">Tutorial</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Japanese/English Machine Translation</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/MtJaen/">Overview</a></li>
+          
+            <li><a href="/docs/garage/MtSetup/">Setup</a></li>
+          
+            <li><a href="/docs/garage/MtRuleExtraction/">MtRuleExtraction</a></li>
+          
+            <li><a href="/docs/garage/MtJaenFeedbackCleaning/">Feedback Cleaning</a></li>
+          
+            <li><a href="/docs/garage/NE_Tagging_For_Improving_SMT/">Improving SMT</a></li>
+          
+            <li><a href="/docs/garage/MtJaenTanaka/">Tanaka Corpus</a></li>
+          
+            <li><a href="/docs/garage/MtJaenSmt/">Discussion</a></li>
+          
+            <li><a href="/docs/garage/JaenTodo/">Jaen TODO</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Indra/English Transfer Grammar</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/IndraAce/">Ace</a></li>
+          
+            <li><a href="/docs/garage/IndraPreprocessing/">Preprocessing</a></li>
+          
+            <li><a href="/docs/garage/IndraTranslation/">Translation</a></li>
+          
+            <li><a href="/docs/garage/IndraRegressionTest/">RegressionTest</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">WeSearch</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/WeSearch/">WeSearch</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_Ccs/">CCS</a></li>
+          
+            <li><a href="/docs/garage/CcsGroup/">CCS Attendees</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_CcsDayOne/">CCS Day One</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_CcsDayTwo/">CCS Day Two</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_CcsDayThree/">CCS Day Three</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_DesignPrinciples/">WeSearch_DesignPrinciples</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_AnalysisCatalog/">WeSearch_AnalysisCatalog</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_ScopalArgCoord/">WeSearch_ScopalArgCoord</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_ICONS/">WeSearch_ICONS</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_UnderspecifedAttachment/">WeSearch_UnderspecifedAttachment</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_UnderspecifiedPreds/">WeSearch_UnderspecifiedPreds</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_VariablePropertySharing/">WeSearch_VariablePropertySharing</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_DataCollection/">WeSearch_DataCollection</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">PET</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/PetTop/">Overview</a></li>
+          
+            <li><a href="/docs/garage/PetDependencies/">Dependencies</a></li>
+          
+            <li><a href="/docs/garage/PetEclipse/">Eclipse</a></li>
+          
+            <li><a href="/docs/garage/PetRoadMap/">RoadMap</a></li>
+          
+            <li><a href="/docs/garage/PetInput/" class="active">Input</a></li>
+          
+            <li><a href="/docs/garage/ReppPet/">ReppPet</a></li>
+          
+            <li><a href="/docs/garage/PetOutput/">Output</a></li>
+          
+            <li><a href="/docs/garage/PetOptions/">Options</a></li>
+          
+            <li><a href="/docs/garage/PetParameters/">Parameters</a></li>
+          
+            <li><a href="/docs/garage/PetSelectiveUnpacking/">Selective Unpacking</a></li>
+          
+            <li><a href="/docs/garage/PetInputFsc/">Input Feature Structure Chart</a></li>
+          
+            <li><a href="/docs/garage/PetInputChart/">Input Chart</a></li>
+          
+            <li><a href="/docs/garage/UtTop/">Ubertagging</a></li>
+          
+            <li><a href="/docs/garage/PetLogging/">Logging</a></li>
+          
+            <li><a href="/docs/garage/PetRobustness/">Robustness</a></li>
+          
+            <li><a href="/docs/garage/FeforPetApi/">PET API Proposal</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Documentation</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/DocsQuickStart/">Quick Start</a></li>
+          
+            <li><a href="/docs/garage/DelphinDocsReference/">Reference</a></li>
+          
+            <li><a href="/docs/garage/ERDW_StructureForNewDocsSite/">Background</a></li>
+          
+            <li><a href="/docs/garage/GoogleSeasonOfDocs2023ProjectProposal/">Season of Docs</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <h1 id="overview">Overview</h1>
+
+<p>This page discusses some of the available input formats to the PET
+parser cheap, viz. ‘pure’ textual input and the so-called YY mode for
+lattice-based input. These two modes of giving input to the parser are
+the most traditional ones, but in more recent developments, additional
+XML-based input formats have been developed. Please see the
+<a href="https://delph-in.github.io/docs/garage/PetInputFsc">PetInputFsc</a> page for an alternate, lattice-based XML
+input mode.</p>
+
+<p>This page was predominantly authored by StephanOepen,
+who is its current maintainer. Please do not make substantial changes
+unless you (a) are quite certain of the technical correctness of your
+revisions and (b) believe strongly that your changes are compatible with
+the general design and recommended use patterns for PET input
+processing, and of course with the goals of this page.</p>
+
+<h1 id="textual-line-oriented-input">Textual, Line-Oriented Input</h1>
+
+<p>By default, cheap expects plain text input, one sentence (or, more
+generally, utterance) per line. The parser applies a very simple-minded
+tokenizer, breaking the input string into tokens at all occurences of
+whitespace. There are a few quirks and configuration options for this
+input mode, e.g. the ability to convert LaTeX-style accented characters
+into UniCode characters, or the historic, so-called LinGO tokenizer,
+trying to handle contracted auxiliaries in (what in the 1990s seemed
+like) the proper manner.</p>
+
+<p>Punctuation characters, as specified in the settings file are ignored by
+PET (removed from the input chart) for pure, textual input. Here is an
+example of the punctuation characters found in the JaCY file
+pet/japanese.set:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  punctuation-characters := "\"!&amp;'()*+,-−./;&lt;=&gt;?@[\]^_`{|}~。？…．，　○●◎＊".
+</code></pre></div></div>
+
+<p>Note that punctuation-characters are defined separately for the LKB
+(typically in lkb/globals.lsp) and that, in recent years, grammars are
+moving towards inclusion of punctuation marks in the syntactic analysis.</p>
+
+<p>Furthermore, there is a special handling for contracted negations like
+don’t, which are split into two tokens don and ‘t. To inhibit that, the
+following can be put into the settings file:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  trivial-tokenizer := true.
+</code></pre></div></div>
+
+<p>Punctuation characters are not removed from the other input modes (YY
+mode, PET Input Chart, or MAF). Rather, in these modes they should be
+removed (or treated otherwise, as appropriate) by the preprocessor that
+created the token lattice (in whatever syntax) provided to PET.</p>
+
+<h1 id="yy-input-mode">YY Input Mode</h1>
+
+<p>YY (activated by the -yy option) input mode facilities parsing from a
+partial (lexical) chart, i.e. it assumes that tokenization (and other
+text-level pre-processing) have been performed outside of cheap. YY
+input mode facilitates token-level ambiguity, multi-word tokens, some
+control over what PET should do for morphological analysis, the use of
+POS tags on input tokens to enable (better) unknown word handling, and
+generally feeding a word graph (as, for example, obtained from a speech
+recognizer) into the parser.</p>
+
+<p>Following is a discussion of the YY <a href="http://svn.delph-in.net/erg/tags/0902/pet/sample.yy">input
+example</a> provided
+with the ERG (as of early 2009). In this example, the words are shown on
+separate lines for clarity. In the actual input given to PET, all YY
+tokens must appear as a single line (terminated by newline), as each
+line of input is processed as a separate utterance.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  (42, 0, 1, &lt;0:12&gt;, 1, "Tokenization", 0, "null", "NNP" 0.7677 "NN" 0.2323)
+  (43, 1, 2, &lt;12:13&gt;, 1, ",", 0, "null", "," 1.0000)
+  (44, 2, 3, &lt;14:15&gt;, 1, "a", 0, "null", "DT" 1.0000)
+  (45, 3, 4, &lt;16:27&gt;, 1, "non-trivial", 0, "null", "JJ" 1.0000)
+  (46, 4, 5, &lt;28:36&gt;, 1, "exercise", 0, "null", "NN" 0.9887 "VB" 0.0113)
+  (47, 5, 6, &lt;36:37&gt;, 1, ",", 0, "null", "," 1.0000)
+  (48, 6, 7, &lt;38:44&gt;, 1, "bazed", 0, "null", "VBD" 0.5975 "VBN" 0.4025)
+  (49, 7, 8, &lt;45:58&gt;, 1, "oe@ifi.uio.no", 0, "null", "NN" 0.7342 "JJ" 0.2096)
+  (50, 8, 9, &lt;58:59&gt;, 1, ".", 0, "null", "." 1.0000)
+</code></pre></div></div>
+
+<p>An input in this form can be processed by PET as follows:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  cheap -yy -packing -verbose=4 -mrs \
+    -cm -default-les=all english.grm &lt; pet/sample.yy
+</code></pre></div></div>
+
+<p>Here -yy (a shorthand for -tok=yy) turns on YY partial chart input mode,
+and we request ambiguity packing (which is always a good idea), some
+verbosity of tracing, and the output of MRSs. The additional options
+enable chart mapping (see <a href="http://www.lrec-conf.org/proceedings/lrec2008/summaries/349.html">Adolphs, et al.
+(2008)</a>)
+and turn the unknown word machinery into 2009 mode (see the section
+<em>Unknown Word Handling</em> below). Note that these options, as of early
+2009, are only supported in the so-called <em>chart mapping</em>
+<a href="https://pet.opendfki.de/repos/pet/branches/cm">branch</a> of the PET code
+base (corresponding pre-compiled binaries are available in the LOGON
+tree; see the <a href="https://delph-in.github.io/docs/tools/LogonTop">LogonTop</a> page).</p>
+
+<p>Each token in the above example has the following format:</p>
+
+<ul>
+  <li>(<em>id</em>, <em>start</em>, <em>end</em>, [<em>link</em>,] <em>path</em><sup>+</sup>, <em>form</em>
+[<em>surface</em>], <em>ipos</em>, <em>lrule</em><sup>+</sup>[, {<em>pos</em>
+<em>p</em>}<sup>+</sup>])</li>
+</ul>
+
+<p>In other words, each token has a unique <em>id</em>entifier and a <em>start</em> and
+<em>end</em> vertex. Optionally, tokens can be annotated with a surface <em>link</em>,
+an indication of underlying string positions in the original document;
+currently (as of January 2009), <em>link</em> information is only supported as
+character positions, in the format &lt;<em>from</em>:<em>to</em>&gt; (but in
+principle, <em>link</em> could have other forms, with <em>from</em> and <em>to</em> being
+arbitrary strings, e.g. stand-off pointers in whatever underlying
+markup). We will ignore the <em>path</em> component (membership in one or more
+paths through a word lattice) for our purposes.</p>
+
+<p>The actual token string is provided by the <em>form</em> field, and this is
+what PET uses for morphological analysis and lexical look-up. In case
+the <em>form</em> does not correspond to the original string in the document,
+e.g. because there was some textual normalization prior to creation of
+YY tokens already, the optional <em>surface</em> field can be used to record
+the original string. Until early 2009, the ERG had inherited a mechanism
+called <em>ersatzing</em> where a set of regular expressions were applied prior
+to parsing, associating for example a <em>form</em> value of EmailErsatz with a
+<em>surface</em> value of oe@yy.com. In the newer, chart mapping universe, the
+ERG no longer makes use of this facility and instead makes it a policy
+to never ‘mess’ with the actual token string (but use other token
+properties instead).</p>
+
+<p>YY mode can be used in two variants regarding morphological analysis.
+Our example above leaves morphological analysis to PET, i.e. using the
+lexical rules and orthographemic annotation provided by the grammar.
+This built-in morphology mode is activated by an <em>lrules</em> value of
+“null”, and the <em>ipos</em> field is ignored (but still has to be given,
+conventionally as 0). Another option is to provide information about
+morphological segmentation as part of the input tokens, in which case
+<em>ipos</em> specifies the position to which orthographemic rules apply, and
+one or more <em>lrule</em> values (as strings) name lexical rules provided by
+the grammar.</p>
+
+<p>Finally, each token can be annotated with an optional sequence of tag
+plus probability pairs. The ERG, for example, includes a set of
+underspecified <em>generic</em> lexical entries which can be activated on the
+basis of PoS information, obtained for example from running a PoS tagger
+prior to parsing. We used to include the probabilities in (heuristic)
+parse ranking, but since sometime in 2002 (when MaxEnt parse selection
+became available in PET) they are just ignored.</p>
+
+<p>YY input mode supports a genuine token lattice, i.e. it is legitimate to
+have multiple tokens for an input position, or tokens spanning multiple
+positions.</p>
+
+<h1 id="unknown-word-handling-basics">Unknown Word Handling: Basics</h1>
+
+<p>As of early 2009, there are two modes of detecting and handling unknown
+words, i.e. input tokens for which no <em>native</em> lexical entry is
+available. Common to both modes is their use of underspecified,
+so-called <em>generic</em> lexical entries. In a nutshell, these entries are
+instantiated for <em>gaps</em> in the lexical chart, i.e. input positions for
+which no native entries were found. The variation in different modes of
+unknown word handling relates to (a) how lexical gaps are detected and
+(b) the selection of which generic entries to instantiate. For historic
+reasons, we document the older unknown word handling mode first,
+pointing out its limitations along the way. The newer, cleaner, and more
+flexible approach to unknown word handling is summarized in section
+<em>Unknown Word Handling and Chart Mapping</em> below.</p>
+
+<p>Unknown word handling is activated by the command-line option
+-default-les. For this option to take effect, the grammar has to provide
+one or more lexical entries marked as generic, by means of their TDL
+status value. For example, the ERG includes the following declartions
+(in pet/common.set):</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  generic-lexentry-status-values := generic-lex-entry.
+</code></pre></div></div>
+
+<p>Actual generic entries are defined in the ERG file
+<a href="http://svn.delph-in.net/erg/trunk/gle.tdl">http://svn.delph-in.net/erg/trunk/gle.tdl</a>, which is loaded (in the
+top-level grammar file english.tdl) as follows:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  :begin :instance :status generic-lex-entry.
+  :include "gle".
+  :end :instance.
+</code></pre></div></div>
+
+<p>Turning on -default-les without additional settings, for each lexical
+gap <em>all</em> generic entries will be activated; in other words, there is no
+control over which entries are used at each gap position, and it is left
+to the larger syntactic context to determine the category of the unknown
+token(s). With inputs exhibiting a non-trivial proportion of unknown
+words, this approach can lead to massive lexical and syntactic ambiguity
+and, in the worst case, may be computationally intractable.</p>
+
+<p>Since around 2002 the ERG has had the ability of using an external PoS
+tagger to selectively activate generic entries; this mode of operation
+assumes that input tokens are decorated with one or more PoS tags (as in
+our example above), and that the grammar provides a mapping from PoS
+tags to the identifiers of generic lexical entries. This mapping can be
+provided by the posmapping declaration in one of the settings files, for
+example (from older versions of the ERG):</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  posmapping := 
+    JJ $generic_adj
+    JJR $generic_adj_compar
+    JJS $generic_adj_superl
+    CD $generic_number
+    NN $generic_mass_count_noun
+    NNS $generic_pl_noun
+    NNPS $generic_pl_noun
+    NNP $genericname
+    FW $generic_mass_noun
+    RB $generic_adverb
+    VB $generic_trans_verb_bse
+    VBD $generic_trans_verb_past
+    VBG $generic_trans_verb_prp
+    VBN $generic_trans_verb_psp
+    VBP $generic_trans_verb_presn3sg
+    VBZ $generic_trans_verb_pres3sg
+  .
+</code></pre></div></div>
+
+<p>To further constrain the postulation of generic lexical entries, cheap
+provides two optional filtering mechanisms (both somewhat ad-hoc). The
+first of these can be used to impose suffix constraints on the actual
+token string giving rise to a generic lexical entry. For example (again
+from older ERG revisions):</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  generic-le-suffixes := 
+    $generic_trans_verb_pres3sg "S" 
+    $generic_trans_verb_past "ED" 
+    $generic_trans_verb_psp "ED" 
+    $generic_trans_verb_prp "ING" 
+    $generic_pl_noun "S"
+  .
+</code></pre></div></div>
+
+<p>But this approach interoperates poorly with the ERG treatment of
+punctuation (as pseudo-affixes), which was introduced sometime around
+2005.</p>
+
+<p>Another configuration mechanism can be used to let PoS tags <em>augment</em>
+native lexical entries, i.e. attempting to address incomplete lexical
+coverage, say a use of the word <em>bus</em> as a verb, but assuming the native
+lexicon only provides a nominal reading. However, seeing that recent
+developments have made this configuration obsolete too (where it was
+never really used in production anyway), it shall suffice to ‘document’
+it by means of the comments from the file pet/common.set in earlier ERG
+revisions:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  ;;;
+  ;;; the setting `pos-completion' enables an additional mechanism to do with
+  ;;; processing of generic lexical entrie: whenever we receive POS information
+  ;;; as part of the input, we check to see whether the built-in lexical entries
+  ;;; suffice to satisfy the POS annotations: each lexical entry retrieved for an
+  ;;; input token 
+  ;;;
+  ;;;   &lt;string, pos_1, pos_2, pos_3&gt; 
+  ;;;
+  ;;; is mapped to an application-specific POS tag, using the `type-to-pos' map,
+  ;;; and checking the type of each lexical entry for subsumption against the
+  ;;; left-hand side of each `type-to-pos' rule.  some or all POS annotations
+  ;;; from the input may be `satisfied' under this mapping by built-in lexical
+  ;;; entries, e.g. for the example above, there may be lexical entries whose
+  ;;; type maps to `pos_1' and `pos_3'; unless all POS annotations are satisfied
+  ;;; after all built-in lexical entries have been processed, the remaining POS
+  ;;; categories are processed by the regular `posmapping' look-up.  note that,
+  ;;; as a side effect, an empty `type-to-pos' map will always result in having
+  ;;; all generic lexical entries activated (modulo the filter described above),
+  ;;; even for input tokens that were found in the native lexicon.
+  ;;;
+  pos-completion.
+  type-to-pos :=
+    basic_noun_word NN
+    basic_noun_word NNS
+    basic_noun_word NNP
+    basic_pronoun_word NN
+    basic_pronoun_word NNS
+    basic_pronoun_word NNP
+  .
+</code></pre></div></div>
+
+<h1 id="unknown-word-handling-and-chart-mapping">Unknown Word Handling and Chart Mapping</h1>
+
+<p>The approach to unknown word handling sketched above has several
+undesirable properties (that we discovered through the years).</p>
+
+<p>First, the method of detecting lexical gaps right after lexical look-up
+and activating generic entries only in chart positions with <em>apparent</em>
+gaps is failure-prone under two conditions: first, lexical look-up is
+performed on the basis of stems that were <em>hypothesized</em> after the first
+phase of orthographemic processing (i.e. morphological analysis). In
+this phase, an input token UPS will be analyzed as the candidate stem
+up, combined with either the nominal plural, or the verbal present
+tense, third person singular inflectional rules. If we assumed that the
+grammar contained only the prepositional lexical entry for up, then both
+morphological analyses should actually be considered lexical gaps—in
+lexical parsing, the inflectional rules will ultimately fail to apply to
+the preposition. If we were to assume, on the other hand, that the
+grammar contained a verbal stem up, then there is no lexical gap in a
+technical sense. However, there may still be <em>incomplete</em> lexical
+coverage, where instead of the present tense verb form, we would rather
+require a (generic) proper name to parse successfully. The original
+approach to unknown words in PET has no satisfactory way of addressing
+either problem.</p>
+
+<p>For these reasons, the order and nature of lexical processing have been
+re-worked in the so-called <em>chart mapping</em> parsing mode for cheap.
+<a href="http://www.lrec-conf.org/proceedings/lrec2008/summaries/349.html">Adolphs, et al.
+(2008)</a>
+discuss this approach more generally, but in a nutshell this mode defers
+gap detection and the decision on which generics to use until <em>after</em>
+lexical processing is complete, i.e. the application of lexical rules
+has reached a fix-point. This universe is activated by the command-line
+option -default-les=all and should typically be combined with -cm
+(turning on chart mapping). In this mode, the processing of <em>native</em>
+lexical entries is unchanged, but generics are treated differently: for
+<em>each</em> input token, <em>all</em> generics are always activated. To <em>activate</em> a
+(generic) lexical entry, in this mode, means to unify the complete
+feature structure(s) of the underlying token(s) into a designated path
+(called the TOKENS path) of the lexical entry. This way, input tokens
+can be decorated with various properties, for example PoS information
+and a token <em>class</em> (ranging over, say, alphanumeric vs. numeric vs.
+various sub-types of named entities) property. The generic lexical entry
+designated for unknown singular nouns can thus be constrained to only be
+compatible with tokens that carry appropriate PoS tags, and an entry
+designated for email addresses can constrain its token class to the
+appropriate sub-type.</p>
+
+<p>Besides its shortcomings in lexical gap detection discussed above,
+another unsatisfactory aspect of the older approach to unknown word
+handling lies in the ad hoc nature of filtering mechanisms like
+posmapping et al. There are many assumptions built into the software in
+these mechanisms, and their semi-procedural status is problematic in
+terms of the formalism definition (i.e. might be hard to re-produce in
+another processing engine). Furthermore, these mechanisms do not allow
+grammarians to flexibly (and on a case-by-case basis, if desirable)
+decide on which generics to activate under which conditions, and on how
+to combine native and generic entries. There are obvious coverage vs.
+efficiency trade-offs in this space, and the new, chart mapping universe
+aims to give the grammarian great power (and great responsibility) in
+creating and maintaining distinct configurations.</p>
+
+<p>Finally, the old code has been augmented over time with additional
+procedural mechanisms, all aiming to ‘transport’ token-level surface
+properties into the grammar-internal feature structure universe.
+Examples of such mechanisms are so-called characterization (recording of
+string-level start and end positions for each token) and the
+determination of CARG and PRED values in the MRS component of
+grammar-internal feature structures, in both cases reflecting the token
+surface form of named entities or predicates introduced by other generic
+entries. All such procedural mechanisms—destructively manipulating
+feature structures ‘behind the scenes’—become unnecessary in the new
+approach to unknown words. Because lexical entries (generics and
+natives) are given access to the full feature structure of their
+underlying input token(s), whatever information needs to be picked up
+from the tokens into the grammar-internal signs can be accessed by
+simple re-entrancies within the lexical entry. The ERG (as of early
+2009), for example, percolates characterization information (from input
+tokens) on all lexical entries, making sure to pass up the left- and
+right-most start and end positions when building phrases, and further
+inserting this information into all semantic predicates, at the time
+these are first introduced, i.e. both in lexical entries and
+constructions. In a similar spirit, the generic entry activated for an
+unknown singular common noun picks up a PRED value from its input token,
+and the email NE generic entry determines its CARG from the surface form
+of the underlying token. This is all very clean and pretty.</p>
+
+<p>As regards the interaction of native and generic entries in the new
+universe, the default-les=all mode will initially activate both kinds of
+entries. Once lexical parsing (the application of lexical rules) has
+completed, there is a phase of <em>lexical filtering</em>, operationalized as a
+set of chart mapping rules that can inspect pairs (or, in principle,
+sets) of edges in the chart and delete those that are deemed unwanted. A
+baseline lexical filtering strategy that approximates the older approach
+(modulo more accurate gap detection) could be to delete all generic
+entries from chart cells where there is at least one native entry
+(remaining after lexical parsing). More advanced strategies might aim to
+reduce native entries on the basis of incompatible PoS values (for
+potentially improved efficiency), or try to augment native entries with
+generics to complement what we called partial lexical coverage above
+(for improved coverage; essentially realizing the old pos-completion
+mode in the new universe).</p>
+
+<p>Returning to the above input example, recall that the YY token
+description corresponds to the (moderately sensical) input</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  Tokenization, a non-trivial exercise, bazed oe@yy.com.
+</code></pre></div></div>
+
+<p>Using the ERG revision of January 2009, combined with the new approach
+to unknown words, chart mapping, and MRS extraction (i.e. the calling
+example shown in section <em>YY Input Mode</em> above), one of the results will
+look like the following (the MRS has been simplified, omitting variable
+properties except for the top-level event)</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  [ LTOP: h1
+    INDEX: e2 [ e SF: PROP TENSE: PAST MOOD: INDICATIVE PROG: - PERF: - ]
+    RELS: &lt; [ appos_rel&lt;0:37&gt; LBL: h3 ARG0: e4 ARG1: x6 ARG2: x5 ]
+            [ udef_q_rel&lt;0:13&gt; LBL: h7 ARG0: x6 RSTR: h9 BODY: h8 ]
+            [ "_tokenization/NN_u_unknown_rel"&lt;0:13&gt; LBL: h10 ARG0: x6 ]
+            [ _a_q_rel&lt;14:15&gt; LBL: h11 ARG0: x5 RSTR: h12 BODY: h13 ]
+            [ neg_rel&lt;16:27&gt; LBL: h14 ARG0: e16 ARG1: h15 ]
+            [ "_trivial_a_1_rel"&lt;16:27&gt; LBL: h17 ARG0: ARG1: x5 ]
+            [ "_exercise_n_1_rel"&lt;28:37&gt; LBL: h14 ARG0: x5 ]
+            [ "_bazed/VBD_u_unknown_rel"&lt;38:44&gt; LBL: h3 ARG0: e2 ARG1: x6 ARG2: x19 ]
+            [ proper_q_rel&lt;45:59&gt; LBL: h20 ARG0: x19 RSTR: h22 BODY: h21 ]
+            [ named_unk_rel&lt;45:59&gt; LBL: h23 ARG0: x19 CARG: "oe@ifi.uio.no" ] &gt;
+    HCONS: &lt; h9 qeq h10 h12 qeq h14 h15 qeq h17 h22 qeq h23 &gt; ]
+</code></pre></div></div>
+
+<p>This result exemplifies several of the mechanisms discussed earlier. The
+input token <em>Tokenization</em> is an unknown word to the grammar and was
+analyzed using a PoS-activated generic lexical entry. As the input
+tokens to the parser provide no lemmatization information (yet), the
+grammar, in this case, opts to compose the PRED value by concatenating
+the surface form and PoS tag (which preserves all the information
+available to the parser, and obviously some amount of semantic
+post-processing is called for). The same is true of the
+<em>_bazed/VBD_u_unknown_rel</em> predication, which was built using a
+PoS-activated generic lexical entry for simple transitives. Finally, the
+token <em><a href="mailto:oe@yy.com">oe@yy.com</a></em> is recognized as a named entity, where a set of
+<em>token mapping</em> rules prior to lexical instantiation looks for
+string-level indicators of various kinds of NEs, in this case the
+regular expression characteristic of an email address. In this case, the
+token feature structure is annotated with a specific token class value,
+which subsequently allow activation of the correct generic lexical entry
+(and blocks any other generics). This entry, in turn, makes its MRS CARG
+value parasitic on the input token feature structure (where token
+mapping has done The Right Thing™ about the interactions with
+sentence-final punctuation).</p>
+
+<h1 id="lkb-and-incr-tsdb-back-end-support">LKB and [incr tsdb()] Back-End Support</h1>
+
+<p>The LKB includes a simple, finite-state tool to prepare textual input
+for parsing with PET, the <em>Regular Expression Pre-Processor</em> (REPP);
+please see the <a href="https://delph-in.github.io/docs/garage/ReppTop">ReppTop</a> page for details. The ERG includes a
+set of string-level REPP rules to normalize inputs and determine
+(initial) tokenization; as one of its outputs formats, REPP supports the
+YY 2.0 conventions.</p>
+
+<p>With PET and <a href="http://www.delph-in.net/itsdb">[incr tsdb()]</a> versions
+dated February 15, 2009, or newer, the new approach to unknown word
+handling (finally) has full support in <a href="http://www.delph-in.net/itsdb">[incr
+tsdb()]</a>, including the Redwoods
+treebanking tools. As all information about the flow of information
+between the token-level and grammar-internal sign universes is now
+encoded as part of the grammar proper (i.e. its feature structures for
+lexical entries and rules), complete information about the derivation is
+recorded in <a href="http://www.delph-in.net/itsdb">[incr tsdb()]</a> profiles
+(please see the <a href="https://delph-in.github.io/docs/tools/ItsdbDerivations">ItsdbDerivations</a> page for
+background). Specifically, the extended derivation format includes the
+feature structures of input tokens as the leafs of the derivation tree,
+such that re-building that derivation (deterministically re-applying all
+unifications) will yield the exact same result as was produced during
+parsing. Hence, characterization information, as well as dynamic PREDs
+and CARGs for unknown words, will be present on structures built during
+treebanking (or exported from <a href="http://www.delph-in.net/itsdb">[incr
+tsdb()]</a>) in just the same way they were
+present during parsing. This should be true independent of the input
+mode used with PET, though as of early 2009 most testing was done using
+the YY token format.</p>
+
+<h1 id="history-and-alternate-lattice-based-input-modes">History and Alternate Lattice-Based Input Modes</h1>
+
+<p>YY input mode was first developed in 2000 and has undergone three
+revisions since. YY input mode revision 0.0 was a purely internal
+version that is no longer supported. Since 2001, YY 1.0 has been in
+active use and is still fully supported. The format described above, and
+the example given from the ERG, use YY 2.0, a conservative,
+backwards-compatible extension made in January 2009. Compared to YY 1.0,
+only the optional <em>link</em> field was added, i.e. the ability to provide
+information about external surface positions. It appears, however, that
+the PET-internal treatment of YY input tokens was changed in a
+(theoretically, at least) non-backwards-compatible manner sometime
+around the years 2003 or 2004, when the <em>start</em> and <em>end</em> fields (in YY
+1.0) format were re-interpreted as <em>external</em> surface links, viz.
+character positions—much like the new <em>from</em> and <em>to</em> values in the YY
+2.0 extension. No real damage was observed from this change (because
+interpreting chart vertices as character positions, and later
+re-computing chart vertices from the resulting lattice topology should
+usually arrive at an identical lattice), but as of early 2009, it is
+recommend to adapt external providers of YY input to PET to the richer
+YY 2.0 format.</p>
+
+<p>Alternate, lattice-based input modes are available using XML markup to
+encode the parser input. See the <a href="https://delph-in.github.io/docs/garage/PetInputFsc">PetInputFsc</a>,
+<a href="https://delph-in.github.io/docs/garage/PetInputChart">PetInputChart</a> and <a href="https://delph-in.github.io/docs/tools/SmafTop">SmafTop</a> pages for the
+so-called FSC, PIC (deprecated as of mid-2010), and SMAF (deprecated as
+of mid-2010) mode, respectively.</p>
+
+<p>Last update: 2011-11-02 by StephanOepen [<a href="https://github.com/delph-in/docs/wiki/PetInput/_edit">edit</a>]</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+<!--Scroll the navbar to the current page-->
+<script type="text/javascript">
+  let el = document.querySelector('.nav__list .active');
+  if(el){
+    el.scrollIntoView({block: "center", inline: "start"});
+  }
+</script>
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/docs/garage/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/docs/garage/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/docs/garage/assets/js/lunr/lunr.min.js"></script>
+<script src="/docs/garage/assets/js/lunr/lunr-store.js"></script>
+<script src="/docs/garage/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

@@ -1,0 +1,697 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>DELPH-IN ERG</title>
+<meta name="description" content="An amazing website.">
+
+
+  <meta name="author" content="Your Name">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="DELPH-IN ERG">
+<meta property="og:title" content="DELPH-IN ERG">
+<meta property="og:url" content="https://delph-in.github.io/docs/erg/ErgSemantics_IdentityCopulae/">
+
+
+  <meta property="og:description" content="An amazing website.">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://delph-in.github.io/docs/erg/ErgSemantics_IdentityCopulae/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Your Name",
+      "url": "https://delph-in.github.io/docs/erg/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/docs/erg/feed.xml" type="application/atom+xml" rel="alternate" title="DELPH-IN ERG Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/docs/erg/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--delphin_page wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/docs/erg/"><img src="/docs/erg/assets/images/Delph-In.png" alt="DELPH-IN ERG"></a>
+        
+        <a class="site-title" href="/docs/erg/">
+          DELPH-IN ERG
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/home/Home">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/howto/DelphinWelcome">How-To</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/erg/ErgTop">ERG</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/tools/ToolsTop">Tools</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/grammars/GrammarsOverview">Grammars</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/matrix/MatrixDocsOverview">Matrix</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/summits/SummitTop">Summits</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/garage/GarageTop">Garage</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Overview</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/erg/ErgTop/">ERG Summary</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_HowToCite/">How to Cite This Work</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">ERG Usage</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/erg/ErgProcessing/">Overview</a></li>
+          
+            <li><a href="/docs/erg/QuickStart/">QuickStart</a></li>
+          
+            <li><a href="/docs/erg/ErgProcessing_SampleExport/">ERG Usage Sample Export</a></li>
+          
+            <li><a href="/docs/erg/AceErgTuning/">Tuning Ace for ERG</a></li>
+          
+            <li><a href="/docs/erg/ErgApi/">ERG REST API</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Erg Semantics</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/erg/ErgSemantics/">Semantics</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Essence/">Essence</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Basics/">Basics</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Design/">Design</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Conventions/">Conventions</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Interface/">Semantics Interface (SEM-I)</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Discovery/">Semantics Discovery</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Inventory</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/erg/ErgSemantics_Inventory/">Overview</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_OneAnaphora/">Anaphora</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Apposition/">Apposition</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Comparatives/">Comparatives</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Compounding/">Compounding</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Conditionals/">Conditionals</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_ControlRelations/">Control Relations</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Coordination/">Coordination</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Ellipsis/">Ellipsis</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_ForeignExpressions/">Foreign Expressions</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Fragments/">Fragments</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_IdentityCopulae/" class="active">Identity Copulae</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Imperatives/">Imperatives</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_ImplicitLocatives/">Implicit Locatives</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_ImplicitNominals/">Implicit Nominals</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_ImplicitQuantifiers/">Implicit Quantifiers</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_InstrumentalRelatives/">Instrumental Relatives</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_MeasurePhrases/">Measure Phrases</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Nominalization/">Nominalization</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_NonAdverbialClausalModifiers/">Non-Adverbial Clausal Modifiers</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_NumberSequences/">Number Sequences</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Parentheticals/">Parentheticals</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Partitives/">Partitives</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_PropositionalArguments/">Propositional Arguments</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Quantification/">Quantification</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_QuasiModalInfinitivals/">Quasi-Modal Infinitivals</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_RelationalNouns/">Relational Nouns</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_RelativeClauses/">Relative Clauses</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_TimeExpressions/">Time Expressions</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Vocatives/">Vocatives</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Raw_Materials/">Raw Materials</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">ERG Grammar</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/erg/ErgLeTypes/">LE Types</a></li>
+          
+            <li><a href="/docs/erg/ErgRules/">Rules</a></li>
+          
+            <li><a href="/docs/erg/ErgTokenization/">Tokenization</a></li>
+          
+            <li><a href="/docs/erg/ErgTokenization_ComplexExample/">Tokenization Complex Example</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">ERG Treebanking</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/erg/ErgTreebanking/">Overview</a></li>
+          
+            <li><a href="/docs/erg/ErgTreebankingGuidelines/">Guidelines</a></li>
+          
+            <li><a href="/docs/erg/ErgTreebankingRules/">Treebanking Rules</a></li>
+          
+            <li><a href="/docs/erg/ErgTreebankingBridges/">Bridges</a></li>
+          
+            <li><a href="/docs/erg/CapitolHillTreebank/">Discussion</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Discussions</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/erg/SaarlandSententialArgument/">Saarland Sentential Argument</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <h1 id="esd-test-suite-examples">ESD Test Suite Examples</h1>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Abrams is Browne.
+Browne is a manager.
+The reason: the dog.
+The theory is that Browne arrived.
+The reason: Browne arrived.
+The plan is to sleep more.
+All Browne could do was arrive.
+</code></pre></div></div>
+
+<h1 id="linguistic-characterization">Linguistic Characterization</h1>
+
+<p>In contrast to uses of the copula which we analyze as semantically
+empty, there are cases where the copula verb itself introduces a
+predicate which (roughly speaking) denotes identity between its two
+arguments. The simplest cases are the ones where both arguments are
+expressed as noun phrases, but we also find uses of the copula with
+clausal complements (both open and closed).</p>
+
+<h1 id="motivating-examples">Motivating Examples</h1>
+
+<p>In the simplest cases, such as <em>Abrams is Browne</em>, the two arguments are
+expressed as NPs and the predicate introduced by the copula describes
+identity between the referents of the NPs. We also use the same
+predicate in the analysis of predicative nominals, like <em>Browne is a
+manager.</em> In another class of cases, the second argument of the copula
+is clausal (open as in <em>The plan is to sleep more.</em> or closed as in <em>The
+reason is that Browne arrived.</em>). This is represented by having the
+label (local top handle) of the clause be the identity predicate’s
+second argument. We sometimes find punctuation (namely `:’) as the form
+of the copula, in both nominal and clausal complement cases as
+illustrated in the test suite examples.</p>
+
+<p>Finally, we have grouped the <em>do … be</em> construction (Flickinger &amp;
+Wasow, 2014) under this category:</p>
+
+<ul>
+  <li><em>All Browne could do was arrive.</em></li>
+</ul>
+
+<p>In this construction, both <em>do</em> and <em>be</em> introduce special predicates
+(<strong>_do_v_be</strong> and <strong>_be_v_do</strong>, respectively). <strong>_do_v_be</strong>
+takes as its second argument an instance variable representing what was
+done. This instance is then also the ARG1 of <strong>_be_v_do</strong>, which like
+like <strong>_be_v_nv</strong> takes a handle as its second argument.</p>
+
+<h1 id="ers-fingerprints">ERS Fingerprints</h1>
+
+<p>There are currently a wide variety of identity copula predications, so
+we do not have one unified set of fingerprints for this phenomenon.
+Rather, any of the following represent identity copulae:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>_be_v_id[ARG1 x1, ARG2 x2]
+h1:[ARG0 x1]
+h2:[ARG0 x2]
+{ h3 =q h1, h4 =q h2 }
+
+_colon_v_id[ARG1 x1, ARG2 x2]
+h1:[ARG0 x1]
+h2:[ARG0 x2]
+{ h3 =q h1, h4 =q h2 }
+
+id[ARG1 x1, ARG2 x2]
+h1:[ARG0 x1]
+h2:[ARG0 x2]
+{ h3 =q h1, h4 =q h2 }
+
+cop_id[ARG1 x1, ARG2 x2]
+h1:[ARG0 x1]
+h2:[ARG0 x2]
+{ h3 =q h1, h4 =q h2 }
+
+_be_v_nv[ARG1 x1, ARG2 h2]
+h3:[ARG0 x1]
+h2:[ARG0 e]
+{ h4 =q h3 }
+
+_be_v_do[ARG1 x1, ARG2 h2]
+h3:[ARG0 x1]
+h4:[ARG0 e]
+{ h2 =q h4, h5 =q h3 }
+</code></pre></div></div>
+
+<h1 id="interactions">Interactions</h1>
+
+<p>While the identity copula predications are mostly introduce by lexical
+items, the same EPs are in some cases introduced by syntactic
+constructions. In particular, in identity N-bar
+<a href="https://delph-in.github.io/docs/erg/ErgSemantics_Coordination">coordination</a>, as illustrated by the
+following test suite example:</p>
+
+<ul>
+  <li><em>My friend and colleague arrived.</em></li>
+</ul>
+
+<p>the two conjuncts are interpreted as referring to the same entity. This
+is represented with an <strong>id</strong> predication taking them each as arguments.</p>
+
+<p>Similarly, in absolutives with NP predicates, we posit <strong>cop_id</strong> as
+mediating between the two NPs inside the absolutive modifier:</p>
+
+<ul>
+  <li><em>With Browne the manager, Abrams arrived.</em></li>
+</ul>
+
+<h1 id="reflections">Reflections</h1>
+
+<p>Huddleston &amp; Pullum (2002, p.266) distinguish ascriptive and specifying
+uses of the copula, where the specifying use (illustrated by the most
+salient reading of the first example below) ‘defines a variable and
+specifies its value.’ The ascriptive use in their terminology, on the
+other hand, relates a property (the complement) to a theme (the
+subject). They thus group together ascriptive uses of the copula with NP
+complements and the copula that takes adjectival or PP complements, as
+in the second example below.</p>
+
+<ul>
+  <li><em>The chief culprit was Kim.</em></li>
+  <li><em>His daughter is very bright / a highly intelligent woman.</em></li>
+</ul>
+
+<p>Huddleston &amp; Pullum (2002, p.267) also note that while NP-complement
+uses of the copula are in general ambiguous between the ascriptive and
+specifying readings, it-clefts are unambiguously specifying:</p>
+
+<ul>
+  <li><em>His first proposal was a joke.</em></li>
+  <li><em>It was a joke that he proposed first.</em></li>
+  <li><em>What he proposed first was a joke.</em></li>
+</ul>
+
+<p>Similarly, they note on p.270 that interrogative <em>who</em> can only be used
+to question specifying uses: <em>Who are they?</em> and on p.271 that personal
+pronouns as predicative complements of <em>be</em> are necessarily specifying
+and certain NPs with singular (count) noun heads but no determiner are
+necessarily ascriptive (<em>She is secretary of the bushwalking club.</em>).
+The fact that syntax disambiguates in these cases suggests that we might
+want to create finer-grained representations of the possible
+interpretation of the copula with an NP complement. On the other hand,
+assimilating ascriptive NP-complement copula uses to the AP/PP
+complement cases (where we treat the copula as semantically empty) seems
+unnecessary.</p>
+
+<p>In a later chapter, Huddleston &amp; Pullum (2002, p.402, fn 35) note that
+the use of <em>be</em> in examples like <em>Max was Macbeth</em> is a special use
+‘that cannot be subsumed under either the specifying or the ascriptive
+use.’</p>
+
+<h1 id="open-questions">Open Questions</h1>
+
+<ul>
+  <li>No examples in esd.txt yet — I put together a list based on the
+CCS sentences for this phenomenon, but with some modifications.</li>
+  <li>Is there good reason for the colon to introduce a different EP from
+forms of <em>be</em>?</li>
+  <li>Why no qeq between the ARG2 of _be_v_nv and its complement?</li>
+  <li>I don’t yet fully understand what the analysis analysis of do-be.
+Should both of those verbs really be contentful? Is there a reason
+that _be_v_do isn’t assimilated to _be_v_nv? Is there are
+reason that _be_v_do does have a qeq for its second argument
+while _be_v_nv does not?</li>
+  <li>Why is id in identity n-bar coordination not _be_v_id?</li>
+  <li>Why is cop_id distinct from both id and _be_v_id?</li>
+</ul>
+
+<h1 id="expert-external-commentary">Expert External Commentary</h1>
+
+<h1 id="grammar-version">Grammar Version</h1>
+
+<ul>
+  <li>1214</li>
+</ul>
+
+<h1 id="references">References</h1>
+
+<p>Huddleston, R., &amp; Pullum, G. K. (eds) (2002). <em>The Cambridge Grammar of
+the English Language.</em> Cambridge: Cambridge University Press.</p>
+
+<p>Flickinger, Dan and Wasow, Thomas. (2014). A Corpus-driven Analysis of
+the Do-Be Construction. In Hofmeister, P. and Norcliffe, E. (eds). <em>The
+Core and the Periphery Data-Driven Perspectives on Syntax inspired by
+Ivan A. Sag.</em> Stanford: CSLI Publications.</p>
+
+<h1 id="more-information">More Information</h1>
+
+<ul>
+  <li><a href="https://delph-in.github.io/docs/erg/ErgSemantics">ErgSemantics</a> main page</li>
+  <li><a href="https://delph-in.github.io/docs/erg/ErgSemantics_Inventory">Inventory</a> of semantic phenomena (to be)
+documented</li>
+  <li><a href="https://delph-in.github.io/docs/erg/ErgSemantics_HowToCite">How to cite this work</a></li>
+</ul>
+
+<p>Last update: 2015-06-04 by EmilyBender [<a href="https://github.com/delph-in/docs/wiki/ErgSemantics_IdentityCopulae/_edit">edit</a>]</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+<!--Scroll the navbar to the current page-->
+<script type="text/javascript">
+  let el = document.querySelector('.nav__list .active');
+  if(el){
+    el.scrollIntoView({block: "center", inline: "start"});
+  }
+</script>
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/docs/erg/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/docs/erg/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/docs/erg/assets/js/lunr/lunr.min.js"></script>
+<script src="/docs/erg/assets/js/lunr/lunr-store.js"></script>
+<script src="/docs/erg/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

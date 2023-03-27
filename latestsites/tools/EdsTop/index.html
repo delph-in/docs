@@ -1,0 +1,1129 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>DELPH-IN Tools</title>
+<meta name="description" content="An amazing website.">
+
+
+  <meta name="author" content="Your Name">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="DELPH-IN Tools">
+<meta property="og:title" content="DELPH-IN Tools">
+<meta property="og:url" content="https://delph-in.github.io/docs/tools/EdsTop/">
+
+
+  <meta property="og:description" content="An amazing website.">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://delph-in.github.io/docs/tools/EdsTop/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Your Name",
+      "url": "https://delph-in.github.io/docs/tools/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/docs/tools/feed.xml" type="application/atom+xml" rel="alternate" title="DELPH-IN Tools Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/docs/tools/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--delphin_page wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/docs/tools/"><img src="/docs/tools/assets/images/Delph-In.png" alt="DELPH-IN Tools"></a>
+        
+        <a class="site-title" href="/docs/tools/">
+          DELPH-IN Tools
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/home/Home">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/howto/DelphinWelcome">How-To</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/erg/ErgTop">ERG</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/tools/ToolsTop">Tools</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/grammars/GrammarsOverview">Grammars</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/matrix/MatrixDocsOverview">Matrix</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/summits/SummitTop">Summits</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/garage/GarageTop">Garage</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Tools</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/ToolsTop/">Overview</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">PyDelphin</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/PyDelphinTop/">Overview</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">LKB</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/LkbTop/">Overview</a></li>
+          
+            <li><a href="/docs/tools/LkbInstallation/">Installation</a></li>
+          
+            <li><a href="/docs/tools/LkbFos/">Fully Open Source Version</a></li>
+          
+            <li><a href="/docs/tools/LkbMacintosh/">Macintosh Version</a></li>
+          
+            <li><a href="/docs/tools/LkbCourses/">Courses</a></li>
+          
+            <li><a href="/docs/tools/LkbConventions/">Conventions</a></li>
+          
+            <li><a href="/docs/tools/LkbGeneration/">Generation</a></li>
+          
+            <li><a href="/docs/tools/LkbCompilation/">Compilation</a></li>
+          
+            <li><a href="/docs/tools/LkbEmacs/">Emacs</a></li>
+          
+            <li><a href="/docs/tools/LkbTrollet/">Trollet</a></li>
+          
+            <li><a href="/docs/tools/LkbSppp/">Simple PreProcessor Protocol</a></li>
+          
+            <li><a href="/docs/tools/RmrsVpm/">Variable Property Mapping (VPM)</a></li>
+          
+            <li><a href="/docs/tools/LkbLpconstraints/">LkbLpconstraints</a></li>
+          
+            <li><a href="/docs/tools/LkbUserGroup/">User Group</a></li>
+          
+            <li><a href="/docs/tools/LkbFaq/">FAQ</a></li>
+          
+            <li><a href="/docs/tools/LkbMode/">Emacs FAQ</a></li>
+          
+            <li><a href="/docs/tools/LkbWishlist/">Wish list</a></li>
+          
+            <li><a href="/docs/tools/LkbBugs/">Bugs</a></li>
+          
+            <li><a href="/docs/tools/LkbCopyright/">Copyright</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">ACE Parser</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/AceTop/">Overview</a></li>
+          
+            <li><a href="/docs/tools/AceInstall/">Install</a></li>
+          
+            <li><a href="/docs/tools/AceConfiguration/">Configuration</a></li>
+          
+            <li><a href="/docs/tools/AceOptions/">Options</a></li>
+          
+            <li><a href="/docs/tools/AceUse/">Examples</a></li>
+          
+            <li><a href="/docs/tools/AceLui/">LUI Mode</a></li>
+          
+            <li><a href="/docs/tools/AceCsaw/">Csaw</a></li>
+          
+            <li><a href="/docs/tools/AceTransfer/">Transfer</a></li>
+          
+            <li><a href="/docs/tools/AceExperimental/">Experimental</a></li>
+          
+            <li><a href="/docs/tools/AceFaq/">Faq</a></li>
+          
+            <li><a href="/docs/tools/AceWishlist/">Wish list</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">LKB LUI</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/LkbLui/">Overview</a></li>
+          
+            <li><a href="/docs/tools/LuiRc/">User Configuration</a></li>
+          
+            <li><a href="/docs/tools/LuiUi/">UI Quick Reference</a></li>
+          
+            <li><a href="/docs/tools/LuiTree/">Tree</a></li>
+          
+            <li><a href="/docs/tools/LuiAvm/">Feature Structure (AVM)</a></li>
+          
+            <li><a href="/docs/tools/LuiUnification/">Unification</a></li>
+          
+            <li><a href="/docs/tools/LuiMrs/">MRS Display</a></li>
+          
+            <li><a href="/docs/tools/LuiChart/">Chart Browser</a></li>
+          
+            <li><a href="/docs/tools/LuiWishlist/">Wish list</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">LKB LexDB</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/LexDbSimplePsql/">Simple PSQL</a></li>
+          
+            <li><a href="/docs/tools/LexDbInitialize/">Initialization</a></li>
+          
+            <li><a href="/docs/tools/LexDbPsqlInitialize/">PSQL Initialization</a></li>
+          
+            <li><a href="/docs/tools/LexDbFieldMappings/">Field Mappings</a></li>
+          
+            <li><a href="/docs/tools/LkbLexDbMultiUser/">Multi-User</a></li>
+          
+            <li><a href="/docs/tools/LkbLexDbSingleUser/">Single User</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">[incr tsdb()]</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/ItsdbTop/">Overview</a></li>
+          
+            <li><a href="/docs/tools/TsdbTop/">Deep Dive</a></li>
+          
+            <li><a href="/docs/tools/ItsdbDerivations/">Derivations</a></li>
+          
+            <li><a href="/docs/tools/ItsdbProfileManipulation/">Profile Manipulation</a></li>
+          
+            <li><a href="/docs/tools/ItsdbProfile/">Profile</a></li>
+          
+            <li><a href="/docs/tools/ItsdbProfiling/">Profiling</a></li>
+          
+            <li><a href="/docs/tools/ItsdbDistributedProcessing/">Distributed Processing</a></li>
+          
+            <li><a href="/docs/tools/ItsdbBatch/">Batch</a></li>
+          
+            <li><a href="/docs/tools/ItsdbReference/">Reference</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTroubleshooting/">Troubleshooting</a></li>
+          
+            <li><a href="/docs/tools/GeFaqTsdbRc/">FAQ</a></li>
+          
+            <li><a href="/docs/tools/ItsdbWishlist/">Wish List</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Logon</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/LogonTop/">Overview</a></li>
+          
+            <li><a href="/docs/tools/LogonInstallation/">Installation</a></li>
+          
+            <li><a href="/docs/tools/LogonRedhat/">Red Hat</a></li>
+          
+            <li><a href="/docs/tools/LogonUbuntu/">Ubuntu</a></li>
+          
+            <li><a href="/docs/tools/LogonArch/">Arch Linux</a></li>
+          
+            <li><a href="/docs/tools/LogonDebian/">Debian</a></li>
+          
+            <li><a href="/docs/tools/LogonHandon/">Hands-On Release</a></li>
+          
+            <li><a href="/docs/tools/LogonSvn/">SVN</a></li>
+          
+            <li><a href="/docs/tools/LogonProcessing_BatchGeneration/">Batch Generation</a></li>
+          
+            <li><a href="/docs/tools/LogonProcessing_BatchTranslation/">Batch Translation</a></li>
+          
+            <li><a href="/docs/tools/LogonPet/">PET Integration</a></li>
+          
+            <li><a href="/docs/tools/LogonAnswer/">ACE Integration</a></li>
+          
+            <li><a href="/docs/tools/LogonExtras/">Extras</a></li>
+          
+            <li><a href="/docs/tools/LogonReports/">Reports</a></li>
+          
+            <li><a href="/docs/tools/LogonProcessing/">Processing</a></li>
+          
+            <li><a href="/docs/tools/LogonProcessing_BatchParsing/">Batch Parsing</a></li>
+          
+            <li><a href="/docs/tools/LogonModeling/">Modeling</a></li>
+          
+            <li><a href="/docs/tools/LogonOnline/">Online</a></li>
+          
+            <li><a href="/docs/tools/LogonTransfer/">Transfer</a></li>
+          
+            <li><a href="/docs/tools/LogonVpm/">Variable Property Mapping</a></li>
+          
+            <li><a href="/docs/tools/NoJa/">Setting up New Languages</a></li>
+          
+            <li><a href="/docs/tools/LogonIdiosyncrasies/">Idiosyncrasies</a></li>
+          
+            <li><a href="/docs/tools/LogonWishlist/">Wishlist</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammar Tips</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/GrammarPerformance/">Grammar Performance</a></li>
+          
+            <li><a href="/docs/tools/VersionControlForGrammarDevelopment/">Grammar Version Control</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Treebanking</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/TreebankingTop/">Overview</a></li>
+          
+            <li><a href="/docs/tools/FftbTop/">Full Forest Treebanker (FFTB)</a></li>
+          
+            <li><a href="/docs/tools/FftbWishlist/">Full Forest Treebanker Wishlist</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking/">[incr tsdb()] Treebanking</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking_ItsdbAnnotation/">[incr tsdb()] Treebanking Annotation</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking_ItsdbUpdating/">[incr tsdb()] Treebanking Updating</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking_ItsdbExporting/">[incr tsdb()] Treebanking Exporting</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking_ItsdbModeling/">[incr tsdb()] Treebanking Modeling</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking_ItsdbUpdating/">[incr tsdb()] Treebanking Updating</a></li>
+          
+            <li><a href="/docs/tools/ItsdbCustomization/">[incr tsdb()] Treebanking Customization</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking_ItsdbModeling/">[incr tsdb()] Treebanking Modeling</a></li>
+          
+            <li><a href="/docs/tools/IndraTreebanking/">Indra</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Formats</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/DelphinRFCs/">Delphin RFCs</a></li>
+          
+            <li><a href="/docs/tools/PredicateRfc/">Predicate RFC</a></li>
+          
+            <li><a href="/docs/tools/MrsRFC/">MRS Format RFC</a></li>
+          
+            <li><a href="/docs/tools/MrsIsomorphism/">MRS Isomorphism</a></li>
+          
+            <li><a href="/docs/tools/EdsTop/" class="active">EDS Format</a></li>
+          
+            <li><a href="/docs/tools/EdsConversion/">EDS Conversion</a></li>
+          
+            <li><a href="/docs/tools/EdsGeneration/">EDS Generation</a></li>
+          
+            <li><a href="/docs/tools/SemiRfc/">SEM-I RFC</a></li>
+          
+            <li><a href="/docs/tools/TdlRFC/">TDL RFC</a></li>
+          
+            <li><a href="/docs/tools/TsqlRfc/">TSQL RFC</a></li>
+          
+            <li><a href="/docs/tools/GrammarVersionRfc/">Grammar Version RFC</a></li>
+          
+            <li><a href="/docs/tools/GrammarConfigurationRfc/">Grammar Configuration RFC</a></li>
+          
+            <li><a href="/docs/tools/TsdbSchemaRfc/">TSDB Schema RFC</a></li>
+          
+            <li><a href="/docs/tools/MatrixChoicesRfc/">Matrix Choices RFC</a></li>
+          
+            <li><a href="/docs/tools/RmrsTop/">(R)MRS Overview</a></li>
+          
+            <li><a href="/docs/tools/RmrsWellformedness/">(R)MRS Wellformedness</a></li>
+          
+            <li><a href="/docs/tools/RmrsPos/">(R)MRS Predicate Naming</a></li>
+          
+            <li><a href="/docs/tools/RmrsSpan/">(R)MRS Span</a></li>
+          
+            <li><a href="/docs/tools/RmrsDesign/">(R)MRS Design</a></li>
+          
+            <li><a href="/docs/tools/RmrsParaphrasing/">(R)MRS Paraphrasing</a></li>
+          
+            <li><a href="/docs/tools/RmrsModel/">(R)MRS Model</a></li>
+          
+            <li><a href="/docs/tools/RmrsDistributional/">(R)MRS Distributional</a></li>
+          
+            <li><a href="/docs/tools/RmrsSemi/">(R)MRS Semi</a></li>
+          
+            <li><a href="/docs/tools/RmrsDmrs/">(R)MRS Dmrs</a></li>
+          
+            <li><a href="/docs/tools/RmrsFaq/">(R)MRS Faq</a></li>
+          
+            <li><a href="/docs/tools/RmrsDiscussions/">(R)MRS Discussions</a></li>
+          
+            <li><a href="/docs/tools/TransferRules/">Transfer Rules</a></li>
+          
+            <li><a href="/docs/tools/FormatSpecifications/">Format Specifications</a></li>
+          
+            <li><a href="/docs/tools/ErgGml/">Grammar Markup Language</a></li>
+          
+            <li><a href="/docs/tools/SmafTop/">SMAF</a></li>
+          
+            <li><a href="/docs/tools/SmafLkb/">SMAF in LKB</a></li>
+          
+            <li><a href="/docs/tools/SmafPet/">SMAF in PET</a></li>
+          
+            <li><a href="/docs/tools/SmafSample/">SMAF Sample</a></li>
+          
+            <li><a href="/docs/tools/SmafDtd/">SMAF DTD</a></li>
+          
+            <li><a href="/docs/tools/SafTop/">SAF Overview</a></li>
+          
+            <li><a href="/docs/tools/SafDtd/">SAF DTD</a></li>
+          
+            <li><a href="/docs/tools/IconsSpecs/">Icons Specs</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <h1 id="background">Background</h1>
+
+<p>This page provides some semi-formal and semi-technical background on
+what are called <em>Elementary Dependency Structures</em> (EDS, or at times
+also EDs), a reduction of full MRS (underspecified) logical forms to a
+variable-free form, i.e. a semantic dependency graph (or ‘semantic
+network’ or ‘conceptual graph’). The original motivation for this
+representation was ease of downstream processing, for information
+extraction applications, say.</p>
+
+<p>EDS since its 2002 inception (<a href="http://bultreebank.org/proceedings/paper10.pdf">Oepen, et al.,
+2002)</a> has found a
+broader range of DELPH-IN-internal applications, typically where it is
+desirable to ‘break down’ a full meaning representation into relevant,
+variable-free component pieces: designing so-called discriminants for
+semantics-based treebanking (<a href="http://www.lrec-conf.org/proceedings/lrec2006/pdf/364_pdf.pdf">Oepen &amp; Lønning,
+2006</a>;
+<a href="http://www.lrec-conf.org/proceedings/lrec2010/pdf/154_Paper.pdf">Branco, et al.,
+2010</a>),
+for example; features encoding co-occurence of semantic predicates in
+parse disambiguation (<a href="http://bultreebank.org/proceedings/paper17.pdf">Toutanova, et al.,
+2002</a>; <a href="http://aclweb.org/anthology-new/W/W07/W07-1204.pdf">Fujita, et al.,
+2007</a>; inter alios);
+generative probability models for semantic transfer (<a href="http://www.velldal.net/erik/pubs/OepVelLon07.pdf">Oepen, et al.,
+2007</a>); granular
+semantic parser evaluation (<a href="http://www.dridan.com/research/papers/dridan-phdthesis.pdf">Dridan,
+2009</a>;
+<a href="http://aclweb.org/anthology-new/W/W11/W11-2927.pdf">Dridan &amp; Oepen,
+2011</a>; <a href="http://www.dridan.com/research/papers/rolc-xd.pdf">MacKinlay,
+et al., 2011</a>;
+<a href="http://www.aclweb.org/anthology/S12-1031">MacKinlay, et al., 2012</a>;
+<a href="http://aclweb.org/anthology/N/N12/N12-2006.pdf">Packard, 2012</a>; inter
+alios); further reduction into bi-lexical semantic dependencies
+(<a href="http://aclweb.org/anthology/W/W12/W12-3602.pdf">Ivanova, et al.,
+2012</a>; <a href="http://www.lrec-conf.org/proceedings/lrec2016/pdf/887_Paper.pdf">Oepen, et al.,
+2016</a>);
+efficient search in Wikipedia-scale semantic networks (<a href="http://www.aclweb.org/anthology/C14-2020">Kouylekov &amp;
+Oepen, 2014</a>); estimating
+inter-annotator agreement (<a href="http://www.aclweb.org/anthology/W15-0128">Bender, et al.,
+2015</a>); or inference-based
+textual entailment (<a href="http://www.aclweb.org/anthology/W15-2205">Lien &amp; Kouylekov,
+2015</a>).</p>
+
+<p>Outside of DELPH-IN, applications of EDS or its reduction into
+bi-lexical dependencies show growing community interest in parsing into
+graph-shaped target representations—for example in the experiments of
+<a href="http://aclweb.org/anthology/W/W13/W13-1810.pdf">Jones, et al. (2013)</a>,
+<a href="http://aclweb.org/anthology/W/W15/W15-0126.pdf">Agić, et al. (2015)</a>,
+<a href="http://aclweb.org/anthology/N/N15/N15-1007.pdf">Ribeyre, et al.
+(2015)</a>, <a href="http://aclweb.org/anthology/Q/Q15/Q15-1040.pdf">Kuhlmann &amp;
+Jonsson (2016)</a>, <a href="http://www.mitpressjournals.org/doi/pdf/10.1162/COLI_a_00252">Zhang,
+et al.
+(2016)</a>,
+<a href="http://www.diva-portal.org/smash/get/diva2:1111896/FULLTEXT01.pdf">Axelsson
+(2017)</a>,
+<a href="http://aclweb.org/anthology/P/P17/P17-1112.pdf">Buys &amp; Blunsom (2017)</a>,
+<a href="http://aclweb.org/anthology/P/P17/P17-1186.pdf">Peng, et al. (2017)</a>,
+<a href="http://aclweb.org/anthology/P/P17/P17-1193.pdf">Cao, et al. (2017a)</a>,
+<a href="http://aclweb.org/anthology/P/P17/P17-1077.pdf">Sun, et al. (2017a)</a>,
+<a href="http://aclweb.org/anthology/K/K17/K17-1005.pdf">Sun, et al. (2017b)</a>,
+<a href="http://aclweb.org/anthology/D/D17/D17-1003.pdf">Cao, et al. (2017b)</a>,
+Schuster, et al. (2017), Kurtz &amp; Kuhlmann (2017), or Gildea, et al.
+(2017). From two more recent CoNLL Shared Tasks on <em>Cross-Framework
+Meaning Representation Parsing</em> (<a href="http://mrp.nlpl.eu/2019">MRP 2019</a> and
+<a href="http://mrp.nlpl.eu">MRP 2020</a>), there is a broad body of data-driven
+parsing work into EDS, using both transition- or factorization-based
+approaches, as well as compositional and translational architectures
+(see <a href="https://www.aclweb.org/anthology/K19-2001/">Oepen et al., 2019</a>
+for an overview; <a href="https://www.aclweb.org/anthology/K19-2003/">Oepen &amp; Flickinger,
+2019</a> provide an empirical
+comparison between the top-performing data-driven parsers and parsing
+with the full ERG).</p>
+
+<p>This development owes in part to the inclusion of EDS-derived bi-lexical
+dependencies in <a href="http://sdp.delph-in.net/2014/">Task 8</a> and <a href="http://sdp.delph-in.net/2015/">Task
+18</a> (on <em>Broad-Coverage Semantic
+Dependency Parsing</em>, or SDP) at the 2014 and 2015 SemEval Conferences,
+respectively. EDS-derived bi-lexical semantic dependencies continue to
+be used for data-driven semantic parsing work beyond SemEval 2015, and
+the <a href="http://sdp.delph-in.net">full SDP data sets</a> have been publicly
+available through the Linguistic Data Consortium (LDC) since early 2016;
+an <a href="http://sdp.delph-in.net/index.php?page=5&amp;language=en">open sub-set of the
+data</a> is available
+for direct download and comprises bi-lexical semantic dependencies (for
+Czech and English) as well as EDSs and full MRSs for English. A
+structural comparison of EDS to bi-lexical semantic dependencies, on the
+one hand, and to Abstract Meaning Representation, on the other hand, is
+provided by <a href="http://www.mitpressjournals.org/doi/pdf/10.1162/COLI_a_00268">Kuhlmann &amp; Oepen
+(2016)</a>.</p>
+
+<p>This page was initiated and is maintained by
+StephanOepen, who is also the original developer of the
+EDS design and supporting Lisp code (which is part of the LKB, as well
+as of the stand-alone Lisp MRS library). Additional details of the
+conversion process from MRS are discussed on the
+<a href="https://delph-in.github.io/docs/tools/EdsConversion">EdsConversion</a> page, and experimental documentation on
+using EDS as an input representation to generation with the ERG is
+provided on the <a href="https://delph-in.github.io/docs/tools/EdsGeneration">EdsGeneration</a> page.</p>
+
+<h1 id="a-first-example">A First Example</h1>
+
+<p>Following is the Elementary Dependency Structure (EDS) associated with
+the (preferred) ERG analysis (in the 1111 release version) for the
+sentence <em>Abrams promised the dog to bark.</em></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  {e2:
+   _1:proper_q&lt;0:6&gt;[BV x5]
+   x5:named&lt;0:6&gt;("Abrams")[]
+   e2:_promise_v_1&lt;7:15&gt;[ARG1 x5, ARG2 x10, ARG3 e16]
+   _2:_the_q&lt;16:19&gt;[BV x10]
+   x10:_dog_n_1&lt;20:23&gt;[]
+   e16:_bark_v_1&lt;27:32&gt;[ARG1 x5]
+  }
+</code></pre></div></div>
+
+<p>Semi-formally, the above structure is a directed graph where nodes are
+labeled (among other things) with semantic predicates (e.g. proper_q or
+_dog_n_1) and arcs are labeled with semantic argument roles (e.g.
+ARG1, ARG2, or BV). Node labels can optionally be suffixed with
+so-called <em>characterization</em> pointers, e.g. &lt;7:15&gt; on the
+_promise_v_1 predicate; more on these below.</p>
+
+<p>For unique reference (in the textual format depicted above), each node
+further has a node identifier (e.g. _1 or x5, prefixed to node labels
+and separated by a colon), which serves to depict reentrant node
+occurences in argument positions, i.e. as the target of an incoming
+dependency arc. While node identifiers in EDS can superficially resemble
+logical variables in an underlying MRS, they formally have a very
+different (non-variable) status and could be uniquely renamed without
+any loss of information or generality.</p>
+
+<p>Consider our example above: the fourth line renders the node identified
+as e2 and labeled with the predicate _promise_v_1 (at
+characterization &lt;7:15&gt;). This node has three outgoing dependency
+arcs, labeled ARG1, ARG2, and ARG3, pointing to nodes x5, x10, and e16,
+respectively. Outgoing arcs are depicted as a comma-separated list
+enclosed in a pair of square brackets following each node label; nodes
+without any outgoing arcs will have an empty such list (as do for
+example nodes x5 and x10).</p>
+
+<p>Some predicates may be parameterized, i.e. they take one or more
+constant arguments. In our running example, this is true of the named
+predicate (the label of dependency node x5), which shows its parameter
+enclosed in a pair of parentheses, following the predicate and
+characterization (if any).</p>
+
+<p>Finally, the top node of the dependency graph is identified by the node
+identifier immediately following the opening curly brace (on the first
+line), i.e. in our running example node e2 is the top of the graph.</p>
+
+<h1 id="reflections-on-selected-phenomena">Reflections on Selected Phenomena</h1>
+
+<p>Note that (unlike many flavours of syntactic dependency graphs now in
+common use) EDS need not be tree-shaped, i.e. dependency nodes can have
+more than one incoming arc. In the above example, node x5 is an argument
+of both node e2 and node e16 (as the ARG1, i.e. ‘deep subject’ in both
+cases). Furthermore, some of the input tokens from the underlying
+utterance may not be reflected in the semantic dependency graph. In the
+above, this is true of the infinitival marker <em>to</em>, for example, which
+is analyzed as semantically vacuous (i.e. not contributing any meaning
+of its own).</p>
+
+<p>Conversely, it is possible for multiple EDS nodes to correspond to a
+single input token; this is observed in nodes _1 and x5 in our above
+example, making two statements about the interpretation of <em>Abrams</em>, of
+which one is a syntactically covert quantifier (labeled proper_q) in
+the underlying MRS.</p>
+
+<p>Finally, it is also possible for an EDS to contain dependency nodes that
+do not directly correspond to a single input word. While this is not
+true for our first example above, the phenomenon is present in the
+following example, the EDS analysis of the input <em>Chasing the garden dog
+helped.</em></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  {e2:
+   _1:udef_q&lt;0:22&gt;[BV x5]
+   x5:nominalization&lt;0:22&gt;[ARG1 e9]
+   e9:_chase_v_1&lt;0:7&gt;[ARG2 x10]
+   _2:_the_q&lt;8:11&gt;[BV x10]
+   e17:compound&lt;12:22&gt;[ARG1 x10, ARG2 x16]
+   _3:udef_q&lt;12:18&gt;[BV x16]
+   x16:_garden_n_1&lt;12:18&gt;[]
+   x10:_dog_n_1&lt;19:22&gt;[]
+   e2:_help_v_1&lt;23:30&gt;[ARG1 x5]
+  }
+</code></pre></div></div>
+
+<p>In the above, nodes x5 (the nominalization of the <em>chase</em> event) and e17
+(the compounding of <em>garden</em> and <em>dog</em>) do not directly correspond to
+individual words of the input, but rather are pieces of semantics that
+are associated with larger phrases and the constructions used to build
+them (viz. nominalization and compounding). Arguably, the same holds for
+one of the nodes labeled udef_q (to be read as definite in an
+underspecified manner), i.e. node _1, which corresponds to the covert
+quantifier (in the underlying MRS) assumed to bind the nominalization.
+Node _3 in the above example (also labeled udef_q, i.e. a
+syntactically covert quantifier), on the other hand, is similar to node
+_1 (labeled proper_q) in our initial example (i.e. corresponds to a
+single input word, viz. <em>garden</em>, as indicated by its characterization);
+in other words, this covert quantifier just binds the left, non-head
+element of the compound.</p>
+
+<h1 id="further-properties-of-dependency-nodes">Further Properties of Dependency Nodes</h1>
+
+<p>In the MRS universe, information such as number and tense (which are in
+large parts determined morphologically, in English at least) is
+typically represented as so-called <em>variable properties</em>, i.e. pairs of
+attributes and corresponding values associated to logical variables; in
+our examples so far, we have suppressed all such information. For some
+further discussion of MRS variable properties and how they relate to
+features and types internal to a parsing or generation grammar, please
+see the <a href="https://delph-in.github.io/docs/tools/RmrsVpm">RmrsVpm</a> page.</p>
+
+<p>Seeing that EDS is a variable-free representation, variable properties
+need to be re-associated with dependency nodes, more specifically the
+node (corresponding to the MRS elementary predication) for which the
+variable served as its so-called <em>distinguished variable</em> (Oepen &amp;
+Lønning, 2006). Thus, each EDS node can be optionally annotated with a
+variable type and a set of property–value pairs (enclosed in curly
+braces, inbetween the node label and outgoing arcs), for example <em>the
+dog barked.</em></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  {e3:
+   _1:_the_q&lt;0:3&gt;[BV x6]
+   x6:_dog_n_1&lt;4:7&gt;{x NUM sg, IND +}[]
+   e3:_bark_v_1&lt;8:15&gt;{e SF prop, TENSE past}[ARG1 x6]
+  }
+</code></pre></div></div>
+
+<p>In this serialization of node properties pertaining to the underlying
+distinguished variable, the variable type (e.g. ‘x’ for instances and
+‘e’ for eventualities) is optional and, when present, needs to occupy
+the first position in the list (in which case there will in total be an
+odd number of expressions between the pair of curly braces). Empty sets
+of node properties can be omitted, as was the case in our introductory
+examples above.</p>
+
+<p>Serialization of node properties is enabled by the boolean configuration
+option *eds-show-properties-p*, which until late 2015 used to default
+to false; with emerging use of EDS for generation (see the
+<a href="https://delph-in.github.io/docs/tools/EdsGeneration">EdsGeneration</a> page for background) more recently, it
+seemed convenient to toggle the default behavior, in a sense trading a
+bit of compactness and readability for additional information content.</p>
+
+<h1 id="breaking-up-things-further-eds-triples">Breaking Up Things Further: EDS Triples</h1>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  {
+    proper_q&lt;0:6&gt; BV named&lt;0:6&gt;(Abrams)  
+    _promise_v_1&lt;7:15&gt; ARG1 named&lt;0:6&gt;(Abrams)  
+    _promise_v_1&lt;7:15&gt; ARG2 _dog_n_1&lt;20:23&gt;  
+    _promise_v_1&lt;7:15&gt; ARG3 _bark_v_1&lt;27:32&gt;  
+    _the_q&lt;16:19&gt; BV _dog_n_1&lt;20:23&gt;  
+    _bark_v_1&lt;27:32&gt; ARG1 named&lt;0:6&gt;(Abrams)  
+  }
+</code></pre></div></div>
+
+<h1 id="alternative-serializations">Alternative Serializations</h1>
+
+<p>EDS examples in the above are shown in what is called <em>native</em> EDS
+serialization, a multi-line format, where nodes are separated by line
+breaks, bracketed by opening and closing curly braces, also each on its
+own line.</p>
+
+<p>The EDS graphs are formally (if not necessarily linguistically) very
+similar to <a href="http://amr.isi.edu/">Abstract Meaning Representation</a> (AMR),
+and it is straightforward to serialize the bulk of the information in an
+EDS in AMR-like PenMan syntax (we are grateful to
+MichaelGoodman, who inspired this serialization
+option). For cross-framework interoperability, the EDS implementation in
+Common Lisp supports (trivial) conversion of EDS graphs into the
+tree-like format (with node re-entrancies, as needed) of AMRs, where the
+top node is at the root of the tree, and inverse roles (like, for
+example, ARG1-of) serve to indicate incoming edges to nodes:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  # ::id 20209013
+  # ::snt A similar technique is almost impossible to apply to other crops.
+  (e12 / _almost_a_1 :lnk "&lt;23:29&gt;"
+   :ARG1 (e3 / _impossible_a_for :lnk "&lt;30:40&gt;"
+          :ARG1 (e18 / _apply_v_to :lnk "&lt;44:49&gt;"
+                 :ARG2 (x6 / _technique_n_1 :lnk "&lt;10:19&gt;"
+                        :ARG1-of (e9 / _similar_a_to :lnk "&lt;2:9&gt;"
+                                  :ARG1-of (e11 / comp :lnk "&lt;2:9&gt;"))
+                        :BV-of (_1 / _a_q :lnk "&lt;0:1&gt;"))
+                 :ARG3 (x19 / _crop_n_1 :lnk "&lt;59:65&gt;"                        
+                        :ARG1-of (e24 / _other_a_1 :lnk "&lt;53:58&gt;")
+                        :BV-of (_2 / udef_q :lnk "&lt;53:100&gt;")))))
+</code></pre></div></div>
+
+<p>Note that in AMR-like serialization the characterization pointers are
+rendered as a pseudo-role :lnk, and the variable property information
+(e.g. tense and number) is (currently) omitted. Furthermore, the
+‘inlining’ of nodes into a tree-shaped dominance structure is similar in
+nature to the test for graph connectivity discussed below; graph
+fragments not reachable from the top node will not be included in
+AMR-style serialization.</p>
+
+<p>Finally, EDS graphs can also be serialized in JSON (to support an
+emerging RESTful interface to the ERG on-line demonstrator; see the
+<a href="https://delph-in.github.io/docs/erg/ErgApi">ErgApi</a> page), where the top-level structure is an object (i.e.
+associative array) with properties top and nodes. The set of nodes, in
+turn, is encoded as an object indexed by node identifiers. Each node has
+properties label, (optional) lnk, (optional carg) and edges; outgoing
+edges, finally, are encoded as an object indexed by role names (i.e.
+edge labels), with node identifiers as their values. Variable properties
+and the variable type originally contributed by the distinguished
+variable corresponding to each node are rendered as type and properties
+components in the JSON serialization. For example (for the input <em>Abrams
+snored.</em>):</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  {"top": "e3",
+   "nodes": {
+     "_1": {"label": "proper_q", "lnk": "&lt;0:6&gt;", "edges": {"BV": "x6"}},
+     "x6": {"label": "named", "lnk": "&lt;0:6&gt;", "carg": "Abrams", "edges": {}},
+     "e3": {"label": "_snore_v_1", "lnk": "&lt;7:14&gt;", "edges": {"ARG1": "x6"}}​}}
+</code></pre></div></div>
+
+<h1 id="graph-connectivity">Graph Connectivity</h1>
+
+<p>Optionally, the EDS code can test for graph connectivity, i.e.
+reachability of nodes from the top. In the default textual EDS
+serialization format, graphs that contain sub-graphs (which can be
+individual nodes) that are not connected to the top node will be flagged
+as <em>fragmented</em>, and non-connected nodes will be indicated by an
+annotation (using the ‘|’ symbol) in the first column of each affected
+line. Following is the EDS for the input <em>Nearly every dog barked.</em>
+(from the MRS test suite, using the 1111 release of the ERG), for
+example:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  {e2: (fragmented)
+  |e4:_nearly_x_deg&lt;0:6&gt;[]
+   _1:_every_q&lt;7:12&gt;[BV x7]
+   x7:_dog_n_1&lt;13:16&gt;[]
+   e2:_bark_v_1&lt;17:24&gt;[ARG1 x7]
+  }
+</code></pre></div></div>
+
+<p>In this example, node e4 is not reachable from the top node e2, i.e.
+there is no path through the graph leading to e4. In this case,
+non-connectivity is owed to a limitation in the analysis of degree
+specifiers on quantifiers in the ERG (or, arguably, in the more general
+MRS framework, as a candidate analysis for this phenomenon would call
+for the composition of predicates). In current ERG analyses, the degree
+specifier <em>nearly</em> is only weakly integrated with the underlying MRS,
+viz. by sharings its label with that of the quantifier, i.e. attaching
+itself to the same scopal position as the quantifier. Seeing that labels
+(and hence label equality) are an MRS-internal notion (part of the meta
+language, but <em>not</em> logical variables that would have a status in any
+variant of predicate calculus as the object language), it is only
+natural that the ‘missing’ link between the quantifier and its degree
+specifier is exposed in EDS.</p>
+
+<p>To work around this frequent source of EDS fragmentation, an additional
+mechanism was added to the conversion from MRSs sometime around 2012:
+Optionally, so-called ‘predicate modifiers’ can be recognized (using a
+combination of pattern matching on their predicate symbol and inspection
+of the label and argument topology) and converted to regular predicates.
+For degree modification of quantifiers, this additional step in EDS
+construction will lead to parallelism with other usages of (typically
+the same general range of) degree specifiers, i.e. the above example of
+fragmentation (using the default settings in the 1214 release of the
+ERG) will result in the fully connected graph:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  {e2:
+   e4:_nearly_x_deg&lt;0:6&gt;[ARG1 _1]
+   _1:_every_q&lt;7:12&gt;[BV x7]
+   x7:_dog_n_1&lt;13:16&gt;[]
+   e2:_bark_v_1&lt;17:24&gt;[ARG1 x7]
+  }
+</code></pre></div></div>
+
+<p>While degree specification of quantifiers used to be a known source of
+non-connectivity in ERG-derived EDSs, there is no principled or
+technical reason in ERG-internal meaning composition to prevent other
+instances of non-connectivity—which typically would correspond to
+ill-formed MRSs. Thus, EDS connectivity is at times used as a
+wellformedness test in the grammar engineering and treebanking cycle.</p>
+
+<h1 id="software-support-in-delph-in-tools">Software Support in DELPH-IN Tools</h1>
+
+<p>The reduction of MRSs to Elementary Dependency Structures is implemented
+as part of the Common Lisp MRS Library that is part of the LKB and can
+be linked into PET (activated through the -mrs=eds command line option).
+Please look near the top of the EDS <a href="http://svn.emmtee.net/trunk/lingo/lkb/src/mrs/dependencies.lisp">source
+code</a>
+for available parameters. Excessive use of comments in the function
+ed-select-representative() (in the same file) may also serve to clarify
+the disambiguation rules that apply in case a single variable (typically
+a handle) is associated with multiple elementary predications.</p>
+
+<p>In the LKB, EDS views can be requested for parsing and realization
+results from pop-up menues in several of the graphical viewers. Together
+with other views on syntactic and semantic aspects of parsing results, a
+LaTeX rendering of Elementary Dependency Structures can be obtained from
+the <a href="http://erg.delph-in.net">ERG On-line Demonstrator</a>. However,
+probably the easiest path to obtaining EDS outputs is through batch
+processing in <a href="http://www.delph-in.net/itsdb">[incr tsdb()]</a> and its
+export facilities; please see the <a href="https://delph-in.github.io/docs/erg/ErgProcessing">ErgProcessing</a> page
+for instructions.</p>
+
+<p>For access to full EDS functionality, one can invoke the MRS-to-EDS
+reduction through Lisp function calls like the following:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  MRS(48): (type-of mrs)
+  PSOA
+  MRS(49): (with-open-file (stream "/tmp/sample.eds" :direction :output
+                            :if-exists :supersede)
+             (eds-output-psoa mrs :stream stream :format :ascii))
+  NIL
+</code></pre></div></div>
+
+<p>Other valid formats include :triples, :latex, :amr, :html, and :lui, and
+various optional parameters to the function (and global variables, e.g.
+*eds-show-lnk-p* and *eds-show-properties-p*) serve to customize the
+output in format-specific ways.</p>
+
+<h1 id="eds-configuration-options">EDS Configuration Options</h1>
+
+<h1 id="semantic-wellformedness-testing">Semantic Wellformedness Testing</h1>
+
+<h1 id="references">References</h1>
+
+<p>Last update: 2020-08-22 by StephanOepen [<a href="https://github.com/delph-in/docs/wiki/EdsTop/_edit">edit</a>]</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+<!--Scroll the navbar to the current page-->
+<script type="text/javascript">
+  let el = document.querySelector('.nav__list .active');
+  if(el){
+    el.scrollIntoView({block: "center", inline: "start"});
+  }
+</script>
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/docs/tools/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/docs/tools/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/docs/tools/assets/js/lunr/lunr.min.js"></script>
+<script src="/docs/tools/assets/js/lunr/lunr-store.js"></script>
+<script src="/docs/tools/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

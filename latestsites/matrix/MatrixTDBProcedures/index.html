@@ -1,0 +1,1083 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>DELPH-IN Grammar Matrix</title>
+<meta name="description" content="An amazing website.">
+
+
+  <meta name="author" content="Your Name">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="DELPH-IN Grammar Matrix">
+<meta property="og:title" content="DELPH-IN Grammar Matrix">
+<meta property="og:url" content="https://delph-in.github.io/docs/matrix/MatrixTDBProcedures/">
+
+
+  <meta property="og:description" content="An amazing website.">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://delph-in.github.io/docs/matrix/MatrixTDBProcedures/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Your Name",
+      "url": "https://delph-in.github.io/docs/matrix/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/docs/matrix/feed.xml" type="application/atom+xml" rel="alternate" title="DELPH-IN Grammar Matrix Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/docs/matrix/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--delphin_page wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/docs/matrix/"><img src="/docs/matrix/assets/images/Delph-In.png" alt="DELPH-IN Grammar Matrix"></a>
+        
+        <a class="site-title" href="/docs/matrix/">
+          DELPH-IN Grammar Matrix
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/home/Home">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/howto/DelphinWelcome">How-To</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/erg/ErgTop">ERG</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/tools/ToolsTop">Tools</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/grammars/GrammarsOverview">Grammars</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/matrix/MatrixDocsOverview">Matrix</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/summits/SummitTop">Summits</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/garage/GarageTop">Garage</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammar Matrix Docs</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixDocsOverview/">Overview</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Overview and Tools</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixTop/">Overview</a></li>
+          
+            <li><a href="/docs/matrix/MatrixGettingStarted/">Getting Started</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDevTop/">Development Overview</a></li>
+          
+            <li><a href="/docs/matrix/Updating_the_Customization_System/">Customization System</a></li>
+          
+            <li><a href="/docs/matrix/MatrixCustomizationUnitTesting/">Customization Unit Testing</a></li>
+          
+            <li><a href="/docs/matrix/MatrixCustomizationWebTesting/">Customization Web Testing</a></li>
+          
+            <li><a href="/docs/matrix/MatrixRegressionTesting/">Regression Testing</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_TestSentences/">Test Sentences</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_TestByGeneration/">Test By Generation</a></li>
+          
+            <li><a href="/docs/matrix/MatrixWishList/">Wish List</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammar Engineering</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixDevBlueprints/">Dev Blueprints</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDevConventions/">Dev Conventions</a></li>
+          
+            <li><a href="/docs/matrix/GrammarDevelopment/">Grammar Development</a></li>
+          
+            <li><a href="/docs/matrix/MatrixLibraryDevelopment/">Library Development</a></li>
+          
+            <li><a href="/docs/matrix/MatrixLibraryWishList/">Library WishList</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMorphology/">Morphology</a></li>
+          
+            <li><a href="/docs/matrix/PythonIdioms/">Python Idioms</a></li>
+          
+            <li><a href="/docs/matrix/MatrixRegressionTestingSetup/">Regression Testing Setup</a></li>
+          
+            <li><a href="/docs/matrix/MatrixRegressionTestingSetupMac/">Regression Testing Setup (Mac)</a></li>
+          
+            <li><a href="/docs/matrix/MatrixTDBProcedures/" class="active">TDB Procedures</a></li>
+          
+            <li><a href="/docs/matrix/MatrixTDB2Tables/">TDB2 Tables</a></li>
+          
+            <li><a href="/docs/matrix/MatrixValidationDebugging/">Validation Debugging</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Matrix Doc</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixDocTop/">Overview</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_AdnominalPossession/">Adnominal Possession</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_ArgumentOptionality/">Argument Optionality</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Case/">Case</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_ClausalComplements/">Clausal Complements</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_ClausalModifiers/">Clausal Modifiers</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Coordination/">Coordination</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_DirectInverse/">Direct Inverse</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Evidentials/">Evidentials</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Gender/">Gender</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_GeneralInfo/">General Info</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_ImportToolboxLexicon/">Import Toolbox Lexicon</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_InformationStructure/">Information Structure</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Lexicon/">Lexicon</a></li>
+          
+            <li><a href="/docs/matrix/matrixdef_File_Syntax/">Matrixdef File Syntax</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Morphology/">Morphology</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_NominalizedClauses/">Nominalized Clauses</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Number/">Number</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_OtherFeatures/">Other Features</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Person/">Person</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_SententialNegation/">Sentential Negation</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_TenseAspectMood/">Tense/Aspect/Mood</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_WhQuestions/">Wh Questions</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_WordOrder/">Word Order</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_YesNoQ/">YesNoQ</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">FAQ</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/GrammarEngineeringFAQ/">Grammar Engineering FAQ</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqFeatureGeometry/">Feature Geometry FAQ</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqChartTwice/">Chart Twice</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqCircularLexRule/">Circular Lex Rule</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqClickX/">Click X</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqConfusingTypo/">Confusing Typo</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqCyclicCheck/">Cyclic Check</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqDiffList/">Diff List</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqDisjunctiveValue/">Disjunctive Value</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqDistributedDisjunction/">Distributed Disjunction</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqExpandMenu/">Expand Menu</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqExpandedType/">Expanded Type</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqFeatureMultiType/">Feature Multi-Type</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqFindTypeForFeatures/">Find Type For Features</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqForgottenConstraint/">Forgotten Constraint</a></li>
+          
+            <li><a href="/docs/matrix/GeFaq/">GeFaq</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqGotoChar/">Goto Char</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqGrammarDocumentation/">Grammar Documentation</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqInteractiveUnify/">Interactive Unify</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqLkbInstallation/">LKB Installation</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqLispPromptTips/">Lisp Prompt Tips</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqLoadScript/">Load Script</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqKeyboardNotWorking/">Keyboard Not Working</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqMissingEdge/">Missing Edge</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqMissingHowTo/">Missing How-To</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqMissingRels/">Missing Rels</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNegValue/">Neg Value</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNewFeature/">New Feature</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoEntry2/">No Entry 2</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoError/">No Error</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoPossibleType/">No Possible Type</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoRule/">No Rule</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoSign/">No Sign</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNonAlpha/">Non-Alpha</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqOverApplicationLexRule/">Over Application Lex Rule</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqOrderMatters/">Order Matters</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqPasteShortcut/">Paste Shortcut</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRightBracket/">Right Bracket</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRootFail/">Root Fail</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRuleWithoutDaughter/">Rule Without Daughter</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRuleWithoutDaughters/">Rule Without Daughters</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRunawayRule1/">Runaway Rule 1</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRunawayRule2/">Runaway Rule 2</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqShowChart/">Show Chart</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqSpanningEdge/">Spanning Edge</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqSwitchingGrammars/">Switching Grammars</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqTabIndentation/">Tab Indentation</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqTdlSyntax/">TDL Syntax</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqTdlTxt/">TDL TXT</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqTypeAddendum/">Type Addendum</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqUnicodeInput/">Unicode Input</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqUnifySurprise/">Unify Surprise</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqViewEntry/">View Entry</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqViewHierarchy/">View Hierarchy</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqViewType/">View Type</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">MRS Tests</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuite/">Overview</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteBg/">Bulgarian</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteCantonese/">Cantonese</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsCatb/">Cathedral Test</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteEn/">English</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteFr/">French</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteDe/">German</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteGr/">Greek</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteIndonesian/">Indonesian</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteJa/">Japanese</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteMandarin/">Mandarin</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteNo/">Norwegian</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuitePt/">Portuguese</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteRu/">Russian</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteSv/">Swedish</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteTatoeba/">Tatoeba</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteZhTw/">ZhTw</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <p>MatrixTDB is the regression test facility for the Grammar Matrix and the
+Matrix customization system. It allows us to create gold standard tsdb++
+profiles on demand for language types defined in choices files.</p>
+
+<h2 id="high-level-overview">High Level Overview</h2>
+
+<p>There are three main things you might want to do with MatrixTDB: put
+data in or get data out. Add new strings, add a language type, extract a
+profile for a language type. These three high-level tasks break down
+into smaller sub-tasks. The breakdown into sub-tasks is displayed here,
+while the Detailed Processes section of this page breaks each of those
+down into smaller tasks.</p>
+
+<h3 id="adding-new-strings-breakdown">Adding New Strings Breakdown</h3>
+
+<ul>
+  <li>Create a source profile</li>
+  <li>Import the source profile</li>
+  <li>Add permutes</li>
+  <li>Run specific filters</li>
+</ul>
+
+<h3 id="adding-a-language-type-breakdown">Adding A Language Type Breakdown</h3>
+
+<ul>
+  <li>(Actually this just breaks down to one sub-task: adding a language
+type</li>
+</ul>
+
+<h3 id="extracting-a-profile-breakdown">Extracting a Profile Breakdown</h3>
+
+<ul>
+  <li>Import the language type</li>
+  <li>Generate a profile</li>
+  <li>Evaluate the profile using [incr_tsdb()]</li>
+</ul>
+
+<h2 id="detailed-processes">Detailed Processes</h2>
+
+<p>This section describes step-by-step instructions on how to perform
+various tasks and sub-tasks with MatrixTDB.</p>
+
+<h3 id="database-dump">Database Dump</h3>
+
+<p>If you’re not sure of the effect of what you are about to do, you may
+want to make a dump of the database so that the data can be quickly
+restored if what you do doesn’t go the way you want. To do this:</p>
+
+<ul>
+  <li>Run the following command:
+    <ul>
+      <li>$ mysqldump -h capuchin.ling.washington.u -u username -p
+–result-file=resultfile dbname</li>
+    </ul>
+
+    <!-- -->
+
+    <ul>
+      <li>The arguments are as folows:
+        <ul>
+          <li>username - your username for the database</li>
+          <li>resultfile - the name of the file you want to dump the
+backup to.</li>
+          <li>dbname - the name of the database on capuchin to backup.
+Currently MatrixTDB2 is the database we are using.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<p>Note: This won’t actually back up the data per se, but it will create a
+(very large) file full of SQL statements that can be used to restore the
+database to its state at the time of the dump.</p>
+
+<h3 id="restore-from-database-dump">Restore From Database Dump</h3>
+
+<p>If you want to revert the database to a previous point:</p>
+
+<ul>
+  <li>Log in to the database</li>
+  <li>Issue the following command:
+    <ul>
+      <li>mysql&gt; source filename</li>
+    </ul>
+
+    <!-- -->
+
+    <ul>
+      <li>where filename is the name of the file with the dump you want to
+revert to.</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="create-a-source-profile">Create A Source Profile</h3>
+
+<p>Source profiles (sometimes also called ‘original source profiles’) are
+what are used to bring the big, hairy mrs semantics into the database.
+To create one:</p>
+
+<ul>
+  <li>Create a flat file with one harvester string per line</li>
+  <li>Start LKB and load the grammar you want to use to create the mrs
+semantics to import</li>
+  <li>Start [incr_tsdb()] and process all the items in that file</li>
+</ul>
+
+<h3 id="import-a-source-profile">Import A Source Profile</h3>
+
+<p>Source profiles (sometimes also called ‘original source profiles’) are
+what are used to bring the big, hairy mrs semantics into the database.
+When you have a [incr_tsdb()] profile that was created by processing
+a flat file of items you can use that to import a source profile into
+the database. To do so:</p>
+
+<ul>
+  <li>Create a file that has each harvester string in your profile on a
+line preceded by its mrs tag and a ‘@’ E.g., wo1@n1 iv</li>
+  <li>Run the following command:
+    <ul>
+      <li>$ python import_from_itsdb.py itsdbDir harvMrsFilename
+choicesFilename</li>
+    </ul>
+
+    <!-- -->
+
+    <ul>
+      <li>The arguments are as follows:
+        <ul>
+          <li>itsdbDir - the absolute directory of your [incr_tsdb()]
+directory. Be sure to end it in a ‘/’</li>
+          <li>harvMrsFilename - the name of the file you created above
+with mrs tags and harvester strings</li>
+          <li>choicesFilename - the choices file of the grammar you used
+to create the profile</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>The system will prompt for a username and password to the database</li>
+  <li>The system may ask you if the tags you’re adding really are new or
+if you want to replace the existing tags with the new semantics you
+are importing. Answer appropriately. If the system indicates you are
+changing some semantics, make sure that is what you want to do.</li>
+  <li>The system will also ask you for a description of the source
+profile. It can be up to 1000 characters.</li>
+  <li>The system will import the profile and, if the choices file you used
+represents a language type not already in the database, will create
+a language type for that, too. It will return the osp_id which you
+will need to add permutes and run specific filters and the language
+type, which you will need to add permutes run specific filters</li>
+</ul>
+
+<h3 id="add-permutes">Add Permutes</h3>
+
+<p>At this point you will have imported a profile with its harvester
+strings. But a harvester string just yields to potentially millions of
+other possible strings with the same semantics. Specifically, each
+harvester string gives rise to seed strings which are then permuted and
+added to the database as string to be run through specific filters.
+(Earlier versions of MatrixTDB added all permutations which were run
+through universal filters and then specific filters, but more recently
+only those string/semantic tag combos that pass all universal filters
+are being added to the database.) Seed strings are stored in a canonical
+form: words in alphabetic order followed by prefixes in alphabetic order
+followed by suffixes in alphabetic order. Permutations are then every
+possible permutation of the words with every possible permutation of
+prefixes and suffixes on every word in every one of those permutations.
+Seed strings are generated from harvester strings by the stringmods in
+stringmod.py. Here is how to generate all the permutations for an
+imported original source profile:</p>
+
+<ul>
+  <li>Make sure stringmods is updated to meet your needs (optional)</li>
+  <li>Create a condor file. A template is in the repository named
+addPerms.cmd
+    <ul>
+      <li>change ospID to be the ID of the source profile you want to
+create permutes for</li>
+      <li>change username to be your username to the MatrixTDB database</li>
+      <li>change password to be your password to the MatrixTDB database</li>
+    </ul>
+  </li>
+  <li>Submit your command file to condor with the following line:
+    <ul>
+      <li>$ condor_submit addPerms.cmd</li>
+    </ul>
+  </li>
+  <li>The process may take many hours depending on how many strings you
+have and how long they are. Two ways to monitor the progress are to
+check the count of records in the result table or to check the
+.warning file from time to time.</li>
+</ul>
+
+<h3 id="run-specific-filters">Run Specific Filters</h3>
+
+<p>At this point you will have inserted every permutation that passes all
+universal filters for your source profile into the item_tsdb, parse,
+and result tables. At this point we need to record how the string/mrs
+combos fare when run through specific filters so that we can generate
+profiles for language types based on the the results of those runs
+through filters. Here’s how:</p>
+
+<ul>
+  <li>Make sure s_filters.py has the filters in it specific to the
+phenomena you are concerned with (optional)</li>
+  <li>Create a condor file. A template is in the repository named
+runSFltrs.cmd
+    <ul>
+      <li>change ospID to be the ID of the source profile you want to
+create permutes for</li>
+      <li>change username to be your username to the MatrixTDB database</li>
+      <li>change password to be your password to the MatrixTDB database</li>
+    </ul>
+  </li>
+  <li>Submit your command file to condor with the following line:
+    <ul>
+      <li>$ condor_submit runSFltrs.cmd</li>
+    </ul>
+  </li>
+  <li>The process may take a few hours depending on how many permutations
+passed all universal filters in this OSP. Two ways to monitor the
+progress are to check the count of records in the res_sfltr table
+or to check the .warning file from time to time.</li>
+</ul>
+
+<h3 id="import-a-language-type">Import A Language Type</h3>
+
+<ul>
+  <li>Create a choices file from the customization system</li>
+  <li>Run the following command:
+    <ul>
+      <li>$ python sql_lg_type.py filename</li>
+    </ul>
+
+    <!-- -->
+
+    <ul>
+      <li>where filename is the full path and filename of the choices file
+you downloaded</li>
+    </ul>
+  </li>
+  <li>You will be prompted for the username and password to the database.</li>
+  <li>If the language type already exists, it will return its ID.</li>
+  <li>If the language type does not already exist, the system will ask if
+the language type is randomly created or purpose-built. Answer r or
+p as appropriate. Unless you’re just testing phenomena coverage of
+MatrixTDB itself, yours is probably purpose-built.</li>
+  <li>The system will prompt you for a short comment describing your
+language type. You can enter the name of the language or the
+phenomena you’re testing (e.g., v-final), or whatever you feel is
+appropriate</li>
+  <li>The system will then create a language type in the database and give
+you an lt_id (language type ID) that you can use to generate a
+[incr_tsdb()] profile for validation</li>
+</ul>
+
+<h3 id="generate-a-profile">Generate A Profile</h3>
+
+<ul>
+  <li>Make sure you have a language type ID that you want to generate the
+profile for. You can get the ID by querying the lt table or by
+importing a language type(see: HOW TO IMPORT A LANGUAGE TYPE)</li>
+  <li>Run the following command:
+    <ul>
+      <li>$ python generate_s_profile.py lt_id dbroot profilename</li>
+    </ul>
+
+    <!-- -->
+
+    <ul>
+      <li>where the three arguments are:
+        <ul>
+          <li>lt_id - the language type ID you are generating the profile
+for</li>
+          <li>dbroot - the absolute path where you want the profile
+created</li>
+          <li>profilename - the name of the profile to create</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>You will be prompted for the username and password to the database.</li>
+  <li>The system will generate two profiles in dbroot: [profilename] and
+[profilename]gold. The gold version should be processed in
+[incr_tsdb()] and used as the gold standard</li>
+</ul>
+
+<h3 id="evaluate-a-generated-profile-in-incr_tsdb">Evaluate A Generated Profile In [incr_tsdb()]</h3>
+
+<ul>
+  <li>Start LKB and load the grammar that corresponds to the language type
+you generated the profile for</li>
+  <li>Start [incr_tsdb()] and set the dbroot to the directory where you
+generate the profile</li>
+  <li>Process all the items in the gold profile to create the gold
+standard</li>
+  <li>Set the gold profile to be the gold standard</li>
+  <li>Set readings and mrs to be the things compared in the intersection</li>
+  <li>Select the non-gold profile you are evaluating.</li>
+  <li>Run Compare-&gt;Detail.</li>
+  <li>If MatrixTDB output is good, the only differences you see should be
+that items with -1 readings in the gold should have 0 readings in
+MatrixTDB.</li>
+  <li>You can remove readings from the intersection and if MatrixTDB is
+right there will be no differences in Compare-&gt;Detail.</li>
+</ul>
+
+<h3 id="write-a-stringmod">Write A Stringmod</h3>
+
+<p>In stringmod.py, the subclasses of the <a href="/StringMod">StringMod</a> class
+define ways in which a harvester string can be modified to create a seed
+string. All the stringmod instantiations that are applied to harvester
+strings are defined in the string_mods list near the end of the file.
+To create a new stringmod, you need to instantiate a new
+<a href="/StringMod">StringMod</a> subclass and put it in that string_mods list.
+Note that every possible combination of the string_mods list is run to
+create seeds from harvester strings. For example, there is a mod that
+adds the word p-nom and another that adds the word p-acc. If these were
+the only two modifications, each harvester string would result in four
+seed strings: one with p-nom, one with p-acc, one with both, and one
+with neither.)</p>
+
+<p>To create a new instance of a <a href="/StringMod">StringMod</a> subclass, you need
+to determine the subclass to instantiate as well as how to set the
+member values. Here is an overview of the subclasses:</p>
+
+<p><a href="/StringModAddWord">StringModAddWord</a> - adds a word to the string
+<a href="/StringModAddAff">StringModAddAff</a> - adds an affix to the string (both
+as a prefix and in another string as an affix)
+<a href="/StringModDropWord">StringModDropWord</a> - removes a word from a string
+if present <a href="/StringModChangeWord">StringModChangeWord</a> - changes a word
+in a string to another word. Not currently used.</p>
+
+<p>Once you’ve chosen the subclass to instantiate, call its constructor in
+the string_mods list, settings its arguments as appropriate:
+mrs_id_list - a list of mrs_tags to which this stringmod applies.
+Common groupings of these tags are defined in g.py. word1 - for
+<a href="/AddWord">AddWord</a>, <a href="/AddAff">AddAff</a>, or <a href="/DropWord">DropWord</a>, this
+is the word to add, the affix to add, or the word to drop. For
+<a href="/ChangeWord">ChangeWord</a> it is the word to change. word2 - for
+<a href="/ChangeWord">ChangeWord</a> only, this is the word to replace word1 with</p>
+
+<h3 id="write-a-filter">Write A Filter</h3>
+
+<p>When you write a filter, first consider whether it is a universal filter
+or a specific filter. A universal filter is something that can rule out
+a string regardless of language type. A specific filter is something
+that can rule out a string but is dependent on language type. For
+example, ruling out any sentence where the subject or object follows the
+verb in an sov language type.</p>
+
+<p>To create a new filter, you need to create a new instance of a Filter
+subclass in either u_filters.filter_list or s_filters.filter_list.</p>
+
+<p>To create a new instance of a Filter subclass, you need to determine the
+subclass to instantiate as well as how to set the member values. Here is
+an overview of the subclasses and how they interact with their re1 and
+re2 regular expression members. These classes are defined in filters.py:
+<a href="/FalseFilter">FalseFilter</a> - always returns fail
+<a href="/MatchFilter">MatchFilter</a> - passes strings that contain re1, fails all
+others <a href="/NotMatchFilter">NotMatchFilter</a> - fails strings that contain
+re1, passes all others <a href="/IfFilter">IfFilter</a> - fails strings that
+contain re1 but not re2, passes all others <a href="/IfNotFilter">IfNotFilter</a> -
+fails strings that contain both re1 and re2, passes all others
+<a href="/OrFilter">OrFilter</a> - passes strings that contain either re1, re2, or
+both, fails all others other existing subclasses have been deprecated
+due to redundancies and should not be used, though more may be created
+later</p>
+
+<p>After setting the Filter subclass and the regular expression members re1
+and re2, if appropriate, set the other members of the Filter:</p>
+
+<p>name - Just make sure it’s unique among all filters</p>
+
+<p>mrs_id_list - This is a list of the mrs tags that this filter should
+apply to. For example, a filter that ensures that neg appears as a
+prefix or a suffix if inflectional negation is obligatroy would only
+apply to sentences with negative semantics. You can either create your
+own list of strings that are mrs tags or use one of the many lists
+created in g.py.</p>
+
+<p>comment - Describe what the Filter does</p>
+
+<p>fv - Only relevant to specific filters. The ‘fv’ stands for
+‘feature/value’ and this is a formatted list of features and values that
+have to be set in a language type for a filter to be relevant to that
+language type. It has many aspects to it:</p>
+
+<ul>
+  <li>length - The list can either be of length one or three or more. If
+it is of length one it should be one feature/value pair. If it is of
+length three or more, its first element must be ‘and’ or ‘or’ and
+the later elements must be feature/value pairs or lists that must be
+formatted in the same ways that a root fv list must be.</li>
+  <li>feature/value pairs - With its combination of ands, ors, and
+feature/value pairs encapsulated in lists, the fv list corresponds
+to a set of feature/value pairs that must be present for a filter to
+apply. The feature value pairs are encoded as strings in the form
+‘feature:value’. For example, the fv list [‘or’,
+‘word-order:svo’,’word-order:sov’,’word-order:vso’] means that the
+filter applies if the word-order feature in the language type is set
+to svo, sov, or vso.</li>
+  <li>features with no value - Sometimes a feature/value pair appears with
+no value listed. In these cases, this is interpreted as meaning that
+that feature must not be set to any value. For example, the fv list
+[‘or’, ‘q-inv:’, ‘q-inv-verb:main’] means that the filter applies
+if either the q-inv-verb feature is set to main or the q-inv feature
+is absent in the choices file</li>
+  <li>regex matches - With iterator features now in choices files, writing
+filters becomes more complicated because the developer cannot rely
+on a given feature being named in a particular way. For example, we
+never know what number the slot for negation will be placed in. To
+address this, filters now also apply if the feature/value pairs is a
+regular expression match with the choices file/language type. For
+example the feature/value pair
+verb-slot[1-9]_morph[1-9]_feat[1-9]_name:negation would
+apply if any feature whose name matches the range-filled regular
+expression before the colon has a value of negation
+    <ul>
+      <li>groups and backreferences - The regex matches go further.
+Sometimes it’s not enough just to match one feature to a regex
+but we want to be sure that there are corresponding features
+that work together to ensure a certain phenomenon. To this end
+the system also recognizes groups and backreferences with a
+given filter. Groups are indicated by sets of parentheses in
+regular expressions and backreferences are escaped integers
+where the integer refers to the groups in the order they appear,
+beginning at 1. For example, in the fv list [‘and’,
+‘verb-slot([1-9])_morph[1-9]_feat[1-9]_name:negation’,
+‘verb-slot\\1_order:before’], the backreference \\1
+matches when the number that actually appears there matches the
+number that actually appears after verb-slot in the prior
+feature. This fv list means that the filter applies when there
+is morphological negation that comes before the verb.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="definitions">Definitions</h2>
+
+<p>item - Almost always used to mean a string representing a sentence.
+Sometimes used specifically to mean the item file in a profile or its
+MatrixTDB table counterpart, item_tsdb.</p>
+
+<p>item/parse/result - A phrase used to mean a pairing of a sentence and
+meaning</p>
+
+<p>profile - Refers to a [incr_tsdb()] profile</p>
+
+<p>result - Has two meanings. The first relates to the result file in a
+[incr_tsdb()] profile and means the string/mrs pair that is a
+sentence and its meaning. The second meaning is the answer received
+(e.g., pass, fail) of running the first definition of a result through a
+filter.</p>
+
+<p>source profile - Specifically refers to a profile that was created by
+processing a list of items in order to get the mrs semantics into
+MatrixTDB</p>
+
+<p>Last update: 2009-09-17 by anonymous [<a href="https://github.com/delph-in/docs/wiki/MatrixTDBProcedures/_edit">edit</a>]</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+<!--Scroll the navbar to the current page-->
+<script type="text/javascript">
+  let el = document.querySelector('.nav__list .active');
+  if(el){
+    el.scrollIntoView({block: "center", inline: "start"});
+  }
+</script>
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/docs/matrix/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/docs/matrix/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/docs/matrix/assets/js/lunr/lunr.min.js"></script>
+<script src="/docs/matrix/assets/js/lunr/lunr-store.js"></script>
+<script src="/docs/matrix/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

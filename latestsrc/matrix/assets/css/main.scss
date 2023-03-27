@@ -1,0 +1,31 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+search: false
+---
+
+@charset "utf-8";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+// Make the masthead not move when you scroll
+  .masthead {
+    @include clearfix();
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0em;
+    float: right;
+    background-color: $background-color
+  }
+
+// Add underlining to selected item in left nav to make
+// it more visible
+  .nav__list .nav__items {
+      .active {
+        margin-left: -0.5em;
+        padding-left: 0.5em;
+        padding-right: 0.5em;
+        font-weight: bold;
+        text-decoration: underline;
+      }
+  }

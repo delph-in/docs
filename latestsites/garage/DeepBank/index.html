@@ -1,0 +1,823 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>DELPH-IN Garage</title>
+<meta name="description" content="An amazing website.">
+
+
+  <meta name="author" content="Your Name">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="DELPH-IN Garage">
+<meta property="og:title" content="DELPH-IN Garage">
+<meta property="og:url" content="https://delph-in.github.io/docs/garage/DeepBank/">
+
+
+  <meta property="og:description" content="An amazing website.">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://delph-in.github.io/docs/garage/DeepBank/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Your Name",
+      "url": "https://delph-in.github.io/docs/garage/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/docs/garage/feed.xml" type="application/atom+xml" rel="alternate" title="DELPH-IN Garage Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/docs/garage/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--delphin_page wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/docs/garage/"><img src="/docs/garage/assets/images/Delph-In.png" alt="DELPH-IN Garage"></a>
+        
+        <a class="site-title" href="/docs/garage/">
+          DELPH-IN Garage
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/home/Home">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/howto/DelphinWelcome">How-To</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/erg/ErgTop">ERG</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/tools/ToolsTop">Tools</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/grammars/GrammarsOverview">Grammars</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/matrix/MatrixDocsOverview">Matrix</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/summits/SummitTop">Summits</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/garage/GarageTop">Garage</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Overview</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/GarageTop/">Overview</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammar Tools</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/AgreeTop/">Agree</a></li>
+          
+            <li><a href="/docs/garage/ChartMapping/">Chart Mapping</a></li>
+          
+            <li><a href="/docs/garage/ChartMappingSetup/">Chart Mapping Setup</a></li>
+          
+            <li><a href="/docs/garage/ClimbTop/">CLIMB</a></li>
+          
+            <li><a href="/docs/garage/Climb_GClimb/">CLIMB for Germanic languages</a></li>
+          
+            <li><a href="/docs/garage/DelphinTools/">Delphin Tools</a></li>
+          
+            <li><a href="/docs/garage/EgadTop/">Erroneous Generation Analysis and Detection (EGAD)</a></li>
+          
+            <li><a href="/docs/garage/EgadInstallation/">EGAD Installation</a></li>
+          
+            <li><a href="/docs/garage/SafFspp/">Finite-State PreProcessor</a></li>
+          
+            <li><a href="/docs/garage/Climb_GClimb_German/">gCLIMB Phenomena</a></li>
+          
+            <li><a href="/docs/garage/GDeltaTop/">gDelta</a></li>
+          
+            <li><a href="/docs/garage/SpringCleaningTop/">Grammar Spring Cleaning</a></li>
+          
+            <li><a href="/docs/garage/HeartofgoldTop/">Heart of Gold</a></li>
+          
+            <li><a href="/docs/garage/HogInstallation/">Hog Installation</a></li>
+          
+            <li><a href="/docs/garage/LkbLtdb/">Linguistic Type Database</a></li>
+          
+            <li><a href="/docs/garage/ReppTop/">Regular Expression Pre-Processor</a></li>
+          
+            <li><a href="/docs/garage/RmrsDmrsComparison/">Rmrs/Dmrs Comparison</a></li>
+          
+            <li><a href="/docs/garage/ClimbShortClimb/">SHORT-CLIMB</a></li>
+          
+            <li><a href="/docs/garage/TestingWithAnt/">Testing With Ant</a></li>
+          
+            <li><a href="/docs/garage/TypediffTop/">Typediff</a></li>
+          
+            <li><a href="/docs/garage/VistaExtractionTop/">Vista Extraction</a></li>
+          
+            <li><a href="/docs/garage/PhenomenaTop/">Phenomena</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Completed Projects</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/RedwoodsTop/">Redwoods</a></li>
+          
+            <li><a href="/docs/garage/WeScience/">WeScience</a></li>
+          
+            <li><a href="/docs/garage/DeepBank/" class="active">DeepBank</a></li>
+          
+            <li><a href="/docs/garage/DeepBank_OneZero/">DeepBank 1.0</a></li>
+          
+            <li><a href="/docs/garage/WikiWoods/">WikiWoods</a></li>
+          
+            <li><a href="/docs/garage/SemCor/">SC corpus</a></li>
+          
+            <li><a href="/docs/garage/OldOverviews/">Old DELPH-IN Overview</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammars (experimental)</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/GrenouilleSummary/">French</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Lexical Semantics</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/LexsemTop/">Overview</a></li>
+          
+            <li><a href="/docs/garage/LexsemMapping/">Mapping</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Machine Translation</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/MachineTranslationTop/">Overview</a></li>
+          
+            <li><a href="/docs/garage/MachineTranslationTutorial/">Tutorial</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Japanese/English Machine Translation</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/MtJaen/">Overview</a></li>
+          
+            <li><a href="/docs/garage/MtSetup/">Setup</a></li>
+          
+            <li><a href="/docs/garage/MtRuleExtraction/">MtRuleExtraction</a></li>
+          
+            <li><a href="/docs/garage/MtJaenFeedbackCleaning/">Feedback Cleaning</a></li>
+          
+            <li><a href="/docs/garage/NE_Tagging_For_Improving_SMT/">Improving SMT</a></li>
+          
+            <li><a href="/docs/garage/MtJaenTanaka/">Tanaka Corpus</a></li>
+          
+            <li><a href="/docs/garage/MtJaenSmt/">Discussion</a></li>
+          
+            <li><a href="/docs/garage/JaenTodo/">Jaen TODO</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Indra/English Transfer Grammar</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/IndraAce/">Ace</a></li>
+          
+            <li><a href="/docs/garage/IndraPreprocessing/">Preprocessing</a></li>
+          
+            <li><a href="/docs/garage/IndraTranslation/">Translation</a></li>
+          
+            <li><a href="/docs/garage/IndraRegressionTest/">RegressionTest</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">WeSearch</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/WeSearch/">WeSearch</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_Ccs/">CCS</a></li>
+          
+            <li><a href="/docs/garage/CcsGroup/">CCS Attendees</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_CcsDayOne/">CCS Day One</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_CcsDayTwo/">CCS Day Two</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_CcsDayThree/">CCS Day Three</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_DesignPrinciples/">WeSearch_DesignPrinciples</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_AnalysisCatalog/">WeSearch_AnalysisCatalog</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_ScopalArgCoord/">WeSearch_ScopalArgCoord</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_ICONS/">WeSearch_ICONS</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_UnderspecifedAttachment/">WeSearch_UnderspecifedAttachment</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_UnderspecifiedPreds/">WeSearch_UnderspecifiedPreds</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_VariablePropertySharing/">WeSearch_VariablePropertySharing</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_DataCollection/">WeSearch_DataCollection</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">PET</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/PetTop/">Overview</a></li>
+          
+            <li><a href="/docs/garage/PetDependencies/">Dependencies</a></li>
+          
+            <li><a href="/docs/garage/PetEclipse/">Eclipse</a></li>
+          
+            <li><a href="/docs/garage/PetRoadMap/">RoadMap</a></li>
+          
+            <li><a href="/docs/garage/PetInput/">Input</a></li>
+          
+            <li><a href="/docs/garage/ReppPet/">ReppPet</a></li>
+          
+            <li><a href="/docs/garage/PetOutput/">Output</a></li>
+          
+            <li><a href="/docs/garage/PetOptions/">Options</a></li>
+          
+            <li><a href="/docs/garage/PetParameters/">Parameters</a></li>
+          
+            <li><a href="/docs/garage/PetSelectiveUnpacking/">Selective Unpacking</a></li>
+          
+            <li><a href="/docs/garage/PetInputFsc/">Input Feature Structure Chart</a></li>
+          
+            <li><a href="/docs/garage/PetInputChart/">Input Chart</a></li>
+          
+            <li><a href="/docs/garage/UtTop/">Ubertagging</a></li>
+          
+            <li><a href="/docs/garage/PetLogging/">Logging</a></li>
+          
+            <li><a href="/docs/garage/PetRobustness/">Robustness</a></li>
+          
+            <li><a href="/docs/garage/FeforPetApi/">PET API Proposal</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Documentation</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/DocsQuickStart/">Quick Start</a></li>
+          
+            <li><a href="/docs/garage/DelphinDocsReference/">Reference</a></li>
+          
+            <li><a href="/docs/garage/ERDW_StructureForNewDocsSite/">Background</a></li>
+          
+            <li><a href="/docs/garage/GoogleSeasonOfDocs2023ProjectProposal/">Season of Docs</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <h1 id="deepbank">DeepBank</h1>
+
+<p>This page describes the <a href="https://delph-in.github.io/docs/garage/DeepBank">DeepBank</a> project, which has produced
+linguistically rich syntactic and semantic annotations of Wall Street
+Journal newspaper text, now available in several output formats, as
+version 1.0. For downloads and details of the output formats, please see
+this <a href="http://metashare.dfki.de/repository/browse/deepbank/d550713c0bd211e38e2e003048d082a41c57b04b11e146f1887ceb7158e2038c/">MetaShare
+site</a>.</p>
+
+<p>Contents</p>
+
+<ol>
+  <li><a href="https://delph-in.github.io/docs/garage/DeepBank">DeepBank</a>
+    <ol>
+      <li><a href="https://delph-in.github.io/docs/garage/DeepBank">Background</a></li>
+      <li><a href="https://delph-in.github.io/docs/garage/DeepBank">Development Methodology</a></li>
+      <li><a href="https://delph-in.github.io/docs/garage/DeepBank">Stages of Development</a></li>
+      <li><a href="https://delph-in.github.io/docs/garage/DeepBank">Version 1.0: Available
+Formats</a></li>
+      <li><a href="https://delph-in.github.io/docs/garage/DeepBank">Acknowledgements</a></li>
+      <li><a href="https://delph-in.github.io/docs/garage/DeepBank">Publications</a></li>
+    </ol>
+  </li>
+</ol>
+
+<p><a name="Background"></a></p>
+
+<h2 id="background">Background</h2>
+
+<p>The <strong><a href="https://delph-in.github.io/docs/garage/DeepBank">DeepBank</a></strong> project has the goal of annotating the one
+million words of 1989 Wall Street Journal text (the same set of
+sentences annotated in the original Penn Treebank project) with the
+English Resource Grammar, augmented with a robust approximating PCFG for
+complete coverage. <a href="https://delph-in.github.io/docs/garage/DeepBank">DeepBank</a> contains rich linguistic
+annotation on both syntactic and semantic structures of the sentences
+and is available in a variety of representation formats (see the
+description on formats below).</p>
+
+<p>The project is hosted at the Department of Computational Linguistics of
+Saarland University and the Language Technology Lab of the German
+Research Center for Artificial Intelligence in Saarbrücken, Germany, and
+in close collaboration with CSLI Stanford. Other institutes, including
+(but not limited to) Humboldt University of Berlin and University of
+Oslo, have also contributed to the development and release of the
+resource. In the long term, the <a href="https://delph-in.github.io/docs/garage/DeepBank">DeepBank</a> will be further
+supported by the DELPH-IN community with updates and maintenance.</p>
+
+<p><a name="Development_Methodology"></a></p>
+
+<h2 id="development-methodology">Development Methodology</h2>
+
+<p>The project is technically built on top of resources developed in the
+long-term grammar and software engineering effort maintained under the
+collaborative umbrella of DELPH-IN. Following earlier practice in the
+development of Redwoods treebanks, manual annotations are done using the
+discriminant-based treebanking environment provided by <a href="http://www.delph-in.net/itsdb">[incr
+tsdb()]</a> to identify the correct full
+analysis among the candidate analyses proposed by the English Resource
+Grammar.</p>
+
+<p>For the first public release of <a href="https://delph-in.github.io/docs/garage/DeepBank">DeepBank</a>, most of the data
+has gone through at least two rounds of human annotation with
+independent annotators. Also, the linguistic analyses in
+<a href="https://delph-in.github.io/docs/garage/DeepBank">DeepBank</a> were made independently from the previous treebank
+annotations of the same data (i.e. PTB), distinguishing it from
+PTB-derived treebanks including the Enju HPSG treebank, CCGBank, and the
+CoNLL syntactic dependency bank, to name a few.</p>
+
+<p>For completeness of the annotations over the full corpus, the public
+release of <a href="https://delph-in.github.io/docs/garage/DeepBank">DeepBank</a> also includes analyses (trees) licensed
+by an approximating PCFG for the sentences of the WSJ corpus not
+correctly analysed by the current version of the
+<a href="http://www.delph-in.net/erg">ERG</a>. Semantic structures are also
+composed robustly for these sentences, which comprise some 15% of the
+50,000-sentence total.</p>
+
+<p><a name="Stages_of_Development"></a></p>
+
+<h2 id="stages-of-development">Stages of Development</h2>
+
+<p>The development of <a href="https://delph-in.github.io/docs/garage/DeepBank">DeepBank</a> started in the fall of 2008 as
+an internally funded project at the Department of Computational
+Linguistics, Saarland University and the LT-Lab of DFKI, under the
+supervision of Valia Kordoni and Yi Zhang.
+Thanks to the partial financial support of the Erasmus Mundus European
+Masters Program in Language and Communication Technologies (LCT),
+part-time student annotators were employed and trained for the first
+round of annotation. Dan Flickinger, the main
+<a href="http://www.delph-in.net/erg">ERG</a> developer, has provided grammar
+updates throughout the project. He also went through a thorough (second)
+round of annotation updates to arrive at the first public release of
+<a href="https://delph-in.github.io/docs/garage/DeepBank">DeepBank</a>. Both the ERG and <a href="https://delph-in.github.io/docs/garage/DeepBank">DeepBank</a> have
+significantly evolved over the years of the project, but the dynamic
+nature of the annotation method has kept them synchronized through the
+update cycles.</p>
+
+<p>By the summer of 2012, the development of <a href="https://delph-in.github.io/docs/garage/DeepBank">DeepBank</a> reached a
+mature stage where a significant amount of the data had gone through two
+rounds of careful annotation. The resource was made available for
+internal DELPH-IN review (alpha release) by several sites, including the
+University of Oslo, the University of Washington, Melbourne University,
+the University of Barcelona, then Bulgarian Academy of Science, and the
+University of Lisbon. Many suggestions and detailed feedback helped in
+preparation for the first full public release of <a href="https://delph-in.github.io/docs/garage/DeepBank">DeepBank</a>.</p>
+
+<p>At the end of November 2012, a substantial portion of
+<a href="https://delph-in.github.io/docs/garage/DeepBank">DeepBank</a> (WSJ sections 00-15) was made open for public
+preview through a beta release announced at TLT in Lisbon. The beta
+version (v0.9) is still available for download upon
+<a href="http://www.coli.uni-saarland.de/projects/deepbank/request.cgi">request</a>.
+This beta-release only includes annotation for WSJ sections 00-15 in the
+original <a href="http://www.delph-in.net/itsdb">[incr tsdb()]</a> format.
+Further sections and other formats are included in the public release,
+v1.0, described below.</p>
+
+<p><a name="Version_1.0:_Available_Formats"></a></p>
+
+<h2 id="version-10-available-formats">Version 1.0: Available Formats</h2>
+
+<p>The public release (v1.0) of <a href="https://delph-in.github.io/docs/garage/DeepBank">DeepBank</a> includes annotation in
+multiple formats. The combination of the raw <a href="http://www.delph-in.net/itsdb">[incr
+tsdb()]</a> profiles with a corresponding
+version of the ERG enables automatic reconstruction of all detailed
+analyses. The HPSG <a href="https://delph-in.github.io/docs/tools/ItsdbDerivations">derivations</a> and the
+<a href="https://delph-in.github.io/docs/tools/MrsRFC">MRSes</a> are recorded in these profiles and can be extracted
+directly.</p>
+
+<p>For convenience of usage, <a href="https://delph-in.github.io/docs/garage/DeepBank">DeepBank</a> is also available in
+other representation formats (though not all details are preserved in
+the converted representations), including the (modified) Penn-style
+constituent tree representation with labeled brackets, and the
+CoNLL-style syntactic and semantic dependency representation with
+<em>tabbed</em> format. The conversion software is available to the public and
+maintained collaboratively between Oslo and Saarbrücken. Please see
+<a href="https://delph-in.github.io/docs/garage/DeepBank_OneZero">DeepBank/OneZero</a> for further details.</p>
+
+<p>Downloads are available through <a href="/MetaShare">MetaShare</a> at <a href="http://metashare.dfki.de/repository/browse/deepbank/d550713c0bd211e38e2e003048d082a41c57b04b11e146f1887ceb7158e2038c/">this
+site</a>.</p>
+
+<p>For further information or feedback, please feel free to subscribe to
+the <a href="http://lists.delph-in.net/mailman/listinfo/deepbank">mailing list</a>,
+or contact the developers.</p>
+
+<p><a name="Acknowledgements"></a></p>
+
+<h2 id="acknowledgements">Acknowledgements</h2>
+
+<p>The primary work on the development of this resource was initiated and
+carried out through <a href="/CoLi">CoLi</a> and the DFKI in Saarbrücken, including
+project organization and management, the first rounds of treebank
+construction, the PCFG approximations for non-ERG-parsed items, and some
+exports to alternative formats. Additional contributions were made at
+the Center for the Study of Language and Information (CSLI) at Stanford
+University, for improvements to the ERG and a second round of treebank
+annotations; and at the University of Oslo in several enabling roles,
+including preparation of the raw text, tokenization technology and
+rules, parsing, support for the annotation tools, partial funding of the
+annotation effort at Stanford, and packaging of the resulting
+annotations. Ongoing support and expansion of this resource will be
+provided by these three institutions, together with Humboldt University
+as a participating institution in the ongoing QTLeap project.</p>
+
+<p>We are grateful to the <a href="http://lct-master.org/">Erasmus Mundus European Masters Program in
+Language and Communication Technologies</a> (LCT,
+EM Grant Number: 2007-0060) for financial support of the project in
+Saarbrücken, and to the <a href="http://www.mn.uio.no/ifi/english/research/projects/wesearch/">WeSearch: Language Technology for the
+Web</a>
+project for support of the contributions made at the University of Oslo
+and, in part, funding of work at Stanford.</p>
+
+<p>We are equally grateful to the following student annotators for their
+diligent and patient work. All remaining errors in the treebank are of
+course ours.</p>
+
+<ul>
+  <li>Ming Wen</li>
+  <li>Maria Sukhareva</li>
+  <li>Lea Frermann</li>
+  <li>Iliana Simova</li>
+</ul>
+
+<p>The involvement of Yi Zhang in the project is also partially sponsored
+by the <a href="http://www.mmci.uni-saarland.de/">German Cluster of Excellence on “Multimodal Computing and
+Interaction”</a> (MMCI) funded by the
+DFG, and the <a href="http://deependance.dfki.de/">Deependance</a> project funded
+by BMBF (01IW11003).</p>
+
+<p><a name="Publications"></a></p>
+
+<h2 id="publications">Publications</h2>
+
+<ol>
+  <li>Dan Flickinger, Valia Kordoni and Yi Zhang. <a href="https://delph-in.github.io/docs/garage/DeepBank">DeepBank</a>: A
+Dynamically Annotated Treebank of the Wall Street Journal. In
+Proceedings of TLT-11, Lisbon, Portugal, 2012.</li>
+  <li>Stephan Oepen, Dan Flickinger, Kristina Toutanova, and
+Christopher D. Manning. LinGO Redwoods: A Rich and Dynamic Treebank
+for HPSG. In Journal of Research on Language and Computation 2.4,
+pages 575-596. 2004.</li>
+  <li>Angelina Ivanova, Stephan Oepen, Lilja Øvrelid, and Dan Flickinger.
+Who did what to whom? a contrastive study of syntacto-semantic
+dependencies. In Proceedings of the Sixth Linguistic Annotation
+Workshop, pages 2–11, Jeju, Republic of Korea, 2012.</li>
+  <li>Yi Zhang and Hans-Ulrich Krieger. Large-scale corpus-driven PCFG
+approximation of an HPSG. In Proceedings of the 12th International
+Conference on Parsing Technologies, pages 198–208, Dublin,
+Ireland, 2011.</li>
+  <li>Yi Zhang, Valia Kordoni. Discriminant Ranking for Efficient
+Treebanking. In Proceedings of the 23rd International Conference on
+Computational Linguistics (Coling 2010), Beijing, China, 2010.</li>
+  <li>Valia Kordoni, Yi Zhang. Disambiguating Compound Nouns for a Dynamic
+HPSG Treebank of Wall Street Journal Texts. In Proceedings of the
+Seventh conference on International Language Resources and
+Evaluation (LREC’10), Malta, 2010.</li>
+  <li>Valia Kordoni, Yi Zhang. Annotating Wall Street Journal Texts Using
+a Hand-Crafted Deep Linguistic Grammar. In Proceedings of the Third
+Linguistic Annotation Workshop, Singapore, 2009.</li>
+</ol>
+
+<p>Last update: 2022-11-01 by EricZinda [<a href="https://github.com/delph-in/docs/wiki/DeepBank/_edit">edit</a>]</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+<!--Scroll the navbar to the current page-->
+<script type="text/javascript">
+  let el = document.querySelector('.nav__list .active');
+  if(el){
+    el.scrollIntoView({block: "center", inline: "start"});
+  }
+</script>
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/docs/garage/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/docs/garage/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/docs/garage/assets/js/lunr/lunr.min.js"></script>
+<script src="/docs/garage/assets/js/lunr/lunr-store.js"></script>
+<script src="/docs/garage/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

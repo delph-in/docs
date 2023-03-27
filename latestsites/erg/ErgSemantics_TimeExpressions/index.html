@@ -1,0 +1,614 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>DELPH-IN ERG</title>
+<meta name="description" content="An amazing website.">
+
+
+  <meta name="author" content="Your Name">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="DELPH-IN ERG">
+<meta property="og:title" content="DELPH-IN ERG">
+<meta property="og:url" content="https://delph-in.github.io/docs/erg/ErgSemantics_TimeExpressions/">
+
+
+  <meta property="og:description" content="An amazing website.">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://delph-in.github.io/docs/erg/ErgSemantics_TimeExpressions/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Your Name",
+      "url": "https://delph-in.github.io/docs/erg/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/docs/erg/feed.xml" type="application/atom+xml" rel="alternate" title="DELPH-IN ERG Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/docs/erg/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--delphin_page wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/docs/erg/"><img src="/docs/erg/assets/images/Delph-In.png" alt="DELPH-IN ERG"></a>
+        
+        <a class="site-title" href="/docs/erg/">
+          DELPH-IN ERG
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/home/Home">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/howto/DelphinWelcome">How-To</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/erg/ErgTop">ERG</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/tools/ToolsTop">Tools</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/grammars/GrammarsOverview">Grammars</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/matrix/MatrixDocsOverview">Matrix</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/summits/SummitTop">Summits</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/garage/GarageTop">Garage</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Overview</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/erg/ErgTop/">ERG Summary</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_HowToCite/">How to Cite This Work</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">ERG Usage</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/erg/ErgProcessing/">Overview</a></li>
+          
+            <li><a href="/docs/erg/QuickStart/">QuickStart</a></li>
+          
+            <li><a href="/docs/erg/ErgProcessing_SampleExport/">ERG Usage Sample Export</a></li>
+          
+            <li><a href="/docs/erg/AceErgTuning/">Tuning Ace for ERG</a></li>
+          
+            <li><a href="/docs/erg/ErgApi/">ERG REST API</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Erg Semantics</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/erg/ErgSemantics/">Semantics</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Essence/">Essence</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Basics/">Basics</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Design/">Design</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Conventions/">Conventions</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Interface/">Semantics Interface (SEM-I)</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Discovery/">Semantics Discovery</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Inventory</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/erg/ErgSemantics_Inventory/">Overview</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_OneAnaphora/">Anaphora</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Apposition/">Apposition</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Comparatives/">Comparatives</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Compounding/">Compounding</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Conditionals/">Conditionals</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_ControlRelations/">Control Relations</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Coordination/">Coordination</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Ellipsis/">Ellipsis</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_ForeignExpressions/">Foreign Expressions</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Fragments/">Fragments</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_IdentityCopulae/">Identity Copulae</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Imperatives/">Imperatives</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_ImplicitLocatives/">Implicit Locatives</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_ImplicitNominals/">Implicit Nominals</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_ImplicitQuantifiers/">Implicit Quantifiers</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_InstrumentalRelatives/">Instrumental Relatives</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_MeasurePhrases/">Measure Phrases</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Nominalization/">Nominalization</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_NonAdverbialClausalModifiers/">Non-Adverbial Clausal Modifiers</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_NumberSequences/">Number Sequences</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Parentheticals/">Parentheticals</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Partitives/">Partitives</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_PropositionalArguments/">Propositional Arguments</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Quantification/">Quantification</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_QuasiModalInfinitivals/">Quasi-Modal Infinitivals</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_RelationalNouns/">Relational Nouns</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_RelativeClauses/">Relative Clauses</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_TimeExpressions/" class="active">Time Expressions</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Vocatives/">Vocatives</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Raw_Materials/">Raw Materials</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">ERG Grammar</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/erg/ErgLeTypes/">LE Types</a></li>
+          
+            <li><a href="/docs/erg/ErgRules/">Rules</a></li>
+          
+            <li><a href="/docs/erg/ErgTokenization/">Tokenization</a></li>
+          
+            <li><a href="/docs/erg/ErgTokenization_ComplexExample/">Tokenization Complex Example</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">ERG Treebanking</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/erg/ErgTreebanking/">Overview</a></li>
+          
+            <li><a href="/docs/erg/ErgTreebankingGuidelines/">Guidelines</a></li>
+          
+            <li><a href="/docs/erg/ErgTreebankingRules/">Treebanking Rules</a></li>
+          
+            <li><a href="/docs/erg/ErgTreebankingBridges/">Bridges</a></li>
+          
+            <li><a href="/docs/erg/CapitolHillTreebank/">Discussion</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Discussions</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/erg/SaarlandSententialArgument/">Saarland Sentential Argument</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <h1 id="esd-test-suite-examples">ESD Test Suite Examples</h1>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Abrams arrived Tuesday morning.
+Abrams arrived June 3rd.
+</code></pre></div></div>
+
+<h1 id="linguistic-characterization">Linguistic Characterization</h1>
+
+<p>Time expressions in English exhibit a wide range of idiosyncracies, both
+lexical and syntactic, but also conform to several sub-regularities
+which the grammar captures and normalizes to a high degree. Time
+expressions in the ERG encompass, among others, day and month names
+(<em>Tuesday</em>, <em>June</em>), days of the month (<em>the third</em>), season and holiday
+names (<em>Spring</em>, <em>Easter</em>), times of day (<em>morning</em>), and numbered hours
+and minutes (<em>ten past four</em>, <em>four fifty</em>). From these building blocks,
+complex time expressions can be derived in a number of ways, where the
+grammar aims to assign parallel semantics to different syntactic
+constructions where they are close parapraphses</p>
+
+<p>Two of these lexical rules have semantic effects, illustrated in the
+examples above. Both rules relate a lexical entry for a name of a month
+or a day-of-week to a derived entry which supplies two quantifiers, to
+bind the instance variables of the name’s predicate and the neighboring
+word’s predicate, and also a two-place of_p relation linking the
+inherent arguments of these two predicates.</p>
+
+<p>One lexical rule, used for e.g. <em>Tuesday</em> in <em>Tuesday morning</em>, relates
+a lexical entry for the name of a day of the week to the derived entry
+supplying quantifiers and the of_p relation, so that when it combines
+with the word for a part of a day, such as <em>morning</em> or <em>night</em>, a
+well-formed semantics emerges which is very similar to the paraphrase in
+<em>on the morning of Tuesday, the second</em>.</p>
+
+<p>Similarly, a second lexical rule, for e.g. <em>June</em> in <em>June third</em>,
+relates a lexical entry for the name of a month of the year to the
+derived entry supplying the quantifiers and the of_p relation, ready to
+combine with the semantics of the word for a day of the month, to
+produce a semantics which corresponds closely to the alternative
+phrasing <em>the third of June</em>.</p>
+
+<h1 id="motivating-examples">Motivating Examples</h1>
+
+<p>The following are examples involving this phenomenon:</p>
+
+<ul>
+  <li><em>The morning of Tuesday, the third, was cloudy.</em></li>
+  <li><em>The third of June was cloudy.</em></li>
+</ul>
+
+<h1 id="ers-fingerprints">ERS Fingerprints</h1>
+
+<p>Analyses of these two types of time expressions are characterized by (1)
+the EP of_p, which is a relation between two individuals, one for a
+named day or month, and the other for a day of the month or part of a
+day; and (2) two quantifiers, a def_implicit_q for the named entity,
+and a def_explicit_q for the day of month or part of a day.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  of_p[ARG1 x1, ARG2 x2]
+  dofm_or_mofy[ARG0 x2]
+  def_explicit_q[ARG0 x1]
+  def_implicit_q[ARG0 x2]
+</code></pre></div></div>
+
+<p>Note that the of_p also identifies its label with that of the relation
+whose ARG0 is its ARG1, as with other intersective modifiers.</p>
+
+<h1 id="interactions">Interactions</h1>
+
+<p>The primary motivation for this lexical rule analysis is to minimize the
+differences between the semantics of these expressions and their
+variants with an overt of-PP, as illustrated above.</p>
+
+<h1 id="reflections">Reflections</h1>
+
+<p>It might be worthwhile to further minimize the differences between the
+pairs of paraphrases, by replacing the def_implicit_q predicate with
+proper_q.</p>
+
+<p>I believe we should greatly extend our test suite for this phenomenon;
+time expressions are well worked out in the ERG, and there is a
+non-trivial price we pay for (almost) always aiming to disambiguate
+different usages of, for example, numbers. At the same time, normalizing
+time expressions is important to many applications.</p>
+
+<h1 id="open-questions">Open Questions</h1>
+
+<h1 id="expert-external-commentary">Expert External Commentary</h1>
+
+<h1 id="grammar-version">Grammar Version</h1>
+
+<ul>
+  <li>1214</li>
+</ul>
+
+<h1 id="references">References</h1>
+
+<p>Flickinger, Dan (1996). “English Time Expressions in an HPSG Grammar,”
+in T. Gunji, ed., <em>Studies on the Universality of Constraint-based
+Phrase Structure Grammars</em>, pp. 1–8. Ministry of Education, Science,
+and Culture, Japan.</p>
+
+<h1 id="more-information">More Information</h1>
+
+<ul>
+  <li><a href="https://delph-in.github.io/docs/erg/ErgSemantics">ErgSemantics</a> main page</li>
+  <li><a href="https://delph-in.github.io/docs/erg/ErgSemantics_Inventory">Inventory</a> of semantic phenomena (to be)
+documented</li>
+  <li><a href="https://delph-in.github.io/docs/erg/ErgSemantics_HowToCite">How to cite this work</a></li>
+</ul>
+
+<p>Last update: 2015-09-22 by StephanOepen [<a href="https://github.com/delph-in/docs/wiki/ErgSemantics_TimeExpressions/_edit">edit</a>]</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+<!--Scroll the navbar to the current page-->
+<script type="text/javascript">
+  let el = document.querySelector('.nav__list .active');
+  if(el){
+    el.scrollIntoView({block: "center", inline: "start"});
+  }
+</script>
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/docs/erg/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/docs/erg/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/docs/erg/assets/js/lunr/lunr.min.js"></script>
+<script src="/docs/erg/assets/js/lunr/lunr-store.js"></script>
+<script src="/docs/erg/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

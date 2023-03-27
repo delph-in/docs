@@ -1,0 +1,908 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>DELPH-IN Tools</title>
+<meta name="description" content="An amazing website.">
+
+
+  <meta name="author" content="Your Name">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="DELPH-IN Tools">
+<meta property="og:title" content="DELPH-IN Tools">
+<meta property="og:url" content="https://delph-in.github.io/docs/tools/LkbLui/">
+
+
+  <meta property="og:description" content="An amazing website.">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://delph-in.github.io/docs/tools/LkbLui/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Your Name",
+      "url": "https://delph-in.github.io/docs/tools/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/docs/tools/feed.xml" type="application/atom+xml" rel="alternate" title="DELPH-IN Tools Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/docs/tools/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--delphin_page wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/docs/tools/"><img src="/docs/tools/assets/images/Delph-In.png" alt="DELPH-IN Tools"></a>
+        
+        <a class="site-title" href="/docs/tools/">
+          DELPH-IN Tools
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/home/Home">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/howto/DelphinWelcome">How-To</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/erg/ErgTop">ERG</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/tools/ToolsTop">Tools</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/grammars/GrammarsOverview">Grammars</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/matrix/MatrixDocsOverview">Matrix</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/summits/SummitTop">Summits</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/garage/GarageTop">Garage</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Tools</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/ToolsTop/">Overview</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">PyDelphin</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/PyDelphinTop/">Overview</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">LKB</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/LkbTop/">Overview</a></li>
+          
+            <li><a href="/docs/tools/LkbInstallation/">Installation</a></li>
+          
+            <li><a href="/docs/tools/LkbFos/">Fully Open Source Version</a></li>
+          
+            <li><a href="/docs/tools/LkbMacintosh/">Macintosh Version</a></li>
+          
+            <li><a href="/docs/tools/LkbCourses/">Courses</a></li>
+          
+            <li><a href="/docs/tools/LkbConventions/">Conventions</a></li>
+          
+            <li><a href="/docs/tools/LkbGeneration/">Generation</a></li>
+          
+            <li><a href="/docs/tools/LkbCompilation/">Compilation</a></li>
+          
+            <li><a href="/docs/tools/LkbEmacs/">Emacs</a></li>
+          
+            <li><a href="/docs/tools/LkbTrollet/">Trollet</a></li>
+          
+            <li><a href="/docs/tools/LkbSppp/">Simple PreProcessor Protocol</a></li>
+          
+            <li><a href="/docs/tools/RmrsVpm/">Variable Property Mapping (VPM)</a></li>
+          
+            <li><a href="/docs/tools/LkbLpconstraints/">LkbLpconstraints</a></li>
+          
+            <li><a href="/docs/tools/LkbUserGroup/">User Group</a></li>
+          
+            <li><a href="/docs/tools/LkbFaq/">FAQ</a></li>
+          
+            <li><a href="/docs/tools/LkbMode/">Emacs FAQ</a></li>
+          
+            <li><a href="/docs/tools/LkbWishlist/">Wish list</a></li>
+          
+            <li><a href="/docs/tools/LkbBugs/">Bugs</a></li>
+          
+            <li><a href="/docs/tools/LkbCopyright/">Copyright</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">ACE Parser</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/AceTop/">Overview</a></li>
+          
+            <li><a href="/docs/tools/AceInstall/">Install</a></li>
+          
+            <li><a href="/docs/tools/AceConfiguration/">Configuration</a></li>
+          
+            <li><a href="/docs/tools/AceOptions/">Options</a></li>
+          
+            <li><a href="/docs/tools/AceUse/">Examples</a></li>
+          
+            <li><a href="/docs/tools/AceLui/">LUI Mode</a></li>
+          
+            <li><a href="/docs/tools/AceCsaw/">Csaw</a></li>
+          
+            <li><a href="/docs/tools/AceTransfer/">Transfer</a></li>
+          
+            <li><a href="/docs/tools/AceExperimental/">Experimental</a></li>
+          
+            <li><a href="/docs/tools/AceFaq/">Faq</a></li>
+          
+            <li><a href="/docs/tools/AceWishlist/">Wish list</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">LKB LUI</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/LkbLui/" class="active">Overview</a></li>
+          
+            <li><a href="/docs/tools/LuiRc/">User Configuration</a></li>
+          
+            <li><a href="/docs/tools/LuiUi/">UI Quick Reference</a></li>
+          
+            <li><a href="/docs/tools/LuiTree/">Tree</a></li>
+          
+            <li><a href="/docs/tools/LuiAvm/">Feature Structure (AVM)</a></li>
+          
+            <li><a href="/docs/tools/LuiUnification/">Unification</a></li>
+          
+            <li><a href="/docs/tools/LuiMrs/">MRS Display</a></li>
+          
+            <li><a href="/docs/tools/LuiChart/">Chart Browser</a></li>
+          
+            <li><a href="/docs/tools/LuiWishlist/">Wish list</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">LKB LexDB</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/LexDbSimplePsql/">Simple PSQL</a></li>
+          
+            <li><a href="/docs/tools/LexDbInitialize/">Initialization</a></li>
+          
+            <li><a href="/docs/tools/LexDbPsqlInitialize/">PSQL Initialization</a></li>
+          
+            <li><a href="/docs/tools/LexDbFieldMappings/">Field Mappings</a></li>
+          
+            <li><a href="/docs/tools/LkbLexDbMultiUser/">Multi-User</a></li>
+          
+            <li><a href="/docs/tools/LkbLexDbSingleUser/">Single User</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">[incr tsdb()]</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/ItsdbTop/">Overview</a></li>
+          
+            <li><a href="/docs/tools/TsdbTop/">Deep Dive</a></li>
+          
+            <li><a href="/docs/tools/ItsdbDerivations/">Derivations</a></li>
+          
+            <li><a href="/docs/tools/ItsdbProfileManipulation/">Profile Manipulation</a></li>
+          
+            <li><a href="/docs/tools/ItsdbProfile/">Profile</a></li>
+          
+            <li><a href="/docs/tools/ItsdbProfiling/">Profiling</a></li>
+          
+            <li><a href="/docs/tools/ItsdbDistributedProcessing/">Distributed Processing</a></li>
+          
+            <li><a href="/docs/tools/ItsdbBatch/">Batch</a></li>
+          
+            <li><a href="/docs/tools/ItsdbReference/">Reference</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTroubleshooting/">Troubleshooting</a></li>
+          
+            <li><a href="/docs/tools/GeFaqTsdbRc/">FAQ</a></li>
+          
+            <li><a href="/docs/tools/ItsdbWishlist/">Wish List</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Logon</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/LogonTop/">Overview</a></li>
+          
+            <li><a href="/docs/tools/LogonInstallation/">Installation</a></li>
+          
+            <li><a href="/docs/tools/LogonRedhat/">Red Hat</a></li>
+          
+            <li><a href="/docs/tools/LogonUbuntu/">Ubuntu</a></li>
+          
+            <li><a href="/docs/tools/LogonArch/">Arch Linux</a></li>
+          
+            <li><a href="/docs/tools/LogonDebian/">Debian</a></li>
+          
+            <li><a href="/docs/tools/LogonHandon/">Hands-On Release</a></li>
+          
+            <li><a href="/docs/tools/LogonSvn/">SVN</a></li>
+          
+            <li><a href="/docs/tools/LogonProcessing_BatchGeneration/">Batch Generation</a></li>
+          
+            <li><a href="/docs/tools/LogonProcessing_BatchTranslation/">Batch Translation</a></li>
+          
+            <li><a href="/docs/tools/LogonPet/">PET Integration</a></li>
+          
+            <li><a href="/docs/tools/LogonAnswer/">ACE Integration</a></li>
+          
+            <li><a href="/docs/tools/LogonExtras/">Extras</a></li>
+          
+            <li><a href="/docs/tools/LogonReports/">Reports</a></li>
+          
+            <li><a href="/docs/tools/LogonProcessing/">Processing</a></li>
+          
+            <li><a href="/docs/tools/LogonProcessing_BatchParsing/">Batch Parsing</a></li>
+          
+            <li><a href="/docs/tools/LogonModeling/">Modeling</a></li>
+          
+            <li><a href="/docs/tools/LogonOnline/">Online</a></li>
+          
+            <li><a href="/docs/tools/LogonTransfer/">Transfer</a></li>
+          
+            <li><a href="/docs/tools/LogonVpm/">Variable Property Mapping</a></li>
+          
+            <li><a href="/docs/tools/NoJa/">Setting up New Languages</a></li>
+          
+            <li><a href="/docs/tools/LogonIdiosyncrasies/">Idiosyncrasies</a></li>
+          
+            <li><a href="/docs/tools/LogonWishlist/">Wishlist</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammar Tips</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/GrammarPerformance/">Grammar Performance</a></li>
+          
+            <li><a href="/docs/tools/VersionControlForGrammarDevelopment/">Grammar Version Control</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Treebanking</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/TreebankingTop/">Overview</a></li>
+          
+            <li><a href="/docs/tools/FftbTop/">Full Forest Treebanker (FFTB)</a></li>
+          
+            <li><a href="/docs/tools/FftbWishlist/">Full Forest Treebanker Wishlist</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking/">[incr tsdb()] Treebanking</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking_ItsdbAnnotation/">[incr tsdb()] Treebanking Annotation</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking_ItsdbUpdating/">[incr tsdb()] Treebanking Updating</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking_ItsdbExporting/">[incr tsdb()] Treebanking Exporting</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking_ItsdbModeling/">[incr tsdb()] Treebanking Modeling</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking_ItsdbUpdating/">[incr tsdb()] Treebanking Updating</a></li>
+          
+            <li><a href="/docs/tools/ItsdbCustomization/">[incr tsdb()] Treebanking Customization</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking_ItsdbModeling/">[incr tsdb()] Treebanking Modeling</a></li>
+          
+            <li><a href="/docs/tools/IndraTreebanking/">Indra</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Formats</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/DelphinRFCs/">Delphin RFCs</a></li>
+          
+            <li><a href="/docs/tools/PredicateRfc/">Predicate RFC</a></li>
+          
+            <li><a href="/docs/tools/MrsRFC/">MRS Format RFC</a></li>
+          
+            <li><a href="/docs/tools/MrsIsomorphism/">MRS Isomorphism</a></li>
+          
+            <li><a href="/docs/tools/EdsTop/">EDS Format</a></li>
+          
+            <li><a href="/docs/tools/EdsConversion/">EDS Conversion</a></li>
+          
+            <li><a href="/docs/tools/EdsGeneration/">EDS Generation</a></li>
+          
+            <li><a href="/docs/tools/SemiRfc/">SEM-I RFC</a></li>
+          
+            <li><a href="/docs/tools/TdlRFC/">TDL RFC</a></li>
+          
+            <li><a href="/docs/tools/TsqlRfc/">TSQL RFC</a></li>
+          
+            <li><a href="/docs/tools/GrammarVersionRfc/">Grammar Version RFC</a></li>
+          
+            <li><a href="/docs/tools/GrammarConfigurationRfc/">Grammar Configuration RFC</a></li>
+          
+            <li><a href="/docs/tools/TsdbSchemaRfc/">TSDB Schema RFC</a></li>
+          
+            <li><a href="/docs/tools/MatrixChoicesRfc/">Matrix Choices RFC</a></li>
+          
+            <li><a href="/docs/tools/RmrsTop/">(R)MRS Overview</a></li>
+          
+            <li><a href="/docs/tools/RmrsWellformedness/">(R)MRS Wellformedness</a></li>
+          
+            <li><a href="/docs/tools/RmrsPos/">(R)MRS Predicate Naming</a></li>
+          
+            <li><a href="/docs/tools/RmrsSpan/">(R)MRS Span</a></li>
+          
+            <li><a href="/docs/tools/RmrsDesign/">(R)MRS Design</a></li>
+          
+            <li><a href="/docs/tools/RmrsParaphrasing/">(R)MRS Paraphrasing</a></li>
+          
+            <li><a href="/docs/tools/RmrsModel/">(R)MRS Model</a></li>
+          
+            <li><a href="/docs/tools/RmrsDistributional/">(R)MRS Distributional</a></li>
+          
+            <li><a href="/docs/tools/RmrsSemi/">(R)MRS Semi</a></li>
+          
+            <li><a href="/docs/tools/RmrsDmrs/">(R)MRS Dmrs</a></li>
+          
+            <li><a href="/docs/tools/RmrsFaq/">(R)MRS Faq</a></li>
+          
+            <li><a href="/docs/tools/RmrsDiscussions/">(R)MRS Discussions</a></li>
+          
+            <li><a href="/docs/tools/TransferRules/">Transfer Rules</a></li>
+          
+            <li><a href="/docs/tools/FormatSpecifications/">Format Specifications</a></li>
+          
+            <li><a href="/docs/tools/ErgGml/">Grammar Markup Language</a></li>
+          
+            <li><a href="/docs/tools/SmafTop/">SMAF</a></li>
+          
+            <li><a href="/docs/tools/SmafLkb/">SMAF in LKB</a></li>
+          
+            <li><a href="/docs/tools/SmafPet/">SMAF in PET</a></li>
+          
+            <li><a href="/docs/tools/SmafSample/">SMAF Sample</a></li>
+          
+            <li><a href="/docs/tools/SmafDtd/">SMAF DTD</a></li>
+          
+            <li><a href="/docs/tools/SafTop/">SAF Overview</a></li>
+          
+            <li><a href="/docs/tools/SafDtd/">SAF DTD</a></li>
+          
+            <li><a href="/docs/tools/IconsSpecs/">Icons Specs</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <h1 id="overview">Overview</h1>
+
+<p>The <em>Linguistic User Interface</em> (LUI) is an ongoing project to build a visualization tool for the most common object types in constraint-based grammars, i.e. trees, feature structures, MRSs, charts, et al. While the LKB comes with built-in browsers for all of these, the current use of the CLIM (Common-Lisp Interface Manager) toolkit in the LKB severely limits portability and ease of use (and programmatic extension). Thus, portability and royalty-free delivery are among the primary motivations for the LUI project; at the same time, LUI attempts to ‘conservatively’ improve over the existing LKB tools, for example in terms of layout options, scalability, user parameterization, display efficiency. While preserving all existing LKB display functionality, LUI adds some new facilities, including drag-and-drop interactive unification, display of, and navigation through multiple feature structure incompatibilities, and creation of screen dumps in (for now) PostScript or LaTeX formats.</p>
+
+<p>The standard implementation of LUI is an application of the <a href="http://yz-windows.sourceforge.net/">YZ Windows</a> API, developed mainly by Woodley Packard, who is also the main LUI developer (with LKB-side support by Stephan Oepen. An alternate LUI binary compiled with Pango (which gives better font support for various international character sets) is available (albeit in binary only) as part of <a href="https://delph-in.github.io/docs/tools/LkbTrollet">Trollet</a>, developed by Pavel Mihaylov; see below.</p>
+
+<h1 id="lui-documentation-at-a-glance">LUI Documentation at a Glance</h1>
+
+<ul>
+  <li><a href="https://delph-in.github.io/docs/tools/LuiUi">LuiUi</a></li>
+  <li><a href="https://delph-in.github.io/docs/tools/LuiTree">LuiTree</a></li>
+  <li><a href="https://delph-in.github.io/docs/tools/LuiAvm">LuiAvm</a></li>
+  <li><a href="https://delph-in.github.io/docs/tools/LuiUnification">LuiUnification</a></li>
+  <li><a href="https://delph-in.github.io/docs/tools/LuiMrs">LuiMrs</a></li>
+  <li><a href="https://delph-in.github.io/docs/tools/LuiRc">LuiRc</a></li>
+  <li><a href="https://delph-in.github.io/docs/tools/AceLui">AceLui</a></li>
+</ul>
+
+<h1 id="existing-lui-browsers">Existing LUI Browsers</h1>
+
+<p>LUI currently provides browsers for four types of linguistic structures, viz. constituent trees (<a href="https://delph-in.github.io/docs/tools/LuiTree">LuiTree</a>), feature structures
+(<a href="https://delph-in.github.io/docs/tools/LuiAvm">LuiAvm</a>), MRSs (<a href="https://delph-in.github.io/docs/tools/LuiMrs">LuiMrs</a>), and parse charts (<a href="https://delph-in.github.io/docs/tools/LuiChart">LuiChart</a>). For other types of linguistic objects, a LUI-enabled LKB session will just fall back on the default, built-in display methods from the LKB.</p>
+
+<p>LUI browsers exhibit certain common interface characteristics, described on the <a href="https://delph-in.github.io/docs/tools/LuiUi">LuiUi</a> page. <a href="https://delph-in.github.io/docs/tools/LuiUi">LuiUi</a> a introductory keyboard shortcut list.</p>
+
+<h1 id="obtaining-and-running-lui">Obtaining and Running LUI</h1>
+
+<p>Recent LUI binaries for <a href="http://sweaglesw.org/linguistics/yzlui.x86-64">Linux(x86 64-bit
+mode)</a> and <a href="http://sweaglesw.org/linguistics/yzlui-for-osx.tar.gz">Mac OS
+X</a> are available,
+intructions in <a href="https://delph-in.github.io/docs/tools/AceLui">AceLui</a> and on the readme file at
+<a href="http://sweaglesw.org/linguistics/maclui/">http://sweaglesw.org/linguistics/maclui/</a>.</p>
+
+<p>You can also get binaries through a full release such as
+<a href="https://delph-in.github.io/docs/tools/LogonTop">LOGON</a> or the <a href="https://delph-in.github.io/docs/tools/LkbInstallation">LinGO LKB CVS repository</a>
+(since August 2005). During an initial testing phase, LUI support is
+<em>not</em> turned on by default. There are multiple ways of activating LUI,
+e.g. (a) manually within a running LKB session, (b) from within the
+`.lkbrc’ user-specific LKB configuration file, or (c) by means of a
+shell environment variable. You can customize LUI by means of a per-user
+.luirc file (<a href="https://delph-in.github.io/docs/tools/LuiRc">LuiRc</a>).</p>
+
+<p>The yzlui source code is publicly available at:</p>
+
+<p><a href="http://svn.delph-in.net/lui/">http://svn.delph-in.net/lui/</a></p>
+
+<p>It depends on the YZ framework as said above.</p>
+
+<h3 id="activating-or-deactivating-lui-support">Activating (or Deactivating) LUI Support</h3>
+
+<p>To enable LUI during an LKB session, at the Common-Lisp prompt evaluate
+the command</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  (lui-initialize)
+</code></pre></div></div>
+
+<p>Activating LUI for a running LKB session means switching graphical
+display to LUI widgets for the supported types of linguistic objects
+(see above). Once LUI has been initialized, parse trees, AVMs, et al.
+should all be displayed using LUI widgets.</p>
+
+<p>Conversely, to disable LUI for the current LKB session, evaluate</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  (lui-shutdown)
+</code></pre></div></div>
+
+<p>For debugging purposes or comparison to the LKB built-in display (on
+platforms that support built-in graphics for the LKB), it is possible to
+toggle between LUI-enabled mode and no-LUI mode frequently within a
+single session.</p>
+
+<h3 id="turning-on-lui-by-default">Turning on LUI by Default</h3>
+
+<p>One option for requesting LUI activation at LKB start-up is to place a
+call to lui-initialize() (see above) into the file .lkbrc in a user home
+directory. The .lkbrc file is a user-specific configuration file that is
+read when the LKB starts up.</p>
+
+<p>The recommended option, however, is to set (and export) a shell variable
+LUI to a positive value, e.g. (in your user-specific .bashrc file):</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  export LUI=yzlui
+</code></pre></div></div>
+
+<p>Note that for shells other than bash(1) (or the MacOS environment), the
+syntax of setting environment variables may differ. Finally, setting the
+value of the LUI environment variable to a positive integer will cause
+the LKB to activate LUI support but wait for an external (typically
+remote) LUI to connect to the port named by its numeric value (see
+below).</p>
+
+<h3 id="alternate-lui-implementations">Alternate LUI Implementations</h3>
+
+<p>The LUI design foresees the option of having alternate implementation of
+the LUI functionality and protocol. For exampke,
+PavelMihaylov has adapted the original LUI source code
+to use the Pango
+font rendering engine, for better international character support. Each
+alternate implementation should define its own application name, say
+pangolui instead of yzlui. Accordingly, the ‘pangolui’ binary should
+read the user configuration files .pangoluirc and .luirc (and a
+corresponding file name for its log file). The general idea here is to
+put configuration options that are specific to a token LUI
+implementation into .yzluirc or .pangoluirc (for example font selection
+commands), and use the general .luirc for configuration options that
+should apply to any LUI implementation.</p>
+
+<p>Although as of February 2008 no source code is availabe, Pavel
+distributes <a href="http://lingua.bash.info/trollet/">alternate LUI binaries</a>
+for Linx (x86, 32- and 64-bit). Currently, these binaries do <em>not</em> yet
+define their own application name, thus (somewhat sloppily) read
+.yzluirc (rather than .pangoluirc) and .luirc. The recommended way of
+installing these binaries is as pangolui in the platform-specific binary
+directory of the LKB tree, for example lkb/bin/linux.x86.32/ on a
+32-bit, Linux (x86) installation. To activate an alternate binary, use
+the LUI shell variable, e.g.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  export LUI=pangolui
+</code></pre></div></div>
+
+<p>One can also specify the binary name when you (re)start the lui:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  (lui-initialize :lui "pangolui")
+</code></pre></div></div>
+
+<p><strong>Note</strong> One cannot specify an absolute path using either method, only
+the binary name. Hence, alternate LUI binaries need to be installed into
+the correct, platform-specific LKB binary directory.</p>
+
+<h3 id="lui-remote-mode">LUI Remote Mode</h3>
+
+<p>LUI can also run in remote mode, communicating with an LKB session on a
+different machine. This mode of operation may be attractive for people
+running the LKB (or, in principle, another linguistic processor with LUI
+support) across a network with noticeable latency; the YZ widget library
+is somewhat more sensitive to network latency than, say, X11. First, the
+LKB host must be told to accept connections. This is accomplished by a
+command like:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  (lui-initialize :port 4001)
+</code></pre></div></div>
+
+<p>Then, LUI must be launched with a special command line option. The
+executable lives in the lkb/bin/linux.x86.32/yzlui location inside the
+DELPH-IN top-level source directory (for Linux, x86, 32-bit) or the
+bin/macos.ppc.32/yzlui.app/Contents/MacOS/yzlui location for Mac OS X. A
+remote connection is established by launching a LUI process (manually)
+from a shell, and directing it to talk to a running LKB session and the
+numeric port used as the argument to the lui-initialize() call.
+Assumming the LKB session runs on host cypriot.stanford.edu, say, the
+following might work:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  $DELPHINHOME/lkb/bin/linux.x86.32/yzlui -c cypriot.stanford.edu:4001
+</code></pre></div></div>
+
+<h1 id="testing-and-bug-reporting">Testing and Bug Reporting</h1>
+
+<p>The first public LUI release is in August 2005. For a few months prior
+to the release date, the new tools have only been tested by one active
+LKB grammarian (our thanks go to DanFlickinger).
+Unexpected behavior may comprise a bug. LUI maintains a log file
+describing your session in the file <code class="language-plaintext highlighter-rouge">/tmp/yzlui.debug.username</code> (where
+<em>username</em> corresponds to your own user id). Please report bugs to the
+DELPH-IN <em>developers</em> mailing list and always attach a corresponding LUI
+log file from the <code class="language-plaintext highlighter-rouge">/tmp/</code> directory.</p>
+
+<p>Please add wishlist requests to <a href="https://delph-in.github.io/docs/tools/LuiWishlist">LuiWishlist</a>.</p>
+
+<h1 id="comparison-with-clim">Comparison with CLIM</h1>
+
+<ul>
+  <li>Interactive unification is easier with LUI (drag and drop)</li>
+  <li>LUI currently lacks the following functionality
+    <ul>
+      <li>Show Hierarchy</li>
+      <li>Show Generation Chart</li>
+      <li>Parse Input Window</li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="trouble-shooting">Trouble Shooting</h1>
+
+<p>On Ubuntu 10.04, LUI currently will not run (2010-09) on a default install. The solution is to install nscd (the Network services Cache Daemon) and enable the hosts cache:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo apt-get install nscd
+</code></pre></div></div>
+
+<p>open /etc/nscd.conf with your $EDITOR, find the following line:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code># enable-cache hosts no
+</code></pre></div></div>
+
+<p>Change “no” to “yes”, save and exit the editor, then restart</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo service nscd restart
+</code></pre></div></div>
+
+<p>LUI should then run fine. Thanks to Stephan Oepen for finding the fix at http://bugs.launchpad.net/ubuntu/+source/eglibc/+bug/574726</p>
+
+<p>Last update: 2022-04-08 by Alexandre Rademaker [<a href="https://github.com/delph-in/docs/wiki/LkbLui/_edit">edit</a>]</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+<!--Scroll the navbar to the current page-->
+<script type="text/javascript">
+  let el = document.querySelector('.nav__list .active');
+  if(el){
+    el.scrollIntoView({block: "center", inline: "start"});
+  }
+</script>
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/docs/tools/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/docs/tools/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/docs/tools/assets/js/lunr/lunr.min.js"></script>
+<script src="/docs/tools/assets/js/lunr/lunr-store.js"></script>
+<script src="/docs/tools/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>
