@@ -1,0 +1,1011 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>DELPH-IN Tools</title>
+<meta name="description" content="An amazing website.">
+
+
+  <meta name="author" content="Your Name">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="DELPH-IN Tools">
+<meta property="og:title" content="DELPH-IN Tools">
+<meta property="og:url" content="https://delph-in.github.io/docs/tools/LuiRc/">
+
+
+  <meta property="og:description" content="An amazing website.">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://delph-in.github.io/docs/tools/LuiRc/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Your Name",
+      "url": "https://delph-in.github.io/docs/tools/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/docs/tools/feed.xml" type="application/atom+xml" rel="alternate" title="DELPH-IN Tools Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/docs/tools/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--delphin_page wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/docs/tools/"><img src="/docs/tools/assets/images/Delph-In.png" alt="DELPH-IN Tools"></a>
+        
+        <a class="site-title" href="/docs/tools/">
+          DELPH-IN Tools
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/home/Home">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/howto/DelphinWelcome">How-To</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/erg/ErgTop">ERG</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/tools/ToolsTop">Tools</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/grammars/GrammarsOverview">Grammars</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/matrix/MatrixDocsOverview">Matrix</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/summits/SummitTop">Summits</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/garage/GarageTop">Garage</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Tools</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/ToolsTop/">Overview</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">PyDelphin</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/PyDelphinTop/">Overview</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">LKB</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/LkbTop/">Overview</a></li>
+          
+            <li><a href="/docs/tools/LkbInstallation/">Installation</a></li>
+          
+            <li><a href="/docs/tools/LkbFos/">Fully Open Source Version</a></li>
+          
+            <li><a href="/docs/tools/LkbMacintosh/">Macintosh Version</a></li>
+          
+            <li><a href="/docs/tools/LkbCourses/">Courses</a></li>
+          
+            <li><a href="/docs/tools/LkbConventions/">Conventions</a></li>
+          
+            <li><a href="/docs/tools/LkbGeneration/">Generation</a></li>
+          
+            <li><a href="/docs/tools/LkbCompilation/">Compilation</a></li>
+          
+            <li><a href="/docs/tools/LkbEmacs/">Emacs</a></li>
+          
+            <li><a href="/docs/tools/LkbTrollet/">Trollet</a></li>
+          
+            <li><a href="/docs/tools/LkbSppp/">Simple PreProcessor Protocol</a></li>
+          
+            <li><a href="/docs/tools/RmrsVpm/">Variable Property Mapping (VPM)</a></li>
+          
+            <li><a href="/docs/tools/LkbLpconstraints/">LkbLpconstraints</a></li>
+          
+            <li><a href="/docs/tools/LkbUserGroup/">User Group</a></li>
+          
+            <li><a href="/docs/tools/LkbFaq/">FAQ</a></li>
+          
+            <li><a href="/docs/tools/LkbMode/">Emacs FAQ</a></li>
+          
+            <li><a href="/docs/tools/LkbWishlist/">Wish list</a></li>
+          
+            <li><a href="/docs/tools/LkbBugs/">Bugs</a></li>
+          
+            <li><a href="/docs/tools/LkbCopyright/">Copyright</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">ACE Parser</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/AceTop/">Overview</a></li>
+          
+            <li><a href="/docs/tools/AceInstall/">Install</a></li>
+          
+            <li><a href="/docs/tools/AceConfiguration/">Configuration</a></li>
+          
+            <li><a href="/docs/tools/AceOptions/">Options</a></li>
+          
+            <li><a href="/docs/tools/AceUse/">Examples</a></li>
+          
+            <li><a href="/docs/tools/AceLui/">LUI Mode</a></li>
+          
+            <li><a href="/docs/tools/AceCsaw/">Csaw</a></li>
+          
+            <li><a href="/docs/tools/AceTransfer/">Transfer</a></li>
+          
+            <li><a href="/docs/tools/AceExperimental/">Experimental</a></li>
+          
+            <li><a href="/docs/tools/AceFaq/">Faq</a></li>
+          
+            <li><a href="/docs/tools/AceWishlist/">Wish list</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">LKB LUI</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/LkbLui/">Overview</a></li>
+          
+            <li><a href="/docs/tools/LuiRc/" class="active">User Configuration</a></li>
+          
+            <li><a href="/docs/tools/LuiUi/">UI Quick Reference</a></li>
+          
+            <li><a href="/docs/tools/LuiTree/">Tree</a></li>
+          
+            <li><a href="/docs/tools/LuiAvm/">Feature Structure (AVM)</a></li>
+          
+            <li><a href="/docs/tools/LuiUnification/">Unification</a></li>
+          
+            <li><a href="/docs/tools/LuiMrs/">MRS Display</a></li>
+          
+            <li><a href="/docs/tools/LuiChart/">Chart Browser</a></li>
+          
+            <li><a href="/docs/tools/LuiWishlist/">Wish list</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">LKB LexDB</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/LexDbSimplePsql/">Simple PSQL</a></li>
+          
+            <li><a href="/docs/tools/LexDbInitialize/">Initialization</a></li>
+          
+            <li><a href="/docs/tools/LexDbPsqlInitialize/">PSQL Initialization</a></li>
+          
+            <li><a href="/docs/tools/LexDbFieldMappings/">Field Mappings</a></li>
+          
+            <li><a href="/docs/tools/LkbLexDbMultiUser/">Multi-User</a></li>
+          
+            <li><a href="/docs/tools/LkbLexDbSingleUser/">Single User</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">[incr tsdb()]</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/ItsdbTop/">Overview</a></li>
+          
+            <li><a href="/docs/tools/TsdbTop/">Deep Dive</a></li>
+          
+            <li><a href="/docs/tools/ItsdbDerivations/">Derivations</a></li>
+          
+            <li><a href="/docs/tools/ItsdbProfileManipulation/">Profile Manipulation</a></li>
+          
+            <li><a href="/docs/tools/ItsdbProfile/">Profile</a></li>
+          
+            <li><a href="/docs/tools/ItsdbProfiling/">Profiling</a></li>
+          
+            <li><a href="/docs/tools/ItsdbDistributedProcessing/">Distributed Processing</a></li>
+          
+            <li><a href="/docs/tools/ItsdbBatch/">Batch</a></li>
+          
+            <li><a href="/docs/tools/ItsdbReference/">Reference</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTroubleshooting/">Troubleshooting</a></li>
+          
+            <li><a href="/docs/tools/GeFaqTsdbRc/">FAQ</a></li>
+          
+            <li><a href="/docs/tools/ItsdbWishlist/">Wish List</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Logon</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/LogonTop/">Overview</a></li>
+          
+            <li><a href="/docs/tools/LogonInstallation/">Installation</a></li>
+          
+            <li><a href="/docs/tools/LogonRedhat/">Red Hat</a></li>
+          
+            <li><a href="/docs/tools/LogonUbuntu/">Ubuntu</a></li>
+          
+            <li><a href="/docs/tools/LogonArch/">Arch Linux</a></li>
+          
+            <li><a href="/docs/tools/LogonDebian/">Debian</a></li>
+          
+            <li><a href="/docs/tools/LogonHandon/">Hands-On Release</a></li>
+          
+            <li><a href="/docs/tools/LogonSvn/">SVN</a></li>
+          
+            <li><a href="/docs/tools/LogonProcessing_BatchGeneration/">Batch Generation</a></li>
+          
+            <li><a href="/docs/tools/LogonProcessing_BatchTranslation/">Batch Translation</a></li>
+          
+            <li><a href="/docs/tools/LogonPet/">PET Integration</a></li>
+          
+            <li><a href="/docs/tools/LogonAnswer/">ACE Integration</a></li>
+          
+            <li><a href="/docs/tools/LogonExtras/">Extras</a></li>
+          
+            <li><a href="/docs/tools/LogonReports/">Reports</a></li>
+          
+            <li><a href="/docs/tools/LogonProcessing/">Processing</a></li>
+          
+            <li><a href="/docs/tools/LogonProcessing_BatchParsing/">Batch Parsing</a></li>
+          
+            <li><a href="/docs/tools/LogonModeling/">Modeling</a></li>
+          
+            <li><a href="/docs/tools/LogonOnline/">Online</a></li>
+          
+            <li><a href="/docs/tools/LogonTransfer/">Transfer</a></li>
+          
+            <li><a href="/docs/tools/LogonVpm/">Variable Property Mapping</a></li>
+          
+            <li><a href="/docs/tools/NoJa/">Setting up New Languages</a></li>
+          
+            <li><a href="/docs/tools/LogonIdiosyncrasies/">Idiosyncrasies</a></li>
+          
+            <li><a href="/docs/tools/LogonWishlist/">Wishlist</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammar Tips</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/GrammarPerformance/">Grammar Performance</a></li>
+          
+            <li><a href="/docs/tools/VersionControlForGrammarDevelopment/">Grammar Version Control</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Treebanking</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/TreebankingTop/">Overview</a></li>
+          
+            <li><a href="/docs/tools/FftbTop/">Full Forest Treebanker (FFTB)</a></li>
+          
+            <li><a href="/docs/tools/FftbWishlist/">Full Forest Treebanker Wishlist</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking/">[incr tsdb()] Treebanking</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking_ItsdbAnnotation/">[incr tsdb()] Treebanking Annotation</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking_ItsdbUpdating/">[incr tsdb()] Treebanking Updating</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking_ItsdbExporting/">[incr tsdb()] Treebanking Exporting</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking_ItsdbModeling/">[incr tsdb()] Treebanking Modeling</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking_ItsdbUpdating/">[incr tsdb()] Treebanking Updating</a></li>
+          
+            <li><a href="/docs/tools/ItsdbCustomization/">[incr tsdb()] Treebanking Customization</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking_ItsdbModeling/">[incr tsdb()] Treebanking Modeling</a></li>
+          
+            <li><a href="/docs/tools/IndraTreebanking/">Indra</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Formats</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/DelphinRFCs/">Delphin RFCs</a></li>
+          
+            <li><a href="/docs/tools/PredicateRfc/">Predicate RFC</a></li>
+          
+            <li><a href="/docs/tools/MrsRFC/">MRS Format RFC</a></li>
+          
+            <li><a href="/docs/tools/MrsIsomorphism/">MRS Isomorphism</a></li>
+          
+            <li><a href="/docs/tools/EdsTop/">EDS Format</a></li>
+          
+            <li><a href="/docs/tools/EdsConversion/">EDS Conversion</a></li>
+          
+            <li><a href="/docs/tools/EdsGeneration/">EDS Generation</a></li>
+          
+            <li><a href="/docs/tools/SemiRfc/">SEM-I RFC</a></li>
+          
+            <li><a href="/docs/tools/TdlRFC/">TDL RFC</a></li>
+          
+            <li><a href="/docs/tools/TsqlRfc/">TSQL RFC</a></li>
+          
+            <li><a href="/docs/tools/GrammarVersionRfc/">Grammar Version RFC</a></li>
+          
+            <li><a href="/docs/tools/GrammarConfigurationRfc/">Grammar Configuration RFC</a></li>
+          
+            <li><a href="/docs/tools/TsdbSchemaRfc/">TSDB Schema RFC</a></li>
+          
+            <li><a href="/docs/tools/MatrixChoicesRfc/">Matrix Choices RFC</a></li>
+          
+            <li><a href="/docs/tools/RmrsTop/">(R)MRS Overview</a></li>
+          
+            <li><a href="/docs/tools/RmrsWellformedness/">(R)MRS Wellformedness</a></li>
+          
+            <li><a href="/docs/tools/RmrsPos/">(R)MRS Predicate Naming</a></li>
+          
+            <li><a href="/docs/tools/RmrsSpan/">(R)MRS Span</a></li>
+          
+            <li><a href="/docs/tools/RmrsDesign/">(R)MRS Design</a></li>
+          
+            <li><a href="/docs/tools/RmrsParaphrasing/">(R)MRS Paraphrasing</a></li>
+          
+            <li><a href="/docs/tools/RmrsModel/">(R)MRS Model</a></li>
+          
+            <li><a href="/docs/tools/RmrsDistributional/">(R)MRS Distributional</a></li>
+          
+            <li><a href="/docs/tools/RmrsSemi/">(R)MRS Semi</a></li>
+          
+            <li><a href="/docs/tools/RmrsDmrs/">(R)MRS Dmrs</a></li>
+          
+            <li><a href="/docs/tools/RmrsFaq/">(R)MRS Faq</a></li>
+          
+            <li><a href="/docs/tools/RmrsDiscussions/">(R)MRS Discussions</a></li>
+          
+            <li><a href="/docs/tools/TransferRules/">Transfer Rules</a></li>
+          
+            <li><a href="/docs/tools/FormatSpecifications/">Format Specifications</a></li>
+          
+            <li><a href="/docs/tools/ErgGml/">Grammar Markup Language</a></li>
+          
+            <li><a href="/docs/tools/SmafTop/">SMAF</a></li>
+          
+            <li><a href="/docs/tools/SmafLkb/">SMAF in LKB</a></li>
+          
+            <li><a href="/docs/tools/SmafPet/">SMAF in PET</a></li>
+          
+            <li><a href="/docs/tools/SmafSample/">SMAF Sample</a></li>
+          
+            <li><a href="/docs/tools/SmafDtd/">SMAF DTD</a></li>
+          
+            <li><a href="/docs/tools/SafTop/">SAF Overview</a></li>
+          
+            <li><a href="/docs/tools/SafDtd/">SAF DTD</a></li>
+          
+            <li><a href="/docs/tools/IconsSpecs/">Icons Specs</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <h1 id="lui-user-configuration-file">LUI User Configuration File</h1>
+
+<p>LUI checks for a file named .luirc in your home directory on startup. If
+such a file exists, LUI reads one parameter per line from it. The syntax
+for the parameters is parameter param-name param-value. Blank lines are
+ignored, as are comments, i.e. lines starting with #, ;, /, or %.</p>
+
+<p>Parameter values have one of several types, including symbol, string,
+integer, font, and color. Symbols are sequences of alphanumeric
+characters, and strings are the same bracketed by double quotes (“). A
+color is either the English name of a common color (e.g. red, blue,
+green) or a description of the form #C[red green blue], where red,
+green, and blue are each integers from 0 to 65535. A font is a tuple of
+the form #F[family size style color], where style is one of roman,
+italics, bold, or bold-italics.</p>
+
+<p>Some parameters take lists as their values. The syntax is a
+space-delimited sequence of values, bracketed by [ and ], for example
+[one two three].</p>
+
+<h3 id="parameter-reference">Parameter Reference</h3>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Parameter Name</strong></td>
+      <td><strong>Type</strong></td>
+      <td><strong>Description</strong></td>
+    </tr>
+    <tr>
+      <td>LIST-TYPE</td>
+      <td>Symbol</td>
+      <td>Which AVM type is displayed as length-unspecified lists (e.g. *LIST*).</td>
+    </tr>
+    <tr>
+      <td>EMPTY-LIST-TYPE</td>
+      <td>Symbol</td>
+      <td>Which AVM type is displayed as the empty list (e.g. *NULL*).</td>
+    </tr>
+    <tr>
+      <td>NON-EMPTY-LIST-TYPE</td>
+      <td>Symbol</td>
+      <td>Which AVM type is displayed as a non-empty list (e.g. *CONS*).</td>
+    </tr>
+    <tr>
+      <td>LIST-HEAD</td>
+      <td>Symbol</td>
+      <td>Feature name for the first element of a list (e.g. CAR or FIRST).</td>
+    </tr>
+    <tr>
+      <td>LIST-TAIL</td>
+      <td>Symbol</td>
+      <td>Feature name for the rest of a list (e.g. CDR or REST).</td>
+    </tr>
+    <tr>
+      <td>AVM-HIDDEN-FEATURES</td>
+      <td>List of symbols</td>
+      <td>Features whose display is normally supressed.</td>
+    </tr>
+    <tr>
+      <td>AVM-COLLAPSED-FEATURES</td>
+      <td>List of symbols</td>
+      <td>Features whose values should be initially collapsed.</td>
+    </tr>
+    <tr>
+      <td>AVM-HIDDEN-TYPES</td>
+      <td>List of symbols</td>
+      <td>Types of sub-AVMs to not display.</td>
+    </tr>
+    <tr>
+      <td>AVM-COLLAPSED-TYPES</td>
+      <td>List of symbols</td>
+      <td>Types of sub-AVMs to initially collapse.</td>
+    </tr>
+    <tr>
+      <td>AVM-CENTER-FEATURES</td>
+      <td>1 or 0</td>
+      <td>Whether to vertically center feature names on their values.</td>
+    </tr>
+    <tr>
+      <td>AVM-MARGINS</td>
+      <td>Integer</td>
+      <td>How many pixels of margin to leave in the AVM browser.</td>
+    </tr>
+    <tr>
+      <td>AVM-STRUCTURE-BRACKET-COLOR</td>
+      <td>Color</td>
+      <td>What color to use for the [ and ] in AVM rendering.</td>
+    </tr>
+    <tr>
+      <td>AVM-LIST-BRACKET-COLOR</td>
+      <td>Color</td>
+      <td>What color to use for the &lt; and &gt; in AVM list rendering.</td>
+    </tr>
+    <tr>
+      <td>AVM-TAG-BOX-COLOR</td>
+      <td>Color</td>
+      <td>What color to use for the box around coreference tags in AVM rendering.</td>
+    </tr>
+    <tr>
+      <td>AVM-TYPE-FONT</td>
+      <td>Font</td>
+      <td>Used to display type names in AVMs.</td>
+    </tr>
+    <tr>
+      <td>AVM-FEATURE-FONT</td>
+      <td>Font</td>
+      <td>Used to display feature names in AVMs.</td>
+    </tr>
+    <tr>
+      <td>AVM-ATTRIBUTE-FONT</td>
+      <td>Font</td>
+      <td>Alias for AVM-FEATURE-FONT.</td>
+    </tr>
+    <tr>
+      <td>AVM-TAG-FONT</td>
+      <td>Font</td>
+      <td>Used to display coreference tags in AVMs.</td>
+    </tr>
+    <tr>
+      <td>AVM-PATH-FONT</td>
+      <td>Font</td>
+      <td>Used to display the moused-over feature path in the AVM browser.</td>
+    </tr>
+    <tr>
+      <td>AVM-BAR-FONT</td>
+      <td>Font</td>
+      <td>Alias for AVM-PATH-FONT.</td>
+    </tr>
+    <tr>
+      <td>CHART-EDGE-FONT</td>
+      <td>Font</td>
+      <td>Used to display edge identifiers in the chart browser.</td>
+    </tr>
+    <tr>
+      <td>CHART-WORD-FONT</td>
+      <td>Font</td>
+      <td>Used to display the orthographies at the bottom of the chart browser.</td>
+    </tr>
+    <tr>
+      <td>CHART-BAR-FONT</td>
+      <td>Font</td>
+      <td>Used to display information about the moused-over edge in the chart browser.</td>
+    </tr>
+    <tr>
+      <td>TEXT-LEADING</td>
+      <td>Integer</td>
+      <td>How many pixels of leading (extra vertical space) to add in the text browser.</td>
+    </tr>
+    <tr>
+      <td>TEXT-HIGHLIGHT-COLOR</td>
+      <td>Color</td>
+      <td>What color to highlight moused-over active elements in the text browser.</td>
+    </tr>
+    <tr>
+      <td>TEXT-PLAIN-FONT</td>
+      <td>Font</td>
+      <td>Used as the default font for passive elements in the text browser.</td>
+    </tr>
+    <tr>
+      <td>TEXT-ACTIVE-FONT</td>
+      <td>Font</td>
+      <td>Used as the default font for clickable elements in text browser.</td>
+    </tr>
+    <tr>
+      <td>TREE-SUMMARY-NODE-FONT</td>
+      <td>Font</td>
+      <td>Used to display tree nodes in the tree summary browser.</td>
+    </tr>
+    <tr>
+      <td>TREE-DETAIL-NODE-FONT</td>
+      <td>Font</td>
+      <td>Same, for the tree detail browser.</td>
+    </tr>
+    <tr>
+      <td>TREE-SUMMARY-SURFACE-FONT</td>
+      <td>Font</td>
+      <td>Used to display orthographies in the tree summary browser.</td>
+    </tr>
+    <tr>
+      <td>TREE-DETAIL-SURFACE-FONT</td>
+      <td>Font</td>
+      <td>Same, for the tree detail browser.</td>
+    </tr>
+    <tr>
+      <td>TREE-SUMMARY-BAR-FONT</td>
+      <td>Font</td>
+      <td>Used to display information about the moused-over node in the tree summary browser.</td>
+    </tr>
+    <tr>
+      <td>TREE-DETAIL-BAR-FONT</td>
+      <td>Font</td>
+      <td>Same, for the tree detail browser.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="sample-luirc-file">Sample .luirc File</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#
+# sample user-specific LUI configuration file (install as `~/.luirc').
+#
+
+#
+# the feature structure browser
+#
+parameter avm-center-features 1
+parameter avm-margins 2
+parameter avm-hidden-features [INSTLOC WLINK CFROM CTO]
+parameter avm-collapsed-features [ARGS]
+parameter avm-hidden-types []
+parameter avm-collapsed-types [non_local]
+parameter avm-bar-font #F[Helvetica 12 roman black]
+parameter avm-type-font #F[Helvetica 12 bold blue]
+parameter avm-feature-font #F[Helvetica 12 roman black]
+parameter avm-tag-font #F[Helvetica 12 roman green]
+parameter avm-structure-bracket-color #C[8448 9448 33792]
+parameter avm-list-bracket-color #C[8448 9448 33792]
+parameter avm-tag-box-color green
+
+#
+# the summary browser for trees, showing all trees in a single window
+#
+parameter tree-summary-bar-font #F[Helvetica 10 roman black]
+parameter tree-summary-node-font #F[Helvetica 10 roman black]
+parameter tree-summary-surface-font #F[Helvetica 10 italic black]
+
+#
+# the detailed tree browser, showing one single tree at a time
+#
+parameter tree-detail-bar-font #F[Helvetica 14 roman black]
+parameter tree-detail-node-font #F[Helvetica 14 roman black]
+parameter tree-detail-surface-font #F[Helvetica 14 italic black]
+
+#
+# the chart browser
+#
+parameter chart-bar-font #F[Helvetica 12 roman black]
+parameter chart-word-font #F[Helvetica 12 roman black]
+parameter chart-edge-font #F[Helvetica 12 roman black]
+
+#
+# the text browser
+#
+parameter text-plain-font #F[Helvetica 14 roman black]
+parameter text-active-font #F[Helvetica 14 roman black]
+parameter text-leading 4
+parameter text-highlight-color green
+</code></pre></div></div>
+
+<h3 id="sample-luirc-for-displaying-japanese">Sample .luirc for displaying Japanese</h3>
+
+<p>This is a minimal set of changes that allows lui to display Japanese
+characters. It assumes that x has the sazanami fonts available
+<a href="http://sourceforge.jp/projects/efont/files/">http://sourceforge.jp/projects/efont/files/</a>. If you don’t then either
+(i) install them or (ii) find another font and use that instead. You can
+check what fonts you have with xlsfonts. To find those that can display
+Japanese you can do xlsfonts *jis*, although lui actually uses the
+<strong>iso10646-1</strong> encoding.</p>
+
+<p>Note that the multi-byte display still isn’t super beautiful, blame it
+on X.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#
+# LUI configuration file (install as `~/.luirc').
+# example for showing Japanese (assuming you have the sazanami fonts)
+# http://sourceforge.jp/projects/efont/files/
+
+#
+# the feature structure browser
+#
+# this makes the avm hard to read but shows the ORTH
+# parameter avm-feature-font #F[sazanami 12 roman black]
+
+#
+# the summary browser for trees, showing all trees in a single window
+#
+parameter tree-summary-surface-font #F[sazanami 12 roman black]
+
+#
+# the detailed tree browser, showing one single tree at a time
+#
+parameter tree-detail-surface-font #F[sazanami 12 roman black]
+
+#
+# the chart browser
+#
+parameter chart-bar-font #F[sazanami 12 roman black]
+parameter chart-word-font #F[sazanami 12 roman black]
+#
+# the text browser
+#
+parameter text-plain-font #F[sazanami 12 roman black]
+parameter text-active-font #F[sazanami 12 roman black]
+</code></pre></div></div>
+
+<p>Last update: 2011-10-09 by anonymous [<a href="https://github.com/delph-in/docs/wiki/LuiRc/_edit">edit</a>]</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+<!--Scroll the navbar to the current page-->
+<script type="text/javascript">
+  let el = document.querySelector('.nav__list .active');
+  if(el){
+    el.scrollIntoView({block: "center", inline: "start"});
+  }
+</script>
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/docs/tools/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/docs/tools/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/docs/tools/assets/js/lunr/lunr.min.js"></script>
+<script src="/docs/tools/assets/js/lunr/lunr-store.js"></script>
+<script src="/docs/tools/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

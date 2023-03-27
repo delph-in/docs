@@ -1,0 +1,1513 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>DELPH-IN Tools</title>
+<meta name="description" content="An amazing website.">
+
+
+  <meta name="author" content="Your Name">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="DELPH-IN Tools">
+<meta property="og:title" content="DELPH-IN Tools">
+<meta property="og:url" content="https://delph-in.github.io/docs/tools/GrammarConfigurationRfc/">
+
+
+  <meta property="og:description" content="An amazing website.">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://delph-in.github.io/docs/tools/GrammarConfigurationRfc/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Your Name",
+      "url": "https://delph-in.github.io/docs/tools/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/docs/tools/feed.xml" type="application/atom+xml" rel="alternate" title="DELPH-IN Tools Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/docs/tools/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--delphin_page wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/docs/tools/"><img src="/docs/tools/assets/images/Delph-In.png" alt="DELPH-IN Tools"></a>
+        
+        <a class="site-title" href="/docs/tools/">
+          DELPH-IN Tools
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/home/Home">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/howto/DelphinWelcome">How-To</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/erg/ErgTop">ERG</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/tools/ToolsTop">Tools</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/grammars/GrammarsOverview">Grammars</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/matrix/MatrixDocsOverview">Matrix</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/summits/SummitTop">Summits</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/garage/GarageTop">Garage</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Tools</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/ToolsTop/">Overview</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">PyDelphin</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/PyDelphinTop/">Overview</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">LKB</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/LkbTop/">Overview</a></li>
+          
+            <li><a href="/docs/tools/LkbInstallation/">Installation</a></li>
+          
+            <li><a href="/docs/tools/LkbFos/">Fully Open Source Version</a></li>
+          
+            <li><a href="/docs/tools/LkbMacintosh/">Macintosh Version</a></li>
+          
+            <li><a href="/docs/tools/LkbCourses/">Courses</a></li>
+          
+            <li><a href="/docs/tools/LkbConventions/">Conventions</a></li>
+          
+            <li><a href="/docs/tools/LkbGeneration/">Generation</a></li>
+          
+            <li><a href="/docs/tools/LkbCompilation/">Compilation</a></li>
+          
+            <li><a href="/docs/tools/LkbEmacs/">Emacs</a></li>
+          
+            <li><a href="/docs/tools/LkbTrollet/">Trollet</a></li>
+          
+            <li><a href="/docs/tools/LkbSppp/">Simple PreProcessor Protocol</a></li>
+          
+            <li><a href="/docs/tools/RmrsVpm/">Variable Property Mapping (VPM)</a></li>
+          
+            <li><a href="/docs/tools/LkbLpconstraints/">LkbLpconstraints</a></li>
+          
+            <li><a href="/docs/tools/LkbUserGroup/">User Group</a></li>
+          
+            <li><a href="/docs/tools/LkbFaq/">FAQ</a></li>
+          
+            <li><a href="/docs/tools/LkbMode/">Emacs FAQ</a></li>
+          
+            <li><a href="/docs/tools/LkbWishlist/">Wish list</a></li>
+          
+            <li><a href="/docs/tools/LkbBugs/">Bugs</a></li>
+          
+            <li><a href="/docs/tools/LkbCopyright/">Copyright</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">ACE Parser</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/AceTop/">Overview</a></li>
+          
+            <li><a href="/docs/tools/AceInstall/">Install</a></li>
+          
+            <li><a href="/docs/tools/AceConfiguration/">Configuration</a></li>
+          
+            <li><a href="/docs/tools/AceOptions/">Options</a></li>
+          
+            <li><a href="/docs/tools/AceUse/">Examples</a></li>
+          
+            <li><a href="/docs/tools/AceLui/">LUI Mode</a></li>
+          
+            <li><a href="/docs/tools/AceCsaw/">Csaw</a></li>
+          
+            <li><a href="/docs/tools/AceTransfer/">Transfer</a></li>
+          
+            <li><a href="/docs/tools/AceExperimental/">Experimental</a></li>
+          
+            <li><a href="/docs/tools/AceFaq/">Faq</a></li>
+          
+            <li><a href="/docs/tools/AceWishlist/">Wish list</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">LKB LUI</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/LkbLui/">Overview</a></li>
+          
+            <li><a href="/docs/tools/LuiRc/">User Configuration</a></li>
+          
+            <li><a href="/docs/tools/LuiUi/">UI Quick Reference</a></li>
+          
+            <li><a href="/docs/tools/LuiTree/">Tree</a></li>
+          
+            <li><a href="/docs/tools/LuiAvm/">Feature Structure (AVM)</a></li>
+          
+            <li><a href="/docs/tools/LuiUnification/">Unification</a></li>
+          
+            <li><a href="/docs/tools/LuiMrs/">MRS Display</a></li>
+          
+            <li><a href="/docs/tools/LuiChart/">Chart Browser</a></li>
+          
+            <li><a href="/docs/tools/LuiWishlist/">Wish list</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">LKB LexDB</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/LexDbSimplePsql/">Simple PSQL</a></li>
+          
+            <li><a href="/docs/tools/LexDbInitialize/">Initialization</a></li>
+          
+            <li><a href="/docs/tools/LexDbPsqlInitialize/">PSQL Initialization</a></li>
+          
+            <li><a href="/docs/tools/LexDbFieldMappings/">Field Mappings</a></li>
+          
+            <li><a href="/docs/tools/LkbLexDbMultiUser/">Multi-User</a></li>
+          
+            <li><a href="/docs/tools/LkbLexDbSingleUser/">Single User</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">[incr tsdb()]</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/ItsdbTop/">Overview</a></li>
+          
+            <li><a href="/docs/tools/TsdbTop/">Deep Dive</a></li>
+          
+            <li><a href="/docs/tools/ItsdbDerivations/">Derivations</a></li>
+          
+            <li><a href="/docs/tools/ItsdbProfileManipulation/">Profile Manipulation</a></li>
+          
+            <li><a href="/docs/tools/ItsdbProfile/">Profile</a></li>
+          
+            <li><a href="/docs/tools/ItsdbProfiling/">Profiling</a></li>
+          
+            <li><a href="/docs/tools/ItsdbDistributedProcessing/">Distributed Processing</a></li>
+          
+            <li><a href="/docs/tools/ItsdbBatch/">Batch</a></li>
+          
+            <li><a href="/docs/tools/ItsdbReference/">Reference</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTroubleshooting/">Troubleshooting</a></li>
+          
+            <li><a href="/docs/tools/GeFaqTsdbRc/">FAQ</a></li>
+          
+            <li><a href="/docs/tools/ItsdbWishlist/">Wish List</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Logon</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/LogonTop/">Overview</a></li>
+          
+            <li><a href="/docs/tools/LogonInstallation/">Installation</a></li>
+          
+            <li><a href="/docs/tools/LogonRedhat/">Red Hat</a></li>
+          
+            <li><a href="/docs/tools/LogonUbuntu/">Ubuntu</a></li>
+          
+            <li><a href="/docs/tools/LogonArch/">Arch Linux</a></li>
+          
+            <li><a href="/docs/tools/LogonDebian/">Debian</a></li>
+          
+            <li><a href="/docs/tools/LogonHandon/">Hands-On Release</a></li>
+          
+            <li><a href="/docs/tools/LogonSvn/">SVN</a></li>
+          
+            <li><a href="/docs/tools/LogonProcessing_BatchGeneration/">Batch Generation</a></li>
+          
+            <li><a href="/docs/tools/LogonProcessing_BatchTranslation/">Batch Translation</a></li>
+          
+            <li><a href="/docs/tools/LogonPet/">PET Integration</a></li>
+          
+            <li><a href="/docs/tools/LogonAnswer/">ACE Integration</a></li>
+          
+            <li><a href="/docs/tools/LogonExtras/">Extras</a></li>
+          
+            <li><a href="/docs/tools/LogonReports/">Reports</a></li>
+          
+            <li><a href="/docs/tools/LogonProcessing/">Processing</a></li>
+          
+            <li><a href="/docs/tools/LogonProcessing_BatchParsing/">Batch Parsing</a></li>
+          
+            <li><a href="/docs/tools/LogonModeling/">Modeling</a></li>
+          
+            <li><a href="/docs/tools/LogonOnline/">Online</a></li>
+          
+            <li><a href="/docs/tools/LogonTransfer/">Transfer</a></li>
+          
+            <li><a href="/docs/tools/LogonVpm/">Variable Property Mapping</a></li>
+          
+            <li><a href="/docs/tools/NoJa/">Setting up New Languages</a></li>
+          
+            <li><a href="/docs/tools/LogonIdiosyncrasies/">Idiosyncrasies</a></li>
+          
+            <li><a href="/docs/tools/LogonWishlist/">Wishlist</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammar Tips</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/GrammarPerformance/">Grammar Performance</a></li>
+          
+            <li><a href="/docs/tools/VersionControlForGrammarDevelopment/">Grammar Version Control</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Treebanking</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/TreebankingTop/">Overview</a></li>
+          
+            <li><a href="/docs/tools/FftbTop/">Full Forest Treebanker (FFTB)</a></li>
+          
+            <li><a href="/docs/tools/FftbWishlist/">Full Forest Treebanker Wishlist</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking/">[incr tsdb()] Treebanking</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking_ItsdbAnnotation/">[incr tsdb()] Treebanking Annotation</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking_ItsdbUpdating/">[incr tsdb()] Treebanking Updating</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking_ItsdbExporting/">[incr tsdb()] Treebanking Exporting</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking_ItsdbModeling/">[incr tsdb()] Treebanking Modeling</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking_ItsdbUpdating/">[incr tsdb()] Treebanking Updating</a></li>
+          
+            <li><a href="/docs/tools/ItsdbCustomization/">[incr tsdb()] Treebanking Customization</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking_ItsdbModeling/">[incr tsdb()] Treebanking Modeling</a></li>
+          
+            <li><a href="/docs/tools/IndraTreebanking/">Indra</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Formats</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/DelphinRFCs/">Delphin RFCs</a></li>
+          
+            <li><a href="/docs/tools/PredicateRfc/">Predicate RFC</a></li>
+          
+            <li><a href="/docs/tools/MrsRFC/">MRS Format RFC</a></li>
+          
+            <li><a href="/docs/tools/MrsIsomorphism/">MRS Isomorphism</a></li>
+          
+            <li><a href="/docs/tools/EdsTop/">EDS Format</a></li>
+          
+            <li><a href="/docs/tools/EdsConversion/">EDS Conversion</a></li>
+          
+            <li><a href="/docs/tools/EdsGeneration/">EDS Generation</a></li>
+          
+            <li><a href="/docs/tools/SemiRfc/">SEM-I RFC</a></li>
+          
+            <li><a href="/docs/tools/TdlRFC/">TDL RFC</a></li>
+          
+            <li><a href="/docs/tools/TsqlRfc/">TSQL RFC</a></li>
+          
+            <li><a href="/docs/tools/GrammarVersionRfc/">Grammar Version RFC</a></li>
+          
+            <li><a href="/docs/tools/GrammarConfigurationRfc/" class="active">Grammar Configuration RFC</a></li>
+          
+            <li><a href="/docs/tools/TsdbSchemaRfc/">TSDB Schema RFC</a></li>
+          
+            <li><a href="/docs/tools/MatrixChoicesRfc/">Matrix Choices RFC</a></li>
+          
+            <li><a href="/docs/tools/RmrsTop/">(R)MRS Overview</a></li>
+          
+            <li><a href="/docs/tools/RmrsWellformedness/">(R)MRS Wellformedness</a></li>
+          
+            <li><a href="/docs/tools/RmrsPos/">(R)MRS Predicate Naming</a></li>
+          
+            <li><a href="/docs/tools/RmrsSpan/">(R)MRS Span</a></li>
+          
+            <li><a href="/docs/tools/RmrsDesign/">(R)MRS Design</a></li>
+          
+            <li><a href="/docs/tools/RmrsParaphrasing/">(R)MRS Paraphrasing</a></li>
+          
+            <li><a href="/docs/tools/RmrsModel/">(R)MRS Model</a></li>
+          
+            <li><a href="/docs/tools/RmrsDistributional/">(R)MRS Distributional</a></li>
+          
+            <li><a href="/docs/tools/RmrsSemi/">(R)MRS Semi</a></li>
+          
+            <li><a href="/docs/tools/RmrsDmrs/">(R)MRS Dmrs</a></li>
+          
+            <li><a href="/docs/tools/RmrsFaq/">(R)MRS Faq</a></li>
+          
+            <li><a href="/docs/tools/RmrsDiscussions/">(R)MRS Discussions</a></li>
+          
+            <li><a href="/docs/tools/TransferRules/">Transfer Rules</a></li>
+          
+            <li><a href="/docs/tools/FormatSpecifications/">Format Specifications</a></li>
+          
+            <li><a href="/docs/tools/ErgGml/">Grammar Markup Language</a></li>
+          
+            <li><a href="/docs/tools/SmafTop/">SMAF</a></li>
+          
+            <li><a href="/docs/tools/SmafLkb/">SMAF in LKB</a></li>
+          
+            <li><a href="/docs/tools/SmafPet/">SMAF in PET</a></li>
+          
+            <li><a href="/docs/tools/SmafSample/">SMAF Sample</a></li>
+          
+            <li><a href="/docs/tools/SmafDtd/">SMAF DTD</a></li>
+          
+            <li><a href="/docs/tools/SafTop/">SAF Overview</a></li>
+          
+            <li><a href="/docs/tools/SafDtd/">SAF DTD</a></li>
+          
+            <li><a href="/docs/tools/IconsSpecs/">Icons Specs</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <p>There are a variety of processors that load TDL grammars, such as
+<a href="https://delph-in.github.io/docs/garage/AgreeTop">agree</a>, <a href="https://delph-in.github.io/docs/tools/AceTop">ACE</a>, the <a href="https://delph-in.github.io/docs/tools/LkbTop">LKB</a> (including
+<a href="https://delph-in.github.io/docs/tools/LkbFos">LkbFos</a>), <a href="https://delph-in.github.io/docs/garage/PetTop">PET</a>, and to a limited degree
+<a href="https://delph-in.github.io/docs/tools/PyDelphinTop">PyDelphin</a>. These all need some way to specify which files
+to load and how to load them, and most implement their own configuration
+format. There are some problems with this arrangement: duplication of
+information, subtle differences among implementations, increased mental
+burden on grammar developers, etc. This RFC, therefore, proposes a
+unified configuration file format that works with all processors,
+possibly with some processor-specific section for unique features.</p>
+
+<p>Contents</p>
+
+<ol>
+  <li><a href="https://delph-in.github.io/docs/tools/GrammarConfigurationRfc">Survey</a>
+    <ol>
+      <li><a href="https://delph-in.github.io/docs/tools/GrammarConfigurationRfc">Grammar Version</a></li>
+      <li><a href="https://delph-in.github.io/docs/tools/GrammarConfigurationRfc">Grammar Loading</a></li>
+      <li><a href="https://delph-in.github.io/docs/tools/GrammarConfigurationRfc">Lists</a></li>
+      <li><a href="https://delph-in.github.io/docs/tools/GrammarConfigurationRfc">Types</a></li>
+      <li><a href="https://delph-in.github.io/docs/tools/GrammarConfigurationRfc">Features</a></li>
+      <li><a href="https://delph-in.github.io/docs/tools/GrammarConfigurationRfc">Feature Paths</a></li>
+      <li><a href="https://delph-in.github.io/docs/tools/GrammarConfigurationRfc">Preprocessing</a></li>
+      <li><a href="https://delph-in.github.io/docs/tools/GrammarConfigurationRfc">External Interfaces</a></li>
+      <li><a href="https://delph-in.github.io/docs/tools/GrammarConfigurationRfc">Models and Efficiency</a></li>
+      <li><a href="https://delph-in.github.io/docs/tools/GrammarConfigurationRfc">Generation</a></li>
+      <li><a href="https://delph-in.github.io/docs/tools/GrammarConfigurationRfc">ICONS</a></li>
+      <li><a href="https://delph-in.github.io/docs/tools/GrammarConfigurationRfc">Chart Mapping</a></li>
+      <li><a href="https://delph-in.github.io/docs/tools/GrammarConfigurationRfc">Roots</a></li>
+      <li><a href="https://delph-in.github.io/docs/tools/GrammarConfigurationRfc">Generics</a></li>
+      <li><a href="https://delph-in.github.io/docs/tools/GrammarConfigurationRfc">Rules</a></li>
+      <li><a href="https://delph-in.github.io/docs/tools/GrammarConfigurationRfc">Chart Packing</a></li>
+      <li><a href="https://delph-in.github.io/docs/tools/GrammarConfigurationRfc">MRS</a></li>
+      <li><a href="https://delph-in.github.io/docs/tools/GrammarConfigurationRfc">Other Settings</a></li>
+    </ol>
+  </li>
+  <li><a href="https://delph-in.github.io/docs/tools/GrammarConfigurationRfc">Proposal</a>
+    <ol>
+      <li><a href="https://delph-in.github.io/docs/tools/GrammarConfigurationRfc">Sub-proposal 1: Conditionals</a></li>
+      <li><a href="https://delph-in.github.io/docs/tools/GrammarConfigurationRfc">Sub-proposal 2: Including Sub-config
+Files</a></li>
+    </ol>
+  </li>
+  <li><a href="https://delph-in.github.io/docs/tools/GrammarConfigurationRfc">Example</a></li>
+  <li><a href="https://delph-in.github.io/docs/tools/GrammarConfigurationRfc">Questions</a>
+    <ol>
+      <li><a href="https://delph-in.github.io/docs/tools/GrammarConfigurationRfc">Repeated Settings: Conflict or
+Reassignment?</a></li>
+    </ol>
+  </li>
+</ol>
+
+<h2 id="survey">Survey</h2>
+
+<p>Part of loading a grammar is determining whether to load some TDL as
+types or instances (including lexicons, rules, etc.). TDL has the
+ability to mark certain blocks of code and defining types or instances,
+but the LKB is a notable deviant in not using this feature. Other things
+that need to be loaded include morphological preprocessors, parse
+selection models, and so on. Configuration also sets the values of
+variables which can affect processing and output.</p>
+
+<p>The LKB uses a script (generally at lkb/script) that directly calls its
+lisp functions for loading files and setting variables. ACE and PET use
+declarative config files (e.g., ace/config.tdl) in a pseudo-TDL syntax
+(with slight differences between ACE and PET). They rely on TDL’s
+environments to determine how to load grammar definitions.</p>
+
+<h3 id="grammar-version">Grammar Version</h3>
+
+<h5 id="ace">ACE</h5>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>version                   := "../Version.lsp".
+</code></pre></div></div>
+
+<h5 id="lkb">LKB</h5>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(defparameter *grammar-version* "ERG (trunk)")
+</code></pre></div></div>
+
+<h3 id="grammar-loading">Grammar Loading</h3>
+
+<h5 id="ace-1">ACE</h5>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>grammar-top               := "../english.tdl".
+
+idiom-rules               := "../idioms.mtr".
+non-idiom-root            := root_non_idiom
+
+irregular-forms           := ../irregs.tab.
+</code></pre></div></div>
+
+<h5 id="lkb-1">LKB</h5>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(read-tdl-type-files-aux (list [...]))
+(read-cached-leaf-types-if-available (list [...]))
+(read-tdl-grammar-file-aux [...])
+(read-morph-file-aux (lkb-pathname (parent-directory) "inflr.tdl"))
+(read-tdl-psort-file-aux
+ (lkb-pathname (parent-directory) "roots.tdl"))
+(read-tdl-lex-rule-file-aux
+ (lkb-pathname (parent-directory) "lexrinst.tdl"))
+
+(mt:read-transfer-rules
+ (list
+  (lkb-pathname (parent-directory) "idioms.mtr"))
+ "Idiom Tests"
+ :filter nil :task :idiom)
+(defparameter *non-idiom-root* 'root_non_idiom )
+
+(load-irregular-spellings
+ (list
+  (lkb-pathname (parent-directory) "irregs.tab")
+  ))
+</code></pre></div></div>
+
+<h3 id="lists">Lists</h3>
+
+<h5 id="ace-2">ACE</h5>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>list-type                 := *list*.
+cons-type                 := *cons*.
+null-type                 := *null*.
+diff-list-type            := *diff-list*.
+</code></pre></div></div>
+
+<h5 id="lkb-2">LKB</h5>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(defparameter *list-type* '*list*)
+(defparameter *empty-list-type* '*null*)
+(defparameter *diff-list-type* '*diff-list*)
+
+(defparameter *list-tail* '(rest))
+(defparameter *list-head* '(first))
+(defparameter *diff-list-list* 'list)
+(defparameter *diff-list-last* 'last)
+</code></pre></div></div>
+
+<h3 id="types">Types</h3>
+
+<h5 id="ace-3">ACE</h5>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>semarg-type               := semarg.
+</code></pre></div></div>
+
+<h5 id="lkb-3">LKB</h5>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(defparameter *toptype* '*top*)
+(defparameter *string-type* 'string
+   "a special type name - any lisp strings are subtypes of it")
+
+(setf *top-semantics-type*
+  (vsym "predsort"))
+
+(setf *false-type* (vsym "-"))
+(setf *true-type* (vsym "+"))
+
+(defparameter *label-template-type* 'label)
+(defparameter *quant-rel-types* nil)
+</code></pre></div></div>
+
+<h3 id="features">Features</h3>
+
+<h5 id="ace-4">ACE</h5>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>deleted-daughters :=
+  ARGS HD-DTR NH-DTR LCONJ-DTR RCONJ-DTR DTR DTR1 DTR2 DTRA DTRB.
+</code></pre></div></div>
+
+<h5 id="lkb-4">LKB</h5>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(defparameter *sc-arg-feature* (vsym "HARG")
+  "the feature in a qeq that leads to the first argument")
+(defparameter *outscpd-feature* (vsym "LARG")
+  "the feature in a qeq that leads to the second argument")
+(defparameter *bv-feature* (vsym "ARG0"))
+(defparameter *scope-feat* (vsym "BODY"))
+
+(defparameter *deleted-daughter-features*
+  '(ARGS HD-DTR NH-DTR LCONJ-DTR RCONJ-DTR DTR DTR1 DTR2 DTRA DTRB)
+  "features pointing to daughters deleted on building a constituent")
+</code></pre></div></div>
+
+<h3 id="feature-paths">Feature Paths</h3>
+
+<h5 id="ace-5">ACE</h5>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>orth-path                 := ORTH.
+semantics-path            := SYNSEM LOCAL CONT.
+lex-rels-path             := SYNSEM LOCAL CONT RELS.
+lex-carg-path             := SYNSEM LKEYS KEYREL CARG.
+lex-pred-path             := SYNSEM LKEYS KEYREL PRED.
+rule-rels-path            := C-CONT RELS.
+
+label-path := LABEL-NAME.  ; from Jacy
+
+hook-path      := HOOK.  ; default
+mrs-hcons-list := HCONS LIST.  ; default
+mrs-icons-list := ICONS LIST.  ; default
+mrs-rels-list  := RELS LIST.  ; default
+recursive-label-path-in-label := SYNSEM LOCAL.  ; default
+recursive-label-path-in-sign := SYNSEM NONLOC SLASH LIST FIRST.  ; default (currently buggy?)
+</code></pre></div></div>
+
+<h5 id="lkb-5">LKB</h5>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(defparameter *orth-path* '(orth))
+
+(setf *initial-semantics-path*
+  `(,(vsym "SYNSEM") ,(vsym "LOCAL") ,(vsym "CONT") ))
+(setf *main-semantics-path
+  `(,(vsym "SYNSEM") ,(vsym "LOCAL") ,(vsym "CONT")
+    ,(vsym "RELS") ,(vsym "LIST")))
+(setf *construction-semantics-path*
+  `(,(vsym "C-CONT") ,(vsym "RELS") ,(vsym "LIST")))
+(setf lkb::*c-cont-check-path*
+  `(,(vsym "C-CONT")))
+(setf *psoa-top-h-path* (list (vsym "HOOK") (vsym "LTOP")))
+(setf *semantics-index-path* '(SYNSEM LOCAL CONT HOOK INDEX))
+
+(defparameter *psoa-index-path*
+  `(,(vsym "HOOK") ,(vsym "INDEX"))
+  "path to get an index from a psoa")
+(defparameter *psoa-event-path* `(,(vsym "HOOK") ,(vsym "INDEX")))
+(defparameter *psoa-liszt-path* `(,(vsym "RELS") ,(vsym "LIST")))
+(defparameter *psoa-rh-cons-path* `(,(vsym "HCONS") ,(vsym "LIST")))
+(defparameter *rel-handel-path*
+    `(,(vsym "LBL"))
+  "path to get the handel from a relation")
+
+(setf *head-path* '(synsem local cat head))
+(setf *head-daughter-path* '(hd-dtr))
+
+(defparameter *label-path* '(LNAME))
+(defparameter *prefix-path* '(META-PREFIX))
+(defparameter *suffix-path* '(META-SUFFIX))
+(defparameter *recursive-path* '(SYNSEM NONLOC SLASH LIST FIRST))
+(defparameter *local-path* '(SYNSEM LOCAL))
+(defparameter *label-fs-path* '())
+
+(defparameter *discriminant-path* '(SYNSEM LOCAL MINORS MIN))
+</code></pre></div></div>
+
+<h3 id="preprocessing">Preprocessing</h3>
+
+<h5 id="ace-6">ACE</h5>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>preprocessor              := "../rpp/tokenizer.rpp".
+preprocessor-modules      := ../rpp/xml.rpp ../rpp/ascii.rpp ../rpp/lgt.rpp ../rpp/quotes.rpp ../rpp/wiki.rpp ../rpp/gml.rpp ../rpp/html.rpp.
+</code></pre></div></div>
+
+<h5 id="lkb-6">LKB</h5>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(clear-repp)
+(read-repp (lkb-pathname (parent-directory "rpp") "xml.rpp"))
+[...]
+(setf *repp-calls* '(:xml :lgt :ascii :quotes))
+(setf *repp-characterize-p* t)
+(setf *repp-characterization-beam* 2)
+(setf *repp-interactive* '(:tokenizer :xml :lgt :ascii :quotes :lkb))
+(setf *repp-debug-p* nil
+
+(setf *characterize-p* t)
+</code></pre></div></div>
+
+<h3 id="external-interfaces">External Interfaces</h3>
+
+<h5 id="ace-7">ACE</h5>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>parse-node-labels           := "../parse-nodes.tdl".
+variable-property-mapping   := "../semi.vpm".
+semantic-interface-2016     := "../etc/erg.smi".
+semantic-interface-top-type := top.
+mrs-deleted-roles           := IDIOMP LNK CFROM CTO --PSV WLINK PARAMS.
+</code></pre></div></div>
+
+<h5 id="lkb-7">LKB</h5>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(read-tdl-parse-node-file-aux
+ (lkb-pathname (parent-directory) "parse-nodes.tdl"))
+(mt:read-vpm (lkb-pathname (parent-directory) "semi.vpm") :semi)
+(mt:read-semi (lkb-pathname (parent-directory "etc") "erg.smi"))
+(setf *variable-type-mapping* :semi)
+(setf *ignored-sem-features*
+  (union
+   *ignored-sem-features*
+   (list (vsym "LNK") (vsym "WLINK") (vsym "PARAMS")
+         (vsym "CFROM") (vsym "CTO"))))
+(setf *ignored-extra-features*
+  (union
+   *ignored-extra-features*
+   (list (vsym "SORT") (vsym "INSTLOC")))
+</code></pre></div></div>
+
+<h3 id="models-and-efficiency">Models and Efficiency</h3>
+
+<h5 id="ace-8">ACE</h5>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>maxent-model              := "../redwoods.mem".
+quickcheck-code           := "../ace/ace-erg-qc.txt".
+post-model-path           := "english-postagger.hmm".
+
+übertag-emission-path     := "../ut/nanc_wsj_redwoods_noaffix.ex.gz".
+übertag-transition-path   := "../ut/nanc_wsj_redwoods_noaffix.tx.gz".
+übertag-generic-map-path  := "../ut/generics.cfg".
+übertag-whitelist-path    := "../ut/whitelist.cfg".
+
+robustness-marker-path := GENRE.
+robustness-marker-type := robust.
+</code></pre></div></div>
+
+<h5 id="lkb-8">LKB</h5>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(tsdb::read-model (lkb-pathname (parent-directory) "jhpstg.g.mem"))
+(setf *unpacking-scoring-hook* #'tsdb::mem-score-configuration)
+</code></pre></div></div>
+
+<h3 id="generation">Generation</h3>
+
+<h5 id="ace-9">ACE</h5>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>generation-ignore-lexemes := "../lkb/nogen-lex.set".
+generation-ignore-rules   := "../lkb/nogen-rules.set".
+generation-trigger-rules  := "../trigger.mtr".
+
+index-accessibility-filtering := enabled.
+</code></pre></div></div>
+
+<h5 id="lkb-9">LKB</h5>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(setf *duplicate-lex-ids*
+  (load-erg-settings-file
+    (merge-pathnames "lkb/nogen-lex.set" *grammar-directory*)))
+(setf *gen-ignore-rules*
+  (load-erg-settings-file
+    (merge-pathnames "lkb/nogen-rules.set" *grammar-directory*)))
+(setf *parse-ignore-rules*
+  (load-erg-settings-file
+    (merge-pathnames "lkb/noparse-rules.set" *grammar-directory*)))
+
+(setf *gen-packing-p* t)
+(setf *gen-filtering-p* t)
+(setf *gen-equate-qeqs-p* t)
+
+(setf *bypass-equality-check* :filter)
+</code></pre></div></div>
+
+<h3 id="icons">ICONS</h3>
+
+<h5 id="ace-10">ACE</h5>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>enable-icons := yes.
+mrs-icons-list := ICONS LIST.
+icons-left := IARG1.
+icons-right := IARG2.
+</code></pre></div></div>
+
+<h5 id="lkb-10">LKB</h5>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(defparameter *icons-p* t)
+</code></pre></div></div>
+
+<h3 id="chart-mapping">Chart Mapping</h3>
+
+<h5 id="ace-11">ACE</h5>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>token-mapping := enabled.
+
+lexicon-tokens-path := TOKENS +LIST.
+lexicon-last-token-path := TOKENS +LAST.
+token-type          := token.
+token-form-path     := +FORM.       ; [required] string for lexical lookup
+token-id-path       := +ID.         ; [optional] list of external ids
+token-from-path     := +FROM.       ; [optional] surface start position
+token-to-path       := +TO.         ; [optional] surface end position
+token-postags-path  := +TNT +TAGS.  ; [optional] list of POS tags
+token-posprobs-path := +TNT +PRBS.  ; [optional] list of POS probabilities
+
+lattice-mapping-input-path    := +INPUT.
+lattice-mapping-output-path   := +OUTPUT.
+lattice-mapping-context-path  := +CONTEXT.
+lattice-mapping-position-path := +POSITION.
+</code></pre></div></div>
+
+<h5 id="lkb-11">LKB</h5>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(setf *lexicon-tokens-path* '(TOKENS +LIST))
+(setf *lexicon-last-token-path* '(TOKENS +LAST))
+(setf *token-id-path* '(+ID))
+
+(setf *token-ignore* '(+STAG))  ; maybe?
+</code></pre></div></div>
+
+<h3 id="roots">Roots</h3>
+
+<h5 id="ace-12">ACE</h5>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>parsing-roots    := root_strict root_informal root_frag root_inffrag root_robust root_robust_frag.
+generation-roots := root_gen.
+</code></pre></div></div>
+
+<h5 id="lkb-12">LKB</h5>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(defparameter *start-symbol* '(root_strict root_frag))
+(defparameter *gen-start-symbol* '(root_gen))
+(setf *fragment-start-symbols*
+  '(root_strict root_informal root_frag
+    root_lex root_phr root_conj root_subord))
+</code></pre></div></div>
+
+<h3 id="generics">Generics</h3>
+
+<h5 id="ace-13">ACE</h5>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>generic-les-for-semantic-index := generic_proper_ne generic_card_ne generic_ord_ne generic_dom_card_ne generic_dom_ord_ne generic_year_ne generic_date_ne generic_pl_noun_ne.
+generic-les-by-part-of-speech  := "generic_adj a" "generic_adverb a" "gen_generic_noun n" "gen_generic_verb v".
+generics-overwrite-orth        := true.
+</code></pre></div></div>
+
+<h5 id="lkb-13">LKB</h5>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(labels ((match-pred (ep tag)
+           (let ((pred (string (mrs:rel-pred ep)))
+                 (re (format nil "^_([^_]+)_~a(?:_[^_]+)?_rel$" tag)))
+             (multiple-value-bind (start end starts ends)
+                 (ppcre:scan re pred)
+               (declare (ignore start end))
+               (when (and starts ends)
+                 (subseq pred (aref starts 0) (aref ends 0)))))))
+  (setf *generic-lexical-entries*
+    `((generic_proper_ne :generate)
+      (generic_card_ne :generate) (generic_ord_ne :generate)
+      (generic_dom_card_ne :generate) (generic_dom_ord_ne :generate)
+      (generic_year_ne :generate) (generic_date_ne :generate)
+      (generic_pl_noun_ne :generate)
+      (generic_adj :generate ,#'(lambda (ep) (match-pred ep "a")))
+      (generic_adverb :generate ,#'(lambda (ep) (match-pred ep "a")))
+      (gen_generic_noun :generate ,#'(lambda (ep) (match-pred ep "n")))
+      (gen_generic_verb :generate ,#'(lambda (ep) (match-pred ep "v"))))))
+</code></pre></div></div>
+
+<h3 id="rules">Rules</h3>
+
+<h5 id="ace-14">ACE</h5>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>spanning-only-rules :=
+  aj-hd_int-inv_c
+  [...].
+
+fragment-only-rules :=
+  frag_np frag_nbar frag_pp_i
+  [...].
+
+hyper-active-rules :=
+        hdn-np_app-idf-p_c hdn-n_prnth_c n-n_num-seq_c
+        [...].
+</code></pre></div></div>
+
+<h5 id="lkb-14">LKB</h5>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code></code></pre></div></div>
+
+<h3 id="chart-packing">Chart Packing</h3>
+
+<h5 id="ace-15">ACE</h5>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>parsing-packing-restrictor    := RELS HCONS ICONS RNAME +TI +LL +TG.
+generation-packing-restrictor := ORTH RELS HCONS RNAME.
+
+chart-dependencies :=
+  "SYNSEM LKEYS --+COMPKEY" "SYNSEM LOCAL CAT HEAD MINORS MIN"
+  "SYNSEM LKEYS --+OCOMPKEY" "SYNSEM LOCAL CAT HEAD MINORS MIN"
+  "SYNSEM LKEYS --+ARGIND" "SYNSEM LOCAL CONT HOOK INDEX"
+.
+process-chart-dependencies-before-lexical-parsing := no.
+</code></pre></div></div>
+
+<h5 id="lkb-15">LKB</h5>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>#+:null
+(defparameter *chart-packing-p* t)
+
+(defparameter *packing-restrictor*
+  '(RELS HCONS ICONS RNAME ONSET)
+  "restrictor used when parsing with ambiguity packing")
+
+(defparameter *chart-dependencies*
+  '((SYNSEM LKEYS --+COMPKEY) (SYNSEM LOCAL CAT HEAD MINORS MIN)
+    (SYNSEM LKEYS --+OCOMPKEY) (SYNSEM LOCAL CAT HEAD MINORS MIN)
+    (SYNSEM LKEYS --COMPHD) (SYNSEM LOCAL CAT HEAD)
+    (SYNSEM LKEYS --+ARGIND) (SYNSEM --SIND)))
+</code></pre></div></div>
+
+<h3 id="mrs">MRS</h3>
+
+<h5 id="ace-16">ACE</h5>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>invent-ltop := yes.
+</code></pre></div></div>
+
+<h5 id="lkb-16">LKB</h5>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(setf *sem-relation-suffix* "_rel")
+(setf *value-feats* `(,(vsym "CARG")))
+(defparameter *mrs-normalization-heuristics*
+  '(("JJ[RS]?" nil "_~a_a_unknown_rel")
+    ("(?:FW|NN)" nil "_~a_n_unknown_rel")
+    ("NNS" nil "_~a_n_unknown_rel")
+    ("RB" nil "_~a_a_unknown_rel")
+    ("VBP?" :v_3s-fin_olr "_~a_v_unknown_rel")
+    ("VBD" :v_pst_olr "_~a_v_unknown_rel")
+    ("VBG" :v_prp_olr "_~a_v_unknown_rel")
+    ("VBN" :v_psp_olr "_~a_v_unknown_rel")
+    ("VBZ" :v_3s-fin_olr "_~a_v_unknown_rel")))
+(defun normalize-mrs (mrs)
+  (loop
+      for ep in (psoa-liszt mrs)
+      for pred = (rel-pred ep)
+      when (stringp pred) do
+        (loop
+            for (tag rule pattern) in *mrs-normalization-heuristics*
+            for re = (format nil "^_([^_]+)/~a_u_unknown_rel$" tag)
+            thereis
+              (multiple-value-bind (start end starts ends) (ppcre:scan re pred)
+                (when (and start end)
+                  (let* ((form (subseq pred (aref starts 0) (aref ends 0)))
+                         (form (string-upcase form)))
+                    (cond
+                     #+:lkb
+                     (rule
+                      (let* ((stems (lkb::one-step-morph-analyse form))
+                             (stem (first (rassoc (intern rule :lkb) stems))))
+                        (when stem
+                          (setf (rel-pred ep)
+                            (format nil pattern (string-downcase stem))))))
+                     (t
+                      (setf (rel-pred ep)
+                        (format nil pattern (string-downcase form))))))))))
+  mrs)
+(setf *normalize-predicates-p* t)
+
+(setf *feat-priority-list*
+  `( ,(vsym "LTOP") ,(vsym "INDEX") ,(vsym "LBL")
+     ,(vsym "ARG0") ,(vsym "ARG1") ,(vsym "ARG2") ,(vsym "ARG3")
+     ,(vsym "RSTR") ,(vsym "BODY")
+     ,(vsym "MARG") ,(vsym "CARG")))
+</code></pre></div></div>
+
+<h3 id="other-settings">Other Settings</h3>
+
+<h5 id="ace-17">ACE</h5>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>english-pos-tagger        := enabled.  ; ERG-specific
+extra-erg-dag-stash       := enabled.  ; ERG-specific
+simplify-lexicon          := enabled.
+generalize-edge-top-types := enabled.  ; sets top type of passive edge to 'sign'
+freezer-megabytes         := 512.
+</code></pre></div></div>
+
+<h5 id="lkb-17">LKB</h5>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(defparameter *active-parsing-p* t)
+(defparameter *irregular-forms-only-p* t)
+(defparameter *display-type-hierarchy-on-load* nil)
+(defparameter *lexdb-dump-source* "LinGO")
+(defparameter *lexdb-dump-lang* "EN")
+(defparameter *lexdb-dump-country* "US")
+(defparameter *chart-limit* 100)
+(defparameter *maximum-number-of-edges* 4000)
+(defparameter *mother-feature* NIL
+   "The feature giving the mother in a grammar rule")
+(defparameter *mal-active-p* t)
+(defparameter *maximal-lex-rule-applications* 7
+   "The number of lexical rule applications which may be made
+   before it is assumed that some rules are applying circularly")
+(defparameter *dag-pool-size* 200000)
+(defparameter *dag-pool*
+  (if (and (pool-p *dag-pool*)
+           (not (= (pool-size *dag-pool*) *dag-pool-size*)))
+    (create-pool *dag-pool-size* #'(lambda () (make-safe-dag-x nil nil)))
+    *dag-pool*))
+(defparameter *last-parses*
+  (let ((symbol (find-symbol "*LAST-PARSES*" :lkb)))
+    (if (and (boundp symbol) (rest (symbol-value symbol)))
+      (symbol-value symbol)
+      '("Abrams hired two competent programmers."))))
+(setf *intersective-rule-names* nil
+  #+:null
+  '((aj-hd_int_c . (1)) (nadj_rr_nt . (2))))
+(setf *translate-grid* '(:en . (:en)))
+(setf *c-cont-check-path* nil)
+
+(setf *top-level-rel-types*  nil)
+(defparameter *mrs-to-vit* nil)
+(defparameter *mrs-for-language* 'english)
+(defparameter *mrs-scoping* nil)
+(setf *scoping-call-limit* 1000000)
+(setf *rel-name-path* `(,(vsym "PRED") ))
+(defparameter *mrs-rule-condition-path* (list (vsym "CONTEXT")))
+(setf *maximum-genindex-relations* 500)
+</code></pre></div></div>
+
+<h2 id="proposal">Proposal</h2>
+
+<p>The TDL-like declarative config seems the most portable, as we can’t
+expect non-Lisp-based processors to understand the Lisp calls of the
+LKB’s script files. However it would be better if the config files were
+more compliant with the TDL syntax. For this, we suggest using a new
+config environment in TDL:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>:begin :config.
+...
+:end :config.
+</code></pre></div></div>
+
+<p>Settings that are shared by the various processors go in this
+environment. Those that are specific to a particular processor need to
+be separated somehow. There are two sub-proposals for these separate
+sections.</p>
+
+<h3 id="sub-proposal-1-conditionals">Sub-proposal 1: Conditionals</h3>
+
+<p>We could define a new pseudo-environment that is read if some condition
+is met. For instance:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>:begin :config.
+...
+
+:if ACE.
+quickcheck-code           := "../ace/ace-erg-qc.txt".
+
+:elif LKB.
+maximum-number-of-edges   := 4000.
+
+:endif.
+:end :config.
+</code></pre></div></div>
+
+<p>We might allow boolean operations in the condition:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>:if EDUC | MAL.
+start-symbol := root_strict root_informal.
+:endif.
+</code></pre></div></div>
+
+<p>These conditions increase the ability of a single config file for
+handling multiple processors or configurations, but it also increases
+the complexity for parsing and interpretation; the processor would need
+to handle :if, :elif, :else, and :endif, the boolean operators, and
+maybe parenthesized boolean expressions.</p>
+
+<p>Another possible syntax for conditionals is as an optional parameter for
+the config environment:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>:begin :config.
+grammar-version := "ERG (2020)".
+...
+
+  :begin :config ACE.
+  quickcheck-code := "../ace/ace-erg-qc.txt".
+  :end :config.
+
+  :begin :config LKB.
+  maximum-number-of-edges   := 4000.
+  :end :config.
+
+:end :config.
+</code></pre></div></div>
+
+<h3 id="sub-proposal-2-including-sub-config-files">Sub-proposal 2: Including Sub-config Files</h3>
+
+<p>Alternatively, we could handle most configurations by having multiple
+config files. To reduce redundancy, we could use core config files via
+:include statements, which are already supported by TDL.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>;;; lkb-educ-config.tdl
+:begin :config.
+:include "core-config.tdl".
+:include "lkb-config.tdl".
+:include "educ-config.tdl".
+:end :config.
+
+;;; lkb-config.tdl
+:begin :config.
+maximum-number-of-edges   := 4000.
+...
+:end :config.
+
+;;; educ-config.tdl
+:begin :config.
+start-symbol := root_strict root_informal.
+...
+:end :config.
+</code></pre></div></div>
+
+<p>This keeps the changes to the TDL spec to a minimum, but they cause a
+proliferation of individual config files.</p>
+
+<h2 id="example">Example</h2>
+
+<p>Here is an attempt at an example configuration. First is a file with
+default values. If the grammar doesn’t change these, they do not need to
+be configured (but I :include them anyway to be complete). You might
+imagine the Matrix grammars would use some variant of this.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>;;; configs/defaults.tdl
+:begin :config.
+
+;; Lists
+list-type       := *list*.
+cons-type       := *cons*.
+empty-list-type := *null*.
+diff-list-type  := *diff-list*.
+list-tail       := REST.
+list-head       := FIRST.
+diff-list-list  := LIST.
+diff-list-last  := LAST.
+
+;; Types
+top-type            := *top*.
+string-type         := string.
+top-semantics-type  := predsort.
+false-type          := -.
+true-type           := +.
+label-template-type := label.
+token-type          := token.
+
+;; Features
+sc-arg-feature      := HARG.
+outscpd-feature     := LARG.
+bv-feature          := ARG0.
+scope-feature       := BODY.
+icons-left-feature  := IARG1.
+icons-right-feature := IARG2.
+
+;; Feature Paths
+orth-path               := ORTH.
+head-path               := SYNSEM LOCAL CAT HEAD.
+head-daughter-path      := HD-DTR.
+semantics-path          := SYNSEM LOCAL CONT.
+lex-rels-path           := SYNSEM LOCAL CONT RELS.
+lex-carg-path           := SYNSEM LKEYS KEYREL CARG.
+lex-pred-path           := SYNSEM LKEYS KEYREL PRED.
+rule-rels-path          := C-CONT RELS.
+label-path              := LNAME.
+prefix-path             := META-PREFIX.
+suffix-path             := META-SUFFIX.
+local-path              := SYNSEM LOCAL.
+recursive-path          := SYNSEM NONLOC SLASH LIST FIRST.
+discriminant-path       := SYNSET LOCAL MINORS MIN.
+hook-path               := HOOK.
+hook-index-path         := HOOK INDEX.
+hook-top-path           := HOOK LTOP.
+mrs-hcons-list          := HCONS LIST
+mrs-icons-list          := ICONS LIST.
+mrs-rels-list           := RELS LIST.
+mrs-rel-label-path      := LBL.
+lexicon-tokens-path     := TOKENS +LIST.
+lexicon-last-token-path := TOKENS +LAST.
+token-form-path         := +FORM.
+token-id-path           := +ID.
+token-from-path         := +FROM.
+token-to-path           := +TO.
+
+;; External Interfaces
+semantic-interface-top-type := top.
+ignored-sem-features        := LNK CFROM CTO.
+
+:end :config.
+</code></pre></div></div>
+
+<p>And here is the main config for the ERG:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>;;; config.tdl
+:begin :config.
+grammar-version    := "ERG (2020)".
+character-encoding := "utf-8".
+
+:include "configs/defaults.tdl".
+
+;; Grammar Loading
+:include "english.tdl".
+irregular-forms    := "irregs.tab".
+
+;; Features
+deleted-daughters   := ARGS HD-DTR NH-DTR LCONJ-DTR RCONJ-DTR DTR DTR1 DTR2 DTRA DTRB.
+
+;; Chart Mapping
+token-postags-path      := +TNT +TAGS.
+token-posprobs-path     := +TNT +PRBS.
+
+;;; (to be continued)
+:end :config.
+</code></pre></div></div>
+
+<h2 id="questions">Questions</h2>
+
+<h3 id="repeated-settings-conflict-or-reassignment">Repeated Settings: Conflict or Reassignment?</h3>
+
+<p>If a setting is present two or more times, do the successive occurrences
+cause an error (like feature that don’t unify) or do they overwrite the
+previous occurrences, like variable reassignment? The latter would
+probably be more useful, but it changes the TDL paradigm within the
+config environment.</p>
+
+<p>Last update: 2022-09-14 by EricZinda [<a href="https://github.com/delph-in/docs/wiki/GrammarConfigurationRfc/_edit">edit</a>]</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+<!--Scroll the navbar to the current page-->
+<script type="text/javascript">
+  let el = document.querySelector('.nav__list .active');
+  if(el){
+    el.scrollIntoView({block: "center", inline: "start"});
+  }
+</script>
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/docs/tools/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/docs/tools/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/docs/tools/assets/js/lunr/lunr.min.js"></script>
+<script src="/docs/tools/assets/js/lunr/lunr-store.js"></script>
+<script src="/docs/tools/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

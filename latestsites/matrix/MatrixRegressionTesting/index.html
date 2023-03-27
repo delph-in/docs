@@ -1,0 +1,1033 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>DELPH-IN Grammar Matrix</title>
+<meta name="description" content="An amazing website.">
+
+
+  <meta name="author" content="Your Name">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="DELPH-IN Grammar Matrix">
+<meta property="og:title" content="DELPH-IN Grammar Matrix">
+<meta property="og:url" content="https://delph-in.github.io/docs/matrix/MatrixRegressionTesting/">
+
+
+  <meta property="og:description" content="An amazing website.">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://delph-in.github.io/docs/matrix/MatrixRegressionTesting/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Your Name",
+      "url": "https://delph-in.github.io/docs/matrix/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/docs/matrix/feed.xml" type="application/atom+xml" rel="alternate" title="DELPH-IN Grammar Matrix Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/docs/matrix/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--delphin_page wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/docs/matrix/"><img src="/docs/matrix/assets/images/Delph-In.png" alt="DELPH-IN Grammar Matrix"></a>
+        
+        <a class="site-title" href="/docs/matrix/">
+          DELPH-IN Grammar Matrix
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/home/Home">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/howto/DelphinWelcome">How-To</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/erg/ErgTop">ERG</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/tools/ToolsTop">Tools</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/grammars/GrammarsOverview">Grammars</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/matrix/MatrixDocsOverview">Matrix</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/summits/SummitTop">Summits</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/garage/GarageTop">Garage</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammar Matrix Docs</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixDocsOverview/">Overview</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Overview and Tools</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixTop/">Overview</a></li>
+          
+            <li><a href="/docs/matrix/MatrixGettingStarted/">Getting Started</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDevTop/">Development Overview</a></li>
+          
+            <li><a href="/docs/matrix/Updating_the_Customization_System/">Customization System</a></li>
+          
+            <li><a href="/docs/matrix/MatrixCustomizationUnitTesting/">Customization Unit Testing</a></li>
+          
+            <li><a href="/docs/matrix/MatrixCustomizationWebTesting/">Customization Web Testing</a></li>
+          
+            <li><a href="/docs/matrix/MatrixRegressionTesting/" class="active">Regression Testing</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_TestSentences/">Test Sentences</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_TestByGeneration/">Test By Generation</a></li>
+          
+            <li><a href="/docs/matrix/MatrixWishList/">Wish List</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammar Engineering</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixDevBlueprints/">Dev Blueprints</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDevConventions/">Dev Conventions</a></li>
+          
+            <li><a href="/docs/matrix/GrammarDevelopment/">Grammar Development</a></li>
+          
+            <li><a href="/docs/matrix/MatrixLibraryDevelopment/">Library Development</a></li>
+          
+            <li><a href="/docs/matrix/MatrixLibraryWishList/">Library WishList</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMorphology/">Morphology</a></li>
+          
+            <li><a href="/docs/matrix/PythonIdioms/">Python Idioms</a></li>
+          
+            <li><a href="/docs/matrix/MatrixRegressionTestingSetup/">Regression Testing Setup</a></li>
+          
+            <li><a href="/docs/matrix/MatrixRegressionTestingSetupMac/">Regression Testing Setup (Mac)</a></li>
+          
+            <li><a href="/docs/matrix/MatrixTDBProcedures/">TDB Procedures</a></li>
+          
+            <li><a href="/docs/matrix/MatrixTDB2Tables/">TDB2 Tables</a></li>
+          
+            <li><a href="/docs/matrix/MatrixValidationDebugging/">Validation Debugging</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Matrix Doc</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixDocTop/">Overview</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_AdnominalPossession/">Adnominal Possession</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_ArgumentOptionality/">Argument Optionality</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Case/">Case</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_ClausalComplements/">Clausal Complements</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_ClausalModifiers/">Clausal Modifiers</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Coordination/">Coordination</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_DirectInverse/">Direct Inverse</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Evidentials/">Evidentials</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Gender/">Gender</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_GeneralInfo/">General Info</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_ImportToolboxLexicon/">Import Toolbox Lexicon</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_InformationStructure/">Information Structure</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Lexicon/">Lexicon</a></li>
+          
+            <li><a href="/docs/matrix/matrixdef_File_Syntax/">Matrixdef File Syntax</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Morphology/">Morphology</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_NominalizedClauses/">Nominalized Clauses</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Number/">Number</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_OtherFeatures/">Other Features</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Person/">Person</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_SententialNegation/">Sentential Negation</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_TenseAspectMood/">Tense/Aspect/Mood</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_WhQuestions/">Wh Questions</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_WordOrder/">Word Order</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_YesNoQ/">YesNoQ</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">FAQ</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/GrammarEngineeringFAQ/">Grammar Engineering FAQ</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqFeatureGeometry/">Feature Geometry FAQ</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqChartTwice/">Chart Twice</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqCircularLexRule/">Circular Lex Rule</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqClickX/">Click X</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqConfusingTypo/">Confusing Typo</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqCyclicCheck/">Cyclic Check</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqDiffList/">Diff List</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqDisjunctiveValue/">Disjunctive Value</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqDistributedDisjunction/">Distributed Disjunction</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqExpandMenu/">Expand Menu</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqExpandedType/">Expanded Type</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqFeatureMultiType/">Feature Multi-Type</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqFindTypeForFeatures/">Find Type For Features</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqForgottenConstraint/">Forgotten Constraint</a></li>
+          
+            <li><a href="/docs/matrix/GeFaq/">GeFaq</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqGotoChar/">Goto Char</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqGrammarDocumentation/">Grammar Documentation</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqInteractiveUnify/">Interactive Unify</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqLkbInstallation/">LKB Installation</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqLispPromptTips/">Lisp Prompt Tips</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqLoadScript/">Load Script</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqKeyboardNotWorking/">Keyboard Not Working</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqMissingEdge/">Missing Edge</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqMissingHowTo/">Missing How-To</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqMissingRels/">Missing Rels</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNegValue/">Neg Value</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNewFeature/">New Feature</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoEntry2/">No Entry 2</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoError/">No Error</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoPossibleType/">No Possible Type</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoRule/">No Rule</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoSign/">No Sign</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNonAlpha/">Non-Alpha</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqOverApplicationLexRule/">Over Application Lex Rule</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqOrderMatters/">Order Matters</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqPasteShortcut/">Paste Shortcut</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRightBracket/">Right Bracket</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRootFail/">Root Fail</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRuleWithoutDaughter/">Rule Without Daughter</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRuleWithoutDaughters/">Rule Without Daughters</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRunawayRule1/">Runaway Rule 1</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRunawayRule2/">Runaway Rule 2</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqShowChart/">Show Chart</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqSpanningEdge/">Spanning Edge</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqSwitchingGrammars/">Switching Grammars</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqTabIndentation/">Tab Indentation</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqTdlSyntax/">TDL Syntax</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqTdlTxt/">TDL TXT</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqTypeAddendum/">Type Addendum</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqUnicodeInput/">Unicode Input</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqUnifySurprise/">Unify Surprise</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqViewEntry/">View Entry</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqViewHierarchy/">View Hierarchy</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqViewType/">View Type</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">MRS Tests</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuite/">Overview</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteBg/">Bulgarian</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteCantonese/">Cantonese</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsCatb/">Cathedral Test</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteEn/">English</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteFr/">French</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteDe/">German</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteGr/">Greek</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteIndonesian/">Indonesian</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteJa/">Japanese</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteMandarin/">Mandarin</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteNo/">Norwegian</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuitePt/">Portuguese</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteRu/">Russian</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteSv/">Swedish</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteTatoeba/">Tatoeba</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteZhTw/">ZhTw</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <h1 id="regression-testing">Regression Testing</h1>
+
+<p>Before any changes are committed to trunk or vivified to the live site,
+developers must verify the correctness of the system by running
+regression tests. These tests are a series of saved choices files, test
+suites, and gold-standard parsing profiles.</p>
+
+<h2 id="regression-testing-with-pydelphin">Regression Testing with Pydelphin</h2>
+
+<p>The most modern framework for regression testing is with
+<a href="https://delph-in.github.io/docs/tools/PyDelphinTop">pydelphin</a>. It works on Linux and Mac OSX, and only
+requires that you check out the Matrix code and install pydelphin and
+<a href="https://delph-in.github.io/docs/tools/AceTop">ACE</a>. Pydelphin allows you to:</p>
+
+<ul>
+  <li><a href="https://delph-in.github.io/docs/matrix/MatrixRegressionTesting">Create</a> and <a href="https://delph-in.github.io/docs/matrix/MatrixRegressionTesting">update</a> regression tests</li>
+  <li><a href="https://delph-in.github.io/docs/matrix/MatrixRegressionTesting">Run</a> all or some of the regression tests listed in the regression-test-index file (located in <code class="language-plaintext highlighter-rouge">gmcs/regression_tests/</code>)</li>
+</ul>
+
+<p>Note that you should refer to the official <a href="https://pydelphin.readthedocs.io/en/latest/">pydelphin
+docs</a> for the information
+on how to use it in general.</p>
+
+<p>Also note that you should not forget to manually add new tests to git.
+This might be for the better as it encourages extra care (we have
+problems in the past with empty gold profiles being automatically added
+to svn, etc).</p>
+
+<p>Last but not least, note that, while pydelphin allows you to inspect the
+MRS and compare two profiles, it has no GUI and will not allow you to
+click around the MRS, highlight variables, click on results to see trees
+and feature structures etc. Therefore, it is recommended that you still
+use [incr tsdb()] to inspect the gold profiles before adding new
+tests.</p>
+
+<p><a href="https://delph-in.github.io/docs/matrix/MatrixRegressionTesting">Click here</a> to see the information
+on the original regression testing framework.</p>
+
+<p><a name="run"></a></p>
+
+<h3 id="running-regression-tests">Running regression tests</h3>
+
+<p>NB: Below, it is assumed that your matrix/trunk and any matrix/branches
+are located right in your home directory. Please adjust according to
+your actual directory structure.</p>
+
+<p>After you have <a href="https://delph-in.github.io/docs/matrix/MatrixDevTop">checked out the matrix code</a>
+and have descended into the matrix/trunk directory (or to your branch),
+create and activate a virtual environment (not necessary but strongly
+recommended):</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[~]$ cd matrix/trunk
+[~/matrix/trunk]$ virtualenv -p python3 py3env
+[~/matrix/trunk]$ source py3env/bin/activate
+</code></pre></div></div>
+
+<p>Now install pydelphin v. 1.0:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(py3env) [~/matrix/trunk]$ pip install pydelphin
+</code></pre></div></div>
+
+<p>Now, assuming you have got ACE added to your PATH, you can simply run
+all the regression tests which are listed in
+gmcs/regression_tests/regression-test-index:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(py3env) [~/matrix/trunk] ./rtest.py
+</code></pre></div></div>
+
+<p>Or, you can run a specific test:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(py3env) [~/matrix/trunk] ./rtest.py Cree
+</code></pre></div></div>
+
+<p>Or, a number of tests starting with some string:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(py3env) [~/matrix/trunk] ./rtest.py adj*
+</code></pre></div></div>
+
+<h3 id="creating-a-new-regression-test">Creating a new regression test</h3>
+
+<p>To add a new regression test:</p>
+
+<ol>
+  <li>Come up with a meaningful name for the test, e.g.
+wh3-svo-sg-oblig-det for “wh-questions library, test number 3, a
+pseudolanguage which has SVO word order, obligatory single fronting,
+and determiners”. Adding a number to your test name can be helpful
+for later debugging; it is easier to grab a profile/log by a number
+than by a long name among other long names consisting of the same
+parts (e.g. sov-aux-before-v vs svo-aux-before-v can be easily
+confused).</li>
+  <li>You probably have a grammar corresponding to this new test which you
+created with the Grammar Matrix system. Take a note of the location
+of the choices file and the test_sentences file, or put them
+somewhere convenient, such as tests/regression/scratch/.</li>
+  <li>Run rtest.py with the –add command:</li>
+</ol>
+
+<!-- -->
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(py3env) [~/matrix/trunk] ./rtest.py --add tests/regression/scratch/choices tests/regression/scratch/test_sentences myNewTestName
+</code></pre></div></div>
+
+<h3 id="removing-a-regression-test">Removing a regression test</h3>
+
+<p>If something is not right, you can always remove a fully or partially
+created test by running:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(py3env) [~/matrix/trunk] ./rtest.py --remove myOldTestName
+</code></pre></div></div>
+
+<h3 id="updating-a-regression-test">Updating a regression test</h3>
+
+<p>Sometimes gold profiles contain mistakes or at any rate, the current
+profile is preferable over the gold one. In this case, the gold profile
+should simply be replaced by the current one. You can do this by
+running:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(py3env) [~/matrix/trunk] ./rtest.py --update TestName
+</code></pre></div></div>
+
+<h3 id="debugging-regression-diffs">Debugging regression diffs</h3>
+
+<p>If some of the tests fail, look in the corresponding log file. For
+example, you might see there:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  Current profile: MyBranch/tests/regression/home/current/testname
+  Gold profile:    MyBranch/tests/regression/home/gold/testname
+  1                                        &lt;0,1,0&gt;
+  3                                        &lt;0,1,0&gt;
+  5                                        &lt;0,1,0&gt;
+  7                                        &lt;0,1,0&gt;
+  10                                       &lt;0,1,0&gt;
+  11                                       &lt;1,0,1&gt;
+  15                                       &lt;0,1,0&gt;
+  16                                       &lt;0,1,0&gt;
+Result: FAIL
+</code></pre></div></div>
+
+<p>The above log is telling you that item whose ID is 11 is parsed
+differently in the current and the gold profiles. You can tell because
+it has 0 results in the middle column which is the shared results
+column. The other columns are for unique results in current and gold, so
+for a test to pass, those columns should have zeros.</p>
+
+<p>To inspect, you can either use [incr tsdb()] or pydelphin, as below:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>     (py3env) [~/matrix/trunk] delphin select 'mrs where i-id = 11' tests/regression/home/gold/testname/ | delphin convert --indent
+     (py3env) [~/matrix/trunk] delphin select 'mrs where i-id = 11' tests/regression/home/current/testname/ | delphin convert --indent
+</code></pre></div></div>
+
+<p>That will nicely display the two MRS in your terminal (you may need to
+install delphin highlight plugin:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    pip install delphin.highlight
+</code></pre></div></div>
+
+<h2 id="classical-logon-dependent-system-for-regression-testing">Classical (LOGON-dependent) system for regression testing</h2>
+
+<p>This older testing framework uses the customization system to create a
+grammar from the choices file, then uses [incr tsdb()] and ACE to
+parse the test suite with the grammar and verify the results are the
+same as those in the gold-standard profile.</p>
+
+<p>See below for information on how to <a href="/MatrixRegressionTesting#run">run</a>,
+<a href="/MatrixRegressionTesting#update">update</a>,
+<a href="/MatrixRegressionTesting#add">add</a>, or
+<a href="/MatrixRegressionTesting#maintain">maintain</a> regression tests, as well
+as a description of the <a href="/MatrixRegressionTesting#directory">directory
+structure</a> of the regression test
+framework.</p>
+
+<p>Regression testing works with ACE (<a href="https://delph-in.github.io/docs/tools/AceTop">AceTop</a>) for speed and
+handling ICONS. As of September 18th, 2014, it takes about 8 minutes
+with 273 choices files. Regression testing with ACE requires about 2 GB
+free disk space on your machine. You can download the latest version of
+ACE <a href="http://sweaglesw.org/linguistics/ace/download">here</a>.</p>
+
+<h2 id="setting-up-a-regression-testing-environment">Setting Up a Regression Testing Environment</h2>
+
+<p>Regression tests require a system with Ubuntu 12.04+, emacs23+, LOGON,
+ACE, and other requirements. For a step by step guide to setting up a
+virtual machine that meets these requirements, see
+<a href="https://delph-in.github.io/docs/matrix/MatrixRegressionTestingSetup">MatrixRegressionTestingSetup</a>.</p>
+
+<p>Note if you try to run most or all of the tests in one command, a
+current bug results in all of the tests producing errors. To avoid this
+bug, change the user limit to at least above 10,000. For instance, in
+Ubuntu, the limit can be changed by editing this file:
+/etc/security/limits.conf</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>* soft nofile 40000
+* hard nofile 40000
+</code></pre></div></div>
+
+<p>Then, you can change it at the terminal:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>ulimit -n 40000
+</code></pre></div></div>
+
+<p>Logout and login to initiate this change.</p>
+
+<h2 id="running-regression-tests-1">Running Regression Tests</h2>
+
+<p>Before you can run the regression tests, you must make sure the
+environment variables
+<a href="/MatrixDevTop#customizationroot">CUSTOMIZATIONROOT</a> and
+<a href="/MatrixDevTop#aceroot">ACEROOT</a> are set.</p>
+
+<p>To run all tests, run the “regression-test” (short form: “r”) command of
+matrix.py with no arguments:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>python matrix.py regression-test
+</code></pre></div></div>
+
+<p>To run a single test, run the “regression-test” command with the test
+name as the argument:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>python matrix.py regression-test infl-q-aux-verb
+</code></pre></div></div>
+
+<p>You can also run a suite of tests using the wildcard character. The
+following runs all of the tests beginning with “neg”:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>python matrix.py r neg*
+</code></pre></div></div>
+
+<p>For each test, a result will be printed to STDOUT. A correct grammar
+will result in a “Success!” message, while a faulty one will result in a
+“DIFFS!” message. If you ran a single test, the items causing error
+messages will be printed to STDOUT, otherwise they will be repressed.
+The results will also be written to a <a href="/MatrixRegressionTesting#logs">log
+file</a>.</p>
+
+<p>After running the tests, check the <a href="/MatrixRegressionTesting#logs">logs</a>
+for differences, and either fix the regressions or
+<a href="/MatrixRegressionTesting#update">update</a> any progressions.</p>
+
+<h2 id="checking-logs">Checking Logs</h2>
+
+<p>The results of a run of the regression tests are saved in several log
+files. These files are:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    gmcs/
+        regression_tests/
+            logs/
+                regression-tests.date
+                test-name.date
+                tsdb.date
+</code></pre></div></div>
+
+<ul>
+  <li>“regression-tests.date” shows the “Success!”/”DIFFS!” messages for
+each test, and the items causing diffs.</li>
+  <li>“test-name.date” shows the diffs from a particular test.</li>
+  <li>“tsdb.date” shows the output of [incr tsdb()], which may be useful
+in debugging (if the grammar fails to load, for instance).</li>
+</ul>
+
+<p>Note: The date is only granular to the day, so multiple runs in a single
+day are in the same file.</p>
+
+<h2 id="updating-regression-tests">Updating Regression Tests</h2>
+
+<p>Sometimes, changes to the customization system yield grammars that
+perform <em>better</em> that the gold standard. These changes will produce a
+“DIFFS!” result, but it is not necessarily a bad thing. After opening
+the current and gold profiles in [incr tsdb()] and verifying (by hand)
+that the current results are more desirable, you can update the gold
+standard to use the current results. This is done with the
+“regression-test-update” (short form: “ru”) command of matrix.py, and
+with the name of the test as an argument. This command is designed to be
+used after discovering a difference. It relies on the new gold standard
+file being stored in the testing environment
+(regression_testing/home/current), so make sure to run the test first:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>python matrix.py r test-to-update
+python matrix.py ru test-to-update
+</code></pre></div></div>
+
+<p>This should add the new gold standard files to svn, so be sure to commit
+them!</p>
+
+<h2 id="adding-regression-tests">Adding Regression Tests</h2>
+
+<p>Whenever a new feature is added to the customization system, regression
+tests should be created to test this feature. Regression tests consist
+of a choices file and a test suite. Choices files can be any set of
+choices in the choices file format, but they must validate.</p>
+
+<p>Ensure that the Grammar Matrix produces the grammar you expect given the
+choices file <strong>before</strong> adding the test. Here is a general workflow:</p>
+
+<ol>
+  <li>Create txtsuite file with the sentences for the testsuite</li>
+  <li>Create the corresponding choices file</li>
+  <li>Use the current customization system version to create a grammar
+from the choices file</li>
+  <li>Start up the lkb &amp; [incr tsdb()]</li>
+  <li>Load the grammar into the lkb</li>
+  <li>In [incr tsdb()] use “import test items” to create a test suite
+profile from the txtsuite file</li>
+  <li>In [incr tsdb()] use “process | all items” to parse the test
+items with the grammar</li>
+  <li>In [incr tsdb()] use “browse | results” to <strong>manually</strong> explore
+both grammaticality and MRSs for each test item</li>
+  <li>Adjust the customization system until the previous step yields the
+desired result</li>
+  <li>For each change to the customization system, ensure that all other
+regression tests continue to pass</li>
+</ol>
+
+<p>Tests take their name from the choices file’s language name, so make
+sure to name each language appropriately. Generally, test/language names
+follow this general template: LIBRARY-PHENOMENON-INSTANCE; e.g.
+“neg-head-comp-vpauxbefore-compbefore”. However, this is not an enforced
+standard.</p>
+
+<p>Test suites are text files with one test item per line, negative
+(ungrammatical) items marked with an asterisk (*), such as:</p>
+
+<ul>
+  <li>he likes her</li>
+  <li>the boy plays</li>
+  <li>the dog barks</li>
+  <li>*he likes she</li>
+  <li>*the boy play</li>
+  <li>*the dogs barks</li>
+</ul>
+
+<p>New regression tests are created using matrix.py. First, put your
+choices file and test suite file into
+mybranch/gmcs/regression_tests/scratch/, and then do the following:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>python matrix.py regression-test-add CHOICES_FILENAME TXT-SUITE_FILENAME
+</code></pre></div></div>
+
+<p>CHOICES_FILENAME and TXT-SUITE_FILENAME are just the filenames (not
+the full paths) of the files you added into the scratch/ directory.</p>
+
+<p>This is what regression-test-add does under the bonnet (paths relative
+to gmcs/regression_tests):</p>
+
+<ol>
+  <li>Customizes a grammar from the choices file</li>
+  <li>Compiles the grammar with ACE</li>
+  <li>Copies the choices file to choices/ and test suite to txt-suites/</li>
+  <li>Adds the regression test to regression-test-index</li>
+  <li>Creates an unparsed profile</li>
+  <li>Parses the profile with ACE and art</li>
+  <li>Uses the parsed profile as gold (in home/gold/lang-name/), and the
+item and relations files for a skeleton (in skeletons/lang-name)</li>
+  <li>Updates the skeletons index (skeletons/Index.lisp)</li>
+</ol>
+
+<p>Make sure to test your regression test after you add it:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>python matrix.py regression-test NAME_OF_TEST_LANGUAGE
+</code></pre></div></div>
+
+<p>When you’re finished adding all your regression tests:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>svn commit
+</code></pre></div></div>
+
+<p>If you’re having trouble, make sure your
+<a href="/MatrixDevTop#customizationroot">CUSTOMIZATIONROOT</a> and
+<a href="/MatrixDevTop#aceroot">ACEROOT</a> are set up properly and take a look at
+<a href="https://delph-in.github.io/docs/matrix/MatrixRegressionTestingSetup">MatrixRegressionTestingSetup</a></p>
+
+<h2 id="maintaining-regression-tests">Maintaining regression tests</h2>
+
+<p>DO avoid editing regression-test-index directly or changing the contents
+of choices/ txt-suites/ skeletons/ or home/gold by hand. This code is
+probably fairly brittle wrt to files not being where they are expected.</p>
+
+<p>Otherwise, no need to do anything here: We want choices files in old
+versions so that we are routinely testing the up-rev code.</p>
+
+<h2 id="directory-structure">Directory structure:</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>regression_tests/
+        add_regression_test.py
+        call-customize
+        run_regression_tests.sh
+        regression-test-Index
+        regressiontestindex.py
+        update-gold-standard.sh
+        choices/
+        txt-suites/
+        skeletons/      [tsdb skeletons]
+                Index.lisp
+        home/           [tsdb home]
+                gold/
+                current/
+        grammars/
+        logs/
+        scratch/
+</code></pre></div></div>
+
+<h2 id="notes">Notes</h2>
+
+<p>A typical reason for all tests failing is using a wrong customization
+root.</p>
+
+<p>Everything in the home/current/, grammars/, and logs/ subdirectories is
+placed there and named by the scripts.</p>
+
+<p>Language name in choices file used as the basis of the naming. We need a
+convention for them :slightly_smiling_face:</p>
+
+<p>Last update: 2022-03-01 by Guy Emerson [<a href="https://github.com/delph-in/docs/wiki/MatrixRegressionTesting/_edit">edit</a>]</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+<!--Scroll the navbar to the current page-->
+<script type="text/javascript">
+  let el = document.querySelector('.nav__list .active');
+  if(el){
+    el.scrollIntoView({block: "center", inline: "start"});
+  }
+</script>
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/docs/matrix/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/docs/matrix/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/docs/matrix/assets/js/lunr/lunr.min.js"></script>
+<script src="/docs/matrix/assets/js/lunr/lunr-store.js"></script>
+<script src="/docs/matrix/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

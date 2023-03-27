@@ -1,0 +1,814 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>DELPH-IN Garage</title>
+<meta name="description" content="An amazing website.">
+
+
+  <meta name="author" content="Your Name">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="DELPH-IN Garage">
+<meta property="og:title" content="DELPH-IN Garage">
+<meta property="og:url" content="https://delph-in.github.io/docs/garage/LkbLtdb/">
+
+
+  <meta property="og:description" content="An amazing website.">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://delph-in.github.io/docs/garage/LkbLtdb/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Your Name",
+      "url": "https://delph-in.github.io/docs/garage/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/docs/garage/feed.xml" type="application/atom+xml" rel="alternate" title="DELPH-IN Garage Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/docs/garage/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--delphin_page wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/docs/garage/"><img src="/docs/garage/assets/images/Delph-In.png" alt="DELPH-IN Garage"></a>
+        
+        <a class="site-title" href="/docs/garage/">
+          DELPH-IN Garage
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/home/Home">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/howto/DelphinWelcome">How-To</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/erg/ErgTop">ERG</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/tools/ToolsTop">Tools</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/grammars/GrammarsOverview">Grammars</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/matrix/MatrixDocsOverview">Matrix</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/summits/SummitTop">Summits</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/garage/GarageTop">Garage</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Overview</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/GarageTop/">Overview</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammar Tools</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/AgreeTop/">Agree</a></li>
+          
+            <li><a href="/docs/garage/ChartMapping/">Chart Mapping</a></li>
+          
+            <li><a href="/docs/garage/ChartMappingSetup/">Chart Mapping Setup</a></li>
+          
+            <li><a href="/docs/garage/ClimbTop/">CLIMB</a></li>
+          
+            <li><a href="/docs/garage/Climb_GClimb/">CLIMB for Germanic languages</a></li>
+          
+            <li><a href="/docs/garage/DelphinTools/">Delphin Tools</a></li>
+          
+            <li><a href="/docs/garage/EgadTop/">Erroneous Generation Analysis and Detection (EGAD)</a></li>
+          
+            <li><a href="/docs/garage/EgadInstallation/">EGAD Installation</a></li>
+          
+            <li><a href="/docs/garage/SafFspp/">Finite-State PreProcessor</a></li>
+          
+            <li><a href="/docs/garage/Climb_GClimb_German/">gCLIMB Phenomena</a></li>
+          
+            <li><a href="/docs/garage/GDeltaTop/">gDelta</a></li>
+          
+            <li><a href="/docs/garage/SpringCleaningTop/">Grammar Spring Cleaning</a></li>
+          
+            <li><a href="/docs/garage/HeartofgoldTop/">Heart of Gold</a></li>
+          
+            <li><a href="/docs/garage/HogInstallation/">Hog Installation</a></li>
+          
+            <li><a href="/docs/garage/LkbLtdb/" class="active">Linguistic Type Database</a></li>
+          
+            <li><a href="/docs/garage/ReppTop/">Regular Expression Pre-Processor</a></li>
+          
+            <li><a href="/docs/garage/RmrsDmrsComparison/">Rmrs/Dmrs Comparison</a></li>
+          
+            <li><a href="/docs/garage/ClimbShortClimb/">SHORT-CLIMB</a></li>
+          
+            <li><a href="/docs/garage/TestingWithAnt/">Testing With Ant</a></li>
+          
+            <li><a href="/docs/garage/TypediffTop/">Typediff</a></li>
+          
+            <li><a href="/docs/garage/VistaExtractionTop/">Vista Extraction</a></li>
+          
+            <li><a href="/docs/garage/PhenomenaTop/">Phenomena</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Completed Projects</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/RedwoodsTop/">Redwoods</a></li>
+          
+            <li><a href="/docs/garage/WeScience/">WeScience</a></li>
+          
+            <li><a href="/docs/garage/DeepBank/">DeepBank</a></li>
+          
+            <li><a href="/docs/garage/DeepBank_OneZero/">DeepBank 1.0</a></li>
+          
+            <li><a href="/docs/garage/WikiWoods/">WikiWoods</a></li>
+          
+            <li><a href="/docs/garage/SemCor/">SC corpus</a></li>
+          
+            <li><a href="/docs/garage/OldOverviews/">Old DELPH-IN Overview</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammars (experimental)</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/GrenouilleSummary/">French</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Lexical Semantics</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/LexsemTop/">Overview</a></li>
+          
+            <li><a href="/docs/garage/LexsemMapping/">Mapping</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Machine Translation</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/MachineTranslationTop/">Overview</a></li>
+          
+            <li><a href="/docs/garage/MachineTranslationTutorial/">Tutorial</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Japanese/English Machine Translation</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/MtJaen/">Overview</a></li>
+          
+            <li><a href="/docs/garage/MtSetup/">Setup</a></li>
+          
+            <li><a href="/docs/garage/MtRuleExtraction/">MtRuleExtraction</a></li>
+          
+            <li><a href="/docs/garage/MtJaenFeedbackCleaning/">Feedback Cleaning</a></li>
+          
+            <li><a href="/docs/garage/NE_Tagging_For_Improving_SMT/">Improving SMT</a></li>
+          
+            <li><a href="/docs/garage/MtJaenTanaka/">Tanaka Corpus</a></li>
+          
+            <li><a href="/docs/garage/MtJaenSmt/">Discussion</a></li>
+          
+            <li><a href="/docs/garage/JaenTodo/">Jaen TODO</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Indra/English Transfer Grammar</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/IndraAce/">Ace</a></li>
+          
+            <li><a href="/docs/garage/IndraPreprocessing/">Preprocessing</a></li>
+          
+            <li><a href="/docs/garage/IndraTranslation/">Translation</a></li>
+          
+            <li><a href="/docs/garage/IndraRegressionTest/">RegressionTest</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">WeSearch</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/WeSearch/">WeSearch</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_Ccs/">CCS</a></li>
+          
+            <li><a href="/docs/garage/CcsGroup/">CCS Attendees</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_CcsDayOne/">CCS Day One</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_CcsDayTwo/">CCS Day Two</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_CcsDayThree/">CCS Day Three</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_DesignPrinciples/">WeSearch_DesignPrinciples</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_AnalysisCatalog/">WeSearch_AnalysisCatalog</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_ScopalArgCoord/">WeSearch_ScopalArgCoord</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_ICONS/">WeSearch_ICONS</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_UnderspecifedAttachment/">WeSearch_UnderspecifedAttachment</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_UnderspecifiedPreds/">WeSearch_UnderspecifiedPreds</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_VariablePropertySharing/">WeSearch_VariablePropertySharing</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_DataCollection/">WeSearch_DataCollection</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">PET</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/PetTop/">Overview</a></li>
+          
+            <li><a href="/docs/garage/PetDependencies/">Dependencies</a></li>
+          
+            <li><a href="/docs/garage/PetEclipse/">Eclipse</a></li>
+          
+            <li><a href="/docs/garage/PetRoadMap/">RoadMap</a></li>
+          
+            <li><a href="/docs/garage/PetInput/">Input</a></li>
+          
+            <li><a href="/docs/garage/ReppPet/">ReppPet</a></li>
+          
+            <li><a href="/docs/garage/PetOutput/">Output</a></li>
+          
+            <li><a href="/docs/garage/PetOptions/">Options</a></li>
+          
+            <li><a href="/docs/garage/PetParameters/">Parameters</a></li>
+          
+            <li><a href="/docs/garage/PetSelectiveUnpacking/">Selective Unpacking</a></li>
+          
+            <li><a href="/docs/garage/PetInputFsc/">Input Feature Structure Chart</a></li>
+          
+            <li><a href="/docs/garage/PetInputChart/">Input Chart</a></li>
+          
+            <li><a href="/docs/garage/UtTop/">Ubertagging</a></li>
+          
+            <li><a href="/docs/garage/PetLogging/">Logging</a></li>
+          
+            <li><a href="/docs/garage/PetRobustness/">Robustness</a></li>
+          
+            <li><a href="/docs/garage/FeforPetApi/">PET API Proposal</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Documentation</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/DocsQuickStart/">Quick Start</a></li>
+          
+            <li><a href="/docs/garage/DelphinDocsReference/">Reference</a></li>
+          
+            <li><a href="/docs/garage/ERDW_StructureForNewDocsSite/">Background</a></li>
+          
+            <li><a href="/docs/garage/GoogleSeasonOfDocs2023ProjectProposal/">Season of Docs</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <p>The <strong><em>Linguistic Type Database</em></strong> processes grammars and treebanks to
+make online documentation for grammars made with the <a href="https://delph-in.github.io/docs/tools/LkbTop">LKB</a>.</p>
+
+<p>The code and documentation can mainly be found on github:
+<a href="https://github.com/fcbond/ltdb">https://github.com/fcbond/ltdb</a></p>
+
+<p>The <strong>Linguistic Type Database</strong> (LTDB, née Lextype DB), describes
+instances and types of the grammar with frequency information from the
+treebank if it exists.</p>
+
+<p>Contents</p>
+
+<ol>
+  <li><a href="https://delph-in.github.io/docs/garage/LkbLtdb">Sample In Line Documentation</a>
+    <ol>
+      <li><a href="https://delph-in.github.io/docs/garage/LkbLtdb">Examples</a></li>
+      <li><a href="https://delph-in.github.io/docs/garage/LkbLtdb">Names</a></li>
+    </ol>
+  </li>
+  <li><a href="https://delph-in.github.io/docs/garage/LkbLtdb">Integration with FFTB and
+delphin-viz</a></li>
+  <li><a href="https://delph-in.github.io/docs/garage/LkbLtdb">Installation</a>
+    <ol>
+      <li><a href="https://delph-in.github.io/docs/garage/LkbLtdb">Setting up your server</a></li>
+      <li><a href="https://delph-in.github.io/docs/garage/LkbLtdb">Tool Support</a></li>
+    </ol>
+  </li>
+  <li><a href="https://delph-in.github.io/docs/garage/LkbLtdb">References</a></li>
+  <li><a href="https://delph-in.github.io/docs/garage/LkbLtdb">To Do</a></li>
+</ol>
+
+<p>The minimal Linguistic Type Database offers the following:</p>
+
+<ul>
+  <li>a web interface to types and instances (rules, lexical items and
+roots)q in a DELPH-IN grammar, including examples from the lexicon.</li>
+  <li>in-line documentation from the tdl file (if any)
+    <ul>
+      <li>human readable name (if any)</li>
+      <li>description (in Restructured text)</li>
+      <li>example sentences (positive and negative)</li>
+    </ul>
+  </li>
+  <li>links to treebanks
+    <ul>
+      <li>words, rules and lexical types in context</li>
+      <li>grammar rules (including number of children (<strong>arity</strong>) and
+position of head (<strong>head</strong>))</li>
+      <li>adds the information from the <a href="/GrammarCatalogue#GeneratingMetadata">Grammar Catalogue
+Metadata</a></li>
+    </ul>
+  </li>
+  <li>approximate match for type lookup</li>
+  <li>dependency on <a href="https://github.com/delph-in/pydelphin">PyDelphin</a></li>
+</ul>
+
+<p>The LTDB has been updated by Francis Bond, Luis Morgado da Costa and
+Michael Wayne Goodman, using
+<a href="https://github.com/delph-in/pydelphin">PyDelphin</a> and visualization
+from <a href="https://github.com/delph-in/delphin-viz">delphin-viz</a>. The
+software was originally written by ChikaraHashimoto
+and FrancisBond in perl, and used the html output
+provided by StephanOepen.</p>
+
+<h2 id="sample-in-line-documentation">Sample In Line Documentation</h2>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>n_-_c_le := n_intr_lex_entry
+"""
+Intransitive count noun (icn)
+&lt;ex&gt;The dog barked.
+""".
+
+case-p-lex-np-kara := case-p-lex-np &amp;
+"""
+&lt;name lang='ja'&gt;承名詞受身主格助詞&lt;/name&gt;
+名詞の直後について、受身文の主格（実際にその行為を行うもの）を表す助詞「から」。
+&lt;ex&gt;子供 が 親 から たしなめ られる
+&lt;ex&gt;親戚 から 怒ら れる
+&lt;nex&gt;友人 から 自転車 を 買う
+(07-03-30)間接受身でも使えるようにすべき。(lkb::do-parse-tty "親戚 から 怒ら れる")
+(07-03-30)「〜」はこの type でよいのか？（格として取ることがないため）
+(07-03-30) postp-lex の後につく type も必要。(lkb::do-parse-tty "子供 が 親 とか から たしなめ られる")
+"""
+                        [SYNSEM.LOCAL.CAT.HEAD.CASE kara-case].
+</code></pre></div></div>
+
+<p>Comments should appear inside the TDL doc-strings. They should
+be written in
+<a href="http://docutils.sourceforge.net/rst.html">reStructuredText</a>. There are
+two special things recognized.</p>
+
+<h3 id="examples">Examples</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;ex&gt;A good example of this type
+&lt;nex&gt;A bad example of this type
+&lt;mex&gt;A good example of this type, but which is ungrammatical, which we parse through robust or mal-rules or constructions.
+</code></pre></div></div>
+
+<p>Ideally parses of positive examples should contain the type in question,
+while parses of negative examples should not (although they may be
+grammatical under other circumstances). It is assumed the the example is
+finished by a newline. We show both &lt;nex&gt; with an asterisk (∗) and
+&lt;mex&gt; with a circled asterisk (⊛) in the human readable
+documentation. Neither is accompanied by an Obelisk.</p>
+
+<h3 id="names">Names</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>case-p-lex-np-ga := case-p-lex-np &amp;
+"""&lt;name lang='ja'&gt;承名詞主格助詞
+名詞の直後について、主格を表す助詞「が」。この type によってその名詞は各種用言・助動詞
+の主語(ARG1)となることができる。受動態・可能態では、見た目は主格だが、
+実際の行為の目的格(ARG2)となる。
+&lt;ex&gt;犬 が 走る
+&lt;ex&gt;バナナ が 猿 に 食べ られる
+&lt;ex&gt;犬 に 芸 が できる か
+&lt;nex&gt;彼 は 帰っ た が
+"""
+                        [SYNSEM.LOCAL.CAT.HEAD.CASE ga].
+</code></pre></div></div>
+
+<p>It is assumed that the name is finished by a newline.</p>
+
+<h2 id="integration-with-fftb-and-delphin-viz">Integration with FFTB and delphin-viz</h2>
+
+<p>If you shift-click on a rule or lexical entry in the <a href="https://delph-in.github.io/docs/tools/FftbTop">Full Forest
+TreeBanker</a>’s unary rules it will take you to the ltdb defined
+in assets/render.js:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>var ltdburl = "https://lr.soh.ntu.edu.sg/~bond/cgi-bin/ERG_mo/search.cgi?typ="
+</code></pre></div></div>
+
+<h2 id="installation">Installation</h2>
+
+<p>The code can be found on github: <a href="https://github.com/fcbond/ltdb">https://github.com/fcbond/ltdb</a></p>
+
+<p>There is a README file that describes how to build the database. The
+code makes certain assumptions:</p>
+
+<ul>
+  <li>gold trees are under tsdb/gold</li>
+</ul>
+
+<h3 id="setting-up-your-server">Setting up your server</h3>
+
+<p>To enable CGI in user directories, add the following lines to the
+appropriate Apache configuration file. That could be
+/etc/apache2/httpd.conf, or more correctly, the appropriate file in
+/etc/apache2/site-enabled/.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;Directory /home/*/public_html/cgi-bin/&gt;
+   Options ExecCGI
+   SetHandler cgi-script
+&lt;/Directory&gt;
+</code></pre></div></div>
+
+<h3 id="tool-support">Tool Support</h3>
+
+<p>As of 2018-11-4, docstrings are supported by the latest
+<a href="https://delph-in.github.io/docs/tools/LkbFos">LKB-FOS</a> and PyDelphin, PET and ACE, with support
+in the LOGON LKB promised soon.</p>
+
+<p>Currently, the LKB does NOT support doc-strings in instances (such as
+rules, roots and lexical entries) only in types. LTDB and ACE supports
+these, but recommends you wait for the LKB to support them.</p>
+
+<h2 id="references">References</h2>
+
+<ul>
+  <li>Chikara Hashimoto, Francis Bond, and Dan Flickinger (2007)
+    <ul>
+      <li><em><a href="http://www2.nict.go.jp/x/x161/en/member/bond/pubs/2007-IWIC-lextypedb.pdf">The lextype DB: A web-based framework for collaborative
+multilingual grammar and treebank
+development</a></em>.
+In The First International Workshop on Intercultural
+Collaboration (IWIC-2007), pages 44–58, Kyoto.</li>
+    </ul>
+
+    <p>Chikara Hashimoto, Francis Bond, and Melanie Siegel (2007)</p>
+    <ul>
+      <li><em><a href="http://www2.nict.go.jp/x/x161/en/member/bond/pubs/2007-LRE-lextypedb.pdf">Semi-automatic documentation of an implemented linguistic
+grammar augmented with a
+treebank</a></em>.
+Language Resources and Evaluation. (Special issue on Asian
+language technology)</li>
+    </ul>
+
+    <p>Chikara Hashimoto, Francis Bond, Takaaki Tanaka, and Melanie
+Siegel (2005)</p>
+    <ul>
+      <li><em><a href="http://www2.nict.go.jp/x/x161/en/member/bond/pubs/2005-linc-lextypedb.pdf">Integration of a lexical type database with a linguistically
+interpreted
+corpus</a></em>.
+In 6th International Workshop on Linguistically Interpreted
+Corpora (LINC-2005), 31–40, Cheju, Korea.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="to-do">To Do</h2>
+
+<ul>
+  <li>finish the documentation
+    <ul>
+      <li>add screenshots</li>
+      <li>link to some running Lexical Type Databases (like
+<a href="https://delph-in.github.io/docs/grammars/JacyLexTypes">this</a>)</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Last update: 2021-06-03 by Olga Zamaraeva [<a href="https://github.com/delph-in/docs/wiki/LkbLtdb/_edit">edit</a>]</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+<!--Scroll the navbar to the current page-->
+<script type="text/javascript">
+  let el = document.querySelector('.nav__list .active');
+  if(el){
+    el.scrollIntoView({block: "center", inline: "start"});
+  }
+</script>
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/docs/garage/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/docs/garage/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/docs/garage/assets/js/lunr/lunr.min.js"></script>
+<script src="/docs/garage/assets/js/lunr/lunr-store.js"></script>
+<script src="/docs/garage/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

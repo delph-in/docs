@@ -1,0 +1,762 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>DELPH-IN ERG</title>
+<meta name="description" content="An amazing website.">
+
+
+  <meta name="author" content="Your Name">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="DELPH-IN ERG">
+<meta property="og:title" content="DELPH-IN ERG">
+<meta property="og:url" content="https://delph-in.github.io/docs/erg/ErgTreebankingRules/">
+
+
+  <meta property="og:description" content="An amazing website.">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://delph-in.github.io/docs/erg/ErgTreebankingRules/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Your Name",
+      "url": "https://delph-in.github.io/docs/erg/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/docs/erg/feed.xml" type="application/atom+xml" rel="alternate" title="DELPH-IN ERG Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/docs/erg/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--delphin_page wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/docs/erg/"><img src="/docs/erg/assets/images/Delph-In.png" alt="DELPH-IN ERG"></a>
+        
+        <a class="site-title" href="/docs/erg/">
+          DELPH-IN ERG
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/home/Home">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/howto/DelphinWelcome">How-To</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/erg/ErgTop">ERG</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/tools/ToolsTop">Tools</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/grammars/GrammarsOverview">Grammars</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/matrix/MatrixDocsOverview">Matrix</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/summits/SummitTop">Summits</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/garage/GarageTop">Garage</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Overview</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/erg/ErgTop/">ERG Summary</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_HowToCite/">How to Cite This Work</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">ERG Usage</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/erg/ErgProcessing/">Overview</a></li>
+          
+            <li><a href="/docs/erg/QuickStart/">QuickStart</a></li>
+          
+            <li><a href="/docs/erg/ErgProcessing_SampleExport/">ERG Usage Sample Export</a></li>
+          
+            <li><a href="/docs/erg/AceErgTuning/">Tuning Ace for ERG</a></li>
+          
+            <li><a href="/docs/erg/ErgApi/">ERG REST API</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Erg Semantics</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/erg/ErgSemantics/">Semantics</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Essence/">Essence</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Basics/">Basics</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Design/">Design</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Conventions/">Conventions</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Interface/">Semantics Interface (SEM-I)</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Discovery/">Semantics Discovery</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Inventory</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/erg/ErgSemantics_Inventory/">Overview</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_OneAnaphora/">Anaphora</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Apposition/">Apposition</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Comparatives/">Comparatives</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Compounding/">Compounding</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Conditionals/">Conditionals</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_ControlRelations/">Control Relations</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Coordination/">Coordination</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Ellipsis/">Ellipsis</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_ForeignExpressions/">Foreign Expressions</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Fragments/">Fragments</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_IdentityCopulae/">Identity Copulae</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Imperatives/">Imperatives</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_ImplicitLocatives/">Implicit Locatives</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_ImplicitNominals/">Implicit Nominals</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_ImplicitQuantifiers/">Implicit Quantifiers</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_InstrumentalRelatives/">Instrumental Relatives</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_MeasurePhrases/">Measure Phrases</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Nominalization/">Nominalization</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_NonAdverbialClausalModifiers/">Non-Adverbial Clausal Modifiers</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_NumberSequences/">Number Sequences</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Parentheticals/">Parentheticals</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Partitives/">Partitives</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_PropositionalArguments/">Propositional Arguments</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Quantification/">Quantification</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_QuasiModalInfinitivals/">Quasi-Modal Infinitivals</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_RelationalNouns/">Relational Nouns</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_RelativeClauses/">Relative Clauses</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_TimeExpressions/">Time Expressions</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Vocatives/">Vocatives</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Raw_Materials/">Raw Materials</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">ERG Grammar</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/erg/ErgLeTypes/">LE Types</a></li>
+          
+            <li><a href="/docs/erg/ErgRules/">Rules</a></li>
+          
+            <li><a href="/docs/erg/ErgTokenization/">Tokenization</a></li>
+          
+            <li><a href="/docs/erg/ErgTokenization_ComplexExample/">Tokenization Complex Example</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">ERG Treebanking</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/erg/ErgTreebanking/">Overview</a></li>
+          
+            <li><a href="/docs/erg/ErgTreebankingGuidelines/">Guidelines</a></li>
+          
+            <li><a href="/docs/erg/ErgTreebankingRules/" class="active">Treebanking Rules</a></li>
+          
+            <li><a href="/docs/erg/ErgTreebankingBridges/">Bridges</a></li>
+          
+            <li><a href="/docs/erg/CapitolHillTreebank/">Discussion</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Discussions</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/erg/SaarlandSententialArgument/">Saarland Sentential Argument</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <h1 id="lexical-distinctions">Lexical distinctions</h1>
+
+<ul>
+  <li>See documentation at <a href="https://delph-in.github.io/docs/erg/ErgTop">ErgTop</a></li>
+</ul>
+
+<h1 id="rule-distinctions">Rule distinctions</h1>
+
+<h2 id="brief-notes-on-some-phrasal-rules">Brief notes on some phrasal rules</h2>
+
+<h3 id="hd-cmp_u_c">hd-cmp_u_c</h3>
+
+<ul>
+  <li>The vanilla head-complement rule.</li>
+</ul>
+
+<h3 id="sp-hd_n_c">sp-hd_n_c</h3>
+
+<ul>
+  <li>The grammar has two instances of the specifier-head schema: this one
+is for phrases where the specifier is the semantic head, as for
+determiner+noun</li>
+</ul>
+
+<h3 id="sp-hd_hc_c">sp-hd_hc_c</h3>
+
+<ul>
+  <li>This is the other one, for phrases where the syntactic head is also
+the semantic head, as for example with degree specifiers as in “The
+very old chair”</li>
+</ul>
+
+<h3 id="sb-hd_mc_c">sb-hd_mc_c</h3>
+
+<ul>
+  <li>This rule combines a main-clause verb phrase with its subject,
+usually an NP.</li>
+</ul>
+
+<h3 id="sb-hd_nmc_c">sb-hd_nmc_c</h3>
+
+<ul>
+  <li>This rule builds a subject-head construction where the clause is
+embedded within a larger phrase (including a matrix filler-head
+construction).</li>
+</ul>
+
+<h3 id="hd-aj_int-unsl_c">hd-aj_int-unsl_c</h3>
+
+<ul>
+  <li>The ordinary instance of the head-modifier rule schema, for
+(post-head) intersective modifiers which do not contain a gap.</li>
+</ul>
+
+<h3 id="aj-hd_scp-pr_c">aj-hd_scp-pr_c</h3>
+
+<ul>
+  <li>This is an instance of the modifier-head construction, where the
+modifier is scopal (not intersective), and where the punctuation
+marks (typically commas) have to match on the two daughters (that’s
+what the _pr suffix indicates).</li>
+</ul>
+
+<h3 id="aj-hdn_norm_c">aj-hdn_norm_c</h3>
+
+<ul>
+  <li>This is another instance of the modifier-head construction, but
+where the head is restricted to a noun.</li>
+</ul>
+
+<h3 id="n_mnp_c">n_mnp_c</h3>
+
+<ul>
+  <li>This is for measure-NPs consisting only of a noun, as in “That
+meeting was hours longer than I had expected”</li>
+</ul>
+
+<h3 id="vp_np-ger_c">vp_np-ger_c</h3>
+
+<ul>
+  <li>This is for verbal gerund NPs without a specifier, as in “Hiring
+Abrams was easy”</li>
+</ul>
+
+<h3 id="hd_xcmp_c">hd_xcmp_c</h3>
+
+<ul>
+  <li>Rule for extracting a complement (on our lexicalist approach, moving
+the complement from COMPS to SLASH, hence starting the unbounded
+dependency path upward)</li>
+</ul>
+
+<h3 id="hd_xaj-int-vp_c">hd_xaj-int-vp_c</h3>
+
+<ul>
+  <li>Rule for building a verb phrase with an adjunct gap</li>
+</ul>
+
+<h3 id="flr-hd_rel-fin_c">flr-hd_rel-fin_c</h3>
+
+<ul>
+  <li>Rule for the filler-head kind of relative clause, as in “The
+consultant who Browne hired”</li>
+</ul>
+
+<h3 id="flr-hd_nwh_c">flr-hd_nwh_c</h3>
+
+<ul>
+  <li>Rule for relative clauses without an overt relative pronoun, as in
+“The consultant Browne hired”</li>
+</ul>
+
+<h3 id="hd-cl_fr-rel_c">hd-cl_fr-rel_c</h3>
+
+<ul>
+  <li>Rule for free relative phrases, typically as in “Browne left
+whenever Abrams arrived”</li>
+</ul>
+
+<h3 id="hd_imp_c">hd_imp_c</h3>
+
+<ul>
+  <li>This rule is for imperative clauses</li>
+</ul>
+
+<h3 id="mrk-nh_evnt_c">mrk-nh_evnt_c</h3>
+
+<ul>
+  <li>This rule combines a conjunction like “and” with a non-nominal
+phrase to build the right half of a coordinate structure - the “and
+danced” part of “sang and danced”</li>
+</ul>
+
+<h3 id="mrk-nh_n_c">mrk-nh_n_c</h3>
+
+<ul>
+  <li>This rule builds the right half of an n-bar coordinate structure.</li>
+</ul>
+
+<h3 id="mrk-nh_nom_c">mrk-nh_nom_c</h3>
+
+<ul>
+  <li>And this one is for the right half of an NP coordination.</li>
+</ul>
+
+<h3 id="n-n_crd-t_c">n-n_crd-t_c</h3>
+
+<ul>
+  <li>For conjoining n-bars (distinct from the rule for conjoining NPs)</li>
+</ul>
+
+<h3 id="cl-cl_crd-m_c">cl-cl_crd-m_c</h3>
+
+<ul>
+  <li>This rule conjoins two sentences in what will be at least a
+three-conjunct sentence coordination, as in “Kim arrived, [we left,
+and Browne stayed].”</li>
+</ul>
+
+<h3 id="hd_optcmp_c">hd_optcmp_c</h3>
+
+<ul>
+  <li>This rule discharges an element of the COMPS list which is marked as
+optional, for heads which are non-nominal.</li>
+</ul>
+
+<h3 id="hdn_optcmp_c">hdn_optcmp_c</h3>
+
+<ul>
+  <li>And this one does the same for optional complements of nouns.</li>
+</ul>
+
+<h3 id="hdn-aj_rc-pr_c">hdn-aj_rc-pr_c</h3>
+
+<ul>
+  <li>This rule combines a noun with a relative clause, where the
+delimiting commas match up.</li>
+</ul>
+
+<h3 id="hdn-aj_redrel-pr_c">hdn-aj_redrel-pr_c</h3>
+
+<ul>
+  <li>And this one combines a noun with a reduced relative phrase, as in
+“the dog angry at the cat”</li>
+</ul>
+
+<h3 id="np_adv_c">np_adv_c</h3>
+
+<ul>
+  <li>Rule that makes certain NPs into modifier phrases, as in “We visited
+Rome [the year after you did]”</li>
+</ul>
+
+<h3 id="vp_rc-redrel_c">vp_rc-redrel_c</h3>
+
+<ul>
+  <li>This rule builds a reduced relative clause phrase (that is, one
+which can modify a noun) from an ordinary predicative verb phrase.</li>
+</ul>
+
+<h3 id="vp_sbrd-prd-prp_c">vp_sbrd-prd-prp_c</h3>
+
+<ul>
+  <li>This rule converts an ordinary present-participial verb phrase into
+a depictive modifier phrase, as in “Kim arrived, [singing
+loudly].”</li>
+</ul>
+
+<h3 id="num_prt-nc_c">num_prt-nc_c</h3>
+
+<ul>
+  <li>This builds another kind of partitive NP (one lacking a nominal
+head), here from an integer, and with no PP complement, as in
+“[Six] were returned”</li>
+</ul>
+
+<h3 id="pp-aj_frg_c">pp-aj_frg_c</h3>
+
+<ul>
+  <li>Rule for building a sentence fragment consisting of a scopal PP
+followed by some other modifier phrase.</li>
+</ul>
+
+<h2 id="brief-notes-on-some-lexical-rules">Brief notes on some lexical rules</h2>
+
+<h3 id="det_prt-of-agr_dlr">det_prt-of-agr_dlr</h3>
+
+<ul>
+  <li>This makes certain determiners into NPs with no nominal head, and
+with an of-marked PP complement, where the number on the NP in the
+PP complement matches the number of the the full partitive NP, as in
+“[most of the books] arrived”</li>
+</ul>
+
+<h3 id="v_aux-ell-ref_dlr">v_aux-ell-ref_dlr</h3>
+
+<ul>
+  <li>This rule turns an auxiliary verb into an elliptical VP phrase (one
+just consisting of the auxiliary verb), and where its subject is a
+referential NP, as in “Kim hasn’t arrived, but Browne [has].”</li>
+</ul>
+
+<h3 id="v_aux-advadd_dlr">v_aux-advadd_dlr</h3>
+
+<ul>
+  <li>This rule adds an adverb to the front of the COMPS list of an
+adverb, mostly to implement Jongbok’s approach to aux negation as in
+“Kim is not the winner.”</li>
+</ul>
+
+<h3 id="n_ms-cnt_ilr">n_ms-cnt_ilr</h3>
+
+<ul>
+  <li>Another inflectional rule which doesn’t change spelling, and which
+makes an unflected noun stem into a word which is underspecified for
+mass or count (a word like “paper”)</li>
+</ul>
+
+<p>Last update: 2013-09-17 by EmilyBender [<a href="https://github.com/delph-in/docs/wiki/ErgTreebankingRules/_edit">edit</a>]</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+<!--Scroll the navbar to the current page-->
+<script type="text/javascript">
+  let el = document.querySelector('.nav__list .active');
+  if(el){
+    el.scrollIntoView({block: "center", inline: "start"});
+  }
+</script>
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/docs/erg/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/docs/erg/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/docs/erg/assets/js/lunr/lunr.min.js"></script>
+<script src="/docs/erg/assets/js/lunr/lunr-store.js"></script>
+<script src="/docs/erg/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

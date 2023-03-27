@@ -1,0 +1,661 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>DELPH-IN ERG</title>
+<meta name="description" content="An amazing website.">
+
+
+  <meta name="author" content="Your Name">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="DELPH-IN ERG">
+<meta property="og:title" content="DELPH-IN ERG">
+<meta property="og:url" content="https://delph-in.github.io/docs/erg/ErgSemantics_Interface/">
+
+
+  <meta property="og:description" content="An amazing website.">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://delph-in.github.io/docs/erg/ErgSemantics_Interface/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Your Name",
+      "url": "https://delph-in.github.io/docs/erg/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/docs/erg/feed.xml" type="application/atom+xml" rel="alternate" title="DELPH-IN ERG Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/docs/erg/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--delphin_page wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/docs/erg/"><img src="/docs/erg/assets/images/Delph-In.png" alt="DELPH-IN ERG"></a>
+        
+        <a class="site-title" href="/docs/erg/">
+          DELPH-IN ERG
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/home/Home">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/howto/DelphinWelcome">How-To</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/erg/ErgTop">ERG</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/tools/ToolsTop">Tools</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/grammars/GrammarsOverview">Grammars</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/matrix/MatrixDocsOverview">Matrix</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/summits/SummitTop">Summits</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/garage/GarageTop">Garage</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Overview</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/erg/ErgTop/">ERG Summary</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_HowToCite/">How to Cite This Work</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">ERG Usage</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/erg/ErgProcessing/">Overview</a></li>
+          
+            <li><a href="/docs/erg/QuickStart/">QuickStart</a></li>
+          
+            <li><a href="/docs/erg/ErgProcessing_SampleExport/">ERG Usage Sample Export</a></li>
+          
+            <li><a href="/docs/erg/AceErgTuning/">Tuning Ace for ERG</a></li>
+          
+            <li><a href="/docs/erg/ErgApi/">ERG REST API</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Erg Semantics</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/erg/ErgSemantics/">Semantics</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Essence/">Essence</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Basics/">Basics</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Design/">Design</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Conventions/">Conventions</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Interface/" class="active">Semantics Interface (SEM-I)</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Discovery/">Semantics Discovery</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Inventory</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/erg/ErgSemantics_Inventory/">Overview</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_OneAnaphora/">Anaphora</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Apposition/">Apposition</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Comparatives/">Comparatives</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Compounding/">Compounding</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Conditionals/">Conditionals</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_ControlRelations/">Control Relations</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Coordination/">Coordination</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Ellipsis/">Ellipsis</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_ForeignExpressions/">Foreign Expressions</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Fragments/">Fragments</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_IdentityCopulae/">Identity Copulae</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Imperatives/">Imperatives</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_ImplicitLocatives/">Implicit Locatives</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_ImplicitNominals/">Implicit Nominals</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_ImplicitQuantifiers/">Implicit Quantifiers</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_InstrumentalRelatives/">Instrumental Relatives</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_MeasurePhrases/">Measure Phrases</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Nominalization/">Nominalization</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_NonAdverbialClausalModifiers/">Non-Adverbial Clausal Modifiers</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_NumberSequences/">Number Sequences</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Parentheticals/">Parentheticals</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Partitives/">Partitives</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_PropositionalArguments/">Propositional Arguments</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Quantification/">Quantification</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_QuasiModalInfinitivals/">Quasi-Modal Infinitivals</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_RelationalNouns/">Relational Nouns</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_RelativeClauses/">Relative Clauses</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_TimeExpressions/">Time Expressions</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Vocatives/">Vocatives</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Raw_Materials/">Raw Materials</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">ERG Grammar</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/erg/ErgLeTypes/">LE Types</a></li>
+          
+            <li><a href="/docs/erg/ErgRules/">Rules</a></li>
+          
+            <li><a href="/docs/erg/ErgTokenization/">Tokenization</a></li>
+          
+            <li><a href="/docs/erg/ErgTokenization_ComplexExample/">Tokenization Complex Example</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">ERG Treebanking</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/erg/ErgTreebanking/">Overview</a></li>
+          
+            <li><a href="/docs/erg/ErgTreebankingGuidelines/">Guidelines</a></li>
+          
+            <li><a href="/docs/erg/ErgTreebankingRules/">Treebanking Rules</a></li>
+          
+            <li><a href="/docs/erg/ErgTreebankingBridges/">Bridges</a></li>
+          
+            <li><a href="/docs/erg/CapitolHillTreebank/">Discussion</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Discussions</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/erg/SaarlandSententialArgument/">Saarland Sentential Argument</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <h1 id="background">Background</h1>
+
+<p>The <em>Semantic Interface</em> (SEM-I) is a specification of the ‘vocabulary’
+and associated wellformedness constraints used in ERG meaning
+representations. In particular, the SEM-I inventories (a) the hierarchy
+of <em>variable types</em>; (b) the range of <em>variable properties</em>, associated
+value constraints, and appropriateness relative to variable types; and
+(c) the hierarchy of <em>semantic predicates</em>, each paired with its
+synopsis (‘argument frame’).</p>
+
+<p>The notion of the SEM-I in the ERG continues a tradition of explicit
+interface specification (that can be interpreted independent of the core
+of the grammar) dating back to at least the
+<a href="http://verbmobil.dfki.de/">Verbmobil</a> project (in the closing decade of
+the past century). In DELPH-IN, this concept was further developed in
+the <a href="http://www.dfki.de/deepthought">DeepThought</a> and
+<a href="http://www.emmtee.net">LOGON</a> projects, among others, and some
+foundational reflections have been published by <a href="http://www.mt-archive.info/MTS-2005-Flickinger.pdf">Flickinger et al.
+(2005)</a>. At about
+the same time, StephanOepen developed the software
+support (as part of the LKB environment) to largely automatically
+extract the semantic interface specification from the grammar sources.
+For the past ten or so years, each ERG release has provided an
+up-to-date SEM-I, but some sections were missing or incomplete until the
+ERG 1214 release (in mid-2016).</p>
+
+<h1 id="a-high-level-tour">A High-Level Tour</h1>
+
+<p>As of the 1214 release, the ERG SEM-I is comprised of four files, viz.
+<a href="http://svn.delph-in.net/erg/tags/1214/etc/erg.smi">erg.smi</a>, providing
+(a) and (b) from the above list, plus a few manually curated parts of
+(c);
+<a href="http://svn.delph-in.net/erg/tags/1214/etc/hierarchy.smi">hierarchy.smi</a>,
+setting up a partial (multi-rooted), multiple-inheritance <em>hierarchy</em> of
+semantic predicates;
+<a href="http://svn.delph-in.net/erg/tags/1214/etc/abstract.smi">abstract.smi</a>,
+listing the inventory of <em>abstract</em> predicates; and
+<a href="http://svn.delph-in.net/erg/tags/1214/etc/surface.smi">surface.smi</a>,
+spelling out the (much larger) inventory of <em>surface</em> predicates. For
+the distinction between abstract vs. surface predicates, please see the
+<a href="https://delph-in.github.io/docs/erg/ErgSemantics_Basics">ErgSemantics/Basics</a> page.</p>
+
+<p>Syntactically, the SEM-I implements a relatively lightweight syntax that
+aims to balance readability for both humans and machines.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>variables:
+
+  u.
+  i &lt; u.
+  e &lt; i : PERF bool, PROG bool, MOOD bool, TENSE tense, SF sf.
+
+properties:
+
+  tense.
+  tensed &lt; tense.
+  past &lt; tensed.
+  pres &lt; tensed.
+  fut &lt; tensed.
+  untensed &lt; tense.
+
+predicates:
+
+  abstract_q : ARG0 x, BODY h, RSTR h.
+  existential_q &lt; abstract_q.
+  universal_q &lt; abstract_q.
+</code></pre></div></div>
+
+<h1 id="reflections-on-sem-i-construction">Reflections on SEM-I Construction</h1>
+
+<p>When creating the files hierarchy.smi, abstract.smi, and surface.smi
+automatically from the grammar-internal type hierarchy, a set of
+heuristics is applied to decide which predicates to expose in the
+external interface. In the 1214 release, the set of abstract SEM-I
+predicates comprises some 120 entries, whereas there are some 500
+abstract, non-glb types in the grammar-internal predicate hierarchy. In
+other words, the SEM-I is masking a large number of distinctions that
+the ERG makes internally (often for reasons of controlling syntactic
+combination and composition).</p>
+
+<p>In a nutshell, there are three main reasons for including predicates in
+the SEM-I, viz. (a) observing a predicate in the semantics associated
+with a grammar entity (lexical items and rules); (b) specializing a
+predicate from (a) in the grammar-internal hierarchy; and (c) manual
+stipulation in either the top-level SEM-I file (erg.smi) or a small set
+of manual patches (maintained in 1214 as patches.lisp in the same
+directory). Quantitatively, the vast majority of predicates are
+associated with grammar entities, and of these, in turn, the by far
+largest part are surface predicates. Inclusion of type (b) predicates is
+motivated by the grammar at times specializing predicate (sub-)senses
+during parsing (i.e. in a process one might call co-composition); for
+example, verbs of motion can take an optional complement which has to be
+interpreted as a directional, e.g. <em>She jumped in the lake in Berlin.</em></p>
+
+<p>Note that (in the 1214 release of the ERG) we take advantage of the
+conceptual separation of the SEM-I predicate hierarchy vs. the
+grammar-internal type hierarchy, to not only (a) hide many of the
+grammar-internal predicate distinctions; but also to (b) introduce
+additional abstractions not present in the grammar; and to (c) add some
+parent–child links between predicates that are ‘missing’ in the grammar.
+An example of (b) is the sub-division of quantifiers into broad classes
+of existentials vs. universals (see above) and the (playful) addition of
+a predicate abstraction (called nn) over different ways of realizing an
+underspecified relation between two nominals, e.g. (generated from the
+sample input in
+<a href="http://svn.delph-in.net/erg/tags/1214/mrs/nn.mrs">nn.mrs</a>):</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  A jungle lion arrived.
+  A jungle's lion arrived.
+  A lion of a jungle arrived.
+</code></pre></div></div>
+
+<p>An example of (c) above, finally, is making the temporal senses of
+prepositions like <em>at</em>, <em>in</em>, and <em>on</em> specializations of the ‘general’
+predicates associated with these prepositions, e.g.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  _in_p_temp &lt; temp_loc_sp &amp; _in_p.
+</code></pre></div></div>
+
+<p>Such additional parent links arguably violate an assumption made
+grammar-internally, viz. that the ‘general’ predicates for prepositions
+like _on_p exclude the temporal usage, i.e. correspond to
+spatio-locative (e.g. stative or directional) usages only. However, an
+empty sub-sense field in predicates (as is the case in plain _on_p)
+conventionally interpreted much like a wildcard (i.e. sub-sense
+underspecification), and hence it seems likely that providers of
+generator inputs might expect a predicate like _on_p to enable
+realization of a temporal relation, as for example in <em>on Monday</em>.
+Without modification of the grammar-internal hierarchy, this expectation
+can be satisfied by including the additional parent link in the SEM-I
+predicate hierarchy.</p>
+
+<h1 id="upward-extensions-of-the-predicate-hierarchy">‘Upward’ Extensions of the Predicate Hierarchy</h1>
+
+<h1 id="software-support-in-delph-in-processors">Software Support in DELPH-IN Processors</h1>
+
+<p>In June 2016, ACE provides full support for MRS comparison and
+manipulation in terms of the SEM-I hierarchies; this ‘modern’ mode is
+enabled by configuring a 2016-style SEM-I, e.g. (in the 1214 release of
+the ERG):</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  semantic-interface-2016    := "../etc/erg.smi".
+</code></pre></div></div>
+
+<p>At the same time, the LKB has migrated predicate processing (e.g. in MRS
+comparison, transfer, and indexing grammar entities by semantic
+contributions) to optionally be based on the SEM-I, whereas comparison
+of variable types and properties in pure SEM-I terms has yet to be
+implemented. This (semi-)‘modern’ mode in the LKB is closely tied to the
+recent rationalization of predicate serialization (see the Spring 2016
+discussions on the ‘developers’ mailing list) and is thus activated as
+follows (e.g. in lkb/mrsglobals.lsp in the ERG):</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  (setf *normalize-predicates-p* t)
+</code></pre></div></div>
+
+<h1 id="references">References</h1>
+
+<p>Last update: 2019-05-25 by StephanOepen [<a href="https://github.com/delph-in/docs/wiki/ErgSemantics_Interface/_edit">edit</a>]</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+<!--Scroll the navbar to the current page-->
+<script type="text/javascript">
+  let el = document.querySelector('.nav__list .active');
+  if(el){
+    el.scrollIntoView({block: "center", inline: "start"});
+  }
+</script>
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/docs/erg/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/docs/erg/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/docs/erg/assets/js/lunr/lunr.min.js"></script>
+<script src="/docs/erg/assets/js/lunr/lunr-store.js"></script>
+<script src="/docs/erg/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

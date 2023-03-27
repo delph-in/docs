@@ -1,0 +1,1419 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>DELPH-IN Summits</title>
+<meta name="description" content="An amazing website.">
+
+
+  <meta name="author" content="Your Name">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="DELPH-IN Summits">
+<meta property="og:title" content="DELPH-IN Summits">
+<meta property="og:url" content="https://delph-in.github.io/docs/summits/DelphinTutorial_Formalisms/">
+
+
+  <meta property="og:description" content="An amazing website.">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://delph-in.github.io/docs/summits/DelphinTutorial_Formalisms/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Your Name",
+      "url": "https://delph-in.github.io/docs/summits/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/docs/summits/feed.xml" type="application/atom+xml" rel="alternate" title="DELPH-IN Summits Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/docs/summits/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--delphin_page wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/docs/summits/"><img src="/docs/summits/assets/images/Delph-In.png" alt="DELPH-IN Summits"></a>
+        
+        <a class="site-title" href="/docs/summits/">
+          DELPH-IN Summits
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/home/Home">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/howto/DelphinWelcome">How-To</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/erg/ErgTop">ERG</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/tools/ToolsTop">Tools</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/grammars/GrammarsOverview">Grammars</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/matrix/MatrixDocsOverview">Matrix</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/summits/SummitTop">Summits</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/garage/GarageTop">Garage</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Overview</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/summits/SummitTop/">Overview</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Galicia 2023</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/summits/GaliciaTop/">Overview</a></li>
+          
+            <li><a href="/docs/summits/GaliciaLexicalResources/">Lexical Resources Presummit</a></li>
+          
+            <li><a href="/docs/summits/GaliciaLocalGuide/">Local Guide</a></li>
+          
+            <li><a href="/docs/summits/GaliciaParticipants/">Participants</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Fairhaven 2022</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/summits/FairhavenTop/">Overview</a></li>
+          
+            <li><a href="/docs/summits/Fairhaven2022Schedule/">Schedule</a></li>
+          
+            <li><a href="/docs/summits/Fairhaven2022Participants/">Participants</a></li>
+          
+            <li><a href="/docs/summits/Fairhaven2022-ERG-docs/">ERG Docs</a></li>
+          
+            <li><a href="/docs/summits/Fairhaven2022-Emerson-Turing-types/">Emerson-Turing Types</a></li>
+          
+            <li><a href="/docs/summits/Fairhaven2022-LOGOFF-and-Git-On/">LOGOFF and Git On</a></li>
+          
+            <li><a href="/docs/summits/Fairhaven2022-Linking-ERG-and-Wordnet/">Linking ERG and Wordnet</a></li>
+          
+            <li><a href="/docs/summits/Fairhaven2022-Parsing-WordNet-definition-and-linking-to-senses/">Parsing Wordnet and Senses</a></li>
+          
+            <li><a href="/docs/summits/Fairhaven2022-Semantic-vs-Syntactic-Treebanking/">Semantic vs Syntactic Treebanking</a></li>
+          
+            <li><a href="/docs/summits/Fairhaven2022-Speeding-up-the-Web-Questionnaire/">Speeding up Matrix Customization</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Virtual 2021</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/summits/Virtual2021Top/">Overview</a></li>
+          
+            <li><a href="/docs/summits/Virtual2021Schedule/">Schedule</a></li>
+          
+            <li><a href="/docs/summits/Virtual2021Participants/">Participants</a></li>
+          
+            <li><a href="/docs/summits/Virtual2021PluralSemantics/">Plural Semantics</a></li>
+          
+            <li><a href="/docs/summits/Virtual2021HuggingFace/">Hugging Face</a></li>
+          
+            <li><a href="/docs/summits/Virtual2021Lexicon/">Lexicon</a></li>
+          
+            <li><a href="/docs/summits/Virtual2021ParsingProspects/">Parsing Prospects</a></li>
+          
+            <li><a href="/docs/summits/Virtual2021DataStatements/">Data Statements</a></li>
+          
+            <li><a href="/docs/summits/Virtual2021DefeasibleIdentity/">Defeasible Identity</a></li>
+          
+            <li><a href="/docs/summits/Virtual2021Sahaptin/">Sahaptin Grammar</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Bellingham 2020</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/summits/BellinghamTop/">Overview</a></li>
+          
+            <li><a href="/docs/summits/VirtualSchedule/">Schedule</a></li>
+          
+            <li><a href="/docs/summits/VirtualParticipants/">Participants</a></li>
+          
+            <li><a href="/docs/summits/BellinghamParticipants/">Participants 2</a></li>
+          
+            <li><a href="/docs/summits/VirtualCoordinationComposition/">Coordination Composition</a></li>
+          
+            <li><a href="/docs/summits/VirtualUsefulLinks/">UsefulLinks</a></li>
+          
+            <li><a href="/docs/summits/VirtualParsingDirections/">ParsingDirections</a></li>
+          
+            <li><a href="/docs/summits/VirtualAppend/">Append</a></li>
+          
+            <li><a href="/docs/summits/VirtualMwe/">Mwe</a></li>
+          
+            <li><a href="/docs/summits/VirtualInfrastructure/">Infrastructure</a></li>
+          
+            <li><a href="/docs/summits/VirtualChoices/">Choices</a></li>
+          
+            <li><a href="/docs/summits/VirtualComponents/">Components</a></li>
+          
+            <li><a href="/docs/summits/VirtualSharedConfigs/">Shared Configs</a></li>
+          
+            <li><a href="/docs/summits/VirtualParsingEfficiency/">Parsing Efficiency</a></li>
+          
+            <li><a href="/docs/summits/VirtualMatrix/">Matrix</a></li>
+          
+            <li><a href="/docs/summits/VirtualDEA/">DEA</a></li>
+          
+            <li><a href="/docs/summits/VirtualLkbFos/">LkbFos</a></li>
+          
+            <li><a href="/docs/summits/VirtualLkbFos2/">LkbFos2</a></li>
+          
+            <li><a href="/docs/summits/CambridgeEducation/">Cambridge Education</a></li>
+          
+            <li><a href="/docs/summits/InfrastructureTop/">Infrastructure</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Cambridge 2019</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/summits/CambridgeTop/">Overview</a></li>
+          
+            <li><a href="/docs/summits/CambridgeSchedule/">Schedule</a></li>
+          
+            <li><a href="/docs/summits/CambridgeParticipants/">Participants</a></li>
+          
+            <li><a href="/docs/summits/CambridgeWhEvents/">Wh Events</a></li>
+          
+            <li><a href="/docs/summits/CambridgeNominalization/">Nominalization</a></li>
+          
+            <li><a href="/docs/summits/CambridgeKwaBantu/">KwaBantu</a></li>
+          
+            <li><a href="/docs/summits/CambridgeSEM-I/">SEM-I</a></li>
+          
+            <li><a href="/docs/summits/CambridgeEfficiencyRobustnessPrecision/">Efficiency Robustness Precision</a></li>
+          
+            <li><a href="/docs/summits/CambridgePartitiveCase/">Partitive Case</a></li>
+          
+            <li><a href="/docs/summits/CambridgeWhQLibrary/">WhQ Library</a></li>
+          
+            <li><a href="/docs/summits/CambridgeWhInfoStructure/">WhInfo Structure</a></li>
+          
+            <li><a href="/docs/summits/CambridgeExtractionAppend/">Extraction Append</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">SynSem at CAS 2017/2018</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/summits/SynSem/">Overview</a></li>
+          
+            <li><a href="/docs/summits/SynSem_Activities_PolymorphicVariadicPredicates/">Polymorphic Variadic Predicates</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Paris/Diderot 2018</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/summits/DiderotTop/">Diderot Summit</a></li>
+          
+            <li><a href="/docs/summits/DiderotSchedule/">Schedule</a></li>
+          
+            <li><a href="/docs/summits/DiderotParticipants/">Participants</a></li>
+          
+            <li><a href="/docs/summits/DiderotConstrainingComposition/">Constraining Composition</a></li>
+          
+            <li><a href="/docs/summits/DiderotUnderspecifiedAttachment/">Underspecified Attachment</a></li>
+          
+            <li><a href="/docs/summits/DiderotApplicationDiscussion/">Application Discussion</a></li>
+          
+            <li><a href="/docs/summits/DiderotWhQuestionsLibrary/">Wh Questions Library</a></li>
+          
+            <li><a href="/docs/summits/DiderotEsdFocusGroup/">ESD Focus Group</a></li>
+          
+            <li><a href="/docs/summits/DiderotOldSchoolSemantics/">Old-School Semantics</a></li>
+          
+            <li><a href="/docs/summits/DiderotRationalSpeechActs/">Rational Speech Acts</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Oslo 2017</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/summits/OsloTop/">Overview</a></li>
+          
+            <li><a href="/docs/summits/OsloSchedule/">Schedule</a></li>
+          
+            <li><a href="/docs/summits/OsloParticipants/">Participants</a></li>
+          
+            <li><a href="/docs/summits/OsloScopalNonScopal/">Scopal/Non-Scopal</a></li>
+          
+            <li><a href="/docs/summits/OsloEventsInstances/">Events/Instances</a></li>
+          
+            <li><a href="/docs/summits/OsloQuestionRepresentation/">Question Representation</a></li>
+          
+            <li><a href="/docs/summits/OsloResourcesAsAnnotatedData/">Resources As Annotated Data</a></li>
+          
+            <li><a href="/docs/summits/OsloShapeWorld/">ShapeWorld</a></li>
+          
+            <li><a href="/docs/summits/OsloInfoMorph/">InfoMorph</a></li>
+          
+            <li><a href="/docs/summits/OsloWordnet/">Wordnet</a></li>
+          
+            <li><a href="/docs/summits/OsloAncientGreekCoordination/">Ancient Greek Coordination</a></li>
+          
+            <li><a href="/docs/summits/MultilingualShapeworld/">Multilingual Shapeworld</a></li>
+          
+            <li><a href="/docs/summits/OsloExcursion/">Excursion</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Capitol Hill 2017</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/summits/CapitolHillTop/">Overview</a></li>
+          
+            <li><a href="/docs/summits/CapitolHillDependencies/">Dependencies</a></li>
+          
+            <li><a href="/docs/summits/CapitolHillSmall2Large/">Small to Large</a></li>
+          
+            <li><a href="/docs/summits/CapitolHillChartMap/">Chart Map</a></li>
+          
+            <li><a href="/docs/summits/CapitolHillLearning/">Learning</a></li>
+          
+            <li><a href="/docs/summits/CapitolHillDefiniteness/">Definiteness</a></li>
+          
+            <li><a href="/docs/summits/CapitolHillDiscourse/">Discourse</a></li>
+          
+            <li><a href="/docs/summits/CapitolHillLexicon/">Lexicon</a></li>
+          
+            <li><a href="/docs/summits/CapitolHillPerformance/">Performance</a></li>
+          
+            <li><a href="/docs/summits/CapitolHillPhDDesign/">PhD Design</a></li>
+          
+            <li><a href="/docs/summits/CapitolHillGenerationTesting/">Generation Testing</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Stanford 2016</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/summits/StanfordTop/">Overview</a></li>
+          
+            <li><a href="/docs/summits/StanfordSchedule/">Schedule</a></li>
+          
+            <li><a href="/docs/summits/StanfordParticipants/">Participants</a></li>
+          
+            <li><a href="/docs/summits/LADValenceChange/">LAD Valence Change</a></li>
+          
+            <li><a href="/docs/summits/StanfordAlternativeSets/">Alternative Sets</a></li>
+          
+            <li><a href="/docs/summits/StanfordCrowgeyIntrinsicVariableNotes/">Crowgey Intrinsic Variable Notes</a></li>
+          
+            <li><a href="/docs/summits/StanfordAlgebraAdditions/">Algebra Additions</a></li>
+          
+            <li><a href="/docs/summits/LtgOslo_Delphin/">LTG Site Update</a></li>
+          
+            <li><a href="/docs/summits/StanfordDMRSGraphDescriptionLanguage/">DMRS Graph Description Language</a></li>
+          
+            <li><a href="/docs/summits/StanfordMcValenceChangeFace/">Mc Valence Change Face</a></li>
+          
+            <li><a href="/docs/summits/StanfordMalRules/">Mal Rules</a></li>
+          
+            <li><a href="/docs/summits/StanfordMeaningRep/">Meaning Rep</a></li>
+          
+            <li><a href="/docs/summits/StanfordVerbalNouns/">Verbal Nouns</a></li>
+          
+            <li><a href="/docs/summits/StanfordSenses/">Senses</a></li>
+          
+            <li><a href="/docs/summits/StanfordResourceSharing/">Resource Sharing</a></li>
+          
+            <li><a href="/docs/summits/StanfordUtility/">Utility</a></li>
+          
+            <li><a href="/docs/summits/StanfordMatrixFeedback/">Matrix Feedback</a></li>
+          
+            <li><a href="/docs/summits/StanfordGraph/">Graph</a></li>
+          
+            <li><a href="/docs/summits/StanfordMetagrammar/">Metagrammar</a></li>
+          
+            <li><a href="/docs/summits/StanfordAPI/">API</a></li>
+          
+            <li><a href="/docs/summits/StanfordNltk/">NLTK</a></li>
+          
+            <li><a href="/docs/summits/StanfordDefaults/">Defaults</a></li>
+          
+            <li><a href="/docs/summits/StanfordExternalResources/">External Resources</a></li>
+          
+            <li><a href="/docs/summits/StanfordMikeGNotes/">Mike G. Notes</a></li>
+          
+            <li><a href="/docs/summits/StanfordOlgaZNotes/">Olga Z. Notes</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Singapore 2015</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/summits/SingaporeTop/">Overview</a></li>
+          
+            <li><a href="/docs/summits/SingaporeSchedule/">Schedule</a></li>
+          
+            <li><a href="/docs/summits/SingaporeParticipants/">Participants</a></li>
+          
+            <li><a href="/docs/summits/SingaporeMrsWellformedness/">MRS Well-formedness</a></li>
+          
+            <li><a href="/docs/summits/SingaporeHookOrthodoxy/">Hook Orthodoxy</a></li>
+          
+            <li><a href="/docs/summits/SingaporeDmrsSimplification/">DMRS Simplification</a></li>
+          
+            <li><a href="/docs/summits/SingaporeSmtModel/">SMT Model</a></li>
+          
+            <li><a href="/docs/summits/SingaporeRepresentingMwes/">Representing MWES</a></li>
+          
+            <li><a href="/docs/summits/SingaporeRepresentingPragmatics/">Representing Pragmatics</a></li>
+          
+            <li><a href="/docs/summits/SingaporeSemanticAlgebraCompliance/">Semantic Algebra Compliance</a></li>
+          
+            <li><a href="/docs/summits/PromotionDiscussionSingapore/">Promotion Discussion</a></li>
+          
+            <li><a href="/docs/summits/SingaporeGrammarDocumentation/">Grammar Documentation</a></li>
+          
+            <li><a href="/docs/summits/SingaporeMRSMatrixTestsuites/">MRS Matrix Testsuites</a></li>
+          
+            <li><a href="/docs/summits/SingaporeTemporalPronouns/">Temporal Pronouns</a></li>
+          
+            <li><a href="/docs/summits/SingaporeTeachingWithLKB/">Teaching With LKB</a></li>
+          
+            <li><a href="/docs/summits/SingaporeOnlineDemos/">Online Demos</a></li>
+          
+            <li><a href="/docs/summits/NightSafari/">Night Safari</a></li>
+          
+            <li><a href="/docs/summits/SingaporeTutorialPlanning/">Tutorial Planning</a></li>
+          
+            <li><a href="/docs/summits/JacyPragmatics/">Jacy Pragmatics</a></li>
+          
+            <li><a href="/docs/summits/LADChineseAnotA/">A-not-A questions in Chinese</a></li>
+          
+            <li><a href="/docs/summits/LADLushootseedSemantics/">Lushootseed Semantics</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Tomar 2014</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/summits/TomarTop/">Overview</a></li>
+          
+            <li><a href="/docs/summits/TomarSchedule/">Schedule</a></li>
+          
+            <li><a href="/docs/summits/TomarParticipants/">Participants</a></li>
+          
+            <li><a href="/docs/summits/TomarMrsWellformedness/">MRS Well-formedness</a></li>
+          
+            <li><a href="/docs/summits/TomarQuantumMRS/">Quantum MRS</a></li>
+          
+            <li><a href="/docs/summits/TomarSemanticParsing/">Semantic Parsing</a></li>
+          
+            <li><a href="/docs/summits/TomarFuture/">Future</a></li>
+          
+            <li><a href="/docs/summits/TomarGrammarScaleUp/">Grammar Scale-Up</a></li>
+          
+            <li><a href="/docs/summits/TomarClimbingOn/">Climbing-On</a></li>
+          
+            <li><a href="/docs/summits/TomarConnectingToExternalResources/">Connecting To External Resources</a></li>
+          
+            <li><a href="/docs/summits/TomarValence/">Valence</a></li>
+          
+            <li><a href="/docs/summits/TomarShallowTools/">Shallow Tools</a></li>
+          
+            <li><a href="/docs/summits/TomarCorpusLookup/">Corpus Lookup</a></li>
+          
+            <li><a href="/docs/summits/TomarFormalism/">Formalism</a></li>
+          
+            <li><a href="/docs/summits/TomarRobustParsing/">Robust Parsing</a></li>
+          
+            <li><a href="/docs/summits/TomarMatrix/">Matrix</a></li>
+          
+            <li><a href="/docs/summits/TomarNames/">Names</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">TheAbbey/Chrysalis 2014</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/summits/TheAbbey_Chrysalis2014/">Overview</a></li>
+          
+            <li><a href="/docs/summits/TheAbbey_Chrysalis2014ProperNounsGeneration/">Proper Nouns Generation</a></li>
+          
+            <li><a href="/docs/summits/TheAbbey/">The Abbey</a></li>
+          
+            <li><a href="/docs/summits/TheAbbey_Chrysalis2014PpAttachment/">PP Attachment</a></li>
+          
+            <li><a href="/docs/summits/TheAbbey_Chrysalis2014Arity/">Arity</a></li>
+          
+            <li><a href="/docs/summits/TheAbbey_Chrysalis2014WhatsThePoint/">Whats The Point</a></li>
+          
+            <li><a href="/docs/summits/TheAbbey_Chrysalis2014ProperNouns/">Proper Nouns</a></li>
+          
+            <li><a href="/docs/summits/TheAbbey_Chrysalis2014SchrodingerMrs/">Schrodinger MRS</a></li>
+          
+            <li><a href="/docs/summits/TheAbbey_Chrysalis2014Terminology/">Terminology</a></li>
+          
+            <li><a href="/docs/summits/TheAbbey_Chrysalis2014OpenEndedPredicates/">Open-Ended Predicates</a></li>
+          
+            <li><a href="/docs/summits/TheAbbey_Chrysalis2014BindingTheory/">Binding Theory</a></li>
+          
+            <li><a href="/docs/summits/TheAbbey_Chrysalis2014PossessiveIdioms/">Possessive Idioms</a></li>
+          
+            <li><a href="/docs/summits/TheAbbey_Chrysalis2014Nominalization/">Nominalization</a></li>
+          
+            <li><a href="/docs/summits/TheAbbey_Chrysalis2014DeverbalNouns/">Deverbal Nouns</a></li>
+          
+            <li><a href="/docs/summits/AbbeyApposition/">Apposition</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Saarland 2013</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/summits/SaarlandTop/">Saarland Summit</a></li>
+          
+            <li><a href="/docs/summits/SaarlandSchedule/">Schedule</a></li>
+          
+            <li><a href="/docs/summits/SaarlandParticipants/">Participants</a></li>
+          
+            <li><a href="/docs/summits/SaarlandSemi/">SEM-I</a></li>
+          
+            <li><a href="/docs/summits/SaarlandArity/">Arity</a></li>
+          
+            <li><a href="/docs/summits/SaarlandLtopDiscussion/">Discussion</a></li>
+          
+            <li><a href="/docs/summits/SaarlandTense/">Tense</a></li>
+          
+            <li><a href="/docs/summits/SaarlandIconsErg/">ERG ICONS</a></li>
+          
+            <li><a href="/docs/summits/DelphinTutorial/">DelphinTutorial</a></li>
+          
+            <li><a href="/docs/summits/DelphinTutorial_Processing/">DelphinTutorial Processing</a></li>
+          
+            <li><a href="/docs/summits/DelphinTutorial_Formalisms/" class="active">DelphinTutorial Formalisms</a></li>
+          
+            <li><a href="/docs/summits/DelphinTutorial_Distributions/">DelphinTutorial Distributions</a></li>
+          
+            <li><a href="/docs/summits/DelphinGlossary/">Delphin Glossary</a></li>
+          
+            <li><a href="/docs/summits/MweTop/">MweTop</a></li>
+          
+            <li><a href="/docs/summits/SaarlandTdlDiscussion/">TDL Discussion</a></li>
+          
+            <li><a href="/docs/summits/SaarlandUseability/">Useability</a></li>
+          
+            <li><a href="/docs/summits/SaarlandPackagingPhenomenalCorpora/">Packaging Phenomenal Corpora</a></li>
+          
+            <li><a href="/docs/summits/SaarlandSocialMedia/">Social Media</a></li>
+          
+            <li><a href="/docs/summits/SaarlandBusinessMeeting/">Business Meeting</a></li>
+          
+            <li><a href="/docs/summits/SaarlandToolsDiscussion/">Tools Discussion</a></li>
+          
+            <li><a href="/docs/summits/SaarlandIcons/">Icons</a></li>
+          
+            <li><a href="/docs/summits/SaarlandMrsSubsumptionDiscussion/">MRS Subsumption Discussion</a></li>
+          
+            <li><a href="/docs/summits/SaarlandAceAgree/">Ace Agree</a></li>
+          
+            <li><a href="/docs/summits/SaarlandMweDiscussion/">MWE Discussion</a></li>
+          
+            <li><a href="/docs/summits/SaarlandPcfgDependency/">PCFG Dependency</a></li>
+          
+            <li><a href="/docs/summits/SaarlandWordNet/">WordNet</a></li>
+          
+            <li><a href="/docs/summits/SaarlandCompareMRS/">Compare MRS</a></li>
+          
+            <li><a href="/docs/summits/SaarlandFormalism/">Formalism</a></li>
+          
+            <li><a href="/docs/summits/SaarlandValence/">Valence</a></li>
+          
+            <li><a href="/docs/summits/SaarlandNegScope/">Neg Scope</a></li>
+          
+            <li><a href="/docs/summits/SaarlandMrsWordnet/">MRS Wordnet</a></li>
+          
+            <li><a href="/docs/summits/LexsemMapping/">Lexsem Mapping</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">MRS modeling 2013</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/summits/RmrsNes/">RmrsNes</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Sofia 2012</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/summits/SofiaTop/">Overview</a></li>
+          
+            <li><a href="/docs/summits/SofiaSchedule/">Schedule</a></li>
+          
+            <li><a href="/docs/summits/SofiaICONS/">ICONS</a></li>
+          
+            <li><a href="/docs/summits/SofiaIconsImplementation/">ICONS Implementation</a></li>
+          
+            <li><a href="/docs/summits/SofiaMrsRfc/">MRS RFC</a></li>
+          
+            <li><a href="/docs/summits/SofiaVpmHarmony/">VPM Harmony</a></li>
+          
+            <li><a href="/docs/summits/SofiaMrsComparison/">MRS Comparison</a></li>
+          
+            <li><a href="/docs/summits/SofiaLinguisticPhenomena/">SofiaLinguisticPhenomena</a></li>
+          
+            <li><a href="/docs/summits/WambayaPhenomenaCatalogue/">Wambaya Phenomena Catalogue</a></li>
+          
+            <li><a href="/docs/summits/SofiaGrammarLocalizationSIG/">Grammar Localization SIG</a></li>
+          
+            <li><a href="/docs/summits/SofiaCLIMBAndReducingComplexity/">CLIMB And Reducing Complexity</a></li>
+          
+            <li><a href="/docs/summits/SofiaPreprocessingSIG/">Preprocessing SIG</a></li>
+          
+            <li><a href="/docs/summits/TeachingTop/">Teaching</a></li>
+          
+            <li><a href="/docs/summits/TeachingCourses/">Teaching Courses</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">MRS modeling 2012</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/summits/RmrsLm/">RMRS LM</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Suquamish 2011</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/summits/SuquamishTop/">Overview</a></li>
+          
+            <li><a href="/docs/summits/SuquamishSchedule/">Schedule</a></li>
+          
+            <li><a href="/docs/summits/SuquamishGrammarIndexing/">Grammar Indexing</a></li>
+          
+            <li><a href="/docs/summits/SuquamishDelphinEcology/">Delphin Ecology</a></li>
+          
+            <li><a href="/docs/summits/SuquamishDelphinLibMRS/">Delphin Lib MRS</a></li>
+          
+            <li><a href="/docs/summits/SuquamishDelphinLibP/">Delphin LibP</a></li>
+          
+            <li><a href="/docs/summits/SuquamishBusinessMeeting/">Business Meeting</a></li>
+          
+            <li><a href="/docs/summits/SuquamishRobustParsing/">Robust Parsing</a></li>
+          
+            <li><a href="/docs/summits/SuquamishPhenomenaCatalogue/">Phenomena Catalogue</a></li>
+          
+            <li><a href="/docs/summits/SuquamishMRSWordNet/">MRS WordNet</a></li>
+          
+            <li><a href="/docs/summits/SuquamishLexSem/">Lexical Semantics</a></li>
+          
+            <li><a href="/docs/summits/BirdsofaFeather2011/">Birds of a Feather</a></li>
+          
+            <li><a href="/docs/summits/BirdsofaFeather2011Summary/">Birds of a Feather Summary</a></li>
+          
+            <li><a href="/docs/summits/StandingCommitteeGroup/">Standing Committee Group</a></li>
+          
+            <li><a href="/docs/summits/ChartMappingAppliedNotes/">Chart Mapping Applied Notes</a></li>
+          
+            <li><a href="/docs/summits/DocumentationParty/">Documentation Party</a></li>
+          
+            <li><a href="/docs/summits/SlavicMatrix/">Slavic Matrix</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Paris 2010</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/summits/ParisTop/">Paris Summit</a></li>
+          
+            <li><a href="/docs/summits/ParisSchedule/">Schedule</a></li>
+          
+            <li><a href="/docs/summits/ParisInformationStructure/">Information Structure</a></li>
+          
+            <li><a href="/docs/summits/ParisPhotos/">Photos</a></li>
+          
+            <li><a href="/docs/summits/ParisOpen/">Open</a></li>
+          
+            <li><a href="/docs/summits/ParisGrammarCatalogue/">Grammar Catalogue</a></li>
+          
+            <li><a href="/docs/summits/ParisTopics/">Topics</a></li>
+          
+            <li><a href="/docs/summits/ParisReproducibility/">Reproducibility</a></li>
+          
+            <li><a href="/docs/summits/ParisBugTracker/">Bug Tracker</a></li>
+          
+            <li><a href="/docs/summits/ParisDefeasibleConstraints/">Defeasible Constraints</a></li>
+          
+            <li><a href="/docs/summits/ParisMatrixInteraction/">Matrix Interaction</a></li>
+          
+            <li><a href="/docs/summits/ParisWebSiteImprovements/">Web Site Improvements</a></li>
+          
+            <li><a href="/docs/summits/LogonParis/">Logon</a></li>
+          
+            <li><a href="/docs/summits/ParisMultilingualGrammarEngineering/">Multilingual Grammar Engineering</a></li>
+          
+            <li><a href="/docs/summits/ParisMatrixCustomization/">Matrix Customization</a></li>
+          
+            <li><a href="/docs/summits/ParisMatrixTopics/">Matrix Topics</a></li>
+          
+            <li><a href="/docs/summits/ChartMappingAppliedNotes/">Mapping Applied Notes</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Barcelona 2009</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/summits/BarcelonaTop/">Barcelona Summit</a></li>
+          
+            <li><a href="/docs/summits/BarcelonaSchedule/">Schedule</a></li>
+          
+            <li><a href="/docs/summits/BarcelonaEvaluation/">BarcelonaEvaluation</a></li>
+          
+            <li><a href="/docs/summits/BarcelonaPackaging/">BarcelonaPackaging</a></li>
+          
+            <li><a href="/docs/summits/BarcelonaCorpora/">BarcelonaCorpora</a></li>
+          
+            <li><a href="/docs/summits/BarcelonaPreprocessing/">BarcelonaPreprocessing</a></li>
+          
+            <li><a href="/docs/summits/BarcelonaCooperation/">BarcelonaCooperation</a></li>
+          
+            <li><a href="/docs/summits/FeforParCorp/">FeforParCorp</a></li>
+          
+            <li><a href="/docs/summits/BarcelonaSemantics/">Semantics</a></li>
+          
+            <li><a href="/docs/summits/BarcelonaPostprocessing/">Post-processing</a></li>
+          
+            <li><a href="/docs/summits/BarcelonaParaphrasing/">Paraphrasing</a></li>
+          
+            <li><a href="/docs/summits/ParticipantsGroup/">Participants Group</a></li>
+          
+            <li><a href="/docs/summits/ParaTop/">ParaTop</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Kyoto 2008</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/summits/KyotoTop/">Overview</a></li>
+          
+            <li><a href="/docs/summits/KyotoSchedule/">Schedule</a></li>
+          
+            <li><a href="/docs/summits/KyotoSchedule_InterDelphinNotes/">Inter-Delphin Notes</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Berlin 2007</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/summits/BerlinTop/">Berlin Summit</a></li>
+          
+            <li><a href="/docs/summits/BerlinSlides/">Slides</a></li>
+          
+            <li><a href="/docs/summits/BerlinPhotos/">Photos</a></li>
+          
+            <li><a href="/docs/summits/BerlinFrontiers/">Frontiers</a></li>
+          
+            <li><a href="/docs/summits/BerlinDissemination/">Dissemination</a></li>
+          
+            <li><a href="/docs/summits/Across_Framework_Evaluation_Metrics/">Across Framework Evaluation Metrics</a></li>
+          
+            <li><a href="/docs/summits/BerlinProcessing/">Processing</a></li>
+          
+            <li><a href="/docs/summits/BerlinMT/">MT</a></li>
+          
+            <li><a href="/docs/summits/BerlinBusinessMeeting/">Business Meeting</a></li>
+          
+            <li><a href="/docs/summits/BerlinTopics/">Topics</a></li>
+          
+            <li><a href="/docs/summits/EvaluationParCorp/">Evaluation ParCorp</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Fefor 2006</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/summits/FeforTop/">Overview</a></li>
+          
+            <li><a href="/docs/summits/FeforRmrs/">Rmrs</a></li>
+          
+            <li><a href="/docs/summits/FeforScopingConstraints/">Scoping Constraints</a></li>
+          
+            <li><a href="/docs/summits/FeforQuantifiers/">Quantifiers</a></li>
+          
+            <li><a href="/docs/summits/FeforDroppedArguments/">Dropped Arguments</a></li>
+          
+            <li><a href="/docs/summits/FeforDiscourseStatus/">Discourse Status</a></li>
+          
+            <li><a href="/docs/summits/FeforMessageDemise/">Message Demise</a></li>
+          
+            <li><a href="/docs/summits/FeforPng/">PNG</a></li>
+          
+            <li><a href="/docs/summits/FeforSmallGroups/">Small Groups</a></li>
+          
+            <li><a href="/docs/summits/FeforImmediateChallenges/">Immediate Challenges</a></li>
+          
+            <li><a href="/docs/summits/FeforStandoffAnnotationInterface/">Standoff Annotation Interface</a></li>
+          
+            <li><a href="/docs/summits/FeforPlenum_LexicalAcquisitionImmatureGrammars/">Lexical Acquisition Immature Grammars</a></li>
+          
+            <li><a href="/docs/summits/FeforPlenum_Formalism/">Formalism</a></li>
+          
+            <li><a href="/docs/summits/FeforMRSinTranslation/">MRS in Translation</a></li>
+          
+            <li><a href="/docs/summits/FeforOpenIssues/">Open Issues</a></li>
+          
+            <li><a href="/docs/summits/FeforGrammarians/">Grammarians</a></li>
+          
+            <li><a href="/docs/summits/FeforProcessors/">Processors</a></li>
+          
+            <li><a href="/docs/summits/FeforPlenum/">Plenum</a></li>
+          
+            <li><a href="/docs/summits/FeforSuggestions/">Suggestions</a></li>
+          
+            <li><a href="/docs/summits/FeforPhotos/">Photos</a></li>
+          
+            <li><a href="/docs/summits/FeforIndexAccess/">Index Access</a></li>
+          
+            <li><a href="/docs/summits/FeforDeepGrammarRmrsification/">Deep Grammar Rmrsification</a></li>
+          
+            <li><a href="/docs/summits/FeforDiscussionCompilations/">Discussion Compilations</a></li>
+          
+            <li><a href="/docs/summits/OpenissuesTop/">Open Issues</a></li>
+          
+            <li><a href="/docs/summits/OpenissuesTop_GrammarMatrixTenseAspect/">Open Issues: Grammar Matrix Tense Aspect</a></li>
+          
+            <li><a href="/docs/summits/OpenissuesTop_GrammarMatrixClitic/">Open Issues: Grammar Matrix Clitic</a></li>
+          
+            <li><a href="/docs/summits/OpenissuesTop_GrammarMatrixSerialVerbConstructions/">Open Issues: Grammar Matrix Serial Verb Constructions</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Jerez 2005</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/summits/JerezTop/">Jerez Summit</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Lisbon 2005</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/summits/LisbonTop/">Overview</a></li>
+          
+            <li><a href="/docs/summits/LisbonScheduleIdeas/">Schedule</a></li>
+          
+            <li><a href="/docs/summits/LisbonPictures/">Pictures</a></li>
+          
+            <li><a href="/docs/summits/LisbonRepositoryDiscussion/">Repository Discussion</a></li>
+          
+            <li><a href="/docs/summits/LisbonDocumentationDiscussion/">Documentation Discussion</a></li>
+          
+            <li><a href="/docs/summits/LisbonExpectationsDiscussion/">Expectations Discussion</a></li>
+          
+            <li><a href="/docs/summits/LisbonVisibilityDiscussion/">Visibility Discussion</a></li>
+          
+            <li><a href="/docs/summits/LisbonTestingDiscussion/">Testing Discussion</a></li>
+          
+            <li><a href="/docs/summits/LisbonLicensingDiscussion/">Licensing Discussion</a></li>
+          
+            <li><a href="/docs/summits/LisbonResearchDiscussion/">Research Discussion</a></li>
+          
+            <li><a href="/docs/summits/LisbonEvaluationDiscussion/">Evaluation Discussion</a></li>
+          
+            <li><a href="/docs/summits/LisbonMatrixDiscussion/">Matrix Discussion</a></li>
+          
+            <li><a href="/docs/summits/LisbonDiscussionSuggestions/">Discussion Suggestions</a></li>
+          
+            <li><a href="/docs/summits/LisbonTestingDiscussion/">Testing Discussion</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <h1 id="hpsg-head-driven-phrase-structure-grammar">HPSG: Head-Driven Phrase Structure Grammar</h1>
+
+<p>Strictly speaking, not a formalism but primarily a linguistic theory.
+See brief linguistic characterisation on the
+<a href="https://delph-in.github.io/docs/howto/DelphinTutorial_Grammars">DelphinTutorial/Grammars</a> page.</p>
+
+<h1 id="dtfs-delph-in-typed-feature-structure-logic">DTFS: DELPH-IN Typed Feature Structure Logic</h1>
+
+<p>One of the early accomplishments of DELPH-IN partners was agreement on a
+joint reference formalism (i.e. a ‘designer logic’ for typed feature
+structures), blending elements of the formalisms proposed in Carpenter
+(1992), Copestake (1992), and Krieger &amp; Schäfer (1994). The joint
+descriptive formalism can be informally characterized as a
+<strong>closed-world</strong>, <strong>conjunctive-only</strong>, <strong>multiple inheritance type
+system</strong> that enforces <strong>strong typing</strong> and <strong>strict appropriateness</strong>,
+but allows types to be associated with arbitrary (complex) constraints
+that are inherited and applied both at compilation and at run-time (e.g.
+when two types unify to a more specific, constraint-introducing
+subtype). HPSG well-formedness principles, immediate dominance schemata,
+and constituent ordering constraints are all spelled out in the type
+hierarchy (and cross-multiplied), yielding a set of phrase structure and
+lexical rules that can be interpreted as rewrite rules over complex
+(typed feature structure) categories by a suitable parser or generator.</p>
+
+<p>Compared to the range of formal devices assumed at times in the
+(theoretical) HPSG literature, the DELPH-IN TFS Logic is relatively
+<strong>conservative</strong>, excluding, for example, logical disjunction and
+negation, implications with complex antecedents, relational constraints,
+or cyclic feature structures. The DELPH-IN selection of descriptive
+devices was seeking to balance <strong>theoretical</strong> and <strong>engineering</strong>
+considerations alike, i.e. (i) linguistic adequacy, reflecting two
+decades of experience in building large computational grammars, and (ii)
+processing requirements, informed by much earlier work on computational
+efficiency.</p>
+
+<p>DELPH-IN grammars are encoded in the Type Definition Language (<strong>TDL</strong>),
+a textual specification of type inheritance and constraints. The
+canonical reference for the DELPH-IN joint reference formalism is the
+appendix of the volume <em>Collaborative Language Engineering</em>:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@incollection{Copestake:02:CLE,
+ author = {Copestake, Ann},
+ title = {Definitions of Typed Feature Structures},
+ booktitle = {Collaborative Language Engineering},
+ editor = {Oepen, Stephan and Flickinger, Dan and Tsujii, {Jun-ichi} and Uszkoreit, Hans},
+ year = 2002,
+ pages = {227--230},
+ address = {Stanford, CA},
+ publisher = {CSLI Publications}
+}
+</code></pre></div></div>
+
+<h1 id="mrs-minimal-recursion-semantics">MRS: Minimal-Recursion Semantics</h1>
+
+<p>MRS (Copestake et al 2005) is a system of semantic representations which
+is designed to support underspecification, notably of <strong>quantifier
+scope</strong>. Such underspecified representations can be taken as a
+description language for other kinds of semantic representations, e.g.,
+predicate logic with generalized quantifiers.</p>
+
+<p>The semantic information associated with an HPSG sign is called an
+<strong>MRS</strong>. While typically constructed through unification of typed
+feature structures (in parsing or generation), MRSs formally are not
+feature structures (or objects in the DELPH-IN Typed Feature Structure
+Logic; see below). An MRS consists of:</p>
+
+<ul>
+  <li>a distinguished label, called the top handle</li>
+  <li>a bag (i.e. unordered multi-set) of <strong>elementary predications</strong>
+(also called <strong>EPs</strong>)</li>
+  <li>and a bag of <strong>handle constraints</strong></li>
+</ul>
+
+<p>Each EP has a <strong>label</strong> (aka <strong>handle</strong>), a <strong>predicate symbol</strong> (or
+<strong>pred</strong> or <strong>relation</strong>) and a list of <strong>arguments</strong>. In many EPs (and
+in some grammars increasingly in all EPs), one of those arguments can be
+considered an <strong>intrinsic variable</strong> (or ‘distinguished’ or
+‘characteristic’ variable). Depending on the type of the EP, this can be
+either an <strong>event</strong> or <strong>instance</strong> variable. The value of the other
+arguments may be either a handle or a variable. Handle-valued arguments
+are typically either the label of another EP or related via a handle
+constraint to the label of another EP. Variable-valued arguments are
+typically intrinsic variables of other EPs within the same MRS.</p>
+
+<p>The <a href="https://delph-in.github.io/docs/tools/RmrsPos">naming conventions</a> for predicate symbols allow them to
+encode <strong>lemma</strong>, <strong>part of speech</strong>, and additional <strong>coarse sense
+distinctions</strong> as well as distinguishing between <strong>surface predicates</strong>
+(typically associated with particular lexical entries, where the
+lemmatized surface form occurs in the predicate symbol) and <strong>abstract
+predicates</strong> (which at times have been called ‘grammar predicates’)
+introduced by grammatical rules or semantically decomposed lexical
+entries.</p>
+
+<p>Note that DELPH-IN grammars typically do not make sense distinctions in
+MRS predicate symbols unless the sense distinction correlates with
+morphosyntactic differences between lexical entries.</p>
+
+<p><img src="http://faculty.washington.edu/ebender/dogbarks.jpg" title="http://faculty.washington.edu/ebender/dogbarks.jpg" class="external_image" alt="http://faculty.washington.edu/ebender/dogbarks.jpg" /></p>
+
+<p>The <strong>Semantic Interface</strong> (SEM-I) is an optional component in DELPH-IN
+grammars that spells out the inventory of valid predicates, roles,
+variable types, variable properties, and such.</p>
+
+<p>While MRSs are the primary objects of meaning representation in
+DELPH-IN grammars, a number of variants have been defined throughout the
+years. Robust Minimal Recursion Semantics (<strong>RMRS</strong>) further decomposes
+individual EPs (into sets of predications, one per argument in the
+original EP, linked together through a unique <strong>anchor</strong> assumed for
+each EP), to also allow underspecification of argument roles.
+<a href="https://delph-in.github.io/docs/tools/EdsTop">Elementary Dependency Structures</a> (<strong>EDS</strong>) reduce the bag of
+EPs and argument structure to a variable-free dependency graph. EDS can
+be further simplified into strictly <strong>bi-lexical semantic
+dependencies</strong>, dubbed <a href="http://sdp.delph-in.net">DELPH-IN MRS
+Dependencies</a> (<strong>DM</strong>), for compatibility with
+standard data-driven dependency parsing. To allow interconversion
+between an original MRS and a variable-free dependency graph, Dependency
+MRS (<strong>DRMS</strong>) overlays the EDS graph with additional scope-related
+information about label (in)equalities among EPs,</p>
+
+<p>While MRS in the first instance is a formalism, the name can also be
+taken to refer to the collection of analyses that have been developed
+using this formalism, the vast majority of which are encoded in DELPH-IN
+grammars, especially the <a href="http://www.delph-in.net/erg">ERG</a>.
+Documentation of these analyses is under way (see
+<a href="https://delph-in.github.io/docs/erg/ErgSemantics">ErgSemantics</a>), and the analyses are often the topic of
+<a href="https://delph-in.github.io/docs/tools/RmrsDiscussions">discussion</a> at DELPH-IN summits and smaller meetings.</p>
+
+<h1 id="repp-regular-expression-based-pre-processing">REPP: Regular Expression-Based Pre-Processing</h1>
+
+<p>As grammars need to make assumptions about tokenization, the
+DELPH-IN formalisms include a declarative specification language for
+string normalization and tokenization rules, applied prior to parsing to
+map from an input string to a sequence of token objects. The <strong>REPP</strong>
+formalism essentially defines a cascade of regular expression rewrite
+rules, with some additional machinery to support iteration, modularity
+of rule sets and configurability, as well as so-called
+<strong>characterization</strong>, i.e. the ability to keep track, for each output
+token, of character start and end points in the original input string.
+REPP documentation is available from the <a href="https://delph-in.github.io/docs/garage/ReppTop">ReppTop</a> page.</p>
+
+<h1 id="vpm-variable-property-mapping">VPM: Variable Property Mapping</h1>
+
+<p>Another minor element in the DELPH-IN collection of formalisms is what
+is called Variable Property Mapping (<strong>VPM</strong>), a declarative,
+bidirectional facility to map between naming conventions for MRS
+elements employed grammar-internally (i.e. in the DTFS description of
+MRSs built compositionally during parsing or generation) and actual,
+grammar-independent MRS objectss, as specified in the <strong>Semantic
+Interface</strong> (SEM-I). VPM documentation is available from the
+<a href="https://delph-in.github.io/docs/tools/RmrsVpm">RmrsVpm</a> page.</p>
+
+<h1 id="logon-machine-translation-informalism">LOGON Machine Translation (In)Formalism</h1>
+
+<p>Last update: 2017-08-07 by EmilyBender [<a href="https://github.com/delph-in/docs/wiki/DelphinTutorial_Formalisms/_edit">edit</a>]</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+<!--Scroll the navbar to the current page-->
+<script type="text/javascript">
+  let el = document.querySelector('.nav__list .active');
+  if(el){
+    el.scrollIntoView({block: "center", inline: "start"});
+  }
+</script>
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/docs/summits/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/docs/summits/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/docs/summits/assets/js/lunr/lunr.min.js"></script>
+<script src="/docs/summits/assets/js/lunr/lunr-store.js"></script>
+<script src="/docs/summits/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

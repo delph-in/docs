@@ -1,0 +1,1186 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>DELPH-IN Grammar Matrix</title>
+<meta name="description" content="An amazing website.">
+
+
+  <meta name="author" content="Your Name">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="DELPH-IN Grammar Matrix">
+<meta property="og:title" content="DELPH-IN Grammar Matrix">
+<meta property="og:url" content="https://delph-in.github.io/docs/matrix/MatrixMrsTestSuiteEn/">
+
+
+  <meta property="og:description" content="An amazing website.">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://delph-in.github.io/docs/matrix/MatrixMrsTestSuiteEn/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Your Name",
+      "url": "https://delph-in.github.io/docs/matrix/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/docs/matrix/feed.xml" type="application/atom+xml" rel="alternate" title="DELPH-IN Grammar Matrix Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/docs/matrix/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--delphin_page wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/docs/matrix/"><img src="/docs/matrix/assets/images/Delph-In.png" alt="DELPH-IN Grammar Matrix"></a>
+        
+        <a class="site-title" href="/docs/matrix/">
+          DELPH-IN Grammar Matrix
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/home/Home">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/howto/DelphinWelcome">How-To</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/erg/ErgTop">ERG</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/tools/ToolsTop">Tools</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/grammars/GrammarsOverview">Grammars</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/matrix/MatrixDocsOverview">Matrix</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/summits/SummitTop">Summits</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/garage/GarageTop">Garage</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammar Matrix Docs</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixDocsOverview/">Overview</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Overview and Tools</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixTop/">Overview</a></li>
+          
+            <li><a href="/docs/matrix/MatrixGettingStarted/">Getting Started</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDevTop/">Development Overview</a></li>
+          
+            <li><a href="/docs/matrix/Updating_the_Customization_System/">Customization System</a></li>
+          
+            <li><a href="/docs/matrix/MatrixCustomizationUnitTesting/">Customization Unit Testing</a></li>
+          
+            <li><a href="/docs/matrix/MatrixCustomizationWebTesting/">Customization Web Testing</a></li>
+          
+            <li><a href="/docs/matrix/MatrixRegressionTesting/">Regression Testing</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_TestSentences/">Test Sentences</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_TestByGeneration/">Test By Generation</a></li>
+          
+            <li><a href="/docs/matrix/MatrixWishList/">Wish List</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammar Engineering</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixDevBlueprints/">Dev Blueprints</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDevConventions/">Dev Conventions</a></li>
+          
+            <li><a href="/docs/matrix/GrammarDevelopment/">Grammar Development</a></li>
+          
+            <li><a href="/docs/matrix/MatrixLibraryDevelopment/">Library Development</a></li>
+          
+            <li><a href="/docs/matrix/MatrixLibraryWishList/">Library WishList</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMorphology/">Morphology</a></li>
+          
+            <li><a href="/docs/matrix/PythonIdioms/">Python Idioms</a></li>
+          
+            <li><a href="/docs/matrix/MatrixRegressionTestingSetup/">Regression Testing Setup</a></li>
+          
+            <li><a href="/docs/matrix/MatrixRegressionTestingSetupMac/">Regression Testing Setup (Mac)</a></li>
+          
+            <li><a href="/docs/matrix/MatrixTDBProcedures/">TDB Procedures</a></li>
+          
+            <li><a href="/docs/matrix/MatrixTDB2Tables/">TDB2 Tables</a></li>
+          
+            <li><a href="/docs/matrix/MatrixValidationDebugging/">Validation Debugging</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Matrix Doc</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixDocTop/">Overview</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_AdnominalPossession/">Adnominal Possession</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_ArgumentOptionality/">Argument Optionality</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Case/">Case</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_ClausalComplements/">Clausal Complements</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_ClausalModifiers/">Clausal Modifiers</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Coordination/">Coordination</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_DirectInverse/">Direct Inverse</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Evidentials/">Evidentials</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Gender/">Gender</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_GeneralInfo/">General Info</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_ImportToolboxLexicon/">Import Toolbox Lexicon</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_InformationStructure/">Information Structure</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Lexicon/">Lexicon</a></li>
+          
+            <li><a href="/docs/matrix/matrixdef_File_Syntax/">Matrixdef File Syntax</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Morphology/">Morphology</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_NominalizedClauses/">Nominalized Clauses</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Number/">Number</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_OtherFeatures/">Other Features</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Person/">Person</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_SententialNegation/">Sentential Negation</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_TenseAspectMood/">Tense/Aspect/Mood</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_WhQuestions/">Wh Questions</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_WordOrder/">Word Order</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_YesNoQ/">YesNoQ</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">FAQ</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/GrammarEngineeringFAQ/">Grammar Engineering FAQ</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqFeatureGeometry/">Feature Geometry FAQ</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqChartTwice/">Chart Twice</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqCircularLexRule/">Circular Lex Rule</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqClickX/">Click X</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqConfusingTypo/">Confusing Typo</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqCyclicCheck/">Cyclic Check</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqDiffList/">Diff List</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqDisjunctiveValue/">Disjunctive Value</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqDistributedDisjunction/">Distributed Disjunction</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqExpandMenu/">Expand Menu</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqExpandedType/">Expanded Type</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqFeatureMultiType/">Feature Multi-Type</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqFindTypeForFeatures/">Find Type For Features</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqForgottenConstraint/">Forgotten Constraint</a></li>
+          
+            <li><a href="/docs/matrix/GeFaq/">GeFaq</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqGotoChar/">Goto Char</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqGrammarDocumentation/">Grammar Documentation</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqInteractiveUnify/">Interactive Unify</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqLkbInstallation/">LKB Installation</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqLispPromptTips/">Lisp Prompt Tips</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqLoadScript/">Load Script</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqKeyboardNotWorking/">Keyboard Not Working</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqMissingEdge/">Missing Edge</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqMissingHowTo/">Missing How-To</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqMissingRels/">Missing Rels</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNegValue/">Neg Value</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNewFeature/">New Feature</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoEntry2/">No Entry 2</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoError/">No Error</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoPossibleType/">No Possible Type</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoRule/">No Rule</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoSign/">No Sign</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNonAlpha/">Non-Alpha</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqOverApplicationLexRule/">Over Application Lex Rule</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqOrderMatters/">Order Matters</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqPasteShortcut/">Paste Shortcut</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRightBracket/">Right Bracket</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRootFail/">Root Fail</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRuleWithoutDaughter/">Rule Without Daughter</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRuleWithoutDaughters/">Rule Without Daughters</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRunawayRule1/">Runaway Rule 1</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRunawayRule2/">Runaway Rule 2</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqShowChart/">Show Chart</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqSpanningEdge/">Spanning Edge</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqSwitchingGrammars/">Switching Grammars</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqTabIndentation/">Tab Indentation</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqTdlSyntax/">TDL Syntax</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqTdlTxt/">TDL TXT</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqTypeAddendum/">Type Addendum</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqUnicodeInput/">Unicode Input</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqUnifySurprise/">Unify Surprise</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqViewEntry/">View Entry</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqViewHierarchy/">View Hierarchy</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqViewType/">View Type</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">MRS Tests</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuite/">Overview</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteBg/">Bulgarian</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteCantonese/">Cantonese</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsCatb/">Cathedral Test</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteEn/" class="active">English</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteFr/">French</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteDe/">German</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteGr/">Greek</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteIndonesian/">Indonesian</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteJa/">Japanese</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteMandarin/">Mandarin</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteNo/">Norwegian</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuitePt/">Portuguese</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteRu/">Russian</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteSv/">Swedish</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteTatoeba/">Tatoeba</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteZhTw/">ZhTw</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <p>This is the <a href="https://delph-in.github.io/docs/matrix/MatrixMrsTestSuite">MRS Test Suite</a> for the <a href="http://www.delph-in.net/erg/">English
+Resource Grammar</a>.</p>
+
+<h2 id="english-mrs-test-suite">English MRS Test Suite</h2>
+
+<p>Grammar: ERG 2006-05-24</p>
+
+<p>*Note: somewhere in the MRS → RMRS → HTML we are losing the aspect and
+the spaces between words. *</p>
+
+<p>Note: test set annotated with Norwegian translations.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>No.</strong></td>
+      <td><strong>Sentence</strong></td>
+      <td><strong>Phenomenon</strong></td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/11.html">11</a></td>
+      <td>It rained.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/21.html">21</a></td>
+      <td>Abrams barked.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/31.html">31</a></td>
+      <td>The window opened.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/41.html">41</a></td>
+      <td>Abrams chased Browne.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/51.html">51</a></td>
+      <td>Abrams handed Browne the cigarette.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/61.html">61</a></td>
+      <td>Abrams handed the cigarette to Browne.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/71.html">71</a></td>
+      <td>Abrams bet Browne a cigarette that it rained.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/81.html">81</a></td>
+      <td>Abrams knew that it rained.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/91.html">91</a></td>
+      <td>Abrams intended to bark.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/101.html">101</a></td>
+      <td>Abrams intended Browne to bark.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/111.html">111</a></td>
+      <td>Every cat barked.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/121.html">121</a></td>
+      <td>Every cat chased some dog.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/131.html">131</a></td>
+      <td>My cat barked.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/141.html">141</a></td>
+      <td>It barked.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/151.html">151</a></td>
+      <td>The cat chased it.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/161.html">161</a></td>
+      <td>The cat chased itself.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/171.html">171</a></td>
+      <td>The cat chased one.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/181.html">181</a></td>
+      <td>Mine barked.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/191.html">191</a></td>
+      <td>That opened.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/201.html">201</a></td>
+      <td>Cats bark.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/211.html">211</a></td>
+      <td>Tobacco arrived.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/221.html">221</a></td>
+      <td>Some bark.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/231.html">231</a></td>
+      <td>Some of the cats bark.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/241.html">241</a></td>
+      <td>No cat barked.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/251.html">251</a></td>
+      <td>Did the dog bark?</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/261.html">261</a></td>
+      <td>Which dog barked?</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/271.html">271</a></td>
+      <td>Whose dog barked?</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/281.html">281</a></td>
+      <td>Chase Browne!</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/291.html">291</a></td>
+      <td>Abrams wondered which dog barked.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/301.html">301</a></td>
+      <td>Abrams wondered whether Browne barked.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/311.html">311</a></td>
+      <td>The dog that Browne chased barked.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/321.html">321</a></td>
+      <td>The dog to chase is barking.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/331.html">331</a></td>
+      <td>The dog was chased by Browne.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/341.html">341</a></td>
+      <td>The dog chased by Browne barked.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/351.html">351</a></td>
+      <td>The dog is barking.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/361.html">361</a></td>
+      <td>The dog has barked.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/371.html">371</a></td>
+      <td>The dog has been barking.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/381.html">381</a></td>
+      <td>The dog had been barking.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/391.html">391</a></td>
+      <td>The dog will bark.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/401.html">401</a></td>
+      <td>The dog is going to bark.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/411.html">411</a></td>
+      <td>The dog could bark.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/421.html">421</a></td>
+      <td>The dog couldn’t bark.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/431.html">431</a></td>
+      <td>The old dog barked.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/441.html">441</a></td>
+      <td>The dog barked softly.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/451.html">451</a></td>
+      <td>The dog probably barked.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/461.html">461</a></td>
+      <td>The dog barked in the garden.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/471.html">471</a></td>
+      <td>The dog barks now.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/481.html">481</a></td>
+      <td>The garden dog barked.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/491.html">491</a></td>
+      <td>The tobacco garden dog barked.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/501.html">501</a></td>
+      <td>The cat is old.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/511.html">511</a></td>
+      <td>The cat is in the garden.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/521.html">521</a></td>
+      <td>The barking dog chased Browne.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/531.html">531</a></td>
+      <td>Chased dogs bark.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/541.html">541</a></td>
+      <td>Chasing the cat is old.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/551.html">551</a></td>
+      <td>That the cat chases Browne is old.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/561.html">561</a></td>
+      <td>Dogs chase whatever barks.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/571.html">571</a></td>
+      <td>The dog barked every day.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/581.html">581</a></td>
+      <td>When did the dog bark?</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/591.html">591</a></td>
+      <td>Three of the dogs bark.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/601.html">601</a></td>
+      <td>Three bark.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/611.html">611</a></td>
+      <td>Browne’s dog barks.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/621.html">621</a></td>
+      <td>Browne’s barks.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/631.html">631</a></td>
+      <td>Twenty three dogs bark.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/641.html">641</a></td>
+      <td>Two hundred twenty dogs bark.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/651.html">651</a></td>
+      <td>Abrams arrived by car.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/661.html">661</a></td>
+      <td>Abrams kept barking.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/671.html">671</a></td>
+      <td>Browne squeezed the cat in.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/681.html">681</a></td>
+      <td>Browne squeezed in the cat.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/691.html">691</a></td>
+      <td>The picture of Abrams arrived.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/701.html">701</a></td>
+      <td>Abrams wiped the table clean.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/711.html">711</a></td>
+      <td>Abrams put Browne in the garden.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/721.html">721</a></td>
+      <td>The dog will bark if Browne arrives.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/731.html">731</a></td>
+      <td>Abrams and Browne arrived.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/741.html">741</a></td>
+      <td>Abrams, Browne, and the dog arrived.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/751.html">751</a></td>
+      <td>The dog arrived and barked.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/761.html">761</a></td>
+      <td>The dog arrived and Browne barked.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/771.html">771</a></td>
+      <td>The dog barked, didn’t it?</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/781.html">781</a></td>
+      <td>It is obvious that the dog barked.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/791.html">791</a></td>
+      <td>Abrams promised Browne to bark.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/801.html">801</a></td>
+      <td>Abrams seems to bark.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/811.html">811</a></td>
+      <td>Abrams believes Browne to be barking.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/821.html">821</a></td>
+      <td>It bothered Abrams that Browne barked.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/831.html">831</a></td>
+      <td>It took Abrams ten minutes to arrive.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/841.html">841</a></td>
+      <td>Abrams left it to Browne to bark.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/851.html">851</a></td>
+      <td>Abrams strikes Browne as old.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/861.html">861</a></td>
+      <td>Browne considers Abrams old.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/871.html">871</a></td>
+      <td>Abrams liked the idea that Browne could bark.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/881.html">881</a></td>
+      <td>Abrams barked from ten to three.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/891.html">891</a></td>
+      <td>Abrams was very old.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/901.html">901</a></td>
+      <td>Nearly every dog barked.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/911.html">911</a></td>
+      <td>Abrams barked very softly.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/921.html">921</a></td>
+      <td>Browne’s chasing of cats bothered Abrams.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/931.html">931</a></td>
+      <td>It bothered Browne that Abrams chased cats.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/941.html">941</a></td>
+      <td>June third arrived.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/951.html">951</a></td>
+      <td>Abrams arrived at three twenty.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/961.html">961</a></td>
+      <td>Browne arrived on Tuesday morning.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/971.html">971</a></td>
+      <td>The cats found a way to bark.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/981.html">981</a></td>
+      <td>The happier dog chased Browne.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/991.html">991</a></td>
+      <td>There were cats in the garden.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/1001.html">1001</a></td>
+      <td>That dog chased Browne.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/1011.html">1011</a></td>
+      <td>Somebody chased Abrams.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/1021.html">1021</a></td>
+      <td>How happy was Abrams?</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/1031.html">1031</a></td>
+      <td>The number five bothers Browne.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/1041.html">1041</a></td>
+      <td>Abrams could.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/1051.html">1051</a></td>
+      <td>Browne tried to.</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/1061.html">1061</a></td>
+      <td>Don’t bark!</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td><a href="http://cypriot.stanford.edu/~bond/mrs-en060524/1071.html">1071</a></td>
+      <td>The dog arrived barking.</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Last update: 2011-10-09 by anonymous [<a href="https://github.com/delph-in/docs/wiki/MatrixMrsTestSuiteEn/_edit">edit</a>]</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+<!--Scroll the navbar to the current page-->
+<script type="text/javascript">
+  let el = document.querySelector('.nav__list .active');
+  if(el){
+    el.scrollIntoView({block: "center", inline: "start"});
+  }
+</script>
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/docs/matrix/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/docs/matrix/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/docs/matrix/assets/js/lunr/lunr.min.js"></script>
+<script src="/docs/matrix/assets/js/lunr/lunr-store.js"></script>
+<script src="/docs/matrix/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

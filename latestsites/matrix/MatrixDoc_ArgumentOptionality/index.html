@@ -1,0 +1,981 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>DELPH-IN Grammar Matrix</title>
+<meta name="description" content="An amazing website.">
+
+
+  <meta name="author" content="Your Name">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="DELPH-IN Grammar Matrix">
+<meta property="og:title" content="DELPH-IN Grammar Matrix">
+<meta property="og:url" content="https://delph-in.github.io/docs/matrix/MatrixDoc_ArgumentOptionality/">
+
+
+  <meta property="og:description" content="An amazing website.">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://delph-in.github.io/docs/matrix/MatrixDoc_ArgumentOptionality/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Your Name",
+      "url": "https://delph-in.github.io/docs/matrix/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/docs/matrix/feed.xml" type="application/atom+xml" rel="alternate" title="DELPH-IN Grammar Matrix Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/docs/matrix/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--delphin_page wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/docs/matrix/"><img src="/docs/matrix/assets/images/Delph-In.png" alt="DELPH-IN Grammar Matrix"></a>
+        
+        <a class="site-title" href="/docs/matrix/">
+          DELPH-IN Grammar Matrix
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/home/Home">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/howto/DelphinWelcome">How-To</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/erg/ErgTop">ERG</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/tools/ToolsTop">Tools</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/grammars/GrammarsOverview">Grammars</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/matrix/MatrixDocsOverview">Matrix</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/summits/SummitTop">Summits</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/garage/GarageTop">Garage</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammar Matrix Docs</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixDocsOverview/">Overview</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Overview and Tools</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixTop/">Overview</a></li>
+          
+            <li><a href="/docs/matrix/MatrixGettingStarted/">Getting Started</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDevTop/">Development Overview</a></li>
+          
+            <li><a href="/docs/matrix/Updating_the_Customization_System/">Customization System</a></li>
+          
+            <li><a href="/docs/matrix/MatrixCustomizationUnitTesting/">Customization Unit Testing</a></li>
+          
+            <li><a href="/docs/matrix/MatrixCustomizationWebTesting/">Customization Web Testing</a></li>
+          
+            <li><a href="/docs/matrix/MatrixRegressionTesting/">Regression Testing</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_TestSentences/">Test Sentences</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_TestByGeneration/">Test By Generation</a></li>
+          
+            <li><a href="/docs/matrix/MatrixWishList/">Wish List</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammar Engineering</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixDevBlueprints/">Dev Blueprints</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDevConventions/">Dev Conventions</a></li>
+          
+            <li><a href="/docs/matrix/GrammarDevelopment/">Grammar Development</a></li>
+          
+            <li><a href="/docs/matrix/MatrixLibraryDevelopment/">Library Development</a></li>
+          
+            <li><a href="/docs/matrix/MatrixLibraryWishList/">Library WishList</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMorphology/">Morphology</a></li>
+          
+            <li><a href="/docs/matrix/PythonIdioms/">Python Idioms</a></li>
+          
+            <li><a href="/docs/matrix/MatrixRegressionTestingSetup/">Regression Testing Setup</a></li>
+          
+            <li><a href="/docs/matrix/MatrixRegressionTestingSetupMac/">Regression Testing Setup (Mac)</a></li>
+          
+            <li><a href="/docs/matrix/MatrixTDBProcedures/">TDB Procedures</a></li>
+          
+            <li><a href="/docs/matrix/MatrixTDB2Tables/">TDB2 Tables</a></li>
+          
+            <li><a href="/docs/matrix/MatrixValidationDebugging/">Validation Debugging</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Matrix Doc</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixDocTop/">Overview</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_AdnominalPossession/">Adnominal Possession</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_ArgumentOptionality/" class="active">Argument Optionality</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Case/">Case</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_ClausalComplements/">Clausal Complements</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_ClausalModifiers/">Clausal Modifiers</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Coordination/">Coordination</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_DirectInverse/">Direct Inverse</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Evidentials/">Evidentials</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Gender/">Gender</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_GeneralInfo/">General Info</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_ImportToolboxLexicon/">Import Toolbox Lexicon</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_InformationStructure/">Information Structure</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Lexicon/">Lexicon</a></li>
+          
+            <li><a href="/docs/matrix/matrixdef_File_Syntax/">Matrixdef File Syntax</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Morphology/">Morphology</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_NominalizedClauses/">Nominalized Clauses</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Number/">Number</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_OtherFeatures/">Other Features</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Person/">Person</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_SententialNegation/">Sentential Negation</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_TenseAspectMood/">Tense/Aspect/Mood</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_WhQuestions/">Wh Questions</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_WordOrder/">Word Order</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_YesNoQ/">YesNoQ</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">FAQ</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/GrammarEngineeringFAQ/">Grammar Engineering FAQ</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqFeatureGeometry/">Feature Geometry FAQ</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqChartTwice/">Chart Twice</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqCircularLexRule/">Circular Lex Rule</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqClickX/">Click X</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqConfusingTypo/">Confusing Typo</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqCyclicCheck/">Cyclic Check</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqDiffList/">Diff List</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqDisjunctiveValue/">Disjunctive Value</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqDistributedDisjunction/">Distributed Disjunction</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqExpandMenu/">Expand Menu</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqExpandedType/">Expanded Type</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqFeatureMultiType/">Feature Multi-Type</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqFindTypeForFeatures/">Find Type For Features</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqForgottenConstraint/">Forgotten Constraint</a></li>
+          
+            <li><a href="/docs/matrix/GeFaq/">GeFaq</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqGotoChar/">Goto Char</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqGrammarDocumentation/">Grammar Documentation</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqInteractiveUnify/">Interactive Unify</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqLkbInstallation/">LKB Installation</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqLispPromptTips/">Lisp Prompt Tips</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqLoadScript/">Load Script</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqKeyboardNotWorking/">Keyboard Not Working</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqMissingEdge/">Missing Edge</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqMissingHowTo/">Missing How-To</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqMissingRels/">Missing Rels</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNegValue/">Neg Value</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNewFeature/">New Feature</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoEntry2/">No Entry 2</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoError/">No Error</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoPossibleType/">No Possible Type</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoRule/">No Rule</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoSign/">No Sign</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNonAlpha/">Non-Alpha</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqOverApplicationLexRule/">Over Application Lex Rule</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqOrderMatters/">Order Matters</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqPasteShortcut/">Paste Shortcut</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRightBracket/">Right Bracket</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRootFail/">Root Fail</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRuleWithoutDaughter/">Rule Without Daughter</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRuleWithoutDaughters/">Rule Without Daughters</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRunawayRule1/">Runaway Rule 1</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRunawayRule2/">Runaway Rule 2</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqShowChart/">Show Chart</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqSpanningEdge/">Spanning Edge</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqSwitchingGrammars/">Switching Grammars</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqTabIndentation/">Tab Indentation</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqTdlSyntax/">TDL Syntax</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqTdlTxt/">TDL TXT</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqTypeAddendum/">Type Addendum</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqUnicodeInput/">Unicode Input</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqUnifySurprise/">Unify Surprise</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqViewEntry/">View Entry</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqViewHierarchy/">View Hierarchy</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqViewType/">View Type</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">MRS Tests</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuite/">Overview</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteBg/">Bulgarian</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteCantonese/">Cantonese</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsCatb/">Cathedral Test</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteEn/">English</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteFr/">French</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteDe/">German</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteGr/">Greek</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteIndonesian/">Indonesian</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteJa/">Japanese</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteMandarin/">Mandarin</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteNo/">Norwegian</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuitePt/">Portuguese</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteRu/">Russian</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteSv/">Swedish</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteTatoeba/">Tatoeba</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteZhTw/">ZhTw</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <h1 id="documentation-for-the-grammar-matrix-customization-argument-optionality-library">Documentation for the Grammar Matrix Customization Argument Optionality Library</h1>
+
+<h1 id="introduction">Introduction</h1>
+
+<p>This document explains how to fill out the <a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=arg-opt">Argument
+Optionality</a>
+page of the Grammar Matrix Customization questionnaire and presents
+background information on the argument optionality library of the
+Grammar Matrix Customization System (Bender et al., 2002; Bender and
+Flickinger, 2005; Bender et al., 2010). General instructions on using
+the questionnaire can be found
+<a href="/MatrixDocTop#General_instructions_on_how_to_use_the_questionnaire">here</a>.</p>
+
+<h1 id="citing-the-argument-optionality-library">Citing the Argument Optionality Library</h1>
+
+<p>The standard references for the Argument Optionality library and its
+implementations are <a href="http://www.delph-in.net/matrix/saleem-thesis.pdf">Saleem
+2010</a> and <a href="http://aclweb.org/anthology-new/C/C10/C10-2123.pdf">Saleem and
+Bender 2010</a>. The
+full references and .bib entries can be found
+<a href="/MatrixDoc/ArgumentOptionality#References">here</a>.</p>
+
+<h1 id="options">Options</h1>
+
+<p>The <a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=arg-opt">Argument
+Optionality</a>
+page allows you to describe argument realization in your language. More
+specifically, it enables you to indicate whether an argument, i.e.
+subject or object, can be dropped in your language. This page is divided
+into two sections: (1). <strong>Subject dropping</strong> and (2). <strong>Object
+dropping</strong>.</p>
+
+<p>1. <strong>Subject dropping</strong></p>
+
+<p>In this section you can indicate whether a subject can be dropped in
+your language, describe the conditions/contexts in which subject
+dropping occurs, and model the agreement between subject (overt or
+dropped) and the verb.</p>
+
+<p>First, using the options provided on the <a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=arg-opt">Argument
+Optionality</a>
+questionnaire page, please indicate whether the subject dropping can
+occur with any verb or only with certain verbs. For example, in Tamil
+subjects and objects can be dropped with all verbs, except for
+weather-related verbs, which require overt subjects (Asher, 1985). In
+other languages subject dropping can occur only with certain verbs, in
+which case you would choose the second option from the options provided
+below:</p>
+
+<ul>
+  <li>
+    <p><strong>Subject dropping can occur</strong></p>
+
+    <ul>
+      <li>with any verb</li>
+      <li>only with certain verbs</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Please note that when you are filling out the <strong>Verb Types</strong> section on
+the
+<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=lexicon">Lexicon</a>
+page later, for each verb type that does not allow subject dropping, you
+will need to select the feature OPT with the value “minus” and specified
+on the subject NP. For example, for Tamil language that allows subject
+dropping with any verb except only a very narrow group of verbs, you
+would choose the first option for subject dropping on the <a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=arg-opt">Argument
+Optionality</a>
+page, i.e. “with any verb,” and later use the menu on the
+<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=lexicon">Lexicon</a>
+page in order to add the OPT+ value to all verbs that allow the subject
+dropping and OPT- value to weather verbs.</p>
+
+<p>Second, using the options provided to you on the <a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=arg-opt">Argument
+Optionality</a>
+questionnaire page, you can model the agreement between the
+dropped/overt subject and the verb. Depending on the language you are
+modeling, verbs may or may not be marked for person, number, or gender
+when their arguments are dropped or overt:</p>
+
+<ul>
+  <li>
+    <p><strong>When a subject is dropped, a subject marker on the verb is</strong></p>
+
+    <ul>
+      <li>required</li>
+      <li>optional</li>
+      <li>not permitted</li>
+    </ul>
+  </li>
+  <li>
+    <p><strong>When a subject is overt (not dropped), a subject marker on the
+verb is</strong></p>
+
+    <ul>
+      <li>required</li>
+      <li>optional</li>
+      <li>not permitted</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Please note that when you are filling out the <strong>Verb Types</strong> section on
+the
+<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=lexicon">Lexicon</a>
+page later, you will need to add the following features and their values
+for the verbs, depending on whether the morphemes (subject markers) are
+required, optional, or not permitted when an overt subject is present or
+absent. You will need to select <strong>overt-arg permitted</strong> for the
+morphemes that are (1). optional when a subject is dropped and required
+when an overt subject is present or (2). required when a subject is
+dropped and optional when an overt subject is present. You will need to
+select <strong>overt-arg not permitted</strong> for the morphemes that are optional
+or required when a subject is dropped and are not permitted when an
+overt subject is present. And, finally, you will need to select
+<strong>drp-arg not permitted</strong> option for the morphemes that are not
+permitted when a subject is dropped and required when an overt subject
+is present. These four options above are described in more detail on the
+<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=arg-opt">Argument
+Optionality</a>
+page.</p>
+
+<p>Lastly, you will need to specify the contexts, in which subject dropping
+occurs. Depending on the language, subjects can be dropped in all
+contexts or just some contexts. Finnish and Hebrew are examples of
+languages that allow subject dropping in certain contexts. In Finnish a
+subject can be dropped only for certain persons. In Hebrew subject
+dropping can occur only with expletives, some non-matrix clauses,
+generic references for third person subjects, and with the past and
+future tense for the first and second person subjects. Below are the
+options provided to you on the <a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=arg-opt">Argument
+Optionality</a>
+page:</p>
+
+<ul>
+  <li>
+    <p><strong>Subject dropping occurs in</strong></p>
+
+    <ul>
+      <li>all contexts</li>
+      <li>some contexts</li>
+    </ul>
+  </li>
+</ul>
+
+<p>If you indicate that in your language subject dropping occurs only in
+some contexts, you will need to add context(s) in which subject dropping
+occurs by selecting features and their values as applicable to your
+language in the drop-down menu that appears when you add a context in
+the menu below:</p>
+
+<ul>
+  <li>
+    <p><strong>Contexts</strong></p>
+
+    <ul>
+      <li>Add a context</li>
+    </ul>
+  </li>
+</ul>
+
+<p>1. <strong>Object dropping</strong></p>
+
+<p>In this section you can indicate whether an object can be dropped in
+your language, whether object dropping can occur with all verbs or just
+certain verbs, and model the agreement between object (overt or dropped)
+and the verb.</p>
+
+<p>First, using the options provided on the <a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=arg-opt">Argument
+Optionality</a>
+questionnaire page (repeated below), please indicate whether the object
+can be dropped with any verb or only with certain verbs:</p>
+
+<ul>
+  <li>
+    <p><strong>Object dropping is</strong></p>
+
+    <ul>
+      <li>always allowed</li>
+      <li>lexically licensed</li>
+    </ul>
+  </li>
+</ul>
+
+<p>If your language allows object dropping for all verbs, e.g. Tamil or
+Arabic, then select the first option “always allowed.” If your language
+allows object dropping only for certain verbs, then select the second
+option “lexically licensed.” English is an example of a language that
+usually requires overt objects, but allows object dropping for certain
+verbs, such as <em>eat</em> (Example 1: <em>He is eating fish</em>, Example 2: <em>He is
+eating</em>).</p>
+
+<p>Please note that when you are filling out the <strong>Verb Types</strong> section on
+the
+<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=lexicon">Lexicon</a>
+page later, for all verbs that do not allow object dropping, you will
+need to select the feature OPT with value “minus” and specify it as
+marked on the object. And, vice versa, for all verbs that allow object
+dropping, you will need to select the feature OPT with value “plus” and
+specify it as marked on the object.</p>
+
+<p>Second, using the options provided to you on the <a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=arg-opt">Argument
+Optionality</a>
+page in Matrix Questionnaire, you can model the agreement between the
+object (overt or dropped) and the verb. Depending on the language you
+are modeling, verbs may or may not be marked for person, number, or
+gender. Similar to subjects, when you are filling out the <strong>Verb Types</strong>
+section on the
+<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=lexicon">Lexicon</a>
+page later, you will need to add appropriate features and their values
+for the verbs, depending on whether the morphemes (object markers) are
+required, optional, or not permitted in the presence or absence of an
+overt object. You will be provided with four options, described in
+detail on the <a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=arg-opt">Argument
+Optionality</a>
+page.</p>
+
+<p>For more information on analyses and implementation of the argument
+optionality please refer to
+<a href="/MatrixDoc/ArgumentOptionality#Analyses">Analyses</a> section below.</p>
+
+<h1 id="analyses">Analyses</h1>
+
+<p>When you define argument optionality in your language, your starter
+grammar will include an actual Matrix feature OPT, as well as two
+features OVERT-ARG and DRP-ARG, the main purpose of which is just to
+prompt creation of certain lexical and/or phrase rules . All three
+features will be available to you for later use in the Grammar
+customization system.</p>
+
+<p>The feature OPT is used to specify which verb types allow dropped
+arguments and which verbs do not. Its values can be either
+underspecified as type bool, or constrained to + or -, based on the
+choices you make on the <a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=arg-opt">Argument
+Optionality</a>
+and
+<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=lexicon">Lexicon</a>
+pages. Verb types allowing dropped arguments should be specified as
+[OPT +], while verb types that do not allow dropped arguments, should
+be specified as [OPT -].</p>
+
+<p>Feature OVERT-ARG will appear on
+<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=lexicon">Lexicon</a>
+page if you have indicated that your language has markers that are
+required for dropped arguments and that are optional/not permitted for
+overt arguments.</p>
+
+<p>Feature DRP-ARG will appear on
+<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=lexicon">Lexicon</a>
+page if you have indicated that your language has markers that are
+required for overt arguments and that are optional/not permitted for
+dropped arguments.</p>
+
+<p>Below is a snippet of code related to Argument Optionality in choices
+file for a language with lexically-based subject dropping:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>section=arg-opt
+subj-drop=subj-drop-lex
+subj-mark-drop=subj-mark-drop-not
+subj-mark-no-drop=subj-mark-no-drop-not
+subj-con=subj-con-always
+</code></pre></div></div>
+
+<p>Below is a snippet of code related to Argument Optionality in choices
+file for a language with context dependent subject dropping:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>subj-con=subj-con-some
+context1 feat1 name=tense
+context1 feat1 value=past
+context1 feat1 head=verb
+context1 feat2 name=person
+context1 feat2 value=3rd
+context1 feat2 head=subj
+</code></pre></div></div>
+
+<p>In order to model argument optionality a unary phrase structure rule was
+used to shorten the valence list(s) of the mother. More specifically,
+for the languages allowing object dropping, in addition to a
+<strong>head-comps-phrase</strong> rule, a unary <strong>head-opt-comps-phrase</strong> rule was
+added. This rule empties the COMPS list without a complement being
+present. A similar analysis was adopted for languages allowing subject
+dropping.</p>
+
+<p>Currently the Argument Optionality library allows user to cover various
+combinations of lexical, context, and affix co-occurrence restrictions
+involved in argument realization for different languages. For more
+information about the analyses implemented in the Argument Optionality
+library please refer to Chapter 4 in <a href="http://www.delph-in.net/matrix/saleem-thesis.pdf">Saleem
+2010</a> and <a href="http://aclweb.org/anthology-new/C/C10/C10-2123.pdf">Saleem and
+Bender 2010</a>.</p>
+
+<h1 id="upcoming-work">Upcoming Work</h1>
+
+<p>One possible improvement to Argument Optionality section in Grammar
+Matrix Customization system is providing coverage of languages, in which
+pronominal subjects are expressed by clitics with variable hosts or by
+subject pronouns occupying a different syntactic position than full noun
+phrase subjects do. Another possible improvement of Argument Optionality
+section of Grammar Matrix Customization is the coverage of semantic
+factors influencing the argument optionality strategies employed by
+different languages. All of these improvements would benefit the word
+order section of Grammar Matrix customization system as well, as they
+would require applying changes/extensions to the word order library.</p>
+
+<h1 id="references">References</h1>
+
+<p>Asher, R.E. 1985. Tamil. Croom Helm, London.</p>
+
+<ul>
+  <li>
+    <p>bibtex:</p>
+
+    <p>@book{Asher:1985,<br />
+author = {R. E. Asher},<br />
+year = {1985},<br />
+title = {Tamil},<br />
+publisher = {London: Croom Helm}<br />
+}</p>
+  </li>
+</ul>
+
+<p>Saleem, Safiyyah. 2010. <a href="http://www.delph-in.net/matrix/saleem-thesis.pdf">Argument Optionality: A New Library for the
+Grammar Matrix Customization
+System</a>. Masters
+thesis, University of Washington.</p>
+
+<ul>
+  <li>
+    <p>bibtex:</p>
+
+    <p>@mastersthesis{Saleem:10,<br />
+author = {Safiyyah Saleem},<br />
+year = {2010},<br />
+title = {Argument Optionality: A New Library for the Grammar Matrix
+Customization System},<br />
+school = {University of Washington}<br />
+}</p>
+  </li>
+</ul>
+
+<p>Safiyyah Saleem and Emily M. Bender. 2010. <a href="http://aclweb.org/anthology-new/C/C10/C10-2123.pdf">Argument Optionality in the
+LinGO Grammar
+Matrix</a>. Coling
+2010: Posters. pp.1068-1076.</p>
+
+<ul>
+  <li>
+    <p>bibtex:</p>
+
+    <p>@misc{Saleem and Bender,<br />
+author = {Safiyyah Saleem and Emily Bender},<br />
+year = {2010},<br />
+title = {Argument Optionality in the LinGO Grammar Matrix},<br />
+conference = {Coling}<br />
+}</p>
+  </li>
+</ul>
+
+<p>Last update: 2013-02-15 by VaryaGracheva [<a href="https://github.com/delph-in/docs/wiki/MatrixDoc_ArgumentOptionality/_edit">edit</a>]</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+<!--Scroll the navbar to the current page-->
+<script type="text/javascript">
+  let el = document.querySelector('.nav__list .active');
+  if(el){
+    el.scrollIntoView({block: "center", inline: "start"});
+  }
+</script>
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/docs/matrix/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/docs/matrix/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/docs/matrix/assets/js/lunr/lunr.min.js"></script>
+<script src="/docs/matrix/assets/js/lunr/lunr-store.js"></script>
+<script src="/docs/matrix/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

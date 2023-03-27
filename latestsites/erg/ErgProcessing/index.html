@@ -1,0 +1,715 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>DELPH-IN ERG</title>
+<meta name="description" content="An amazing website.">
+
+
+  <meta name="author" content="Your Name">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="DELPH-IN ERG">
+<meta property="og:title" content="DELPH-IN ERG">
+<meta property="og:url" content="https://delph-in.github.io/docs/erg/ErgProcessing/">
+
+
+  <meta property="og:description" content="An amazing website.">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://delph-in.github.io/docs/erg/ErgProcessing/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Your Name",
+      "url": "https://delph-in.github.io/docs/erg/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/docs/erg/feed.xml" type="application/atom+xml" rel="alternate" title="DELPH-IN ERG Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/docs/erg/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--delphin_page wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/docs/erg/"><img src="/docs/erg/assets/images/Delph-In.png" alt="DELPH-IN ERG"></a>
+        
+        <a class="site-title" href="/docs/erg/">
+          DELPH-IN ERG
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/home/Home">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/howto/DelphinWelcome">How-To</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/erg/ErgTop">ERG</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/tools/ToolsTop">Tools</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/grammars/GrammarsOverview">Grammars</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/matrix/MatrixDocsOverview">Matrix</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/summits/SummitTop">Summits</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/garage/GarageTop">Garage</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Overview</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/erg/ErgTop/">ERG Summary</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_HowToCite/">How to Cite This Work</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">ERG Usage</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/erg/ErgProcessing/" class="active">Overview</a></li>
+          
+            <li><a href="/docs/erg/QuickStart/">QuickStart</a></li>
+          
+            <li><a href="/docs/erg/ErgProcessing_SampleExport/">ERG Usage Sample Export</a></li>
+          
+            <li><a href="/docs/erg/AceErgTuning/">Tuning Ace for ERG</a></li>
+          
+            <li><a href="/docs/erg/ErgApi/">ERG REST API</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Erg Semantics</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/erg/ErgSemantics/">Semantics</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Essence/">Essence</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Basics/">Basics</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Design/">Design</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Conventions/">Conventions</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Interface/">Semantics Interface (SEM-I)</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Discovery/">Semantics Discovery</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Inventory</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/erg/ErgSemantics_Inventory/">Overview</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_OneAnaphora/">Anaphora</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Apposition/">Apposition</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Comparatives/">Comparatives</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Compounding/">Compounding</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Conditionals/">Conditionals</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_ControlRelations/">Control Relations</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Coordination/">Coordination</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Ellipsis/">Ellipsis</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_ForeignExpressions/">Foreign Expressions</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Fragments/">Fragments</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_IdentityCopulae/">Identity Copulae</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Imperatives/">Imperatives</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_ImplicitLocatives/">Implicit Locatives</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_ImplicitNominals/">Implicit Nominals</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_ImplicitQuantifiers/">Implicit Quantifiers</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_InstrumentalRelatives/">Instrumental Relatives</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_MeasurePhrases/">Measure Phrases</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Nominalization/">Nominalization</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_NonAdverbialClausalModifiers/">Non-Adverbial Clausal Modifiers</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_NumberSequences/">Number Sequences</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Parentheticals/">Parentheticals</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Partitives/">Partitives</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_PropositionalArguments/">Propositional Arguments</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Quantification/">Quantification</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_QuasiModalInfinitivals/">Quasi-Modal Infinitivals</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_RelationalNouns/">Relational Nouns</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_RelativeClauses/">Relative Clauses</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_TimeExpressions/">Time Expressions</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Vocatives/">Vocatives</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Raw_Materials/">Raw Materials</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">ERG Grammar</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/erg/ErgLeTypes/">LE Types</a></li>
+          
+            <li><a href="/docs/erg/ErgRules/">Rules</a></li>
+          
+            <li><a href="/docs/erg/ErgTokenization/">Tokenization</a></li>
+          
+            <li><a href="/docs/erg/ErgTokenization_ComplexExample/">Tokenization Complex Example</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">ERG Treebanking</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/erg/ErgTreebanking/">Overview</a></li>
+          
+            <li><a href="/docs/erg/ErgTreebankingGuidelines/">Guidelines</a></li>
+          
+            <li><a href="/docs/erg/ErgTreebankingRules/">Treebanking Rules</a></li>
+          
+            <li><a href="/docs/erg/ErgTreebankingBridges/">Bridges</a></li>
+          
+            <li><a href="/docs/erg/CapitolHillTreebank/">Discussion</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Discussions</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/erg/SaarlandSententialArgument/">Saarland Sentential Argument</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <h1 id="background">Background</h1>
+
+<p>This page is intended as a collection of pointers related to <em>using</em> the
+ERG (for parsing or generation), with an eye towards first-time users.
+The page was initiated by StephanOepen, who intends to
+maintain it over time. Seeing that it will be important for the
+information provided here to be accurate and up-to-date, please be both
+pedantic and conservative in making (non-trivial) revisions.</p>
+
+<h1 id="choice-of-run-time-environment">Choice of Run-Time Environment</h1>
+
+<p>To parse running text using the ERG, a number of tools are required.
+Basically, there are three possible paths towards a software environment
+supporting the ERG: (a) a <a href="https://delph-in.github.io/docs/erg/ErgProcessing">‘full-blown’ DELPH-IN distribution
+for</a> Linux; (b) <a href="https://delph-in.github.io/docs/erg/ErgProcessing">the stand-alone ACE or PET
+parsers</a>, which can be compiled in various
+operating environments; and (c) a ‘thin’, portable client against the
+<a href="https://delph-in.github.io/docs/erg/ErgProcessing">RESTful on-line interface</a>. Each of these
+choices has distinct advantages and limitations—discussed briefly in the
+individual sections below. All three are regularly used and, thus,
+‘suported’ by the ERG developers, who will be happy to try and assist
+with installation and usage questions. Please contact lingo@delph-in.net
+for support.</p>
+
+<p><a name="logon"></a></p>
+
+<h1 id="a-the-logon-distribution-installation">(A) The LOGON Distribution: Installation</h1>
+
+<p>For Linux users, the most straightforward way of installing the full
+DELPH-IN toolchain is through the so-called LOGON distribution (see the
+pages <a href="https://delph-in.github.io/docs/tools/LogonTop">LogonTop</a> and <a href="https://delph-in.github.io/docs/tools/LogonInstallation">LogonInstallation</a>
+for background). On any reasonably recent Linux distribution (running on
+32- or 64-bit x86 derivatives, where 32-bit compatibility libraries need
+to be available on natively 64-bit environments), do the following (note
+that the full installation requires a little more than one gigabyte in
+available disk space, and the process of downloading the full tree can
+take between ten minutes and a couple of hours):</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  svn export http://svn.emmtee.net/trunk logon
+</code></pre></div></div>
+
+<p>In case you do not have access to a suitable Linux installation, are
+critically short on disk space, or lack the network bandwidth to
+download multiple gigabytes (but are so fortunate as to have access to a
+computer and the Internet)—please consider one of the processing options
+(B) or (C) below (i.e. the stand-alone ACE or PET parsers, or the
+RESTful on-line interface). Finally, the web-accessible <a href="http://erg.delph-in.net/">on-line
+demonstration</a> allows inspection of ERG
+parsing outputs without software installation; note, however, that
+comparatively tight limits are imposed on time and memory usage in this
+interface.</p>
+
+<h1 id="parsing">Parsing</h1>
+
+<p>For the full functionality of the LOGON tree, there is a certain amount
+of first-time configuration, documented as Step (1) on the
+<a href="https://delph-in.github.io/docs/tools/LogonInstallation">LogonInstallation</a> page. However, to merely parse a
+sequence of sentences, it should work to directly move on to just
+running the system, from the command line:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  cd logon
+  ./parse --binary --erg+tnt --best 1 --text ./lingo/erg/etc/test.txt
+</code></pre></div></div>
+
+<p>Here, the file ‘test.txt’ provides a newline-separated list of strings
+(using Un*x-style line break conventions), where each line will be fed
+to the parser individually for syntactic analysis (with a standard
+configuration, handling unknown words on the basis of a PoS tagging
+pre-processing step and lightweight RE-based named entity detection; for
+details, see the <a href="/PetInput#ChartMapping">PetInput</a> page).</p>
+
+<p>If all goes well (as it should), the above command will produce tracing
+outputs somewhat like the following:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  International Allegro CL Enterprise Edition
+  8.2 [64-bit Linux (x86-64)] (Oct 27, 2011 17:11)
+  Copyright (C) 1985-2010, Franz Inc., Oakland, CA, USA.  All Rights Reserved.
+
+  This standard runtime copy of Allegro CL was built by:
+     [TC13152] Universitetet i Oslo (IFI)
+
+  ; Loading /ltg/oe/src/logon/dot.tsdbrc
+
+  [...]
+
+  [sh 0.0] (1) `The ERG is easy to install and use .' [100000] --- 1 (0.11|0.10:0.11 s) &lt;58:1058&gt; {2612:4471} (26M).
+  [sh 0.0] (2) `Parsing English with the ERG is a real pleasure .' [100000] --- 1 (0.12|0.11:0.12 s) &lt;59:959&gt; {2108:5709} (32M).
+  [sh 0.0] (3) `We are grateful to everyone who contributed to the grammar and software .' [100000] --- 1 (0.18|0.16:0.18 s) &lt;84:1777&gt; {4202:8436} (45M).
+  [t40002] total elapsed parse time 0.4s; 3 items; avg time per item 0.1333s
+  flush-cache(): flushing `erg/1111/test/12-01-17/pet' cache ... done.
+</code></pre></div></div>
+
+<p>The numbers following each parser input on the last few lines above
+record various statistics, for example: (a) producing a single analysis
+in all cases (meaning the grammar was able to assign a parse to each of
+these utterances, and reflecting that the ‘–best 1’ option in our
+example command asks for only the most probable analysis to be
+extracted); (b) taking between 110 and 190 miliseconds per sentence; or
+(c) requiring between 26 and 45 megabytes of dynamic memory while
+parsing one sentence. More detailed information about the batch parsing
+process is available through the
+<a href="https://delph-in.github.io/docs/tools/LogonProcessing_BatchParsing">LogonProcessing/BatchParsing</a> page.</p>
+
+<p>As a side effect of the above run, parsing results and statistics were
+written into a simple (file-based, textual) database, a so-called
+competence and performance profile. For our running example, this
+profile will be located in a newly created sub-directory called
+‘erg/1111/test/12-01-17/pet’, within the so-called <a href="http://www.delph-in.net/itsdb">[incr
+tsdb()]</a> database home
+‘lingo/lkb/src/tsdb/home/’ inside the LOGON tree.</p>
+
+<h1 id="output-formats">Output Formats</h1>
+
+<p>While it is possible to operate directly on the profile directory, it
+may be more convenient (for non-expert users) to export key elements of
+each parsing result into a (slightly) more human-readable form. To do
+so, a command like the following can be be used (where the name of the
+profile holding parsing results needs to reflect the current date, of
+course):</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  ./redwoods --binary --erg --default --composite --target /tmp \
+    --export derivation,tree,mrs,eds --active all \
+    erg/1214/test/16-05-23/pet
+</code></pre></div></div>
+
+<p>This command asks to export four distinct views on each analysis: (a)
+the so-called derivation tree (i.e. the exact HPSG recipe); (b) a
+simplified syntactic constituent tree (using a set of conventional
+category labels); (c) a logical-form meaning representation in Minimal
+Recursion Semantics (MRS); and (d) a reduced variant of the MRS, in the
+form of elementary semantic dependencies (EDS). These outputs will be
+available, in a newly created file in the ‘–target’ directory, named
+after the original parsing profile, i.e. in this case
+‘/tmp/erg.1111.test.12-01-17.pet.gz’ (note that export files by default
+are compressed using GNU gzip(1); sample output for our running example
+is available as a separate
+<a href="https://delph-in.github.io/docs/erg/ErgProcessing_SampleExport">ErgProcessing/SampleExport</a> page; formats
+(a), (c), and (d) are further discussed to some degree on the
+<a href="https://delph-in.github.io/docs/tools/ItsdbDerivations">ItsdbDerivations</a>, <a href="https://delph-in.github.io/docs/erg/ErgSemantics">ErgSemantics</a>, and
+<a href="https://delph-in.github.io/docs/tools/EdsTop">EdsTop</a> pages, respectively).</p>
+
+<p>If you like what you are seeing, it is probably about time to read more
+about the ERG and DELPH-IN technology, for example starting from the
+<a href="https://delph-in.github.io/docs/erg/ErgTop">ErgTop</a> and <a href="https://delph-in.github.io/docs/tools/LogonTop">LogonTop</a> pages on this wiki, maybe
+perusing our <a href="http://lists.delph-in.net">mailing list archives</a>, or
+preparing a grant application or donation to work with us on improving
+the grammar and tools. There are numerous ways of running the toolchain
+and of adapting the grammar and engine to various subject domains,
+genres, and more generally to a specific use case. Furthermore, (even)
+more detailed syntacto-semantic information is available from the full
+HPSG analyses delivered by the grammar than what is exposed through the
+four interface representations shown in the above.</p>
+
+<p><a name="standalone"></a></p>
+
+<h1 id="ace-and-fftb-in-the-logon-distribution">ACE and FFTB in the LOGON Distribution</h1>
+
+<p>Pre-compiled binaries of the Answer Constraint Engine (ACE)
+parser–generator and its Full-Forest Treebanker (FFTB) are bundled with
+the LOGON distribution. As an alternatively to the parsing command
+suggested above, one can for example provide –erg+tnt/ace as the first
+argument to the parse script, to invoke the ACE parser. Among the
+distinctive features of ACE is its efficient implementation of chart
+realization (i.e. surface generation). Further instructions on how to
+invoke the ACE parser and full-forest treebanker from within the
+integrated LOGON distribution are available on the
+<a href="https://delph-in.github.io/docs/tools/LogonAnswer">LogonAnswer</a> page.</p>
+
+<h1 id="b-stand-alone-parsing-and-generation-with-ace-or-pet">(B) Stand-Alone Parsing (and Generation) with ACE or PET</h1>
+
+<p>The LOGON distribution bundles several of the DELPH-IN tools and
+grammars, including various interfaces for data in- and output. For
+‘core’ parsing or realization functionality using the ERG, the
+stand-alone Answer Constraint Engine (ACE) parser–generator (implemented
+in ANSI C), or the PET parser (implemented in ANSI C++) may be
+sufficient. These tools can in principle be compiled for a wide range of
+operating environments (with known success stories on Linux and MacOS
+for ACE, and Linux and Windows for PET), but are also available in
+pre-compiled form. Furthermore, the stand-alone parsers provide a more
+light-weight software installation and make available both a
+command-line and programmatic interface.</p>
+
+<p>For instructions on how to obtain and run ACE, including pre-compiled
+snapshots of recent ERG releases, please see the <a href="https://delph-in.github.io/docs/tools/AceTop">AceTop</a> page.</p>
+
+<p>For some advice on using options to improve the utility of the ERG with
+ACE, please see the <a href="https://delph-in.github.io/docs/erg/AceErgTuning">AceErgTuning</a> page.</p>
+
+<p><a name="restful"></a></p>
+
+<h1 id="c-restful-interactions-with-the-on-line-erg-service">(C) RESTful Interactions with the On-Line ERG Service</h1>
+
+<p>As of mid-2016, a programmatic RESTful on-line interface to ERG parsing
+is available, including a sample ‘thin’ client in Python and integration
+in the <a href="https://github.com/delph-in/pydelphin">pyDelphin</a> environment.
+For emerging documentation on this interface, please see the
+<a href="https://delph-in.github.io/docs/erg/ErgApi">ErgApi</a> page.</p>
+
+<h1 id="validation">Validation</h1>
+
+<p>The basic functionality of the LOGON tree, as exemplified in the
+examples above is periodically validated (as long as we recommend
+everyone use the <em>trunk</em>; more testers would be welcome):</p>
+
+<ul>
+  <li>2013/03/30: #13162 @ patas.ling.washington.edu [oe]</li>
+  <li>2013/02/14: #12918 @ login.coli.uni-saarland.de [oe]</li>
+  <li>2016/05/23: #12918 @ login.coli.uni-saarland.de [oe]</li>
+  <li>2016/05/24: #12918 @ patas.ling.washington.edu [oe]</li>
+</ul>
+
+<p>Last update: 2021-06-04 by Olga Zamaraeva [<a href="https://github.com/delph-in/docs/wiki/ErgProcessing/_edit">edit</a>]</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+<!--Scroll the navbar to the current page-->
+<script type="text/javascript">
+  let el = document.querySelector('.nav__list .active');
+  if(el){
+    el.scrollIntoView({block: "center", inline: "start"});
+  }
+</script>
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/docs/erg/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/docs/erg/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/docs/erg/assets/js/lunr/lunr.min.js"></script>
+<script src="/docs/erg/assets/js/lunr/lunr-store.js"></script>
+<script src="/docs/erg/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

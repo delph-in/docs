@@ -1,0 +1,776 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>DELPH-IN Grammar Catalogue</title>
+<meta name="description" content="An amazing website.">
+
+
+  <meta name="author" content="Your Name">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="DELPH-IN Grammar Catalogue">
+<meta property="og:title" content="DELPH-IN Grammar Catalogue">
+<meta property="og:url" content="https://delph-in.github.io/docs/grammars/JacyLexDb/">
+
+
+  <meta property="og:description" content="An amazing website.">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://delph-in.github.io/docs/grammars/JacyLexDb/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Your Name",
+      "url": "https://delph-in.github.io/docs/grammars/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/docs/grammars/feed.xml" type="application/atom+xml" rel="alternate" title="DELPH-IN Grammar Catalogue Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/docs/grammars/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--delphin_page wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/docs/grammars/"><img src="/docs/grammars/assets/images/Delph-In.png" alt="DELPH-IN Grammar Catalogue"></a>
+        
+        <a class="site-title" href="/docs/grammars/">
+          DELPH-IN Grammar Catalogue
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/home/Home">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/howto/DelphinWelcome">How-To</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/erg/ErgTop">ERG</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/tools/ToolsTop">Tools</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/grammars/GrammarsOverview">Grammars</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/matrix/MatrixDocsOverview">Matrix</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/summits/SummitTop">Summits</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/garage/GarageTop">Garage</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Overview</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/grammars/GrammarsOverview/">Overview</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Norwegian</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/grammars/NorsourceTop/">Overview</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Chinese (Zhong)</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/grammars/ZhongTop/">Overview</a></li>
+          
+            <li><a href="/docs/grammars/ZhongGeneration/">Generation</a></li>
+          
+            <li><a href="/docs/grammars/ZhongYYMode/">YY Mode</a></li>
+          
+            <li><a href="/docs/grammars/ZhongCoverage/">Coverage</a></li>
+          
+            <li><a href="/docs/grammars/ZhongAce/">Ace</a></li>
+          
+            <li><a href="/docs/grammars/ZhongPreprocessing/">Preprocessing</a></li>
+          
+            <li><a href="/docs/grammars/ZhongTranslation/">Translation</a></li>
+          
+            <li><a href="/docs/grammars/ZhongRegressionTest/">Regression Test</a></li>
+          
+            <li><a href="/docs/grammars/ZhongHistory/">History</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Japanese (JACY)</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/grammars/JacyTop/">Overview</a></li>
+          
+            <li><a href="/docs/grammars/JacySummary/">Summary</a></li>
+          
+            <li><a href="/docs/grammars/JacyDoc/">Documentation</a></li>
+          
+            <li><a href="/docs/grammars/JacyInstallation/">Installation</a></li>
+          
+            <li><a href="/docs/grammars/JacyLexTypes/">Lexical Types</a></li>
+          
+            <li><a href="/docs/grammars/JacyValence/">Valence</a></li>
+          
+            <li><a href="/docs/grammars/JacyMorphology/">Morphology</a></li>
+          
+            <li><a href="/docs/grammars/JacyGeneration/">Generation</a></li>
+          
+            <li><a href="/docs/grammars/JacyIdiom/">Idiom</a></li>
+          
+            <li><a href="/docs/grammars/JacyNumbers/">Numbers</a></li>
+          
+            <li><a href="/docs/grammars/JacyLexDb/" class="active">LexDb</a></li>
+          
+            <li><a href="/docs/grammars/JacyPerformance/">Performance</a></li>
+          
+            <li><a href="/docs/grammars/JacyHinoki/">Hinoki</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Other Grammars</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/grammars/GrammarCatalogue/">Overview</a></li>
+          
+            <li><a href="/docs/grammars/AraGram/">Arabic</a></li>
+          
+            <li><a href="/docs/grammars/BitseSummary/">Bitse</a></li>
+          
+            <li><a href="/docs/grammars/ErgSummary/">ERG</a></li>
+          
+            <li><a href="/docs/grammars/CheetahTop/">German</a></li>
+          
+            <li><a href="/docs/grammars/MgrgSummary/">Greek</a></li>
+          
+            <li><a href="/docs/grammars/HeGram/">Hebrew</a></li>
+          
+            <li><a href="/docs/grammars/IndraTop/">Indonesian (INDRA)</a></li>
+          
+            <li><a href="/docs/grammars/KrgTop/">Korean</a></li>
+          
+            <li><a href="/docs/grammars/MandarinGrammarOnline/">Mandarin </a></li>
+          
+            <li><a href="/docs/grammars/NorsourceSummary/">Norwegian Summary</a></li>
+          
+            <li><a href="/docs/grammars/NorsourceDownload/">Norwegian Download</a></li>
+          
+            <li><a href="/docs/grammars/PhdgramSummary/">Phdgram </a></li>
+          
+            <li><a href="/docs/grammars/RussianQuestionsGrammarTop/">Russian</a></li>
+          
+            <li><a href="/docs/grammars/SlavicTop/">Slavic</a></li>
+          
+            <li><a href="/docs/grammars/WambayaTop/">Wambaya</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammar Discussions</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/grammars/GrammarDiscussionsTop/">Overview</a></li>
+          
+            <li><a href="/docs/grammars/LADIndonesianMorphology/">Indonesian Morphology</a></li>
+          
+            <li><a href="/docs/grammars/CapitalHillPassivesDiscussion/">Indonesian Passives</a></li>
+          
+            <li><a href="/docs/grammars/CapitolHillPassives/">CapitolHillPassives</a></li>
+          
+            <li><a href="/docs/grammars/RomanceTop/">Romance</a></li>
+          
+            <li><a href="/docs/grammars/RomClitics/">Romance Clitics</a></li>
+          
+            <li><a href="/docs/grammars/RomSe/">Romance Clitic Se</a></li>
+          
+            <li><a href="/docs/grammars/RomContract/">Romance Contractions</a></li>
+          
+            <li><a href="/docs/grammars/DelphinLisbon/">Romance Contributions</a></li>
+          
+            <li><a href="/docs/grammars/SlavicTop/">Slavic</a></li>
+          
+            <li><a href="/docs/grammars/HarmonyTop/">Semantic Harmonization</a></li>
+          
+            <li><a href="/docs/grammars/PhonologyTop/">Phonology</a></li>
+          
+            <li><a href="/docs/grammars/PhonologyTop_FrenchPhonemes/">Phonology of French Phonemes</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <p>Jacy uses the light weight version of the lexical database (<a href="https://delph-in.github.io/docs/tools/LkbLexDbSingleUser">Single
+User</a> mode). (2006-09-06: incomplete initial
+documentation — details may change)</p>
+
+<p>Contents</p>
+
+<ol>
+  <li><a href="https://delph-in.github.io/docs/grammars/JacyLexDb">Database Fields</a>
+    <ol>
+      <li><a href="https://delph-in.github.io/docs/grammars/JacyLexDb">TDL Fields</a></li>
+      <li><a href="https://delph-in.github.io/docs/grammars/JacyLexDb">All Fields</a></li>
+    </ol>
+  </li>
+  <li><a href="https://delph-in.github.io/docs/grammars/JacyLexDb">Lexicon Interaction with CVS</a></li>
+  <li><a href="https://delph-in.github.io/docs/grammars/JacyLexDb">Set Up</a></li>
+  <li><a href="https://delph-in.github.io/docs/grammars/JacyLexDb">ToDo</a></li>
+  <li><a href="https://delph-in.github.io/docs/grammars/JacyLexDb">Priveleges</a></li>
+</ol>
+
+<h1 id="database-fields">Database Fields</h1>
+
+<h2 id="tdl-fields">TDL Fields</h2>
+
+<p>Defined in japanese/lex/lexdb.dfn.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>id      name            sym
+orth    orthography             str-rawlst
+unifs   orthography     (orth)  str-dlst
+unifs   type    nil     sym
+unifs   keyrel  (synsem lkeys keyrel pred)      mixed
+unifs   keytag  (synsem lkeys keyrel carg)      mixed
+unifs   altkey  (synsem lkeys altkeyrel pred)   mixed
+unifs   alt2key (synsem lkeys alt2keyrel pred)  mixed
+unifs   altkeytag       (synsem lkeys altkeyrel carg)   mixed
+unifs   compkey (synsem local cat head ptype)   mixed
+unifs   idiom   (idiom) mixed
+</code></pre></div></div>
+
+<h2 id="all-fields">All Fields</h2>
+
+<p>Defined in japanese/lex/su-init.sql</p>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>field</strong></td>
+      <td><strong>SQL type</strong></td>
+      <td><strong>Comment</strong></td>
+      <td><strong>Example</strong></td>
+    </tr>
+    <tr>
+      <td>name</td>
+      <td>TEXT NOT NULL</td>
+      <td>TDL lexical-id (unique)</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>userid</td>
+      <td>TEXT DEFAULT user NOT NULL</td>
+      <td>Maintainer ID</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>modstamp</td>
+      <td>TIMESTAMP</td>
+      <td>Time of last change</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>type</td>
+      <td>TEXT</td>
+      <td>TDL lexical type</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>orthography</td>
+      <td>TEXT</td>
+      <td>TDL Orthography</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>keyrel</td>
+      <td>TEXT</td>
+      <td>TDL Key (Predicate)</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>keytag</td>
+      <td>TEXT</td>
+      <td>TDL CARG</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>altkey</td>
+      <td>TEXT</td>
+      <td>TDL ALT Key</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>alt2key</td>
+      <td>TEXT</td>
+      <td>TDL ALT2 Key</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>altkeytag</td>
+      <td>TEXT</td>
+      <td>TDL ALT CARG</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>compkey</td>
+      <td>TEXT</td>
+      <td>TDL ptype</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>idiom</td>
+      <td>TEXT</td>
+      <td>TDL Idiom Feature</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>pronunciation</td>
+      <td>TEXT</td>
+      <td>Pronunciation</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>comments</td>
+      <td>TEXT</td>
+      <td>Any comments</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>lang</td>
+      <td>TEXT</td>
+      <td>Ja</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>country</td>
+      <td>TEXT</td>
+      <td>JP</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>dialect</td>
+      <td>TEXT</td>
+      <td>–</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>confidence</td>
+      <td>real DEFAULT 1</td>
+      <td>Reduce for autoamtic additions</td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>source</td>
+      <td>TEXT,</td>
+      <td>Which lexicon it came from</td>
+      <td> </td>
+    </tr>
+  </tbody>
+</table>
+
+<h1 id="lexicon-interaction-with-cvs">Lexicon Interaction with CVS</h1>
+
+<ul>
+  <li>Before updating the lexicon file lex/Jacy.rev</li>
+  <li>* do your normal checks</li>
+  <li>** (lkb::batch-check-lexicon)</li>
+  <li>** dump to tdl and flop</li>
+  <li>* optionally back up your existing lexicon</li>
+  <li>
+    <p>* dump the lexical database</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> psql jacy
+ jacy=# \copy lex to japanese/lex/Jacy.rev 
+</code></pre></div>    </div>
+  </li>
+  <li>Merge using normal CVS update</li>
+  <li>* Check things again</li>
+  <li>** load the revisions, reindex, run the grammar etc</li>
+  <li>** dump the tdl</li>
+  <li>Update the Jacy.rev and tdl lexicon</li>
+</ul>
+
+<h1 id="set-up">Set Up</h1>
+
+<p>Set up the database as described in the <a href="https://delph-in.github.io/docs/tools/LkbLexDbSingleUser">Single
+User</a> page, then load the lexicon from CVS.</p>
+
+<ul>
+  <li>
+    <p>Connect to the database (normally called jacy)</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> psql jacy 
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Create the Databases</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> jacy=# \i japanese/lex/su-init.sql 
+</code></pre></div>    </div>
+
+    <ul>
+      <li>Load the definitions</li>
+    </ul>
+
+    <!-- -->
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> jacy=# \copy dfn from  japanese/lex/lexdb.dfn 
+</code></pre></div>    </div>
+
+    <ul>
+      <li>Load the lexical entries</li>
+    </ul>
+
+    <!-- -->
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> jacy=# \\copy lex from japanese/lex/Jacy.rev 
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Load Jacy and set up the <strong>*lexdb-params*</strong> through the LKB
+Options::Set Options… menu</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> ((:DBNAME "jacy") (:TYPE :SINGLE-USER)) 
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>Index for parsing and generation</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> (lkb::new-lex-key-table lkb::*lexicon*)
+ (lkb::new-semi lkb::*lexicon*)
+</code></pre></div>    </div>
+  </li>
+</ul>
+
+<h1 id="todo">ToDo</h1>
+
+<ul>
+  <li>currently we can’t delete entries, so we mark anything we want to
+delete with the string <em>delete</em> in the comment field.</li>
+</ul>
+
+<h1 id="priveleges">Priveleges</h1>
+
+<p>How to allow multiple people to access the same DB:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>jacy=#  GRANT ALL  ON  lex_key to bond;
+GRANT
+jacy=#  GRANT ALL  ON  semi_extra to bond;
+GRANT
+jacy=#  GRANT ALL  ON  semi_frame to bond;
+GRANT
+jacy=#  GRANT ALL  ON  semi_mod to bond;
+GRANT
+jacy=#  GRANT ALL  ON  semi_obj to bond;
+GRANT
+jacy=#  GRANT ALL  ON  semi_var to bond;
+GRANT
+jacy=# \dp
+                         Access privileges for database "jacy"
+ Schema |    Name    | Type  |                    Access privileges                     
+--------+------------+-------+----------------------------------------------------------
+ public | dfn        | table | {bond=arwdxt/bond,kuribayashi=arwdxt/bond}
+ public | lex        | table | {bond=arwdxt/bond,kuribayashi=arwdxt/bond}
+ public | lex_key    | table | {kuribayashi=arwdxt/kuribayashi,bond=arwdxt/kuribayashi}
+ public | semi_extra | table | {kuribayashi=arwdxt/kuribayashi,bond=arwdxt/kuribayashi}
+ public | semi_frame | table | {kuribayashi=arwdxt/kuribayashi,bond=arwdxt/kuribayashi}
+ public | semi_mod   | table | {kuribayashi=arwdxt/kuribayashi,bond=arwdxt/kuribayashi}
+ public | semi_obj   | view  | {kuribayashi=arwdxt/kuribayashi,bond=arwdxt/kuribayashi}
+ public | semi_pred  | table | {kuribayashi=arwdxt/kuribayashi,bond=arwdxt/kuribayashi}
+ public | semi_var   | table | {kuribayashi=arwdxt/kuribayashi,bond=arwdxt/kuribayashi}
+(9 rows)
+</code></pre></div></div>
+
+<p>Last update: 2011-10-09 by anonymous [<a href="https://github.com/delph-in/docs/wiki/JacyLexDb/_edit">edit</a>]</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+<!--Scroll the navbar to the current page-->
+<script type="text/javascript">
+  let el = document.querySelector('.nav__list .active');
+  if(el){
+    el.scrollIntoView({block: "center", inline: "start"});
+  }
+</script>
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/docs/grammars/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/docs/grammars/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/docs/grammars/assets/js/lunr/lunr.min.js"></script>
+<script src="/docs/grammars/assets/js/lunr/lunr-store.js"></script>
+<script src="/docs/grammars/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

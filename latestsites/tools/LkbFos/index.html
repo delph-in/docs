@@ -1,0 +1,998 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>DELPH-IN Tools</title>
+<meta name="description" content="An amazing website.">
+
+
+  <meta name="author" content="Your Name">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="DELPH-IN Tools">
+<meta property="og:title" content="DELPH-IN Tools">
+<meta property="og:url" content="https://delph-in.github.io/docs/tools/LkbFos/">
+
+
+  <meta property="og:description" content="An amazing website.">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://delph-in.github.io/docs/tools/LkbFos/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Your Name",
+      "url": "https://delph-in.github.io/docs/tools/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/docs/tools/feed.xml" type="application/atom+xml" rel="alternate" title="DELPH-IN Tools Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/docs/tools/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--delphin_page wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/docs/tools/"><img src="/docs/tools/assets/images/Delph-In.png" alt="DELPH-IN Tools"></a>
+        
+        <a class="site-title" href="/docs/tools/">
+          DELPH-IN Tools
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/home/Home">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/howto/DelphinWelcome">How-To</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/erg/ErgTop">ERG</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/tools/ToolsTop">Tools</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/grammars/GrammarsOverview">Grammars</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/matrix/MatrixDocsOverview">Matrix</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/summits/SummitTop">Summits</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/garage/GarageTop">Garage</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Tools</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/ToolsTop/">Overview</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">PyDelphin</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/PyDelphinTop/">Overview</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">LKB</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/LkbTop/">Overview</a></li>
+          
+            <li><a href="/docs/tools/LkbInstallation/">Installation</a></li>
+          
+            <li><a href="/docs/tools/LkbFos/" class="active">Fully Open Source Version</a></li>
+          
+            <li><a href="/docs/tools/LkbMacintosh/">Macintosh Version</a></li>
+          
+            <li><a href="/docs/tools/LkbCourses/">Courses</a></li>
+          
+            <li><a href="/docs/tools/LkbConventions/">Conventions</a></li>
+          
+            <li><a href="/docs/tools/LkbGeneration/">Generation</a></li>
+          
+            <li><a href="/docs/tools/LkbCompilation/">Compilation</a></li>
+          
+            <li><a href="/docs/tools/LkbEmacs/">Emacs</a></li>
+          
+            <li><a href="/docs/tools/LkbTrollet/">Trollet</a></li>
+          
+            <li><a href="/docs/tools/LkbSppp/">Simple PreProcessor Protocol</a></li>
+          
+            <li><a href="/docs/tools/RmrsVpm/">Variable Property Mapping (VPM)</a></li>
+          
+            <li><a href="/docs/tools/LkbLpconstraints/">LkbLpconstraints</a></li>
+          
+            <li><a href="/docs/tools/LkbUserGroup/">User Group</a></li>
+          
+            <li><a href="/docs/tools/LkbFaq/">FAQ</a></li>
+          
+            <li><a href="/docs/tools/LkbMode/">Emacs FAQ</a></li>
+          
+            <li><a href="/docs/tools/LkbWishlist/">Wish list</a></li>
+          
+            <li><a href="/docs/tools/LkbBugs/">Bugs</a></li>
+          
+            <li><a href="/docs/tools/LkbCopyright/">Copyright</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">ACE Parser</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/AceTop/">Overview</a></li>
+          
+            <li><a href="/docs/tools/AceInstall/">Install</a></li>
+          
+            <li><a href="/docs/tools/AceConfiguration/">Configuration</a></li>
+          
+            <li><a href="/docs/tools/AceOptions/">Options</a></li>
+          
+            <li><a href="/docs/tools/AceUse/">Examples</a></li>
+          
+            <li><a href="/docs/tools/AceLui/">LUI Mode</a></li>
+          
+            <li><a href="/docs/tools/AceCsaw/">Csaw</a></li>
+          
+            <li><a href="/docs/tools/AceTransfer/">Transfer</a></li>
+          
+            <li><a href="/docs/tools/AceExperimental/">Experimental</a></li>
+          
+            <li><a href="/docs/tools/AceFaq/">Faq</a></li>
+          
+            <li><a href="/docs/tools/AceWishlist/">Wish list</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">LKB LUI</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/LkbLui/">Overview</a></li>
+          
+            <li><a href="/docs/tools/LuiRc/">User Configuration</a></li>
+          
+            <li><a href="/docs/tools/LuiUi/">UI Quick Reference</a></li>
+          
+            <li><a href="/docs/tools/LuiTree/">Tree</a></li>
+          
+            <li><a href="/docs/tools/LuiAvm/">Feature Structure (AVM)</a></li>
+          
+            <li><a href="/docs/tools/LuiUnification/">Unification</a></li>
+          
+            <li><a href="/docs/tools/LuiMrs/">MRS Display</a></li>
+          
+            <li><a href="/docs/tools/LuiChart/">Chart Browser</a></li>
+          
+            <li><a href="/docs/tools/LuiWishlist/">Wish list</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">LKB LexDB</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/LexDbSimplePsql/">Simple PSQL</a></li>
+          
+            <li><a href="/docs/tools/LexDbInitialize/">Initialization</a></li>
+          
+            <li><a href="/docs/tools/LexDbPsqlInitialize/">PSQL Initialization</a></li>
+          
+            <li><a href="/docs/tools/LexDbFieldMappings/">Field Mappings</a></li>
+          
+            <li><a href="/docs/tools/LkbLexDbMultiUser/">Multi-User</a></li>
+          
+            <li><a href="/docs/tools/LkbLexDbSingleUser/">Single User</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">[incr tsdb()]</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/ItsdbTop/">Overview</a></li>
+          
+            <li><a href="/docs/tools/TsdbTop/">Deep Dive</a></li>
+          
+            <li><a href="/docs/tools/ItsdbDerivations/">Derivations</a></li>
+          
+            <li><a href="/docs/tools/ItsdbProfileManipulation/">Profile Manipulation</a></li>
+          
+            <li><a href="/docs/tools/ItsdbProfile/">Profile</a></li>
+          
+            <li><a href="/docs/tools/ItsdbProfiling/">Profiling</a></li>
+          
+            <li><a href="/docs/tools/ItsdbDistributedProcessing/">Distributed Processing</a></li>
+          
+            <li><a href="/docs/tools/ItsdbBatch/">Batch</a></li>
+          
+            <li><a href="/docs/tools/ItsdbReference/">Reference</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTroubleshooting/">Troubleshooting</a></li>
+          
+            <li><a href="/docs/tools/GeFaqTsdbRc/">FAQ</a></li>
+          
+            <li><a href="/docs/tools/ItsdbWishlist/">Wish List</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Logon</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/LogonTop/">Overview</a></li>
+          
+            <li><a href="/docs/tools/LogonInstallation/">Installation</a></li>
+          
+            <li><a href="/docs/tools/LogonRedhat/">Red Hat</a></li>
+          
+            <li><a href="/docs/tools/LogonUbuntu/">Ubuntu</a></li>
+          
+            <li><a href="/docs/tools/LogonArch/">Arch Linux</a></li>
+          
+            <li><a href="/docs/tools/LogonDebian/">Debian</a></li>
+          
+            <li><a href="/docs/tools/LogonHandon/">Hands-On Release</a></li>
+          
+            <li><a href="/docs/tools/LogonSvn/">SVN</a></li>
+          
+            <li><a href="/docs/tools/LogonProcessing_BatchGeneration/">Batch Generation</a></li>
+          
+            <li><a href="/docs/tools/LogonProcessing_BatchTranslation/">Batch Translation</a></li>
+          
+            <li><a href="/docs/tools/LogonPet/">PET Integration</a></li>
+          
+            <li><a href="/docs/tools/LogonAnswer/">ACE Integration</a></li>
+          
+            <li><a href="/docs/tools/LogonExtras/">Extras</a></li>
+          
+            <li><a href="/docs/tools/LogonReports/">Reports</a></li>
+          
+            <li><a href="/docs/tools/LogonProcessing/">Processing</a></li>
+          
+            <li><a href="/docs/tools/LogonProcessing_BatchParsing/">Batch Parsing</a></li>
+          
+            <li><a href="/docs/tools/LogonModeling/">Modeling</a></li>
+          
+            <li><a href="/docs/tools/LogonOnline/">Online</a></li>
+          
+            <li><a href="/docs/tools/LogonTransfer/">Transfer</a></li>
+          
+            <li><a href="/docs/tools/LogonVpm/">Variable Property Mapping</a></li>
+          
+            <li><a href="/docs/tools/NoJa/">Setting up New Languages</a></li>
+          
+            <li><a href="/docs/tools/LogonIdiosyncrasies/">Idiosyncrasies</a></li>
+          
+            <li><a href="/docs/tools/LogonWishlist/">Wishlist</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammar Tips</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/GrammarPerformance/">Grammar Performance</a></li>
+          
+            <li><a href="/docs/tools/VersionControlForGrammarDevelopment/">Grammar Version Control</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Treebanking</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/TreebankingTop/">Overview</a></li>
+          
+            <li><a href="/docs/tools/FftbTop/">Full Forest Treebanker (FFTB)</a></li>
+          
+            <li><a href="/docs/tools/FftbWishlist/">Full Forest Treebanker Wishlist</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking/">[incr tsdb()] Treebanking</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking_ItsdbAnnotation/">[incr tsdb()] Treebanking Annotation</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking_ItsdbUpdating/">[incr tsdb()] Treebanking Updating</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking_ItsdbExporting/">[incr tsdb()] Treebanking Exporting</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking_ItsdbModeling/">[incr tsdb()] Treebanking Modeling</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking_ItsdbUpdating/">[incr tsdb()] Treebanking Updating</a></li>
+          
+            <li><a href="/docs/tools/ItsdbCustomization/">[incr tsdb()] Treebanking Customization</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking_ItsdbModeling/">[incr tsdb()] Treebanking Modeling</a></li>
+          
+            <li><a href="/docs/tools/IndraTreebanking/">Indra</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Formats</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/DelphinRFCs/">Delphin RFCs</a></li>
+          
+            <li><a href="/docs/tools/PredicateRfc/">Predicate RFC</a></li>
+          
+            <li><a href="/docs/tools/MrsRFC/">MRS Format RFC</a></li>
+          
+            <li><a href="/docs/tools/MrsIsomorphism/">MRS Isomorphism</a></li>
+          
+            <li><a href="/docs/tools/EdsTop/">EDS Format</a></li>
+          
+            <li><a href="/docs/tools/EdsConversion/">EDS Conversion</a></li>
+          
+            <li><a href="/docs/tools/EdsGeneration/">EDS Generation</a></li>
+          
+            <li><a href="/docs/tools/SemiRfc/">SEM-I RFC</a></li>
+          
+            <li><a href="/docs/tools/TdlRFC/">TDL RFC</a></li>
+          
+            <li><a href="/docs/tools/TsqlRfc/">TSQL RFC</a></li>
+          
+            <li><a href="/docs/tools/GrammarVersionRfc/">Grammar Version RFC</a></li>
+          
+            <li><a href="/docs/tools/GrammarConfigurationRfc/">Grammar Configuration RFC</a></li>
+          
+            <li><a href="/docs/tools/TsdbSchemaRfc/">TSDB Schema RFC</a></li>
+          
+            <li><a href="/docs/tools/MatrixChoicesRfc/">Matrix Choices RFC</a></li>
+          
+            <li><a href="/docs/tools/RmrsTop/">(R)MRS Overview</a></li>
+          
+            <li><a href="/docs/tools/RmrsWellformedness/">(R)MRS Wellformedness</a></li>
+          
+            <li><a href="/docs/tools/RmrsPos/">(R)MRS Predicate Naming</a></li>
+          
+            <li><a href="/docs/tools/RmrsSpan/">(R)MRS Span</a></li>
+          
+            <li><a href="/docs/tools/RmrsDesign/">(R)MRS Design</a></li>
+          
+            <li><a href="/docs/tools/RmrsParaphrasing/">(R)MRS Paraphrasing</a></li>
+          
+            <li><a href="/docs/tools/RmrsModel/">(R)MRS Model</a></li>
+          
+            <li><a href="/docs/tools/RmrsDistributional/">(R)MRS Distributional</a></li>
+          
+            <li><a href="/docs/tools/RmrsSemi/">(R)MRS Semi</a></li>
+          
+            <li><a href="/docs/tools/RmrsDmrs/">(R)MRS Dmrs</a></li>
+          
+            <li><a href="/docs/tools/RmrsFaq/">(R)MRS Faq</a></li>
+          
+            <li><a href="/docs/tools/RmrsDiscussions/">(R)MRS Discussions</a></li>
+          
+            <li><a href="/docs/tools/TransferRules/">Transfer Rules</a></li>
+          
+            <li><a href="/docs/tools/FormatSpecifications/">Format Specifications</a></li>
+          
+            <li><a href="/docs/tools/ErgGml/">Grammar Markup Language</a></li>
+          
+            <li><a href="/docs/tools/SmafTop/">SMAF</a></li>
+          
+            <li><a href="/docs/tools/SmafLkb/">SMAF in LKB</a></li>
+          
+            <li><a href="/docs/tools/SmafPet/">SMAF in PET</a></li>
+          
+            <li><a href="/docs/tools/SmafSample/">SMAF Sample</a></li>
+          
+            <li><a href="/docs/tools/SmafDtd/">SMAF DTD</a></li>
+          
+            <li><a href="/docs/tools/SafTop/">SAF Overview</a></li>
+          
+            <li><a href="/docs/tools/SafDtd/">SAF DTD</a></li>
+          
+            <li><a href="/docs/tools/IconsSpecs/">Icons Specs</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <h1 id="the-fully-open-source-version-of-the-lkb">The Fully Open Source version of the LKB</h1>
+
+<p>The Fully Open Source version of the
+<a href="https://github.com/delph-in/docs/wiki/LkbTop">LKB system</a>
+(‘LKB-FOS’ for short) is based on the ‘classic’ version of the LKB that
+was developed for many years in Franz Allegro Common Lisp – but with
+the major difference that it is not dependent on any proprietary
+compilers, runtime environments or code libraries. The source code is in
+the DELPH-IN public repository
+<a href="http://svn.delph-in.net/lkb/branches/fos/">http://svn.delph-in.net/lkb/branches/fos/</a>. For convenience,
+precompiled binaries for macOS and Linux can be downloaded from
+<a href="http://users.sussex.ac.uk/~johnca/lkb_fos.tgz">lkb_fos.tgz</a> [98.7
+MB]. A Windows binary may be available at some point in the future.</p>
+
+<p>LKB-FOS has been developed using the tools and libraries <em>SBCL</em>,
+<em>McCLIM</em> and <em>SLIME</em> (replacing Franz Allegro CL, CLIM and ELI
+respectively). See the following sections for installation and usage
+instructions.</p>
+
+<h2 id="contents">Contents</h2>
+
+<ol>
+  <li><a href="https://delph-in.github.io/docs/tools/LkbFos">Installation</a></li>
+  <li><a href="https://delph-in.github.io/docs/tools/LkbFos">Features and Enhancements</a></li>
+  <li><a href="https://delph-in.github.io/docs/tools/LkbFos">Practical Hints and Tips</a>
+    <ol>
+      <li><a href="https://delph-in.github.io/docs/tools/LkbFos">Text Entry</a></li>
+      <li><a href="https://delph-in.github.io/docs/tools/LkbFos">Fonts</a></li>
+      <li><a href="https://delph-in.github.io/docs/tools/LkbFos">Interface Size</a></li>
+      <li><a href="https://delph-in.github.io/docs/tools/LkbFos">Copying Text</a></li>
+    </ol>
+  </li>
+  <li><a href="https://delph-in.github.io/docs/tools/LkbFos">Problems</a></li>
+</ol>
+
+<h2 id="installation">Installation</h2>
+
+<p>To install LKB-FOS:</p>
+
+<ol>
+  <li>Create a top-level directory to hold the DELPH-IN software and resources. Good
+choices for this directory are ~/delphin on Linux or ~/Documents/delphin on macOS.
+So that DELPH-IN software can find the associated resources, set the environment
+variable DELPHINHOME to this directory; you can do this with a command such as
+<code class="language-plaintext highlighter-rouge">export DELPHINHOME=~/delphin</code>. Also add this command to your shell initialization
+file. On Linux this file is ~/.bashrc if you are using the default, <em>bash</em> shell.
+On macOS, for DELPHINHOME to be correctly set when you start the LKB via emacs or
+by double clicking, you should set this variable in your ~/.bash_profile file,
+not in ~/.bashrc.</li>
+  <li>The LKB needs a writable directory to store its temporary files. On Linux,
+this is ~/tmp/, and on macOS ~/Documents/tmp/. Create this directory if it does
+not already exist.</li>
+  <li>Download the LKB-FOS binary archive (link above) and unpack the files inside
+your directory $DELPHINHOME, which will create a new directory $DELPHINHOME/lkb_fos.
+If you use this precompiled binary version of LKB-FOS, you do not need to install
+SBCL, McCLIM or SLIME.</li>
+  <li>
+    <p>In order to use <a href="https://delph-in.github.io/docs/tools/ItsdbTop">[incr tsdb()]</a>
+functionality (only on Linux at present), the environment variable
+LD_LIBRARY_PATH must include the LKB-FOS shared library directory
+$DELPHINHOME/lkb_fos/lib/linux.x86.64. The following Unix command
+should accomplish this (it can go in your ~/.bash_profile file or
+~/.profile file, as appropriate).</p>
+
+    <p><code class="language-plaintext highlighter-rouge">export LD_LIBRARY_PATH=$DELPHINHOME/lkb_fos/lib/linux.x86.64:$LD_LIBRARY_PATH</code></p>
+  </li>
+  <li>[Linux only] LKB-FOS requires the Unix application <em>xclip</em>, which is not
+installed by default in all Linux distributions; in Ubuntu, to download
+and install it you can run the command <code class="language-plaintext highlighter-rouge">sudo apt-get install xclip</code>.<br />
+[macOS only] LKB-FOS requires the open source application <em>XQuartz</em>; if you
+don’t already have <em>XQuartz</em>, download it from <a href="https://www.xquartz.org">https://www.xquartz.org</a>
+and install it.</li>
+</ol>
+
+<p>The LKB-FOS binary for Linux is lkb.linux_x86_64.</p>
+
+<p>The LKB-FOS binary for macOS Intel architecture is lkb.darwin_x86_64, and for M1
+architecture it is lkb.darwin_arm64. You can run the appropriate binary by typing
+its name in the <em>Terminal</em> application or in an <em>xterm</em> hosted by <em>XQuartz</em>.
+Alternatively, to start the LKB without going through the Unix command line,
+you can just double click the LKB.app application – if that gives an error message
+then check the ‘Problems’ section below. <em>Aquamacs</em> http://aquamacs.org works well
+for running LKB-FOS as a process inside <em>emacs</em>.</p>
+
+<p>To run LKB-FOS inside <em>emacs</em>, put the following block of lines in the
+file ~/.emacs in your home directory.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(let ((root (or (getenv "DELPHINHOME") "~/delphin")))
+  (load (format "%s/lkb_fos/emacs/dot.emacs" root) nil t t))
+</code></pre></div></div>
+
+<p>Then, when <em>emacs</em> has started up, the following keystrokes will start
+LKB-FOS: <code class="language-plaintext highlighter-rouge">Meta-x lkb RET</code></p>
+
+<h2 id="features-and-enhancements">Features and Enhancements</h2>
+
+<p>Porting the LKB to an open source foundation has inspired further
+efforts to overhaul the code base. In addition, the use of a
+different underlying Lisp system (SBCL with McCLIM rather than Allegro
+CL and its native CLIM implementation) gives advantages in the areas of
+speed of processing, multilingual support, and visual appearance.
+Improved features include:</p>
+
+<ul>
+  <li>Dialogs: these have been reimplemented to improve their appearance,
+and a user-friendly file selector dialog has been added.</li>
+  <li>Parser local ambiguity packing: this was previously turned off by
+default, resulting in even moderately long or ambiguous sentences
+over-running the chart edge limit. A couple of minor
+packing/unpacking issues have been resolved and packing is now
+turned on by default. To revert to the previous behaviour, execute
+<code class="language-plaintext highlighter-rouge">(setq *chart-packing-p* nil)</code></li>
+  <li>Multilingual support: SBCL has excellent support for Unicode and
+McCLIM works well for Unicode output, so LKB-FOS can work with
+grammars using any language script.</li>
+  <li>Chart mapping: LKB-FOS includes support for token mapping,
+lexical filtering, and post-generation mapping rules.</li>
+</ul>
+
+<p>Experienced LKB users might notice further refinements:</p>
+
+<ul>
+  <li>Responsive window resizing (file selector dialogs and parse trees
+windows reformat their contents when they are resized).</li>
+  <li>More informative window titles, able to display any Unicode
+character.</li>
+  <li>Info line in tree windows, showing details of the currently selected
+tree or tree node.</li>
+  <li>Type hierarchy display that includes a target type’s ancestors as
+well as descendants, can be zoomed in and out, and can also show
+type constraints.</li>
+  <li>Much faster GLB computation for large type hierarchies.</li>
+  <li>Major speed improvements in the user interface, and also in parsing
+and generation.</li>
+  <li>Bug fixes and enhancements, as suggested in <a href="https://delph-in.github.io/docs/tools/LkbBugs">LkbBugs</a> and
+<a href="https://delph-in.github.io/docs/tools/LkbWishlist">LkbWishlist</a>.</li>
+  <li>Support for the revised DELPH-IN TDL format, as specified in TdlRfc.</li>
+  <li>A new handy command ‘Evaluate Lisp expression…’ in the Lkb Top
+Advanced menu.</li>
+</ul>
+
+<p>LKB-FOS supports the Linguistic User Interface (LUI): see the
+<a href="https://delph-in.github.io/docs/tools/LkbLui">LkbLui</a> pages for information on installing and using the LUI.
+Execute the Lisp expressions <code class="language-plaintext highlighter-rouge">(lui-initialize)</code> and <code class="language-plaintext highlighter-rouge">(lui-shutdown)</code> to
+enable and disable it, respectively; alternatively set the environment
+variable LUI. The LUI executable is expected to be on the user’s PATH.</p>
+
+<p>On Linux, LKB-FOS includes <a href="https://delph-in.github.io/docs/tools/ItsdbTop">[incr tsdb()]</a>. To open the
+‘podium’ window, execute the Lisp expression <code class="language-plaintext highlighter-rouge">(tsdb:tsdb :podium)</code>.</p>
+
+<p>Refer to the README file for a detailed, up-to-date list of bug fixes
+and new features.</p>
+
+<h2 id="practical-hints-and-tips">Practical Hints and Tips</h2>
+
+<h3 id="text-entry">Text Entry</h3>
+
+<p>Text fields in dialogs do not respond to mouse or trackpad gestures
+(clicking / dragging), but expect keyboard commands using the arrow
+keys, backspace key and standard <em>emacs</em> key bindings. Useful commands
+for text fields are:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Ctrl-space: set mark
+Esc-B / Esc-F: go backwards / forwards one word
+Esc-Backspace / Esc-D: delete previous / next word
+Ctrl-A Ctrl-K: a quick two-command combination to clear the text field
+</code></pre></div></div>
+
+<p>The following keyboard commands have been added for the convenience of users
+who are more familiar with Common User Access (CUA) interfaces:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Ctrl-C: copy to clipboard the text between cursor and mark
+Ctrl-X: cut to clipboard the text between cursor and mark
+Ctrl-V: paste from clipboard at cursor
+Ctrl-Z: undo the last change
+</code></pre></div></div>
+
+<h3 id="fonts">Fonts</h3>
+
+<p>For interactive input, on macOS the <em>Input Sources</em> menu can be used to
+switch between language scripts, and the <em>Keyboard Viewer</em> provides
+convenient multilingual text entry. For output, the LKB requires a
+Unicode-compatible font. There is no font substitution: all characters
+to be displayed have to be in the selected sans-serif and monospace
+fonts.</p>
+
+<p>Suitable Unicode fonts are DejaVu Sans (attractive, and covering many
+language scripts), Code2000 (less attractive, but with even better
+coverage), or WenQuanYi Zen Hei (reasonably attractive, with full CJK
+coverage). (On macOS, these are not standard fonts so you will have to
+download them yourself - put them in /opt/X11/share/fonts/TTF/ - having
+first installed <em>XQuartz</em>). To select DejaVu Sans, use the following
+Unix command:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cat &gt; ~/.fonts.conf &lt;&lt;!
+&lt;?xml version="1.0"?&gt;
+&lt;fontconfig&gt;
+ &lt;dir&gt;/opt/X11/share/fonts/TTF&lt;/dir&gt;
+ &lt;alias&gt;
+ &lt;family&gt;sans-serif&lt;/family&gt;
+ &lt;prefer&gt;
+ &lt;family&gt;DejaVu Sans&lt;/family&gt;
+ &lt;family&gt;Code2000&lt;/family&gt;
+ &lt;family&gt;WenQuanYi Zen Hei&lt;/family&gt;
+ &lt;/prefer&gt;
+ &lt;/alias&gt;
+ &lt;alias&gt;
+ &lt;family&gt;monospace&lt;/family&gt;
+ &lt;prefer&gt;
+ &lt;family&gt;DejaVu Sans Mono&lt;/family&gt;
+ &lt;family&gt;Code2000&lt;/family&gt;
+ &lt;family&gt;WenQuanYi Zen Hei&lt;/family&gt;
+ &lt;/prefer&gt;
+ &lt;/alias&gt;
+&lt;/fontconfig&gt;
+!
+</code></pre></div></div>
+
+<p>You can verify that DejaVu Sans is selected by running the Unix commands</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>fc-match sans
+fc-match mono
+</code></pre></div></div>
+
+<p>The output of these commands should be</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>DejaVuSans.ttf: "DejaVu Sans" "Book"
+DejaVuSansMono.ttf: "DejaVu Sans Mono" "Book"
+</code></pre></div></div>
+
+<p>You can then start up the LKB and it will use these fonts. Note that if
+you want to input or output non-ASCII characters, you should make sure
+you are using a Unicode <em>locale</em> such as en_US.UTF-8.</p>
+
+<h3 id="interface-size">Interface Size</h3>
+
+<p>If you are using the LKB on a high-DPI display, you might want to
+increase the size of text in menus and in dialog buttons and labels. You
+can do this by putting the following in your ~/.lkbrc file:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(setq clim:*default-text-style* (clim:make-text-style :sans-serif :roman 18))
+</code></pre></div></div>
+
+<h3 id="copying-text">Copying Text</h3>
+
+<p>To copy from a ‘text-like’ window such as Lkb Top or Scoped MRS, shift-drag
+across the text (or alternatively shift-left-click at one end of the text and
+shift-right-click at the other end). On macOS, you will then need to type
+Command-C – or select Copy from the XQuartz Edit menu – to get the text into
+the system clipboard. On Linux, the highlighted text goes straight into the
+clipboard; to paste it, click the middle mouse button.</p>
+
+<h2 id="problems">Problems</h2>
+
+<p>In macOS 10.12 and upwards, the ‘App Translocation’ security feature
+prevents LKB.app from working properly the first time it is launched. To
+fix this, drag LKB.app to the Desktop and then back again. You may also
+need to authorise it in the General tab of Security &amp; Privacy in
+System Preferences. These two steps should be enough to allow it to run.</p>
+
+<p>Unanticipated errors may cause the LKB graphical interface to become
+unresponsive. This is because the underlying Lisp system is expecting
+the user to enter the debugger for that thread. If you are running the
+LKB inside <em>emacs</em>, a debugger buffer should open automatically.
+Otherwise, to enter the debugger manually, execute
+<code class="language-plaintext highlighter-rouge">(sb-thread:release-foreground)</code> at the Lisp prompt. You can then type
+backtrace to inspect the context of the error, and Ctrl-D to kill the
+thread. The interface should then start responding again.</p>
+
+<p>If you see a message like the following</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>error finding frame source: Bogus form-number: the source file has probably changed too much to
+cope with.
+</code></pre></div></div>
+
+<p>this means that there was a previous error, and the error handler was
+not able to locate the LKB source code file containing the function that
+signalled that error (perhaps because you are running a precompiled
+binary). Ignore this error and look back in the system output for the
+original error message, e.g.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Syntax error at line 25204, character 2: In X_-_BRIDGE_LE, expected a documentation string after
+double quote character, but did not find two further double quotes
+Ignoring (part of) entry for X_-_BRIDGE_LE
+</code></pre></div></div>
+
+<p>If you encounter an unexpected problem using LKB-FOS, please check
+<a href="https://delphinqa.ling.washington.edu/about">DELPH-IN Discourse</a> to see if
+a solution has already been posted there; if it hasn’t then create a new topic.</p>
+
+<p>Last update: 2022-12-30 by John Carroll [<a href="https://github.com/delph-in/docs/wiki/LkbFos/_edit">edit</a>]</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+<!--Scroll the navbar to the current page-->
+<script type="text/javascript">
+  let el = document.querySelector('.nav__list .active');
+  if(el){
+    el.scrollIntoView({block: "center", inline: "start"});
+  }
+</script>
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/docs/tools/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/docs/tools/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/docs/tools/assets/js/lunr/lunr.min.js"></script>
+<script src="/docs/tools/assets/js/lunr/lunr-store.js"></script>
+<script src="/docs/tools/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

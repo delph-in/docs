@@ -1,0 +1,717 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>DELPH-IN Grammar Catalogue</title>
+<meta name="description" content="An amazing website.">
+
+
+  <meta name="author" content="Your Name">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="DELPH-IN Grammar Catalogue">
+<meta property="og:title" content="DELPH-IN Grammar Catalogue">
+<meta property="og:url" content="https://delph-in.github.io/docs/grammars/JacyInstallation/">
+
+
+  <meta property="og:description" content="An amazing website.">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://delph-in.github.io/docs/grammars/JacyInstallation/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Your Name",
+      "url": "https://delph-in.github.io/docs/grammars/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/docs/grammars/feed.xml" type="application/atom+xml" rel="alternate" title="DELPH-IN Grammar Catalogue Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/docs/grammars/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--delphin_page wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/docs/grammars/"><img src="/docs/grammars/assets/images/Delph-In.png" alt="DELPH-IN Grammar Catalogue"></a>
+        
+        <a class="site-title" href="/docs/grammars/">
+          DELPH-IN Grammar Catalogue
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/home/Home">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/howto/DelphinWelcome">How-To</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/erg/ErgTop">ERG</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/tools/ToolsTop">Tools</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/grammars/GrammarsOverview">Grammars</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/matrix/MatrixDocsOverview">Matrix</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/summits/SummitTop">Summits</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/garage/GarageTop">Garage</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Overview</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/grammars/GrammarsOverview/">Overview</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Norwegian</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/grammars/NorsourceTop/">Overview</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Chinese (Zhong)</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/grammars/ZhongTop/">Overview</a></li>
+          
+            <li><a href="/docs/grammars/ZhongGeneration/">Generation</a></li>
+          
+            <li><a href="/docs/grammars/ZhongYYMode/">YY Mode</a></li>
+          
+            <li><a href="/docs/grammars/ZhongCoverage/">Coverage</a></li>
+          
+            <li><a href="/docs/grammars/ZhongAce/">Ace</a></li>
+          
+            <li><a href="/docs/grammars/ZhongPreprocessing/">Preprocessing</a></li>
+          
+            <li><a href="/docs/grammars/ZhongTranslation/">Translation</a></li>
+          
+            <li><a href="/docs/grammars/ZhongRegressionTest/">Regression Test</a></li>
+          
+            <li><a href="/docs/grammars/ZhongHistory/">History</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Japanese (JACY)</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/grammars/JacyTop/">Overview</a></li>
+          
+            <li><a href="/docs/grammars/JacySummary/">Summary</a></li>
+          
+            <li><a href="/docs/grammars/JacyDoc/">Documentation</a></li>
+          
+            <li><a href="/docs/grammars/JacyInstallation/" class="active">Installation</a></li>
+          
+            <li><a href="/docs/grammars/JacyLexTypes/">Lexical Types</a></li>
+          
+            <li><a href="/docs/grammars/JacyValence/">Valence</a></li>
+          
+            <li><a href="/docs/grammars/JacyMorphology/">Morphology</a></li>
+          
+            <li><a href="/docs/grammars/JacyGeneration/">Generation</a></li>
+          
+            <li><a href="/docs/grammars/JacyIdiom/">Idiom</a></li>
+          
+            <li><a href="/docs/grammars/JacyNumbers/">Numbers</a></li>
+          
+            <li><a href="/docs/grammars/JacyLexDb/">LexDb</a></li>
+          
+            <li><a href="/docs/grammars/JacyPerformance/">Performance</a></li>
+          
+            <li><a href="/docs/grammars/JacyHinoki/">Hinoki</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Other Grammars</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/grammars/GrammarCatalogue/">Overview</a></li>
+          
+            <li><a href="/docs/grammars/AraGram/">Arabic</a></li>
+          
+            <li><a href="/docs/grammars/BitseSummary/">Bitse</a></li>
+          
+            <li><a href="/docs/grammars/ErgSummary/">ERG</a></li>
+          
+            <li><a href="/docs/grammars/CheetahTop/">German</a></li>
+          
+            <li><a href="/docs/grammars/MgrgSummary/">Greek</a></li>
+          
+            <li><a href="/docs/grammars/HeGram/">Hebrew</a></li>
+          
+            <li><a href="/docs/grammars/IndraTop/">Indonesian (INDRA)</a></li>
+          
+            <li><a href="/docs/grammars/KrgTop/">Korean</a></li>
+          
+            <li><a href="/docs/grammars/MandarinGrammarOnline/">Mandarin </a></li>
+          
+            <li><a href="/docs/grammars/NorsourceSummary/">Norwegian Summary</a></li>
+          
+            <li><a href="/docs/grammars/NorsourceDownload/">Norwegian Download</a></li>
+          
+            <li><a href="/docs/grammars/PhdgramSummary/">Phdgram </a></li>
+          
+            <li><a href="/docs/grammars/RussianQuestionsGrammarTop/">Russian</a></li>
+          
+            <li><a href="/docs/grammars/SlavicTop/">Slavic</a></li>
+          
+            <li><a href="/docs/grammars/WambayaTop/">Wambaya</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammar Discussions</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/grammars/GrammarDiscussionsTop/">Overview</a></li>
+          
+            <li><a href="/docs/grammars/LADIndonesianMorphology/">Indonesian Morphology</a></li>
+          
+            <li><a href="/docs/grammars/CapitalHillPassivesDiscussion/">Indonesian Passives</a></li>
+          
+            <li><a href="/docs/grammars/CapitolHillPassives/">CapitolHillPassives</a></li>
+          
+            <li><a href="/docs/grammars/RomanceTop/">Romance</a></li>
+          
+            <li><a href="/docs/grammars/RomClitics/">Romance Clitics</a></li>
+          
+            <li><a href="/docs/grammars/RomSe/">Romance Clitic Se</a></li>
+          
+            <li><a href="/docs/grammars/RomContract/">Romance Contractions</a></li>
+          
+            <li><a href="/docs/grammars/DelphinLisbon/">Romance Contributions</a></li>
+          
+            <li><a href="/docs/grammars/SlavicTop/">Slavic</a></li>
+          
+            <li><a href="/docs/grammars/HarmonyTop/">Semantic Harmonization</a></li>
+          
+            <li><a href="/docs/grammars/PhonologyTop/">Phonology</a></li>
+          
+            <li><a href="/docs/grammars/PhonologyTop_FrenchPhonemes/">Phonology of French Phonemes</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <p>Contents</p>
+
+<ol>
+  <li><a href="https://delph-in.github.io/docs/grammars/JacyInstallation">Setting up Jacy</a>
+    <ol>
+      <li><a href="https://delph-in.github.io/docs/grammars/JacyInstallation">Calling Jacy from Emacs</a></li>
+      <li><a href="https://delph-in.github.io/docs/grammars/JacyInstallation">Using JACY with PET</a></li>
+    </ol>
+  </li>
+  <li><a href="https://delph-in.github.io/docs/grammars/JacyInstallation">Using JACY with [incr
+tsdb()]</a>
+    <ol>
+      <li><a href="https://delph-in.github.io/docs/grammars/JacyInstallation">Using JACY with itsdb and PET</a></li>
+    </ol>
+  </li>
+  <li><a href="https://delph-in.github.io/docs/grammars/JacyInstallation">Graphical User Interface</a>
+    <ol>
+      <li><a href="https://delph-in.github.io/docs/grammars/JacyInstallation">LUI</a></li>
+      <li><a href="https://delph-in.github.io/docs/grammars/JacyInstallation">CLIM</a></li>
+    </ol>
+  </li>
+</ol>
+
+<h1 id="setting-up-jacy">Setting up Jacy</h1>
+
+<p>Here are some incomplete and sometime out-of-date instructions on how to
+install and run <a href="https://delph-in.github.io/docs/grammars/JacyTop">Jacy</a>. First you must install the
+<a href="https://delph-in.github.io/docs/tools/LkbTop">LKB</a> or <a href="https://delph-in.github.io/docs/garage/PetTop">PET</a>. Note that currently the automated
+installation (<a href="https://delph-in.github.io/docs/tools/LkbInstallation">LkbInstallation</a>) with the option –jacy
+gives an old version of the grammar.</p>
+
+<p>If you want to use <a href="http://chasen.naist.jp">ChaSen</a> for segementation
+and unknown word handling, then you must also install it.</p>
+
+<p>Although the lkb will run standalone, there are problems with Japanese
+input. The recommended way to run it is from inside emacs, using the eli
+interface. Install the lkb and eli (following the instructions in
+<a href="https://delph-in.github.io/docs/tools/LkbEmacs">LkbEmacs</a>), you can run Lisp with a UTF locale
+(ja_JP.UTF-8), but we change it internally anyway.</p>
+
+<p>Now load everything, LKB, MRS, plus [incr tsdb()]:</p>
+
+<p>Open emacs</p>
+
+<p>Start Lisp with M-x lkb for the precompiled binaries, or with M-x lisp
+if you have Allegro Common Lisp. Inside the common-lisp buffer:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>:ld ~/src/lkb/src/general/loadup
+(pushnew :lkb *features*)
+(pushnew :mrs *features*)
+(compile-system "tsdb" :force t)
+</code></pre></div></div>
+
+<p>Jacy also works with Steel Bank Common Lisp (sbcl).</p>
+
+<p>Load the grammar with:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(read-script-file-aux "~/path/to/grammar/jacy/lkb/script")
+</code></pre></div></div>
+
+<p>or, if you want to use <a href="/ChaSen">ChaSen</a>:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(read-script-file-aux "~/path/to/grammar/jacy/lkb/script.chasen")
+</code></pre></div></div>
+
+<p>You can parse a sentence by typing (do-parse-tty ”犬 が 吠える”) in the
+emacs window.</p>
+
+<p>If you have any questions, please write an email to: bond＠ieee.org.</p>
+
+<h2 id="calling-jacy-from-emacs">Calling Jacy from Emacs</h2>
+
+<p>Assuming that you have a recent LOGON install, you can save some typing
+with the following function:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(defun jacy ()
+  (interactive)
+  ;; set up logon
+  (logon)
+  ;;set tsdb home and skeleton home
+  (insert (format 
+           "(tsdb::tsdb :skeleton \"%s/dfki/jacy/tsdb\")"
+           logon-root))
+  (fi:inferior-lisp-newline)
+  (insert (format 
+           "(tsdb::tsdb :skeleton \"%s/dfki/jacy/tsdb/skeletons\")"
+           logon-root))
+  (fi:inferior-lisp-newline)
+  ;; load the grammar
+  (insert 
+   (format "(lkb::read-script-file-aux  \"%s/dfki/jacy/lkb/script\")" 
+           logon-root))
+  (fi:inferior-lisp-newline)
+  ;; set up input method
+  (set-input-method "japanese"))
+</code></pre></div></div>
+
+<h2 id="using-jacy-with-pet">Using JACY with PET</h2>
+
+<p>You need to segment the Japanese, for example by preprocessing with
+<a href="http://chasen.naist.jp">ChaSen</a>:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&gt; chasen -F"%m " | cheap ~/japanese/japanese.grm
+</code></pre></div></div>
+
+<p>reading `pet/japanese.set’…</p>
+
+<p>loading `japanese.grm’ (Japanese (jan-03))</p>
+
+<p>16674 types in 1.7 s</p>
+
+<h1 id="using-jacy-with-incr-tsdb">Using JACY with [incr tsdb()]</h1>
+
+<p><em>Note</em>: some of these instructions may be out of date.</p>
+
+<p>Install itsdb, following the instructions in the manual.</p>
+
+<p>The latest version of JACY and versions of itsdb later than 2003-05-20
+should work as is with Japanese.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  M-x itsdb
+</code></pre></div></div>
+
+<p>Note: Japanese test sentences should be in utf-8.</p>
+
+<p>To get itsdb to count Japanese words, you need to segment the test
+sentences at some stage. This can be done during import.</p>
+
+<ul>
+  <li>
+    <p>if there is a _global_
+preprocessing hook’, [incr tsdb()] import will pipe everything through it and use the _second_ value that it returns as the i-length’
+field; e.g. (setf *tsdb-preprocessing-hook*
+“lkb::chasen-preprocess-for-pet”)</p>
+
+    <p>will enable that hook globally, and once you use a definition of
+this function that counts correctly (no good doing length() on a
+variable _after_ using the destructive nreverse() on it :-{), you
+will notice that (i) imports from text files are much slower
+and (ii)
+Browse – Test Items’ will show [http://chasen.naist.jp ChaSen] word counts for the i-length’
+field.</p>
+  </li>
+</ul>
+
+<p>Note that because the import can now take actual time (half a second per
+item or so), the [incr tsdb()] progress meter should advance correctly
+during the import from text file function (this does not work on
+versions older than 2003-06),</p>
+
+<p>There is an example of
+user-fns.lsp’ for JaCY that enables the *tsdb-preprocessing-hook*, when [incr tsdb()] is loaded _before_ the grammar. (You could also set this in ~/.tsdbrc`,
+but then it would affect everything you do, no matter which grammar was
+used.)</p>
+
+<p>from user-fns.lsp:</p>
+
+<p>;;; ;;; hook for [incr tsdb()] to call when preprocessing input (going
+to the PET ;;; parser or when counting `words’ while import test items
+from a text file). ;;;</p>
+
+<p>(defun chasen-preprocess-for-pet (input)</p>
+
+<p>(preprocess-sentence-string input :verbose nil :posp t))</p>
+
+<p>#+(or :pvm :itsdb)</p>
+
+<p>(setf tsdb::*tsdb-preprocessing-hook*
+“lkb::chasen-preprocess-for-pet”)</p>
+
+<h2 id="using-jacy-with-itsdb-and-pet">Using JACY with itsdb and PET</h2>
+
+<p>Install itsdb and PET.</p>
+
+<p>You can run Japanese with a cpu defined in your .tsdbrc (substituting
+your pathnames).</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>grammardir=${LOGONROOT}/dfki/jacy
+grammarscript=${grammardir}/lkb/script
+skeletondir=${grammardir}/tsdb/skeletons
+grm=${grammardir}/japanese.grm
+petpreprocessor=lkb::chasen-preprocess-for-pet
+grmname=jacy
+
+(tsdb::make-cpu
+        :host (short-site-name)
+        :spawn "${LOGONROOT}/bin/cheap"
+        :options (list "-tsdb" "-packing" "${grm}")
+        :class :pet :name "${grmname}-pet" :grammar "${grmname}"
+        :task '(:parse) :wait 300 :quantum 180)
+(tsdb::make-cpu
+        :host (short-site-name)
+        :spawn "${LOGONROOT}/bin/cheap"
+        :options (list "-tsdb" "-packing" "-tok=yy" "-default-les" "${grm}")
+        :class :lex :name "${grmname}-lex" :grammar "${grmname}"
+        :preprocessor "${petpreprocessor}"
+        :task '(:parse) :wait 300 :quantum 180)
+</code></pre></div></div>
+
+<p>After starting lkb-ja and itsdb in emacs:</p>
+
+<p>Choose the cpu in the normal way by evaluating</p>
+
+<p>(tsdb::tsdb :cpu :nihongo :file t) in the *common-lisp* buffer:</p>
+
+<p>LKB(2): (tsdb::tsdb :cpu :nihongo :file t)</p>
+
+<p>The preprocessor calls a function defined in usr-fns.lisp that runs
+chasen on the input, the combination of “-yy” “-default-les” takes the
+output and produces default lexical types for unknown words.</p>
+
+<h1 id="graphical-user-interface">Graphical User Interface</h1>
+
+<h2 id="lui">LUI</h2>
+
+<p>The main graphical user interface with the LKB is now the <a href="https://delph-in.github.io/docs/tools/LkbLui">Linguistic
+User Interface (LUI)</a>. Unfortunately, the default setup does not
+display Japanese under Unix. There are two ways to fix things:</p>
+
+<p>* Install Pavel’s Pangolui as an <a href="https://delph-in.github.io/docs/tools/LkbLui">Alternative Lui
+Implementation</a> (recommended)</p>
+
+<p>* Set up <a href="https://delph-in.github.io/docs/tools/LuiRc">.luirc</a> to specify Japanese fonts</p>
+
+<h2 id="clim">CLIM</h2>
+
+<p>CLIM is used for some displays (the parse compare/treebanking window and
+the type hierarchy). It should work out of the box for Japanese.</p>
+
+<p>Last update: 2012-02-07 by FrancisBond [<a href="https://github.com/delph-in/docs/wiki/JacyInstallation/_edit">edit</a>]</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+<!--Scroll the navbar to the current page-->
+<script type="text/javascript">
+  let el = document.querySelector('.nav__list .active');
+  if(el){
+    el.scrollIntoView({block: "center", inline: "start"});
+  }
+</script>
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/docs/grammars/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/docs/grammars/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/docs/grammars/assets/js/lunr/lunr.min.js"></script>
+<script src="/docs/grammars/assets/js/lunr/lunr-store.js"></script>
+<script src="/docs/grammars/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

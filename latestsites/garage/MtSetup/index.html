@@ -1,0 +1,886 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>DELPH-IN Garage</title>
+<meta name="description" content="An amazing website.">
+
+
+  <meta name="author" content="Your Name">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="DELPH-IN Garage">
+<meta property="og:title" content="DELPH-IN Garage">
+<meta property="og:url" content="https://delph-in.github.io/docs/garage/MtSetup/">
+
+
+  <meta property="og:description" content="An amazing website.">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://delph-in.github.io/docs/garage/MtSetup/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Your Name",
+      "url": "https://delph-in.github.io/docs/garage/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/docs/garage/feed.xml" type="application/atom+xml" rel="alternate" title="DELPH-IN Garage Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/docs/garage/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--delphin_page wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/docs/garage/"><img src="/docs/garage/assets/images/Delph-In.png" alt="DELPH-IN Garage"></a>
+        
+        <a class="site-title" href="/docs/garage/">
+          DELPH-IN Garage
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/home/Home">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/howto/DelphinWelcome">How-To</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/erg/ErgTop">ERG</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/tools/ToolsTop">Tools</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/grammars/GrammarsOverview">Grammars</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/matrix/MatrixDocsOverview">Matrix</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/summits/SummitTop">Summits</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/garage/GarageTop">Garage</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Overview</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/GarageTop/">Overview</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammar Tools</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/AgreeTop/">Agree</a></li>
+          
+            <li><a href="/docs/garage/ChartMapping/">Chart Mapping</a></li>
+          
+            <li><a href="/docs/garage/ChartMappingSetup/">Chart Mapping Setup</a></li>
+          
+            <li><a href="/docs/garage/ClimbTop/">CLIMB</a></li>
+          
+            <li><a href="/docs/garage/Climb_GClimb/">CLIMB for Germanic languages</a></li>
+          
+            <li><a href="/docs/garage/DelphinTools/">Delphin Tools</a></li>
+          
+            <li><a href="/docs/garage/EgadTop/">Erroneous Generation Analysis and Detection (EGAD)</a></li>
+          
+            <li><a href="/docs/garage/EgadInstallation/">EGAD Installation</a></li>
+          
+            <li><a href="/docs/garage/SafFspp/">Finite-State PreProcessor</a></li>
+          
+            <li><a href="/docs/garage/Climb_GClimb_German/">gCLIMB Phenomena</a></li>
+          
+            <li><a href="/docs/garage/GDeltaTop/">gDelta</a></li>
+          
+            <li><a href="/docs/garage/SpringCleaningTop/">Grammar Spring Cleaning</a></li>
+          
+            <li><a href="/docs/garage/HeartofgoldTop/">Heart of Gold</a></li>
+          
+            <li><a href="/docs/garage/HogInstallation/">Hog Installation</a></li>
+          
+            <li><a href="/docs/garage/LkbLtdb/">Linguistic Type Database</a></li>
+          
+            <li><a href="/docs/garage/ReppTop/">Regular Expression Pre-Processor</a></li>
+          
+            <li><a href="/docs/garage/RmrsDmrsComparison/">Rmrs/Dmrs Comparison</a></li>
+          
+            <li><a href="/docs/garage/ClimbShortClimb/">SHORT-CLIMB</a></li>
+          
+            <li><a href="/docs/garage/TestingWithAnt/">Testing With Ant</a></li>
+          
+            <li><a href="/docs/garage/TypediffTop/">Typediff</a></li>
+          
+            <li><a href="/docs/garage/VistaExtractionTop/">Vista Extraction</a></li>
+          
+            <li><a href="/docs/garage/PhenomenaTop/">Phenomena</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Completed Projects</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/RedwoodsTop/">Redwoods</a></li>
+          
+            <li><a href="/docs/garage/WeScience/">WeScience</a></li>
+          
+            <li><a href="/docs/garage/DeepBank/">DeepBank</a></li>
+          
+            <li><a href="/docs/garage/DeepBank_OneZero/">DeepBank 1.0</a></li>
+          
+            <li><a href="/docs/garage/WikiWoods/">WikiWoods</a></li>
+          
+            <li><a href="/docs/garage/SemCor/">SC corpus</a></li>
+          
+            <li><a href="/docs/garage/OldOverviews/">Old DELPH-IN Overview</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammars (experimental)</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/GrenouilleSummary/">French</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Lexical Semantics</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/LexsemTop/">Overview</a></li>
+          
+            <li><a href="/docs/garage/LexsemMapping/">Mapping</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Machine Translation</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/MachineTranslationTop/">Overview</a></li>
+          
+            <li><a href="/docs/garage/MachineTranslationTutorial/">Tutorial</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Japanese/English Machine Translation</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/MtJaen/">Overview</a></li>
+          
+            <li><a href="/docs/garage/MtSetup/" class="active">Setup</a></li>
+          
+            <li><a href="/docs/garage/MtRuleExtraction/">MtRuleExtraction</a></li>
+          
+            <li><a href="/docs/garage/MtJaenFeedbackCleaning/">Feedback Cleaning</a></li>
+          
+            <li><a href="/docs/garage/NE_Tagging_For_Improving_SMT/">Improving SMT</a></li>
+          
+            <li><a href="/docs/garage/MtJaenTanaka/">Tanaka Corpus</a></li>
+          
+            <li><a href="/docs/garage/MtJaenSmt/">Discussion</a></li>
+          
+            <li><a href="/docs/garage/JaenTodo/">Jaen TODO</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Indra/English Transfer Grammar</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/IndraAce/">Ace</a></li>
+          
+            <li><a href="/docs/garage/IndraPreprocessing/">Preprocessing</a></li>
+          
+            <li><a href="/docs/garage/IndraTranslation/">Translation</a></li>
+          
+            <li><a href="/docs/garage/IndraRegressionTest/">RegressionTest</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">WeSearch</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/WeSearch/">WeSearch</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_Ccs/">CCS</a></li>
+          
+            <li><a href="/docs/garage/CcsGroup/">CCS Attendees</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_CcsDayOne/">CCS Day One</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_CcsDayTwo/">CCS Day Two</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_CcsDayThree/">CCS Day Three</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_DesignPrinciples/">WeSearch_DesignPrinciples</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_AnalysisCatalog/">WeSearch_AnalysisCatalog</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_ScopalArgCoord/">WeSearch_ScopalArgCoord</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_ICONS/">WeSearch_ICONS</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_UnderspecifedAttachment/">WeSearch_UnderspecifedAttachment</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_UnderspecifiedPreds/">WeSearch_UnderspecifiedPreds</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_VariablePropertySharing/">WeSearch_VariablePropertySharing</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_DataCollection/">WeSearch_DataCollection</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">PET</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/PetTop/">Overview</a></li>
+          
+            <li><a href="/docs/garage/PetDependencies/">Dependencies</a></li>
+          
+            <li><a href="/docs/garage/PetEclipse/">Eclipse</a></li>
+          
+            <li><a href="/docs/garage/PetRoadMap/">RoadMap</a></li>
+          
+            <li><a href="/docs/garage/PetInput/">Input</a></li>
+          
+            <li><a href="/docs/garage/ReppPet/">ReppPet</a></li>
+          
+            <li><a href="/docs/garage/PetOutput/">Output</a></li>
+          
+            <li><a href="/docs/garage/PetOptions/">Options</a></li>
+          
+            <li><a href="/docs/garage/PetParameters/">Parameters</a></li>
+          
+            <li><a href="/docs/garage/PetSelectiveUnpacking/">Selective Unpacking</a></li>
+          
+            <li><a href="/docs/garage/PetInputFsc/">Input Feature Structure Chart</a></li>
+          
+            <li><a href="/docs/garage/PetInputChart/">Input Chart</a></li>
+          
+            <li><a href="/docs/garage/UtTop/">Ubertagging</a></li>
+          
+            <li><a href="/docs/garage/PetLogging/">Logging</a></li>
+          
+            <li><a href="/docs/garage/PetRobustness/">Robustness</a></li>
+          
+            <li><a href="/docs/garage/FeforPetApi/">PET API Proposal</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Documentation</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/DocsQuickStart/">Quick Start</a></li>
+          
+            <li><a href="/docs/garage/DelphinDocsReference/">Reference</a></li>
+          
+            <li><a href="/docs/garage/ERDW_StructureForNewDocsSite/">Background</a></li>
+          
+            <li><a href="/docs/garage/GoogleSeasonOfDocs2023ProjectProposal/">Season of Docs</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <h1 id="instructions-on-how-to-set-up-an-mt-system">Instructions on how to set up an MT system</h1>
+
+<p>This page is under construction. Please expand and correct if you can.</p>
+
+<p>Contents</p>
+
+<ol>
+  <li><a href="https://delph-in.github.io/docs/garage/MtSetup">Instructions on how to set up an MT
+system</a>
+    <ol>
+      <li><a href="https://delph-in.github.io/docs/garage/MtSetup">Two ways to set up an MT
+system</a></li>
+    </ol>
+  </li>
+  <li><a href="https://delph-in.github.io/docs/garage/MtSetup">The Rephrasing method</a>
+    <ol>
+      <li><a href="https://delph-in.github.io/docs/garage/MtSetup">Requested files and settings</a></li>
+      <li><a href="https://delph-in.github.io/docs/garage/MtSetup">Using the system</a></li>
+    </ol>
+  </li>
+  <li><a href="https://delph-in.github.io/docs/garage/MtSetup">The Transfer Grammar method</a>
+    <ol>
+      <li><a href="https://delph-in.github.io/docs/garage/MtSetup">Install LOGON and add your grammar(s) to the
+repository</a></li>
+      <li><a href="https://delph-in.github.io/docs/garage/MtSetup">Creating CPU’s</a></li>
+      <li><a href="https://delph-in.github.io/docs/garage/MtSetup">Create lisp files for your grammars and the MT
+system</a></li>
+      <li><a href="https://delph-in.github.io/docs/garage/MtSetup">Setting the *translate-grid*
+values</a></li>
+      <li><a href="https://delph-in.github.io/docs/garage/MtSetup">Setting the VPM</a></li>
+      <li><a href="https://delph-in.github.io/docs/garage/MtSetup">Starting the MT system from
+Emacs</a></li>
+    </ol>
+  </li>
+</ol>
+
+<h2 id="two-ways-to-set-up-an-mt-system">Two ways to set up an MT system</h2>
+
+<p>There are two ways to set up an MT system. One way is to include the
+transfer component in the parsing grammar, using the rephrasing
+mechanism to generate sentences with another grammar. This method is
+used in EmilyBender’s Grammar Matrix course (<a href="http://courses.washington.edu/ling567/lab9.html">Lab
+9</a>), and requires only
+installation of the LKB system, and is thus relatively lightweight. The
+other method is to create a seperate transfer grammar using the <a href="https://delph-in.github.io/docs/tools/LogonTop">LOGON
+machinery</a> to parse with one grammar, transfer with the
+transfer grammar (which is separate from the parsing grammar), and
+generate with a third grammar. This method is used by larger MT
+projects, like the <a href="http://www.emmtee.net/">LOGON</a> project and the <a href="https://delph-in.github.io/docs/garage/MtJaen">Jaen
+Japanese-English MT project</a>. Instructions on how to set up
+translation systems with both methods are provided below.</p>
+
+<h1 id="the-rephrasing-method">The Rephrasing method</h1>
+
+<p>The LKB system comes with a possibility to rephrase a parsed sentence.
+This is done by applying transfer rules to the MRS of the parsed
+sentence and generating from the transferred MRS.</p>
+
+<h2 id="requested-files-and-settings">Requested files and settings</h2>
+
+<p><a href="https://delph-in.github.io/docs/tools/LogonTransfer">Transfer rules</a> require two files: a type file for
+transfer rules (e.g. mtr.tdl), which is loaded together with the other
+type files, and a file with instances of transfer rules, e.g. acm.mtr.
+In the script file:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(mt:read-transfer-rules 
+ (list
+  (lkb-pathname (parent-directory) "acm.mtr"))
+ "A place to put your transfer rules"
+ :filter nil)
+</code></pre></div></div>
+
+<p>In addition, both the parsing grammar and the generation grammar load a
+file called semi.vpm, which contains mappings from the feature structure
+to the MRS (see <a href="https://delph-in.github.io/docs/tools/RmrsVpm">RmrsVpm</a>). In the script file:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(mt:read-vpm (lkb-pathname (parent-directory) "semi.vpm") :semi)
+</code></pre></div></div>
+
+<p>The parsing grammar and the generation grammar require the
+*translate-grid* variables in the globals.lisp file to be set. If the
+language of the parsing grammar is English (eng), and the language of
+the generation grammar is Italian (ita), the settings are as follows. In
+globals.lsp in the English grammar:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(setf *translate-grid* '(:eng :ita))
+</code></pre></div></div>
+
+<p>In globals.lsp in the Italian grammar:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(setf *translate-grid* '(:ita :eng))
+</code></pre></div></div>
+
+<p>The first argument of the *translate-grid* function is the language of
+the grammar. The second argument is the language that the parsed
+sentence is “rephrased” in. If you want to rephrase a sentence in the
+same language, the two arguments need be the same.</p>
+
+<h2 id="using-the-system">Using the system</h2>
+
+<p>Open two Emacs windows and start the LKB in both. Load the parsing
+grammar and the generation grammar. Click on “Generate -&gt; Start
+Server” in the LKB window of the generation grammar. Parse a sentence
+with the parsing grammar and press “Rephrase”.</p>
+
+<h1 id="the-transfer-grammar-method">The Transfer Grammar method</h1>
+
+<p>This section shows a procedure for setting up a full MT system that can
+do <a href="https://delph-in.github.io/docs/tools/LogonProcessing_BatchTranslation">Batch Translation</a> and integrate
+<a href="https://delph-in.github.io/docs/tools/LogonModeling">LogonModeling</a>, and where you can do interactive MT
+development.</p>
+
+<h2 id="install-logon-and-add-your-grammars-to-the-repository">Install LOGON and add your grammar(s) to the repository</h2>
+
+<p>If you don’t have LOGON installed, follow the instructions on
+<a href="https://delph-in.github.io/docs/tools/LogonInstallation">LogonInstallation</a>. Make a directory (e.g.
+mydirectory) inside the logon/ directory and put your grammar(s) (e.g.
+mygrammar) there.</p>
+
+<p>You also need a transfer grammar (e.g. inout). The easiest is maybe to
+copy an existing grammar in logon/uio/tm/. Put your transfer grammar in
+the tm/ directory.</p>
+
+<h2 id="creating-cpus">Creating CPU’s</h2>
+
+<p>If the grammars you want to use for parsing and generation are not
+assigned CPU’s yet, they need to be set in the dot.tsdbrc file. Add the
+name and version of your grammar to the list of grammars in the top of
+the file.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>       (mygrammar "Mygrammar (1107)")
+</code></pre></div></div>
+
+<p>Add the following function to the other make-cpu functions:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>     (make-cpu 
+      :host (short-site-name)
+      :spawn wrapper
+      :options (append 
+                options
+                (list "-I" base "-qq" "-locale" "en_US.UTF-8"
+                      "-L" (logon-file "mydirectory" "mygrammar.lisp" :string)))
+      :class :mygrammar :grammar mygrammar :task '(:parse :generate)
+      :wait wait :quantum quantum)
+</code></pre></div></div>
+
+<p>Also make CPUs for the transfer grammar …</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>     (make-cpu 
+      :host (short-site-name)
+      :spawn wrapper
+      :options (append 
+                options
+                (list "-I" base "-qq" "-locale" "en_US.UTF-8"
+                      "-L" (logon-file "lingo" "inout.lisp" :string)))
+      :class :inout :name "inout" :grammar "InOut (current)" 
+      :task '(:transfer) :wait (* wait 3) :quantum quantum)
+</code></pre></div></div>
+
+<p>… and the MT system:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>     (make-cpu 
+      :host (short-site-name)
+      :spawn wrapper
+      :options (append 
+                options
+                (list "-I" base "-qq" "-locale" "en_US.UTF-8"
+                      "-L" (logon-file "lingo" "in2out.lisp" :string)))
+      :class :in2out :name "in2out" :task '(:translate)
+      :template "%s/%t/%d" :wait (* wait 4) :quantum 7200)
+</code></pre></div></div>
+
+<h2 id="create-lisp-files-for-your-grammars-and-the-mt-system">Create lisp files for your grammars and the MT system</h2>
+
+<p>Copy the erg.lisp file in logon/lingo/ into your grammar directory and
+rename it (e.g. mygrammar.lisp). Replace the line:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>   (format nil "~a/lingo/erg/lkb/script" logon))
+</code></pre></div></div>
+
+<p>with:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>   (format nil "~a/mydirectory/mygrammar/lkb/script" logon))
+</code></pre></div></div>
+
+<p>Make copies of jaen.lisp and ja2en.lisp in the logon/lingo/ directory
+and name them e.g. inout.lisp and in2out.lisp. In inout.lisp, replace
+the line:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>   (format nil "~a/uio/tm/jaen/lkb/script" logon))
+</code></pre></div></div>
+
+<p>with:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>   (format nil "~a/uio/tm/inout/lkb/script" logon))
+</code></pre></div></div>
+
+<p>In in2out.lisp, set the CPUs you want to call with your MT system:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  (funcall (symbol-function (find-symbol "TSDB" :tsdb)) 
+           :cpu :mygrammar1 :task :parse :reset nil :file t :wait 600 :error :exit)
+  (funcall (symbol-function (find-symbol "TSDB" :tsdb)) 
+           :cpu :inout :reset nil :file t :wait 300 :error :exit)
+  (funcall (symbol-function (find-symbol "TSDB" :tsdb)) 
+           :cpu :mygrammar2 :task :generate
+           :reset nil :file t :wait 600 :error :exit)
+</code></pre></div></div>
+
+<h2 id="setting-the-translate-grid-values">Setting the *translate-grid* values</h2>
+
+<p>If your language translation pair is English to Italian, do the
+following settings. In globals.lsp in the English grammar:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(setf *translate-grid* '(:eng :ita))
+</code></pre></div></div>
+
+<p>In globals.lsp in the Italian grammar:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(setf *translate-grid* '(:ita :eng))
+</code></pre></div></div>
+
+<p>In globals.lsp in the transfer grammar:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(setf *translate-grid* '(nil . (:ita)))
+</code></pre></div></div>
+
+<h2 id="setting-the-vpm">Setting the VPM</h2>
+
+<p>The transfer grammar loads two files called in.vpm and out.vpm. The
+in.vpm file determines how the MRS is represented when it is given to
+the transfer grammar from the parsing grammar. The out.vpm file
+determines how the MRS is represented when it comes out from transfer
+grammar. (See <a href="https://delph-in.github.io/docs/tools/RmrsVpm">RmrsVpm</a>)</p>
+
+<h2 id="starting-the-mt-system-from-emacs">Starting the MT system from Emacs</h2>
+
+<p>Given the following lines in the .emacs file …</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(defun jacy ()
+ (interactive)
+ ;; set up logon
+ (logon)
+ (insert "(rsa \"jacy\")")
+ (fi:inferior-lisp-newline)
+ (set-input-method "japanese-anthy"))
+(defun erg ()
+ (interactive)
+ ;; set up logon
+ (logon)
+ (insert "(rsa \"erg\" t)")
+ (fi:inferior-lisp-newline))
+(defun jaen ()
+ (interactive)
+ ;; set up logon
+ (logon)
+ (insert "(tsdb::tsdb :cpu :jacy :task :parse :file t)")
+ (fi:inferior-lisp-newline)
+ (insert "(rsa \"jaen\")")
+ (fi:inferior-lisp-newline)
+ (set-input-method "japanese-anthy"))
+</code></pre></div></div>
+
+<p>… the <a href="https://delph-in.github.io/docs/garage/MtJaen">MtJaen</a> system can be started from emacs. Open two
+Emacs windows. In the first, type:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Alt-x jaen
+</code></pre></div></div>
+
+<p>In the second, type:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Alt-x erg
+</code></pre></div></div>
+
+<p>In order to parse a string with the parsing grammar, type:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Ctrl-c r
+</code></pre></div></div>
+
+<p>Type in the input string and press enter. Press transfer on the MRS that
+pops up, and the MRS is transferred. Then press generate and English
+strings are generated.</p>
+
+<p>Last update: 2011-10-09 by anonymous [<a href="https://github.com/delph-in/docs/wiki/MtSetup/_edit">edit</a>]</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+<!--Scroll the navbar to the current page-->
+<script type="text/javascript">
+  let el = document.querySelector('.nav__list .active');
+  if(el){
+    el.scrollIntoView({block: "center", inline: "start"});
+  }
+</script>
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/docs/garage/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/docs/garage/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/docs/garage/assets/js/lunr/lunr.min.js"></script>
+<script src="/docs/garage/assets/js/lunr/lunr-store.js"></script>
+<script src="/docs/garage/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

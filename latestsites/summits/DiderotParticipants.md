@@ -1,0 +1,98 @@
+{% raw %}The following is the list of people invited for the [2018 DELPH-IN
+Summit](http://moin.delph-in.net/DiderotTop).
+
+- [EliasAamodt](/EliasAamodt)
+- TaliAradGreshler
+- TaniaAvgustinova
+- TimBaldwin
+- [DorotheeBeermann](/DorotheeBeermann)
+- [NuriaBel](/NuriaBel)
+- EmilyBender (lundi à vendredi)
+- FrancisBond (Mon-Fri)
+- AntonioBranco
+- [ToreBruland](/ToreBruland)
+- JanBuys (Mon-Fri)
+- [UlrichCallmeier](/UlrichCallmeier)
+- JohnCarroll (Mon-Fri)
+- [CleoCondoravdi](/CleoCondoravdi)
+- AnnCopestake (Weds evening-Fri)
+- JoshuaCrowgey
+- BertholdCrysmann (Mon-Fri)
+- ChrisCurtis
+- [PaulaCzarnowska](/PaulaCzarnowska) (Mon-Thu)
+- [LaurieDermer](/LaurieDermer)
+- RebeccaDridan
+- GuyEmerson (Mon-Fri)
+- [ZhenzhenFan](/ZhenzhenFan)
+- DanFlickinger (Mon-Fri)
+- AntskeFokkens (Thursday: arriving 10:35 at gare du
+Nord-Fri)
+- [SanaeFujita](/SanaeFujita)
+- [ClaireGardent](/ClaireGardent)
+- [AjdaGokcen](/AjdaGokcen)
+- MichaelGoodman
+- [BrandonGraves](/BrandonGraves)
+- [MichaelHaeger](/MichaelHaeger)
+- [DagHaug](/DagHaug)
+- PetterHaugereid
+- [LarsHellan](/LarsHellan)
+- [FabiolaHenri](/FabiolaHenri)
+- [AurelieHerbelot](/AurelieHerbelot)
+- [MaticHorvat](/MaticHorvat)
+- [KristenHowell](/KristenHowell) (Mon-Fri)
+- [DavidInman](/DavidInman)
+- [MartinKay](/MartinKay)
+- BerndKiefer (Mon-Fri)
+- JongBokKim
+- [PrescottKlassen](/PrescottKlassen)
+- AlexanderKoller
+- [FrantišekKratochvíl](/Franti%C5%A1ekKratochv%C3%ADl)
+- [AlexanderKuhnle](/AlexanderKuhnle)
+- [TakayukiKuribayashi](/TakayukiKuribayashi)
+- AlexLascarides
+- [TuấnAnhLê](/Tu%E1%BA%A5nAnhL%C3%AA)
+- TuanAnhLe
+- NedLetcher
+- [MontserratMarimon](/MontserratMarimon)
+- [AngelinaMcMillanMajor](/AngelinaMcMillanMajor)
+- NuritMelnik
+- [YusukeMiyao](/YusukeMiyao)
+- DavidMoeljadi (Mon-Fri)
+- [MathieuMorey](/MathieuMorey)
+- LuisMorgadoCosta (Mon-Fri)
+- DavidMott
+- [EwaMuszynska](/EwaMuszynska)
+- [ElizabethNielsen](/ElizabethNielsen) (Mon-Fri)
+- StephanOepen (regretful)
+- PetyaOsenova
+- [LiljaØvrelid](/Lilja%C3%98vrelid)
+- [WoodleyPackard](/WoodleyPackard)
+- [AdamPrzepiorkowski](/AdamPrzepiorkowski)
+- ZinaPozen
+- AlexandreRademaker (Mon-Fri)
+- UlrichSchaefer (lundi, arrivant vers 15:00 à cause
+d'un glissement de terrain, jusqu'au jeudi après-midi)
+- [MelanieSiegel](/MelanieSiegel)
+- JoaoSilva
+- [KirilSimov](/KirilSimov)
+- [JoannaSio](/JoannaSio)
+- GlennSlayden (regrets)
+- SanghounSong (Mon-Fri)
+- WeiweiSun
+- LilingTan
+- TJTrimble
+- [JunichiTsujii](/JunichiTsujii)
+- HansUszkoreit
+- [RuiWang](/RuiWang)
+- WenjieWang
+- [TomWasow](/TomWasow)
+- FeiyuXu
+- [PingXue](/PingXue)
+- JustinChunleiYang
+- OlgaZamaraeva (Monday - Friday noon)
+- YiZhang
+- [LiljaØvrelid](/Lilja%C3%98vrelid)
+- [TestUser](/TestUser)
+- [AngelinaMcMillanMajor](/AngelinaMcMillanMajor) (Monday - Friday)
+
+Last update: 2018-06-20 by AntskeFokkens [[edit](https://github.com/delph-in/docs/wiki/DiderotParticipants/_edit)]{% endraw %}

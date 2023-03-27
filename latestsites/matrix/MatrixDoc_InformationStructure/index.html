@@ -1,0 +1,889 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>DELPH-IN Grammar Matrix</title>
+<meta name="description" content="An amazing website.">
+
+
+  <meta name="author" content="Your Name">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="DELPH-IN Grammar Matrix">
+<meta property="og:title" content="DELPH-IN Grammar Matrix">
+<meta property="og:url" content="https://delph-in.github.io/docs/matrix/MatrixDoc_InformationStructure/">
+
+
+  <meta property="og:description" content="An amazing website.">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://delph-in.github.io/docs/matrix/MatrixDoc_InformationStructure/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Your Name",
+      "url": "https://delph-in.github.io/docs/matrix/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/docs/matrix/feed.xml" type="application/atom+xml" rel="alternate" title="DELPH-IN Grammar Matrix Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/docs/matrix/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--delphin_page wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/docs/matrix/"><img src="/docs/matrix/assets/images/Delph-In.png" alt="DELPH-IN Grammar Matrix"></a>
+        
+        <a class="site-title" href="/docs/matrix/">
+          DELPH-IN Grammar Matrix
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/home/Home">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/howto/DelphinWelcome">How-To</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/erg/ErgTop">ERG</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/tools/ToolsTop">Tools</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/grammars/GrammarsOverview">Grammars</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/matrix/MatrixDocsOverview">Matrix</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/summits/SummitTop">Summits</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/garage/GarageTop">Garage</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammar Matrix Docs</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixDocsOverview/">Overview</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Overview and Tools</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixTop/">Overview</a></li>
+          
+            <li><a href="/docs/matrix/MatrixGettingStarted/">Getting Started</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDevTop/">Development Overview</a></li>
+          
+            <li><a href="/docs/matrix/Updating_the_Customization_System/">Customization System</a></li>
+          
+            <li><a href="/docs/matrix/MatrixCustomizationUnitTesting/">Customization Unit Testing</a></li>
+          
+            <li><a href="/docs/matrix/MatrixCustomizationWebTesting/">Customization Web Testing</a></li>
+          
+            <li><a href="/docs/matrix/MatrixRegressionTesting/">Regression Testing</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_TestSentences/">Test Sentences</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_TestByGeneration/">Test By Generation</a></li>
+          
+            <li><a href="/docs/matrix/MatrixWishList/">Wish List</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammar Engineering</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixDevBlueprints/">Dev Blueprints</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDevConventions/">Dev Conventions</a></li>
+          
+            <li><a href="/docs/matrix/GrammarDevelopment/">Grammar Development</a></li>
+          
+            <li><a href="/docs/matrix/MatrixLibraryDevelopment/">Library Development</a></li>
+          
+            <li><a href="/docs/matrix/MatrixLibraryWishList/">Library WishList</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMorphology/">Morphology</a></li>
+          
+            <li><a href="/docs/matrix/PythonIdioms/">Python Idioms</a></li>
+          
+            <li><a href="/docs/matrix/MatrixRegressionTestingSetup/">Regression Testing Setup</a></li>
+          
+            <li><a href="/docs/matrix/MatrixRegressionTestingSetupMac/">Regression Testing Setup (Mac)</a></li>
+          
+            <li><a href="/docs/matrix/MatrixTDBProcedures/">TDB Procedures</a></li>
+          
+            <li><a href="/docs/matrix/MatrixTDB2Tables/">TDB2 Tables</a></li>
+          
+            <li><a href="/docs/matrix/MatrixValidationDebugging/">Validation Debugging</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Matrix Doc</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixDocTop/">Overview</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_AdnominalPossession/">Adnominal Possession</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_ArgumentOptionality/">Argument Optionality</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Case/">Case</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_ClausalComplements/">Clausal Complements</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_ClausalModifiers/">Clausal Modifiers</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Coordination/">Coordination</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_DirectInverse/">Direct Inverse</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Evidentials/">Evidentials</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Gender/">Gender</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_GeneralInfo/">General Info</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_ImportToolboxLexicon/">Import Toolbox Lexicon</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_InformationStructure/" class="active">Information Structure</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Lexicon/">Lexicon</a></li>
+          
+            <li><a href="/docs/matrix/matrixdef_File_Syntax/">Matrixdef File Syntax</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Morphology/">Morphology</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_NominalizedClauses/">Nominalized Clauses</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Number/">Number</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_OtherFeatures/">Other Features</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Person/">Person</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_SententialNegation/">Sentential Negation</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_TenseAspectMood/">Tense/Aspect/Mood</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_WhQuestions/">Wh Questions</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_WordOrder/">Word Order</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_YesNoQ/">YesNoQ</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">FAQ</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/GrammarEngineeringFAQ/">Grammar Engineering FAQ</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqFeatureGeometry/">Feature Geometry FAQ</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqChartTwice/">Chart Twice</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqCircularLexRule/">Circular Lex Rule</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqClickX/">Click X</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqConfusingTypo/">Confusing Typo</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqCyclicCheck/">Cyclic Check</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqDiffList/">Diff List</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqDisjunctiveValue/">Disjunctive Value</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqDistributedDisjunction/">Distributed Disjunction</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqExpandMenu/">Expand Menu</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqExpandedType/">Expanded Type</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqFeatureMultiType/">Feature Multi-Type</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqFindTypeForFeatures/">Find Type For Features</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqForgottenConstraint/">Forgotten Constraint</a></li>
+          
+            <li><a href="/docs/matrix/GeFaq/">GeFaq</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqGotoChar/">Goto Char</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqGrammarDocumentation/">Grammar Documentation</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqInteractiveUnify/">Interactive Unify</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqLkbInstallation/">LKB Installation</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqLispPromptTips/">Lisp Prompt Tips</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqLoadScript/">Load Script</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqKeyboardNotWorking/">Keyboard Not Working</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqMissingEdge/">Missing Edge</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqMissingHowTo/">Missing How-To</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqMissingRels/">Missing Rels</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNegValue/">Neg Value</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNewFeature/">New Feature</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoEntry2/">No Entry 2</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoError/">No Error</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoPossibleType/">No Possible Type</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoRule/">No Rule</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoSign/">No Sign</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNonAlpha/">Non-Alpha</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqOverApplicationLexRule/">Over Application Lex Rule</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqOrderMatters/">Order Matters</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqPasteShortcut/">Paste Shortcut</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRightBracket/">Right Bracket</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRootFail/">Root Fail</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRuleWithoutDaughter/">Rule Without Daughter</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRuleWithoutDaughters/">Rule Without Daughters</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRunawayRule1/">Runaway Rule 1</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRunawayRule2/">Runaway Rule 2</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqShowChart/">Show Chart</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqSpanningEdge/">Spanning Edge</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqSwitchingGrammars/">Switching Grammars</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqTabIndentation/">Tab Indentation</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqTdlSyntax/">TDL Syntax</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqTdlTxt/">TDL TXT</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqTypeAddendum/">Type Addendum</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqUnicodeInput/">Unicode Input</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqUnifySurprise/">Unify Surprise</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqViewEntry/">View Entry</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqViewHierarchy/">View Hierarchy</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqViewType/">View Type</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">MRS Tests</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuite/">Overview</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteBg/">Bulgarian</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteCantonese/">Cantonese</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsCatb/">Cathedral Test</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteEn/">English</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteFr/">French</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteDe/">German</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteGr/">Greek</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteIndonesian/">Indonesian</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteJa/">Japanese</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteMandarin/">Mandarin</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteNo/">Norwegian</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuitePt/">Portuguese</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteRu/">Russian</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteSv/">Swedish</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteTatoeba/">Tatoeba</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteZhTw/">ZhTw</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <h1 id="documentation-for-the-grammar-matrix-customization-information-structure-library">Documentation for the Grammar Matrix Customization Information Structure Library</h1>
+
+<h1 id="introduction">Introduction</h1>
+
+<p>This document explains how to fill out the Information Structure page of
+the Grammar Matrix Customization questionnaire and presents background
+information on the information structure library of the Grammar Matrix
+Customization System (Bender et al., 2002; Bender and Flickinger, 2005;
+Bender et al., 2010). General instructions on using the questionnaire
+can be found here.</p>
+
+<h1 id="citing-the-information-structure-library">Citing the Information Structure Library</h1>
+
+<p>The standard reference for the Information Structure Library and its
+implementations is Song 2014 (A Grammar Library for Information
+Structure). The full reference and .bib entry can be found
+<a href="/MatrixDoc/InformationStructure#References">here</a>.</p>
+
+<p><span class="comment" style="display:none"><a href="http://cslipublications.stanford.edu/HPSG/2012/song-bender.pdf">Song and Bender
+2012</a></span></p>
+
+<h1 id="options">Options</h1>
+
+<p>The
+<a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=info-str">InformationStructure</a>
+page consists of four parts.</p>
+
+<p>First, in [Focus], a user can specify the canonical position of focus
+in the user’s language. A cross-linguistic survey reports that there are
+four positions for expressing focus; clause-initial, clause-final,
+preverbal, and postverbal. What is to be noted is that a sentence in the
+basic word order does not have any specific information structrual
+values. A sentence in basic word order is a default form in the
+language, which can be interpreted as conveying a variey of information
+structures. For example, if a language basically employs the SVO order,
+and the canonical position of focus is postverbal, [O] in SVO is not
+specified as [focus], though it occurs postverbally. A user also can
+add a focus marker, which include an affix, an adposition, and a
+modifier (e.g. clitics). An affix and an adpoistion are not specified in
+the Information Structure page, which should be created in the
+Morphology page and the Lexcion page respectively. If a user checks out
+an affix or an adposition of expressing focus in Information Structure,
+but an affix or an adposition that involve focus or super/sub-types of
+focus as a value of [information-strucural meaning] in Morphology or
+Lexcion, there comes a validation error. A modifier can be directly
+created on the Information Structure page. It can occur before and/or
+after nouns and/or verbs.</p>
+
+<p>Second, [Topic] has two types of options. As for the constraint on
+position, topic always occupies the sentence-initial position (i.e.
+topic-first) in some languages. If a user’s language has such a
+constraint, the checkbox should be marked. After that, a topic marker
+can be added, which operates in the same way as [Add a Focus Marker]
+above.</p>
+
+<p>Third, in some languages, contrastive focus can be differently marked
+from non-contrastive focus. The checkbox under [Contrastive Focus] is
+not selected, there can exist two types of foci; one is semantic-focus
+for non-contrastive focus, and the other is contrast-focus for
+contrastive focus. In that case, a user can choose a specific position
+for contrastive focus. Likewise, a user can add a contrastive focus
+marker in the same manner.</p>
+
+<p>Finally, there is an option for [Contrastive Topic], which can barely
+have a constraint on positioning across languages. So, there is no
+checkbox for the positioning constraint. Instead, it is reported that
+some languages (e.g. Vietnamese) employ a contrastive topic marker,
+which can be specified using the button [Add a Contrastive Topic
+Marker].</p>
+
+<p>For more information on the implementation of information structure in
+Grammar Matrix please refer to the section
+<a href="/MatrixDoc/InformationStructure#Analyses">Analyses</a>.</p>
+
+<h1 id="motivation">Motivation</h1>
+
+<p>There are several motivations in the Information Structure Library.</p>
+
+<p>First, just as other linguistic phenomena, there can some mismatches
+between form and meaning. That means information structural markings are
+not necessarily compatible with information structural meanings. For
+example, the topic marker wa in Japanese, as the name itself implies, is
+a merely marker. The topic marker can be used to express aboutness
+topic, contrastive topic, or sometimes contrastive FOCUS. In the
+library, information structural markings are specified as mkg under CAT,
+while information structural meanings are specified in ICONS (Individual
+CONstraintS) under CONT (i.e. mrs).</p>
+
+<p>Second, just as there are semantically empty lexical items, there are
+also some informatively empty lexical items. In principle, semantically
+empty items, devoid of predicate (i.e. RELS &lt;! !&gt;), are also
+informatively empty (i.e. ICONS &lt;! !&gt;). The items include
+expletives (there, it), case-marking adpoistions (ga, wa in Japanese),
+by in passive constructions, relative pronouns, etc.</p>
+
+<p>Third, information structural values of a constituent would be less
+specified or preferentially underspecified. For example, ‘The book, Kim
+reads.’ can be interpreted as either ‘It is the book that Kim reads.’ or
+‘As for the book, Kim reads it.’ In the former, ‘the book’ conveys a
+focus meaning, while in the latter it conveys a topic meaning. The MRS
+representation for the sentence should be able to capture the ambiguity
+that ‘The book’ shows. Hence, ‘The book’ in the sentence is specified as
+containing focus-or-topic.</p>
+
+<p>Finally, unless there is a linguistic clue to identify the information
+structural meaning, the value of information structure remains
+underspecified.</p>
+
+<h1 id="analyses">Analyses</h1>
+
+<p>There are three type hierarchies for information structure.</p>
+
+<p>First, mkg shows information structural <a href="/MarKinGs">MarKinGs</a>. Note that
+mkg is a morphosyntactic feature under CAT, which can be different from
+values of info-str.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>mkg := avm &amp;
+  [ FC luk,
+        TP luk ].
+fc := mkg &amp; [ FC + ].
+non-tp := mkg &amp; [ TP - ].
+tp := mkg &amp; [ TP + ].
+non-fc := mkg &amp; [ FC - ].
+fc-only := fc &amp; non-tp.
+fc-+-tp := tp &amp; fc.
+unmkg := non-tp &amp; non-fc.
+tp-only := tp &amp; non-fc.
+</code></pre></div></div>
+
+<p>Second, sform shows the Sentential FORMs, which inherits from
+binary-headed-phrase. This hierarchy constrain combining two phrases
+with mkg values. For example, topic-comment requires [MKG tp] of
+non-head-daughter, which prevent focus-marked constituents from being
+used as the non-head-daughter of topic-comment constructions.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sform := basic-binary-headed-phrase.
+focality := sform &amp;
+  [ SYNSEM.LOCAL.CAT.MKG fc-only,
+        NON-HEAD-DTR.SYNSEM.LOCAL.CAT.MKG fc ].
+topicality := sform.
+narrow-focus := focality &amp;
+  [ HEAD-DTR.SYNSEM.LOCAL.CAT.MKG non-fc ].
+wide-focus := focality.
+topicless := topicality &amp;
+  [ NON-HEAD-DTR.SYNSEM.LOCAL.CAT.MKG non-tp ].
+topic-comment := topicality &amp;
+  [ SYNSEM.LOCAL.CAT.MKG tp,
+    NON-HEAD-DTR.SYNSEM.LOCAL.CAT.MKG tp ].
+focus-bg := narrow-focus &amp; topicless &amp;
+  [ HEAD-DTR.SYNSEM.LOCAL.CAT.MKG unmkg ].
+all-focus := wide-focus &amp; topicless &amp;
+  [ HEAD-DTR.SYNSEM.LOCAL.CAT.MKG fc ].
+frame-setting := topic-comment.
+non-frame-setting := topic-comment &amp;
+  [ HEAD-DTR.SYNSEM.LOCAL.CAT.MKG non-tp ].
+</code></pre></div></div>
+
+<p>Finally, information structural meanings, such as focus, topic,
+contrast, background, etc., are subtypes of info-str. The info-str
+hierarchy is designed in a flexible way. What is of importance is how
+much specified the information structural meaning of a constituent is.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>icons := avm.
+
+info-str := icons &amp;
+  [ CLAUSE individual,
+    TARGET individual ].
+
+; constraints on information structure
+non-topic := info-str.
+contrast-or-focus := info-str.
+focus-or-topic := info-str.
+contrast-or-topic := info-str.
+non-focus := info-str.
+
+focus := non-topic &amp; contrast-or-focus &amp; focus-or-topic.
+contrast := focus-or-topic &amp; contrast-or-focus &amp; contrast-or-topic.
+topic := non-focus &amp; focus-or-topic &amp; contrast-or-topic.
+
+bg := non-topic &amp; non-focus.
+
+semantic-focus := focus.
+contrast-focus := contrast &amp; focus.
+contrast-topic := contrast &amp; topic.
+aboutness-topic := topic.
+</code></pre></div></div>
+
+<h1 id="note">NOTE</h1>
+
+<p>The information structure values are represented in ICONS. Currently,
+ACE(<a href="https://delph-in.github.io/docs/tools/AceTop">AceTop</a>) and AGREE(<a href="https://delph-in.github.io/docs/garage/AgreeTop">AgreeTop</a>) fully process
+ICONS. So MRSes coming from LKB/PET do not have ICONS.</p>
+
+<p>In some languages, both focus and topic can occur in the clause-initial
+position. In that case, topic always precedes focus, and a
+counterexample to this has not yet been reported across languages. The
+current version of Information Structure library does not place an
+ordering constraint on such a co-occurrence of focus and topic.</p>
+
+<p>Modules for constraining positions of information structural components
+in FREE word order languages are currently under development. All types
+of word order is potentially used in a free word order language, and the
+Word Order page in customization system specifies “free” as
+“pragmatically determined word order”. We assume that “pragmatically
+determined” means “information structurally conditioned”. Thus,
+variations in word order of such a language need to be deeply
+investigated one by one. The current version does not place such an
+elaborated constraint on word order variations in the languages. If word
+order is checked as “free” in Word Order, and multiple positions are
+checked, the grammar may not work properly in terms of information
+structure. For example, a position for focus is specified but it is not
+clause-initial, and the checkbox for the topic-first constraint is
+checked at the same time, information structure values might be
+entangled.</p>
+
+<p>Modifiers of expressing information structure in the current system are
+semantically empty, which means they require trigger rules in
+trigger.mtr. Unfortunately, there is no way to constrain them in
+transfer. Tentatively, they are just filtered out in transfer.</p>
+
+<h1 id="references">References</h1>
+
+<p>Song, Sanghoun. 2017. <a href="http://langsci-press.org/catalog/book/111">Modeling information structure in a
+cross-linguistic
+perspective</a>. Language
+Science Press.</p>
+
+<p>Song, Sanghoun. 2014. A Grammar Library for Information Structure.
+Doctoral Dissertation, University of Washington.</p>
+
+<p>Song, Sanghoun and Bender, Emily M. 2012. <a href="http://cslipublications.stanford.edu/HPSG/2012/song-bender.pdf">Individual Constraints for
+Information
+Structure</a>.
+In Stefan Müller (ed.), Proceedings of the 19th International Conference
+on Head-Driven Phrase Structure Grammar, pages 329-347, Stanford, CA:
+CSLI Publications.</p>
+
+<p>bibtex:</p>
+
+<p>@book{song:17,<br />
+author = {Song, Sanghoun},<br />
+title = {Modeling information structure in a cross-linguistic
+perspective},<br />
+series = {Topics at the Grammar-Discourse Interface},<br />
+year = {2017},<br />
+publisher = {Language Science Press}<br />
+}</p>
+
+<p>@phdthesis{song:14,<br />
+author = {Song, Sanghoun},<br />
+title = {A Grammar Library for Information Structure},<br />
+school = {University of Washington},<br />
+year = {2014}<br />
+}</p>
+
+<p>@inproceedings{song:bender:12,<br />
+title = {Individual Constraints for Information Structure},<br />
+author = {Song, Sanghoun and Bender, Emily M.},<br />
+pages = {329–347},<br />
+editor = {Stefan M{\“u}ller},<br />
+booktitle = {Proceedings of the 19th International Conference on
+Head-Driven Phrase Structure Grammar},<br />
+address = {Stanford, CA},<br />
+publisher = {CSLI Publications},<br />
+year = {2012}<br />
+}</p>
+
+<p>Last update: 2018-05-07 by GuyEmerson [<a href="https://github.com/delph-in/docs/wiki/MatrixDoc_InformationStructure/_edit">edit</a>]</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+<!--Scroll the navbar to the current page-->
+<script type="text/javascript">
+  let el = document.querySelector('.nav__list .active');
+  if(el){
+    el.scrollIntoView({block: "center", inline: "start"});
+  }
+</script>
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/docs/matrix/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/docs/matrix/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/docs/matrix/assets/js/lunr/lunr.min.js"></script>
+<script src="/docs/matrix/assets/js/lunr/lunr-store.js"></script>
+<script src="/docs/matrix/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

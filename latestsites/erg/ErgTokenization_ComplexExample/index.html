@@ -1,0 +1,661 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>DELPH-IN ERG</title>
+<meta name="description" content="An amazing website.">
+
+
+  <meta name="author" content="Your Name">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="DELPH-IN ERG">
+<meta property="og:title" content="DELPH-IN ERG">
+<meta property="og:url" content="https://delph-in.github.io/docs/erg/ErgTokenization_ComplexExample/">
+
+
+  <meta property="og:description" content="An amazing website.">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://delph-in.github.io/docs/erg/ErgTokenization_ComplexExample/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Your Name",
+      "url": "https://delph-in.github.io/docs/erg/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/docs/erg/feed.xml" type="application/atom+xml" rel="alternate" title="DELPH-IN ERG Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/docs/erg/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--delphin_page wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/docs/erg/"><img src="/docs/erg/assets/images/Delph-In.png" alt="DELPH-IN ERG"></a>
+        
+        <a class="site-title" href="/docs/erg/">
+          DELPH-IN ERG
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/home/Home">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/howto/DelphinWelcome">How-To</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/erg/ErgTop">ERG</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/tools/ToolsTop">Tools</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/grammars/GrammarsOverview">Grammars</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/matrix/MatrixDocsOverview">Matrix</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/summits/SummitTop">Summits</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/garage/GarageTop">Garage</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Overview</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/erg/ErgTop/">ERG Summary</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_HowToCite/">How to Cite This Work</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">ERG Usage</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/erg/ErgProcessing/">Overview</a></li>
+          
+            <li><a href="/docs/erg/QuickStart/">QuickStart</a></li>
+          
+            <li><a href="/docs/erg/ErgProcessing_SampleExport/">ERG Usage Sample Export</a></li>
+          
+            <li><a href="/docs/erg/AceErgTuning/">Tuning Ace for ERG</a></li>
+          
+            <li><a href="/docs/erg/ErgApi/">ERG REST API</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Erg Semantics</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/erg/ErgSemantics/">Semantics</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Essence/">Essence</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Basics/">Basics</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Design/">Design</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Conventions/">Conventions</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Interface/">Semantics Interface (SEM-I)</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Discovery/">Semantics Discovery</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Inventory</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/erg/ErgSemantics_Inventory/">Overview</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_OneAnaphora/">Anaphora</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Apposition/">Apposition</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Comparatives/">Comparatives</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Compounding/">Compounding</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Conditionals/">Conditionals</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_ControlRelations/">Control Relations</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Coordination/">Coordination</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Ellipsis/">Ellipsis</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_ForeignExpressions/">Foreign Expressions</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Fragments/">Fragments</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_IdentityCopulae/">Identity Copulae</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Imperatives/">Imperatives</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_ImplicitLocatives/">Implicit Locatives</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_ImplicitNominals/">Implicit Nominals</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_ImplicitQuantifiers/">Implicit Quantifiers</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_InstrumentalRelatives/">Instrumental Relatives</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_MeasurePhrases/">Measure Phrases</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Nominalization/">Nominalization</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_NonAdverbialClausalModifiers/">Non-Adverbial Clausal Modifiers</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_NumberSequences/">Number Sequences</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Parentheticals/">Parentheticals</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Partitives/">Partitives</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_PropositionalArguments/">Propositional Arguments</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Quantification/">Quantification</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_QuasiModalInfinitivals/">Quasi-Modal Infinitivals</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_RelationalNouns/">Relational Nouns</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_RelativeClauses/">Relative Clauses</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_TimeExpressions/">Time Expressions</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Vocatives/">Vocatives</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Raw_Materials/">Raw Materials</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">ERG Grammar</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/erg/ErgLeTypes/">LE Types</a></li>
+          
+            <li><a href="/docs/erg/ErgRules/">Rules</a></li>
+          
+            <li><a href="/docs/erg/ErgTokenization/">Tokenization</a></li>
+          
+            <li><a href="/docs/erg/ErgTokenization_ComplexExample/" class="active">Tokenization Complex Example</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">ERG Treebanking</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/erg/ErgTreebanking/">Overview</a></li>
+          
+            <li><a href="/docs/erg/ErgTreebankingGuidelines/">Guidelines</a></li>
+          
+            <li><a href="/docs/erg/ErgTreebankingRules/">Treebanking Rules</a></li>
+          
+            <li><a href="/docs/erg/ErgTreebankingBridges/">Bridges</a></li>
+          
+            <li><a href="/docs/erg/CapitolHillTreebank/">Discussion</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Discussions</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/erg/SaarlandSententialArgument/">Saarland Sentential Argument</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <h1 id="motivation">Motivation</h1>
+
+<p>Differences in tokenization at various levels of analysis often present
+a technical (and sometimes conceptual) challenge, for example when
+seeking to apply a sequence classification model (e.g. a PoS tagger,
+supertagger, or uebertagger) prior to full parsing.</p>
+
+<p>In the following, we distinguish three levels of processing (see the
+<a href="https://delph-in.github.io/docs/erg/ErgTokenization">ErgTokenization</a> page for further background): (a)
+<em>initial</em> tokenization, i.e. the result of string-level pre-processing
+(see the <a href="https://delph-in.github.io/docs/garage/ReppTop">ReppTop</a> page for details on pre-processing rules
+included with the ERG); (b) <em>internal</em> tokenization, the state of
+affairs immediately prior to lexical lookup, i.e. upon completion of the
+token mapping phase; and (c) <em>lexical</em> tokenization, by which we refer
+to the result of lexical instantiation, i.e. the segmentation between
+instantiated lexical entries.</p>
+
+<p>Note that only level (a) has a ‘flat’ form, i.e. forms a single sequence
+of tokens, whereas levels (b) and (c) will typically take the form of a
+lattice, i.e. admitting token-level ambiguity. Compared to stage (a),
+stage (b) can both split up initial tokens, as well as combine multiple
+initial tokens into a single internal token. Coversely, moving from
+stage (b) to stage (c), there is only further combination of multiple
+internal tokens into a single lexical token, viz. by virtue of
+instantiating a multi-word lexical entry.</p>
+
+<p>This page is maintained by StephanOepen. Please be
+conservative in making substantive revisions.</p>
+
+<h1 id="initial-tokenization">Initial Tokenization</h1>
+
+<p>To get started, consider a (silly) example:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  'Sun-filled', well-kept Mountain View.
+</code></pre></div></div>
+
+<p>The ERG REPP rules (as of mid-2011) will tokenize according to PTB
+conventions, splitting off and normalizing (most) punctuation marks, but
+not breaking at dashes (or slashes). Thus, at level (a) there will be
+eight tokens, which (in YY format, and assuming PoS tags from TnT; see
+the <a href="https://delph-in.github.io/docs/garage/PetInput">PetInput</a> page for details on the YY token format) might
+be the following:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  (1, 0, 1, &lt;0:1&gt;, 1, "‘", 0, "null", "``" 1.0000)
+  (2, 1, 2, &lt;1:11&gt;, 1, "Sun-filled", 0, "null", "JJ" 0.7540 "NNP" 0.2211)
+  (3, 2, 3, &lt;11:12&gt;, 1, "’", 0, "null", "''" 0.7433 "POS" 0.2567)
+  (4, 3, 4, &lt;12:13&gt;, 1, ",", 0, "null", "," 1.0000)
+  (5, 4, 5, &lt;14:23&gt;, 1, "well-kept", 0, "null", "VBD" 0.4979 "JJ" 0.3014)
+  (6, 5, 6, &lt;24:32&gt;, 1, "Mountain", 0, "null", "NNP" 1.0000)
+  (7, 6, 7, &lt;33:37&gt;, 1, "View", 0, "null", "NNP" 0.9591 "NN" 0.0409)
+  (8, 7, 8, &lt;37:38&gt;, 1, ".", 0, "null", "." 1.0000)
+</code></pre></div></div>
+
+<h1 id="internal-tokenization">Internal Tokenization</h1>
+
+<p>The parser-internal token mapping phase seeks to rewrite the intial
+tokens into a form that meets the ERG-internal assumptions about
+tokenization. Specifically, token mapping will re-attach (most)
+punctuation marks, on the one hand, and introduce additional token
+boundaries, for example breaking at intra-word dashes (and slashes). For
+our running example, token mapping will take us back to what one would
+have obtained by just breaking at whitespace and after dashes: with a
+sequence of seven distinct token spans at its core (note that the chart
+start and end vertices at this point do <em>not</em> correspond to the original
+ones), viz.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  (112, 0, 1, &lt;0:11&gt;, 1, "‘Sun-", 0, "null", "NN" 1.0000)
+  (114, 0, 1, &lt;0:11&gt;, 1, "‘sun-", 0, "null")
+  (102, 1, 2, &lt;1:13&gt;, 1, "filled’,", 0, "null")
+  (107, 1, 2, &lt;1:13&gt;, 1, "filled’,", 0, "null", "JJ" 0.7540)
+  (109, 1, 2, &lt;1:13&gt;, 1, "filled’,", 0, "null", "NNP" 0.2211)
+  (96, 2, 3, &lt;14:23&gt;, 1, "well-", 0, "null")
+  (111, 2, 3, &lt;14:23&gt;, 1, "well-", 0, "null", "NN" 1.0000)
+  (104, 3, 4, &lt;14:23&gt;, 1, "kept", 0, "null")
+  (105, 3, 4, &lt;14:23&gt;, 1, "kept", 0, "null", "VBD" 0.4979)
+  (108, 3, 4, &lt;14:23&gt;, 1, "kept", 0, "null", "JJ" 0.3014)
+  (66, 4, 5, &lt;24:32&gt;, 1, "Mountain", 0, "null")
+  (110, 4, 5, &lt;24:32&gt;, 1, "Mountain", 0, "null", "NNP" 1.0000)
+  (113, 4, 5, &lt;24:32&gt;, 1, "mountain", 0, "null")
+  (70, 5, 6, &lt;33:38&gt;, 1, "View.", 0, "null")
+  (106, 5, 6, &lt;33:38&gt;, 1, "View.", 0, "null", "NNP" 0.9591)
+  (115, 5, 6, &lt;33:38&gt;, 1, "view.", 0, "null")
+</code></pre></div></div>
+
+<p>Note that, at this point in the processing pipeline, each token has an
+associated token feature structure (assuming a grammar that makes use of
+the token mapping layer) too, which are not shown in the above. What may
+seem like duplicates in the above (e.g. tokens #70 and #115, which
+only differ in capitalization of the surface form) is typically further
+differentiated in terms of the associated feature structures, for
+example making a type distinction between ‘native’ vs. ‘generic’ tokens
+(see the <a href="https://delph-in.github.io/docs/garage/PetInput">PetInput</a> page for further discussion). Furthermore,
+these token feature structures provide references to initial token
+identifiers, i.e. make explicit the correspondence relations between the
+two layers.</p>
+
+<h1 id="lexical-tokenization">Lexical Tokenization</h1>
+
+<p>Finally, at level (c), what we call lexical tokenization really is the
+segmentation between successfully instantiated lexical items. In the
+following, we show a subset of the lexical items in the parser chart
+after the completion of lexical instantiation (i.e. lookup by the
+surface strings associated to internal tokens, including instantiation
+of multi-word lexical entries), lexical parsing (application of lexical
+rules, until a fixpoint is reached), and lexical filtering (the process
+of pruning duplicate or otherwise undesirable entries from the chart):</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  (849 w_sqleft_plr 0 0 1
+   (694 w_hyphen_plr 0 0 1
+    (129 sun_n1 0 0 1
+     ("‘sun-" 
+      114 
+      "[ +FROM \"0\" +TO \"11\" 
+         +ID [ LIST [ FIRST \"1\" REST [ FIRST \"2\" REST #1 ] ]
+               LAST #1 ] ... ]"))))
+  (1016 w_comma-nf_plr 0 1 2
+   (845 w_sqright_plr 0 1 2
+    (521 v_pas_odlr 0 1 2
+     (173 fill_v1 0 1 2
+      ("filled’," 
+       102
+       "[ +FROM \"1\" +TO \"13\" 
+          +ID [ LIST [ FIRST \"2\" REST [ FIRST \"3\" REST [ FIRST \"4\" REST #1 ] ] ]
+                LAST #1 ] ... ]")))))
+  (457 well_kept_a1 0 2 4
+   ("well- kept"
+    96
+    "[ +FROM \"14\" +TO \"23\" 
+       +ID [ LIST [ REST #1 FIRST \"5\" ] LAST #1 ] ... ]"
+    104
+    "[ +FROM \"14\" +TO \"23\"
+       +ID [ LIST [ FIRST \"5\" REST #1 ] LAST #1 ] ... ]"))
+  (699 w_period_plr 0 4 6
+   (529 n_sg_ilr 0 4 6
+    (458 mtn_view_n1 0 4 6
+     ("mountain view." 
+      113
+      "[ +FROM \"24\" +TO \"32\" 
+         +ID [ LIST [ REST #1 FIRST \"6\" ] LAST #1 ] ... ]"
+      115
+      "[ +FROM \"33\" +TO \"38\"
+         +ID [ LIST [ FIRST \"7\" REST [ FIRST \"8\" REST #1 ] ]
+               LAST #1 ] ... ]"))))
+</code></pre></div></div>
+
+<p>Note that the above is comprised of a sequence of four lexical items,
+each shown as an (abbreviated) <a href="http://www.delph-in.net/itsdb">[incr
+tsdb()]</a> derivation (see the
+<a href="https://delph-in.github.io/docs/tools/ItsdbDerivations">ItsdbDerivations</a> page for background). The leaves of
+each derivation are token feature structures and correspond to internal
+tokens: the multi-word entry for <em>Mountain View</em>, for example, is
+instantiated over tokens #113 and #115 (see above). Within each token
+feature structure, there is (among other things) a list of identifiers
+referring back to the initial tokens, i.e. for <em>Mountain View.</em>
+(including the final period) these are tokens #6, #7, and #8 from the
+initial tokenization.</p>
+
+<p>Last update: 2011-11-07 by StephanOepen [<a href="https://github.com/delph-in/docs/wiki/ErgTokenization_ComplexExample/_edit">edit</a>]</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+<!--Scroll the navbar to the current page-->
+<script type="text/javascript">
+  let el = document.querySelector('.nav__list .active');
+  if(el){
+    el.scrollIntoView({block: "center", inline: "start"});
+  }
+</script>
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/docs/erg/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/docs/erg/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/docs/erg/assets/js/lunr/lunr.min.js"></script>
+<script src="/docs/erg/assets/js/lunr/lunr-store.js"></script>
+<script src="/docs/erg/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

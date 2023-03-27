@@ -1,0 +1,859 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>DELPH-IN Garage</title>
+<meta name="description" content="An amazing website.">
+
+
+  <meta name="author" content="Your Name">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="DELPH-IN Garage">
+<meta property="og:title" content="DELPH-IN Garage">
+<meta property="og:url" content="https://delph-in.github.io/docs/garage/LexsemMapping/">
+
+
+  <meta property="og:description" content="An amazing website.">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://delph-in.github.io/docs/garage/LexsemMapping/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Your Name",
+      "url": "https://delph-in.github.io/docs/garage/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/docs/garage/feed.xml" type="application/atom+xml" rel="alternate" title="DELPH-IN Garage Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/docs/garage/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--delphin_page wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/docs/garage/"><img src="/docs/garage/assets/images/Delph-In.png" alt="DELPH-IN Garage"></a>
+        
+        <a class="site-title" href="/docs/garage/">
+          DELPH-IN Garage
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/home/Home">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/howto/DelphinWelcome">How-To</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/erg/ErgTop">ERG</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/tools/ToolsTop">Tools</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/grammars/GrammarsOverview">Grammars</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/matrix/MatrixDocsOverview">Matrix</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/summits/SummitTop">Summits</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/garage/GarageTop">Garage</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Overview</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/GarageTop/">Overview</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammar Tools</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/AgreeTop/">Agree</a></li>
+          
+            <li><a href="/docs/garage/ChartMapping/">Chart Mapping</a></li>
+          
+            <li><a href="/docs/garage/ChartMappingSetup/">Chart Mapping Setup</a></li>
+          
+            <li><a href="/docs/garage/ClimbTop/">CLIMB</a></li>
+          
+            <li><a href="/docs/garage/Climb_GClimb/">CLIMB for Germanic languages</a></li>
+          
+            <li><a href="/docs/garage/DelphinTools/">Delphin Tools</a></li>
+          
+            <li><a href="/docs/garage/EgadTop/">Erroneous Generation Analysis and Detection (EGAD)</a></li>
+          
+            <li><a href="/docs/garage/EgadInstallation/">EGAD Installation</a></li>
+          
+            <li><a href="/docs/garage/SafFspp/">Finite-State PreProcessor</a></li>
+          
+            <li><a href="/docs/garage/Climb_GClimb_German/">gCLIMB Phenomena</a></li>
+          
+            <li><a href="/docs/garage/GDeltaTop/">gDelta</a></li>
+          
+            <li><a href="/docs/garage/SpringCleaningTop/">Grammar Spring Cleaning</a></li>
+          
+            <li><a href="/docs/garage/HeartofgoldTop/">Heart of Gold</a></li>
+          
+            <li><a href="/docs/garage/HogInstallation/">Hog Installation</a></li>
+          
+            <li><a href="/docs/garage/LkbLtdb/">Linguistic Type Database</a></li>
+          
+            <li><a href="/docs/garage/ReppTop/">Regular Expression Pre-Processor</a></li>
+          
+            <li><a href="/docs/garage/RmrsDmrsComparison/">Rmrs/Dmrs Comparison</a></li>
+          
+            <li><a href="/docs/garage/ClimbShortClimb/">SHORT-CLIMB</a></li>
+          
+            <li><a href="/docs/garage/TestingWithAnt/">Testing With Ant</a></li>
+          
+            <li><a href="/docs/garage/TypediffTop/">Typediff</a></li>
+          
+            <li><a href="/docs/garage/VistaExtractionTop/">Vista Extraction</a></li>
+          
+            <li><a href="/docs/garage/PhenomenaTop/">Phenomena</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Completed Projects</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/RedwoodsTop/">Redwoods</a></li>
+          
+            <li><a href="/docs/garage/WeScience/">WeScience</a></li>
+          
+            <li><a href="/docs/garage/DeepBank/">DeepBank</a></li>
+          
+            <li><a href="/docs/garage/DeepBank_OneZero/">DeepBank 1.0</a></li>
+          
+            <li><a href="/docs/garage/WikiWoods/">WikiWoods</a></li>
+          
+            <li><a href="/docs/garage/SemCor/">SC corpus</a></li>
+          
+            <li><a href="/docs/garage/OldOverviews/">Old DELPH-IN Overview</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammars (experimental)</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/GrenouilleSummary/">French</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Lexical Semantics</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/LexsemTop/">Overview</a></li>
+          
+            <li><a href="/docs/garage/LexsemMapping/" class="active">Mapping</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Machine Translation</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/MachineTranslationTop/">Overview</a></li>
+          
+            <li><a href="/docs/garage/MachineTranslationTutorial/">Tutorial</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Japanese/English Machine Translation</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/MtJaen/">Overview</a></li>
+          
+            <li><a href="/docs/garage/MtSetup/">Setup</a></li>
+          
+            <li><a href="/docs/garage/MtRuleExtraction/">MtRuleExtraction</a></li>
+          
+            <li><a href="/docs/garage/MtJaenFeedbackCleaning/">Feedback Cleaning</a></li>
+          
+            <li><a href="/docs/garage/NE_Tagging_For_Improving_SMT/">Improving SMT</a></li>
+          
+            <li><a href="/docs/garage/MtJaenTanaka/">Tanaka Corpus</a></li>
+          
+            <li><a href="/docs/garage/MtJaenSmt/">Discussion</a></li>
+          
+            <li><a href="/docs/garage/JaenTodo/">Jaen TODO</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Indra/English Transfer Grammar</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/IndraAce/">Ace</a></li>
+          
+            <li><a href="/docs/garage/IndraPreprocessing/">Preprocessing</a></li>
+          
+            <li><a href="/docs/garage/IndraTranslation/">Translation</a></li>
+          
+            <li><a href="/docs/garage/IndraRegressionTest/">RegressionTest</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">WeSearch</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/WeSearch/">WeSearch</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_Ccs/">CCS</a></li>
+          
+            <li><a href="/docs/garage/CcsGroup/">CCS Attendees</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_CcsDayOne/">CCS Day One</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_CcsDayTwo/">CCS Day Two</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_CcsDayThree/">CCS Day Three</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_DesignPrinciples/">WeSearch_DesignPrinciples</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_AnalysisCatalog/">WeSearch_AnalysisCatalog</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_ScopalArgCoord/">WeSearch_ScopalArgCoord</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_ICONS/">WeSearch_ICONS</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_UnderspecifedAttachment/">WeSearch_UnderspecifedAttachment</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_UnderspecifiedPreds/">WeSearch_UnderspecifiedPreds</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_VariablePropertySharing/">WeSearch_VariablePropertySharing</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_DataCollection/">WeSearch_DataCollection</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">PET</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/PetTop/">Overview</a></li>
+          
+            <li><a href="/docs/garage/PetDependencies/">Dependencies</a></li>
+          
+            <li><a href="/docs/garage/PetEclipse/">Eclipse</a></li>
+          
+            <li><a href="/docs/garage/PetRoadMap/">RoadMap</a></li>
+          
+            <li><a href="/docs/garage/PetInput/">Input</a></li>
+          
+            <li><a href="/docs/garage/ReppPet/">ReppPet</a></li>
+          
+            <li><a href="/docs/garage/PetOutput/">Output</a></li>
+          
+            <li><a href="/docs/garage/PetOptions/">Options</a></li>
+          
+            <li><a href="/docs/garage/PetParameters/">Parameters</a></li>
+          
+            <li><a href="/docs/garage/PetSelectiveUnpacking/">Selective Unpacking</a></li>
+          
+            <li><a href="/docs/garage/PetInputFsc/">Input Feature Structure Chart</a></li>
+          
+            <li><a href="/docs/garage/PetInputChart/">Input Chart</a></li>
+          
+            <li><a href="/docs/garage/UtTop/">Ubertagging</a></li>
+          
+            <li><a href="/docs/garage/PetLogging/">Logging</a></li>
+          
+            <li><a href="/docs/garage/PetRobustness/">Robustness</a></li>
+          
+            <li><a href="/docs/garage/FeforPetApi/">PET API Proposal</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Documentation</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/DocsQuickStart/">Quick Start</a></li>
+          
+            <li><a href="/docs/garage/DelphinDocsReference/">Reference</a></li>
+          
+            <li><a href="/docs/garage/ERDW_StructureForNewDocsSite/">Background</a></li>
+          
+            <li><a href="/docs/garage/GoogleSeasonOfDocs2023ProjectProposal/">Season of Docs</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <p>Some thoughts on mapping MRSs to Wordnet sense (mainly illustrated with
+the ERG and PWN). Examples use a variant of the indexed MRS to save
+space (part of the work on <a href="https://delph-in.github.io/docs/garage/LexsemTop">Lexical Semantics</a>).</p>
+
+<p>Contents</p>
+
+<ol>
+  <li><a href="https://delph-in.github.io/docs/summits/LexsemMapping">Single Words</a>
+    <ol>
+      <li><a href="https://delph-in.github.io/docs/summits/LexsemMapping">Proper Nouns</a></li>
+      <li><a href="https://delph-in.github.io/docs/summits/LexsemMapping">Decomposed nouns</a></li>
+      <li><a href="https://delph-in.github.io/docs/summits/LexsemMapping">Superlatives</a></li>
+      <li><a href="https://delph-in.github.io/docs/summits/LexsemMapping">Different POS</a></li>
+    </ol>
+  </li>
+  <li><a href="https://delph-in.github.io/docs/summits/LexsemMapping">Multiple Words</a>
+    <ol>
+      <li><a href="https://delph-in.github.io/docs/summits/LexsemMapping">Compositional Compound Nouns</a></li>
+      <li><a href="https://delph-in.github.io/docs/summits/LexsemMapping">Non Compositional Compound
+Nouns</a></li>
+      <li><a href="https://delph-in.github.io/docs/summits/LexsemMapping">Idioms</a></li>
+    </ol>
+  </li>
+  <li><a href="https://delph-in.github.io/docs/summits/LexsemMapping">Phrases</a>
+    <ol>
+      <li><a href="https://delph-in.github.io/docs/summits/LexsemMapping">Coordination</a></li>
+      <li><a href="https://delph-in.github.io/docs/summits/LexsemMapping">Light Verbs</a></li>
+    </ol>
+  </li>
+</ol>
+
+<h2 id="single-words">Single Words</h2>
+
+<p>In straight forward cases like this, each open class predicate maps to a
+wordnet sense.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>The cat_{cat_n1} ate_{eat_v1} a dog_{dog_n1}.
+e3:
+ _1:_the_q⟨0:3⟩[BV x6]
+ x6:_cat_n_1⟨4:7⟩[]
+ e3:_eat_v_1⟨8:11⟩[ARG1 x6, ARG2 x9]
+ _2:_a_q⟨12:13⟩[BV x9]
+ x9:_dog_n_1⟨14:18⟩[]
+</code></pre></div></div>
+
+<p>Mapping the predicates to lemmas gives us directly:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>x6:_cat_n_1 = cat_n1
+e3:_eat_v_1 = eat_v1
+x9:_dog_n_1 = dog_n1
+</code></pre></div></div>
+
+<p>Note that quantifiers are sometimes in wordnet, sometimes not:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Each_{each_a1} cat_{cat_n1} ate_{eat_v1} a dog_{dog_n1}.
+e3:
+ _1:_each_q⟨0:4⟩[BV x5]
+ x5:_cat_n_1⟨5:8⟩[]
+ e3:_eat_v_1⟨9:12⟩[ARG1 x5, ARG2 x9]
+ _2:_a_q⟨13:14⟩[BV x9]
+ x9:_dog_n_1⟨15:19⟩[]
+</code></pre></div></div>
+
+<p>Here we also have:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>_1:_each_q = each_a1
+</code></pre></div></div>
+
+<p>(with a non matching pos a &lt;&gt; q)</p>
+
+<h3 id="proper-nouns">Proper Nouns</h3>
+
+<p>For proper nouns (and numbers and a few others), the predicate is an
+abstraction like named_rel, and the value is in the CARG:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Bast_{Bast_n1} ate_{eat_v1} a dog_{dog_n1}.
+e3:
+ _1:proper_q⟨0:4⟩[BV x6]
+ x6:named⟨0:4⟩("Bast")[]
+ e3:_eat_v_1⟨5:8⟩[ARG1 x6, ARG2 x9]
+ _2:_a_q⟨9:10⟩[BV x9]
+ x9:_dog_n_1⟨11:15⟩[]
+</code></pre></div></div>
+
+<p>We want:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>x6:named = Bast_1
+</code></pre></div></div>
+
+<h3 id="decomposed-nouns">Decomposed nouns</h3>
+
+<p>Some words are given complex semantics:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>A cat_{cat_n1} ate_{eat_v1} here_{here_a1}
+e3:
+ _1:_a_q⟨0:1⟩[BV x6]
+ x6:_cat_n_1⟨2:5⟩[]
+ e3:_eat_v_1⟨6:9⟩[ARG1 x6]
+ e10:loc_nonsp⟨10:15⟩[ARG1 e3, ARG2 x11]
+ x11:place_n⟨10:15⟩[]
+ _2:def_implicit_q⟨10:15⟩[BV x11]
+ e16:_here_a_1⟨10:15⟩[ARG1 x11]
+</code></pre></div></div>
+
+<p><em>here</em> is given semantics equivalent to “in this place”. Ideally, we
+would like a mapping such as:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>e10:loc_nonsp = here_a1
+x11:place_n = here_n1
+</code></pre></div></div>
+
+<p>with “e16:_here_a_1” unmapped. “in this place” = here_a1 and “this
+place” = hear_n1</p>
+
+<p>There are not so many of these, it should be possible to do them with
+exception handling</p>
+
+<h3 id="superlatives">Superlatives</h3>
+
+<p>Wordnet has some superlatives (linked through domain usage to
+superlative_n_1): <em>best, worst, least, …</em></p>
+
+<p>As far as I can tell, they are not actually linked to the relevant
+adjectives!</p>
+
+<p>I think we should tag these with the relvant adjective (<em>good, bad,
+less; , …</em>) and distinguish if need be by the presence of the
+superlative predicate.</p>
+
+<h3 id="different-pos">Different POS</h3>
+
+<p>ERG collapses many adjective/adverb distinctions: they are all ‘a’.
+Wordnet often has them as different entries, linked with derivation
+links. I lean towards collapsing them :-).</p>
+
+<h2 id="multiple-words">Multiple Words</h2>
+
+<p>Sometimes both the ERG and PWN treat a MWE as a single concept, and then
+it is easy.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>The cat_{cat_n1} gobbled_{gobble up_v1} a dog_{dog_n1} up_{gobble up_v1}.
+e3:
+ _1:_the_q⟨0:3⟩[BV x6]
+ x6:_cat_n_1⟨4:7⟩[]
+ e3:_gobble_v_up⟨8:15⟩[ARG1 x6, ARG2 x9]
+ _2:_a_q⟨16:17⟩[BV x9]
+ x9:_dog_n_1⟨18:21⟩[]
+</code></pre></div></div>
+
+<p>The character mapping is a bit less direct, but the final mapping should
+be just:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>x6:_cat_n_1 = cat_n1
+e3:_gobble_v_up = gobble_up_v1
+x9:_dog_n_1 = dog_n1
+</code></pre></div></div>
+
+<p><strong>PROBLEM</strong> sometimes they will disagree. Postpone mapping for now.</p>
+
+<h3 id="compositional-compound-nouns">Compositional Compound Nouns</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>The cat_{cat_n1} ate_{eat_v1} a guard_{guard_dog_n1} dog_{guard_dog_n1}.
+e3:
+ _1:_the_q⟨0:3⟩[BV x6]
+ x6:_cat_n_1⟨4:7⟩[]
+ e3:_eat_v_1⟨8:11⟩[ARG1 x6, ARG2 x9]
+ _2:_a_q⟨12:13⟩[BV x9]
+ e15:compound⟨14:23⟩[ARG1 x9, ARG2 x14]
+ _3:udef_q⟨14:19⟩[BV x14]
+ x14:_guard_n_1⟨14:19⟩[]
+ x9:_dog_n_1⟨20:23⟩[]
+</code></pre></div></div>
+
+<p>NTU WN tags just MWE in this case, <a href="https://delph-in.github.io/docs/garage/SemCor">SemCor</a> maps
+only the MWE I think we want:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>x6:_cat_n_1 = cat_n1
+e3:_eat_v_1 = eat_v1
+x9:_dog_n_1 = guard_dog_n1
+x14:_guard_n_1 = x
+</code></pre></div></div>
+
+<p>We get this in two steps.  First we get the compositional reading from the ERG’s treebanking (really we get guard_n_per, which also includes basketball guard, …):</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>x6:_cat_n_1 = cat_n1
+e3:_eat_v_1 = eat_v1
+x9:_dog_n_1 = dog_n1
+x14:_guard_n_1 = guard_n2 'a person who keeps watch over something or someone' 
+</code></pre></div></div>
+
+<p>Then we write an (optional) mtr, that rewrites the compound to a single noun (hopefully dealing with modifiers correctly).</p>
+
+<p>&lt;guard_n2, compound, dog_n1&gt; =&gt; <guard_dog_n1></guard_dog_n1></p>
+
+<p>It would be good to also link these in wordnet: we should have guard_dog_n1 is_a dog_n1, we also want ‘guard_n2’ internally modifies ‘dog_n1’ in ‘guard_dog_n1’.</p>
+
+<p>One could instead think of something like this:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>x6:_cat_n_1 = cat_n1
+e3:_eat_v_1 = eat_v1
+x9:_dog_n_1 = dog_n1
+x14:_guard_n_1 = guard_n1
+e15:compound = guard_dog_n1
+</code></pre></div></div>
+
+<p>But this isn’t quite right: too many predicates, compound is not a noun, …</p>
+
+<h3 id="non-compositional-compound-nouns">Non Compositional Compound Nouns</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>The cat_{cat_n1} ate_{eat_v1} a guard_{hot_dog_n1} dog_{hot_dog_n1}.
+e3:
+ _1:_the_q⟨0:3⟩[BV x6]
+ x6:_cat_n_1⟨4:7⟩[]
+ e3:_eat_v_1⟨8:11⟩[ARG1 x6, ARG2 x9]
+ _2:_a_q⟨12:13⟩[BV x9]
+ e14:_hot_a_1⟨14:17⟩[ARG1 x9]
+ x9:_dog_n_1⟨18:21⟩[]
+</code></pre></div></div>
+
+<p>Here, we don’t want the semantics “a dog that is hot”, so:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>x6:_cat_n_1 = cat_n1
+e3:_eat_v_1 = eat_v1
+x9:_dog_n_1 = hot+dog_n1
+</code></pre></div></div>
+
+<p>Ideally, the ERG should contain “hot dog” as a single entry, so that
+things map even better.</p>
+
+<h3 id="idioms">Idioms</h3>
+
+<p><em>X keeps tabs on Y</em></p>
+
+<p>We don’t really know how to mark the whole idiom (although the ERG
+recognizes it)</p>
+
+<p>But we can write a machine translation rule to rewrite it.</p>
+
+<p><em>X doesn’t know X’s arse from X’s elbow</em> “X is an idiot.” ?Postprocess</p>
+
+<p>How should we show this?</p>
+
+<h2 id="phrases">Phrases</h2>
+
+<h3 id="coordination">Coordination</h3>
+
+<p><em>grass and brown snakes</em> grass_snakes and brown_snakes ?Postprocess</p>
+
+<h3 id="light-verbs">Light Verbs</h3>
+
+<p><em>give a start</em> give_start? Do we just make entries for all light verbs?</p>
+
+<p>Many more corner cases to come :-): “Sleeping Beauty: is sleep v or n”,
+more complex MWEs, … .</p>
+
+<p>Last update: 2023-02-23 by Francis Bond [<a href="https://github.com/delph-in/docs/wiki/LexsemMapping/_edit">edit</a>]</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+<!--Scroll the navbar to the current page-->
+<script type="text/javascript">
+  let el = document.querySelector('.nav__list .active');
+  if(el){
+    el.scrollIntoView({block: "center", inline: "start"});
+  }
+</script>
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/docs/garage/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/docs/garage/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/docs/garage/assets/js/lunr/lunr.min.js"></script>
+<script src="/docs/garage/assets/js/lunr/lunr-store.js"></script>
+<script src="/docs/garage/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

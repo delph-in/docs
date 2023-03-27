@@ -1,0 +1,763 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>DELPH-IN ERG</title>
+<meta name="description" content="An amazing website.">
+
+
+  <meta name="author" content="Your Name">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="DELPH-IN ERG">
+<meta property="og:title" content="DELPH-IN ERG">
+<meta property="og:url" content="https://delph-in.github.io/docs/erg/ErgSemantics_Basics/">
+
+
+  <meta property="og:description" content="An amazing website.">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://delph-in.github.io/docs/erg/ErgSemantics_Basics/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Your Name",
+      "url": "https://delph-in.github.io/docs/erg/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/docs/erg/feed.xml" type="application/atom+xml" rel="alternate" title="DELPH-IN ERG Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/docs/erg/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--delphin_page wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/docs/erg/"><img src="/docs/erg/assets/images/Delph-In.png" alt="DELPH-IN ERG"></a>
+        
+        <a class="site-title" href="/docs/erg/">
+          DELPH-IN ERG
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/home/Home">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/howto/DelphinWelcome">How-To</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/erg/ErgTop">ERG</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/tools/ToolsTop">Tools</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/grammars/GrammarsOverview">Grammars</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/matrix/MatrixDocsOverview">Matrix</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/summits/SummitTop">Summits</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/garage/GarageTop">Garage</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Overview</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/erg/ErgTop/">ERG Summary</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_HowToCite/">How to Cite This Work</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">ERG Usage</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/erg/ErgProcessing/">Overview</a></li>
+          
+            <li><a href="/docs/erg/QuickStart/">QuickStart</a></li>
+          
+            <li><a href="/docs/erg/ErgProcessing_SampleExport/">ERG Usage Sample Export</a></li>
+          
+            <li><a href="/docs/erg/AceErgTuning/">Tuning Ace for ERG</a></li>
+          
+            <li><a href="/docs/erg/ErgApi/">ERG REST API</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Erg Semantics</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/erg/ErgSemantics/">Semantics</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Essence/">Essence</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Basics/" class="active">Basics</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Design/">Design</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Conventions/">Conventions</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Interface/">Semantics Interface (SEM-I)</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Discovery/">Semantics Discovery</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Inventory</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/erg/ErgSemantics_Inventory/">Overview</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_OneAnaphora/">Anaphora</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Apposition/">Apposition</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Comparatives/">Comparatives</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Compounding/">Compounding</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Conditionals/">Conditionals</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_ControlRelations/">Control Relations</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Coordination/">Coordination</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Ellipsis/">Ellipsis</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_ForeignExpressions/">Foreign Expressions</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Fragments/">Fragments</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_IdentityCopulae/">Identity Copulae</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Imperatives/">Imperatives</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_ImplicitLocatives/">Implicit Locatives</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_ImplicitNominals/">Implicit Nominals</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_ImplicitQuantifiers/">Implicit Quantifiers</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_InstrumentalRelatives/">Instrumental Relatives</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_MeasurePhrases/">Measure Phrases</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Nominalization/">Nominalization</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_NonAdverbialClausalModifiers/">Non-Adverbial Clausal Modifiers</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_NumberSequences/">Number Sequences</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Parentheticals/">Parentheticals</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Partitives/">Partitives</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_PropositionalArguments/">Propositional Arguments</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Quantification/">Quantification</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_QuasiModalInfinitivals/">Quasi-Modal Infinitivals</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_RelationalNouns/">Relational Nouns</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_RelativeClauses/">Relative Clauses</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_TimeExpressions/">Time Expressions</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Vocatives/">Vocatives</a></li>
+          
+            <li><a href="/docs/erg/ErgSemantics_Raw_Materials/">Raw Materials</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">ERG Grammar</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/erg/ErgLeTypes/">LE Types</a></li>
+          
+            <li><a href="/docs/erg/ErgRules/">Rules</a></li>
+          
+            <li><a href="/docs/erg/ErgTokenization/">Tokenization</a></li>
+          
+            <li><a href="/docs/erg/ErgTokenization_ComplexExample/">Tokenization Complex Example</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">ERG Treebanking</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/erg/ErgTreebanking/">Overview</a></li>
+          
+            <li><a href="/docs/erg/ErgTreebankingGuidelines/">Guidelines</a></li>
+          
+            <li><a href="/docs/erg/ErgTreebankingRules/">Treebanking Rules</a></li>
+          
+            <li><a href="/docs/erg/ErgTreebankingBridges/">Bridges</a></li>
+          
+            <li><a href="/docs/erg/CapitolHillTreebank/">Discussion</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Discussions</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/erg/SaarlandSententialArgument/">Saarland Sentential Argument</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <h1 id="terminology">Terminology</h1>
+
+<p>ERG meaning representations are couched in Minimal Recursion Semantics
+(MRS; Copestake et al., 2005), which is conceptualized as a
+meta-language for the description of logical forms in a suitable object
+language. Formally, the meaning representations are triples 〈<em>T</em>, <em>R</em>,
+<em>C</em>〉, with <em>T</em> being the (global) <em>top handle</em>, <em>R</em> a set of
+<em>elementary predications</em>, and <em>C</em> a set of <em>handle constraints</em>.</p>
+
+<p>Each elementary predication (EP) is comprised of a <em>predicate symbol</em>
+(henceforth simply <em>predicate</em>; an identifier of the relation) and a set
+of <em>role</em>–<em>argument</em> pairs, where the roles draw from a small, fixed
+inventory of role labels (ARG<sub>0</sub>, …, ARG<sub>n</sub> for
+‘regular’ arguments; RSTR and BODY on generalized quantifiers; and a few
+others in more specialized constructions). Role values (i.e. arguments)
+are variables. Predicates can be optionally parameterized by one or more
+constant arguments.</p>
+
+<p>Finally, <em>handle constraints</em> are an element of the MRS mechanics of
+scope underspecification, expressing a binary relation between two
+labels. The ERG limits itself to only one type of handle constraint,
+called ‘qeq’ (or =q), representing label equality modulo quantifier
+insertion.</p>
+
+<h1 id="variable-types">Variable Types</h1>
+
+<p>There are three types of variables in MRS, <em>event(ualitie)s</em> (of type
+<em>e</em>), <em>instances</em> (of type <em>x</em>) and <em>labels</em> or <em>handles</em> (of type <em>h</em>).
+Of these, the latter serve a formalism-internal role, i.e. assuming a
+suitable variant of predicate logic as the object language, MRS labels
+do not map onto logical variables. Eventualities and instances, on the
+other hand, prototypically correspond to verbal and nominal expressions,
+respectively. In addition to these most specific variable types, there
+are underspecifications as follows: <em>i</em> (for <em>individual</em>) is a
+generalization over eventualities and instances; <em>p</em> (the half-way mark
+in the alphabet between <em>h</em> and <em>x</em>) is a generalization over labels and
+instances; and <em>u</em> (for unspecific or maybe unbound) generalizes over
+all of the above. Note that Copestake et al. (2001) use <em>individual</em> for
+what is called <em>instance</em> here.</p>
+
+<p>Non-label variables can be ‘refined’ with what is called <em>variable
+properties</em>, e.g. TENSE or SF (sentence force) on eventualities, and
+NUM(ber) or PERS(on) on instances. Variable properties range over a
+fixed inventory of possible values, organized in a multiple-inheritance
+hierarchy to allow underspecification.</p>
+
+<h1 id="intrinsic-arguments">Intrinsic Arguments</h1>
+
+<p>In the ERG, all elementary predications have an ARG0 role, providing the
+<em>intrinsic argument</em> of a relation, e.g. the instance variable
+corresponding to a nominal expression, or the eventuality corresponding
+to a verbal expression in a (Neo-)Davidsonian representation. This
+intrinsic argument has also been referred to as the <em>distinguished
+variable</em> (Oepen &amp; Lønning, 2006) or <em>characteristic variable</em>
+(Copestake 2009). We will at times say that a predication ‘introduces’
+its intrinsic argument. Moreover, no variable will appear as the
+intrinsic argument of more than one predication in the semantic
+representation of an utterance.</p>
+
+<p>For a blend of linguistic and technical reasons, the ERG also introduces
+intrinsic variables in the semantics of, among others, adjectives,
+adverbs, and prepositions–eventualities in all three cases (for further
+background, see the
+<a href="https://delph-in.github.io/docs/erg/ErgSemantics_Design">ErgSemantics/Design</a> page).</p>
+
+<h1 id="surface-vs-abstract-predicates-and-naming-conventions">Surface vs. Abstract Predicates (and Naming Conventions)</h1>
+
+<p>ERS predications are comprised of a predicate and a set of labeled
+arguments, e.g. something like</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  h:_see_v_1[ARG0 e, ARG1 x1, ARG2 x2]
+</code></pre></div></div>
+
+<p>The predicate symbols can be divided into two classes: <em>surface</em>
+predicates and <em>abstract</em> predicates (where related terminology, with
+subtle variation in definitions used throughout the years, includes
+<em>real</em> vs. <em>grammar</em> predicates, as well as <em>object-level</em> vs.
+<em>meta-level</em> predicates, respectively).</p>
+
+<p>Surface predicates follow a naming convention where the symbol is
+composed of three components, called <em>lemma</em>, <em>pos</em>, and <em>sense</em>, and
+the <em>pos</em> field (despite its morpho-syntactic name) serves to make
+top-level semantic sense distinctions that mostly align with a coarse
+inventory of word classes, e.g. ‘v’(erbal), ‘n’(ominal), or
+‘q’(uantificational). Surface predicates, by convention, are marked by a
+leading underscore (‘_’; U+005F); as the finer-grained <em>sense</em> field is
+optional, this means that surface predicates will contain between two
+and three underscores, including the initial one. Surface predicates are
+exclusively introduced by lexical entries, whose orthography is a
+(possibly inflected) form of the lemma field in the predicate.
+Conversely, the vast majority of lexical entries introduce surface
+predicates.</p>
+
+<p>Abstract predicates, on the other hand, constitute a smaller class. They
+are used to represent the semantic contribution of grammatical
+constructions or more specialized lexical entries (such as compounding
+or the comparative use of <em>more</em>, respectively). By convention abstract
+predicates must start with a character other than the underscore (but
+may include any number of underscores).</p>
+
+<p>Predicate symbols (surface or abstract) are <em>not</em> case-sensitive and by
+convention are typically rendered in all lower-case letters.</p>
+
+<h1 id="parameterized-relations">Parameterized Relations</h1>
+
+<p>To avoid proliferation of predicates, some relations are parameterized,
+i.e. include a parameter (which technically is distinct from the
+arguments of the predication and typically will correspond to a constant
+in an object-language logic). Parameters are represented as
+<em>case-sensitive</em> strings. In the ERG at least, no relation takes more
+than one parameter.</p>
+
+<p>For example, proper names are represented as follows in the ‘fingerprint
+language’ (see the <a href="https://delph-in.github.io/docs/erg/ErgSemantics">ErgSemantics</a>
+page for background):</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  named(Abrams)[ARG0 x]
+</code></pre></div></div>
+
+<p>Conversely, in a popular serialization format for complete MRSs (the
+so-called <em>simple</em> MRS serialization; see the <a href="https://delph-in.github.io/docs/tools/MrsRFC">MrsRfc</a> page),
+parameters are interspersed with regular arguments, using the (strictly
+speaking ERG-specific) pseudo-role label CARG:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  named[ARG0 x, CARG "Abrams"]
+</code></pre></div></div>
+
+<h1 id="terminology-of-convenience">Terminology of Convenience</h1>
+
+<p>In describing the analyses in ERS, it is often convenient to refer to
+well-defined MRS fragments, i.e. interconnected groups of predications
+that do not necessarily constitute the full ERS for an utterance. In
+doing so, we differentiate between groups of predications ‘centered’ on
+an EP with an intrinsic variable of type <em>e</em> vs. those centered on an EP
+with an intrinsic variable of type <em>x</em>. As an informal terminology of
+convenience, we employ the terms <em>situation</em> and <em>group</em> for these,
+respectively.</p>
+
+<p>Semi-formally, a situation on this view includes (a) the ‘main’
+predication (prototypically contributed by a verb, but possibly by a
+preposition, adjective, adverb, or other syntactic category); (b) the
+full semantics of all of its arguments; and (c) the full semantics of
+all of its non-scopal modifiers. For example, in the semantic
+representation associated with <em>Kim believes that Sandy probably left
+early.</em>, the situation centered on the <em>believe</em> EP includes the entire
+ERS; the one centered on the EP corresponding to <em>probably</em> the semantic
+contributions of <em>probably</em>, <em>left</em>, <em>early</em>, and <em>Sandy</em>; and that
+centered on the <em>leave</em> EP only the semantic contributions of <em>left</em>,
+<em>early</em>, and <em>Sandy</em>. Similarly, in the ERS for <em>He was a loving
+husband.</em> we can identify a situation centered on the <em>love</em> EP which
+includes the predications associated with <em>loving</em>, <em>husband</em>, and <em>a</em>.</p>
+
+<p>Nearly analogously (and still quite informally), a <em>group</em> includes (a)
+the ‘main’ predication, introducing an intrinsic instance variable (here
+typically contributed by a noun); (b) the full semantics of any
+(non-scopal) modifiers of the noun (including complex ones, like
+relative clauses); (c) the quantifier predication which ‘binds’ the
+intrinsic variable of the ‘main’ predication; (d) the full semantics of
+any arguments of the ‘main’ predication, in the case of relational
+nouns. For example, in <em>The dog that barked at that car slept.</em>, the
+group centered on <em>dog</em> includes the full ERS with the exception of the
+semantic contribution of <em>slept</em>; while the group centered on <em>car</em>
+includes only the semantic contributions of <em>car</em> and <em>that</em>.</p>
+
+<p>We will call an <em>operator</em> any predication that takes at least one
+scopal (i.e. label-valued) argument, e.g. negation, and the relations
+introduced by scopal adverbs like <em>probably</em>, modal operators like
+<em>must</em>, and verbs like <em>doubt</em>. The scopal arguments of operators are
+always situations (in the current ERG), and the operator together with
+its argument(s) denotes a new (complex) situation.</p>
+
+<h1 id="non-scopal-arguments">Non-Scopal Arguments</h1>
+
+<p>Beyond its intrinsic argument, a predication can take additional
+arguments, for example to encode the two ‘participants’ in the two-place
+<em>eat</em>(ing) relation corresponding to an utterance like <em>The girl ate an
+apple.</em> Here, the two nominal arguments will each introduce a quantified
+instance variable, call them x<sub>1</sub> and x<sub>2</sub>, which will
+be bound to the ARG1 and ARG2 roles in the predication introduced by
+<em>eat</em>. Non-label arguments (i.e. variables of types <em>x</em> or <em>e</em>, as well
+as of their underspecified supertype <em>i</em>) are called <em>non-scopal</em>, i.e.
+such variable bindings do not correspond to subordination (or a
+dominance relation) in the scope tree for an utterance.</p>
+
+<h1 id="scopal-arguments">Scopal Arguments</h1>
+
+<p>Arguments to predications that are of type <em>h</em> (i.e. a label) are called
+scopal arguments. These appear across a range of predication types,
+including quantifier predications which have scopal arguments for both
+their restriction (RSTR) and body (BODY) positions, and predications for
+verbs such as <em>believe</em> or <em>ask</em> which can embed situations, and other
+one- or two-place scopal operators such as <em>not</em>, <em>probably</em>, <em>before</em>,
+<em>because</em>, etc.</p>
+
+<h1 id="quantification">Quantification</h1>
+
+<p>The ERG assumes that all instance variables (of type <em>x</em>) are bound by a
+generalized quantifier, i.e. a predication whose ARG0 (or BV in some
+derived MRS views) is the instance variable, and whose restriction
+(RSTR) is the predication that has the variable as its intrinsic
+argument. As Copestake et al (2005) argue, the syntax of English leaves
+the body of quantifiers unconstrained and provides a partial constraint
+on the restriction, while the semantic contribution of the nominal
+constituent that a quantifier-predicate-introducing element attaches to
+in the syntax is required to be within the restriction of the
+quantifier. Thus in the ERG, the BODY of quantifier predications is left
+unconstrained, while the RSTR is linked to the semantic contribution of
+the nominal constituent, via a qeq constraint:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  h0:*[ARG0 x]
+  [ARG0 x, RSTR h1]
+  { h1 =q h0 }
+</code></pre></div></div>
+
+<h1 id="non-scopal-modification">Non-Scopal Modification</h1>
+
+<p>Among non-scopal argument relations there is a distinguished class where
+the argument-taking predication shares its label (i.e. its position in
+the scope tree) with the predication that introduces the argument as its
+intrinsic argument. For example, the ERS for <em>Every white cat is deaf</em>
+includes the sub-structure</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>  h:_cat_n_1[ARG0 x]
+  h:_white_a_1[ARG0 e, ARG1 x]
+</code></pre></div></div>
+
+<p>where x is the intrinsic argument of _cat_n_1 and the ARG1 of
+_white_a_1, and both predications share one label (viz. h). This type
+of configuration and its role in our analyses are described further on
+the <a href="https://delph-in.github.io/docs/erg/ErgSemantics_Design">ErgSemantics/Design</a>
+page. When mapped to an object language, label sharing will typically
+correspond to logical conjunction, e.g. for the above something akin to
+<em>cat(x) ∧ white(e, x)</em>.</p>
+
+<p>We note here that scopal operators, whether introduced as heads or
+modifiers in the syntax, are indistinguishable in the semantics, and so
+from a semantic representation point of view, there is no such thing as
+a scopal modifier.</p>
+
+<h1 id="more-information">More Information</h1>
+
+<ul>
+  <li><a href="https://delph-in.github.io/docs/erg/ErgSemantics">ErgSemantics</a> main page</li>
+  <li><a href="https://delph-in.github.io/docs/erg/ErgSemantics_Inventory">Inventory</a> of semantic phenomena (to be)
+documented</li>
+  <li><a href="https://delph-in.github.io/docs/erg/ErgSemantics_HowToCite">How to cite this work</a></li>
+</ul>
+
+<h1 id="references">References</h1>
+
+<p>Copestake, A., Flickinger, D., Pollard, C., &amp; Sag, I. A. (2005).
+<em>Minimal Recursion Semantics. An introduction</em>. Research on Language and
+Computation, 3(2-3), pp. 281–332.</p>
+
+<p>Copestake, A., Lascarides, A., &amp; Flickinger, D. (2001). An algebra for
+semantic construction in constraint-based grammars. In <em>Proceedings of
+the 39th Annual Meeting of the Association for Computational
+Linguistics</em> (pp. 140–147). Toulouse, France.</p>
+
+<p>Last update: 2022-09-12 by EricZinda [<a href="https://github.com/delph-in/docs/wiki/ErgSemantics_Basics/_edit">edit</a>]</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+<!--Scroll the navbar to the current page-->
+<script type="text/javascript">
+  let el = document.querySelector('.nav__list .active');
+  if(el){
+    el.scrollIntoView({block: "center", inline: "start"});
+  }
+</script>
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/docs/erg/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/docs/erg/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/docs/erg/assets/js/lunr/lunr.min.js"></script>
+<script src="/docs/erg/assets/js/lunr/lunr-store.js"></script>
+<script src="/docs/erg/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

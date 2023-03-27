@@ -1,0 +1,1022 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>DELPH-IN Grammar Matrix</title>
+<meta name="description" content="An amazing website.">
+
+
+  <meta name="author" content="Your Name">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="DELPH-IN Grammar Matrix">
+<meta property="og:title" content="DELPH-IN Grammar Matrix">
+<meta property="og:url" content="https://delph-in.github.io/docs/matrix/matrixdef_File_Syntax/">
+
+
+  <meta property="og:description" content="An amazing website.">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://delph-in.github.io/docs/matrix/matrixdef_File_Syntax/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Your Name",
+      "url": "https://delph-in.github.io/docs/matrix/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/docs/matrix/feed.xml" type="application/atom+xml" rel="alternate" title="DELPH-IN Grammar Matrix Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/docs/matrix/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--delphin_page wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/docs/matrix/"><img src="/docs/matrix/assets/images/Delph-In.png" alt="DELPH-IN Grammar Matrix"></a>
+        
+        <a class="site-title" href="/docs/matrix/">
+          DELPH-IN Grammar Matrix
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/home/Home">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/howto/DelphinWelcome">How-To</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/erg/ErgTop">ERG</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/tools/ToolsTop">Tools</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/grammars/GrammarsOverview">Grammars</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/matrix/MatrixDocsOverview">Matrix</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/summits/SummitTop">Summits</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/garage/GarageTop">Garage</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammar Matrix Docs</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixDocsOverview/">Overview</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Overview and Tools</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixTop/">Overview</a></li>
+          
+            <li><a href="/docs/matrix/MatrixGettingStarted/">Getting Started</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDevTop/">Development Overview</a></li>
+          
+            <li><a href="/docs/matrix/Updating_the_Customization_System/">Customization System</a></li>
+          
+            <li><a href="/docs/matrix/MatrixCustomizationUnitTesting/">Customization Unit Testing</a></li>
+          
+            <li><a href="/docs/matrix/MatrixCustomizationWebTesting/">Customization Web Testing</a></li>
+          
+            <li><a href="/docs/matrix/MatrixRegressionTesting/">Regression Testing</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_TestSentences/">Test Sentences</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_TestByGeneration/">Test By Generation</a></li>
+          
+            <li><a href="/docs/matrix/MatrixWishList/">Wish List</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammar Engineering</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixDevBlueprints/">Dev Blueprints</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDevConventions/">Dev Conventions</a></li>
+          
+            <li><a href="/docs/matrix/GrammarDevelopment/">Grammar Development</a></li>
+          
+            <li><a href="/docs/matrix/MatrixLibraryDevelopment/">Library Development</a></li>
+          
+            <li><a href="/docs/matrix/MatrixLibraryWishList/">Library WishList</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMorphology/">Morphology</a></li>
+          
+            <li><a href="/docs/matrix/PythonIdioms/">Python Idioms</a></li>
+          
+            <li><a href="/docs/matrix/MatrixRegressionTestingSetup/">Regression Testing Setup</a></li>
+          
+            <li><a href="/docs/matrix/MatrixRegressionTestingSetupMac/">Regression Testing Setup (Mac)</a></li>
+          
+            <li><a href="/docs/matrix/MatrixTDBProcedures/">TDB Procedures</a></li>
+          
+            <li><a href="/docs/matrix/MatrixTDB2Tables/">TDB2 Tables</a></li>
+          
+            <li><a href="/docs/matrix/MatrixValidationDebugging/">Validation Debugging</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Matrix Doc</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixDocTop/">Overview</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_AdnominalPossession/">Adnominal Possession</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_ArgumentOptionality/">Argument Optionality</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Case/">Case</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_ClausalComplements/">Clausal Complements</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_ClausalModifiers/">Clausal Modifiers</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Coordination/">Coordination</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_DirectInverse/">Direct Inverse</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Evidentials/">Evidentials</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Gender/">Gender</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_GeneralInfo/">General Info</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_ImportToolboxLexicon/">Import Toolbox Lexicon</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_InformationStructure/">Information Structure</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Lexicon/">Lexicon</a></li>
+          
+            <li><a href="/docs/matrix/matrixdef_File_Syntax/" class="active">Matrixdef File Syntax</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Morphology/">Morphology</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_NominalizedClauses/">Nominalized Clauses</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Number/">Number</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_OtherFeatures/">Other Features</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Person/">Person</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_SententialNegation/">Sentential Negation</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_TenseAspectMood/">Tense/Aspect/Mood</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_WhQuestions/">Wh Questions</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_WordOrder/">Word Order</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_YesNoQ/">YesNoQ</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">FAQ</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/GrammarEngineeringFAQ/">Grammar Engineering FAQ</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqFeatureGeometry/">Feature Geometry FAQ</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqChartTwice/">Chart Twice</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqCircularLexRule/">Circular Lex Rule</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqClickX/">Click X</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqConfusingTypo/">Confusing Typo</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqCyclicCheck/">Cyclic Check</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqDiffList/">Diff List</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqDisjunctiveValue/">Disjunctive Value</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqDistributedDisjunction/">Distributed Disjunction</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqExpandMenu/">Expand Menu</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqExpandedType/">Expanded Type</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqFeatureMultiType/">Feature Multi-Type</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqFindTypeForFeatures/">Find Type For Features</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqForgottenConstraint/">Forgotten Constraint</a></li>
+          
+            <li><a href="/docs/matrix/GeFaq/">GeFaq</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqGotoChar/">Goto Char</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqGrammarDocumentation/">Grammar Documentation</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqInteractiveUnify/">Interactive Unify</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqLkbInstallation/">LKB Installation</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqLispPromptTips/">Lisp Prompt Tips</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqLoadScript/">Load Script</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqKeyboardNotWorking/">Keyboard Not Working</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqMissingEdge/">Missing Edge</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqMissingHowTo/">Missing How-To</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqMissingRels/">Missing Rels</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNegValue/">Neg Value</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNewFeature/">New Feature</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoEntry2/">No Entry 2</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoError/">No Error</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoPossibleType/">No Possible Type</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoRule/">No Rule</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoSign/">No Sign</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNonAlpha/">Non-Alpha</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqOverApplicationLexRule/">Over Application Lex Rule</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqOrderMatters/">Order Matters</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqPasteShortcut/">Paste Shortcut</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRightBracket/">Right Bracket</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRootFail/">Root Fail</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRuleWithoutDaughter/">Rule Without Daughter</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRuleWithoutDaughters/">Rule Without Daughters</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRunawayRule1/">Runaway Rule 1</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRunawayRule2/">Runaway Rule 2</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqShowChart/">Show Chart</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqSpanningEdge/">Spanning Edge</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqSwitchingGrammars/">Switching Grammars</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqTabIndentation/">Tab Indentation</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqTdlSyntax/">TDL Syntax</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqTdlTxt/">TDL TXT</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqTypeAddendum/">Type Addendum</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqUnicodeInput/">Unicode Input</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqUnifySurprise/">Unify Surprise</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqViewEntry/">View Entry</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqViewHierarchy/">View Hierarchy</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqViewType/">View Type</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">MRS Tests</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuite/">Overview</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteBg/">Bulgarian</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteCantonese/">Cantonese</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsCatb/">Cathedral Test</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteEn/">English</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteFr/">French</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteDe/">German</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteGr/">Greek</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteIndonesian/">Indonesian</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteJa/">Japanese</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteMandarin/">Mandarin</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteNo/">Norwegian</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuitePt/">Portuguese</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteRu/">Russian</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteSv/">Swedish</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteTatoeba/">Tatoeba</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteZhTw/">ZhTw</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <p><strong>matrixdef File Syntax</strong></p>
+
+<p>The file matrixdef defines the Matrix customization web interface,
+specifically the form fields that appear, their possible values, and the
+HTML surrounding and formatting them. The file is parsed server side in
+deffile.py, and outputs HTML. The syntax currently allows for sections,
+labels, check boxes, radio buttons, selects, files, buttons, and text
+fields. There are also two special, custom UI elements, Iterables and
+MultiSelects. The file is broken up into sections, each of which
+corresponds to a different sub-page of our multi-page questionnaire.</p>
+
+<p>Note that this page uses square bracket syntax “[]” to denote optional
+definitions.</p>
+
+<p>The file consists of a series of form-field declarations, separated by
+blank lines. Most elements in matrixdef generally follow the syntax as
+follows:</p>
+
+<p>Keyword Variable-Name ”Friendly-Name” [“HTML-before” ”HTML-after” [“JavaScript-onChange”]]</p>
+
+<ul>
+  <li>Keyword is one of {
+Section, Label, Check, Separator, Radio, Select, MultiSelect, Text, TextArea, Hidden, File, Button, BeginIter, Cache 
+}</li>
+  <li>Variable is the name of the form field, consisting of alphanumeric
+characters, _, and -. Generally, variable names should consist of
+English words or abbreviations separated by -. Iterable choices are
+separated by _. Thus, variable names are described the the
+following regular expression: ([-a-zA-Z]+[0-9]+_)*[-a-zA-Z]+</li>
+  <li>Friendly-Name is an English-language name for the form field that
+will appear in the main page of the questionnaire</li>
+  <li>HTML-before is the HTML that will appear before the form field</li>
+  <li>HTML-after is the HTML that will appear after the form field</li>
+  <li>JavaScript-onChange is some <a href="/JavaScript">JavaScript</a> code to place
+in the onChange event. Depending on the keyword, this is also
+sometimes onClick. See below for details.</li>
+</ul>
+
+<p>The last three parts of a form field definition are irrelevant for
+keywords Section and Label, and the last, Width, is only relevant only
+the Text keyword. Irrelevant parts of a definition are ignored.</p>
+
+<p><strong>Section, Label, and Separator</strong></p>
+
+<p>Section produces a heading in the HTML file. Label allows arbitrary HTML
+to be added to the page, such as notes or labels. Separator adds a
+horizontal line across the page.</p>
+
+<p><strong>Check</strong></p>
+
+<p>Checkboxes are boolean (yes/no) choices for the user-linguist to choose.
+They are defined as follows:</p>
+
+<p>Check variable-name ”friendly_name” ”HTML before” ”HTML after” [“Javascript onclick”] </p>
+
+<p>Additionally, a choices on one page can affect choices on other pages.
+This allows, for instance, a checkbox to not be rendered unless a
+relevant choice is marked on a different subpage, or vice versa. The
+choice can be marked with an exact string or a regex pattern. Multiple
+variables can be joined via | to form a set of variables. The syntax
+for this is as follows:</p>
+
+<p>Check variable-name ”friendly_name” ”HTML before” ”HTML after” [“Javascript onclick” [“VariableName1ToSwitchOn”[|“VariableName2ToSwitchOn”]]] </p>
+
+<p><strong>Iterables</strong></p>
+
+<p>Iterables define a section of choices that can be entered multiple times
+by a user. A button which copies the definition of choices within an
+iterable allows the user to define more choices.</p>
+
+<p>Iterables are enclosed by the BeginIter and EndIter keywords.</p>
+
+<p>e.g.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    BeginIter forbid{k} "a Forbid constraint"
+
+      Select others "Noun Position Class {i} Lexical Rule Type {j} forbids" "Lexical Rule Type {j} forbids the following: " ""
+      fillcache c=nouns
+      fillregex p=noun-pc[0-9]+(_lrt[0-9]+)?_name
+      . noun "Any noun" "any noun"
+
+    EndIter forbid
+</code></pre></div></div>
+
+<p>where the syntax of BeginIter is as follows:</p>
+
+<ul>
+  <li>BeginIter VariableName{counterVariable} ”HTML” show_hide:bool iter_min:int </li>
+</ul>
+
+<p>The above matrixdef definitions create HTML with appropriate javascript
+functions to generate an iterable select option. This can be viewed live
+by looking at the forbid constraints on lexical rules on the <a href="http://www.delph-in.net/matrix/customize/matrix.cgi?subpage=morphology">Morphology
+page</a>.</p>
+
+<p>These options are defined as follows:</p>
+
+<ul>
+  <li>VariableName Name of the iterable</li>
+  <li>CounterVariable Variable to be defined and used in the iterable and
+objects associated with it: for instance, in naming lexical rule
+instances, there is a counter for the position class (i), lexical
+rule type (j), and the lexical rule instance (k).</li>
+  <li>“HTML” HTML value to show the user, akin to the “friendly name”</li>
+  <li>show_hide Boolean value represented as 0 or 1, where 1 adds the
+show_hide option to the iterable, allowing the iterable to be
+collapsed using an arrow. 0 does not include this functionality for
+this iterable.</li>
+  <li>iter_min Integer count for minimum/default number of iterables. For
+instance, a choices file is deemed acceptable if one noun and two
+verbs are defined. This is prompted to the user by setting the
+iter_min of the “noun” iterable to 1 and the iter_min of the
+“verb” iterable to 2.</li>
+</ul>
+
+<p>Forthcoming syntax allows iterables to be toggled given a choice on a
+different subpage. The choice can be marked with an exact string or a
+regex pattern. For instance, Incorporated Stem Lexical Rules are only
+available on nouns in the Morphology page if the “Some nouns in this
+language take adjectives as incorporated affixes:” checkbox is checked.
+The name of this Check option is adj_incorp, and so to create an
+iterable that is skipped if the adj_incorp is checked, the following
+syntax is used:</p>
+
+<ul>
+  <li>BeginIter VariableName{counterVariable} ”HTML” show_hide:bool iter_min:int [“VariableName1ToSwitchOn”|“VariableName2ToSwitchOn”] </li>
+</ul>
+
+<p>e.g.</p>
+
+<ul>
+  <li>BeginIter is-lrt{j} ”an Incorporated Stem Lexical Rule Type” 1 0 ”adj_incorp” </li>
+</ul>
+
+<p>Using this syntax, if the choice named adj_incorp has a value, the
+iterable will appear, else, it will not.</p>
+
+<p>Note that if an iterable is activated by some choice, filled out, and
+then the choice that it switches on is deactivated, the iterable and its
+data will be lost. This is intended behavior.</p>
+
+<p><strong>Radio Buttons</strong></p>
+
+<p>Radio buttons have additional syntax associated with them. Whereas the
+other form field definitions consist of single lines separated by blank
+lines, radio button definitions consist of multiple lines: the first
+defines the name of the radio button group and the subsequent lines
+define the radio buttons and the values associated with them.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    Radio variable "Friendly-Name" "HTML-before" "HTML-after"&lt;&lt;BR&gt;&gt;
+    . choice-variable "Choice Friendly-Name" "Choice HTML-before" "Choice HTML-after/Choice Text"&lt;&lt;BR&gt;&gt;
+    . choice-variable "Choice Friendly-Name" "Choice HTML-before" "Choice HTML-after/Choice Text" disabled_flag_x&lt;&lt;BR&gt;&gt;
+    . etc...
+</code></pre></div></div>
+
+<p>A sample radio button definition appears below:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    Radio neg-infl-type "Negative inflection type" "On: " ""
+    . aux "Auxiliaries only" "" "auxiliaries only "
+    . main "Main verbs only" "" "main verbs only "
+    . aux-main "Main or auxiliary verbs" "" "any finite verb (main or auxiliary)&lt;br&gt;" x
+</code></pre></div></div>
+
+<p>Notice that the radio button lines have a keyword of “.”. This is a
+placeholder that keeps the number of parts in all definitions
+consistent. The definition above produces the following HTML:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    On:
+    &lt;input type="radio" name="neg-infl-type" value="aux" id="choiceID1"&gt;&lt;label for="choiceID1"&gt;auxiliaries only &lt;/label&gt;
+    &lt;input type="radio" name="neg-infl-type" value="main" id="choiceID2"&gt;&lt;label for="choiceID2"&gt;main verbs only &lt;/label&gt;
+    &lt;input type="radio" name="neg-infl-type" value="aux-main" id="choiceID3" disabled&gt;&lt;label for="choiceID3"&gt;any finite verb (main or auxiliary) &lt;br&gt;&lt;/label&gt;
+</code></pre></div></div>
+
+<p>Forthcoming syntax allows a radio button form to be toggled given a
+choice on another subpage. This allows a radio button form to not be
+rendered unless a relevant choice is marked on a different subpage. The
+choice can be marked with an exact string or a regex pattern. The syntax
+for this is as follows:</p>
+
+<p>Radio variable-name ”friendly_name” ”HTML before” ”HTML after” [“VariableName1ToSwitchOn”|“VariableName2ToSwitchOn”] </p>
+
+<p><strong>Select and Multiselect</strong></p>
+
+<p>Select creates drop-downs via HTML select elements. A Select element
+must be followed by one or more lines specifying the values in the
+drop-down. These values can be defined overtly as radio button values as
+described above.</p>
+
+<p>Multiselect creates custom drop-downs which allow for multiple choices
+to be checked. Otherwise, they are the same as Select.</p>
+
+<p>Multiselect allows an option to be greyed out by putting an “x” flag
+after the option.</p>
+
+<ul>
+  <li>Normal option:
+    <ul>
+      <li>. ap  ”AP” ”APs”</li>
+    </ul>
+
+    <p>Greyed out option:</p>
+    <ul>
+      <li>. pp ”PP” ”PPs” x</li>
+    </ul>
+  </li>
+</ul>
+
+<p>Alternatively, or in addition, Select and Multiselect lines may be
+followed by ‘fill’ statements that can take zero or more arguments,
+e.g., fillregex p=number[0-9]+_name n=1, where the arguments in this
+example are p=pattern and n=1. Possible arguments are defined in
+deffile.py.</p>
+
+<p><strong>Text and <a href="/TextArea">TextArea</a></strong></p>
+
+<p>Text inserts a small text input box, while TextArea inserts a larger
+one. The syntax is as follows:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    Keyword Variable-Name "Friendly-Name" ["HTML-before" "HTML-after" [Width]]
+</code></pre></div></div>
+
+<p>These also support the special Width keyword, to specify the maximum
+length, in characters, of the input.</p>
+
+<p>There is also an OnChange flag that allows <a href="/JavaScript">JavaScript</a> to
+be associated with the OnChange event of the text field (that is, code
+that is executed when the text box changes).</p>
+
+<p><strong>Hidden</strong></p>
+
+<p>Add information to the HTML page hidden from the user, such as text to
+be shown via some <a href="/JavaScript">JavaScript</a> interactivity or
+<a href="/JavaScript">JavaScript</a>.</p>
+
+<p><strong>File</strong></p>
+
+<p>Define a file to be uploaded.</p>
+
+<p><strong>Button</strong></p>
+
+<p>Define a button with a <a href="/JavaScript">JavaScript</a> handler attached.</p>
+
+<p><strong>Fill commands</strong></p>
+
+<p>The possible fill commands are as follows:</p>
+
+<ul>
+  <li>
+    <table>
+      <thead>
+        <tr>
+          <th> </th>
+          <th> </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>fillregex p=REGEXPATTERN [n=1]</td>
+          <td>Searches item on current page matching the regular expression REGEXPATTERN. If n=1 is given, only the variable name will be displayed, rather than “variable (friendly)” names</td>
+        </tr>
+        <tr>
+          <td>fillnames c=CATEGORY</td>
+          <td>Fill with feature names from CATEGORY</td>
+        </tr>
+        <tr>
+          <td>fillvalues p=PATTERN [l=1]</td>
+          <td>Fill with values from PATTERN. If l=1 is given, PATTERN is just a feature name. Otherwise it is a key specifying an element on the page</td>
+        </tr>
+        <tr>
+          <td>fillverbpat</td>
+          <td>(No arguments) Fill with verb patterns (currently “intransitive” and “transitive”)</td>
+        </tr>
+        <tr>
+          <td>fillnumbers</td>
+          <td>(No arguments) Fill with the number features</td>
+        </tr>
+        <tr>
+          <td>fillcache c=CACHENAME</td>
+          <td>Fill with items in the cache CACHENAME. The cache is created with a Cache command (see below)</td>
+        </tr>
+      </tbody>
+    </table>
+  </li>
+</ul>
+
+<p>One can use fill commands as well as additional choices in both Select
+and MultiSelect blocks:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>MultiSelect inputs "Verb Position Class {i} Input" "&lt;br/&gt;Possible inputs:" ""
+  fillcache c=verbs
+  fillcache c=auxes
+  fillregex p=verb-pc[0-9]+(_lrt[0-9]+)?_name
+  . verb "Any verb" "any verb"
+  . iverb "Any intransitive verb" "any intransitive verb"
+  . tverb "Any transitive verb" "any transitive verb"
+  . aux "Any auxiliary verb" "any auxiliary verb"
+</code></pre></div></div>
+
+<p><strong>Choice Caching</strong></p>
+
+<p>A questionnaire page does not have direct access to the choices file or
+other questionnaire subpages, so if you need values from other pages you
+can use a Cache command to store them in a <a href="/JavaScript">JavaScript</a>
+array.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>   Cache CACHENAME REGEXPATTERN DISPLAYSUBKEY
+</code></pre></div></div>
+
+<p>The <a href="/JavaScript">JavaScript</a> variable will be called CACHENAME, and
+will include any items matching REGEXPATTERN. This regular expression
+must match the beginning of the choice key, but is not required to match
+the end of the key. Thus, if you want to get non-terminal choices (e.g.
+noun1, but not noun1_name, noun1_feat1_name, etc.), use a $ at the
+end of the pattern. DISPLAYSUBKEY, if provided, is used to get the
+choice value displayed in the questionnaire. For instance, if you want
+to cache all nouns, but want them to be displayed by their name, use the
+following:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    Cache nouns noun[0-9]+$ name
+</code></pre></div></div>
+
+<p><strong>Toggling an element on a choice</strong></p>
+
+<p>As described above, several of the UI elements can automatically be
+toggled on or off given a choice on another subpage. The functionality
+of this is as follows: if any non empty value exists in this position,
+then the UI element is skipped, unless the UI element matches a choice
+on a different page as described below.</p>
+
+<p>While the syntax of where the switching string appears given a UI
+element (see specific sections for this syntax), the syntax is the same
+across sections. The syntax is as follows:</p>
+
+<p>“VariableName1ToSwitchOn|VariableName2ToSwitchOn|VariableNameRegex\dToSwitchOn|VariableName3=SomeValue|VariableName4=(Value1,Value2)” </p>
+
+<p>Some notes on matching values:</p>
+
+<ul>
+  <li>Matching variable names: The string can be either a direct string
+match, for choices that are relevant cross linguistically and not
+associated with an iterable (such as has-aux), or the string can be
+a regular expression to match iterables (such as adj\d_predcop).</li>
+  <li>Matching values: If a particular value is required for the match,
+then this can be specified with an =. For instance,
+“adj\d_predcop=opt” only matches if a choice matching the name
+adj\d_predcop has the value opt.</li>
+  <li>Matching multiple names: The | operator can be used to string
+together multiple expressions to match. For instance, if a value
+only appears when choice1 and noun\d_choice2 have some value, the
+string choice1|noun\d_choice2 should match and toggle this
+appropriately.</li>
+  <li>Matching multiple values: The system can match multiple values after
+an = by listing the values in a comma separated list.</li>
+</ul>
+
+<p>Note that if a match is made, a UI element is rendered, and a choice is
+made, and then the original choice is unchecked, the dependent choices
+will be lost (<strong>on loading the page they are from</strong>). This is intended
+behavior. Ideally, the choice would be removed in any case, but this is
+future work.</p>
+
+<h3 id="examples">Examples</h3>
+
+<p>fillvalues p=nominalization l=1 </p>
+
+<p>(this will give you a dropdown with only values from the Nominalization
+page).</p>
+
+<h3 id="common-mistakes">Common mistakes</h3>
+
+<ul>
+  <li>Using the same loop name for
+<a href="/BeginInter/EndIter">BeginInter/EndIter</a> will lead to an error. If
+you see an internal server error message when switching between
+subpages after adding a new loop, check that you used a unique name.</li>
+  <li>Blank lines are meaningful; they separate statements from each
+other. Thus, something like this won’t work (note the blank line):</li>
+</ul>
+
+<!-- -->
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    Radio neg-infl-type "Negative inflection type" "On: " ""
+
+    . aux "Auxiliaries only" "" "auxiliaries only "
+    . main "Main verbs only" "" "main verbs only "
+    . aux-main "Main or auxiliary verbs" "" "any finite verb (main or auxiliary)&lt;br&gt;" x
+</code></pre></div></div>
+
+<ul>
+  <li>It is easy to forget empty “HTML before/after” fields, for example,
+the below will lead to a non-loading web page because the “HTML
+after” field, which in this case might be just empty (“”) is missing
+at the end:</li>
+</ul>
+
+<!-- -->
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    Radio neg-infl-type "Negative inflection type" "On: "
+</code></pre></div></div>
+
+<p>Last update: 2022-09-14 by EricZinda [<a href="https://github.com/delph-in/docs/wiki/matrixdef_File_Syntax/_edit">edit</a>]</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+<!--Scroll the navbar to the current page-->
+<script type="text/javascript">
+  let el = document.querySelector('.nav__list .active');
+  if(el){
+    el.scrollIntoView({block: "center", inline: "start"});
+  }
+</script>
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/docs/matrix/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/docs/matrix/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/docs/matrix/assets/js/lunr/lunr.min.js"></script>
+<script src="/docs/matrix/assets/js/lunr/lunr-store.js"></script>
+<script src="/docs/matrix/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

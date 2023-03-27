@@ -1,0 +1,1333 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>DELPH-IN Tools</title>
+<meta name="description" content="An amazing website.">
+
+
+  <meta name="author" content="Your Name">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="DELPH-IN Tools">
+<meta property="og:title" content="DELPH-IN Tools">
+<meta property="og:url" content="https://delph-in.github.io/docs/tools/TdlRFC/">
+
+
+  <meta property="og:description" content="An amazing website.">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://delph-in.github.io/docs/tools/TdlRFC/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Your Name",
+      "url": "https://delph-in.github.io/docs/tools/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/docs/tools/feed.xml" type="application/atom+xml" rel="alternate" title="DELPH-IN Tools Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/docs/tools/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--delphin_page wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/docs/tools/"><img src="/docs/tools/assets/images/Delph-In.png" alt="DELPH-IN Tools"></a>
+        
+        <a class="site-title" href="/docs/tools/">
+          DELPH-IN Tools
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/home/Home">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/howto/DelphinWelcome">How-To</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/erg/ErgTop">ERG</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/tools/ToolsTop">Tools</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/grammars/GrammarsOverview">Grammars</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/matrix/MatrixDocsOverview">Matrix</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/summits/SummitTop">Summits</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/garage/GarageTop">Garage</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Tools</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/ToolsTop/">Overview</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">PyDelphin</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/PyDelphinTop/">Overview</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">LKB</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/LkbTop/">Overview</a></li>
+          
+            <li><a href="/docs/tools/LkbInstallation/">Installation</a></li>
+          
+            <li><a href="/docs/tools/LkbFos/">Fully Open Source Version</a></li>
+          
+            <li><a href="/docs/tools/LkbMacintosh/">Macintosh Version</a></li>
+          
+            <li><a href="/docs/tools/LkbCourses/">Courses</a></li>
+          
+            <li><a href="/docs/tools/LkbConventions/">Conventions</a></li>
+          
+            <li><a href="/docs/tools/LkbGeneration/">Generation</a></li>
+          
+            <li><a href="/docs/tools/LkbCompilation/">Compilation</a></li>
+          
+            <li><a href="/docs/tools/LkbEmacs/">Emacs</a></li>
+          
+            <li><a href="/docs/tools/LkbTrollet/">Trollet</a></li>
+          
+            <li><a href="/docs/tools/LkbSppp/">Simple PreProcessor Protocol</a></li>
+          
+            <li><a href="/docs/tools/RmrsVpm/">Variable Property Mapping (VPM)</a></li>
+          
+            <li><a href="/docs/tools/LkbLpconstraints/">LkbLpconstraints</a></li>
+          
+            <li><a href="/docs/tools/LkbUserGroup/">User Group</a></li>
+          
+            <li><a href="/docs/tools/LkbFaq/">FAQ</a></li>
+          
+            <li><a href="/docs/tools/LkbMode/">Emacs FAQ</a></li>
+          
+            <li><a href="/docs/tools/LkbWishlist/">Wish list</a></li>
+          
+            <li><a href="/docs/tools/LkbBugs/">Bugs</a></li>
+          
+            <li><a href="/docs/tools/LkbCopyright/">Copyright</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">ACE Parser</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/AceTop/">Overview</a></li>
+          
+            <li><a href="/docs/tools/AceInstall/">Install</a></li>
+          
+            <li><a href="/docs/tools/AceConfiguration/">Configuration</a></li>
+          
+            <li><a href="/docs/tools/AceOptions/">Options</a></li>
+          
+            <li><a href="/docs/tools/AceUse/">Examples</a></li>
+          
+            <li><a href="/docs/tools/AceLui/">LUI Mode</a></li>
+          
+            <li><a href="/docs/tools/AceCsaw/">Csaw</a></li>
+          
+            <li><a href="/docs/tools/AceTransfer/">Transfer</a></li>
+          
+            <li><a href="/docs/tools/AceExperimental/">Experimental</a></li>
+          
+            <li><a href="/docs/tools/AceFaq/">Faq</a></li>
+          
+            <li><a href="/docs/tools/AceWishlist/">Wish list</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">LKB LUI</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/LkbLui/">Overview</a></li>
+          
+            <li><a href="/docs/tools/LuiRc/">User Configuration</a></li>
+          
+            <li><a href="/docs/tools/LuiUi/">UI Quick Reference</a></li>
+          
+            <li><a href="/docs/tools/LuiTree/">Tree</a></li>
+          
+            <li><a href="/docs/tools/LuiAvm/">Feature Structure (AVM)</a></li>
+          
+            <li><a href="/docs/tools/LuiUnification/">Unification</a></li>
+          
+            <li><a href="/docs/tools/LuiMrs/">MRS Display</a></li>
+          
+            <li><a href="/docs/tools/LuiChart/">Chart Browser</a></li>
+          
+            <li><a href="/docs/tools/LuiWishlist/">Wish list</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">LKB LexDB</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/LexDbSimplePsql/">Simple PSQL</a></li>
+          
+            <li><a href="/docs/tools/LexDbInitialize/">Initialization</a></li>
+          
+            <li><a href="/docs/tools/LexDbPsqlInitialize/">PSQL Initialization</a></li>
+          
+            <li><a href="/docs/tools/LexDbFieldMappings/">Field Mappings</a></li>
+          
+            <li><a href="/docs/tools/LkbLexDbMultiUser/">Multi-User</a></li>
+          
+            <li><a href="/docs/tools/LkbLexDbSingleUser/">Single User</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">[incr tsdb()]</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/ItsdbTop/">Overview</a></li>
+          
+            <li><a href="/docs/tools/TsdbTop/">Deep Dive</a></li>
+          
+            <li><a href="/docs/tools/ItsdbDerivations/">Derivations</a></li>
+          
+            <li><a href="/docs/tools/ItsdbProfileManipulation/">Profile Manipulation</a></li>
+          
+            <li><a href="/docs/tools/ItsdbProfile/">Profile</a></li>
+          
+            <li><a href="/docs/tools/ItsdbProfiling/">Profiling</a></li>
+          
+            <li><a href="/docs/tools/ItsdbDistributedProcessing/">Distributed Processing</a></li>
+          
+            <li><a href="/docs/tools/ItsdbBatch/">Batch</a></li>
+          
+            <li><a href="/docs/tools/ItsdbReference/">Reference</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTroubleshooting/">Troubleshooting</a></li>
+          
+            <li><a href="/docs/tools/GeFaqTsdbRc/">FAQ</a></li>
+          
+            <li><a href="/docs/tools/ItsdbWishlist/">Wish List</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Logon</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/LogonTop/">Overview</a></li>
+          
+            <li><a href="/docs/tools/LogonInstallation/">Installation</a></li>
+          
+            <li><a href="/docs/tools/LogonRedhat/">Red Hat</a></li>
+          
+            <li><a href="/docs/tools/LogonUbuntu/">Ubuntu</a></li>
+          
+            <li><a href="/docs/tools/LogonArch/">Arch Linux</a></li>
+          
+            <li><a href="/docs/tools/LogonDebian/">Debian</a></li>
+          
+            <li><a href="/docs/tools/LogonHandon/">Hands-On Release</a></li>
+          
+            <li><a href="/docs/tools/LogonSvn/">SVN</a></li>
+          
+            <li><a href="/docs/tools/LogonProcessing_BatchGeneration/">Batch Generation</a></li>
+          
+            <li><a href="/docs/tools/LogonProcessing_BatchTranslation/">Batch Translation</a></li>
+          
+            <li><a href="/docs/tools/LogonPet/">PET Integration</a></li>
+          
+            <li><a href="/docs/tools/LogonAnswer/">ACE Integration</a></li>
+          
+            <li><a href="/docs/tools/LogonExtras/">Extras</a></li>
+          
+            <li><a href="/docs/tools/LogonReports/">Reports</a></li>
+          
+            <li><a href="/docs/tools/LogonProcessing/">Processing</a></li>
+          
+            <li><a href="/docs/tools/LogonProcessing_BatchParsing/">Batch Parsing</a></li>
+          
+            <li><a href="/docs/tools/LogonModeling/">Modeling</a></li>
+          
+            <li><a href="/docs/tools/LogonOnline/">Online</a></li>
+          
+            <li><a href="/docs/tools/LogonTransfer/">Transfer</a></li>
+          
+            <li><a href="/docs/tools/LogonVpm/">Variable Property Mapping</a></li>
+          
+            <li><a href="/docs/tools/NoJa/">Setting up New Languages</a></li>
+          
+            <li><a href="/docs/tools/LogonIdiosyncrasies/">Idiosyncrasies</a></li>
+          
+            <li><a href="/docs/tools/LogonWishlist/">Wishlist</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammar Tips</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/GrammarPerformance/">Grammar Performance</a></li>
+          
+            <li><a href="/docs/tools/VersionControlForGrammarDevelopment/">Grammar Version Control</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Treebanking</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/TreebankingTop/">Overview</a></li>
+          
+            <li><a href="/docs/tools/FftbTop/">Full Forest Treebanker (FFTB)</a></li>
+          
+            <li><a href="/docs/tools/FftbWishlist/">Full Forest Treebanker Wishlist</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking/">[incr tsdb()] Treebanking</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking_ItsdbAnnotation/">[incr tsdb()] Treebanking Annotation</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking_ItsdbUpdating/">[incr tsdb()] Treebanking Updating</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking_ItsdbExporting/">[incr tsdb()] Treebanking Exporting</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking_ItsdbModeling/">[incr tsdb()] Treebanking Modeling</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking_ItsdbUpdating/">[incr tsdb()] Treebanking Updating</a></li>
+          
+            <li><a href="/docs/tools/ItsdbCustomization/">[incr tsdb()] Treebanking Customization</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking_ItsdbModeling/">[incr tsdb()] Treebanking Modeling</a></li>
+          
+            <li><a href="/docs/tools/IndraTreebanking/">Indra</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Formats</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/DelphinRFCs/">Delphin RFCs</a></li>
+          
+            <li><a href="/docs/tools/PredicateRfc/">Predicate RFC</a></li>
+          
+            <li><a href="/docs/tools/MrsRFC/">MRS Format RFC</a></li>
+          
+            <li><a href="/docs/tools/MrsIsomorphism/">MRS Isomorphism</a></li>
+          
+            <li><a href="/docs/tools/EdsTop/">EDS Format</a></li>
+          
+            <li><a href="/docs/tools/EdsConversion/">EDS Conversion</a></li>
+          
+            <li><a href="/docs/tools/EdsGeneration/">EDS Generation</a></li>
+          
+            <li><a href="/docs/tools/SemiRfc/">SEM-I RFC</a></li>
+          
+            <li><a href="/docs/tools/TdlRFC/" class="active">TDL RFC</a></li>
+          
+            <li><a href="/docs/tools/TsqlRfc/">TSQL RFC</a></li>
+          
+            <li><a href="/docs/tools/GrammarVersionRfc/">Grammar Version RFC</a></li>
+          
+            <li><a href="/docs/tools/GrammarConfigurationRfc/">Grammar Configuration RFC</a></li>
+          
+            <li><a href="/docs/tools/TsdbSchemaRfc/">TSDB Schema RFC</a></li>
+          
+            <li><a href="/docs/tools/MatrixChoicesRfc/">Matrix Choices RFC</a></li>
+          
+            <li><a href="/docs/tools/RmrsTop/">(R)MRS Overview</a></li>
+          
+            <li><a href="/docs/tools/RmrsWellformedness/">(R)MRS Wellformedness</a></li>
+          
+            <li><a href="/docs/tools/RmrsPos/">(R)MRS Predicate Naming</a></li>
+          
+            <li><a href="/docs/tools/RmrsSpan/">(R)MRS Span</a></li>
+          
+            <li><a href="/docs/tools/RmrsDesign/">(R)MRS Design</a></li>
+          
+            <li><a href="/docs/tools/RmrsParaphrasing/">(R)MRS Paraphrasing</a></li>
+          
+            <li><a href="/docs/tools/RmrsModel/">(R)MRS Model</a></li>
+          
+            <li><a href="/docs/tools/RmrsDistributional/">(R)MRS Distributional</a></li>
+          
+            <li><a href="/docs/tools/RmrsSemi/">(R)MRS Semi</a></li>
+          
+            <li><a href="/docs/tools/RmrsDmrs/">(R)MRS Dmrs</a></li>
+          
+            <li><a href="/docs/tools/RmrsFaq/">(R)MRS Faq</a></li>
+          
+            <li><a href="/docs/tools/RmrsDiscussions/">(R)MRS Discussions</a></li>
+          
+            <li><a href="/docs/tools/TransferRules/">Transfer Rules</a></li>
+          
+            <li><a href="/docs/tools/FormatSpecifications/">Format Specifications</a></li>
+          
+            <li><a href="/docs/tools/ErgGml/">Grammar Markup Language</a></li>
+          
+            <li><a href="/docs/tools/SmafTop/">SMAF</a></li>
+          
+            <li><a href="/docs/tools/SmafLkb/">SMAF in LKB</a></li>
+          
+            <li><a href="/docs/tools/SmafPet/">SMAF in PET</a></li>
+          
+            <li><a href="/docs/tools/SmafSample/">SMAF Sample</a></li>
+          
+            <li><a href="/docs/tools/SmafDtd/">SMAF DTD</a></li>
+          
+            <li><a href="/docs/tools/SafTop/">SAF Overview</a></li>
+          
+            <li><a href="/docs/tools/SafDtd/">SAF DTD</a></li>
+          
+            <li><a href="/docs/tools/IconsSpecs/">Icons Specs</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <p>Type Description Language and other aspects of DELPH-IN Joint Reference Formalism</p>
+
+<p>Contents</p>
+
+<ol>
+  <li><a href="https://delph-in.github.io/docs/tools/TdlRFC">TDL File Syntax</a></li>
+  <li><a href="https://delph-in.github.io/docs/tools/TdlRFC">TDL File Interpretation and Conventions</a>
+    <ol>
+      <li><a href="https://delph-in.github.io/docs/tools/TdlRFC">Layout of a type definition</a></li>
+      <li><a href="https://delph-in.github.io/docs/tools/TdlRFC">Types versus instances</a></li>
+      <li><a href="https://delph-in.github.io/docs/tools/TdlRFC">Type addenda (:+)</a></li>
+      <li><a href="https://delph-in.github.io/docs/tools/TdlRFC">Specifying the text encoding</a></li>
+      <li><a href="https://delph-in.github.io/docs/tools/TdlRFC">Feature interpretation of lists</a></li>
+      <li><a href="https://delph-in.github.io/docs/tools/TdlRFC">Type documentation</a></li>
+      <li><a href="https://delph-in.github.io/docs/tools/TdlRFC">Comments</a></li>
+      <li><a href="https://delph-in.github.io/docs/tools/TdlRFC">Case sensitivity</a></li>
+    </ol>
+  </li>
+  <li><a href="https://delph-in.github.io/docs/tools/TdlRFC">Deprecated TDL Features</a>
+    <ol>
+      <li><a href="https://delph-in.github.io/docs/tools/TdlRFC">Subtyping Operator (:&lt;)</a></li>
+      <li><a href="https://delph-in.github.io/docs/tools/TdlRFC">Single-quoted Symbols (‘symbol)</a></li>
+    </ol>
+  </li>
+  <li><a href="https://delph-in.github.io/docs/tools/TdlRFC">Open Questions</a></li>
+  <li><a href="https://delph-in.github.io/docs/tools/TdlRFC">Discussions</a></li>
+</ol>
+
+<h2 id="tdl-file-syntax">TDL File Syntax</h2>
+<p>The following describes the TDL language in <a href="https://lark-parser.readthedocs.io/en/latest/index.html">Lark</a> <a href="https://en.wikipedia.org/wiki/Extended_Backus–Naur_form">EBNF</a>
+syntax. Productions are separated into thematic sections. ALL-CAPS rule names are for non-content terminals, which appear
+at the bottom of the description.</p>
+
+<p>Note that in Lark, forward-slash delimiters <code class="language-plaintext highlighter-rouge">/[Mm]atch me/</code> are used to designate regular expressions, and are not
+themselves part of the matched text.</p>
+
+<pre><code class="language-lark">// File Contents
+//
+// Note: The LKB does not parse environments (:begin ... :end), nor does it
+//       support :include statements, so the following are only applicable for
+//       PET, ACE, and agree.
+
+tdl_file      : ( environment | statement | SPACING )* EOF
+environment   : BEGIN TYPE DOT type_env END TYPE DOT
+              | BEGIN INSTANCE status? DOT instance_env END INSTANCE DOT
+type_env      : ( environment | statement
+                | type_def | type_addendum | SPACING )*
+instance_env  : ( environment | statement
+                | instance_def | letterset | wildcard | SPACING )*
+status        : STATUS ( "generic-lex-entry"
+                       | "lex-entry"
+                       | "lexical-filtering-rule"
+                       | "lex-rule"
+                       | "post-generation-mapping-rule"
+                       | "rule"
+                       | "token-mapping-rule" ) SPACING
+
+// Note: The LKB has several Lisp functions which open files in specified
+//       environments, so the following are parsing targets for those
+//       functions.
+
+tdl_type_file : ( type_def | type_addendum | SPACING )* EOF
+tdl_rule_file : ( instance_def | letterset | wildcard | SPACING )* EOF
+
+// Note: Krieger &amp; Schaeffer 1994 define a large number of statements, but
+//       DELPH-IN grammars appear to only use :include.
+// Note: :include's string argument is a path relative to the current file's
+//       directory. If the filename extension is not given, the default ".tdl"
+//       extension is used. The file is opened in the same environment as the
+//       :include statements (e.g., :include in a type environment opens the
+//       file and parses it as type_env)
+
+statement     : include
+include       : INCLUDE filename DOT
+filename      : DQSTRING
+
+// Types and Instances
+//
+// Note: Instances may be syntactically identical to type definitions, but they
+//       do not affect the type hierarchy. They may also be lexical rule
+//       definitions that include an affixing pattern to a definition.
+
+type_def      : type_name DEFOP type_def_body DOT
+type_addendum : type_name ADDOP addendum_body DOT
+type_name     : IDENTIFIER SPACING
+
+instance_def  : type_def | lex_rule_def
+lex_rule_def  : lex_rule_id DEFOP affix? type_def_body DOT
+lex_rule_id   : IDENTIFIER SPACING
+
+// Identifiers are used in several patterns
+//
+// Note: The characters disallowed in identifiers are chosen to avoid ambiguity
+//       with other parts of the TDL syntax.
+
+IDENTIFIER    : /[^\s!"#$%&amp;'(),.\/:;&lt;=&gt;[\]^|]+/
+
+// Definition Bodies (top-level conjunctions of terms)
+//
+// Note: Definition bodies are most simply conjunctions, but several
+//       variations require special productions:
+//
+//       (1) """Docstrings""" may precede any top-level term or the final DOT
+//       (2) type_def and lex_rule_def require at least one type_name
+//       (3) type_addendum may use a DOCSTRING in place of a conjunction
+
+type_def_body : typed_conj DOCSTRING?
+addendum_body : doc_conj DOCSTRING? | DOCSTRING
+
+// Note: To accommodate type_def_body and addendum_body, three special
+//       conjunctions are added:
+//
+//       (1) typed_conj has an obligatory type_name term
+//       (2) feature_conj excludes type terms (including strings, etc.)
+//       (3) doc_conj is a regular conjunction with optional DOCSTRINGs
+//
+//       Note that feature_conj is only necessary to reduce ambiguity (e.g.,
+//       for LALR parsing); if ambiguity is allowed, doc_conj may be used.
+
+typed_conj    : ( feature_conj AND )? DOCSTRING? type_name ( AND doc_conj )?
+feature_conj  : DOCSTRING? feature_term ( AND DOCSTRING? feature_term )*
+doc_conj      : DOCSTRING? term ( AND DOCSTRING? term )*
+
+// Note: The DOCSTRING pattern may span multiple lines
+
+DOCSTRING     : /"""([^"\\]|\\.|"(?!")|""(?!"))*"""/ SPACING
+
+// Terms and Conjunctions
+
+conjunction   : term ( AND term )*
+term          : type_term | feature_term | coreference
+type_term     : type_name
+              | DQSTRING
+              | REGEX
+feature_term  : avm
+              | diff_list
+              | cons_list
+
+DQSTRING      : ( /""(?!")/ | /"([^"\\]|\\.)+"/ ) SPACING
+REGEX         : "^" /([^$\\]|\\.)*/ "$" SPACING
+
+avm           : AVMOPEN attr_vals? AVMCLOSE
+attr_vals     : attr_val ( COMMA attr_val )*
+attr_val      : attr_path SPACE conjunction
+attr_path     : ATTRIBUTE ( DOT ATTRIBUTE )*
+ATTRIBUTE     : IDENTIFIER SPACING
+
+diff_list     : DLOPEN conjunctions? DLCLOSE
+cons_list     : CLOPEN ( conjunctions cons_end? )? CLCLOSE
+cons_end      : COMMA ELLIPSIS | DOT conjunction
+conjunctions  : conjunction ( COMMA conjunction )*
+
+coreference   : "#" IDENTIFIER SPACING
+
+// Letter-sets, Wild-cards, and Affixes
+//
+// Note: spacing is sensitive within these patterns, so many non-content
+//       terminals are used directly with an explicit SPACE instead of in
+//       a production with SPACING.
+
+letterset     : "%(letter-set" SPACE? letterset_def SPACE? ")"
+wildcard      : "%(wild-card" SPACE? wildcard_def SPACE? ")"
+letterset_def : "(" LETTERSETVAR SPACE CHARACTERS ")"
+wildcard_def  : "(" WILDCARDVAR SPACE CHARACTERS ")"
+LETTERSETVAR  : /![^ ]/
+WILDCARDVAR   : /\?[^ ]/
+CHARACTERS    : /([^)\\]|\\.)+/
+
+// Note: When a LETTERSETVAR is used in an affix_match, the same LETTERSETVAR
+//       in the affix_sub copies the matched character, in order, so there
+//       should be the same number of LETTERSETVARs in both, but this is not
+//       captured in the syntax.
+
+affix         : affix_class affix_pattern+ SPACING
+affix_class   : "%prefix" | "%suffix"
+affix_pattern : SPACE? "(" affix_match SPACE affix_sub ")"
+affix_match   : NULLCHAR | char_list
+affix_sub     : char_list
+NULLCHAR      : "*"
+char_list     : ( LETTERSETVAR | WILDCARDVAR | AFFIXCHAR )+
+AFFIXCHAR     : /([^!?\s*\\]|\\[^ ])+/
+
+// Whitespace and Comments
+//
+// Note: SPACE and BlockComment may span multiple lines. Also, while block
+//       comments in Lisp may be nested (`#| outer #| inner |# outer |#`),
+//       support for nested comments in TDL is mixed (ACE supports it, the
+//       LKB does not), so this definition does not nest.
+
+SPACING       : SPACE? COMMENT*
+SPACE         : /\s+/
+COMMENT       : ( LINECOMMENT | BLOCKCOMMENT ) SPACE?
+LINECOMMENT   : /;.*$/
+BLOCKCOMMENT  : "#|" /([^|\\]|\\.|\|(?!#))*/ "|#"
+
+// Non-content Terminals
+
+BEGIN         : ":begin" SPACING
+TYPE          : ":type" SPACING
+INSTANCE      : ":instance" SPACING
+STATUS        : ":status" SPACING
+INCLUDE       : ":include" SPACING
+END           : ":end" SPACING
+DEFOP         : ":=" SPACING
+ADDOP         : ":+" SPACING
+DOT           : "." SPACING
+AND           : "&amp;" SPACING
+COMMA         : "," SPACING
+AVMOPEN       : "[" SPACING
+AVMCLOSE      : "]" SPACING
+DLOPEN        : "&lt;!" SPACING
+DLCLOSE       : "!&gt;" SPACING
+CLOPEN        : "&lt;" SPACING
+CLCLOSE       : "&gt;" SPACING
+ELLIPSIS      : "..." SPACING
+EOF           : ""  // end-of-file
+</code></pre>
+
+<h2 id="tdl-file-interpretation-and-conventions">TDL File Interpretation and Conventions</h2>
+
+<h3 id="layout-of-a-type-definition">Layout of a type definition</h3>
+
+<p>Some parts of a type definition are mandated by TDL syntax, such as the
+initial identifier, the main operator, and the final dot:</p>
+
+<div class="language-scheme highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">identifier</span> <span class="nv">:=</span> <span class="p">(</span><span class="nf">definition</span> <span class="nv">body</span><span class="p">)</span> <span class="o">.</span>
+</code></pre></div></div>
+
+<p>The definition body is just a conjunction of terms, maybe with
+documentation strings, and there is much valid variation in how those
+terms are arranged. Nevertheless, there are conventional locations for
+these terms depending on what kind of term they are. For instance, the
+supertypes are generally listed first, followed by an AVM:</p>
+
+<div class="language-scheme highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">head_only</span> <span class="nv">:=</span> <span class="nv">unary_phrase</span> <span class="nv">&amp;</span> <span class="nv">headed_phrase</span> <span class="nv">&amp;</span>
+  <span class="p">[</span> <span class="nv">HD-DTR</span> <span class="o">#</span><span class="nv">head</span> <span class="nv">&amp;</span> <span class="p">[</span> <span class="nv">SYNSEM</span><span class="o">.</span><span class="nv">LOCAL</span><span class="o">.</span><span class="nv">CONJ</span> <span class="nv">cnil</span> <span class="p">]</span><span class="o">,</span>
+    <span class="nv">ARGS</span> <span class="nv">&lt;</span> <span class="o">#</span><span class="nv">head</span> <span class="nv">&gt;</span> <span class="p">]</span><span class="o">.</span>
+</code></pre></div></div>
+
+<p>If a documentation string is specified, the conventional place is before
+the AVM:</p>
+
+<div class="language-scheme highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">n_-_ad-pl_le</span> <span class="nv">:=</span> <span class="nv">norm_np_adv_lexent</span> <span class="nv">&amp;</span>
+<span class="s">"""
+&lt;description&gt;N, can modify, locative (place)
+&lt;ex&gt;B lives overseas.
+&lt;nex&gt;
+&lt;todo&gt;
+"""</span>
+  <span class="p">[</span> <span class="nv">SYNSEM</span><span class="o">.</span><span class="nv">LOCAL</span> <span class="p">[</span> <span class="nv">CAT</span><span class="o">.</span><span class="nv">HEAD</span> <span class="p">[</span> <span class="nv">MINORS</span><span class="o">.</span><span class="nv">MIN</span> <span class="nv">place_n_rel,</span>
+                              <span class="nv">CASE</span> <span class="nv">obliq</span> <span class="p">]</span><span class="o">,</span>
+                   <span class="nv">CONT</span><span class="o">.</span><span class="nv">HOOK</span><span class="o">.</span><span class="nv">INDEX</span><span class="o">.</span><span class="nv">SORT</span> <span class="nv">place</span> <span class="p">]</span> <span class="p">]</span><span class="o">.</span>
+</code></pre></div></div>
+
+<p>Or if there is no AVM, before the final dot:</p>
+
+<div class="language-scheme highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">info-str</span> <span class="nv">:=</span> <span class="nv">icons</span>
+  <span class="s">"""Type for underspecified or "</span><span class="nv">neutral</span><span class="s">" information structure."""</span><span class="o">.</span>
+</code></pre></div></div>
+
+<h3 id="types-versus-instances">Types versus instances</h3>
+
+<p>Are <strike>instances</strike> entries distinguishable from types? Are they (or other
+entities) restricted to having exactly one supertype?</p>
+
+<p>There is a detailed discussion of this in §4.4.5 of “Implementing Typed Feature
+Strucutre Grammars” (Copestake 2002, p.106; also footnote 18 on p.37). Grammar “entries”
+are not present as types in the computed type hierarchy. The reason for the “one supertype”
+recommendation is that if there is no such single type, then the authored rule is <em>a priori</em>
+invalid due to unification failure. Having said this, the suggested implementation is that an
+entry description <em>shall</em> be allowed to specify multiple conjoined parent types, and the
+entry will be accepted if and only if those types successfully unify when the grammar is
+loaded.</p>
+
+<h3 id="type-addenda-">Type addenda (<code class="language-plaintext highlighter-rouge">:+</code>)</h3>
+
+<p>A single type definition can be split across multiple TDL files by using the type addendum <code class="language-plaintext highlighter-rouge">:+</code> operator. The final
+type definition includes the union of all the gathered TDL. For the identifiers and constraint AVMs, this implies
+unification, so any duplication amongst disparate parts is vacuous and any conflicts are resolved by unification.
+DocStrings and other metadata should be merged (concatenated) under <code class="language-plaintext highlighter-rouge">:+</code>.</p>
+
+<p>Note that <code class="language-plaintext highlighter-rouge">:+</code> may only be used with types, and not grammar entries (“instances”). This is by spec only,
+and thus could accordingly be changed. Since the usage is unexplored by known grammars, the behavior
+across lkb/ace/pet/agree may differ here.</p>
+
+<h3 id="specifying-the-text-encoding">Specifying the text encoding</h3>
+
+<p>The text encoding of TDL files can be specified using a special comment
+on the first line of the file, as is done with many scripting languages.
+For instance, the following sets the encoding to UTF-8:</p>
+
+<div class="language-scheme highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">; -*- coding: utf-8 -*-</span>
+</code></pre></div></div>
+
+<p>In some TDL files, attributes specific to the
+<a href="https://www.gnu.org/software/emacs/">Emacs</a> text editor may be
+included:</p>
+
+<div class="language-scheme highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">;;; -*- Mode: tdl; Coding: utf-8; indent-tabs-mode: nil; -*-</span>
+</code></pre></div></div>
+
+<h3 id="feature-interpretation-of-lists">Feature interpretation of lists</h3>
+
+<p>The <code class="language-plaintext highlighter-rouge">&lt; ... &gt;</code> and <code class="language-plaintext highlighter-rouge">&lt;! ... !&gt;</code> shorthand for lists (“cons lists”)
+and diff-lists, respectively, correspond to normal attribute-value
+pairs. The implementation relies on an encoding scheme where the first
+list item (the list’s head) is at the feature FIRST while the rest of
+the list (the tail) is defined recursively under the feature REST (e.g.,
+REST.REST.FIRST is the third element). The types associated with open
+and closed lists, and sometimes even the feature names, are configurable
+by the grammar.</p>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>entity</strong></td>
+      <td><strong>example</strong></td>
+      <td><strong>LKB config</strong></td>
+      <td><strong>ACE config</strong></td>
+    </tr>
+    <tr>
+      <td>cons-list type</td>
+      <td>*cons*</td>
+      <td>(not configurable)</td>
+      <td>cons-type</td>
+    </tr>
+    <tr>
+      <td>open list type</td>
+      <td>*list*</td>
+      <td>*list-type*</td>
+      <td>list-type</td>
+    </tr>
+    <tr>
+      <td>closed list type</td>
+      <td>*null*</td>
+      <td>*empty-list-type*</td>
+      <td>null-type</td>
+    </tr>
+    <tr>
+      <td>diff-list type</td>
+      <td>*diff-list*</td>
+      <td>*diff-list-type*</td>
+      <td>diff-list-type</td>
+    </tr>
+    <tr>
+      <td>list head feature</td>
+      <td>FIRST</td>
+      <td>*list-head*</td>
+      <td>(not configurable)</td>
+    </tr>
+    <tr>
+      <td>list tail feature</td>
+      <td>REST</td>
+      <td>*list-tail*</td>
+      <td>(not configurable)</td>
+    </tr>
+    <tr>
+      <td>diff-list list feature</td>
+      <td>LIST</td>
+      <td>*diff-list-list*</td>
+      <td>(not configurable)</td>
+    </tr>
+    <tr>
+      <td>diff-list last feature</td>
+      <td>LAST</td>
+      <td>*diff-list-last*</td>
+      <td>(not configurable)</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>For the examples below, I use the values defined in the above table,
+which are taken from the ERG.</p>
+
+<h4 id="cons-lists">Cons Lists</h4>
+
+<p>Regular cons lists may be open (extendable) or closed (fixed-length).
+The type of an open list as interpreted by, e.g., <code class="language-plaintext highlighter-rouge">&lt; ... &gt;</code>, is
+*list* (rather, the defined open list type), but in hand-written TDL a
+subtype of *list* is often used, such as *cons*.</p>
+
+<div class="language-scheme highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">; an empty list is terminated (always empty)</span>
+<span class="p">[</span> <span class="nv">ATTR</span> <span class="nv">&lt;</span> <span class="nv">&gt;</span> <span class="p">]</span>             <span class="nv">=&gt;</span>  <span class="p">[</span> <span class="nv">ATTR</span> <span class="nv">*null*</span> <span class="p">]</span>
+<span class="c1">; single item goes on FIRST attribute and REST is terminated</span>
+<span class="p">[</span> <span class="nv">ATTR</span> <span class="nv">&lt;</span> <span class="nv">a</span> <span class="nv">&gt;</span> <span class="p">]</span>           <span class="nv">=&gt;</span>  <span class="p">[</span> <span class="nv">ATTR</span> <span class="nv">*list*</span> <span class="nv">&amp;</span> <span class="p">[</span> <span class="nv">FIRST</span> <span class="nv">a,</span>
+                                               <span class="nv">REST</span> <span class="nv">*null*</span> <span class="p">]</span> <span class="p">]</span>
+<span class="c1">; items after the first go on (REST.)+FIRST</span>
+<span class="p">[</span> <span class="nv">ATTR</span> <span class="nv">&lt;</span> <span class="nv">a,</span> <span class="nv">b</span> <span class="nv">&gt;</span> <span class="p">]</span>        <span class="nv">=&gt;</span>  <span class="p">[</span> <span class="nv">ATTR</span> <span class="nv">*list*</span> <span class="nv">&amp;</span> <span class="p">[</span> <span class="nv">FIRST</span> <span class="nv">a,</span>
+                                               <span class="nv">REST</span> <span class="p">[</span> <span class="nv">FIRST</span> <span class="nv">b,</span>
+                                                      <span class="nv">REST</span> <span class="nv">*null*</span> <span class="p">]</span> <span class="p">]</span> <span class="p">]</span>
+<span class="c1">; an empty list with ... is not terminated</span>
+<span class="p">[</span> <span class="nv">ATTR</span> <span class="nv">&lt;</span> <span class="o">...</span> <span class="nv">&gt;</span> <span class="p">]</span>         <span class="nv">=&gt;</span>  <span class="p">[</span> <span class="nv">ATTR</span> <span class="nv">*list*</span> <span class="p">]</span>
+<span class="c1">; this also works with items on the list</span>
+<span class="p">[</span> <span class="nv">ATTR</span> <span class="nv">&lt;</span> <span class="nv">a,</span> <span class="o">...</span> <span class="nv">&gt;</span> <span class="p">]</span>      <span class="nv">=&gt;</span>  <span class="p">[</span> <span class="nv">ATTR</span> <span class="nv">*list*</span> <span class="nv">&amp;</span> <span class="p">[</span> <span class="nv">FIRST</span> <span class="nv">a,</span>
+                                               <span class="nv">REST</span> <span class="nv">*list*</span> <span class="p">]</span> <span class="p">]</span>
+<span class="c1">; the . delimiter allows a non-*list*, non-*null* value for the last REST</span>
+<span class="p">[</span> <span class="nv">ATTR</span> <span class="nv">&lt;</span> <span class="nv">a</span> <span class="o">.</span> <span class="o">#</span><span class="nv">coref</span> <span class="nv">&gt;</span> <span class="p">]</span>  <span class="nv">=&gt;</span>  <span class="p">[</span> <span class="nv">ATTR</span> <span class="nv">*list*</span> <span class="nv">&amp;</span> <span class="p">[</span> <span class="nv">FIRST</span> <span class="nv">a,</span>
+                                               <span class="nv">REST</span> <span class="o">#</span><span class="nv">coref</span> <span class="p">]</span> <span class="p">]</span>
+</code></pre></div></div>
+
+<h4 id="diff-lists">Diff Lists</h4>
+
+<p>Diff lists are regular lists under a LIST attribute, and LAST points to
+the last item. Diff lists don’t support the unterminated-list
+functionality of cons lists, but they allow for appending lists of
+arbitrary size (see [[GeFaqDiffList]]).</p>
+
+<div class="language-scheme highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">[</span> <span class="nv">ATTR</span> <span class="nv">&lt;!</span> <span class="nv">!&gt;</span> <span class="p">]</span>           <span class="nv">=&gt;</span>  <span class="p">[</span> <span class="nv">ATTR</span> <span class="nv">*diff-list*</span> <span class="nv">&amp;</span> <span class="p">[</span> <span class="nv">LIST</span> <span class="o">#</span><span class="nv">coref,</span>
+                                                    <span class="nv">LAST</span> <span class="o">#</span><span class="nv">coref</span> <span class="p">]</span> <span class="p">]</span>
+
+<span class="p">[</span> <span class="nv">ATTR</span> <span class="nv">&lt;!</span> <span class="nv">a</span> <span class="nv">!&gt;</span> <span class="p">]</span>         <span class="nv">=&gt;</span>  <span class="p">[</span> <span class="nv">ATTR</span> <span class="nv">*diff-list*</span> <span class="nv">&amp;</span> <span class="p">[</span> <span class="nv">LIST</span> <span class="nv">*list*</span> <span class="nv">&amp;</span> <span class="p">[</span> <span class="nv">FIRST</span> <span class="nv">a,</span>
+                                                                    <span class="nv">REST</span> <span class="o">#</span><span class="nv">coref</span> <span class="p">]</span><span class="o">,</span>
+                                                    <span class="nv">LAST</span> <span class="o">#</span><span class="nv">coref</span> <span class="p">]</span> <span class="p">]</span>
+</code></pre></div></div>
+
+<h3 id="type-documentation">Type documentation</h3>
+
+<p>TDL definitions allow documentation strings (“docstrings”) before any
+term in the top-level conjunction or before the terminating dot (<code class="language-plaintext highlighter-rouge">.</code>)
+character:</p>
+
+<div class="language-scheme highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">n_-_c_le</span> <span class="nv">:=</span> <span class="nv">n_intr_lex_entry</span>
+<span class="s">"""Intransitive count noun (icn)
+&lt;ex&gt;The dog barked.
+&lt;nex&gt;Much dog bark."""</span><span class="o">.</span>
+</code></pre></div></div>
+
+<p>Multiple docstrings may be present on a single definition, but only the
+first one encountered on a definition is considered its primary
+docstring, and implementers are free to store or discard the other doc
+strings as they see fit. Docstrings on type-addenda should be
+concatenated with a newline to the previous docstring(s), or appended to
+a list of docstrings, associated with the type.</p>
+
+<p>In accordance with the BNF description above, an example maximal (<em>but not
+recommended</em>) use case for DocStrings would be as follows:</p>
+
+<div class="language-scheme highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">some_rule</span> <span class="nv">:=</span> <span class="s">"""ds1"""</span> <span class="nv">headed</span> <span class="nv">&amp;</span> <span class="s">"""ds2"""</span> <span class="nv">clause</span> <span class="nv">&amp;</span> <span class="s">"""ds3"""</span>
+  <span class="p">[</span> <span class="nv">SYNSEM</span> <span class="p">[</span> <span class="nv">LOCAL</span><span class="o">.</span><span class="nv">CAT</span><span class="o">.</span><span class="nv">MC</span> <span class="nv">+,</span>
+    <span class="nv">NONLOC</span> <span class="p">[</span> <span class="nv">SLASH</span> <span class="mi">0</span><span class="nv">-dlist,</span>
+             <span class="nv">QUE</span> <span class="mi">0</span><span class="nv">-dlist</span> <span class="p">]</span> <span class="p">]</span> <span class="p">]</span> <span class="s">"""ds4"""</span> <span class="o">.</span>
+</code></pre></div></div>
+
+<p>Of course, whitespace choices, such as the placement of DocStrings and
+other TDL elements inline, versus on new lines of their own, are free to
+vary.</p>
+
+<p>Before the DocString specification was established, some [[LTDB|LkbLtdb]] users
+deployed type documentation by a convention of structured text in a comment
+immediately preceding the documented type:</p>
+
+<div class="language-scheme highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">; &lt;type val="case-p-lex-np-to"&gt;</span>
+<span class="c1">; &lt;name-ja&gt;承名詞目的格助詞ト</span>
+<span class="c1">; &lt;description&gt;case-p-lex-np-wo を参照。この type は助詞「と」。</span>
+<span class="c1">; &lt;ex&gt;部長 と 会う</span>
+<span class="c1">; &lt;nex&gt;ゆっくり と 進む</span>
+<span class="c1">; &lt;todo&gt;</span>
+<span class="c1">; &lt;/type&gt;</span>
+<span class="nv">case-p-lex-np-to</span> <span class="nv">:=</span> <span class="nv">case-p-lex-np</span> <span class="nv">&amp;</span>
+  <span class="p">[</span><span class="nf">SYNSEM</span><span class="o">.</span><span class="nv">LOCAL</span><span class="o">.</span><span class="nv">CAT</span><span class="o">.</span><span class="nv">HEAD</span><span class="o">.</span><span class="nv">CASE</span> <span class="nv">to</span><span class="p">]</span><span class="o">.</span>
+</code></pre></div></div>
+
+<h3 id="comments">Comments</h3>
+
+<p>The syntax description above allows for block comments anywhere that
+separating whitespace is allowed (not including those within strings,
+regular expressions, letter sets, etc.). This includes within a dotted
+attribute path (e.g.,
+<code class="language-plaintext highlighter-rouge">[ SYNSEM #| comment |# . #| comment |# LOCAL ... ]</code>), although
+grammar developers may want to use this flexibility sparingly.</p>
+
+<p>This is as opposed to <code class="language-plaintext highlighter-rouge">;</code>-style comments, since the latter are inherently
+associated with exactly one line of TDL.</p>
+
+<h3 id="case-sensitivity">Case sensitivity</h3>
+
+<h4 id="case-sensitive">Case Sensitive</h4>
+
+<ul>
+  <li>Things inside quotes (NB: strings passed from TFS world into MRS can
+be treated as case insensitive in MRS processing (i.e. as predicate
+symbols, but not CARGs)</li>
+</ul>
+
+<h4 id="case-insensitive">Case Insensitive</h4>
+
+<ul>
+  <li>Everything in TDL not inside of quotes.</li>
+  <li>Lexicon look-up.
+    <ul>
+      <li>Proper names?</li>
+      <li>Acronyms?</li>
+    </ul>
+  </li>
+  <li>.. approach these with token-mapping (preserve the info, and then
+downcase anyway)</li>
+</ul>
+
+<h4 id="unknown">Unknown</h4>
+
+<ul>
+  <li>Orthographic subrules (agree: case sensitive, ACE: [intended] case
+insensitive)</li>
+</ul>
+
+<p>Notes: Arguments for case insensitive include shouting (call caps);
+Arguments for case sensitive include the use of upper case vowels in
+vowel harmony languages (linguistic representations, not orthography)</p>
+
+<h2 id="deprecated-tdl-features">Deprecated TDL Features</h2>
+
+<p>The following are deprecated features of DELPH-IN TDL. They are no
+longer considered part of the format, but implementers of TDL parsers
+may want to include them for backward compatibility. If so, they are
+encouraged to print warnings upon encountering the deprecated forms so
+grammar developers know to change them.</p>
+
+<h3 id="subtyping-operator-">Subtyping Operator (<code class="language-plaintext highlighter-rouge">:&lt;</code>)</h3>
+
+<p>The <code class="language-plaintext highlighter-rouge">:&lt;</code> operator was originally used only for declaring a type’s
+position in the type hierarchy (i.e., features could not be specified,
+unlike with <code class="language-plaintext highlighter-rouge">:=</code>), but eventually this constraint was relaxed and it
+became equivalent to <code class="language-plaintext highlighter-rouge">:=</code>. As of Autumn 2018, the form has been removed
+and is no longer considered part of DELPH-IN TDL, but the change to TDL
+syntax to support the operator is minimal:</p>
+
+<pre><code class="language-lark">DEFOP         : ( ":=" | ":&lt;" ) SPACING
+</code></pre>
+
+<h3 id="single-quoted-symbols-symbol">Single-quoted Symbols (<code class="language-plaintext highlighter-rouge">'symbol</code>)</h3>
+
+<p>Double-quoted strings and identifiers are both type names, but there
+used to be Lisp-like single-quoted symbols as well. These still exist in
+some grammars, such as those using an old version of
+[[matrix.tdl|MatrixTop]], which has the following:</p>
+
+<div class="language-scheme highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">implicit-coord-rel</span> <span class="nv">:=</span> <span class="nv">coordination-relation</span> <span class="nv">&amp;</span>
+  <span class="p">[</span> <span class="nv">PRED</span> <span class="ss">'implicit_coord_rel</span> <span class="p">]</span><span class="o">.</span>
+<span class="nv">null-coord-rel</span> <span class="nv">:=</span> <span class="nv">coordination-relation</span> <span class="nv">&amp;</span>
+  <span class="p">[</span> <span class="nv">PRED</span> <span class="ss">'null_coord_rel</span> <span class="p">]</span><span class="o">.</span>
+</code></pre></div></div>
+
+<p>There is no difference between using quoted symbols and regular strings
+or identifiers (although identifiers would need to be defined as types
+somewhere), so recent versions of matrix.tdl have this instead:</p>
+
+<div class="language-scheme highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">implicit-coord-rel</span> <span class="nv">:=</span> <span class="nv">coordination-relation</span> <span class="nv">&amp;</span>
+  <span class="p">[</span> <span class="nv">PRED</span> <span class="s">"implicit_coord_rel"</span> <span class="p">]</span><span class="o">.</span>
+<span class="nv">null-coord-rel</span> <span class="nv">:=</span> <span class="nv">coordination-relation</span> <span class="nv">&amp;</span>
+  <span class="p">[</span> <span class="nv">PRED</span> <span class="s">"null_coord_rel"</span> <span class="p">]</span><span class="o">.</span>
+</code></pre></div></div>
+
+<p>The change to the syntax to support quoted symbols is as follows:</p>
+
+<pre><code class="language-lark">type_term     : type_name
+              | DQSTRING
+              | REGEX
+              | QSYMBOL
+QSYMBOL       : "'" IDENTIFIER SPACING
+</code></pre>
+
+<h2 id="open-questions">Open Questions</h2>
+
+<ol>
+  <li>The <code class="language-plaintext highlighter-rouge">^</code> character is used to signal “expanded-syntax” in the LKB, but
+is this only used for regular expressions? Are there other expanded
+syntaxes? Do non-LKB processors support them? (see <a href="http://lists.delph-in.net/archives/developers/2009/thread.html#1082">this
+thread</a>
+on the ‘developers’ mailing list)</li>
+  <li>
+    <p>Can we use ‘status’ to identify roots and labels (parsenodes)?
+Something like</p>
+
+    <div class="language-scheme highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="c1">;;</span>
+<span class="c1">;; parse-tree labels (instances)</span>
+<span class="c1">;;</span>
+   
+<span class="nv">:begin</span> <span class="nv">:instance</span> <span class="nv">:status</span> <span class="nv">label</span><span class="o">.</span>
+<span class="nv">:include</span> <span class="s">"parse-nodes"</span><span class="o">.</span>
+<span class="nv">:end</span> <span class="nv">:instance</span><span class="o">.</span>
+   
+<span class="c1">;;</span>
+<span class="c1">;; start symbols of the grammar (instances)</span>
+<span class="c1">;;</span>
+   
+<span class="nv">:begin</span> <span class="nv">:instance</span><span class="o">.</span> <span class="nv">:status</span> <span class="nv">root</span><span class="o">.</span>
+<span class="nv">:include</span> <span class="s">"roots"</span><span class="o">.</span>
+<span class="nv">:include</span> <span class="s">"educ/roots-educ"</span><span class="o">.</span>
+<span class="nv">:end</span> <span class="nv">:instance</span><span class="o">.</span>
+</code></pre></div>    </div>
+  </li>
+</ol>
+
+<h2 id="discussions">Discussions</h2>
+
+<ul>
+  <li>[[ParisDefeasibleConstraints]]</li>
+  <li>[[StanfordDefaults]]</li>
+  <li><a href="http://www.delph-in.net/2017/append.pdf">(Diff)List Appends in TDL</a></li>
+  <li><a href="http://lists.delph-in.net/archives/developers/2006/000419.html">Mailing list discussion about docstrings
+(Feb 2006)</a></li>
+  <li><a href="http://lists.delph-in.net/archives/developers/2006/000550.html">Mailing list discussion about type addenda
+(Jul 2006)</a></li>
+  <li><a href="http://lists.delph-in.net/archives/developers/2007/000762.html">Mailing list discussion about docstrings
+(Mar 2007)</a></li>
+  <li><a href="http://lists.delph-in.net/archives/developers/2007/000868.html">Mailing list discussion about docstrings
+(Sep 2007)</a></li>
+  <li><a href="http://lists.delph-in.net/archives/developers/2008/001037.html">Mailing list discussion about the :+ and :&lt; operators
+(Nov 2008)</a></li>
+  <li><a href="http://lists.delph-in.net/archives/developers/2009/001082.html">Mailing list discussion about regular expressions in TDL
+(Jan 2009)</a></li>
+  <li><a href="http://lists.delph-in.net/archives/developers/2018/002754.html">Mailing list discussion about TDL syntax
+(Jul 2018)</a></li>
+  <li><a href="http://lists.delph-in.net/archives/developers/2018/002792.html">Mailing list discussion about docstrings
+(Aug 2018)</a></li>
+</ul>
+
+<p>Last update: 2022-08-07 by Glenn Slayden [<a href="https://github.com/delph-in/docs/wiki/TdlRFC/_edit">edit</a>]</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+<!--Scroll the navbar to the current page-->
+<script type="text/javascript">
+  let el = document.querySelector('.nav__list .active');
+  if(el){
+    el.scrollIntoView({block: "center", inline: "start"});
+  }
+</script>
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/docs/tools/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/docs/tools/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/docs/tools/assets/js/lunr/lunr.min.js"></script>
+<script src="/docs/tools/assets/js/lunr/lunr-store.js"></script>
+<script src="/docs/tools/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

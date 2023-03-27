@@ -1,0 +1,852 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>DELPH-IN Grammar Matrix</title>
+<meta name="description" content="An amazing website.">
+
+
+  <meta name="author" content="Your Name">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="DELPH-IN Grammar Matrix">
+<meta property="og:title" content="DELPH-IN Grammar Matrix">
+<meta property="og:url" content="https://delph-in.github.io/docs/matrix/GrammarEngineeringFAQ/">
+
+
+  <meta property="og:description" content="An amazing website.">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://delph-in.github.io/docs/matrix/GrammarEngineeringFAQ/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Your Name",
+      "url": "https://delph-in.github.io/docs/matrix/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/docs/matrix/feed.xml" type="application/atom+xml" rel="alternate" title="DELPH-IN Grammar Matrix Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/docs/matrix/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--delphin_page wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/docs/matrix/"><img src="/docs/matrix/assets/images/Delph-In.png" alt="DELPH-IN Grammar Matrix"></a>
+        
+        <a class="site-title" href="/docs/matrix/">
+          DELPH-IN Grammar Matrix
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/home/Home">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/howto/DelphinWelcome">How-To</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/erg/ErgTop">ERG</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/tools/ToolsTop">Tools</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/grammars/GrammarsOverview">Grammars</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/matrix/MatrixDocsOverview">Matrix</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/summits/SummitTop">Summits</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/garage/GarageTop">Garage</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammar Matrix Docs</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixDocsOverview/">Overview</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Overview and Tools</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixTop/">Overview</a></li>
+          
+            <li><a href="/docs/matrix/MatrixGettingStarted/">Getting Started</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDevTop/">Development Overview</a></li>
+          
+            <li><a href="/docs/matrix/Updating_the_Customization_System/">Customization System</a></li>
+          
+            <li><a href="/docs/matrix/MatrixCustomizationUnitTesting/">Customization Unit Testing</a></li>
+          
+            <li><a href="/docs/matrix/MatrixCustomizationWebTesting/">Customization Web Testing</a></li>
+          
+            <li><a href="/docs/matrix/MatrixRegressionTesting/">Regression Testing</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_TestSentences/">Test Sentences</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_TestByGeneration/">Test By Generation</a></li>
+          
+            <li><a href="/docs/matrix/MatrixWishList/">Wish List</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammar Engineering</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixDevBlueprints/">Dev Blueprints</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDevConventions/">Dev Conventions</a></li>
+          
+            <li><a href="/docs/matrix/GrammarDevelopment/">Grammar Development</a></li>
+          
+            <li><a href="/docs/matrix/MatrixLibraryDevelopment/">Library Development</a></li>
+          
+            <li><a href="/docs/matrix/MatrixLibraryWishList/">Library WishList</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMorphology/">Morphology</a></li>
+          
+            <li><a href="/docs/matrix/PythonIdioms/">Python Idioms</a></li>
+          
+            <li><a href="/docs/matrix/MatrixRegressionTestingSetup/">Regression Testing Setup</a></li>
+          
+            <li><a href="/docs/matrix/MatrixRegressionTestingSetupMac/">Regression Testing Setup (Mac)</a></li>
+          
+            <li><a href="/docs/matrix/MatrixTDBProcedures/">TDB Procedures</a></li>
+          
+            <li><a href="/docs/matrix/MatrixTDB2Tables/">TDB2 Tables</a></li>
+          
+            <li><a href="/docs/matrix/MatrixValidationDebugging/">Validation Debugging</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Matrix Doc</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixDocTop/">Overview</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_AdnominalPossession/">Adnominal Possession</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_ArgumentOptionality/">Argument Optionality</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Case/">Case</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_ClausalComplements/">Clausal Complements</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_ClausalModifiers/">Clausal Modifiers</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Coordination/">Coordination</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_DirectInverse/">Direct Inverse</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Evidentials/">Evidentials</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Gender/">Gender</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_GeneralInfo/">General Info</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_ImportToolboxLexicon/">Import Toolbox Lexicon</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_InformationStructure/">Information Structure</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Lexicon/">Lexicon</a></li>
+          
+            <li><a href="/docs/matrix/matrixdef_File_Syntax/">Matrixdef File Syntax</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Morphology/">Morphology</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_NominalizedClauses/">Nominalized Clauses</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Number/">Number</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_OtherFeatures/">Other Features</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_Person/">Person</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_SententialNegation/">Sentential Negation</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_TenseAspectMood/">Tense/Aspect/Mood</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_WhQuestions/">Wh Questions</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_WordOrder/">Word Order</a></li>
+          
+            <li><a href="/docs/matrix/MatrixDoc_YesNoQ/">YesNoQ</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">FAQ</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/GrammarEngineeringFAQ/" class="active">Grammar Engineering FAQ</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqFeatureGeometry/">Feature Geometry FAQ</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqChartTwice/">Chart Twice</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqCircularLexRule/">Circular Lex Rule</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqClickX/">Click X</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqConfusingTypo/">Confusing Typo</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqCyclicCheck/">Cyclic Check</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqDiffList/">Diff List</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqDisjunctiveValue/">Disjunctive Value</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqDistributedDisjunction/">Distributed Disjunction</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqExpandMenu/">Expand Menu</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqExpandedType/">Expanded Type</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqFeatureMultiType/">Feature Multi-Type</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqFindTypeForFeatures/">Find Type For Features</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqForgottenConstraint/">Forgotten Constraint</a></li>
+          
+            <li><a href="/docs/matrix/GeFaq/">GeFaq</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqGotoChar/">Goto Char</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqGrammarDocumentation/">Grammar Documentation</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqInteractiveUnify/">Interactive Unify</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqLkbInstallation/">LKB Installation</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqLispPromptTips/">Lisp Prompt Tips</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqLoadScript/">Load Script</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqKeyboardNotWorking/">Keyboard Not Working</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqMissingEdge/">Missing Edge</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqMissingHowTo/">Missing How-To</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqMissingRels/">Missing Rels</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNegValue/">Neg Value</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNewFeature/">New Feature</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoEntry2/">No Entry 2</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoError/">No Error</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoPossibleType/">No Possible Type</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoRule/">No Rule</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNoSign/">No Sign</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqNonAlpha/">Non-Alpha</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqOverApplicationLexRule/">Over Application Lex Rule</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqOrderMatters/">Order Matters</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqPasteShortcut/">Paste Shortcut</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRightBracket/">Right Bracket</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRootFail/">Root Fail</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRuleWithoutDaughter/">Rule Without Daughter</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRuleWithoutDaughters/">Rule Without Daughters</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRunawayRule1/">Runaway Rule 1</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqRunawayRule2/">Runaway Rule 2</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqShowChart/">Show Chart</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqSpanningEdge/">Spanning Edge</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqSwitchingGrammars/">Switching Grammars</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqTabIndentation/">Tab Indentation</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqTdlSyntax/">TDL Syntax</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqTdlTxt/">TDL TXT</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqTypeAddendum/">Type Addendum</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqUnicodeInput/">Unicode Input</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqUnifySurprise/">Unify Surprise</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqViewEntry/">View Entry</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqViewHierarchy/">View Hierarchy</a></li>
+          
+            <li><a href="/docs/matrix/GeFaqViewType/">View Type</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">MRS Tests</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuite/">Overview</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteBg/">Bulgarian</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteCantonese/">Cantonese</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsCatb/">Cathedral Test</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteEn/">English</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteFr/">French</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteDe/">German</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteGr/">Greek</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteIndonesian/">Indonesian</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteJa/">Japanese</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteMandarin/">Mandarin</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteNo/">Norwegian</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuitePt/">Portuguese</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteRu/">Russian</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteSv/">Swedish</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteTatoeba/">Tatoeba</a></li>
+          
+            <li><a href="/docs/matrix/MatrixMrsTestSuiteZhTw/">ZhTw</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <h1 id="grammar-engineering-with-lkb-and-the-lingo-grammar-matrix-frequently-asked-questions">Grammar Engineering with LKB and the LinGO Grammar Matrix: Frequently Asked Questions</h1>
+
+<p>This is a collection of frequently asked questions related to using the
+LKB and the Grammar Matrix for grammar engineering. Please help
+contribute or improve any questions and/or answers. Please prefix page
+names for answers with ‘<a href="https://delph-in.github.io/docs/matrix/GeFaq">GeFaq</a>’. See also the <a href="/GeGlossary">Grammar
+Engineering Glossary</a>.</p>
+
+<hr />
+
+<h2 id="getting-started">Getting started</h2>
+
+<ul>
+  <li><a href="https://delph-in.github.io/docs/matrix/GeFaqLkbInstallation">I want to install the LKB on my local machine, what should I
+do?</a></li>
+  <li><a href="https://delph-in.github.io/docs/matrix/GeFaqGrammarDocumentation">What should I know about documenting my
+grammar?</a></li>
+  <li><a href="https://delph-in.github.io/docs/matrix/GeFaqLispPromptTips">How do I interact with the LKB through the Lisp
+prompt?</a></li>
+</ul>
+
+<hr />
+
+<h2 id="questions-about-error-messages">Questions about error messages</h2>
+
+<ul>
+  <li><a href="https://delph-in.github.io/docs/matrix/GeFaqNoError">I don’t think I’m getting any error messages. Does that mean I
+don’t have any errors?</a></li>
+  <li><a href="https://delph-in.github.io/docs/matrix/GeFaqLoadScript">The LKB says I have an error at position number 873. How do I
+figure out where that is in my file?</a></li>
+  <li><a href="https://delph-in.github.io/docs/matrix/GeFaqGotoChar">When I try to load my grammar/the matrix, the LKB says “Error:
+Attempt to take the value of the unbound variable …”. What am I
+doing wrong?</a></li>
+  <li><a href="https://delph-in.github.io/docs/matrix/GeFaqRightBracket">The LKB says I’m missing a right bracket, but I can’t figure out
+where. What should I do?</a></li>
+  <li><a href="https://delph-in.github.io/docs/matrix/GeFaqNoPossibleType">When I load my grammar, I get “no possible type for features (…)
+at path (…)”. What is causing this?</a></li>
+  <li><a href="https://delph-in.github.io/docs/matrix/GeFaqFeatureMultiType">When I load my grammar, I get “Feature … is introduced at
+multiple types (…)”. What is causing this?</a></li>
+  <li><a href="https://delph-in.github.io/docs/matrix/GeFaqNoSign">My grammar loads just fine, but when I try to parse a sentence, it
+says “no sign can be constructed for …”. What’s
+happening?</a></li>
+  <li><a href="/GeFaqLexiconErrors">It seems that errors in the lexicon are only detected when I try to
+parse a sentence containing a word with the error, not when the
+grammar is loaded. How do I check the whole
+lexicon?</a></li>
+  <li><a href="https://delph-in.github.io/docs/matrix/GeFaqRunawayRule1">When I try to parse a sentence, the LKB says “probable runaway
+rule”. How do I debug this?</a></li>
+  <li><a href="https://delph-in.github.io/docs/matrix/GeFaqRunawayRule2">When I try to generate, the LKB says “probable runaway rule”. How
+do I debug this?</a></li>
+  <li><a href="https://delph-in.github.io/docs/matrix/GeFaqCircularLexRule">When I try to generate, the LKB says “Probable circular lexical
+rule”. How do I debug this?</a></li>
+  <li><a href="https://delph-in.github.io/docs/matrix/GeFaqCyclicCheck">The LKB says “Cyclic check found cycle at …”. What does this mean
+and how do I debug it?</a></li>
+  <li><a href="https://delph-in.github.io/docs/matrix/GeFaqRuleWithoutDaughter">I’m trying to write a lexical (or phrase structure rule), but I get
+the error “Rule without daughter”. What does this mean, and how
+should I fix it?</a></li>
+  <li><a href="/GeFaqUnifyingNullWithCons">The LKB says that I am trying to unify a NULL with CONS. What could
+the problem be?</a></li>
+  <li><a href="/GeFaqFailedAtPath">The LKB says that the Unification of rule-x and rule-y failed at
+path &lt;&gt;. What’s that about?</a></li>
+  <li><a href="/GeFaqFailedToReunify">Unifications failed to reunify when drawing parse tree. What does
+this mean?</a></li>
+</ul>
+
+<hr />
+
+<h2 id="questions-about-the-parse-chart">Questions about the parse chart</h2>
+
+<ul>
+  <li><a href="https://delph-in.github.io/docs/matrix/GeFaqShowChart">How do I get the LKB to show me the parse chart?</a></li>
+  <li><a href="https://delph-in.github.io/docs/matrix/GeFaqMissingEdge">When I look at the parse chart, I don’t see an edge that I’m
+expecting to be there. How do I find out why it’s
+missing?</a></li>
+  <li><a href="https://delph-in.github.io/docs/matrix/GeFaqMissingHowTo">How can I tell if an edge is missing in the parse
+chart?</a></li>
+  <li><a href="https://delph-in.github.io/docs/matrix/GeFaqRootFail">Looking at the parse chart, it seems that I do have an edge that
+spans the whole chart (accounts for all the words), but the LKB
+still says no parses found. What might be going on?</a></li>
+  <li><a href="https://delph-in.github.io/docs/matrix/GeFaqSpanningEdge">How do I tell if I have an edge that spans the whole
+chart?</a></li>
+  <li><a href="https://delph-in.github.io/docs/matrix/GeFaqChartTwice">One of my words is showing up in the chart twice.
+Why?</a></li>
+  <li><a href="/GeFaqTwoLexEdges">One of my words branches to two lexical edges that look exactly the
+same. Why?</a></li>
+  <li><a href="/GeFaqWordNotInChart">One of my words isn’t showing up in the chart at all.
+Why?</a></li>
+  <li><a href="https://delph-in.github.io/docs/matrix/GeFaqUnifySurprise">I’ve tried to use interactive unification to find out why an edge
+can’t be built, and it can be built interactively, but it’s still
+not in the chart. What’s going on?</a></li>
+  <li><a href="/GeFaqExtraParse1">I get two (or more) parses for a sentence. How can I tell where the
+extra parse is coming from?</a></li>
+  <li><a href="/GeFaqExtraParse2">I get two (or more) parses for a sentence, but the Compare window
+doesn’t show any discriminators. Why not? (Same lexical rules
+applied in other order.)</a></li>
+</ul>
+
+<hr />
+
+<h2 id="questions-about-lexical-rules">Questions about lexical rules</h2>
+
+<ul>
+  <li><a href="/GeFaqLexRuleOrder">How do I get my lexical rules to apply in a particular
+order?</a></li>
+  <li><a href="/GeFaqLexToLexRule">I’ve written a lexeme-to-lexeme rule, how do I know what
+information I need to copy up?</a></li>
+  <li><a href="/GeFaqLexToWhatRule">How do I know if my lexical rule should be lexeme-to-lexeme or
+lexeme-to-word?</a></li>
+  <li><a href="/GeFaqWordToWordRule">Is there such a thing as a word-to-word
+rule?</a></li>
+  <li><a href="https://delph-in.github.io/docs/matrix/GeFaqRuleWithoutDaughters">I’m trying to write a lexical rule, but I get the error “Rule
+without daughters”. What does this mean, and how should I fix
+it?</a></li>
+  <li><a href="https://delph-in.github.io/docs/matrix/GeFaqNoEntry2">I have written my lexical rule in the grammar file, but it still
+isn’t getting applied. What could be preventing it from being
+used?</a></li>
+  <li><a href="https://delph-in.github.io/docs/matrix/GeFaqOverApplicationLexRule">I have a lexical rule that seems to be applying even when its
+phonological conditions aren’t met. What’s going
+on?</a></li>
+</ul>
+
+<hr />
+
+<h2 id="questions-about-semantics">Questions about semantics</h2>
+
+<ul>
+  <li><a href="https://delph-in.github.io/docs/matrix/GeFaqMissingRels">Some of my relations/qeqs aren’t showing up in the MRS for the
+whole parse. Why not?</a></li>
+  <li><a href="/GeFaqSemanticIncompatibility">Someone told me that types x and y were semantically incompatible,
+but they do unify. Can they still be semantically
+incompatible?</a></li>
+  <li><a href="/GeFaqFilterRules">What is a filter rule, and how do I write one?</a></li>
+</ul>
+
+<hr />
+
+<h2 id="questions-about-types-constraints-and-entries">Questions about types, constraints, and entries</h2>
+
+<ul>
+  <li><a href="https://delph-in.github.io/docs/matrix/GeFaqTdlSyntax">What do the punctuation marks mean in the tdl files? (A very basic
+guide to tdl syntax.)</a></li>
+  <li><a href="https://delph-in.github.io/docs/matrix/GeFaqNegValue">How do I constrain something to be not of a certain
+value?</a></li>
+  <li><a href="https://delph-in.github.io/docs/matrix/GeFaqDisjunctiveValue">How do I do disjunction (constrain the value of a feature to be X
+or Y)?</a></li>
+  <li><a href="https://delph-in.github.io/docs/matrix/GeFaqDistributedDisjunction">Can I make the value of one feature dependent on the value of
+another?</a></li>
+  <li><a href="/GeFaqMultipleRoot">How do I define multiple different root
+conditions?</a></li>
+  <li><a href="https://delph-in.github.io/docs/matrix/GeFaqExpandedType">How do I see what a type looks like with all of the constraints it
+inherits from supertypes?</a></li>
+  <li><a href="https://delph-in.github.io/docs/matrix/GeFaqViewEntry">How do I look at fully specified lexical entries or
+rules?</a></li>
+  <li><a href="https://delph-in.github.io/docs/matrix/GeFaqViewType">How do I see what definition the LKB has read in for a
+type?</a></li>
+  <li><a href="https://delph-in.github.io/docs/matrix/GeFaqViewHierarchy">How do I browse the type hierarchy?</a></li>
+  <li><a href="/GeFaqLexEntrySpaces">How do I write a lexical entry for a word with spaces in
+it?</a></li>
+  <li><a href="https://delph-in.github.io/docs/matrix/GeFaqTypeAddendum">What is a type addendum statement, and when should I use
+one?</a></li>
+  <li><a href="https://delph-in.github.io/docs/matrix/GeFaqNoRule">I’ve added a rule to my grammar but the LKB doesn’t seem to have
+found it. What’s happening?</a></li>
+  <li><a href="/GeFaqNoUnificationPath">I’m trying to add a brand-new constraint on my subtypes, but it
+says that there is no unification path. What’s
+wrong?</a></li>
+  <li><a href="/GeFaqCombineConstraints">I’m trying to combine constraints on my lexical items and it’s
+saying it can’t unify. What can I do?</a></li>
+</ul>
+
+<hr />
+
+<h2 id="questions-about-features">Questions about features</h2>
+
+<ul>
+  <li><a href="https://delph-in.github.io/docs/matrix/GeFaqFeatureGeometry">What is the feature geometry assigned in the Matrix? (Or: How do I
+figure out what paths I need to use?)</a></li>
+  <li><a href="https://delph-in.github.io/docs/matrix/GeFaqNewFeature">I’m trying to add a new feature, and the LKB doesn’t like it. What
+should I do?</a></li>
+  <li><a href="https://delph-in.github.io/docs/matrix/GeFaqFindTypeForFeatures">How do I get the LKB to tell me what type(s) a feature or set of
+features is appropriate for?</a></li>
+</ul>
+
+<hr />
+
+<h2 id="other-questions">Other questions</h2>
+
+<ul>
+  <li><a href="https://delph-in.github.io/docs/matrix/GeFaqInteractiveUnify">How do I do interactive unification?</a></li>
+  <li><a href="/GeFaqMatrixPatches">What should I know about downloading matrix
+patches?</a></li>
+  <li><a href="https://delph-in.github.io/docs/matrix/GeFaqForgottenConstraint">The LKB seems to be “forgetting” a constraint/definition I’ve
+coded. Why?</a></li>
+  <li><a href="https://delph-in.github.io/docs/matrix/GeFaqOrderMatters">In which files does order matter?</a></li>
+  <li><a href="https://delph-in.github.io/docs/matrix/GeFaqExpandMenu">A menu item seems to have disappeared (e.g., Parse &gt; Compare or
+Generate). How do I get it back?</a></li>
+  <li><a href="https://delph-in.github.io/docs/matrix/GeFaqTabIndentation">How do I use tab to help me figure out where my syntax error
+is?</a></li>
+  <li><a href="https://delph-in.github.io/docs/matrix/GeFaqConfusingTypo">I have a type/lexical entry/rule which doesn’t seem to be
+inheriting a constraint from its supertype. What might be going
+on?</a></li>
+  <li><a href="https://delph-in.github.io/docs/matrix/GeFaqTdlTxt">I’ve downloaded an updated version of the matrix, but the changes
+specified in the new matrix.tdl don’t seem to be taking effect when
+I reload the grammar. What’s wrong?</a></li>
+  <li><a href="/GeFaqDefaultSentence">How do I change the default sentence that appears in the parse
+dialog box when I load up my grammar?</a></li>
+  <li><a href="https://delph-in.github.io/docs/matrix/GeFaqDiffList">What’s a difference list, and why do we use them?</a></li>
+  <li><a href="/GeFaqQuestionMarkNodes">All of the sudden, some of the nodes in my tree are labeled with ?
+instead of N or S or VP. What happened?</a></li>
+  <li><a href="https://delph-in.github.io/docs/matrix/GeFaqUnicodeInput">How can I input strings from non-ascii character
+sets?</a></li>
+  <li><a href="https://delph-in.github.io/docs/matrix/GeFaqNonAlpha">What non-alphanumeric characters are allowed to be part of a string
+parsed by the LKB, and how can I change that?</a></li>
+  <li><a href="https://delph-in.github.io/docs/matrix/GeFaqSwitchingGrammars">When I switch between grammars (e.g., the English Resource Grammar
+and a Matrix-derived grammar) the LKB sometimes behaves funny
+(errors, seg faults, etc.). What’s going
+on?</a></li>
+  <li><a href="https://delph-in.github.io/docs/matrix/GeFaqClickX">When I close the LKB Top Menu, is Lisp supposed to exit as
+well?</a></li>
+  <li><a href="https://delph-in.github.io/docs/tools/GeFaqTsdbRc">How can I tell tsdb++ to start with the directories for “home” and
+“skeletons” that I want each time?</a></li>
+  <li><a href="/GeFaqTsdbTreehouse">Why doesn’t my language appear in tsdb++ in the
+treehouse?</a></li>
+  <li><a href="/GeFaqChartNoPopups">In LKB, when I click on nodes in a parse chart, I don’t get a
+pop-up menu. Why not?</a></li>
+  <li><a href="https://delph-in.github.io/docs/matrix/GeFaqKeyboardNotWorking">The keyboard doesn’t work in the incr tsdb() window/The keyboard
+doesn’t work in Emacs after running incr
+tsdb()</a></li>
+  <li><a href="https://delph-in.github.io/docs/matrix/GeFaqPasteShortcut">How do I paste into the LKB Parse dialogue?</a></li>
+</ul>
+
+<p>Last update: 2012-08-15 by StephanOepen [<a href="https://github.com/delph-in/docs/wiki/GrammarEngineeringFAQ/_edit">edit</a>]</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+<!--Scroll the navbar to the current page-->
+<script type="text/javascript">
+  let el = document.querySelector('.nav__list .active');
+  if(el){
+    el.scrollIntoView({block: "center", inline: "start"});
+  }
+</script>
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/docs/matrix/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 Your Name. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/docs/matrix/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/docs/matrix/assets/js/lunr/lunr.min.js"></script>
+<script src="/docs/matrix/assets/js/lunr/lunr-store.js"></script>
+<script src="/docs/matrix/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>
