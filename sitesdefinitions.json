@@ -13,7 +13,7 @@
   ],
   "SourceRepositories":
     {
-      "docs": {"Repository": "delph-in/docs"},
+      "main": {"Repository": "delph-in/docs"},
       "docswiki": {"Repository": "delph-in/docs/wiki", "ReportUnusedWikiEntries": true}
     },
   "Sites":

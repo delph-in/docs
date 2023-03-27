@@ -37,7 +37,7 @@ jobs:
       - name: Checkout docs
         uses: actions/checkout@v3
         with:
-          path: docs
+          path: main
           fetch-depth: 0
 
       # This repo's wiki (the Official docs wiki)
