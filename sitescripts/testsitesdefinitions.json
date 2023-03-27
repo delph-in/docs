@@ -1,0 +1,44 @@
+{
+  "Comments": [
+    "This comments section is solely for comments that describe this json file"
+  ],
+  "SourceRepositories":
+  {
+    "docswiki": {"Repository": "delph-in/docs/wiki", "ReportUnusedWikiEntries": true},
+    "main": {"Repository": "ericzinda/docsproto"}
+  },
+  "Sites":
+  [
+    {"SiteFullName": "DELPH-IN Conceptual Docs", "SiteNavigationName": "Concepts", "Site": "concept", "HomePage": "ErgSemantics.md"},
+    {"SiteFullName": "DELPH-IN Tools", "SiteNavigationName": "Tools", "Site": "tools"}
+  ],
+  "Pages":
+  {
+    "concept": [
+      {"Section": "Erg Semantics", "Pages": [
+        {"Page": "Deep file 1", "SrcDir": "docswiki", "SrcFile": "dir1/dir2/DeepDirectoryFile1.md", "DstFile": "DeepDirectoryFile1.md"},
+        {"Page": "Deep file 2", "SrcDir": "docswiki", "SrcFile": "dir1/dir2/DeepDirectoryFile2.md"},
+        {"Page": "Deep file 3", "SrcDir": "docswiki", "SrcFile": "dir1/dir22/DeepDirectoryFile3.md"},
+        {"Page": "Links Test", "SrcDir": "docswiki", "SrcFile": "ALinkTest.md"},
+        {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "ErgSemantics.md"},
+        {"Page": "Essence", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Essence.md"},
+        {"Page": "GrammarCatalogue", "SrcDir": "docswiki", "SrcFile": "GrammarCatalogue.md"},
+        {"Page": "GrammarsOverview", "SrcDir": "docswiki", "SrcFile": "GrammarsOverview.md"}
+      ]},
+      {"Section": "Semantics", "Pages": [
+        {"Page": "Basics", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Basics.md"},
+        {"Page": "Basics", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Design.md"}
+      ]},
+      {"Section": "Developer Tutorial", "Pages": [
+        {"Page": "Overview", "SrcDir": "main", "SrcFile": "devhowto/devhowtoOverview.md"}
+      ]}
+    ],
+    "tools": [
+      {"Section": "Tools", "Pages": [
+        {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "ToolsTop.md"},
+        {"Page": "Logon", "SrcDir": "docswiki", "SrcFile": "LogonTop.md"},
+        {"Page": "matrixdef File Syntax", "SrcDir": "docswiki", "SrcFile": "matrixdef_File_Syntax.md", "Referrer": "concept/Updating_the_Customization_System.md"}
+      ]}
+    ]
+  }
+}

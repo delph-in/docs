@@ -1,0 +1,6 @@
+- Some images are broken
+      - Github camo is used: https://github.com/atmos/camo by default in WIKI, this doesn't happen on github pages
+      - https://github.blog/2014-01-28-proxying-user-images/
+      - https://github.com/sionide21/camo-client
+- Write a quick start for adding a section and a site
+- Support branches deploying to different sites

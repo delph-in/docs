@@ -1,0 +1,20 @@
+name: 'Hello World'
+description: 'Greet someone and record the time'
+inputs:
+  json-data-file-path:
+    description: 'Path to json file that represents the data to index'
+    required: true
+  index-file-path:
+    description: 'Path to where the index should be stored'
+    required: true
+  ref-to-teaser-path:
+    description: 'Path to where the mapping between URLS for documents and the teaser that gets shown in search should be stored'
+    required: true
+
+outputs:
+  time: # id of output
+    description: 'The time we greeted you'
+
+runs:
+  using: 'node16'
+  main: 'index.js'

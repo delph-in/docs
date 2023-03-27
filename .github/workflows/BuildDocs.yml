@@ -1,0 +1,207 @@
+# This is a basic workflow to help you get started with Actions
+
+name: BuildDocs
+
+# Controls when the workflow will run
+on:
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+      inputs:
+        quickAndDirty:
+          description: 'TESTING ONLY: Set to "true" to generate the site quickly but without history being added to every page'
+          required: true
+          default: 'false'
+
+        externalUrlCheck:
+          description: '"true" (VERY SLOW) means try to access any links to external sites. "false" (fast) will still check internal links'
+          required: true
+          default: 'false'
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Install the requirements of the python scripts
+      - run: python -V
+      - run: pip install marko
+
+
+      # First get all the repositories we will use to build any of the sites
+      # Need to include fetch-depth: 0 in order to get the history so it can be included in the doc
+
+      # This repo
+      - name: Checkout docsproto
+        uses: actions/checkout@v3
+        with:
+          path: main
+          fetch-depth: 0
+
+      # This repo's wiki
+      - name: Checkout docsproto wiki 
+        uses: actions/checkout@v3
+        with:
+          repository: ericzinda/docsproto.wiki
+          path: websitewiki
+          fetch-depth: 0
+
+      # Official docs wiki
+      - name: Checkout docs wiki repo
+        uses: actions/checkout@v3
+        with:
+          repository: delph-in/docs.wiki
+          path: docswiki
+          fetch-depth: 0
+
+      # Perplexity repo for developer tutorial
+      - name: Checkout Perplexity repo
+        uses: actions/checkout@v3
+        with:
+          repository: ericzinda/Perplexity
+          path: perplexity
+          fetch-depth: 0
+
+      # Create blank sites and then
+      # process and copy all pages into the sites
+      - run: python $GITHUB_WORKSPACE/main/sitescripts/createdocs.py https://blog.inductorsoftware.com/docsproto $GITHUB_WORKSPACE/ $GITHUB_WORKSPACE/main/latestsrc/ $GITHUB_WORKSPACE/main/latestsites/ $GITHUB_WORKSPACE/main/sitesdefinitions.json ${{ github.event.inputs.quickAndDirty }} ${{ github.event.inputs.externalUrlCheck }}
+
+
+      # Build the index using the new site data
+      - name: Build Search Index
+        uses: ./main/.github/actions/buildindex # Uses an action in the root directory
+        id: buildindex
+        with:
+          json-data-file-path: ./main/latestsrc/index_source.js
+          index-file-path: ./main/latestsites/index.json
+          ref-to-teaser-path: ./main/latestsites/refToTeaser.json
+
+      # Upload any output data so users can get at it
+      - uses: actions/upload-artifact@v2
+        if: ${{ failure() }}
+        with:
+          name: Site Errors
+          path: main/latestsrc/SiteErrors.json
+          if-no-files-found: ignore # 'warn' or 'ignore' are also available, defaults to `warn`
+
+      - uses: actions/upload-artifact@v2
+        with:
+          name: All Pages
+          path: main/latestsrc/AllPages.json
+          if-no-files-found: ignore # 'warn' or 'ignore' are also available, defaults to `warn`
+
+      - uses: actions/upload-artifact@v2
+        with:
+          name: All Links (working, broken, local, external, etc)
+          path: main/latestsrc/AllLinks.json
+          if-no-files-found: ignore # 'warn' or 'ignore' are also available, defaults to `warn`
+
+      - uses: actions/upload-artifact@v2
+        with:
+          name: Fixes for broken links To Wiki pages
+          path: main/latestsrc/FixesForBrokenLinksToWikiPages.json
+          if-no-files-found: ignore # 'warn' or 'ignore' are also available, defaults to `warn`
+
+
+
+      # Build each site with Jekyll
+      - name: Setup Pages
+        uses: actions/configure-pages@v1
+
+      - name: Build Home with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./main/latestsrc/home
+          destination: main/latestsites/home
+
+      - name: Build How-to with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./main/latestsrc/howto
+          destination: main/latestsites/howto
+
+      - name: Build Garage with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./main/latestsrc/garage
+          destination: main/latestsites/garage
+
+      - name: Build Tools with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./main/latestsrc/tools
+          destination: main/latestsites/tools
+
+      - name: Build Matrix with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./main/latestsrc/matrix
+          destination: main/latestsites/matrix
+
+      - name: Build Summits with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./main/latestsrc/summits
+          destination: main/latestsites/summits
+
+      - name: Build ERG with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./main/latestsrc/erg
+          destination: main/latestsites/erg
+
+      - name: Build Grammars with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./main/latestsrc/grammars
+          destination: main/latestsites/grammars
+
+
+      - name: Upload all the sites to github pages
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: main/latestsites/
+
+
+      # Now commit and push all the changes to record this version of the docs
+      # As long as we are in main, otherwise don't do this because it makes merges a bear
+      - run: echo ${{ github.ref }}
+      - name: Commit files
+        if: ${{ github.ref == 'refs/heads/main'}}
+        run: |
+          cd $GITHUB_WORKSPACE/main
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add .
+          git commit -m "[BOT] Automatic documentation build" -a
+          
+      - name: Push changes
+        if: ${{ github.ref == 'refs/heads/main'}}
+        uses: ad-m/github-push-action@master
+        with:
+          directory: main
+          branch: ${{ github.ref }}
+          
+  # Deploy the pages to github pages
+  deploy:
+    # Add a dependency to the build job
+    needs: build
+
+    # Grant GITHUB_TOKEN the permissions required to make a Pages deployment
+    permissions:
+      pages: write      # to deploy to Pages
+      id-token: write   # to verify the deployment originates from an appropriate source
+
+    # Deploy to the github-pages environment
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+
+    # Specify runner + deployment step
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v1

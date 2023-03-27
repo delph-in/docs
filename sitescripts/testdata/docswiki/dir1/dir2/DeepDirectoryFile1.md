@@ -1,0 +1,2 @@
+This file is just testing our ability to copy files from one location to another in the directory structure and [maintain links](DeepDirectoryFile2).
+Also to [other files in the same repository, but in a different directory](../dir22/DeepDirectoryFile3)
