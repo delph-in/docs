@@ -1,3 +1,12 @@
+- Trigger the workflow run when anything is changed
+  - https://stackoverflow.com/questions/61819502/trigger-a-github-action-on-wiki-edit
+  - OR:
+    - Use this to trigger the workflow run when anything is changed:
+      - https://github.com/orgs/community/discussions/26519
+    - Use this to exit if it hasn't changed:
+      - https://stackoverflow.com/questions/60589373/how-to-force-to-exit-in-github-actions-step
+    - https://docs.github.com/en/actions/using-workflows/reusing-workflows
+    - 
 - Some images are broken
       - Github camo is used: https://github.com/atmos/camo by default in WIKI, this doesn't happen on github pages
       - https://github.blog/2014-01-28-proxying-user-images/
