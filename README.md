@@ -1,3 +1,4 @@
+[![BuildDocs](https://github.com/delph-in/docs/actions/workflows/BuildDocs.yml/badge.svg)](https://github.com/delph-in/docs/actions/workflows/BuildDocs.yml)
 
 The DELPH-IN Documentation is available at: https://delph-in.github.io/docs/.
 
