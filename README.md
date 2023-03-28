@@ -1,4 +1,5 @@
 [![BuildDocs](https://github.com/delph-in/docs/actions/workflows/BuildDocs.yml/badge.svg)](https://github.com/delph-in/docs/actions/workflows/BuildDocs.yml)
+[![DailyDocBuildIfWikiUpdates](https://github.com/delph-in/docs/actions/workflows/DailyDocBuildIfWikiUpdates.yml/badge.svg)](https://github.com/delph-in/docs/actions/workflows/DailyDocBuildIfWikiUpdates.yml)
 
 The DELPH-IN documentation is available at: https://delph-in.github.io/docs/. It is designed to be easy to navigate and contains the most current subset of all the historical documentation in the [DELPH-IN Wiki](https://github.com/delph-in/docs/wiki) as well as other sources. Any changes to files it includes from the Wiki will cause the documentation to be regenerated, once a day.
 
