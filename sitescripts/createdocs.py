@@ -9,7 +9,6 @@ import urllib.parse
 from urllib import request
 from urllib.error import HTTPError
 from urllib.request import Request
-
 from marko import Markdown
 import marko
 from marko import Parser
@@ -17,15 +16,14 @@ from marko.ext.gfm import GFM
 from marko.md_renderer import MarkdownRenderer
 from marko.renderer import Renderer
 from marko.inline import Link
-
 import createblanksite
+
+
+from text_renderer import TextRenderer
 
 
 # Given a link that was in a document but not included in the site definitions (and thus will be broken in the final site),
 # give a proposal for what to include to make it not broken for it and recursively follow *its* links and do the same
-from text_renderer import TextRenderer
-
-
 def propose_link_recursive(input_content_root, proposals, repositories_definitions, pages_definitions, unique_existing_pages, parser, base_referrer, link_to_check, recursive_check=True):
     # See if the link is a markdown file
     file_name, file_extension = os.path.splitext(link_to_check["TargetFile"])
@@ -78,7 +76,6 @@ def get_change_text(repositories_definitions, pages_definitions, file_definition
         # TODO: would running the whole list at once be more efficient? cat filelist.txt | while read filename; do echo "$filename $(git log -s -n1 --pretty='tformat:%an - %cs' $filename)"; done
         result = subprocess.check_output([f"git log -s -n1 --pretty='tformat:%cs by %an' {src_file_path}"], cwd=workingDirectory, shell=True).decode("utf-8")
         final = "\nLast update: " + result.strip() + (f" [[edit]({link})]" if link != "" else "")
-        # print(f"Source: {src_file_path} {final}")
         return final
 
 
@@ -93,7 +90,7 @@ def convert_and_copy_doc(repositories_definitions, sites_definitions, pages_defi
         with open(src_file_path, "r") as txtFile:
             try:
                 result = parser.parse(txtFile.read())
-            except Exception as error:
+            except Exception:
                 raise Exception(f"Markdown parser crashed parsing file: {src_file_path}. See if there are markdown formatting issues in that file or maybe exclude it and report the bug.")
 
             # Recursively walk the document tree and do any conversion that is needed (e.g. fixing links)
@@ -141,7 +138,7 @@ def convert_and_copy_doc(repositories_definitions, sites_definitions, pages_defi
     return links
 
 
-# convert any child node that is a link to have the proper link
+# Convert any child node that is a link to have the proper link
 # in the new site structure
 def convert_child(repositories_definitions, pages_definitions, file_definition, node):
     links = []
@@ -199,8 +196,8 @@ def convert_child(repositories_definitions, pages_definitions, file_definition, 
 # If this is a local link to another wiki topic, it returns information about it (case 1 above)
 # Otherwise, it is a link outside the wiki and is ignored
 #
-# returns the target segment of the link, query, fragment
-# returns None if this is not a local link
+# Returns the target segment of the link, query, fragment
+# Returns None if this is not a local link
 def parse_relative_link(SrcFile, link):
     split_url = urllib.parse.urlparse(link)
     if split_url.scheme == "" and split_url.netloc == "":
@@ -218,10 +215,6 @@ def parse_relative_link(SrcFile, link):
             # Leading "/" means it is "root relative" and would be interpreted as "http://www.github.com" + <path> when run in the wiki
             # Thus: treat it as an absolute path
             return None, None, None
-
-        # elif len(path_parts) > 1:
-        #     # More than one segment won't work in the wiki so treat it as absolute
-        #     return None, None, None
 
         return path, split_url.query, split_url.fragment
 
@@ -497,28 +490,8 @@ def log_json_items_to_file(relative_path, list):
         txt_file.write("\n]\n")
 
 
-# {
-#     "concept": [
-#         {"Section": "ErgSemantics", "Pages": [
-#           {"Page": "ErgSemantics_Inventory", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Inventory.md", "Referrer": "concept/ErgSemantics.md"},
-#           {"Page": "RedwoodsTop", "SrcDir": "docswiki", "SrcFile": "RedwoodsTop.md", "Referrer": "concept/ErgSemantics.md", "FileMissing": true},
-#           {"Page": "ErgProcessing", "SrcDir": "docswiki", "SrcFile": "ErgProcessing.md", "Referrer": "concept/ErgSemantics.md", "FileMissing": true},
-#           {"Page": "ErgSemantics_Discovery", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Discovery.md", "Referrer": "concept/ErgSemantics.md", "FileMissing": true},
-#           {"Page": "MatrixMrsTestSuite", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuite.md", "Referrer": "concept/ErgSemantics.md", "FileMissing": true},
-#           {"Page": "ErgSemantics_HowToCite", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_HowToCite.md", "Referrer": "concept/ErgSemantics.md", "FileMissing": true}
-#         ]}
-#     ],
-#     "tools": [
-#         {"Section": "Tools", "Pages": [
-#           {"Page": "ErgSemantics_Inventory", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Inventory.md", "Referrer": "concept/ErgSemantics.md"},
-#           {"Page": "RedwoodsTop", "SrcDir": "docswiki", "SrcFile": "RedwoodsTop.md", "Referrer": "concept/ErgSemantics.md", "FileMissing": true},
-#           {"Page": "ErgProcessing", "SrcDir": "docswiki", "SrcFile": "ErgProcessing.md", "Referrer": "concept/ErgSemantics.md", "FileMissing": true},
-#           {"Page": "ErgSemantics_Discovery", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Discovery.md", "Referrer": "concept/ErgSemantics.md", "FileMissing": true},
-#           {"Page": "MatrixMrsTestSuite", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuite.md", "Referrer": "concept/ErgSemantics.md", "FileMissing": true},
-#           {"Page": "ErgSemantics_HowToCite", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_HowToCite.md", "Referrer": "concept/ErgSemantics.md", "FileMissing": true}
-#         ]}
-#     ]
-# }
+# Convert the flat pages format to the tree structure
+# that is stored in sitesdefinitions.json
 def convert_pages_flat_to_tree(sites_definition):
     converted = {}
     for page in sites_definition:
@@ -541,6 +514,8 @@ def convert_pages_flat_to_tree(sites_definition):
     return converted
 
 
+# Convert the tree structure that is stored in sitesdefinitions.json
+# to the flat pages format
 def convert_to_flat_definition(pages_definitions):
     converted = {"Pages": [], "SourceRepositories": {}}
     for top_key in pages_definitions.items():

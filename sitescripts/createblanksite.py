@@ -3,6 +3,7 @@ import posixpath
 import shutil
 import urllib
 
+
 script_path = os.path.dirname(os.path.realpath(__file__))
 
 
@@ -28,7 +29,7 @@ def copy_root_redirector(latest_sites_path):
     write_template(latest_sites_path, "index.html", template)
 
 
-# # Create blank site
+# Create blank site
 def create_blank_site(site_definition, root_address, site_name, pages_definitions, latest_src_path, navigation_content):
     site_template_path = os.path.join(script_path, "site_template_standard")
     site_path = os.path.join(latest_src_path, site_name)

@@ -1,0 +1,70 @@
+name: DailyDocBuildIfWikiUpdates
+
+on:
+  # For testing start with manual
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+#  schedule:
+#    # Run every day at 6:45 (to avoid high load times at Github)
+#    - cron: '45 6 * * *'
+
+  schedule:
+    # Run every 15 minutes for testing
+    - cron: '*/15 * * * *'
+
+jobs:
+  # The output of this job (wiki_changed) will be 'true' or 'false' depending on whether the wiki has changed
+  # since the last time it was run
+  check_if_wiki_changes:
+    name: Check if there are wiki changes
+    # Don't run this while in a branch
+    if: ${{ github.ref == 'refs/heads/main'}}
+    runs-on: ubuntu-latest
+    # Store whether the wiki has changed or not in the output of this workflow
+    outputs:
+      wiki_changed: ${{ steps.check_sha.outputs.cache-hit != 'true' }}
+    steps:
+      # Checkout the wiki
+      - name: Checkout DELPH-IN wiki
+        uses: actions/checkout@v3
+        with:
+          repository: delph-in/docs.wiki
+          path: version_check
+          fetch-depth: 1
+
+      # Create a file containing the SHA of the current main commit from the wiki
+      - name: Create cache file
+        run: |
+          mkdir check-SHA
+          git -C $GITHUB_WORKSPACE/version_check rev-parse HEAD > $GITHUB_WORKSPACE/check-SHA/github-sha.txt
+
+#        run: echo ::set-output name=head_sha::$(cat $GITHUB_WORKSPACE/check-SHA/github-sha.txt)
+      - name: Set output of this step to head SHA
+        run: |
+          echo "head_sha=$(cat $GITHUB_WORKSPACE/check-SHA/github-sha.txt)"
+          echo "head_sha=$(cat $GITHUB_WORKSPACE/check-SHA/github-sha.txt)" >> $GITHUB_OUTPUT
+        id: head_sha
+
+      # The key of the cache contains the commit SHA of the current workflow run
+      # When this action is executed, it will check whether the specified key matches an existing cache.
+      # If the key matches an existing cache, (cache-hit is true), it will restore this cache to the
+      # specified path, and overwrite the file created in the "Create cache file" step in the path
+      - name: Check SHA
+        id: check_sha
+        uses: actions/cache@v3
+        with:
+          path: check-SHA
+          key: check-SHA-${{ steps.head_sha.outputs.head_sha }}
+
+  run-build-if-wiki-changed:
+    name: Run build if wiki is changed
+    # Make sure check_if_wiki_changes has run first
+    needs: check_if_wiki_changes
+    if: contains(needs.check_if_wiki_changes.outputs.wiki_changed, 'true')
+    # Call a shared workflow in the same repo to do the build
+    uses: ./.github/workflows/BuildDocs.yml
+    with:
+      quickAndDirty: 'false'
+      externalUrlCheck: 'false'
+

@@ -17,8 +17,21 @@ on:
           required: true
           default: 'false'
 
-#  # Allow this workflow to be called by other workflows
-#  workflow_call
+  # Allow this workflow to be called by other workflows
+  workflow_call:
+      inputs:
+        quickAndDirty:
+          description: 'TESTING ONLY: Set to "true" to generate the site quickly but without history being added to every page'
+          required: true
+          type: string
+          default: 'false'
+
+        externalUrlCheck:
+          description: '"true" (VERY SLOW) means try to access any links to external sites. "false" (fast) will still check internal links'
+          required: true
+          type: string
+          default: 'false'
+
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
