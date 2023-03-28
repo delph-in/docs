@@ -17,8 +17,8 @@ on:
           required: true
           default: 'false'
 
-  # Allow this workflow to be called by other workflows
-  workflow_call
+#  # Allow this workflow to be called by other workflows
+#  workflow_call
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:

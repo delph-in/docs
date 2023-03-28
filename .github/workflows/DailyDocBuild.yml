@@ -1,45 +1,45 @@
-name: DailyDocBuild
-
-on:
-  # For testing start with manual
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
-
-#  schedule:
-#    # Run every day at 6:45 (to avoid high load times at Github)
-#    - cron: '45 6 * * *'
-
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
-jobs:
-  check_if_wiki_changes:
-    name: Check if there are wiki changes
-    runs-on: ubuntu-latest
-    # Store whether the wiki has changed or not in the output of this workflow
-    outputs:
-      wiki_changed: ${{ steps.check_sha.outputs.cache-hit != 'true' }}
-    steps:
-        name: Create cache file
-        run: |
-          mkdir check-SHA
-          echo ${{ github.sha }} > github-sha.txt
-
-      # The key of the cache contains the commit SHA of the current workflow run
-      # When this action is executed, it will check whether the specified key matches an existing cache.
-      # If the key matches an existing cache, (cache-hit is true), it will restore this cache to the
-      # specified path, and overwrite the file created in the "Create cache file" step in the path
-      - name: Check SHA
-        id: check_sha
-        uses: actions/cache@v1
-        with:
-          path: check-SHA
-          key: check-SHA-${{ github.sha }}
-
-  call-workflow-2-in-local-repo:
-    name: Run build if wiki is changed
-    # Make sure check_if_wiki_changes has run first
-    needs: check_if_wiki_changes
-    secrets: inherit
-    if: contains(needs.check_if_wiki_changes.outputs.wiki_changed, 'true')
-    # Call a shared workflow in the same repo to do the build
-    uses: ./.github/workflows/BuildDocs.yml
-
+#name: DailyDocBuild
+#
+#on:
+#  # For testing start with manual
+#  # Allows you to run this workflow manually from the Actions tab
+#  workflow_dispatch:
+#
+##  schedule:
+##    # Run every day at 6:45 (to avoid high load times at Github)
+##    - cron: '45 6 * * *'
+#
+## A workflow run is made up of one or more jobs that can run sequentially or in parallel
+#jobs:
+#  check_if_wiki_changes:
+#    name: Check if there are wiki changes
+#    runs-on: ubuntu-latest
+#    # Store whether the wiki has changed or not in the output of this workflow
+#    outputs:
+#      wiki_changed: ${{ steps.check_sha.outputs.cache-hit != 'true' }}
+#    steps:
+#        name: Create cache file
+#        run: |
+#          mkdir check-SHA
+#          echo ${{ github.sha }} > github-sha.txt
+#
+#      # The key of the cache contains the commit SHA of the current workflow run
+#      # When this action is executed, it will check whether the specified key matches an existing cache.
+#      # If the key matches an existing cache, (cache-hit is true), it will restore this cache to the
+#      # specified path, and overwrite the file created in the "Create cache file" step in the path
+#      - name: Check SHA
+#        id: check_sha
+#        uses: actions/cache@v1
+#        with:
+#          path: check-SHA
+#          key: check-SHA-${{ github.sha }}
+#
+#  call-workflow-2-in-local-repo:
+#    name: Run build if wiki is changed
+#    # Make sure check_if_wiki_changes has run first
+#    needs: check_if_wiki_changes
+#    secrets: inherit
+#    if: contains(needs.check_if_wiki_changes.outputs.wiki_changed, 'true')
+#    # Call a shared workflow in the same repo to do the build
+#    uses: ./.github/workflows/BuildDocs.yml
+#
