@@ -69,9 +69,9 @@ Simply creating a new `Section` definition and putting pages inside it causes th
 
 The format is designed to make it easy to move files around, redefine sections, sites, etc. Just running the workflow again will create the new site structure.
 
-More detail on the structure and background is in the [DELPH-IN Docs Reference Guide](DelphinDocsReference).
+More detail on the structure and background is in the [DELPH-IN Docs Reference Guide](DelphinDocsReference.md).
 ## Running the Workflow
-[Run the workflow](https://delph-in.github.io/docs/actions/workflows/BuildDocs.yml) to regenerate the documentation by clicking on the `Run Workflow` button on that link.  It takes about 10 minutes to regenerate.
+[Run the workflow](https://github.com/delph-in/docs/actions/workflows/BuildDocs.yml) to regenerate the documentation by clicking on the `Run Workflow` button on that link.  It takes about 10 minutes to regenerate.
 
 At this point the workflow will begin running and you'll see its status.  When done, it will have a green checkmark for success or a red X for failure.  If it was successful the docs have been immediately published and you can browse them live. It takes about 10 minutes to run. 
 
@@ -82,7 +82,7 @@ If successful, you can click on the run itself and scroll to the bottom of the o
 
 If it failed, click on the row that represents the run you just did and you'll see an error file. If you open this file, all of the errors encountered will be listed.  Fix those and rerun the workflow.  In rare cases, you might need to click on the run, and then on the box that represents the "build" part of the workflow. That will expand all the details of the run and show you why it failed.  The biggest source of failure is not formatting the JSON file correctly.
 
-More detail on the workflow is in the [DELPH-IN Docs Reference Guide](DelphinDocsReference#running-the-workflow).
+More detail on the workflow is in the [DELPH-IN Docs Reference Guide](DelphinDocsReference.md).
 
 ## Modifying the Site Structure
-To modify the site structure, see the [DELPH-IN Docs Reference Guide](DelphinDocsReference).
+To modify the site structure, see the [DELPH-IN Docs Reference Guide](DelphinDocsReference.md).
