@@ -23,5 +23,4 @@ One expects a graph with 10 edges, rather than 12, since ‘a’ already
 subsumes both ‘f’ and ‘e’ via ‘glbtype1’ and ‘glbtype2’. This bug is
 present in the Allegro CL version of the LKB, but is fixed in the fully
 open source version, LKB-FOS.
-
-Last update: 2021-12-17 by John Carroll [[edit](https://github.com/delph-in/docs/wiki/LkbBugs/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

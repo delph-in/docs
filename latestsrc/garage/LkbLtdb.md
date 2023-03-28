@@ -170,5 +170,4 @@ Corpora (LINC-2005), 31--40, Cheju, Korea.
   - add screenshots
   - link to some running Lexical Type Databases (like
 [this](https://delph-in.github.io/docs/grammars/JacyLexTypes))
-
-Last update: 2021-06-03 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/LkbLtdb/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

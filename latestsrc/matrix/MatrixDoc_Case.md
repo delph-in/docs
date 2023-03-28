@@ -399,5 +399,4 @@ Explanation},\
 pages = {63-78},\
 publisher = {CSLI Publications}\
 }
-
-Last update: 2013-10-01 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/MatrixDoc_Case/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

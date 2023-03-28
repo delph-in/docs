@@ -92,5 +92,4 @@ approval =))
 - JustinChunleiYang (It's a shame I can't make
 it)
 - YiZhang (attending, July 29 - Aug. 2)
-
-Last update: 2013-08-01 by AnnCopestake [[edit](https://github.com/delph-in/docs/wiki/SaarlandParticipants/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

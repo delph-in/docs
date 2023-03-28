@@ -23,5 +23,4 @@ Each day, there will be three sessions, one of which (Session 1) we hope is poss
 In lieu of a banquet, we will have a scheduled social event on Thursday in Session 1, and it will be a trivia game. There will also be 30-minute scheduled socials after Session 1 on every other day, in lieu of real-life coffee breaks. Other kinds of breaks, allowing people to leave the computer and rest between talks, will also be included in most sessions.
 
 The program committee this year consists of Dan Flickinger and Olga Zamaraeva.  
-
-Last update: 2021-07-13 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/Virtual2021Top/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

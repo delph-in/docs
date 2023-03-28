@@ -203,5 +203,4 @@ See [PetSelectiveUnpacking](https://delph-in.github.io/docs/garage/PetSelectiveU
 
 - The Idiom optimizations don't seem to be working
 - It would be nice to use supertagging
-
-Last update: 2017-01-11 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/JacyPerformance/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

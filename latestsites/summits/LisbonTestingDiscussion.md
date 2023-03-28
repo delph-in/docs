@@ -36,5 +36,4 @@ responsibility for organisation, including ranking bugs by seriousness,
 ensuring that a serious bug is being checked and helping to develop test
 sets that allow developers to check particular aspects of the software
 quickly.
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/LisbonTestingDiscussion/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

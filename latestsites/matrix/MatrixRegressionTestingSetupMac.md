@@ -43,5 +43,4 @@ directory (e.g. \~/delphin/matrix/trunk/ )
 
     cd ~/delphin/matrix/trunk/
     python matrix.py -C gmcs/ r
-
-Last update: 2017-09-17 by TJTrimble [[edit](https://github.com/delph-in/docs/wiki/MatrixRegressionTestingSetupMac/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

@@ -95,5 +95,4 @@ or language pair.
 # Web-Accessible Demonstrators
 
 # MaxEnt Experimentation
-
-Last update: 2018-01-13 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/LogonIdiosyncrasies/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

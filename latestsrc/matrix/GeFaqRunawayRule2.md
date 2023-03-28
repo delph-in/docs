@@ -89,5 +89,4 @@ overgenerating.
 rule". How do I debug this?](https://delph-in.github.io/docs/matrix/GeFaqCircularLexRule)
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
-
-Last update: 2012-08-14 by NedLetcher [[edit](https://github.com/delph-in/docs/wiki/GeFaqRunawayRule2/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

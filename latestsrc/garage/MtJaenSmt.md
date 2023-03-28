@@ -99,5 +99,4 @@ Tanaka Corpus
 ## Other Experiments
 
 [NE\_Tagging\_For\_Improving\_SMT](https://delph-in.github.io/docs/garage/NE_Tagging_For_Improving_SMT)
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/MtJaenSmt/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

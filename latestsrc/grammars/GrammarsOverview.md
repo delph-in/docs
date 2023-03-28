@@ -5,5 +5,4 @@
 (2) Other grammars which are either currently less active or of more modest scale, including for the languages Bulgarian, German, Greek, Hausa, Hebrew, Indonesian, Korean, Portuguese, Russian, Spanish, Thai, Vietnamese and Wambaya.
 
 A catalogue providing links to more detailed descriptions of many of these grammars can be found [here](https://delph-in.github.io/docs/grammars/GrammarCatalogue).
-
-Last update: 2023-01-12 by Dan Flickinger [[edit](https://github.com/delph-in/docs/wiki/GrammarsOverview/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

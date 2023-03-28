@@ -53,5 +53,4 @@
        <!-- ... -->
       </lattice>
      </smaf>
-
-Last update: 2006-03-03 by BenjaminWaldron [[edit](https://github.com/delph-in/docs/wiki/SmafSample/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

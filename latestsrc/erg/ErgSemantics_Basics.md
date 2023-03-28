@@ -249,5 +249,4 @@ Copestake, A., Lascarides, A., & Flickinger, D. (2001). An algebra for
 semantic construction in constraint-based grammars. In *Proceedings of
 the 39th Annual Meeting of the Association for Computational
 Linguistics* (pp. 140–147). Toulouse, France.
-
-Last update: 2022-09-12 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/ErgSemantics_Basics/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

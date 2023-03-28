@@ -202,5 +202,4 @@ Penman?
 
 Mike and Stephan will go think about it... and also discuss canonical
 serialisation.
-
-Last update: 2016-06-27 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/StanfordGraph/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

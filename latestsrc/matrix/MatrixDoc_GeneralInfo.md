@@ -82,5 +82,4 @@ not applicable.
 # References
 
 not applicable.
-
-Last update: 2018-02-01 by GlennSlayden [[edit](https://github.com/delph-in/docs/wiki/MatrixDoc_GeneralInfo/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

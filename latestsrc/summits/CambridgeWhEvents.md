@@ -96,5 +96,4 @@ who Kim saw?" then "Yes, Sandy" is a valid answer.
 - DI: But not "No, Sandy"
 - GE: "What do you know who Kim gave?"
 - FCB: In Japanese it's fine, just answer all whs.
-
-Last update: 2019-07-16 by MichaelGoodman [[edit](https://github.com/delph-in/docs/wiki/CambridgeWhEvents/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

@@ -595,5 +595,4 @@ Woodley: nothing stopping you, no.
      [ success ]
     [191]   {12 decisions}  UCSTAT: input 24 edges, output 11 edges
     {11 edges}      {1 / 4 trees active}
-
-Last update: 2017-01-05 by SanghounSong [[edit](https://github.com/delph-in/docs/wiki/CapitolHillTreebank/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

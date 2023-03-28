@@ -207,5 +207,4 @@ Conference on Natural Language Processing IJCNLP-05
 (Posters/Demos)},\
 location = {Jeju Island, Korea}\
 }
-
-Last update: 2021-11-16 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/MatrixDoc_YesNoQ/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

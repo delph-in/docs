@@ -60,5 +60,4 @@ pages 73-80. Prague, 2007.
 - Ann Copestake. *Robust Minimal Recursion Semantics*. [Unpublished
 draft](http://www.cl.cam.ac.uk/~aac10/papers/rmrsdraft.pdf),
 2004/2006.
-
-Last update: 2021-09-02 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/RmrsTop/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

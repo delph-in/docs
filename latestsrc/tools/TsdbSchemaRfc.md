@@ -192,5 +192,4 @@ And here is the updated syntax description:
   19 EOL      := WS* Comment? NewLine
   20 NewLine  := /\n/
 ```
-
-Last update: 2019-06-04 by MichaelGoodman [[edit](https://github.com/delph-in/docs/wiki/TsdbSchemaRfc/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

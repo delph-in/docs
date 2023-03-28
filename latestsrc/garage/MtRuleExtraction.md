@@ -139,5 +139,4 @@ relative to the $LOGONROOT directory.)
 - Represent the lexicons of your grammars as tables by giving the
 right paths in step 9.
 - Modify the file 'templates.py' in the language pair directory.
-
-Last update: 2012-08-29 by PetterHaugereid [[edit](https://github.com/delph-in/docs/wiki/MtRuleExtraction/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

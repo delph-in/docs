@@ -243,5 +243,4 @@ okay.)
 Future questions to consider: Not relevant to current algebra, question
 of what's okay in terms of linking to PRED (e.g. MIN). Think further
 also about links to properties of the INDEX.
-
-Last update: 2015-08-06 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/SingaporeSemanticAlgebraCompliance/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

@@ -29,5 +29,4 @@ Suggested convention
 - version should ideally be the
 [iso-8601](http://www.cl.cam.ac.uk/~mgk25/iso-time.html) date
 - the ltdb will complain and refuse to produce anything if you have an underscore in the name (FCB 2022)
-
-Last update: 2022-11-27 by Francis Bond [[edit](https://github.com/delph-in/docs/wiki/LkbConventions/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

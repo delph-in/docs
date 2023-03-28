@@ -90,5 +90,4 @@ Complete Reference:
 |            --tnt-model=/.../path            |                                                 Invoke TNT for tagging, using the given model.                                                 | :white\_check\_mark: |                      |                      |         |
 |              --tnt-max-tags=N               |                                                  Allow TNT to suggest up to N tags per word.                                                   | :white\_check\_mark: |                      |                      |         |
 |         --transfer-config=file.txt          |                                 Only enable transfer rules whose names are listed in file.txt (one per line).                                  |                      | :white\_check\_mark: |                      |         |
-
-Last update: 2021-09-02 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/AceOptions/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

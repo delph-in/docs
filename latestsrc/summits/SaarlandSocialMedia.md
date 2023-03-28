@@ -121,5 +121,4 @@ incomprehensible utterance space.
 Tim: Natively electronic?
 
 Francis: Yes, very Singlish, but no sentence boundaries.
-
-Last update: 2013-08-04 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/SaarlandSocialMedia/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

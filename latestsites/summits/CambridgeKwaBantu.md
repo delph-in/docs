@@ -109,5 +109,4 @@ Peter: I checked with my wife, she says it is very difficult to get this
 quickly push slowly fall combination.
 
 Berthold: Brings discussion to close.
-
-Last update: 2019-07-15 by OlgaZamaraeva [[edit](https://github.com/delph-in/docs/wiki/CambridgeKwaBantu/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

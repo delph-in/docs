@@ -143,5 +143,4 @@ start writing glosses for phenomena catalogues.
 Ned: Would be good to consolodate all the different phenomena (or
 similar) test suites and resource on the wiki, so we know what's out
 there.
-
-Last update: 2012-09-23 by AntskeFokkens [[edit](https://github.com/delph-in/docs/wiki/SofiaGrammarLocalizationSIG/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

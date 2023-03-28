@@ -9,5 +9,4 @@ possible within tdl however. You cannot state that the value of FOO is x
 just in case the value of BAR is y.
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
-
-Last update: 2012-09-17 by NedLetcher [[edit](https://github.com/delph-in/docs/wiki/GeFaqDistributedDisjunction/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

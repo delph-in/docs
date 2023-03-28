@@ -153,5 +153,4 @@ on X.
     #
     parameter text-plain-font #F[sazanami 12 roman black]
     parameter text-active-font #F[sazanami 12 roman black]
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/LuiRc/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

@@ -30,5 +30,4 @@ type?](https://delph-in.github.io/docs/matrix/GeFaqViewType)
 rules?](https://delph-in.github.io/docs/matrix/GeFaqViewEntry)
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
-
-Last update: 2012-09-17 by NedLetcher [[edit](https://github.com/delph-in/docs/wiki/GeFaqOrderMatters/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

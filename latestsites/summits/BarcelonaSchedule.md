@@ -105,5 +105,4 @@ summit@delph-in.net.
 | 12:30 |  –  | 13:30 | Sub-Group Activities                             |
 | 13:30 |  –  | 14:30 | *Lunch*                                          |
 | 14:30 |  –  | 16:30 | Sub-Group Activities                             |
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/BarcelonaSchedule/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

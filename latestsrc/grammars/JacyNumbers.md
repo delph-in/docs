@@ -38,5 +38,4 @@ halfwidth (marked -a for ascii) versions. We could add more as needed.
 Construction in a Head-Final
 Language](http:http://faculty.washington.edu/ebender/papers/jnn.pdf)*.
 manuscript (comments welcome)
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/JacyNumbers/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

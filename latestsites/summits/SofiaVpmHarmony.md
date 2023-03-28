@@ -136,5 +136,4 @@ consent and propose a SIG.
 
 Francis: There's the low-hanging fruit of just spelling common names the
 same way.
-
-Last update: 2012-07-04 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/SofiaVpmHarmony/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

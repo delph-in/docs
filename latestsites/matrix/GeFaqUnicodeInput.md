@@ -23,5 +23,4 @@ emacs documentation on MULE.
 parsed by the LKB, and how can I change that?](https://delph-in.github.io/docs/matrix/GeFaqNonAlpha)
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
-
-Last update: 2012-09-17 by NedLetcher [[edit](https://github.com/delph-in/docs/wiki/GeFaqUnicodeInput/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

@@ -99,5 +99,4 @@ Key examples:
 - It's the cat that chased the mouse that it's the dog that chased ...
 \[not quite like that.\]
 - \[Some example with two clefts, one inside a rel cl??\]
-
-Last update: 2010-07-22 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/ParisInformationStructure/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

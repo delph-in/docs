@@ -757,5 +757,4 @@ predicates. So maybe it's the determiner that picks out xs v. sets?
 Emily: Time to wrap up...
 
 # Notes post VLAD (asynchronous)
-
-Last update: 2015-10-22 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/LADLushootseedSemantics/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

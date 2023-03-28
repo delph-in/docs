@@ -440,5 +440,4 @@ Michael Goodman has filed a bug with the font in Ubuntu:
 We encourage people to file bugs in their own distributions, and/or
 confirm the bug in Ubuntu so that it gets a higher priority.
 Alternatively, if you know about fonts then please fix it...
-
-Last update: 2021-06-02 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/LkbInstallation/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

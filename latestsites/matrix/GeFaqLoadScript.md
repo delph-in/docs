@@ -13,5 +13,4 @@ emacs and look to see if there are any extraneous characters (especially
 at the beginning).
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
-
-Last update: 2012-08-21 by NedLetcher [[edit](https://github.com/delph-in/docs/wiki/GeFaqLoadScript/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

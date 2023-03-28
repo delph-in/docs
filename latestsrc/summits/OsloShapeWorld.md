@@ -133,5 +133,4 @@ to describe an image, and verify that it's correct. At the moment, other
 evaluations compare the output with the human caption, but obviously
 there are a thousand ways to describe an image. This allows it to
 generate something correct but different.
-
-Last update: 2017-08-11 by GuyEmerson [[edit](https://github.com/delph-in/docs/wiki/OsloShapeWorld/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}
