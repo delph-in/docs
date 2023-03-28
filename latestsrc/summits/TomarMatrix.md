@@ -367,4 +367,5 @@ Antske: The only other story I know of collaborative grammar
 engineering, they never worked at the same time. Writing in parallel
 makes it a pain to integrate. You should either sit together, or do
 things one after the other.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2015-08-20 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/TomarMatrix/_edit)]{% endraw %}

@@ -158,4 +158,5 @@ is a link to the archive near the top of the page.
 
 There is also an active [stack-exchange style
 forum](http://discourse.delph-in.net), using the Discourse platform.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2022-09-14 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/Home/_edit)]{% endraw %}

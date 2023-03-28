@@ -35,4 +35,5 @@ section=toolbox-import
 \ge noungloss1
 \psrev n
 ```
-<update date omitted for speed>{% endraw %}
+
+Last update: 2021-06-28 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/MatrixDoc_ImportToolboxLexicon/_edit)]{% endraw %}

@@ -359,4 +359,5 @@ a copy. The first can be solved by pushing appends high in the feature
 geometry. The second one by controlling when you can do the appends.
 That's why lexical threading can be a problem ... we've lexically
 specified an append but haven't appended yet.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2020-07-15 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/VirtualAppend/_edit)]{% endraw %}

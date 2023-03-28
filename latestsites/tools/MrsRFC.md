@@ -520,4 +520,5 @@ IC     := Variable ICReln Variable
 ICReln := ConstName
 ConstName := Token
 ```
-<update date omitted for speed>{% endraw %}
+
+Last update: 2021-09-02 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/MrsRFC/_edit)]{% endraw %}

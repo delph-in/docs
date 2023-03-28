@@ -72,4 +72,5 @@ in
 
 - MWEs with structure in wordnets
 - Lots of work in Japan, e.g. on idiom/literal (Chikara)
-<update date omitted for speed>{% endraw %}
+
+Last update: 2013-08-01 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/SaarlandMweDiscussion/_edit)]{% endraw %}

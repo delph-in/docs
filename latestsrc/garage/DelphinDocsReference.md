@@ -196,4 +196,5 @@ To see what requirements should be `pip install`ed, look at the `BuildDocs.yml` 
 Note that running `createdocs.py` directly won't actually publish the site anywhere, it will just clear out the `latestsrc` directory and replace it with whatever is in the `testsitesdefinitions.json` file.
 
 Running in test mode is useful for debugging the script by placing interesting edge cases, etc into the `testdata` folder and referencing them from the `testsitesdefinitions.json` file. 
-<update date omitted for speed>{% endraw %}
+
+Last update: 2023-03-27 by EricZinda [[edit](https://github.com/delph-in/docs/edit/main/DelphinDocsReference.md)]{% endraw %}

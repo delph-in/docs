@@ -107,4 +107,5 @@ EMB: Yes: need to keep track of difference between singular and underspecified (
 Ann: Arguments about whether singular is semantically unmarked. But *no dogs*: can set things up so that the plural is general semantically  (Ojeda 1993). Then *the cats*, *my cats* have to force it to be genuinely plural. That's the sort of approach that you might do on the basis that it would not give the wrong answer, but you've got to force the case where the determiner is unmarked for number to get a sensible answer out. But plural with "no" feels like an agreement fact, not conveying semantics. So having a default plurality that gets over-written by the zero or other cases where you force the number.
 
 Olga (in chat): For Russian, it will be million:SG-GEN with two, three four, but then million:PL-GEN with five through ten.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2021-07-20 by anncopestake [[edit](https://github.com/delph-in/docs/wiki/Virtual2021PluralSemantics/_edit)]{% endraw %}

@@ -38,4 +38,5 @@ thai-language.com does this)
 test-by-generation: explain limitations on the set of things that are
 demonstrated by TBG, so you don't think it's your fault. e.g. A list of
 what will \*not\* be demonstrated by TBG
-<update date omitted for speed>{% endraw %}
+
+Last update: 2010-07-04 by GlennSlayden [[edit](https://github.com/delph-in/docs/wiki/ParisMatrixCustomization/_edit)]{% endraw %}

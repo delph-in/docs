@@ -150,4 +150,5 @@ Cut*. Be certain (as in positive) that you are removing these
 annotations for Run 2, not the hand-coded real annotations you
 constructed painstakingly for Run 1, as clear cutting fells all the
 trees.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2012-08-07 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/ItsdbTreebanking_ItsdbAnnotation/_edit)]{% endraw %}

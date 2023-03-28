@@ -48,4 +48,5 @@ relations?
 
 Emily might make a first attempt at adapting the proposal of Borthen and
 Haugereid 2005 and including it in the Matrix.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/FeforDiscourseStatus/_edit)]{% endraw %}

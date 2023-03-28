@@ -43,4 +43,5 @@ anywhere or just right before or right after verbs)
 easy to add to.
   - Prioritize things like ditransitives (other verb complementation
 patterns), modification over things like negative concord.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2010-07-04 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/ParisMatrixTopics/_edit)]{% endraw %}

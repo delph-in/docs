@@ -14,4 +14,5 @@ Discussions about the analysis/implementation of related languages.
 ## Experimental
 
 - [Phonology](https://delph-in.github.io/docs/grammars/PhonologyTop): Proposals for phonological representation
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/GrammarDiscussionsTop/_edit)]{% endraw %}

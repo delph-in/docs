@@ -154,4 +154,5 @@ same clause.
 
 David: It sounds like you want some hierarchy of types of focus, and to
 figure out how to encode those (and only those) in the ICONS.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2016-06-17 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/StanfordAlternativeSets/_edit)]{% endraw %}

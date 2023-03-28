@@ -38,4 +38,5 @@ All experiments reported below were carried out on 2012-12-12 and
 ### Results
 
 ### Grammars (versions used, original sources)
-<update date omitted for speed>{% endraw %}
+
+Last update: 2012-12-13 by AntskeFokkens [[edit](https://github.com/delph-in/docs/wiki/SpringCleaningTop/_edit)]{% endraw %}

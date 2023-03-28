@@ -63,4 +63,5 @@ Antske: How to get more discussion on the matrix mailing list?
 EB: If we have access to the grammars, then we could presumably
 proactively start discussion as well, possibly starting a
 vicious<sup>H</sup>H^H virtuous circle.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2010-07-04 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/ParisMatrixInteraction/_edit)]{% endraw %}

@@ -13,4 +13,5 @@ entire hierarchy may either be impractical and/or impossible and you
 will need to look at specific subsets of the hierarchy.
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
-<update date omitted for speed>{% endraw %}
+
+Last update: 2012-09-17 by NedLetcher [[edit](https://github.com/delph-in/docs/wiki/GeFaqViewHierarchy/_edit)]{% endraw %}

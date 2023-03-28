@@ -258,4 +258,5 @@ constituents? Ace accepted those brackets, right? Links?
 - blaze tool ? a tool that Francis mentioned that were implemented/use
 to pre-processing treebanks? Link?
 - error mining project 1997-1998? (mentioned by Ann) Link?
-<update date omitted for speed>{% endraw %}
+
+Last update: 2019-07-17 by AlexandreRademaker [[edit](https://github.com/delph-in/docs/wiki/CambridgeEfficiencyRobustnessPrecision/_edit)]{% endraw %}

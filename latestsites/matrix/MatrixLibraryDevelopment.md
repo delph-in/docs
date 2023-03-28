@@ -16,4 +16,5 @@ right analysis, and extend questionnaire accordingly
 answers
 - Add regression tests documenting functionality
 - Add prose documenting how to use
-<update date omitted for speed>{% endraw %}
+
+Last update: 2019-07-09 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/MatrixLibraryDevelopment/_edit)]{% endraw %}

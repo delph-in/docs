@@ -2488,4 +2488,5 @@ Emily: What do you mean by "say"? You want the MRS to show that?
 
 Alex: In terms of paraphrase, it would get you past the alternative set
 for presuppositions.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2015-02-25 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/WeSearch_CcsDayTwo/_edit)]{% endraw %}

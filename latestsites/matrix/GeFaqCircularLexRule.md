@@ -20,4 +20,5 @@ applications (the value of **maximal-lex-rule-applications** set in
 lkb/globals.lsp). This value can be changed by editing that file.
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
-<update date omitted for speed>{% endraw %}
+
+Last update: 2012-08-14 by NedLetcher [[edit](https://github.com/delph-in/docs/wiki/GeFaqCircularLexRule/_edit)]{% endraw %}

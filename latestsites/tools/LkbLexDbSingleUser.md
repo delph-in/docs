@@ -101,4 +101,5 @@ of lexicon entries in another table 'all\_entries', create a table
 'active'to specify which entry 'name's you want in view, then define
 'lex' as:
   - CREATE VIEW lex AS active JOIN all\_entries USING name;
-<update date omitted for speed>{% endraw %}
+
+Last update: 2009-04-10 by AnnCopestake [[edit](https://github.com/delph-in/docs/wiki/LkbLexDbSingleUser/_edit)]{% endraw %}

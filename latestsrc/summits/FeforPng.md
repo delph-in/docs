@@ -68,4 +68,5 @@ also distinguished in their value for the GENDER feature, and *cuite*
 constrains the GENDER value of its argument to be feminine. This seems
 somewhat redundant. (See also
 [FeforDroppedArguments](https://delph-in.github.io/docs/summits/FeforDroppedArguments).)
-<update date omitted for speed>{% endraw %}
+
+Last update: 2006-06-21 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/FeforPng/_edit)]{% endraw %}

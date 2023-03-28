@@ -36,4 +36,5 @@ Glenn: "The dog whose toy the cat bit barked." (from the DMRS paper...)
 Not a cycle, but introduces an EQ link.
 
 Ann: Apart from this example it is not a problem.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2013-08-06 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/SaarlandToolsDiscussion/_edit)]{% endraw %}

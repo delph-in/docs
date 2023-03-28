@@ -123,4 +123,5 @@ E.g., melt/break/sink alternations
 - how productive?
 - how regular?
 - how to analyze...?
-<update date omitted for speed>{% endraw %}
+
+Last update: 2007-06-29 by JesseTseng [[edit](https://github.com/delph-in/docs/wiki/RomSe/_edit)]{% endraw %}

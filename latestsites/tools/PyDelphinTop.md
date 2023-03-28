@@ -18,4 +18,5 @@ application. For example:
    4 
 ```
 The documentation is [available online](https://pydelphin.readthedocs.io/en/latest/), and the source is [on github](/pydelphin).
-<update date omitted for speed>{% endraw %}
+
+Last update: 2022-11-17 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/PyDelphinTop/_edit)]{% endraw %}

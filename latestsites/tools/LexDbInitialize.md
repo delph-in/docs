@@ -95,4 +95,5 @@ Or, create the semi tables with the following two commands:
 
 {{{(lkb::new-lex-key-table lkb::\*lexicon\*) (lkb::new-semi
 lkb::\*lexicon\*)}}}
-<update date omitted for speed>{% endraw %}
+
+Last update: 2009-04-10 by AnnCopestake [[edit](https://github.com/delph-in/docs/wiki/LexDbInitialize/_edit)]{% endraw %}

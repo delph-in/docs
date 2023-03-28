@@ -13,4 +13,5 @@ predicative)</span> Done! by
 - Relative clauses
 - Clausal complements
 - Raising and control
-<update date omitted for speed>{% endraw %}
+
+Last update: 2014-12-15 by TJTrimble [[edit](https://github.com/delph-in/docs/wiki/MatrixLibraryWishList/_edit)]{% endraw %}

@@ -132,4 +132,5 @@ spreadsheet](https://docs.google.com/spreadsheets/d/1uME2uyl9OpqUzvcXczKb4wiNCCT
 | 14:00-15:30 *SIG Session 7* |                                                                                                                                                                                        |
 |            14:00            |                                                      Semantics of nominalization (Emily Bender) [Notes](https://delph-in.github.io/docs/summits/CambridgeNominalization)                                                       |
 |                             |                                                                                                                                                                                        |
-<update date omitted for speed>{% endraw %}
+
+Last update: 2021-09-16 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/CambridgeSchedule/_edit)]{% endraw %}

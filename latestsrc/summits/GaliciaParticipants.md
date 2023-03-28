@@ -27,4 +27,5 @@ Please add times **in UTC**:
 |Petter Haugereid|June 26-30|in person||
 | ... | ... | ... |
 | "Virtual-Tarou" | June 26-30 | Virtual, every day from 10:00-17:00 UTC  | This is an example, with times, for a virtual participant |
-<update date omitted for speed>{% endraw %}
+
+Last update: 2023-03-27 by Petter Haugereid [[edit](https://github.com/delph-in/docs/wiki/GaliciaParticipants/_edit)]{% endraw %}

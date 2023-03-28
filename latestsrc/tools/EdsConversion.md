@@ -187,4 +187,5 @@ their ‘competition’. Seeing as the relevant sets of modifiers in these
 constructions (in English) tend to be post-head, such a simple heuristic
 might actually come to the right result. However, it does not quite seem
 linguistically very well founded ...
-<update date omitted for speed>{% endraw %}
+
+Last update: 2016-07-13 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/EdsConversion/_edit)]{% endraw %}

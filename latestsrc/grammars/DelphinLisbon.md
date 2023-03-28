@@ -15,4 +15,5 @@ Portuguese Government, [MCTES - Ministério da Ciência, Tecnologia e
 Ensino Superior](http://www.mces.pt/), via de [FCT - Fundação para a
 Ciência e Tecnologia](http://www.fct.mctes.pt/), under the contract
 PLUS/PLP/50301/2003.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/DelphinLisbon/_edit)]{% endraw %}

@@ -59,4 +59,5 @@ feasible to integrate new Matrix versions? What kinds of community
 input to Matrix development are likely to be most effective?
 - Delph-In infrastructures
 - Parallel grammars and MT
-<update date omitted for speed>{% endraw %}
+
+Last update: 2005-07-09 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/LisbonDiscussionSuggestions/_edit)]{% endraw %}

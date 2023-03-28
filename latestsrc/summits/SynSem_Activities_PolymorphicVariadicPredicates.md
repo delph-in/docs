@@ -746,4 +746,5 @@ meaning components.
 In sum, I don't think the question "Does Levin think that predicate
 symbols should have fixed arity?" is usefully answered in that book, but
 it does provide interesting further context for our discussion.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2018-05-14 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/SynSem_Activities_PolymorphicVariadicPredicates/_edit)]{% endraw %}

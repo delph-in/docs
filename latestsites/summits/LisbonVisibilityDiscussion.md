@@ -96,4 +96,5 @@ pages) so developers know what people need, who depends on what
 functionalities\
 developers: give an idea of upcoming developments on tools/resources
 pages
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/LisbonVisibilityDiscussion/_edit)]{% endraw %}

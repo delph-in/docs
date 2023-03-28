@@ -92,4 +92,5 @@ time; Enjoy this event!)
 - YiZhang
 - [LiljaØvrelid](/Lilja%C3%98vrelid)
 - [TestUser](/TestUser)
-<update date omitted for speed>{% endraw %}
+
+Last update: 2017-08-03 by BertholdCrysmann [[edit](https://github.com/delph-in/docs/wiki/OsloParticipants/_edit)]{% endraw %}

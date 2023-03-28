@@ -124,4 +124,5 @@ want to steal. We like reciprocity. More sharing now than 20 years ago.
 Glenn: Sumo is GPL
 
 Francis: Links to WN are not, by our request.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2016-06-27 by RebeccaDridan [[edit](https://github.com/delph-in/docs/wiki/StanfordResourceSharing/_edit)]{% endraw %}

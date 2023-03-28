@@ -378,4 +378,5 @@ Stephan; Should not be insurmountable, but the benefits weren't
 dramatic.
 
 Francis: But we didn't do all the experiments because it was slow.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2012-07-24 by LilingTan [[edit](https://github.com/delph-in/docs/wiki/SuquamishMRSWordNet/_edit)]{% endraw %}
