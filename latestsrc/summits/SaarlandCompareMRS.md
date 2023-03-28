@@ -31,4 +31,5 @@ proposed input/output specification, and a set of test data in the form
 of pairs of MRSs plus a judgment as equivalent, subsuming, or not
 equivalent. This data set might later be enriched to reflect more graded
 measures of distance in order to text Matthieu's engine.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2013-08-07 by DanFlickinger [[edit](https://github.com/delph-in/docs/wiki/SaarlandCompareMRS/_edit)]{% endraw %}

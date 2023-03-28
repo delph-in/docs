@@ -111,4 +111,5 @@
 | 1051 | Браун пытался.                                                                                    | Browne tried to.                              |
 | 1061 | Не лай!                                                                                           | Don't bark!                                   |
 | 1071 | Собака прибыла, лая.                                                                              | The dog arrived barking.                      |
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/MatrixMrsTestSuiteRu/_edit)]{% endraw %}

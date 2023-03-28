@@ -177,4 +177,5 @@ strings and types.
 
 Moving to semantic-interface-2016   := "../jacy.smi". fixes the
 string/type issue, I don't know how to deal with the \_rel issue.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2017-08-10 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/MultilingualShapeworld/_edit)]{% endraw %}

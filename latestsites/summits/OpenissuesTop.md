@@ -58,4 +58,5 @@ resolution to leaf types)
 a possible approach)
 - Means of turning of subsets of large grammars to facilitate their
 initial exploration by new developers
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/OpenissuesTop/_edit)]{% endraw %}

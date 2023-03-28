@@ -186,4 +186,5 @@ FrancisBond:
 - The criterion for whether a tool is useful to publicize is whether
 you've shared it with a single other person. Once you do, put it up
 and send it out.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/KyotoSchedule_InterDelphinNotes/_edit)]{% endraw %}

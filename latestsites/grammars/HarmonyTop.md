@@ -70,4 +70,5 @@ YYYY-MM-DD
 ERG will probably shorten to just YYYY for stable releases:
 
 - e.g. "ERG mal (2020)"
-<update date omitted for speed>{% endraw %}
+
+Last update: 2020-06-23 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/HarmonyTop/_edit)]{% endraw %}

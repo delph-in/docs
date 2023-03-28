@@ -106,4 +106,5 @@ there's room for improvement)
 S: conclusion: Emily and Ann continue their discussion and look at the
 formalization of this, and someone understanding defaults looks at the
 implementation of this, time permitting ...? And then we can look....
-<update date omitted for speed>{% endraw %}
+
+Last update: 2010-07-04 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/ParisDefeasibleConstraints/_edit)]{% endraw %}

@@ -38,4 +38,5 @@ inheriting a constraint from its supertype. What might be going
 on?](https://delph-in.github.io/docs/matrix/GeFaqConfusingTypo)
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
-<update date omitted for speed>{% endraw %}
+
+Last update: 2012-09-17 by NedLetcher [[edit](https://github.com/delph-in/docs/wiki/GeFaqNoRule/_edit)]{% endraw %}

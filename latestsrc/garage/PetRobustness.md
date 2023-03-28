@@ -120,4 +120,5 @@ See also [PetParameters](https://delph-in.github.io/docs/garage/PetParameters).
 Yi created a two-phase parsing algorithm that, in case the deep grammar
 does not succeed, a CFG backbone is used to still get a reasonable
 parse. This still has to be integrated in the main branch.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2022-11-01 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/PetRobustness/_edit)]{% endraw %}

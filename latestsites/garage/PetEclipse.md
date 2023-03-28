@@ -147,4 +147,5 @@ configuration.
 **Problem:** The debugger stops at or jumps to the wrong positions.
 
 Make sure that your debug directory was configured with "CXXFLAGS=-O0".
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/PetEclipse/_edit)]{% endraw %}

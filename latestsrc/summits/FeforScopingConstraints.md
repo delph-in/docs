@@ -17,4 +17,5 @@ Ann's possible solution:
 Not temporarily has its own event as its INDEX (rather than its MOD's
 event), and that event is resolved to the event of the thing it actually
 modifies (in the resolved scope).
-<update date omitted for speed>{% endraw %}
+
+Last update: 2006-06-14 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/FeforScopingConstraints/_edit)]{% endraw %}

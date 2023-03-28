@@ -17,4 +17,5 @@ skeletons directory (with Index.lisp and Relations) \[incr tsdb()\] gets
 unhappy, and can experience mysterious errors.
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
-<update date omitted for speed>{% endraw %}
+
+Last update: 2012-09-17 by NedLetcher [[edit](https://github.com/delph-in/docs/wiki/GeFaqTsdbRc/_edit)]{% endraw %}

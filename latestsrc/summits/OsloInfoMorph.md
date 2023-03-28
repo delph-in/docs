@@ -95,4 +95,5 @@ MG: one rule can satisfy any number of requirements
 
 BC: accumulation or any fusion would quality for that. common property
 of any inflectional systems, even in agglutinating langs.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2017-08-08 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/OsloInfoMorph/_edit)]{% endraw %}

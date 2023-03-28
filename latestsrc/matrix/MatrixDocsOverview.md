@@ -8,4 +8,5 @@ The documentation for the Grammar Matrix is broken into these sections:
 5. [MRS Tests](https://delph-in.github.io/docs/matrix/MatrixMrsTestSuite): A set of standardized tests to show selected MRS phenomena across many grammars 
 
 If you are new to the Grammar Matrix, [start with the overview](https://https://delph-in.github.io/docs/matrix/MatrixTop).
-<update date omitted for speed>{% endraw %}
+
+Last update: 2023-03-27 by EricZinda [[edit](https://github.com/delph-in/docs/edit/main/MatrixDocsOverview.md)]{% endraw %}

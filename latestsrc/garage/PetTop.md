@@ -211,4 +211,5 @@ mapping](https://delph-in.github.io/docs/garage/ChartMapping) and the [FSC input
 ## To cite
 
 Callmeier, Ulrich. "Efficient parsing with large-scale unification grammars." PhD diss., Master’s thesis, Universität des Saarlandes, Saarbrücken, Germany, 2001.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2021-06-18 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/PetTop/_edit)]{% endraw %}

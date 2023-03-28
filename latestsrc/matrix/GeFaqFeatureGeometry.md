@@ -214,4 +214,5 @@ used features in a readable format.
 entries](http://depts.washington.edu/uwcl/docs/geo2.pdf)
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
-<update date omitted for speed>{% endraw %}
+
+Last update: 2016-03-03 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/GeFaqFeatureGeometry/_edit)]{% endraw %}

@@ -85,4 +85,5 @@ Note the difference in the number of @-signs before the word "PET". This shows t
 ```
 delphin mkprof path-to-profile --relations current-relations-file --refresh
 ```
-<update date omitted for speed>{% endraw %}
+
+Last update: 2022-12-13 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/ItsdbProfileManipulation/_edit)]{% endraw %}

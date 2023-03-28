@@ -252,4 +252,5 @@ detailed below explains the directories and files for a single branch
     install      [bash script for installing the code (e.g. to the live site)]
     matrix.py    [Python script for running customize, tests, install, etc.]
     matrix.cgi   [CGI script to handle web requests]
-<update date omitted for speed>{% endraw %}
+
+Last update: 2021-06-04 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/MatrixDevTop/_edit)]{% endraw %}

@@ -51,4 +51,5 @@ the treatment of the *they* instances in examples like the following
 more consistent: *Kim likes Sandy. They went on a date tonight by the
 end they had already made plans for more dates and they both seemed
 happy.*
-<update date omitted for speed>{% endraw %}
+
+Last update: 2014-02-18 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/TheAbbey_Chrysalis2014PossessiveIdioms/_edit)]{% endraw %}

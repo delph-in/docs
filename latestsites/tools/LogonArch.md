@@ -43,4 +43,5 @@ The symlinking technique did not work with libpng, but luckily the right
 version was in the standard repositories:
 
 sudo pacman -S libpng12
-<update date omitted for speed>{% endraw %}
+
+Last update: 2013-03-09 by MichaelGoodman [[edit](https://github.com/delph-in/docs/wiki/LogonArch/_edit)]{% endraw %}

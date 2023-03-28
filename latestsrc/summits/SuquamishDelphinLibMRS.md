@@ -120,4 +120,5 @@ change.
 Emily: But that shouldn't stop us from documenting how things are now.
 
 ... and we transitioned to the next discussion.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-06-28 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/SuquamishDelphinLibMRS/_edit)]{% endraw %}

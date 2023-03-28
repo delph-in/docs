@@ -9,4 +9,5 @@ server mode.
   - Output: XML containing RMRS analyses.
   - Input/output segment delimiter: CONTROL-Q.
   - The default port is 9876
-<update date omitted for speed>{% endraw %}
+
+Last update: 2007-11-23 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/SmafLkb/_edit)]{% endraw %}

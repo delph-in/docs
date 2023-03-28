@@ -190,4 +190,5 @@ cases by implementing these refinements.
 bec: Did you do an ep-to-string thing?
 
 Woodley: Yes … opens laptop
-<update date omitted for speed>{% endraw %}
+
+Last update: 2013-08-02 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/SaarlandNegScope/_edit)]{% endraw %}

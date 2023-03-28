@@ -41,4 +41,5 @@ Francis: OpenIDs!
 
 Stephan: You can also only centralise the account information, but not
 the bug trackers. DFKI, Oslo, and Washington will investigate this.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/ParisBugTracker/_edit)]{% endraw %}

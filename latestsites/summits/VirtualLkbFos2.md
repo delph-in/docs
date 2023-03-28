@@ -69,4 +69,5 @@ of what patches are now extraneous.
 WP: Feature request: not bad thing to continue efficiency quest to
 ultimately surpass ACE so I don't have to do anything.
 :slightly\_smiling\_face:
-<update date omitted for speed>{% endraw %}
+
+Last update: 2020-07-28 by JohnCarroll [[edit](https://github.com/delph-in/docs/wiki/VirtualLkbFos2/_edit)]{% endraw %}

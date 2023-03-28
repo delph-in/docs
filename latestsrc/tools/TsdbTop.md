@@ -112,4 +112,5 @@ extract them to the comfort of your own code.
 A final useful trick is liberal use of the ELI mode's *go to definition*
 functionality (bound by default to C-c .), which takes you to the source
 location where any function, class or variable is defined.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2014-09-04 by ArneSkjærholt [[edit](https://github.com/delph-in/docs/wiki/TsdbTop/_edit)]{% endraw %}

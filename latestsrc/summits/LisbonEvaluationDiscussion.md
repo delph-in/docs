@@ -67,4 +67,5 @@ task is still to be explored.
 As a conclusion of the discussion, [DELPH-IN](http://www.delph-in.net/)
 members agreed on that having some shared data will help the comparative
 evaluation for all delph-in groups.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2021-06-03 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/LisbonEvaluationDiscussion/_edit)]{% endraw %}

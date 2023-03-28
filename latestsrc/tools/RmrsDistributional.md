@@ -62,4 +62,5 @@ bracketing: "identical retention time and mass spectrum" -&gt;
 chicken and egg problem in terms of identifying where to plug in the
 standalone
 - "can we stop now?" (Alex)
-<update date omitted for speed>{% endraw %}
+
+Last update: 2008-05-24 by TimBaldwin [[edit](https://github.com/delph-in/docs/wiki/RmrsDistributional/_edit)]{% endraw %}

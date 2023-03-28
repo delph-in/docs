@@ -57,4 +57,5 @@ resources, web mining may be the way to go.
 
 And please remember to report bugs! Email the developers' list (where
 the LKB bugs email seems to be forwarding).
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/FeforPlenum_LexicalAcquisitionImmatureGrammars/_edit)]{% endraw %}

@@ -133,4 +133,5 @@ eat"
   
   - no-one is working on this within the lkb
   - we can do some of this with paraphrase rules
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-12-13 by GlennSlayden [[edit](https://github.com/delph-in/docs/wiki/RmrsParaphrasing/_edit)]{% endraw %}

@@ -22,4 +22,5 @@ or lexical rule) should be licensing the edge. Then, follow the
 directions for doing [interactive unification](https://delph-in.github.io/docs/matrix/GeFaqInteractiveUnify).
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
-<update date omitted for speed>{% endraw %}
+
+Last update: 2018-06-21 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/GeFaqMissingEdge/_edit)]{% endraw %}

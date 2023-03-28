@@ -38,4 +38,5 @@ logs observed:
 
 Update 06-10-2016: oe added libpng12-0 and a handful of other shared
 libs to the logon tree, so this issue may not exist anymore.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2016-10-06 by JoshuaCrowgey [[edit](https://github.com/delph-in/docs/wiki/LogonDebian/_edit)]{% endraw %}

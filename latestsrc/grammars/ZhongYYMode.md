@@ -84,4 +84,5 @@ following line (add *\[0\]* after *result*).
 
     for w in result:
        ...
-<update date omitted for speed>{% endraw %}
+
+Last update: 2015-04-22 by SanghounSong [[edit](https://github.com/delph-in/docs/wiki/ZhongYYMode/_edit)]{% endraw %}

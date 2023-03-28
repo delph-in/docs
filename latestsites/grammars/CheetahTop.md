@@ -117,4 +117,5 @@ of COLING-2010.
       year={2010},
       pages={{To appear}}
     }
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/CheetahTop/_edit)]{% endraw %}

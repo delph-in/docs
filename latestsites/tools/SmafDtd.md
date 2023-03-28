@@ -89,4 +89,5 @@
 
 Question: should we have a schema definition also? (OLAC in particular
 works far better when defined via a schema.)
-<update date omitted for speed>{% endraw %}
+
+Last update: 2007-08-07 by BenjaminWaldron [[edit](https://github.com/delph-in/docs/wiki/SmafDtd/_edit)]{% endraw %}

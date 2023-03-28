@@ -153,4 +153,5 @@ subordinate clauses." WAFL VII (2011).
 Noonan, Michael. "Complementation". Language typology and syntactic
 description, vol. 2: Complex constructions, ed. by Timothy Shopen,
 42-140. (1985).
-<update date omitted for speed>{% endraw %}
+
+Last update: 2018-01-18 by OlgaZamaraeva [[edit](https://github.com/delph-in/docs/wiki/MatrixDoc_ClausalComplements/_edit)]{% endraw %}
