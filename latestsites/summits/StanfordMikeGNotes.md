@@ -130,5 +130,4 @@ small hand-built comp and a large learned component, which is template
 based. Possible spin off: Mike can learn pairs which we haven’t seen
 before. Flexible alignment allows to learn new rules, which can then
 constrain the space for decoding.
-
-Last update: 2016-06-17 by OlgaZamaraeva [[edit](https://github.com/delph-in/docs/wiki/StanfordMikeGNotes/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

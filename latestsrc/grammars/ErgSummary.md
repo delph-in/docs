@@ -116,5 +116,4 @@ See <http://moin.delph-in.net/GrammarCatalogue> for current information.
       cd /tmp/counttdl
       grep ":=" total | wc -l
       grep ":<" total | wc -l
-
-Last update: 2014-11-21 by DanFlickinger [[edit](https://github.com/delph-in/docs/wiki/ErgSummary/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

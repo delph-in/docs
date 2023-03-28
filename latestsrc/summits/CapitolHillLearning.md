@@ -107,5 +107,4 @@ compare results from csaw with typediff
     --pcfg=something.pcfg 
 
 See [AceCsaw](https://delph-in.github.io/docs/tools/AceCsaw) for more information.
-
-Last update: 2017-08-11 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/CapitolHillLearning/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

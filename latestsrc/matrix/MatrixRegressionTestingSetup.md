@@ -139,5 +139,4 @@ example). You can also override the default to use a different
 customization system installation, either by using the -C argument (e.g.
 python matrix.py -C gmcs/ r) or by setting the CUSTOMIZATIONROOT
 environment variable.
-
-Last update: 2019-10-17 by KristenHowell [[edit](https://github.com/delph-in/docs/wiki/MatrixRegressionTestingSetup/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

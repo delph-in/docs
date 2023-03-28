@@ -431,5 +431,4 @@ GCS: My solution isn’t about insisting on particular constituents, but
 blocking some of the others.
 
 EMB: Would be helpful for FZZ to see GCS’s tdl.
-
-Last update: 2017-01-06 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/CapitolHillDiscourse/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

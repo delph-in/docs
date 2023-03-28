@@ -409,5 +409,4 @@ output in format-specific ways.
 # Semantic Wellformedness Testing
 
 # References
-
-Last update: 2020-08-22 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/EdsTop/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

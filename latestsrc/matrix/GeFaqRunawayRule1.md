@@ -46,5 +46,4 @@ something big enough for the grammar to parse your sentences with (e.g.
 4000 edges)!
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
-
-Last update: 2016-02-09 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/GeFaqRunawayRule1/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

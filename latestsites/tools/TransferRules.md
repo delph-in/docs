@@ -192,5 +192,4 @@ place.
   :post
   
   - **no documentation here, move along**
-
-Last update: 2008-11-16 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/TransferRules/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

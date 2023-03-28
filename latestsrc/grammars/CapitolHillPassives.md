@@ -310,5 +310,4 @@ Some examples:
 
 Link to [discussion notes](https://delph-in.github.io/docs/grammars/CapitalHillPassivesDiscussion) as transcribed
 by DanFlickinger.
-
-Last update: 2017-01-07 by DavidMoeljadi [[edit](https://github.com/delph-in/docs/wiki/CapitolHillPassives/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

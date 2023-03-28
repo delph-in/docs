@@ -95,5 +95,4 @@ Stephan: OK, so grammar engineers get phenomena, then we use type
 addendum: features are grouped by the phenomena they are needed by, not
 only by type, editor with layers ala photoshop to deal with this, oe and
 mike to make this tool?
-
-Last update: 2011-06-27 by RebeccaDridan [[edit](https://github.com/delph-in/docs/wiki/SuquamishGrammarIndexing/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

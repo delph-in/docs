@@ -292,5 +292,4 @@ Guy: But you've still said two predicates, not just one.
 
 Joshua: I'm still not sure what it means for something to be a
 predicate.
-
-Last update: 2016-06-17 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/StanfordCrowgeyIntrinsicVariableNotes/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

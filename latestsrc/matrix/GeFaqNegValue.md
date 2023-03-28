@@ -25,5 +25,4 @@ is nominative or accusative") can be expressed thus:
     [ CASE nom+acc ].
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
-
-Last update: 2012-08-21 by NedLetcher [[edit](https://github.com/delph-in/docs/wiki/GeFaqNegValue/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

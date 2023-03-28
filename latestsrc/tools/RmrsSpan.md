@@ -86,5 +86,4 @@ CFROM=0 to CTO=3 would refer to the "abc" substring
 The conversion from character positions to character points is simple:
 CFROM values are the same, to convert a CTO character position to
 character point you must add 1.
-
-Last update: 2006-11-06 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/RmrsSpan/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

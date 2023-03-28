@@ -89,5 +89,4 @@ Bender and Antske Fokkens, HPSG 2010, Paris, July 7.
 Matrix](http://www.delph-in.net/matrix/LREC2010.html) Emily M.
 Bender, Antske Fokkens, and Safiyyah Saleem, LREC 2010, Valletta,
 Malta, May 17.
-
-Last update: 2019-05-09 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/TeachingCourses/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

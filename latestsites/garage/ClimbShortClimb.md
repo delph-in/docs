@@ -195,5 +195,4 @@ replacement option (see below)
 
 replaces the type definition of type\_name in the original grammar by
 the new definition below *complete=on*.
-
-Last update: 2017-01-17 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/ClimbShortClimb/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

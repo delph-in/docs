@@ -329,5 +329,4 @@ FCB:
 - We should list this down as an SIG.
 
 (SIG topic proposed)
-
-Last update: 2016-06-18 by WenjieWang [[edit](https://github.com/delph-in/docs/wiki/StanfordMalRules/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

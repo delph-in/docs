@@ -21,5 +21,4 @@ We think that these are all idioms (incl. X's way).
 This works for the idiom cases, but there may be non-idiomatic ones as
 well where the MRS-producer might want to specify which variables share
 variable property values. This will be possible with ICONS.
-
-Last update: 2012-05-04 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/WeSearch_VariablePropertySharing/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

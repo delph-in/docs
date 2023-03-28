@@ -37,5 +37,4 @@ return will cause it to be run again.
 indicated by an LKB error.
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
-
-Last update: 2012-09-03 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/GeFaqLispPromptTips/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

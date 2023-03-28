@@ -135,5 +135,4 @@ See also: [SmafSample](https://delph-in.github.io/docs/tools/SmafSample)
 # SMAF DTD
 
 See [SmafDtd](https://delph-in.github.io/docs/tools/SmafDtd).
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/SmafTop/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

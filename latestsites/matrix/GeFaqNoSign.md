@@ -28,5 +28,4 @@ and the other required words are not in the input string. \[Confirm
 this.\]
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
-
-Last update: 2013-05-04 by GlennSlayden [[edit](https://github.com/delph-in/docs/wiki/GeFaqNoSign/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

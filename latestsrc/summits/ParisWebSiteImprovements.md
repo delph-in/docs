@@ -8,5 +8,4 @@ but no overarching publications database.
   - Bug tracker sites
 - Internal DELPH-IN acknolwedgments (showing which shared non-free
 resources have been contributed by whom, to encourage more of this).
-
-Last update: 2010-07-04 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/ParisWebSiteImprovements/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

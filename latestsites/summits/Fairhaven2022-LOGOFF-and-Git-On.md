@@ -155,5 +155,4 @@ GitHub, being a free service, has size limits on individual files and on full re
 We believe that for codebases, the fact that people have things checked out locally will serve as a backup, but need other plans for things like the wiki, the discussions on the `participants' team.
 
 GitHub suggests owners of organization can do a 'github migration' --- prepare to do that, get a full dump. This can be backed up. EMB worries this would be an expensive way to create backups to store on the patas cluster. Maybe better to create a cron job that does a `git pull' for the docs repo (aka the wiki) and whatever the appropriate API call is to pull the info on issues for some list of projects (at least Matrix, maybe orphan projects).
-
-Last update: 2022-09-17 by Michael Wayne Goodman [[edit](https://github.com/delph-in/docs/wiki/Fairhaven2022-LOGOFF-and-Git-On/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

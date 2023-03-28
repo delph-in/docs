@@ -33,5 +33,4 @@ were found not to work, and generally maintain the grammar over
 time.
 
 Back to [Grammar Engineering FAQ page](/GrammarEngineeringFaq).
-
-Last update: 2012-08-14 by NedLetcher [[edit](https://github.com/delph-in/docs/wiki/GeFaqGrammarDocumentation/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

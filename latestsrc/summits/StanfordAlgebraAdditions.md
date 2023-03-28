@@ -708,5 +708,4 @@ something more complicated…
 
 Ann: The mutual selection would be a problem for me, even if there
 wasn't a SLASH involved.
-
-Last update: 2016-06-21 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/StanfordAlgebraAdditions/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

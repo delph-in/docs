@@ -482,5 +482,4 @@ formalisms, they partially try and reinvent the wheel.
 * * *
 
 Scribed by GuyEmerson.
-
-Last update: 2022-11-02 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/DiderotApplicationDiscussion/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

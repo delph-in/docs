@@ -139,5 +139,4 @@ DPF: That can be done in configuration by grammar engineers, to say
 which ones need to be checked.
 
 ...
-
-Last update: 2017-01-10 by ZhenzhenFan [[edit](https://github.com/delph-in/docs/wiki/CapitolHillDependencies/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

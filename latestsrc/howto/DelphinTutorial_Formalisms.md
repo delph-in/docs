@@ -148,5 +148,4 @@ Interface** (SEM-I). VPM documentation is available from the
 [RmrsVpm](https://delph-in.github.io/docs/tools/RmrsVpm) page.
 
 # LOGON Machine Translation (In)Formalism
-
-Last update: 2017-08-07 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/DelphinTutorial_Formalisms/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}
