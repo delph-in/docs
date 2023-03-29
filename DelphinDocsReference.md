@@ -6,11 +6,11 @@ It does this by using a [GitHub Workflow](https://docs.github.com/en/actions/usi
 In a nutshell the workflow does the following to build the documentation site:
 1. Clone (in a git sense, i.e. git clone ...) every repository that has any content we want to use in the ultimate documentation. This will make a copy of it available on the GitHub server the script is running on. We will selectively choose which files to include in later steps. Step 1 simply grabs the entire set of repositories we want access to.
 
-Run the `createdocs.py` script that is in the `sitescripts` folder of the `docs` repository. This script does the following:
+Run the [`createdocs.py` script](https://github.com/delph-in/docs/blob/main/sitescripts/createdocs.py) that is in the `sitescripts` folder of the `docs` repository. This script does the following:
 
-2. Load in the file called `sitesdefinitions.json` in the root of the `docs` repository.  This file defines all of the sites that will be created, and all of the files that will be copied from the repositories we cloned in step 1.  This is how the structure of the documentation sites and the docs that populate them are defined.
+2. Load in the file called [`sitesdefinitions.json`](https://github.com/delph-in/docs/blob/main/sitesdefinitions.json) in the root of the `docs` repository.  This file defines all of the sites that will be created, and all of the files that will be copied from the repositories we cloned in step 1.  This is how the structure of the documentation sites and the docs that populate them are defined.
 3. Create blank template site definitions for everything in the `Sites` section of `sitesdefinitions.json`. These site definitions are for Jekyll to use. Jekyll will actually turn them into valid HTML pages that Github Pages can serve.  See [the Github Pages docs](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll) for more information.
-4. Copy all of the pages in the `Pages` section of `sitesdefinitions.json` to the proper site definition where they should be displayed.  In the process, `createdocs.py` reads each file and fixes up its links to point to the proper place in the new site structure.  This is so pages that link to other pages in the same repository will continue to work in the final documentation, even if the pages fall in different sites.
+4. Copy all of the pages in the `Pages` section of [`sitesdefinitions.json`](https://github.com/delph-in/docs/blob/main/sitesdefinitions.json) to the proper site definition where they should be displayed.  In the process, `createdocs.py` reads each file and fixes up its links to point to the proper place in the new site structure.  This is so pages that link to other pages in the same repository will continue to work in the final documentation, even if the pages fall in different sites.
 
 After the `createdocs.py` script is finished, control goes back to the workflow and it:
 
@@ -20,7 +20,7 @@ After the `createdocs.py` script is finished, control goes back to the workflow 
 ## The docs repository folder structure
 The `docs` repository has the following folder structure:
 - `.github`: This folder contains the GitHub workflow that runs the documentation build process.  It also contains a folder called `workflows` which contains the actual workflow definition.  This is the file that is run when you click the "Actions" tab on the GitHub page for the `docs` repository.
-- `latestsrc`: Files selected by `sitedefinitions.json` to be in the documentation sites are initially copied here.  Think of this as the raw documentation that will be turned into actual HTML site.  This is checked into git so that changes can be tracked.
+- `latestsrc`: Files selected by [`sitedefinitions.json`](https://github.com/delph-in/docs/blob/main/sitesdefinitions.json) to be in the documentation sites are initially copied here.  Think of this as the raw documentation that will be turned into actual HTML site.  This is checked into git so that changes can be tracked.
 - `latestsites`: Jekyll takes the raw input from `latestsrc` and turns it into a real HTML site in this folder. This folder contains the latest version of the documentation sites.  It is the output of the workflow and is checked into git, so that differences between versions can be seen.  It is the folder that is served by GitHub pages. 
 - `sitescripts`: Contains the python scripts that are run by the workflow to build the documentation sites.  It also contains files that start with `template_` which are some of the template files needed by Jekyll to build the sites. The `sitescripts/site_template_standard` folder contains the rest of the files used by Jekyll. The `sitescripts/site_template_standard` folder is copied into the `latestsites` folder, once for each site built.
 - `sitescripts/testdata`: Contains some test data that is used by the workflow to test the documentation build process.  It is not used in the actual documentation build process.
@@ -30,7 +30,7 @@ The `docs` repository has the following folder structure:
 There are also some markdown (`.md`) files in the root of the `docs` repository that get included in the documentation (such as this file).  This is where pages that aren't really appropriate in the WIKI should go.  For example `MatrixDocsOverview.md` refers to navigation that isn't there when you are browsing the wiki directly, it is solely used in the documentation site. The documentation reference files are here instead of in the WIKI to make them discoverable by people browsing the docs site.
 
 ## Defining the Documentation Structure
-`sitesdefinitions.json` is the key file in this whole process. A simplified version looks like this:
+[`sitesdefinitions.json`](https://github.com/delph-in/docs/blob/main/sitesdefinitions.json) is the key file in this whole process. A simplified version looks like this:
 
 ~~~
 {
@@ -72,7 +72,7 @@ There are also some markdown (`.md`) files in the root of the `docs` repository 
 }
 ~~~
 ### SourceRepositories
-The `SourceRepositories` section declares what repositories will be used to populate the content of the site. Not everything from these repositories is included in the final sites, just the files listed in `sitedefinitions.json`. 
+The `SourceRepositories` section declares what repositories will be used to populate the content of the site. Not everything from these repositories is included in the final sites, just the files listed in [`sitedefinitions.json`](https://github.com/delph-in/docs/blob/main/sitesdefinitions.json). 
 - `key` is the name that will be used by the `SrcDir` field in every page in the `Pages` section to refer to the repository.  It must match the directory name where the repository got cloned by the workflow.
 - `Repository` is the name of the repository in Github.  If it is a Wiki, replace the dot in the name (delph-in/docs.wiki) with a slash (delph-in/docs/wiki)
 - `ReportUnusedWikiEntries` should be set to true if you want the `Fixes for Broken Links to Pages` report to include any pages from a github wiki site that were *not* included in the docs
