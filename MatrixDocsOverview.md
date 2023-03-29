@@ -7,4 +7,4 @@ The documentation for the Grammar Matrix is broken into these sections:
 4. [FAQ](https://delph-in.github.io/docs/matrix/GrammarEngineeringFAQ): Frequently Asked Questions about errors, rules, types, etc. that are encountered when building a new grammar using the Grammar Matrix
 5. [MRS Tests](https://delph-in.github.io/docs/matrix/MatrixMrsTestSuite): A set of standardized tests to show selected MRS phenomena across many grammars 
 
-If you are new to the Grammar Matrix, [start with the overview](https://https://delph-in.github.io/docs/matrix/MatrixTop).
+If you are new to the Grammar Matrix, [start with the overview](https://delph-in.github.io/docs/matrix/MatrixTop).
