@@ -10,6 +10,7 @@ script_path = os.path.dirname(os.path.realpath(__file__))
 def create_blank_sites(root_address, latest_src_path, latest_sites_path, site_definitions):
     reset_sites(latest_src_path, latest_sites_path)
     copy_root_redirector(latest_sites_path)
+    copy_google_authentication_page(latest_sites_path)
     navigation_content = generate_shared_navigation(root_address, site_definitions)
     pages = site_definitions["Pages"]
     for site in site_definitions["Sites"]:
@@ -27,6 +28,12 @@ def reset_sites(latest_src_path, latest_sites_path):
 def copy_root_redirector(latest_sites_path):
     template = get_template("root_redirector.html")
     write_template(latest_sites_path, "index.html", template)
+
+
+# This lets google know that we own the site so we can index it properly
+def copy_google_authentication_page(latest_sites_path):
+    template = get_template("googlebe469dbf75b6dc48.html")
+    write_template(latest_sites_path, "googlebe469dbf75b6dc48.html", template)
 
 
 # Create blank site
