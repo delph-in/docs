@@ -71,7 +71,7 @@ The format is designed to make it easy to move files around, redefine sections, 
 
 More detail on the structure and background is in the [DELPH-IN Docs Reference Guide](https://delph-in.github.io/docs/garage/DelphinDocsReference).
 ## Running the Workflow
-[Run the workflow](https://delph-in.github.io/docs/actions/workflows/BuildDocs.yml) to regenerate the documentation by clicking on the `Run Workflow` button on that link.  It takes about 10 minutes to regenerate.
+[Run the workflow](https://github.com/delph-in/docs/actions/workflows/BuildDocs.yml) to regenerate the documentation by clicking on the `Run Workflow` button on that link.  It takes about 10 minutes to regenerate.
 
 At this point the workflow will begin running and you'll see its status.  When done, it will have a green checkmark for success or a red X for failure.  If it was successful the docs have been immediately published and you can browse them live. It takes about 10 minutes to run. 
 
@@ -87,4 +87,4 @@ More detail on the workflow is in the [DELPH-IN Docs Reference Guide](https://de
 ## Modifying the Site Structure
 To modify the site structure, see the [DELPH-IN Docs Reference Guide](https://delph-in.github.io/docs/garage/DelphinDocsReference).
 
-Last update: 2023-03-27 by EricZinda [[edit](https://github.com/delph-in/docs/edit/main/DocsQuickStart.md)]{% endraw %}
+Last update: 2023-03-28 by EricZinda [[edit](https://github.com/delph-in/docs/edit/main/DocsQuickStart.md)]{% endraw %}

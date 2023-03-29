@@ -509,12 +509,12 @@
   <li>Clone (in a git sense, i.e. git clone …) every repository that has any content we want to use in the ultimate documentation. This will make a copy of it available on the GitHub server the script is running on. We will selectively choose which files to include in later steps. Step 1 simply grabs the entire set of repositories we want access to.</li>
 </ol>
 
-<p>Run the <code class="language-plaintext highlighter-rouge">createdocs.py</code> script that is in the <code class="language-plaintext highlighter-rouge">sitescripts</code> folder of the <code class="language-plaintext highlighter-rouge">docs</code> repository. This script does the following:</p>
+<p>Run the <a href="https://github.com/delph-in/docs/blob/main/sitescripts/createdocs.py"><code class="language-plaintext highlighter-rouge">createdocs.py</code> script</a> that is in the <code class="language-plaintext highlighter-rouge">sitescripts</code> folder of the <code class="language-plaintext highlighter-rouge">docs</code> repository. This script does the following:</p>
 
 <ol>
-  <li>Load in the file called <code class="language-plaintext highlighter-rouge">sitesdefinitions.json</code> in the root of the <code class="language-plaintext highlighter-rouge">docs</code> repository.  This file defines all of the sites that will be created, and all of the files that will be copied from the repositories we cloned in step 1.  This is how the structure of the documentation sites and the docs that populate them are defined.</li>
+  <li>Load in the file called <a href="https://github.com/delph-in/docs/blob/main/sitesdefinitions.json"><code class="language-plaintext highlighter-rouge">sitesdefinitions.json</code></a> in the root of the <code class="language-plaintext highlighter-rouge">docs</code> repository.  This file defines all of the sites that will be created, and all of the files that will be copied from the repositories we cloned in step 1.  This is how the structure of the documentation sites and the docs that populate them are defined.</li>
   <li>Create blank template site definitions for everything in the <code class="language-plaintext highlighter-rouge">Sites</code> section of <code class="language-plaintext highlighter-rouge">sitesdefinitions.json</code>. These site definitions are for Jekyll to use. Jekyll will actually turn them into valid HTML pages that Github Pages can serve.  See <a href="https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll">the Github Pages docs</a> for more information.</li>
-  <li>Copy all of the pages in the <code class="language-plaintext highlighter-rouge">Pages</code> section of <code class="language-plaintext highlighter-rouge">sitesdefinitions.json</code> to the proper site definition where they should be displayed.  In the process, <code class="language-plaintext highlighter-rouge">createdocs.py</code> reads each file and fixes up its links to point to the proper place in the new site structure.  This is so pages that link to other pages in the same repository will continue to work in the final documentation, even if the pages fall in different sites.</li>
+  <li>Copy all of the pages in the <code class="language-plaintext highlighter-rouge">Pages</code> section of <a href="https://github.com/delph-in/docs/blob/main/sitesdefinitions.json"><code class="language-plaintext highlighter-rouge">sitesdefinitions.json</code></a> to the proper site definition where they should be displayed.  In the process, <code class="language-plaintext highlighter-rouge">createdocs.py</code> reads each file and fixes up its links to point to the proper place in the new site structure.  This is so pages that link to other pages in the same repository will continue to work in the final documentation, even if the pages fall in different sites.</li>
 </ol>
 
 <p>After the <code class="language-plaintext highlighter-rouge">createdocs.py</code> script is finished, control goes back to the workflow and it:</p>
@@ -528,7 +528,7 @@
 <p>The <code class="language-plaintext highlighter-rouge">docs</code> repository has the following folder structure:</p>
 <ul>
   <li><code class="language-plaintext highlighter-rouge">.github</code>: This folder contains the GitHub workflow that runs the documentation build process.  It also contains a folder called <code class="language-plaintext highlighter-rouge">workflows</code> which contains the actual workflow definition.  This is the file that is run when you click the “Actions” tab on the GitHub page for the <code class="language-plaintext highlighter-rouge">docs</code> repository.</li>
-  <li><code class="language-plaintext highlighter-rouge">latestsrc</code>: Files selected by <code class="language-plaintext highlighter-rouge">sitedefinitions.json</code> to be in the documentation sites are initially copied here.  Think of this as the raw documentation that will be turned into actual HTML site.  This is checked into git so that changes can be tracked.</li>
+  <li><code class="language-plaintext highlighter-rouge">latestsrc</code>: Files selected by <a href="https://github.com/delph-in/docs/blob/main/sitesdefinitions.json"><code class="language-plaintext highlighter-rouge">sitedefinitions.json</code></a> to be in the documentation sites are initially copied here.  Think of this as the raw documentation that will be turned into actual HTML site.  This is checked into git so that changes can be tracked.</li>
   <li><code class="language-plaintext highlighter-rouge">latestsites</code>: Jekyll takes the raw input from <code class="language-plaintext highlighter-rouge">latestsrc</code> and turns it into a real HTML site in this folder. This folder contains the latest version of the documentation sites.  It is the output of the workflow and is checked into git, so that differences between versions can be seen.  It is the folder that is served by GitHub pages.</li>
   <li><code class="language-plaintext highlighter-rouge">sitescripts</code>: Contains the python scripts that are run by the workflow to build the documentation sites.  It also contains files that start with <code class="language-plaintext highlighter-rouge">template_</code> which are some of the template files needed by Jekyll to build the sites. The <code class="language-plaintext highlighter-rouge">sitescripts/site_template_standard</code> folder contains the rest of the files used by Jekyll. The <code class="language-plaintext highlighter-rouge">sitescripts/site_template_standard</code> folder is copied into the <code class="language-plaintext highlighter-rouge">latestsites</code> folder, once for each site built.</li>
   <li><code class="language-plaintext highlighter-rouge">sitescripts/testdata</code>: Contains some test data that is used by the workflow to test the documentation build process.  It is not used in the actual documentation build process.</li>
@@ -539,7 +539,7 @@
 <p>There are also some markdown (<code class="language-plaintext highlighter-rouge">.md</code>) files in the root of the <code class="language-plaintext highlighter-rouge">docs</code> repository that get included in the documentation (such as this file).  This is where pages that aren’t really appropriate in the WIKI should go.  For example <code class="language-plaintext highlighter-rouge">MatrixDocsOverview.md</code> refers to navigation that isn’t there when you are browsing the wiki directly, it is solely used in the documentation site. The documentation reference files are here instead of in the WIKI to make them discoverable by people browsing the docs site.</p>
 
 <h2 id="defining-the-documentation-structure">Defining the Documentation Structure</h2>
-<p><code class="language-plaintext highlighter-rouge">sitesdefinitions.json</code> is the key file in this whole process. A simplified version looks like this:</p>
+<p><a href="https://github.com/delph-in/docs/blob/main/sitesdefinitions.json"><code class="language-plaintext highlighter-rouge">sitesdefinitions.json</code></a> is the key file in this whole process. A simplified version looks like this:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>{
   "Comments": [
@@ -580,7 +580,7 @@
 }
 </code></pre></div></div>
 <h3 id="sourcerepositories">SourceRepositories</h3>
-<p>The <code class="language-plaintext highlighter-rouge">SourceRepositories</code> section declares what repositories will be used to populate the content of the site. Not everything from these repositories is included in the final sites, just the files listed in <code class="language-plaintext highlighter-rouge">sitedefinitions.json</code>.</p>
+<p>The <code class="language-plaintext highlighter-rouge">SourceRepositories</code> section declares what repositories will be used to populate the content of the site. Not everything from these repositories is included in the final sites, just the files listed in <a href="https://github.com/delph-in/docs/blob/main/sitesdefinitions.json"><code class="language-plaintext highlighter-rouge">sitedefinitions.json</code></a>.</p>
 <ul>
   <li><code class="language-plaintext highlighter-rouge">key</code> is the name that will be used by the <code class="language-plaintext highlighter-rouge">SrcDir</code> field in every page in the <code class="language-plaintext highlighter-rouge">Pages</code> section to refer to the repository.  It must match the directory name where the repository got cloned by the workflow.</li>
   <li><code class="language-plaintext highlighter-rouge">Repository</code> is the name of the repository in Github.  If it is a Wiki, replace the dot in the name (delph-in/docs.wiki) with a slash (delph-in/docs/wiki)</li>
@@ -711,7 +711,7 @@ AssertionError
 
 <p>Running in test mode is useful for debugging the script by placing interesting edge cases, etc into the <code class="language-plaintext highlighter-rouge">testdata</code> folder and referencing them from the <code class="language-plaintext highlighter-rouge">testsitesdefinitions.json</code> file.</p>
 
-<p>Last update: 2023-03-27 by EricZinda [<a href="https://github.com/delph-in/docs/edit/main/DelphinDocsReference.md">edit</a>]</p>
+<p>Last update: 2023-03-28 by EricZinda [<a href="https://github.com/delph-in/docs/edit/main/DelphinDocsReference.md">edit</a>]</p>
 
         
       </section>
