@@ -18,7 +18,7 @@ function loadJSON(path, success, error) {
   xhr.open('GET', path, true);
   xhr.send();
 }
-const indexPath = "https://blog.inductorsoftware.com/docsproto/index.json";
+const indexPath = "https://delph-in.github.io/docs/index.json";
 loadJSON(indexPath, myData, myError);
 
 var idx;
@@ -32,7 +32,7 @@ function myError(Error)
     console.log(`Error retrieving ${indexPath}: ${Error}`)
 }
 
-const refToTeaserPath = "https://blog.inductorsoftware.com/docsproto/refToTeaser.json";
+const refToTeaserPath = "https://delph-in.github.io/docs/refToTeaser.json";
 loadJSON(refToTeaserPath, refToTeaserData, myError);
 var refToTeaser;
 function refToTeaserData(Data)
