@@ -25,6 +25,14 @@ def reset_sites(latest_src_path, latest_sites_path):
     os.mkdir(latest_sites_path)
 
 
+def copy_lunr(root_address, site_src_path):
+    target_directory = os.path.join(site_src_path, "assets/js/lunr")
+    template = get_template("template_lunr-en.js")
+    # Can't use the normal template {} format since this is javascript
+    value = template.replace("##{SiteAbsoluteRootUrl}##", root_address)
+    write_template(target_directory, "lunr-en.js", value)
+
+
 def copy_root_redirector(latest_sites_path):
     template = get_template("root_redirector.html")
     write_template(latest_sites_path, "index.html", template)
@@ -52,6 +60,9 @@ def create_blank_site(site_definition, root_address, site_name, pages_definition
 
     # Create the index.html page for the site
     create_index(site_path, root_address, site_definition, pages_definitions)
+
+    # Copy the lunr search js which has a reference to the global index
+    copy_lunr(root_address, site_path)
 
 
 def get_template(name):
