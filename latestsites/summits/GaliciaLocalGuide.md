@@ -45,6 +45,7 @@ Spanish people eat somewhat late compared to many other countries. Lunch usually
 - churrasco (a mix of grilled pieces, cheap but not the best cuts usually)
 - chorizo (grilled sausage; try the picante one)
 - empanada (pie, comes either with meat or fish)
+- arroz/arroces (rice dish similar to paella, usually with various seafood; usually served only in specialized restaurants)
 - tarta de queso (cheesecake; it is absolutely excellent here, make sure to try it for dessert)
 
 Most of the above is traditionally served with potatoes and bread. If that sounds a bit heavy (which it is), you can add an "ensalada mixta" in many places, that'll be some tomatoes and lettuce (with the inevitable tuna on top which you can easily remove or ask them not to add).
@@ -96,6 +97,8 @@ Some recommendations for where to get breakfast and/or coffee beyond the traditi
 - [Valentín](https://goo.gl/maps/WYHX5PmBhBVAgwgP8) -- Old Town/city center, open on Sundays
 - [Siboney](https://goo.gl/maps/2SmtszZoHSYKprwp7) -- city center; large variety of coffee and tea, opens at 8 (closed on Sundays).
 - [Bambú](https://goo.gl/maps/Pihze76F4MbEyZFX9) -- city center; open on Sundays, breakfast + smoothies, ice cream
+- [Debén](https://goo.gl/maps/69RgJwAePez3Hwhy8) -- city center; open on Sundays, bakery and breakfast.
+- [Tahona](https://goo.gl/maps/bgeH8RaqxDMMn8u4A) -- city center; open on Sundays, bakery and breakfast.
 - [WACO cofee](https://g.page/waco-coffee?share) -- city center, specialized coffee place.
 - [Bonilla A La Vista](https://goo.gl/maps/PkDNewF1tDxL7GfT9) -- traditional churros with hot chocolate, for those unopposed to a rich, sweet breakfast (opens at 8 am). You order "chocolate" and some number of churros, e.g. 4 or 8 or 12 or... You won't be able to finish the chocolate, so don't order a large one :).
 - [Cafe Vecchio](https://g.page/VecchioRR?share) -- for those wanting more of a "Starbucks" experience (including Starbucks prices...). Larger cups, a certain style of drinks, smoothies... Only croissant etc., for food.
@@ -137,6 +140,9 @@ NB2: Below I list mainly affordable places where I myself often go (10-20 euros 
 - [Tarabelo](https://goo.gl/maps/aoLbjeCdQ7yfc2CL9) - City center. Traditional Galician place.
 - [O'Tanagra](https://goo.gl/maps/6HaWaSguucc6SDxo9) - City center. Seafood, including large seafood platters.
 - [O Lagar da Estrella](https://goo.gl/maps/HxMDGay53HPYop8f9) - Fine dining (amazing), city center
+- [Terreo](https://goo.gl/maps/kYsyMkcoyv8cd5Bv8) - Has a Michelin star or something. Rice dishes and some other things. I heard it's excellent; never been myself!
+- [Puerta del Sol](https://goo.gl/maps/vKe6MtxMuFdtojuX9) - City center but not in the most busy streets. Traditional, cheap, and very decent.
+- [Millo](https://goo.gl/maps/mNu2ubAYKK4nRVKp9) - Fine dining, city center but not in the most busy streets. Their door is always closed which I take to be a sign of reservations being required.
 - [Raxaria As Neves](https://goo.gl/maps/5rSdp8dVPV8vH4aC6) - far from the center but close to the karaoke ;). All-you-can-eat raxo (plus a salad, some appetizers, dessert...), and it is the best raxo I've ever eaten. Sadly, their house red wine is not drinkable (white is better) but on the plus side, they also serve the red in the form of drinkable (all-you-can-drink!) sangria. 
 - ...and many, many more! 
 
@@ -155,10 +161,11 @@ NB2: Kebab in particular is to be avoided (apart from the couple places I list b
 - [Sibuya](https://goo.gl/maps/JYLNAiLciA1UTXjY7) - Sushi, city center
 - [Koh Lanta](https://g.page/kohlantacoruna?share) - Asian fusion, city center
 - [Hellas](https://goo.gl/maps/ba5qfq4Y9QuQJHdb9) - Greek (with emphasis on pie, as I recall). City center/Marina.
+- [Al Wahab](https://goo.gl/maps/Rac9mku2rkQr29XaA) - Lebanese. City center but not in the most busy streets.
 - [Newroz kebab](https://g.page/newrozkebappizza?share) - Turkish, Halal (a bit out of the way but a nice restaurant).
 - [Stenbol Kebab](https://goo.gl/maps/Tc4grUuotWAXcbVM9) - City center/Juan Florez. Simple halal joint.
 
 # Thanks
 Thanks to my wonderful colleagues from [Grupo LyS](https://www.grupolys.org/) for helping me with this guide!
 
-Last update: 2022-12-22 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/GaliciaLocalGuide/_edit)]{% endraw %}
+Last update: 2023-04-11 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/GaliciaLocalGuide/_edit)]{% endraw %}

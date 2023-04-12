@@ -26,8 +26,7 @@ Please add times **in UTC**:
 |Ann Copestake|June 26-30|online only, not full time||
 |Petter Haugereid|June 26-30|in person||
 |Eric Zinda|June 26-30|in person||
-
 | ... | ... | ... |
 | "Virtual-Tarou" | June 26-30 | Virtual, every day from 10:00-17:00 UTC  | This is an example, with times, for a virtual participant |
 
-Last update: 2023-04-03 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/GaliciaParticipants/_edit)]{% endraw %}
+Last update: 2023-04-11 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/GaliciaParticipants/_edit)]{% endraw %}
