@@ -91,6 +91,8 @@ You can also just do it automatically:
 
     fftb -g grm.dat new/profile --gold gold/profile --auto 
 
+For beginners, here is a tutorial about manually updating items which are easy to update and yet were missed by the automatic tool.
+
 ## Training a ranking model
 
 **ffmaster** and **ffworker** are in **acetools**. The master can have
@@ -269,4 +271,4 @@ can't find the environment variable LOGNAME. To set it use
 
     export LOGNAME=myuser
 
-Last update: 2022-07-22 by Francis Bond [[edit](https://github.com/delph-in/docs/wiki/FftbTop/_edit)]{% endraw %}
+Last update: 2023-04-26 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/FftbTop/_edit)]{% endraw %}
