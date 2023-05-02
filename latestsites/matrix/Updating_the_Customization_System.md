@@ -88,7 +88,7 @@ the changes.
 You can install an instance of the Grammar Customization System in a
 test location for local development using matrix.py
 
-    `python matrix.py install username@patas.ling.washington.edu:/home/www-matrix/html/name-of-instance`
+    `python matrix.py install username@patas.ling.washington.edu:/home2/www-matrix/html/name-of-instance`
 
 **NB:** AS of June 2021, new instances (with new names, that is) result in the 500-Internal-Server error and need to be fixed manually by the UW admin.
 Hopefully this will be resolved soon. In the meantime, your options are reusing one of the existing instances (e.g. `trunktest`) or simply copying all the files somewhere on your own server and figuring out yourself how to set that server up... (The `install` script simply copies files.)
@@ -222,4 +222,4 @@ fine)
 -- You should see the debugger attach successfully and should be able to
 set breakpoints and step through the execution.
 
-Last update: 2021-06-07 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/Updating_the_Customization_System/_edit)]{% endraw %}
+Last update: 2023-05-01 by emilymbender [[edit](https://github.com/delph-in/docs/wiki/Updating_the_Customization_System/_edit)]{% endraw %}
