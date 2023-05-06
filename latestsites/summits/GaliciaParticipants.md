@@ -29,7 +29,8 @@ Please add times **in UTC**:
 |Luis Morgado da Costa|June 26-30|(most probably) online||
 |Tara Wueger|June 26-30|in person||
 |Keren Ruditsky|June 26-30|in person||
+|Petya Osenova|June 26-30|online, not full time||
 | ... | ... | ... |
 | "Virtual-Tarou" | June 26-30 | Virtual, every day from 10:00-17:00 UTC  | This is an example, with times, for a virtual participant |
 
-Last update: 2023-05-01 by Keren Ruditsky [[edit](https://github.com/delph-in/docs/wiki/GaliciaParticipants/_edit)]{% endraw %}
+Last update: 2023-05-05 by Petya Osenova [[edit](https://github.com/delph-in/docs/wiki/GaliciaParticipants/_edit)]{% endraw %}
