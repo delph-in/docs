@@ -14,7 +14,7 @@ Please add times **in UTC**:
 -------|------ | ----- | ---------|
 |Olga Zamaraeva | June 26-30 and June 23 workshop | in person, 8:00-17:00 UTC | Looking forward to seeing everyone in A Coruña!|
 |Francis Bond|June 26-30 and June 23 workshop | in person, 8:00-17:00 UTC ||
-|Alexandre Rademaker|June 26-30 and June 23 workshop | hopefully in person, 8:00-17:00 UTC ||
+|Alexandre Rademaker|June 26-30 and June 23 workshop | online, 8:00-17:00 UTC | Sadly, I cannot attend in person; I will try to make all online sessions.|
 |John Carroll | June 26-30 (arriving June 23 midday) | in person ||
 |Emily M. Bender|June 26-30| in person ||
 |Berthold Crysmann|June 26-30| in person ||
@@ -33,4 +33,4 @@ Please add times **in UTC**:
 | ... | ... | ... |
 | "Virtual-Tarou" | June 26-30 | Virtual, every day from 10:00-17:00 UTC  | This is an example, with times, for a virtual participant |
 
-Last update: 2023-05-05 by Petya Osenova [[edit](https://github.com/delph-in/docs/wiki/GaliciaParticipants/_edit)]{% endraw %}
+Last update: 2023-05-11 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/GaliciaParticipants/_edit)]{% endraw %}
