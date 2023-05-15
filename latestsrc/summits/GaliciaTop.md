@@ -13,7 +13,7 @@ The local organization is handled by Olga Zamaraeva and the [LyS Group](http://w
 
 ## Optional pre-summit workshop
 
-A pre-summit [workshop on Lexical Resources](https://delph-in.github.io/docs/summits/GaliciaLexicalResources) is going to be on Friday, June 23, followed by the [San Juan party](https://www.spain.info/es/agenda/hogueras-san-juan-a-coruna/). 
+A pre-summit [workshop on Lexical Resources](https://delph-in.github.io/docs/summits/GaliciaLexicalResources) is going to be on Friday, June 23, mainly dealing with integrating wordnet lexicons with HPSG grammars, led by Francis Bond and Dan Flickinger.
 
 # Program
 
@@ -60,4 +60,4 @@ The San Juan party is the biggest holiday in A Coruña, when the whole town is o
 
 Please take a look at the [Local Guide](https://delph-in.github.io/docs/summits/GaliciaLocalGuide) for some info about the weather, sightseeing, eating out etc.
 
-Last update: 2023-04-11 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/GaliciaTop/_edit)]{% endraw %}
+Last update: 2023-05-14 by Francis Bond [[edit](https://github.com/delph-in/docs/wiki/GaliciaTop/_edit)]{% endraw %}
