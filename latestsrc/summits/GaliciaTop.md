@@ -25,7 +25,7 @@ Note: We will adopt a "Spanish" schedule, starting at 10-10:30 AM and running ti
 
 # Location
 
-The meeting will take place at the University's [Rectorate](https://goo.gl/maps/erV9Jsdfr3YUJ22f9), which is a nice building near the old town. The old town has some options for coffee and lunch, with lots more options for dinner available in the newer city center, 15-20-minute walk from the venue. The details about coffee and lunch breaks are TBA. We will mainly be in [Sala del Consello de Goberno](https://www.udc.es/es/goberno/equipo_reitoral/xerencia/servizos/patrimonio_inventario/patrimonio/sala_consello_goberno/), and on Thursday and Friday we will also have Sala Xosé Portela (same building), for some of the SIGs.
+The meeting will take place at the University's [Rectorate](https://goo.gl/maps/erV9Jsdfr3YUJ22f9), which is a nice building near the old town. The old town has some options for coffee and lunch, with lots more options for dinner available in the newer city center, 15-20-minute walk from the venue. The details about coffee and lunch breaks are TBA. We will mainly be in [Sala del Consello de Goberno](https://www.udc.es/es/goberno/equipo_reitoral/xerencia/servizos/patrimonio_inventario/patrimonio/sala_consello_goberno/), and on Thursday and Friday we will also have Sala Xosé Portela (same building), for some of the SIGs. (On Thursday, we will not have the Sala del Consello de Goberno because it will be used to host a meeting of precisely the Consello de Goberno, so we will use yet another room, namely Sala de Xuntas.)
 
 # Travel
 
@@ -60,4 +60,4 @@ The San Juan party is the biggest holiday in A Coruña, when the whole town is o
 
 Please take a look at the [Local Guide](https://delph-in.github.io/docs/summits/GaliciaLocalGuide) for some info about the weather, sightseeing, eating out etc.
 
-Last update: 2023-05-14 by Francis Bond [[edit](https://github.com/delph-in/docs/wiki/GaliciaTop/_edit)]{% endraw %}
+Last update: 2023-05-19 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/GaliciaTop/_edit)]{% endraw %}

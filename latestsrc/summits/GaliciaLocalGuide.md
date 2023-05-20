@@ -85,17 +85,17 @@ You can ask for tap water (agua del grifo) and I am told any place will be oblig
 
 ## Coffee, tea, and breakfast.
 
-People do not eat breakfast here, and no hot food of any kind is usually available at cafes till 11 am or so (some exceptions are listed below). Things like croissant etc. are of course available but sometimes a cafe will just have a plate of croissants and nothing else. A traditional breakfast is a toast with either olive oil and jamon or with butter and jam. Another (slightly more decadent) traditional breakfast is rich hot chocolate with churros (deep fried dough sticks).
+People do not eat breakfast here, and no hot food of any kind is usually available at cafes till 11 am or so. Things like croissant etc. are of course available but sometimes a cafe will just have a plate of croissants and nothing else. A traditional breakfast is a toast with either olive oil and jamon or with butter and jam. Toast is usually available early in the morning (along with croissant). Another (slightly more decadent) traditional breakfast is rich hot chocolate with churros (deep fried dough sticks).
 
 A latte is called "café con leche" (it is going to be much smaller than the American latte; order a "grande", and what you get is still relatively small). An espresso without milk is called "café solo". I believe you can also order an "Americano" though I am not really sure what that is here (I'll find out). You can usually order "para llevar" (to go), though perhaps not all places do this.
 
-Some recommendations for where to get breakfast and/or coffee beyond the traditional café con leche:
+Some recommendations for where to get breakfast (at least croissant and/or toast) and/or coffee beyond the traditional café con leche:
 
-- [Momos](https://goo.gl/maps/oKaoe7erUKWwdrsk7) - near the summit venue, opens at 8 AM and might even have tortilla.
+- [Momos](https://goo.gl/maps/oKaoe7erUKWwdrsk7) - near the summit venue, opens at 8 AM though the tortilla I think only starts at 11.
 - [San Franciso](https://goo.gl/maps/kmG5VGpktrmAZuVN7) - near the summit venue, opens at 7 AM, offers a variety of baked goods.
 - [Taberna del Chipirón](https://goo.gl/maps/mFXFcVzkHqexe6vg9) -- near the summit venue, opens 7 AM (coffee and croissant only).
 - [Valentín](https://goo.gl/maps/WYHX5PmBhBVAgwgP8) -- Old Town/city center, open on Sundays
-- [Siboney](https://goo.gl/maps/2SmtszZoHSYKprwp7) -- city center; large variety of coffee and tea, opens at 8 (closed on Sundays).
+- [Siboney](https://goo.gl/maps/2SmtszZoHSYKprwp7) -- city center; large variety of coffee and tea, also of toast, smoothies. Opens at 8 (closed on Sundays).
 - [Bambú](https://goo.gl/maps/Pihze76F4MbEyZFX9) -- city center; open on Sundays, breakfast + smoothies, ice cream
 - [Debén](https://goo.gl/maps/69RgJwAePez3Hwhy8) -- city center; open on Sundays, bakery and breakfast.
 - [Tahona](https://goo.gl/maps/bgeH8RaqxDMMn8u4A) -- city center; open on Sundays, bakery and breakfast.
@@ -168,4 +168,4 @@ NB2: Kebab in particular is to be avoided (apart from the couple places I list b
 # Thanks
 Thanks to my wonderful colleagues from [Grupo LyS](https://www.grupolys.org/) for helping me with this guide!
 
-Last update: 2023-04-11 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/GaliciaLocalGuide/_edit)]{% endraw %}
+Last update: 2023-05-19 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/GaliciaLocalGuide/_edit)]{% endraw %}
