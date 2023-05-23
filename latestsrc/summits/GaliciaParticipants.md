@@ -32,7 +32,11 @@ Please add times **in UTC**:
 |Petya Osenova|June 26-30|online, not full time||
 |Lorena Suárez Allegue|June 26-30|In person||
 |Chunlei Yang | June 26-30|online, only certain sssions ||
+|Chun Hei Lo|June 26-30 and June 23 workshop|in person (online for workshop)|Thank Guy for the invitation!||
+|Vipasha Bansal| June 26-30| Online only, before 11am UTC||
+|Liz Conrad| June 26-29|Online only, 13:00-17:00 UTC ||
+|David Moeljadi|June 26-30|online only, not full time||
 | ... | ... | ... |
 | "Virtual-Tarou" | June 26-30 | Virtual, every day from 10:00-17:00 UTC  | This is an example, with times, for a virtual participant |
 
-Last update: 2023-05-20 by Chunlei Yang [[edit](https://github.com/delph-in/docs/wiki/GaliciaParticipants/_edit)]{% endraw %}
+Last update: 2023-05-23 by David Moeljadi [[edit](https://github.com/delph-in/docs/wiki/GaliciaParticipants/_edit)]{% endraw %}

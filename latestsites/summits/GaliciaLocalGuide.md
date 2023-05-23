@@ -4,11 +4,11 @@ Galicia is a cool and rainy region. A Coruña in particular is surrounded by the
 
 ## Swimming
 
-Swimming in the ocean is possible (there are ample beaches all around the city, and people do swim) but the water is going to be very cold (think Fairhaven summit dip). Enjoying the beach is recommended in any case! Note that in the summer, the sun is still out until after 10 PM so you can enjoy the beach even after working hours.
+Swimming in the ocean is possible (there are ample beaches all around the city, and people do swim) but the water is going to be very cold (think Fairhaven summit dip). There is a swimming spot right across the NH Collection hotel, namely across [the gym](https://goo.gl/maps/t1K2BN5V2NjWCDqd8?coh=178573&entry=tt) entrance not far from the summit venue, though that's not a beach, just a water entry point. Enjoying [the beach](https://goo.gl/maps/T8KGKbMdnKFbUtoi6?coh=178573&entry=tt) is recommended in any case! Note that in the summer, the sun is still out until after 10 PM so you can enjoy the beach even after working hours. 
 
 # Sightseeing and other activities
 
-In my opinion, the main attraction in town is the large seaside park where the landmark [Torre de Hércules](https://g.page/torredehercules?share) is located. Make sure you try to go there (we can plan this as a social activity on one of the evenings). Other than that, this is the town with one of [Europe's longest seaside walks](https://goo.gl/maps/egjwGTae4aUewDkX8), entry points to which can be found in many places in the city, including close to the conference venue. 
+In my opinion, the main attraction in town is the large seaside park where the landmark [Torre de Hércules](https://g.page/torredehercules?share) is located. Make sure you try to go there (we can plan this as a social activity on one of the evenings). There are a couple of beaches there, too. Other than that, this is the town with one of [Europe's longest seaside walks](https://goo.gl/maps/egjwGTae4aUewDkX8), entry points to which can be found in many places in the city, including close to the conference venue. This walk will also lead you to the aforementioned park.
 
 Those coming with children will probably enjoy a visit to the local Aquarium. It doesn't have too many animals (except fish; they do have lots of fish); instead it mainly features interesting educational models. The Aquarium is located very close to the Torre de Hercules.
 
@@ -54,6 +54,11 @@ Most of the above is traditionally served with potatoes and bread. If that sound
 
 You have probably heard about the Spanish *tapa* culture. A tapa (meaning literally "a cover/lid") historically was a small plate of food which would be put on your mug when you order a drink. The purpose of that was for you to eat something along with your drink and thus not become drunk too quickly. This culture lives today, and in some places in Spain, you can just order a drink and get a sandwich with it for free. But cultures in Spain are very different, and in Coruña, free tapas aren't really a thing, so do not expect them. You have to order "tapas" (small dishes) from the menu, in an ordinary fashion. A larger portion of the same thing would be called "ración" (those can be really big, depending on the restaurant). So you are basically just choosing what you want and how much, and then order either a "tapa" or a "ración" of that thing. They *will* bring you a small plate of nut mixture or olives or chips, instead of more hearty tapas, for free, if you order any drink. Occasionally, depending on the restaurant or if the barman likes you, you might get something else but don't count on that.
 
+Below a couple places which I believe do offer somewhat more substantial tapas with your drink:
+
+- [Concept Store](https://goo.gl/maps/1AksdhUiLVS8JUm36?coh=178573&entry=tt) - a fancy wine bar (good selection of Spanish wines, more expensive than in the traditional places, up to 5 euros/glass). They have very good quality tapas (excellent olives, cheese etc) but are not very generous with them. I am sure if you ask them to please bring more, and offer to pay for them, they will.
+- [Jamoneria el Pinar](https://goo.gl/maps/Se8BdTuqSeURLzKs9?coh=178573&entry=tt) -- a traditional cheese/ham place; not sure if they always do this but they did bring me a rather big jamon sandwich with my glass of wine at least on two occasions.
+
 ### Tortilla
 
 Tortilla in Spain refers to a dish made of potatoes and eggs. It's excellent. It's the most popular thing to eat here casually. People here eat it any time of day. It's available in most restaurants and in many cafes/coffee shops. You can usually order a tapa or a whole thing (serves 4-6 people), though sometimes only one of these options is available. Tortilla comes in different styles, which differ in particular by the degree to which the eggs are cooked (from pretty much fully cooked to [really runny](https://www.elespanol.com/cocinillas/recetas/aperitivos-y-entrantes/20211111/tortilla-patata-estilo-betanzos-receta-no-fallar/1002493800596_30.html); the latter is sometimes called "tortilla de Betanzos")). Every cafe will serve it in some style; you can't normally choose, it's [like a box of chocolates](https://en.wikipedia.org/wiki/Forrest_Gump). There is such a thing as a [tortilla sandwich](https://www.tasteatlas.com/bocadillo-de-tortilla). Note that the tortilla is a pretty awesome vegetarian option that you can get in pretty much every cafe or restaurant.
@@ -62,11 +67,13 @@ Tortilla in Spain refers to a dish made of potatoes and eggs. It's excellent. It
 
 ### Beer
 
-Despite the stereotype, people here do not drink much wine and really prefer beer. They have a local beer, called Estrella Galicia, which is going to be the default option anywhere you go. (There is even an [Estrella Galicia museum](https://mundoestrellagalicia.es/) located slightly outside of town, accessible by regular town bus #11). The default version of Estrella Galicia served everywhere is a lager. If you want to order that (like a true local), order a "caña". That means a glass of the default draft. If you say "Estrella", they will bring you a bottle (for some reason). If you want some other beer, ask the barman about the specific thing you want, and good luck. In principle, places called "cervecerias" might have a better selection of beers, including some German and Belgian ones, but don't get your hopes too high. Here's a couple of suggestions, though they are not in the Old Town:
+Despite the stereotype, people here do not drink much wine and really prefer beer. They have a local beer, called Estrella Galicia, which is going to be the default option anywhere you go. (There is even an [Estrella Galicia museum](https://mundoestrellagalicia.es/) located slightly outside of town, accessible by regular town bus #11). The default version of Estrella Galicia served everywhere is a lager. If you want to order that (like a true local), order a "caña". That means a glass of the default draft. If you say "Estrella", they will bring you a bottle (for some reason). If you want some other beer, ask the barman about the specific thing you want, and good luck. In principle, places called "cervecerias" might have a better selection of beers, including some German and Belgian ones, but don't get your hopes too high. Here's a couple of suggestions, though they are not in the Old Town and are very simple, traditional, non-fancy places:
 
 - [Meliora](https://g.page/cerveceriameliora?share) - has Leffe Brun and Franziskaner wheat beer (among a few other things). The owner speaks great English ;).
 - [A Cova Celtica](https://goo.gl/maps/NZojhMS7yG4Ja6Hv5) - has Leffe Rouge(!!!) as well as some other stuff.
 - [Malte](https://g.page/cervezotecamalte?share) - has stuff (and also food, unlike the two options above).
+
+There are also plenty of more expensive, fashionable places which you will easily detect by their looks.
 
 ### Wine
 
@@ -98,6 +105,7 @@ Some recommendations for where to get breakfast (at least croissant and/or toast
 - [Siboney](https://goo.gl/maps/2SmtszZoHSYKprwp7) -- city center; large variety of coffee and tea, also of toast, smoothies. Opens at 8 (closed on Sundays).
 - [Bambú](https://goo.gl/maps/Pihze76F4MbEyZFX9) -- city center; open on Sundays, breakfast + smoothies, ice cream
 - [Debén](https://goo.gl/maps/69RgJwAePez3Hwhy8) -- city center; open on Sundays, bakery and breakfast.
+- [Inzo Coffee Wizards](https://goo.gl/maps/UmP8BWq3LQUionyD7?coh=178573&entry=tt) -- city center, some fancy place, I haven't set foot but maybe someone wants to check it out :). 
 - [Tahona](https://goo.gl/maps/bgeH8RaqxDMMn8u4A) -- city center; open on Sundays, bakery and breakfast.
 - [WACO cofee](https://g.page/waco-coffee?share) -- city center, specialized coffee place.
 - [Bonilla A La Vista](https://goo.gl/maps/PkDNewF1tDxL7GfT9) -- traditional churros with hot chocolate, for those unopposed to a rich, sweet breakfast (opens at 8 am). You order "chocolate" and some number of churros, e.g. 4 or 8 or 12 or... You won't be able to finish the chocolate, so don't order a large one :).
@@ -168,4 +176,4 @@ NB2: Kebab in particular is to be avoided (apart from the couple places I list b
 # Thanks
 Thanks to my wonderful colleagues from [Grupo LyS](https://www.grupolys.org/) for helping me with this guide!
 
-Last update: 2023-05-19 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/GaliciaLocalGuide/_edit)]{% endraw %}
+Last update: 2023-05-22 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/GaliciaLocalGuide/_edit)]{% endraw %}
