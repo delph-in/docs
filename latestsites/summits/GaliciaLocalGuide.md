@@ -126,11 +126,11 @@ Galicians mostly do not tip, though there are exceptions. If you do tip, 1 euro 
 
 # Small purchases
 
-If you need anything, whatever that might be, e.g. scotch tape or a sewing kit or a cheap pan or plate, or literally anything, the best places to look are not supermarkets (unlike in the U.S.) but rather the so called Chinese stores ("bazars"). Those can be found throughout the city, and have literally everything you can think about.
+If you need anything, whatever that might be, e.g. scotch tape or a sewing kit or a cheap pan or plate, or literally anything, the best places to look are not supermarkets (unlike in the U.S.) but rather the so called Chinese stores ("bazars"). Those can be found throughout the city, and have literally anything you can think about (I am quite curious about how they do logistics).
 
-## Restaurant suggestions
+# Restaurant suggestions
 
-### Galician
+## Galician
 
 NB: You can eat pretty much anywhere and it'll be great. Below are just some of my and my colleagues and friends' favorites. The list starts in the Old Town and then moves West along the map, through the main plaza and the city center.
 
@@ -154,7 +154,7 @@ NB2: Below I list mainly affordable places where I myself often go (10-20 euros 
 - [Raxaria As Neves](https://goo.gl/maps/5rSdp8dVPV8vH4aC6) - far from the center but close to the karaoke ;). All-you-can-eat raxo (plus a salad, some appetizers, dessert...), and it is the best raxo I've ever eaten. Sadly, their house red wine is not drinkable (white is better) but on the plus side, they also serve the red in the form of drinkable (all-you-can-drink!) sangria. 
 - ...and many, many more! 
 
-### Non-Galician
+## Non-Galician
 
 NB: Go to non-Galician restaurants if you must; the ones below are I think OK! But unlike with Galician restaurants, these are hit and miss.
 
@@ -176,4 +176,4 @@ NB2: Kebab in particular is to be avoided (apart from the couple places I list b
 # Thanks
 Thanks to my wonderful colleagues from [Grupo LyS](https://www.grupolys.org/) for helping me with this guide!
 
-Last update: 2023-05-22 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/GaliciaLocalGuide/_edit)]{% endraw %}
+Last update: 2023-05-23 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/GaliciaLocalGuide/_edit)]{% endraw %}
