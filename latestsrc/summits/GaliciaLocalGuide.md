@@ -1,6 +1,6 @@
 {% raw %}# Weather
 
-Galicia is a cool and rainy region. A Coruña in particular is surrounded by the ocean, and this means strong and cold winds. Summer temperatures here rarely raise above 26-28C (80F), and if you go for a walk along the coast, you might want to have a jacket with you even on a warm day. It doesn't rain *that* much (despite what the locals might say) but do bring something for the rain. Do not expect stereotypical "Spanish" weather. 
+Galicia is a cool and rainy region. A Coruña in particular is [surrounded by the ocean](https://farm8.staticflickr.com/7180/6904255206_547be8e272.jpg), and this means strong and cold winds. Summer temperatures here rarely raise above 26-28C (80F), and if you go for a walk along the coast, you might want to have a jacket with you even on a warm day. It doesn't rain *that* much (despite what the locals might say) but do bring something for the rain. Do not expect stereotypical "Spanish" weather. 
 
 ## Swimming
 
@@ -92,7 +92,7 @@ You can ask for tap water (agua del grifo) and I am told any place will be oblig
 
 ## Coffee, tea, and breakfast.
 
-People do not eat breakfast here, and no hot food of any kind is usually available at cafes till 11 am or so. Things like croissant etc. are of course available but sometimes a cafe will just have a plate of croissants and nothing else. A traditional breakfast is a toast with either olive oil and jamon or with butter and jam. Toast is usually available early in the morning (along with croissant). Another (slightly more decadent) traditional breakfast is rich hot chocolate with churros (deep fried dough sticks).
+People do not eat breakfast here, and no hot food of any kind is usually available at cafes till 11 am or so (a few exceptions listed below, e.g. Siboney or Bo&Go). Things like croissant etc. are of course available but sometimes a cafe will just have a plate of croissants and nothing else. A traditional breakfast is a toast with either olive oil and jamon or with butter and jam. Toast is usually available early in the morning (along with croissant). Another (slightly more decadent) traditional breakfast is rich hot chocolate with churros (deep fried dough sticks).
 
 A latte is called "café con leche" (it is going to be much smaller than the American latte; order a "grande", and what you get is still relatively small). An espresso without milk is called "café solo". I believe you can also order an "Americano" though I am not really sure what that is here (I'll find out). You can usually order "para llevar" (to go), though perhaps not all places do this.
 
@@ -102,7 +102,10 @@ Some recommendations for where to get breakfast (at least croissant and/or toast
 - [San Franciso](https://goo.gl/maps/kmG5VGpktrmAZuVN7) - near the summit venue, opens at 7 AM, offers a variety of baked goods.
 - [Taberna del Chipirón](https://goo.gl/maps/mFXFcVzkHqexe6vg9) -- near the summit venue, opens 7 AM (coffee and croissant only).
 - [Valentín](https://goo.gl/maps/WYHX5PmBhBVAgwgP8) -- Old Town/city center, open on Sundays
-- [Siboney](https://goo.gl/maps/2SmtszZoHSYKprwp7) -- city center; large variety of coffee and tea, also of toast, smoothies. Opens at 8 (closed on Sundays).
+- [Bo&Go](https://goo.gl/maps/P1VwE7hysW9SyksS7?coh=178573&entry=tt) -- Marina, close to the conference site, opens at 9, has scrambled eggs with ham (nothing very special, but at the level of a good hotel restaurant). Also has other stuff like bagels, etc.
+- [Gastoff](https://goo.gl/maps/5KjYdy8356N3d5B18?coh=178573&entry=tt) - Marina, close to the conference site. A fast food chain, but it is always open and has some version of eggs for breakfast.
+- [Miss Maruja](https://goo.gl/maps/vgFo2Kh8DwYX54kZ9?coh=178573&entry=tt) - not very far from the center, very pretty cafe with good cakes. They have a variety of nice toast for breakfast. Unique atmosphere.
+- [Siboney](https://goo.gl/maps/2SmtszZoHSYKprwp7) -- city center; large variety of coffee and tea, actual scrambled **eggs**, tortilla, toast, smoothies. Opens at 8 (closed on Sundays).
 - [Bambú](https://goo.gl/maps/Pihze76F4MbEyZFX9) -- city center; open on Sundays, breakfast + smoothies, ice cream
 - [Debén](https://goo.gl/maps/69RgJwAePez3Hwhy8) -- city center; open on Sundays, bakery and breakfast.
 - [Inzo Coffee Wizards](https://goo.gl/maps/UmP8BWq3LQUionyD7?coh=178573&entry=tt) -- city center, some fancy place, I haven't set foot but maybe someone wants to check it out :). 
@@ -111,6 +114,7 @@ Some recommendations for where to get breakfast (at least croissant and/or toast
 - [Bonilla A La Vista](https://goo.gl/maps/PkDNewF1tDxL7GfT9) -- traditional churros with hot chocolate, for those unopposed to a rich, sweet breakfast (opens at 8 am). You order "chocolate" and some number of churros, e.g. 4 or 8 or 12 or... You won't be able to finish the chocolate, so don't order a large one :).
 - [Cafe Vecchio](https://g.page/VecchioRR?share) -- for those wanting more of a "Starbucks" experience (including Starbucks prices...). Larger cups, a certain style of drinks, smoothies... Only croissant etc., for food.
 - [Vazva](https://goo.gl/maps/L2V5PmvywfneT4si8) - somewhat out of the way, but has vegan options.
+- [InGooCo](https://goo.gl/maps/rLBnwHZNxZK8dHeP9?coh=178573&entry=tt) - not in the conference site direction but for those staying here for the weekend, may be a good brunch treat. Fancy toast named after artists :). There is usually a queue on weekends.
 
 ## Ice cream
 Try [Bico de xeado](https://g.page/bico-de-xeado-lamarina?share), a Galician creamery! My favorite flavors are nata (simple cream without vanilla) and fresa (lactose-free strawberry).
@@ -176,4 +180,4 @@ NB2: Kebab in particular is to be avoided (apart from the couple places I list b
 # Thanks
 Thanks to my wonderful colleagues from [Grupo LyS](https://www.grupolys.org/) for helping me with this guide!
 
-Last update: 2023-05-23 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/GaliciaLocalGuide/_edit)]{% endraw %}
+Last update: 2023-05-24 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/GaliciaLocalGuide/_edit)]{% endraw %}
