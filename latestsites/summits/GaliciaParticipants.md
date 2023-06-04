@@ -21,7 +21,7 @@ Please add times **in UTC**:
 |Dan Flickinger|June 26-30 and June 23 workshop| in person ||
 |Michael Goodman|June 26–27?|Virtual 15:00–18:00 UTC|With regrets that I cannot attend in person; hopefully I can make some online sessions.||
 |Carlos Gómez-Rodríguez | June 26-30 | in person | Partial, only some sessions/events||
-|Guy Emerson|June 26-30|in person (hopefully)||
+|Guy Emerson|June 26-30|in person||
 |Chris Curtis|June 26-30|in person (potentially)||
 |Ann Copestake|June 26-30|online only, not full time||
 |Petter Haugereid|June 26-30|in person||
@@ -40,4 +40,4 @@ Please add times **in UTC**:
 | ... | ... | ... | ... |
 | "Virtual-Tarou" | June 26-30 | Virtual, every day from 10:00-17:00 UTC  | This is an example, with times, for a virtual participant |
 
-Last update: 2023-06-01 by Glenn Slayden [[edit](https://github.com/delph-in/docs/wiki/GaliciaParticipants/_edit)]{% endraw %}
+Last update: 2023-06-03 by Guy Emerson [[edit](https://github.com/delph-in/docs/wiki/GaliciaParticipants/_edit)]{% endraw %}
