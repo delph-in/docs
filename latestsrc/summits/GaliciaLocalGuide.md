@@ -92,7 +92,7 @@ You can ask for tap water (agua del grifo) and I am told any place will be oblig
 
 ## Coffee, tea, and breakfast.
 
-People do not eat breakfast here, and no hot food of any kind is usually available at cafes till 11 am or so (a few exceptions listed below, e.g. Siboney or Bo&Go). Things like croissant etc. are of course available but sometimes a cafe will just have a plate of croissants and nothing else. A traditional breakfast is a toast with either olive oil and jamon or with butter and jam. Toast is usually available early in the morning (along with croissant). Another (slightly more decadent) traditional breakfast is rich hot chocolate with churros (deep fried dough sticks).
+People do not eat breakfast here, and no hot food of any kind is usually available at cafes till 11 am or so (a few exceptions listed below, e.g. Siboney or Bo&Go). Things like croissant etc. are usually always available but sometimes a cafe will just have a plate of croissants and nothing else. A traditional breakfast is a toast with either olive oil and jamon or with butter and jam. Toast is usually available early in the morning (along with croissant). Another (slightly more decadent) traditional breakfast is rich hot chocolate with churros (deep fried dough sticks).
 
 A latte is called "café con leche" (it is going to be much smaller than the American latte; order a "grande", and what you get is still relatively small). An espresso without milk is called "café solo". I believe you can also order an "Americano" though I am not really sure what that is here (I'll find out). You can usually order "para llevar" (to go), though perhaps not all places do this.
 
@@ -105,7 +105,7 @@ Some recommendations for where to get breakfast (at least croissant and/or toast
 - [Bo&Go](https://goo.gl/maps/P1VwE7hysW9SyksS7?coh=178573&entry=tt) -- Marina, close to the conference site, opens at 9, has scrambled eggs with ham (nothing very special, but at the level of a good hotel restaurant). Also has other stuff like bagels, etc.
 - [Gastoff](https://goo.gl/maps/5KjYdy8356N3d5B18?coh=178573&entry=tt) - Marina, close to the conference site. A fast food chain, but it is always open and has some version of eggs for breakfast.
 - [Miss Maruja](https://goo.gl/maps/vgFo2Kh8DwYX54kZ9?coh=178573&entry=tt) - not very far from the center, very pretty cafe with good cakes. They have a variety of nice toast for breakfast. Unique atmosphere.
-- [Siboney](https://goo.gl/maps/2SmtszZoHSYKprwp7) -- city center; large variety of coffee and tea, actual scrambled **eggs**, tortilla, toast, smoothies. Opens at 8 (closed on Sundays).
+- [Siboney](https://goo.gl/maps/2SmtszZoHSYKprwp7) -- city center; large variety of coffee and tea, actual scrambled **eggs**, tortilla, toast, smoothies. **Probably the biggest variety of breakfast options.** Opens at 8 (closed on Sundays).
 - [Bambú](https://goo.gl/maps/Pihze76F4MbEyZFX9) -- city center; open on Sundays, breakfast + smoothies, ice cream
 - [Debén](https://goo.gl/maps/69RgJwAePez3Hwhy8) -- city center; open on Sundays, bakery and breakfast.
 - [Inzo Coffee Wizards](https://goo.gl/maps/UmP8BWq3LQUionyD7?coh=178573&entry=tt) -- city center, some fancy place, I haven't set foot but maybe someone wants to check it out :). 
@@ -180,4 +180,4 @@ NB2: Kebab in particular is to be avoided (apart from the couple places I list b
 # Thanks
 Thanks to my wonderful colleagues from [Grupo LyS](https://www.grupolys.org/) for helping me with this guide!
 
-Last update: 2023-05-24 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/GaliciaLocalGuide/_edit)]{% endraw %}
+Last update: 2023-06-05 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/GaliciaLocalGuide/_edit)]{% endraw %}
