@@ -30,6 +30,8 @@ toc:
         url: "/GaliciaLocalGuide/"
       - title: "Participants"
         url: "/GaliciaParticipants/"
+      - title: "Schedule"
+        url: "/GaliciaSchedule/"
   - title: "Fairhaven 2022"
     children:
       - title: "Overview"
