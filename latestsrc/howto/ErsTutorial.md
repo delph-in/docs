@@ -85,4 +85,5 @@ The above instructions for setting up VirtualBox are largely inspired by
 instructions](http://depts.washington.edu/uwcl/twiki/bin/view.cgi/Main/KnoppixLKBVboxApp)
 for KnoppixLKB. Our thanks go to David Brodbeck for his assistance in
 preparing the tutorial VirtualBox appliance.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2021-05-10 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/ErsTutorial/_edit)]{% endraw %}

@@ -42,4 +42,5 @@ Engineering](http://www.hf.ntnu.no/hf/isk/Ansatte/petter.haugereid/grammar-cours
   - [Advanced Formal
 Syntax](http://bulba.sdsu.edu/cl/Members/rmalouf/courses/ling-620-advanced-formal-syntax-spring-2007)
 ([Rob Malouf](http://rohan.sdsu.edu/~malouf))
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/LkbCourses/_edit)]{% endraw %}

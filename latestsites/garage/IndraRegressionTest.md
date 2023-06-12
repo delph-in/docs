@@ -73,4 +73,5 @@ Example result:
     ~/tools/gtest$ less /tmp/tmpsb9ihq4e/run-mrs.log 
     ~/tools/gtest$ ./gTest.py -W tmp -G ~/grammar/ind M :mrs
     ~/tools/gtest$ less tmp/run-mrs.log
-<update date omitted for speed>{% endraw %}
+
+Last update: 2017-01-09 by DavidMoeljadi [[edit](https://github.com/delph-in/docs/wiki/IndraRegressionTest/_edit)]{% endraw %}

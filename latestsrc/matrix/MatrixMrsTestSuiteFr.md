@@ -107,4 +107,5 @@
 | Bazin a essayé.                                                  | Browne tried to.                              |
 | N'aboyez pas !                                                   | Don't bark!                                   |
 | Le chien est arrivé en aboyant.                                  | The dog arrived barking.                      |
-<update date omitted for speed>{% endraw %}
+
+Last update: 2006-06-15 by JesseTseng [[edit](https://github.com/delph-in/docs/wiki/MatrixMrsTestSuiteFr/_edit)]{% endraw %}

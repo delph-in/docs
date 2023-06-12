@@ -475,4 +475,5 @@ encode the parser input. See the [PetInputFsc](https://delph-in.github.io/docs/g
 [PetInputChart](https://delph-in.github.io/docs/garage/PetInputChart) and [SmafTop](https://delph-in.github.io/docs/tools/SmafTop) pages for the
 so-called FSC, PIC (deprecated as of mid-2010), and SMAF (deprecated as
 of mid-2010) mode, respectively.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-11-02 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/PetInput/_edit)]{% endraw %}

@@ -39,4 +39,5 @@ Please add times **in UTC**:
 |Glenn Slayden|June 26-30| TBD |possible late-breaking conflict :-( |
 | ... | ... | ... | ... |
 | "Virtual-Tarou" | June 26-30 | Virtual, every day from 10:00-17:00 UTC  | This is an example, with times, for a virtual participant |
-<update date omitted for speed>{% endraw %}
+
+Last update: 2023-06-07 by curtosis [[edit](https://github.com/delph-in/docs/wiki/GaliciaParticipants/_edit)]{% endraw %}

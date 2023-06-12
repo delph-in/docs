@@ -27,4 +27,5 @@ In no event shall the authors or copyright holders be liable for any
 claim, damages or other liability, whether in an action of contract,
 tort or otherwise, arising from, out of or in connection with the
 software or the use or other dealings in the software.**
-<update date omitted for speed>{% endraw %}
+
+Last update: 2020-03-19 by JohnCarroll [[edit](https://github.com/delph-in/docs/wiki/LkbCopyright/_edit)]{% endraw %}

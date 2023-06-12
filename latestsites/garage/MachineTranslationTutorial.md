@@ -38,4 +38,5 @@
 - [NoJa](https://delph-in.github.io/docs/tools/NoJa) --- an early adopter --- gives outlines of what to
 change and where
 - [LogonTransfer](https://delph-in.github.io/docs/tools/LogonTransfer) --- Transfer Rules
-<update date omitted for speed>{% endraw %}
+
+Last update: 2010-06-14 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/MachineTranslationTutorial/_edit)]{% endraw %}

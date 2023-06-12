@@ -34,4 +34,5 @@ data](http://lit.csci.unt.edu/~rada/downloads/semcor/semcor3.0.tar.gz)
 from [Rada Mihalcea](http://www.cse.unt.edu/~rada/downloads.html)
 
 :warning:
-<update date omitted for speed>{% endraw %}
+
+Last update: 2013-10-25 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/SemCor/_edit)]{% endraw %}

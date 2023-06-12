@@ -164,4 +164,5 @@ does someone write a chapter?
 structures, etc.
 - Francis: it's more closed than that
 - Mike: are we good then?
-<update date omitted for speed>{% endraw %}
+
+Last update: 2016-06-24 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/StanfordNltk/_edit)]{% endraw %}

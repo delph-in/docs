@@ -154,4 +154,5 @@ An abstract predicate and a surface predicate with the same apparent
 values (e.g., place\_n and a hypothetical \_place\_n) are *not*
 equivalent, and grammar writers should avoid creating such similar
 predicates in order to avoid confusion.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2022-09-12 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/PredicateRfc/_edit)]{% endraw %}

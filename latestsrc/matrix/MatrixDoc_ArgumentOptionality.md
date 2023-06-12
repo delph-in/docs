@@ -308,4 +308,5 @@ year = {2010},\
 title = {Argument Optionality in the LinGO Grammar Matrix},\
 conference = {Coling}\
 }
-<update date omitted for speed>{% endraw %}
+
+Last update: 2013-02-15 by VaryaGracheva [[edit](https://github.com/delph-in/docs/wiki/MatrixDoc_ArgumentOptionality/_edit)]{% endraw %}

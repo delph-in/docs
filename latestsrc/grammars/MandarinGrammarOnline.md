@@ -4,4 +4,5 @@
 \* Full coverage of
 [MatrixMrsTestSuiteMandarin](https://delph-in.github.io/docs/matrix/MatrixMrsTestSuiteMandarin)  
 
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/MandarinGrammarOnline/_edit)]{% endraw %}

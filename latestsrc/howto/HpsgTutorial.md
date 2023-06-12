@@ -22,4 +22,5 @@ separate video files:
 - [Part IV](https://youtu.be/LnGZxRI1vb0) (Implementation)
 - [Part V](https://youtu.be/3P7xO-n2jnM) (Implementation)
 - [Part VI](https://youtu.be/JksQ26ieECU) (Implementatation)
-<update date omitted for speed>{% endraw %}
+
+Last update: 2017-07-12 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/HpsgTutorial/_edit)]{% endraw %}

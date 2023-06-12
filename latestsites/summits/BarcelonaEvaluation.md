@@ -70,4 +70,5 @@ evaluation - any parse 1st or 20th seen to help.
 
 Fei: IE could be a good evaluation task. In Rascalli, 50% of errors are
 due to linguistic interpretation issues.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2009-07-25 by RebeccaDridan [[edit](https://github.com/delph-in/docs/wiki/BarcelonaEvaluation/_edit)]{% endraw %}

@@ -211,4 +211,5 @@ pop-up menu. Why not?](/GeFaqChartNoPopups)
 doesn't work in Emacs after running incr
 tsdb()](https://delph-in.github.io/docs/matrix/GeFaqKeyboardNotWorking)
 - [How do I paste into the LKB Parse dialogue?](https://delph-in.github.io/docs/matrix/GeFaqPasteShortcut)
-<update date omitted for speed>{% endraw %}
+
+Last update: 2012-08-15 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/GrammarEngineeringFAQ/_edit)]{% endraw %}

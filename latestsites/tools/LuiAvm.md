@@ -54,4 +54,5 @@ The LUI AVM browser supports interactive unification (for debugging
 purposes), and if the AVM being browsed contains unification failure
 information, then there are a few more interesting options to explore.
 For more information see the [LuiUnification](https://delph-in.github.io/docs/tools/LuiUnification) page.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/LuiAvm/_edit)]{% endraw %}

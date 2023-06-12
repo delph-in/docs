@@ -50,4 +50,5 @@ happened with the three languages with the long and short list and it
 will become more realistic. I do think it will become a good framework
 to compare languages. It won't be easy, but even a simplified version
 will provide a picture.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2014-07-16 by AntskeFokkens [[edit](https://github.com/delph-in/docs/wiki/TomarValence/_edit)]{% endraw %}

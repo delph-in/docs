@@ -179,4 +179,5 @@ NB2: Kebab in particular is to be avoided (apart from the couple places I list b
 
 # Thanks
 Thanks to my wonderful colleagues from [Grupo LyS](https://www.grupolys.org/) for helping me with this guide!
-<update date omitted for speed>{% endraw %}
+
+Last update: 2023-06-05 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/GaliciaLocalGuide/_edit)]{% endraw %}

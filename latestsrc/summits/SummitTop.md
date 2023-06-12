@@ -107,4 +107,5 @@ is the number of SIG sessions they will be attending.
 this needs to be done before people indicate interest.
 - SIG scheduler should lock the schedule page before beginning the
 scheduling process.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2023-04-03 by Francis Bond [[edit](https://github.com/delph-in/docs/wiki/SummitTop/_edit)]{% endraw %}

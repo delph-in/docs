@@ -120,4 +120,5 @@ FrancisBond (<mailto:bond@ieee.org>):
 - Takayuki Kuribayashi (NICT)
 - Eric Nichols (NAIST)
 - Kyonghee Paik (Waseda)
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/KyotoTop/_edit)]{% endraw %}

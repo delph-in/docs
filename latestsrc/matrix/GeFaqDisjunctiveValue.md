@@ -38,4 +38,5 @@ value?](https://delph-in.github.io/docs/matrix/GeFaqNegValue)
 - [How do I browse the type hierarchy?](https://delph-in.github.io/docs/matrix/GeFaqViewHierarchy)
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
-<update date omitted for speed>{% endraw %}
+
+Last update: 2012-08-21 by NedLetcher [[edit](https://github.com/delph-in/docs/wiki/GeFaqDisjunctiveValue/_edit)]{% endraw %}

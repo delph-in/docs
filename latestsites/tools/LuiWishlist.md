@@ -53,4 +53,5 @@ version becomes mainstream
 - 2006-06-25 Display of fs for lexical entries.
 (lkb::show-word-aux-tty "鬼" nil) **Done:** 2009-10-13 (actually
 earlier by OE, FCB)
-<update date omitted for speed>{% endraw %}
+
+Last update: 2017-07-31 by GuyEmerson [[edit](https://github.com/delph-in/docs/wiki/LuiWishlist/_edit)]{% endraw %}

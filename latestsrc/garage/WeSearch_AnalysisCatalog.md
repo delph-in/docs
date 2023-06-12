@@ -1,2 +1,3 @@
 {% raw %}- binary approach to coordination
-<update date omitted for speed>{% endraw %}
+
+Last update: 2012-05-01 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/WeSearch_AnalysisCatalog/_edit)]{% endraw %}

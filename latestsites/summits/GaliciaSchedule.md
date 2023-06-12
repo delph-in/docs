@@ -120,4 +120,5 @@ The New DELPH-IN Documentation System: Eric
 
 Full Forest Treebanker (FFTB): Olga
 
-<update date omitted for speed>{% endraw %}
+
+Last update: 2023-06-11 by John Carroll [[edit](https://github.com/delph-in/docs/wiki/GaliciaSchedule/_edit)]{% endraw %}

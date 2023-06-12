@@ -100,4 +100,5 @@ Francis summarizes the discussion:
 - Go ahead with The Cathedral and the Bazaar,
 - tell us about other good corpora,
 - put the corresponding information on the wiki.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/BarcelonaCorpora/_edit)]{% endraw %}

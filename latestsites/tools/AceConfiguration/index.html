@@ -941,27 +941,86 @@ relative to the configuration file’s location.</p>
 
 <p>General Configuration</p>
 
-<p>|                                |                                                                                                                                                                                              |
-|——————————–|———————————————————————————————————————————————————————————————-|
-| transfer                       | enabled or disabled. defaults to disabled. when enabled, ACE processes transfer grammars instead of syntactic grammars. adjustment of several MRS configuration parameters may be necessary. |
-| spanning-only-rules            | list of rules to only allow in the spanning chart cell                                                                                                                                       |
-| fragment-only-rules            | list of rules to only allow when fragment parsing is enabled                                                                                                                                 |
-| hyper-active-rules             | list of rules for which hyperactive parsing should be used                                                                                                                                   |
-| deleted-daughters              | list of features to delete on new passive edges                                                                                                                                              |
-| parsing-packing-restrictor     | list of features to suppress until unpacking while parsing                                                                                                                                   |
-| generation-packing-restrictor  | list of features to suppress until unpacking while generating                                                                                                                                |
-| mrs-deleted-roles              | list of features on internal MRS variable AVMs that should not be exported when presenting final MRSes (superceded by VPM?)                                                                  |
-| parsing-roots                  | list of root instances enabled for parsing                                                                                                                                                   |
-| generation-roots               | list of root instances enabled for generation                                                                                                                                                |
-| non-idiom-root                 | the name of an instance to check against all parsing results to see whether further idiom processing is required                                                                             |
-| generic-les-for-semantic-index | list of the names of the generic lexemes that can be used to provide an unknown relation in generation                                                                                       |
-| ortho-max-rules                | maximum length of a chain of orthographemic rules to allow in parsing                                                                                                                        |
-| ortho-warn-on-max-rules        | whether to print a warning when the limit of orthographemic rules is reached                                                                                                                 |
-| freezer-megabytes              | defaults to 256; make it bigger if you get a warning about it.                                                                                                                               |
-| irregular-form-rule-suffix     | a string to append to the rule names found in irregular form tables.                                                                                                                         |
-| invent-ltop                    | enabled or disabled. if disabled, the MRS LTOP will be extracted from the grammar. otherwise, it will be invented as a new hole connected to the grammar-provided LTOP by a QEQ.             |</p>
-<update date="" omitted="" for="" speed="">
-</update>
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>transfer</td>
+      <td>enabled or disabled. defaults to disabled. when enabled, ACE processes transfer grammars instead of syntactic grammars. adjustment of several MRS configuration parameters may be necessary.</td>
+    </tr>
+    <tr>
+      <td>spanning-only-rules</td>
+      <td>list of rules to only allow in the spanning chart cell</td>
+    </tr>
+    <tr>
+      <td>fragment-only-rules</td>
+      <td>list of rules to only allow when fragment parsing is enabled</td>
+    </tr>
+    <tr>
+      <td>hyper-active-rules</td>
+      <td>list of rules for which hyperactive parsing should be used</td>
+    </tr>
+    <tr>
+      <td>deleted-daughters</td>
+      <td>list of features to delete on new passive edges</td>
+    </tr>
+    <tr>
+      <td>parsing-packing-restrictor</td>
+      <td>list of features to suppress until unpacking while parsing</td>
+    </tr>
+    <tr>
+      <td>generation-packing-restrictor</td>
+      <td>list of features to suppress until unpacking while generating</td>
+    </tr>
+    <tr>
+      <td>mrs-deleted-roles</td>
+      <td>list of features on internal MRS variable AVMs that should not be exported when presenting final MRSes (superceded by VPM?)</td>
+    </tr>
+    <tr>
+      <td>parsing-roots</td>
+      <td>list of root instances enabled for parsing</td>
+    </tr>
+    <tr>
+      <td>generation-roots</td>
+      <td>list of root instances enabled for generation</td>
+    </tr>
+    <tr>
+      <td>non-idiom-root</td>
+      <td>the name of an instance to check against all parsing results to see whether further idiom processing is required</td>
+    </tr>
+    <tr>
+      <td>generic-les-for-semantic-index</td>
+      <td>list of the names of the generic lexemes that can be used to provide an unknown relation in generation</td>
+    </tr>
+    <tr>
+      <td>ortho-max-rules</td>
+      <td>maximum length of a chain of orthographemic rules to allow in parsing</td>
+    </tr>
+    <tr>
+      <td>ortho-warn-on-max-rules</td>
+      <td>whether to print a warning when the limit of orthographemic rules is reached</td>
+    </tr>
+    <tr>
+      <td>freezer-megabytes</td>
+      <td>defaults to 256; make it bigger if you get a warning about it.</td>
+    </tr>
+    <tr>
+      <td>irregular-form-rule-suffix</td>
+      <td>a string to append to the rule names found in irregular form tables.</td>
+    </tr>
+    <tr>
+      <td>invent-ltop</td>
+      <td>enabled or disabled. if disabled, the MRS LTOP will be extracted from the grammar. otherwise, it will be invented as a new hole connected to the grammar-provided LTOP by a QEQ.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Last update: 2023-01-11 by Francis Bond [<a href="https://github.com/delph-in/docs/wiki/AceConfiguration/_edit">edit</a>]</p>
 
         
       </section>

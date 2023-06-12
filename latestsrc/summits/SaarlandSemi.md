@@ -105,4 +105,5 @@ oe: no
 
 Woodley + oe: the VPM says how you get to the semi, but the actual
 description of the semi is in erg.smi and core.smi
-<update date omitted for speed>{% endraw %}
+
+Last update: 2013-07-29 by WoodleyPackard [[edit](https://github.com/delph-in/docs/wiki/SaarlandSemi/_edit)]{% endraw %}

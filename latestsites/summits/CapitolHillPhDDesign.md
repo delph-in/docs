@@ -397,4 +397,5 @@ would upset Jacy's maintainers, etc.
 FCB & EMB:
 
 - we wouldn't be offended
-<update date omitted for speed>{% endraw %}
+
+Last update: 2017-01-06 by MichaelGoodman [[edit](https://github.com/delph-in/docs/wiki/CapitolHillPhDDesign/_edit)]{% endraw %}

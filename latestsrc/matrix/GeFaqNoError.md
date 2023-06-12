@@ -25,4 +25,5 @@ missing?](https://delph-in.github.io/docs/matrix/GeFaqMissingEdge)
 chart?](https://delph-in.github.io/docs/matrix/GeFaqMissingHowTo)
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
-<update date omitted for speed>{% endraw %}
+
+Last update: 2012-08-14 by NedLetcher [[edit](https://github.com/delph-in/docs/wiki/GeFaqNoError/_edit)]{% endraw %}

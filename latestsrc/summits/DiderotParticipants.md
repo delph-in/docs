@@ -94,4 +94,5 @@ d'un glissement de terrain, jusqu'au jeudi après-midi)
 - [LiljaØvrelid](/Lilja%C3%98vrelid)
 - [TestUser](/TestUser)
 - [AngelinaMcMillanMajor](/AngelinaMcMillanMajor) (Monday - Friday)
-<update date omitted for speed>{% endraw %}
+
+Last update: 2018-06-20 by AntskeFokkens [[edit](https://github.com/delph-in/docs/wiki/DiderotParticipants/_edit)]{% endraw %}

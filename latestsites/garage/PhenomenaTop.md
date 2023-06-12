@@ -72,4 +72,5 @@ documentation with phenomenon labels on constraints. Originally
 currently there is only a [partial catalogue for the Wambaya
 grammar](https://delph-in.github.io/docs/summits/WambayaPhenomenaCatalogue). Grammar maintainers interested in
 developing a catalogue are very much encouraged to do so.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2013-11-29 by NedLetcher [[edit](https://github.com/delph-in/docs/wiki/PhenomenaTop/_edit)]{% endraw %}

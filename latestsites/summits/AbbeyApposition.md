@@ -254,4 +254,5 @@ Later, at the Woods Cafe:
 predictaives fits in with NRR paraphrase idea
 
 **Proposal: Parentheticals also do the GTOP thing.**
-<update date omitted for speed>{% endraw %}
+
+Last update: 2013-08-23 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/AbbeyApposition/_edit)]{% endraw %}

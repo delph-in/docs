@@ -268,4 +268,5 @@ cons-of-lists-with-append := cons & list-of-lists-with-append &
 null-of-lists-with-append := null & list-of-lists-with-append &
   [ RESULT null ].
 ```
-<update date omitted for speed>{% endraw %}
+
+Last update: 2022-11-10 by Guy Emerson [[edit](https://github.com/delph-in/docs/wiki/Fairhaven2022-Emerson-Turing-types/_edit)]{% endraw %}

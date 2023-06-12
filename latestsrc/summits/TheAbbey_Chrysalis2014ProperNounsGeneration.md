@@ -746,4 +746,5 @@ Woodley: At least if it's top-level coordination, but what about
 Secretaries of State and War?
 
 Emily: We already have to do something special for those.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2014-02-17 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/TheAbbey_Chrysalis2014ProperNounsGeneration/_edit)]{% endraw %}

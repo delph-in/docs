@@ -78,4 +78,5 @@ See [SafDtd](https://delph-in.github.io/docs/tools/SafDtd).
 # Sample SAF Document
 
 See [SafSample](/SafSample).
-<update date omitted for speed>{% endraw %}
+
+Last update: 2021-09-02 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/SafTop/_edit)]{% endraw %}

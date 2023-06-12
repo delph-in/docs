@@ -129,4 +129,5 @@ with ANSI C and Tcl/Tk. Pre-compiled binaries are available for Linux.
 # LUI: Linguistic User Interface
 
 # Parse and Realization Ranking
-<update date omitted for speed>{% endraw %}
+
+Last update: 2013-07-30 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/DelphinTutorial_Processing/_edit)]{% endraw %}

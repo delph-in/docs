@@ -328,4 +328,5 @@ instance specified.
 
     (defparameter *non-idiom-root*
         'root_non_idiom )
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-12-06 by GlennSlayden [[edit](https://github.com/delph-in/docs/wiki/JacyIdiom/_edit)]{% endraw %}

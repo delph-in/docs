@@ -248,4 +248,5 @@ There is a discussion of how to delete and attribute for only some
 predicates at [NoJa](https://delph-in.github.io/docs/tools/NoJa).
 
 # ToDo
-<update date omitted for speed>{% endraw %}
+
+Last update: 2009-01-23 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/LogonVpm/_edit)]{% endraw %}

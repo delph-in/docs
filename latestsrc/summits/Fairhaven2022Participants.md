@@ -44,4 +44,5 @@ We will try to accommodate the program around participants' schedules/restrictio
 | T.J. Trimble| July 18-22 | Virtual, as childcare duties allow | We might find an event and time to arrive in person |
 | ... | ... | ... |
 | "Virtual-Tarou" | July 18-22 | Virtual, every day from 10:00-17:00 UTC  | This is an example, with times, for a virtual participant |
-<update date omitted for speed>{% endraw %}
+
+Last update: 2022-07-18 by T.J. Trimble [[edit](https://github.com/delph-in/docs/wiki/Fairhaven2022Participants/_edit)]{% endraw %}

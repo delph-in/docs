@@ -62,4 +62,5 @@ The San Juan party is the biggest holiday in A Coruña, when the whole town is o
 # Local Guide
 
 Please take a look at the [Local Guide](https://delph-in.github.io/docs/summits/GaliciaLocalGuide) for some info about the weather, sightseeing, eating out etc.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2023-05-25 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/GaliciaTop/_edit)]{% endraw %}
