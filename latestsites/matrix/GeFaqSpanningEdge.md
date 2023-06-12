@@ -25,5 +25,4 @@ chart wil be.
 chart?](https://delph-in.github.io/docs/matrix/GeFaqMissingHowTo)
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
-
-Last update: 2012-08-15 by NedLetcher [[edit](https://github.com/delph-in/docs/wiki/GeFaqSpanningEdge/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

@@ -462,5 +462,4 @@ scope info in the first place.
 
 Stephan: Have to talk about details: They have one predicate per word.
 In that sense they are further removed from semantics than we are.
-
-Last update: 2011-06-29 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/SuquamishRobustParsing/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

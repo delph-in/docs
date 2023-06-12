@@ -255,5 +255,4 @@ expression and then mark them to have tense and mood deleted.
       OUTPUT.RELS < +copy+ &  [ ARG0 #e &
                                         [TENSE ditch-tense,  
                                          MOOD ditch-mood] ] > ].
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/NoJa/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

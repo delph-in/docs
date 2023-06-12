@@ -597,5 +597,4 @@ Study in Grammar Engineering for Linguistic Hypothesis Testing."
 Linguistic Issues in Language Technology 3(3) pp.1-34.
 - Nordlinger, Rachel. 1998. A Grammar of Wambaya, Northern Australia.
 Canberra: Pacific Linguistics.
-
-Last update: 2012-06-29 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/WambayaPhenomenaCatalogue/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

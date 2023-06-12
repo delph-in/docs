@@ -92,5 +92,4 @@ grass\_snakes and brown\_snakes
 - We're building a token mapper from ERG+WN, where Dan will make the
 ERG find compatibility when necessary and Christian (from WN) will
 do the same with WN.
-
-Last update: 2013-07-29 by LilingTan [[edit](https://github.com/delph-in/docs/wiki/SaarlandMrsWordnet/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

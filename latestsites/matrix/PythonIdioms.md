@@ -88,5 +88,4 @@ object:
    2   def func(self, x=None):
    3     self.x = x or []
 ```
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/PythonIdioms/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

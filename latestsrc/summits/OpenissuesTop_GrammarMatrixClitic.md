@@ -68,5 +68,4 @@ Penn, Gerald. 1999. A Generalized-Domain-Based Approach to
 Serbo-Croatian Second Position Clitic Placement. In G. Bouma et al.,
 eds, *Constraints and Resources in Natural Language Syntax and
 Semantics* 119-136. CSLI Publications.
-
-Last update: 2006-07-11 by JesseTseng [[edit](https://github.com/delph-in/docs/wiki/OpenissuesTop_GrammarMatrixClitic/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

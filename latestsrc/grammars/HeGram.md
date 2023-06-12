@@ -34,5 +34,4 @@ Current developers of HeGram are:
 - Nurit Melnik
 - Livnat Herzig Sheinfux
 - Tali Arad Greshler
-
-Last update: 2016-05-11 by NuritMelnik [[edit](https://github.com/delph-in/docs/wiki/HeGram/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

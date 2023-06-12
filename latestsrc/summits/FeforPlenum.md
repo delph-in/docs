@@ -49,5 +49,4 @@
 | 16:30-17:00 | [''Discussion'' Towards a Parallel DELPH-IN Corpus and Increased Comparability](http://www.dfki.de/~frank/fefor_par_corp.ppt)                      | Moderator: Anette Frank Scribe: Stephan Oepen     |     |
 | 17:00-17:30 | *Wrap up*                                                                                                                                          |                                                   |     |
 | 19:45-22:14 | Vinstra -- Gardemoen                                                                                                                               |                                                   |     |
-
-Last update: 2021-06-03 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/FeforPlenum/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

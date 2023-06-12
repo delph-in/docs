@@ -10,5 +10,4 @@ mouse cursor, you should be able to paste (from a separate clipboard)
 using the middle button of your mouse.
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
-
-Last update: 2012-09-17 by NedLetcher [[edit](https://github.com/delph-in/docs/wiki/GeFaqPasteShortcut/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

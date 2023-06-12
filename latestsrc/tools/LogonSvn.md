@@ -35,5 +35,4 @@ components; see the [LogonExtras](https://delph-in.github.io/docs/tools/LogonExt
 determining which parts of a local copy correspond to which revisions in
 the repository, the SVN sub-commands *status* and *info* can be very
 convenient.
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/LogonSvn/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

@@ -89,5 +89,4 @@ Trollet will use LUI by default, though you can turn it off by saying
 (lui-shutdown).
 
 See [LkbLui](https://delph-in.github.io/docs/tools/LkbLui) for more info.
-
-Last update: 2015-08-06 by TuanAnhLe [[edit](https://github.com/delph-in/docs/wiki/LkbTrollet/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

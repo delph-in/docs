@@ -159,5 +159,4 @@ constructions)
 
 - [ErgSemantics](https://delph-in.github.io/docs/erg/ErgSemantics) Main Page
 - [How to Cite this Work](https://delph-in.github.io/docs/erg/ErgSemantics_HowToCite)
-
-Last update: 2022-07-22 by emilymbender [[edit](https://github.com/delph-in/docs/wiki/ErgSemantics_Inventory/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

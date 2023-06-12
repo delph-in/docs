@@ -183,5 +183,4 @@ this relate to an AM algebra from DMRS composition?
   
   - [Virtual2021PluralSemantics](https://delph-in.github.io/docs/summits/Virtual2021PluralSemantics):
 How to relate morphosyntactic marking of plurality to semantic plurality?
-
-Last update: 2022-09-14 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/RmrsDiscussions/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

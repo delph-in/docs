@@ -125,5 +125,4 @@ they solve (something that should be done for reasons of documentation
 anyway). Second, we need to start documenting phenomena at locations
 where they can be found easily. As a first start, we will use the
 delph-in wiki.
-
-Last update: 2012-07-10 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/SofiaCLIMBAndReducingComplexity/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

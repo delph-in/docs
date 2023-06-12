@@ -77,5 +77,4 @@ This list provides an incomplete mapping from MoinMoin usernames to GitHub usern
 - YiZhang
 - [ChowSiewYeng](/siewyeng)
 - TestUser
-
-Last update: 2021-07-23 by Guy Emerson [[edit](https://github.com/delph-in/docs/wiki/ParticipantsGroup/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

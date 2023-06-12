@@ -262,5 +262,4 @@ The in-depth comparison of parsing results (using the *pedges* and
 *readings* fields, in the above example) will print out one line per
 item, where either of the fields show different values across the two
 profiles.
-
-Last update: 2014-07-24 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/LogonProcessing_BatchParsing/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

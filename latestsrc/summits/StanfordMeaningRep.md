@@ -338,5 +338,4 @@ Detection; ECD) as a task. Also STS.
 
 Emily: STS is a really weird task and it has the world knowledge
 problem.
-
-Last update: 2016-06-22 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/StanfordMeaningRep/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

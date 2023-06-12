@@ -56,5 +56,4 @@ example, the INFLECTED+/- can be unified, but not singular and plural.
 
 CONCLUSION: The idea of a hybrid approach; information fusion.
 Everything in a complex system.
-
-Last update: 2012-07-10 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/SofiaPreprocessingSIG/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

@@ -80,5 +80,4 @@ The feature geometry cheat sheets at the bottom of
 
 Please check out the [DELPH-IN QA Discourse
 site](https://delphinqa.ling.washington.edu/) and post questions there.
-
-Last update: 2022-09-14 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/MatrixGettingStarted/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

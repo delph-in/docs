@@ -17,5 +17,4 @@ from UW.
 engineering with LKB and the LinGO Grammar Matrix
 - Brief notes from the [Singapore discussion on teaching undergraduate
 courses using LKB](https://delph-in.github.io/docs/summits/SingaporeTeachingWithLKB)
-
-Last update: 2018-06-21 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/TeachingTop/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

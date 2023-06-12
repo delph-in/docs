@@ -784,5 +784,4 @@ cause an error (like feature that don't unify) or do they overwrite the
 previous occurrences, like variable reassignment? The latter would
 probably be more useful, but it changes the TDL paradigm within the
 config environment.
-
-Last update: 2022-09-14 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/GrammarConfigurationRfc/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

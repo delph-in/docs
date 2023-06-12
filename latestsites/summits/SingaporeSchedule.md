@@ -143,5 +143,4 @@ in the Humanities and Social Sciences (HSS) building.
 |     | Designing a \*ACL tutorial (note: signing up for this one signals willingness to do some of the work) (Emily Bender)       |
 |     | Handling NON-LOCAL across languages (Sanghoun Song, Zhenzhen Fan, David Moeljadi, Francis Bond)                            |
 |     | Machine learning and DELPH-IN (Guy Emerson)                                                                                |
-
-Last update: 2015-08-24 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/SingaporeSchedule/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

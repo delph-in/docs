@@ -290,5 +290,4 @@
   - Time expressions
   - analyse by length
     - reorder training set
-
-Last update: 2011-08-16 by PetterHaugereid [[edit](https://github.com/delph-in/docs/wiki/MtJaenTanaka/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

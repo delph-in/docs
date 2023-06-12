@@ -24,5 +24,4 @@ lexicon used with the [LexDB](/LkbLexDb).
 the grammar's performance.
 - [MatrixMrsTestSuiteJa](https://delph-in.github.io/docs/matrix/MatrixMrsTestSuiteJa): Results of parsing the
 MRS test suite.
-
-Last update: 2016-11-05 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/JacyDoc/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

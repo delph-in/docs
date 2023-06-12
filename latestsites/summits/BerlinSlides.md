@@ -15,5 +15,4 @@
 | [CjRupp](/CjRupp)                                                   | [Integrating General-Purpose and Domain-Specific Components in the Analysis of Scientific Text](http://www.cl.cam.ac.uk/~cr351/Integrating_Components.pdf)                                                                                                      |
 | [YusukeMiyao](/YusukeMiyao)                                         | [Towards Framework-Independent Evaluation of Deep Linguistic Parsers](http://www-tsujii.is.s.u-tokyo.ac.jp/~yusuke/paper/delphin2007.pdf)                                                                                                                       |
 | AntonioBranco and FranciscoCosta | [LXGram: status report](http://nlx.di.fc.ul.pt/2007DelphinBerlinLxgram.ppt)                                                                                                                                                                                     |
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/BerlinSlides/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

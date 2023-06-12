@@ -28,5 +28,4 @@ After that, you can run the translation process. The sequence is INPUT
     echo "犬 が 吠え だ" | ace -g YOUR_JACY_DIRECTORY/jacy.dat | ace -g YOUR_JAHS_DIRECTORY/jahs.dat | ace -g YOUR_HANS_DIRECTORY/hans-strict.dat -e
 
 ## hsja
-
-Last update: 2014-09-10 by SanghounSong [[edit](https://github.com/delph-in/docs/wiki/ZhongTranslation/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

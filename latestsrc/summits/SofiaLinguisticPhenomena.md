@@ -172,5 +172,4 @@ feasible.
 
 Emily: In general, the fact that it's hard to define phenomena etc also
 shouldn't keep us from pragmatically starting to do something.
-
-Last update: 2012-07-04 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/SofiaLinguisticPhenomena/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

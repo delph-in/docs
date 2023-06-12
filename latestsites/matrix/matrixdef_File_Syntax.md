@@ -336,5 +336,4 @@ at the end:
 
 
         Radio neg-infl-type "Negative inflection type" "On: "
-
-Last update: 2022-09-14 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/matrixdef_File_Syntax/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

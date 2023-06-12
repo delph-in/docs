@@ -314,5 +314,4 @@ Bad things:
 1. POSVECs in feature structures could be confusing. This is a very
 low-level sort of thing to have in a grammar.
 2. The approach may not be expressive enough.
-
-Last update: 2006-12-16 by AnnCopestake [[edit](https://github.com/delph-in/docs/wiki/LkbLpconstraints/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

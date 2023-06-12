@@ -59,5 +59,4 @@ registration fee.
 
 See the pictures from the DELPH-IN meeting held in Lisbon on the
 [LisbonPictures](https://delph-in.github.io/docs/summits/LisbonPictures) page.
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/LisbonTop/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

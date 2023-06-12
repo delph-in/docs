@@ -52,5 +52,4 @@ DanFlickinger, EmilyBender)
 [FeforPng](https://delph-in.github.io/docs/summits/FeforPng)
 - The SEM-I (StephanOepen,
 DanFlickinger, AnnCopestake)
-
-Last update: 2006-06-21 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/FeforRmrs/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

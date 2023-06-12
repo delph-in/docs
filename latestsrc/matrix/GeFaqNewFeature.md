@@ -62,5 +62,4 @@ matrix, you need to write a [type addendum
 statement](https://delph-in.github.io/docs/matrix/GeFaqTypeAddendum).
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
-
-Last update: 2012-08-17 by NedLetcher [[edit](https://github.com/delph-in/docs/wiki/GeFaqNewFeature/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

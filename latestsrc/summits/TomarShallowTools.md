@@ -147,5 +147,4 @@ be mapped. You’d be able to “just run it.” A live API for this would be
 more compelling than “just a file format.”
 
 Moderator-Tim: conclude.
-
-Last update: 2014-07-16 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/TomarShallowTools/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}
