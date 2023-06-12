@@ -37,4 +37,5 @@ David: do you have URIs? (Yi: no) should you? for sharing code fragments
 Woodley: do grammarians want disjunctions?
 
 oe: we should have mechanism for conseratively changing as needed
-<update date omitted for speed>{% endraw %}
+
+Last update: 2013-07-29 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/SaarlandTdlDiscussion/_edit)]{% endraw %}

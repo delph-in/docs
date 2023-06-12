@@ -248,4 +248,5 @@ title = {Meta-modeling of Tense and Aspect in a Cross-linguistic
 Grammar Engineering Platform},\
 volume = {28}\
 }
-<update date omitted for speed>{% endraw %}
+
+Last update: 2013-02-24 by VaryaGracheva [[edit](https://github.com/delph-in/docs/wiki/MatrixDoc_OtherFeatures/_edit)]{% endraw %}

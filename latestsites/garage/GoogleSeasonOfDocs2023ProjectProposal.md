@@ -133,4 +133,5 @@ The project organizer has managed documentation and worked with writers for many
 *Previous participation in Google Season of Docs, Google Summer of Code or others*
 
 Several members of the DELPH-IN team have done Google Season of Docs once before for part of the WordNet documentation.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2023-02-24 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/GoogleSeasonOfDocs2023ProjectProposal/_edit)]{% endraw %}

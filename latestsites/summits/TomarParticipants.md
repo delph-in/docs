@@ -95,4 +95,5 @@ port).
 - YiZhang (unfortunately i can't make it)
 - LuisMorgadoCosta (July 14-July 18, sim ao porto)
 - [DavidInman](/DavidInman) (July 14-18)
-<update date omitted for speed>{% endraw %}
+
+Last update: 2014-07-09 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/TomarParticipants/_edit)]{% endraw %}

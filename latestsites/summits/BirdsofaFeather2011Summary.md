@@ -195,4 +195,5 @@ for generation uses.
 (e.g., NPs).
 - Cover missing sentences by putting in bland rules, cataloging what's
 missing in the process.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/BirdsofaFeather2011Summary/_edit)]{% endraw %}

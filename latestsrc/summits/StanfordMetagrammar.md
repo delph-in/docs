@@ -350,4 +350,5 @@ entirely indistinguishable insofar as the latter necessarily exposes the
 side-effect of identifying the precise extent of each incremental
 change, which is useful for the purposes of fine-grained version control
 and efficient "undo/redo" operations.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2016-06-21 by GlennSlayden [[edit](https://github.com/delph-in/docs/wiki/StanfordMetagrammar/_edit)]{% endraw %}

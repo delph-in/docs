@@ -178,4 +178,5 @@ Moeljadi (<http://compling.hss.ntu.edu.sg/who/david/>).
 | 1062    | Janganlah menggonggong!                                     | Don’t bark!                              |             |     |
 | 1071    | Anjing itu datang menggonggong.                             | The dog arrived barking.                 |             |     |
 | 1072    | Anjingnya datang menggonggong.                              | The dog arrived barking.                 |             |     |
-<update date omitted for speed>{% endraw %}
+
+Last update: 2014-11-12 by DavidMoeljadi [[edit](https://github.com/delph-in/docs/wiki/MatrixMrsTestSuiteIndonesian/_edit)]{% endraw %}

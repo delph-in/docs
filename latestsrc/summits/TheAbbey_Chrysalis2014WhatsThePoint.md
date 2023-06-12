@@ -491,4 +491,5 @@ answered.
 
 Woodley: There are some good answers there, but it's not necessarily
 complete.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2014-02-16 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/TheAbbey_Chrysalis2014WhatsThePoint/_edit)]{% endraw %}

@@ -14,4 +14,5 @@ to incorporate grammar engineering into a PhD
 This page aims to improve the discoverability of existing documentation.
 It was started by Francis inspired by the [Capitol Hill
 Grammar Engineering Meeting](https://delph-in.github.io/docs/summits/CapitolHillTop).
-<update date omitted for speed>{% endraw %}
+
+Last update: 2017-01-10 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/GrammarDevelopment/_edit)]{% endraw %}

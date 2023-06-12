@@ -61,4 +61,5 @@ chases something". So in some cases, it's ok, but should not be
 over-general.
 
 E: it's a good research topic to start with this discussion.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2013-07-31 by RuiWang [[edit](https://github.com/delph-in/docs/wiki/SaarlandMrsSubsumptionDiscussion/_edit)]{% endraw %}

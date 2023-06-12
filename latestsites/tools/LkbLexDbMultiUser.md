@@ -72,4 +72,5 @@ command such as the following:
 ## HOW TO get the LKB to use the Lex DB
 
 See [LexDbInitialize](https://delph-in.github.io/docs/tools/LexDbInitialize)
-<update date omitted for speed>{% endraw %}
+
+Last update: 2009-04-10 by AnnCopestake [[edit](https://github.com/delph-in/docs/wiki/LkbLexDbMultiUser/_edit)]{% endraw %}

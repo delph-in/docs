@@ -135,4 +135,5 @@ enforce in the proxy server). More contentfully, one could also
 speculate about providing additional methods, for example POST-ing a
 structure (like an MRS or EDS) for conversion to additional output
 views, querying the SEM-I, or of course invoking sentence realization.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2022-09-14 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/ErgApi/_edit)]{% endraw %}

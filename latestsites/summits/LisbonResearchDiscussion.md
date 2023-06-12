@@ -4,4 +4,5 @@
 Copies)
 
 [Discussion](http://www.hf.ntnu.no/hf/isk/Ansatte/petter.haugereid/DiscussionVII.html)
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/LisbonResearchDiscussion/_edit)]{% endraw %}

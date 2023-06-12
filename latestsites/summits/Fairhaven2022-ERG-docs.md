@@ -210,4 +210,5 @@ I see your comment, Allison and will try to grab the floor for you at an appropr
 
 https://documentation.divio.com/
 
-<update date omitted for speed>{% endraw %}
+
+Last update: 2022-07-20 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/Fairhaven2022-ERG-docs/_edit)]{% endraw %}

@@ -126,4 +126,5 @@ to be h, because scopal operators can intervene:
 *not* doesn't work for *put*, but that's arguably because *not* doesn't
 attach easily to PPs (but cf: *not in a million years*, *not on my
 watch*, *not in my house* ...).
-<update date omitted for speed>{% endraw %}
+
+Last update: 2012-06-13 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/WeSearch_ScopalArgCoord/_edit)]{% endraw %}

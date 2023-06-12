@@ -173,4 +173,5 @@ extract from the top result, use -r 0. For standardisation with the
 ubertagging code, leafextract takes the same configuration file as the
 other programs, but only reads the ut-caseclass\_separator option. If
 this is not given, the code defaults to using ▲.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2016-11-21 by RebeccaDridan [[edit](https://github.com/delph-in/docs/wiki/UtTop/_edit)]{% endraw %}

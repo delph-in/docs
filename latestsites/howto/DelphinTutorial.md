@@ -20,4 +20,5 @@ Another source of terms and definitions is the (more than mildly
 out-of-date) [DelphinGlossary](https://delph-in.github.io/docs/summits/DelphinGlossary).
 
 ### How to cite this resource
-<update date omitted for speed>{% endraw %}
+
+Last update: 2013-07-30 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/DelphinTutorial/_edit)]{% endraw %}

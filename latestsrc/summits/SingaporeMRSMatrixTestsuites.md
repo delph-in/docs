@@ -227,4 +227,5 @@ is important as a pseudointerlingua
 Emily: Does NTU want to take this on?
 
 Francis: Noone said that! :slightly\_smiling\_face:
-<update date omitted for speed>{% endraw %}
+
+Last update: 2015-08-12 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/SingaporeMRSMatrixTestsuites/_edit)]{% endraw %}

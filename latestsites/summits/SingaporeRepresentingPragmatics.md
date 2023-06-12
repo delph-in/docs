@@ -253,4 +253,5 @@ involve other people in coming up with a uniform solution, rather than
 implementing your own solution that others have to deal with.
 
 \*\*applause\*\*
-<update date omitted for speed>{% endraw %}
+
+Last update: 2015-08-10 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/SingaporeRepresentingPragmatics/_edit)]{% endraw %}

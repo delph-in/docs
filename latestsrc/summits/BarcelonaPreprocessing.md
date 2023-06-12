@@ -136,4 +136,5 @@ DELPH-IN members
     - chicken and egg problem: people have shown a) disambiguated
 word senses helps parsing and b) parsing helps word sense
 disambiguation
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/BarcelonaPreprocessing/_edit)]{% endraw %}

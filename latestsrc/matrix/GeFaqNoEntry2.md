@@ -10,4 +10,5 @@ Also, see [this FAQ: I've added a rule to my grammar but the LKB doesn't
 seem to have found it. What's happening?](https://delph-in.github.io/docs/matrix/GeFaqNoRule)
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
-<update date omitted for speed>{% endraw %}
+
+Last update: 2012-08-17 by NedLetcher [[edit](https://github.com/delph-in/docs/wiki/GeFaqNoEntry2/_edit)]{% endraw %}

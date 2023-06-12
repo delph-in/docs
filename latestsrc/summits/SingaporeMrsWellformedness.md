@@ -215,4 +215,5 @@ label of the thing that takes it as an argument. Have to be rather more
 careful with the head-complement, head-subject rules. Increases burden
 on the grammar writer to do something which is much more compatible with
 the semantic algebra.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2015-08-21 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/SingaporeMrsWellformedness/_edit)]{% endraw %}

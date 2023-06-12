@@ -301,4 +301,5 @@ EMB: Case means variation in the form of NPs that correlates with
 grammatical function. Here, the variation isn’t morphology, but it’s
 still variation in form. So it’s case. Anyone who uses that term
 differently is just wrong.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2017-01-06 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/CapitolHillDefiniteness/_edit)]{% endraw %}

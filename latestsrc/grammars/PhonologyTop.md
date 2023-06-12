@@ -66,4 +66,5 @@ phonemes or some other conveniently accessible representation.
        SYLBS list-of-syllables].
 
 # Prosodic structure
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/PhonologyTop/_edit)]{% endraw %}

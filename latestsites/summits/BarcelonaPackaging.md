@@ -127,4 +127,5 @@ Francis: code for pango-LUI now available
 Francis: Perhaps the only reason why DELPH-IN hasn't taken Japan in a
 storm is that you can't enter Japanese into a parse window. At least we
 can cut and paste now. :wink:
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/BarcelonaPackaging/_edit)]{% endraw %}

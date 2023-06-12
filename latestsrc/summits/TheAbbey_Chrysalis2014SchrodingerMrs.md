@@ -212,4 +212,5 @@ useful for the
 \`gave Kim a headache'
 
 \*\`gave a headache to Kim' puzzle than Georgia Green wrote about
-<update date omitted for speed>{% endraw %}
+
+Last update: 2014-02-18 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/TheAbbey_Chrysalis2014SchrodingerMrs/_edit)]{% endraw %}

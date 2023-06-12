@@ -18,4 +18,5 @@ Transfer Component
 Generation Component
 - [/BatchTranslation](https://delph-in.github.io/docs/tools/LogonProcessing_BatchTranslation) --- Running
 the Full Fan-Out Pipeline
-<update date omitted for speed>{% endraw %}
+
+Last update: 2009-02-17 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/LogonProcessing/_edit)]{% endraw %}
