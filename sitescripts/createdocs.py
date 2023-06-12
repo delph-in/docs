@@ -94,7 +94,11 @@ def convert_and_copy_doc(repositories_definitions, sites_definitions, pages_defi
                 raise Exception(f"Markdown parser crashed parsing file: {src_file_path}. See if there are markdown formatting issues in that file or maybe exclude it and report the bug.")
 
             # Recursively walk the document tree and do any conversion that is needed (e.g. fixing links)
-            links, _ = convert_child(repositories_definitions, pages_definitions, file_definition, result)
+            try:
+                links, _ = convert_child(repositories_definitions, pages_definitions, file_definition, result)
+            except Exception as error:
+                print(f"Error during conversion of {file_name}: {str(error)}")
+                raise
 
         dst_path_only = os.path.dirname(dst_file_path)
         os.makedirs(dst_path_only, exist_ok=True)
@@ -407,7 +411,7 @@ def populate_sites_src(sites_definition, root_address, src_root, dst_root):
             try:
                 links += convert_and_copy_doc(sites_definition["SourceRepositories"], sites_definition["Sites"], sites_definition["Pages"], parser, index_file, fileDefinition, src_file, dst_file)
             except Exception as error:
-                errors.append({"Definition": fileDefinition, "Error": str(error)})
+                errors.append({"Definition": fileDefinition, "Error": "Exception during convert_and_copy_doc: " + str(error)})
 
             if fileDefinition["Site"] not in tocs:
                 tocs[fileDefinition["Site"]] = []
