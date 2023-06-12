@@ -398,5 +398,4 @@ Sandra A Thompson, Robert E Longacre, and Shin Ja J Hwang. 2007.
 Adverbial clauses. Language typology and syntactic description. Volume
 2: Complex constructions. ed. by Timothy Shopen. 237269. Cambridge:
 Cambridge University Press.
-
-Last update: 2018-05-09 by KristenHowell [[edit](https://github.com/delph-in/docs/wiki/MatrixDoc_ClausalModifiers/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

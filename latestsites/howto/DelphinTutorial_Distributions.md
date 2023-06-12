@@ -63,5 +63,4 @@ As ACE matures, another viable run-time (if not yet grammar development
 option) for at least some grammars may be through the pre-compiled ACE
 (and ERG) binaries maintained by [WoodleyPackard](/WoodleyPackard) at
 <http://sweaglesw.org/linguistics/ace/>.
-
-Last update: 2013-07-30 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/DelphinTutorial_Distributions/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

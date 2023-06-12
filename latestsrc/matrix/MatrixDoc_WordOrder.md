@@ -710,5 +710,4 @@ Müller.
 - Michael O’Siadhail. 1989. Modern Irish: grammatical structure and
 dialectal variation. Cambridge University Press, Cambridge, United
 Kingdom.
-
-Last update: 2018-02-01 by GlennSlayden [[edit](https://github.com/delph-in/docs/wiki/MatrixDoc_WordOrder/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

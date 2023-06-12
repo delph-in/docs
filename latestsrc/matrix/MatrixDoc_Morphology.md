@@ -79,5 +79,4 @@ progress or planned. \]</span>
 
 Goodman, Michael. 2012. Generation of Machine-Readable Morphological
 Rules from Human-Readable Input.
-
-Last update: 2015-01-24 by TJTrimble [[edit](https://github.com/delph-in/docs/wiki/MatrixDoc_Morphology/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

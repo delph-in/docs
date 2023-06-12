@@ -149,5 +149,4 @@ Woodley: What degree is the mechanism for maintaining these usable by
 other grammars...
 
 Francis: Not much, unfortunately.
-
-Last update: 2017-08-08 by GlennSlayden [[edit](https://github.com/delph-in/docs/wiki/OsloWordnet/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

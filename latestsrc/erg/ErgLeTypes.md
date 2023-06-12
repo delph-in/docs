@@ -79,5 +79,4 @@ Documentation on each lexical type for the most recent stable version of
 the ERG (currently "1214"), along with examples from manually-annotated
 treebanks, can be found
 [here.](http://compling.hss.ntu.edu.sg/ltdb/cgi/ERG_1214/ltypes.cgi)
-
-Last update: 2015-08-25 by DanFlickinger [[edit](https://github.com/delph-in/docs/wiki/ErgLeTypes/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

@@ -68,5 +68,4 @@ unification, i.e. dragging a chart edge and dropping it onto a feature
 (sub-)structure in another LUI window to request unification of the two
 structures with failure recording. See the
 [LuiUnification](https://delph-in.github.io/docs/tools/LuiUnification) page for details.
-
-Last update: 2013-07-02 by WoodleyPackard [[edit](https://github.com/delph-in/docs/wiki/LuiChart/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

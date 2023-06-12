@@ -87,5 +87,4 @@ delphin mkprof path-to-profile --relations current-relations-file --refresh
 ```
 
 This tutorial may be relevant for updating very old treebanks.
-
-Last update: 2023-04-26 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/ItsdbProfileManipulation/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

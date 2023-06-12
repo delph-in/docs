@@ -68,5 +68,4 @@ the images and state the operating system. You may be asked to provide
 sample grammars that illustrate the problem. Do not send bug reports to
 any individual developer: at best they will be forwarded to the lingo
 address, and at worst ignored.
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/LkbUserGroup/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

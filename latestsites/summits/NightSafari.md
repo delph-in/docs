@@ -32,5 +32,4 @@ person on the phone actually said she doesn't recommend that we come
 until the 10th, because it is going to be extremely crowded and the wait
 will be 2-3 hours (!). So... I think we should do something else
 tonight, like go to the city.
-
-Last update: 2015-08-06 by OlgaZamaraeva [[edit](https://github.com/delph-in/docs/wiki/NightSafari/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

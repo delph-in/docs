@@ -99,5 +99,4 @@ photos](http://erbonzo.smugmug.com/Travel/DELPH-IN-2013/30878702_7VXgHz)
 password: stwendel
 - [Petya's
 photos](http://plus.google.com/u/0/photos/110057092152807525970/albums/5908390534903322241)
-
-Last update: 2013-08-05 by PetyaOsenova [[edit](https://github.com/delph-in/docs/wiki/SaarlandTop/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

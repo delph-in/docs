@@ -14,15 +14,16 @@ Please upload your presentations [here](https://github.com/delph-in/docs/tree/ma
 | :--- | :---    | :--- |
 | Morning 1 | **1.1 Welcome and Site Updates** |
 || Welcome & Introductions (20) | Olga, John, Petter & All |
-|| Cambridge (7) | Guy |
-|| Olomouc (7) | Francis |
-|| Rio (7) | Alexandre |
-|| UW (7) | Emily |
-|| Zhong goes to Amsterdam (7) | Luis |
+|| Cambridge (6) | Guy |
+|| Olomouc (6) | Francis |
+|| Perplexity (6) | Eric |
+|| Rio (6) | Alexandre |
+|| UW (6) | Emily |
+|| Zhong goes to Amsterdam (6) | Luis |
 || Introduction to DELPH-IN (30) | Emily |
 | | *Break* ||
 | Morning 2 | **1.2 Grammar and Tool Updates (Chair: TBA)**||
-|| SRG Updates (20+20) | Olga and Lorena |
+|| SRG Updates (20+20) | Olga & Lorena |
 || LKB-FOS Update (20+20) | John |
 | | *Lunch* ||
 | Afternoon 1 | **1.3 Grammar Organization (Chair: TBA)** ||
@@ -119,5 +120,4 @@ The New DELPH-IN Documentation System: Eric
 
 Full Forest Treebanker (FFTB): Olga
 
-
-Last update: 2023-06-06 by John Carroll [[edit](https://github.com/delph-in/docs/wiki/GaliciaSchedule/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

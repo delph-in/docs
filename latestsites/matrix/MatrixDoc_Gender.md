@@ -204,5 +204,4 @@ title = {Widespread but Not Universal: Improving the Typological
 Coverage of the {G}rammar {M}atrix},\
 school = {University of Washington}\
 }
-
-Last update: 2013-03-01 by VaryaGracheva [[edit](https://github.com/delph-in/docs/wiki/MatrixDoc_Gender/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

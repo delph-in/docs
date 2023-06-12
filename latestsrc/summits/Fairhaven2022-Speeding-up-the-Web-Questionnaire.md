@@ -79,5 +79,4 @@
 - T.J. Trimble (from chat): I think there's a couple options that could be updated: literally just the JS isn't very big (<500 lines), the questionnaire rendering is pretty big, then the choices file is all wrapped in there and you have the whole repo :-)
 - T.J. Trimble (from chat): We could theoretically keep matrixdef depending on how much we want to change :-) but deffile.py would need to change
 - Emily: Thanks everyone! Hopefully we have a more responsive matrix. And perhaps more modern. (:
-
-Last update: 2022-07-19 by rosypen [[edit](https://github.com/delph-in/docs/wiki/Fairhaven2022-Speeding-up-the-Web-Questionnaire/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

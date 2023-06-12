@@ -155,5 +155,4 @@ figure out where that is in my file?](https://delph-in.github.io/docs/matrix/GeF
 one?](https://delph-in.github.io/docs/matrix/GeFaqTypeAddendum)
 
 [Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
-
-Last update: 2020-03-02 by MichaelGoodman [[edit](https://github.com/delph-in/docs/wiki/GeFaqTdlSyntax/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

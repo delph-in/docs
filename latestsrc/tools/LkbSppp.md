@@ -176,5 +176,4 @@ sppp.lsp, which is in the same directory as the fake sppp script.
       <!ELEMENT rule EMPTY >
       <!ATTLIST rule id NMTOKEN #REQUIRED
                      form CDATA #REQUIRED >
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/LkbSppp/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

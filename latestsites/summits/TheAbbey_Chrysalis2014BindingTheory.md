@@ -111,5 +111,4 @@ wouldn't melt in its mouth.* Negation is only part of the one clause,
 not both.
 
 \[ Bracketing this for now. \]
-
-Last update: 2014-02-17 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/TheAbbey_Chrysalis2014BindingTheory/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

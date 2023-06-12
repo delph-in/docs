@@ -164,5 +164,4 @@ give you these binaries if you want to be an early adopter
 Agree Concepts - Three object types:
 
 Functor - Monad - Identity
-
-Last update: 2013-08-10 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/SaarlandAceAgree/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

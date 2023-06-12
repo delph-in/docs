@@ -27,5 +27,4 @@ Analysis and Error
 Detection](http://www.aclweb.org/anthology/P/P09/P09-2028.pdf), In
 *Proceedings of the ACL-IJCNLP 2009 Conference Short Papers*, Singapore,
 pp 109-112.
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/EgadTop/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

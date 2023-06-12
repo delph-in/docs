@@ -102,5 +102,4 @@ notes)](https://delph-in.github.io/docs/summits/TheAbbey_Chrysalis2014Possessive
 verbs](https://delph-in.github.io/docs/summits/TheAbbey_Chrysalis2014Nominalization)
 - [Nominalization II: Deverbal
 nouns](https://delph-in.github.io/docs/summits/TheAbbey_Chrysalis2014DeverbalNouns)
-
-Last update: 2014-02-20 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/TheAbbey_Chrysalis2014/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

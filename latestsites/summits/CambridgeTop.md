@@ -94,5 +94,4 @@ password: cambridge
 - [Olga's photos](https://photos.app.goo.gl/1XLqdQPB7WGmHM2N7)
 - [Emily's photos](https://erbonzo.smugmug.com/Travel/DELPH-IN-2019/)
 password: Cambridgeshire
-
-Last update: 2019-07-21 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/CambridgeTop/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

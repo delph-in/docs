@@ -210,5 +210,4 @@ dashes (--; U+2013), and ellipsis (...; U+2026).
 ## Token Splitting
 
 # Unknown Word Handling
-
-Last update: 2013-10-24 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/ErgTokenization/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

@@ -143,5 +143,4 @@ Woodley: No. Emphatically no.
 John: The most reliable test would be with an old image of the classical LKB from > 4 years ago.
 
 Glenn: Maybe a KNOPPIX image?
-
-Last update: 2021-07-23 by Guy Emerson [[edit](https://github.com/delph-in/docs/wiki/Virtual2021DefeasibleIdentity/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

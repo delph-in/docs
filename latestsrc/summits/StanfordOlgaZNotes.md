@@ -87,5 +87,4 @@ Woodley: If you did that and your cyclic graph looked like what the
 morhpologists describe, that would be a nice validation of your work.
 
 Oe: Lunch time!
-
-Last update: 2016-06-17 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/StanfordOlgaZNotes/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

@@ -182,5 +182,4 @@ OE: Feels like a complication
 ALL: With 'conditionals everywhere' are we encroaching on CLIMB?
 
 CONSENSUS: reluctance
-
-Last update: 2020-07-14 by GlennSlayden [[edit](https://github.com/delph-in/docs/wiki/VirtualSharedConfigs/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

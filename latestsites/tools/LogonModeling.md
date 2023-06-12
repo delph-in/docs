@@ -319,5 +319,4 @@ uses your generation profile for the training:
 6\. Train the model:
 
     ./load --binary train.g.lisp
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/LogonModeling/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

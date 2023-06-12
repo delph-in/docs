@@ -181,5 +181,4 @@ will check the page when it is updated and may reformat new entries,
 including removing any material excessive in length or of marginal
 relevance. Note that I would normally check with the original author
 if I did this, but may not for very minor changes.
-
-Last update: 2022-09-14 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/DelphinNews/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

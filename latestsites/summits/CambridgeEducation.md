@@ -129,5 +129,4 @@ David: it depends on how different the languages are.
 
 Francis: we had an issue with ungrammaticality which we needed to do
 something about.
-
-Last update: 2019-07-16 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/CambridgeEducation/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

@@ -184,5 +184,4 @@ encouraged.
 Stephan: Tradition for sub-contracting between partners. Budget for
 this. If you anticipate tools modification, it might be possible to fund
 the changes you need.
-
-Last update: 2011-06-28 by AntskeFokkens [[edit](https://github.com/delph-in/docs/wiki/SuquamishDelphinEcology/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

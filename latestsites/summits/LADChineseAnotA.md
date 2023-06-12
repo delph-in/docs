@@ -335,5 +335,4 @@ Petter: I'd almost call this lingering of predicates an abuse. There's
 compositionality but in a different way.
 
 Francis: I think we're slowing down. I'd like to thank everyone.
-
-Last update: 2015-08-11 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/LADChineseAnotA/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

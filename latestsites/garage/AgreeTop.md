@@ -266,5 +266,4 @@ David A. Wroblewski. 1987. Nondestructive graph unification. In *Proceedings of 
 
 <img src="http://www.agree-grammar.com/webshare/20100918.png" title="http://www.agree-grammar.com/webshare/20100918.png" class="external_image" alt="http://www.agree-grammar.com/webshare/20100918.png" />
 
-
-Last update: 2022-09-20 by Glenn Slayden [[edit](https://github.com/delph-in/docs/wiki/AgreeTop/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

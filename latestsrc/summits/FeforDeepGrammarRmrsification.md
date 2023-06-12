@@ -8,5 +8,4 @@ and should' related to the handle of 'sing' through an arg\_rel.
 - ?? Amerindian languages: This approach might give us a handle on
 attaching syntactically independent modifiers of arguments (noun,
 pronoun) incorporated into verbs.
-
-Last update: 2006-06-14 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/FeforDeepGrammarRmrsification/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

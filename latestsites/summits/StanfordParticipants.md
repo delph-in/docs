@@ -104,5 +104,4 @@ but hope to Skype in.
 - [AnnieZaenen](/AnnieZaenen) - yes
 - OlgaZamaraeva - June 16-20
 - YiZhang
-
-Last update: 2016-06-16 by GlennSlayden [[edit](https://github.com/delph-in/docs/wiki/StanfordParticipants/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}
