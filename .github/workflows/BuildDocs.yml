@@ -43,7 +43,7 @@ jobs:
     steps:
       # Install the requirements of the python scripts
       - run: python -V
-      - run: pip install marko==1.3.1
+      - run: pip install marko==2.0.0
 
 
       # First get all the repositories we will use to build any of the sites

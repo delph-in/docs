@@ -34,7 +34,7 @@ class TextRenderer(Renderer):
         return self.render_fenced_code(cast("block.FencedCode", element))
 
     def render_html_block(self, element: "block.HTMLBlock") -> str:
-        return element.children  # type: ignore
+        return element.body  # type: ignore
 
     def render_thematic_break(self, element: "block.ThematicBreak") -> str:
         return "\n"
@@ -60,7 +60,7 @@ class TextRenderer(Renderer):
         return self.render_children(element)
 
     def render_inline_html(self, element: "inline.InlineHTML") -> str:
-        return self.render_html_block(cast("block.HTMLBlock", element))
+        return element.children
 
     def render_plain_text(self, element: Any) -> str:
         return self.render_children(element)
