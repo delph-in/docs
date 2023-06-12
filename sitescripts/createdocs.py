@@ -5,6 +5,7 @@ import posixpath
 import shutil
 import subprocess
 import sys
+import traceback
 import urllib.parse
 from urllib import request
 from urllib.error import HTTPError
@@ -411,7 +412,8 @@ def populate_sites_src(sites_definition, root_address, src_root, dst_root):
             try:
                 links += convert_and_copy_doc(sites_definition["SourceRepositories"], sites_definition["Sites"], sites_definition["Pages"], parser, index_file, fileDefinition, src_file, dst_file)
             except Exception as error:
-                errors.append({"Definition": fileDefinition, "Error": "Exception during convert_and_copy_doc: " + str(error)})
+                stack = [line for line in traceback.format_stack()]
+                errors.append({"Definition": fileDefinition, "Error": "Exception during convert_and_copy_doc: " + str(error) + ": " + " --> ".join(stack)})
 
             if fileDefinition["Site"] not in tocs:
                 tocs[fileDefinition["Site"]] = []
