@@ -12,7 +12,7 @@ Please upload your presentations [here](https://github.com/delph-in/docs/tree/ma
 
 | Time | Content | Presenter (Scribe) |
 | :--- | :---    | :--- |
-| Morning 1 | **1.1 Welcome and Site Updates** |
+| Morning 1 | **1.1 Welcome and Site Updates (Chair: John)** |
 || Welcome & Introductions (20) | Olga, John, Petter & All |
 || Cambridge (6) | Guy |
 || Olomouc (6) | Francis |
@@ -22,11 +22,11 @@ Please upload your presentations [here](https://github.com/delph-in/docs/tree/ma
 || Zhong goes to Amsterdam (6) | Luis |
 || Introduction to DELPH-IN (30) | Emily |
 | | *Break* ||
-| Morning 2 | **1.2 Grammar and Tool Updates (Chair: TBA)**||
+| Morning 2 | **1.2 Grammar and Tool Updates (Chair: Petter)**||
 || SRG Updates (20+20) | Olga & Lorena |
 || LKB-FOS Update (20+20) | John |
 | | *Lunch* ||
-| Afternoon 1 | **1.3 Grammar Organization (Chair: TBA)** ||
+| Afternoon 1 | **1.3 Grammar Organization (Chair: Olga)** ||
 || Using Emerson-Turing Types for Unbounded Dependencies in the ERG (10+20) | Dan |
 || Computation as Subtyping (10+20) | Guy |
 || Possible Insights from a Hierarchy of Construction Types (20+10) | Petter |
@@ -44,7 +44,7 @@ Please upload your presentations [here](https://github.com/delph-in/docs/tree/ma
 || Thai Serial Verb Constructions: an HPSG Implementation and Analysis (10+20) | Vipasha |
 || Functional Distributional Semantics at Scale (20+20-30) | Chun Hei / Guy |
 | | *Break* ||
-| Morning 2 | **2.2 Semantics, MWE (Chair: TBA)**||
+| Morning 2 | **2.2 Semantics, MWE (Chair: John)**||
 | | Semantics at Scale and the Duality of Language Understanding (10+20) | Guy |
 | | Probing Hypernymy in Distributional Semantics (10+20) | Chun Hei |
 | | MWE in the GlossTag (WordNet Definitions and Examples) Corpus (10+20) | Alexandre |
@@ -61,11 +61,11 @@ Please upload your presentations [here](https://github.com/delph-in/docs/tree/ma
 
 | Time | Content | Presenter (Scribe) |
 | :--- | :---    | :--- |
-| Morning 1 | **3.1 Computational Techniques (Chair: TBA)** |
+| Morning 1 | **3.1 Computational Techniques (Chair: Guy)** |
 || ERG Supertagging (10+20) | Olga |
 || A Backtracking Approach to Solving Well-Formed Trees (45+15) | Eric |
 | | *Break* ||
-| Morning 2 | **3.2 Business Meeting and Planning SIGs (Chair: TBA)**||
+| Morning 2 | **3.2 Business Meeting and Planning SIGs (Chair: Francis)**||
 | |  Business Meeting (30-60)  | All |
 | |  Planning SIGs (30) | John & Petter |
 | | *Lunch* ||
@@ -121,4 +121,4 @@ The New DELPH-IN Documentation System: Eric
 Full Forest Treebanker (FFTB): Olga
 
 
-Last update: 2023-06-11 by John Carroll [[edit](https://github.com/delph-in/docs/wiki/GaliciaSchedule/_edit)]{% endraw %}
+Last update: 2023-06-14 by Petter Haugereid [[edit](https://github.com/delph-in/docs/wiki/GaliciaSchedule/_edit)]{% endraw %}
