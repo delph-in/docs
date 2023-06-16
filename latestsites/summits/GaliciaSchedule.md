@@ -31,7 +31,7 @@ Please upload your presentations [here](https://github.com/delph-in/docs/tree/ma
 || Computation as Subtyping (10+20) | Guy |
 || Possible Insights from a Hierarchy of Construction Types (20+10) | Petter |
 | | *Break* ||
-| Afternoon 2 | **1.4 Linguistic Phenomena (Chair: TBA)** ||
+| Afternoon 2 | **1.4 Linguistic Phenomena (Chair: Dan)** ||
 || MRS Design for Light Verb Constructions in the Grammar Matrix (10+20) | Tara |
 || Action Nominals in the Grammar Matrix (10+20) | Keren |
 || Cantonese Classifiers (10+20) | Francis |
@@ -121,4 +121,4 @@ The New DELPH-IN Documentation System: Eric
 Full Forest Treebanker (FFTB): Olga
 
 
-Last update: 2023-06-14 by Petter Haugereid [[edit](https://github.com/delph-in/docs/wiki/GaliciaSchedule/_edit)]{% endraw %}
+Last update: 2023-06-15 by Petter Haugereid [[edit](https://github.com/delph-in/docs/wiki/GaliciaSchedule/_edit)]{% endraw %}
