@@ -2,9 +2,9 @@
 
 This is the draft program for the [[2023 DELPH-IN Summit|GaliciaTop]].
 
-Monday to Wednesday morning will be plenary sessions. Thursday and Friday will be Special Interest Groups (SIGs). The excursion will be on Wednesday afternoon, and the banquet on Wednesday or Thursday evening.
+Monday to Wednesday morning will be plenary sessions. Thursday and Friday will be Special Interest Groups (SIGs). There are informal social activities planned for Monday and Tuesday evenings. The excursion will be on Wednesday afternoon, and the conference dinner on Thursday evening. 
 
-Zoom details will follow.
+All times are CEST (2 hours ahead of UTC). Zoom details will follow.
 
 Please upload your presentations [here](https://github.com/delph-in/docs/tree/main/summits/2023) and then link them to your session. 
 
@@ -35,6 +35,8 @@ Please upload your presentations [here](https://github.com/delph-in/docs/tree/ma
 || MRS Design for Light Verb Constructions in the Grammar Matrix (10+20) | Tara |
 || Action Nominals in the Grammar Matrix (10+20) | Keren |
 || Cantonese Classifiers (10+20) | Francis |
+| | **Social Program** ||
+|20:00-21:00| Old Town tour (meeting point: [Plaza María Pita](https://goo.gl/maps/aL3zMfRzFmZWuWsj9), near the statue)  | Olga |
 
 ## Tuesday
 
@@ -49,13 +51,15 @@ Please upload your presentations [here](https://github.com/delph-in/docs/tree/ma
 | | Probing Hypernymy in Distributional Semantics (10+20) | Chun Hei |
 | | MWE in the GlossTag (WordNet Definitions and Examples) Corpus (10+20) | Alexandre |
 | | *Lunch* ||
-| Afternoon 1 | **2.3 WordNet (Chair: TBA)** ||
+| Afternoon 1 | **2.3 WordNet (Chair: Emily)** ||
 || Roadmap for Adding WordNet Senses to the ERG Lexicon (10+20) | Dan |
 || WordNet/MRS Harmony (10+50) | Francis |
 | | *Break* ||
 | Afternoon 2 | **2.4 MRS Transformation (Chair: TBA)** ||
 || Converting Structured RDF Data into MRS for Generation (20+20-30) | Liz |
 || Translating from MRS to FOL (20+20-30) | Alexandre |
+| | **Social Program** ||
+|20:00-22:00| A walk by the coast + tapas (meeting point: [Plaza María Pita](https://goo.gl/maps/aL3zMfRzFmZWuWsj9), near the statue)  | Olga |
 
 ## Wednesday
 
@@ -70,7 +74,7 @@ Please upload your presentations [here](https://github.com/delph-in/docs/tree/ma
 | |  Planning SIGs (30) | John & Petter |
 | | *Lunch* ||
 | Rest of Day | **Excursion** ||
-|| Itinerary to follow | Olga |
+|15:30-22:00| Itinerary to follow. Meeting point: [Extrejardines bus stop](https://goo.gl/maps/B2Pf6acRUDVedM7JA) | Olga |
 
 ## Thursday
 
@@ -79,10 +83,11 @@ Please upload your presentations [here](https://github.com/delph-in/docs/tree/ma
 | Morning 1 | | |
 | | *Break* ||
 | Morning 2 | | |
-|  | *Lunch* ||
+| | *Lunch* ||
 | Afternoon 1 | | |
 | | *Break* ||
 | Afternoon 2 | | |
+| 21:00-00:00 | **Conference Dinner** at [A Pulperia de Melide](https://goo.gl/maps/gZfK8FVEHuJRichm6) | Olga |
 
 ## Friday
 
@@ -91,7 +96,7 @@ Please upload your presentations [here](https://github.com/delph-in/docs/tree/ma
 | Morning 1 | | |
 | | *Break* ||
 | Morning 2 | | |
-|  | *Lunch* ||
+| | *Lunch* ||
 | Afternoon 1 | | |
 | | *Break* ||
 | Afternoon 2 | | |
@@ -121,4 +126,4 @@ The New DELPH-IN Documentation System: Eric
 Full Forest Treebanker (FFTB): Olga
 
 
-Last update: 2023-06-15 by Petter Haugereid [[edit](https://github.com/delph-in/docs/wiki/GaliciaSchedule/_edit)]{% endraw %}
+Last update: 2023-06-16 by John Carroll [[edit](https://github.com/delph-in/docs/wiki/GaliciaSchedule/_edit)]{% endraw %}
