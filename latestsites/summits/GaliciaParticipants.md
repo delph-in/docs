@@ -36,10 +36,10 @@ Please add times **in UTC**:
 |Vipasha Bansal| June 26-30| Online only, before 11am UTC||
 |Liz Conrad| June 26-29|Online only, 13:00-17:00 UTC ||
 |David Moeljadi|June 26-30|online only, not full time||
-|Glenn Slayden|June 26-30| TBD |possible late-breaking conflict :-( |
+|Glenn Slayden|June 26-30| online as possible||
 | Sara Grzelak | June 26-30 | online | ... |
 | Gita Dhungana| June 26-30 | Online, 13:00 - 18:00 UTC||
 | ... | ... | ... | ... |
 | "Virtual-Tarou" | June 26-30 | Virtual, every day from 10:00-17:00 UTC  | This is an example, with times, for a virtual participant |
 
-Last update: 2023-06-16 by geetsgithub [[edit](https://github.com/delph-in/docs/wiki/GaliciaParticipants/_edit)]{% endraw %}
+Last update: 2023-06-17 by Glenn Slayden [[edit](https://github.com/delph-in/docs/wiki/GaliciaParticipants/_edit)]{% endraw %}
