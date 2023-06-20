@@ -42,7 +42,7 @@ Please upload your presentations [here](https://github.com/delph-in/docs/tree/ma
 
 | Time | Content | Presenter (Scribe) |
 | :--- | :---    | :--- |
-| Morning 1 | **2.1 Linguistic Phenomena, Semantics (Chair: TBA)** |
+| Morning 1 | **2.1 Linguistic Phenomena, Semantics (Chair: Berthold)** |
 || Thai Serial Verb Constructions: an HPSG Implementation and Analysis (10+20) | Vipasha |
 || Functional Distributional Semantics at Scale (20+20-30) | Chun Hei / Guy |
 | | *Break* ||
@@ -74,7 +74,7 @@ Please upload your presentations [here](https://github.com/delph-in/docs/tree/ma
 | |  Planning SIGs (30) | John & Petter |
 | | *Lunch* ||
 | Rest of Day | **Excursion** ||
-|15:30-22:00| Itinerary to follow. Meeting point: [Extrejardines bus stop](https://goo.gl/maps/B2Pf6acRUDVedM7JA) | Olga |
+|15:00-22:00| Visiting the ancient town of [Lugo](https://goo.gl/maps/PVhPoiQn5wvUiT637). Meeting point: [Entrejardines bus stop](https://goo.gl/maps/B2Pf6acRUDVedM7JA). **Bus leaves at 15:30.** | Olga |
 
 ## Thursday
 
@@ -126,4 +126,4 @@ The New DELPH-IN Documentation System: Eric
 Full Forest Treebanker (FFTB): Olga
 
 
-Last update: 2023-06-16 by John Carroll [[edit](https://github.com/delph-in/docs/wiki/GaliciaSchedule/_edit)]{% endraw %}
+Last update: 2023-06-19 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/GaliciaSchedule/_edit)]{% endraw %}

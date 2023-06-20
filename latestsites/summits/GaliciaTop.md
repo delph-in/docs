@@ -9,7 +9,7 @@ Please register at the [2023 participants page](https://delph-in.github.io/docs/
 The event is generously sponsored by the [LyS Group](http://www.grupolys.org/lys_en.html). There will be no registration fee.
 
 ### Organization
-The local organization is handled by Olga Zamaraeva and the [LyS Group](http://www.grupolys.org/lys_en.html) from Universidade da Coruña. To contact the local organizers, you can use: congreso.delphin2023@udc.es
+The local organization is handled by Olga Zamaraeva and the [LyS Group](http://www.grupolys.org/lys_en.html) from Universidade da Coruña with the help of [Océano Azul](https://oceano-azul.es/). To contact the local organizers, you can use: congreso.delphin2023@udc.es
 
 ## Optional pre-summit workshop
 
@@ -23,7 +23,7 @@ Note: We are adopting a "Spanish" schedule, starting at 10:00 and running till 1
 
 # Location
 
-The meeting will take place at the University's [Rectorate](https://goo.gl/maps/erV9Jsdfr3YUJ22f9), which is a nice building near the old town. The old town has some options for coffee and lunch, with lots more options for dinner available in the newer city center, 15-20-minute walk from the venue. The details about coffee and lunch breaks are TBA. We will mainly be in [Sala del Consello de Goberno](https://www.udc.es/es/goberno/equipo_reitoral/xerencia/servizos/control-interno/inventario-e-patrimonio/patrimonio/sala_consello_goberno/), and on Thursday and Friday we will also have [Sala de Xuntas](https://www.udc.es/es/goberno/equipo_reitoral/xerencia/servizos/control-interno/inventario-e-patrimonio/patrimonio/sala_xuntas/) (same building), for some of the SIGs. (On Wednesday, we will not have the Sala del Consello de Goberno because it will be used to host a meeting of precisely the Consello de Goberno, so we will use Sala de Xuntas on Wednesday morning as well).
+The meeting will take place at the University's [Rectorate](https://goo.gl/maps/erV9Jsdfr3YUJ22f9), which is a nice building near the old town. The old town has some options food and drinks, with lots more options available in the newer city center, 15-20-minute walk from the venue. Coffee and lunch will be served on site on all 5 days. We will mainly be in [Sala del Consello de Goberno](https://www.udc.es/es/goberno/equipo_reitoral/xerencia/servizos/control-interno/inventario-e-patrimonio/patrimonio/sala_consello_goberno/), and on Thursday and Friday we will also have [Sala de Xuntas](https://www.udc.es/es/goberno/equipo_reitoral/xerencia/servizos/control-interno/inventario-e-patrimonio/patrimonio/sala_xuntas/) (same building), for some of the SIGs. (On Wednesday, we will not have the Sala del Consello de Goberno because it will be used to host a meeting of precisely the Consello de Goberno, so we will use Sala de Xuntas on Wednesday morning as well).
 
 ## Wifi at the venue
 
@@ -71,4 +71,4 @@ The San Juan party is the biggest holiday in A Coruña, when the whole town is o
 
 Please take a look at the [Local Guide](https://delph-in.github.io/docs/summits/GaliciaLocalGuide) for some info about the weather, sightseeing, eating out etc.
 
-Last update: 2023-06-16 by John Carroll [[edit](https://github.com/delph-in/docs/wiki/GaliciaTop/_edit)]{% endraw %}
+Last update: 2023-06-19 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/GaliciaTop/_edit)]{% endraw %}
