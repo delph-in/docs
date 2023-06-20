@@ -9,7 +9,7 @@ compilers, runtime environments or code libraries. The source code is in
 the DELPH-IN public repository
 <http://svn.delph-in.net/lkb/branches/fos/>. For convenience,
 precompiled binaries for macOS and Linux can be downloaded from
-[lkb\_fos.tgz](http://users.sussex.ac.uk/~johnca/lkb_fos.tgz) \[98.7
+[lkb\_fos.tgz](http://users.sussex.ac.uk/~johnca/lkb_fos.tgz) \[96.4
 MB\]. A Windows binary may be available at some point in the future.
 
 LKB-FOS has been developed using the tools and libraries *SBCL*,
@@ -65,8 +65,8 @@ and install it.
 
 The LKB-FOS binary for Linux is lkb.linux\_x86\_64.
 
-The LKB-FOS binary for macOS Intel architecture is lkb.darwin\_x86\_64, and for M1
-architecture it is lkb.darwin\_arm64. You can run the appropriate binary by typing
+The LKB-FOS binary for macOS Intel architecture is lkb.darwin\_x86\_64, and for macOS
+on Apple silicon it is lkb.darwin\_arm64. You can run the appropriate binary by typing
 its name in the *Terminal* application or in an *xterm* hosted by *XQuartz*.
 Alternatively, to start the LKB without going through the Unix command line,
 you can just double click the LKB.app application – if that gives an error message
@@ -104,6 +104,8 @@ McCLIM works well for Unicode output, so LKB-FOS can work with
 grammars using any language script.
 - Chart mapping: LKB-FOS includes support for token mapping,
 lexical filtering, and post-generation mapping rules.
+- YY input mode: linguistic preprocessors may be interfaced via
+DELPH-IN YY format.
 
 Experienced LKB users might notice further refinements:
 
@@ -114,8 +116,8 @@ character.
 - Info line in tree windows, showing details of the currently selected
 tree or tree node.
 - Type hierarchy display that includes a target type's ancestors as
-well as descendants, can be zoomed in and out, and can also show
-type constraints.
+well as descendants, can be zoomed in and out, can show
+type constraints, and also docstrings on types in 'tooltips' windows.
 - Much faster GLB computation for large type hierarchies.
 - Major speed improvements in the user interface, and also in parsing
 and generation.
@@ -267,4 +269,4 @@ If you encounter an unexpected problem using LKB-FOS, please check
 a solution has already been posted there; if it hasn't then create a new topic.
 
 
-Last update: 2022-12-30 by John Carroll [[edit](https://github.com/delph-in/docs/wiki/LkbFos/_edit)]{% endraw %}
+Last update: 2023-06-20 by John Carroll [[edit](https://github.com/delph-in/docs/wiki/LkbFos/_edit)]{% endraw %}

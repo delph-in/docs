@@ -1,6 +1,6 @@
 {% raw %}# Overview
 
-The 19th DELPH-IN [Summit](https://delph-in.github.io/docs/summits/SummitTop) will take place on June 26--30 2023 in A Coruña, Galicia, Spain.
+The 19th DELPH-IN [Summit](https://delph-in.github.io/docs/summits/SummitTop) will take place on June 26-30 2023, in A Coruña, Galicia, Spain.
 
 ## Registration
 
@@ -19,7 +19,7 @@ A pre-summit [workshop on Lexical Resources](https://delph-in.github.io/docs/sum
 
 The [summit program](https://github.com/delph-in/docs/wiki/GaliciaSchedule) is almost finalised. The program co-chairs this year are John Carroll and Petter Haugereid.
 
-Note: We are adopting a "Spanish" schedule, starting at 10:00 and running till 19:00. This is mainly because restaurants here do not serve food until 20:30 and it would be unreasonable to expect that people will be going to bed early. This is similar to what was done in [Barcelona](https://delph-in.github.io/docs/summits/BarcelonaSchedule).
+Note: We are adopting a "Spanish" schedule, starting at 10:00 or 10:30 and running till 19:00. This is mainly because restaurants here do not serve food until 20:30 and it would be unreasonable to expect that people will be going to bed early. This is similar to what was done in [Barcelona](https://delph-in.github.io/docs/summits/BarcelonaSchedule), our last summit in Spain in 2009.
 
 # Location
 
@@ -71,4 +71,4 @@ The San Juan party is the biggest holiday in A Coruña, when the whole town is o
 
 Please take a look at the [Local Guide](https://delph-in.github.io/docs/summits/GaliciaLocalGuide) for some info about the weather, sightseeing, eating out etc.
 
-Last update: 2023-06-19 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/GaliciaTop/_edit)]{% endraw %}
+Last update: 2023-06-20 by John Carroll [[edit](https://github.com/delph-in/docs/wiki/GaliciaTop/_edit)]{% endraw %}
