@@ -133,6 +133,14 @@ morphological segmentation as part of the input tokens, in which case
 one or more *lrule* values (as strings) name lexical rules provided by
 the grammar.
 
+Example from the Spanish treebank with a sequence of lexical rules
+(the Spanish Resource Grammar relies on an external morphophonological processor):
+
+```
+(1, 0, 1, <0:6>, 1, "costar" "cuesta", 0, "vmip3s0", "vmip3s0" 0.94618834) 
+(2, 1, 2, <7:14>, 1, "creer" "creerlo", 0, "vmn0000" "+pp3msa0", "vmn0000" "+pp3msa0" 1.00000000)
+```
+
 Finally, each token can be annotated with an optional sequence of tag
 plus probability pairs. The ERG, for example, includes a set of
 underspecified *generic* lexical entries which can be activated on the
@@ -144,6 +152,12 @@ became available in PET) they are just ignored.
 YY input mode supports a genuine token lattice, i.e. it is legitimate to
 have multiple tokens for an input position, or tokens spanning multiple
 positions.
+
+Example with several possibilities for POS tags remaining after the morphological analysis stage:
+
+```
+(1, 0, 1, <0:13>, 1, "explicación" "explicaciones", 0, "ncfp000", "ncfp000" 1.00000000) (2, 1, 2, <14:23>, 1, "oficial" "oficiales", 0, "aq0cp00", "aq0cp00" 0.9) (3, 1, 2, <14:23>, 1, "oficial" "oficiales", 0, "aq0fp00", "aq0fp00" 0.1)
+```
 
 # Unknown Word Handling: Basics
 
@@ -476,4 +490,4 @@ encode the parser input. See the [PetInputFsc](https://delph-in.github.io/docs/g
 so-called FSC, PIC (deprecated as of mid-2010), and SMAF (deprecated as
 of mid-2010) mode, respectively.
 
-Last update: 2011-11-02 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/PetInput/_edit)]{% endraw %}
+Last update: 2023-06-15 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/PetInput/_edit)]{% endraw %}

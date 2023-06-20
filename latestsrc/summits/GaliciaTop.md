@@ -6,10 +6,10 @@ The 19th DELPH-IN [Summit](https://delph-in.github.io/docs/summits/SummitTop) wi
 
 Please register at the [2023 participants page](https://delph-in.github.io/docs/summits/GaliciaParticipants).  We will do our best to make it a hybrid event, please let us know if you intend to attend locally or virtually, and if so your preferred times (for meeting scheduling).
 
-There may be a registration fee (especially if we will end up having coffee and lunches on site); I will try to keep it small.
+The event is generously sponsored by the [LyS Group](http://www.grupolys.org/lys_en.html). There will be no registration fee.
 
 ### Organization
-The local organization is handled by Olga Zamaraeva and the [LyS Group](http://www.grupolys.org/lys_en.html) from Universidade da Coruña. To contact the local organizers, you can use: congreso.delphin2023@udc.es
+The local organization is handled by Olga Zamaraeva and the [LyS Group](http://www.grupolys.org/lys_en.html) from Universidade da Coruña with the help of [Océano Azul](https://oceano-azul.es/). To contact the local organizers, you can use: congreso.delphin2023@udc.es
 
 ## Optional pre-summit workshop
 
@@ -17,17 +17,25 @@ A pre-summit [workshop on Lexical Resources](https://delph-in.github.io/docs/sum
 
 # Program
 
-TBA
+The [summit program](https://github.com/delph-in/docs/wiki/GaliciaSchedule) is almost finalised. The program co-chairs this year are John Carroll and Petter Haugereid.
 
-The program committee this year consists of John Carroll and Petter Haugereid.
-
-Note: We will adopt a "Spanish" schedule, starting at 10-10:30 AM and running till 19-19:30. This is mainly because restaurants here do not serve food until 20:30 and it would be unreasonable to expect that people will be going to bed early. It will be similar to what was done in [Barcelona](https://delph-in.github.io/docs/summits/BarcelonaSchedule).
+Note: We are adopting a "Spanish" schedule, starting at 10:00 and running till 19:00. This is mainly because restaurants here do not serve food until 20:30 and it would be unreasonable to expect that people will be going to bed early. This is similar to what was done in [Barcelona](https://delph-in.github.io/docs/summits/BarcelonaSchedule).
 
 # Location
 
-The meeting will take place at the University's [Rectorate](https://goo.gl/maps/erV9Jsdfr3YUJ22f9), which is a nice building near the old town. The old town has some options for coffee and lunch, with lots more options for dinner available in the newer city center, 15-20-minute walk from the venue. The details about coffee and lunch breaks are TBA. We will mainly be in [Sala del Consello de Goberno](https://www.udc.es/es/goberno/equipo_reitoral/xerencia/servizos/control-interno/inventario-e-patrimonio/patrimonio/sala_consello_goberno/), and on Thursday and Friday we will also have [Sala de Xuntas](https://www.udc.es/es/goberno/equipo_reitoral/xerencia/servizos/control-interno/inventario-e-patrimonio/patrimonio/sala_xuntas/) (same building), for some of the SIGs. (On Wednesday, we will not have the Sala del Consello de Goberno because it will be used to host a meeting of precisely the Consello de Goberno, so we will use Sala de Xuntas on Wednesday morning as well).
+The meeting will take place at the University's [Rectorate](https://goo.gl/maps/erV9Jsdfr3YUJ22f9), which is a nice building near the old town. The old town has some options food and drinks, with lots more options available in the newer city center, 15-20-minute walk from the venue. Coffee and lunch will be served on site on all 5 days. We will mainly be in [Sala del Consello de Goberno](https://www.udc.es/es/goberno/equipo_reitoral/xerencia/servizos/control-interno/inventario-e-patrimonio/patrimonio/sala_consello_goberno/), and on Thursday and Friday we will also have [Sala de Xuntas](https://www.udc.es/es/goberno/equipo_reitoral/xerencia/servizos/control-interno/inventario-e-patrimonio/patrimonio/sala_xuntas/) (same building), for some of the SIGs. (On Wednesday, we will not have the Sala del Consello de Goberno because it will be used to host a meeting of precisely the Consello de Goberno, so we will use Sala de Xuntas on Wednesday morning as well).
 
-Note: Kindly be advised that it is not the custom here to bring coffee into the rooms... Apologies for any inconvenience! 
+## Wifi at the venue
+
+Access to `eduroam` is available. The Universidade da Coruña belongs to the `eduroam` initiative and, therefore, enables users of any organization affiliated with the `eduroam` initiative to access its wireless network. The visiting user must use the eduroam `SSID`. The wireless network of the University of Corunna uses the following authentication and encryption protocols: `802.1X, EAP-TTLS, WPA2-AES`. Before coming and using the wireless network, we recommend that you check that your organization belongs to the eduroam initiative and that you have configured the service on your device.
+
+If you do not have access to `eduroam`, you can connect through the `udceventos` network
+
+Instructions:
+
+Connect from the device to the wifi network `udceventos`.
+Open a web browser, go to any page on the Internet. At that time, a redirection to the authentication portal occurs. In this step, the browser will probably show a warning indicating that browsing is not secure. This warning must be ignored, otherwise the process will not continue.
+Select the preferred identity provider (Google, Facebook, Twitter or LinkedIn). You will be redirected to the provider’s authentication portal. Follow their directions.
 
 # Travel
 
@@ -45,7 +53,7 @@ Two hotels will be holding some rooms for us until June 15:
 
 - [HOTEL NH COLLECTION A CORUÑA FINISTERRE](https://www.nh-hotels.com/hotel/nh-collection-a-coruna-finisterre?campid=8435708&gclid=CjwKCAiA_vKeBhAdEiwAFb_nrcX0lVhcOVaiQPhuToHFQ8lBiWX9kuvrGLM6LjtjVqOUn46L7Qq86RoC_TQQAvD_BwE&gclsrc=aw.ds): When booking the room you must indicate "group 110950001" (best done via email). This is the more luxurious option, only a few minutes from the venue, which includes access to outdoor saltwater swimming pools, for example. Breakfast included. 
 - [HOTEL MAYCAR](https://www.hotelmaycar.com/): This 2-star hotel seems to have rooms. I am trying to get us a group discount and will update this when I can. This is an affordable, hostel-style option, a bit further away from the venue but still walking distance. No breakfast but there are cafes nearby.
-- [HOSTAL LA PROVINCIANA](http://www.laprovinciana.net/): UPDATE: This hotel has been unresponsive, and on other occasion said they are fully booked, despite promising to hold rooms for us. I will leave the original info here but I no longer recommend to use it. Original info: When booking the room you must indicate the name of the meeting "Deplh-In". This is an affordable, hostel-style option, a bit further away from the venue but still walking distance. No breakfast.
+- [HOSTAL LA PROVINCIANA](http://www.laprovinciana.net/): UPDATE: This hotel has been unresponsive, and on other occasion said they are fully booked, despite promising to hold rooms for us. I will leave the original info here but I no longer recommend to use it. Original info: When booking the room you must indicate the name of the meeting "Delph-In". This is an affordable, hostel-style option, a bit further away from the venue but still walking distance. No breakfast.
 
 Otherwise, as usual, I am sure some people will choose AirBnB options or other alternatives. Note that there are very few hotels in the Old Town (where the venue is), but that the Old Town is only 10-20 minutes away from the City Center, where you will find numerous options.
 
@@ -53,7 +61,7 @@ NB: Spain is a loud country, and people here do not go to bed early and spend a 
 
 # Social Activities
 
-Social activities will include a banquet, an excursion (details TBA), and hopefully ample casual dining out in the evenings (see [the Local Guide](https://github.com/delph-in/docs/wiki/GaliciaLocalGuide)). A night of karaoke is also a possibility, though karaoke here opens quite late (11 PM), and so that would probably have to happen on Friday the 30th. Please plan your departure accordingly. 
+Social activities will include a conference dinner, an excursion, and hopefully ample casual dining out in the evenings (see [the Local Guide](https://github.com/delph-in/docs/wiki/GaliciaLocalGuide)). A night of karaoke is also a possibility, though karaoke here opens quite late (11 PM), and so that would probably have to happen on Friday the 30th. Please plan your departure accordingly. 
 
 ## Pre-summit San Juan party
 
@@ -63,4 +71,4 @@ The San Juan party is the biggest holiday in A Coruña, when the whole town is o
 
 Please take a look at the [Local Guide](https://delph-in.github.io/docs/summits/GaliciaLocalGuide) for some info about the weather, sightseeing, eating out etc.
 
-Last update: 2023-05-25 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/GaliciaTop/_edit)]{% endraw %}
+Last update: 2023-06-19 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/GaliciaTop/_edit)]{% endraw %}
