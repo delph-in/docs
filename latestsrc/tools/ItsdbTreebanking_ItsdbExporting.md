@@ -57,4 +57,10 @@ to set lkb::\*characterize-p\* to non-null before you export.
 Exporting can be memory intensive. Use a batch instead for large
 profiles. There is an example described in [RedwoodsTop](https://delph-in.github.io/docs/garage/RedwoodsTop).
 
-Last update: 2012-08-05 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/ItsdbTreebanking_ItsdbExporting/_edit)]{% endraw %}
+# Thinning the treebanks
+
+A profile which has treebanking decisions can be normalized (or "thinned") such that only a single (chosen) derivation remains.
+
+Set the [incr tsdb()] database root to the location of the treebank to be thinned. Then under Tree/Switches, select Thinning Normalize. Then, under Tree, choose Normalize, and enter the name of the new, thinned, profile. The tool will create the new profile in the database root directory and it will appear in the database list.
+
+Last update: 2023-06-23 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/ItsdbTreebanking_ItsdbExporting/_edit)]{% endraw %}

@@ -39,7 +39,8 @@ Please add times **in UTC**:
 |Glenn Slayden|June 26-30| online as possible||
 | Sara Grzelak | June 26-30 | online | ... |
 | Gita Dhungana| June 26-30 | Online, 13:00 - 18:00 UTC||
+| Alex Lascarides | June 26th, 28th | Online ||
 | ... | ... | ... | ... |
 | "Virtual-Tarou" | June 26-30 | Virtual, every day from 10:00-17:00 UTC  | This is an example, with times, for a virtual participant |
 
-Last update: 2023-06-17 by Glenn Slayden [[edit](https://github.com/delph-in/docs/wiki/GaliciaParticipants/_edit)]{% endraw %}
+Last update: 2023-06-23 by Alex Lascarides [[edit](https://github.com/delph-in/docs/wiki/GaliciaParticipants/_edit)]{% endraw %}

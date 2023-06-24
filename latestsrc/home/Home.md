@@ -62,9 +62,8 @@ Research Group](https://www.sussex.ac.uk/research/centres/ai-research-group/)
 [Computational Linguistics Laboratory](http://www.washington.edu/)
 - [Western Norway University of Applied Sciences](https://www.hvl.no/en) (Norway), [Department of Language, Literature, Mathematics and Interpreting](https://www.hvl.no/en/about/management/faculty-of-education-arts-and-sports/department-of-language-literature-mathematics-and-interpreting/)
 
-The DELPH-IN collaboration is open to additional partners who share our
-ambitious goals and commitments and who can dedicate the necessary
-resources to the common task.
+The DELPH-IN collaboration is open to additional partners and individuals
+who share our goals and are interested in contributing to the common task.
 
 ## Components and Resources
 
@@ -159,4 +158,4 @@ is a link to the archive near the top of the page.
 There is also an active [stack-exchange style
 forum](http://discourse.delph-in.net), using the Discourse platform.
 
-Last update: 2022-09-14 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/Home/_edit)]{% endraw %}
+Last update: 2023-06-23 by Francis Bond [[edit](https://github.com/delph-in/docs/wiki/Home/_edit)]{% endraw %}
