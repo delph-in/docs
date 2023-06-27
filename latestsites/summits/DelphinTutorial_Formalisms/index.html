@@ -1169,7 +1169,7 @@
 See brief linguistic characterisation on the
 <a href="https://delph-in.github.io/docs/howto/DelphinTutorial_Grammars">DelphinTutorial/Grammars</a> page.</p>
 
-<h1 id="dtfs-delph-in-typed-feature-structure-logic">DTFS: DELPH-IN Typed Feature Structure Logic</h1>
+<h1 id="jrf-delph-in-joint-reference-formalism">JRF: DELPH-IN Joint Reference Formalism</h1>
 
 <p>One of the early accomplishments of DELPH-IN partners was agreement on a
 joint reference formalism (i.e. a ‘designer logic’ for typed feature
@@ -1188,7 +1188,7 @@ lexical rules that can be interpreted as rewrite rules over complex
 (typed feature structure) categories by a suitable parser or generator.</p>
 
 <p>Compared to the range of formal devices assumed at times in the
-(theoretical) HPSG literature, the DELPH-IN TFS Logic is relatively
+(theoretical) HPSG literature, the DELPH-IN JRF is relatively
 <strong>conservative</strong>, excluding, for example, logical disjunction and
 negation, implications with complex antecedents, relational constraints,
 or cyclic feature structures. The DELPH-IN selection of descriptive
@@ -1200,7 +1200,7 @@ efficiency.</p>
 
 <p>DELPH-IN grammars are encoded in the Type Definition Language (<strong>TDL</strong>),
 a textual specification of type inheritance and constraints. The
-canonical reference for the DELPH-IN joint reference formalism is the
+canonical reference for the DELPH-IN Joint Reference Formalism is the
 appendix of the volume <em>Collaborative Language Engineering</em>:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>@incollection{Copestake:02:CLE,
@@ -1226,8 +1226,7 @@ predicate logic with generalized quantifiers.</p>
 <p>The semantic information associated with an HPSG sign is called an
 <strong>MRS</strong>. While typically constructed through unification of typed
 feature structures (in parsing or generation), MRSs formally are not
-feature structures (or objects in the DELPH-IN Typed Feature Structure
-Logic; see below). An MRS consists of:</p>
+feature structures (or objects in the DELPH-IN JRF; see above). An MRS consists of:</p>
 
 <ul>
   <li>a distinguished label, called the top handle</li>
@@ -1280,7 +1279,7 @@ Dependencies</a> (<strong>DM</strong>), for compatibility with
 standard data-driven dependency parsing. To allow interconversion
 between an original MRS and a variable-free dependency graph, Dependency
 MRS (<strong>DRMS</strong>) overlays the EDS graph with additional scope-related
-information about label (in)equalities among EPs,</p>
+information about label (in)equalities among EPs.</p>
 
 <p>While MRS in the first instance is a formalism, the name can also be
 taken to refer to the collection of analyses that have been developed
@@ -1308,7 +1307,7 @@ REPP documentation is available from the <a href="https://delph-in.github.io/do
 <p>Another minor element in the DELPH-IN collection of formalisms is what
 is called Variable Property Mapping (<strong>VPM</strong>), a declarative,
 bidirectional facility to map between naming conventions for MRS
-elements employed grammar-internally (i.e. in the DTFS description of
+elements employed grammar-internally (i.e. in the JRF encoding of
 MRSs built compositionally during parsing or generation) and actual,
 grammar-independent MRS objectss, as specified in the <strong>Semantic
 Interface</strong> (SEM-I). VPM documentation is available from the
@@ -1316,7 +1315,7 @@ Interface</strong> (SEM-I). VPM documentation is available from the
 
 <h1 id="logon-machine-translation-informalism">LOGON Machine Translation (In)Formalism</h1>
 
-<p>Last update: 2017-08-07 by EmilyBender [<a href="https://github.com/delph-in/docs/wiki/DelphinTutorial_Formalisms/_edit">edit</a>]</p>
+<p>Last update: 2023-06-26 by Guy Emerson [<a href="https://github.com/delph-in/docs/wiki/DelphinTutorial_Formalisms/_edit">edit</a>]</p>
 
         
       </section>

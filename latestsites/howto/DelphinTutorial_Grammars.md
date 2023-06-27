@@ -12,7 +12,7 @@ together license a set of strings together with linguistic structures
 for each string representing morphological, syntactic and semantic
 information.
 
-The grammar entities bear **declarative constraints** which encode
+The grammar entities conform to **declarative constraints** which encode
 well-formedness restrictions as well as compositional semantics. There
 are three major categories of grammar entities:
 
@@ -29,18 +29,22 @@ In addition, there are also two further categories of grammar entities:
 output as a parse
 - **node labels** used in the display of abbreviated trees
 
-The constraints on the grammar entities are largely inherited from the
+The grammar entities are instantiated from the
 **type hierarchy**. The type hierarchies in DELPH-IN grammars are
 singly-rooted, allow (and make extensive use of ) **multiple
-inheritance** and conform to the **closed world assumption** (no new
-types are created a runtime). Most of the work in developing a DELPH-IN
-grammar involves creating and maintaining the type hierarchy.
+inheritance**, and conform to the **closed world assumption** (no new
+types are created a runtime).
+Each type is associated with a **type constraint**
+expressed as a typed feature structure.
+Most of the work in developing a DELPH-IN
+grammar involves creating and maintaining the type hierarchy and
+the type constraints.
 
 Though the type hierarchy is formally one large system, notionally it
 can be seen as involving three main classes of types:
 
-- **lexical types** inherited by lexical entries
-- **construction types** inherited by phrase structure rules and
+- **lexical types** instantiated by lexical entries
+- **construction types** instantiated by phrase structure rules and
 lexical rules
 - ancillary types used in the definition of both of the above
 
@@ -51,18 +55,20 @@ framework is characterized by what Sag, Wasow and Bender (2003) call
 **constraint-based lexicalism**. It is a mono-stratal theory, in which
 input strings are assigned structures (or rejected) in a single layer of
 processing (no mapping trees to trees); all constraints are declarative;
-and lexical entries contain rich information (largely inherited from
-lexical types). In contrast to classical HPSG's sparse set of
+and lexical entries contain rich information (largely determined by
+lexical type constraints). In contrast to classical HPSG's sparse set of
 grammatical schemata (and consistent with much recent theoretical work),
 DELPH-IN grammars posit a rich collection of **constructions** (phrase
 structure rules).
 
 ## Structures
 
-The structures licensed by DELPH-IN grammars are attribute-value
-matrices, which tend to be very large. The LKB and to some degree ACE
+The structures licensed by DELPH-IN grammars are typed feature structures
+(often expressed as attribute-value matrices), which tend to be very large.
+The LKB and to some degree ACE
 (see [LKB](https://delph-in.github.io/docs/howto/DelphinTutorial_Processing)) provide support for
-interactively exploring these structures. In general, the most commonly
+interactively exploring these structures.
+In general, for viewing the analysis for a whole utterance, the most commonly
 used display formats are CFG-like trees, with node labels abbreviating
 the feature structures at the nodes and the various formats for
 displaying the MRS associated with a node (usually the root).
@@ -115,4 +121,4 @@ Grammar writers beginning new grammars and interested in systematic
 exploration of the analysis space are encouraged to explore the CLIMB
 methodology (see [ClimbTop](https://delph-in.github.io/docs/garage/ClimbTop)).
 
-Last update: 2017-08-07 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/DelphinTutorial_Grammars/_edit)]{% endraw %}
+Last update: 2023-06-26 by Guy Emerson [[edit](https://github.com/delph-in/docs/wiki/DelphinTutorial_Grammars/_edit)]{% endraw %}

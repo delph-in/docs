@@ -1,40 +1,42 @@
-{% raw %}Add metadata about your grammars here. See
+{% raw %}
+Add metadata about your grammars here. See
 [below](/GrammarCatalogue#GeneratingMetadata) for instructions on
 generating metadata.
 
-|                                                                          |                                                        |                                              |
-|--------------------------------------------------------------------------|--------------------------------------------------------|----------------------------------------------|
-| Name                                                                     | Language                                               | Maintainer                                   |
-| *Resource Grammars*                                                      |                                                        |                                              |
-| [English Resource Grammar (ERG)](https://delph-in.github.io/docs/grammars/GrammarCatalogue)                  | English                                                | DanFlickinger               |
-| [Jacy Japanese Grammar (Jacy)](https://delph-in.github.io/docs/grammars/GrammarCatalogue)                   | Japanese                                               | FrancisBond                   |
-| [GG](https://delph-in.github.io/docs/grammars/GrammarCatalogue)                                               | German                                                 |                                              |
-| [SRG](https://delph-in.github.io/docs/grammars/GrammarCatalogue)                                             | Spanish                                                | [MontserratMarimon](/MontserratMarimon)      |
-| [LXGram](https://delph-in.github.io/docs/grammars/GrammarCatalogue)                                       | Portuguese                                             | AntonioBranco               |
-| [KRG](https://delph-in.github.io/docs/grammars/GrammarCatalogue)                                             | Korean                                                 | JongBokKim                     |
-| MGRG                                                                     | Modern Greek                                           | ValiaKordoni                 |
-| [NorSource](https://delph-in.github.io/docs/grammars/NorsourceTop)                                                | Norwegian                                              | [LarsHellan](/LarsHellan)                    |
-| [G-CLIMB German](https://delph-in.github.io/docs/grammars/GrammarCatalogue)                                  | German                                                 | AntskeFokkens               |
-| *Treebank-trained grammars*                                              |                                                        |                                              |
-| [Cheetah](https://delph-in.github.io/docs/grammars/GrammarCatalogue)                                     | German                                                 | BartCramer                     |
-| *Medium-sized linguistic grammars*                                       |                                                        |                                              |
-| La Grenouille                                                            | French                                                 | JesseTseng                     |
-| [MCG](https://delph-in.github.io/docs/grammars/GrammarCatalogue)                                             | Mandarin Chinese                                       | YiZhang                           |
-| [BURGER](https://delph-in.github.io/docs/grammars/GrammarCatalogue)                                       | Bulgarian                                              | PetyaOsenova                 |
-| [wmb (wmb)](https://delph-in.github.io/docs/grammars/GrammarCatalogue)                                       | Wambaya                                                | Emily M. Bender                              |
-| HaG                                                                      | Hausa                                                  | BertholdCrysmann         |
-| [RRG](https://delph-in.github.io/docs/grammars/GrammarCatalogue)                                             | Russian                                                | TaniaAvgustinova         |
-| [G-CLIMB Dutch](https://delph-in.github.io/docs/grammars/GrammarCatalogue)                                   | Dutch                                                  | AntskeFokkens               |
-| [ManGO](https://delph-in.github.io/docs/grammars/GrammarCatalogue)                                           | Mandarin Chinese                                       | JustinChunleiYang       |
-| [HeGram](https://delph-in.github.io/docs/grammars/GrammarCatalogue)                                       | Hebrew                                                 | LivnatHerzigSheinfux |
-| [Indonesian Resource Grammar (INDRA)](https://delph-in.github.io/docs/grammars/GrammarCatalogue)           | Indonesian                                             | DavidMoeljadi               |
-| [Zhong \[∣\]](https://delph-in.github.io/docs/grammars/GrammarCatalogue)                                   | Chinese: Simplified Mandarin                           | [ZhenzhenFan](/ZhenzhenFan)                  |
-| *Experimental grammars*                                                  |                                                        |                                              |
-|                                                                          | Turkish                                                | AntskeFokkens               |
-|                                                                          | Georgian                                               | [IrinaBorisova](/IrinaBorisova)              |
-|                                                                          | [Thai](http://www.thai-language.com/testsuite-results) | GlennSlayden                 |
-| [Vietnamese Resource Grammar Obviously (VIRGO)](https://delph-in.github.io/docs/grammars/GrammarCatalogue) | Vietnamese                                             | TuanAnhLe                       |
-| [RQG](https://delph-in.github.io/docs/grammars/GrammarCatalogue)                                             | Russian                                                | OlgaZamaraeva               |
+|                                                         |                                                        |                                                       |
+|---------------------------------------------------------|--------------------------------------------------------|-------------------------------------------------------|
+| Name                                                    | Language                                               | Maintainer                                            |
+| *Resource Grammars*                                     |                                                        |                                                       |
+| [English Resource Grammar (ERG)](https://delph-in.github.io/docs/grammars/GrammarCatalogue)                  | English                                                | DanFlickinger                        |
+| [Jacy Japanese Grammar (Jacy)](https://delph-in.github.io/docs/grammars/GrammarCatalogue)                   | Japanese                                               | FrancisBond                            |
+| [GG](https://delph-in.github.io/docs/grammars/GrammarCatalogue)                                               | German                                                 |                                                       |
+| [SRG](https://delph-in.github.io/docs/grammars/GrammarCatalogue)                                             | Spanish                                                | [MontserratMarimon](/MontserratMarimon)               |
+| [PorGram](https://delph-in.github.io/docs/grammars/GrammarCatalogue)                                     | Portuguese                                             | [Alexandre Rademaker](https://github.com/arademaker/) |
+| [LXGram](https://delph-in.github.io/docs/grammars/GrammarCatalogue)                                       | Portuguese                                             | AntonioBranco                        |
+| [KRG](https://delph-in.github.io/docs/grammars/GrammarCatalogue)                                             | Korean                                                 | JongBokKim                              |
+| MGRG                                                    | Modern Greek                                           | ValiaKordoni                          |
+| [NorSource](https://delph-in.github.io/docs/grammars/NorsourceTop)                               | Norwegian                                              | [LarsHellan](/LarsHellan)                             |
+| [G-CLIMB German](https://delph-in.github.io/docs/grammars/GrammarCatalogue)                                  | German                                                 | AntskeFokkens                        |
+| *Treebank-trained grammars*                             |                                                        |                                                       |
+| [Cheetah](https://delph-in.github.io/docs/grammars/GrammarCatalogue)                                     | German                                                 | BartCramer                              |
+| *Medium-sized linguistic grammars*                      |                                                        |                                                       |
+| La Grenouille                                           | French                                                 | JesseTseng                              |
+| [MCG](https://delph-in.github.io/docs/grammars/GrammarCatalogue)                                             | Mandarin Chinese                                       | YiZhang                                    |
+| [BURGER](https://delph-in.github.io/docs/grammars/GrammarCatalogue)                                       | Bulgarian                                              | PetyaOsenova                          |
+| [wmb (wmb)](https://delph-in.github.io/docs/grammars/GrammarCatalogue)                                       | Wambaya                                                | Emily M. Bender                                       |
+| HaG                                                     | Hausa                                                  | BertholdCrysmann                  |
+| [RRG](https://delph-in.github.io/docs/grammars/GrammarCatalogue)                                             | Russian                                                | TaniaAvgustinova                  |
+| [G-CLIMB Dutch](https://delph-in.github.io/docs/grammars/GrammarCatalogue)                                   | Dutch                                                  | AntskeFokkens                        |
+| [ManGO](https://delph-in.github.io/docs/grammars/GrammarCatalogue)                                           | Mandarin Chinese                                       | JustinChunleiYang                |
+| [HeGram](https://delph-in.github.io/docs/grammars/GrammarCatalogue)                                       | Hebrew                                                 | LivnatHerzigSheinfux          |
+| [Indonesian Resource Grammar (INDRA)](https://delph-in.github.io/docs/grammars/GrammarCatalogue)           | Indonesian                                             | DavidMoeljadi                        |
+| [Zhong \[∣\]](https://delph-in.github.io/docs/grammars/GrammarCatalogue)                                   | Chinese: Simplified Mandarin                           | [ZhenzhenFan](/ZhenzhenFan)                           |
+| *Experimental grammars*                                 |                                                        |                                                       |
+|                                                         | Turkish                                                | AntskeFokkens                        |
+|                                                         | Georgian                                               | [IrinaBorisova](/IrinaBorisova)                       |
+|                                                         | [Thai](http://www.thai-language.com/testsuite-results) | GlennSlayden                          |
+| [Vietnamese Resource Grammar Obviously (VIRGO)](https://delph-in.github.io/docs/grammars/GrammarCatalogue) | Vietnamese                                             | TuanAnhLe                                |
+| [RQG](https://delph-in.github.io/docs/grammars/GrammarCatalogue)                                             | Russian                                                | OlgaZamaraeva                        |
 
 <a name="ERG"/>
 
@@ -355,7 +357,7 @@ generating metadata.
 | maintainer         | [ZhenzhenFan](/ZhenzhenFan)                                                                                                                                                                                                                                       |
 | contributors       | SanghounSong, FrancisBond, JustinChunleiYang                                                                                                                                                                  |
 | latest release     | 2019                                                                                                                                                                                                                                                              |
-| website            | <https://github.com/delph-in/docs/wiki/ZhongTop>                                                                                                                                                                                                                          |
+| website            | <https://github.com/delph-in/docs/wiki/ZhongTop>                                                                                                                                                                                                                  |
 | vcs                | git clone <https://github.com/delph-in/zhong.git>                                                                                                                                                                                                                 |
 | demo               | <http://delph-in.github.io/delphin-viz/demo/>                                                                                                                                                                                                                     |
 | documentation      | none yet                                                                                                                                                                                                                                                          |
@@ -482,6 +484,26 @@ generating metadata.
 | features                    | 128                                                    |
 | types (with glb)            | 1437                                                   |
 
+<a name="PorGram"/>
+
+
+## Portuguese Grammar
+
+|                              |                                                      |
+|------------------------------|------------------------------------------------------|
+| maintainer                   | Alexandre Rademaker and Leonel Figueiredo de Alencar |
+| contributors                 |                                                      |
+| latest release               | https://github.com/LR-POR/PorGram                    |
+| website                      | https://github.com/LR-POR/PorGram                    |
+| vcs                          |                                                      |
+| demo                         |                                                      |
+| documentation                |                                                      |
+| canonical citation           |                                                      |
+| license                      | MIT                                                  |
+| grammar type                 | (should match subheading in grammar table)           |
+| required external components | (if applicable)                                      |
+| associated resources         | (if applicable)                                      |
+
 ## Grammar Metadata Template
 
 |                              |                                            |
@@ -596,4 +618,4 @@ to this:
 
      grammar_metrics=$(mktemp -p ./)
 
-Last update: 2022-07-26 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/GrammarCatalogue/_edit)]{% endraw %}
+Last update: 2023-06-26 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/GrammarCatalogue/_edit)]{% endraw %}

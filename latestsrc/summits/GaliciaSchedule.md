@@ -16,12 +16,12 @@ Please upload your presentations [here](https://github.com/delph-in/docs/tree/ma
 | :--- | :---    | :--- |
 | 10:30-12:00 | **1.1 Welcome and Site Updates (Chair: John)** |
 || Welcome & Introductions (20) | Olga, John, Petter & All |
-|| Cambridge (6) | Guy |
-|| Olomouc (6) | Francis |
+|| [Cambridge](https://github.com/delph-in/docs/blob/main/summits/2023/cambridge.pdf) (6) | Guy |
+|| [Palcký, Olomouc](https://github.com/delph-in/docs/blob/main/summits/2023/upol-update-2023.pdf) (6) | Francis |
 || [Perplexity](https://github.com/delph-in/docs/blob/main/summits/2023/Summit2023PerplexitySiteUpdate.pdf) (6) | Eric |
-|| Rio (6) | Alexandre |
+|| [Rio](https://github.com/delph-in/docs/blob/main/summits/2023/rio-update.pdf) (6) | Alexandre |
 || [UW](https://github.com/delph-in/docs/blob/main/summits/2023/UW-site-update.pdf) (6) | Emily |
-|| Zhong goes to Amsterdam (6) | Luis |
+|| [Zhong goes to Amsterdam](https://github.com/delph-in/docs/blob/main/summits/2023/delphin2023-lmc-goto-vu.pdf) (6) | Luis |
 || [Introduction to DELPH-IN](https://delph-in.github.io/docs/howto/DelphinTutorial) (30) | Emily |
 | 12:00-12:30 | *Break* ||
 | 12:30-14:00 | **1.2 Grammar and Tool Updates (Chair: Petter)**||
@@ -29,14 +29,14 @@ Please upload your presentations [here](https://github.com/delph-in/docs/tree/ma
 || [LKB-FOS Update](https://github.com/delph-in/docs/blob/main/summits/2023/lkb-fos-update-23.pdf) (20+20) | John |
 | 14:00-15:30 | *Lunch (at the Rectorate; organized)* ||
 | 15:30-17:00 | **1.3 Grammar Organization (Chair: Olga)** ||
-|| Using Emerson-Turing Types for Unbounded Dependencies in the ERG (10+20) | Dan |
-|| Computation as Subtyping (10+20) | Guy |
+|| [Using Emerson-Turing Types for Unbounded Dependencies in the ERG](https://github.com/delph-in/docs/blob/main/summits/2023/ERG-ET.pdf) (10+20) | Dan |
+|| [Computation as Subtyping](https://github.com/delph-in/docs/blob/main/summits/2023/computation.pdf) (10+20) | Guy |
 || [Possible Insights from a Hierarchy of Construction Types](https://github.com/delph-in/docs/blob/main/summits/2023/petter.pdf) (20+10) | Petter |
 | 17:00-17:30 | *Break* ||
 | 17:30-19:00 | **1.4 Linguistic Phenomena (Chair: Dan)** ||
-|| MRS Design for Light Verb Constructions in the Grammar Matrix (10+20) | Tara |
+|| [MRS Design for Light Verb Constructions in the Grammar Matrix](https://github.com/delph-in/docs/blob/main/summits/2023/lvc-mrs-design-2023.pdf) (10+20) | Tara |
 || [Action Nominals in the Grammar Matrix](https://github.com/delph-in/docs/blob/main/summits/2023/ActionNominalsInTheGrammarMatrix.pdf) (10+20) | Keren |
-|| Cantonese Classifiers (10+20) | Francis |
+|| [Cantonese Classifiers](https://github.com/delph-in/docs/blob/main/summits/2023/Cantonese_Classifiers_in_HPSG.pdf) (10+20) | Francis |
 | | **Social Program** ||
 | 20:00-21:00 | Old Town tour (meeting point: [Plaza María Pita](https://goo.gl/maps/aL3zMfRzFmZWuWsj9), near the statue)  | Olga |
 
@@ -46,11 +46,11 @@ Please upload your presentations [here](https://github.com/delph-in/docs/tree/ma
 | :--- | :---    | :--- |
 | 10:30-12:00 | **2.1 Linguistic Phenomena, Semantics (Chair: Berthold)** |
 || Thai Serial Verb Constructions: an HPSG Implementation and Analysis (10+20) | Vipasha |
-|| Functional Distributional Semantics at Scale (20+20-30) | Chun Hei / Guy |
+|| [Functional Distributional Semantics at Scale](https://github.com/delph-in/docs/blob/main/summits/2023/FDSAS_slides_delphin.ppsx) (20+20-30) | Chun Hei / Guy |
 | 12:00-12:30 | *Break* ||
 | 12:30-14:00 | **2.2 Semantics, MWE (Chair: John)**||
-| | Semantics at Scale and the Duality of Language Understanding (10+20) | Guy |
-| | Probing Hypernymy in Distributional Semantics (10+20) | Chun Hei |
+| | [Semantics at Scale and the Duality of Language Understanding](https://github.com/delph-in/docs/blob/main/summits/2023/duality.pdf) (10+20) | Guy |
+| | [Probing Hypernymy in Functional Distributional Semantics](https://github.com/delph-in/docs/blob/main/summits/2023/FDShyperProbe.ppsx) (10+20) | Chun Hei |
 | | MWE in the GlossTag (WordNet Definitions and Examples) Corpus (10+20) | Alexandre |
 | 14:00-15:30 | *Lunch (at the Rectorate; organized)* ||
 | 15:30-17:00 | **2.3 WordNet (Chair: Emily)** ||
@@ -128,4 +128,4 @@ The New DELPH-IN Documentation System: Eric
 Full Forest Treebanker (FFTB): Olga
 
 
-Last update: 2023-06-25 by emilymbender [[edit](https://github.com/delph-in/docs/wiki/GaliciaSchedule/_edit)]{% endraw %}
+Last update: 2023-06-27 by aaronlolo326 [[edit](https://github.com/delph-in/docs/wiki/GaliciaSchedule/_edit)]{% endraw %}

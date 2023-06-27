@@ -273,7 +273,7 @@ together license a set of strings together with linguistic structures
 for each string representing morphological, syntactic and semantic
 information.</p>
 
-<p>The grammar entities bear <strong>declarative constraints</strong> which encode
+<p>The grammar entities conform to <strong>declarative constraints</strong> which encode
 well-formedness restrictions as well as compositional semantics. There
 are three major categories of grammar entities:</p>
 
@@ -294,19 +294,23 @@ output as a parse</li>
   <li><strong>node labels</strong> used in the display of abbreviated trees</li>
 </ul>
 
-<p>The constraints on the grammar entities are largely inherited from the
+<p>The grammar entities are instantiated from the
 <strong>type hierarchy</strong>. The type hierarchies in DELPH-IN grammars are
 singly-rooted, allow (and make extensive use of ) <strong>multiple
-inheritance</strong> and conform to the <strong>closed world assumption</strong> (no new
-types are created a runtime). Most of the work in developing a DELPH-IN
-grammar involves creating and maintaining the type hierarchy.</p>
+inheritance</strong>, and conform to the <strong>closed world assumption</strong> (no new
+types are created a runtime).
+Each type is associated with a <strong>type constraint</strong>
+expressed as a typed feature structure.
+Most of the work in developing a DELPH-IN
+grammar involves creating and maintaining the type hierarchy and
+the type constraints.</p>
 
 <p>Though the type hierarchy is formally one large system, notionally it
 can be seen as involving three main classes of types:</p>
 
 <ul>
-  <li><strong>lexical types</strong> inherited by lexical entries</li>
-  <li><strong>construction types</strong> inherited by phrase structure rules and
+  <li><strong>lexical types</strong> instantiated by lexical entries</li>
+  <li><strong>construction types</strong> instantiated by phrase structure rules and
 lexical rules</li>
   <li>ancillary types used in the definition of both of the above</li>
 </ul>
@@ -318,18 +322,20 @@ framework is characterized by what Sag, Wasow and Bender (2003) call
 <strong>constraint-based lexicalism</strong>. It is a mono-stratal theory, in which
 input strings are assigned structures (or rejected) in a single layer of
 processing (no mapping trees to trees); all constraints are declarative;
-and lexical entries contain rich information (largely inherited from
-lexical types). In contrast to classical HPSG’s sparse set of
+and lexical entries contain rich information (largely determined by
+lexical type constraints). In contrast to classical HPSG’s sparse set of
 grammatical schemata (and consistent with much recent theoretical work),
 DELPH-IN grammars posit a rich collection of <strong>constructions</strong> (phrase
 structure rules).</p>
 
 <h2 id="structures">Structures</h2>
 
-<p>The structures licensed by DELPH-IN grammars are attribute-value
-matrices, which tend to be very large. The LKB and to some degree ACE
+<p>The structures licensed by DELPH-IN grammars are typed feature structures
+(often expressed as attribute-value matrices), which tend to be very large.
+The LKB and to some degree ACE
 (see <a href="https://delph-in.github.io/docs/howto/DelphinTutorial_Processing">LKB</a>) provide support for
-interactively exploring these structures. In general, the most commonly
+interactively exploring these structures.
+In general, for viewing the analysis for a whole utterance, the most commonly
 used display formats are CFG-like trees, with node labels abbreviating
 the feature structures at the nodes and the various formats for
 displaying the MRS associated with a node (usually the root).</p>
@@ -388,7 +394,7 @@ best practices for accessing them are documented in the pages under
 exploration of the analysis space are encouraged to explore the CLIMB
 methodology (see <a href="https://delph-in.github.io/docs/garage/ClimbTop">ClimbTop</a>).</p>
 
-<p>Last update: 2017-08-07 by StephanOepen [<a href="https://github.com/delph-in/docs/wiki/DelphinTutorial_Grammars/_edit">edit</a>]</p>
+<p>Last update: 2023-06-26 by Guy Emerson [<a href="https://github.com/delph-in/docs/wiki/DelphinTutorial_Grammars/_edit">edit</a>]</p>
 
         
       </section>
