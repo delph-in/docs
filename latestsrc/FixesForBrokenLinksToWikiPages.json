@@ -378,16 +378,19 @@
       {"Section": "[incr tsdb()]", "Pages": [
         {"Page": "FftbTreebankUpdateTutorial", "SrcDir": "docswiki", "SrcFile": "FftbTreebankUpdateTutorial.md", "BaseReferrer": "tools/ItsdbProfileManipulation.md", "Referrer": "tools/ItsdbProfileManipulation.md"}
       ]},
-      {"Section": "Tools", "Pages": [
-        {"Page": "JoaoSilva", "SrcDir": "docswiki", "SrcFile": "JoaoSilva.md", "BaseReferrer": "tools/ToolsTop.md", "Referrer": "tools/ToolsTop.md", "FileMissing": true}
-      ]},
       {"Section": "Formats", "Pages": [
+        {"Page": "GaliciaMrsLvc", "SrcDir": "docswiki", "SrcFile": "GaliciaMrsLvc.md", "BaseReferrer": "tools/RmrsDiscussions.md", "Referrer": "tools/RmrsDiscussions.md"},
+        {"Page": "GaliciaNominalization", "SrcDir": "docswiki", "SrcFile": "GaliciaNominalization.md", "BaseReferrer": "tools/RmrsDiscussions.md", "Referrer": "tools/RmrsDiscussions.md"},
+        {"Page": "GaliciaThaiSvc", "SrcDir": "docswiki", "SrcFile": "GaliciaThaiSvc.md", "BaseReferrer": "tools/RmrsDiscussions.md", "Referrer": "tools/RmrsDiscussions.md"},
         {"Page": "MrsRfc", "SrcDir": "docswiki", "SrcFile": "MrsRfc.md", "BaseReferrer": "tools/MrsRFC.md", "Referrer": "tools/MrsRFC.md", "FileMissing": true},
         {"Page": "PyDelphin", "SrcDir": "docswiki", "SrcFile": "PyDelphin.md", "BaseReferrer": "tools/TsdbSchemaRfc.md", "Referrer": "tools/TsdbSchemaRfc.md", "FileMissing": true},
         {"Page": "RebeccaDridan", "SrcDir": "docswiki", "SrcFile": "RebeccaDridan.md", "BaseReferrer": "tools/EdsConversion.md", "Referrer": "tools/EdsConversion.md", "FileMissing": true},
         {"Page": "RestfulTop", "SrcDir": "docswiki", "SrcFile": "RestfulTop.md", "BaseReferrer": "tools/MrsRFC.md", "Referrer": "tools/MrsRFC.md"},
         {"Page": "RmrsDtd", "SrcDir": "docswiki", "SrcFile": "RmrsDtd.md", "BaseReferrer": "tools/SmafTop.md", "Referrer": "tools/SmafTop.md", "FileMissing": true},
         {"Page": "WeSearch_PestExamples", "SrcDir": "docswiki", "SrcFile": "WeSearch_PestExamples.md", "BaseReferrer": "tools/RmrsDiscussions.md", "Referrer": "tools/RmrsDiscussions.md", "FileMissing": true}
+      ]},
+      {"Section": "Tools", "Pages": [
+        {"Page": "JoaoSilva", "SrcDir": "docswiki", "SrcFile": "JoaoSilva.md", "BaseReferrer": "tools/ToolsTop.md", "Referrer": "tools/ToolsTop.md", "FileMissing": true}
       ]},
       {"Section": "LKB LUI", "Pages": [
         {"Page": "PavelMihaylov", "SrcDir": "docswiki", "SrcFile": "PavelMihaylov.md", "BaseReferrer": "tools/LkbLui.md", "Referrer": "tools/LkbLui.md", "FileMissing": true}

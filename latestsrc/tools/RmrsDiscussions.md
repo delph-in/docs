@@ -179,9 +179,19 @@ nominalization
   - [VirtualCoordinationComposition](https://delph-in.github.io/docs/summits/VirtualCoordinationComposition):
 What should the analysis of coordination look like? How does
 this relate to an AM algebra from DMRS composition?
-- From the the [2021 Virtual Summit](https://delph-in.github.io/docs/summits/Virtual2021Schedule), July 2021
+- From the [2021 Virtual Summit](https://delph-in.github.io/docs/summits/Virtual2021Schedule), July 2021
   
   - [Virtual2021PluralSemantics](https://delph-in.github.io/docs/summits/Virtual2021PluralSemantics):
 How to relate morphosyntactic marking of plurality to semantic plurality?
+- From the [2022 Fairhaven Summit](https://delph-in.github.io/docs/summits/Fairhaven2022Schedule), June 2022
+  
+  - [Discussion: Linking ERG lexicon and English WordNet](https://delph-in.github.io/docs/summits/Fairhaven2022-Linking-ERG-and-Wordnet)
+  - [Improving the ERG Semantic Documentation for users](https://delph-in.github.io/docs/summits/Fairhaven2022-ERG-docs)
+- From the [2023 Galicia Summit](https://delph-in.github.io/docs/summits/GaliciaSchedule), June 2023
+  
+  - [Possible Insights from a Hierarchy of Construction Types](https://github.com/delph-in/docs/blob/main/summits/2023/petter.pdf)](https://github.com/delph-in/docs/blob/main/summits/2023/petter.pdf)
+  - MRS Design for Light Verb Constructions in the Grammar Matrix
+  - Action Nominals in the Grammar Matrix
+  - Thai Serial Verb Constructions: an HPSG Implementation and Analysis
 
-Last update: 2022-09-14 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/RmrsDiscussions/_edit)]{% endraw %}
+Last update: 2023-06-27 by emilymbender [[edit](https://github.com/delph-in/docs/wiki/RmrsDiscussions/_edit)]{% endraw %}

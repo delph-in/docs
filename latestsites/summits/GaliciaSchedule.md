@@ -34,8 +34,8 @@ Please upload your presentations [here](https://github.com/delph-in/docs/tree/ma
 || [Possible Insights from a Hierarchy of Construction Types](https://github.com/delph-in/docs/blob/main/summits/2023/petter.pdf) (20+10) | Petter |
 | 17:00-17:30 | *Break* ||
 | 17:30-19:00 | **1.4 Linguistic Phenomena (Chair: Dan)** ||
-|| [MRS Design for Light Verb Constructions in the Grammar Matrix](https://github.com/delph-in/docs/blob/main/summits/2023/lvc-mrs-design-2023.pdf) (10+20) | Tara |
-|| [Action Nominals in the Grammar Matrix](https://github.com/delph-in/docs/blob/main/summits/2023/ActionNominalsInTheGrammarMatrix.pdf) (10+20) | Keren |
+|| [MRS Design for Light Verb Constructions in the Grammar Matrix](https://github.com/delph-in/docs/blob/main/summits/2023/lvc-mrs-design-2023.pdf) (10+20) [notes] | Tara (Emily) |
+|| [Action Nominals in the Grammar Matrix](https://github.com/delph-in/docs/blob/main/summits/2023/ActionNominalsInTheGrammarMatrix.pdf) (10+20) [notes] | Keren (Emily) |
 || [Cantonese Classifiers](https://github.com/delph-in/docs/blob/main/summits/2023/Cantonese_Classifiers_in_HPSG.pdf) (10+20) | Francis |
 | | **Social Program** ||
 | 20:00-21:00 | Old Town tour (meeting point: [Plaza María Pita](https://goo.gl/maps/aL3zMfRzFmZWuWsj9), near the statue)  | Olga |
@@ -45,21 +45,21 @@ Please upload your presentations [here](https://github.com/delph-in/docs/tree/ma
 | Time | Content | Presenter (Scribe) |
 | :--- | :---    | :--- |
 | 10:30-12:00 | **2.1 Linguistic Phenomena, Semantics (Chair: Berthold)** |
-|| Thai Serial Verb Constructions: an HPSG Implementation and Analysis (10+20) | Vipasha |
+|| [Thai Serial Verb Constructions: an HPSG Implementation and Analysis (10+20)](https://github.com/delph-in/docs/blob/main/summits/2023/ThaiSVC.pdf) [notes]| Vipasha (Emily) |
 || [Functional Distributional Semantics at Scale](https://github.com/delph-in/docs/blob/main/summits/2023/FDSAS_slides_delphin.ppsx) (20+20-30) | Chun Hei / Guy |
 | 12:00-12:30 | *Break* ||
 | 12:30-14:00 | **2.2 Semantics, MWE (Chair: John)**||
 | | [Semantics at Scale and the Duality of Language Understanding](https://github.com/delph-in/docs/blob/main/summits/2023/duality.pdf) (10+20) | Guy |
-| | [Probing Hypernymy in Functional Distributional Semantics](https://github.com/delph-in/docs/blob/main/summits/2023/FDShyperProbe.ppsx) (10+20) | Chun Hei |
-| | MWE in the GlossTag (WordNet Definitions and Examples) Corpus (10+20) | Alexandre |
+| | [Probing Hypernymy in Functional Distributional Semantics](https://github.com/delph-in/docs/blob/main/summits/2023/FDShyperProbe.pptx) (10+20) | Chun Hei |
+| | [MWE in the WordNet Gloss Corpus](https://github.com/delph-in/docs/blob/main/summits/2023/slides-glosstag.pdf) (10+20) | Alexandre |
 | 14:00-15:30 | *Lunch (at the Rectorate; organized)* ||
 | 15:30-17:00 | **2.3 WordNet (Chair: Emily)** ||
-|| Roadmap for Adding WordNet Senses to the ERG Lexicon (10+20) | Dan |
-|| WordNet/MRS Harmony (10+50) | Francis |
+|| [Roadmap for Adding WordNet Senses to the ERG Lexicon](https://github.com/delph-in/docs/blob/main/summits/2023/ERG-WN.pdf) (10+20) | Dan |
+|| [WordNet/MRS Harmony](https://github.com/delph-in/docs/blob/main/summits/2023/wn-erg-isf.pdf) (10+50) | Francis (Dan) |
 | 17:00-17:30 | *Break* ||
 | 17:30-19:00 | **2.4 MRS Transformation (Chair: Eric)** ||
-|| Converting Structured RDF Data into MRS for Generation (20+20-30) | Liz |
-|| Translating from MRS to FOL (20+20-30) | Alexandre |
+|| [Converting Structured RDF Data into MRS for Generation](https://github.com/delph-in/docs/blob/main/summits/2023/MRS%20and%20RDF_Liz_Conrad.pdf) (20+20-30) | Liz |
+|| Translating from MRS to FOL (20+20-30) -- moved to SIG | Alexandre |
 | | **Social Program** ||
 | 20:00-22:00 | A walk by the coast + tapas (meeting point: [Plaza María Pita](https://goo.gl/maps/aL3zMfRzFmZWuWsj9), near the statue)  | Olga |
 
@@ -68,15 +68,15 @@ Please upload your presentations [here](https://github.com/delph-in/docs/tree/ma
 | Time | Content | Presenter (Scribe) |
 | :--- | :---    | :--- |
 | **10:00**-11:30 | **3.1 Computational Techniques (Chair: Guy)** |
-|| ERG Supertagging (10+20) | Olga |
-|| A Backtracking Approach to Solving Well-Formed Trees (45+15) | Eric |
+|| [Supertagging](https://github.com/delph-in/docs/blob/main/summits/2023/Supertagging-2023.pdf) (10+20) | Olga |
+|| [A Backtracking Approach to Solving Scope-Resolved MRS](https://github.com/delph-in/docs/blob/main/summits/2023/Summit2023BacktrackingApproachToSolvingMRS.pdf) (45+15) | Eric |
 | 11:30-12:00 | *Break* ||
 | 12:00-13:30 | **3.2 Business Meeting and Planning SIGs (Chair: Francis)**||
 | |  Business Meeting (30-60)  | All |
 | |  Planning SIGs (30) | John & Petter |
 | 13:30-14:30 | *Lunch (at the Rectorate; organized)* ||
 | | **Excursion** ||
-| 15:30-21:30 | Visiting the ancient town of [Lugo](https://goo.gl/maps/PVhPoiQn5wvUiT637). Meeting point: [Entrejardines bus stop](https://goo.gl/maps/B2Pf6acRUDVedM7JA). **Bus leaves at 15:30.** | Olga |
+| 15:30-21:30 | Visiting the ancient town of [Lugo](https://goo.gl/maps/PVhPoiQn5wvUiT637). Meeting point: [Entrejardines bus stop](https://goo.gl/maps/B2Pf6acRUDVedM7JA), e.g. near the John Lennon's statue. **Bus leaves at 15:30.** | Olga |
 
 ## Thursday
 
@@ -117,6 +117,8 @@ Applications of DELPH-IN technologies to large language models: Alexandre
 
 Pre-processing and token mapping of non-English languages for HPSG grammars: Alexandre
 
+Translating from MRS to FOL: Alexandre
+
 Exploring/refactoring the Grammar Matrix code to distinguish between linguistic hypotheses and engineering artifacts: Emily
 
 ### Tutorial Offers:
@@ -128,4 +130,4 @@ The New DELPH-IN Documentation System: Eric
 Full Forest Treebanker (FFTB): Olga
 
 
-Last update: 2023-06-27 by aaronlolo326 [[edit](https://github.com/delph-in/docs/wiki/GaliciaSchedule/_edit)]{% endraw %}
+Last update: 2023-06-28 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/GaliciaSchedule/_edit)]{% endraw %}
