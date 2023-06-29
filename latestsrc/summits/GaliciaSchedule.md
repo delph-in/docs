@@ -82,26 +82,28 @@ Please upload your presentations [here](https://github.com/delph-in/docs/tree/ma
 
 | Time | Content | Leader|
 | :--- | :---    | :--- |
-| 10:30-12:00 | | |
+| 10:30-12:00 | Full Forest Treebanker (FFTB) | Olga |
+|             | Tuning a grammar to improve parsing efficiency | Dan |
 | 12:00-12:30 | *Break* ||
-| 12:30-14:00 | | |
+| 12:30-13:20 | Translating from MRS to FOL (20+30) | Alexandre |
+| 13:20-14:00 | *Free time* ||
 | 14:00-15:30 | *Lunch (at the Rectorate; organized)* ||
-| 15:30-17:00 | | |
+| 15:30-17:00 | Exploring/refactoring the Grammar Matrix code to distinguish between linguistic hypotheses and engineering artifacts | Emily |
 | 17:00-17:30 | *Break* ||
-| 17:30-19:00 | | |
+| 17:30-19:00 | Improving robustness in grammars | Berthold/Dan |
 | 21:00-00:00 | **Conference Dinner** at [A Pulperia de Melide](https://goo.gl/maps/gZfK8FVEHuJRichm6) | Olga |
 
 ## Friday
 
 | Time | Content | Leader|
 | :--- | :---    | :--- |
-| 10:30-12:00 | | |
+| 10:30-12:00 | Searching DELPH-IN corpora & the Linguistic Type Database (LTDB) | Francis |
 | 12:00-12:30 | *Break* ||
-| 12:30-14:00 | | |
+| 12:30-14:00 | Applying large language models in conjunction with DELPH-IN technologies | Alexandre |
 | 14:00-15:30 | *Lunch (at the Rectorate; organized)* ||
-| 15:30-17:00 | | |
+| 15:30-17:00 | DELPH-IN documentation & the new DELPH-IN documentation system | Eric |
 | 17:00-17:30 | *Break* ||
-| 17:30-19:00 | | |
+| 17:30-19:00 | Pre-processing and token mapping of non-English languages for HPSG grammars | Alexandre |
 
 ### SIG Suggestions:
 
@@ -113,13 +115,15 @@ Answering, closing, and linking questions on DELPH-IN Discourse: Alexandre
 
 DELPH-IN documentation and the new channels for communication (GitHub, Discourse, etc.): Alexandre
 
-Applications of DELPH-IN technologies to large language models: Alexandre
+Applying large language models in conjunction with DELPH-IN technologies: Alexandre
 
 Pre-processing and token mapping of non-English languages for HPSG grammars: Alexandre
 
 Translating from MRS to FOL: Alexandre
 
 Exploring/refactoring the Grammar Matrix code to distinguish between linguistic hypotheses and engineering artifacts: Emily
+
+Improving robustness in grammars: Berthold/Dan
 
 ### Tutorial Offers:
 
@@ -129,5 +133,7 @@ The New DELPH-IN Documentation System: Eric
 
 Full Forest Treebanker (FFTB): Olga
 
+PyDelphin and Delphin-viz tools: Berthold request
 
-Last update: 2023-06-28 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/GaliciaSchedule/_edit)]{% endraw %}
+
+Last update: 2023-06-29 by John Carroll [[edit](https://github.com/delph-in/docs/wiki/GaliciaSchedule/_edit)]{% endraw %}

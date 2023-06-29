@@ -19,7 +19,7 @@ researchers from the following institutions, among others:
 - [University of Cambridge](http://www.cam.ac.uk/) (UK), [Department
 of Computer Science and Technology](http://www.cst.cam.ac.uk/)
 - [DFKI Saarbrücken GmbH](http://www.dfki.de/) (Germany), [Language
-Technology Lab (co-founder)](http://www.dfki.de/lt/)
+Technology Lab](http://www.dfki.de/lt/) (co-founder)
 - [Getulio Vargas Foundation](https://portal.fgv.br) (Brazil), [Applied
 Mathematics Department](https://emap.fgv.br)
 - [IBM Research](https://www.research.ibm.com/) (Brazil), [Brazil
@@ -28,22 +28,14 @@ Research Lab](https://www.ibm.com/blogs/research/category/ibmres-bra/)
 [School of English](http://khenglish.khu.ac.kr/)
 - [Melbourne University](http://www.unimelb.edu.au/) (Australia),
 [Language Technology Group](http://www.cs.mu.oz.au/research/lt/)
-- [NTT Communication Science
-Laboratories](http://www.kecl.ntt.co.jp/) (Japan),
-[Interaction Research Group](http://www.kecl.ntt.co.jp/icl/icl/interaction_research.html)
-- [Nanyang Technological University](http://www.ntu.edu.sg/)
-(Singapore), [Division of Linguistics and Multilingual
-Studies](http://www.ntu.edu.sg/HSS/Linguistics/)
 - [Norwegian University of Science and
 Technology](http://www.ntnu.no/) (Norway), [Department of Language
 and Communication Studies](http://mime.hf.ntnu.no/hf/isk/)
+- [Palacký University Olomouc](https://www.upol.cz/en/) (Czechia),
+[Department of Asian Studies](https://kas.upol.cz/en/)
 - [Saarland University](http://www.uni-saarland.de/) (Germany),
 [Department for Computational
 Linguistics](http://www.coli.uni-sb.de/)
-- [Stanford University](http://www.stanford.edu/) (US), [LinGO
-Laboratory at CSLI (co-founder)](http://lingo.stanford.edu/)
-- [University of Lisbon](http://www.ul.pt/) (Portugal), [Natural
-Language and Speech Group](http://nlx.di.fc.ul.pt/)
 - [Universtitat de Barcelona](http://www.ub.edu/) (Spain), [Grup de
 Recerca Interuniversitari en Aplicacions Lingüístiques
 (GRIAL)](http://grial.uab.es/)
@@ -61,6 +53,21 @@ Research Group](https://www.sussex.ac.uk/research/centres/ai-research-group/)
 - [University of Washington](http://www.washington.edu/) (US),
 [Computational Linguistics Laboratory](http://www.washington.edu/)
 - [Western Norway University of Applied Sciences](https://www.hvl.no/en) (Norway), [Department of Language, Literature, Mathematics and Interpreting](https://www.hvl.no/en/about/management/faculty-of-education-arts-and-sports/department-of-language-literature-mathematics-and-interpreting/)
+
+### Former members
+
+- [Nanyang Technological University](http://www.ntu.edu.sg/)
+(Singapore), [Division of Linguistics and Multilingual
+Studies](http://www.ntu.edu.sg/HSS/Linguistics/)
+- [National Institute of Information and Communications Technology](https://www.nict.go.jp/en/) (NICT), Japan
+- [NTT Communication Science
+Laboratories](http://www.kecl.ntt.co.jp/) (Japan),
+[Interaction Research Group](http://www.kecl.ntt.co.jp/icl/icl/interaction_research.html)
+- [Stanford University](http://www.stanford.edu/) (US), [LinGO
+Laboratory at CSLI](http://lingo.stanford.edu/) (co-founder)
+- [University of Lisbon](http://www.ul.pt/) (Portugal), [Natural
+Language and Speech Group](http://nlx.di.fc.ul.pt/)
+- [University of Tokyo](https://www.u-tokyo.ac.jp/en/)
 
 The DELPH-IN collaboration is open to additional partners and individuals
 who share our goals and are interested in contributing to the common task.
@@ -158,4 +165,4 @@ is a link to the archive near the top of the page.
 There is also an active [stack-exchange style
 forum](http://discourse.delph-in.net), using the Discourse platform.
 
-Last update: 2023-06-23 by Francis Bond [[edit](https://github.com/delph-in/docs/wiki/Home/_edit)]{% endraw %}
+Last update: 2023-06-28 by Francis Bond [[edit](https://github.com/delph-in/docs/wiki/Home/_edit)]{% endraw %}
