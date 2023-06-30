@@ -969,6 +969,12 @@
         {"Page": "Season of Docs", "SrcDir": "docswiki", "SrcFile": "GoogleSeasonOfDocs2023ProjectProposal.md"}
       ]},
       {"Section": "<todo>", "Pages": [
+        {"Page": "EmilyBender", "SrcDir": "docswiki", "SrcFile": "EmilyBender.md", "BaseReferrer": "home/DelphinNews.md", "Referrer": "home/DelphinNews.md", "FileMissing": true},
+        {"Page": "FrancisBond", "SrcDir": "docswiki", "SrcFile": "FrancisBond.md", "BaseReferrer": "home/DelphinNews.md", "Referrer": "home/DelphinNews.md", "FileMissing": true},
+        {"Page": "ScottDrellishak", "SrcDir": "docswiki", "SrcFile": "ScottDrellishak.md", "BaseReferrer": "home/DelphinNews.md", "Referrer": "home/DelphinNews.md", "FileMissing": true},
+        {"Page": "WikiName", "SrcDir": "docswiki", "SrcFile": "WikiName.md", "BaseReferrer": "home/Home.md", "Referrer": "home/Home.md", "FileMissing": true},
+        {"Page": "FrontPage", "SrcDir": "docswiki", "SrcFile": "FrontPage.md", "BaseReferrer": "howto/SaarlandAceAgree.md", "Referrer": "howto/SaarlandAceAgree.md", "FileMissing": true},
+        {"Page": "StephanOepen", "SrcDir": "docswiki", "SrcFile": "StephanOepen.md", "BaseReferrer": "howto/DelphinTutorial.md", "Referrer": "howto/DelphinTutorial.md", "FileMissing": true},
         {"Page": "AlexLascarides", "SrcDir": "docswiki", "SrcFile": "AlexLascarides.md", "BaseReferrer": "summits/VirtualParticipants.md", "Referrer": "summits/VirtualParticipants.md", "FileMissing": true},
         {"Page": "AlexanderKoller", "SrcDir": "docswiki", "SrcFile": "AlexanderKoller.md", "BaseReferrer": "summits/VirtualParticipants.md", "Referrer": "summits/VirtualParticipants.md", "FileMissing": true},
         {"Page": "ChowSiewYeng", "SrcDir": "docswiki", "SrcFile": "ChowSiewYeng.md", "BaseReferrer": "summits/VirtualSchedule.md", "Referrer": "summits/VirtualSchedule.md", "FileMissing": true},
