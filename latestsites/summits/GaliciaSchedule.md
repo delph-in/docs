@@ -34,8 +34,8 @@ Please upload your presentations [here](https://github.com/delph-in/docs/tree/ma
 || [Possible Insights from a Hierarchy of Construction Types](https://github.com/delph-in/docs/blob/main/summits/2023/petter.pdf) (20+10) | Petter |
 | 17:00-17:30 | *Break* ||
 | 17:30-19:00 | **1.4 Linguistic Phenomena (Chair: Dan)** ||
-|| [MRS Design for Light Verb Constructions in the Grammar Matrix](https://github.com/delph-in/docs/blob/main/summits/2023/lvc-mrs-design-2023.pdf) (10+20) [notes] | Tara (Emily) |
-|| [Action Nominals in the Grammar Matrix](https://github.com/delph-in/docs/blob/main/summits/2023/ActionNominalsInTheGrammarMatrix.pdf) (10+20) [notes] | Keren (Emily) |
+|| [MRS Design for Light Verb Constructions in the Grammar Matrix](https://github.com/delph-in/docs/blob/main/summits/2023/lvc-mrs-design-2023.pdf) (10+20) [[notes](https://delph-in.github.io/docs/summits/GaliciaMrsLvc)] | Tara (Emily) |
+|| [Action Nominals in the Grammar Matrix](https://github.com/delph-in/docs/blob/main/summits/2023/ActionNominalsInTheGrammarMatrix.pdf) (10+20) [[notes](https://delph-in.github.io/docs/summits/GaliciaNominalization)] | Keren (Emily) |
 || [Cantonese Classifiers](https://github.com/delph-in/docs/blob/main/summits/2023/Cantonese_Classifiers_in_HPSG.pdf) (10+20) | Francis |
 | | **Social Program** ||
 | 20:00-21:00 | Old Town tour (meeting point: [Plaza María Pita](https://goo.gl/maps/aL3zMfRzFmZWuWsj9), near the statue)  | Olga |
@@ -45,7 +45,7 @@ Please upload your presentations [here](https://github.com/delph-in/docs/tree/ma
 | Time | Content | Presenter (Scribe) |
 | :--- | :---    | :--- |
 | 10:30-12:00 | **2.1 Linguistic Phenomena, Semantics (Chair: Berthold)** |
-|| [Thai Serial Verb Constructions: an HPSG Implementation and Analysis (10+20)](https://github.com/delph-in/docs/blob/main/summits/2023/ThaiSVC.pdf) [notes]| Vipasha (Emily) |
+|| [Thai Serial Verb Constructions: an HPSG Implementation and Analysis (10+20)](https://github.com/delph-in/docs/blob/main/summits/2023/ThaiSVC.pdf) [[notes](https://delph-in.github.io/docs/summits/GaliciaThaiSvc)]| Vipasha (Emily) |
 || [Functional Distributional Semantics at Scale](https://github.com/delph-in/docs/blob/main/summits/2023/FDSAS_slides_delphin.ppsx) (20+20-30) | Chun Hei / Guy |
 | 12:00-12:30 | *Break* ||
 | 12:30-14:00 | **2.2 Semantics, MWE (Chair: John)**||
@@ -83,14 +83,14 @@ Please upload your presentations [here](https://github.com/delph-in/docs/tree/ma
 | Time | Content | Leader (Scribe) |
 | :--- | :---    | :--- |
 | 10:30-12:00 | Full Forest Treebanker (FFTB) | Olga |
-|             | [Tuning a grammar to improve parsing efficiency](https://github.com/delph-in/docs/blob/main/summits/2023/Efficiency.pdf) [notes] | Dan (John) |
+|             | [Tuning a grammar to improve parsing efficiency](https://github.com/delph-in/docs/blob/main/summits/2023/Efficiency.pdf) [[notes](https://delph-in.github.io/docs/summits/GaliciaGrammarEfficiency)] | Dan (John) |
 | 12:00-12:30 | *Break* ||
 | 12:30-13:20 | [Translating from MRS to FOL](https://github.com/delph-in/docs/blob/main/summits/2023/mrs-semantics.pdf) (20+30) | Alexandre |
 | 13:20-14:00 | *Free time* ||
 | 14:00-15:30 | *Lunch (at the Rectorate; organized)* ||
-| 15:30-17:00 | [Exploring/refactoring the Grammar Matrix code to distinguish between linguistic hypotheses and engineering artifacts](https://github.com/delph-in/docs/blob/main/summits/2023/GM-refactoring-SIG.pdf)  [notes]| Emily (Francis)|
+| 15:30-17:00 | [Exploring/refactoring the Grammar Matrix code to distinguish between linguistic hypotheses and engineering artifacts](https://github.com/delph-in/docs/blob/main/summits/2023/GM-refactoring-SIG.pdf)  [[notes](https://delph-in.github.io/docs/summits/GaliciaMatrixHypotheses)]| Emily (Francis)|
 | 17:00-17:30 | *Break* ||
-| 17:30-19:00 | [Improving robustness in grammars](https://github.com/delph-in/docs/blob/main/summits/2023/robustness.pdf) [notes] | Berthold/Dan |
+| 17:30-19:00 | [Improving robustness in grammars](https://github.com/delph-in/docs/blob/main/summits/2023/robustness.pdf) [[notes](https://delph-in.github.io/docs/summits/GaliciaRobustness)] | Dan (Guy) |
 | 21:00-00:00 | **Conference Dinner** at [A Pulperia de Melide](https://goo.gl/maps/gZfK8FVEHuJRichm6) | Olga |
 
 ## Friday
@@ -99,9 +99,9 @@ Please upload your presentations [here](https://github.com/delph-in/docs/tree/ma
 | :--- | :---    | :--- |
 | 10:30-12:00 | [DELPH-IN documentation & the new DELPH-IN documentation system](https://github.com/delph-in/docs/blob/main/summits/2023/Summit2023Docs.pdf) | Eric |
 | 12:00-12:30 | *Break* ||
-| 12:30-14:00 | Applying large language models in conjunction with DELPH-IN technologies | Alexandre |
+| 12:30-14:00 | Applying large language models in conjunction with DELPH-IN technologies | Alexandre (John) |
 | 14:00-15:30 | *Lunch (at the Rectorate; organized)* ||
-| 15:30-17:00 | Searching DELPH-IN corpora & the Linguistic Type Database (LTDB) | Francis (Emily) |
+| 15:30-17:00 | [Searching DELPH-IN corpora & the Linguistic Type Database (LTDB)](https://github.com/delph-in/docs/blob/main/summits/2023/ltdb-update-2023.pdf) [notes] | Francis (Emily) |
 | 17:00-17:30 | *Break* ||
 | 17:30-19:00 | Pre-processing and token mapping of non-English languages for HPSG grammars | Alexandre |
 
@@ -124,4 +124,4 @@ Please upload your presentations [here](https://github.com/delph-in/docs/tree/ma
 3. Full Forest Treebanker (FFTB): Olga
 4. PyDelphin and Delphin-viz tools: Berthold request
 
-Last update: 2023-06-30 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/GaliciaSchedule/_edit)]{% endraw %}
+Last update: 2023-06-30 by emilymbender [[edit](https://github.com/delph-in/docs/wiki/GaliciaSchedule/_edit)]{% endraw %}

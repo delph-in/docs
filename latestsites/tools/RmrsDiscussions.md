@@ -190,8 +190,8 @@ How to relate morphosyntactic marking of plurality to semantic plurality?
 - From the [2023 Galicia Summit](https://delph-in.github.io/docs/summits/GaliciaSchedule), June 2023
   
   - [Possible Insights from a Hierarchy of Construction Types](https://github.com/delph-in/docs/blob/main/summits/2023/petter.pdf)](https://github.com/delph-in/docs/blob/main/summits/2023/petter.pdf)
-  - MRS Design for Light Verb Constructions in the Grammar Matrix
-  - Action Nominals in the Grammar Matrix
-  - Thai Serial Verb Constructions: an HPSG Implementation and Analysis
+  - [MRS Design for Light Verb Constructions in the Grammar Matrix](https://delph-in.github.io/docs/summits/GaliciaMrsLvc)
+  - [Action Nominals in the Grammar Matrix](https://delph-in.github.io/docs/summits/GaliciaNominalization)
+  - [Thai Serial Verb Constructions: an HPSG Implementation and Analysis](https://delph-in.github.io/docs/summits/GaliciaThaiSvc)
 
 Last update: 2023-06-27 by emilymbender [[edit](https://github.com/delph-in/docs/wiki/RmrsDiscussions/_edit)]{% endraw %}

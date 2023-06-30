@@ -150,7 +150,7 @@ pages over time.
 Some information from the earlier years of DELPH-IN collaborations is
 preserved on the following pages, for historical interest:
 
-- Earlier DELPH-IN news items
+- [Earlier DELPH-IN news items](https://delph-in.github.io/docs/garage/DelphinNews)
 - [Links to earlier DELPH-IN-related projects](https://delph-in.github.io/docs/home/OldProjects)
 - [Earlier overviews of the DELPH-IN consortium](https://delph-in.github.io/docs/garage/OldOverviews)
 
