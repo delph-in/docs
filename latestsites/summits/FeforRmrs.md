@@ -20,19 +20,19 @@ schedule is quite packed.
 Afternoon of June 14th
 
 - Algebra and composition ([AnnCopestake](https://delph-in.github.io/docs/garage/AnnCopestake)). The status
-of the HOOK.INDEX in MRS/RMRS (FrancisBond).
+of the HOOK.INDEX in MRS/RMRS ([FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond)).
 - Scoping constraints: beyond qeqs
 ([BertholdCrysmann](https://delph-in.github.io/docs/garage/BertholdCrysmann))
 [FeforScopingConstraints](https://delph-in.github.io/docs/summits/FeforScopingConstraints)
-- Quantifiers with nominal relation (EmilyBender).
+- Quantifiers with nominal relation ([EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender)).
 [FeforQuantifiers](https://delph-in.github.io/docs/summits/FeforQuantifiers)
-- Pronoun rels vs prodrop (EmilyBender) Inserting
+- Pronoun rels vs prodrop ([EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender)) Inserting
 pronoun-rels v. leaving unbound indices in pro-drop (aka null
 instantiation). [FeforDroppedArguments](https://delph-in.github.io/docs/summits/FeforDroppedArguments)
-- Representations of discourse status (EmilyBender).
+- Representations of discourse status ([EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender)).
 [FeforDiscourseStatus](https://delph-in.github.io/docs/summits/FeforDiscourseStatus)
 - Messages: what are they good for?
-([BertholdCrysmann](https://delph-in.github.io/docs/garage/BertholdCrysmann), FrancisBond,
+([BertholdCrysmann](https://delph-in.github.io/docs/garage/BertholdCrysmann), [FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond),
 [AnnCopestake](https://delph-in.github.io/docs/garage/AnnCopestake), [DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger))
 [FeforMessageDemise](https://delph-in.github.io/docs/summits/FeforMessageDemise)
 - MRS test suite: extension ([DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger)) and
@@ -48,9 +48,9 @@ Morning of June 15th
 [DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger)).
 - Person, number, gender features in (R)MRS
 ([BertholdCrysmann](https://delph-in.github.io/docs/garage/BertholdCrysmann),
-[DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger), EmilyBender)
+[DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger), [EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender))
 [FeforPng](https://delph-in.github.io/docs/summits/FeforPng)
-- The SEM-I (StephanOepen,
+- The SEM-I ([StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen),
 [DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger), [AnnCopestake](https://delph-in.github.io/docs/garage/AnnCopestake))
 
 Last update: 2006-06-21 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/FeforRmrs/_edit)]{% endraw %}

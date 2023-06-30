@@ -43,8 +43,8 @@ Michael Wayne Goodman, using
 [PyDelphin](https://github.com/delph-in/pydelphin) and visualization
 from [delphin-viz](https://github.com/delph-in/delphin-viz). The
 software was originally written by [ChikaraHashimoto](https://delph-in.github.io/docs/garage/ChikaraHashimoto)
-and FrancisBond in perl, and used the html output
-provided by StephanOepen.
+and [FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond) in perl, and used the html output
+provided by [StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen).
 
 ## Sample In Line Documentation
 

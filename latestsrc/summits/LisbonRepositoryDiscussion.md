@@ -3,7 +3,7 @@
 LisbonRepositoryDiscussion is the transcript of Discussion I on Thu
 2005-08-18 (11:00-11:45) in the [LisbonTop](https://delph-in.github.io/docs/summits/LisbonTop) meeting.
 
-Moderation: StephanOepen
+Moderation: [StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen)
 
 Scribe: [UlrichSchaefer](https://delph-in.github.io/docs/garage/UlrichSchaefer)
 

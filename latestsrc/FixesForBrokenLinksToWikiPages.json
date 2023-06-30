@@ -319,14 +319,6 @@
         {"Page": "ERDW_HowCurrentDocsAreBuilt", "SrcDir": "docswiki", "SrcFile": "ERDW_HowCurrentDocsAreBuilt.md", "BaseReferrer": "garage/ERDW_StructureForNewDocsSite.md", "Referrer": "garage/ERDW_StructureForNewDocsSite.md"}
       ]}
     ],
-    "home": [
-      {"Section": "DELPH-IN", "Pages": [
-        {"Page": "EmilyBender", "SrcDir": "docswiki", "SrcFile": "EmilyBender.md", "BaseReferrer": "home/DelphinNews.md", "Referrer": "home/DelphinNews.md", "FileMissing": true},
-        {"Page": "FrancisBond", "SrcDir": "docswiki", "SrcFile": "FrancisBond.md", "BaseReferrer": "home/DelphinNews.md", "Referrer": "home/DelphinNews.md", "FileMissing": true},
-        {"Page": "ScottDrellishak", "SrcDir": "docswiki", "SrcFile": "ScottDrellishak.md", "BaseReferrer": "home/DelphinNews.md", "Referrer": "home/DelphinNews.md", "FileMissing": true},
-        {"Page": "WikiName", "SrcDir": "docswiki", "SrcFile": "WikiName.md", "BaseReferrer": "home/Home.md", "Referrer": "home/Home.md", "FileMissing": true}
-      ]}
-    ],
     "tools": [
       {"Section": "[incr tsdb()]", "Pages": [
         {"Page": "FftbTreebankUpdateTutorial", "SrcDir": "docswiki", "SrcFile": "FftbTreebankUpdateTutorial.md", "BaseReferrer": "tools/ItsdbProfileManipulation.md", "Referrer": "tools/ItsdbProfileManipulation.md"}
@@ -336,14 +328,6 @@
         {"Page": "GaliciaNominalization", "SrcDir": "docswiki", "SrcFile": "GaliciaNominalization.md", "BaseReferrer": "tools/RmrsDiscussions.md", "Referrer": "tools/RmrsDiscussions.md"},
         {"Page": "GaliciaThaiSvc", "SrcDir": "docswiki", "SrcFile": "GaliciaThaiSvc.md", "BaseReferrer": "tools/RmrsDiscussions.md", "Referrer": "tools/RmrsDiscussions.md"},
         {"Page": "RestfulTop", "SrcDir": "docswiki", "SrcFile": "RestfulTop.md", "BaseReferrer": "tools/MrsRFC.md", "Referrer": "tools/MrsRFC.md"}
-      ]}
-    ],
-    "howto": [
-      {"Section": "Other Tutorials", "Pages": [
-        {"Page": "FrontPage", "SrcDir": "docswiki", "SrcFile": "FrontPage.md", "BaseReferrer": "howto/SaarlandAceAgree.md", "Referrer": "howto/SaarlandAceAgree.md", "FileMissing": true}
-      ]},
-      {"Section": "Grammarian Tutorial", "Pages": [
-        {"Page": "StephanOepen", "SrcDir": "docswiki", "SrcFile": "StephanOepen.md", "BaseReferrer": "howto/DelphinTutorial.md", "Referrer": "howto/DelphinTutorial.md", "FileMissing": true}
       ]}
     ],
     "summits": [

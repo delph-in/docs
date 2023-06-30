@@ -202,7 +202,7 @@ constrain it.
 
 ## Notes
 
-\[Scribe: EmilyBender\]
+\[Scribe: [EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender)\]
 
 Ann: The notion of the feature called INDEX is distinct from what that
 feature is pointing to. A DMRS has an index which is a node --- that's

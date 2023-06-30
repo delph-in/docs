@@ -178,7 +178,7 @@ subsequently served to build a commercial email auto response product
 exceptional situations, et al.), and extended in functionality and
 interfaces (including UniCode support, unknown word support, server and
 API library modes, lattice input, and initial MRS support); most of this
-work was done by Ulrich with help from StephanOepen and
+work was done by Ulrich with help from [StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen) and
 [BerndKiefer](https://delph-in.github.io/docs/garage/BerndKiefer) (of DFKI). As part of the EU-funded [Deep
 Thought](http://www.project-deepthought.net/) project, Ulrich and
 Stephan later added support for subsumption-based ambiguity factoring

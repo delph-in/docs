@@ -4,7 +4,7 @@ At the [2013 DELPH-IN Summit](https://delph-in.github.io/docs/summits/SaarlandT
 a short ‘tutorial’ of key DELPH-IN ingredients—aiming to give a
 high-level picture of the DELPH-IN ecosystem and introduce relevant
 jargon for novices. The 2013 tutorial was presented by
-EmilyBender and StephanOepen. Following
+[EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender) and [StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen). Following
 is an über-summary of the material presented (including that which we
 didn't have time for, as well as further addenda after the fact):
 

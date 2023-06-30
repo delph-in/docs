@@ -2,7 +2,7 @@
 
 ## Participants
 
-- EmilyBender (scribe)
+- [EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender) (scribe)
 - [DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger)
 - [VaryaGracheva](https://delph-in.github.io/docs/garage/VaryaGracheva)
 - [MichaelGoodman](https://delph-in.github.io/docs/garage/MichaelGoodman)

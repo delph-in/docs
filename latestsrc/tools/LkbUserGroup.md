@@ -7,7 +7,7 @@ project](http://www.cl.cam.ac.uk/Research/NL/acquilex)) at the
 work on the system, but in the mid- and late 1990s, the software was
 substantially extended in terms of functionality and processing
 efficiency by [JohnCarroll](https://delph-in.github.io/docs/garage/JohnCarroll), [RobMalouf](/RobMalouf) and
-StephanOepen. Most of this work was performed under the
+[StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen). Most of this work was performed under the
 auspices of the [LinGO Laboratory](http://lingo.stanford.edu/) at
 Stanford University. [DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger), the main developer
 of the LinGO [English Resource Grammar](http://www.delph-in.net/erg),
@@ -18,7 +18,7 @@ EU [Deep-Thought](http://www.project-deepthought.net/) project,
 [LkbLexDb](/LkbLexDb) page) and has since been an active contributor.
 The current distribution also includes code by others, most notably
 [BerndKiefer](https://delph-in.github.io/docs/garage/BerndKiefer), [FrederikFouvry](https://delph-in.github.io/docs/garage/FrederikFouvry) and
-EmilyBender.
+[EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender).
 
 The LKB has a reasonably active user base with an estimated several
 hundred installations world-wide. Part of the LKB source code is used as

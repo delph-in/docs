@@ -16,7 +16,7 @@ The following terse sections aim to provide minimal documentation to
 users who might want to obtain ERG parses without creating their own
 installation of the DELPH-IN software stack. Michael Goodman and
 [NedLetcher](https://delph-in.github.io/docs/garage/NedLetcher) have contributed substantially to the design
-and testing of the interface; StephanOepen maintains the
+and testing of the interface; [StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen) maintains the
 server-side implementation based on the LKB and [\[incr
 tsdb()\]](http://www.delph-in.net/itsdb) environments.
 

@@ -51,7 +51,7 @@ question to [ValiaKordoni](https://delph-in.github.io/docs/garage/ValiaKordoni):
 focus on the aims of DELPH-IN and see whom we should invite to join
 us?\
 [ValiaKordoni](https://delph-in.github.io/docs/garage/ValiaKordoni): Confirms.\
-StephanOepen: We should have some substance. How did
+[StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen): We should have some substance. How did
 today's [DELPH-IN](http://www.delph-in.net/) come up. This cooperation
 has helped us to produce sth larger than individual efforts. Grammar
 engineering has been made efficient enough for real application. We want
@@ -75,7 +75,7 @@ clear yet.\
 Availability and organization of our resources will encourage people to
 collaborate with us. e.g. There are groups that could see how RMRS could
 be used for their systems. It is a matter of better visibility.\
-StephanOepen: In terms of approaching other groups: I
+[StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen): In terms of approaching other groups: I
 feel this is a pretty large group. There is no immediate need to
 actively try to extend it. Others, should be able to see our work, and
 if probably express their will to collaborate with us. We should be able

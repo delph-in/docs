@@ -82,7 +82,7 @@ mini-meeting](https://delph-in.github.io/docs/summits/CapitolHillTop)
 ## Participants
 
 Organizer\
-FrancisBond
+[FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond)
 
 Host\
 [GlennSlayden](https://delph-in.github.io/docs/garage/GlennSlayden)
@@ -93,7 +93,7 @@ Participants
 - [OlgaZamaraeva](https://delph-in.github.io/docs/garage/OlgaZamaraeva) (mostly for evening fun/social and to
 offer help as a local; I can also provide crash space for someone)
 - [SanghounSong](https://delph-in.github.io/docs/garage/SanghounSong) (probably everyday 2-6)
-- FrancisBond (every day)
+- [FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond) (every day)
 - Fan Zhenzhen (every day)
 - [DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger) (Monday afternoon to Thursday)
 - [LuisMorgadoCosta](https://delph-in.github.io/docs/garage/LuisMorgadoCosta) (every day)

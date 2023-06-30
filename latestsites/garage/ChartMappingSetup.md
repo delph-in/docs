@@ -1,10 +1,10 @@
 {% raw %}This page describes how to take a grammar without chart mapping, and set
 up the basic infrastructure for chart mapping.
 
-It is being written based on my (FrancisBond's) own
+It is being written based on my ([FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond)'s) own
 experiences with setting up Jacy, and should not in any way be
 considered a reliable introduction, although I will do my best:
-[PeterAdolphs](https://delph-in.github.io/docs/garage/PeterAdolphs) and StephanOepen hold the
+[PeterAdolphs](https://delph-in.github.io/docs/garage/PeterAdolphs) and [StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen) hold the
 hidden truth.
 
 ## What do you need

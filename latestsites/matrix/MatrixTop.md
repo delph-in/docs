@@ -1,6 +1,6 @@
 {% raw %}# Page Authorship
 
-This page is written and maintained by EmilyBender.
+This page is written and maintained by [EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender).
 Please send comments by email.
 
 # Overview

@@ -7,8 +7,8 @@ in Singapore:
 year
 - [DorotheeBeermann](/DorotheeBeermann)
 - [NuriaBel](/NuriaBel)
-- EmilyBender Aug 3-7, sticking around for HPSG
-- FrancisBond Aug 3-7, sticking around for HPSG
+- [EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender) Aug 3-7, sticking around for HPSG
+- [FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond) Aug 3-7, sticking around for HPSG
 - [AntonioBranco](https://delph-in.github.io/docs/garage/AntonioBranco)
 - [DavidBrodbeck](/DavidBrodbeck)
 - [UlrichCallmeier](/UlrichCallmeier)
@@ -55,7 +55,7 @@ with regrets)
 - [MathieuMorey](/MathieuMorey)
 - [LuisMorgadoCosta](https://delph-in.github.io/docs/garage/LuisMorgadoCosta) (Aug 3-7) + HPSG
 - [DavidMott](https://delph-in.github.io/docs/garage/DavidMott)
-- StephanOepen (regretful)
+- [StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen) (regretful)
 - [PetyaOsenova](https://delph-in.github.io/docs/garage/PetyaOsenova)
 - [LiljaØvrelid](/Lilja%C3%98vrelid)
 - [WoodleyPackard](/WoodleyPackard) (Aug. 2-8)

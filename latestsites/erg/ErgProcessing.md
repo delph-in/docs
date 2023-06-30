@@ -2,7 +2,7 @@
 
 This page is intended as a collection of pointers related to *using* the
 ERG (for parsing or generation), with an eye towards first-time users.
-The page was initiated by StephanOepen, who intends to
+The page was initiated by [StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen), who intends to
 maintain it over time. Seeing that it will be important for the
 information provided here to be accurate and up-to-date, please be both
 pedantic and conservative in making (non-trivial) revisions.

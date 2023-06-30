@@ -7,7 +7,7 @@ things, [machine translation](https://delph-in.github.io/docs/tools/LogonTop),
 information, hence may be inaccurate in some details, or not necessarily
 reflect use patterns anticipated by the original LOGON developers. The
 functionality documented here may still change. This page was initiated
-by FrancisBond; please feel free to make additions or
+by [FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond); please feel free to make additions or
 corrections as you see fit. However, before revising this page, one
 should be reasonably confident of the information given being correct.
 

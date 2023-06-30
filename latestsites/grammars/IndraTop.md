@@ -56,7 +56,7 @@ Verb reduplication](https://delph-in.github.io/docs/grammars/LADIndonesianMorpho
 ## Contributors
 
 - [DavidMoeljadi](https://delph-in.github.io/docs/garage/DavidMoeljadi)
-- FrancisBond
+- [FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond)
 - [SanghounSong](https://delph-in.github.io/docs/garage/SanghounSong)
 - [DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger)
 - [MichaelGoodman](https://delph-in.github.io/docs/garage/MichaelGoodman)

@@ -35,7 +35,7 @@ investigating techniques into automatically detecting linguistic
 phenomena within grammars. An English phenomenon corpus based on
 [DeepBank](https://delph-in.github.io/docs/garage/DeepBank) and focusing on syntactic and morphosyntactic
 phenomena is currently being developed by [NedLetcher](https://delph-in.github.io/docs/garage/NedLetcher),
-[TimBaldwin](https://delph-in.github.io/docs/garage/TimBaldwin) and EmilyBender. For further
+[TimBaldwin](https://delph-in.github.io/docs/garage/TimBaldwin) and [EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender). For further
 details and background, please see the paper *Constructing a Phenomenal
 Corpus: Towards Detecting Linguistic Phenomena in Precision Grammars* in
 the [proceedings of the Workshop on High-level Methodologies for Grammar

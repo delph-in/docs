@@ -25,7 +25,7 @@ development (plus one large grammar, for inspiration). LinGO Builds are
 comprised of a set of tar(1) archives, combined with an automated
 installer script (that downloads and unpacks archives), and some
 collateral files to ease user-level setup. This environment was
-originally created by StephanOepen but since 2010 is
+originally created by [StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen) but since 2010 is
 managed by [DavidBrodbeck](/DavidBrodbeck); it is described (together
 with mildly out-of-date information) on the
 [LkbInstallation](https://delph-in.github.io/docs/tools/LkbInstallation) page. The contact address for this
@@ -53,7 +53,7 @@ closest we have come to a ‘turn-key’ release channel; see the
 [ErgProcessing](https://delph-in.github.io/docs/erg/ErgProcessing) page for an example. For these reasons,
 the LOGON Tree is comparatively voluminous (requiring several gigabytes
 of available disk space). This distribution was created and is
-maintained by StephanOepen, and there is documentation
+maintained by [StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen), and there is documentation
 available on the [LogonTop](https://delph-in.github.io/docs/tools/LogonTop) page and its sub-pages. The
 contact address for this distribution is logon@delph-in.net.
 

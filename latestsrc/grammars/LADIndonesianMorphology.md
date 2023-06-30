@@ -1,6 +1,6 @@
 {% raw %}# Argument Change and Reduplication in Indonesian: Some issues
 
-[DavidMoeljadi](https://delph-in.github.io/docs/garage/DavidMoeljadi) (FrancisBond and
+[DavidMoeljadi](https://delph-in.github.io/docs/garage/DavidMoeljadi) ([FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond) and
 [LuisMorgadoCosta](https://delph-in.github.io/docs/garage/LuisMorgadoCosta))
 
 Indonesian is a Western Malayo-Polynesian language of the Austronesian

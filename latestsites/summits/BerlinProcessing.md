@@ -1,6 +1,6 @@
 {% raw %}# Discussion on HPSG Processing Strategies
 
-Moderator: StephanOepen
+Moderator: [StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen)
 
 Scribe: [YiZhang](https://delph-in.github.io/docs/garage/YiZhang)
 
@@ -19,7 +19,7 @@ competitive response to other deep parsing communities (i.e. CCG), there
 is also a growing interest in exploring cognitive apparatus in HPSG
 parsing (deterministic parsing, incremental parsing, more general
 psycholinguistic human sentence processing, etc) from others
-(StephanOepen).
+([StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen)).
 
 The general open question for discussion is:
 
@@ -54,7 +54,7 @@ isomorphic?
 It is mentioned in the discussion that there are ongoing work on
 generation with treebank-induced grammar (i.e. at Tokyo).
 
-StephanOepen: Incremental processing strategies,
+[StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen): Incremental processing strategies,
 inter-dependencies between the grammar and processing
 
 [BertholdCrysmann](https://delph-in.github.io/docs/garage/BertholdCrysmann): Interlinguality need to be

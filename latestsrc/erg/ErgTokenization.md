@@ -14,7 +14,7 @@ using the ERG to parse ‘raw’ string inputs, for satisfactory results on
 non-vanilla inputs, it is necessary to apply the ERG tokenization rules,
 e.g. turn on support for [REPP](https://delph-in.github.io/docs/garage/ReppTop) in engines like PET or ACE.
 
-This page was predominantly authored by StephanOepen,
+This page was predominantly authored by [StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen),
 who jointly with [DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger) developed the current
 ERG approach to tokenization. As of early 2009, Stephan is the
 maintainer of the ERG tokenizer and token mapping rules. Please do not

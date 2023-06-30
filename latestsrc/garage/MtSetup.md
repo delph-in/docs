@@ -28,7 +28,7 @@ Emacs](https://delph-in.github.io/docs/garage/MtSetup)
 There are two ways to set up an MT system. One way is to include the
 transfer component in the parsing grammar, using the rephrasing
 mechanism to generate sentences with another grammar. This method is
-used in EmilyBender's Grammar Matrix course ([Lab
+used in [EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender)'s Grammar Matrix course ([Lab
 9](http://courses.washington.edu/ling567/lab9.html)), and requires only
 installation of the LKB system, and is thus relatively lightweight. The
 other method is to create a seperate transfer grammar using the [LOGON

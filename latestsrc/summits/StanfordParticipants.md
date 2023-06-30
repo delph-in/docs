@@ -8,8 +8,8 @@ Summit at Stanford University](https://delph-in.github.io/docs/summits/StanfordT
 - [TimBaldwin](https://delph-in.github.io/docs/garage/TimBaldwin)
 - [DorotheeBeermann](/DorotheeBeermann)
 - [NuriaBel](/NuriaBel)
-- EmilyBender - June 16-20
-- FrancisBond - June 16-20
+- [EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender) - June 16-20
+- [FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond) - June 16-20
 - [AntonioBranco](https://delph-in.github.io/docs/garage/AntonioBranco) - unfortunately cant make it
 - [DavidBrodbeck](/DavidBrodbeck)
 - [ToreBruland](/ToreBruland)
@@ -67,7 +67,7 @@ some sessions
 - [LuisMorgadoCosta](https://delph-in.github.io/docs/garage/LuisMorgadoCosta) - June 16-20
 - [DavidMott](https://delph-in.github.io/docs/garage/DavidMott) -sorry, cant make it
 - [EwaMuszynska](/EwaMuszynska)
-- StephanOepen wouldn't miss it!
+- [StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen) wouldn't miss it!
 - [PetyaOsenova](https://delph-in.github.io/docs/garage/PetyaOsenova) - regretful
 - [LiljaØvrelid](/Lilja%C3%98vrelid)
 - [WoodleyPackard](/WoodleyPackard) - June 16-20 with the exception of

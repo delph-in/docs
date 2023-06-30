@@ -16,7 +16,7 @@ interface. The *Variable Property Mapping* (VPM) facility is a
 bi-directional tool that relates grammar-internal and -external encoding
 on the basis of a declarative specification of the mapping relations.
 
-This page was predominantly authored by StephanOepen,
+This page was predominantly authored by [StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen),
 who is the original VPM designer and current maintainer. Please do not
 make substantial changes unless you (a) are reasonably sure of the
 technical correctness of your revisions and (b) believe strongly that

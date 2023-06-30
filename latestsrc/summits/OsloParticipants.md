@@ -7,9 +7,9 @@ Summit](http://moin.delph-in.net/OsloTop).
 - [TimBaldwin](https://delph-in.github.io/docs/garage/TimBaldwin)
 - [DorotheeBeermann](/DorotheeBeermann)
 - [NuriaBel](/NuriaBel)
-- EmilyBender (gerne; Aug 7-11, possibly leaving
+- [EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender) (gerne; Aug 7-11, possibly leaving
 mid-afternoon on Friday)
-- FrancisBond (Mon-Fri)
+- [FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond) (Mon-Fri)
 - [AntonioBranco](https://delph-in.github.io/docs/garage/AntonioBranco) (sorry, can't attend this year)
 - [ToreBruland](/ToreBruland)
 - [UlrichCallmeier](/UlrichCallmeier)
@@ -64,7 +64,7 @@ I'm sure it will be a fantastic meeting!
 - [LuisMorgadoCosta](https://delph-in.github.io/docs/garage/LuisMorgadoCosta) (Monday to Friday)
 - [DavidMott](https://delph-in.github.io/docs/garage/DavidMott)
 - [EwaMuszynska](/EwaMuszynska)
-- StephanOepen (Monday through Friday, on-site)
+- [StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen) (Monday through Friday, on-site)
 - [PetyaOsenova](https://delph-in.github.io/docs/garage/PetyaOsenova)
 - [LiljaØvrelid](/Lilja%C3%98vrelid)
 - [WoodleyPackard](/WoodleyPackard) (Monday to Friday, tentatively)

@@ -23,8 +23,8 @@ groups. Groups will report back to the plenary session.
 
 - LexDB: [BenWaldron](https://delph-in.github.io/docs/garage/BenWaldron) (objective to get more grammars
 using the LexDB)
-- web server: StephanOepen (suggested by
-FrancisBond: objective is putting other grammars
+- web server: [StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen) (suggested by
+[FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond): objective is putting other grammars
 online)
 - deep/shallow integration via S(M)AF: [BenWaldron](https://delph-in.github.io/docs/garage/BenWaldron) and
 [MontserratMarimon](/MontserratMarimon) and ??
@@ -32,7 +32,7 @@ online)
 - exploring a common descriptive classification of linguistic
 phenomena: [DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger)
 - LKB/PET compatibility issues: shared configuration, reducing and
-documenting the globals: NTNU, FrancisBond (follow-up
+documenting the globals: NTNU, [FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond) (follow-up
 from Jerez)
 
 ## Tours of resources
@@ -49,7 +49,7 @@ haven't seen it, preferably in advance of discussion of algebra in
 LKB)
 - [DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger): Generation - trigger rules,
 debugging techniques, batch testing
-- FrancisBond: Treebanking with Redwoods
+- [FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond): Treebanking with Redwoods
 - [BenWaldron](https://delph-in.github.io/docs/garage/BenWaldron): Preprocessor usage (now supported in both
 LKB and PET)
 
@@ -76,7 +76,7 @@ Participants may wish to sign up with leaders in advance of Fefor.
 
 - HoG: [UlrichSchaefer](https://delph-in.github.io/docs/garage/UlrichSchaefer) (cf. [Heart of Gold
 documentation](http://heartofgold.dfki.de/doc/heartofgolddoc.pdf))
-- \[incr tsdb()\]: StephanOepen (see [On-Line
+- \[incr tsdb()\]: [StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen) (see [On-Line
 Documentation](https://delph-in.github.io/docs/tools/ItsdbTop))
 - LexDB: [BenWaldron](https://delph-in.github.io/docs/garage/BenWaldron)
 

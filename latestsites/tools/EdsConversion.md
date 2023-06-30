@@ -2,7 +2,7 @@
 
 For the first ten or so years of EDS support, there used to be only one
 implementation of the conversion procedure, maintained by
-StephanOepen as part of the Common Lisp MRS library
+[StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen) as part of the Common Lisp MRS library
 (which is typically loaded as part of the LKB, but is at times also
 compiled stand-alone, for example to link with the PET parser). Starting
 around 2014, [RebeccaDridan](https://delph-in.github.io/docs/garage/RebeccaDridan) has developed a C++

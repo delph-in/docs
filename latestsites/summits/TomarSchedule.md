@@ -127,7 +127,7 @@ Related Languages
 3. [OlgaZamaraeva](https://delph-in.github.io/docs/garage/OlgaZamaraeva) (consumer?): Approaches to handling
 space/time challenges that occur with DELPH-IN software; possibility
 of running on EC2
-4. FrancisBond: Quantum MRS
+4. [FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond): Quantum MRS
 5. [SanghounSong](https://delph-in.github.io/docs/garage/SanghounSong): Standardizing annotations over "The
 Adventure of the Speckled Band"
 6. [AntskeFokkens](https://delph-in.github.io/docs/garage/AntskeFokkens): The Grammar Matrix in individual
@@ -135,12 +135,12 @@ grammars (what is used, what has been changed).
 7. [DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger): Robust parsing with the ERG
 8. [AnnCopestake](https://delph-in.github.io/docs/garage/AnnCopestake): Sharing resources for MT using
 DELPH-IN technology
-9. EmilyBender, [DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger),
-StephanOepen, [WoodleyPackard](/WoodleyPackard):
+9. [EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender), [DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger),
+[StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen), [WoodleyPackard](/WoodleyPackard):
 Treebanker conference (LPP)
-10. [DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger), StephanOepen:
+10. [DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger), [StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen):
 semantics of names
-11. StephanOepen: Formalism Revisions: Implications,
+11. [StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen): Formalism Revisions: Implications,
 Relational Constraints
 12. [RebeccaDridan](https://delph-in.github.io/docs/garage/RebeccaDridan): Ubertagging (Introduction)
 13. [GlennSlayden](https://delph-in.github.io/docs/garage/GlennSlayden): Lagrange Multipliers
@@ -156,7 +156,7 @@ NL Sentences
 
 ## Tutorials
 
-1. Tutorial: Setting up MT (FrancisBond)
+1. Tutorial: Setting up MT ([FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond))
    
    - [LilingTan](https://delph-in.github.io/docs/garage/LilingTan) (consumer?): Reviving LOGON for ERG + GG
 (wishlist)

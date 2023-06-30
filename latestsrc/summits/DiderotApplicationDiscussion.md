@@ -10,21 +10,21 @@ domain-specific meaning)
 - intermediate representations for generation (domain-specific meaning
 to text, translation, rewriting, summarisation, language modelling)
 
-EmilyBender: If we don't get improvements, it's because
+[EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender): If we don't get improvements, it's because
 the tasks are tailored to this end-to-end paradigm. What are interesting
 tasks?
 
 [JanBuys](https://delph-in.github.io/docs/garage/JanBuys): Recently, there's more interest in designing
 specific test sets, to show generalisation from the training data.
 
-EmilyBender: We also need to generalise \*across tasks\*
+[EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender): We also need to generalise \*across tasks\*
 – we can't just do 1500 end-to-end tasks and expect a general system.
 
 [JanBuys](https://delph-in.github.io/docs/garage/JanBuys): There's recent work trying to show, if you have a
 good language model, that knowledge is applicable to multiple tasks.
 It's still not quite the same as what you're asking.
 
-EmilyBender: Not meaning-sensitive.
+[EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender): Not meaning-sensitive.
 
 [JohnCarroll](https://delph-in.github.io/docs/garage/JohnCarroll): What's an interpretable model? If there's
 any deep learning, that part is not interpretable.
@@ -77,7 +77,7 @@ You want the symbolic representation to capture particular attributes,
 but if you're not careful, you don't have a way to force the neural
 model to use that.
 
-EmilyBender: Maybe we should think about the ways in
+[EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender): Maybe we should think about the ways in
 which the symbolic representation can be brought in. You gave three use
 cases, but are there other possibilities beyond that?
 
@@ -91,7 +91,7 @@ explicitly predict the linguistic structure, and use that as a
 bottleneck, in the sense that for further predictions you only use the
 MRS.
 
-EmilyBender: Presumably you could do ablation tests, and
+[EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender): Presumably you could do ablation tests, and
 see whether it helps compared to only using one or the other? But what
 kind of task?
 
@@ -110,7 +110,7 @@ control challenge?
 [DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger): Relatively modest by today's standard. I
 can't remember exactly.
 
-EmilyBender: It was also crowdsourced and messy.
+[EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender): It was also crowdsourced and messy.
 
 [AlexanderKoller](https://delph-in.github.io/docs/garage/AlexanderKoller): Another contrast between symbolic
 and neural approaches is that, for a neural method to work, you need
@@ -118,17 +118,17 @@ substantial amounts of training data. There is something to be gained by
 mapping to something task independent, and then either the front or back
 end could be hand-written to work around lack of data.
 
-EmilyBender: Multilingual tasks? Could be seen as
+[EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender): Multilingual tasks? Could be seen as
 transfer learning, because MRS has information beyond the surface
 string.
 
 [JanBuys](https://delph-in.github.io/docs/garage/JanBuys): That area hasn't been worked on enough.
 
-EmilyBender: We don't have any grammars as large as the
+[EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender): We don't have any grammars as large as the
 ERG, but there are a couple of language pars where we could do
 something.
 
-EmilyBender: There are a few people here working on
+[EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender): There are a few people here working on
 neural models, and I would be interested to hear what reactions you get
 when presenting your work to a deep learning audience. Jan, Weiwei, Guy?
 
@@ -148,7 +148,7 @@ competition. But the dataset can't be too easy or too hard, or else
 there's no motivation. One potential avenue to put focus on limitations
 of models without linguistic structure.
 
-EmilyBender: We need a task that isn't easily modelled
+[EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender): We need a task that isn't easily modelled
 end-to-end.
 
 [AngelinaMcMillanMajor](/AngelinaMcMillanMajor): Generating poetry and
@@ -182,7 +182,7 @@ structure is very helpful. With formalisms like graph grammars, or
 automata, or HPSG, we can get better results. We must find where it
 works.
 
-EmilyBender: What kinds of reactions do you get from deep
+[EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender): What kinds of reactions do you get from deep
 learning people?
 
 [WeiweiSun](https://delph-in.github.io/docs/garage/WeiweiSun): I didn't get negative reactions. They don't
@@ -192,7 +192,7 @@ reults, is magical numbers – I got state of the art. The quality of
 reviews is not that good, and many only care about the magical number.
 You get that and pass.
 
-EmilyBender: That's one answer to, "how do we get people
+[EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender): That's one answer to, "how do we get people
 to care?" – get the magic number!
 
 [OlgaZamaraeva](https://delph-in.github.io/docs/garage/OlgaZamaraeva): The numbers question is a good one, but
@@ -218,7 +218,7 @@ Have people had a harder time getting non-neural papers published
 compared to 5-10 years ago? Do you get the feeling, when you submit a
 non-neural paper, "They're going to catch me this time"?
 
-EmilyBender: From the COLING perspective, I don't think
+[EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender): From the COLING perspective, I don't think
 so. Neural papers do not differentiate themselves from each other. A
 paper doing something different stands out in a good way. I don't think
 it's negative opinion of papers using linguistic structure, but then
@@ -232,14 +232,14 @@ see the number of neural papers going up.
 
 [OlgaZamaraeva](https://delph-in.github.io/docs/garage/OlgaZamaraeva): Accepted.
 
-FrancisBond: It might depend on the area. Machine
+[FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond): It might depend on the area. Machine
 translation is very score-oriented – if it isn't better, the most common
 question is, "Why didn't you use a neural net?".
 
 [BertholdCrysmann](https://delph-in.github.io/docs/garage/BertholdCrysmann): How do you follow up after a
 question like that?
 
-FrancisBond: There's no follow-up.
+[FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond): There's no follow-up.
 
 [DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger): In quite a few of these applications,
 looking at scoring, the issue of robustness must come in somewhere.
@@ -273,7 +273,7 @@ robustness and precision.
 [DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger): There's a place to do that without
 abandoning the linguistic structure altogether.
 
-FrancisBond: Whether we can throw away part of the
+[FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond): Whether we can throw away part of the
 training data depends on the coverage of the grammar. For Zhong, there
 are phenomena it can't handle – if you filter, the statistical system
 still won't be able to parse those constructions.
@@ -283,7 +283,7 @@ coverage, for example for low-resource languages – we don't have much
 training data so deep learning systems will struggle anyway, and we
 could try to leverage the structure we do have.
 
-EmilyBender: How do we get robustness? Can we mine the
+[EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender): How do we get robustness? Can we mine the
 parse chart for partial parses?
 
 [JanBuys](https://delph-in.github.io/docs/garage/JanBuys): There is one avenue, of span-based neural parsing –
@@ -294,7 +294,7 @@ complete parse trees, but at test time, if HPSG parsing fails, we could
 still do a more greedy prediction. So we could use information that's
 easier to work with than a packed forest.
 
-EmilyBender: I'm thinking about places where the grammar
+[EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender): I'm thinking about places where the grammar
 tells you something – I can't give you a spanning parse, but I can give
 you the pieces I found.
 
@@ -302,7 +302,7 @@ you the pieces I found.
 parses so you can do something with it. We could convert a partial
 analysis to a partial MRS, and treat as if it were a complete one.
 
-EmilyBender: The way our composition works means they
+[EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender): The way our composition works means they
 will have partial MRSs, but there's the stuff you want to see, and all
 kinds of weird stuff.
 
@@ -311,16 +311,16 @@ ability to extract useful information from the chart – it means you only
 have a few trillion possibilities left. 10^9/12/14... there's still a
 huge search space!
 
-EmilyBender: Maybe for the ERG. What about Zhong?
+[EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender): Maybe for the ERG. What about Zhong?
 
-FrancisBond: Zhong covers many phenomena! Topicalisation,
+[FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond): Zhong covers many phenomena! Topicalisation,
 dropped subjects...
 
 [DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger): Gaps, coordination in surprising ways...
 analyses that a grammar writer doesn't want but can't see how to exclude
 them in principle.
 
-EmilyBender: Could we strip out extracted versions? Find
+[EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender): Could we strip out extracted versions? Find
 a subset of the chart in a principled way
 
 [DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger): Years ago, people tried to do some of
@@ -365,7 +365,7 @@ was also applied to TAG. It worked pretty well.
 when using the deep grammar, gives much a smaller search space. Then we
 can use John's method – not trillions, but thousands of trees.
 
-EmilyBender: The training data could be a chart and the
+[EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender): The training data could be a chart and the
 best parse.
 
 [JohnCarroll](https://delph-in.github.io/docs/garage/JohnCarroll): Often, context is the discriminating factor.
@@ -381,7 +381,7 @@ with higher order features – we can deal with that.
 algorithm using dual composition or something. Has been applied with
 neural features.
 
-FrancisBond: One place a neural net has been effective,
+[FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond): One place a neural net has been effective,
 is initial spelling correction in tokenisation – if something is wrong,
 the whole thing breaks. You can put a neural system on the front.
 Converting a tweet to normal text, or poorly typed text to reasonably
@@ -449,7 +449,7 @@ representations. All of those systems would collect separate semantic
 annotations. Something simpler could be done with a general purpose
 semantic representation.
 
-EmilyBender: I was at Amazon, and they have no
+[EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender): I was at Amazon, and they have no
 linguistics going on. I met one person who was really into neural nets,
 and sees language as an application. He said it was still to be shown
 that language has structure... we had a conversation.
@@ -464,7 +464,7 @@ that's linguistically informed?
 that anyone writing an Alexa skill can understand it without knowing
 linguistics.
 
-EmilyBender: We're a long way from that being a killer
+[EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender): We're a long way from that being a killer
 app.
 
 [JohnCarroll](https://delph-in.github.io/docs/garage/JohnCarroll): At least it's a generic technology.
@@ -472,7 +472,7 @@ app.
 [BerndKiefer](https://delph-in.github.io/docs/garage/BerndKiefer): There's also neural work using AMRs, which
 seem to be impoverished MRSs.
 
-EmilyBender: "Impoverished" is not quite fair – they do
+[EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender): "Impoverished" is not quite fair – they do
 some things we don't do, so there are both sides of the Venn diagram.
 But we're more consistent.
 

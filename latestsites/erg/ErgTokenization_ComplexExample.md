@@ -24,7 +24,7 @@ stage (b) to stage (c), there is only further combination of multiple
 internal tokens into a single lexical token, viz. by virtue of
 instantiating a multi-word lexical entry.
 
-This page is maintained by StephanOepen. Please be
+This page is maintained by [StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen). Please be
 conservative in making substantive revisions.
 
 # Initial Tokenization

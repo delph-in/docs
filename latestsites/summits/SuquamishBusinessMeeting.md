@@ -24,7 +24,7 @@ with the web site <http://www.delph-in.net>
 LREC. Standing committee to think about this
   - Come up with a DELPH-IN Manifesto/Mission Statement. Possibly to
 be used as boilerplate in grant applications/papers.
-StephanOepen to write draft
+[StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen) to write draft
   - Encourage everyone to remember to properly cite each other.
 - Remind scribes to post notes, participants to read over and edit
   - Please add your own notes and check the scribe's output

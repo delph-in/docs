@@ -9,7 +9,7 @@ Oepen (2012)](http://aclweb.org/anthology/P/P12/P12-2074.pdf).
 clarifying the REPP specification while working on his implementation in
 the [pyDelphin](https://pypi.org/project/PyDelphin/) library.
 
-This page was predominantly authored by StephanOepen,
+This page was predominantly authored by [StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen),
 who is the original REPP designer and current maintainer of the LKB
 implementation of REPP. REPP support in PET was provided by
 [RebeccaDridan](https://delph-in.github.io/docs/garage/RebeccaDridan) (with some help by Stephan), and Rebecca
@@ -471,7 +471,7 @@ REPP has evolved from a similar but undocumented device that was
 available in the LKB since around 2003: the *Finite-State Pre-Processor*
 (FSPP). Since its inception, FSPP has been availabe in two versions.
 FSPP 1.0 was originally designed and (partially) implemented (as part of
-the LKB) by StephanOepen in early 2003, based on earlier
+the LKB) by [StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen) in early 2003, based on earlier
 experience at the YY Corporation. In 2005, [BenWaldron](https://delph-in.github.io/docs/garage/BenWaldron) (who
 was part of the YY team too) created a parallel FSPP implementation in
 the LKB, which we will refer to as FSPP 2.0; this version added new
@@ -507,7 +507,7 @@ amount of adaptation to existing pre-processor rule sets, we encourage
 everyone to make the transition sooner rather or later. Future
 development is expected to focus on REPP, including a native
 implementation (with UniCode support) in PET.
-StephanOepen will be happy to hear from current FSPP
+[StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen) will be happy to hear from current FSPP
 users, especially those making use of FSPP facilities that are not part
 of the REPP design: token-level rules and tokenization ambiguity. In
 principle, the combination of REPP and chart mapping should make it

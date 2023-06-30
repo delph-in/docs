@@ -21,7 +21,7 @@ release, using whatever test set is appropriate for their grammar.
 | English Resource Grammar      | [DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger)        |
 | German                        | [BertholdCrysmann](https://delph-in.github.io/docs/garage/BertholdCrysmann)  |
 | Modern Greek Resource Grammar | [AlexandrosPoulis](/AlexandrosPoulis) |
-| JACY                          | FrancisBond            |
+| JACY                          | [FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond)            |
 | Norsource                     | [LarsHellan](/LarsHellan)             |
 | Korean Resource Grammar       | [JongBokKim](https://delph-in.github.io/docs/garage/JongBokKim)              |
 

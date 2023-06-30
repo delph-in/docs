@@ -4,12 +4,12 @@
 
 - Short Site Updates (5-15 min: presenter bracketed)
   - *[UW](http://faculty.washington.edu/ebender/papers/DELPHIN08-UWupdate.pdf)*
-(EmilyBender)
+([EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender))
   - *Saarbruecken (UdS & DFKI)* ([HansUszkoreit](https://delph-in.github.io/docs/garage/HansUszkoreit))
-  - *NICT* (FrancisBond)
+  - *NICT* ([FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond))
   - *NTT* ([SanaeFujita](/SanaeFujita))
   - *Paris* ([FredericLaurens](/FredericLaurens))
-  - *Oslo* (StephanOepen)
+  - *Oslo* ([StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen))
 - Agenda Setting
 
 **Lunch**
@@ -42,7 +42,7 @@ More detailed updates.
 ([DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger))
   - *[Radical non-configurationality and semantic
 composition](http://faculty.washington.edu/ebender/papers/Bender-DELPHIN08.pdf)*
-(EmilyBender)
+([EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender))
   - *The Spanish Resource Grammar*
 ([MontserratMarimon](/MontserratMarimon))
 - Applications
@@ -64,7 +64,7 @@ Parsing with the ERG* ([ValiaKordoni](https://delph-in.github.io/docs/garage/Val
 - Student Session ([RebeccaDridan](https://delph-in.github.io/docs/garage/RebeccaDridan))
   
   - Brief presentations of student research within DELPH-IN.
-- Robustness (FrancisBond)
+- Robustness ([FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond))
   
   - supertagger, unknown words, ...
 - Shared Parsing task ([EricNichols](/EricNichols))
@@ -83,11 +83,11 @@ MRS](http://www.coli.uni-saarland.de/~rwang/slides/delphin2008Wang.pdf):
 - [Means for increasing intra-DELPH-IN collaboration and
 communication](https://delph-in.github.io/docs/summits/KyotoSchedule_InterDelphinNotes)
   
-  - Paper exchange (EmilyBender,
+  - Paper exchange ([EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender),
 [RebeccaDridan](https://delph-in.github.io/docs/garage/RebeccaDridan))
   - Use of mailing lists, wiki
   - Wiki space for sharing auxiliary scripts
-([RebeccaDridan](https://delph-in.github.io/docs/garage/RebeccaDridan), EmilyBender)
+([RebeccaDridan](https://delph-in.github.io/docs/garage/RebeccaDridan), [EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender))
 
 **Lunch**
 

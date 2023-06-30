@@ -44,7 +44,7 @@ volunteer.
 
 ## Testing (technology and practice for developers)
 
-- Automated testing (FrancisBond,
+- Automated testing ([FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond),
 [UlrichSchaefer](https://delph-in.github.io/docs/garage/UlrichSchaefer), cf. also
 [TestingWithAnt](https://delph-in.github.io/docs/garage/TestingWithAnt))
   
@@ -66,7 +66,7 @@ testing with [SciBorg](/SciBorg) at Cambridge
   
   - Everyone: collect examples of deep/shallow interface issues so
 we can design a language for the interface
-- Preprocessors (FrancisBond)
+- Preprocessors ([FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond))
 - PET API (proposal, discussion) ([UlrichSchaefer](https://delph-in.github.io/docs/garage/UlrichSchaefer))
   
   - Uli to start outline on the wiki: [FeforPetApi](https://delph-in.github.io/docs/garage/FeforPetApi)

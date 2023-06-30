@@ -2,7 +2,7 @@
 
 This page captures some of the discussion on MRS comaprison at the
 [Sofia Meeting](https://delph-in.github.io/docs/summits/SofiaTop). The discussion was led by
-FrancisBond using slides by [MathieuMorey](/MathieuMorey)
+[FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond) using slides by [MathieuMorey](/MathieuMorey)
 and had many participants.
 
 ## MRS comparison using graph matching algorithms

@@ -1,4 +1,4 @@
-{% raw %}Mentor: EmilyBender (ebender at u dot washington dot edu,
+{% raw %}Mentor: [EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender) (ebender at u dot washington dot edu,
 <http://faculty.washington.edu/ebender>)
 
 Co-mentors: [DorotheeBeermann](/DorotheeBeermann)

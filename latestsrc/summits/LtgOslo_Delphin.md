@@ -110,7 +110,7 @@ Work in [WeSearch](https://delph-in.github.io/docs/garage/WeSearch) by [Angelina
 relating bi-lexical dependency representations and DELPH-IN HPSG
 analyses), by [RebeccaDridan](https://delph-in.github.io/docs/garage/RebeccaDridan) (on, among things,
 ubertagging for faster and more accurate parsing), and by
-StephanOepen and off-site collaborators (on working
+[StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen) and off-site collaborators (on working
 towards documentation of ERG Semantic Analyses) are presented
 individually at the 2013 Summit.
 

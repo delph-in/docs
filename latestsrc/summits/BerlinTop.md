@@ -142,7 +142,7 @@ latest developments and decisions.
 | 14:00-14:30 | Introduction                                                                                                                                            | [HansUszkoreit](https://delph-in.github.io/docs/garage/HansUszkoreit)     |
 | 14:30-16:00 | ["Teaser" short presentations](https://delph-in.github.io/docs/summits/BerlinSlides) on what's going to follow during the week                                                                  | N.N.                               |
 | 16:00-16:30 | Coffee break                                                                                                                                            |                                    |
-| 16:30-17:00 | [New Libraries for the Matrix (case and person/number/gender)](http://students.washington.edu/sfd/Drellishak%20-%20DELPH-IN%202007%20-%20Libraries.pdf) | ScottDrellishak |
+| 16:30-17:00 | [New Libraries for the Matrix (case and person/number/gender)](http://students.washington.edu/sfd/Drellishak%20-%20DELPH-IN%202007%20-%20Libraries.pdf) | [ScottDrellishak](https://delph-in.github.io/docs/garage/ScottDrellishak) |
 | 17:00:17:30 | Norsource: Recent Developments on Semantic Resources, Compound Analysis, and the Norsource deep Test Suites                                             | [LarsHellan](/LarsHellan)          |
 | 17:30-18:30 | Time for break-out sessions                                                                                                                             |                                    |
 
@@ -167,7 +167,7 @@ latest developments and decisions.
 | 17:00-17:30 | [LXGram: status report](http://nlx.di.fc.ul.pt/2007DelphinBerlinLxgram.ppt)                                                                            | [FranciscoCosta](https://delph-in.github.io/docs/garage/FranciscoCosta)          |
 | 17:30-18:30 | Parallel Demos of                                                                                                                                      |                                           |
 |             | a\. Norsource: Norwegian-Japanese MT System + Norsource compound analyser and deep test suite format                                                   | [LarsHellan](/LarsHellan)                 |
-|             | b\. University of Washington 10x10 MT System                                                                                                           | ScottDrellishak        |
+|             | b\. University of Washington 10x10 MT System                                                                                                           | [ScottDrellishak](https://delph-in.github.io/docs/garage/ScottDrellishak)        |
 |             | c\. Heart of Gold (HoG)                                                                                                                                | [UlrichSchaefer](https://delph-in.github.io/docs/garage/UlrichSchaefer)          |
 |             | d\. LXGram                                                                                                                                             | [AntonioBranco](https://delph-in.github.io/docs/garage/AntonioBranco)            |
 | 17:30-18:30 | Time for break-out sessions                                                                                                                            |                                           |
@@ -211,7 +211,7 @@ Proposed discussion topics:
 
 |             |                                                |                                                                                         |
 |-------------|------------------------------------------------|-----------------------------------------------------------------------------------------|
-| 9:30-10:00  | [HPSG Processing Strategies](https://delph-in.github.io/docs/summits/BerlinProcessing) | Moderator: StephanOepen, Scribe: [YiZhang](https://delph-in.github.io/docs/garage/YiZhang)                     |
+| 9:30-10:00  | [HPSG Processing Strategies](https://delph-in.github.io/docs/summits/BerlinProcessing) | Moderator: [StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen), Scribe: [YiZhang](https://delph-in.github.io/docs/garage/YiZhang)                     |
 | 10:00-11:00 | MRS and the removal of messages                | Moderator: [DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger), Scribe: [BertholdCrysmann](https://delph-in.github.io/docs/garage/BertholdCrysmann) |
 | 11:00-11:30 | Coffee break                                   |                                                                                         |
 | 11:30-12:00 | [Machine Translation in DELPH-IN](https://delph-in.github.io/docs/summits/BerlinMT)    | Moderator: [SaraStymne](https://delph-in.github.io/docs/garage/SaraStymne), Scribe: [ValiaKordoni](https://delph-in.github.io/docs/garage/ValiaKordoni)               |

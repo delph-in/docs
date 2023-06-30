@@ -1,7 +1,7 @@
 {% raw %}# Discussion on Reproducibility from the 6th DELPH-IN Summit
 
-Moderator: StephanOepen; Scribe:
-FrancisBond
+Moderator: [StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen); Scribe:
+[FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond)
 
 Start with mail from Rebecca:
 

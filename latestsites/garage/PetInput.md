@@ -8,7 +8,7 @@ XML-based input formats have been developed. Please see the
 [PetInputFsc](https://delph-in.github.io/docs/garage/PetInputFsc) page for an alternate, lattice-based XML
 input mode.
 
-This page was predominantly authored by StephanOepen,
+This page was predominantly authored by [StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen),
 who is its current maintainer. Please do not make substantial changes
 unless you (a) are quite certain of the technical correctness of your
 revisions and (b) believe strongly that your changes are compatible with

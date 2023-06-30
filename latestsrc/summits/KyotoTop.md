@@ -107,7 +107,7 @@ photos](http://picasaweb.google.com/bec.dridan/NagashiSMen)
 # Contact
 
 If you have any questions or comments, please email
-FrancisBond (<mailto:bond@ieee.org>):
+[FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond) (<mailto:bond@ieee.org>):
 
     Francis Bond <bond@ieee.org>            Tel: 0774-95-1391 (Japan +81)
     NICT Language Infrastructure Group      Fax: 0774-95-1308 (Japan +81)   

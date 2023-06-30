@@ -87,7 +87,7 @@ Grammar.
 
 ## Contributors
 
-- FrancisBond
+- [FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond)
 - [SanghounSong](https://delph-in.github.io/docs/garage/SanghounSong)
 - [ZhenzhenFan](/ZhenzhenFan)
 - [JustinChunleiYang](https://delph-in.github.io/docs/garage/JustinChunleiYang)

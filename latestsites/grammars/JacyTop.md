@@ -22,20 +22,20 @@ grammar that can be used as the basis for the development of further
 grammars. After that, it has been used in research on parse ranking with
 lexical semantics and [machine translation](https://delph-in.github.io/docs/garage/MtJaen).
 
-Current development is mainly being done by FrancisBond
+Current development is mainly being done by [FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond)
 ([NTU](http://www3.ntu.edu.sg/home/fcbond/)), with help from Takayuki
 Kuribayashi.
 
 [Melanie Siegel](http://www.melaniesiegel.de) (Hochschule Darmstadt) is
 the original principal JACY developer. Major contributions came from
-EmilyBender (University of Washington), especially
+[EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender) (University of Washington), especially
 concerning the MRS construction and numeral expressions.
-StephanOepen (Universitetet i Oslo & CSLI Stanford)
+[StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen) (Universitetet i Oslo & CSLI Stanford)
 contributed support on the grammar development environment, Japanese
 font encodings and inclusion of [ChaSen](http://chasen.naist.jp). Ulrich
 Callmeier (acrolinx GmbH) contributed the requirements for letting the
 grammar run on his fast and efficient PET system. Akira Ohtani,
-[ChikaraHashimoto](https://delph-in.github.io/docs/garage/ChikaraHashimoto), FrancisBond,
+[ChikaraHashimoto](https://delph-in.github.io/docs/garage/ChikaraHashimoto), [FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond),
 [SanaeFujita](/SanaeFujita), Shigeko Nariyama and Takaaki Tanaka
 (NTT Communication Science Laboratories - Machine
 Translation Research Group) contributed grammar extensions, especially

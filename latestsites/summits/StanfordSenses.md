@@ -94,7 +94,7 @@ consider:
 
 ## Notes from scribe
 
-=== Scribe: EmilyBender ===
+=== Scribe: [EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender) ===
 
 oe: \[Goes through notes on the wiki\]
 

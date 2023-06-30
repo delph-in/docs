@@ -2,13 +2,13 @@
 
 ## Participants
 
-- FrancisBond
+- [FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond)
 - [PrescottKlassen](/PrescottKlassen)
 - [ZinaPozen](https://delph-in.github.io/docs/garage/ZinaPozen)
 - [SanghounSong](https://delph-in.github.io/docs/garage/SanghounSong)
 - [SpencerRarricks](/SpencerRarricks)
 - [MichaelGoodman](https://delph-in.github.io/docs/garage/MichaelGoodman)
-- EmilyBender (scribe)
+- [EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender) (scribe)
 - [GlennSlayden](https://delph-in.github.io/docs/garage/GlennSlayden)
 - [WoodleyPackard](/WoodleyPackard)
 - [DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger) (by Skype)

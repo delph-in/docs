@@ -1,5 +1,5 @@
 {% raw %}Notes on the session on intra-DELPH-IN communication and collaboration
-(Kyoto, August 3, 2008. Scribe: ScottDrellishak)
+(Kyoto, August 3, 2008. Scribe: [ScottDrellishak](https://delph-in.github.io/docs/garage/ScottDrellishak))
 
 ## Executive summary (added afterwards by EmilyBender)
 
@@ -17,7 +17,7 @@ repository but possibly useful to other DELPH-IN members.
 
 ## Detailed notes
 
-EmilyBender:
+[EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender):
 
 - Everyone should put up their slides
 - Most communication is on the mailing lists -- use them! Not much
@@ -29,22 +29,22 @@ traffic recently. Helpful to hear what other people are asking.
 - There are many mailing lists, but not much traffic. Should they be
 merged?
 
-EmilyBender:
+[EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender):
 
 - What was the rationale behind the different lists?
 
-StephanOepen:
+[StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen):
 
 - "participants" is people we invite to DELPH-IN activities.
 - Others are purpose-driven, anybody can create them as needed.
 - "developers" is the one for software/grammar engineering.
 - We like to use "developers" for bug reports, feature requests, etc
 
-FrancisBond:
+[FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond):
 
 - Maybe we should merge "lkb" with "developers"?
 
-StephanOepen:
+[StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen):
 
 - But "lkb" is one of the higher-traffic lists and includes
 non-DELPH-IN people, e.g. students in grammar engineering classes.
@@ -54,18 +54,18 @@ non-DELPH-IN people, e.g. students in grammar engineering classes.
 - All communication should be done through the wiki using
 messageboards.
 
-StephanOepen and [RebeccaDridan](https://delph-in.github.io/docs/garage/RebeccaDridan):
+[StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen) and [RebeccaDridan](https://delph-in.github.io/docs/garage/RebeccaDridan):
 
 - There are archives for the mailing lists:
 [http://lists.dephi-in.net/](http://lists.delph-in.net/) -- through
 they're not very convenient to search
 
-EmilyBender:
+[EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender):
 
 - It's dangerous to have too many lists.
 - "developers" sounds like you have to be actively developing.
 
-StephanOepen:
+[StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen):
 
 - Everyone in the room should subscribe to "developers"
 
@@ -73,29 +73,29 @@ StephanOepen:
 
 - If you get too much email, it's easy to be overwhelmed.
 
-StephanOepen:
+[StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen):
 
 - But an annoucement in everyone's mailbox means everyone gets
 informed.
 
-EmilyBender:
+[EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender):
 
 - But back to communication. How do we communicate what we're working
 on?
 
-FrancisBond:
+[FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond):
 
 - Matrix list should be extended to general grammar questions.
 
-EmilyBender:
+[EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender):
 
 - Yes, it could be recast as a "delph-in grammars" list?
 
-FrancisBond:
+[FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond):
 
 - The important stuff should go on the wiki, but not \*everything\*.
 
-EmilyBender:
+[EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender):
 
 - Check the "recent changes" page on the wiki to know what's going on.
 - Alternate suggestions: Rebecca (and somebody else whose name the
@@ -112,7 +112,7 @@ you send me)", then be sent pre-submission papers to read.
 
 - Send them to people who are closely related, but not co-authors.
 
-EmilyBender:
+[EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender):
 
 - DELPH-IN wants to increase its visibility at conferences (like at
 ACL this year). Paper reviews will improve paper quality.
@@ -123,47 +123,47 @@ immediately.
 
 - Students could review as well.
 
-EmilyBender:
+[EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender):
 
 - Even the opinion of a reader from another sub-field is valuable.
 
-StephanOepen:
+[StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen):
 
 - Maybe distributing submissions to everyone in DELPH-IN is a good
 idea. DELPH-IN does not have strict rules on communication.
 
-FrancisBond:
+[FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond):
 
 - But be careful, sending a submission to the "participants" list
 means none of the the recipients can review it if they're reviewing
 for the conference/journal.
 
-EmilyBender:
+[EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender):
 
 - Maybe by announcing the title and where it's being submitted allows
 recipients to recuse themselves.
 
-FrancisBond:
+[FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond):
 
 - Is there any easy way to collect papers into a DELPH-IN bibliography
 (like Stefan Müller's HPSG bibliography)?
 
-EmilyBender:
+[EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender):
 
 - Upload them to the wiki, including a .bib.
 
-StephanOepen:
+[StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen):
 
 - Is this library of papers for internal or external consumption? For
 external purposes, maybe we only need links to institutions'
 publications pages.
 
-EmilyBender:
+[EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender):
 
 - It's better to have it in one stable place rather than have it fly
 by in email.
 
-FrancisBond:
+[FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond):
 
 - An up-to-date official external list on the web site would be nice.
 - Unless someone is willing to volunteer to be Stefan Müller, it might
@@ -177,11 +177,11 @@ them up on the wiki so other DELPH-IN people can use them. Put a
 link on the wiki to wherever you have it stored (you can't upload
 files to the wiki). There's no reason to duplicate effort!
 
-EmilyBender:
+[EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender):
 
 - After you put up your tool, send an announcement to "developers".
 
-FrancisBond:
+[FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond):
 
 - The criterion for whether a tool is useful to publicize is whether
 you've shared it with a single other person. Once you do, put it up

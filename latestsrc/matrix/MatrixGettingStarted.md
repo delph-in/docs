@@ -28,7 +28,7 @@ the morphology. If you have a lot of morphological rules to add, for
 example, try one or two and see how they work before fleshing out full
 paradigms.
 
-In addition, EmilyBender's course pages for
+In addition, [EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender)'s course pages for
 [Ling567](http://courses.washington.edu/ling567) at UW may be helpful.
 These course pages are updated each time the course is taught (roughly
 annually), but typically follow the same schedule:

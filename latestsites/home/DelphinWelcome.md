@@ -12,7 +12,7 @@ using the Discourse platform.
 lists](http://lists.delph-in.net/)). If you click on a list, there
 is a link to the archive near the top of the page.
 - You are also encouraged to join the wiki: Please create a
-WikiName for yourself, which may require obtaining a
+[WikiName](https://delph-in.github.io/docs/garage/WikiName) for yourself, which may require obtaining a
 ‘textcha’ to protect against wiki spam; once registered at the wiki,
 to request write access please contact info *at* delph-in.net. We
 hope that you will contribute to these pages over time.

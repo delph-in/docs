@@ -149,7 +149,7 @@ Saturday);
 14).
 
 Participants are asked to make their own travel arrangements and email
-their arrival and departure times to StephanOepen, who
+their arrival and departure times to [StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen), who
 will make hotel reservations. Please keep receipts and (if applicable)
 boarding passes, which you will have to submit for reimbursement to the
 University of Oslo after completion of your travels. With a bit of luck,

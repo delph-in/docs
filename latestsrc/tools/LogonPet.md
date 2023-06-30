@@ -86,7 +86,7 @@ In addition to the three configurations above, the LOGON *flop* and
 user-provided (locally compiled) binary. These are activated by the
 --local option; please see the [source
 code](http://svn.emmtee.net/trunk/bin/cheap) for further information (or
-contact StephanOepen directly). Furthermore, the
+contact [StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen) directly). Furthermore, the
 selection of a specific *cheap* configuration can be short-circuited by
 virtue of the $LOGONCHEAP environment variable (in which case, no extra
 command-line option must be supplied), e.g.

@@ -4,7 +4,7 @@ This page provides scheduling details for the 2009 DELPH-IN Summit, held
 in Barcelona. For general information about the meeting, please see the
 [BarcelonaTop](https://delph-in.github.io/docs/summits/BarcelonaTop) page. As in previous years, we have
 prepared the schedule jointly and incrementally, with
-EmilyBender and StephanOepen trying to
+[EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender) and [StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen) trying to
 coordinate. With only hours remaining until the start of the meeting, we
 have arrived at a stable draft schedule, only expecting to make minor
 revisions along the way, as the group sees fit.

@@ -7,8 +7,8 @@ Summit, in Tomar, Portugal.
 - [TimBaldwin](https://delph-in.github.io/docs/garage/TimBaldwin) (July 14-July 16)
 - [DorotheeBeermann](/DorotheeBeermann)
 - [NuriaBel](/NuriaBel)
-- EmilyBender (July 14-July 18, with bells on)
-- FrancisBond (July 14-July 18, with my hair in a braid
+- [EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender) (July 14-July 18, with bells on)
+- [FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond) (July 14-July 18, with my hair in a braid
 and yes, yes, yes to port)
 - [AntonioBranco](https://delph-in.github.io/docs/garage/AntonioBranco) (naturally)
 - [DavidBrodbeck](/DavidBrodbeck)
@@ -57,7 +57,7 @@ comments are not making me feel better about this)
 - [MathieuMorey](/MathieuMorey) (cannot make it; will eat pasteis de
 nata on my own)
 - [EricNichols](/EricNichols)
-- StephanOepen (July 13, evening, to 18, late
+- [StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen) (July 13, evening, to 18, late
 afternoon)
 - [PetyaOsenova](https://delph-in.github.io/docs/garage/PetyaOsenova) (July 14--18)
 - [LiljaØvrelid](/Lilja%C3%98vrelid)

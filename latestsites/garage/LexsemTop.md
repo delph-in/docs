@@ -2,7 +2,7 @@
 into DELPH-IN.
 
 Prelimary work is being done using the ERG and wordnet, mainly at NTU
-(FrancisBond, [MathieuMorey](/MathieuMorey)) and UW
+([FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond), [MathieuMorey](/MathieuMorey)) and UW
 ([ZinaPozen](https://delph-in.github.io/docs/garage/ZinaPozen)).
 
 ## Content

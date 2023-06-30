@@ -1,5 +1,5 @@
 {% raw %}This page describes various approaches to paraphrasing using the
-DELPH-IN tools. This page was initiated by FrancisBond
+DELPH-IN tools. This page was initiated by [FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond)
 and [DarrenAppling](https://delph-in.github.io/docs/garage/DarrenAppling); please feel free to make additions
 or corrections as you see fit.
 

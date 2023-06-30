@@ -1,6 +1,6 @@
 {% raw %}# Open Issue: Tense and Aspect
 
-Mentor: EmilyBender (ebender at u dot washington dot edu,
+Mentor: [EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender) (ebender at u dot washington dot edu,
 <http://faculty.washington.edu/ebender>)
 
 Co-mentors welcome!

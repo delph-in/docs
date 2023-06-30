@@ -1,7 +1,7 @@
 {% raw %}# Discussion: The Future of DELPH-IN
 
-Moderator: StephanOepen; Scribe:
-EmilyBender
+Moderator: [StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen); Scribe:
+[EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender)
 
 # Subjective Impressions
 

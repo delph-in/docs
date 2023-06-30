@@ -5,7 +5,7 @@
 For most people: go to the ACE website and download ACE from one of the
 links there (rather than checking it out from subversion
 
-Liling: ACE is not on the FrontPage
+Liling: ACE is not on the [FrontPage](https://delph-in.github.io/docs/garage/FrontPage)
 
 Woodley: someone should add that with a link to [AceTop](https://delph-in.github.io/docs/tools/AceTop)
 

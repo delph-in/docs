@@ -1,6 +1,6 @@
 {% raw %}## Discussion: Appropriateness of separately categorizing events from entities in the MRS
 
-Moderator: [DavidInman](/DavidInman) Scribe: EmilyBender
+Moderator: [DavidInman](/DavidInman) Scribe: [EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender)
 
 #### Discussion during presentation of slides:
 
