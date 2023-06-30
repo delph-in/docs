@@ -12,7 +12,7 @@ The customization system can be accessed from the following web page:
 ## Where can I find instructions on filling out the questionnaire?
 
 Most of the libraries in the Grammar Matrix have at least some
-documentation on the [MatrixDoc](https://delph-in.github.io/docs/matrix/MatrixDocTop) pages.
+documentation on the [MatrixDoc](https://delph-in.github.io/docs/howto/MatrixDocTop) pages.
 
 Note that filling out the questionnaire is an iterative process. To get
 as much as possible out of the customization system, you should develop
@@ -52,6 +52,7 @@ maintained at UW.
 
 The key references for the Grammar Matrix are the following two papers:
 
+- Zamaraeva, Olga, Chris Curtis, Guy Emerson, Antske Fokkens, Michael Wayne Goodman, Kristen Howell, T.J. Trimble, and Emily M. Bender. 2022. [20 years of the Grammar Matrix: cross-linguistic hypothesis testing of increasingly complex interactions](https://jlm.ipipan.waw.pl/index.php/JLM/article/view/292). Journal of Language Modeling 10(1) Special Section on the Interaction between Formal and Computational Linguistics. p.49-137.
 - Bender, Emily M., Scott Drellishak, Antske Fokkens, Laurie Poulson,
 and Safiyyah Saleem. 2010. Grammar Customization. Research on
 Language and Computation 8(1):23-72.
@@ -81,4 +82,4 @@ The feature geometry cheat sheets at the bottom of
 Please check out the [DELPH-IN QA Discourse
 site](https://delphinqa.ling.washington.edu/) and post questions there.
 
-Last update: 2022-09-14 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/MatrixGettingStarted/_edit)]{% endraw %}
+Last update: 2023-06-30 by emilymbender [[edit](https://github.com/delph-in/docs/wiki/MatrixGettingStarted/_edit)]{% endraw %}

@@ -20,7 +20,7 @@ toc:
     children:
       - title: "Welcome"
         url: "/DelphinWelcome/"
-  - title: "Grammarian Tutorial"
+  - title: "Intro to DELPH-IN Tutorial"
     children:
       - title: "Overview"
         url: "/DelphinTutorial/"
@@ -36,6 +36,8 @@ toc:
         url: "/HpsgTutorial/"
   - title: "Other Tutorials"
     children:
+      - title: "Grammar Matrix Getting Started"
+        url: "/MatrixDocTop/"
       - title: "Ace/Agree Tutorial (2013)"
         url: "/SaarlandAceAgree/"
       - title: "English Resource Semantics Tutorial (NAACL 2016)"

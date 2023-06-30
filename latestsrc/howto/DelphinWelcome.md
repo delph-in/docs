@@ -1,6 +1,6 @@
 {% raw %}This is a page for newcomers to the DELPH-IN community. Welcome!
 
-Most of the information is already on the overview page, but this more
+Most of the information is already on the overview page, but this is more
 direct.
 
 When you join, it can be a bit overwhelming. Some of the discussion may
@@ -26,4 +26,4 @@ representations produced by the ERG
 - [MatrixGettingStarted](https://delph-in.github.io/docs/matrix/MatrixGettingStarted): A starting point for
 using the Grammar Matrix
 
-Last update: 2020-10-15 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/DelphinWelcome/_edit)]{% endraw %}
+Last update: 2023-06-30 by Glenn Slayden [[edit](https://github.com/delph-in/docs/wiki/DelphinWelcome/_edit)]{% endraw %}

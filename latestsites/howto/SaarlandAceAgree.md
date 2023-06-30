@@ -153,9 +153,7 @@ browser.
 
 Prerequisites - .NET 4.5 (Windows)
 
-<http://agree.codeplex.com>
-
-<http://agree.codeplex.com/wikipage?title=Installation&referringTitle=Documentation>
+<http://www.agree-grammar.com>
 
 Currently, only an ERG demonstration console program is available on
 that site. I will be demonstrating a WPF (graphical) client and I can
@@ -165,4 +163,4 @@ Agree Concepts - Three object types:
 
 Functor - Monad - Identity
 
-Last update: 2013-08-10 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/SaarlandAceAgree/_edit)]{% endraw %}
+Last update: 2023-06-30 by Glenn Slayden [[edit](https://github.com/delph-in/docs/wiki/SaarlandAceAgree/_edit)]{% endraw %}

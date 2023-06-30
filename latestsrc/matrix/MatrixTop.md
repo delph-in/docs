@@ -44,10 +44,7 @@ Washington, taught annually since 2004.
 (currently still just a bunch of good ideas), a suite of tools to
 assist in the documentation of grammars of underdescribed languages.
 - The [LKB Grammar
-Engineering/FAQ](http://depts.washington.edu/uwcl/twiki/bin/view.cgi/Main/GrammarEngineeringFAQ)
-on the [UW Treehouse
-wiki](http://depts.washington.edu/uwcl/twiki/bin/view.cgi/Main/WebHome)
-may be useful to those working with the Matrix.
+Engineering/FAQ](https://delph-in.github.io/docs/matrix/GrammarEngineeringFAQ) may be useful to those working with the Matrix.
 - [VersionControlForGrammarDevelopment](https://delph-in.github.io/docs/tools/VersionControlForGrammarDevelopment)
 is a wiki page detailing how to use version control systems (e.g.
 SVN, Mercurial) with a grammar.
@@ -119,4 +116,4 @@ coordination.
 Work on the Grammar Matrix is currently supported by an NSF CAREER grant
 (BCS-0644097).
 
-Last update: 2021-11-04 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/MatrixTop/_edit)]{% endraw %}
+Last update: 2023-06-30 by emilymbender [[edit](https://github.com/delph-in/docs/wiki/MatrixTop/_edit)]{% endraw %}

@@ -208,6 +208,8 @@ toc:
         url: "/TreebankingTop/"
       - title: "Full Forest Treebanker (FFTB)"
         url: "/FftbTop/"
+      - title: "FFTB Treebank Update Tutorial"
+        url: "/FftbTreebankUpdateTutorial/"
       - title: "Full Forest Treebanker Wishlist"
         url: "/FftbWishlist/"
       - title: "[incr tsdb()] Treebanking"
