@@ -45,6 +45,6 @@ Once you've fixed the bug, don't forget to reset the edge limit to
 something big enough for the grammar to parse your sentences with (e.g.
 4000 edges)!
 
-[Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
+Back to the Grammar Engineering FAQ.
 
-Last update: 2016-02-09 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/GeFaqRunawayRule1/_edit)]{% endraw %}
+Last update: 2023-06-30 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/GeFaqRunawayRule1/_edit)]{% endraw %}

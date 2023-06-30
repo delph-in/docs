@@ -213,6 +213,6 @@ used features in a readable format.
 - [for lexical
 entries](http://depts.washington.edu/uwcl/docs/geo2.pdf)
 
-[Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
+Back to the Grammar Engineering FAQ.
 
-Last update: 2016-03-03 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/GeFaqFeatureGeometry/_edit)]{% endraw %}
+Last update: 2023-06-30 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/GeFaqFeatureGeometry/_edit)]{% endraw %}

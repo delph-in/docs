@@ -36,6 +36,6 @@ return will cause it to be run again.
 - M-x goto-char: In your TDL file, move to the character position
 indicated by an LKB error.
 
-[Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
+Back to the Grammar Engineering FAQ.
 
-Last update: 2012-09-03 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/GeFaqLispPromptTips/_edit)]{% endraw %}
+Last update: 2023-06-30 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/GeFaqLispPromptTips/_edit)]{% endraw %}

@@ -12,6 +12,6 @@ with the specified type and all its descendants.
 entire hierarchy may either be impractical and/or impossible and you
 will need to look at specific subsets of the hierarchy.
 
-[Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
+Back to the Grammar Engineering FAQ.
 
-Last update: 2012-09-17 by NedLetcher [[edit](https://github.com/delph-in/docs/wiki/GeFaqViewHierarchy/_edit)]{% endraw %}
+Last update: 2023-06-30 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/GeFaqViewHierarchy/_edit)]{% endraw %}

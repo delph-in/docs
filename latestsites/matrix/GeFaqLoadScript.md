@@ -12,6 +12,6 @@ error, you may have a corrupted version of the file. Open the file in
 emacs and look to see if there are any extraneous characters (especially
 at the beginning).
 
-[Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
+Back to the Grammar Engineering FAQ.
 
-Last update: 2012-08-21 by NedLetcher [[edit](https://github.com/delph-in/docs/wiki/GeFaqLoadScript/_edit)]{% endraw %}
+Last update: 2023-06-30 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/GeFaqLoadScript/_edit)]{% endraw %}

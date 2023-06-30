@@ -13,9 +13,9 @@ Processing.
 [Ubuntu+LKB Virtual Box
 appliance](https://wiki.ling.washington.edu/bin/view.cgi/Main/KnoppixLKB)
 from UW.
-- The [Grammar Engineering FAQ](/GrammarEngineeringFaq) for grammar
+- The Grammar Engineering FAQ for grammar
 engineering with LKB and the LinGO Grammar Matrix
 - Brief notes from the [Singapore discussion on teaching undergraduate
 courses using LKB](https://delph-in.github.io/docs/summits/SingaporeTeachingWithLKB)
 
-Last update: 2018-06-21 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/TeachingTop/_edit)]{% endraw %}
+Last update: 2023-06-30 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/TeachingTop/_edit)]{% endraw %}

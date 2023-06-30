@@ -82,6 +82,6 @@ chart, but the problematic edges will unify during interactive
 unification.
 - The lexical rule is being removed by lexical filtering, e.g. because it underspecifies TRAITS (or similar). See [here](https://delphinqa.ling.washington.edu/t/help-debugging-a-unification-surprise-involving-lexical-rules/875/4).
 
-[Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
+Back to the Grammar Engineering FAQ.
 
-Last update: 2023-01-06 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/GeFaqUnifySurprise/_edit)]{% endraw %}
+Last update: 2023-06-30 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/GeFaqUnifySurprise/_edit)]{% endraw %}

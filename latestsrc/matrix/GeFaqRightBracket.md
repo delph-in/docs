@@ -21,6 +21,6 @@ usually its more efficient to use the tab indentation of tdl mode to
 find the spot where somethings wrong. See [FAQ: How do I use tab to help
 me figure out where my syntax error is?](https://delph-in.github.io/docs/matrix/GeFaqTabIndentation)
 
-[Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
+Back to the Grammar Engineering FAQ.
 
-Last update: 2012-08-14 by NedLetcher [[edit](https://github.com/delph-in/docs/wiki/GeFaqRightBracket/_edit)]{% endraw %}
+Last update: 2023-06-30 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/GeFaqRightBracket/_edit)]{% endraw %}

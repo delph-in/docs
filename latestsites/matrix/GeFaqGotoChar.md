@@ -13,6 +13,6 @@ identified, but note that the actual error may be earlier.
 - [The LKB says I'm missing a right bracket, but I can't figure out
 where. What should I do?](https://delph-in.github.io/docs/matrix/GeFaqRightBracket)
 
-[Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
+Back to the Grammar Engineering FAQ.
 
-Last update: 2012-08-21 by NedLetcher [[edit](https://github.com/delph-in/docs/wiki/GeFaqGotoChar/_edit)]{% endraw %}
+Last update: 2023-06-30 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/GeFaqGotoChar/_edit)]{% endraw %}

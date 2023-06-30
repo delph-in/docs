@@ -88,6 +88,6 @@ overgenerating.
 - [When I try to generate, the LKB says "Probable circular lexical
 rule". How do I debug this?](https://delph-in.github.io/docs/matrix/GeFaqCircularLexRule)
 
-[Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
+Back to the Grammar Engineering FAQ.
 
-Last update: 2012-08-14 by NedLetcher [[edit](https://github.com/delph-in/docs/wiki/GeFaqRunawayRule2/_edit)]{% endraw %}
+Last update: 2023-06-30 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/GeFaqRunawayRule2/_edit)]{% endraw %}

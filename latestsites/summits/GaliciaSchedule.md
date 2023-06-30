@@ -99,7 +99,7 @@ Please upload your presentations [here](https://github.com/delph-in/docs/tree/ma
 | :--- | :---    | :--- |
 | 10:30-12:00 | [DELPH-IN documentation & the new DELPH-IN documentation system](https://github.com/delph-in/docs/blob/main/summits/2023/Summit2023Docs.pdf) | Eric |
 | 12:00-12:30 | *Break* ||
-| 12:30-14:00 | Applying large language models in conjunction with DELPH-IN technologies | Alexandre (John) |
+| 12:30-14:00 | Large language models and DELPH-IN technologies | Alexandre (John) |
 | 14:00-15:30 | *Lunch (at the Rectorate; organized)* ||
 | 15:30-17:00 | [Searching DELPH-IN corpora & the Linguistic Type Database (LTDB)](https://github.com/delph-in/docs/blob/main/summits/2023/ltdb-update-2023.pdf) [notes] | Francis (Emily) |
 | 17:00-17:30 | *Break* ||
@@ -124,4 +124,4 @@ Please upload your presentations [here](https://github.com/delph-in/docs/tree/ma
 3. Full Forest Treebanker (FFTB): Olga
 4. PyDelphin and Delphin-viz tools: Berthold request
 
-Last update: 2023-06-30 by emilymbender [[edit](https://github.com/delph-in/docs/wiki/GaliciaSchedule/_edit)]{% endraw %}
+Last update: 2023-06-30 by John Carroll [[edit](https://github.com/delph-in/docs/wiki/GaliciaSchedule/_edit)]{% endraw %}

@@ -299,7 +299,7 @@ repeated three times. This repetition may be benign.
 
 # Further FAQs
 
-The [GrammarEngineeringFaq](/GrammarEngineeringFaq) page contains
+The GrammarEngineeringFaq page contains
 further LKB-related FAQs.
 
-Last update: 2017-08-04 by JohnCarroll [[edit](https://github.com/delph-in/docs/wiki/LkbFaq/_edit)]{% endraw %}
+Last update: 2023-06-30 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/LkbFaq/_edit)]{% endraw %}

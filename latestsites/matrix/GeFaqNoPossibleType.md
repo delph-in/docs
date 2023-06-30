@@ -25,6 +25,6 @@ The error message will specify the path at which the problem is
 occuring. &lt;&gt; is the empty path, i.e., the outermost pair of square
 brackets.
 
-[Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
+Back to the Grammar Engineering FAQ.
 
-Last update: 2012-08-14 by NedLetcher [[edit](https://github.com/delph-in/docs/wiki/GeFaqNoPossibleType/_edit)]{% endraw %}
+Last update: 2023-06-30 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/GeFaqNoPossibleType/_edit)]{% endraw %}

@@ -9,6 +9,6 @@ Shift-Insert. Alternatively, after selecting the desired text using the
 mouse cursor, you should be able to paste (from a separate clipboard)
 using the middle button of your mouse.
 
-[Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
+Back to the Grammar Engineering FAQ.
 
-Last update: 2012-09-17 by NedLetcher [[edit](https://github.com/delph-in/docs/wiki/GeFaqPasteShortcut/_edit)]{% endraw %}
+Last update: 2023-06-30 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/GeFaqPasteShortcut/_edit)]{% endraw %}
