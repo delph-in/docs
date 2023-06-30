@@ -18,19 +18,19 @@
     },
   "Sites":
   [
-    {"SiteFullName": "DELPH-IN Docs", "SiteNavigationName": "Home", "Site": "home", "HomePage": "Home.md"},
-    {"SiteFullName": "DELPH-IN How-To", "SiteNavigationName": "How-To", "Site": "howto"},
-    {"SiteFullName": "DELPH-IN ERG", "SiteNavigationName": "ERG", "Site": "erg"},
-    {"SiteFullName": "DELPH-IN Tools", "SiteNavigationName": "Tools", "Site": "tools", "HomePage": "ToolsTop.md"},
-    {"SiteFullName": "DELPH-IN Grammar Catalogue", "SiteNavigationName": "Grammars", "Site": "grammars"},
-    {"SiteFullName": "DELPH-IN Grammar Matrix", "SiteNavigationName": "Matrix", "Site": "matrix"},
-    {"SiteFullName": "DELPH-IN Summits", "SiteNavigationName": "Summits", "Site": "summits", "HomePage": "SummitTop.md"},
-    {"SiteFullName": "DELPH-IN Garage", "SiteNavigationName": "Garage", "Site": "garage"}
+    {"SiteFullName": "DELPH-IN", "SiteNavigationName": "Home", "Site": "home", "HomePage": "Home.md"},
+    {"SiteFullName": "DELPH-IN", "SiteNavigationName": "How-To", "Site": "howto"},
+    {"SiteFullName": "DELPH-IN", "SiteNavigationName": "ERG", "Site": "erg"},
+    {"SiteFullName": "DELPH-IN", "SiteNavigationName": "Tools", "Site": "tools", "HomePage": "ToolsTop.md"},
+    {"SiteFullName": "DELPH-IN", "SiteNavigationName": "Grammars", "Site": "grammars"},
+    {"SiteFullName": "DELPH-IN", "SiteNavigationName": "Matrix", "Site": "matrix"},
+    {"SiteFullName": "DELPH-IN", "SiteNavigationName": "Summits", "Site": "summits", "HomePage": "SummitTop.md"},
+    {"SiteFullName": "DELPH-IN", "SiteNavigationName": "Garage", "Site": "garage"}
   ],
   "Pages":
   {
     "home": [
-      {"Section": "DELPH-IN", "Pages": [
+      {"Section": "DELPH-IN Docs", "Pages": [
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "Home.md"},
         {"Page": "Welcome", "SrcDir": "docswiki", "SrcFile": "DelphinWelcome.md", "Referrer": "home/Home.md"},
         {"Page": "Applications", "SrcDir": "docswiki", "SrcFile": "DelphinApplications.md", "Referrer": "home/Home.md"}
@@ -40,7 +40,7 @@
       ]}
     ],
     "howto": [
-      {"Section": "DELPH-IN", "Pages": [
+      {"Section": "DELPH-IN How-To", "Pages": [
         {"Page": "Welcome", "SrcDir": "docswiki", "SrcFile": "DelphinWelcome.md", "Referrer": "home/Home.md"}
       ]},
       {"Section": "Intro to DELPH-IN Tutorial", "Pages": [
@@ -58,7 +58,7 @@
       ]}
     ],
     "erg": [
-      {"Section": "Overview", "Pages": [
+      {"Section": "English Resource Grammar", "Pages": [
         {"Page": "ERG Summary", "SrcDir": "docswiki", "SrcFile": "ErgTop.md", "Referrer": "concept/ErgProcessing.md"},
         {"Page": "How to Cite This Work", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_HowToCite.md"}
       ]},
@@ -123,9 +123,6 @@
         {"Page": "Treebanking Rules", "SrcDir": "docswiki", "SrcFile": "ErgTreebankingRules.md", "Referrer": "concept/ErgTop.md"},
         {"Page": "Bridges", "SrcDir": "docswiki", "SrcFile": "ErgTreebankingBridges.md", "Referrer": "concept/ErgTreebanking.md"},
         {"Page": "Discussion", "SrcDir": "docswiki", "SrcFile": "CapitolHillTreebank.md", "Referrer": "concept/IndraTreebanking.md"}
-      ]},
-      {"Section": "Discussions", "Pages": [
-        {"Page": "Saarland Sentential Argument", "SrcDir": "docswiki", "SrcFile": "SaarlandSententialArgument.md", "Referrer": "concept/ErgSemantics_Nominalization.md"}
       ]}
     ],
     "tools": [
@@ -287,7 +284,7 @@
       ]}
     ],
     "grammars": [
-      {"Section": "Overview", "Pages": [
+      {"Section": "Grammar Catalog", "Pages": [
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "GrammarsOverview.md"}
       ]},
       {"Section": "Norwegian", "Pages": [
@@ -337,25 +334,28 @@
         {"Page": "Slavic", "SrcDir": "docswiki", "SrcFile": "SlavicTop.md", "Referrer": "home/GrammarCatalogue.md"},
         {"Page": "Wambaya", "SrcDir": "docswiki", "SrcFile": "WambayaTop.md", "Referrer": "home/MatrixTop.md"}
       ]},
-
-      {"Section": "Grammar Discussions", "Pages": [
-        {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "GrammarDiscussionsTop.md", "Referrer": "home/Home.md"},
-        {"Page": "Indonesian Morphology", "SrcDir": "docswiki", "SrcFile": "LADIndonesianMorphology.md", "Referrer": "home/LADIndonesianMorphology.md"},
-        {"Page": "Indonesian Passives", "SrcDir": "docswiki", "SrcFile": "CapitalHillPassivesDiscussion.md", "Referrer": "home/CapitolHillPassives.md"},
-        {"Page": "CapitolHillPassives", "SrcDir": "docswiki", "SrcFile": "CapitolHillPassives.md", "Referrer": "grammars/IndraTop.md"},
-        {"Page": "Romance", "SrcDir": "docswiki", "SrcFile": "RomanceTop.md", "Referrer": "home/GrammarDiscussionsTop.md"},
-        {"Page": "Romance Clitics", "SrcDir": "docswiki", "SrcFile": "RomClitics.md", "Referrer": "home/RomanceTop.md"},
-        {"Page": "Romance Clitic Se", "SrcDir": "docswiki", "SrcFile": "RomSe.md", "Referrer": "home/RomanceTop.md"},
-        {"Page": "Romance Contractions", "SrcDir": "docswiki", "SrcFile": "RomContract.md", "Referrer": "home/RomanceTop.md"},
-        {"Page": "Romance Contributions", "SrcDir": "docswiki", "SrcFile": "DelphinLisbon.md", "BaseReferrer": "grammars/RomanceTop.md", "Referrer": "grammars/RomanceTop.md"},
-        {"Page": "Slavic", "SrcDir": "docswiki", "SrcFile": "SlavicTop.md", "Referrer": "home/GrammarDiscussionsTop.md"},
-        {"Page": "Semantic Harmonization", "SrcDir": "docswiki", "SrcFile": "HarmonyTop.md", "Referrer": "home/GrammarDiscussionsTop.md"},
-        {"Page": "Phonology", "SrcDir": "docswiki", "SrcFile": "PhonologyTop.md", "Referrer": "home/GrammarDiscussionsTop.md"},
-        {"Page": "Phonology of French Phonemes", "SrcDir": "docswiki", "SrcFile": "PhonologyTop_FrenchPhonemes.md", "Referrer": "home/PhonologyTop.md"}
+      {"Section": "MRS Tests", "Pages": [
+        {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuite.md"},
+        {"Page": "Bulgarian", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuiteBg.md", "Referrer": "concept/MatrixMrsTestSuite.md"},
+        {"Page": "Cantonese", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuiteCantonese.md", "Referrer": "concept/MatrixMrsTestSuite.md"},
+        {"Page": "Cathedral Test", "SrcDir": "docswiki", "SrcFile": "MatrixMrsCatb.md", "Referrer": "home/MatrixMrsCatb.md"},
+        {"Page": "English", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuiteEn.md", "Referrer": "concept/MatrixMrsTestSuite.md"},
+        {"Page": "French", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuiteFr.md", "Referrer": "concept/MatrixMrsTestSuite.md"},
+        {"Page": "German", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuiteDe.md", "Referrer": "concept/MatrixMrsTestSuite.md"},
+        {"Page": "Greek", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuiteGr.md", "Referrer": "concept/MatrixMrsTestSuite.md"},
+        {"Page": "Indonesian", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuiteIndonesian.md", "Referrer": "concept/MatrixMrsTestSuite.md"},
+        {"Page": "Japanese", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuiteJa.md", "Referrer": "concept/MatrixMrsTestSuite.md"},
+        {"Page": "Mandarin", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuiteMandarin.md", "Referrer": "concept/MatrixMrsTestSuite.md"},
+        {"Page": "Norwegian", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuiteNo.md", "Referrer": "concept/MatrixMrsTestSuite.md"},
+        {"Page": "Portuguese", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuitePt.md", "Referrer": "concept/MatrixMrsTestSuite.md"},
+        {"Page": "Russian", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuiteRu.md", "Referrer": "concept/MatrixMrsTestSuite.md"},
+        {"Page": "Swedish", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuiteSv.md", "Referrer": "concept/MatrixMrsTestSuite.md"},
+        {"Page": "Tatoeba", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuiteTatoeba.md", "Referrer": "concept/MatrixMrsTestSuite.md"},
+        {"Page": "ZhTw", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuiteZhTw.md", "Referrer": "concept/MatrixMrsTestSuite.md"}
       ]}
     ],
     "matrix": [
-      {"Section": "Grammar Matrix Docs", "Pages": [
+      {"Section": "Grammar Matrix", "Pages": [
         {"Page": "Overview", "SrcDir": "main", "SrcFile": "MatrixDocsOverview.md"}
       ]},
       {"Section": "Overview and Tools", "Pages": [
@@ -466,29 +466,10 @@
         {"Page": "View Entry", "SrcDir": "docswiki", "SrcFile": "GeFaqViewEntry.md", "Referrer": "matrix/GeFaqExpandedType.md"},
         {"Page": "View Hierarchy", "SrcDir": "docswiki", "SrcFile": "GeFaqViewHierarchy.md", "Referrer": "matrix/GeFaqDisjunctiveValue.md"},
         {"Page": "View Type", "SrcDir": "docswiki", "SrcFile": "GeFaqViewType.md", "Referrer": "matrix/GeFaqExpandedType.md"}
-      ]},
-      {"Section": "MRS Tests", "Pages": [
-        {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuite.md"},
-        {"Page": "Bulgarian", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuiteBg.md", "Referrer": "concept/MatrixMrsTestSuite.md"},
-        {"Page": "Cantonese", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuiteCantonese.md", "Referrer": "concept/MatrixMrsTestSuite.md"},
-        {"Page": "Cathedral Test", "SrcDir": "docswiki", "SrcFile": "MatrixMrsCatb.md", "Referrer": "home/MatrixMrsCatb.md"},
-        {"Page": "English", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuiteEn.md", "Referrer": "concept/MatrixMrsTestSuite.md"},
-        {"Page": "French", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuiteFr.md", "Referrer": "concept/MatrixMrsTestSuite.md"},
-        {"Page": "German", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuiteDe.md", "Referrer": "concept/MatrixMrsTestSuite.md"},
-        {"Page": "Greek", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuiteGr.md", "Referrer": "concept/MatrixMrsTestSuite.md"},
-        {"Page": "Indonesian", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuiteIndonesian.md", "Referrer": "concept/MatrixMrsTestSuite.md"},
-        {"Page": "Japanese", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuiteJa.md", "Referrer": "concept/MatrixMrsTestSuite.md"},
-        {"Page": "Mandarin", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuiteMandarin.md", "Referrer": "concept/MatrixMrsTestSuite.md"},
-        {"Page": "Norwegian", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuiteNo.md", "Referrer": "concept/MatrixMrsTestSuite.md"},
-        {"Page": "Portuguese", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuitePt.md", "Referrer": "concept/MatrixMrsTestSuite.md"},
-        {"Page": "Russian", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuiteRu.md", "Referrer": "concept/MatrixMrsTestSuite.md"},
-        {"Page": "Swedish", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuiteSv.md", "Referrer": "concept/MatrixMrsTestSuite.md"},
-        {"Page": "Tatoeba", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuiteTatoeba.md", "Referrer": "concept/MatrixMrsTestSuite.md"},
-        {"Page": "ZhTw", "SrcDir": "docswiki", "SrcFile": "MatrixMrsTestSuiteZhTw.md", "Referrer": "concept/MatrixMrsTestSuite.md"}
       ]}
     ],
     "summits": [
-      {"Section": "Overview", "Pages": [
+      {"Section": "Summits", "Pages": [
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "SummitTop.md", "Referrer": "summits/BellinghamTop.md"}
       ]},
       {"Section": "Galicia 2023", "Pages": [
@@ -865,7 +846,7 @@
       ]}
     ],
     "garage": [
-      {"Section": "Overview", "Pages": [
+      {"Section": "Garage", "Pages": [
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "GarageTop.md"}
       ]},
       {"Section": "Grammar Tools", "Pages": [
@@ -903,6 +884,22 @@
       ]},
       {"Section": "Grammars (experimental)", "Pages": [
         {"Page": "French", "SrcDir": "docswiki", "SrcFile": "GrenouilleSummary.md", "Referrer": "home/RomanceTop.md"}
+      ]},
+      {"Section": "Grammar Discussions", "Pages": [
+        {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "GrammarDiscussionsTop.md", "Referrer": "home/Home.md"},
+        {"Page": "Indonesian Morphology", "SrcDir": "docswiki", "SrcFile": "LADIndonesianMorphology.md", "Referrer": "home/LADIndonesianMorphology.md"},
+        {"Page": "Indonesian Passives", "SrcDir": "docswiki", "SrcFile": "CapitalHillPassivesDiscussion.md", "Referrer": "home/CapitolHillPassives.md"},
+        {"Page": "CapitolHillPassives", "SrcDir": "docswiki", "SrcFile": "CapitolHillPassives.md", "Referrer": "grammars/IndraTop.md"},
+        {"Page": "Romance", "SrcDir": "docswiki", "SrcFile": "RomanceTop.md", "Referrer": "home/GrammarDiscussionsTop.md"},
+        {"Page": "Romance Clitics", "SrcDir": "docswiki", "SrcFile": "RomClitics.md", "Referrer": "home/RomanceTop.md"},
+        {"Page": "Romance Clitic Se", "SrcDir": "docswiki", "SrcFile": "RomSe.md", "Referrer": "home/RomanceTop.md"},
+        {"Page": "Romance Contractions", "SrcDir": "docswiki", "SrcFile": "RomContract.md", "Referrer": "home/RomanceTop.md"},
+        {"Page": "Romance Contributions", "SrcDir": "docswiki", "SrcFile": "DelphinLisbon.md", "BaseReferrer": "grammars/RomanceTop.md", "Referrer": "grammars/RomanceTop.md"},
+        {"Page": "Slavic", "SrcDir": "docswiki", "SrcFile": "SlavicTop.md", "Referrer": "home/GrammarDiscussionsTop.md"},
+        {"Page": "Semantic Harmonization", "SrcDir": "docswiki", "SrcFile": "HarmonyTop.md", "Referrer": "home/GrammarDiscussionsTop.md"},
+        {"Page": "Phonology", "SrcDir": "docswiki", "SrcFile": "PhonologyTop.md", "Referrer": "home/GrammarDiscussionsTop.md"},
+        {"Page": "Phonology of French Phonemes", "SrcDir": "docswiki", "SrcFile": "PhonologyTop_FrenchPhonemes.md", "Referrer": "home/PhonologyTop.md"},
+        {"Page": "Saarland Sentential Argument", "SrcDir": "docswiki", "SrcFile": "SaarlandSententialArgument.md", "Referrer": "concept/ErgSemantics_Nominalization.md"}
       ]},
       {"Section": "Lexical Semantics", "Pages": [
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "LexsemTop.md", "Referrer": "home/SemCor.md"},
