@@ -476,7 +476,13 @@
         {"Page": "Lexical Resources Presummit", "SrcDir": "docswiki", "SrcFile": "GaliciaLexicalResources.md"},
         {"Page": "Local Guide", "SrcDir": "docswiki", "SrcFile": "GaliciaLocalGuide.md"},
         {"Page": "Participants", "SrcDir": "docswiki", "SrcFile": "GaliciaParticipants.md"},
-        {"Page": "Schedule", "SrcDir": "docswiki", "SrcFile": "GaliciaSchedule.md"}
+        {"Page": "Schedule", "SrcDir": "docswiki", "SrcFile": "GaliciaSchedule.md"},
+        {"Page": "Improving Grammar Efficiency", "SrcDir": "docswiki", "SrcFile": "GaliciaGrammarEfficiency.md", "BaseReferrer": "summits/GaliciaSchedule.md", "Referrer": "summits/GaliciaSchedule.md"},
+        {"Page": "Grammar Matrix Hypothesis and Engineering Artifacts", "SrcDir": "docswiki", "SrcFile": "GaliciaMatrixHypotheses.md", "BaseReferrer": "summits/GaliciaSchedule.md", "Referrer": "summits/GaliciaSchedule.md"},
+        {"Page": "Improving Robustness in Grammars", "SrcDir": "docswiki", "SrcFile": "GaliciaRobustness.md", "BaseReferrer": "summits/GaliciaSchedule.md", "Referrer": "summits/GaliciaSchedule.md"},
+        {"Page": "MRS for Light Verb Constructions", "SrcDir": "docswiki", "SrcFile": "GaliciaMrsLvc.md", "BaseReferrer": "tools/RmrsDiscussions.md", "Referrer": "tools/RmrsDiscussions.md"},
+        {"Page": "Grammar Matrix Action Nominalization", "SrcDir": "docswiki", "SrcFile": "GaliciaNominalization.md", "BaseReferrer": "tools/RmrsDiscussions.md", "Referrer": "tools/RmrsDiscussions.md"},
+        {"Page": "Thai Serial Verb Constructions", "SrcDir": "docswiki", "SrcFile": "GaliciaThaiSvc.md", "BaseReferrer": "tools/RmrsDiscussions.md", "Referrer": "tools/RmrsDiscussions.md"}
       ]},
       {"Section": "Fairhaven 2022", "Pages": [
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "FairhavenTop.md", "Referrer": "summits/SummitTop.md"},
@@ -965,6 +971,7 @@
         {"Page": "Season of Docs", "SrcDir": "docswiki", "SrcFile": "GoogleSeasonOfDocs2023ProjectProposal.md"}
       ]},
       {"Section": "<todo>", "Pages": [
+        {"Page": "DelphinNews", "SrcDir": "docswiki", "SrcFile": "DelphinNews.md", "BaseReferrer": "home/Home.md", "Referrer": "home/Home.md"},
         {"Page": "EmilyBender", "SrcDir": "docswiki", "SrcFile": "EmilyBender.md", "BaseReferrer": "home/DelphinNews.md", "Referrer": "home/DelphinNews.md", "FileMissing": true},
         {"Page": "FrancisBond", "SrcDir": "docswiki", "SrcFile": "FrancisBond.md", "BaseReferrer": "home/DelphinNews.md", "Referrer": "home/DelphinNews.md", "FileMissing": true},
         {"Page": "ScottDrellishak", "SrcDir": "docswiki", "SrcFile": "ScottDrellishak.md", "BaseReferrer": "home/DelphinNews.md", "Referrer": "home/DelphinNews.md", "FileMissing": true},

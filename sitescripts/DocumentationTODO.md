@@ -1,17 +1,18 @@
-
-
-
 * Fix 404 https://delph-in.github.io/GrammarEngineeringFaq
       (This is on all of the FAQ pages at the bottom)
       * Debug why some links from
       https://delph-in.github.io/docs/matrix/GrammarEngineeringFAQ/
       are broken .... answer has to do with those being missing pages in the underlying wiki. So link shouldn't have been added.
+            example: clicking on this breaks: The LKB says that the Unification of rule-x and rule-y failed at path <>. What’s that about? 
+            Theory: it is because these links are using "/foo" and that is root relative
+All links within a page are broken:
+      https://delph-in.github.io/docs/summits/SummitTop/
 
 * Testing removal (what happens if something is removed from the wiki?)
+* 404 at root DNS name: https://delph-in.github.io/
 * If we are presenting lists of discussions, include dates
 * Make a visual difference between internal and external links
 * Rename garage (to attic?)
-* 404 at root DNS name: https://delph-in.github.io/
 * Test whether you can put links to one thing in two places -- Grammar Matrix Getting Started page now moved to How To, should it also be in Matrix?
 * Put the latest sites in a different branch (to separate changes to content from changes to compiled content -- don't want them mixed in the same history). Bot commits end up cluttering up the history.
 
