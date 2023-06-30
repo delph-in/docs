@@ -20,10 +20,11 @@ hope that you will contribute to these pages over time.
 Here are a few pages designed for people getting familiar with DELPH-IN
 technology:
 
+- [Demo](http://delph-in.github.io/delphin-viz/demo/#input=hello%20there!&count=5&grammar=erg2018-uw&mrs=true): A demo of DELPH-IN technologies processing phrases to generate the MRS semantic representation across several languages.
 - [ErsTutorial](https://delph-in.github.io/docs/howto/ErsTutorial): A tutorial on using the ERG
 - [ErgSemantics](https://delph-in.github.io/docs/erg/ErgSemantics): Documentation of the semantic
 representations produced by the ERG
 - [MatrixGettingStarted](https://delph-in.github.io/docs/matrix/MatrixGettingStarted): A starting point for
 using the Grammar Matrix
 
-Last update: 2023-06-30 by Glenn Slayden [[edit](https://github.com/delph-in/docs/wiki/DelphinWelcome/_edit)]{% endraw %}
+Last update: 2023-06-30 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/DelphinWelcome/_edit)]{% endraw %}
