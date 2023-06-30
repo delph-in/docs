@@ -55,7 +55,7 @@ others to contribute/post same by some specific time. Use CSLI file from
 Dan as inspiration and also send it along. Do this soon so that it
 doesn't seem too big of a task. \[Make sure Wambaya demo is actually
 running.\] Put on DELPH-IN wiki in a similar structure to the
-[MatrixMrsTestSuite](https://delph-in.github.io/docs/matrix/MatrixMrsTestSuite) pages. Link from grammar
+[MatrixMrsTestSuite](https://delph-in.github.io/docs/grammars/MatrixMrsTestSuite) pages. Link from grammar
 catalogue too.
 
 Last update: 2011-06-30 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/SuquamishPhenomenaCatalogue/_edit)]{% endraw %}

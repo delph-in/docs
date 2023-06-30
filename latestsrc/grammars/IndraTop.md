@@ -42,16 +42,16 @@ Catalogue](http://moin.delph-in.net/GrammarCatalogue/#Indonesian_Resource_Gramma
 ## Testsuites
 
 - MRS Testsuite:
-[MatrixMrsTestSuiteIndonesian](https://delph-in.github.io/docs/matrix/MatrixMrsTestSuiteIndonesian)
+[MatrixMrsTestSuiteIndonesian](https://delph-in.github.io/docs/grammars/MatrixMrsTestSuiteIndonesian)
 - Phenomena-based Testsuites:
 <https://github.com/davidmoeljadi/INDRA/tree/master/testsuites>
 
 ## Phenomena in Indonesian
 
 - [Intransitive and transitive verbs, Applicative -i constructions,
-Verb reduplication](https://delph-in.github.io/docs/grammars/LADIndonesianMorphology)
-- [Passive voice](https://delph-in.github.io/docs/grammars/CapitolHillPassives)
-([Discussion](https://delph-in.github.io/docs/grammars/CapitalHillPassivesDiscussion))
+Verb reduplication](https://delph-in.github.io/docs/garage/LADIndonesianMorphology)
+- [Passive voice](https://delph-in.github.io/docs/garage/CapitolHillPassives)
+([Discussion](https://delph-in.github.io/docs/garage/CapitalHillPassivesDiscussion))
 
 ## Contributors
 

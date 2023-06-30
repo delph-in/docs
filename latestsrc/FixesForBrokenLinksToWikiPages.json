@@ -311,7 +311,7 @@
       ]}
     ],
     "home": [
-      {"Section": "DELPH-IN", "Pages": [
+      {"Section": "DELPH-IN Docs", "Pages": [
         {"Page": "DelphinNews", "SrcDir": "docswiki", "SrcFile": "DelphinNews.md", "BaseReferrer": "home/Home.md", "Referrer": "home/Home.md"}
       ]}
     ],

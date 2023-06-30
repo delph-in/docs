@@ -32,7 +32,7 @@ items and look into where the problem in processing comes from. This set
 includes the followings. (The LIST\_FILE\_NAME is DEV.)
 
 1. **mrs**: Matrix MRS testsuite (107 sentences) (see
-[MatrixMrsTestSuiteMandarin](https://delph-in.github.io/docs/matrix/MatrixMrsTestSuiteMandarin))
+[MatrixMrsTestSuiteMandarin](https://delph-in.github.io/docs/grammars/MatrixMrsTestSuiteMandarin))
 2. **ntumc**: the NTU-MC corpus
 (<http://compling.hss.ntu.edu.sg/ntumc/>)
 3. **pctb-dev**: Penn Chinese Treebank (LDC10T07; the first 5,000

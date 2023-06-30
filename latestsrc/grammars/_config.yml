@@ -1,5 +1,5 @@
 remote_theme: mmistakes/minimal-mistakes@4.24.0
-title: DELPH-IN Grammar Catalogue
+title: DELPH-IN
 baseurl: /docs/grammars
 github:
   # This is a project site since it is connected to

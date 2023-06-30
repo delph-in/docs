@@ -16,7 +16,7 @@ main:
   - title: "Garage"
     url: https://delph-in.github.io/docs/garage/GarageTop
 toc:
-  - title: "Overview"
+  - title: "English Resource Grammar"
     children:
       - title: "ERG Summary"
         url: "/ErgTop/"
@@ -136,7 +136,3 @@ toc:
         url: "/ErgTreebankingBridges/"
       - title: "Discussion"
         url: "/CapitolHillTreebank/"
-  - title: "Discussions"
-    children:
-      - title: "Saarland Sentential Argument"
-        url: "/SaarlandSententialArgument/"

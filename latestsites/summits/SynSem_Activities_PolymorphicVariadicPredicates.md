@@ -45,7 +45,7 @@ Preliminary Investigation, University of Chicago Press, Chicago, IL.
 - [FeforDroppedArguments](https://delph-in.github.io/docs/summits/FeforDroppedArguments)
 - [TheAbbey/Chrysalis2014Arity](https://delph-in.github.io/docs/summits/TheAbbey_Chrysalis2014Arity)
 - [TheAbbey/Chrysalis2014OpenEndedPredicates](https://delph-in.github.io/docs/summits/TheAbbey_Chrysalis2014OpenEndedPredicates)
-- [SaarlandSententialArgument](https://delph-in.github.io/docs/erg/SaarlandSententialArgument)
+- [SaarlandSententialArgument](https://delph-in.github.io/docs/garage/SaarlandSententialArgument)
 - [TheAbbey/Chrysalis2014Nominalization](https://delph-in.github.io/docs/summits/TheAbbey_Chrysalis2014Nominalization)
 
 # Clear Cases

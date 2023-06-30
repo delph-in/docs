@@ -15,7 +15,7 @@ etc.)
 - harmonizing our implementations where possible (via Matrix, naming
 conventions, file organization, etc.)
   - To aid in this we are building a publically available set of
-[MRS Test Suite](https://delph-in.github.io/docs/matrix/MatrixMrsTestSuite)s
+[MRS Test Suite](https://delph-in.github.io/docs/grammars/MatrixMrsTestSuite)s
 - expanding our inventory of exchangeable test suites and profiles
 
 Participants should feel free to add additional information to sessions

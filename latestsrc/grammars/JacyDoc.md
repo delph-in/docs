@@ -22,7 +22,7 @@ treated in Jact.
 lexicon used with the [LexDB](/LkbLexDb).
 - [JacyPerformance](https://delph-in.github.io/docs/grammars/JacyPerformance): Documentation on how to improve
 the grammar's performance.
-- [MatrixMrsTestSuiteJa](https://delph-in.github.io/docs/matrix/MatrixMrsTestSuiteJa): Results of parsing the
+- [MatrixMrsTestSuiteJa](https://delph-in.github.io/docs/grammars/MatrixMrsTestSuiteJa): Results of parsing the
 MRS test suite.
 
 Last update: 2016-11-05 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/JacyDoc/_edit)]{% endraw %}

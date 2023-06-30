@@ -1,0 +1,990 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>DELPH-IN</title>
+<meta name="description" content="DELPH-IN Documentation">
+
+
+  <meta name="author" content="DELPH-IN">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="DELPH-IN">
+<meta property="og:title" content="DELPH-IN">
+<meta property="og:url" content="https://delph-in.github.io/docs/garage/CapitolHillPassives/">
+
+
+  <meta property="og:description" content="DELPH-IN Documentation">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://delph-in.github.io/docs/garage/CapitolHillPassives/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "DELPH-IN",
+      "url": "https://delph-in.github.io/docs/garage/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/docs/garage/feed.xml" type="application/atom+xml" rel="alternate" title="DELPH-IN Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/docs/garage/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--delphin_page wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/docs/garage/"><img src="/docs/garage/assets/images/Delph-In.png" alt="DELPH-IN"></a>
+        
+        <a class="site-title" href="/docs/garage/">
+          DELPH-IN
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/home/Home">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/howto/DelphinWelcome">How-To</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/erg/ErgTop">ERG</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/tools/ToolsTop">Tools</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/grammars/GrammarsOverview">Grammars</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/matrix/MatrixDocsOverview">Matrix</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/summits/SummitTop">Summits</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/garage/GarageTop">Garage</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Garage</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/GarageTop/">Overview</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammar Tools</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/AgreeTop/">Agree</a></li>
+          
+            <li><a href="/docs/garage/ChartMapping/">Chart Mapping</a></li>
+          
+            <li><a href="/docs/garage/ChartMappingSetup/">Chart Mapping Setup</a></li>
+          
+            <li><a href="/docs/garage/ClimbTop/">CLIMB</a></li>
+          
+            <li><a href="/docs/garage/Climb_GClimb/">CLIMB for Germanic languages</a></li>
+          
+            <li><a href="/docs/garage/DelphinTools/">Delphin Tools</a></li>
+          
+            <li><a href="/docs/garage/EgadTop/">Erroneous Generation Analysis and Detection (EGAD)</a></li>
+          
+            <li><a href="/docs/garage/EgadInstallation/">EGAD Installation</a></li>
+          
+            <li><a href="/docs/garage/SafFspp/">Finite-State PreProcessor</a></li>
+          
+            <li><a href="/docs/garage/Climb_GClimb_German/">gCLIMB Phenomena</a></li>
+          
+            <li><a href="/docs/garage/GDeltaTop/">gDelta</a></li>
+          
+            <li><a href="/docs/garage/SpringCleaningTop/">Grammar Spring Cleaning</a></li>
+          
+            <li><a href="/docs/garage/HeartofgoldTop/">Heart of Gold</a></li>
+          
+            <li><a href="/docs/garage/HogInstallation/">Hog Installation</a></li>
+          
+            <li><a href="/docs/garage/LkbLtdb/">Linguistic Type Database</a></li>
+          
+            <li><a href="/docs/garage/ReppTop/">Regular Expression Pre-Processor</a></li>
+          
+            <li><a href="/docs/garage/RmrsDmrsComparison/">Rmrs/Dmrs Comparison</a></li>
+          
+            <li><a href="/docs/garage/ClimbShortClimb/">SHORT-CLIMB</a></li>
+          
+            <li><a href="/docs/garage/TestingWithAnt/">Testing With Ant</a></li>
+          
+            <li><a href="/docs/garage/TypediffTop/">Typediff</a></li>
+          
+            <li><a href="/docs/garage/VistaExtractionTop/">Vista Extraction</a></li>
+          
+            <li><a href="/docs/garage/PhenomenaTop/">Phenomena</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Completed Projects</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/RedwoodsTop/">Redwoods</a></li>
+          
+            <li><a href="/docs/garage/WeScience/">WeScience</a></li>
+          
+            <li><a href="/docs/garage/DeepBank/">DeepBank</a></li>
+          
+            <li><a href="/docs/garage/DeepBank_OneZero/">DeepBank 1.0</a></li>
+          
+            <li><a href="/docs/garage/WikiWoods/">WikiWoods</a></li>
+          
+            <li><a href="/docs/garage/SemCor/">SC corpus</a></li>
+          
+            <li><a href="/docs/garage/OldOverviews/">Old DELPH-IN Overview</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammars (experimental)</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/GrenouilleSummary/">French</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammar Discussions</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/GrammarDiscussionsTop/">Overview</a></li>
+          
+            <li><a href="/docs/garage/LADIndonesianMorphology/">Indonesian Morphology</a></li>
+          
+            <li><a href="/docs/garage/CapitalHillPassivesDiscussion/">Indonesian Passives</a></li>
+          
+            <li><a href="/docs/garage/CapitolHillPassives/" class="active">CapitolHillPassives</a></li>
+          
+            <li><a href="/docs/garage/RomanceTop/">Romance</a></li>
+          
+            <li><a href="/docs/garage/RomClitics/">Romance Clitics</a></li>
+          
+            <li><a href="/docs/garage/RomSe/">Romance Clitic Se</a></li>
+          
+            <li><a href="/docs/garage/RomContract/">Romance Contractions</a></li>
+          
+            <li><a href="/docs/garage/DelphinLisbon/">Romance Contributions</a></li>
+          
+            <li><a href="/docs/garage/SlavicTop/">Slavic</a></li>
+          
+            <li><a href="/docs/garage/HarmonyTop/">Semantic Harmonization</a></li>
+          
+            <li><a href="/docs/garage/PhonologyTop/">Phonology</a></li>
+          
+            <li><a href="/docs/garage/PhonologyTop_FrenchPhonemes/">Phonology of French Phonemes</a></li>
+          
+            <li><a href="/docs/garage/SaarlandSententialArgument/">Saarland Sentential Argument</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Lexical Semantics</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/LexsemTop/">Overview</a></li>
+          
+            <li><a href="/docs/garage/LexsemMapping/">Mapping</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Machine Translation</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/MachineTranslationTop/">Overview</a></li>
+          
+            <li><a href="/docs/garage/MachineTranslationTutorial/">Tutorial</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Japanese/English Machine Translation</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/MtJaen/">Overview</a></li>
+          
+            <li><a href="/docs/garage/MtSetup/">Setup</a></li>
+          
+            <li><a href="/docs/garage/MtRuleExtraction/">MtRuleExtraction</a></li>
+          
+            <li><a href="/docs/garage/MtJaenFeedbackCleaning/">Feedback Cleaning</a></li>
+          
+            <li><a href="/docs/garage/NE_Tagging_For_Improving_SMT/">Improving SMT</a></li>
+          
+            <li><a href="/docs/garage/MtJaenTanaka/">Tanaka Corpus</a></li>
+          
+            <li><a href="/docs/garage/MtJaenSmt/">Discussion</a></li>
+          
+            <li><a href="/docs/garage/JaenTodo/">Jaen TODO</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Indra/English Transfer Grammar</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/IndraAce/">Ace</a></li>
+          
+            <li><a href="/docs/garage/IndraPreprocessing/">Preprocessing</a></li>
+          
+            <li><a href="/docs/garage/IndraTranslation/">Translation</a></li>
+          
+            <li><a href="/docs/garage/IndraRegressionTest/">RegressionTest</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">WeSearch</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/WeSearch/">WeSearch</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_Ccs/">CCS</a></li>
+          
+            <li><a href="/docs/garage/CcsGroup/">CCS Attendees</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_CcsDayOne/">CCS Day One</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_CcsDayTwo/">CCS Day Two</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_CcsDayThree/">CCS Day Three</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_DesignPrinciples/">WeSearch_DesignPrinciples</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_AnalysisCatalog/">WeSearch_AnalysisCatalog</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_ScopalArgCoord/">WeSearch_ScopalArgCoord</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_ICONS/">WeSearch_ICONS</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_UnderspecifedAttachment/">WeSearch_UnderspecifedAttachment</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_UnderspecifiedPreds/">WeSearch_UnderspecifiedPreds</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_VariablePropertySharing/">WeSearch_VariablePropertySharing</a></li>
+          
+            <li><a href="/docs/garage/WeSearch_DataCollection/">WeSearch_DataCollection</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">PET</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/PetTop/">Overview</a></li>
+          
+            <li><a href="/docs/garage/PetDependencies/">Dependencies</a></li>
+          
+            <li><a href="/docs/garage/PetEclipse/">Eclipse</a></li>
+          
+            <li><a href="/docs/garage/PetRoadMap/">RoadMap</a></li>
+          
+            <li><a href="/docs/garage/PetInput/">Input</a></li>
+          
+            <li><a href="/docs/garage/ReppPet/">ReppPet</a></li>
+          
+            <li><a href="/docs/garage/PetOutput/">Output</a></li>
+          
+            <li><a href="/docs/garage/PetOptions/">Options</a></li>
+          
+            <li><a href="/docs/garage/PetParameters/">Parameters</a></li>
+          
+            <li><a href="/docs/garage/PetSelectiveUnpacking/">Selective Unpacking</a></li>
+          
+            <li><a href="/docs/garage/PetInputFsc/">Input Feature Structure Chart</a></li>
+          
+            <li><a href="/docs/garage/PetInputChart/">Input Chart</a></li>
+          
+            <li><a href="/docs/garage/UtTop/">Ubertagging</a></li>
+          
+            <li><a href="/docs/garage/PetLogging/">Logging</a></li>
+          
+            <li><a href="/docs/garage/PetRobustness/">Robustness</a></li>
+          
+            <li><a href="/docs/garage/FeforPetApi/">PET API Proposal</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Documentation</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/garage/DocsQuickStart/">Quick Start</a></li>
+          
+            <li><a href="/docs/garage/DelphinDocsReference/">Reference</a></li>
+          
+            <li><a href="/docs/garage/ERDW_StructureForNewDocsSite/">Background</a></li>
+          
+            <li><a href="/docs/garage/GoogleSeasonOfDocs2023ProjectProposal/">Season of Docs</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <h1 id="indonesian-passive-voice">Indonesian Passive Voice</h1>
+
+<p><a href="https://delph-in.github.io/docs/garage/DavidMoeljadi">DavidMoeljadi</a></p>
+
+<p>The passive voice is very frequent in Indonesian, much more frequent
+than in English. In English the frequency is estimated at about 4-5% in
+the input to children, but in Indonesian it is estimated between 28-35%
+(<a href="http://www.eva.mpg.de/german/linguistics/past-research-resources/jakarta-field-station/the-acquisition-of-passive-voice-in-english-and-indonesian.html?Fsize=0%2CGrawunderMax-Planck-Institut">The Acquisition of Passive Voice in English and
+Indonesian</a>).</p>
+
+<p>See <a href="/LADIndonesianMorphology#TransVerb">Transitive verbs</a> and
+<a href="/LADIndonesianMorphology#Voice">Voice</a> in Indonesian.</p>
+
+<h2 id="passive-type-one">Passive type one</h2>
+
+<p>The agent (optional) is third person:</p>
+
+<ol>
+  <li>Pronoun: <em>dia</em> “3SG”, <em>mereka</em> “3PL”</li>
+  <li>Noun: common noun, proper noun</li>
+</ol>
+
+<p>The structure: Patient + <strong>di</strong>-base (+ (<strong>oleh</strong>) + Agent)</p>
+
+<p>Some examples:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>1. a. Budi sedang dikejar.
+      Budi PROG PASS-chase
+      "Budi is being chased."
+
+   b. Budi sedang dikejar dia.
+      Budi PROG PASS-chase 3SG
+      "Budi is being chased by him/her."
+
+   c. Budi sedang dikejar oleh dia.
+      Budi PROG PASS-chase by 3SG
+      "Budi is being chased by him/her."
+
+   d. Budi sedang dikejarnya.
+      Budi PROG PASS-chase=3SG
+      "Budi is being chased by him/her."
+
+   e. Budi sedang dikejar olehnya.
+      Budi PROG PASS-chase by=3SG
+      "Budi is being chased by him/her."
+
+   f. *Budi sedang dikejar oleh saya.
+       Budi PROG PASS-chase by 1SG
+       intended meaning: "Budi is being chased by me."
+</code></pre></div></div>
+
+<p>Ditransitives</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>2. a. Budi membeli buku untuk saya.
+      Budi ACT-buy book for 1SG
+      "Budi bought a book for me."
+
+   b. Budi membelikan saya buku.
+      Budi ACT-buy-APP 1SG book
+      "Budi bought me a book."
+
+   c. Buku dibeli (oleh) Budi untuk saya.
+      book PASS-buy (by) Budi for 1SG
+      "A book was bought by Budi for me."
+
+   d. Saya dibelikan Budi buku.
+      1SG PASS-buy-APP Budi book
+      "I was bought a book by Budi."
+
+   e. *Saya dibelikan buku Budi.
+       1SG PASS-buy-APP book Budi
+       Intended meaning: "I was bought a book by Budi."
+
+   f. Saya dibelikan buku oleh Budi.
+      1SG PASS-buy-APP book by Budi
+      "I was bought a book by Budi."
+</code></pre></div></div>
+
+<h3 id="passive-imperatives">Passive imperatives</h3>
+
+<p>An imperative with a transitive verb can be expressed in the passive,
+with prefix <em>di-</em> (Sneddon et al. 2010: 334-335).</p>
+
+<p>Some examples:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>3. a. Tolong dibuka jendela ini!
+      please PASS-open window this
+      "Please have this window opened!"
+
+   b. Jangan dibuka jendela ini!
+      NEG PASS-open window this
+      "This window is not to be opened!"
+</code></pre></div></div>
+
+<h2 id="passive-type-two">Passive type two</h2>
+
+<p>The agent (obligatory):</p>
+
+<ol>
+  <li>Pronoun: <em>aku</em> “1SG”, <em>engkau</em> “2SG”, <em>dia</em> “3SG” etc.</li>
+  <li>Pronoun substitute: kinship terms <em>bapak</em> “father”, <em>ibu</em> “mother”
+etc., proper noun</li>
+</ol>
+
+<p>The structure: Patient + Agent + base</p>
+
+<p>Some examples:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>4. a. Budi sedang aku kejar.
+      Budi PROG 1SG chase
+      "Budi is being chased by me."
+
+   b. Budi sedang kukejar.
+      Budi PROG 1SG=chase
+      "Budi is being chased by me."
+
+   c. Budi sedang engkau kejar.
+      Budi PROG 2SG chase
+      "Budi is being chased by you."
+
+   d. Budi sedang kaukejar.
+      Budi PROG 2SG=chase
+      "Budi is being chased by you."
+
+   e. Budi sedang dia kejar.
+      Budi PROG 3SG chase
+      "Budi is being chased by him/her."
+
+   f. Budi sedang bapak kejar.
+      Budi PROG father chase
+      "Budi is being chased by me/you (old man)."
+
+   g. Budi sedang David kejar.
+      Budi PROG David chase
+      "Budi is being chased by me/you (David)."
+
+   h. *Budi dia sedang kejar.
+       Budi 3SG PROG chase
+       intended meaning: "Budi is being chased by him."
+
+   i. *Budi sedang David kejar.
+       Budi PROG David chase
+       intended meaning: "Budi is being chased by David."
+</code></pre></div></div>
+
+<p>This is different from topicalization.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Budi, saya sedang mengejarnya.
+Budi 1SG PROG ACT-chase=3SG
+"Speaking about Budi, I am chasing him."
+</code></pre></div></div>
+
+<p>Ditransitives</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Buku saya beli untuk Budi.
+book 1SG buy for Budi
+"A book was bought by me for Budi."
+
+Budi saya belikan buku.
+Budi 1SG buy-APP book
+"Budi was bought a book by me."
+</code></pre></div></div>
+
+<p>Coordination</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Makanan saya masak dan makan.
+food 1SG cook and eat
+"Food was cooked and eaten by me."
+
+Makanan kumasak dan kumakan.
+food 1SG=cook and 1SG=eat
+"Food was cooked and eaten by me."
+
+*??Makanan kumasak dan makan.
+Intended meaning: "Food was cooked and eaten by me."
+
+Makanan kumasak dan kaumakan.
+food 1SG=cook and 2SG=eat
+"Food was cooked by me and eaten by you"
+</code></pre></div></div>
+
+<p>cf. coordination in active sentences</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Budi memasak dan memakannya.
+Budi ACT-cook and ACT-eat=3SG
+"Budi cooked and ate him/her/it."
+
+Budi memasak dan memakanmu.
+Budi ACT-cook and ACT-eat=2SG
+"Budi cooked and ate you."
+</code></pre></div></div>
+
+<p>See <a href="http://lingo.stanford.edu/sag/papers/zw-pul83.pdf">Zwicky and Pullum
+(1983)</a> about
+cliticization vs inflection</p>
+
+<h2 id="other-passive-constructions">Other passive constructions</h2>
+
+<p>The structure is similar to passive type one above.</p>
+
+<h3 id="passives-with-prefix-ter-">Passives with prefix ter-</h3>
+
+<p>Most <em>ter-</em> verbs fit one of three categories: stative, accidental,
+abilitative (Sneddon et al. 2010: 116).</p>
+
+<ul>
+  <li><strong>Stative ter- verbs</strong></li>
+</ul>
+
+<p>no agent, refer to a state of affairs, contrast with <em>di-</em> passive verbs
+which refer to an action.</p>
+
+<p>Some examples:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>5. a. Pintu itu terbuka. (cf. Pintu itu dibuka)
+      door that ter-open
+      "That door was opened."
+
+   b. Surat itu tertulis dalam bahasa Inggris. (cf. Surat itu ditulis dalam bahasa Inggris)
+      letter that ter-write in language English
+      "That letter is written in English."
+</code></pre></div></div>
+
+<ul>
+  <li><strong>Accidental ter-</strong></li>
+</ul>
+
+<p>The word ‘accidental’ is a cover term for a variety of uncontrolled
+actions and it is not appropriate in all cases; depending on the
+particular verb and the context other terms may be more appropriate,
+such as ‘unintended’, ‘unexpected’, ‘agentless’, ‘involuntary’, ‘sudden’
+(Sneddon et al. 2010: 117).</p>
+
+<p>Some examples:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>6. a. Bukumu terbawa olehku. (cf. Bukumu kubawa)
+      book=2SG ter-bring by=1SG
+      "Your book was taken by me (by mistake)."
+
+   b. Obat itu terminum anak saya. (cf. Obat itu diminum anak saya)
+      medicine that ter-drink child 1SG
+      "The medicine was drunk by my child (accidentally)."
+
+   c. Dia ditembak atau tertembak polisi.
+      3SG PASS-shoot or ter-shoot police
+      "He was shot deliberately or accidentally by the police."
+</code></pre></div></div>
+
+<ul>
+  <li><strong>Abilitative ter- verbs</strong></li>
+</ul>
+
+<p>indicate that the agent has the ability to perform the action. All
+abilitative constructions are transitive and passive.</p>
+
+<p>Some examples:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>7. a. Mobil mahal itu terbeli oleh saya. (cf. Mobil mahal itu saya beli)
+      car expensive that ter-buy by 1SG
+      "That expensive car can be bought by me/I can afford to buy that expensive car."
+
+   b. Suara guru itu tidak terdengar. (cf. Suara guru itu tidak didengar)
+      voice teacher that NEG ter-hear
+      "That teacher's voice cannot be heard."
+
+   c. Budi tidak terkejar. (cf. Budi tidak dikejar)
+      Budi NEG ter-chase
+      "Budi cannot be chased."
+
+   d. Perampok itu ditembak berkali-kali, tetapi tidak tertembak.
+      robber that PASS-shoot repeatedly but NEG ter-shoot
+      "That robber was shot at repeatedly but (he) was not successfully shot."
+</code></pre></div></div>
+
+<h3 id="passives-with-circumfix-ke--an">Passives with circumfix ke-…-an</h3>
+
+<p>With a few exceptions these constructions are adversatives; they
+indicate that the subject undergoes an unpleasant or undesired
+experience or event. Adversative verbs explicitly focus attention on the
+adverse effect of the event on the subject. There is only a limited
+number of adversative verbs and new formations are not common (Sneddon
+et al. 2010: 124).</p>
+
+<ul>
+  <li>Derive from intransitive verbs</li>
+</ul>
+
+<p>Some examples:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>8. a. Budi kehilangan uang.
+      Budi ke-lost-an money
+      "Budi has suffered the loss of his money."
+
+   b. Mereka kematian ayah.
+      3PL ke-die-an father
+      "They have suffered the death of their father."
+</code></pre></div></div>
+
+<ul>
+  <li>Derive from transitive verbs</li>
+</ul>
+
+<p>Some examples:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>9. a. Budi kecurian mobil. (cf. Mobil Budi dicuri)
+      Budi ke-steal-an car
+      "Budi suffered the stealing of his car/Budi had his car stolen/Budi was robbed of his car."
+
+   b. Saya kecopetan (dompet) di bus.
+      1SG ke-pickpocket-an (wallet) in bus
+      "I was pickpocketed (of my wallet) on the bus."
+</code></pre></div></div>
+
+<ul>
+  <li>Derive from nouns</li>
+</ul>
+
+<p>Some examples:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>10. a. Budi kehujanan.
+       Budi ke-rain-an
+       "Budi was caught in the rain."
+
+    b. Rumah itu kebanjiran.
+       house that ke-flood-an
+       "That house was flooded."
+</code></pre></div></div>
+
+<ul>
+  <li>Derive from adjectives</li>
+</ul>
+
+<p>Some examples:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>11. a. Budi kedinginan.
+       Budi ke-cold-an
+       "Budi suffers extremely from cold."
+
+    b. Budi kehausan.
+       Budi ke-thirsty-an
+       "Budi suffers from severe thirst."
+</code></pre></div></div>
+
+<p>Link to <a href="https://delph-in.github.io/docs/garage/CapitalHillPassivesDiscussion">discussion notes</a> as transcribed
+by <a href="https://delph-in.github.io/docs/garage/DanFlickinger">DanFlickinger</a>.</p>
+
+<p>Last update: 2017-01-07 by DavidMoeljadi [<a href="https://github.com/delph-in/docs/wiki/CapitolHillPassives/_edit">edit</a>]</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+<!--Scroll the navbar to the current page-->
+<script type="text/javascript">
+  let el = document.querySelector('.nav__list .active');
+  if(el){
+    el.scrollIntoView({block: "center", inline: "start"});
+  }
+</script>
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/docs/garage/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2023 DELPH-IN. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/docs/garage/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/docs/garage/assets/js/lunr/lunr.min.js"></script>
+<script src="/docs/garage/assets/js/lunr/lunr-store.js"></script>
+<script src="/docs/garage/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

@@ -16,7 +16,7 @@ main:
   - title: "Garage"
     url: https://delph-in.github.io/docs/garage/GarageTop
 toc:
-  - title: "DELPH-IN"
+  - title: "DELPH-IN Docs"
     children:
       - title: "Overview"
         url: "/Home/"

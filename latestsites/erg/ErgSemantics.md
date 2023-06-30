@@ -99,7 +99,7 @@ suite](http://svn.emmtee.net/trunk/uio/wesearch/esd.txt) illustrating
 each identified phenomenon with one or more short, simple sentences,
 attempting to balance restricted vocabulary size with the clarity of the
 intended reading of each example. This test suite can be viewed as an
-extension of the [MRS Test Suite](https://delph-in.github.io/docs/matrix/MatrixMrsTestSuite).
+extension of the [MRS Test Suite](https://delph-in.github.io/docs/grammars/MatrixMrsTestSuite).
 
 # Summary
 

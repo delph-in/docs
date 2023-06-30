@@ -13,7 +13,7 @@
 
 ## The Cathedral and the Bazaar
 
-Francis reports on [The Cathedral and the Bazaar](https://delph-in.github.io/docs/matrix/MatrixMrsCatb). This
+Francis reports on [The Cathedral and the Bazaar](https://delph-in.github.io/docs/grammars/MatrixMrsCatb). This
 corpus is available in a lot of languages, though some translations are
 missing a few paragraphs because they were translated from ealier
 versions. The texts should be converted to tsdb profiles. There are

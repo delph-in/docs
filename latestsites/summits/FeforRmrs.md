@@ -37,7 +37,7 @@ instantiation). [FeforDroppedArguments](https://delph-in.github.io/docs/summits/
 [FeforMessageDemise](https://delph-in.github.io/docs/summits/FeforMessageDemise)
 - MRS test suite: extension ([DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger)) and
 parallel test suites ([ValiaKordoni](https://delph-in.github.io/docs/garage/ValiaKordoni)).
-[MatrixMrsTestSuite](https://delph-in.github.io/docs/matrix/MatrixMrsTestSuite)
+[MatrixMrsTestSuite](https://delph-in.github.io/docs/grammars/MatrixMrsTestSuite)
 
 ## MRS/RMRS and the outside world
 

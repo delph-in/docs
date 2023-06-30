@@ -52,10 +52,10 @@ as the grammar. Currently you have to segment the sentences yourself.
 
 ## MRS Testsuites
 
-- [MatrixMrsTestSuiteMandarin](https://delph-in.github.io/docs/matrix/MatrixMrsTestSuiteMandarin)
-- [MatrixMrsTestSuiteZhTw](https://delph-in.github.io/docs/matrix/MatrixMrsTestSuiteZhTw)
-- [MatrixMrsTestSuiteCantonese](https://delph-in.github.io/docs/matrix/MatrixMrsTestSuiteCantonese)
-- [MatrixMrsTestSuiteIndonesian](https://delph-in.github.io/docs/matrix/MatrixMrsTestSuiteIndonesian)
+- [MatrixMrsTestSuiteMandarin](https://delph-in.github.io/docs/grammars/MatrixMrsTestSuiteMandarin)
+- [MatrixMrsTestSuiteZhTw](https://delph-in.github.io/docs/grammars/MatrixMrsTestSuiteZhTw)
+- [MatrixMrsTestSuiteCantonese](https://delph-in.github.io/docs/grammars/MatrixMrsTestSuiteCantonese)
+- [MatrixMrsTestSuiteIndonesian](https://delph-in.github.io/docs/grammars/MatrixMrsTestSuiteIndonesian)
 
 ## Phenomena-based Testsuites
 

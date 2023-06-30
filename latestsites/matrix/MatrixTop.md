@@ -49,7 +49,7 @@ Engineering/FAQ](https://delph-in.github.io/docs/matrix/GrammarEngineeringFAQ) m
 is a wiki page detailing how to use version control systems (e.g.
 SVN, Mercurial) with a grammar.
 - We have some examples in the short and sweet [MRS Test
-Suite](https://delph-in.github.io/docs/matrix/MatrixMrsTestSuite)s, which now exist for multiple languages.
+Suite](https://delph-in.github.io/docs/grammars/MatrixMrsTestSuite)s, which now exist for multiple languages.
 
 # Courses
 

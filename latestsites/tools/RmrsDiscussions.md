@@ -11,7 +11,7 @@ is probably only partial, and additional links are welcome.
   - [FeforDroppedArguments](https://delph-in.github.io/docs/summits/FeforDroppedArguments)
   - [FeforDiscourseStatus](https://delph-in.github.io/docs/summits/FeforDiscourseStatus)
   - [FeforMessageDemise](https://delph-in.github.io/docs/summits/FeforMessageDemise)
-  - [MatrixMrsTestSuite](https://delph-in.github.io/docs/matrix/MatrixMrsTestSuite)
+  - [MatrixMrsTestSuite](https://delph-in.github.io/docs/grammars/MatrixMrsTestSuite)
   - [FeforPng](https://delph-in.github.io/docs/summits/FeforPng)
 - From the Cambridge meeting, May 2008:
   - [Demo/discussion of paraphrasing](https://delph-in.github.io/docs/tools/RmrsParaphrasing)
@@ -69,7 +69,7 @@ Mathieu's talk on (D)MRS comparison
 ICONS](https://delph-in.github.io/docs/summits/SaarlandTense)
   - [Information structure via ICONS in ERG](https://delph-in.github.io/docs/summits/SaarlandIconsErg)
   - [Representation of clausal arguments in
-MRS](https://delph-in.github.io/docs/erg/SaarlandSententialArgument)
+MRS](https://delph-in.github.io/docs/garage/SaarlandSententialArgument)
 - [AbbeyApposition](https://delph-in.github.io/docs/summits/AbbeyApposition): Discussion of appositives,
 non-restrictive relatives and related phenomena, August 2013
 - From the [Bellingham sub-group meeting](https://delph-in.github.io/docs/summits/TheAbbey_Chrysalis2014),

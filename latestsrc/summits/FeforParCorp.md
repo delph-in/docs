@@ -65,7 +65,7 @@ be able to get permission for.
 - \- URL: <http://catb.org/~esr/writings/cathedral-bazaar/>
 
 We decided to use this as a corpus, the full description is now up at
-[MatrixMrsCatb](https://delph-in.github.io/docs/matrix/MatrixMrsCatb).
+[MatrixMrsCatb](https://delph-in.github.io/docs/grammars/MatrixMrsCatb).
 
 ### Universal Declaration of Human Rights
 

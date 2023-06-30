@@ -118,11 +118,11 @@ as used in the ERG
   - [RmrsDiscussions](https://delph-in.github.io/docs/tools/RmrsDiscussions): Links to discussions
 related to MRS at various DELPH-IN events
 - Shared Corpora, [Treebanks](https://delph-in.github.io/docs/tools/TreebankingTop)
-  - [MRS Test Suite](https://delph-in.github.io/docs/matrix/MatrixMrsTestSuite): Core Test Suite (\~100
+  - [MRS Test Suite](https://delph-in.github.io/docs/grammars/MatrixMrsTestSuite): Core Test Suite (\~100
 sentences)
-  - [Cathedral and the Bazaar](https://delph-in.github.io/docs/matrix/MatrixMrsCatb): Parallel Corpus
+  - [Cathedral and the Bazaar](https://delph-in.github.io/docs/grammars/MatrixMrsCatb): Parallel Corpus
 based on an Open Source Essay (\~800 sentences)
-- [Grammar discussions](https://delph-in.github.io/docs/grammars/GrammarDiscussionsTop): Discussions for
+- [Grammar discussions](https://delph-in.github.io/docs/garage/GrammarDiscussionsTop): Discussions for
 grammar developers (analyses, terminology, harmonization, …)
 - [DELPH-IN RFCs](https://delph-in.github.io/docs/tools/DelphinRFCs) (Requests For Comments; formal
 specifications)
