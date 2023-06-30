@@ -160,6 +160,9 @@ PhD thesis, University of Cambridge.
 Machine Translation](https://goodmami.org/static/goodman-dissertation.pdf).
 PhD thesis, University of Washington.
 
+## Microworld Interaction
+- Zinda, Eric. The 'Perplexity' Natural Language Prototype. InductorSoftware.com, 4 Aug, 2020, https://blog.inductorsoftware.com/blog/PerplexityOverview.
+
 ## MRS Alignment
 
 - Glenn Slayden. 2013. Singular value decomposition (SVD) for MRS
@@ -285,7 +288,4 @@ methodology for multimodal language understanding. [Paper
 using deep linguistic processing. [Paper
 (pdf)](https://arxiv.org/pdf/1706.01322.pdf)
 
-## Microworld Interaction
-- Zinda, Eric. The 'Perplexity' Natural Language Prototype. InductorSoftware.com, 4 Aug, 2020, https://blog.inductorsoftware.com/blog/PerplexityOverview.
-
-Last update: 2022-07-24 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/DelphinApplications/_edit)]{% endraw %}
+Last update: 2023-06-30 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/DelphinApplications/_edit)]{% endraw %}

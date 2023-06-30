@@ -80,60 +80,48 @@ Please upload your presentations [here](https://github.com/delph-in/docs/tree/ma
 
 ## Thursday
 
-| Time | Content | Leader|
+| Time | Content | Leader (Scribe) |
 | :--- | :---    | :--- |
 | 10:30-12:00 | Full Forest Treebanker (FFTB) | Olga |
-|             | Tuning a grammar to improve parsing efficiency | Dan |
+|             | [Tuning a grammar to improve parsing efficiency](https://github.com/delph-in/docs/blob/main/summits/2023/Efficiency.pdf) [notes] | Dan (John) |
 | 12:00-12:30 | *Break* ||
-| 12:30-13:20 | Translating from MRS to FOL (20+30) | Alexandre |
+| 12:30-13:20 | [Translating from MRS to FOL](https://github.com/delph-in/docs/blob/main/summits/2023/mrs-semantics.pdf) (20+30) | Alexandre |
 | 13:20-14:00 | *Free time* ||
 | 14:00-15:30 | *Lunch (at the Rectorate; organized)* ||
-| 15:30-17:00 | Exploring/refactoring the Grammar Matrix code to distinguish between linguistic hypotheses and engineering artifacts | Emily |
+| 15:30-17:00 | [Exploring/refactoring the Grammar Matrix code to distinguish between linguistic hypotheses and engineering artifacts](https://github.com/delph-in/docs/blob/main/summits/2023/GM-refactoring-SIG.pdf)  [notes]| Emily (Francis)|
 | 17:00-17:30 | *Break* ||
-| 17:30-19:00 | Improving robustness in grammars | Berthold/Dan |
+| 17:30-19:00 | [Improving robustness in grammars](https://github.com/delph-in/docs/blob/main/summits/2023/robustness.pdf) [notes] | Berthold/Dan |
 | 21:00-00:00 | **Conference Dinner** at [A Pulperia de Melide](https://goo.gl/maps/gZfK8FVEHuJRichm6) | Olga |
 
 ## Friday
 
-| Time | Content | Leader|
+| Time | Content | Leader (Scribe) |
 | :--- | :---    | :--- |
-| 10:30-12:00 | Searching DELPH-IN corpora & the Linguistic Type Database (LTDB) | Francis |
+| 10:30-12:00 | DELPH-IN documentation & the new DELPH-IN documentation system | Eric |
 | 12:00-12:30 | *Break* ||
 | 12:30-14:00 | Applying large language models in conjunction with DELPH-IN technologies | Alexandre |
 | 14:00-15:30 | *Lunch (at the Rectorate; organized)* ||
-| 15:30-17:00 | DELPH-IN documentation & the new DELPH-IN documentation system | Eric |
+| 15:30-17:00 | Searching DELPH-IN corpora & the Linguistic Type Database (LTDB) | Francis (Emily) |
 | 17:00-17:30 | *Break* ||
 | 17:30-19:00 | Pre-processing and token mapping of non-English languages for HPSG grammars | Alexandre |
 
 ### SIG Suggestions:
 
-Tuning a grammar to improve parsing efficiency: Dan
-
-Searching DELPH-IN Corpora: what people currently use and what they would like: Francis
-
-Answering, closing, and linking questions on DELPH-IN Discourse: Alexandre
-
-DELPH-IN documentation and the new channels for communication (GitHub, Discourse, etc.): Alexandre
-
-Applying large language models in conjunction with DELPH-IN technologies: Alexandre
-
-Pre-processing and token mapping of non-English languages for HPSG grammars: Alexandre
-
-Translating from MRS to FOL: Alexandre
-
-Exploring/refactoring the Grammar Matrix code to distinguish between linguistic hypotheses and engineering artifacts: Emily
-
-Improving robustness in grammars: Berthold/Dan
+- Tuning a grammar to improve parsing efficiency: Dan
+- Searching DELPH-IN Corpora: what people currently use and what they would like: Francis
+- Answering, closing, and linking questions on DELPH-IN Discourse: Alexandre
+- DELPH-IN documentation and the new channels for communication (GitHub, Discourse, etc.): Alexandre
+- Applying large language models in conjunction with DELPH-IN technologies: Alexandre
+- Pre-processing and token mapping of non-English languages for HPSG grammars: Alexandre
+- Translating from MRS to FOL: Alexandre
+- Exploring/refactoring the Grammar Matrix code to distinguish between linguistic hypotheses and engineering artifacts: Emily
+- Improving robustness in grammars: Berthold/Dan
 
 ### Tutorial Offers:
 
-The Linguistic Type Database (LTDB): Francis
+1. The Linguistic Type Database (LTDB): Francis
+2. The New DELPH-IN Documentation System: Eric
+3. Full Forest Treebanker (FFTB): Olga
+4. PyDelphin and Delphin-viz tools: Berthold request
 
-The New DELPH-IN Documentation System: Eric
-
-Full Forest Treebanker (FFTB): Olga
-
-PyDelphin and Delphin-viz tools: Berthold request
-
-
-Last update: 2023-06-29 by John Carroll [[edit](https://github.com/delph-in/docs/wiki/GaliciaSchedule/_edit)]{% endraw %}
+Last update: 2023-06-30 by John Carroll [[edit](https://github.com/delph-in/docs/wiki/GaliciaSchedule/_edit)]{% endraw %}

@@ -305,7 +305,8 @@
         {"Page": "WeSearch_SuperTagging_Setup.md", "SrcDir": "docswiki", "SrcFile": "WeSearch_SuperTagging_Setup.md", "BaseReferrer": "<not included from site docswiki>", "Referrer": "<not included or linked to>/WeSearch_SuperTagging_Setup.md"},
         {"Page": "WeSearch_parser_adaptation.md", "SrcDir": "docswiki", "SrcFile": "WeSearch_parser_adaptation.md", "BaseReferrer": "<not included from site docswiki>", "Referrer": "<not included or linked to>/WeSearch_parser_adaptation.md"},
         {"Page": "ZhongPhenomena.md", "SrcDir": "docswiki", "SrcFile": "ZhongPhenomena.md", "BaseReferrer": "<not included from site docswiki>", "Referrer": "<not included or linked to>/ZhongPhenomena.md"},
-        {"Page": "ZhongToDoList.md", "SrcDir": "docswiki", "SrcFile": "ZhongToDoList.md", "BaseReferrer": "<not included from site docswiki>", "Referrer": "<not included or linked to>/ZhongToDoList.md"}
+        {"Page": "ZhongToDoList.md", "SrcDir": "docswiki", "SrcFile": "ZhongToDoList.md", "BaseReferrer": "<not included from site docswiki>", "Referrer": "<not included or linked to>/ZhongToDoList.md"},
+        {"Page": "_Footer.md", "SrcDir": "docswiki", "SrcFile": "_Footer.md", "BaseReferrer": "<not included from site docswiki>", "Referrer": "<not included or linked to>/_Footer.md"}
       ]}
     ],
     "summits": [
@@ -338,6 +339,11 @@
       ]},
       {"Section": "Barcelona 2009", "Pages": [
         {"Page": "DarrenAppling", "SrcDir": "docswiki", "SrcFile": "DarrenAppling.md", "BaseReferrer": "summits/ParaTop.md", "Referrer": "summits/ParaTop.md", "FileMissing": true}
+      ]},
+      {"Section": "Galicia 2023", "Pages": [
+        {"Page": "GaliciaGrammarEfficiency", "SrcDir": "docswiki", "SrcFile": "GaliciaGrammarEfficiency.md", "BaseReferrer": "summits/GaliciaSchedule.md", "Referrer": "summits/GaliciaSchedule.md"},
+        {"Page": "GaliciaMatrixHypotheses", "SrcDir": "docswiki", "SrcFile": "GaliciaMatrixHypotheses.md", "BaseReferrer": "summits/GaliciaSchedule.md", "Referrer": "summits/GaliciaSchedule.md"},
+        {"Page": "GaliciaRobustness", "SrcDir": "docswiki", "SrcFile": "GaliciaRobustness.md", "BaseReferrer": "summits/GaliciaSchedule.md", "Referrer": "summits/GaliciaSchedule.md"}
       ]},
       {"Section": "Lisbon 2005", "Pages": [
         {"Page": "JeffGood", "SrcDir": "docswiki", "SrcFile": "JeffGood.md", "BaseReferrer": "summits/LisbonScheduleIdeas.md", "Referrer": "summits/LisbonScheduleIdeas.md", "FileMissing": true},
