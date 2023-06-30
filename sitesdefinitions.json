@@ -33,8 +33,7 @@
       {"Section": "DELPH-IN", "Pages": [
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "Home.md"},
         {"Page": "Welcome", "SrcDir": "docswiki", "SrcFile": "DelphinWelcome.md", "Referrer": "home/Home.md"},
-        {"Page": "Applications", "SrcDir": "docswiki", "SrcFile": "DelphinApplications.md", "Referrer": "home/Home.md"},
-        {"Page": "DELPH-IN News", "SrcDir": "docswiki", "SrcFile": "DelphinNews.md", "Referrer": "home/Home.md"}
+        {"Page": "Applications", "SrcDir": "docswiki", "SrcFile": "DelphinApplications.md", "Referrer": "home/Home.md"}
       ]},
       {"Section": "Projects", "Pages": [
         {"Page": "Archive", "SrcDir": "docswiki", "SrcFile": "OldProjects.md", "Referrer": "home/Home.md"}
@@ -44,7 +43,7 @@
       {"Section": "DELPH-IN", "Pages": [
         {"Page": "Welcome", "SrcDir": "docswiki", "SrcFile": "DelphinWelcome.md", "Referrer": "home/Home.md"}
       ]},
-      {"Section": "Grammarian Tutorial", "Pages": [
+      {"Section": "Intro to DELPH-IN Tutorial", "Pages": [
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "DelphinTutorial.md", "Referrer": "summits/SaarlandSchedule.md"},
         {"Page": "Formalisms", "SrcDir": "docswiki", "SrcFile": "DelphinTutorial_Formalisms.md", "Referrer": "summits/TomarFormalism.md"},
         {"Page": "Grammars", "SrcDir": "docswiki", "SrcFile": "DelphinTutorial_Grammars.md", "Referrer": "summits/DelphinTutorial_Formalisms.md"},
@@ -53,6 +52,7 @@
         {"Page": "HPSG", "SrcDir": "docswiki", "SrcFile": "HpsgTutorial.md", "Referrer": "home/TeachingCourses.md"}
       ]},
       {"Section": "Other Tutorials", "Pages": [
+        {"Page": "Grammar Matrix Getting Started", "SrcDir": "docswiki", "SrcFile": "MatrixDocTop.md", "Referrer": "matrix/MatrixGettingStarted.md"},
         {"Page": "Ace/Agree Tutorial (2013)", "SrcDir": "docswiki", "SrcFile": "SaarlandAceAgree.md", "Referrer": "summits/SaarlandSchedule.md"},
         {"Page": "English Resource Semantics Tutorial (NAACL 2016)", "SrcDir": "docswiki", "SrcFile": "ErsTutorial.md", "Referrer": "home/DelphinWelcome.md"}
       ]}
@@ -234,6 +234,7 @@
       {"Section": "Treebanking", "Pages": [
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "TreebankingTop.md", "Referrer": "home/Home.md"},
         {"Page": "Full Forest Treebanker (FFTB)", "SrcDir": "docswiki", "SrcFile": "FftbTop.md", "Referrer": "home/TreebankingTop.md"},
+        {"Page": "FFTB Treebank Update Tutorial", "SrcDir": "docswiki", "SrcFile": "FftbTreebankUpdateTutorial.md", "BaseReferrer": "tools/ItsdbProfileManipulation.md", "Referrer": "tools/ItsdbProfileManipulation.md"},
         {"Page": "Full Forest Treebanker Wishlist", "SrcDir": "docswiki", "SrcFile": "FftbWishlist.md", "Referrer": "concept/FftbTop.md"},
         {"Page": "[incr tsdb()] Treebanking", "SrcDir": "docswiki", "SrcFile": "ItsdbTreebanking.md", "Referrer": "home/TreebankingTop.md"},
         {"Page": "[incr tsdb()] Treebanking Annotation", "SrcDir": "docswiki", "SrcFile": "ItsdbTreebanking_ItsdbAnnotation.md", "Referrer": "concept/ItsdbTreebanking.md"},
@@ -384,7 +385,6 @@
         {"Page": "Validation Debugging", "SrcDir": "docswiki", "SrcFile": "MatrixValidationDebugging.md", "Referrer": "matrix/MatrixDevTop.md"}
       ]},
       {"Section": "Matrix Doc", "Pages": [
-        {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "MatrixDocTop.md", "Referrer": "matrix/MatrixGettingStarted.md"},
         {"Page": "Adnominal Possession", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_AdnominalPossession.md", "Referrer": "concept/MatrixDocTop.md"},
         {"Page": "Argument Optionality", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_ArgumentOptionality.md", "Referrer": "concept/MatrixDocTop.md"},
         {"Page": "Case", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_Case.md", "Referrer": "concept/MatrixDocTop.md"},
