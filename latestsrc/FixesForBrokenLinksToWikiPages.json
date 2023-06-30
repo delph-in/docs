@@ -46,6 +46,7 @@
         {"Page": "ERDWMeet20220707.md", "SrcDir": "docswiki", "SrcFile": "ERDWMeet20220707.md", "BaseReferrer": "<not included from site docswiki>", "Referrer": "<not included or linked to>/ERDWMeet20220707.md"},
         {"Page": "ERDWMeet20220713.md", "SrcDir": "docswiki", "SrcFile": "ERDWMeet20220713.md", "BaseReferrer": "<not included from site docswiki>", "Referrer": "<not included or linked to>/ERDWMeet20220713.md"},
         {"Page": "ERDWToolsFixes.md", "SrcDir": "docswiki", "SrcFile": "ERDWToolsFixes.md", "BaseReferrer": "<not included from site docswiki>", "Referrer": "<not included or linked to>/ERDWToolsFixes.md"},
+        {"Page": "ERDW_HowCurrentDocsAreBuilt.md", "SrcDir": "docswiki", "SrcFile": "ERDW_HowCurrentDocsAreBuilt.md", "BaseReferrer": "<not included from site docswiki>", "Referrer": "<not included or linked to>/ERDW_HowCurrentDocsAreBuilt.md"},
         {"Page": "ERDW_ImplicitLocatives.md", "SrcDir": "docswiki", "SrcFile": "ERDW_ImplicitLocatives.md", "BaseReferrer": "<not included from site docswiki>", "Referrer": "<not included or linked to>/ERDW_ImplicitLocatives.md"},
         {"Page": "EfterladteSider.md", "SrcDir": "docswiki", "SrcFile": "EfterladteSider.md", "BaseReferrer": "<not included from site docswiki>", "Referrer": "<not included or linked to>/EfterladteSider.md"},
         {"Page": "ElementaryDependencyMatch.md", "SrcDir": "docswiki", "SrcFile": "ElementaryDependencyMatch.md", "BaseReferrer": "<not included from site docswiki>", "Referrer": "<not included or linked to>/ElementaryDependencyMatch.md"},
@@ -312,11 +313,6 @@
     "grammars": [
       {"Section": "Japanese (JACY)", "Pages": [
         {"Page": "DelphinNtt", "SrcDir": "docswiki", "SrcFile": "DelphinNtt.md", "BaseReferrer": "grammars/JacyTop.md", "Referrer": "grammars/JacyTop.md"}
-      ]}
-    ],
-    "garage": [
-      {"Section": "Documentation", "Pages": [
-        {"Page": "ERDW_HowCurrentDocsAreBuilt", "SrcDir": "docswiki", "SrcFile": "ERDW_HowCurrentDocsAreBuilt.md", "BaseReferrer": "garage/ERDW_StructureForNewDocsSite.md", "Referrer": "garage/ERDW_StructureForNewDocsSite.md"}
       ]}
     ],
     "tools": [

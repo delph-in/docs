@@ -21,8 +21,6 @@ With these distinctions in mind, here are some requirements for The Documentatio
   - Could be that there are different sets of documentation for each version, but there would need to be a way to share the huge amount of content they have in common
 
 # Approach
-The approach for the current documentation site is described here. @goodmami and I talked about using a slightly modified approach for the new docs:
-
 The new Documentation Site is hosted by, and built by, GitHub pages. This is a free hosting service that can consume content from the repositories in Github.  This is what https://delph-in.github.io/docs/ uses today.
 
 It uses Github Actions and static Jekyll extensions to do the following:
@@ -67,4 +65,4 @@ Searching will search across all unversioned sites and the *latest* version of a
 Starting with https://mmistakes.github.io/minimal-mistakes/ since it has been used by others for docs. We can change as needed
 
 
-Last update: 2023-03-27 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/ERDW_StructureForNewDocsSite/_edit)]{% endraw %}
+Last update: 2023-06-30 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/ERDW_StructureForNewDocsSite/_edit)]{% endraw %}
