@@ -13,6 +13,6 @@ add the .txt extension, even when it is superfluous. You may need to
 configure your directory browser to "show extensions" in order to see
 what's going on.
 
-[Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
+Back to the Grammar Engineering FAQ.
 
-Last update: 2012-09-17 by NedLetcher [[edit](https://github.com/delph-in/docs/wiki/GeFaqTdlTxt/_edit)]{% endraw %}
+Last update: 2023-06-30 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/GeFaqTdlTxt/_edit)]{% endraw %}

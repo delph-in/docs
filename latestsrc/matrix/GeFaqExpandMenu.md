@@ -9,6 +9,6 @@ the features available through the menu, select "Options &gt; Expand
 Menu". To go back to the smaller menu, select "Options &gt; Shrink
 Menu".
 
-[Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
+Back to the Grammar Engineering FAQ.
 
-Last update: 2012-09-17 by NedLetcher [[edit](https://github.com/delph-in/docs/wiki/GeFaqExpandMenu/_edit)]{% endraw %}
+Last update: 2023-06-30 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/GeFaqExpandMenu/_edit)]{% endraw %}

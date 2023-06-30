@@ -30,6 +30,6 @@ should I do?](https://delph-in.github.io/docs/matrix/GeFaqNewFeature)
 - [When I load my grammar, I get "no possible type for features (...)
 at path (...)". What is causing this?](https://delph-in.github.io/docs/matrix/GeFaqNoPossibleType)
 
-[Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
+Back to the Grammar Engineering FAQ.
 
-Last update: 2012-08-14 by NedLetcher [[edit](https://github.com/delph-in/docs/wiki/GeFaqFeatureMultiType/_edit)]{% endraw %}
+Last update: 2023-06-30 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/GeFaqFeatureMultiType/_edit)]{% endraw %}

@@ -87,6 +87,6 @@ has improved markedly in recent versions.
 sluggish speed of a CD drive compared to a hard disk.
 - Can't install your own software.
 
-[Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
+Back to the Grammar Engineering FAQ.
 
-Last update: 2012-08-14 by NedLetcher [[edit](https://github.com/delph-in/docs/wiki/GeFaqLkbInstallation/_edit)]{% endraw %}
+Last update: 2023-06-30 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/GeFaqLkbInstallation/_edit)]{% endraw %}

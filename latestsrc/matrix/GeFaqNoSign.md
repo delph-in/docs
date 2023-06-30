@@ -27,6 +27,6 @@ error is output, and the word won't appear in the chart.
 and the other required words are not in the input string. \[Confirm
 this.\]
 
-[Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
+Back to the Grammar Engineering FAQ.
 
-Last update: 2013-05-04 by GlennSlayden [[edit](https://github.com/delph-in/docs/wiki/GeFaqNoSign/_edit)]{% endraw %}
+Last update: 2023-06-30 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/GeFaqNoSign/_edit)]{% endraw %}

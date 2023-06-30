@@ -154,6 +154,6 @@ figure out where that is in my file?](https://delph-in.github.io/docs/matrix/GeF
 - [What is a type addendum statement, and when should I use
 one?](https://delph-in.github.io/docs/matrix/GeFaqTypeAddendum)
 
-[Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
+Back to the Grammar Engineering FAQ.
 
-Last update: 2020-03-02 by MichaelGoodman [[edit](https://github.com/delph-in/docs/wiki/GeFaqTdlSyntax/_edit)]{% endraw %}
+Last update: 2023-06-30 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/GeFaqTdlSyntax/_edit)]{% endraw %}

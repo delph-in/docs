@@ -7,6 +7,6 @@ This breaks the connection between the STEM values of the input and
 output. Add **inflecting-lex-rule**as a supertype to the rule in
 question, and it should work better.
 
-[Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
+Back to the Grammar Engineering FAQ.
 
-Last update: 2012-08-17 by NedLetcher [[edit](https://github.com/delph-in/docs/wiki/GeFaqOverApplicationLexRule/_edit)]{% endraw %}
+Last update: 2023-06-30 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/GeFaqOverApplicationLexRule/_edit)]{% endraw %}

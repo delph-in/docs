@@ -52,6 +52,6 @@ length of the RELS and HCONS lists.
 - [The LKB says "Cyclic check found cycle at ...". What does this mean
 and how do I debug it?](https://delph-in.github.io/docs/matrix/GeFaqCyclicCheck)
 
-[Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
+Back to the Grammar Engineering FAQ.
 
-Last update: 2012-08-17 by NedLetcher [[edit](https://github.com/delph-in/docs/wiki/GeFaqMissingRels/_edit)]{% endraw %}
+Last update: 2023-06-30 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/GeFaqMissingRels/_edit)]{% endraw %}

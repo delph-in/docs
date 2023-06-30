@@ -54,7 +54,7 @@ grammar writers;
 with the LKB;
 - [Lexical Type Database](https://delph-in.github.io/docs/garage/LkbLtdb): Web interface to the lexicon (and
 treebanks) - an add-on to the main LKB; and
-- [GrammarEngineeringFaq](/GrammarEngineeringFaq): Frequently Asked
+- GrammarEngineeringFaq: Frequently Asked
 Questions about grammar engineering with the LKB and the Grammar
 Matrix.
 
@@ -116,4 +116,4 @@ Any opinions, findings and conclusions or recommendations expressed in
 this material are those of the author(s) and do not necessarily reflect
 the views of the funding bodies.
 
-Last update: 2018-02-05 by JohnCarroll [[edit](https://github.com/delph-in/docs/wiki/LkbTop/_edit)]{% endraw %}
+Last update: 2023-06-30 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/LkbTop/_edit)]{% endraw %}

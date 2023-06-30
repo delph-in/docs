@@ -19,6 +19,6 @@ the chart. Unless you also have an independent lexical entry for
 *Bastille*, the entry for just day won't be included in any complete
 parses, but the algorithm doesn't know this.
 
-[Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
+Back to the Grammar Engineering FAQ.
 
-Last update: 2012-08-15 by NedLetcher [[edit](https://github.com/delph-in/docs/wiki/GeFaqChartTwice/_edit)]{% endraw %}
+Last update: 2023-06-30 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/GeFaqChartTwice/_edit)]{% endraw %}

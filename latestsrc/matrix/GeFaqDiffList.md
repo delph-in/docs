@@ -57,6 +57,6 @@ and how do I debug it?](https://delph-in.github.io/docs/matrix/GeFaqCyclicCheck)
 - [Some of my relations/qeqs aren't showing up in the MRS for the
 whole parse. Why not?](https://delph-in.github.io/docs/matrix/GeFaqMissingRels)
 
-[Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
+Back to the Grammar Engineering FAQ.
 
-Last update: 2012-08-23 by NedLetcher [[edit](https://github.com/delph-in/docs/wiki/GeFaqDiffList/_edit)]{% endraw %}
+Last update: 2023-06-30 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/GeFaqDiffList/_edit)]{% endraw %}

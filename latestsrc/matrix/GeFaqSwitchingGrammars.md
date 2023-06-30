@@ -20,6 +20,6 @@ the LKB itself when switching between grammars.
 - [When I close the LKB Top Menu, is Lisp supposed to exit as
 well?](https://delph-in.github.io/docs/matrix/GeFaqClickX)
 
-[Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
+Back to the Grammar Engineering FAQ.
 
-Last update: 2012-09-17 by NedLetcher [[edit](https://github.com/delph-in/docs/wiki/GeFaqSwitchingGrammars/_edit)]{% endraw %}
+Last update: 2023-06-30 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/GeFaqSwitchingGrammars/_edit)]{% endraw %}

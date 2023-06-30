@@ -13,6 +13,6 @@ example:
 The LKB will find the maximal (most general) type, if any, for which all
 of the features in the list are compatible.
 
-[Back to the Grammar Engineering FAQ](/GrammarEngineeringFaq).
+Back to the Grammar Engineering FAQ.
 
-Last update: 2012-08-17 by NedLetcher [[edit](https://github.com/delph-in/docs/wiki/GeFaqFindTypeForFeatures/_edit)]{% endraw %}
+Last update: 2023-06-30 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/GeFaqFindTypeForFeatures/_edit)]{% endraw %}
