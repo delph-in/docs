@@ -125,4 +125,5 @@ phenomenon libraries.
         linglib/
             tests/
                 testMorphotactics.py
-<update date omitted for speed>{% endraw %}
+
+Last update: 2021-06-04 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/MatrixCustomizationUnitTesting/_edit)]{% endraw %}

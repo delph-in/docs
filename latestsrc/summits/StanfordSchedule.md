@@ -142,4 +142,5 @@ Constructions ([DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickin
 - **Jacy Book** Jacy the book (Closed SIG:
 [MelanieSiegel](/MelanieSiegel), [EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender),
 [FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond))
-<update date omitted for speed>{% endraw %}
+
+Last update: 2016-07-06 by MichaelGoodman [[edit](https://github.com/delph-in/docs/wiki/StanfordSchedule/_edit)]{% endraw %}

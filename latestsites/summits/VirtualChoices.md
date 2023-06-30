@@ -417,4 +417,5 @@ T.J.: where we mark what’s required in multiple places, so serializing
 only what’s required would create a dependency again.
 
 Appreciation all around!
-<update date omitted for speed>{% endraw %}
+
+Last update: 2020-07-14 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/VirtualChoices/_edit)]{% endraw %}

@@ -160,4 +160,5 @@ or whatever number you like.
     publisher = "The COLING 2012 Organizing Committee",
     url = "https://www.aclweb.org/anthology/C12-1043",
     pages = "695--710"}
-<update date omitted for speed>{% endraw %}
+
+Last update: 2021-06-21 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/AceFaq/_edit)]{% endraw %}

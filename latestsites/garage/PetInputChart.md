@@ -236,4 +236,5 @@ For **debian** and derivatives this means:
 rather than:
 
     apt-get install sudo apt-get install libxerces25 
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/PetInputChart/_edit)]{% endraw %}

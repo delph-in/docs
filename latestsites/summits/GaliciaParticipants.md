@@ -42,4 +42,5 @@ Please add times **in UTC**:
 | Alex Lascarides | June 26th, 28th | Online ||
 | ... | ... | ... | ... |
 | "Virtual-Tarou" | June 26-30 | Virtual, every day from 10:00-17:00 UTC  | This is an example, with times, for a virtual participant |
-<update date omitted for speed>{% endraw %}
+
+Last update: 2023-06-23 by Alex Lascarides [[edit](https://github.com/delph-in/docs/wiki/GaliciaParticipants/_edit)]{% endraw %}

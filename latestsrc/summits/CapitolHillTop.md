@@ -121,4 +121,5 @@ Please add your name below if you plan to go:
 ## Photos
 
 Sanghoun's photos: [link](https://goo.gl/photos/yNf2KheYyyz9Wojz5)
-<update date omitted for speed>{% endraw %}
+
+Last update: 2017-01-15 by SanghounSong [[edit](https://github.com/delph-in/docs/wiki/CapitolHillTop/_edit)]{% endraw %}

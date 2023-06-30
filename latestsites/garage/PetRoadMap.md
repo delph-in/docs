@@ -28,4 +28,5 @@ functionality where possible
     - necessary resources (data to train / models, training
 scripts, etc)
 - release plans / procedures (LOGON?)
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/PetRoadMap/_edit)]{% endraw %}

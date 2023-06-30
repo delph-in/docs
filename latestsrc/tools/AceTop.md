@@ -34,4 +34,5 @@ Read-only public SVN access to the ACE source code is available to
 interested parties, e.g. the (unstable) development trunk:
 
       svn co http://sweaglesw.org/svn/ace/trunk ace
-<update date omitted for speed>{% endraw %}
+
+Last update: 2022-07-22 by Francis Bond [[edit](https://github.com/delph-in/docs/wiki/AceTop/_edit)]{% endraw %}

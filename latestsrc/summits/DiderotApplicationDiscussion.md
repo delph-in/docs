@@ -482,4 +482,5 @@ formalisms, they partially try and reinvent the wheel.
 * * *
 
 Scribed by [GuyEmerson](https://delph-in.github.io/docs/garage/GuyEmerson).
-<update date omitted for speed>{% endraw %}
+
+Last update: 2022-11-02 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/DiderotApplicationDiscussion/_edit)]{% endraw %}

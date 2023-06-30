@@ -162,4 +162,5 @@ files) \[Chris\]
 - SIG: educational applications \[Olga,
 [CambridgeEducation](https://delph-in.github.io/docs/summits/CambridgeEducation)\]
 - SIG: parsing efficiency \[Woodley\]
-<update date omitted for speed>{% endraw %}
+
+Last update: 2020-07-28 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/VirtualSchedule/_edit)]{% endraw %}

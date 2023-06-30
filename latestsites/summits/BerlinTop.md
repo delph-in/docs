@@ -225,4 +225,5 @@ Proposed discussion topics:
 - [BerlinPhotos](https://delph-in.github.io/docs/summits/BerlinPhotos) (photos taken during the summit)
 - [EvaluationParCorp](https://delph-in.github.io/docs/summits/EvaluationParCorp) (continuation of discussion
 about parallel corpora)
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/BerlinTop/_edit)]{% endraw %}

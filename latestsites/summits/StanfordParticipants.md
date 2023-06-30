@@ -104,4 +104,5 @@ but hope to Skype in.
 - [AnnieZaenen](/AnnieZaenen) - yes
 - [OlgaZamaraeva](https://delph-in.github.io/docs/garage/OlgaZamaraeva) - June 16-20
 - [YiZhang](https://delph-in.github.io/docs/garage/YiZhang)
-<update date omitted for speed>{% endraw %}
+
+Last update: 2016-06-16 by GlennSlayden [[edit](https://github.com/delph-in/docs/wiki/StanfordParticipants/_edit)]{% endraw %}

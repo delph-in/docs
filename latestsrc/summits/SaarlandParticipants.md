@@ -92,4 +92,5 @@ approval =))
 - [JustinChunleiYang](https://delph-in.github.io/docs/garage/JustinChunleiYang) (It's a shame I can't make
 it)
 - [YiZhang](https://delph-in.github.io/docs/garage/YiZhang) (attending, July 29 - Aug. 2)
-<update date omitted for speed>{% endraw %}
+
+Last update: 2013-08-01 by AnnCopestake [[edit](https://github.com/delph-in/docs/wiki/SaarlandParticipants/_edit)]{% endraw %}

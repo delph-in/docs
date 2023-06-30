@@ -216,4 +216,5 @@ Possible values of type:
 
 (The following type names are obsolete: symbol, string, string-list,
 string-fs, string-diff-fs, mixed-fs, mixed-diff-fs.)
-<update date omitted for speed>{% endraw %}
+
+Last update: 2005-11-16 by BenjaminWaldron [[edit](https://github.com/delph-in/docs/wiki/LexDbFieldMappings/_edit)]{% endraw %}

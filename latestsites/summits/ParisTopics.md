@@ -117,4 +117,5 @@ For DELPH-IN 2011:
 
 - Feature-centric TFS representation and manipulation
 [GlennSlayden](https://delph-in.github.io/docs/garage/GlennSlayden)
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/ParisTopics/_edit)]{% endraw %}

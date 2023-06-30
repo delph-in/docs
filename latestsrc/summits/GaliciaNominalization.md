@@ -97,4 +97,5 @@ Dan: Presumably an adjective might help disambiguate:
 
 Guy: *I enjoyed my gift of a delicious coffee cake so much I want to give one to my friends* --- counterexample to above claims, found in a review on the web. So maybe this isn't grammaticalized.
 
-<update date omitted for speed>{% endraw %}
+
+Last update: 2023-06-27 by emilymbender [[edit](https://github.com/delph-in/docs/wiki/GaliciaNominalization/_edit)]{% endraw %}

@@ -11,4 +11,5 @@ Could we parse something, look for edges that appear and are never in a
 real sentence, and offer them to the grammarian as places to try to get
 rid of. Look at something like the small trees used in the maxent model?
 (Glenn and Dan)
-<update date omitted for speed>{% endraw %}
+
+Last update: 2017-01-11 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/CapitolHillPerformance/_edit)]{% endraw %}

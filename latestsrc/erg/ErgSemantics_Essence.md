@@ -525,4 +525,5 @@ thesis, University of Washington.
 
 Steedman, Mark. 2012. *Taking scope: The natural semantics of
 quantifiers.* MIT Press.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2022-11-18 by emilymbender [[edit](https://github.com/delph-in/docs/wiki/ErgSemantics_Essence/_edit)]{% endraw %}

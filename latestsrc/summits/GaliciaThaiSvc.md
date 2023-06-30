@@ -63,4 +63,5 @@ Vipasha: With posture verbs, you would negate the whole thing. Specifically with
 
 Emily/Dan: So for resultatives then it would have to be scopal between the result predication and the ARG2 of it.
 
-<update date omitted for speed>{% endraw %}
+
+Last update: 2023-06-27 by emilymbender [[edit](https://github.com/delph-in/docs/wiki/GaliciaThaiSvc/_edit)]{% endraw %}

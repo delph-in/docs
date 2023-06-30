@@ -107,4 +107,5 @@ save few results: see \*tsdb-maximal-number-of-results\*)
 Values include:
 
     (#\g grammar), (#\v version). (#\t skeleton), (#\d date), (#\s system), (#\% "%")
-<update date omitted for speed>{% endraw %}
+
+Last update: 2012-08-07 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/ItsdbCustomization/_edit)]{% endraw %}

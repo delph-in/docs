@@ -410,4 +410,5 @@ arities, to avoid having to load the grammar to find this. See
 [SemiRfc](https://delph-in.github.io/docs/tools/SemiRfc).
 
 \[Scribe is done\]
-<update date omitted for speed>{% endraw %}
+
+Last update: 2015-11-19 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/TomarMrsWellformedness/_edit)]{% endraw %}

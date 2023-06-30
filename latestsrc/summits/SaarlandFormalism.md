@@ -179,4 +179,5 @@ encode some ambiguous properties. but haven't thought about generation
 much. In sum, for the whole DELPH-IN, this might be some thought out of
 the box. We could do some experimental study about soft-contraints,
 disjunctions, etc., brining them "back" to the formalism.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2013-08-04 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/SaarlandFormalism/_edit)]{% endraw %}

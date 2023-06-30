@@ -133,4 +133,5 @@ organizing the WeScience Treebank.
 # Outlook: Next Steps
 
 # Acknowledgements
-<update date omitted for speed>{% endraw %}
+
+Last update: 2012-08-05 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/WeScience/_edit)]{% endraw %}

@@ -459,4 +459,5 @@ well with packing.
 Ann: Are there any tools for looking at the packed forest? FFTB?
 
 Dan: He's computing the disciminants without unpacking...
-<update date omitted for speed>{% endraw %}
+
+Last update: 2018-06-27 by GuyEmerson [[edit](https://github.com/delph-in/docs/wiki/DiderotUnderspecifiedAttachment/_edit)]{% endraw %}

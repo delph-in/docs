@@ -164,4 +164,5 @@ is a link to the archive near the top of the page.
 
 There is also an active [stack-exchange style
 forum](http://discourse.delph-in.net), using the Discourse platform.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2023-06-28 by Francis Bond [[edit](https://github.com/delph-in/docs/wiki/Home/_edit)]{% endraw %}

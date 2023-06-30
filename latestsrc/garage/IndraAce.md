@@ -22,4 +22,5 @@ menggonggong* "dogs bark":
 Option -e is used to generate all possible sentences from the MRSes.
 
     $ echo "anjing menggonggong" | ace -g ind.dat -Tf | ace -g ind.dat -e
-<update date omitted for speed>{% endraw %}
+
+Last update: 2015-07-05 by DavidMoeljadi [[edit](https://github.com/delph-in/docs/wiki/IndraAce/_edit)]{% endraw %}

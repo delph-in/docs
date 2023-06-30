@@ -94,4 +94,5 @@ Summit](https://delph-in.github.io/docs/summits/CambridgeTop)
 - [OlgaZamaraeva](https://delph-in.github.io/docs/garage/OlgaZamaraeva) (Mon-Fri)
 - [YiZhang](https://delph-in.github.io/docs/garage/YiZhang)
 - [LiljaØvrelid](/Lilja%C3%98vrelid)
-<update date omitted for speed>{% endraw %}
+
+Last update: 2019-07-18 by BrunoCuconato [[edit](https://github.com/delph-in/docs/wiki/CambridgeParticipants/_edit)]{% endraw %}

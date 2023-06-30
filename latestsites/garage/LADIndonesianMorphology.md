@@ -1132,4 +1132,5 @@ believe otherwise.
 Francis: OK thanks! we'll do that!
 
 All: See you all soon!
-<update date omitted for speed>{% endraw %}
+
+Last update: 2021-06-04 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/LADIndonesianMorphology/_edit)]{% endraw %}

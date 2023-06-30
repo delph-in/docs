@@ -40,4 +40,5 @@ managing it so that folks don't obsess over less-relevant small tasks.
 What are the interesting open issues that are amenable to this approach?
 Minimize the number of assumptions (over-simplifying) in the task set
 up.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2006-06-29 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/FeforOpenIssues/_edit)]{% endraw %}

@@ -550,434 +550,2989 @@ not affecting too many unambiguous translations.</p>
 
 <h2 id="tanaka-dev-jaen-09-05-21">tanaka-dev-jaen-*/09-05-21</h2>
 
-<p>|                                                            |               |             |                 |                   |
-|————————————————————|—————|————-|—————–|——————-|
-| Translation Rule Name                                      | Delta average | Delta total | # of ambiguous | # of unambiguous |
-| ZERO_ARG1_12_EF                                         | -0.106374     | -4.8932     | 46              | 58                |
-| ZERO_ARG2_12_EF                                         | -0.0930382    | -3.1633     | 34              | 10                |
-| ZERO_ARG1_1_EF                                          | -0.0749769    | -2.9241     | 39              | 25                |
-| DE_P_REL-BY_P_REL                                      | -0.115724     | -2.4302     | 21              | 0                 |
-| EXIST_V–LIVE_V_1–EDICT-OMTR                           | -0.19532      | -1.9532     | 10              | 1                 |
-| DE_P_REL-WITH_P_REL                                    | -0.0603913    | -1.389      | 23              | 0                 |
-| MOTSU_V–CARRY_V_1–EDICT-OMTR                          | -0.230317     | -1.3819     | 6               | 0                 |
-| MOTSU_V–HOLD_V_1–EDICT-OMTR                           | -0.26714      | -1.3357     | 5               | 0                 |
-| UDEF-DEF_UDEF_A_Q                                       | -0.0765824    | -1.3019     | 17              | 211               |
-| EXIST_V_REL-BE_V_THERE_REL-MTR                        | -0.180386     | -1.2627     | 7               | 10                |
-| KAU_V_1–VALUE_V_1–EDICT-OMTR                         | -0.414867     | -1.2446     | 3               | 0                 |
-| EXIST_V–LIVE_A_1–EDICT-OMTR                           | -0.307575     | -1.2303     | 4               | 0                 |
-| DEF_Q                                                     | -0.20475      | -1.2285     | 6               | 25                |
-| COORD-AND_C_REL                                          | -0.198617     | -1.1917     | 6               | 15                |
-| EXIST_V–HAPPEN_V_1–EDICT-MTR                          | -0.197383     | -1.1843     | 6               | 0                 |
-| CONJ_PAST_EF                                             | -0.272575     | -1.0903     | 4               | 17                |
-| ALL_MARK_DITCH_EF                                       | -0.0278538    | -1.0863     | 39              | 175               |
-| MARK-COMPOUND_REL-LBL-MTR                                 | -0.0343355    | -1.0644     | 31              | 38                |
-| SWAP-COMPOUND_REL-LBL-MTR                                 | -0.0343355    | -1.0644     | 31              | 38                |
-| TOTEMO_A_1-REALLY_A_1-MTR                              | -0.243975     | -0.9759     | 4               | 0                 |
-| TOTEMO_A_2-REALLY_A_1-MTR                              | -0.19518      | -0.9759     | 5               | 0                 |
-| IRU_V–EXIST_V_JF                                       | -0.226775     | -0.9071     | 4               | 2                 |
-| UDEF_COMPOUND_Q_MTR                                     | -0.0475316    | -0.9031     | 19              | 36                |
-| BE_V_THERE_REL-NEG_REL–UDEF_Q_REL-ANY_Q_REL-OMTR  | -0.8705       | -0.8705     | 1               | 2                 |
-| HANASHI_N–STORY_N_1–MOSES-OMTR                        | -0.191375     | -0.7655     | 4               | 0                 |
-| HORU_V–EXCAVATE_V_1–EDICT-MTR                         | -0.7292       | -0.7292     | 1               | 0                 |
-| NI_P_REL-UNSPEC_LOC_REL                                | -0.0402471    | -0.6842     | 17              | 64                |
-| KIKU_V_2–ASK_V_1–EDICT-OMTR                          | -0.33865      | -0.6773     | 2               | 1                 |
-| NO_P_REL-COMPOUND_REL-OMTR                              | -0.0275913    | -0.6346     | 23              | 13                |
-| MASS_CLASSIFIER_NOUN_EF                                 | -0.0849857    | -0.5949     | 7               | 3                 |
-| QUANTIFIER_INDIVIDUALITY_1_EF                           | -0.0849857    | -0.5949     | 7               | 3                 |
-| KAU_V_1–STIR_V_1–EDICT-MTR                           | -0.2963       | -0.5926     | 2               | 0                 |
-| COP_ID_REL+NEG_REL-BE_V_ID_REL-NEG_REL_MTR         | -0.29155      | -0.5831     | 2               | 1                 |
-| PROGRESSIVE_NOM_EF                                       | -0.0610333    | -0.5493     | 9               | 8                 |
-| RELATION-NOMINALIZATION_REL-MTR                           | -0.0610333    | -0.5493     | 9               | 8                 |
-| KEKKYOKU_A–EVENTUAL_A_1–EDICT-OMTR                    | -0.5203       | -0.5203     | 1               | 0                 |
-| EMBED_NO+OF_REL_NOUN                                    | -0.25585      | -0.5117     | 2               | 0                 |
-| KIKAN_S_2–FEEDBACK_N_1–EDICT-MTR                     | -0.5107       | -0.5107     | 1               | 0                 |
-| KUWAWARU_V_1–INCREASE_V_1–EDICT-OMTR                 | -0.5059       | -0.5059     | 1               | 0                 |
-| ASOBU_V_1–PLAY_V_1–EDICT-OMTR                        | -0.4988       | -0.4988     | 1               | 0                 |
-| MASS_MARK_HAPPINESS_EF                                  | -0.2367       | -0.4734     | 2               | 0                 |
-| KIRU_V_2–TURN_V_1–EDICT-OMTR                         | -0.155567     | -0.4667     | 3               | 0                 |
-| NEG_REL-NEG_REL-MTR                                      | -0.151133     | -0.4534     | 3               | 7                 |
-| KOUFUKU_N_1–HAPPINESS_N_1–MOSES-MTR                  | -0.4442       | -0.4442     | 1               | 0                 |
-| SHITSUREI_A–RUDE_A_1–EDICT-MTR                        | -0.3821       | -0.3821     | 1               | 0                 |
-| BE_V_THERE_REL–UDEF_Q_REL-UDEF_Q_REL-OMTR          | -0.0716       | -0.358      | 5               | 5                 |
-| COUNT_MARK_BOY_EF                                       | -0.1051       | -0.3153     | 3               | 2                 |
-| KIMI_N_KUNSHU–BOY_N_1–EDICT-OMTR                     | -0.1051       | -0.3153     | 3               | 0                 |
-| GENERIC-NOM-MTR                                            | -0.0445143    | -0.3116     | 7               | 0                 |
-| NARU_V_5–FLAKE_V_1–MOSES-OMTR                        | -0.15015      | -0.3003     | 2               | 0                 |
-| SOSOGU_V_2–FILL_V_CAUSE–EDICT-OMTR                   | -0.2816       | -0.2816     | 1               | 0                 |
-| MINORU_3–STONE–EDICT-MTR                                | -0.2014       | -0.2014     | 1               | 0                 |
-| KENRYOKU_N_1–INFLUENCE_N_1–EDICT-OMTR                | -0.1979       | -0.1979     | 1               | 0                 |
-| RARERU_V_CAN_REL-CAN_V_MODAL_REL-MTR                 | -0.0652333    | -0.1957     | 3               | 6                 |
-| OCHIRU_V_3–DROP_V_CAUSE–EDICT-MTR                    | -0.1953       | -0.1953     | 1               | 0                 |
-| OCHIRU_V_3–FAIL_V_1–EDICT-OMTR                       | -0.1953       | -0.1953     | 1               | 0                 |
-| AME_N-RAIN_N_1-MTR                                      | -0.0628       | -0.1884     | 3               | 0                 |
-| FURU_V-FALL_V_1-MTR                                     | -0.0628       | -0.1884     | 3               | 0                 |
-| COUNT_MARK_WORKS_EF                                     | -0.046925     | -0.1877     | 4               | 0                 |
-| PURAL_MARK_WORKS_EF                                     | -0.046925     | -0.1877     | 4               | 0                 |
-| SHIGOTO_N–WORKS_N_1–MOSES-OMTR                        | -0.046925     | -0.1877     | 4               | 0                 |
-| SUKKARI_A_1–THOROUGH_A_1–EDICT-MTR                   | -0.09235      | -0.1847     | 2               | 0                 |
-| OCHIRU_V_1–CRASH_V_1–EDICT-OMTR                      | -0.1834       | -0.1834     | 1               | 0                 |
-| SUKKARI_A_1–ALL_A_1–EDICT-OMTR                       | -0.08045      | -0.1609     | 2               | 0                 |
-| KYOUFU_S_1–FEAR_N_1–MOSES-OMTR                       | -0.1607       | -0.1607     | 1               | 0                 |
-| MITSUKERU_V–DISCOVER_V_1–EDICT-OMTR                   | -0.1603       | -0.1603     | 1               | 0                 |
-| MITSUKERU_V–LOCATE_V_1–EDICT-MTR                      | -0.1603       | -0.1603     | 1               | 0                 |
-| IRU_V_NEED–NEED_V_1–EDICT-MTR                        | -0.1461       | -0.1461     | 1               | 0                 |
-| ZANNEN_A–BAD_A_1–SLT-OMTR                             | -0.146        | -0.146      | 1               | 0                 |
-| NAMED_SG_1_EF                                           | -0.06735      | -0.1347     | 2               | 22                |
-| PROPER_NAMED_Q                                           | -0.06735      | -0.1347     | 2               | 19                |
-| COUNT_MARK_SITTING_EF                                   | -0.1295       | -0.1295     | 1               | 0                 |
-| SUWARI_N_1–SITTING_N_1–EDICT-OMTR                    | -0.1295       | -0.1295     | 1               | 0                 |
-| SUWARI_N_1–STABILITY_N_1–EDICT-MTR                   | -0.1295       | -0.1295     | 1               | 0                 |
-| BASU_N–BATH_N_1–EDICT-OMTR                            | -0.1274       | -0.1274     | 1               | 0                 |
-| COUNT_MARK_BATH_EF                                      | -0.1274       | -0.1274     | 1               | 0                 |
-| HOSHI_N_1–SUSPECT_N_1–EDICT-MTR                      | -0.06345      | -0.1269     | 2               | 0                 |
-| CONJ_PRES_EF                                             | -0.0421667    | -0.1265     | 3               | 11                |
-| SORA_N–NIGHT_N_OF+SKY_N_1–MOSES-OMTR                | -0.0629       | -0.1258     | 2               | 0                 |
-| COUNT_MARK_WILL_EF                                      | -0.125        | -0.125      | 1               | 0                 |
-| KAMI_N_1–PAPER_N_1+WILL_N_1–MOSES-MTR              | -0.125        | -0.125      | 1               | 0                 |
-| KOKORO_N_1–MIND_N_1–EDICT-OMTR                       | -0.05995      | -0.1199     | 2               | 0                 |
-| RYOURI_S_1–CUISINE_N_1–EDICT-MTR                     | -0.0572       | -0.1144     | 2               | 0                 |
-| IKU_V_1–CONTINUE_V_1–EDICT-MTR                       | -0.028275     | -0.1131     | 4               | 0                 |
-| VN-N_JF                                                   | -0.0155       | -0.1085     | 7               | 23                |
-| KIKAN_S_2–RETURN_V_1–EDICT-OMTR                      | -0.1022       | -0.1022     | 1               | 0                 |
-| TO_P_WITH_REL-WITH_P_REL                              | -0.0327333    | -0.0982     | 3               | 1                 |
-| SHITSUREI_S–LEAVE_V_1–EDICT-OMTR                      | -0.0961       | -0.0961     | 1               | 0                 |
-| COUNT_MARK_MASTER_EF                                    | -0.0466       | -0.0932     | 2               | 1                 |
-| KIMI_N_KUNSHU–MASTER_N_1–EDICT-OMTR                  | -0.0466       | -0.0932     | 2               | 0                 |
-| UTSU_V_3–BEAT_V_TO–EDICT-MTR                         | -0.0921       | -0.0921     | 1               | 0                 |
-| KOZOTTE_A_1–UNANIMOUS_A_1–EDICT-MTR                  | -0.0917       | -0.0917     | 1               | 0                 |
-| OSHIERU_V_1–INFORM_V_1–EDICT-OMTR                    | -0.0917       | -0.0917     | 1               | 0                 |
-| OSHIERU_V_1–INSTRUCT_V_ON–EDICT-MTR                  | -0.0917       | -0.0917     | 1               | 0                 |
-| COUNT_MARK_PART_EF                                      | -0.04465      | -0.0893     | 2               | 0                 |
-| YASASHII_A_3–SIMPLE_A_1–TC-OMTR                      | -0.0885       | -0.0885     | 1               | 0                 |
-| YASASHII_A_3–SOFT_A_1–TC-MTR                         | -0.0885       | -0.0885     | 1               | 0                 |
-| TAORU_N_1–WET_A_1+TOWEL_N_1–MOSES-MTR              | -0.0875       | -0.0875     | 1               | 0                 |
-| KAORI_N_1–FRAGRANCE_N_1–EDICT-MTR                    | -0.085        | -0.085      | 1               | 0                 |
-| HIKU_V_1–CATCH_V_1–EDICT-OMTR                        | -0.084        | -0.084      | 1               | 0                 |
-| HIKU_V_1–PLAY_V_1–EDICT-OMTR                         | -0.084        | -0.084      | 1               | 0                 |
-| MOU_A_7–SOON_A_1–EDICT-MTR                           | -0.0267667    | -0.0803     | 3               | 0                 |
-| IU_V_4–CALL_V_1–EDICT-MTR                            | -0.0258667    | -0.0776     | 3               | 0                 |
-| KAKU_V_11–BREAK_V_CAUSE–EDICT-OMTR                   | -0.0774       | -0.0774     | 1               | 0                 |
-| KAKU_V_11–LACK_V_1–EDICT-MTR                         | -0.0774       | -0.0774     | 1               | 0                 |
-| MODAL_MODIFIER_EF                                        | -0.0774       | -0.0774     | 1               | 10                |
-| OMOU_V_2–FEEL_V_1–EDICT-MTR                          | -0.0255333    | -0.0766     | 3               | 0                 |
-| OMOU_V_2–WANT_V_1–EDICT-OMTR                         | -0.0255333    | -0.0766     | 3               | 0                 |
-| COUNT_MARK_RESULT_EF                                    | -0.0354       | -0.0708     | 2               | 0                 |
-| KEKKA_S_1–RESULT_N_OF–MOSES-OMTR                     | -0.0708       | -0.0708     | 1               | 0                 |
-| COUNT_MARK_EXAM_EF                                      | -0.067        | -0.067      | 1               | 0                 |
-| HAJIMERU_V–START_V_CAUSE–EDICT-MTR                    | -0.067        | -0.067      | 1               | 0                 |
-| SHIKEN_S–EXAM_N_1–MOSES-MTR                           | -0.067        | -0.067      | 1               | 0                 |
-| YUSABURU_V_1–ROCK_V_1–EDICT-OMTR                     | -0.067        | -0.067      | 1               | 0                 |
-| MAIKU_N_1–MICROPHONE_N_1–EDICT-MTR                   | -0.0667       | -0.0667     | 1               | 0                 |
-| COUNT_MARK_FRIEND_EF                                    | -0.03215      | -0.0643     | 2               | 0                 |
-| KOKORO_N_1–FRIEND_N_1–EDICT-OMTR                     | -0.03215      | -0.0643     | 2               | 0                 |
-| TOKERU_V–MELT_V_1–EDICT-OMTR                          | -0.0628       | -0.0628     | 1               | 0                 |
-| COUNT_MARK_CHILL_EF                                     | -0.0625       | -0.0625     | 1               | 0                 |
-| COUNT_MARK_FIGURE_EF                                    | -0.0625       | -0.0625     | 1               | 0                 |
-| DAITOURYOU_N_1–PRESIDENCY_N_1–MOSES-MTR              | -0.0625       | -0.0625     | 1               | 0                 |
-| KANKI_N_1–CHILL_N_1–EDICT-MTR                        | -0.0625       | -0.0625     | 1               | 0                 |
-| SAMUKE_N_1–CHILL_N_1–EDICT-MTR                       | -0.0625       | -0.0625     | 1               | 0                 |
-| SUGATA_N_1–FIGURE_N_1–EDICT-OMTR                     | -0.0625       | -0.0625     | 1               | 0                 |
-| COUNT_MARK_SMELL_EF                                     | -0.0582       | -0.0582     | 1               | 0                 |
-| KAORI_N_1–SMELL_N_OF–EDICT-OMTR                      | -0.0582       | -0.0582     | 1               | 0                 |
-| SURU_V_INTRANS–ANNOUNCE_V_TO–MOSES-MTR               | -0.0291       | -0.0582     | 2               | 2                 |
-| BU_N_2–DEPARTMENT_N_1–EDICT-MTR                      | -0.058        | -0.058      | 1               | 0                 |
-| BU_N_2–PART_N_1–EDICT-OMTR                           | -0.058        | -0.058      | 1               | 0                 |
-| COUNT_MARK_DEPARTMENT_EF                                | -0.058        | -0.058      | 1               | 1                 |
-| COUNT_MARK_PRESENCE_EF                                  | -0.0566       | -0.0566     | 1               | 0                 |
-| OMAE_N_2–PRESENCE_N_1–EDICT-MTR                      | -0.0566       | -0.0566     | 1               | 0                 |
-| MINA_A_2–ALTOGETHER_A_1–TC-MTR                       | -0.0555       | -0.0555     | 1               | 0                 |
-| SHI_N_3–POEM_N_1–MOSES-OMTR                          | -0.0529       | -0.0529     | 1               | 0                 |
-| MISERU_V_1–DISPLAY_V_TO–EDICT-MTR                    | -0.0528       | -0.0528     | 1               | 0                 |
-| BUJI_N_1–QUIETNESS_N_1–EDICT-MTR                     | -0.0522       | -0.0522     | 1               | 0                 |
-| HAIRU_V–SET_A_1–EDICT-OMTR                            | -0.0522       | -0.0522     | 1               | 0                 |
-| CHUUI_S_2–ADVICE_N_1–EDICT-OMTR                      | -0.0511       | -0.0511     | 1               | 0                 |
-| MASS_MARK_ADVICE_EF                                     | -0.0511       | -0.0511     | 1               | 1                 |
-| COP_ID_REL-UNKNOWN_REL-MTR                              | -0.05         | -0.05       | 1               | 0                 |
-| KYOUI_N_3–MENACE_N_1–EDICT-MTR                       | -0.05         | -0.05       | 1               | 0                 |
-| OKONAU_V_1–DO_V_1–EDICT-OMTR                         | -0.05         | -0.05       | 1               | 0                 |
-| OKONAU_V_1–PERFORM_V_1–EDICT-MTR                     | -0.05         | -0.05       | 1               | 0                 |
-| KIRU_V_1–WEAR_V_1–EDICT-MTR                          | -0.0164333    | -0.0493     | 3               | 0                 |
-| COUNT_MARK_CINEMA_EF                                    | -0.0487       | -0.0487     | 1               | 0                 |
-| EIGA_N–CINEMA_N_1–MOSES-MTR                           | -0.0487       | -0.0487     | 1               | 0                 |
-| EIGA_N–FILM_N_1–MOSES-OMTR                            | -0.0487       | -0.0487     | 1               | 2                 |
-| NETSU_N_1–FEVER_N_1–EDICT-MTR                        | -0.0487       | -0.0487     | 1               | 0                 |
-| MICHIRU_V_2–MATURE_A_1–EDICT-OMTR                    | -0.047        | -0.047      | 1               | 0                 |
-| 言いつける_V_1_G–REPORT_V_TO–EDICT-MTR              | -0.0461       | -0.0461     | 1               | 0                 |
-| IKU_V_1–GO_V_1–EDICT-OMTR                            | -0.010625     | -0.0425     | 4               | 0                 |
-| DOUMO_A–QUITE_A_1–EDICT-OMTR                          | -0.0417       | -0.0417     | 1               | 0                 |
-| KENKOU_N_1–SOUND_A_1+HEALTH_N_1–MOSES-MTR          | -0.02085      | -0.0417     | 2               | 0                 |
-| MORAU_V_1–ACCEPT_V_1–EDICT-OMTR                      | -0.0417       | -0.0417     | 1               | 0                 |
-| SHITAGAU_V_1–ACCOMPANY_V_1–EDICT-MTR                 | -0.02085      | -0.0417     | 2               | 0                 |
-| SHITAGAU_V_1–FOLLOW_V_1–EDICT-OMTR                   | -0.02085      | -0.0417     | 2               | 0                 |
-| COUNT_MARK_WORKER_EF                                    | -0.0416       | -0.0416     | 1               | 0                 |
-| JUUGYOUIN_N–WORKER_N_1–EDICT-MTR                      | -0.0416       | -0.0416     | 1               | 0                 |
-| JUUGYOU_S_1+IN_N–WORKER_N_1–EDICT-OMTR              | -0.0416       | -0.0416     | 1               | 0                 |
-| KENKOU_A_2–SOUND_A_1–EDICT-OMTR                      | -0.0392       | -0.0392     | 1               | 1                 |
-| TOKORO_N_1–SPACE_N_OF–EDICT-MTR                      | -0.0392       | -0.0392     | 1               | 0                 |
-| KURERU_V_3-GIVE_V_1                                    | -0.0371       | -0.0371     | 1               | 3                 |
-| HITO_N–PERSON_N_1–EDICT-OMTR                          | -0.0091       | -0.0364     | 4               | 0                 |
-| MITASU_V–FILL_V_CAUSE–EDICT-MTR                       | -0.01785      | -0.0357     | 2               | 0                 |
-| UNMEI_N_1–DESTINY_N_1–MOSES-MTR                      | -0.0357       | -0.0357     | 1               | 0                 |
-| MODORU_V–RECOVER_V_1–EDICT-MTR                        | -0.0177       | -0.0354     | 2               | 0                 |
-| DEKAKERU_V_1–START_V_CAUSE–EDICT-MTR                 | -0.0344       | -0.0344     | 1               | 1                 |
-| COUNT_MARK_ARMS_EF                                      | -0.0335       | -0.0335     | 1               | 0                 |
-| PURAL_MARK_ARMS_EF                                      | -0.0335       | -0.0335     | 1               | 0                 |
-| UDE_N_1–ARMS_N_1–MOSES-MTR                           | -0.0335       | -0.0335     | 1               | 0                 |
-| COUNT_MARK_KISS_EF                                      | -0.0333       | -0.0333     | 1               | 0                 |
-| HONTOU-REAL-MTR                                            | -0.0333       | -0.0333     | 1               | 0                 |
-| KISU_N_2–KISS_N_1–MOSES-MTR                          | -0.0333       | -0.0333     | 1               | 0                 |
-| BYOUKI_N–ILLNESS_N_1–MOSES-OMTR                       | -0.011        | -0.033      | 3               | 0                 |
-| CHUUSHIN_N+BU_N_2–CENTRAL_A_1+PART_N_1–EDICT-MTR  | -0.0313       | -0.0313     | 1               | 0                 |
-| KANJIRU_V_1–EXPERIENCE_V_1–EDICT-MTR                 | -0.0313       | -0.0313     | 1               | 0                 |
-| KANJIRU_V_1–SENSE_V_1–EDICT-OMTR                     | -0.0313       | -0.0313     | 1               | 0                 |
-| COUNT_MARK_LOCKER_EF                                    | -0.0305       | -0.0305     | 1               | 0                 |
-| TODANA_N_1–LOCKER_N_1–EDICT-OMTR                     | -0.0305       | -0.0305     | 1               | 0                 |
-| MASS_MARK_LUCK_EF                                       | -0.0292       | -0.0292     | 1               | 0                 |
-| SHIAWASE_N–HAPPINESS_N_1–EDICT-OMTR                   | -0.0292       | -0.0292     | 1               | 0                 |
-| SHIAWASE_N–LUCK_N_1–EDICT-OMTR                        | -0.0292       | -0.0292     | 1               | 0                 |
-| COUNT_MARK_TRIP_EF                                      | -0.0092       | -0.0276     | 3               | 0                 |
-| COUNT_MARK_VISIT_EF                                     | -0.0138       | -0.0276     | 2               | 0                 |
-| HAJIMETE_N–TRIP_N_OF–SLT-OMTR                         | -0.0138       | -0.0276     | 2               | 0                 |
-| HAJIMETE_N–VISIT_N_TO–SLT-MTR                         | -0.0138       | -0.0276     | 2               | 0                 |
-| IKIKAERU_V_1–REVIVE_V_CAUSE–MOSES-MTR                | -0.0273       | -0.0273     | 1               | 0                 |
-| 慈雨_N_1_G–WELCOME_A_1+RAINS_N_1–EDICT-OMTR       | -0.0273       | -0.0273     | 1               | 0                 |
-| MEIHAKU_A_2–OPEN_A_1–EDICT-OMTR                      | -0.0134       | -0.0268     | 2               | 0                 |
-| KO_N_9–YOUNG_N_1–EDICT-MTR                           | -0.0262       | -0.0262     | 1               | 0                 |
-| HITO_N-PERSON_N_1-MTR                                   | -0.00625      | -0.025      | 4               | 0                 |
-| NI_P+ADJ-ADV                                              | -0.01245      | -0.0249     | 2               | 4                 |
-| COUNT_MARK_AMOUNT_EF                                    | -0.0243       | -0.0243     | 1               | 1                 |
-| COUNT_MARK_DEGREE_EF                                    | -0.0243       | -0.0243     | 1               | 0                 |
-| TEIDO_N_1–AMOUNT_N_OF–EDICT-OMTR                     | -0.0243       | -0.0243     | 1               | 0                 |
-| TEIDO_N_1–DEGREE_N_OF–EDICT-OMTR                     | -0.0243       | -0.0243     | 1               | 0                 |
-| TO_P_SCONJ_REL-AND_C_REL                              | -0.0237       | -0.0237     | 1               | 9                 |
-| MIRU_V_1–LOOK_V_1–EDICT-MTR                          | -0.00456      | -0.0228     | 5               | 0                 |
-| NARABERU_V–LINE_V_UP–EDICT-OMTR                       | -0.0228       | -0.0228     | 1               | 0                 |
-| NARABERU_V–SET_V_UP–EDICT-MTR                         | -0.0228       | -0.0228     | 1               | 0                 |
-| HAKARU_V_1–MEASURE_V_1–EDICT-OMTR                    | -0.01125      | -0.0225     | 2               | 0                 |
-| SHIRABERU_V_1–CHECK_V_1–EDICT-MTR                    | -0.0224       | -0.0224     | 1               | 0                 |
-| SHIRABERU_V_1–STUDY_V_1–EDICT-OMTR                   | -0.0224       | -0.0224     | 1               | 0                 |
-| TETTEITEKI_A_1–THOROUGH_A_1–EDICT-MTR                | -0.0224       | -0.0224     | 1               | 0                 |
-| COUNT_MARK_PERSON_EF                                    | -0.00318571   | -0.0223     | 7               | 1                 |
-| PERSON_N                                                  | -0.00318571   | -0.0223     | 7               | 3                 |
-| COUNT_MARK_RULER_EF                                     | -0.0221       | -0.0221     | 1               | 0                 |
-| KIMI_N_KUNSHU–RULER_N_1–EDICT-MTR                    | -0.0221       | -0.0221     | 1               | 0                 |
-| SAISEI_S_2–LISTEN_V_TO–EDICT-MTR                     | -0.0219       | -0.0219     | 1               | 0                 |
-| CHOUJOU_N_1–SUMMIT_N_1–EDICT-MTR                     | -0.0208       | -0.0208     | 1               | 0                 |
-| COUNT_MARK_SUMMIT_EF                                    | -0.0208       | -0.0208     | 1               | 0                 |
-| KYANPU_S_1–CAMP_N_1–MOSES-OMTR                       | -0.0208       | -0.0208     | 1               | 0                 |
-| TABITABI_A–OFTEN_A_1–EDICT-OMTR                       | -0.0208       | -0.0208     | 1               | 0                 |
-| MORE_EF                                                   | -0.0202       | -0.0202     | 1               | 3                 |
-| YORI_P_REL-COMP_REL                                     | -0.0202       | -0.0202     | 1               | 0                 |
-| CHIKARA_N–HELP_N_1–EDICT-OMTR                         | -0.00965      | -0.0193     | 2               | 0                 |
-| IZENTOSHITE_A–AS+YET_A_1–EDICT-MTR                    | -0.0193       | -0.0193     | 1               | 0                 |
-| KAKERU_V_INTRANS–SHORT_A_OF–EDICT-OMTR               | -0.0193       | -0.0193     | 1               | 0                 |
-| SHIZUMU_V–SINK_V_CAUSE–EDICT-MTR                      | -0.0193       | -0.0193     | 1               | 0                 |
-| COUNT_MARK_YEAR_EF                                      | -0.0192       | -0.0192     | 1               | 2                 |
-| TOSHI_N–YEAR_N_1–EDICT-OMTR                           | -0.0192       | -0.0192     | 1               | 0                 |
-| MOKU-THU-DOFW_MTR                                         | -0.0184       | -0.0184     | 1               | 0                 |
-| PROPER_DOFW_Q                                            | -0.0184       | -0.0184     | 1               | 0                 |
-| IU_V_2–SAY_V_1–EDICT-OMTR                            | -0.0061       | -0.0183     | 3               | 0                 |
-| TOORI_N_3–AUTHORITY_N_1–EDICT-MTR                    | -0.0183       | -0.0183     | 1               | 0                 |
-| HATARAKU_V_2–DO_V_1–EDICT-OMTR                       | -0.0179       | -0.0179     | 1               | 0                 |
-| HATARAKU_V_2–WORK_V_1–EDICT-OMTR                     | -0.0179       | -0.0179     | 1               | 0                 |
-| FURI_N_6–HANDICAP_N_1–MOSES-MTR                      | -0.0167       | -0.0167     | 1               | 0                 |
-| COUNT_MARK_CLOTHES_EF                                   | -0.0164       | -0.0164     | 1               | 0                 |
-| FUKU_N_1–CLOTHES_N_1–SLT-MTR                         | -0.0164       | -0.0164     | 1               | 0                 |
-| PURAL_MARK_CLOTHES_EF                                   | -0.0164       | -0.0164     | 1               | 0                 |
-| KOTOBA_N–WORD_N_OF–EDICT-OMTR                         | -0.00745      | -0.0149     | 2               | 0                 |
-| MANABU_V–STUDY_V_1–EDICT-OMTR                         | -0.0149       | -0.0149     | 1               | 0                 |
-| COUNT_MARK_FAST_EF                                      | -0.0143       | -0.0143     | 1               | 0                 |
-| KYUU_N_4–FAST_N_1–EDICT-OMTR                         | -0.0143       | -0.0143     | 1               | 0                 |
-| ITTAI_A_2–IN+GENERAL_A_1–EDICT-MTR                   | -0.0119       | -0.0119     | 1               | 0                 |
-| II_A_3-GOOD_A_AT-FOR                                   | -0.0092       | -0.0092     | 1               | 3                 |
-| YOSOOU_V_1–DRESS_V_IN–EDICT-OMTR                     | -0.0078       | -0.0078     | 1               | 0                 |
-| OKORU_V_1–HAPPEN_V_1–EDICT-OMTR                      | -0.0067       | -0.0067     | 1               | 0                 |
-| OOU_V_1–HIDE_V_AWAY–EDICT-OMTR                       | -0.0064       | -0.0064     | 1               | 0                 |
-| KOTOBA_N–SPEECH_N_1–EDICT-OMTR                        | -0.006        | -0.006      | 1               | 0                 |
-| YUUUTSU_N_1–DEPRESSION_N_1–EDICT-OMTR                | -0.006        | -0.006      | 1               | 0                 |
-| OROSU_V–PASS_V_1–EDICT-OMTR                           | -0.0057       | -0.0057     | 1               | 0                 |
-| COUNT_MARK_CUPBOARD_EF                                  | -0.0055       | -0.0055     | 1               | 0                 |
-| NI_P+NARU_V_5-BE_V_ID+FUT_TENSE-OMTR                 | -0.00183333   | -0.0055     | 3               | 0                 |
-| TODANA_N_1–CUPBOARD_N_1–EDICT-MTR                    | -0.0055       | -0.0055     | 1               | 0                 |
-| KIGATSUKU_V_1–AWARE_A_OF–TC-MTR                      | -0.0051       | -0.0051     | 1               | 0                 |
-| MEIHAKU_A_2–CLEAR_V_1–EDICT-MTR                      | -0.00255      | -0.0051     | 2               | 0                 |
-| NIGATE_A_2–POOR_A_1–EDICT-OMTR                       | -0.0035       | -0.0035     | 1               | 0                 |
-| NIGATE_A_2–WEAK_A_1–EDICT-MTR                        | -0.0035       | -0.0035     | 1               | 0                 |
-| TOGAMERU_V_1–CHALLENGE_V_TO–EDICT-OMTR               | -0.0035       | -0.0035     | 1               | 0                 |
-| CHIIKI_N_1–AREA_N_OF+ROUND_N_OF–MOSES-MTR          | -0.003        | -0.003      | 1               | 1                 |
-| COUNT_MARK_ROUND_EF                                     | -0.003        | -0.003      | 1               | 1                 |
-| DAME_A_2–HOPELESS_A_1–EDICT-OMTR                     | -0.003        | -0.003      | 1               | 0                 |
-| DAME_A_2–USELESS_A_1–EDICT-OMTR                      | -0.003        | -0.003      | 1               | 0                 |
-| NINGEN_N_1–MAN_N_1–EDICT-OMTR                        | -0.00135      | -0.0027     | 2               | 0                 |
-| AGARU_V_INCHOATIVE–EAT_V_1–EDICT-OMTR                | -0.0025       | -0.0025     | 1               | 0                 |
-| AGARU_V_INCHOATIVE–STOP_V_1–EDICT-MTR                | -0.0025       | -0.0025     | 1               | 0                 |
-| APAATO_N–APARTMENT_N_1–MOSES-OMTR                     | -0.0013       | -0.0013     | 1               | 0                 |
-| ARAWASU_V_3–EXPRESS_V_TO–EDICT-OMTR                  | -0.0009       | -0.0009     | 1               | 0                 |
-| KASHIRAMOJI_N_1–ACRONYM_N_1–EDICT-MTR                | -0.0009       | -0.0009     | 1               | 0                 |
-| IKERU_V_1–GOOD_A_AT-FOR–EDICT-OMTR                   | -0.0007       | -0.0007     | 1               | 1                 |
-| TADACHINI_A_1–DIRECT_A_1–EDICT-OMTR                  | -0.0005       | -0.0005     | 1               | 0                 |
-| TADACHINI_A_1–IMMEDIATE_A_1–EDICT-OMTR               | -0.0005       | -0.0005     | 1               | 0                 |
-| TADACHINI_A_1–AT+ONCE_A_1–EDICT-MTR                  | 0.0005        | 0.0005      | 1               | 0                 |
-| ARAWASU_V_3–SHOW_V_1–EDICT-OMTR                      | 0.0009        | 0.0009      | 1               | 1                 |
-| COUNT_MARK_LETTER_EF                                    | 0.0009        | 0.0009      | 1               | 3                 |
-| KASHIRAMOJI_N_1–CAPITAL_N_1+LETTER_N_OF–EDICT-OMTR | 0.0009        | 0.0009      | 1               | 0                 |
-| APAATO_N–APARTMENT_N_1+BUILDING_N_1–MOSES-MTR       | 0.0013        | 0.0013      | 1               | 0                 |
-| COUNT_MARK_BUILDING_EF                                  | 0.0013        | 0.0013      | 1               | 0                 |
-| AGARU_V_CAUSATIVE–STOP_V_1–EDICT-MTR                 | 0.0025        | 0.0025      | 1               | 0                 |
-| NINGEN_N_1–PERSON_N_1–EDICT-OMTR                     | 0.00135       | 0.0027      | 2               | 0                 |
-| CHIIKI_N_1–REGION_N_OF–MOSES-OMTR                    | 0.003         | 0.003       | 1               | 0                 |
-| COUNT_MARK_REGION_EF                                    | 0.003         | 0.003       | 1               | 0                 |
-| DAME_A_2–NO+GOOD_A_1–EDICT-MTR                       | 0.003         | 0.003       | 1               | 0                 |
-| COUNT_MARK_POOR_EF                                      | 0.0035        | 0.0035      | 1               | 0                 |
-| NIGATE_N_1–POOR_N_1–EDICT-OMTR                       | 0.0035        | 0.0035      | 1               | 0                 |
-| PURAL_MARK_POOR_EF                                      | 0.0035        | 0.0035      | 1               | 0                 |
-| KIGATSUKU_V_1–NOTICE_V_1–TC-OMTR                     | 0.0051        | 0.0051      | 1               | 0                 |
-| MEIHAKU_A_2–CLEAR_A_OF–EDICT-OMTR                    | 0.00255       | 0.0051      | 2               | 0                 |
-| COUNT_MARK_CLOSET_EF                                    | 0.0055        | 0.0055      | 1               | 0                 |
-| NI_P+NARU_V_5-BECOME_V_ID-MTR                         | 0.00183333    | 0.0055      | 3               | 3                 |
-| TODANA_N_1–CLOSET_N_1–EDICT-OMTR                     | 0.0055        | 0.0055      | 1               | 0                 |
-| OROSU_V–MAKE_V_1–EDICT-OMTR                           | 0.0057        | 0.0057      | 1               | 0                 |
-| YUUUTSU_N_1–DEJECTION_N_1–EDICT-MTR                  | 0.006         | 0.006       | 1               | 0                 |
-| OOU_V_1–COVER_V_1–EDICT-OMTR                         | 0.0064        | 0.0064      | 1               | 0                 |
-| OKORU_V_1–OCCUR_V_TO–EDICT-MTR                       | 0.0067        | 0.0067      | 1               | 0                 |
-| RYOU_N_10–GOOD_N_1–EDICT-MTR                         | 0.0092        | 0.0092      | 1               | 0                 |
-| KOTOBA_N–LANGUAGE_N_1–EDICT-MTR                       | 0.00745       | 0.0149      | 2               | 0                 |
-| MANABU_V–LEARN_V_1–EDICT-MTR                          | 0.0149        | 0.0149      | 1               | 0                 |
-| FUKU_N_1–CLOTHING_N_1–SLT-OMTR                       | 0.0164        | 0.0164      | 1               | 1                 |
-| MASS_MARK_CLOTHING_EF                                   | 0.0164        | 0.0164      | 1               | 1                 |
-| FURI_A_7–UNFAVORABLE_A_1–EDICT-MTR                   | 0.0167        | 0.0167      | 1               | 0                 |
-| HATARAKU_V–WORK_V_1–EDICT-OMTR                        | 0.0179        | 0.0179      | 1               | 0                 |
-| IU_V_2–CALL_V_1–EDICT-MTR                            | 0.0061        | 0.0183      | 3               | 0                 |
-| TOORI_N_3–PENETRATION_N_OF–EDICT-OMTR                | 0.0183        | 0.0183      | 1               | 0                 |
-| COUNT_MARK_TREE_EF                                      | 0.0184        | 0.0184      | 1               | 0                 |
-| KI_N_10–TREE_N_OF–MOSES-MTR                          | 0.0184        | 0.0184      | 1               | 0                 |
-| TOSHI_N–AGE_N_1–EDICT-MTR                             | 0.0192        | 0.0192      | 1               | 0                 |
-| CHIKARA_N–EFFORT_N_1–EDICT-MTR                        | 0.00965       | 0.0193      | 2               | 0                 |
-| IZENTOSHITE_A–STILL_A_1–EDICT-OMTR                    | 0.0193        | 0.0193      | 1               | 0                 |
-| KAKERU_V_INTRANS–SHORT_V_1–EDICT-MTR                 | 0.0193        | 0.0193      | 1               | 0                 |
-| SHIZUMU_V–SINK_V_1–EDICT-OMTR                         | 0.0193        | 0.0193      | 1               | 1                 |
-| YORI_P_REL-FROM_P_REL                                  | 0.0202        | 0.0202      | 1               | 1                 |
-| CHOUJOU_N_1–TOP_N_1–EDICT-OMTR                       | 0.0208        | 0.0208      | 1               | 0                 |
-| COUNT_MARK_TOP_EF                                       | 0.0208        | 0.0208      | 1               | 0                 |
-| KYANPU_S_1–CAMP_V_1–MOSES-MTR                        | 0.0208        | 0.0208      | 1               | 0                 |
-| TABITABI_A–FREQUENT_A_1–EDICT-OMTR                    | 0.0208        | 0.0208      | 1               | 0                 |
-| SAISEI_S_2–PLAY_V_1–EDICT-OMTR                       | 0.0219        | 0.0219      | 1               | 0                 |
-| SHIRABERU_V_1–SENSE_V_1–EDICT-OMTR                   | 0.0224        | 0.0224      | 1               | 0                 |
-| TETTEITEKI_A_1–COMPLETE_A_1–EDICT-OMTR               | 0.0224        | 0.0224      | 1               | 0                 |
-| HAJIMETE_N–TIME_N_OF–SLT-OMTR                         | 0.0114        | 0.0228      | 2               | 0                 |
-| MIRU_V_1–SEE_V_1–EDICT-OMTR                          | 0.00456       | 0.0228      | 5               | 1                 |
-| NARABERU_V–ENUMERATE_V_1–EDICT-OMTR                   | 0.0228        | 0.0228      | 1               | 0                 |
-| MARK_TO_REL_NOUN_EF                                    | 0.00783333    | 0.0235      | 3               | 0                 |
-| OMOU_V-THINK_V_1-MTR                                    | 0.0237        | 0.0237      | 1               | 7                 |
-| TEIDO_N_1–GRADE_N_1–EDICT-MTR                        | 0.0243        | 0.0243      | 1               | 0                 |
-| SURU_V_REL-DO_V_REL-MTR                                | 0.0083        | 0.0249      | 3               | 11                |
-| COUNT_MARK_CHILD_EF                                     | 0.0262        | 0.0262      | 1               | 4                 |
-| KO_N_9–CHILD_N_1–EDICT-OMTR                          | 0.0262        | 0.0262      | 1               | 0                 |
-| IKIKAERU_V_1–REVIVE_V_1–MOSES-OMTR                   | 0.0273        | 0.0273      | 1               | 0                 |
-| OMOU_V_2–THINK_V_1–EDICT-OMTR                        | 0.00973333    | 0.0292      | 3               | 0                 |
-| SHIAWASE_N–GOOD_A_AT-FOR+FORTUNE_N_1–EDICT-MTR      | 0.0292        | 0.0292      | 1               | 0                 |
-| CHUUSHIN_N+BU_N_2–HEART_N_1–EDICT-OMTR              | 0.0313        | 0.0313      | 1               | 0                 |
-| KANJIRU_V_1–FEEL_V_1–EDICT-OMTR                      | 0.0313        | 0.0313      | 1               | 0                 |
-| BYOUKI_N–DISEASE_N_1–MOSES-MTR                        | 0.011         | 0.033       | 3               | 1                 |
-| KISU_S_1–KISS_V_1–MOSES-MTR                          | 0.0333        | 0.0333      | 1               | 0                 |
-| VN-INTRANS-SURU-VERB_JF                                   | 0.0333        | 0.0333      | 1               | 0                 |
-| COUNT_MARK_ARM_EF                                       | 0.0335        | 0.0335      | 1               | 1                 |
-| UDE_N_1–ARM_N_1–MOSES-OMTR                           | 0.0335        | 0.0335      | 1               | 1                 |
-| DEKAKERU_V_1–START_V_1–EDICT-OMTR                    | 0.0344        | 0.0344      | 1               | 0                 |
-| MODORU_V–RETURN_V_1–EDICT-OMTR                        | 0.0177        | 0.0354      | 2               | 0                 |
-| MITASU_V–REACH_V_1–EDICT-OMTR                         | 0.01785       | 0.0357      | 2               | 0                 |
-| UNMEI_N_1–FATE_N_1–MOSES-OMTR                        | 0.0357        | 0.0357      | 1               | 0                 |
-| KURERU-FOR-PAST                                            | 0.0371        | 0.0371      | 1               | 1                 |
-| COUNT_MARK_POINT_EF                                     | 0.0392        | 0.0392      | 1               | 0                 |
-| MASS_MARK_HEALTH_EF                                     | 0.0392        | 0.0392      | 1               | 1                 |
-| TOKORO_N_1–POINT_N_1–EDICT-OMTR                      | 0.0392        | 0.0392      | 1               | 0                 |
-| COMPOUND_N                                                | 0.0208        | 0.0416      | 2               | 26                |
-| COUNT_MARK_EMPLOYEE_EF                                  | 0.0416        | 0.0416      | 1               | 0                 |
-| JUUGYOU_S_1+IN_N–EMPLOYEE_N_OF–EDICT-MTR            | 0.0416        | 0.0416      | 1               | 0                 |
-| DOUMO_A–MUCH_A_1–EDICT-OMTR                           | 0.0417        | 0.0417      | 1               | 0                 |
-| KENKOU_N_1–HEALTH_N_1–MOSES-OMTR                     | 0.02085       | 0.0417      | 2               | 0                 |
-| MORAU_V_1–RECEIVE_V_1–EDICT-MTR                      | 0.0417        | 0.0417      | 1               | 0                 |
-| SHITAGAU_V_1–OBEY_V_1–EDICT-OMTR                     | 0.02085       | 0.0417      | 2               | 0                 |
-| 言いつける_V_1_G–TELL_V_1–EDICT-OMTR                | 0.0461        | 0.0461      | 1               | 0                 |
-| COUNT_MARK_MOVIE_EF                                     | 0.0487        | 0.0487      | 1               | 0                 |
-| EIGA_N–MOVIE_N_OF–MOSES-OMTR                          | 0.0487        | 0.0487      | 1               | 0                 |
-| NETSU_N_1–TEMPERATURE_N_OF–EDICT-OMTR                | 0.0487        | 0.0487      | 1               | 0                 |
-| KIRU_V_1–BEAR_V_1–EDICT-OMTR                         | 0.0164333     | 0.0493      | 3               | 0                 |
-| KYOUI_N_3–THREAT_N_1–EDICT-OMTR                      | 0.05          | 0.05        | 1               | 0                 |
-| CHUUI_S_2–ATTENTION_N_TO–EDICT-OMTR                  | 0.0511        | 0.0511      | 1               | 0                 |
-| KOKORO_N_1–HEART_N_1–EDICT-MTR                       | 0.02625       | 0.0525      | 2               | 0                 |
-| MISERU_V_1–SHOW_V_1–EDICT-OMTR                       | 0.0528        | 0.0528      | 1               | 0                 |
-| MASS_MARK_POETRY_EF                                     | 0.0529        | 0.0529      | 1               | 1                 |
-| SHI_N_3–POETRY_N_1–MOSES-MTR                         | 0.0529        | 0.0529      | 1               | 1                 |
-| MINA_A_2–ALL_A_1–TC-OMTR                             | 0.0555        | 0.0555      | 1               | 1                 |
-| BU_N_2–CLUB_N_1–EDICT-OMTR                           | 0.058         | 0.058       | 1               | 0                 |
-| COUNT_MARK_CLUB_EF                                      | 0.058         | 0.058       | 1               | 0                 |
-| KAORI_N_1–SCENT_N_OF–EDICT-OMTR                      | 0.0582        | 0.0582      | 1               | 0                 |
-| COUNT_MARK_PRESIDENT_EF                                 | 0.0625        | 0.0625      | 1               | 0                 |
-| DAITOURYOU_N_1–PRESIDENT_N_OF–MOSES-OMTR             | 0.0625        | 0.0625      | 1               | 0                 |
-| SUGATA_N_1–APPEARANCE_N_OF–EDICT-OMTR                | 0.0625        | 0.0625      | 1               | 0                 |
-| MAIKU–MIKE–MOSES-MTR                                     | 0.0667        | 0.0667      | 1               | 0                 |
-| HAJIMERU_V–BEGIN_V_1–EDICT-OMTR                       | 0.067         | 0.067       | 1               | 0                 |
-| SHIKEN_S–EXAMINATION_N_OF–MOSES-OMTR                  | 0.067         | 0.067       | 1               | 0                 |
-| YUSABURU_V_1–SHAKE_V_1–EDICT-OMTR                    | 0.067         | 0.067       | 1               | 0                 |
-| KEKKA_S_1–RESULT_V_1–MOSES-MTR                       | 0.0708        | 0.0708      | 1               | 0                 |
-| IU_V_4–SAY_V_1–EDICT-OMTR                            | 0.0258667     | 0.0776      | 3               | 0                 |
-| MOU_A_7–MORE_A_1–EDICT-OMTR                          | 0.0267667     | 0.0803      | 3               | 0                 |
-| COUNT_MARK_HEART_EF                                     | 0.01676       | 0.0838      | 5               | 2                 |
-| HIKU_V_1–DRAW_V_1–EDICT-MTR                          | 0.084         | 0.084       | 1               | 0                 |
-| TAORU_N_1–TOWEL_N_1–MOSES-OMTR                       | 0.0875        | 0.0875      | 1               | 0                 |
-| YASASHII_A_3–KIND_A_1–TC-OMTR                        | 0.0885        | 0.0885      | 1               | 0                 |
-| COP_ID_REL-BE_V_ID_REL-MTR                            | 0.0130429     | 0.0913      | 7               | 24                |
-| KOZOTTE_A_1–ALL_A_1–EDICT-OMTR                       | 0.0917        | 0.0917      | 1               | 0                 |
-| OSHIERU_V_1–TEACH_V_1–EDICT-OMTR                     | 0.0917        | 0.0917      | 1               | 0                 |
-| UTSU_V_3–VISIT_V_1–EDICT-OMTR                        | 0.0921        | 0.0921      | 1               | 0                 |
-| SHITSUREI_A–LEAVE_V_1–EDICT-OMTR                      | 0.0961        | 0.0961      | 1               | 0                 |
-| TO_P_AND_REL-AND_C_REL                                | 0.0327333     | 0.0982      | 3               | 0                 |
-| KIKAN_S_2–RETURN_N_OF–EDICT-OMTR                     | 0.1022        | 0.1022      | 1               | 0                 |
-| RYOURI_S_1–ADMINISTRATION_N_OF–EDICT-OMTR            | 0.0572        | 0.1144      | 2               | 0                 |
-| KAMI_N_1–PAPER_N_1–MOSES-OMTR                        | 0.125         | 0.125       | 1               | 0                 |
-| KARA_N_5–SKY_N_1–MOSES-MTR                           | 0.0629        | 0.1258      | 2               | 0                 |
-| COUNT_MARK_STAR_EF                                      | 0.06345       | 0.1269      | 2               | 0                 |
-| HOSHI_N_1–STAR_N_1–EDICT-OMTR                        | 0.06345       | 0.1269      | 2               | 0                 |
-| COUNT_MARK_BUS_EF                                       | 0.1274        | 0.1274      | 1               | 3                 |
-| NI-IKU_GO-TO                                              | 0.0639        | 0.1278      | 2               | 1                 |
-| SUWARU_V-MTR                                              | 0.1295        | 0.1295      | 1               | 2                 |
-| WA_D_REL_DITCH_EF                                      | 0.1389        | 0.1389      | 1               | 220               |
-| ZANNEN_A–SORRY_A_FOR–SLT-MTR                          | 0.146         | 0.146       | 1               | 0                 |
-| MITSUKERU_V–FIND_V_1–EDICT-OMTR                       | 0.1603        | 0.1603      | 1               | 0                 |
-| KYOUFU_S_1–FEAR_V_1–MOSES-MTR                        | 0.1607        | 0.1607      | 1               | 0                 |
-| SUKKARI_A_1–COMPLETE_A_1–EDICT-OMTR                  | 0.08045       | 0.1609      | 2               | 0                 |
-| OCHIRU_V_1–FAIL_V_1–EDICT-OMTR                       | 0.1834        | 0.1834      | 1               | 0                 |
-| SHIGOTO_N–WORK_N_1–MOSES-OMTR                         | 0.046925      | 0.1877      | 4               | 0                 |
-| AME_RAIN_MWE_MTR                                        | 0.0628        | 0.1884      | 3               | 0                 |
-| NARU_V_5–FLAKE_V_CAUSE–MOSES-MTR                     | 0.1958        | 0.1958      | 1               | 0                 |
-| KENRYOKU_N_1–POWER_N_1–EDICT-OMTR                    | 0.1979        | 0.1979      | 1               | 0                 |
-| KIKU_V_2–LISTEN_V_TO–EDICT-MTR                       | 0.2059        | 0.2059      | 1               | 0                 |
-| KIKU_V_2–HEAR_V_1–EDICT-OMTR                         | 0.1137        | 0.2274      | 2               | 0                 |
-| NI_P+EXIST_V-HAVE_V-MTR                                 | 0.062225      | 0.2489      | 4               | 1                 |
-| SOSOGU_V_2–POUR_V_1–EDICT-MTR                        | 0.2816        | 0.2816      | 1               | 0                 |
-| KO-SO-A_IT_Q-MTR                                         | 0.0445143     | 0.3116      | 7               | 3                 |
-| PRONOUN_Q                                                 | 0.1166        | 0.3498      | 3               | 163               |
-| STD_PRON_N                                               | 0.1166        | 0.3498      | 3               | 163               |
-| PRON_IMP_ARG1_EF                                        | 0.19435       | 0.3887      | 2               | 7                 |
-| KOUFUKU_A_2–HAPPY_A_WITH–TC-MTR                      | 0.4442        | 0.4442      | 1               | 0                 |
-| NEG_REL-UNLINK_ARG0                                      | 0.4442        | 0.4442      | 1               | 1                 |
-| DE_P_REL-UNSPEC_LOC_REL                                | 0.0210682     | 0.4635      | 22              | 6                 |
-| KIRU_V_2–DO_V_1–EDICT-OMTR                           | 0.155567      | 0.4667      | 3               | 0                 |
-| ASOBI_N_1–PLAY_N_1–EDICT-MTR                         | 0.4988        | 0.4988      | 1               | 0                 |
-| KUWAWARU_V_1–INCREASE_V_CAUSE–EDICT-MTR              | 0.5059        | 0.5059      | 1               | 0                 |
-| KEKKYOKU_A–AFTER+ALL_A_1–EDICT-MTR                    | 0.5203        | 0.5203      | 1               | 0                 |
-| HORU_V–DIG_V_1–EDICT-OMTR                             | 0.7292        | 0.7292      | 1               | 0                 |
-| HANASHI_N–STORY_N_OF–MOSES-MTR                        | 0.191375      | 0.7655      | 4               | 0                 |
-| NEG_V_REL-NEG_REL-MTR                                   | 0.42525       | 0.8505      | 2               | 15                |
-| ZERO_ARG1_REL_NOUN_EF                                  | 0.0280469     | 0.8975      | 32              | 88                |
-| MARK_OF_REL_NOUN_EF                                    | 0.0339406     | 1.0861      | 32              | 87                |
-| KAU_V_1–BUY_V_1–EDICT-OMTR                           | 0.414867      | 1.2446      | 3               | 0                 |
-| NO_P_REL-POSS_REL-OMTR                                  | 0.0470393     | 1.3171      | 28              | 36                |
-| MOTTE-IRU–HOLD_MTR                                       | 0.27638       | 1.3819      | 5               | 0                 |
-| UDEF-DEF-POSSESSOR_Q                                      | 0.05542       | 1.6626      | 30              | 38                |</p>
-<update date="" omitted="" for="" speed="">
-</update>
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+      <th> </th>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Translation Rule Name</td>
+      <td>Delta average</td>
+      <td>Delta total</td>
+      <td># of ambiguous</td>
+      <td># of unambiguous</td>
+    </tr>
+    <tr>
+      <td>ZERO_ARG1_12_EF</td>
+      <td>-0.106374</td>
+      <td>-4.8932</td>
+      <td>46</td>
+      <td>58</td>
+    </tr>
+    <tr>
+      <td>ZERO_ARG2_12_EF</td>
+      <td>-0.0930382</td>
+      <td>-3.1633</td>
+      <td>34</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>ZERO_ARG1_1_EF</td>
+      <td>-0.0749769</td>
+      <td>-2.9241</td>
+      <td>39</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <td>DE_P_REL-BY_P_REL</td>
+      <td>-0.115724</td>
+      <td>-2.4302</td>
+      <td>21</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>EXIST_V–LIVE_V_1–EDICT-OMTR</td>
+      <td>-0.19532</td>
+      <td>-1.9532</td>
+      <td>10</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>DE_P_REL-WITH_P_REL</td>
+      <td>-0.0603913</td>
+      <td>-1.389</td>
+      <td>23</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>MOTSU_V–CARRY_V_1–EDICT-OMTR</td>
+      <td>-0.230317</td>
+      <td>-1.3819</td>
+      <td>6</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>MOTSU_V–HOLD_V_1–EDICT-OMTR</td>
+      <td>-0.26714</td>
+      <td>-1.3357</td>
+      <td>5</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>UDEF-DEF_UDEF_A_Q</td>
+      <td>-0.0765824</td>
+      <td>-1.3019</td>
+      <td>17</td>
+      <td>211</td>
+    </tr>
+    <tr>
+      <td>EXIST_V_REL-BE_V_THERE_REL-MTR</td>
+      <td>-0.180386</td>
+      <td>-1.2627</td>
+      <td>7</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>KAU_V_1–VALUE_V_1–EDICT-OMTR</td>
+      <td>-0.414867</td>
+      <td>-1.2446</td>
+      <td>3</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>EXIST_V–LIVE_A_1–EDICT-OMTR</td>
+      <td>-0.307575</td>
+      <td>-1.2303</td>
+      <td>4</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>DEF_Q</td>
+      <td>-0.20475</td>
+      <td>-1.2285</td>
+      <td>6</td>
+      <td>25</td>
+    </tr>
+    <tr>
+      <td>COORD-AND_C_REL</td>
+      <td>-0.198617</td>
+      <td>-1.1917</td>
+      <td>6</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td>EXIST_V–HAPPEN_V_1–EDICT-MTR</td>
+      <td>-0.197383</td>
+      <td>-1.1843</td>
+      <td>6</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>CONJ_PAST_EF</td>
+      <td>-0.272575</td>
+      <td>-1.0903</td>
+      <td>4</td>
+      <td>17</td>
+    </tr>
+    <tr>
+      <td>ALL_MARK_DITCH_EF</td>
+      <td>-0.0278538</td>
+      <td>-1.0863</td>
+      <td>39</td>
+      <td>175</td>
+    </tr>
+    <tr>
+      <td>MARK-COMPOUND_REL-LBL-MTR</td>
+      <td>-0.0343355</td>
+      <td>-1.0644</td>
+      <td>31</td>
+      <td>38</td>
+    </tr>
+    <tr>
+      <td>SWAP-COMPOUND_REL-LBL-MTR</td>
+      <td>-0.0343355</td>
+      <td>-1.0644</td>
+      <td>31</td>
+      <td>38</td>
+    </tr>
+    <tr>
+      <td>TOTEMO_A_1-REALLY_A_1-MTR</td>
+      <td>-0.243975</td>
+      <td>-0.9759</td>
+      <td>4</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>TOTEMO_A_2-REALLY_A_1-MTR</td>
+      <td>-0.19518</td>
+      <td>-0.9759</td>
+      <td>5</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>IRU_V–EXIST_V_JF</td>
+      <td>-0.226775</td>
+      <td>-0.9071</td>
+      <td>4</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>UDEF_COMPOUND_Q_MTR</td>
+      <td>-0.0475316</td>
+      <td>-0.9031</td>
+      <td>19</td>
+      <td>36</td>
+    </tr>
+    <tr>
+      <td>BE_V_THERE_REL-NEG_REL–UDEF_Q_REL-ANY_Q_REL-OMTR</td>
+      <td>-0.8705</td>
+      <td>-0.8705</td>
+      <td>1</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>HANASHI_N–STORY_N_1–MOSES-OMTR</td>
+      <td>-0.191375</td>
+      <td>-0.7655</td>
+      <td>4</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>HORU_V–EXCAVATE_V_1–EDICT-MTR</td>
+      <td>-0.7292</td>
+      <td>-0.7292</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>NI_P_REL-UNSPEC_LOC_REL</td>
+      <td>-0.0402471</td>
+      <td>-0.6842</td>
+      <td>17</td>
+      <td>64</td>
+    </tr>
+    <tr>
+      <td>KIKU_V_2–ASK_V_1–EDICT-OMTR</td>
+      <td>-0.33865</td>
+      <td>-0.6773</td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>NO_P_REL-COMPOUND_REL-OMTR</td>
+      <td>-0.0275913</td>
+      <td>-0.6346</td>
+      <td>23</td>
+      <td>13</td>
+    </tr>
+    <tr>
+      <td>MASS_CLASSIFIER_NOUN_EF</td>
+      <td>-0.0849857</td>
+      <td>-0.5949</td>
+      <td>7</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>QUANTIFIER_INDIVIDUALITY_1_EF</td>
+      <td>-0.0849857</td>
+      <td>-0.5949</td>
+      <td>7</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>KAU_V_1–STIR_V_1–EDICT-MTR</td>
+      <td>-0.2963</td>
+      <td>-0.5926</td>
+      <td>2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>COP_ID_REL+NEG_REL-BE_V_ID_REL-NEG_REL_MTR</td>
+      <td>-0.29155</td>
+      <td>-0.5831</td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>PROGRESSIVE_NOM_EF</td>
+      <td>-0.0610333</td>
+      <td>-0.5493</td>
+      <td>9</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>RELATION-NOMINALIZATION_REL-MTR</td>
+      <td>-0.0610333</td>
+      <td>-0.5493</td>
+      <td>9</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>KEKKYOKU_A–EVENTUAL_A_1–EDICT-OMTR</td>
+      <td>-0.5203</td>
+      <td>-0.5203</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>EMBED_NO+OF_REL_NOUN</td>
+      <td>-0.25585</td>
+      <td>-0.5117</td>
+      <td>2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KIKAN_S_2–FEEDBACK_N_1–EDICT-MTR</td>
+      <td>-0.5107</td>
+      <td>-0.5107</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KUWAWARU_V_1–INCREASE_V_1–EDICT-OMTR</td>
+      <td>-0.5059</td>
+      <td>-0.5059</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>ASOBU_V_1–PLAY_V_1–EDICT-OMTR</td>
+      <td>-0.4988</td>
+      <td>-0.4988</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>MASS_MARK_HAPPINESS_EF</td>
+      <td>-0.2367</td>
+      <td>-0.4734</td>
+      <td>2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KIRU_V_2–TURN_V_1–EDICT-OMTR</td>
+      <td>-0.155567</td>
+      <td>-0.4667</td>
+      <td>3</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>NEG_REL-NEG_REL-MTR</td>
+      <td>-0.151133</td>
+      <td>-0.4534</td>
+      <td>3</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>KOUFUKU_N_1–HAPPINESS_N_1–MOSES-MTR</td>
+      <td>-0.4442</td>
+      <td>-0.4442</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>SHITSUREI_A–RUDE_A_1–EDICT-MTR</td>
+      <td>-0.3821</td>
+      <td>-0.3821</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>BE_V_THERE_REL–UDEF_Q_REL-UDEF_Q_REL-OMTR</td>
+      <td>-0.0716</td>
+      <td>-0.358</td>
+      <td>5</td>
+      <td>5</td>
+    </tr>
+    <tr>
+      <td>COUNT_MARK_BOY_EF</td>
+      <td>-0.1051</td>
+      <td>-0.3153</td>
+      <td>3</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>KIMI_N_KUNSHU–BOY_N_1–EDICT-OMTR</td>
+      <td>-0.1051</td>
+      <td>-0.3153</td>
+      <td>3</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>GENERIC-NOM-MTR</td>
+      <td>-0.0445143</td>
+      <td>-0.3116</td>
+      <td>7</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>NARU_V_5–FLAKE_V_1–MOSES-OMTR</td>
+      <td>-0.15015</td>
+      <td>-0.3003</td>
+      <td>2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>SOSOGU_V_2–FILL_V_CAUSE–EDICT-OMTR</td>
+      <td>-0.2816</td>
+      <td>-0.2816</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>MINORU_3–STONE–EDICT-MTR</td>
+      <td>-0.2014</td>
+      <td>-0.2014</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KENRYOKU_N_1–INFLUENCE_N_1–EDICT-OMTR</td>
+      <td>-0.1979</td>
+      <td>-0.1979</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>RARERU_V_CAN_REL-CAN_V_MODAL_REL-MTR</td>
+      <td>-0.0652333</td>
+      <td>-0.1957</td>
+      <td>3</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>OCHIRU_V_3–DROP_V_CAUSE–EDICT-MTR</td>
+      <td>-0.1953</td>
+      <td>-0.1953</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>OCHIRU_V_3–FAIL_V_1–EDICT-OMTR</td>
+      <td>-0.1953</td>
+      <td>-0.1953</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>AME_N-RAIN_N_1-MTR</td>
+      <td>-0.0628</td>
+      <td>-0.1884</td>
+      <td>3</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>FURU_V-FALL_V_1-MTR</td>
+      <td>-0.0628</td>
+      <td>-0.1884</td>
+      <td>3</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>COUNT_MARK_WORKS_EF</td>
+      <td>-0.046925</td>
+      <td>-0.1877</td>
+      <td>4</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>PURAL_MARK_WORKS_EF</td>
+      <td>-0.046925</td>
+      <td>-0.1877</td>
+      <td>4</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>SHIGOTO_N–WORKS_N_1–MOSES-OMTR</td>
+      <td>-0.046925</td>
+      <td>-0.1877</td>
+      <td>4</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>SUKKARI_A_1–THOROUGH_A_1–EDICT-MTR</td>
+      <td>-0.09235</td>
+      <td>-0.1847</td>
+      <td>2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>OCHIRU_V_1–CRASH_V_1–EDICT-OMTR</td>
+      <td>-0.1834</td>
+      <td>-0.1834</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>SUKKARI_A_1–ALL_A_1–EDICT-OMTR</td>
+      <td>-0.08045</td>
+      <td>-0.1609</td>
+      <td>2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KYOUFU_S_1–FEAR_N_1–MOSES-OMTR</td>
+      <td>-0.1607</td>
+      <td>-0.1607</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>MITSUKERU_V–DISCOVER_V_1–EDICT-OMTR</td>
+      <td>-0.1603</td>
+      <td>-0.1603</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>MITSUKERU_V–LOCATE_V_1–EDICT-MTR</td>
+      <td>-0.1603</td>
+      <td>-0.1603</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>IRU_V_NEED–NEED_V_1–EDICT-MTR</td>
+      <td>-0.1461</td>
+      <td>-0.1461</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>ZANNEN_A–BAD_A_1–SLT-OMTR</td>
+      <td>-0.146</td>
+      <td>-0.146</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>NAMED_SG_1_EF</td>
+      <td>-0.06735</td>
+      <td>-0.1347</td>
+      <td>2</td>
+      <td>22</td>
+    </tr>
+    <tr>
+      <td>PROPER_NAMED_Q</td>
+      <td>-0.06735</td>
+      <td>-0.1347</td>
+      <td>2</td>
+      <td>19</td>
+    </tr>
+    <tr>
+      <td>COUNT_MARK_SITTING_EF</td>
+      <td>-0.1295</td>
+      <td>-0.1295</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>SUWARI_N_1–SITTING_N_1–EDICT-OMTR</td>
+      <td>-0.1295</td>
+      <td>-0.1295</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>SUWARI_N_1–STABILITY_N_1–EDICT-MTR</td>
+      <td>-0.1295</td>
+      <td>-0.1295</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>BASU_N–BATH_N_1–EDICT-OMTR</td>
+      <td>-0.1274</td>
+      <td>-0.1274</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>COUNT_MARK_BATH_EF</td>
+      <td>-0.1274</td>
+      <td>-0.1274</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>HOSHI_N_1–SUSPECT_N_1–EDICT-MTR</td>
+      <td>-0.06345</td>
+      <td>-0.1269</td>
+      <td>2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>CONJ_PRES_EF</td>
+      <td>-0.0421667</td>
+      <td>-0.1265</td>
+      <td>3</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td>SORA_N–NIGHT_N_OF+SKY_N_1–MOSES-OMTR</td>
+      <td>-0.0629</td>
+      <td>-0.1258</td>
+      <td>2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>COUNT_MARK_WILL_EF</td>
+      <td>-0.125</td>
+      <td>-0.125</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KAMI_N_1–PAPER_N_1+WILL_N_1–MOSES-MTR</td>
+      <td>-0.125</td>
+      <td>-0.125</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KOKORO_N_1–MIND_N_1–EDICT-OMTR</td>
+      <td>-0.05995</td>
+      <td>-0.1199</td>
+      <td>2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>RYOURI_S_1–CUISINE_N_1–EDICT-MTR</td>
+      <td>-0.0572</td>
+      <td>-0.1144</td>
+      <td>2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>IKU_V_1–CONTINUE_V_1–EDICT-MTR</td>
+      <td>-0.028275</td>
+      <td>-0.1131</td>
+      <td>4</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>VN-N_JF</td>
+      <td>-0.0155</td>
+      <td>-0.1085</td>
+      <td>7</td>
+      <td>23</td>
+    </tr>
+    <tr>
+      <td>KIKAN_S_2–RETURN_V_1–EDICT-OMTR</td>
+      <td>-0.1022</td>
+      <td>-0.1022</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>TO_P_WITH_REL-WITH_P_REL</td>
+      <td>-0.0327333</td>
+      <td>-0.0982</td>
+      <td>3</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>SHITSUREI_S–LEAVE_V_1–EDICT-OMTR</td>
+      <td>-0.0961</td>
+      <td>-0.0961</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>COUNT_MARK_MASTER_EF</td>
+      <td>-0.0466</td>
+      <td>-0.0932</td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>KIMI_N_KUNSHU–MASTER_N_1–EDICT-OMTR</td>
+      <td>-0.0466</td>
+      <td>-0.0932</td>
+      <td>2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>UTSU_V_3–BEAT_V_TO–EDICT-MTR</td>
+      <td>-0.0921</td>
+      <td>-0.0921</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KOZOTTE_A_1–UNANIMOUS_A_1–EDICT-MTR</td>
+      <td>-0.0917</td>
+      <td>-0.0917</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>OSHIERU_V_1–INFORM_V_1–EDICT-OMTR</td>
+      <td>-0.0917</td>
+      <td>-0.0917</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>OSHIERU_V_1–INSTRUCT_V_ON–EDICT-MTR</td>
+      <td>-0.0917</td>
+      <td>-0.0917</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>COUNT_MARK_PART_EF</td>
+      <td>-0.04465</td>
+      <td>-0.0893</td>
+      <td>2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>YASASHII_A_3–SIMPLE_A_1–TC-OMTR</td>
+      <td>-0.0885</td>
+      <td>-0.0885</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>YASASHII_A_3–SOFT_A_1–TC-MTR</td>
+      <td>-0.0885</td>
+      <td>-0.0885</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>TAORU_N_1–WET_A_1+TOWEL_N_1–MOSES-MTR</td>
+      <td>-0.0875</td>
+      <td>-0.0875</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KAORI_N_1–FRAGRANCE_N_1–EDICT-MTR</td>
+      <td>-0.085</td>
+      <td>-0.085</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>HIKU_V_1–CATCH_V_1–EDICT-OMTR</td>
+      <td>-0.084</td>
+      <td>-0.084</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>HIKU_V_1–PLAY_V_1–EDICT-OMTR</td>
+      <td>-0.084</td>
+      <td>-0.084</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>MOU_A_7–SOON_A_1–EDICT-MTR</td>
+      <td>-0.0267667</td>
+      <td>-0.0803</td>
+      <td>3</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>IU_V_4–CALL_V_1–EDICT-MTR</td>
+      <td>-0.0258667</td>
+      <td>-0.0776</td>
+      <td>3</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KAKU_V_11–BREAK_V_CAUSE–EDICT-OMTR</td>
+      <td>-0.0774</td>
+      <td>-0.0774</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KAKU_V_11–LACK_V_1–EDICT-MTR</td>
+      <td>-0.0774</td>
+      <td>-0.0774</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>MODAL_MODIFIER_EF</td>
+      <td>-0.0774</td>
+      <td>-0.0774</td>
+      <td>1</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>OMOU_V_2–FEEL_V_1–EDICT-MTR</td>
+      <td>-0.0255333</td>
+      <td>-0.0766</td>
+      <td>3</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>OMOU_V_2–WANT_V_1–EDICT-OMTR</td>
+      <td>-0.0255333</td>
+      <td>-0.0766</td>
+      <td>3</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>COUNT_MARK_RESULT_EF</td>
+      <td>-0.0354</td>
+      <td>-0.0708</td>
+      <td>2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KEKKA_S_1–RESULT_N_OF–MOSES-OMTR</td>
+      <td>-0.0708</td>
+      <td>-0.0708</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>COUNT_MARK_EXAM_EF</td>
+      <td>-0.067</td>
+      <td>-0.067</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>HAJIMERU_V–START_V_CAUSE–EDICT-MTR</td>
+      <td>-0.067</td>
+      <td>-0.067</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>SHIKEN_S–EXAM_N_1–MOSES-MTR</td>
+      <td>-0.067</td>
+      <td>-0.067</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>YUSABURU_V_1–ROCK_V_1–EDICT-OMTR</td>
+      <td>-0.067</td>
+      <td>-0.067</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>MAIKU_N_1–MICROPHONE_N_1–EDICT-MTR</td>
+      <td>-0.0667</td>
+      <td>-0.0667</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>COUNT_MARK_FRIEND_EF</td>
+      <td>-0.03215</td>
+      <td>-0.0643</td>
+      <td>2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KOKORO_N_1–FRIEND_N_1–EDICT-OMTR</td>
+      <td>-0.03215</td>
+      <td>-0.0643</td>
+      <td>2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>TOKERU_V–MELT_V_1–EDICT-OMTR</td>
+      <td>-0.0628</td>
+      <td>-0.0628</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>COUNT_MARK_CHILL_EF</td>
+      <td>-0.0625</td>
+      <td>-0.0625</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>COUNT_MARK_FIGURE_EF</td>
+      <td>-0.0625</td>
+      <td>-0.0625</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>DAITOURYOU_N_1–PRESIDENCY_N_1–MOSES-MTR</td>
+      <td>-0.0625</td>
+      <td>-0.0625</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KANKI_N_1–CHILL_N_1–EDICT-MTR</td>
+      <td>-0.0625</td>
+      <td>-0.0625</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>SAMUKE_N_1–CHILL_N_1–EDICT-MTR</td>
+      <td>-0.0625</td>
+      <td>-0.0625</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>SUGATA_N_1–FIGURE_N_1–EDICT-OMTR</td>
+      <td>-0.0625</td>
+      <td>-0.0625</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>COUNT_MARK_SMELL_EF</td>
+      <td>-0.0582</td>
+      <td>-0.0582</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KAORI_N_1–SMELL_N_OF–EDICT-OMTR</td>
+      <td>-0.0582</td>
+      <td>-0.0582</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>SURU_V_INTRANS–ANNOUNCE_V_TO–MOSES-MTR</td>
+      <td>-0.0291</td>
+      <td>-0.0582</td>
+      <td>2</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>BU_N_2–DEPARTMENT_N_1–EDICT-MTR</td>
+      <td>-0.058</td>
+      <td>-0.058</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>BU_N_2–PART_N_1–EDICT-OMTR</td>
+      <td>-0.058</td>
+      <td>-0.058</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>COUNT_MARK_DEPARTMENT_EF</td>
+      <td>-0.058</td>
+      <td>-0.058</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>COUNT_MARK_PRESENCE_EF</td>
+      <td>-0.0566</td>
+      <td>-0.0566</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>OMAE_N_2–PRESENCE_N_1–EDICT-MTR</td>
+      <td>-0.0566</td>
+      <td>-0.0566</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>MINA_A_2–ALTOGETHER_A_1–TC-MTR</td>
+      <td>-0.0555</td>
+      <td>-0.0555</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>SHI_N_3–POEM_N_1–MOSES-OMTR</td>
+      <td>-0.0529</td>
+      <td>-0.0529</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>MISERU_V_1–DISPLAY_V_TO–EDICT-MTR</td>
+      <td>-0.0528</td>
+      <td>-0.0528</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>BUJI_N_1–QUIETNESS_N_1–EDICT-MTR</td>
+      <td>-0.0522</td>
+      <td>-0.0522</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>HAIRU_V–SET_A_1–EDICT-OMTR</td>
+      <td>-0.0522</td>
+      <td>-0.0522</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>CHUUI_S_2–ADVICE_N_1–EDICT-OMTR</td>
+      <td>-0.0511</td>
+      <td>-0.0511</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>MASS_MARK_ADVICE_EF</td>
+      <td>-0.0511</td>
+      <td>-0.0511</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>COP_ID_REL-UNKNOWN_REL-MTR</td>
+      <td>-0.05</td>
+      <td>-0.05</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KYOUI_N_3–MENACE_N_1–EDICT-MTR</td>
+      <td>-0.05</td>
+      <td>-0.05</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>OKONAU_V_1–DO_V_1–EDICT-OMTR</td>
+      <td>-0.05</td>
+      <td>-0.05</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>OKONAU_V_1–PERFORM_V_1–EDICT-MTR</td>
+      <td>-0.05</td>
+      <td>-0.05</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KIRU_V_1–WEAR_V_1–EDICT-MTR</td>
+      <td>-0.0164333</td>
+      <td>-0.0493</td>
+      <td>3</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>COUNT_MARK_CINEMA_EF</td>
+      <td>-0.0487</td>
+      <td>-0.0487</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>EIGA_N–CINEMA_N_1–MOSES-MTR</td>
+      <td>-0.0487</td>
+      <td>-0.0487</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>EIGA_N–FILM_N_1–MOSES-OMTR</td>
+      <td>-0.0487</td>
+      <td>-0.0487</td>
+      <td>1</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>NETSU_N_1–FEVER_N_1–EDICT-MTR</td>
+      <td>-0.0487</td>
+      <td>-0.0487</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>MICHIRU_V_2–MATURE_A_1–EDICT-OMTR</td>
+      <td>-0.047</td>
+      <td>-0.047</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>言いつける_V_1_G–REPORT_V_TO–EDICT-MTR</td>
+      <td>-0.0461</td>
+      <td>-0.0461</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>IKU_V_1–GO_V_1–EDICT-OMTR</td>
+      <td>-0.010625</td>
+      <td>-0.0425</td>
+      <td>4</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>DOUMO_A–QUITE_A_1–EDICT-OMTR</td>
+      <td>-0.0417</td>
+      <td>-0.0417</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KENKOU_N_1–SOUND_A_1+HEALTH_N_1–MOSES-MTR</td>
+      <td>-0.02085</td>
+      <td>-0.0417</td>
+      <td>2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>MORAU_V_1–ACCEPT_V_1–EDICT-OMTR</td>
+      <td>-0.0417</td>
+      <td>-0.0417</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>SHITAGAU_V_1–ACCOMPANY_V_1–EDICT-MTR</td>
+      <td>-0.02085</td>
+      <td>-0.0417</td>
+      <td>2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>SHITAGAU_V_1–FOLLOW_V_1–EDICT-OMTR</td>
+      <td>-0.02085</td>
+      <td>-0.0417</td>
+      <td>2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>COUNT_MARK_WORKER_EF</td>
+      <td>-0.0416</td>
+      <td>-0.0416</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>JUUGYOUIN_N–WORKER_N_1–EDICT-MTR</td>
+      <td>-0.0416</td>
+      <td>-0.0416</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>JUUGYOU_S_1+IN_N–WORKER_N_1–EDICT-OMTR</td>
+      <td>-0.0416</td>
+      <td>-0.0416</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KENKOU_A_2–SOUND_A_1–EDICT-OMTR</td>
+      <td>-0.0392</td>
+      <td>-0.0392</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>TOKORO_N_1–SPACE_N_OF–EDICT-MTR</td>
+      <td>-0.0392</td>
+      <td>-0.0392</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KURERU_V_3-GIVE_V_1</td>
+      <td>-0.0371</td>
+      <td>-0.0371</td>
+      <td>1</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>HITO_N–PERSON_N_1–EDICT-OMTR</td>
+      <td>-0.0091</td>
+      <td>-0.0364</td>
+      <td>4</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>MITASU_V–FILL_V_CAUSE–EDICT-MTR</td>
+      <td>-0.01785</td>
+      <td>-0.0357</td>
+      <td>2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>UNMEI_N_1–DESTINY_N_1–MOSES-MTR</td>
+      <td>-0.0357</td>
+      <td>-0.0357</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>MODORU_V–RECOVER_V_1–EDICT-MTR</td>
+      <td>-0.0177</td>
+      <td>-0.0354</td>
+      <td>2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>DEKAKERU_V_1–START_V_CAUSE–EDICT-MTR</td>
+      <td>-0.0344</td>
+      <td>-0.0344</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>COUNT_MARK_ARMS_EF</td>
+      <td>-0.0335</td>
+      <td>-0.0335</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>PURAL_MARK_ARMS_EF</td>
+      <td>-0.0335</td>
+      <td>-0.0335</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>UDE_N_1–ARMS_N_1–MOSES-MTR</td>
+      <td>-0.0335</td>
+      <td>-0.0335</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>COUNT_MARK_KISS_EF</td>
+      <td>-0.0333</td>
+      <td>-0.0333</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>HONTOU-REAL-MTR</td>
+      <td>-0.0333</td>
+      <td>-0.0333</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KISU_N_2–KISS_N_1–MOSES-MTR</td>
+      <td>-0.0333</td>
+      <td>-0.0333</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>BYOUKI_N–ILLNESS_N_1–MOSES-OMTR</td>
+      <td>-0.011</td>
+      <td>-0.033</td>
+      <td>3</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>CHUUSHIN_N+BU_N_2–CENTRAL_A_1+PART_N_1–EDICT-MTR</td>
+      <td>-0.0313</td>
+      <td>-0.0313</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KANJIRU_V_1–EXPERIENCE_V_1–EDICT-MTR</td>
+      <td>-0.0313</td>
+      <td>-0.0313</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KANJIRU_V_1–SENSE_V_1–EDICT-OMTR</td>
+      <td>-0.0313</td>
+      <td>-0.0313</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>COUNT_MARK_LOCKER_EF</td>
+      <td>-0.0305</td>
+      <td>-0.0305</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>TODANA_N_1–LOCKER_N_1–EDICT-OMTR</td>
+      <td>-0.0305</td>
+      <td>-0.0305</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>MASS_MARK_LUCK_EF</td>
+      <td>-0.0292</td>
+      <td>-0.0292</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>SHIAWASE_N–HAPPINESS_N_1–EDICT-OMTR</td>
+      <td>-0.0292</td>
+      <td>-0.0292</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>SHIAWASE_N–LUCK_N_1–EDICT-OMTR</td>
+      <td>-0.0292</td>
+      <td>-0.0292</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>COUNT_MARK_TRIP_EF</td>
+      <td>-0.0092</td>
+      <td>-0.0276</td>
+      <td>3</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>COUNT_MARK_VISIT_EF</td>
+      <td>-0.0138</td>
+      <td>-0.0276</td>
+      <td>2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>HAJIMETE_N–TRIP_N_OF–SLT-OMTR</td>
+      <td>-0.0138</td>
+      <td>-0.0276</td>
+      <td>2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>HAJIMETE_N–VISIT_N_TO–SLT-MTR</td>
+      <td>-0.0138</td>
+      <td>-0.0276</td>
+      <td>2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>IKIKAERU_V_1–REVIVE_V_CAUSE–MOSES-MTR</td>
+      <td>-0.0273</td>
+      <td>-0.0273</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>慈雨_N_1_G–WELCOME_A_1+RAINS_N_1–EDICT-OMTR</td>
+      <td>-0.0273</td>
+      <td>-0.0273</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>MEIHAKU_A_2–OPEN_A_1–EDICT-OMTR</td>
+      <td>-0.0134</td>
+      <td>-0.0268</td>
+      <td>2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KO_N_9–YOUNG_N_1–EDICT-MTR</td>
+      <td>-0.0262</td>
+      <td>-0.0262</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>HITO_N-PERSON_N_1-MTR</td>
+      <td>-0.00625</td>
+      <td>-0.025</td>
+      <td>4</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>NI_P+ADJ-ADV</td>
+      <td>-0.01245</td>
+      <td>-0.0249</td>
+      <td>2</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>COUNT_MARK_AMOUNT_EF</td>
+      <td>-0.0243</td>
+      <td>-0.0243</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>COUNT_MARK_DEGREE_EF</td>
+      <td>-0.0243</td>
+      <td>-0.0243</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>TEIDO_N_1–AMOUNT_N_OF–EDICT-OMTR</td>
+      <td>-0.0243</td>
+      <td>-0.0243</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>TEIDO_N_1–DEGREE_N_OF–EDICT-OMTR</td>
+      <td>-0.0243</td>
+      <td>-0.0243</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>TO_P_SCONJ_REL-AND_C_REL</td>
+      <td>-0.0237</td>
+      <td>-0.0237</td>
+      <td>1</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <td>MIRU_V_1–LOOK_V_1–EDICT-MTR</td>
+      <td>-0.00456</td>
+      <td>-0.0228</td>
+      <td>5</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>NARABERU_V–LINE_V_UP–EDICT-OMTR</td>
+      <td>-0.0228</td>
+      <td>-0.0228</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>NARABERU_V–SET_V_UP–EDICT-MTR</td>
+      <td>-0.0228</td>
+      <td>-0.0228</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>HAKARU_V_1–MEASURE_V_1–EDICT-OMTR</td>
+      <td>-0.01125</td>
+      <td>-0.0225</td>
+      <td>2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>SHIRABERU_V_1–CHECK_V_1–EDICT-MTR</td>
+      <td>-0.0224</td>
+      <td>-0.0224</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>SHIRABERU_V_1–STUDY_V_1–EDICT-OMTR</td>
+      <td>-0.0224</td>
+      <td>-0.0224</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>TETTEITEKI_A_1–THOROUGH_A_1–EDICT-MTR</td>
+      <td>-0.0224</td>
+      <td>-0.0224</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>COUNT_MARK_PERSON_EF</td>
+      <td>-0.00318571</td>
+      <td>-0.0223</td>
+      <td>7</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>PERSON_N</td>
+      <td>-0.00318571</td>
+      <td>-0.0223</td>
+      <td>7</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>COUNT_MARK_RULER_EF</td>
+      <td>-0.0221</td>
+      <td>-0.0221</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KIMI_N_KUNSHU–RULER_N_1–EDICT-MTR</td>
+      <td>-0.0221</td>
+      <td>-0.0221</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>SAISEI_S_2–LISTEN_V_TO–EDICT-MTR</td>
+      <td>-0.0219</td>
+      <td>-0.0219</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>CHOUJOU_N_1–SUMMIT_N_1–EDICT-MTR</td>
+      <td>-0.0208</td>
+      <td>-0.0208</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>COUNT_MARK_SUMMIT_EF</td>
+      <td>-0.0208</td>
+      <td>-0.0208</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KYANPU_S_1–CAMP_N_1–MOSES-OMTR</td>
+      <td>-0.0208</td>
+      <td>-0.0208</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>TABITABI_A–OFTEN_A_1–EDICT-OMTR</td>
+      <td>-0.0208</td>
+      <td>-0.0208</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>MORE_EF</td>
+      <td>-0.0202</td>
+      <td>-0.0202</td>
+      <td>1</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>YORI_P_REL-COMP_REL</td>
+      <td>-0.0202</td>
+      <td>-0.0202</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>CHIKARA_N–HELP_N_1–EDICT-OMTR</td>
+      <td>-0.00965</td>
+      <td>-0.0193</td>
+      <td>2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>IZENTOSHITE_A–AS+YET_A_1–EDICT-MTR</td>
+      <td>-0.0193</td>
+      <td>-0.0193</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KAKERU_V_INTRANS–SHORT_A_OF–EDICT-OMTR</td>
+      <td>-0.0193</td>
+      <td>-0.0193</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>SHIZUMU_V–SINK_V_CAUSE–EDICT-MTR</td>
+      <td>-0.0193</td>
+      <td>-0.0193</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>COUNT_MARK_YEAR_EF</td>
+      <td>-0.0192</td>
+      <td>-0.0192</td>
+      <td>1</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>TOSHI_N–YEAR_N_1–EDICT-OMTR</td>
+      <td>-0.0192</td>
+      <td>-0.0192</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>MOKU-THU-DOFW_MTR</td>
+      <td>-0.0184</td>
+      <td>-0.0184</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>PROPER_DOFW_Q</td>
+      <td>-0.0184</td>
+      <td>-0.0184</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>IU_V_2–SAY_V_1–EDICT-OMTR</td>
+      <td>-0.0061</td>
+      <td>-0.0183</td>
+      <td>3</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>TOORI_N_3–AUTHORITY_N_1–EDICT-MTR</td>
+      <td>-0.0183</td>
+      <td>-0.0183</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>HATARAKU_V_2–DO_V_1–EDICT-OMTR</td>
+      <td>-0.0179</td>
+      <td>-0.0179</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>HATARAKU_V_2–WORK_V_1–EDICT-OMTR</td>
+      <td>-0.0179</td>
+      <td>-0.0179</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>FURI_N_6–HANDICAP_N_1–MOSES-MTR</td>
+      <td>-0.0167</td>
+      <td>-0.0167</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>COUNT_MARK_CLOTHES_EF</td>
+      <td>-0.0164</td>
+      <td>-0.0164</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>FUKU_N_1–CLOTHES_N_1–SLT-MTR</td>
+      <td>-0.0164</td>
+      <td>-0.0164</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>PURAL_MARK_CLOTHES_EF</td>
+      <td>-0.0164</td>
+      <td>-0.0164</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KOTOBA_N–WORD_N_OF–EDICT-OMTR</td>
+      <td>-0.00745</td>
+      <td>-0.0149</td>
+      <td>2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>MANABU_V–STUDY_V_1–EDICT-OMTR</td>
+      <td>-0.0149</td>
+      <td>-0.0149</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>COUNT_MARK_FAST_EF</td>
+      <td>-0.0143</td>
+      <td>-0.0143</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KYUU_N_4–FAST_N_1–EDICT-OMTR</td>
+      <td>-0.0143</td>
+      <td>-0.0143</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>ITTAI_A_2–IN+GENERAL_A_1–EDICT-MTR</td>
+      <td>-0.0119</td>
+      <td>-0.0119</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>II_A_3-GOOD_A_AT-FOR</td>
+      <td>-0.0092</td>
+      <td>-0.0092</td>
+      <td>1</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>YOSOOU_V_1–DRESS_V_IN–EDICT-OMTR</td>
+      <td>-0.0078</td>
+      <td>-0.0078</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>OKORU_V_1–HAPPEN_V_1–EDICT-OMTR</td>
+      <td>-0.0067</td>
+      <td>-0.0067</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>OOU_V_1–HIDE_V_AWAY–EDICT-OMTR</td>
+      <td>-0.0064</td>
+      <td>-0.0064</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KOTOBA_N–SPEECH_N_1–EDICT-OMTR</td>
+      <td>-0.006</td>
+      <td>-0.006</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>YUUUTSU_N_1–DEPRESSION_N_1–EDICT-OMTR</td>
+      <td>-0.006</td>
+      <td>-0.006</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>OROSU_V–PASS_V_1–EDICT-OMTR</td>
+      <td>-0.0057</td>
+      <td>-0.0057</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>COUNT_MARK_CUPBOARD_EF</td>
+      <td>-0.0055</td>
+      <td>-0.0055</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>NI_P+NARU_V_5-BE_V_ID+FUT_TENSE-OMTR</td>
+      <td>-0.00183333</td>
+      <td>-0.0055</td>
+      <td>3</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>TODANA_N_1–CUPBOARD_N_1–EDICT-MTR</td>
+      <td>-0.0055</td>
+      <td>-0.0055</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KIGATSUKU_V_1–AWARE_A_OF–TC-MTR</td>
+      <td>-0.0051</td>
+      <td>-0.0051</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>MEIHAKU_A_2–CLEAR_V_1–EDICT-MTR</td>
+      <td>-0.00255</td>
+      <td>-0.0051</td>
+      <td>2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>NIGATE_A_2–POOR_A_1–EDICT-OMTR</td>
+      <td>-0.0035</td>
+      <td>-0.0035</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>NIGATE_A_2–WEAK_A_1–EDICT-MTR</td>
+      <td>-0.0035</td>
+      <td>-0.0035</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>TOGAMERU_V_1–CHALLENGE_V_TO–EDICT-OMTR</td>
+      <td>-0.0035</td>
+      <td>-0.0035</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>CHIIKI_N_1–AREA_N_OF+ROUND_N_OF–MOSES-MTR</td>
+      <td>-0.003</td>
+      <td>-0.003</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>COUNT_MARK_ROUND_EF</td>
+      <td>-0.003</td>
+      <td>-0.003</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>DAME_A_2–HOPELESS_A_1–EDICT-OMTR</td>
+      <td>-0.003</td>
+      <td>-0.003</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>DAME_A_2–USELESS_A_1–EDICT-OMTR</td>
+      <td>-0.003</td>
+      <td>-0.003</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>NINGEN_N_1–MAN_N_1–EDICT-OMTR</td>
+      <td>-0.00135</td>
+      <td>-0.0027</td>
+      <td>2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>AGARU_V_INCHOATIVE–EAT_V_1–EDICT-OMTR</td>
+      <td>-0.0025</td>
+      <td>-0.0025</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>AGARU_V_INCHOATIVE–STOP_V_1–EDICT-MTR</td>
+      <td>-0.0025</td>
+      <td>-0.0025</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>APAATO_N–APARTMENT_N_1–MOSES-OMTR</td>
+      <td>-0.0013</td>
+      <td>-0.0013</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>ARAWASU_V_3–EXPRESS_V_TO–EDICT-OMTR</td>
+      <td>-0.0009</td>
+      <td>-0.0009</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KASHIRAMOJI_N_1–ACRONYM_N_1–EDICT-MTR</td>
+      <td>-0.0009</td>
+      <td>-0.0009</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>IKERU_V_1–GOOD_A_AT-FOR–EDICT-OMTR</td>
+      <td>-0.0007</td>
+      <td>-0.0007</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>TADACHINI_A_1–DIRECT_A_1–EDICT-OMTR</td>
+      <td>-0.0005</td>
+      <td>-0.0005</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>TADACHINI_A_1–IMMEDIATE_A_1–EDICT-OMTR</td>
+      <td>-0.0005</td>
+      <td>-0.0005</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>TADACHINI_A_1–AT+ONCE_A_1–EDICT-MTR</td>
+      <td>0.0005</td>
+      <td>0.0005</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>ARAWASU_V_3–SHOW_V_1–EDICT-OMTR</td>
+      <td>0.0009</td>
+      <td>0.0009</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>COUNT_MARK_LETTER_EF</td>
+      <td>0.0009</td>
+      <td>0.0009</td>
+      <td>1</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>KASHIRAMOJI_N_1–CAPITAL_N_1+LETTER_N_OF–EDICT-OMTR</td>
+      <td>0.0009</td>
+      <td>0.0009</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>APAATO_N–APARTMENT_N_1+BUILDING_N_1–MOSES-MTR</td>
+      <td>0.0013</td>
+      <td>0.0013</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>COUNT_MARK_BUILDING_EF</td>
+      <td>0.0013</td>
+      <td>0.0013</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>AGARU_V_CAUSATIVE–STOP_V_1–EDICT-MTR</td>
+      <td>0.0025</td>
+      <td>0.0025</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>NINGEN_N_1–PERSON_N_1–EDICT-OMTR</td>
+      <td>0.00135</td>
+      <td>0.0027</td>
+      <td>2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>CHIIKI_N_1–REGION_N_OF–MOSES-OMTR</td>
+      <td>0.003</td>
+      <td>0.003</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>COUNT_MARK_REGION_EF</td>
+      <td>0.003</td>
+      <td>0.003</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>DAME_A_2–NO+GOOD_A_1–EDICT-MTR</td>
+      <td>0.003</td>
+      <td>0.003</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>COUNT_MARK_POOR_EF</td>
+      <td>0.0035</td>
+      <td>0.0035</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>NIGATE_N_1–POOR_N_1–EDICT-OMTR</td>
+      <td>0.0035</td>
+      <td>0.0035</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>PURAL_MARK_POOR_EF</td>
+      <td>0.0035</td>
+      <td>0.0035</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KIGATSUKU_V_1–NOTICE_V_1–TC-OMTR</td>
+      <td>0.0051</td>
+      <td>0.0051</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>MEIHAKU_A_2–CLEAR_A_OF–EDICT-OMTR</td>
+      <td>0.00255</td>
+      <td>0.0051</td>
+      <td>2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>COUNT_MARK_CLOSET_EF</td>
+      <td>0.0055</td>
+      <td>0.0055</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>NI_P+NARU_V_5-BECOME_V_ID-MTR</td>
+      <td>0.00183333</td>
+      <td>0.0055</td>
+      <td>3</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>TODANA_N_1–CLOSET_N_1–EDICT-OMTR</td>
+      <td>0.0055</td>
+      <td>0.0055</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>OROSU_V–MAKE_V_1–EDICT-OMTR</td>
+      <td>0.0057</td>
+      <td>0.0057</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>YUUUTSU_N_1–DEJECTION_N_1–EDICT-MTR</td>
+      <td>0.006</td>
+      <td>0.006</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>OOU_V_1–COVER_V_1–EDICT-OMTR</td>
+      <td>0.0064</td>
+      <td>0.0064</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>OKORU_V_1–OCCUR_V_TO–EDICT-MTR</td>
+      <td>0.0067</td>
+      <td>0.0067</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>RYOU_N_10–GOOD_N_1–EDICT-MTR</td>
+      <td>0.0092</td>
+      <td>0.0092</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KOTOBA_N–LANGUAGE_N_1–EDICT-MTR</td>
+      <td>0.00745</td>
+      <td>0.0149</td>
+      <td>2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>MANABU_V–LEARN_V_1–EDICT-MTR</td>
+      <td>0.0149</td>
+      <td>0.0149</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>FUKU_N_1–CLOTHING_N_1–SLT-OMTR</td>
+      <td>0.0164</td>
+      <td>0.0164</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>MASS_MARK_CLOTHING_EF</td>
+      <td>0.0164</td>
+      <td>0.0164</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>FURI_A_7–UNFAVORABLE_A_1–EDICT-MTR</td>
+      <td>0.0167</td>
+      <td>0.0167</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>HATARAKU_V–WORK_V_1–EDICT-OMTR</td>
+      <td>0.0179</td>
+      <td>0.0179</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>IU_V_2–CALL_V_1–EDICT-MTR</td>
+      <td>0.0061</td>
+      <td>0.0183</td>
+      <td>3</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>TOORI_N_3–PENETRATION_N_OF–EDICT-OMTR</td>
+      <td>0.0183</td>
+      <td>0.0183</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>COUNT_MARK_TREE_EF</td>
+      <td>0.0184</td>
+      <td>0.0184</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KI_N_10–TREE_N_OF–MOSES-MTR</td>
+      <td>0.0184</td>
+      <td>0.0184</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>TOSHI_N–AGE_N_1–EDICT-MTR</td>
+      <td>0.0192</td>
+      <td>0.0192</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>CHIKARA_N–EFFORT_N_1–EDICT-MTR</td>
+      <td>0.00965</td>
+      <td>0.0193</td>
+      <td>2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>IZENTOSHITE_A–STILL_A_1–EDICT-OMTR</td>
+      <td>0.0193</td>
+      <td>0.0193</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KAKERU_V_INTRANS–SHORT_V_1–EDICT-MTR</td>
+      <td>0.0193</td>
+      <td>0.0193</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>SHIZUMU_V–SINK_V_1–EDICT-OMTR</td>
+      <td>0.0193</td>
+      <td>0.0193</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>YORI_P_REL-FROM_P_REL</td>
+      <td>0.0202</td>
+      <td>0.0202</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>CHOUJOU_N_1–TOP_N_1–EDICT-OMTR</td>
+      <td>0.0208</td>
+      <td>0.0208</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>COUNT_MARK_TOP_EF</td>
+      <td>0.0208</td>
+      <td>0.0208</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KYANPU_S_1–CAMP_V_1–MOSES-MTR</td>
+      <td>0.0208</td>
+      <td>0.0208</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>TABITABI_A–FREQUENT_A_1–EDICT-OMTR</td>
+      <td>0.0208</td>
+      <td>0.0208</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>SAISEI_S_2–PLAY_V_1–EDICT-OMTR</td>
+      <td>0.0219</td>
+      <td>0.0219</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>SHIRABERU_V_1–SENSE_V_1–EDICT-OMTR</td>
+      <td>0.0224</td>
+      <td>0.0224</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>TETTEITEKI_A_1–COMPLETE_A_1–EDICT-OMTR</td>
+      <td>0.0224</td>
+      <td>0.0224</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>HAJIMETE_N–TIME_N_OF–SLT-OMTR</td>
+      <td>0.0114</td>
+      <td>0.0228</td>
+      <td>2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>MIRU_V_1–SEE_V_1–EDICT-OMTR</td>
+      <td>0.00456</td>
+      <td>0.0228</td>
+      <td>5</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>NARABERU_V–ENUMERATE_V_1–EDICT-OMTR</td>
+      <td>0.0228</td>
+      <td>0.0228</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>MARK_TO_REL_NOUN_EF</td>
+      <td>0.00783333</td>
+      <td>0.0235</td>
+      <td>3</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>OMOU_V-THINK_V_1-MTR</td>
+      <td>0.0237</td>
+      <td>0.0237</td>
+      <td>1</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>TEIDO_N_1–GRADE_N_1–EDICT-MTR</td>
+      <td>0.0243</td>
+      <td>0.0243</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>SURU_V_REL-DO_V_REL-MTR</td>
+      <td>0.0083</td>
+      <td>0.0249</td>
+      <td>3</td>
+      <td>11</td>
+    </tr>
+    <tr>
+      <td>COUNT_MARK_CHILD_EF</td>
+      <td>0.0262</td>
+      <td>0.0262</td>
+      <td>1</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <td>KO_N_9–CHILD_N_1–EDICT-OMTR</td>
+      <td>0.0262</td>
+      <td>0.0262</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>IKIKAERU_V_1–REVIVE_V_1–MOSES-OMTR</td>
+      <td>0.0273</td>
+      <td>0.0273</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>OMOU_V_2–THINK_V_1–EDICT-OMTR</td>
+      <td>0.00973333</td>
+      <td>0.0292</td>
+      <td>3</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>SHIAWASE_N–GOOD_A_AT-FOR+FORTUNE_N_1–EDICT-MTR</td>
+      <td>0.0292</td>
+      <td>0.0292</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>CHUUSHIN_N+BU_N_2–HEART_N_1–EDICT-OMTR</td>
+      <td>0.0313</td>
+      <td>0.0313</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KANJIRU_V_1–FEEL_V_1–EDICT-OMTR</td>
+      <td>0.0313</td>
+      <td>0.0313</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>BYOUKI_N–DISEASE_N_1–MOSES-MTR</td>
+      <td>0.011</td>
+      <td>0.033</td>
+      <td>3</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>KISU_S_1–KISS_V_1–MOSES-MTR</td>
+      <td>0.0333</td>
+      <td>0.0333</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>VN-INTRANS-SURU-VERB_JF</td>
+      <td>0.0333</td>
+      <td>0.0333</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>COUNT_MARK_ARM_EF</td>
+      <td>0.0335</td>
+      <td>0.0335</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>UDE_N_1–ARM_N_1–MOSES-OMTR</td>
+      <td>0.0335</td>
+      <td>0.0335</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>DEKAKERU_V_1–START_V_1–EDICT-OMTR</td>
+      <td>0.0344</td>
+      <td>0.0344</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>MODORU_V–RETURN_V_1–EDICT-OMTR</td>
+      <td>0.0177</td>
+      <td>0.0354</td>
+      <td>2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>MITASU_V–REACH_V_1–EDICT-OMTR</td>
+      <td>0.01785</td>
+      <td>0.0357</td>
+      <td>2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>UNMEI_N_1–FATE_N_1–MOSES-OMTR</td>
+      <td>0.0357</td>
+      <td>0.0357</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KURERU-FOR-PAST</td>
+      <td>0.0371</td>
+      <td>0.0371</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>COUNT_MARK_POINT_EF</td>
+      <td>0.0392</td>
+      <td>0.0392</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>MASS_MARK_HEALTH_EF</td>
+      <td>0.0392</td>
+      <td>0.0392</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>TOKORO_N_1–POINT_N_1–EDICT-OMTR</td>
+      <td>0.0392</td>
+      <td>0.0392</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>COMPOUND_N</td>
+      <td>0.0208</td>
+      <td>0.0416</td>
+      <td>2</td>
+      <td>26</td>
+    </tr>
+    <tr>
+      <td>COUNT_MARK_EMPLOYEE_EF</td>
+      <td>0.0416</td>
+      <td>0.0416</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>JUUGYOU_S_1+IN_N–EMPLOYEE_N_OF–EDICT-MTR</td>
+      <td>0.0416</td>
+      <td>0.0416</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>DOUMO_A–MUCH_A_1–EDICT-OMTR</td>
+      <td>0.0417</td>
+      <td>0.0417</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KENKOU_N_1–HEALTH_N_1–MOSES-OMTR</td>
+      <td>0.02085</td>
+      <td>0.0417</td>
+      <td>2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>MORAU_V_1–RECEIVE_V_1–EDICT-MTR</td>
+      <td>0.0417</td>
+      <td>0.0417</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>SHITAGAU_V_1–OBEY_V_1–EDICT-OMTR</td>
+      <td>0.02085</td>
+      <td>0.0417</td>
+      <td>2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>言いつける_V_1_G–TELL_V_1–EDICT-OMTR</td>
+      <td>0.0461</td>
+      <td>0.0461</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>COUNT_MARK_MOVIE_EF</td>
+      <td>0.0487</td>
+      <td>0.0487</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>EIGA_N–MOVIE_N_OF–MOSES-OMTR</td>
+      <td>0.0487</td>
+      <td>0.0487</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>NETSU_N_1–TEMPERATURE_N_OF–EDICT-OMTR</td>
+      <td>0.0487</td>
+      <td>0.0487</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KIRU_V_1–BEAR_V_1–EDICT-OMTR</td>
+      <td>0.0164333</td>
+      <td>0.0493</td>
+      <td>3</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KYOUI_N_3–THREAT_N_1–EDICT-OMTR</td>
+      <td>0.05</td>
+      <td>0.05</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>CHUUI_S_2–ATTENTION_N_TO–EDICT-OMTR</td>
+      <td>0.0511</td>
+      <td>0.0511</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KOKORO_N_1–HEART_N_1–EDICT-MTR</td>
+      <td>0.02625</td>
+      <td>0.0525</td>
+      <td>2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>MISERU_V_1–SHOW_V_1–EDICT-OMTR</td>
+      <td>0.0528</td>
+      <td>0.0528</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>MASS_MARK_POETRY_EF</td>
+      <td>0.0529</td>
+      <td>0.0529</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>SHI_N_3–POETRY_N_1–MOSES-MTR</td>
+      <td>0.0529</td>
+      <td>0.0529</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>MINA_A_2–ALL_A_1–TC-OMTR</td>
+      <td>0.0555</td>
+      <td>0.0555</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>BU_N_2–CLUB_N_1–EDICT-OMTR</td>
+      <td>0.058</td>
+      <td>0.058</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>COUNT_MARK_CLUB_EF</td>
+      <td>0.058</td>
+      <td>0.058</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KAORI_N_1–SCENT_N_OF–EDICT-OMTR</td>
+      <td>0.0582</td>
+      <td>0.0582</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>COUNT_MARK_PRESIDENT_EF</td>
+      <td>0.0625</td>
+      <td>0.0625</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>DAITOURYOU_N_1–PRESIDENT_N_OF–MOSES-OMTR</td>
+      <td>0.0625</td>
+      <td>0.0625</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>SUGATA_N_1–APPEARANCE_N_OF–EDICT-OMTR</td>
+      <td>0.0625</td>
+      <td>0.0625</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>MAIKU–MIKE–MOSES-MTR</td>
+      <td>0.0667</td>
+      <td>0.0667</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>HAJIMERU_V–BEGIN_V_1–EDICT-OMTR</td>
+      <td>0.067</td>
+      <td>0.067</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>SHIKEN_S–EXAMINATION_N_OF–MOSES-OMTR</td>
+      <td>0.067</td>
+      <td>0.067</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>YUSABURU_V_1–SHAKE_V_1–EDICT-OMTR</td>
+      <td>0.067</td>
+      <td>0.067</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KEKKA_S_1–RESULT_V_1–MOSES-MTR</td>
+      <td>0.0708</td>
+      <td>0.0708</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>IU_V_4–SAY_V_1–EDICT-OMTR</td>
+      <td>0.0258667</td>
+      <td>0.0776</td>
+      <td>3</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>MOU_A_7–MORE_A_1–EDICT-OMTR</td>
+      <td>0.0267667</td>
+      <td>0.0803</td>
+      <td>3</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>COUNT_MARK_HEART_EF</td>
+      <td>0.01676</td>
+      <td>0.0838</td>
+      <td>5</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>HIKU_V_1–DRAW_V_1–EDICT-MTR</td>
+      <td>0.084</td>
+      <td>0.084</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>TAORU_N_1–TOWEL_N_1–MOSES-OMTR</td>
+      <td>0.0875</td>
+      <td>0.0875</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>YASASHII_A_3–KIND_A_1–TC-OMTR</td>
+      <td>0.0885</td>
+      <td>0.0885</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>COP_ID_REL-BE_V_ID_REL-MTR</td>
+      <td>0.0130429</td>
+      <td>0.0913</td>
+      <td>7</td>
+      <td>24</td>
+    </tr>
+    <tr>
+      <td>KOZOTTE_A_1–ALL_A_1–EDICT-OMTR</td>
+      <td>0.0917</td>
+      <td>0.0917</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>OSHIERU_V_1–TEACH_V_1–EDICT-OMTR</td>
+      <td>0.0917</td>
+      <td>0.0917</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>UTSU_V_3–VISIT_V_1–EDICT-OMTR</td>
+      <td>0.0921</td>
+      <td>0.0921</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>SHITSUREI_A–LEAVE_V_1–EDICT-OMTR</td>
+      <td>0.0961</td>
+      <td>0.0961</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>TO_P_AND_REL-AND_C_REL</td>
+      <td>0.0327333</td>
+      <td>0.0982</td>
+      <td>3</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KIKAN_S_2–RETURN_N_OF–EDICT-OMTR</td>
+      <td>0.1022</td>
+      <td>0.1022</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>RYOURI_S_1–ADMINISTRATION_N_OF–EDICT-OMTR</td>
+      <td>0.0572</td>
+      <td>0.1144</td>
+      <td>2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KAMI_N_1–PAPER_N_1–MOSES-OMTR</td>
+      <td>0.125</td>
+      <td>0.125</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KARA_N_5–SKY_N_1–MOSES-MTR</td>
+      <td>0.0629</td>
+      <td>0.1258</td>
+      <td>2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>COUNT_MARK_STAR_EF</td>
+      <td>0.06345</td>
+      <td>0.1269</td>
+      <td>2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>HOSHI_N_1–STAR_N_1–EDICT-OMTR</td>
+      <td>0.06345</td>
+      <td>0.1269</td>
+      <td>2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>COUNT_MARK_BUS_EF</td>
+      <td>0.1274</td>
+      <td>0.1274</td>
+      <td>1</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>NI-IKU_GO-TO</td>
+      <td>0.0639</td>
+      <td>0.1278</td>
+      <td>2</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>SUWARU_V-MTR</td>
+      <td>0.1295</td>
+      <td>0.1295</td>
+      <td>1</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>WA_D_REL_DITCH_EF</td>
+      <td>0.1389</td>
+      <td>0.1389</td>
+      <td>1</td>
+      <td>220</td>
+    </tr>
+    <tr>
+      <td>ZANNEN_A–SORRY_A_FOR–SLT-MTR</td>
+      <td>0.146</td>
+      <td>0.146</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>MITSUKERU_V–FIND_V_1–EDICT-OMTR</td>
+      <td>0.1603</td>
+      <td>0.1603</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KYOUFU_S_1–FEAR_V_1–MOSES-MTR</td>
+      <td>0.1607</td>
+      <td>0.1607</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>SUKKARI_A_1–COMPLETE_A_1–EDICT-OMTR</td>
+      <td>0.08045</td>
+      <td>0.1609</td>
+      <td>2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>OCHIRU_V_1–FAIL_V_1–EDICT-OMTR</td>
+      <td>0.1834</td>
+      <td>0.1834</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>SHIGOTO_N–WORK_N_1–MOSES-OMTR</td>
+      <td>0.046925</td>
+      <td>0.1877</td>
+      <td>4</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>AME_RAIN_MWE_MTR</td>
+      <td>0.0628</td>
+      <td>0.1884</td>
+      <td>3</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>NARU_V_5–FLAKE_V_CAUSE–MOSES-MTR</td>
+      <td>0.1958</td>
+      <td>0.1958</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KENRYOKU_N_1–POWER_N_1–EDICT-OMTR</td>
+      <td>0.1979</td>
+      <td>0.1979</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KIKU_V_2–LISTEN_V_TO–EDICT-MTR</td>
+      <td>0.2059</td>
+      <td>0.2059</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KIKU_V_2–HEAR_V_1–EDICT-OMTR</td>
+      <td>0.1137</td>
+      <td>0.2274</td>
+      <td>2</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>NI_P+EXIST_V-HAVE_V-MTR</td>
+      <td>0.062225</td>
+      <td>0.2489</td>
+      <td>4</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>SOSOGU_V_2–POUR_V_1–EDICT-MTR</td>
+      <td>0.2816</td>
+      <td>0.2816</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KO-SO-A_IT_Q-MTR</td>
+      <td>0.0445143</td>
+      <td>0.3116</td>
+      <td>7</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <td>PRONOUN_Q</td>
+      <td>0.1166</td>
+      <td>0.3498</td>
+      <td>3</td>
+      <td>163</td>
+    </tr>
+    <tr>
+      <td>STD_PRON_N</td>
+      <td>0.1166</td>
+      <td>0.3498</td>
+      <td>3</td>
+      <td>163</td>
+    </tr>
+    <tr>
+      <td>PRON_IMP_ARG1_EF</td>
+      <td>0.19435</td>
+      <td>0.3887</td>
+      <td>2</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>KOUFUKU_A_2–HAPPY_A_WITH–TC-MTR</td>
+      <td>0.4442</td>
+      <td>0.4442</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>NEG_REL-UNLINK_ARG0</td>
+      <td>0.4442</td>
+      <td>0.4442</td>
+      <td>1</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <td>DE_P_REL-UNSPEC_LOC_REL</td>
+      <td>0.0210682</td>
+      <td>0.4635</td>
+      <td>22</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <td>KIRU_V_2–DO_V_1–EDICT-OMTR</td>
+      <td>0.155567</td>
+      <td>0.4667</td>
+      <td>3</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>ASOBI_N_1–PLAY_N_1–EDICT-MTR</td>
+      <td>0.4988</td>
+      <td>0.4988</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KUWAWARU_V_1–INCREASE_V_CAUSE–EDICT-MTR</td>
+      <td>0.5059</td>
+      <td>0.5059</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>KEKKYOKU_A–AFTER+ALL_A_1–EDICT-MTR</td>
+      <td>0.5203</td>
+      <td>0.5203</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>HORU_V–DIG_V_1–EDICT-OMTR</td>
+      <td>0.7292</td>
+      <td>0.7292</td>
+      <td>1</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>HANASHI_N–STORY_N_OF–MOSES-MTR</td>
+      <td>0.191375</td>
+      <td>0.7655</td>
+      <td>4</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>NEG_V_REL-NEG_REL-MTR</td>
+      <td>0.42525</td>
+      <td>0.8505</td>
+      <td>2</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <td>ZERO_ARG1_REL_NOUN_EF</td>
+      <td>0.0280469</td>
+      <td>0.8975</td>
+      <td>32</td>
+      <td>88</td>
+    </tr>
+    <tr>
+      <td>MARK_OF_REL_NOUN_EF</td>
+      <td>0.0339406</td>
+      <td>1.0861</td>
+      <td>32</td>
+      <td>87</td>
+    </tr>
+    <tr>
+      <td>KAU_V_1–BUY_V_1–EDICT-OMTR</td>
+      <td>0.414867</td>
+      <td>1.2446</td>
+      <td>3</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>NO_P_REL-POSS_REL-OMTR</td>
+      <td>0.0470393</td>
+      <td>1.3171</td>
+      <td>28</td>
+      <td>36</td>
+    </tr>
+    <tr>
+      <td>MOTTE-IRU–HOLD_MTR</td>
+      <td>0.27638</td>
+      <td>1.3819</td>
+      <td>5</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <td>UDEF-DEF-POSSESSOR_Q</td>
+      <td>0.05542</td>
+      <td>1.6626</td>
+      <td>30</td>
+      <td>38</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Last update: 2011-10-09 by anonymous [<a href="https://github.com/delph-in/docs/wiki/MtJaenFeedbackCleaning/_edit">edit</a>]</p>
 
         
       </section>

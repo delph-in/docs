@@ -15,4 +15,5 @@ full advantage of the Matrix, you almost certainly want to inherit from
 much more specific subtypes of those types.
 
 [Back to the Grammar Engineering FAQ](https://delph-in.github.io/docs/matrix/GrammarEngineeringFAQ).
-<update date omitted for speed>{% endraw %}
+
+Last update: 2023-06-30 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/GeFaqRuleWithoutDaughters/_edit)]{% endraw %}

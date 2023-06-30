@@ -111,4 +111,5 @@ SubVersion (SVN) revision control system, for example (in a typical Unix
 environment, or on Windows with suitable add-on software installed):
 
       svn checkout http://svn.delph-in.net/lkb/trunk lkb
-<update date omitted for speed>{% endraw %}
+
+Last update: 2017-12-18 by JohnCarroll [[edit](https://github.com/delph-in/docs/wiki/LkbCompilation/_edit)]{% endraw %}

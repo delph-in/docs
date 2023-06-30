@@ -312,4 +312,5 @@ Emily: I think the problem is the same regardless of whether we have
 **pron\_rel** (as soon as we get rid of **pronoun\_q\_rel**)
 
 - *you in the corner sing in a large hall*
-<update date omitted for speed>{% endraw %}
+
+Last update: 2013-08-04 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/SaarlandLtopDiscussion/_edit)]{% endraw %}

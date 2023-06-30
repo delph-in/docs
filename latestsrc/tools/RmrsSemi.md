@@ -142,4 +142,5 @@ output.
     PERF : PERF
       + >> +
       * >> !
-<update date omitted for speed>{% endraw %}
+
+Last update: 2017-04-24 by MichaelGoodman [[edit](https://github.com/delph-in/docs/wiki/RmrsSemi/_edit)]{% endraw %}

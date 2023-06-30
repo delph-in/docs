@@ -133,4 +133,5 @@ EMB: So just a diff on the gold standard with the MRS that come out. The
 generation profiles could be stored and compared.
 
 MWG: Thanks everyone.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2017-01-07 by LuisMorgadoCosta [[edit](https://github.com/delph-in/docs/wiki/CapitolHillGenerationTesting/_edit)]{% endraw %}

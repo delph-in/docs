@@ -154,4 +154,5 @@ on Tuesday), David, (Petter), (Woodley), Glenn
 - Francis Bond (NTU) Program Chair
 - Stephan Oepen (Oslo) Program Chair
 - Emily M. Bender (UW) Local Organizer
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/SuquamishSchedule/_edit)]{% endraw %}

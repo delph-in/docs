@@ -122,4 +122,5 @@ of the cpu to be started;
 
 (setf \*process-raw-print-trace-p\* t) will make the print-out while
 going through a test run look nicer.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2012-08-07 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/ItsdbDistributedProcessing/_edit)]{% endraw %}

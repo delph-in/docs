@@ -180,4 +180,5 @@ sprints](http://www.booksprints.net/))
 - [PaperCuts](https://delph-in.github.io/docs/garage/PaperCuts)
 - Work towards releasing MRS Testsuite treebanks as a parallel
 treebank resource
-<update date omitted for speed>{% endraw %}
+
+Last update: 2013-09-04 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/SaarlandSchedule/_edit)]{% endraw %}

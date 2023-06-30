@@ -287,4 +287,5 @@ methodology for multimodal language understanding. [Paper
 - Alexander Kuhnle and Ann Copestake. 2017. Deep learning evaluation
 using deep linguistic processing. [Paper
 (pdf)](https://arxiv.org/pdf/1706.01322.pdf)
-<update date omitted for speed>{% endraw %}
+
+Last update: 2023-06-30 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/DelphinApplications/_edit)]{% endraw %}

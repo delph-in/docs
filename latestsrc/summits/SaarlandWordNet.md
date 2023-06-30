@@ -185,4 +185,5 @@ FB: Finish with a plea: if people are interested in tagging more data,
 I'll put something up on the wiki. We're trying to come up with a small
 set of things that we'd like to all annotate together, e.g. Cathedral
 and Bazaar, etc..
-<update date omitted for speed>{% endraw %}
+
+Last update: 2013-08-01 by MichaelGoodman [[edit](https://github.com/delph-in/docs/wiki/SaarlandWordNet/_edit)]{% endraw %}

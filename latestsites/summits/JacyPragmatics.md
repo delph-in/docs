@@ -81,4 +81,5 @@ relations:
     empathy_rel := avm &
                    [EMPER index,
                     EMPEE index].
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/JacyPragmatics/_edit)]{% endraw %}

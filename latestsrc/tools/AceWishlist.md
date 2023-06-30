@@ -52,4 +52,5 @@ some time soon hopefully
 - rule chain specification for YY input
 - Right clicking on the Macintosh ACE-LUI interface (as of August
 2017-ish; anyone still having trouble? WP)
-<update date omitted for speed>{% endraw %}
+
+Last update: 2020-03-17 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/AceWishlist/_edit)]{% endraw %}

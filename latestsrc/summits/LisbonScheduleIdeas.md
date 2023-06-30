@@ -66,4 +66,5 @@ are available in many cases, linked from the title cell in each slot.
 ## Related pages
 
 - [LisbonDiscussionSuggestions](https://delph-in.github.io/docs/summits/LisbonDiscussionSuggestions)
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/LisbonScheduleIdeas/_edit)]{% endraw %}

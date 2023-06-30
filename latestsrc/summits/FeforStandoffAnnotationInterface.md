@@ -129,4 +129,5 @@ file to define the mapping (x). This looks something like:
     ;; or feature structures as in MAF??? no
 
 \* Collect and examine some examples...
-<update date omitted for speed>{% endraw %}
+
+Last update: 2006-06-14 by BenjaminWaldron [[edit](https://github.com/delph-in/docs/wiki/FeforStandoffAnnotationInterface/_edit)]{% endraw %}

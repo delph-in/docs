@@ -53,4 +53,5 @@ in the PET parser can also be used as a stand-alone tokenizer. Some
 [practical
 suggestions](http://lists.delph-in.net/archives/lkb/2013/000255.html)
 were posted to the LKB mailing list in early 2013.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2013-03-12 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/ReppPet/_edit)]{% endraw %}

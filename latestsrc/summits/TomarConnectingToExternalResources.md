@@ -201,4 +201,5 @@ it if we're going to do it.
 ...
 
 \*applause\*
-<update date omitted for speed>{% endraw %}
+
+Last update: 2014-07-15 by MichaelGoodman [[edit](https://github.com/delph-in/docs/wiki/TomarConnectingToExternalResources/_edit)]{% endraw %}

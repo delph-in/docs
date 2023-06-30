@@ -89,4 +89,5 @@ engineering - a wrapper around the LKB
 ## Discussion on lexicon building
 
 - Now plenary session only
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/FeforProcessors/_edit)]{% endraw %}

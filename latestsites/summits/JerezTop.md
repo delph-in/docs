@@ -302,4 +302,5 @@ however, maintaining two distinct branches is not a good thing,
 and once flop(1) performance with Boost were resolved, some
 testing of the ERG on \`main' should fairly quickly allow
 merging of the two branches, i hope.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/JerezTop/_edit)]{% endraw %}

@@ -58,4 +58,5 @@ matching algorithms,
 nltk, ...
 \\includegraphics\[width=\\textwidth\]{1090410-3-0\_0-0.png}
 (Buggy but colorful)
-<update date omitted for speed>{% endraw %}
+
+Last update: 2012-07-12 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/SofiaMrsComparison/_edit)]{% endraw %}

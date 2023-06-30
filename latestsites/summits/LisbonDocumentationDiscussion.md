@@ -98,4 +98,5 @@ development.
 - Set up a standard for peer reviewd documentation
 - Make DELPH-IN documenation available to the wider community
 - Compare the grammars (how do we want to compare?)
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/LisbonDocumentationDiscussion/_edit)]{% endraw %}

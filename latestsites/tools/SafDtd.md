@@ -83,4 +83,5 @@
     <!ATTLIST dc:language
             %attributes;
     >
-<update date omitted for speed>{% endraw %}
+
+Last update: 2009-01-23 by BenjaminWaldron [[edit](https://github.com/delph-in/docs/wiki/SafDtd/_edit)]{% endraw %}

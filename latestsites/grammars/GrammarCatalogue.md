@@ -617,4 +617,5 @@ Then change this line in create-catalogue-entry.sh:
 to this:
 
      grammar_metrics=$(mktemp -p ./)
-<update date omitted for speed>{% endraw %}
+
+Last update: 2023-06-26 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/GrammarCatalogue/_edit)]{% endraw %}

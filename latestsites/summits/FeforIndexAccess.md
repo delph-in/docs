@@ -39,4 +39,5 @@ that ends up in a park for the sentence 'Per runs to the park'. In
 [NorSource](/NorSource), which has adopted this Jackendovian view,
 this has been implemented through the use of DIRCT-ARG parallel to
 XARG (and VARG).
-<update date omitted for speed>{% endraw %}
+
+Last update: 2006-06-18 by DorotheeBeermann [[edit](https://github.com/delph-in/docs/wiki/FeforIndexAccess/_edit)]{% endraw %}

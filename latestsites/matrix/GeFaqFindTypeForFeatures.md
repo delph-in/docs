@@ -14,4 +14,5 @@ The LKB will find the maximal (most general) type, if any, for which all
 of the features in the list are compatible.
 
 [Back to the Grammar Engineering FAQ](https://delph-in.github.io/docs/matrix/GrammarEngineeringFAQ).
-<update date omitted for speed>{% endraw %}
+
+Last update: 2023-06-30 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/GeFaqFindTypeForFeatures/_edit)]{% endraw %}

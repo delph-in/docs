@@ -201,4 +201,5 @@ pre-committing what tokenization is.
 
 FCB: Both character-based and word-based tagging have been used before.
 And it (character-based) did lead to exponential chart building.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2017-01-11 by ZhenzhenFan [[edit](https://github.com/delph-in/docs/wiki/CapitolHillLexicon/_edit)]{% endraw %}

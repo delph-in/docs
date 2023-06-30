@@ -653,4 +653,5 @@ T.J.: \[I mean in an ideal world you would have great resources for the
 \[Emily prompts the group about how this DELPH-IN is going\]
 
 \[social chat\]
-<update date omitted for speed>{% endraw %}
+
+Last update: 2020-07-17 by OlgaZamaraeva [[edit](https://github.com/delph-in/docs/wiki/VirtualMatrix/_edit)]{% endraw %}

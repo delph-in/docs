@@ -14,4 +14,5 @@ available as options, but if they are, avoid them.)
 5. Given two candidate analyses with the same number islands, prefer
 the one where the additional dependencies captured are rooted in
 (i.e. semantically headed by) open class words.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2014-12-11 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/ErgTreebankingBridges/_edit)]{% endraw %}

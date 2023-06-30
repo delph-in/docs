@@ -36,4 +36,5 @@ it goes to sleep.
 An updated version of the Docker-based approach created by Lluís Padró
 is available [here](https://github.com/arademaker/docker-logon), this
 version is maintained by [AlexandreRademaker](https://delph-in.github.io/docs/garage/AlexandreRademaker).
-<update date omitted for speed>{% endraw %}
+
+Last update: 2019-01-29 by AlexandreRademaker [[edit](https://github.com/delph-in/docs/wiki/LkbMacintosh/_edit)]{% endraw %}

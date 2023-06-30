@@ -88,4 +88,5 @@ instead of trust) for remote access.
 connect unless you modify listen\_addresses in the postgresql.conf
 file. (The value takes the form of a comma-separated list of host
 names and/or numeric IP addresses.)
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/LexDbPsqlInitialize/_edit)]{% endraw %}

@@ -120,4 +120,5 @@ best practices for accessing them are documented in the pages under
 Grammar writers beginning new grammars and interested in systematic
 exploration of the analysis space are encouraged to explore the CLIMB
 methodology (see [ClimbTop](https://delph-in.github.io/docs/garage/ClimbTop)).
-<update date omitted for speed>{% endraw %}
+
+Last update: 2023-06-26 by Guy Emerson [[edit](https://github.com/delph-in/docs/wiki/DelphinTutorial_Grammars/_edit)]{% endraw %}

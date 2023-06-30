@@ -150,4 +150,5 @@ feature structure, there is (among other things) a list of identifiers
 referring back to the initial tokens, i.e. for *Mountain View.*
 (including the final period) these are tokens \#6, \#7, and \#8 from the
 initial tokenization.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-11-07 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/ErgTokenization_ComplexExample/_edit)]{% endraw %}

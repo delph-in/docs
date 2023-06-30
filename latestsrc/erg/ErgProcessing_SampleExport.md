@@ -386,4 +386,5 @@ the [ErgProcessing](https://delph-in.github.io/docs/erg/ErgProcessing) page for 
      x27:udef_q<59:72>[]
      x16:_and_c<59:62>[L-INDEX x23:_grammar_n_1, R-INDEX x27:_software_n_1]
     }
-<update date omitted for speed>{% endraw %}
+
+Last update: 2012-01-18 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/ErgProcessing_SampleExport/_edit)]{% endraw %}

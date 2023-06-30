@@ -83,4 +83,5 @@
 - Olga: Spanish, possibly
 - Dan: What about Thai?
 - Francis: It's not well maintained.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2022-07-19 by Michael Wayne Goodman [[edit](https://github.com/delph-in/docs/wiki/Fairhaven2022-Linking-ERG-and-Wordnet/_edit)]{% endraw %}

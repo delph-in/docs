@@ -82,4 +82,5 @@ extremely useful:
 Older versions of emacs use insert-string(), while newer versions use
 insert(). The newest version of lkb.el can handle both (thanks to
 Stephan Oepen and Joshua Crowgey).
-<update date omitted for speed>{% endraw %}
+
+Last update: 2020-05-02 by AlexandreRademaker [[edit](https://github.com/delph-in/docs/wiki/LkbMode/_edit)]{% endraw %}

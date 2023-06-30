@@ -26,4 +26,5 @@ technology:
 representations produced by the ERG
 - [MatrixGettingStarted](https://delph-in.github.io/docs/matrix/MatrixGettingStarted): A starting point for
 using the Grammar Matrix
-<update date omitted for speed>{% endraw %}
+
+Last update: 2023-06-30 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/DelphinWelcome/_edit)]{% endraw %}

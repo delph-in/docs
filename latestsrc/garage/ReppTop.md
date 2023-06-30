@@ -524,4 +524,5 @@ https://pydelphin.readthedocs.io/en/latest/api/delphin.repp.html
 version 0.2.2.
 - As part of
 [NLTK](https://www.nltk.org/api/nltk.tokenize.html#module-nltk.tokenize.repp)
-<update date omitted for speed>{% endraw %}
+
+Last update: 2022-08-09 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/ReppTop/_edit)]{% endraw %}
