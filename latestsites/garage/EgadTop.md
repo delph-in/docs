@@ -6,7 +6,7 @@ statistics include the proportion of lexical or rule variance between
 generation and parsing results, if the generated items have the same
 MRS, if the top ranked generation result matches the input string, etc.
 
-**Egad** was created by MichaelGoodman and
+**Egad** was created by [MichaelGoodman](https://delph-in.github.io/docs/garage/MichaelGoodman) and
 FrancisBond in order to improve generation results for
 [Jacy](https://delph-in.github.io/docs/grammars/JacyTop), but it has also been used to analyze the ERG. It relies
 on both the [\[incr tsdb()](https://delph-in.github.io/docs/tools/ItsdbTop)\] and [LKB](https://delph-in.github.io/docs/tools/LkbTop) packages for

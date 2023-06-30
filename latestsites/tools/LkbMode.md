@@ -10,7 +10,7 @@ below).
 
 tdl-mode.el (available
 [here](http://svn.emmtee.net/trunk/lingo/lkb/src/tdl-mode.el)) creates a
-mode for editing TDL called tdl-mode that provides syntax
+mode for editing [TDL](https://delph-in.github.io/docs/garage/TdlRfc) called tdl-mode that provides syntax
 highlighting and lines up elements in the tdl expressions.
 
 Install with:

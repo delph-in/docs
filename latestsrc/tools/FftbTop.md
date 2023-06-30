@@ -173,7 +173,7 @@ visit a rejected item that you want to reclaim.
 You can wrap a proxy server round fftb and treebank remotely.
 
 Here is the configuration for [nginx](https://www.nginx.com/), thanks to
-AlexandreRademaker. with minor tweaks to get it
+[AlexandreRademaker](https://delph-in.github.io/docs/garage/AlexandreRademaker). with minor tweaks to get it
 running on Ubuntu. This serves it at localhost:8080/private/. Call fftb
 without --browser.
 

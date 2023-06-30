@@ -139,7 +139,7 @@ latest developments and decisions.
 
 |             |                                                                                                                                                         |                                    |
 |-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|------------------------------------|
-| 14:00-14:30 | Introduction                                                                                                                                            | HansUszkoreit     |
+| 14:00-14:30 | Introduction                                                                                                                                            | [HansUszkoreit](https://delph-in.github.io/docs/garage/HansUszkoreit)     |
 | 14:30-16:00 | ["Teaser" short presentations](https://delph-in.github.io/docs/summits/BerlinSlides) on what's going to follow during the week                                                                  | N.N.                               |
 | 16:00-16:30 | Coffee break                                                                                                                                            |                                    |
 | 16:30-17:00 | [New Libraries for the Matrix (case and person/number/gender)](http://students.washington.edu/sfd/Drellishak%20-%20DELPH-IN%202007%20-%20Libraries.pdf) | ScottDrellishak |
@@ -150,37 +150,37 @@ latest developments and decisions.
 
 |             |                                                                                                                                                        |                                           |
 |-------------|--------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------------|
-| 9:30-10:00  | German Grammar (GG): the past, the present and the foreseeable future                                                                                  | BertholdCrysmann      |
+| 9:30-10:00  | German Grammar (GG): the past, the present and the foreseeable future                                                                                  | [BertholdCrysmann](https://delph-in.github.io/docs/garage/BertholdCrysmann)      |
 | 10:00-10:30 | Spanish Grammar: status report                                                                                                                         | [MontserratMarimon](/MontserratMarimon)   |
 | 10:30-11:00 | Coffee break                                                                                                                                           |                                           |
-| 11:00-11:30 | [La Grenouille: status report and the implementation of verb conjugation in the French grammar](http://www.loria.fr/~tseng/Pubs/tseng-delphin2007.pdf) | JesseTseng                  |
-| 11:30-11:45 | Modern Greek Resource Grammar (MGRG): recent developments and future plans                                                                             | ValiaKordoni              |
-| 11:45-12:00 | New Developments in the ERG                                                                                                                            | DanFlickinger            |
+| 11:00-11:30 | [La Grenouille: status report and the implementation of verb conjugation in the French grammar](http://www.loria.fr/~tseng/Pubs/tseng-delphin2007.pdf) | [JesseTseng](https://delph-in.github.io/docs/garage/JesseTseng)                  |
+| 11:30-11:45 | Modern Greek Resource Grammar (MGRG): recent developments and future plans                                                                             | [ValiaKordoni](https://delph-in.github.io/docs/garage/ValiaKordoni)              |
+| 11:45-12:00 | New Developments in the ERG                                                                                                                            | [DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger)            |
 |             |                                                                                                                                                        |                                           |
 | 12:00-14:00 | Lunch break                                                                                                                                            |                                           |
 |             |                                                                                                                                                        |                                           |
-| 14:00-14:30 | [New Developments in the Heart of Gold (HoG)](http://www.dfki.de/~uschaefer/delph-in/hogintroupdate.pdf)                                               | UlrichSchaefer          |
+| 14:00-14:30 | [New Developments in the Heart of Gold (HoG)](http://www.dfki.de/~uschaefer/delph-in/hogintroupdate.pdf)                                               | [UlrichSchaefer](https://delph-in.github.io/docs/garage/UlrichSchaefer)          |
 | 14:30-15:00 | Integrating General-Purpose and Domain-Specific Components in the Analysis of Scientific Text                                                          | [CjRupp](/CjRupp)                         |
-| 15:00-15:30 | Swedish grammars and MT: status report                                                                                                                 | SaraStymne                  |
+| 15:00-15:30 | Swedish grammars and MT: status report                                                                                                                 | [SaraStymne](https://delph-in.github.io/docs/garage/SaraStymne)                  |
 | 15:30-16:30 | Break-out session + Coffee break at 16:00                                                                                                              |                                           |
 | 16:30-17:00 | Automatic Acquisition of Transfer Rules                                                                                                                | [MichaelJellinghaus](/MichaelJellinghaus) |
-| 17:00-17:30 | [LXGram: status report](http://nlx.di.fc.ul.pt/2007DelphinBerlinLxgram.ppt)                                                                            | FranciscoCosta          |
+| 17:00-17:30 | [LXGram: status report](http://nlx.di.fc.ul.pt/2007DelphinBerlinLxgram.ppt)                                                                            | [FranciscoCosta](https://delph-in.github.io/docs/garage/FranciscoCosta)          |
 | 17:30-18:30 | Parallel Demos of                                                                                                                                      |                                           |
 |             | a\. Norsource: Norwegian-Japanese MT System + Norsource compound analyser and deep test suite format                                                   | [LarsHellan](/LarsHellan)                 |
 |             | b\. University of Washington 10x10 MT System                                                                                                           | ScottDrellishak        |
-|             | c\. Heart of Gold (HoG)                                                                                                                                | UlrichSchaefer          |
-|             | d\. LXGram                                                                                                                                             | AntonioBranco            |
+|             | c\. Heart of Gold (HoG)                                                                                                                                | [UlrichSchaefer](https://delph-in.github.io/docs/garage/UlrichSchaefer)          |
+|             | d\. LXGram                                                                                                                                             | [AntonioBranco](https://delph-in.github.io/docs/garage/AntonioBranco)            |
 | 17:30-18:30 | Time for break-out sessions                                                                                                                            |                                           |
 
 ### Wednesday, August 22
 
 |                 |                                                                                                                                                                    |                                     |
 |-----------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|-------------------------------------|
-| 9:00-9:30       | [Topics on Robust Deep Processing: automated acquisition of MWEs and Partial Parse Selection](http://www.coli.uni-saarland.de/~yzhang/files/delphin2007-zhang.pdf) | YiZhang                  |
+| 9:00-9:30       | [Topics on Robust Deep Processing: automated acquisition of MWEs and Partial Parse Selection](http://www.coli.uni-saarland.de/~yzhang/files/delphin2007-zhang.pdf) | [YiZhang](https://delph-in.github.io/docs/garage/YiZhang)                  |
 | 9:30-10:00      | [Efficient parsing with supertagging and CFG-filtering](http://www-tsujii.is.s.u-tokyo.ac.jp/~matuzaki/delph-in-2007.ppt)                                          | [MatsuzakiTakuya](/MatsuzakiTakuya) |
 | 10:00-10:30     | Deep Parsing with Shallow Dependency Constraints                                                                                                                   | [SagaeKenji](/SagaeKenji)           |
 | 10:30-11:00     | Coffee break                                                                                                                                                       |                                     |
-| 11:00-11:30     | [Enhancing deep parsing with input annotation from shallow tools](http://www.coli.uni-saarland.de/~rdrid/delphinsummit/petInput.pdf)                               | RebeccaDridan      |
+| 11:00-11:30     | [Enhancing deep parsing with input annotation from shallow tools](http://www.coli.uni-saarland.de/~rdrid/delphinsummit/petInput.pdf)                               | [RebeccaDridan](https://delph-in.github.io/docs/garage/RebeccaDridan)      |
 | 11:30-12:00     | Theory neutral evaluation of deep parsing results                                                                                                                  | [YusukeMiyao](/YusukeMiyao)         |
 | 12:00-13:00     | Session to decide on the discussion topics and schedule for Thursday and Friday                                                                                    |                                     |
 |                 |                                                                                                                                                                    |                                     |
@@ -196,13 +196,13 @@ Proposed discussion topics:
 
 |             |                                                                                                                                                                  |                                                                                                                    |
 |-------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------|
-| 9:30-11:00  | [Pushing the Frontiers: Expanding our research to new languages and applications and setting new research goals - Strategies for Dissemination](https://delph-in.github.io/docs/summits/BerlinFrontiers) | Moderator: HansUszkoreit, Scribe: ValiaKordoni                                    |
+| 9:30-11:00  | [Pushing the Frontiers: Expanding our research to new languages and applications and setting new research goals - Strategies for Dissemination](https://delph-in.github.io/docs/summits/BerlinFrontiers) | Moderator: [HansUszkoreit](https://delph-in.github.io/docs/garage/HansUszkoreit), Scribe: [ValiaKordoni](https://delph-in.github.io/docs/garage/ValiaKordoni)                                    |
 | 11:00-11:30 | Coffee break                                                                                                                                                     |                                                                                                                    |
-| 11:30-12:30 | [Availability of DELPH-IN Tools for Online Demos / Dissemination / Modes of cooperation among the DELPH-IN Partners](https://delph-in.github.io/docs/summits/BerlinDissemination)                        | Moderators: [LarsHellan](/LarsHellan) and HansUszkoreit, Scribe: UlrichSchaefer |
+| 11:30-12:30 | [Availability of DELPH-IN Tools for Online Demos / Dissemination / Modes of cooperation among the DELPH-IN Partners](https://delph-in.github.io/docs/summits/BerlinDissemination)                        | Moderators: [LarsHellan](/LarsHellan) and [HansUszkoreit](https://delph-in.github.io/docs/garage/HansUszkoreit), Scribe: [UlrichSchaefer](https://delph-in.github.io/docs/garage/UlrichSchaefer) |
 |             |                                                                                                                                                                  |                                                                                                                    |
 | 12:30-14:00 | Lunch break                                                                                                                                                      |                                                                                                                    |
 |             |                                                                                                                                                                  |                                                                                                                    |
-| 14:00-16:00 | [Across\_Framework\_Evaluation\_Metrics](https://delph-in.github.io/docs/summits/Across_Framework_Evaluation_Metrics)                                                                                    | Moderator: [YusukeMiyao](/YusukeMiyao), Scribe: RebeccaDridan                                     |
+| 14:00-16:00 | [Across\_Framework\_Evaluation\_Metrics](https://delph-in.github.io/docs/summits/Across_Framework_Evaluation_Metrics)                                                                                    | Moderator: [YusukeMiyao](/YusukeMiyao), Scribe: [RebeccaDridan](https://delph-in.github.io/docs/garage/RebeccaDridan)                                     |
 | 16:00-16:30 | Coffee break                                                                                                                                                     |                                                                                                                    |
 
 ### Friday, August 24
@@ -211,10 +211,10 @@ Proposed discussion topics:
 
 |             |                                                |                                                                                         |
 |-------------|------------------------------------------------|-----------------------------------------------------------------------------------------|
-| 9:30-10:00  | [HPSG Processing Strategies](https://delph-in.github.io/docs/summits/BerlinProcessing) | Moderator: StephanOepen, Scribe: YiZhang                     |
-| 10:00-11:00 | MRS and the removal of messages                | Moderator: DanFlickinger, Scribe: BertholdCrysmann |
+| 9:30-10:00  | [HPSG Processing Strategies](https://delph-in.github.io/docs/summits/BerlinProcessing) | Moderator: StephanOepen, Scribe: [YiZhang](https://delph-in.github.io/docs/garage/YiZhang)                     |
+| 10:00-11:00 | MRS and the removal of messages                | Moderator: [DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger), Scribe: [BertholdCrysmann](https://delph-in.github.io/docs/garage/BertholdCrysmann) |
 | 11:00-11:30 | Coffee break                                   |                                                                                         |
-| 11:30-12:00 | [Machine Translation in DELPH-IN](https://delph-in.github.io/docs/summits/BerlinMT)    | Moderator: SaraStymne, Scribe: ValiaKordoni               |
+| 11:30-12:00 | [Machine Translation in DELPH-IN](https://delph-in.github.io/docs/summits/BerlinMT)    | Moderator: [SaraStymne](https://delph-in.github.io/docs/garage/SaraStymne), Scribe: [ValiaKordoni](https://delph-in.github.io/docs/garage/ValiaKordoni)               |
 | 12:00-12:30 | [Business Meeting](https://delph-in.github.io/docs/summits/BerlinBusinessMeeting)      |                                                                                         |
 | 12:30-13:00 | Closing Remarks                                |                                                                                         |
 

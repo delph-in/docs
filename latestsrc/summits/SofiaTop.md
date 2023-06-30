@@ -31,7 +31,7 @@ levs: 175 levs). It can be paid either in levs, or in euros.
 # Schedule
 
 The scientific programme is emerging from a collaborative process,
-coordinated by AnnCopestake and
+coordinated by [AnnCopestake](https://delph-in.github.io/docs/garage/AnnCopestake) and
 StephanOepen, on the [SofiaSchedule](https://delph-in.github.io/docs/summits/SofiaSchedule)
 page; please note that last-minute adjustments are still possible.
 

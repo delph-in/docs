@@ -1,5 +1,5 @@
-{% raw %}Discussion moderated by SanghounSong, scribed by
-MichaelGoodman
+{% raw %}Discussion moderated by [SanghounSong](https://delph-in.github.io/docs/garage/SanghounSong), scribed by
+[MichaelGoodman](https://delph-in.github.io/docs/garage/MichaelGoodman)
 
 Apologies for the many ..., where the scribe's fingers were slower than
 the speakers' lips.

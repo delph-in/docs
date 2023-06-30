@@ -1,7 +1,7 @@
 {% raw %}# Open Issue: Clitics
 
 Mentors: EmilyBender (ebender at u dot washington dot
-edu, <http://faculty.washington.edu/ebender>), JesseTseng
+edu, <http://faculty.washington.edu/ebender>), [JesseTseng](https://delph-in.github.io/docs/garage/JesseTseng)
 
 Co-mentors welcome!
 

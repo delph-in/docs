@@ -1163,7 +1163,7 @@
 
       <section class="page__content e-content" itemprop="text">
         
-        <p>JanBuys: Current deep learning replaces everything with a
+        <p><a href="https://delph-in.github.io/docs/garage/JanBuys">JanBuys</a>: Current deep learning replaces everything with a
 neural network. Can we incorporate linguistic structure?</p>
 
 <p>Use cases of MRS:</p>
@@ -1181,30 +1181,30 @@ to text, translation, rewriting, summarisation, language modelling)</li>
 the tasks are tailored to this end-to-end paradigm. What are interesting
 tasks?</p>
 
-<p>JanBuys: Recently, there’s more interest in designing
+<p><a href="https://delph-in.github.io/docs/garage/JanBuys">JanBuys</a>: Recently, there’s more interest in designing
 specific test sets, to show generalisation from the training data.</p>
 
 <p>EmilyBender: We also need to generalise *across tasks*
 – we can’t just do 1500 end-to-end tasks and expect a general system.</p>
 
-<p>JanBuys: There’s recent work trying to show, if you have a
+<p><a href="https://delph-in.github.io/docs/garage/JanBuys">JanBuys</a>: There’s recent work trying to show, if you have a
 good language model, that knowledge is applicable to multiple tasks.
 It’s still not quite the same as what you’re asking.</p>
 
 <p>EmilyBender: Not meaning-sensitive.</p>
 
-<p>JohnCarroll: What’s an interpretable model? If there’s
+<p><a href="https://delph-in.github.io/docs/garage/JohnCarroll">JohnCarroll</a>: What’s an interpretable model? If there’s
 any deep learning, that part is not interpretable.</p>
 
-<p>JanBuys: Interpretability is hard to define. You can have a
+<p><a href="https://delph-in.github.io/docs/garage/JanBuys">JanBuys</a>: Interpretability is hard to define. You can have a
 model which is interpretable in some sense, even if it uses machine
 learning. If you have a more explicit intermediate representation, or a
 probability distribution over representations, that tells you something.</p>
 
-<p>JohnCarroll: Unless the deep model is ignoring all that
+<p><a href="https://delph-in.github.io/docs/garage/JohnCarroll">JohnCarroll</a>: Unless the deep model is ignoring all that
 structure and just taking the words. To play devil’s advocate.</p>
 
-<p>AlexanderKoller: I’ll raise your devil’s advocate.
+<p><a href="https://delph-in.github.io/docs/garage/AlexanderKoller">AlexanderKoller</a>: I’ll raise your devil’s advocate.
 “Interpretable” is not the word I would choose – we want models that are
 debuggable, where we can introspect into the model. We want to make this
 easier for a neural model. We also want models that are explainable – an
@@ -1212,23 +1212,23 @@ end-to-end system will behave in a way, and we want to explain to the
 user. We don’t need internal structure that a researcher can understand,
 we just need something that a layperson can understand.</p>
 
-<p>JanBuys: “Explainable” might be a better word – potentially,
+<p><a href="https://delph-in.github.io/docs/garage/JanBuys">JanBuys</a>: “Explainable” might be a better word – potentially,
 once you’re using a vector, there’s a limit to interpretability. We
 could still formulate the model in a way that you can get an
 explanation.</p>
 
-<p>AlexanderKoller: That’s not so different from
+<p><a href="https://delph-in.github.io/docs/garage/AlexanderKoller">AlexanderKoller</a>: That’s not so different from
 intricate symbolic models. If you have a dialogue system with HPSG and
 it doesn’t output the right thing, can this be explained to the end
 user?</p>
 
-<p>BertholdCrysmann: Do you remember the demo with the
+<p><a href="https://delph-in.github.io/docs/garage/BertholdCrysmann">BertholdCrysmann</a>: Do you remember the demo with the
 boxes flashing up?</p>
 
-<p>AlexanderKoller: I remember in my <a href="/HiWi">HiWi</a> days,
+<p><a href="https://delph-in.github.io/docs/garage/AlexanderKoller">AlexanderKoller</a>: I remember in my <a href="/HiWi">HiWi</a> days,
 where we had type hierarchies that filled the whole wall.</p>
 
-<p>GuyEmerson: One answer is to design systems that are
+<p><a href="https://delph-in.github.io/docs/garage/GuyEmerson">GuyEmerson</a>: One answer is to design systems that are
 modular. If you train a large network end-to-end, it can be difficult to
 tell which part of the network is doing what. If the network is modular
 in some way, perhaps using linguistic structure, then we might be able
@@ -1236,7 +1236,7 @@ to interpret each part of the system. Rather than having one huge black
 box, we have many small black boxes, which could each be more
 manageable.</p>
 
-<p>JanBuys: Another answer is to use more probabilistic models,
+<p><a href="https://delph-in.github.io/docs/garage/JanBuys">JanBuys</a>: Another answer is to use more probabilistic models,
 with explicit latent variables, rather than multiple operations on
 vectors. One challenge, when combining a neural and a symbolic model, is
 that there isn’t a way to know which parts the neural model will learn.
@@ -1248,7 +1248,7 @@ model to use that.</p>
 which the symbolic representation can be brought in. You gave three use
 cases, but are there other possibilities beyond that?</p>
 
-<p>JanBuys: On one extreme, you would have a model which you
+<p><a href="https://delph-in.github.io/docs/garage/JanBuys">JanBuys</a>: On one extreme, you would have a model which you
 pretrained to predict MRS, but at test time, you don’t do this
 explicitly, but just use the representation that was used to predict the
 MRS. All the linguistic knowledge is baked into the vector. You don’t
@@ -1262,24 +1262,24 @@ MRS.</p>
 see whether it helps compared to only using one or the other? But what
 kind of task?</p>
 
-<p>JanBuys: Learning sentence representations is not a task on
+<p><a href="https://delph-in.github.io/docs/garage/JanBuys">JanBuys</a>: Learning sentence representations is not a task on
 its own. One standard task is SNLI (predicting entailment). Another is
 question answering (finding the answer in a long text).</p>
 
-<p>DanFlickinger: <a href="https://delph-in.github.io/docs/home/DelphinApplications">Robot
+<p><a href="https://delph-in.github.io/docs/garage/DanFlickinger">DanFlickinger</a>: <a href="https://delph-in.github.io/docs/home/DelphinApplications">Robot
 control</a> –
 <a href="/WoodleyPackard">WoodleyPackard</a> entered a competition, and crucially
 used MRS as a bottleneck as you described.</p>
 
-<p>AlexanderKoller: How much data there was in the robot
+<p><a href="https://delph-in.github.io/docs/garage/AlexanderKoller">AlexanderKoller</a>: How much data there was in the robot
 control challenge?</p>
 
-<p>DanFlickinger: Relatively modest by today’s standard. I
+<p><a href="https://delph-in.github.io/docs/garage/DanFlickinger">DanFlickinger</a>: Relatively modest by today’s standard. I
 can’t remember exactly.</p>
 
 <p>EmilyBender: It was also crowdsourced and messy.</p>
 
-<p>AlexanderKoller: Another contrast between symbolic
+<p><a href="https://delph-in.github.io/docs/garage/AlexanderKoller">AlexanderKoller</a>: Another contrast between symbolic
 and neural approaches is that, for a neural method to work, you need
 substantial amounts of training data. There is something to be gained by
 mapping to something task independent, and then either the front or back
@@ -1289,7 +1289,7 @@ end could be hand-written to work around lack of data.</p>
 transfer learning, because MRS has information beyond the surface
 string.</p>
 
-<p>JanBuys: That area hasn’t been worked on enough.</p>
+<p><a href="https://delph-in.github.io/docs/garage/JanBuys">JanBuys</a>: That area hasn’t been worked on enough.</p>
 
 <p>EmilyBender: We don’t have any grammars as large as the
 ERG, but there are a couple of language pars where we could do
@@ -1299,7 +1299,7 @@ something.</p>
 neural models, and I would be interested to hear what reactions you get
 when presenting your work to a deep learning audience. Jan, Weiwei, Guy?</p>
 
-<p>GuyEmerson: I’ve had quite a mix of reactions. Some people
+<p><a href="https://delph-in.github.io/docs/garage/GuyEmerson">GuyEmerson</a>: I’ve had quite a mix of reactions. Some people
 are convinced that you can do everything end-to-end, so ask things like,
 “Can’t you just put it in a vector?” – that kind of person thinks the
 burden of proof is to show that linguistic structure is useful. On the
@@ -1309,7 +1309,7 @@ practice. So maybe this comes back to finding the right tasks – to show
 the first person that structure is useful, and to show the second person
 a good way of doing this.</p>
 
-<p>JanBuys: One potential way is to focus on datasets. If you
+<p><a href="https://delph-in.github.io/docs/garage/JanBuys">JanBuys</a>: One potential way is to focus on datasets. If you
 have a dataset, you can create a model for that dataset, have a
 competition. But the dataset can’t be too easy or too hard, or else
 there’s no motivation. One potential avenue to put focus on limitations
@@ -1321,7 +1321,7 @@ end-to-end.</p>
 <p><a href="/AngelinaMcMillanMajor">AngelinaMcMillanMajor</a>: Generating poetry and
 stories? Maybe we need bigger tassks that are more human-like.</p>
 
-<p>WeiweiSun: I would like to mention some empirical results.
+<p><a href="https://delph-in.github.io/docs/garage/WeiweiSun">WeiweiSun</a>: I would like to mention some empirical results.
 As an example of the general issue of linguistic structure in neural
 models – semantic role labelling for learner Chinese. We asked two
 undergrads to annotate some learner text, and considered four different
@@ -1352,7 +1352,7 @@ works.</p>
 <p>EmilyBender: What kinds of reactions do you get from deep
 learning people?</p>
 
-<p>WeiweiSun: I didn’t get negative reactions. They don’t
+<p><a href="https://delph-in.github.io/docs/garage/WeiweiSun">WeiweiSun</a>: I didn’t get negative reactions. They don’t
 challenge the data. Many still think linguistically motivated models are
 important. Another reason why I submitted to ACL and got positive
 reults, is magical numbers – I got state of the art. The quality of
@@ -1362,7 +1362,7 @@ You get that and pass.</p>
 <p>EmilyBender: That’s one answer to, “how do we get people
 to care?” – get the magic number!</p>
 
-<p>OlgaZamaraeva: The numbers question is a good one, but
+<p><a href="https://delph-in.github.io/docs/garage/OlgaZamaraeva">OlgaZamaraeva</a>: The numbers question is a good one, but
 not necessarily easy. That paper of ours at COLING did show some
 incremental improvement (maybe why it got accepted?) – we used DMRS to
 improve the vectors. We still had unigram features for the vectors, not
@@ -1374,13 +1374,13 @@ looked almost random at times, so it’s hard to say why the system
 improved. But with DMRS, we can have a much richer error analysis, which
 helps with the reviews as well.</p>
 
-<p>JohnCarroll: Other communities, like the CCG community,
+<p><a href="https://delph-in.github.io/docs/garage/JohnCarroll">JohnCarroll</a>: Other communities, like the CCG community,
 have also struggled with this problem. They produced a corpus of
 raising/control, demonstrating that their parser could get it right and
 other parsers got it wrong. It wasn’t real data, and it was unbalanced,
 but it showed something was happening that was right.</p>
 
-<p>AlexanderKoller: Can I ask the opposite question?
+<p><a href="https://delph-in.github.io/docs/garage/AlexanderKoller">AlexanderKoller</a>: Can I ask the opposite question?
 Have people had a harder time getting non-neural papers published
 compared to 5-10 years ago? Do you get the feeling, when you submit a
 non-neural paper, “They’re going to catch me this time”?</p>
@@ -1391,24 +1391,24 @@ paper doing something different stands out in a good way. I don’t think
 it’s negative opinion of papers using linguistic structure, but then
 COLING is meant to be more linguistics-friendly.</p>
 
-<p>OlgaZamaraeva: Dirk Hovy has a graph of the change,
+<p><a href="https://delph-in.github.io/docs/garage/OlgaZamaraeva">OlgaZamaraeva</a>: Dirk Hovy has a graph of the change,
 plotting ACL paper titles with “neural net” and “grammar”, and you do
 see the number of neural papers going up.</p>
 
-<p>AlexanderKoller: Number accepted or rejected?</p>
+<p><a href="https://delph-in.github.io/docs/garage/AlexanderKoller">AlexanderKoller</a>: Number accepted or rejected?</p>
 
-<p>OlgaZamaraeva: Accepted.</p>
+<p><a href="https://delph-in.github.io/docs/garage/OlgaZamaraeva">OlgaZamaraeva</a>: Accepted.</p>
 
 <p>FrancisBond: It might depend on the area. Machine
 translation is very score-oriented – if it isn’t better, the most common
 question is, “Why didn’t you use a neural net?”.</p>
 
-<p>BertholdCrysmann: How do you follow up after a
+<p><a href="https://delph-in.github.io/docs/garage/BertholdCrysmann">BertholdCrysmann</a>: How do you follow up after a
 question like that?</p>
 
 <p>FrancisBond: There’s no follow-up.</p>
 
-<p>DanFlickinger: In quite a few of these applications,
+<p><a href="https://delph-in.github.io/docs/garage/DanFlickinger">DanFlickinger</a>: In quite a few of these applications,
 looking at scoring, the issue of robustness must come in somewhere.
 Using MRS as a way of spiking your vectors, even in a successful
 application, the grammar will fail at some point. For some applications,
@@ -1416,7 +1416,7 @@ these gaps are innocent, but some are catastrophic. Have you reflected
 on this inherent shortcoming? We don’t understand grammar in its
 totality.</p>
 
-<p>JanBuys: That’s a definite limitation. One solution is to
+<p><a href="https://delph-in.github.io/docs/garage/JanBuys">JanBuys</a>: That’s a definite limitation. One solution is to
 have more statistical systems – we still want to predict the MRS, so we
 can give up on high precision and use a statistical parser instead of
 grammar-based parser. That’s one way to go, but maybe not correct way.
@@ -1429,15 +1429,15 @@ giving up on linguistic analyses for some sentences. You could make the
 counterargument, that maybe if the grammar can’t parse, the structure
 won’t help?</p>
 
-<p>DanFlickinger: Woodley has built on Yi Zhang’s work,
+<p><a href="https://delph-in.github.io/docs/garage/DanFlickinger">DanFlickinger</a>: Woodley has built on Yi Zhang’s work,
 training a PCFG on a corpus that was parsed with the ERG. The resulting
 model introduces a level of robustness, because it isn’t using as
 fine-grained restrictions as the grammar. It’s turning the dial between
 robustness and precision.</p>
 
-<p>JanBuys: I’ll be talking about that trade-off this afternoon.</p>
+<p><a href="https://delph-in.github.io/docs/garage/JanBuys">JanBuys</a>: I’ll be talking about that trade-off this afternoon.</p>
 
-<p>DanFlickinger: There’s a place to do that without
+<p><a href="https://delph-in.github.io/docs/garage/DanFlickinger">DanFlickinger</a>: There’s a place to do that without
 abandoning the linguistic structure altogether.</p>
 
 <p>FrancisBond: Whether we can throw away part of the
@@ -1445,7 +1445,7 @@ training data depends on the coverage of the grammar. For Zhong, there
 are phenomena it can’t handle – if you filter, the statistical system
 still won’t be able to parse those constructions.</p>
 
-<p>JanBuys: We can still leverage the grammar even without full
+<p><a href="https://delph-in.github.io/docs/garage/JanBuys">JanBuys</a>: We can still leverage the grammar even without full
 coverage, for example for low-resource languages – we don’t have much
 training data so deep learning systems will struggle anyway, and we
 could try to leverage the structure we do have.</p>
@@ -1453,7 +1453,7 @@ could try to leverage the structure we do have.</p>
 <p>EmilyBender: How do we get robustness? Can we mine the
 parse chart for partial parses?</p>
 
-<p>JanBuys: There is one avenue, of span-based neural parsing –
+<p><a href="https://delph-in.github.io/docs/garage/JanBuys">JanBuys</a>: There is one avenue, of span-based neural parsing –
 try to predict independently for each span, whether it should be a
 constituent. In principle, we could use this model without enforcing
 global consistency. We could train the model to be consistent with
@@ -1465,7 +1465,7 @@ easier to work with than a packed forest.</p>
 tells you something – I can’t give you a spanning parse, but I can give
 you the pieces I found.</p>
 
-<p>JanBuys: There must be a way to represent these partial
+<p><a href="https://delph-in.github.io/docs/garage/JanBuys">JanBuys</a>: There must be a way to represent these partial
 parses so you can do something with it. We could convert a partial
 analysis to a partial MRS, and treat as if it were a complete one.</p>
 
@@ -1473,7 +1473,7 @@ analysis to a partial MRS, and treat as if it were a complete one.</p>
 will have partial MRSs, but there’s the stuff you want to see, and all
 kinds of weird stuff.</p>
 
-<p>DanFlickinger: I’ve always been sceptical about the
+<p><a href="https://delph-in.github.io/docs/garage/DanFlickinger">DanFlickinger</a>: I’ve always been sceptical about the
 ability to extract useful information from the chart – it means you only
 have a few trillion possibilities left. 10^9/12/14… there’s still a
 huge search space!</p>
@@ -1483,29 +1483,29 @@ huge search space!</p>
 <p>FrancisBond: Zhong covers many phenomena! Topicalisation,
 dropped subjects…</p>
 
-<p>DanFlickinger: Gaps, coordination in surprising ways…
+<p><a href="https://delph-in.github.io/docs/garage/DanFlickinger">DanFlickinger</a>: Gaps, coordination in surprising ways…
 analyses that a grammar writer doesn’t want but can’t see how to exclude
 them in principle.</p>
 
 <p>EmilyBender: Could we strip out extracted versions? Find
 a subset of the chart in a principled way</p>
 
-<p>DanFlickinger: Years ago, people tried to do some of
+<p><a href="https://delph-in.github.io/docs/garage/DanFlickinger">DanFlickinger</a>: Years ago, people tried to do some of
 those straightforward ways to explore the chart.</p>
 
-<p>BerndKiefer: Yes, but we were very restrictive. We looked
+<p><a href="https://delph-in.github.io/docs/garage/BerndKiefer">BerndKiefer</a>: Yes, but we were very restrictive. We looked
 for big NP things that we could combine with the verbs floating around.
 We didn’t get far.</p>
 
-<p>JohnCarroll: We did a similar thing with RASP, with
+<p><a href="https://delph-in.github.io/docs/garage/JohnCarroll">JohnCarroll</a>: We did a similar thing with RASP, with
 learner essays. It worked reasonably well, but just wanted to say, it’s
 a bad parse. The more glue we need, the worse it scores. RASP produces
 more edges than the ERG.</p>
 
-<p>BerndKiefer: With these new neural methods, can we do
+<p><a href="https://delph-in.github.io/docs/garage/BerndKiefer">BerndKiefer</a>: With these new neural methods, can we do
 better than a PCFG?</p>
 
-<p>JanBuys: In principle, some of these neural models have shown
+<p><a href="https://delph-in.github.io/docs/garage/JanBuys">JanBuys</a>: In principle, some of these neural models have shown
 that greedy or close-to-greedy can work quite well, but this is not true
 for PCFGs. If you have an underlying RNN encoding your sentence, you can
 propagate some parsing information into the neural state, so if you make
@@ -1514,37 +1514,37 @@ whether the span should be used, because it can use global context.
 Something like that could help. But in cases where the number of
 potential edges is still too much, it doesn’t solve the problem.</p>
 
-<p>BerndKiefer: If you wouldn’t dare to put these things in
+<p><a href="https://delph-in.github.io/docs/garage/BerndKiefer">BerndKiefer</a>: If you wouldn’t dare to put these things in
 that would explode the search space, maybe we could let the neural net
 work out what to do with it. I wonder if that would be feasible, or
 worth trying?</p>
 
-<p>DanFlickinger: It’s tempting to let data-driven systems
+<p><a href="https://delph-in.github.io/docs/garage/DanFlickinger">DanFlickinger</a>: It’s tempting to let data-driven systems
 find which things in the chart survive, and which are doomed – make a
 good guess about constituent boundaries. That would dramatically reduce
 the search space.</p>
 
-<p>AlexanderKoller: Recent work used a neural tagger to
+<p><a href="https://delph-in.github.io/docs/garage/AlexanderKoller">AlexanderKoller</a>: Recent work used a neural tagger to
 predict constituent boundaries – this was in the context of a PCFG, but
 was also applied to TAG. It worked pretty well.</p>
 
-<p>DanFlickinger: Efficiency in finding constituents, even
+<p><a href="https://delph-in.github.io/docs/garage/DanFlickinger">DanFlickinger</a>: Efficiency in finding constituents, even
 when using the deep grammar, gives much a smaller search space. Then we
 can use John’s method – not trillions, but thousands of trees.</p>
 
 <p>EmilyBender: The training data could be a chart and the
 best parse.</p>
 
-<p>JohnCarroll: Often, context is the discriminating factor.
+<p><a href="https://delph-in.github.io/docs/garage/JohnCarroll">JohnCarroll</a>: Often, context is the discriminating factor.
 It’s the combinations of constituents that explode – the number of three
 consecutive edges in a chart is far too massive to explore.</p>
 
-<p>JanBuys: <a href="/TurboParser">TurboParser</a> uses dependency parsing
+<p><a href="https://delph-in.github.io/docs/garage/JanBuys">JanBuys</a>: <a href="/TurboParser">TurboParser</a> uses dependency parsing
 with higher order features – we can deal with that.</p>
 
-<p>DanFlickinger: Using context?</p>
+<p><a href="https://delph-in.github.io/docs/garage/DanFlickinger">DanFlickinger</a>: Using context?</p>
 
-<p>JanBuys: It’s not deep learning, just a general parsing
+<p><a href="https://delph-in.github.io/docs/garage/JanBuys">JanBuys</a>: It’s not deep learning, just a general parsing
 algorithm using dual composition or something. Has been applied with
 neural features.</p>
 
@@ -1554,37 +1554,37 @@ the whole thing breaks. You can put a neural system on the front.
 Converting a tweet to normal text, or poorly typed text to reasonably
 typed – that could make a big difference in how able we are to parse.</p>
 
-<p>JanBuys: Models that work on the character level could be
+<p><a href="https://delph-in.github.io/docs/garage/JanBuys">JanBuys</a>: Models that work on the character level could be
 robust to a misspelling. Using that to replace the first tagging step
 might help. It could also help with unknown words.</p>
 
-<p>AlexanderKoller: Neural models help a lot with
+<p><a href="https://delph-in.github.io/docs/garage/AlexanderKoller">AlexanderKoller</a>: Neural models help a lot with
 unknown words. In the same paper of ours that I mentioned earlier, you
 use a simple supertagging model and all coverage problems go away.</p>
 
-<p>BerndKiefer: I’m advocating one application where
+<p><a href="https://delph-in.github.io/docs/garage/BerndKiefer">BerndKiefer</a>: I’m advocating one application where
 linguistic structure helps (although I came to it late): dialogue
 management, beyond recommending a restaurant. I was looking for good
 applications for years, and I think really, dialogue is the thing which
 jumped at me.</p>
 
-<p>JanBuys: In research, people use neural systems for dialogue,
+<p><a href="https://delph-in.github.io/docs/garage/JanBuys">JanBuys</a>: In research, people use neural systems for dialogue,
 but not in practice, because it’s not robust. There are no guarantees
 about it doing the right thing.</p>
 
-<p>BerndKiefer: There is much less complexity than in
+<p><a href="https://delph-in.github.io/docs/garage/BerndKiefer">BerndKiefer</a>: There is much less complexity than in
 written text, but there are other challenges, like incrementality in
 production and recognition. You have a quite general analysis and
 generation system, and something in between which can do symbolic
 knowledge – and that can be combined. I can’t combine my dialogue system
 with any old vector.</p>
 
-<p>AlexanderKoller: What do you mean?</p>
+<p><a href="https://delph-in.github.io/docs/garage/AlexanderKoller">AlexanderKoller</a>: What do you mean?</p>
 
-<p>BerndKiefer: If I have a vector from another system, I
+<p><a href="https://delph-in.github.io/docs/garage/BerndKiefer">BerndKiefer</a>: If I have a vector from another system, I
 can’t just plug it in to mine.</p>
 
-<p>AlexanderKoller: Some people try embedding all the
+<p><a href="https://delph-in.github.io/docs/garage/AlexanderKoller">AlexanderKoller</a>: Some people try embedding all the
 symbolic things, then you’re in vector-land for everything. I’m torn – I
 want to agree with you, and say that dialogue is surely the last bastion
 of where you need reasoning and symbolic things, but I find it hard –
@@ -1603,13 +1603,13 @@ knowledge, it becomes better. We need linguistically informed resources
 and techniques, where we expect it to be better than just having massive
 amounts of data. It’s not clear to me. But I want something like that.</p>
 
-<p>BerndKiefer: I agree, and there have been fantastic
+<p><a href="https://delph-in.github.io/docs/garage/BerndKiefer">BerndKiefer</a>: I agree, and there have been fantastic
 advances in neural dialogue models – but some things you have to build
 from scratch, and you don’t have massive data. What do you do? I find
 myself in that situation. I don’t have the resources and the data for a
 neural system.</p>
 
-<p>AlexanderKoller: If you think of digital assistants,
+<p><a href="https://delph-in.github.io/docs/garage/AlexanderKoller">AlexanderKoller</a>: If you think of digital assistants,
 like Alexa, there are totally different backends for different domains –
 even a separate one for pizza – each with very specific semantic
 representations. All of those systems would collect separate semantic
@@ -1621,34 +1621,34 @@ linguistics going on. I met one person who was really into neural nets,
 and sees language as an application. He said it was still to be shown
 that language has structure… we had a conversation.</p>
 
-<p>AlexanderKoller: Sometimes it’s almost unusable –
+<p><a href="https://delph-in.github.io/docs/garage/AlexanderKoller">AlexanderKoller</a>: Sometimes it’s almost unusable –
 it’s not fun getting a train in Germany with Alexa.</p>
 
-<p>JohnCarroll: Is there a gap in the market for a system
+<p><a href="https://delph-in.github.io/docs/garage/JohnCarroll">JohnCarroll</a>: Is there a gap in the market for a system
 that’s linguistically informed?</p>
 
-<p>AlexanderKoller: You need to make it easy to use, so
+<p><a href="https://delph-in.github.io/docs/garage/AlexanderKoller">AlexanderKoller</a>: You need to make it easy to use, so
 that anyone writing an Alexa skill can understand it without knowing
 linguistics.</p>
 
 <p>EmilyBender: We’re a long way from that being a killer
 app.</p>
 
-<p>JohnCarroll: At least it’s a generic technology.</p>
+<p><a href="https://delph-in.github.io/docs/garage/JohnCarroll">JohnCarroll</a>: At least it’s a generic technology.</p>
 
-<p>BerndKiefer: There’s also neural work using AMRs, which
+<p><a href="https://delph-in.github.io/docs/garage/BerndKiefer">BerndKiefer</a>: There’s also neural work using AMRs, which
 seem to be impoverished MRSs.</p>
 
 <p>EmilyBender: “Impoverished” is not quite fair – they do
 some things we don’t do, so there are both sides of the Venn diagram.
 But we’re more consistent.</p>
 
-<p>JanBuys: If people don’t know enough about these different
+<p><a href="https://delph-in.github.io/docs/garage/JanBuys">JanBuys</a>: If people don’t know enough about these different
 formalisms, they partially try and reinvent the wheel.</p>
 
 <hr />
 
-<p>Scribed by GuyEmerson.</p>
+<p>Scribed by <a href="https://delph-in.github.io/docs/garage/GuyEmerson">GuyEmerson</a>.</p>
 
 <p>Last update: 2022-11-02 by EricZinda [<a href="https://github.com/delph-in/docs/wiki/DiderotApplicationDiscussion/_edit">edit</a>]</p>
 

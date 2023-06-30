@@ -49,7 +49,7 @@ DELPH-IN systems and think might be worth sharing, list it here.
 - [Typediff](/delph-in/docs/wiki/TypediffTop) (Ned Letcher)
   
   A web app for exploring DELPH-IN grammar types used in the processing of input.
-- [Vista extraction](/delph-in/docs/wiki/VistaExtractionTop) (JoaoSilva)
+- [Vista extraction](/delph-in/docs/wiki/VistaExtractionTop) ([JoaoSilva](https://delph-in.github.io/docs/garage/JoaoSilva))
   
   Tool for extracting vistas from the files exported by the grammar. Vistas are grammatical representations that collect only a part of the linguistic information encoded in the fully-fledged HPSG grammatical representation.
 - [DELPH-IN VIZ](https://github.com/delph-in/delphin-viz) (NedLetcher) 

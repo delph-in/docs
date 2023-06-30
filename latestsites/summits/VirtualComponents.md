@@ -97,7 +97,7 @@ was a link on the paper. You definitely should be able to get
 “input..tagger”. If I did it, Woodley would have picked it up and done
 it again and should have that. The code to do this with an Uber tagger
 exists within ACE and the difficulty is getting access to it.
-PyDelphin is the way to do this.
+[PyDelphin](https://delph-in.github.io/docs/garage/PyDelphin) is the way to do this.
 
 **Parsing and generation and getting the lowest level processing**
 
@@ -165,7 +165,7 @@ repository of snippets of what people have done. So that the next time
 someone wants to do it, they can take reference (also if they want to
 try it in another grammar, they can apply the same method).
 
-Luis: PyDelphin can do that. You can ask for the parent or
+Luis: [PyDelphin](https://delph-in.github.io/docs/garage/PyDelphin) can do that. You can ask for the parent or
 children of any type. Main problem: there is a chronic lack of
 documentation. Ned’s PhD work did a lot of this work by classifying a
 lot of types of rule types etc. for better organisation. The naming

@@ -14,10 +14,10 @@ There will be a 100 EUR fee to cover workshop expenses.
 
 Participants\
 FrancisBond, Ann Copestake,
-DanFlickinger, ChikaraHashimoto,
-BerndKiefer, [EricNichols](/EricNichols),
-StephanOepen, UlrichSchaefer,
-[TakaakiTanaka](/TakaakiTanaka), BenWaldron
+[DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger), [ChikaraHashimoto](https://delph-in.github.io/docs/garage/ChikaraHashimoto),
+[BerndKiefer](https://delph-in.github.io/docs/garage/BerndKiefer), [EricNichols](/EricNichols),
+StephanOepen, [UlrichSchaefer](https://delph-in.github.io/docs/garage/UlrichSchaefer),
+[TakaakiTanaka](/TakaakiTanaka), [BenWaldron](https://delph-in.github.io/docs/garage/BenWaldron)
 
 Contents
 

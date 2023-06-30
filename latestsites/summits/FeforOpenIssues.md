@@ -32,7 +32,7 @@ resources --- present and present our needs to ML people.
 
 Making the resources accessible to ML people requires some repackaging.
 Extracting treebanks from \[incr tsdb()\] so that e.g., supertagging is
-a shared task. TimBaldwin volunteers to maintain
+a shared task. [TimBaldwin](https://delph-in.github.io/docs/garage/TimBaldwin) volunteers to maintain
 repository of repackaged treebanks and/or include export scripts in
 DELPH-IN repository. If we can present a DELPH-IN shared task, the large
 ML community will probably come to call. There are some issues with

@@ -2,9 +2,9 @@
 
 [DELPH-IN 2016](https://delph-in.github.io/docs/summits/StanfordSchedule)
 
-Requestor: LuisMorgadoCosta
+Requestor: [LuisMorgadoCosta](https://delph-in.github.io/docs/garage/LuisMorgadoCosta)
 
-Scribe: GlennSlayden
+Scribe: [GlennSlayden](https://delph-in.github.io/docs/garage/GlennSlayden)
 
 **Luis**: We'll try to be brief. The idea that we are trying to
 implement in Singapore is a grammar that will need some kind of

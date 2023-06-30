@@ -1,8 +1,8 @@
 {% raw %}# Availability of DELPH-IN Tools for Online Demos, Modes of Cooperation among the DELPH-IN Partners, Dissemination
 
-Moderators: [LarsHellan](/LarsHellan) and HansUszkoreit
+Moderators: [LarsHellan](/LarsHellan) and [HansUszkoreit](https://delph-in.github.io/docs/garage/HansUszkoreit)
 
-Scribe: UlrichSchaefer
+Scribe: [UlrichSchaefer](https://delph-in.github.io/docs/garage/UlrichSchaefer)
 
 Thu, 23 Aug 1135-1300
 

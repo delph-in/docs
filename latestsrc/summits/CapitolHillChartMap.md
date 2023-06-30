@@ -2,7 +2,7 @@
 
 ## Lead by: Francis Bond
 
-\[scribed by David\]
+\[scribed by [David](https://delph-in.github.io/docs/garage/DavidMoeljadi)\]
 
 FCB: ...the very complete goal, trying make the reduplication that we
 have semi-working with the chart mapping where we expect to have a bit

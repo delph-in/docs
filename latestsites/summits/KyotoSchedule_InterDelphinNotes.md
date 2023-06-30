@@ -5,13 +5,13 @@
 
 - All are encouraged to make more active use of the mailing lists,
 including \`developers' for bug reports/questions, as well as
-actively using the wiki. (BartCramer volunteered to do
+actively using the wiki. ([BartCramer](https://delph-in.github.io/docs/garage/BartCramer) volunteered to do
 general wiki-maintenance/moderation.)
 - All are encouraged to send pre-submission papers to DELPH-IN members
 at other sites for comments. (And if someone asks you to read a
 paper, please reply with "yes" or "no" quickly, either answer being
 socially acceptable).
-- RebeccaDridan will make a tools section of the wiki
+- [RebeccaDridan](https://delph-in.github.io/docs/garage/RebeccaDridan) will make a tools section of the wiki
 for sharing scripts that aren't ready for distribution through the
 repository but possibly useful to other DELPH-IN members.
 
@@ -24,7 +24,7 @@ EmilyBender:
 traffic recently. Helpful to hear what other people are asking.
 - You can subscribe to wiki pages.
 
-BartCramer:
+[BartCramer](https://delph-in.github.io/docs/garage/BartCramer):
 
 - There are many mailing lists, but not much traffic. Should they be
 merged?
@@ -49,12 +49,12 @@ StephanOepen:
 - But "lkb" is one of the higher-traffic lists and includes
 non-DELPH-IN people, e.g. students in grammar engineering classes.
 
-ValiaKordoni:
+[ValiaKordoni](https://delph-in.github.io/docs/garage/ValiaKordoni):
 
 - All communication should be done through the wiki using
 messageboards.
 
-StephanOepen and RebeccaDridan:
+StephanOepen and [RebeccaDridan](https://delph-in.github.io/docs/garage/RebeccaDridan):
 
 - There are archives for the mailing lists:
 [http://lists.dephi-in.net/](http://lists.delph-in.net/) -- through
@@ -69,7 +69,7 @@ StephanOepen:
 
 - Everyone in the room should subscribe to "developers"
 
-ValiaKordoni:
+[ValiaKordoni](https://delph-in.github.io/docs/garage/ValiaKordoni):
 
 - If you get too much email, it's easy to be overwhelmed.
 
@@ -108,7 +108,7 @@ having a structure for sharing papers for review.
 - People can say, "I'm willing to read papers (though not EVERY paper
 you send me)", then be sent pre-submission papers to read.
 
-HansUszkoreit:
+[HansUszkoreit](https://delph-in.github.io/docs/garage/HansUszkoreit):
 
 - Send them to people who are closely related, but not co-authors.
 

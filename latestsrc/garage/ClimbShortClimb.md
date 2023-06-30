@@ -24,7 +24,7 @@ long time
 - SHORT-CLIMB can be downloaded
 [here](http://www.coli.uni-saarland.de/~afokkens/materials/short_climb.tar.gz)
 - Please send requests, questions and bugs reports to
-AntskeFokkens by email (for bug reports: please
+[AntskeFokkens](https://delph-in.github.io/docs/garage/AntskeFokkens) by email (for bug reports: please
 include your library and the to-be-modified TDL file)
 
 ## Creating a SHORT-CLIMB library

@@ -4,7 +4,7 @@ them.
 
 # Serialization Formats
 
-- MrsRfc
+- [MrsRfc](https://delph-in.github.io/docs/garage/MrsRfc)
 
 # SEM-I
 

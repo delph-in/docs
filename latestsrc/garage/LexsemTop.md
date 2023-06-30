@@ -3,7 +3,7 @@ into DELPH-IN.
 
 Prelimary work is being done using the ERG and wordnet, mainly at NTU
 (FrancisBond, [MathieuMorey](/MathieuMorey)) and UW
-(ZinaPozen).
+([ZinaPozen](https://delph-in.github.io/docs/garage/ZinaPozen)).
 
 ## Content
 

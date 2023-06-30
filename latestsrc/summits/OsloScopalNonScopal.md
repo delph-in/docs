@@ -1,6 +1,6 @@
 {% raw %}## Discussion: Scopal and Non-Scopal Modifiers
 
-Moderator: GuyEmerson Scribe: EmilyBender
+Moderator: [GuyEmerson](https://delph-in.github.io/docs/garage/GuyEmerson) Scribe: EmilyBender
 
     Kim didn't speak for a long time.
     Kim deliberately didn't speak.

@@ -20,11 +20,11 @@ conventions, file organization, etc.)
 
 Participants should feel free to add additional information to sessions
 (obviously large scale additions are best done with new pages), but
-should email DanFlickinger with suggestions of changes
+should email [DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger) with suggestions of changes
 to schedule and topics. Names below are of presenters and also of
 proposers of discussion topics: leaders of discussions and scribes will
 be added when we can work out load. Please email
-DanFlickinger to volunteer.
+[DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger) to volunteer.
 
 ## 13-Jun
 
@@ -35,24 +35,24 @@ DanFlickinger to volunteer.
 | 11:00 - 12:30 | Grammar status reports and identification of immediate challenges ([FeforImmediateChallenges](https://delph-in.github.io/docs/summits/FeforImmediateChallenges))                                  |
 | 12:30 - 14:00 | Lunch                                                                                                                                                     |
 | 14:00 - 16:00 | [Small group activities](https://delph-in.github.io/docs/summits/FeforSmallGroups)                                                                                                                |
-|               | Also grammar tours: French: JesseTseng, Modern Greek: ValiaKordoni,                                                         |
+|               | Also grammar tours: French: [JesseTseng](https://delph-in.github.io/docs/garage/JesseTseng), Modern Greek: [ValiaKordoni](https://delph-in.github.io/docs/garage/ValiaKordoni),                                                         |
 |               | Norwegian - determiner system: [DorotheeBeermann](/DorotheeBeermann)                                                                                      |
 |               | others...                                                                                                                                                 |
 | 16:00 - 16:30 | Coffee                                                                                                                                                    |
-| 16:30 - 18:30 | [Methodology for Evaluating Matrix Typology Modules](http://faculty.washington.edu/ebender/Fefor_Matrix_Modules_Eval.ppt): LauriePoulson |
-|               | Long-distance dependencies: PetterHaugereid                                                                                            |
+| 16:30 - 18:30 | [Methodology for Evaluating Matrix Typology Modules](http://faculty.washington.edu/ebender/Fefor_Matrix_Modules_Eval.ppt): [LauriePoulson](https://delph-in.github.io/docs/garage/LauriePoulson) |
+|               | Long-distance dependencies: [PetterHaugereid](https://delph-in.github.io/docs/garage/PetterHaugereid)                                                                                            |
 |               | [Small group activities](https://delph-in.github.io/docs/summits/FeforSmallGroups)                                                                                                                |
 
 ## 14-Jun
 
 |               |                                                                                                                                                                     |
 |---------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 09:30 - 10:30 | [Heart of Gold (HoG) tutorial](http://www.dfki.de/~uschaefer/delph-in/heartofgold-tutorial-fefor.pdf): UlrichSchaefer                             |
+| 09:30 - 10:30 | [Heart of Gold (HoG) tutorial](http://www.dfki.de/~uschaefer/delph-in/heartofgold-tutorial-fefor.pdf): [UlrichSchaefer](https://delph-in.github.io/docs/garage/UlrichSchaefer)                             |
 |               | [Small group activities](https://delph-in.github.io/docs/summits/FeforSmallGroups)                                                                                                                          |
 |               | On-Line Grammar Demos (Peer Gynt)                                                                                                                                   |
 | 10:30 - 11:00 | Coffee                                                                                                                                                              |
 | 11:00 - 12:30 | [Small group activities](https://delph-in.github.io/docs/summits/FeforSmallGroups)                                                                                                                          |
-|               | [Idioms in a Constraint-based Grammar of Japanese](http://pine.kuee.kyoto-u.ac.jp/member/hasimoto/mypapers/delphin060614.pdf): ChikaraHashimoto |
+|               | [Idioms in a Constraint-based Grammar of Japanese](http://pine.kuee.kyoto-u.ac.jp/member/hasimoto/mypapers/delphin060614.pdf): [ChikaraHashimoto](https://delph-in.github.io/docs/garage/ChikaraHashimoto) |
 | 12:30 - 14:00 | Lunch                                                                                                                                                               |
 | 14:00         | Begin joint discussion on [MRS/RMRS](https://delph-in.github.io/docs/summits/FeforRmrs)                                                                                                                     |
 

@@ -4,7 +4,7 @@
 [test suites](https://delph-in.github.io/docs/tools/ItsdbProfile) of sentences with related information used
 by tools such as [\[incr tsdb()\]](http://www.delph-in.net/itsdb),
 [art](http://sweaglesw.org/linguistics/libtsdb/art), and
-PyDelphin. The schema description of a TSDB database
+[PyDelphin](https://delph-in.github.io/docs/garage/PyDelphin). The schema description of a TSDB database
 (colloquially called a "relations file") describe the tables and columns
 in the database. Below is an example of a partial TSDB schema:
 

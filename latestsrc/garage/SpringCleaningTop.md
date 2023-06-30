@@ -10,9 +10,9 @@ the empty set).
 
 ## Authors
 
-AntskeFokkens: Spring Cleaning algorithm
+[AntskeFokkens](https://delph-in.github.io/docs/garage/AntskeFokkens): Spring Cleaning algorithm
 
-YiZhang: Grammar Compression
+[YiZhang](https://delph-in.github.io/docs/garage/YiZhang): Grammar Compression
 
 ## References
 

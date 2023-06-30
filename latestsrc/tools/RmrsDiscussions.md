@@ -45,7 +45,7 @@ arity](https://delph-in.github.io/docs/garage/WeSearch_UnderspecifiedPreds)
   - [specification of co-reference: \*''I bit her
 tongue''](https://delph-in.github.io/docs/garage/WeSearch_VariablePropertySharing)
   - And other topics: [PEST examples
-discussion](),
+discussion](https://delph-in.github.io/docs/garage/WeSearch_PestExamples),
 [etc.](/WeSearch/Hank%C3%B8TheRest)
 - From the [Sofia Summit](https://delph-in.github.io/docs/summits/SofiaTop), July 2012:
   

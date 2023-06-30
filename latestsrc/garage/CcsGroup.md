@@ -1,13 +1,13 @@
 {% raw %}- EmilyBender
 - [JohanBos](/JohanBos)
 - [SilvieCinkova](/SilvieCinkova)
-- AnnCopestake
+- [AnnCopestake](https://delph-in.github.io/docs/garage/AnnCopestake)
 - [CleoCondoravdi](/CleoCondoravdi)
 - [DickCrouch](/DickCrouch)
-- DanFlickinger
+- [DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger)
 - [JanHajič](/JanHaji%C4%8D)
-- AlexanderKoller
-- AlexLascarides
+- [AlexanderKoller](https://delph-in.github.io/docs/garage/AlexanderKoller)
+- [AlexLascarides](https://delph-in.github.io/docs/garage/AlexLascarides)
 - StephanOepen
 - TimOGorman
 - [WoodleyPackard](/WoodleyPackard)

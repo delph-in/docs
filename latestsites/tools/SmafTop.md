@@ -55,7 +55,7 @@ surface, weight, tagset, tag, ...) and a **value** string
   - complex features structure (**fs**) elements: these may be
 typed, and the format is compatible with the TEI/ISO standard
 (FSR)
-  - complex **rmrs** elements: following the RmrsDtd.
+  - complex **rmrs** elements: following the [RmrsDtd](https://delph-in.github.io/docs/garage/RmrsDtd).
 
 # SMAF/LKB
 

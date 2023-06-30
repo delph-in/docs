@@ -110,7 +110,7 @@ ERG-style tokens; (d) the full HPSG derivation
 ([ItsdbDerivations](https://delph-in.github.io/docs/tools/ItsdbDerivations)); (e) a simplified phrase
 structure tree, labeled with common category abbreviations
 ([ErgTrees](/ErgTrees); to be documented); (f) a logical-form meaning
-representation in Minimal Recursion Semantics (MRS; MrsRfc);
+representation in Minimal Recursion Semantics (MRS; [MrsRfc](https://delph-in.github.io/docs/garage/MrsRfc));
 and (g) a reduction of the MRS into variable-free Elementary Dependency
 Structures (EDS; [EdsTop](https://delph-in.github.io/docs/tools/EdsTop)).
 

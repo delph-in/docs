@@ -8,7 +8,7 @@ this point. The [test
 suite](https://students.washington.edu/olzama/rus.txt) is in Cyrillic
 font and consists of 294 sentences. A version which also covers
 ditransitive clauses exists (please contact
-OlgaZamaraeva).
+[OlgaZamaraeva](https://delph-in.github.io/docs/garage/OlgaZamaraeva)).
 
 [download](https://students.washington.edu/olzama/rqg.zip)
 

@@ -5,7 +5,7 @@
 - Short Site Updates (5-15 min: presenter bracketed)
   - *[UW](http://faculty.washington.edu/ebender/papers/DELPHIN08-UWupdate.pdf)*
 (EmilyBender)
-  - *Saarbruecken (UdS & DFKI)* (HansUszkoreit)
+  - *Saarbruecken (UdS & DFKI)* ([HansUszkoreit](https://delph-in.github.io/docs/garage/HansUszkoreit))
   - *NICT* (FrancisBond)
   - *NTT* ([SanaeFujita](/SanaeFujita))
   - *Paris* ([FredericLaurens](/FredericLaurens))
@@ -18,13 +18,13 @@
   - *[Robust, Efficient Incremental (Near) Deterministic Parsing
 with
 HPSG](http://www.coli.uni-saarland.de/~yzhang/files/kyoto-zhang.pdf)*
-(YiZhang)
+([YiZhang](https://delph-in.github.io/docs/garage/YiZhang))
   - *[Input Preprocessing with Chart
 Mapping](http://www.dfki.de/~padolphs/DELPH-IN/Chart-Mapping.pdf)*
-(PeterAdolphs)
+([PeterAdolphs](https://delph-in.github.io/docs/garage/PeterAdolphs))
   - *[Increasing Robustness and Efficiency of the PET
 Parser](http://www.coli.uni-saarland.de/~rdrid/robust-pet.pdf)*
-(RebeccaDridan)
+([RebeccaDridan](https://delph-in.github.io/docs/garage/RebeccaDridan))
 - Grammars
   - *[Update: The Grammar
 Matrix](http://students.washington.edu/sfd/Drellishak%20-%20DELPH-IN%202008%20-%20Matrix%20Update.pdf)*
@@ -39,7 +39,7 @@ More detailed updates.
 
 - Grammars
   - *Next steps in simplifying DELPH-IN MRS representations*
-(DanFlickinger)
+([DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger))
   - *[Radical non-configurationality and semantic
 composition](http://faculty.washington.edu/ebender/papers/Bender-DELPHIN08.pdf)*
 (EmilyBender)
@@ -53,15 +53,15 @@ Translation](http://www.coli.uni-saarland.de/~micha/delphinsummit/delphin2008.pd
 ([MichaJellinghaus](/MichaJellinghaus))
 - Lexical Acquistion and immature grammars
   - *Multilingual lexeme translation: Using mature lexicons to
-bootstrap immature ones* (MichaelGoodman)
+bootstrap immature ones* ([MichaelGoodman](https://delph-in.github.io/docs/garage/MichaelGoodman))
   - *Deep Lexical Acquisition for German Grammar*
-(ValiaKordoni & YiZhang)
+([ValiaKordoni](https://delph-in.github.io/docs/garage/ValiaKordoni) & [YiZhang](https://delph-in.github.io/docs/garage/YiZhang))
   - *Mining Multiword Expressions for Enhancing Performance of
-Parsing with the ERG* (ValiaKordoni)
+Parsing with the ERG* ([ValiaKordoni](https://delph-in.github.io/docs/garage/ValiaKordoni))
 
 **Lunch** - [Nagashi Sﾅ肯 en](http://en.wikipedia.org/wiki/Sﾅ肯en)
 
-- Student Session (RebeccaDridan)
+- Student Session ([RebeccaDridan](https://delph-in.github.io/docs/garage/RebeccaDridan))
   
   - Brief presentations of student research within DELPH-IN.
 - Robustness (FrancisBond)
@@ -73,10 +73,10 @@ Parsing with the ERG* (ValiaKordoni)
 
 ### Aug-02
 
-- (R)MRS comparison tools and issues (RebeccaDridan)
+- (R)MRS comparison tools and issues ([RebeccaDridan](https://delph-in.github.io/docs/garage/RebeccaDridan))
 - [(Some) Applications of
 MRS](http://www.coli.uni-saarland.de/~rwang/slides/delphin2008Wang.pdf):
-([RuiWang](/RuiWang) & YiZhang)
+([RuiWang](/RuiWang) & [YiZhang](https://delph-in.github.io/docs/garage/YiZhang))
   
   - *Recognizing/Generating Textual Entailment*
   - *Semantic Role Labeling*
@@ -84,10 +84,10 @@ MRS](http://www.coli.uni-saarland.de/~rwang/slides/delphin2008Wang.pdf):
 communication](https://delph-in.github.io/docs/summits/KyotoSchedule_InterDelphinNotes)
   
   - Paper exchange (EmilyBender,
-RebeccaDridan)
+[RebeccaDridan](https://delph-in.github.io/docs/garage/RebeccaDridan))
   - Use of mailing lists, wiki
   - Wiki space for sharing auxiliary scripts
-(RebeccaDridan, EmilyBender)
+([RebeccaDridan](https://delph-in.github.io/docs/garage/RebeccaDridan), EmilyBender)
 
 **Lunch**
 

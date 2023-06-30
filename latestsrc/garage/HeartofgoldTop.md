@@ -37,7 +37,7 @@ The Heart of Gold has been developed under the wings of the EU-funded
 project [DeepThought](http://www.project-deepthought.net/) and the
 BMBF-funded project [QUETAL](http://quetal.dfki.de) and in the context
 of the DELPH-IN collaboration. The main developer of Heart of Gold is
-UlrichSchaefer.
+[UlrichSchaefer](https://delph-in.github.io/docs/garage/UlrichSchaefer).
 
 The core middleware (and also the PET system) is available under an LGPL
 open source license. However, some of the components for which we

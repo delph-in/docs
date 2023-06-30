@@ -41,13 +41,13 @@ without unpacking everything (I seem to recall PET stores it). (FCB
 - Support for TDL doc-strings
 - More complete LUI support, e.g. chart browser, MRS browser (???)
 - Support for outputing \[incr tsdb()\] profiles, perhaps for a given
-relations file (???; requested by MichaelGoodman)
+relations file (???; requested by [MichaelGoodman](https://delph-in.github.io/docs/garage/MichaelGoodman))
   
   - this is supported by the external 'art' program, to be released
 some time soon hopefully
 - 0.9.25 Timeouts for parsing/generation (???; requested by
-DanFlickinger, added by
-MichaelGoodman)
+[DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger), added by
+[MichaelGoodman](https://delph-in.github.io/docs/garage/MichaelGoodman))
 - 0.9.25 Generate unknown names
 - rule chain specification for YY input
 - Right clicking on the Macintosh ACE-LUI interface (as of August

@@ -1,6 +1,6 @@
 {% raw %}# Indonesian Passive Voice
 
-DavidMoeljadi
+[DavidMoeljadi](https://delph-in.github.io/docs/garage/DavidMoeljadi)
 
 The passive voice is very frequent in Indonesian, much more frequent
 than in English. In English the frequency is estimated at about 4-5% in
@@ -309,6 +309,6 @@ Some examples:
            "Budi suffers from severe thirst."
 
 Link to [discussion notes](https://delph-in.github.io/docs/grammars/CapitalHillPassivesDiscussion) as transcribed
-by DanFlickinger.
+by [DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger).
 
 Last update: 2017-01-07 by DavidMoeljadi [[edit](https://github.com/delph-in/docs/wiki/CapitolHillPassives/_edit)]{% endraw %}

@@ -123,7 +123,7 @@ type constraints, and also docstrings on types in 'tooltips' windows.
 and generation.
 - Bug fixes and enhancements, as suggested in [LkbBugs](https://delph-in.github.io/docs/tools/LkbBugs) and
 [LkbWishlist](https://delph-in.github.io/docs/tools/LkbWishlist).
-- Support for the revised DELPH-IN TDL format, as specified in TdlRfc.
+- Support for the revised DELPH-IN TDL format, as specified in [TdlRfc](https://delph-in.github.io/docs/garage/TdlRfc).
 - A new handy command 'Evaluate Lisp expression...' in the Lkb Top
 Advanced menu.
 

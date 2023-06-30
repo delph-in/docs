@@ -5,7 +5,7 @@ LisbonRepositoryDiscussion is the transcript of Discussion I on Thu
 
 Moderation: StephanOepen
 
-Scribe: UlrichSchaefer
+Scribe: [UlrichSchaefer](https://delph-in.github.io/docs/garage/UlrichSchaefer)
 
 Stephan introduces motivation for the discussion.
 

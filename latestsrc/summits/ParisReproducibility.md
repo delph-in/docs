@@ -30,7 +30,7 @@ Start with mail from Rebecca:
     help get more DELPH-IN work published (eg particular results that need
     to be published so they can be referenced?)
 
-YiZhang: we were having issues with people not getting the
+[YiZhang](https://delph-in.github.io/docs/garage/YiZhang): we were having issues with people not getting the
 same results, and hard to verify --- different data sets may give
 differences of more than 20% exact match for parsing accuracy. We should
 set up a standard train/dev/text split for various grammars.

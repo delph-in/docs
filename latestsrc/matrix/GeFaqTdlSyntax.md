@@ -9,7 +9,7 @@ your grammar, or the LKB will interpret what you wrote differently from
 how you intended.
 
 A fuller, more formal description of TDL syntax can be found
-here.
+[here](https://delph-in.github.io/docs/garage/TdlRfc).
 
 Typical type definitions looks like this:
 

@@ -159,7 +159,7 @@ sppp.lsp, which is in the same directory as the fake sppp script.
 
 # SPPP DTD
 
-(inferred from the above example - UlrichSchaefer):
+(inferred from the above example - [UlrichSchaefer](https://delph-in.github.io/docs/garage/UlrichSchaefer)):
 
       <!ELEMENT segment ( token )* >
     

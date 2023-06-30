@@ -5,7 +5,7 @@
 This page provides background information on phenomena and
 implementations included in gCLIMB for German.
 
-In this document, *I* and *me* refers to AntskeFokkens.
+In this document, *I* and *me* refers to [AntskeFokkens](https://delph-in.github.io/docs/garage/AntskeFokkens).
 
 **Disclaimer**
 

@@ -4,14 +4,14 @@
 
 - FrancisBond
 - [PrescottKlassen](/PrescottKlassen)
-- ZinaPozen
-- SanghounSong
+- [ZinaPozen](https://delph-in.github.io/docs/garage/ZinaPozen)
+- [SanghounSong](https://delph-in.github.io/docs/garage/SanghounSong)
 - [SpencerRarricks](/SpencerRarricks)
-- MichaelGoodman
+- [MichaelGoodman](https://delph-in.github.io/docs/garage/MichaelGoodman)
 - EmilyBender (scribe)
-- GlennSlayden
+- [GlennSlayden](https://delph-in.github.io/docs/garage/GlennSlayden)
 - [WoodleyPackard](/WoodleyPackard)
-- DanFlickinger (by Skype)
+- [DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger) (by Skype)
 
 ## Use cases
 

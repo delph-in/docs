@@ -1,7 +1,7 @@
 {% raw %}# Overview
 
-The 15th DELPH-IN summit will be hosted by GuyEmerson and
-AnnCopestake at the University of Cambridge, during the
+The 15th DELPH-IN summit will be hosted by [GuyEmerson](https://delph-in.github.io/docs/garage/GuyEmerson) and
+[AnnCopestake](https://delph-in.github.io/docs/garage/AnnCopestake) at the University of Cambridge, during the
 week of 15-19 July, 2019. The summit will be held at the [Department of
 Computer Science and Technology](https://www.cl.cam.ac.uk/) (formerly
 and informally known as the Computer Lab), [on the West Cambridge
@@ -15,7 +15,7 @@ Please register your intention to participate on the
 
 See [CambridgeSchedule](https://delph-in.github.io/docs/summits/CambridgeSchedule).
 
-AnnCopestake and JohnCarroll serve as
+[AnnCopestake](https://delph-in.github.io/docs/garage/AnnCopestake) and [JohnCarroll](https://delph-in.github.io/docs/garage/JohnCarroll) serve as
 programme chairs.
 
 # Travel

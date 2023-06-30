@@ -2,9 +2,9 @@
 Grammar](http://krg.khu.ac.kr).
 
 The Korean Resource Grammar was originally built by
-JongBokKim and [JaehyungYang](/JaehyungYang). A revised
+[JongBokKim](https://delph-in.github.io/docs/garage/JongBokKim) and [JaehyungYang](/JaehyungYang). A revised
 matrix-compliant version has been rebuilt by
-SanghounSong and FrancisBond --- the KRG
+[SanghounSong](https://delph-in.github.io/docs/garage/SanghounSong) and FrancisBond --- the KRG
 now both parses and generates.
 
 ### Encoding Issues

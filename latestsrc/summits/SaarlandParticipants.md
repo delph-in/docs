@@ -3,94 +3,94 @@ Summit](https://delph-in.github.io/docs/summits/SaarlandTop), in St. Wendel, Saa
 
 - [LarsAhrenberg](/LarsAhrenberg)
 - [KatyaAlahverdzhieva](/KatyaAlahverdzhieva)
-- TaniaAvgustinova (July 29 to Aug 2, commuting
+- [TaniaAvgustinova](https://delph-in.github.io/docs/garage/TaniaAvgustinova) (July 29 to Aug 2, commuting
 from SB)
-- TimBaldwin (attending, 29-jul to 2-aug)
+- [TimBaldwin](https://delph-in.github.io/docs/garage/TimBaldwin) (attending, 29-jul to 2-aug)
 - [DorotheeBeermann](/DorotheeBeermann)
 - [NuriaBel](/NuriaBel)
 - EmilyBender (attending, 29-jul to 2-aug)
 - FrancisBond (attending, 29-jul to 2-aug: will be in
 UdS before if you want to come early and play)
-- AntonioBranco (July 29 (afternoon), 30 and 31
+- [AntonioBranco](https://delph-in.github.io/docs/garage/AntonioBranco) (July 29 (afternoon), 30 and 31
 (morning))
 - [DavidBrodbeck](/DavidBrodbeck)
 - [UlrichCallmeier](/UlrichCallmeier)
-- JohnCarroll (unfortunately I can't make it)
+- [JohnCarroll](https://delph-in.github.io/docs/garage/JohnCarroll) (unfortunately I can't make it)
 - [SérgioCastro](/S%C3%A9rgioCastro)
-- AnnCopestake (July 29 to Aug 2, leaving 13:00)
-- FranciscoCosta (July 29 (afternoon), 30 and 31
+- [AnnCopestake](https://delph-in.github.io/docs/garage/AnnCopestake) (July 29 to Aug 2, leaving 13:00)
+- [FranciscoCosta](https://delph-in.github.io/docs/garage/FranciscoCosta) (July 29 (afternoon), 30 and 31
 (morning))
-- JoshuaCrowgey (July 29 to Aug 2)
-- BertholdCrysmann (3 days between July 29 and Aug
+- [JoshuaCrowgey](https://delph-in.github.io/docs/garage/JoshuaCrowgey) (July 29 to Aug 2)
+- [BertholdCrysmann](https://delph-in.github.io/docs/garage/BertholdCrysmann) (3 days between July 29 and Aug
 2, commuting from SB)
-- RebeccaDridan (July 29 to Aug 2)
+- [RebeccaDridan](https://delph-in.github.io/docs/garage/RebeccaDridan) (July 29 to Aug 2)
 - [LivEllingsen](/LivEllingsen)
-- GuyEmerson (July 29 to Aug 2)
-- DanFlickinger (July 29 to Aug 2)
+- [GuyEmerson](https://delph-in.github.io/docs/garage/GuyEmerson) (July 29 to Aug 2)
+- [DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger) (July 29 to Aug 2)
 - [LeaFrermann](/LeaFrermann)
-- AntskeFokkens (July 29 to Aug 2, leaving on the
+- [AntskeFokkens](https://delph-in.github.io/docs/garage/AntskeFokkens) (July 29 to Aug 2, leaving on the
 15:20 train on Friday afternoon)
 - [SanaeFujita](/SanaeFujita)
-- MichaelGoodman (July 30 and 1/2 to Aug 2)
-- VaryaGracheva
-- PetterHaugereid (July 29 to Aug 2)
+- [MichaelGoodman](https://delph-in.github.io/docs/garage/MichaelGoodman) (July 30 and 1/2 to Aug 2)
+- [VaryaGracheva](https://delph-in.github.io/docs/garage/VaryaGracheva)
+- [PetterHaugereid](https://delph-in.github.io/docs/garage/PetterHaugereid) (July 29 to Aug 2)
 - [LarsHellan](/LarsHellan) (July 29 to Aug 2)
 - [FabiolaHenri](/FabiolaHenri)
 - [AurelieHerbelot](/AurelieHerbelot) (probably July 29 - July 31)
 - [GordanaIlicHolen](/GordanaIlicHolen)
-- AngelinaIvanova (attending, probably 29 Jul - 2
+- [AngelinaIvanova](https://delph-in.github.io/docs/garage/AngelinaIvanova) (attending, probably 29 Jul - 2
 Aug)
 - [WalterKasper](/WalterKasper) (July 29 to July 31, commuting from
 SB)
 - [MartinKay](/MartinKay)
-- BerndKiefer (attending July 29 to Aug 2, if possible)
-- JongBokKim
+- [BerndKiefer](https://delph-in.github.io/docs/garage/BerndKiefer) (attending July 29 to Aug 2, if possible)
+- [JongBokKim](https://delph-in.github.io/docs/garage/JongBokKim)
 - [PrescottKlassen](/PrescottKlassen) (attending July 29 to 12:00 PM
 Aug 2)
-- ValiaKordoni
-- AlexLascarides (unfortunately I can't make it)
-- NedLetcher (29 Jul - 2 Aug)
+- [ValiaKordoni](https://delph-in.github.io/docs/garage/ValiaKordoni)
+- [AlexLascarides](https://delph-in.github.io/docs/garage/AlexLascarides) (unfortunately I can't make it)
+- [NedLetcher](https://delph-in.github.io/docs/garage/NedLetcher) (29 Jul - 2 Aug)
 - [ElisabethLien](/ElisabethLien)
 - [JanToreLønning](/JanToreL%C3%B8nning)
 - [AndrewMacKinlay](/AndrewMacKinlay)
 - [MontserratMarimon](/MontserratMarimon) (29 Jul - 1 Aug)
 - [YusukeMiyao](/YusukeMiyao)
-- DavidMott (29 Jul - 2 Aug)
+- [DavidMott](https://delph-in.github.io/docs/garage/DavidMott) (29 Jul - 2 Aug)
 - [MathieuMorey](/MathieuMorey) (tentatively yes, July 29 to Aug 2)
 - [EricNichols](/EricNichols)
 - StephanOepen (wouldn't miss it)
-- PetyaOsenova (29 Jul - 2 Aug)
+- [PetyaOsenova](https://delph-in.github.io/docs/garage/PetyaOsenova) (29 Jul - 2 Aug)
 - [LiljaOvrelid](/LiljaOvrelid)
 - [LiljaØvrelid](/Lilja%C3%98vrelid)
 - [WoodleyPackard](/WoodleyPackard) (attending, 29-jul to 2-aug)
-- ZinaPozen
+- [ZinaPozen](https://delph-in.github.io/docs/garage/ZinaPozen)
 - [JonathonRead](/JonathonRead)
 - [IvanSag](/IvanSag)
-- UlrichSchaefer (conflict with school holidays,
+- [UlrichSchaefer](https://delph-in.github.io/docs/garage/UlrichSchaefer) (conflict with school holidays,
 trying to sort that out, probably part-time/commuting)
 - [MeganSchneider](/MeganSchneider)
 - [MelanieSiegel](/MelanieSiegel) (attending, July 29 - Aug. 2)
-- JoaoSilva (July 29 (afternoon), 30 and 31 (morning))
+- [JoaoSilva](https://delph-in.github.io/docs/garage/JoaoSilva) (July 29 (afternoon), 30 and 31 (morning))
 - [KirilSimov](/KirilSimov)
 - [IlianaSimova](/IlianaSimova)
-- GlennSlayden (July 29 to Aug 2 (through session 7))
-- SanghounSong (July 29 to Aug 2)
+- [GlennSlayden](https://delph-in.github.io/docs/garage/GlennSlayden) (July 29 to Aug 2 (through session 7))
+- [SanghounSong](https://delph-in.github.io/docs/garage/SanghounSong) (July 29 to Aug 2)
 - [MatsuzakiTakuya](/MatsuzakiTakuya)
-- LilingTan (possibly 29Jul-2Aug, subject to supervisor's
+- [LilingTan](https://delph-in.github.io/docs/garage/LilingTan) (possibly 29Jul-2Aug, subject to supervisor's
 approval =))
-- JesseTseng
+- [JesseTseng](https://delph-in.github.io/docs/garage/JesseTseng)
 - [JunichiTsujii](/JunichiTsujii)
-- HansUszkoreit (July 30 - Aug 1)
-- ErikVelldal
-- BenjaminWaldron
+- [HansUszkoreit](https://delph-in.github.io/docs/garage/HansUszkoreit) (July 30 - Aug 1)
+- [ErikVelldal](https://delph-in.github.io/docs/garage/ErikVelldal)
+- [BenjaminWaldron](https://delph-in.github.io/docs/garage/BenjaminWaldron)
 - [RuiWang](/RuiWang) (attending, July 29 - Aug. 2)
 - [DavidWax](/DavidWax)
-- DominikusWetzel
-- JimWhite
-- FeiyuXu
+- [DominikusWetzel](https://delph-in.github.io/docs/garage/DominikusWetzel)
+- [JimWhite](https://delph-in.github.io/docs/garage/JimWhite)
+- [FeiyuXu](https://delph-in.github.io/docs/garage/FeiyuXu)
 - [JaehyungYang](/JaehyungYang)
-- JustinChunleiYang (It's a shame I can't make
+- [JustinChunleiYang](https://delph-in.github.io/docs/garage/JustinChunleiYang) (It's a shame I can't make
 it)
-- YiZhang (attending, July 29 - Aug. 2)
+- [YiZhang](https://delph-in.github.io/docs/garage/YiZhang) (attending, July 29 - Aug. 2)
 
 Last update: 2013-08-01 by AnnCopestake [[edit](https://github.com/delph-in/docs/wiki/SaarlandParticipants/_edit)]{% endraw %}

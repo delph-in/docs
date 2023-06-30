@@ -3,39 +3,39 @@ Summit](https://delph-in.github.io/docs/summits/CambridgeTop)
 
 - [EliasAamodt](/EliasAamodt)
 - [GabrielAguilaMultner](/GabrielAguilaMultner)
-- TaliAradGreshler
-- TaniaAvgustinova
-- TimBaldwin
+- [TaliAradGreshler](https://delph-in.github.io/docs/garage/TaliAradGreshler)
+- [TaniaAvgustinova](https://delph-in.github.io/docs/garage/TaniaAvgustinova)
+- [TimBaldwin](https://delph-in.github.io/docs/garage/TimBaldwin)
 - [DorotheeBeermann](/DorotheeBeermann)
 - [NuriaBel](/NuriaBel)
 - EmilyBender (Tue-Fri; Rafe will be with me!)
 - FrancisBond (Mon-Fri)
-- AntonioBranco
+- [AntonioBranco](https://delph-in.github.io/docs/garage/AntonioBranco)
 - [ToreBruland](/ToreBruland)
-- JanBuys
+- [JanBuys](https://delph-in.github.io/docs/garage/JanBuys)
 - [UlrichCallmeier](/UlrichCallmeier)
-- JohnCarroll (Mon-Fri)
+- [JohnCarroll](https://delph-in.github.io/docs/garage/JohnCarroll) (Mon-Fri)
 - [YufeiChen](/YufeiChen)
 - [CleoCondoravdi](/CleoCondoravdi)
-- AnnCopestake (Mon-Fri)
-- JoshuaCrowgey
-- BertholdCrysmann (Mon-Fri)
-- ChrisCurtis (Mon-Fri morning)
+- [AnnCopestake](https://delph-in.github.io/docs/garage/AnnCopestake) (Mon-Fri)
+- [JoshuaCrowgey](https://delph-in.github.io/docs/garage/JoshuaCrowgey)
+- [BertholdCrysmann](https://delph-in.github.io/docs/garage/BertholdCrysmann) (Mon-Fri)
+- [ChrisCurtis](https://delph-in.github.io/docs/garage/ChrisCurtis) (Mon-Fri morning)
 - [PaulaCzarnowska](/PaulaCzarnowska) (Mon-Fri)
 - [LaurieDermer](/LaurieDermer)
-- RebeccaDridan (Wed-Fri) FCB: Woot!
-- GuyEmerson (Mon-Fri)
+- [RebeccaDridan](https://delph-in.github.io/docs/garage/RebeccaDridan) (Wed-Fri) FCB: Woot!
+- [GuyEmerson](https://delph-in.github.io/docs/garage/GuyEmerson) (Mon-Fri)
 - [ZhenzhenFan](/ZhenzhenFan)
-- DanFlickinger (Mon-Fri)
-- AntskeFokkens (regrets)
+- [DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger) (Mon-Fri)
+- [AntskeFokkens](https://delph-in.github.io/docs/garage/AntskeFokkens) (regrets)
 - [SanaeFujita](/SanaeFujita)
 - [ClaireGardent](/ClaireGardent)
 - [AjdaGokcen](/AjdaGokcen)
-- MichaelGoodman (Mon-Fri morning)
+- [MichaelGoodman](https://delph-in.github.io/docs/garage/MichaelGoodman) (Mon-Fri morning)
 - [BrandonGraves](/BrandonGraves)
 - [MichaelHaeger](/MichaelHaeger)
 - [DagHaug](/DagHaug)
-- PetterHaugereid (Mon-Thur)
+- [PetterHaugereid](https://delph-in.github.io/docs/garage/PetterHaugereid) (Mon-Thur)
 - [LarsHellan](/LarsHellan) (Mon-Thur)
 - [FabiolaHenri](/FabiolaHenri)
 - [AurelieHerbelot](/AurelieHerbelot)
@@ -43,56 +43,56 @@ Summit](https://delph-in.github.io/docs/summits/CambridgeTop)
 - [KristenHowell](/KristenHowell) (Mon-Fri)
 - [DavidInman](/DavidInman) (Mon-Fri)
 - [MartinKay](/MartinKay)
-- BerndKiefer
-- JongBokKim
+- [BerndKiefer](https://delph-in.github.io/docs/garage/BerndKiefer)
+- [JongBokKim](https://delph-in.github.io/docs/garage/JongBokKim)
 - [PrescottKlassen](/PrescottKlassen)
-- AlexanderKoller
+- [AlexanderKoller](https://delph-in.github.io/docs/garage/AlexanderKoller)
 - [FrantišekKratochvíl](/Franti%C5%A1ekKratochv%C3%ADl)
 - [AlexanderKuhnle](/AlexanderKuhnle) (around for some days)
 - [TakayukiKuribayashi](/TakayukiKuribayashi)
-- AlexLascarides (perhaps on 15th)
+- [AlexLascarides](https://delph-in.github.io/docs/garage/AlexLascarides) (perhaps on 15th)
 - [TuấnAnhLê](/Tu%E1%BA%A5nAnhL%C3%AA)
-- TuanAnhLe
-- NedLetcher
+- [TuanAnhLe](https://delph-in.github.io/docs/garage/TuanAnhLe)
+- [NedLetcher](https://delph-in.github.io/docs/garage/NedLetcher)
 - [MontserratMarimon](/MontserratMarimon)
 - [AngelinaMcMillanMajor](/AngelinaMcMillanMajor)
-- NuritMelnik
+- [NuritMelnik](https://delph-in.github.io/docs/garage/NuritMelnik)
 - [YusukeMiyao](/YusukeMiyao)
-- DavidMoeljadi
+- [DavidMoeljadi](https://delph-in.github.io/docs/garage/DavidMoeljadi)
 - [MathieuMorey](/MathieuMorey)
-- LuisMorgadoCosta
-- DavidMott
+- [LuisMorgadoCosta](https://delph-in.github.io/docs/garage/LuisMorgadoCosta)
+- [DavidMott](https://delph-in.github.io/docs/garage/DavidMott)
 - [EwaMuszynska](/EwaMuszynska) (Mon-Fri)
 - [ElizabethNielsen](/ElizabethNielsen)
 - StephanOepen
-- PetyaOsenova
+- [PetyaOsenova](https://delph-in.github.io/docs/garage/PetyaOsenova)
 - [RomanPearah](/RomanPearah)
 - [WoodleyPackard](/WoodleyPackard) (Monday-Friday)
 - [AdamPrzepiorkowski](/AdamPrzepiorkowski)
-- ZinaPozen
-- AlexandreRademaker (15-19 July, 2019)
-- UlrichSchaefer
+- [ZinaPozen](https://delph-in.github.io/docs/garage/ZinaPozen)
+- [AlexandreRademaker](https://delph-in.github.io/docs/garage/AlexandreRademaker) (15-19 July, 2019)
+- [UlrichSchaefer](https://delph-in.github.io/docs/garage/UlrichSchaefer)
 - [MelanieSiegel](/MelanieSiegel)
-- JoaoSilva
+- [JoaoSilva](https://delph-in.github.io/docs/garage/JoaoSilva)
 - [KirilSimov](/KirilSimov)
 - [JoannaSio](/JoannaSio)
-- GlennSlayden (regrets)
-- SanghounSong (Mon-Fri morning)
-- WeiweiSun
-- LilingTan
+- [GlennSlayden](https://delph-in.github.io/docs/garage/GlennSlayden) (regrets)
+- [SanghounSong](https://delph-in.github.io/docs/garage/SanghounSong) (Mon-Fri morning)
+- [WeiweiSun](https://delph-in.github.io/docs/garage/WeiweiSun)
+- [LilingTan](https://delph-in.github.io/docs/garage/LilingTan)
 - TJTrimble
 - [JunichiTsujii](/JunichiTsujii)
-- HansUszkoreit
+- [HansUszkoreit](https://delph-in.github.io/docs/garage/HansUszkoreit)
 - [AntoineVenant](/AntoineVenant) (Mon-Thu, leaving Fri Morning)
 - [RuiWang](/RuiWang)
-- WenjieWang
+- [WenjieWang](https://delph-in.github.io/docs/garage/WenjieWang)
 - [TomWasow](/TomWasow)
 - [HuiyuanXie](/HuiyuanXie) (Mon-Fri)
-- FeiyuXu
+- [FeiyuXu](https://delph-in.github.io/docs/garage/FeiyuXu)
 - [PingXue](/PingXue)
-- JustinChunleiYang
-- OlgaZamaraeva (Mon-Fri)
-- YiZhang
+- [JustinChunleiYang](https://delph-in.github.io/docs/garage/JustinChunleiYang)
+- [OlgaZamaraeva](https://delph-in.github.io/docs/garage/OlgaZamaraeva) (Mon-Fri)
+- [YiZhang](https://delph-in.github.io/docs/garage/YiZhang)
 - [LiljaØvrelid](/Lilja%C3%98vrelid)
 
 Last update: 2019-07-18 by BrunoCuconato [[edit](https://github.com/delph-in/docs/wiki/CambridgeParticipants/_edit)]{% endraw %}

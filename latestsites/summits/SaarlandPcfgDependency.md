@@ -1,6 +1,6 @@
 {% raw %}PCFG and dependency conversion+parsing with [DeepBank](https://delph-in.github.io/docs/garage/DeepBank)(s) SIG
 
-Notes provided by AngelinaIvanova
+Notes provided by [AngelinaIvanova](https://delph-in.github.io/docs/garage/AngelinaIvanova)
 
 * * *
 

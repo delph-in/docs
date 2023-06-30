@@ -2,7 +2,7 @@
 
 ## Versions 16 – 22
 
-By AntskeFokkens (previously published as a
+By [AntskeFokkens](https://delph-in.github.io/docs/garage/AntskeFokkens) (previously published as a
 tech-report: Fokkens
 (2010),[.bib](http://www.coli.uni-saarland.de/~afokkens/bibentries/fokkens-10.bib))
 

@@ -4,9 +4,9 @@ Much of what we might accomplish at Fefor will be best done in small
 groups. The three broad distinctions made below are not meant to be hard
 and fast, but are intended to help to achieve concrete results. In all
 cases, leaders are named (if leaders have been specified
-inappropriately, please let AnnCopestake know as soon as
+inappropriately, please let [AnnCopestake](https://delph-in.github.io/docs/garage/AnnCopestake) know as soon as
 possible). Other people who may wish to volunteer to lead an activity
-are asked to add themselves and to email AnnCopestake as
+are asked to add themselves and to email [AnnCopestake](https://delph-in.github.io/docs/garage/AnnCopestake) as
 soon as possible.
 
 ## Working groups
@@ -21,16 +21,16 @@ before Fefor (as far as possible). Scheduling is done by the group on an
 ad-hoc basis. Leaders are asked to add a page to the wiki for their
 groups. Groups will report back to the plenary session.
 
-- LexDB: BenWaldron (objective to get more grammars
+- LexDB: [BenWaldron](https://delph-in.github.io/docs/garage/BenWaldron) (objective to get more grammars
 using the LexDB)
 - web server: StephanOepen (suggested by
 FrancisBond: objective is putting other grammars
 online)
-- deep/shallow integration via S(M)AF: BenWaldron and
+- deep/shallow integration via S(M)AF: [BenWaldron](https://delph-in.github.io/docs/garage/BenWaldron) and
 [MontserratMarimon](/MontserratMarimon) and ??
-- harmonization of grammars: DanFlickinger
+- harmonization of grammars: [DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger)
 - exploring a common descriptive classification of linguistic
-phenomena: DanFlickinger
+phenomena: [DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger)
 - LKB/PET compatibility issues: shared configuration, reducing and
 documenting the globals: NTNU, FrancisBond (follow-up
 from Jerez)
@@ -40,17 +40,17 @@ from Jerez)
 Short descriptions of particular resources for small groups. Possibly
 including:
 
-- DanFlickinger: Semantic test suite (for people who
+- [DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger): Semantic test suite (for people who
 haven't seen it, in advance of discussion in [FeforRmrs](https://delph-in.github.io/docs/summits/FeforRmrs))
-- AnnCopestake: Algebra checking tool (for people who
+- [AnnCopestake](https://delph-in.github.io/docs/garage/AnnCopestake): Algebra checking tool (for people who
 haven't seen it, preferably in advance of discussion of algebra in
 [FeforRmrs](https://delph-in.github.io/docs/summits/FeforRmrs))
-- DanFlickinger: LUI (alternative user interface for
+- [DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger): LUI (alternative user interface for
 LKB)
-- DanFlickinger: Generation - trigger rules,
+- [DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger): Generation - trigger rules,
 debugging techniques, batch testing
 - FrancisBond: Treebanking with Redwoods
-- BenWaldron: Preprocessor usage (now supported in both
+- [BenWaldron](https://delph-in.github.io/docs/garage/BenWaldron): Preprocessor usage (now supported in both
 LKB and PET)
 
 Also, if time permits, tours could be given of the resources listed
@@ -74,10 +74,10 @@ Leaders are asked to circulate info about hardware/software requirements
 in advance (this may just take the form of an appropriate link below).
 Participants may wish to sign up with leaders in advance of Fefor.
 
-- HoG: UlrichSchaefer (cf. [Heart of Gold
+- HoG: [UlrichSchaefer](https://delph-in.github.io/docs/garage/UlrichSchaefer) (cf. [Heart of Gold
 documentation](http://heartofgold.dfki.de/doc/heartofgolddoc.pdf))
 - \[incr tsdb()\]: StephanOepen (see [On-Line
 Documentation](https://delph-in.github.io/docs/tools/ItsdbTop))
-- LexDB: BenWaldron
+- LexDB: [BenWaldron](https://delph-in.github.io/docs/garage/BenWaldron)
 
 Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/FeforSmallGroups/_edit)]{% endraw %}

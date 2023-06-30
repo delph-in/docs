@@ -4,7 +4,7 @@ up the basic infrastructure for chart mapping.
 It is being written based on my (FrancisBond's) own
 experiences with setting up Jacy, and should not in any way be
 considered a reliable introduction, although I will do my best:
-PeterAdolphs and StephanOepen hold the
+[PeterAdolphs](https://delph-in.github.io/docs/garage/PeterAdolphs) and StephanOepen hold the
 hidden truth.
 
 ## What do you need

@@ -3,7 +3,7 @@ languages, including Mandarin Chinese (simplified and traditional),
 Cantonese, Min, etc. Currently Simplified Mandarin is the best supported
 language. This grammar is based off ManGO
 (<http://moin.delph-in.net/MandarinGrammarOnline>) created by Justin
-Yang (JustinChunleiYang) and Dan Flickinger
+Yang ([JustinChunleiYang](https://delph-in.github.io/docs/garage/JustinChunleiYang)) and Dan Flickinger
 (<http://lingo.stanford.edu/dan/>).
 
 #### Note on naming
@@ -88,17 +88,17 @@ Grammar.
 ## Contributors
 
 - FrancisBond
-- SanghounSong
+- [SanghounSong](https://delph-in.github.io/docs/garage/SanghounSong)
 - [ZhenzhenFan](/ZhenzhenFan)
-- JustinChunleiYang
-- DanFlickinger
-- MichaelGoodman
+- [JustinChunleiYang](https://delph-in.github.io/docs/garage/JustinChunleiYang)
+- [DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger)
+- [MichaelGoodman](https://delph-in.github.io/docs/garage/MichaelGoodman)
 - [BoChen](/BoChen)
-- HuiZhenWang
+- [HuiZhenWang](https://delph-in.github.io/docs/garage/HuiZhenWang)
 - [JoannaSio](/JoannaSio)
-- LuisMorgadoCosta
-- ShanWang
-- WenjieWang
+- [LuisMorgadoCosta](https://delph-in.github.io/docs/garage/LuisMorgadoCosta)
+- [ShanWang](https://delph-in.github.io/docs/garage/ShanWang)
+- [WenjieWang](https://delph-in.github.io/docs/garage/WenjieWang)
 
 This grammar was supported in part by:
 

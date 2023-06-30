@@ -55,12 +55,12 @@ Verb reduplication](https://delph-in.github.io/docs/grammars/LADIndonesianMorpho
 
 ## Contributors
 
-- DavidMoeljadi
+- [DavidMoeljadi](https://delph-in.github.io/docs/garage/DavidMoeljadi)
 - FrancisBond
-- SanghounSong
-- DanFlickinger
-- MichaelGoodman
-- LuisMorgadoCosta
+- [SanghounSong](https://delph-in.github.io/docs/garage/SanghounSong)
+- [DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger)
+- [MichaelGoodman](https://delph-in.github.io/docs/garage/MichaelGoodman)
+- [LuisMorgadoCosta](https://delph-in.github.io/docs/garage/LuisMorgadoCosta)
 
 ## References
 

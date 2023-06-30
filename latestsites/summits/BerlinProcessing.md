@@ -2,7 +2,7 @@
 
 Moderator: StephanOepen
 
-Scribe: YiZhang
+Scribe: [YiZhang](https://delph-in.github.io/docs/garage/YiZhang)
 
 This discussion was initiated by the request of contributing a chapter
 on HPSG processing to the language and linguistics compass online
@@ -33,20 +33,20 @@ also closely related to grammar engineering. And from some aspects, the
 generation is similar the parsing. A good disambiguation model can help
 to overcome the problem with an overgenerating grammar.
 
-JohnCarroll: Traditional grammar developers do not rely
+[JohnCarroll](https://delph-in.github.io/docs/garage/JohnCarroll): Traditional grammar developers do not rely
 on statistical disambiguation model. What does grammar developers think
 of this problem?
 
-DanFlickinger: For instance, when treebanking the
+[DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger): For instance, when treebanking the
 grammar outputs, the results are sometimes somehow skewed by the
 disambiguation model.
 
-AnnCopestake: To a degree, the disambiguation model
+[AnnCopestake](https://delph-in.github.io/docs/garage/AnnCopestake): To a degree, the disambiguation model
 makes the grammar domain specific. For large scale parsing it skews the
 search space. We should avoid be less different from treebank-induced
 grammars. One should not be too much affected by practical issues.
 
-DanFlickinger: What's the workload distribution between
+[DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger): What's the workload distribution between
 parser and grammar? Many parsing edges are created for the need to
 handle modifier attachment. To which degree the syntactic structure are
 isomorphic?
@@ -57,7 +57,7 @@ generation with treebank-induced grammar (i.e. at Tokyo).
 StephanOepen: Incremental processing strategies,
 inter-dependencies between the grammar and processing
 
-BertholdCrysmann: Interlinguality need to be
+[BertholdCrysmann](https://delph-in.github.io/docs/garage/BertholdCrysmann): Interlinguality need to be
 considered in processing, as well. A close cooperation between grammar
 engineering and processing people is needed.
 

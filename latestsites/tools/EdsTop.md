@@ -261,7 +261,7 @@ The EDS graphs are formally (if not necessarily linguistically) very
 similar to [Abstract Meaning Representation](http://amr.isi.edu/) (AMR),
 and it is straightforward to serialize the bulk of the information in an
 EDS in AMR-like PenMan syntax (we are grateful to
-MichaelGoodman, who inspired this serialization
+[MichaelGoodman](https://delph-in.github.io/docs/garage/MichaelGoodman), who inspired this serialization
 option). For cross-framework interoperability, the EDS implementation in
 Common Lisp supports (trivial) conversion of EDS graphs into the
 tree-like format (with node re-entrancies, as needed) of AMRs, where the

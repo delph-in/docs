@@ -63,7 +63,7 @@ documented by writing the grammar. This is a good way to document
 things.
 - As we are now expanding the wiki, we need to decide on a licence for
 it fast. FrancisBond, egged on by
-AnnCopestake, suggested the [Creative Commons Deed
+[AnnCopestake](https://delph-in.github.io/docs/garage/AnnCopestake), suggested the [Creative Commons Deed
 (Attribution 2.5)](http://creativecommons.org/licenses/by/2.5/).
 This would allow people to use the wikied documentation in other
 works as long as it is attributed.

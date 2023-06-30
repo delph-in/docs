@@ -3,7 +3,7 @@
 ## Expanding our research to new languages and applications and setting new research goals
 
 Moderator: [HansUszoreit](/HansUszoreit) Scribe:
-ValiaKordoni
+[ValiaKordoni](https://delph-in.github.io/docs/garage/ValiaKordoni)
 
 [slides](http://www.coli.uni-saarland.de/~kordoni/DELPH-IN-BERLIN.ppt)
 

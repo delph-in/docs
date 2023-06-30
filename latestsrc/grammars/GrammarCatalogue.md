@@ -7,36 +7,36 @@ generating metadata.
 |---------------------------------------------------------|--------------------------------------------------------|-------------------------------------------------------|
 | Name                                                    | Language                                               | Maintainer                                            |
 | *Resource Grammars*                                     |                                                        |                                                       |
-| [English Resource Grammar (ERG)](https://delph-in.github.io/docs/grammars/GrammarCatalogue)                  | English                                                | DanFlickinger                        |
+| [English Resource Grammar (ERG)](https://delph-in.github.io/docs/grammars/GrammarCatalogue)                  | English                                                | [DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger)                        |
 | [Jacy Japanese Grammar (Jacy)](https://delph-in.github.io/docs/grammars/GrammarCatalogue)                   | Japanese                                               | FrancisBond                            |
 | [GG](https://delph-in.github.io/docs/grammars/GrammarCatalogue)                                               | German                                                 |                                                       |
 | [SRG](https://delph-in.github.io/docs/grammars/GrammarCatalogue)                                             | Spanish                                                | [MontserratMarimon](/MontserratMarimon)               |
 | [PorGram](https://delph-in.github.io/docs/grammars/GrammarCatalogue)                                     | Portuguese                                             | [Alexandre Rademaker](https://github.com/arademaker/) |
-| [LXGram](https://delph-in.github.io/docs/grammars/GrammarCatalogue)                                       | Portuguese                                             | AntonioBranco                        |
-| [KRG](https://delph-in.github.io/docs/grammars/GrammarCatalogue)                                             | Korean                                                 | JongBokKim                              |
-| MGRG                                                    | Modern Greek                                           | ValiaKordoni                          |
+| [LXGram](https://delph-in.github.io/docs/grammars/GrammarCatalogue)                                       | Portuguese                                             | [AntonioBranco](https://delph-in.github.io/docs/garage/AntonioBranco)                        |
+| [KRG](https://delph-in.github.io/docs/grammars/GrammarCatalogue)                                             | Korean                                                 | [JongBokKim](https://delph-in.github.io/docs/garage/JongBokKim)                              |
+| MGRG                                                    | Modern Greek                                           | [ValiaKordoni](https://delph-in.github.io/docs/garage/ValiaKordoni)                          |
 | [NorSource](https://delph-in.github.io/docs/grammars/NorsourceTop)                               | Norwegian                                              | [LarsHellan](/LarsHellan)                             |
-| [G-CLIMB German](https://delph-in.github.io/docs/grammars/GrammarCatalogue)                                  | German                                                 | AntskeFokkens                        |
+| [G-CLIMB German](https://delph-in.github.io/docs/grammars/GrammarCatalogue)                                  | German                                                 | [AntskeFokkens](https://delph-in.github.io/docs/garage/AntskeFokkens)                        |
 | *Treebank-trained grammars*                             |                                                        |                                                       |
-| [Cheetah](https://delph-in.github.io/docs/grammars/GrammarCatalogue)                                     | German                                                 | BartCramer                              |
+| [Cheetah](https://delph-in.github.io/docs/grammars/GrammarCatalogue)                                     | German                                                 | [BartCramer](https://delph-in.github.io/docs/garage/BartCramer)                              |
 | *Medium-sized linguistic grammars*                      |                                                        |                                                       |
-| La Grenouille                                           | French                                                 | JesseTseng                              |
-| [MCG](https://delph-in.github.io/docs/grammars/GrammarCatalogue)                                             | Mandarin Chinese                                       | YiZhang                                    |
-| [BURGER](https://delph-in.github.io/docs/grammars/GrammarCatalogue)                                       | Bulgarian                                              | PetyaOsenova                          |
+| La Grenouille                                           | French                                                 | [JesseTseng](https://delph-in.github.io/docs/garage/JesseTseng)                              |
+| [MCG](https://delph-in.github.io/docs/grammars/GrammarCatalogue)                                             | Mandarin Chinese                                       | [YiZhang](https://delph-in.github.io/docs/garage/YiZhang)                                    |
+| [BURGER](https://delph-in.github.io/docs/grammars/GrammarCatalogue)                                       | Bulgarian                                              | [PetyaOsenova](https://delph-in.github.io/docs/garage/PetyaOsenova)                          |
 | [wmb (wmb)](https://delph-in.github.io/docs/grammars/GrammarCatalogue)                                       | Wambaya                                                | Emily M. Bender                                       |
-| HaG                                                     | Hausa                                                  | BertholdCrysmann                  |
-| [RRG](https://delph-in.github.io/docs/grammars/GrammarCatalogue)                                             | Russian                                                | TaniaAvgustinova                  |
-| [G-CLIMB Dutch](https://delph-in.github.io/docs/grammars/GrammarCatalogue)                                   | Dutch                                                  | AntskeFokkens                        |
-| [ManGO](https://delph-in.github.io/docs/grammars/GrammarCatalogue)                                           | Mandarin Chinese                                       | JustinChunleiYang                |
-| [HeGram](https://delph-in.github.io/docs/grammars/GrammarCatalogue)                                       | Hebrew                                                 | LivnatHerzigSheinfux          |
-| [Indonesian Resource Grammar (INDRA)](https://delph-in.github.io/docs/grammars/GrammarCatalogue)           | Indonesian                                             | DavidMoeljadi                        |
+| HaG                                                     | Hausa                                                  | [BertholdCrysmann](https://delph-in.github.io/docs/garage/BertholdCrysmann)                  |
+| [RRG](https://delph-in.github.io/docs/grammars/GrammarCatalogue)                                             | Russian                                                | [TaniaAvgustinova](https://delph-in.github.io/docs/garage/TaniaAvgustinova)                  |
+| [G-CLIMB Dutch](https://delph-in.github.io/docs/grammars/GrammarCatalogue)                                   | Dutch                                                  | [AntskeFokkens](https://delph-in.github.io/docs/garage/AntskeFokkens)                        |
+| [ManGO](https://delph-in.github.io/docs/grammars/GrammarCatalogue)                                           | Mandarin Chinese                                       | [JustinChunleiYang](https://delph-in.github.io/docs/garage/JustinChunleiYang)                |
+| [HeGram](https://delph-in.github.io/docs/grammars/GrammarCatalogue)                                       | Hebrew                                                 | [LivnatHerzigSheinfux](https://delph-in.github.io/docs/garage/LivnatHerzigSheinfux)          |
+| [Indonesian Resource Grammar (INDRA)](https://delph-in.github.io/docs/grammars/GrammarCatalogue)           | Indonesian                                             | [DavidMoeljadi](https://delph-in.github.io/docs/garage/DavidMoeljadi)                        |
 | [Zhong \[∣\]](https://delph-in.github.io/docs/grammars/GrammarCatalogue)                                   | Chinese: Simplified Mandarin                           | [ZhenzhenFan](/ZhenzhenFan)                           |
 | *Experimental grammars*                                 |                                                        |                                                       |
-|                                                         | Turkish                                                | AntskeFokkens                        |
+|                                                         | Turkish                                                | [AntskeFokkens](https://delph-in.github.io/docs/garage/AntskeFokkens)                        |
 |                                                         | Georgian                                               | [IrinaBorisova](/IrinaBorisova)                       |
-|                                                         | [Thai](http://www.thai-language.com/testsuite-results) | GlennSlayden                          |
-| [Vietnamese Resource Grammar Obviously (VIRGO)](https://delph-in.github.io/docs/grammars/GrammarCatalogue) | Vietnamese                                             | TuanAnhLe                                |
-| [RQG](https://delph-in.github.io/docs/grammars/GrammarCatalogue)                                             | Russian                                                | OlgaZamaraeva                        |
+|                                                         | [Thai](http://www.thai-language.com/testsuite-results) | [GlennSlayden](https://delph-in.github.io/docs/garage/GlennSlayden)                          |
+| [Vietnamese Resource Grammar Obviously (VIRGO)](https://delph-in.github.io/docs/grammars/GrammarCatalogue) | Vietnamese                                             | [TuanAnhLe](https://delph-in.github.io/docs/garage/TuanAnhLe)                                |
+| [RQG](https://delph-in.github.io/docs/grammars/GrammarCatalogue)                                             | Russian                                                | [OlgaZamaraeva](https://delph-in.github.io/docs/garage/OlgaZamaraeva)                        |
 
 <a name="ERG"/>
 
@@ -47,8 +47,8 @@ generating metadata.
 
 |                             |                                                                                                                   |
 |-----------------------------|-------------------------------------------------------------------------------------------------------------------|
-| maintainer                  | DanFlickinger                                                                                    |
-| contributors                | DanFlickinger; [RobMalouf](/RobMalouf); EmilyBender; StephanOepen |
+| maintainer                  | [DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger)                                                                                    |
+| contributors                | [DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger); [RobMalouf](/RobMalouf); EmilyBender; StephanOepen |
 | contact                     | <mailto:erg@delph-in.net>                                                                                                |
 | website                     | <http://www.delph-in.net/erg>                                                                                     |
 | demo                        | <http://erg.delph-in.net/>                                                                                        |
@@ -78,7 +78,7 @@ generating metadata.
 |                             |                                                                                                                                                                                                 |
 |-----------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | maintainer                  | FrancisBond                                                                                                                                                                      |
-| contributors                | [MelanieSiegel](/MelanieSiegel); EmilyBender; ChikaraHashimoto; StephanOepen; SanghounSong; MichaelGoodman |
+| contributors                | [MelanieSiegel](/MelanieSiegel); EmilyBender; [ChikaraHashimoto](https://delph-in.github.io/docs/garage/ChikaraHashimoto); StephanOepen; [SanghounSong](https://delph-in.github.io/docs/garage/SanghounSong); [MichaelGoodman](https://delph-in.github.io/docs/garage/MichaelGoodman) |
 | contact                     | <mailto:bond@ieee.org>                                                                                                                                                                                 |
 | website                     | <https://github.com/delph-in/docs/wiki/JacyTop>                                                                                                                                                         |
 | demo                        | <http://delph-in.github.io/delphin-viz/demo/>                                                                                                                                                   |
@@ -105,8 +105,8 @@ generating metadata.
 
 |                             |                                                                                                                                                                                                                                                                                                                                                                                                           |
 |-----------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| maintainer                  | AntonioBranco                                                                                                                                                                                                                                                                                                                                                                            |
-| contributors                | AntonioBranco, FranciscoCosta, [JoãoSilva](/Jo%C3%A3oSilva), [SérgioCastro](/S%C3%A9rgioCastro)                                                                                                                                                                                                                                                                        |
+| maintainer                  | [AntonioBranco](https://delph-in.github.io/docs/garage/AntonioBranco)                                                                                                                                                                                                                                                                                                                                                                            |
+| contributors                | [AntonioBranco](https://delph-in.github.io/docs/garage/AntonioBranco), [FranciscoCosta](https://delph-in.github.io/docs/garage/FranciscoCosta), [JoãoSilva](/Jo%C3%A3oSilva), [SérgioCastro](/S%C3%A9rgioCastro)                                                                                                                                                                                                                                                                        |
 | latest release              | 29 July 2008                                                                                                                                                                                                                                                                                                                                                                                              |
 | website                     | <http://lxcenter.di.fc.ul.pt/tools/en/LXGramEN.html>                                                                                                                                                                                                                                                                                                                                                      |
 | vcs                         |                                                                                                                                                                                                                                                                                                                                                                                                           |
@@ -127,7 +127,7 @@ generating metadata.
 
 |                              |                                                                 |
 |------------------------------|-----------------------------------------------------------------|
-| maintainer                   | BertholdCrysmann                            |
+| maintainer                   | [BertholdCrysmann](https://delph-in.github.io/docs/garage/BertholdCrysmann)                            |
 | contributors                 | (If other than only current maintainer)                         |
 | latest release               |                                                                 |
 | website                      | <http://gg.opendfki.de/>                                        |
@@ -152,8 +152,8 @@ generating metadata.
 
 |                    |                                                                                                                                                               |
 |--------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| maintainer         | JongBokKim                                                                                                                                      |
-| contributors       | JongBokKim, [JaehyungYang](/JaehyungYang), FrancisBond, SanghounSong                                             |
+| maintainer         | [JongBokKim](https://delph-in.github.io/docs/garage/JongBokKim)                                                                                                                                      |
+| contributors       | [JongBokKim](https://delph-in.github.io/docs/garage/JongBokKim), [JaehyungYang](/JaehyungYang), FrancisBond, [SanghounSong](https://delph-in.github.io/docs/garage/SanghounSong)                                             |
 | latest release     | 3 July 2010                                                                                                                                                   |
 | website            | <http://krg.khu.ac.kr>                                                                                                                                        |
 | vcs                | svn co <http://svn.delph-in.net/krg/trunk>                                                                                                                    |
@@ -175,8 +175,8 @@ generating metadata.
 
 |                              |                                                                         |
 |------------------------------|-------------------------------------------------------------------------|
-| maintainer                   | BartCramer                                                |
-| contributors                 | YiZhang                                                      |
+| maintainer                   | [BartCramer](https://delph-in.github.io/docs/garage/BartCramer)                                                |
+| contributors                 | [YiZhang](https://delph-in.github.io/docs/garage/YiZhang)                                                      |
 | latest release               | (v0.39) In the Paris release of LOGON                                   |
 | website                      | [CheetahTop](https://delph-in.github.io/docs/grammars/CheetahTop)                                                |
 | vcs                          | svn co <http://svn.emmtee.net/trunk/coli/cheetah>                       |
@@ -220,8 +220,8 @@ generating metadata.
 
 |                              |                                               |
 |------------------------------|-----------------------------------------------|
-| maintainer                   | TaniaAvgustinova          |
-| contributors                 | YiZhang                            |
+| maintainer                   | [TaniaAvgustinova](https://delph-in.github.io/docs/garage/TaniaAvgustinova)          |
+| contributors                 | [YiZhang](https://delph-in.github.io/docs/garage/YiZhang)                            |
 | latest release               | 20110615                                      |
 | website                      | <http://www.coli.uni-saarland.de/~tania/rrg/> |
 | vcs                          |                                               |
@@ -265,8 +265,8 @@ generating metadata.
 
 |                    |                                                                                                                                                                  |
 |--------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| maintainer         | JustinChunleiYang                                                                                                                           |
-| contributors       | [NatHillard](/NatHillard), DanFlickinger, JustinChunleiYang                                                                |
+| maintainer         | [JustinChunleiYang](https://delph-in.github.io/docs/garage/JustinChunleiYang)                                                                                                                           |
+| contributors       | [NatHillard](/NatHillard), [DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger), [JustinChunleiYang](https://delph-in.github.io/docs/garage/JustinChunleiYang)                                                                |
 | latest release     | July 2011                                                                                                                                                        |
 | website            | <https://github.com/delph-in/docs/wiki/MandarinGrammarOnline>                                                                                                            |
 | vcs                | svn co svn://lemur.ling.washington.edu/shared/mandarin                                                                                                           |
@@ -284,8 +284,8 @@ generating metadata.
 
 |                              |                                                                                                                                                                                                                                                     |
 |------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| maintainer                   | PetyaOsenova                                                                                                                                                                                                                        |
-| contributors                 | DanFlickinger, [KirilSimov](/KirilSimov)                                                                                                                                                                                           |
+| maintainer                   | [PetyaOsenova](https://delph-in.github.io/docs/garage/PetyaOsenova)                                                                                                                                                                                                                        |
+| contributors                 | [DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger), [KirilSimov](/KirilSimov)                                                                                                                                                                                           |
 | latest release               | July 2010                                                                                                                                                                                                                                           |
 | website                      | <http://www.bultreebank.org/BURGER/index.html>                                                                                                                                                                                                      |
 | vcs                          | svn co <http://svn.delph-in.net/burger/trunk> burger                                                                                                                                                                                                |
@@ -334,7 +334,7 @@ generating metadata.
 
 |                              |                                                  |
 |------------------------------|--------------------------------------------------|
-| maintainer                   | YiZhang                               |
+| maintainer                   | [YiZhang](https://delph-in.github.io/docs/garage/YiZhang)                               |
 | contributors                 | [RuiWang](/RuiWang), [YuChen](/YuChen)           |
 | latest release               | 20110616                                         |
 | website                      | <http://mcg.opendfki.de/>                        |
@@ -355,7 +355,7 @@ generating metadata.
 |                    |                                                                                                                                                                                                                                                                   |
 |--------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | maintainer         | [ZhenzhenFan](/ZhenzhenFan)                                                                                                                                                                                                                                       |
-| contributors       | SanghounSong, FrancisBond, JustinChunleiYang                                                                                                                                                                  |
+| contributors       | [SanghounSong](https://delph-in.github.io/docs/garage/SanghounSong), FrancisBond, [JustinChunleiYang](https://delph-in.github.io/docs/garage/JustinChunleiYang)                                                                                                                                                                  |
 | latest release     | 2019                                                                                                                                                                                                                                                              |
 | website            | <https://github.com/delph-in/docs/wiki/ZhongTop>                                                                                                                                                                                                                  |
 | vcs                | git clone <https://github.com/delph-in/zhong.git>                                                                                                                                                                                                                 |
@@ -372,7 +372,7 @@ generating metadata.
 
 |                              |                                                                                                    |
 |------------------------------|----------------------------------------------------------------------------------------------------|
-| maintainer                   | AntskeFokkens                                                                     |
+| maintainer                   | [AntskeFokkens](https://delph-in.github.io/docs/garage/AntskeFokkens)                                                                     |
 | contributors                 |                                                                                                    |
 | latest release               | 20110616                                                                                           |
 | website                      | [Metagrammar Homepage](http://www.coli.uni-saarland.de/~afokkens/page.php?id=germanic_metagrammar) |
@@ -392,7 +392,7 @@ generating metadata.
 
 |                              |                                                                                                    |
 |------------------------------|----------------------------------------------------------------------------------------------------|
-| maintainer                   | AntskeFokkens                                                                     |
+| maintainer                   | [AntskeFokkens](https://delph-in.github.io/docs/garage/AntskeFokkens)                                                                     |
 | contributors                 |                                                                                                    |
 | latest release               | 20110616                                                                                           |
 | website                      | [Metagrammar Homepage](http://www.coli.uni-saarland.de/~afokkens/page.php?id=germanic_metagrammar) |
@@ -412,8 +412,8 @@ generating metadata.
 
 |                              |                                                                                                                                                                                   |
 |------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| maintainer                   | LivnatHerzigSheinfux                                                                                                                                      |
-| contributors                 | LivnatHerzigSheinfux, TaliAradGreshler, PetterHaugereid, NuritMelnik, [ShulyWintner](/ShulyWintner) |
+| maintainer                   | [LivnatHerzigSheinfux](https://delph-in.github.io/docs/garage/LivnatHerzigSheinfux)                                                                                                                                      |
+| contributors                 | [LivnatHerzigSheinfux](https://delph-in.github.io/docs/garage/LivnatHerzigSheinfux), [TaliAradGreshler](https://delph-in.github.io/docs/garage/TaliAradGreshler), [PetterHaugereid](https://delph-in.github.io/docs/garage/PetterHaugereid), [NuritMelnik](https://delph-in.github.io/docs/garage/NuritMelnik), [ShulyWintner](/ShulyWintner) |
 | July 2013                    |                                                                                                                                                                                   |
 | website                      | [HeGram](https://delph-in.github.io/docs/grammars/HeGram) (Delph-In) and [HeGram](http://cl.haifa.ac.il/projects/HeGram/index.shtml) (Haifa)                                                                               |
 | vcs                          |                                                                                                                                                                                   |
@@ -434,8 +434,8 @@ generating metadata.
 
 |                             |                                                                                                                                                                                                  |
 |-----------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| maintainer                  | DavidMoeljadi                                                                                                                                                                   |
-| contributors                | DavidMoeljadi; FrancisBond; SanghounSong; DanFlickinger; MichaelGoodman; LuisMorgadoCosta |
+| maintainer                  | [DavidMoeljadi](https://delph-in.github.io/docs/garage/DavidMoeljadi)                                                                                                                                                                   |
+| contributors                | [DavidMoeljadi](https://delph-in.github.io/docs/garage/DavidMoeljadi); FrancisBond; [SanghounSong](https://delph-in.github.io/docs/garage/SanghounSong); [DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger); [MichaelGoodman](https://delph-in.github.io/docs/garage/MichaelGoodman); [LuisMorgadoCosta](https://delph-in.github.io/docs/garage/LuisMorgadoCosta) |
 | contact                     | <mailto:davidmoeljadi@gmail.com>                                                                                                                                                                        |
 | website                     | <http://moin.delph-in.net/IndraTop>                                                                                                                                                              |
 | demo                        | <http://chimpanzee.ling.washington.edu/demophin/indra/>                                                                                                                                          |
@@ -535,7 +535,7 @@ developing/testing one or a small set of linguistic analyses
 # Generating Metadata
 
 We have a script for automatically generating grammar metadata (even
-formatted as MoinMoin or LaTeX tables). First, check out the
+formatted as [MoinMoin](https://delph-in.github.io/docs/garage/MoinMoin) or LaTeX tables). First, check out the
 script:
 
     git clone https://github.com/delph-in/grammar-catalogue.git

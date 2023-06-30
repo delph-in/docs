@@ -1,5 +1,5 @@
 {% raw %}This page was adapted from [JacyGeneration](https://delph-in.github.io/docs/grammars/JacyGeneration) by
-MichaelGoodman, and therefore many of the examples are
+[MichaelGoodman](https://delph-in.github.io/docs/garage/MichaelGoodman), and therefore many of the examples are
 from the [JACY](https://delph-in.github.io/docs/grammars/JacyTop) Grammar.
 
 Contents

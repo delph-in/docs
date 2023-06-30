@@ -2,7 +2,7 @@
 
 Moderator: [WoodleyPackard](/WoodleyPackard)
 
-Scribe: Jeff Good
+Scribe: [Jeff Good](https://delph-in.github.io/docs/garage/JeffGood)
 
 ### Background
 
@@ -85,7 +85,7 @@ members, it was suggested that members from projects who have chosen a
 license discuss why they chose a particular license on the wiki. This
 discussion may be helpful to projects which have not yet chosen a
 license. The relevant wiki articles can be linked to from the
-LicensingChoices page.
+[LicensingChoices](https://delph-in.github.io/docs/garage/LicensingChoices) page.
 
 ### Delph-In policies regarding licenses
 
@@ -115,7 +115,7 @@ is associating the DELPH-IN wiki with an appropriate license. One of the
 [Creative Commons](http://creativecommons.org/) licenses might be
 appropriate.
 
-AnnCopestake was unanimously approved as the DELPH-IN
+[AnnCopestake](https://delph-in.github.io/docs/garage/AnnCopestake) was unanimously approved as the DELPH-IN
 member in charge of doing further research on a license for the wiki.
 She is encouraged to contact those who have already contributed to the
 wiki in deciding on a license for it.

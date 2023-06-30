@@ -1,6 +1,6 @@
 {% raw %}**Discussion III**
 
-- ValiaKordoni : Announcement of subject **Questions**
+- [ValiaKordoni](https://delph-in.github.io/docs/garage/ValiaKordoni) : Announcement of subject **Questions**
 :
 - Integration of other research groups and systems
 - Ways to approach them
@@ -18,7 +18,7 @@ money out of it?"\
 Stephan and others in the 90s. The consortium has developed by means of
 the reactions and the interest expressed by people who have seen this
 work. Shall we go on this way or take initiative as well?\
-DanFlickinger 2 ways to negotiate:
+[DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger) 2 ways to negotiate:
 
 1. If we need sth for our research within the DELPH-IN we can arrange
 it by exchange of money or resources among the members.
@@ -31,7 +31,7 @@ can satisfy these requirements.
 should think about the possibility to have subcontracts to
 [DELPH-IN](http://www.delph-in.net/) developers/contributors they are
 related to (Note by Ann-Copestake)\
-HansUszkoreit: Except for academics, everybody else
+[HansUszkoreit](https://delph-in.github.io/docs/garage/HansUszkoreit): Except for academics, everybody else
 will need funding. 2 options.
 
 1. You apply for your own funding but build up into the group (for
@@ -47,10 +47,10 @@ We go out as a group and get sth together. Chances don't seem so bad
 
 People have shown interest in the past when they here in conferences
 about the work of DELPH-IN [AnneteFrank](/AnneteFrank): Clarification
-question to ValiaKordoni: Did you ask whether we should
+question to [ValiaKordoni](https://delph-in.github.io/docs/garage/ValiaKordoni): Did you ask whether we should
 focus on the aims of DELPH-IN and see whom we should invite to join
 us?\
-ValiaKordoni: Confirms.\
+[ValiaKordoni](https://delph-in.github.io/docs/garage/ValiaKordoni): Confirms.\
 StephanOepen: We should have some substance. How did
 today's [DELPH-IN](http://www.delph-in.net/) come up. This cooperation
 has helped us to produce sth larger than individual efforts. Grammar
@@ -58,11 +58,11 @@ engineering has been made efficient enough for real application. We want
 to keep this tradition. We are scientists. As such we have certain
 needs. PARGRAMM. They meet twice a year, discussing about their systems
 … I wouldn‘t have anything against this model.\
-HansUszkoreit: Scientists need resources, money, fund
+[HansUszkoreit](https://delph-in.github.io/docs/garage/HansUszkoreit): Scientists need resources, money, fund
 etc. All this has already been the outcome of group initiative in
 [DELPH-IN](http://www.delph-in.net/). Can we use it for creating sth we
 don't have? (e.g literature)\
-DanFlickinger: Current inventory of resources is not
+[DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger): Current inventory of resources is not
 sufficient. One useful outcome of this meeting could be to see which our
 priorities are.\
 [AnneteFrank](/AnneteFrank): We would probably move according to our
@@ -71,7 +71,7 @@ needs. One area where this could arise is the interfaces between MRS and
 RMRS for anything related to hybrid processing. The relation between
 RMRS meetings and [DELPH-IN](http://www.delph-in.net/) meetings is not
 clear yet.\
-ValiaKordoni: We have very good amount of resources.
+[ValiaKordoni](https://delph-in.github.io/docs/garage/ValiaKordoni): We have very good amount of resources.
 Availability and organization of our resources will encourage people to
 collaborate with us. e.g. There are groups that could see how RMRS could
 be used for their systems. It is a matter of better visibility.\
@@ -84,10 +84,10 @@ imply we should…\
 [LarsAhrenberg](/LarsAhrenberg): Ask ourselves how can our research
 benefit society? Are there organisations that would be willing to fund
 those aims of ours?\
-HansUszkoreit: why we do what we do doesn’t have to be
+[HansUszkoreit](https://delph-in.github.io/docs/garage/HansUszkoreit): why we do what we do doesn’t have to be
 known to he outside world. (For some people it is the only thing they
 can do etc.). It should be very good though, to make clear to the world
-how our research can be useful. DanFlickinger:
+how our research can be useful. [DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger):
 Especially if we want to get governmental funding.  
 
 Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/LisbonExpectationsDiscussion/_edit)]{% endraw %}

@@ -2,7 +2,7 @@
 intro to the new work Sanghoun is doing.
 
 Discussion at the [2017 Grammar Engineering Meeting](https://delph-in.github.io/docs/summits/CapitolHillTop) led
-by SanghounSong, scribed by FrancisBond.
+by [SanghounSong](https://delph-in.github.io/docs/garage/SanghounSong), scribed by FrancisBond.
 
 3 topics (SSH)
 

@@ -35,19 +35,19 @@ contributed support on the grammar development environment, Japanese
 font encodings and inclusion of [ChaSen](http://chasen.naist.jp). Ulrich
 Callmeier (acrolinx GmbH) contributed the requirements for letting the
 grammar run on his fast and efficient PET system. Akira Ohtani,
-ChikaraHashimoto, FrancisBond,
+[ChikaraHashimoto](https://delph-in.github.io/docs/garage/ChikaraHashimoto), FrancisBond,
 [SanaeFujita](/SanaeFujita), Shigeko Nariyama and Takaaki Tanaka
 (NTT Communication Science Laboratories - Machine
 Translation Research Group) contributed grammar extensions, especially
 for verbal compounds and relative sentence constructions, and many
-lexicon entries. UlrichSchaefer integrated
+lexicon entries. [UlrichSchaefer](https://delph-in.github.io/docs/garage/UlrichSchaefer) integrated
 [ChaSen](http://chasen.naist.jp), Japanese Named Entity Recognition via
 [SProUT](http://sprout.dfki.de) and
 [PET](https://delph-in.github.io/docs/garage/PetTop) with the Jacy grammar into
 the [Heart of Gold](http://heartofgold.dfki.de) middleware for robust
 parsing of Japanese text, adding automatic translations of Chasen's
 EUC-JP byte offsets to Unicode character counts. Woodley Packard has
-helped with making things work with ACE. GlennSlayden
+helped with making things work with ACE. [GlennSlayden](https://delph-in.github.io/docs/garage/GlennSlayden)
 tested with AGREE. [Michael Goodman](http://www.goodmami.org/) helped
 move to github and many enhancements.
 

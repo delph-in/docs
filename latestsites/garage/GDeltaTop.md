@@ -31,8 +31,8 @@ grammars.
 systematically switching off types
 - Grammar documentation
 
-**gDelta** was created by NedLetcher,
-TimBaldwin and RebeccaDridan.
+**gDelta** was created by [NedLetcher](https://delph-in.github.io/docs/garage/NedLetcher),
+[TimBaldwin](https://delph-in.github.io/docs/garage/TimBaldwin) and [RebeccaDridan](https://delph-in.github.io/docs/garage/RebeccaDridan).
 
 The git repository for gDelta can be obtained
 [here](https://github.com/ned2/gdelta).
@@ -45,7 +45,7 @@ thusly:
 
 **gDelta** is intended to work for all DELPH-IN grammars. If your
 grammar is not working or you are having any difficulties running
-**gDelta**, contact NedLetcher.
+**gDelta**, contact [NedLetcher](https://delph-in.github.io/docs/garage/NedLetcher).
 
 ## Installing gDelta
 

@@ -18,42 +18,42 @@ July 4, Morning 2
 - Chart mapping applied: prosodic structures and temporal constraints,
 reducing parser search space, integration of external resources
   - [KatyaAlahverdzhieva](/KatyaAlahverdzhieva),
-PeterAdolphs, UlrichSchaefer,
-BartCramer, AntskeFokkens,
+[PeterAdolphs](https://delph-in.github.io/docs/garage/PeterAdolphs), [UlrichSchaefer](https://delph-in.github.io/docs/garage/UlrichSchaefer),
+[BartCramer](https://delph-in.github.io/docs/garage/BartCramer), [AntskeFokkens](https://delph-in.github.io/docs/garage/AntskeFokkens),
 StephanOepen (optionally),
 [FredericLaurens](/FredericLaurens),
-RebeccaDridan (if possible),
-AnnCopestake, GlennSlayden,
+[RebeccaDridan](https://delph-in.github.io/docs/garage/RebeccaDridan) (if possible),
+[AnnCopestake](https://delph-in.github.io/docs/garage/AnnCopestake), [GlennSlayden](https://delph-in.github.io/docs/garage/GlennSlayden),
 [FabiolaHenri](/FabiolaHenri),
 [MontserratMarimon](/MontserratMarimon),
-BerndKiefer, EmilyBender
+[BerndKiefer](https://delph-in.github.io/docs/garage/BerndKiefer), EmilyBender
 (optionally)
 - [Multilingual Grammar engineering with treebanks and core
 grammars.](https://delph-in.github.io/docs/summits/ParisMultilingualGrammarEngineering)
   
-  - AntskeFokkens, YiZhang,
+  - [AntskeFokkens](https://delph-in.github.io/docs/garage/AntskeFokkens), [YiZhang](https://delph-in.github.io/docs/garage/YiZhang),
 FrancisBond,
-TaniaAvgustinova, BartCramer,
+[TaniaAvgustinova](https://delph-in.github.io/docs/garage/TaniaAvgustinova), [BartCramer](https://delph-in.github.io/docs/garage/BartCramer),
 Laurie Poulson, [FredericLaurens](/FredericLaurens),
-[FabiolaHenri](/FabiolaHenri), SanghounSong
+[FabiolaHenri](/FabiolaHenri), [SanghounSong](https://delph-in.github.io/docs/garage/SanghounSong)
 
 July 4, Afternoon 1
 
 - Using the Grammar Matrix customization system, BYOL (bring your own
 language) ([ParisMatrixCustomization](https://delph-in.github.io/docs/summits/ParisMatrixCustomization)),
-EmilyBender, TaniaAvgustinova,
-AntskeFokkens, [FabiolaHenri](/FabiolaHenri),
-SanghounSong, GlennSlayden
+EmilyBender, [TaniaAvgustinova](https://delph-in.github.io/docs/garage/TaniaAvgustinova),
+[AntskeFokkens](https://delph-in.github.io/docs/garage/AntskeFokkens), [FabiolaHenri](/FabiolaHenri),
+[SanghounSong](https://delph-in.github.io/docs/garage/SanghounSong), [GlennSlayden](https://delph-in.github.io/docs/garage/GlennSlayden)
 - PET road map. [PetRoadMap](https://delph-in.github.io/docs/garage/PetRoadMap)
   
-  - PeterAdolphs, BartCramer,
-BerndKiefer, StephanOepen,
-YiZhang, UlrichSchaefer,
-FrancisBond, AntskeFokkens,
+  - [PeterAdolphs](https://delph-in.github.io/docs/garage/PeterAdolphs), [BartCramer](https://delph-in.github.io/docs/garage/BartCramer),
+[BerndKiefer](https://delph-in.github.io/docs/garage/BerndKiefer), StephanOepen,
+[YiZhang](https://delph-in.github.io/docs/garage/YiZhang), [UlrichSchaefer](https://delph-in.github.io/docs/garage/UlrichSchaefer),
+FrancisBond, [AntskeFokkens](https://delph-in.github.io/docs/garage/AntskeFokkens),
 [FredericLaurens](/FredericLaurens),
-RebeccaDridan (if possible),
+[RebeccaDridan](https://delph-in.github.io/docs/garage/RebeccaDridan) (if possible),
 [MontserratMarimon](/MontserratMarimon),
-DanFlickinger
+[DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger)
 
 July 4, Afternoon 2
 
@@ -61,61 +61,61 @@ July 4, Afternoon 2
 top-down v. bottom-up library development, documentation
 ([ParisMatrixTopics](https://delph-in.github.io/docs/summits/ParisMatrixTopics))
   
-  - AntskeFokkens, EmilyBender,
-TaniaAvgustinova, Laurie Poulson,
-GlennSlayden
+  - [AntskeFokkens](https://delph-in.github.io/docs/garage/AntskeFokkens), EmilyBender,
+[TaniaAvgustinova](https://delph-in.github.io/docs/garage/TaniaAvgustinova), Laurie Poulson,
+[GlennSlayden](https://delph-in.github.io/docs/garage/GlennSlayden)
 - Content extraction (and parsing) from PDF, HTML, LaTeX, etc.
   - StephanOepen, FrancisBond
 
 July 5, Morning 1
 
 - Implementing information structure in large DELPH-IN grammars
-SanghounSong, EmilyBender,
+[SanghounSong](https://delph-in.github.io/docs/garage/SanghounSong), EmilyBender,
 [KatyaAlahverdzhieva](/KatyaAlahverdzhieva),
-PeterAdolphs, FrancisBond,
-TaniaAvgustinova,
-AntskeFokkens, Laurie Poulson,
-[FredericLaurens](/FredericLaurens), AnnCopestake,
-GlennSlayden, [FabiolaHenri](/FabiolaHenri),
+[PeterAdolphs](https://delph-in.github.io/docs/garage/PeterAdolphs), FrancisBond,
+[TaniaAvgustinova](https://delph-in.github.io/docs/garage/TaniaAvgustinova),
+[AntskeFokkens](https://delph-in.github.io/docs/garage/AntskeFokkens), Laurie Poulson,
+[FredericLaurens](/FredericLaurens), [AnnCopestake](https://delph-in.github.io/docs/garage/AnnCopestake),
+[GlennSlayden](https://delph-in.github.io/docs/garage/GlennSlayden), [FabiolaHenri](/FabiolaHenri),
 [MontserratMarimon](/MontserratMarimon),
-[AurelieHerbelot](/AurelieHerbelot), DanFlickinger
+[AurelieHerbelot](/AurelieHerbelot), [DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger)
 - Parsing/Generating for practical uses (e.g. non-academic, such as
 for websites, low-memory devices, etc.),
-MichaelGoodman, FrancisBond,
-PeterAdolphs, YiZhang,
-AntskeFokkens, StephanOepen
-(optionally), Laurie Poulson, BerndKiefer
+[MichaelGoodman](https://delph-in.github.io/docs/garage/MichaelGoodman), FrancisBond,
+[PeterAdolphs](https://delph-in.github.io/docs/garage/PeterAdolphs), [YiZhang](https://delph-in.github.io/docs/garage/YiZhang),
+[AntskeFokkens](https://delph-in.github.io/docs/garage/AntskeFokkens), StephanOepen
+(optionally), Laurie Poulson, [BerndKiefer](https://delph-in.github.io/docs/garage/BerndKiefer)
 (optionally), [GisleYtrestol](/GisleYtrestol)
 
 July 5, Morning 2
 
 - Setting up Egad for Error Mining Grammars,
-MichaelGoodman, PeterAdolphs,
-FrancisBond, YiZhang,
+[MichaelGoodman](https://delph-in.github.io/docs/garage/MichaelGoodman), [PeterAdolphs](https://delph-in.github.io/docs/garage/PeterAdolphs),
+FrancisBond, [YiZhang](https://delph-in.github.io/docs/garage/YiZhang),
 StephanOepen (optionally), Melanie Siegel,
 [MontserratMarimon](/MontserratMarimon),
-SanghounSong
-- MRS and discourse phenomena AnnCopestake,
-EmilyBender; TaniaAvgustinova,
-PeterAdolphs, Laurie Poulson,
+[SanghounSong](https://delph-in.github.io/docs/garage/SanghounSong)
+- MRS and discourse phenomena [AnnCopestake](https://delph-in.github.io/docs/garage/AnnCopestake),
+EmilyBender; [TaniaAvgustinova](https://delph-in.github.io/docs/garage/TaniaAvgustinova),
+[PeterAdolphs](https://delph-in.github.io/docs/garage/PeterAdolphs), Laurie Poulson,
 [FredericLaurens](/FredericLaurens), [FabiolaHenri](/FabiolaHenri),
 [AurelieHerbelot](/AurelieHerbelot),
 [KatyaAlahverdzhieva](/KatyaAlahverdzhieva),
-DanFlickinger, SanghounSong,
-UlrichSchaefer
+[DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger), [SanghounSong](https://delph-in.github.io/docs/garage/SanghounSong),
+[UlrichSchaefer](https://delph-in.github.io/docs/garage/UlrichSchaefer)
 
 July 5, Afternoon 1
 
 - LOGON 2010 release planning. StephanOepen,
 FrancisBond, [MontserratMarimon](/MontserratMarimon),
-TaniaAvgustinova,
-DanFlickinger, BartCramer
+[TaniaAvgustinova](https://delph-in.github.io/docs/garage/TaniaAvgustinova),
+[DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger), [BartCramer](https://delph-in.github.io/docs/garage/BartCramer)
 - Grammar metadata table filling in EmilyBender;
-TaniaAvgustinova, Laurie Poulson
+[TaniaAvgustinova](https://delph-in.github.io/docs/garage/TaniaAvgustinova), Laurie Poulson
 
 For DELPH-IN 2011:
 
 - Feature-centric TFS representation and manipulation
-GlennSlayden
+[GlennSlayden](https://delph-in.github.io/docs/garage/GlennSlayden)
 
 Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/ParisTopics/_edit)]{% endraw %}

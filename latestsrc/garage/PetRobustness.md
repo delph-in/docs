@@ -67,7 +67,7 @@ can be passed to PET by most of the input formats. See
 
 This is the new way of generic lexical instantiation that has been
 introduced together with token feature structures and
-[Chart\_Mapping](). In this new setup, the parser tries to
+[Chart\_Mapping](https://delph-in.github.io/docs/garage/Chart_Mapping). In this new setup, the parser tries to
 instantiate all generic lexical entries for each word. Upon lexical
 instantiation, the token feature is unified into a designated path of
 the lexical entry. Only if this unification succeeds, the lexical item
@@ -76,7 +76,7 @@ lexical entries, the token feature structures are appropriatly
 constrained in the generic lexical entry, for instance by requiring that
 a generic verbal entry is only applicable for token feature structures
 where the highest ranked part-of-speech tag is a verb. Please see the
-page on [Chart\_Mapping]() for more information.
+page on [Chart\_Mapping](https://delph-in.github.io/docs/garage/Chart_Mapping) for more information.
 
 ## Lexical type prediction
 

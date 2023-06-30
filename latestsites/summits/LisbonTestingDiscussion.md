@@ -2,7 +2,7 @@
 
 The discussion started with some
 [slides](http://www.kecl.ntt.co.jp/icl/mtg/members/bond/pubs/2005-delphin-testing.pdf)
-based on ideas from AnnCopestake.
+based on ideas from [AnnCopestake](https://delph-in.github.io/docs/garage/AnnCopestake).
 
 ### DELPH-IN Testing Volunteers
 
@@ -18,12 +18,12 @@ release, using whatever test set is appropriate for their grammar.
 
 |                               |                                       |
 |:------------------------------|:--------------------------------------|
-| English Resource Grammar      | DanFlickinger        |
-| German                        | BertholdCrysmann  |
+| English Resource Grammar      | [DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger)        |
+| German                        | [BertholdCrysmann](https://delph-in.github.io/docs/garage/BertholdCrysmann)  |
 | Modern Greek Resource Grammar | [AlexandrosPoulis](/AlexandrosPoulis) |
 | JACY                          | FrancisBond            |
 | Norsource                     | [LarsHellan](/LarsHellan)             |
-| Korean Resource Grammar       | JongBokKim              |
+| Korean Resource Grammar       | [JongBokKim](https://delph-in.github.io/docs/garage/JongBokKim)              |
 
 The advantage to each group of having a designated tester is that it
 will be much easier to make sure that their grammar is compatible with

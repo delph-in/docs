@@ -85,21 +85,21 @@ Organizer\
 FrancisBond
 
 Host\
-GlennSlayden
+[GlennSlayden](https://delph-in.github.io/docs/garage/GlennSlayden)
 
 Participants  
 - Emily Bender (in and out, according to other obligations)
-- MichaelGoodman (maybe not every day)
-- OlgaZamaraeva (mostly for evening fun/social and to
+- [MichaelGoodman](https://delph-in.github.io/docs/garage/MichaelGoodman) (maybe not every day)
+- [OlgaZamaraeva](https://delph-in.github.io/docs/garage/OlgaZamaraeva) (mostly for evening fun/social and to
 offer help as a local; I can also provide crash space for someone)
-- SanghounSong (probably everyday 2-6)
+- [SanghounSong](https://delph-in.github.io/docs/garage/SanghounSong) (probably everyday 2-6)
 - FrancisBond (every day)
 - Fan Zhenzhen (every day)
-- DanFlickinger (Monday afternoon to Thursday)
-- LuisMorgadoCosta (every day)
-- DavidMoeljadi (every day)
+- [DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger) (Monday afternoon to Thursday)
+- [LuisMorgadoCosta](https://delph-in.github.io/docs/garage/LuisMorgadoCosta) (every day)
+- [DavidMoeljadi](https://delph-in.github.io/docs/garage/DavidMoeljadi) (every day)
 - Ping Xue
-- JoshuaCrowgey (Tuesday and Thursday)
+- [JoshuaCrowgey](https://delph-in.github.io/docs/garage/JoshuaCrowgey) (Tuesday and Thursday)
   
   - (add your name here)
 

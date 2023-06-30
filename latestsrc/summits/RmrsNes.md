@@ -3,15 +3,15 @@
 ## Participants
 
 - EmilyBender (scribe)
-- DanFlickinger
-- VaryaGracheva
-- MichaelGoodman
+- [DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger)
+- [VaryaGracheva](https://delph-in.github.io/docs/garage/VaryaGracheva)
+- [MichaelGoodman](https://delph-in.github.io/docs/garage/MichaelGoodman)
 - [PrescottKlassen](/PrescottKlassen)
 - [WoodleyPackard](/WoodleyPackard)
-- ZinaPozen
+- [ZinaPozen](https://delph-in.github.io/docs/garage/ZinaPozen)
 - [MeganSchneider](/MeganSchneider)
-- GlennSlayden
-- SanghounSong
+- [GlennSlayden](https://delph-in.github.io/docs/garage/GlennSlayden)
+- [SanghounSong](https://delph-in.github.io/docs/garage/SanghounSong)
 
 ## Notes
 

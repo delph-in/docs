@@ -52,7 +52,7 @@ Mike: You’ll see the file structure at the top and below is the README
 which if it’s markdown it will be shown with the layout and stuff. Up
 here you can also see the license, but since we’ve changed the MIT
 license pretty significantly with the list of contributors and stuff, it
-doesn’t detect it as a MIT license. If I go to PyDelphin,
+doesn’t detect it as a MIT license. If I go to [PyDelphin](https://delph-in.github.io/docs/garage/PyDelphin),
 you can see that it has auto-detected it as an MIT licenses. There are
 currently now releases, but we do have tags for people’s dissertations
 and what-not. Also, this it the commits. This the latest commit here. If
@@ -343,7 +343,7 @@ Emily: sure? generate.py I think supports generation in the
 questionnaire, but does that work?
 
 Mike: Yeah, I’m not sure. This looks pretty old. We could probably use
-PyDelphin to support generation
+[PyDelphin](https://delph-in.github.io/docs/garage/PyDelphin) to support generation
 
 Emily: There was a little bit of lisp code to come up with the
 headtypes.tdl file, but that was generated programmatically and then
@@ -589,7 +589,7 @@ unmuting\]
 
 Mike: I’ve now lost the ability to stop sharing my screen. I want to
 share this other window called actions. These are things that happen
-automatically when you push commits. For PyDelphin, when I
+automatically when you push commits. For [PyDelphin](https://delph-in.github.io/docs/garage/PyDelphin), when I
 make a tag, it uploads the package to [PyPi](/PyPi). \[some other
 examples\] We could have it run the regression tests or run Flake8 which
 you can configure a bit, like how you name your variables, \[etc.\] You
