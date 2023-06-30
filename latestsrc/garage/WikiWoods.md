@@ -98,5 +98,4 @@ on-line [Language Technology Resources](http://ltr.uio.no) collection.
 Following is an attempt at listing related initiatives. In case you know
 of additional pointers that should be included, please email
 Stephan Oepen.
-
-Last update: 2021-07-20 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/WikiWoods/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

@@ -111,5 +111,4 @@
 | 1051 | Browne versuchte es.                                          | Browne tried to.                              |
 | 1061 | Bell nicht!                                                   | Don't bark!                                   |
 | 1071 | Der Hund kam bellend an.                                      | The dog arrived barking.                      |
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/MatrixMrsTestSuiteDe/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

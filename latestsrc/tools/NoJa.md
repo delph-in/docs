@@ -10,16 +10,16 @@ mean the authors will always be able to helpfully answer questions.
 Contents
 
 1. [Norwegian Japanese Machine Translation
-"NoJa"](https://delph-in.github.io/docs/tools/NoJa)
-2. [Running No/Ja](https://delph-in.github.io/docs/tools/NoJa)
-3. [Trouble shooting suggestions](https://delph-in.github.io/docs/tools/NoJa)
-4. [Set Up](https://delph-in.github.io/docs/tools/NoJa)
-   1. [.bashrc](https://delph-in.github.io/docs/tools/NoJa)
-   2. [.emacs](https://delph-in.github.io/docs/tools/NoJa)
-   3. [logon/dot.tsdbrc](https://delph-in.github.io/docs/tools/NoJa)
-   4. [logon/ntnu/norse-parse.lisp](https://delph-in.github.io/docs/tools/NoJa)
-   5. [To Do](https://delph-in.github.io/docs/tools/NoJa)
-5. [Differences in attributes](https://delph-in.github.io/docs/tools/NoJa)
+"NoJa"](https://delph-in.github.io/docs/tools/NoJa#Norwegian_Japanese_Machine_Translation__.22NoJa.22)
+2. [Running No/Ja](https://delph-in.github.io/docs/tools/NoJa#Running_No.2FJa)
+3. [Trouble shooting suggestions](https://delph-in.github.io/docs/tools/NoJa#Trouble_shooting_suggestions)
+4. [Set Up](https://delph-in.github.io/docs/tools/NoJa#Set_Up)
+   1. [.bashrc](https://delph-in.github.io/docs/tools/NoJa#A.bashrc)
+   2. [.emacs](https://delph-in.github.io/docs/tools/NoJa#A.emacs)
+   3. [logon/dot.tsdbrc](https://delph-in.github.io/docs/tools/NoJa#logon.2Fdot.tsdbrc)
+   4. [logon/ntnu/norse-parse.lisp](https://delph-in.github.io/docs/tools/NoJa#logon.2Fntnu.2Fnorse-parse.lisp)
+   5. [To Do](https://delph-in.github.io/docs/tools/NoJa#To_Do)
+5. [Differences in attributes](https://delph-in.github.io/docs/tools/NoJa#Differences_in_attributes)
 
 # Running No/Ja
 
@@ -255,5 +255,4 @@ expression and then mark them to have tense and mood deleted.
       OUTPUT.RELS < +copy+ &  [ ARG0 #e &
                                         [TENSE ditch-tense,  
                                          MOOD ditch-mood] ] > ].
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/NoJa/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

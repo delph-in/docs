@@ -10,10 +10,10 @@ correct.
 
 Contents
 
-1. [Page Status](https://delph-in.github.io/docs/tools/ItsdbTreebanking_ItsdbUpdating)
-2. [Updating](https://delph-in.github.io/docs/tools/ItsdbTreebanking_ItsdbUpdating)
-   1. [Fully Automatic Update](https://delph-in.github.io/docs/tools/ItsdbTreebanking_ItsdbUpdating)
-   2. [Interactive Update](https://delph-in.github.io/docs/tools/ItsdbTreebanking_ItsdbUpdating)
+1. [Page Status](https://delph-in.github.io/docs/tools/ItsdbTreebanking_ItsdbUpdating#Page_Status)
+2. [Updating](https://delph-in.github.io/docs/tools/ItsdbTreebanking_ItsdbUpdating#Updating)
+   1. [Fully Automatic Update](https://delph-in.github.io/docs/tools/ItsdbTreebanking_ItsdbUpdating#Fully_Automatic_Update)
+   2. [Interactive Update](https://delph-in.github.io/docs/tools/ItsdbTreebanking_ItsdbUpdating#Interactive_Update)
 
 # Updating
 
@@ -96,5 +96,4 @@ Treebank only those places that have changed
 
 In this stage, the annotator can annotate any trees that have changed,
 exploiting any relevant existing decisions.
-
-Last update: 2014-04-08 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/ItsdbTreebanking_ItsdbUpdating/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

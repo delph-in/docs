@@ -214,5 +214,4 @@ used features in a readable format.
 entries](http://depts.washington.edu/uwcl/docs/geo2.pdf)
 
 Back to the Grammar Engineering FAQ.
-
-Last update: 2023-06-30 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/GeFaqFeatureGeometry/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

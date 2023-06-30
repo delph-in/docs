@@ -20,5 +20,4 @@ the chart. Unless you also have an independent lexical entry for
 parses, but the algorithm doesn't know this.
 
 Back to the Grammar Engineering FAQ.
-
-Last update: 2023-06-30 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/GeFaqChartTwice/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

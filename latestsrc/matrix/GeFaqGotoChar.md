@@ -14,5 +14,4 @@ identified, but note that the actual error may be earlier.
 where. What should I do?](https://delph-in.github.io/docs/matrix/GeFaqRightBracket)
 
 Back to the Grammar Engineering FAQ.
-
-Last update: 2023-06-30 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/GeFaqGotoChar/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

@@ -46,5 +46,4 @@
 | Processing engines         | [LKB](https://delph-in.github.io/docs/tools/LkbTop)                                 |
 | Operating systems          | Linux/MacOS/Windows                           |
 | Notes                      |                                               |
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/GrenouilleSummary/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

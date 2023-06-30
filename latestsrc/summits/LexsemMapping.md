@@ -4,19 +4,19 @@ space (part of the work on [Lexical Semantics](https://delph-in.github.io/docs/g
 
 Contents
 
-1. [Single Words](https://delph-in.github.io/docs/summits/LexsemMapping)
-   1. [Proper Nouns](https://delph-in.github.io/docs/summits/LexsemMapping)
-   2. [Decomposed nouns](https://delph-in.github.io/docs/summits/LexsemMapping)
-   3. [Superlatives](https://delph-in.github.io/docs/summits/LexsemMapping)
-   4. [Different POS](https://delph-in.github.io/docs/summits/LexsemMapping)
-2. [Multiple Words](https://delph-in.github.io/docs/summits/LexsemMapping)
-   1. [Compositional Compound Nouns](https://delph-in.github.io/docs/summits/LexsemMapping)
+1. [Single Words](https://delph-in.github.io/docs/summits/LexsemMapping#Single_Words)
+   1. [Proper Nouns](https://delph-in.github.io/docs/summits/LexsemMapping#Proper_Nouns)
+   2. [Decomposed nouns](https://delph-in.github.io/docs/summits/LexsemMapping#Decomposed_nouns)
+   3. [Superlatives](https://delph-in.github.io/docs/summits/LexsemMapping#Superlatives)
+   4. [Different POS](https://delph-in.github.io/docs/summits/LexsemMapping#Different_POS)
+2. [Multiple Words](https://delph-in.github.io/docs/summits/LexsemMapping#Multiple_Words)
+   1. [Compositional Compound Nouns](https://delph-in.github.io/docs/summits/LexsemMapping#Compositional_Compound_Nouns)
    2. [Non Compositional Compound
-Nouns](https://delph-in.github.io/docs/summits/LexsemMapping)
-   3. [Idioms](https://delph-in.github.io/docs/summits/LexsemMapping)
-3. [Phrases](https://delph-in.github.io/docs/summits/LexsemMapping)
-   1. [Coordination](https://delph-in.github.io/docs/summits/LexsemMapping)
-   2. [Light Verbs](https://delph-in.github.io/docs/summits/LexsemMapping)
+Nouns](https://delph-in.github.io/docs/summits/LexsemMapping#Non_Compositional_Compound_Nouns)
+   3. [Idioms](https://delph-in.github.io/docs/summits/LexsemMapping#Idioms)
+3. [Phrases](https://delph-in.github.io/docs/summits/LexsemMapping#Phrases)
+   1. [Coordination](https://delph-in.github.io/docs/summits/LexsemMapping#Coordination)
+   2. [Light Verbs](https://delph-in.github.io/docs/summits/LexsemMapping#Light_Verbs)
 
 ## Single Words
 
@@ -225,5 +225,4 @@ How should we show this?
 
 Many more corner cases to come :-): "Sleeping Beauty: is sleep v or n",
 more complex MWEs, ... .
-
-Last update: 2023-02-23 by Francis Bond [[edit](https://github.com/delph-in/docs/wiki/LexsemMapping/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

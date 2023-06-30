@@ -12,10 +12,10 @@ correct.
 
 Contents
 
-1. [Page Status](https://delph-in.github.io/docs/tools/ItsdbDistributedProcessing)
-2. [Distributed Processing](https://delph-in.github.io/docs/tools/ItsdbDistributedProcessing)
-   1. [CPU definitions](https://delph-in.github.io/docs/tools/ItsdbDistributedProcessing)
-   2. [Activating CPUs](https://delph-in.github.io/docs/tools/ItsdbDistributedProcessing)
+1. [Page Status](https://delph-in.github.io/docs/tools/ItsdbDistributedProcessing#Page_Status)
+2. [Distributed Processing](https://delph-in.github.io/docs/tools/ItsdbDistributedProcessing#Distributed_Processing)
+   1. [CPU definitions](https://delph-in.github.io/docs/tools/ItsdbDistributedProcessing#CPU_definitions)
+   2. [Activating CPUs](https://delph-in.github.io/docs/tools/ItsdbDistributedProcessing#Activating_CPUs)
 
 Parsing in [\[incr tsdb()\]](http://www.delph-in.net/itsdb) (see
 [ItsdbTop](https://delph-in.github.io/docs/tools/ItsdbTop)) can be distributed over several machines. This is
@@ -122,5 +122,4 @@ of the cpu to be started;
 
 (setf \*process-raw-print-trace-p\* t) will make the print-out while
 going through a test run look nicer.
-
-Last update: 2012-08-07 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/ItsdbDistributedProcessing/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

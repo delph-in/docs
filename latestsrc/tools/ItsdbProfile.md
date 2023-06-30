@@ -15,12 +15,12 @@ correct.
 
 Contents
 
-1. [Page Status](https://delph-in.github.io/docs/tools/ItsdbProfile)
-2. [Overview](https://delph-in.github.io/docs/tools/ItsdbProfile)
-   1. [item](https://delph-in.github.io/docs/tools/ItsdbProfile)
-   2. [run](https://delph-in.github.io/docs/tools/ItsdbProfile)
-   3. [parse](https://delph-in.github.io/docs/tools/ItsdbProfile)
-   4. [result](https://delph-in.github.io/docs/tools/ItsdbProfile)
+1. [Page Status](https://delph-in.github.io/docs/tools/ItsdbProfile#Page_Status)
+2. [Overview](https://delph-in.github.io/docs/tools/ItsdbProfile#Overview)
+   1. [item](https://delph-in.github.io/docs/tools/ItsdbProfile#item)
+   2. [run](https://delph-in.github.io/docs/tools/ItsdbProfile#run)
+   3. [parse](https://delph-in.github.io/docs/tools/ItsdbProfile#parse)
+   4. [result](https://delph-in.github.io/docs/tools/ItsdbProfile#result)
 
 # Overview
 
@@ -162,5 +162,4 @@ and so on.
       tree :string                          # phrase structure tree (CSLI labels)
       mrs :string                           # mrs for this reading
       flags :string                         # arbitrary annotation (e.g. BLEU)
-
-Last update: 2012-08-07 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/ItsdbProfile/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

@@ -34,5 +34,4 @@ In *Open-Source Machine Translation: Workshop at MT Summit X*, pp
 Velldal and Petter Haugereid (2011) [Deep Open Source Machine
 Translation](http://www.springerlink.com/openurl.asp?genre=article&id=doi:10.1007/s10590-011-9099-4).
 In *Machine Translation* **25**(2) 87-105
-
-Last update: 2012-07-26 by PetterHaugereid [[edit](https://github.com/delph-in/docs/wiki/MtJaen/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

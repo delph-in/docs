@@ -7,13 +7,13 @@ requires [FireFox](http://www.mozilla.org/en-US/firefox/fx/) and
 running the tests.
 
 Below are instructions for
-[running](https://delph-in.github.io/docs/matrix/MatrixCustomizationWebTesting),
-[adding](https://delph-in.github.io/docs/matrix/MatrixCustomizationWebTesting),
-[maintaining](https://delph-in.github.io/docs/matrix/MatrixCustomizationWebTesting), and
-[removing](https://delph-in.github.io/docs/matrix/MatrixCustomizationWebTesting) web tests, information
-for understanding the [output](https://delph-in.github.io/docs/matrix/MatrixCustomizationWebTesting),
+[running](https://delph-in.github.io/docs/matrix/MatrixCustomizationWebTesting#running-web-tests),
+[adding](https://delph-in.github.io/docs/matrix/MatrixCustomizationWebTesting#adding-web-tests),
+[maintaining](https://delph-in.github.io/docs/matrix/MatrixCustomizationWebTesting#maintaining-web-tests), and
+[removing](https://delph-in.github.io/docs/matrix/MatrixCustomizationWebTesting#removing-web-tests) web tests, information
+for understanding the [output](https://delph-in.github.io/docs/matrix/MatrixCustomizationWebTesting#understanding-web-test-output),
 and a description of the [directory
-structure](https://delph-in.github.io/docs/matrix/MatrixCustomizationWebTesting) of web test
+structure](https://delph-in.github.io/docs/matrix/MatrixCustomizationWebTesting#directory-structure) of web test
 modules.
 
 # Running Web Tests
@@ -115,5 +115,4 @@ should be stored in gmcs/web\_tests/web\_choices.
         web_tests/
             testWeb.py
             web_choices/
-
-Last update: 2021-06-04 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/MatrixCustomizationWebTesting/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

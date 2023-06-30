@@ -31,5 +31,4 @@ type?](https://delph-in.github.io/docs/matrix/GeFaqViewType)
 - [In which files does order matter?](https://delph-in.github.io/docs/matrix/GeFaqOrderMatters)
 
 Back to the Grammar Engineering FAQ.
-
-Last update: 2023-06-30 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/GeFaqForgottenConstraint/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

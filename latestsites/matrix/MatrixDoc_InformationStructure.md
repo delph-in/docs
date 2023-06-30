@@ -261,5 +261,4 @@ address = {Stanford, CA},\
 publisher = {CSLI Publications},\
 year = {2012}\
 }
-
-Last update: 2018-05-07 by GuyEmerson [[edit](https://github.com/delph-in/docs/wiki/MatrixDoc_InformationStructure/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

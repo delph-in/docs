@@ -711,5 +711,4 @@ this analysis would enable paraphrases that permute the conjuncts
 (possibly even in nested coordinate structures, come to think of it,
 though that might be undesirable with different coordinators—win some,
 lose some).
-
-Last update: 2020-08-25 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/VirtualCoordinationComposition/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

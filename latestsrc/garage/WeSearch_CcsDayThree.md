@@ -2267,5 +2267,4 @@ oe: Yes, starting to build something after parsing. Possibly also after
 parsing with other engines.
 
 Dick: I'm a consumer of two parsers.
-
-Last update: 2014-11-15 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/WeSearch_CcsDayThree/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

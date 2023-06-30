@@ -38,5 +38,4 @@ Woodley: You were hinting at another design principle a few minutes ago
 Editor's note: This topic comes up again and is basically dismissed in
 \[[TheAbbey/Chrysais2014Arity](/TheAbbey/Chrysais2014Arity)\|the arity
 discussion\].
-
-Last update: 2014-02-16 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/TheAbbey_Chrysalis2014PpAttachment/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

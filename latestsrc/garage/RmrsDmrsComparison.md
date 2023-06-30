@@ -154,5 +154,4 @@ optional.
 
 The output is a simple ID pair list. If multiple duplication occurs in a
 file the ID numbers will be output several times.
-
-Last update: 2010-06-01 by anonymous [[edit](https://github.com/delph-in/docs/wiki/RmrsDmrsComparison/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

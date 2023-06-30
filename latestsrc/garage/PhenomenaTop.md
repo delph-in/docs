@@ -1,12 +1,12 @@
 {% raw %}Contents
 
-1. [Overview](https://delph-in.github.io/docs/garage/PhenomenaTop)
+1. [Overview](https://delph-in.github.io/docs/garage/PhenomenaTop#Overview)
    1. [Relevant discussions from past
-summits](https://delph-in.github.io/docs/garage/PhenomenaTop)
-2. [ERG Semantic Documentation](https://delph-in.github.io/docs/garage/PhenomenaTop)
-3. [Phenomenon Corpus](https://delph-in.github.io/docs/garage/PhenomenaTop)
-4. [Typediff](https://delph-in.github.io/docs/garage/PhenomenaTop)
-5. [Phenomenon Catalogue](https://delph-in.github.io/docs/garage/PhenomenaTop)
+summits](https://delph-in.github.io/docs/garage/PhenomenaTop#Relevant_discussions_from_past_summits)
+2. [ERG Semantic Documentation](https://delph-in.github.io/docs/garage/PhenomenaTop#ERG_Semantic_Documentation)
+3. [Phenomenon Corpus](https://delph-in.github.io/docs/garage/PhenomenaTop#Phenomenon_Corpus)
+4. [Typediff](https://delph-in.github.io/docs/garage/PhenomenaTop#Typediff)
+5. [Phenomenon Catalogue](https://delph-in.github.io/docs/garage/PhenomenaTop#Phenomenon_Catalogue)
 
 # Overview
 
@@ -72,5 +72,4 @@ documentation with phenomenon labels on constraints. Originally
 currently there is only a [partial catalogue for the Wambaya
 grammar](https://delph-in.github.io/docs/summits/WambayaPhenomenaCatalogue). Grammar maintainers interested in
 developing a catalogue are very much encouraged to do so.
-
-Last update: 2013-11-29 by NedLetcher [[edit](https://github.com/delph-in/docs/wiki/PhenomenaTop/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

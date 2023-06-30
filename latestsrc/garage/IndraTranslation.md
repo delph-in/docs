@@ -93,5 +93,4 @@ grammar inen.
     $ echo "anjing menggonggong" | ace -g YOUR_INDRA_DIRECTORY/ind.dat | ace -g YOUR_INEN_DIRECTORY/inen.dat -Tf -vv | less
 
 3\. Edit the grammar(s) or transfer rules
-
-Last update: 2015-07-06 by DavidMoeljadi [[edit](https://github.com/delph-in/docs/wiki/IndraTranslation/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

@@ -1,13 +1,13 @@
 {% raw %}Contents
 
-1. [Overview](https://delph-in.github.io/docs/garage/PetTop)
-2. [Obtaining PET](https://delph-in.github.io/docs/garage/PetTop)
-3. [Compiling and Installing PET](https://delph-in.github.io/docs/garage/PetTop)
-4. [PET for developers](https://delph-in.github.io/docs/garage/PetTop)
-5. [Compiling a grammar](https://delph-in.github.io/docs/garage/PetTop)
-6. [Running PET](https://delph-in.github.io/docs/garage/PetTop)
-7. [Tips and Tricks](https://delph-in.github.io/docs/garage/PetTop)
-8. [History](https://delph-in.github.io/docs/garage/PetTop)
+1. [Overview](https://delph-in.github.io/docs/garage/PetTop#Overview)
+2. [Obtaining PET](https://delph-in.github.io/docs/garage/PetTop#Obtaining_PET)
+3. [Compiling and Installing PET](https://delph-in.github.io/docs/garage/PetTop#Compiling_and_Installing_PET)
+4. [PET for developers](https://delph-in.github.io/docs/garage/PetTop#PET_for_developers)
+5. [Compiling a grammar](https://delph-in.github.io/docs/garage/PetTop#Compiling_a_grammar)
+6. [Running PET](https://delph-in.github.io/docs/garage/PetTop#Running_PET)
+7. [Tips and Tricks](https://delph-in.github.io/docs/garage/PetTop#Tips_and_Tricks)
+8. [History](https://delph-in.github.io/docs/garage/PetTop#History)
 
 # Overview
 
@@ -211,5 +211,4 @@ mapping](https://delph-in.github.io/docs/garage/ChartMapping) and the [FSC input
 ## To cite
 
 Callmeier, Ulrich. "Efficient parsing with large-scale unification grammars." PhD diss., Master’s thesis, Universität des Saarlandes, Saarbrücken, Germany, 2001.
-
-Last update: 2021-06-18 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/PetTop/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

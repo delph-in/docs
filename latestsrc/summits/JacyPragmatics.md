@@ -7,9 +7,9 @@ accurately reflect anyone's opinions.
 Contents
 
 1. [Pragmatic Information in the
-MRS](https://delph-in.github.io/docs/summits/JacyPragmatics)
-   1. [Unresolved issues](https://delph-in.github.io/docs/summits/JacyPragmatics)
-2. [Current JACY implementation](https://delph-in.github.io/docs/summits/JacyPragmatics)
+MRS](https://delph-in.github.io/docs/summits/JacyPragmatics#Pragmatic_Information_in_the_MRS)
+   1. [Unresolved issues](https://delph-in.github.io/docs/summits/JacyPragmatics#Unresolved_issues)
+2. [Current JACY implementation](https://delph-in.github.io/docs/summits/JacyPragmatics#Current_JACY_implementation)
 
 # Pragmatic Information in the MRS
 
@@ -81,5 +81,4 @@ relations:
     empathy_rel := avm &
                    [EMPER index,
                     EMPEE index].
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/JacyPragmatics/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

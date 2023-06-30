@@ -2,14 +2,14 @@
 
 Contents
 
-1. [DELPH-IN 2010 Summit Schedule](https://delph-in.github.io/docs/summits/ParisSchedule)
-   1. [July 2](https://delph-in.github.io/docs/summits/ParisSchedule)
-   2. [July 3](https://delph-in.github.io/docs/summits/ParisSchedule)
+1. [DELPH-IN 2010 Summit Schedule](https://delph-in.github.io/docs/summits/ParisSchedule#DELPH-IN_2010_Summit_Schedule)
+   1. [July 2](https://delph-in.github.io/docs/summits/ParisSchedule#July_2)
+   2. [July 3](https://delph-in.github.io/docs/summits/ParisSchedule#July_3)
    3. [July 4 (Subgroup
-activities)](https://delph-in.github.io/docs/summits/ParisSchedule)
+activities)](https://delph-in.github.io/docs/summits/ParisSchedule#July_4__.28Subgroup_activities.29)
    4. [July 5 (Subgroup
-activities)](https://delph-in.github.io/docs/summits/ParisSchedule)
-   5. [July 6](https://delph-in.github.io/docs/summits/ParisSchedule)
+activities)](https://delph-in.github.io/docs/summits/ParisSchedule#July_5_.28Subgroup_activities.29)
+   5. [July 6](https://delph-in.github.io/docs/summits/ParisSchedule#July_6)
 
 ## July 2
 
@@ -122,5 +122,4 @@ Room 1 = larger room = ? Room 2 = smaller room = ?
 ## July 6
 
 See [ParisOpen](https://delph-in.github.io/docs/summits/ParisOpen)
-
-Last update: 2015-10-30 by GlennSlayden [[edit](https://github.com/delph-in/docs/wiki/ParisSchedule/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

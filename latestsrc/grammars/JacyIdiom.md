@@ -1,22 +1,22 @@
 {% raw %}Contents
 
 1. [Overview of LKB's idiom detection
-mechanism](https://delph-in.github.io/docs/grammars/JacyIdiom)
-2. [Example](https://delph-in.github.io/docs/grammars/JacyIdiom)
-3. [Implementation](https://delph-in.github.io/docs/grammars/JacyIdiom)
-   1. [idioms.mtr and mtr.tdl](https://delph-in.github.io/docs/grammars/JacyIdiom)
-   2. [The Lexicon](https://delph-in.github.io/docs/grammars/JacyIdiom)
+mechanism](https://delph-in.github.io/docs/grammars/JacyIdiom#Overview_of_LKB.27s_idiom_detection_mechanism)
+2. [Example](https://delph-in.github.io/docs/grammars/JacyIdiom#Example)
+3. [Implementation](https://delph-in.github.io/docs/grammars/JacyIdiom#Implementation)
+   1. [idioms.mtr and mtr.tdl](https://delph-in.github.io/docs/grammars/JacyIdiom#idioms.mtr_and_mtr.tdl)
+   2. [The Lexicon](https://delph-in.github.io/docs/grammars/JacyIdiom#The_Lexicon)
    3. [Configuration of Relevant
-Rules](https://delph-in.github.io/docs/grammars/JacyIdiom)
-      1. [matrix.tdl](https://delph-in.github.io/docs/grammars/JacyIdiom)
-      2. [fundamentals.tdl](https://delph-in.github.io/docs/grammars/JacyIdiom)
-      3. [rule-types.tdl](https://delph-in.github.io/docs/grammars/JacyIdiom)
+Rules](https://delph-in.github.io/docs/grammars/JacyIdiom#Configuration_of_Relevant_Rules)
+      1. [matrix.tdl](https://delph-in.github.io/docs/grammars/JacyIdiom#matrix.tdl)
+      2. [fundamentals.tdl](https://delph-in.github.io/docs/grammars/JacyIdiom#fundamentals.tdl)
+      3. [rule-types.tdl](https://delph-in.github.io/docs/grammars/JacyIdiom#rule-types.tdl)
    4. [roots.tdl, script, user-fns.lsp, and
-globals.lsp](https://delph-in.github.io/docs/grammars/JacyIdiom)
-      1. [roots.tdl](https://delph-in.github.io/docs/grammars/JacyIdiom)
-      2. [script](https://delph-in.github.io/docs/grammars/JacyIdiom)
-      3. [user-fns.lsp](https://delph-in.github.io/docs/grammars/JacyIdiom)
-      4. [globals.lsp](https://delph-in.github.io/docs/grammars/JacyIdiom)
+globals.lsp](https://delph-in.github.io/docs/grammars/JacyIdiom#roots.tdl.2C_script.2C_user-fns.lsp.2C_and_globals.lsp)
+      1. [roots.tdl](https://delph-in.github.io/docs/grammars/JacyIdiom#roots.tdl)
+      2. [script](https://delph-in.github.io/docs/grammars/JacyIdiom#script)
+      3. [user-fns.lsp](https://delph-in.github.io/docs/grammars/JacyIdiom#user-fns.lsp)
+      4. [globals.lsp](https://delph-in.github.io/docs/grammars/JacyIdiom#globals.lsp)
 
 This page describes how to implement idioms in a DELPH-IN Grammar,
 taking [Jacy](https://delph-in.github.io/docs/grammars/JacyTop) as an example. The basic idea is that
@@ -328,5 +328,4 @@ instance specified.
 
     (defparameter *non-idiom-root*
         'root_non_idiom )
-
-Last update: 2011-12-06 by GlennSlayden [[edit](https://github.com/delph-in/docs/wiki/JacyIdiom/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

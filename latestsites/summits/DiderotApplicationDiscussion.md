@@ -100,7 +100,7 @@ its own. One standard task is SNLI (predicting entailment). Another is
 question answering (finding the answer in a long text).
 
 [DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger): [Robot
-control](https://delph-in.github.io/docs/home/DelphinApplications) –
+control](https://delph-in.github.io/docs/home/DelphinApplications#Robot-Control) –
 [WoodleyPackard](/WoodleyPackard) entered a competition, and crucially
 used MRS as a bottleneck as you described.
 
@@ -482,5 +482,4 @@ formalisms, they partially try and reinvent the wheel.
 * * *
 
 Scribed by [GuyEmerson](https://delph-in.github.io/docs/garage/GuyEmerson).
-
-Last update: 2022-11-02 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/DiderotApplicationDiscussion/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

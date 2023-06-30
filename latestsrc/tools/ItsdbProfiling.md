@@ -10,12 +10,12 @@ correct.
 
 Contents
 
-1. [Page Status](https://delph-in.github.io/docs/tools/ItsdbProfiling)
-   1. 1. [Parsing](https://delph-in.github.io/docs/tools/ItsdbProfiling)
-   1. 2. [Generation](https://delph-in.github.io/docs/tools/ItsdbProfiling)
-   1. 3. [Transfer](https://delph-in.github.io/docs/tools/ItsdbProfiling)
-   1. 4. [Translation](https://delph-in.github.io/docs/tools/ItsdbProfiling)
-   1. 5. [Preprocessing](https://delph-in.github.io/docs/tools/ItsdbProfiling)
+1. [Page Status](https://delph-in.github.io/docs/tools/ItsdbProfiling#Page_Status)
+   1. 1. [Parsing](https://delph-in.github.io/docs/tools/ItsdbProfiling#Parsing)
+   1. 2. [Generation](https://delph-in.github.io/docs/tools/ItsdbProfiling#Generation)
+   1. 3. [Transfer](https://delph-in.github.io/docs/tools/ItsdbProfiling#Transfer)
+   1. 4. [Translation](https://delph-in.github.io/docs/tools/ItsdbProfiling#Translation)
+   1. 5. [Preprocessing](https://delph-in.github.io/docs/tools/ItsdbProfiling#Preprocessing)
 
 ### Parsing
 
@@ -94,5 +94,4 @@ chasen-preprocess-for-pet calls an external morpholigical analyzer
 
 rasp-preprocess-for-pet assumes the input is of the form *word\_pos
 word\_pos* and associates each word with its POS in the input chart.
-
-Last update: 2012-08-07 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/ItsdbProfiling/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

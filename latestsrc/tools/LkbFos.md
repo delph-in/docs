@@ -19,14 +19,14 @@ instructions.
 
 ## Contents
 
-1. [Installation](https://delph-in.github.io/docs/tools/LkbFos)
-2. [Features and Enhancements](https://delph-in.github.io/docs/tools/LkbFos)
-3. [Practical Hints and Tips](https://delph-in.github.io/docs/tools/LkbFos)
-   1. [Text Entry](https://delph-in.github.io/docs/tools/LkbFos)
-   2. [Fonts](https://delph-in.github.io/docs/tools/LkbFos)
-   3. [Interface Size](https://delph-in.github.io/docs/tools/LkbFos)
-   4. [Copying Text](https://delph-in.github.io/docs/tools/LkbFos)
-4. [Problems](https://delph-in.github.io/docs/tools/LkbFos)
+1. [Installation](https://delph-in.github.io/docs/tools/LkbFos#Installation)
+2. [Features and Enhancements](https://delph-in.github.io/docs/tools/LkbFos#Features-and-Enhancements)
+3. [Practical Hints and Tips](https://delph-in.github.io/docs/tools/LkbFos#Practical-Hints-and-Tips)
+   1. [Text Entry](https://delph-in.github.io/docs/tools/LkbFos#Text-Entry)
+   2. [Fonts](https://delph-in.github.io/docs/tools/LkbFos#Fonts)
+   3. [Interface Size](https://delph-in.github.io/docs/tools/LkbFos#Interface-Size)
+   4. [Copying Text](https://delph-in.github.io/docs/tools/LkbFos#Copying-Text)
+4. [Problems](https://delph-in.github.io/docs/tools/LkbFos#Problems)
 
 ## Installation
 
@@ -268,5 +268,4 @@ If you encounter an unexpected problem using LKB-FOS, please check
 [DELPH-IN Discourse](https://delphinqa.ling.washington.edu/about) to see if
 a solution has already been posted there; if it hasn't then create a new topic.
 
-
-Last update: 2023-06-20 by John Carroll [[edit](https://github.com/delph-in/docs/wiki/LkbFos/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

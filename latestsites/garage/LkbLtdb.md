@@ -10,16 +10,16 @@ treebank if it exists.
 
 Contents
 
-1. [Sample In Line Documentation](https://delph-in.github.io/docs/garage/LkbLtdb)
-   1. [Examples](https://delph-in.github.io/docs/garage/LkbLtdb)
-   2. [Names](https://delph-in.github.io/docs/garage/LkbLtdb)
+1. [Sample In Line Documentation](https://delph-in.github.io/docs/garage/LkbLtdb#Sample_In_Line_Documentation)
+   1. [Examples](https://delph-in.github.io/docs/garage/LkbLtdb#Examples)
+   2. [Names](https://delph-in.github.io/docs/garage/LkbLtdb#Names)
 2. [Integration with FFTB and
-delphin-viz](https://delph-in.github.io/docs/garage/LkbLtdb)
-3. [Installation](https://delph-in.github.io/docs/garage/LkbLtdb)
-   1. [Setting up your server](https://delph-in.github.io/docs/garage/LkbLtdb)
-   2. [Tool Support](https://delph-in.github.io/docs/garage/LkbLtdb)
-4. [References](https://delph-in.github.io/docs/garage/LkbLtdb)
-5. [To Do](https://delph-in.github.io/docs/garage/LkbLtdb)
+delphin-viz](https://delph-in.github.io/docs/garage/LkbLtdb#Integration_with_FFTB_and_delphin-viz)
+3. [Installation](https://delph-in.github.io/docs/garage/LkbLtdb#Installation)
+   1. [Setting up your server](https://delph-in.github.io/docs/garage/LkbLtdb#Setting_up_your_server)
+   2. [Tool Support](https://delph-in.github.io/docs/garage/LkbLtdb#Tool_Support)
+4. [References](https://delph-in.github.io/docs/garage/LkbLtdb#References)
+5. [To Do](https://delph-in.github.io/docs/garage/LkbLtdb#To_Do)
 
 The minimal Linguistic Type Database offers the following:
 
@@ -170,5 +170,4 @@ Corpora (LINC-2005), 31--40, Cheju, Korea.
   - add screenshots
   - link to some running Lexical Type Databases (like
 [this](https://delph-in.github.io/docs/grammars/JacyLexTypes))
-
-Last update: 2021-06-03 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/LkbLtdb/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

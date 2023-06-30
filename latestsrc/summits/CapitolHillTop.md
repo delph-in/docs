@@ -14,12 +14,12 @@ Glenn's house, Capitol Hill, Seattle.
 Contents
 
 1. [Grammar Engineering
-mini-meeting](https://delph-in.github.io/docs/summits/CapitolHillTop)
-   1. [Program](https://delph-in.github.io/docs/summits/CapitolHillTop)
-   2. [Topics](https://delph-in.github.io/docs/summits/CapitolHillTop)
-   3. [Participants](https://delph-in.github.io/docs/summits/CapitolHillTop)
-   4. [Social Program](https://delph-in.github.io/docs/summits/CapitolHillTop)
-   5. [Photos](https://delph-in.github.io/docs/summits/CapitolHillTop)
+mini-meeting](https://delph-in.github.io/docs/summits/CapitolHillTop#Grammar_Engineering_mini-meeting)
+   1. [Program](https://delph-in.github.io/docs/summits/CapitolHillTop#Program)
+   2. [Topics](https://delph-in.github.io/docs/summits/CapitolHillTop#Topics)
+   3. [Participants](https://delph-in.github.io/docs/summits/CapitolHillTop#Participants)
+   4. [Social Program](https://delph-in.github.io/docs/summits/CapitolHillTop#Social_Program)
+   5. [Photos](https://delph-in.github.io/docs/summits/CapitolHillTop#Photos)
 
 ## Program
 
@@ -121,5 +121,4 @@ Please add your name below if you plan to go:
 ## Photos
 
 Sanghoun's photos: [link](https://goo.gl/photos/yNf2KheYyyz9Wojz5)
-
-Last update: 2017-01-15 by SanghounSong [[edit](https://github.com/delph-in/docs/wiki/CapitolHillTop/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

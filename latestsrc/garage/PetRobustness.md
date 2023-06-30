@@ -2,18 +2,18 @@
 
 Contents
 
-1. [Preprocessing](https://delph-in.github.io/docs/garage/PetRobustness)
-   1. [Token Mapping](https://delph-in.github.io/docs/garage/PetRobustness)
-2. [Unknown words](https://delph-in.github.io/docs/garage/PetRobustness)
+1. [Preprocessing](https://delph-in.github.io/docs/garage/PetRobustness#Preprocessing)
+   1. [Token Mapping](https://delph-in.github.io/docs/garage/PetRobustness#Token_Mapping)
+2. [Unknown words](https://delph-in.github.io/docs/garage/PetRobustness#Unknown_words)
    1. [Generics triggered from POS
-mapping](https://delph-in.github.io/docs/garage/PetRobustness)
+mapping](https://delph-in.github.io/docs/garage/PetRobustness#Generics_triggered_from_POS_mapping)
    2. [Generics triggered from token
-fs](https://delph-in.github.io/docs/garage/PetRobustness)
-   3. [Lexical type prediction](https://delph-in.github.io/docs/garage/PetRobustness)
-   4. [Supertagger](https://delph-in.github.io/docs/garage/PetRobustness)
-3. [Grammar Internal Solutions](https://delph-in.github.io/docs/garage/PetRobustness)
-4. [Pet settings](https://delph-in.github.io/docs/garage/PetRobustness)
-5. [Robuster Partial Parsing](https://delph-in.github.io/docs/garage/PetRobustness)
+fs](https://delph-in.github.io/docs/garage/PetRobustness#Generics_triggered_from_token_fs)
+   3. [Lexical type prediction](https://delph-in.github.io/docs/garage/PetRobustness#Lexical_type_prediction)
+   4. [Supertagger](https://delph-in.github.io/docs/garage/PetRobustness#Supertagger)
+3. [Grammar Internal Solutions](https://delph-in.github.io/docs/garage/PetRobustness#Grammar_Internal_Solutions)
+4. [Pet settings](https://delph-in.github.io/docs/garage/PetRobustness#Pet_settings)
+5. [Robuster Partial Parsing](https://delph-in.github.io/docs/garage/PetRobustness#Robuster_Partial_Parsing)
 
 # Preprocessing
 
@@ -120,5 +120,4 @@ See also [PetParameters](https://delph-in.github.io/docs/garage/PetParameters).
 Yi created a two-phase parsing algorithm that, in case the deep grammar
 does not succeed, a CFG backbone is used to still get a reasonable
 parse. This still has to be integrated in the main branch.
-
-Last update: 2022-11-01 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/PetRobustness/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

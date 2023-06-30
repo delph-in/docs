@@ -21,5 +21,4 @@ the LKB itself when switching between grammars.
 well?](https://delph-in.github.io/docs/matrix/GeFaqClickX)
 
 Back to the Grammar Engineering FAQ.
-
-Last update: 2023-06-30 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/GeFaqSwitchingGrammars/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

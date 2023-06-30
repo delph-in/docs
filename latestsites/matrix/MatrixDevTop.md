@@ -4,10 +4,10 @@ This wiki is a reference for Grammar Matrix developers. Users of the
 Grammar Matrix should start from [MatrixTop](https://delph-in.github.io/docs/matrix/MatrixTop).
 
 Below we have information about the [SVN
-repository](https://delph-in.github.io/docs/matrix/MatrixDevTop),
-[configuration](https://delph-in.github.io/docs/matrix/MatrixDevTop), the [directory
-structure](https://delph-in.github.io/docs/matrix/MatrixDevTop), and [other
-links](https://delph-in.github.io/docs/matrix/MatrixDevTop).
+repository](https://delph-in.github.io/docs/matrix/MatrixDevTop#repository),
+[configuration](https://delph-in.github.io/docs/matrix/MatrixDevTop#configuration), the [directory
+structure](https://delph-in.github.io/docs/matrix/MatrixDevTop#directory-structure), and [other
+links](https://delph-in.github.io/docs/matrix/MatrixDevTop#links).
 
 # Moving to GitHub
 
@@ -24,7 +24,7 @@ Matrix developers.
 
 - [Updating\_the\_Customization\_System](https://delph-in.github.io/docs/matrix/Updating_the_Customization_System)
 - [matrixdef\_File\_Syntax](https://delph-in.github.io/docs/matrix/matrixdef_File_Syntax)
-- [matrix.py](https://delph-in.github.io/docs/matrix/MatrixDevTop) (main script for customization)
+- [matrix.py](https://delph-in.github.io/docs/matrix/MatrixDevTop#matrixpy) (main script for customization)
 - [MatrixDevConventions](https://delph-in.github.io/docs/matrix/MatrixDevConventions) (Listing of global
 variables and other conventions)
 - [MatrixRegressionTesting](https://delph-in.github.io/docs/matrix/MatrixRegressionTesting)
@@ -37,7 +37,7 @@ for MatrixTDB2)
 - [MatrixTDB2Tables](https://delph-in.github.io/docs/matrix/MatrixTDB2Tables) (2009 version switched to
 MatrixTDB2 from MatrixTDB)
 - [MatrixValidationDebugging](https://delph-in.github.io/docs/matrix/MatrixValidationDebugging) (Deprecated.
-See the section on [matrix.py](https://delph-in.github.io/docs/matrix/MatrixDevTop))
+See the section on [matrix.py](https://delph-in.github.io/docs/matrix/MatrixDevTop#matrixpy))
 - [MatrixDevBlueprints](https://delph-in.github.io/docs/matrix/MatrixDevBlueprints) (Ideas and proposals for
 Matrix development)
 - [MatrixLibraryDevelopment](https://delph-in.github.io/docs/matrix/MatrixLibraryDevelopment)
@@ -192,7 +192,7 @@ prints the following (as of 2011.04.26):
 # Directory Structure
 
 If you get the repository using the command
-[above](https://delph-in.github.io/docs/matrix/MatrixDevTop), you will see three subdirectories:
+[above](https://delph-in.github.io/docs/matrix/MatrixDevTop#repository), you will see three subdirectories:
 branches, tags, and trunk. Each of these contain a copy of the Matrix
 code (a "branch"), but "trunk" is the official version, "tags" contains
 frozen snapshots (e.g. the version used for a dissertation, etc.), and
@@ -252,5 +252,4 @@ detailed below explains the directories and files for a single branch
     install      [bash script for installing the code (e.g. to the live site)]
     matrix.py    [Python script for running customize, tests, install, etc.]
     matrix.cgi   [CGI script to handle web requests]
-
-Last update: 2021-06-04 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/MatrixDevTop/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

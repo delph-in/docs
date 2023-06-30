@@ -46,5 +46,4 @@
 | Processing engines         | [LKB](https://delph-in.github.io/docs/tools/LkbTop)                             |
 | Operating systems          | any for which processing engine available |
 | Notes                      |                                           |
-
-Last update: 2015-01-18 by LarsHellan [[edit](https://github.com/delph-in/docs/wiki/NorsourceSummary/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

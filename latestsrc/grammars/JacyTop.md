@@ -37,7 +37,7 @@ Callmeier (acrolinx GmbH) contributed the requirements for letting the
 grammar run on his fast and efficient PET system. Akira Ohtani,
 [ChikaraHashimoto](https://delph-in.github.io/docs/garage/ChikaraHashimoto), [FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond),
 [SanaeFujita](/SanaeFujita), Shigeko Nariyama and Takaaki Tanaka
-(NTT Communication Science Laboratories - Machine
+([NTT](https://delph-in.github.io/docs/garage/DelphinNtt) Communication Science Laboratories - Machine
 Translation Research Group) contributed grammar extensions, especially
 for verbal compounds and relative sentence constructions, and many
 lexicon entries. [UlrichSchaefer](https://delph-in.github.io/docs/garage/UlrichSchaefer) integrated
@@ -158,5 +158,4 @@ and Computation, Taipei 1999.
 
 Siegel, Melanie (1998): Japanese Particles in an HPSG Grammar.
 Verbmobil-Report 220. Universität des Saarlandes.
-
-Last update: 2021-06-03 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/JacyTop/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

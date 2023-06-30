@@ -78,7 +78,7 @@ Both surface and abstract predicates can be specified as a grammar
 **type** or as a quoted **string**. Grammar-type predicates are defined
 somewhere in the grammar, perhaps in a type hierarchy (also see
 [Limitations and
-Conventions](https://delph-in.github.io/docs/tools/PredicateRfc), above). A
+Conventions](https://delph-in.github.io/docs/tools/PredicateRfc#limitations-and-conventions), above). A
 predicate type-hierarchy means that predicates used in an MRS may unify
 with other predicates (e.g., via underspecification or a common
 subtype). Preds specified as a string are atomic types that do not exist
@@ -144,7 +144,7 @@ are ignored. Therefore the following predicates are equivalent:
     "_dog_n_1_rel"
 
 Furthermore, a surface predicate and its corresponding decomposed "real"
-pred (see the [Real vs Surface](https://delph-in.github.io/docs/tools/PredicateRfc) section
+pred (see the [Real vs Surface](https://delph-in.github.io/docs/tools/PredicateRfc#serialization-real-vs-surface) section
 above) are equivalent:
 
     _dog_n_1
@@ -154,5 +154,4 @@ An abstract predicate and a surface predicate with the same apparent
 values (e.g., place\_n and a hypothetical \_place\_n) are *not*
 equivalent, and grammar writers should avoid creating such similar
 predicates in order to avoid confusion.
-
-Last update: 2022-09-12 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/PredicateRfc/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

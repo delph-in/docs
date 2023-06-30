@@ -200,5 +200,4 @@ ERS as non-scopal modifiers.
 
 - Kamp, H., & Partee, B. (1995). Prototype theory and
 compositionality. Cognition, 57(2), 129-191.
-
-Last update: 2021-06-04 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/ErgSemantics_Design/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

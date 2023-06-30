@@ -12,16 +12,16 @@ Newspaper)](http://www.kyoto-np.co.jp/article.php?mid=P2008080200056&genre=K1&ar
 
 Contents
 
-1. [Overview](https://delph-in.github.io/docs/summits/KyotoTop)
-   1. [Aims of the Meeting](https://delph-in.github.io/docs/summits/KyotoTop)
-   2. [Registration](https://delph-in.github.io/docs/summits/KyotoTop)
-   3. [Location](https://delph-in.github.io/docs/summits/KyotoTop)
-   4. [Accommodation](https://delph-in.github.io/docs/summits/KyotoTop)
-2. [Program](https://delph-in.github.io/docs/summits/KyotoTop)
-3. [Photos](https://delph-in.github.io/docs/summits/KyotoTop)
-4. [Previous and Future Meetings](https://delph-in.github.io/docs/summits/KyotoTop)
-5. [Contact](https://delph-in.github.io/docs/summits/KyotoTop)
-   1. [Local Organizers](https://delph-in.github.io/docs/summits/KyotoTop)
+1. [Overview](https://delph-in.github.io/docs/summits/KyotoTop#Overview)
+   1. [Aims of the Meeting](https://delph-in.github.io/docs/summits/KyotoTop#Aims_of_the_Meeting)
+   2. [Registration](https://delph-in.github.io/docs/summits/KyotoTop#Registration)
+   3. [Location](https://delph-in.github.io/docs/summits/KyotoTop#Location)
+   4. [Accommodation](https://delph-in.github.io/docs/summits/KyotoTop#Accommodation)
+2. [Program](https://delph-in.github.io/docs/summits/KyotoTop#Program)
+3. [Photos](https://delph-in.github.io/docs/summits/KyotoTop#Photos)
+4. [Previous and Future Meetings](https://delph-in.github.io/docs/summits/KyotoTop#Previous_and_Future_Meetings)
+5. [Contact](https://delph-in.github.io/docs/summits/KyotoTop#Contact)
+   1. [Local Organizers](https://delph-in.github.io/docs/summits/KyotoTop#Local_Organizers)
 
 ## Aims of the Meeting
 
@@ -120,5 +120,4 @@ If you have any questions or comments, please email
 - Takayuki Kuribayashi (NICT)
 - Eric Nichols (NAIST)
 - Kyonghee Paik (Waseda)
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/KyotoTop/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

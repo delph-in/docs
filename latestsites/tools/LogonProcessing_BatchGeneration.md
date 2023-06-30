@@ -97,5 +97,4 @@ selective unpacking).
 PS: In order to control the maximum number of edges allowed in the chart
 during generation, look for \*tsdb-maximal-number-of-edges\* in the
 generate script (the current default is 100,000)).
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/LogonProcessing_BatchGeneration/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

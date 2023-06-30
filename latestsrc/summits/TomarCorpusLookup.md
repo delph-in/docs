@@ -73,5 +73,4 @@ available from web demo
 **fcb:** encourage grammarians to set it up
 
 **dan:** ran script on new version erg - works fine?
-
-Last update: 2014-07-17 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/TomarCorpusLookup/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

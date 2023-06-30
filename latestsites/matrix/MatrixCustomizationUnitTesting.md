@@ -10,12 +10,12 @@ the Python documentation for the [unittest
 module](http://docs.python.org/library/unittest.html).
 
 Below are instructions for
-[running](https://delph-in.github.io/docs/matrix/MatrixCustomizationUnitTesting),
-[adding](https://delph-in.github.io/docs/matrix/MatrixCustomizationUnitTesting), and
-[maintaining](https://delph-in.github.io/docs/matrix/MatrixCustomizationUnitTesting) unit tests, and
-[understanding](https://delph-in.github.io/docs/matrix/MatrixCustomizationUnitTesting) the output,
+[running](https://delph-in.github.io/docs/matrix/MatrixCustomizationUnitTesting#running-unit-tests),
+[adding](https://delph-in.github.io/docs/matrix/MatrixCustomizationUnitTesting#adding-unit-tests), and
+[maintaining](https://delph-in.github.io/docs/matrix/MatrixCustomizationUnitTesting#maintaining-unit-tests) unit tests, and
+[understanding](https://delph-in.github.io/docs/matrix/MatrixCustomizationUnitTesting#understanding-unit-test-output) the output,
 as well as description on the [directory
-structure](https://delph-in.github.io/docs/matrix/MatrixCustomizationUnitTesting) of unit test
+structure](https://delph-in.github.io/docs/matrix/MatrixCustomizationUnitTesting#directory-structure) of unit test
 modules.
 
 # Running Unit Tests
@@ -36,7 +36,7 @@ a test module gmcs/tests/testChoices.py. It is not necessary to prefix
 the file with "test", but it is convention, and helps in automatic test
 discovery (a feature in later Python versions, which we may use in the
 future). Please read the [directory
-structure](https://delph-in.github.io/docs/matrix/MatrixCustomizationUnitTesting) to see where the
+structure](https://delph-in.github.io/docs/matrix/MatrixCustomizationUnitTesting#directory-structure) to see where the
 test modules should be placed.
 
 If a module does not have an associated test module (e.g.
@@ -125,5 +125,4 @@ phenomenon libraries.
         linglib/
             tests/
                 testMorphotactics.py
-
-Last update: 2021-06-04 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/MatrixCustomizationUnitTesting/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

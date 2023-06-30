@@ -11,33 +11,33 @@ possibly with some processor-specific section for unique features.
 
 Contents
 
-1. [Survey](https://delph-in.github.io/docs/tools/GrammarConfigurationRfc)
-   1. [Grammar Version](https://delph-in.github.io/docs/tools/GrammarConfigurationRfc)
-   2. [Grammar Loading](https://delph-in.github.io/docs/tools/GrammarConfigurationRfc)
-   3. [Lists](https://delph-in.github.io/docs/tools/GrammarConfigurationRfc)
-   4. [Types](https://delph-in.github.io/docs/tools/GrammarConfigurationRfc)
-   5. [Features](https://delph-in.github.io/docs/tools/GrammarConfigurationRfc)
-   6. [Feature Paths](https://delph-in.github.io/docs/tools/GrammarConfigurationRfc)
-   7. [Preprocessing](https://delph-in.github.io/docs/tools/GrammarConfigurationRfc)
-   8. [External Interfaces](https://delph-in.github.io/docs/tools/GrammarConfigurationRfc)
-   9. [Models and Efficiency](https://delph-in.github.io/docs/tools/GrammarConfigurationRfc)
-   10. [Generation](https://delph-in.github.io/docs/tools/GrammarConfigurationRfc)
-   11. [ICONS](https://delph-in.github.io/docs/tools/GrammarConfigurationRfc)
-   12. [Chart Mapping](https://delph-in.github.io/docs/tools/GrammarConfigurationRfc)
-   13. [Roots](https://delph-in.github.io/docs/tools/GrammarConfigurationRfc)
-   14. [Generics](https://delph-in.github.io/docs/tools/GrammarConfigurationRfc)
-   15. [Rules](https://delph-in.github.io/docs/tools/GrammarConfigurationRfc)
-   16. [Chart Packing](https://delph-in.github.io/docs/tools/GrammarConfigurationRfc)
-   17. [MRS](https://delph-in.github.io/docs/tools/GrammarConfigurationRfc)
-   18. [Other Settings](https://delph-in.github.io/docs/tools/GrammarConfigurationRfc)
-2. [Proposal](https://delph-in.github.io/docs/tools/GrammarConfigurationRfc)
-   1. [Sub-proposal 1: Conditionals](https://delph-in.github.io/docs/tools/GrammarConfigurationRfc)
+1. [Survey](https://delph-in.github.io/docs/tools/GrammarConfigurationRfc#Survey)
+   1. [Grammar Version](https://delph-in.github.io/docs/tools/GrammarConfigurationRfc#Grammar_Version)
+   2. [Grammar Loading](https://delph-in.github.io/docs/tools/GrammarConfigurationRfc#Grammar_Loading)
+   3. [Lists](https://delph-in.github.io/docs/tools/GrammarConfigurationRfc#Lists)
+   4. [Types](https://delph-in.github.io/docs/tools/GrammarConfigurationRfc#Types)
+   5. [Features](https://delph-in.github.io/docs/tools/GrammarConfigurationRfc#Features)
+   6. [Feature Paths](https://delph-in.github.io/docs/tools/GrammarConfigurationRfc#Feature_Paths)
+   7. [Preprocessing](https://delph-in.github.io/docs/tools/GrammarConfigurationRfc#Preprocessing)
+   8. [External Interfaces](https://delph-in.github.io/docs/tools/GrammarConfigurationRfc#External_Interfaces)
+   9. [Models and Efficiency](https://delph-in.github.io/docs/tools/GrammarConfigurationRfc#Models_and_Efficiency)
+   10. [Generation](https://delph-in.github.io/docs/tools/GrammarConfigurationRfc#Generation)
+   11. [ICONS](https://delph-in.github.io/docs/tools/GrammarConfigurationRfc#ICONS)
+   12. [Chart Mapping](https://delph-in.github.io/docs/tools/GrammarConfigurationRfc#Chart_Mapping)
+   13. [Roots](https://delph-in.github.io/docs/tools/GrammarConfigurationRfc#Roots)
+   14. [Generics](https://delph-in.github.io/docs/tools/GrammarConfigurationRfc#Generics)
+   15. [Rules](https://delph-in.github.io/docs/tools/GrammarConfigurationRfc#Rules)
+   16. [Chart Packing](https://delph-in.github.io/docs/tools/GrammarConfigurationRfc#Chart_Packing)
+   17. [MRS](https://delph-in.github.io/docs/tools/GrammarConfigurationRfc#MRS)
+   18. [Other Settings](https://delph-in.github.io/docs/tools/GrammarConfigurationRfc#Other_Settings)
+2. [Proposal](https://delph-in.github.io/docs/tools/GrammarConfigurationRfc#Proposal)
+   1. [Sub-proposal 1: Conditionals](https://delph-in.github.io/docs/tools/GrammarConfigurationRfc#Sub-proposal_1:_Conditionals)
    2. [Sub-proposal 2: Including Sub-config
-Files](https://delph-in.github.io/docs/tools/GrammarConfigurationRfc)
-3. [Example](https://delph-in.github.io/docs/tools/GrammarConfigurationRfc)
-4. [Questions](https://delph-in.github.io/docs/tools/GrammarConfigurationRfc)
+Files](https://delph-in.github.io/docs/tools/GrammarConfigurationRfc#Sub-proposal_2:_Including_Sub-config_Files)
+3. [Example](https://delph-in.github.io/docs/tools/GrammarConfigurationRfc#Example)
+4. [Questions](https://delph-in.github.io/docs/tools/GrammarConfigurationRfc#Questions)
    1. [Repeated Settings: Conflict or
-Reassignment?](https://delph-in.github.io/docs/tools/GrammarConfigurationRfc)
+Reassignment?](https://delph-in.github.io/docs/tools/GrammarConfigurationRfc#Repeated_Settings:_Conflict_or_Reassignment.3F)
 
 ## Survey
 
@@ -784,5 +784,4 @@ cause an error (like feature that don't unify) or do they overwrite the
 previous occurrences, like variable reassignment? The latter would
 probably be more useful, but it changes the TDL paradigm within the
 config environment.
-
-Last update: 2022-09-14 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/GrammarConfigurationRfc/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

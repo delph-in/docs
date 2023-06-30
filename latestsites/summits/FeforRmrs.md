@@ -52,5 +52,4 @@ Morning of June 15th
 [FeforPng](https://delph-in.github.io/docs/summits/FeforPng)
 - The SEM-I ([StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen),
 [DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger), [AnnCopestake](https://delph-in.github.io/docs/garage/AnnCopestake))
-
-Last update: 2006-06-21 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/FeforRmrs/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

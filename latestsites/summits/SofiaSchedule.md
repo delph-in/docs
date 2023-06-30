@@ -2,13 +2,13 @@
 
 Contents
 
-1. [Emerging Schedule](https://delph-in.github.io/docs/summits/SofiaSchedule)
-   1. [Monday](https://delph-in.github.io/docs/summits/SofiaSchedule)
-   2. [Tuesday](https://delph-in.github.io/docs/summits/SofiaSchedule)
-   3. [Wednesday](https://delph-in.github.io/docs/summits/SofiaSchedule)
-   4. [Thursday](https://delph-in.github.io/docs/summits/SofiaSchedule)
-   5. [Friday](https://delph-in.github.io/docs/summits/SofiaSchedule)
-2. [Proposed Sub-Group Activities](https://delph-in.github.io/docs/summits/SofiaSchedule)
+1. [Emerging Schedule](https://delph-in.github.io/docs/summits/SofiaSchedule#Emerging_Schedule)
+   1. [Monday](https://delph-in.github.io/docs/summits/SofiaSchedule#Monday)
+   2. [Tuesday](https://delph-in.github.io/docs/summits/SofiaSchedule#Tuesday)
+   3. [Wednesday](https://delph-in.github.io/docs/summits/SofiaSchedule#Wednesday)
+   4. [Thursday](https://delph-in.github.io/docs/summits/SofiaSchedule#Thursday)
+   5. [Friday](https://delph-in.github.io/docs/summits/SofiaSchedule#Friday)
+2. [Proposed Sub-Group Activities](https://delph-in.github.io/docs/summits/SofiaSchedule#Proposed_Sub-Group_Activities)
 
 ## Monday
 
@@ -162,5 +162,4 @@ Kiril, Francis, bec)
 woodley, yi, jonathon, angelina, Francis) \[friday early afternoon\]
 - \[4\] (Pretty) Small Group: Next Steps in Experimentation with ERG
 (Super)Tagging (bec, oe, dan, angelina) \[friday afternoon\]
-
-Last update: 2012-07-12 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/SofiaSchedule/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

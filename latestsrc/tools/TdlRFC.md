@@ -2,21 +2,21 @@
 
 Contents
 
-1. [TDL File Syntax](https://delph-in.github.io/docs/tools/TdlRFC)
-2. [TDL File Interpretation and Conventions](https://delph-in.github.io/docs/tools/TdlRFC)
-   1. [Layout of a type definition](https://delph-in.github.io/docs/tools/TdlRFC)
-   2. [Types versus instances](https://delph-in.github.io/docs/tools/TdlRFC)
-   3. [Type addenda (:+)](https://delph-in.github.io/docs/tools/TdlRFC)
-   4. [Specifying the text encoding](https://delph-in.github.io/docs/tools/TdlRFC)
-   5. [Feature interpretation of lists](https://delph-in.github.io/docs/tools/TdlRFC)
-   6. [Type documentation](https://delph-in.github.io/docs/tools/TdlRFC)
-   7. [Comments](https://delph-in.github.io/docs/tools/TdlRFC)
-   8. [Case sensitivity](https://delph-in.github.io/docs/tools/TdlRFC)
-3. [Deprecated TDL Features](https://delph-in.github.io/docs/tools/TdlRFC)
-   1. [Subtyping Operator (:&lt;)](https://delph-in.github.io/docs/tools/TdlRFC)
-   2. [Single-quoted Symbols ('symbol)](https://delph-in.github.io/docs/tools/TdlRFC)
-4. [Open Questions](https://delph-in.github.io/docs/tools/TdlRFC)
-5. [Discussions](https://delph-in.github.io/docs/tools/TdlRFC)
+1. [TDL File Syntax](https://delph-in.github.io/docs/tools/TdlRFC#TDL-File-Syntax)
+2. [TDL File Interpretation and Conventions](https://delph-in.github.io/docs/tools/TdlRFC#TDL-File-Interpretation-and-Conventions)
+   1. [Layout of a type definition](https://delph-in.github.io/docs/tools/TdlRFC#Layout-of-a-type-definition)
+   2. [Types versus instances](https://delph-in.github.io/docs/tools/TdlRFC#Types-versus-instances)
+   3. [Type addenda (:+)](https://delph-in.github.io/docs/tools/TdlRFC#Type-addenda-)
+   4. [Specifying the text encoding](https://delph-in.github.io/docs/tools/TdlRFC#Specifying-the-text-encoding)
+   5. [Feature interpretation of lists](https://delph-in.github.io/docs/tools/TdlRFC#Feature-interpretation-of-lists)
+   6. [Type documentation](https://delph-in.github.io/docs/tools/TdlRFC#Type-documentation)
+   7. [Comments](https://delph-in.github.io/docs/tools/TdlRFC#Comments)
+   8. [Case sensitivity](https://delph-in.github.io/docs/tools/TdlRFC#Case-sensitivity)
+3. [Deprecated TDL Features](https://delph-in.github.io/docs/tools/TdlRFC#Deprecated-TDL-Features)
+   1. [Subtyping Operator (:&lt;)](https://delph-in.github.io/docs/tools/TdlRFC#subtyping-operator-)
+   2. [Single-quoted Symbols ('symbol)](https://delph-in.github.io/docs/tools/TdlRFC#Single-quoted-Symbols-symbol)
+4. [Open Questions](https://delph-in.github.io/docs/tools/TdlRFC#Open_Questions)
+5. [Discussions](https://delph-in.github.io/docs/tools/TdlRFC#Discussions)
 
 ## TDL File Syntax
 The following describes the TDL language in [Lark](https://lark-parser.readthedocs.io/en/latest/index.html) [EBNF](https://en.wikipedia.org/wiki/Extended_Backus–Naur_form)
@@ -561,5 +561,4 @@ Something like
 (Jul 2018)](http://lists.delph-in.net/archives/developers/2018/002754.html)
 - [Mailing list discussion about docstrings
 (Aug 2018)](http://lists.delph-in.net/archives/developers/2018/002792.html)
-
-Last update: 2022-08-07 by Glenn Slayden [[edit](https://github.com/delph-in/docs/wiki/TdlRFC/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

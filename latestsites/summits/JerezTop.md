@@ -21,20 +21,20 @@ Participants\
 
 Contents
 
-1. [Delph-in Developers Meeting](https://delph-in.github.io/docs/summits/JerezTop)
-   1. [Proposed Timetable](https://delph-in.github.io/docs/summits/JerezTop)
-   2. [Topics](https://delph-in.github.io/docs/summits/JerezTop)
-      1. [MT](https://delph-in.github.io/docs/summits/JerezTop)
-      2. [What's new](https://delph-in.github.io/docs/summits/JerezTop)
-      3. [API/StandOff/Preprocessors](https://delph-in.github.io/docs/summits/JerezTop)
+1. [Delph-in Developers Meeting](https://delph-in.github.io/docs/summits/JerezTop#Delph-in_Developers_Meeting)
+   1. [Proposed Timetable](https://delph-in.github.io/docs/summits/JerezTop#Proposed_Timetable)
+   2. [Topics](https://delph-in.github.io/docs/summits/JerezTop#Topics)
+      1. [MT](https://delph-in.github.io/docs/summits/JerezTop#MT)
+      2. [What's new](https://delph-in.github.io/docs/summits/JerezTop#What.27s_new)
+      3. [API/StandOff/Preprocessors](https://delph-in.github.io/docs/summits/JerezTop#API.2FStandOff.2FPreprocessors)
       4. [PET bug squashing/LKB
-harmonization](https://delph-in.github.io/docs/summits/JerezTop)
-      5. [Parse Ranking](https://delph-in.github.io/docs/summits/JerezTop)
-      6. [Large Lexicons](https://delph-in.github.io/docs/summits/JerezTop)
-      7. [Enhancements](https://delph-in.github.io/docs/summits/JerezTop)
-      8. [(Automated) Testing](https://delph-in.github.io/docs/summits/JerezTop)
-      9. [Still More](https://delph-in.github.io/docs/summits/JerezTop)
-   3. [Detailed Ideas](https://delph-in.github.io/docs/summits/JerezTop)
+harmonization](https://delph-in.github.io/docs/summits/JerezTop#PET_bug_squashing.2FLKB_harmonization)
+      5. [Parse Ranking](https://delph-in.github.io/docs/summits/JerezTop#Parse_Ranking)
+      6. [Large Lexicons](https://delph-in.github.io/docs/summits/JerezTop#Large_Lexicons)
+      7. [Enhancements](https://delph-in.github.io/docs/summits/JerezTop#Enhancements)
+      8. [(Automated) Testing](https://delph-in.github.io/docs/summits/JerezTop#A.28Automated.29_Testing)
+      9. [Still More](https://delph-in.github.io/docs/summits/JerezTop#Still_More)
+   3. [Detailed Ideas](https://delph-in.github.io/docs/summits/JerezTop#Detailed_Ideas)
 
 ## Proposed Timetable
 
@@ -302,5 +302,4 @@ however, maintaining two distinct branches is not a good thing,
 and once flop(1) performance with Boost were resolved, some
 testing of the ERG on \`main' should fairly quickly allow
 merging of the two branches, i hope.
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/JerezTop/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

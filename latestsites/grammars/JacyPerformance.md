@@ -6,18 +6,18 @@ This page is now superseded by the
 
 Contents
 
-1. [Quick Check](https://delph-in.github.io/docs/grammars/JacyPerformance)
-   1. [PET](https://delph-in.github.io/docs/grammars/JacyPerformance)
-   2. [LKB](https://delph-in.github.io/docs/grammars/JacyPerformance)
-      1. [ToDo](https://delph-in.github.io/docs/grammars/JacyPerformance)
-2. [Key Arguments](https://delph-in.github.io/docs/grammars/JacyPerformance)
-   1. 1. [ToDo](https://delph-in.github.io/docs/grammars/JacyPerformance)
-3. [Spanning Only Rules](https://delph-in.github.io/docs/grammars/JacyPerformance)
-4. [Ambiguity Packing](https://delph-in.github.io/docs/grammars/JacyPerformance)
+1. [Quick Check](https://delph-in.github.io/docs/grammars/JacyPerformance#Quick_Check)
+   1. [PET](https://delph-in.github.io/docs/grammars/JacyPerformance#PET)
+   2. [LKB](https://delph-in.github.io/docs/grammars/JacyPerformance#LKB)
+      1. [ToDo](https://delph-in.github.io/docs/grammars/JacyPerformance#ToDo)
+2. [Key Arguments](https://delph-in.github.io/docs/grammars/JacyPerformance#Key_Arguments)
+   1. 1. [ToDo](https://delph-in.github.io/docs/grammars/JacyPerformance#ToDo-1)
+3. [Spanning Only Rules](https://delph-in.github.io/docs/grammars/JacyPerformance#Spanning_Only_Rules)
+4. [Ambiguity Packing](https://delph-in.github.io/docs/grammars/JacyPerformance#Ambiguity_Packing)
 5. [Restrictions on the application of morphological
-rules](https://delph-in.github.io/docs/grammars/JacyPerformance)
-6. [Trigger Rules for Generation](https://delph-in.github.io/docs/grammars/JacyPerformance)
-7. [Current Issues](https://delph-in.github.io/docs/grammars/JacyPerformance)
+rules](https://delph-in.github.io/docs/grammars/JacyPerformance#Restrictions_on_the_application_of_morphological_rules)
+6. [Trigger Rules for Generation](https://delph-in.github.io/docs/grammars/JacyPerformance#Trigger_Rules_for_Generation)
+7. [Current Issues](https://delph-in.github.io/docs/grammars/JacyPerformance#Current_Issues)
 
 # Quick Check
 
@@ -203,5 +203,4 @@ See [PetSelectiveUnpacking](https://delph-in.github.io/docs/garage/PetSelectiveU
 
 - The Idiom optimizations don't seem to be working
 - It would be nice to use supertagging
-
-Last update: 2017-01-11 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/JacyPerformance/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

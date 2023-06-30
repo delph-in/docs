@@ -9,14 +9,14 @@ site](http://metashare.dfki.de/repository/browse/deepbank/d550713c0bd211e38e2e00
 
 Contents
 
-1. [DeepBank](https://delph-in.github.io/docs/garage/DeepBank)
-   1. [Background](https://delph-in.github.io/docs/garage/DeepBank)
-   2. [Development Methodology](https://delph-in.github.io/docs/garage/DeepBank)
-   3. [Stages of Development](https://delph-in.github.io/docs/garage/DeepBank)
+1. [DeepBank](https://delph-in.github.io/docs/garage/DeepBank#DeepBank)
+   1. [Background](https://delph-in.github.io/docs/garage/DeepBank#Background)
+   2. [Development Methodology](https://delph-in.github.io/docs/garage/DeepBank#Development_Methodology)
+   3. [Stages of Development](https://delph-in.github.io/docs/garage/DeepBank#Stages_of_Development)
    4. [Version 1.0: Available
-Formats](https://delph-in.github.io/docs/garage/DeepBank)
-   5. [Acknowledgements](https://delph-in.github.io/docs/garage/DeepBank)
-   6. [Publications](https://delph-in.github.io/docs/garage/DeepBank)
+Formats](https://delph-in.github.io/docs/garage/DeepBank#Version_1.0:_Available_Formats)
+   5. [Acknowledgements](https://delph-in.github.io/docs/garage/DeepBank#Acknowledgements)
+   6. [Publications](https://delph-in.github.io/docs/garage/DeepBank#Publications)
 
 <a name="Background"/>
 
@@ -213,5 +213,4 @@ Evaluation (LREC'10), Malta, 2010.
 7. Valia Kordoni, Yi Zhang. Annotating Wall Street Journal Texts Using
 a Hand-Crafted Deep Linguistic Grammar. In Proceedings of the Third
 Linguistic Annotation Workshop, Singapore, 2009.
-
-Last update: 2022-11-01 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/DeepBank/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

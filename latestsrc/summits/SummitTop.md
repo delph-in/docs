@@ -10,14 +10,14 @@ best practice.
 
 **Table of Contents**
 
-- [Previous and Future Meetings](https://delph-in.github.io/docs/summits/SummitTop)
-- [Planning Guidelines](https://delph-in.github.io/docs/summits/SummitTop)
-  - [Physical Requirements](https://delph-in.github.io/docs/summits/SummitTop)
-  - [Timing](https://delph-in.github.io/docs/summits/SummitTop)
-  - [Costs](https://delph-in.github.io/docs/summits/SummitTop)
-  - [Participation Policy](https://delph-in.github.io/docs/summits/SummitTop)
-  - [Program format](https://delph-in.github.io/docs/summits/SummitTop)
-  - [Successful SIG scheduling](https://delph-in.github.io/docs/summits/SummitTop)
+- [Previous and Future Meetings](https://delph-in.github.io/docs/summits/SummitTop#previous-and-future-meetings)
+- [Planning Guidelines](https://delph-in.github.io/docs/summits/SummitTop#planning-guidelines)
+  - [Physical Requirements](https://delph-in.github.io/docs/summits/SummitTop#physical-requirements)
+  - [Timing](https://delph-in.github.io/docs/summits/SummitTop#timing)
+  - [Costs](https://delph-in.github.io/docs/summits/SummitTop#costs)
+  - [Participation Policy](https://delph-in.github.io/docs/summits/SummitTop#participation-policy)
+  - [Program format](https://delph-in.github.io/docs/summits/SummitTop#program-format)
+  - [Successful SIG scheduling](https://delph-in.github.io/docs/summits/SummitTop#successful-sig-scheduling)
 
 <!-- markdown-toc end -->
 
@@ -107,5 +107,4 @@ is the number of SIG sessions they will be attending.
 this needs to be done before people indicate interest.
 - SIG scheduler should lock the schedule page before beginning the
 scheduling process.
-
-Last update: 2023-04-03 by Francis Bond [[edit](https://github.com/delph-in/docs/wiki/SummitTop/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

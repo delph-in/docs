@@ -2,21 +2,21 @@
 
 Contents
 
-1. [Parallel Corpora for DELPH-IN](https://delph-in.github.io/docs/summits/FeforParCorp)
+1. [Parallel Corpora for DELPH-IN](https://delph-in.github.io/docs/summits/FeforParCorp#Parallel_Corpora_for_DELPH-IN)
    1. [Collections/Samples of available parallel
-corpora](https://delph-in.github.io/docs/summits/FeforParCorp)
-      1. [Europarl Corpus](https://delph-in.github.io/docs/summits/FeforParCorp)
+corpora](https://delph-in.github.io/docs/summits/FeforParCorp#Collections.2FSamples_of_available_parallel_corpora)
+      1. [Europarl Corpus](https://delph-in.github.io/docs/summits/FeforParCorp#Europarl_Corpus)
       2. [OPUS: Technical Documentation (plus Europarl and European
-Constitution)](https://delph-in.github.io/docs/summits/FeforParCorp)
-      3. [The Sofie Treebank](https://delph-in.github.io/docs/summits/FeforParCorp)
+Constitution)](https://delph-in.github.io/docs/summits/FeforParCorp#OPUS:_Technical_Documentation_.28plus_Europarl_and_European_Constitution.29)
+      3. [The Sofie Treebank](https://delph-in.github.io/docs/summits/FeforParCorp#The_Sofie_Treebank)
       4. [The JRC-Acquis Multilingual Parallel
-Corpus](https://delph-in.github.io/docs/summits/FeforParCorp)
-      5. [Cathedral and the Bazaar](https://delph-in.github.io/docs/summits/FeforParCorp)
+Corpus](https://delph-in.github.io/docs/summits/FeforParCorp#The_JRC-Acquis_Multilingual_Parallel_Corpus)
+      5. [Cathedral and the Bazaar](https://delph-in.github.io/docs/summits/FeforParCorp#Cathedral_and_the_Bazaar)
       6. [Universal Declaration of Human
-Rights](https://delph-in.github.io/docs/summits/FeforParCorp)
-      7. [Scroogled](https://delph-in.github.io/docs/summits/FeforParCorp)
+Rights](https://delph-in.github.io/docs/summits/FeforParCorp#Universal_Declaration_of_Human_Rights)
+      7. [Scroogled](https://delph-in.github.io/docs/summits/FeforParCorp#Scroogled)
    2. [Some criteria for choosing a
-corpus](https://delph-in.github.io/docs/summits/FeforParCorp)
+corpus](https://delph-in.github.io/docs/summits/FeforParCorp#Some_criteria_for_choosing_a_corpus)
 
 ## Collections/Samples of available parallel corpora
 
@@ -99,5 +99,4 @@ translations)
 7. synergy --- it is nice to reuse/complement existing markup
 8. diversity --- it can be interesting to experiment with a mixture of
 corpora, of different text types
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/FeforParCorp/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

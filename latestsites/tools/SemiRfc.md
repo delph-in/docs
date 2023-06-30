@@ -2,19 +2,19 @@
 
 Contents
 
-1. [SEM-I](https://delph-in.github.io/docs/tools/SemiRfc)
-   1. [Sections](https://delph-in.github.io/docs/tools/SemiRfc)
-      1. [variables](https://delph-in.github.io/docs/tools/SemiRfc)
-      2. [properties](https://delph-in.github.io/docs/tools/SemiRfc)
-      3. [roles](https://delph-in.github.io/docs/tools/SemiRfc)
-      4. [predicates](https://delph-in.github.io/docs/tools/SemiRfc)
-   2. [.smi file syntax](https://delph-in.github.io/docs/tools/SemiRfc)
-      1. 1. 1. [Notes](https://delph-in.github.io/docs/tools/SemiRfc)
-   3. [Including Files](https://delph-in.github.io/docs/tools/SemiRfc)
-2. [Implementation](https://delph-in.github.io/docs/tools/SemiRfc)
+1. [SEM-I](https://delph-in.github.io/docs/tools/SemiRfc#SEM-I)
+   1. [Sections](https://delph-in.github.io/docs/tools/SemiRfc#Sections)
+      1. [variables](https://delph-in.github.io/docs/tools/SemiRfc#variables)
+      2. [properties](https://delph-in.github.io/docs/tools/SemiRfc#properties)
+      3. [roles](https://delph-in.github.io/docs/tools/SemiRfc#roles)
+      4. [predicates](https://delph-in.github.io/docs/tools/SemiRfc#predicates)
+   2. [.smi file syntax](https://delph-in.github.io/docs/tools/SemiRfc#A.smi_file_syntax)
+      1. 1. 1. [Notes](https://delph-in.github.io/docs/tools/SemiRfc#Notes)
+   3. [Including Files](https://delph-in.github.io/docs/tools/SemiRfc#Including_Files)
+2. [Implementation](https://delph-in.github.io/docs/tools/SemiRfc#Implementation)
    1. [Redefined Predicate
-Hierarchies](https://delph-in.github.io/docs/tools/SemiRfc)
-3. [Proposals](https://delph-in.github.io/docs/tools/SemiRfc)
+Hierarchies](https://delph-in.github.io/docs/tools/SemiRfc#Redefined_Predicate_Hierarchies)
+3. [Proposals](https://delph-in.github.io/docs/tools/SemiRfc#Proposals)
 
 A SEM-I, or SEMantic-Interface, is a description of the semantic
 structures output by the grammar, and may include entries for variables,
@@ -321,5 +321,4 @@ we shouldn't expect that, right?).
                    _write_v_to.
                  ARG0 e, ARG1 x:
                    ...
-
-Last update: 2019-04-22 by MichaelGoodman [[edit](https://github.com/delph-in/docs/wiki/SemiRfc/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

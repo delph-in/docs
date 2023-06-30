@@ -234,5 +234,4 @@ Emily: Are there any pronouns in the shapeworld data set?
 Guy: I don't think it's there at the moment.
 
 Emily: You'd need long complex descriptions...
-
-Last update: 2018-06-22 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/DiderotRationalSpeechActs/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

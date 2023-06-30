@@ -121,5 +121,4 @@
 | 14:15-14:45| | Business meeting | Chair: John |
 | 14:45-15:00| | Closing remarks | Dan and Olga |
 | 15:00-15:30| |**Social in gathertown** |  |
-
-Last update: 2021-07-23 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/Virtual2021Schedule/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

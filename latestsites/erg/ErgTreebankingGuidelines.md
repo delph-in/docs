@@ -3,31 +3,31 @@
 Contents
 
 1. [Heuristics for efficient
-treebanking](https://delph-in.github.io/docs/erg/ErgTreebankingGuidelines)
-   1. [Top-down](https://delph-in.github.io/docs/erg/ErgTreebankingGuidelines)
-   2. [Bottom-up](https://delph-in.github.io/docs/erg/ErgTreebankingGuidelines)
-   3. [Prefer Simpler](https://delph-in.github.io/docs/erg/ErgTreebankingGuidelines)
-2. [Technical choices](https://delph-in.github.io/docs/erg/ErgTreebankingGuidelines)
-   1. [Complex proper names](https://delph-in.github.io/docs/erg/ErgTreebankingGuidelines)
-      1. [Titles](https://delph-in.github.io/docs/erg/ErgTreebankingGuidelines)
-      2. [Capitalized words in name](https://delph-in.github.io/docs/erg/ErgTreebankingGuidelines)
-      3. [Profession modifier](https://delph-in.github.io/docs/erg/ErgTreebankingGuidelines)
+treebanking](https://delph-in.github.io/docs/erg/ErgTreebankingGuidelines#Heuristics_for_efficient_treebanking)
+   1. [Top-down](https://delph-in.github.io/docs/erg/ErgTreebankingGuidelines#Top-down)
+   2. [Bottom-up](https://delph-in.github.io/docs/erg/ErgTreebankingGuidelines#Bottom-up)
+   3. [Prefer Simpler](https://delph-in.github.io/docs/erg/ErgTreebankingGuidelines#Prefer_Simpler)
+2. [Technical choices](https://delph-in.github.io/docs/erg/ErgTreebankingGuidelines#Technical_choices)
+   1. [Complex proper names](https://delph-in.github.io/docs/erg/ErgTreebankingGuidelines#Complex_proper_names)
+      1. [Titles](https://delph-in.github.io/docs/erg/ErgTreebankingGuidelines#Titles)
+      2. [Capitalized words in name](https://delph-in.github.io/docs/erg/ErgTreebankingGuidelines#Capitalized_words_in_name)
+      3. [Profession modifier](https://delph-in.github.io/docs/erg/ErgTreebankingGuidelines#Profession_modifier)
       4. [Native names preferred when
-available](https://delph-in.github.io/docs/erg/ErgTreebankingGuidelines)
-   2. [Proper names and punctuation](https://delph-in.github.io/docs/erg/ErgTreebankingGuidelines)
-   3. [PP/modifier attachment](https://delph-in.github.io/docs/erg/ErgTreebankingGuidelines)
-   4. [Temporal modifiers](https://delph-in.github.io/docs/erg/ErgTreebankingGuidelines)
-   5. [Complex compound nouns](https://delph-in.github.io/docs/erg/ErgTreebankingGuidelines)
-   6. [Coordination](https://delph-in.github.io/docs/erg/ErgTreebankingGuidelines)
-   7. [Passive verb vs. adjective](https://delph-in.github.io/docs/erg/ErgTreebankingGuidelines)
-   8. [Punctuation](https://delph-in.github.io/docs/erg/ErgTreebankingGuidelines)
-   9. [Adverbs](https://delph-in.github.io/docs/erg/ErgTreebankingGuidelines)
-   10. [Measure phrases](https://delph-in.github.io/docs/erg/ErgTreebankingGuidelines)
+available](https://delph-in.github.io/docs/erg/ErgTreebankingGuidelines#Native_names_preferred_when_available)
+   2. [Proper names and punctuation](https://delph-in.github.io/docs/erg/ErgTreebankingGuidelines#Proper_names_and_punctuation)
+   3. [PP/modifier attachment](https://delph-in.github.io/docs/erg/ErgTreebankingGuidelines#PP.2Fmodifier_attachment)
+   4. [Temporal modifiers](https://delph-in.github.io/docs/erg/ErgTreebankingGuidelines#Temporal_modifiers)
+   5. [Complex compound nouns](https://delph-in.github.io/docs/erg/ErgTreebankingGuidelines#Complex_compound_nouns)
+   6. [Coordination](https://delph-in.github.io/docs/erg/ErgTreebankingGuidelines#Coordination)
+   7. [Passive verb vs. adjective](https://delph-in.github.io/docs/erg/ErgTreebankingGuidelines#Passive_verb_vs._adjective)
+   8. [Punctuation](https://delph-in.github.io/docs/erg/ErgTreebankingGuidelines#Punctuation)
+   9. [Adverbs](https://delph-in.github.io/docs/erg/ErgTreebankingGuidelines#Adverbs)
+   10. [Measure phrases](https://delph-in.github.io/docs/erg/ErgTreebankingGuidelines#Measure_phrases)
    11. [Quotations with explicit
-attribution](https://delph-in.github.io/docs/erg/ErgTreebankingGuidelines)
-   12. [Partitive NPs](https://delph-in.github.io/docs/erg/ErgTreebankingGuidelines)
-   13. [Modification in noun phrases](https://delph-in.github.io/docs/erg/ErgTreebankingGuidelines)
-3. [Notes from Tomar meeting](https://delph-in.github.io/docs/erg/ErgTreebankingGuidelines)
+attribution](https://delph-in.github.io/docs/erg/ErgTreebankingGuidelines#Quotations_with_explicit_attribution)
+   12. [Partitive NPs](https://delph-in.github.io/docs/erg/ErgTreebankingGuidelines#Partitive_NPs)
+   13. [Modification in noun phrases](https://delph-in.github.io/docs/erg/ErgTreebankingGuidelines#Modification_in_noun_phrases)
+3. [Notes from Tomar meeting](https://delph-in.github.io/docs/erg/ErgTreebankingGuidelines#Notes_from_Tomar_meeting)
 
 ## Top-down
 
@@ -247,5 +247,4 @@ lexent type name
 14. Attach subord clause high \[EMB: subordinate clauses are understood
 as clauses with all arguments overt; do not include in+order+to
 purposives, etc.\]
-
-Last update: 2020-07-23 by AlexandreRademaker [[edit](https://github.com/delph-in/docs/wiki/ErgTreebankingGuidelines/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

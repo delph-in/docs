@@ -4,30 +4,30 @@ from the [JACY](https://delph-in.github.io/docs/grammars/JacyTop) Grammar.
 
 Contents
 
-1. [Overview](https://delph-in.github.io/docs/tools/LkbGeneration)
+1. [Overview](https://delph-in.github.io/docs/tools/LkbGeneration#Overview)
 2. [Generating Semantically Empty Lexical Entries
-(trigger.mtr)](https://delph-in.github.io/docs/tools/LkbGeneration)
+(trigger.mtr)](https://delph-in.github.io/docs/tools/LkbGeneration#Generating_Semantically_Empty_Lexical_Entries_.28trigger.mtr.29)
    1. [How to list semantically empty lexical
-entries](https://delph-in.github.io/docs/tools/LkbGeneration)
-   2. [ToDo](https://delph-in.github.io/docs/tools/LkbGeneration)
-3. [Generating Unknown Words](https://delph-in.github.io/docs/tools/LkbGeneration)
+entries](https://delph-in.github.io/docs/tools/LkbGeneration#How_to_list_semantically_empty_lexical_entries)
+   2. [ToDo](https://delph-in.github.io/docs/tools/LkbGeneration#ToDo)
+3. [Generating Unknown Words](https://delph-in.github.io/docs/tools/LkbGeneration#Generating_Unknown_Words)
 4. [Selective Generation
-(globals.lisp)](https://delph-in.github.io/docs/tools/LkbGeneration)
-   1. 1. 1. [In Ace](https://delph-in.github.io/docs/tools/LkbGeneration)
-5. [Other Notes](https://delph-in.github.io/docs/tools/LkbGeneration)
+(globals.lisp)](https://delph-in.github.io/docs/tools/LkbGeneration#Selective_Generation_.28globals.lisp.29)
+   1. 1. 1. [In Ace](https://delph-in.github.io/docs/tools/LkbGeneration#In_Ace)
+5. [Other Notes](https://delph-in.github.io/docs/tools/LkbGeneration#Other_Notes)
    1. [Make generation faster
-(globals.lsp)](https://delph-in.github.io/docs/tools/LkbGeneration)
-   2. [Fixup MRS (mrsglobals.lsp)](https://delph-in.github.io/docs/tools/LkbGeneration)
+(globals.lsp)](https://delph-in.github.io/docs/tools/LkbGeneration#Make_generation_faster_.28globals.lsp.29)
+   2. [Fixup MRS (mrsglobals.lsp)](https://delph-in.github.io/docs/tools/LkbGeneration#Fixup_MRS_.28mrsglobals.lsp.29)
    3. [Reload generation rules without
-reindexing](https://delph-in.github.io/docs/tools/LkbGeneration)
+reindexing](https://delph-in.github.io/docs/tools/LkbGeneration#Reload_generation_rules_without_reindexing)
    4. [MRS Semantic Equivalence
-Check](https://delph-in.github.io/docs/tools/LkbGeneration)
-   5. [Checking the Generator Index](https://delph-in.github.io/docs/tools/LkbGeneration)
-6. [Trouble Shooting](https://delph-in.github.io/docs/tools/LkbGeneration)
-   1. [Morphology](https://delph-in.github.io/docs/tools/LkbGeneration)
-   2. [C-CONT](https://delph-in.github.io/docs/tools/LkbGeneration)
+Check](https://delph-in.github.io/docs/tools/LkbGeneration#MRS_Semantic_Equivalence_Check)
+   5. [Checking the Generator Index](https://delph-in.github.io/docs/tools/LkbGeneration#Checking_the_Generator_Index)
+6. [Trouble Shooting](https://delph-in.github.io/docs/tools/LkbGeneration#Trouble_Shooting)
+   1. [Morphology](https://delph-in.github.io/docs/tools/LkbGeneration#Morphology)
+   2. [C-CONT](https://delph-in.github.io/docs/tools/LkbGeneration#C-CONT)
    3. [Loading and Activating a Generation
-Model](https://delph-in.github.io/docs/tools/LkbGeneration)
+Model](https://delph-in.github.io/docs/tools/LkbGeneration#Loading_and_Activating_a_Generation_Model)
 
 # Overview
 
@@ -242,5 +242,4 @@ Make sure all predicates are either in lexical entries or C-CONT.
 This should work in the LKB SVN as well as the LOGON tree, and is the
 basis for ranking and selective unpacking in generation and also in
 parsing.
-
-Last update: 2020-05-21 by JohnCarroll [[edit](https://github.com/delph-in/docs/wiki/LkbGeneration/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

@@ -263,5 +263,4 @@ Correspondingly, the ERG generation grammar includes the setting,
 declaring itself as a suitable generation grammar for English:
 
       (setf *translate-grid* '(en))
-
-Last update: 2014-08-12 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/LogonInstallation/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

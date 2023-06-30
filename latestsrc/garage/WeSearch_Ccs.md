@@ -165,5 +165,4 @@ interpreted as an ‘original’ document.
 
 - Stephan Oepen, University of Oslo, Department of Informatics, Boks
 1080 Blindern, 0317 Oslo
-
-Last update: 2014-11-20 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/WeSearch_Ccs/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

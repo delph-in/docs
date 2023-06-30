@@ -270,5 +270,4 @@ DMRS composition weaker than the MRS algebra.
 Dan: In order to get these through?
 
 Ann: No, just a consequence of how I set it up.
-
-Last update: 2018-06-27 by GuyEmerson [[edit](https://github.com/delph-in/docs/wiki/DiderotConstrainingComposition/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

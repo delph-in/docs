@@ -243,5 +243,4 @@ one better placed than us.
 
 oe: Thank you for that optimistic note, and thank you all for the
 treatment.
-
-Last update: 2014-07-15 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/TomarFuture/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

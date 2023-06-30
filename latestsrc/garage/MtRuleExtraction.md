@@ -3,11 +3,11 @@
 Contents
 
 1. [Tool for automatic extraction of transfer rules from parallel
-corpora](https://delph-in.github.io/docs/garage/MtRuleExtraction)
-   1. [Preliminaries](https://delph-in.github.io/docs/garage/MtRuleExtraction)
-   2. [Use the tool](https://delph-in.github.io/docs/garage/MtRuleExtraction)
+corpora](https://delph-in.github.io/docs/garage/MtRuleExtraction#Tool_for_automatic_extraction_of_transfer_rules_from_parallel_corpora)
+   1. [Preliminaries](https://delph-in.github.io/docs/garage/MtRuleExtraction#Preliminaries)
+   2. [Use the tool](https://delph-in.github.io/docs/garage/MtRuleExtraction#Use_the_tool)
    3. [Adapting the tool to another language
-pair](https://delph-in.github.io/docs/garage/MtRuleExtraction)
+pair](https://delph-in.github.io/docs/garage/MtRuleExtraction#Adapting_the_tool_to_another_language_pair)
 
 This page presents a tool for extracting transfer rules from parallel
 corpora. The general idea is to
@@ -139,5 +139,4 @@ relative to the $LOGONROOT directory.)
 - Represent the lexicons of your grammars as tables by giving the
 right paths in step 9.
 - Modify the file 'templates.py' in the language pair directory.
-
-Last update: 2012-08-29 by PetterHaugereid [[edit](https://github.com/delph-in/docs/wiki/MtRuleExtraction/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

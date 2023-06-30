@@ -57,5 +57,4 @@ doesn't seem too big of a task. \[Make sure Wambaya demo is actually
 running.\] Put on DELPH-IN wiki in a similar structure to the
 [MatrixMrsTestSuite](https://delph-in.github.io/docs/grammars/MatrixMrsTestSuite) pages. Link from grammar
 catalogue too.
-
-Last update: 2011-06-30 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/SuquamishPhenomenaCatalogue/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

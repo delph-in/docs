@@ -380,5 +380,4 @@ Proceedings of the ACL 2007 Demo and Poster Sessions.
 - two-level stratification: across sources, then across documents
 - 2,000 items per collection as held-out data for future generations
 - 2,000 items per collection as test data, to be treebanked
-
-Last update: 2012-03-05 by RebeccaDridan [[edit](https://github.com/delph-in/docs/wiki/WeSearch_DataCollection/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

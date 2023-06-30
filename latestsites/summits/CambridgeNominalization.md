@@ -265,5 +265,4 @@ AAC: I’m not sure it will break. Just a suspicion.
 DI: I’ve tried something like this. It works. It scopes.
 
 EMB: We’re done. Thanks.
-
-Last update: 2019-07-24 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/CambridgeNominalization/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

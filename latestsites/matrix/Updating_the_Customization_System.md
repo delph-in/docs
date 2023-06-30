@@ -1,11 +1,11 @@
 {% raw %}# Updating the Customization System
 
-There are several [steps](https://delph-in.github.io/docs/matrix/Updating_the_Customization_System) to
+There are several [steps](https://delph-in.github.io/docs/matrix/Updating_the_Customization_System#steps) to
 updating the customization system, although you won't necessarily do all
 of them for every change. We also have some instructions for [committing
-or vivifying](https://delph-in.github.io/docs/matrix/Updating_the_Customization_System) changes.
+or vivifying](https://delph-in.github.io/docs/matrix/Updating_the_Customization_System#committing) changes.
 There are also a few [basic
-examples](https://delph-in.github.io/docs/matrix/Updating_the_Customization_System) of things to play
+examples](https://delph-in.github.io/docs/matrix/Updating_the_Customization_System#examples) of things to play
 with if you are starting out.
 
 # Steps to Update the System <a name="steps"/>
@@ -221,5 +221,4 @@ fine)
 
 -- You should see the debugger attach successfully and should be able to
 set breakpoints and step through the execution.
-
-Last update: 2023-05-01 by emilymbender [[edit](https://github.com/delph-in/docs/wiki/Updating_the_Customization_System/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

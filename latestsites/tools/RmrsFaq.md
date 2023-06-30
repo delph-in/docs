@@ -58,5 +58,4 @@ A:
     ;;; to check for `arity' in MTRs, sometimes we need an `anti-'variable type
     ;;;
     a := u.
-
-Last update: 2013-04-28 by GlennSlayden [[edit](https://github.com/delph-in/docs/wiki/RmrsFaq/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

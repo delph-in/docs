@@ -3,5 +3,4 @@
 The location of the workshop will be sent privately to those who indicated interest. The hours will be 10:00-14:00.
 
 The workshop will be followed by a huge holiday night (San Juan). We will likely join a bonfire party of the local expat community. 
-
-Last update: 2023-06-10 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/GaliciaLexicalResources/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

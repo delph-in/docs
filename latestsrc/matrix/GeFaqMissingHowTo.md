@@ -39,5 +39,4 @@ spans the whole chart (accounts for all the words), but the LKB
 still says no parses found. What might be going on?](https://delph-in.github.io/docs/matrix/GeFaqRootFail)
 
 Back to the Grammar Engineering FAQ.
-
-Last update: 2023-06-30 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/GeFaqMissingHowTo/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

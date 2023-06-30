@@ -29,5 +29,4 @@ found it. What's happening?](https://delph-in.github.io/docs/matrix/GeFaqNoRule)
 - [How do I do interactive unification?](https://delph-in.github.io/docs/matrix/GeFaqInteractiveUnify)
 
 Back to the Grammar Engineering FAQ.
-
-Last update: 2023-06-30 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/GeFaqViewEntry/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

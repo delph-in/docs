@@ -20,26 +20,26 @@ Report \# 2007-11.
 
 Contents
 
-1. [Overview](https://delph-in.github.io/docs/tools/LogonTransfer)
-2. [Table of Contents](https://delph-in.github.io/docs/tools/LogonTransfer)
-3. [Basic Structure](https://delph-in.github.io/docs/tools/LogonTransfer)
+1. [Overview](https://delph-in.github.io/docs/tools/LogonTransfer#Overview)
+2. [Table of Contents](https://delph-in.github.io/docs/tools/LogonTransfer#Table_of_Contents)
+3. [Basic Structure](https://delph-in.github.io/docs/tools/LogonTransfer#Basic_Structure)
 4. [An example transfer rule (from
-JaEn)](https://delph-in.github.io/docs/tools/LogonTransfer)
-   1. [Regular Expressions](https://delph-in.github.io/docs/tools/LogonTransfer)
-   2. [Optional Rules](https://delph-in.github.io/docs/tools/LogonTransfer)
-5. [Interlingua](https://delph-in.github.io/docs/tools/LogonTransfer)
-6. [Trouble Shooting](https://delph-in.github.io/docs/tools/LogonTransfer)
-   1. [To ensure something is a noun](https://delph-in.github.io/docs/tools/LogonTransfer)
-   2. [Limit the effort in transfer](https://delph-in.github.io/docs/tools/LogonTransfer)
-7. [Loading the rules](https://delph-in.github.io/docs/tools/LogonTransfer)
-8. [Setting up an MT system](https://delph-in.github.io/docs/tools/LogonTransfer)
-9. [Other uses](https://delph-in.github.io/docs/tools/LogonTransfer)
-   1. [Clean Up (post parsing)](https://delph-in.github.io/docs/tools/LogonTransfer)
-   2. [Fix Up (pre-generation)](https://delph-in.github.io/docs/tools/LogonTransfer)
+JaEn)](https://delph-in.github.io/docs/tools/LogonTransfer#An_example_transfer_rule_.28from_JaEn.29)
+   1. [Regular Expressions](https://delph-in.github.io/docs/tools/LogonTransfer#Regular_Expressions)
+   2. [Optional Rules](https://delph-in.github.io/docs/tools/LogonTransfer#Optional_Rules)
+5. [Interlingua](https://delph-in.github.io/docs/tools/LogonTransfer#Interlingua)
+6. [Trouble Shooting](https://delph-in.github.io/docs/tools/LogonTransfer#Trouble_Shooting)
+   1. [To ensure something is a noun](https://delph-in.github.io/docs/tools/LogonTransfer#To_ensure_something_is_a_noun)
+   2. [Limit the effort in transfer](https://delph-in.github.io/docs/tools/LogonTransfer#Limit_the_effort_in_transfer)
+7. [Loading the rules](https://delph-in.github.io/docs/tools/LogonTransfer#Loading_the_rules)
+8. [Setting up an MT system](https://delph-in.github.io/docs/tools/LogonTransfer#Setting_up_an_MT_system)
+9. [Other uses](https://delph-in.github.io/docs/tools/LogonTransfer#Other_uses)
+   1. [Clean Up (post parsing)](https://delph-in.github.io/docs/tools/LogonTransfer#Clean_Up_.28post_parsing.29)
+   2. [Fix Up (pre-generation)](https://delph-in.github.io/docs/tools/LogonTransfer#Fix_Up_.28pre-generation.29)
    3. [Trigger Rules (for
-generation)](https://delph-in.github.io/docs/tools/LogonTransfer)
-   4. [Idiom Rules](https://delph-in.github.io/docs/tools/LogonTransfer)
-   5. [Paraphrase Rules](https://delph-in.github.io/docs/tools/LogonTransfer)
+generation)](https://delph-in.github.io/docs/tools/LogonTransfer#Trigger_Rules_.28for_generation.29)
+   4. [Idiom Rules](https://delph-in.github.io/docs/tools/LogonTransfer#Idiom_Rules)
+   5. [Paraphrase Rules](https://delph-in.github.io/docs/tools/LogonTransfer#Paraphrase_Rules)
 
 # Basic Structure
 
@@ -297,5 +297,4 @@ Only supported by the LKB, not ACE (2017-03-15).
 Activated by the **rephrase** menu on the LKB: these rules allow simple
 paraphrasing (and can include optional rules). (See
 [RmrsParaphrasing](https://delph-in.github.io/docs/tools/RmrsParaphrasing))
-
-Last update: 2017-03-16 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/LogonTransfer/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

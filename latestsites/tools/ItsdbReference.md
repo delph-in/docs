@@ -20,18 +20,18 @@ typically limited to current versions.
 
 Contents
 
-1. [Page Status](https://delph-in.github.io/docs/tools/ItsdbReference)
-2. [Reference](https://delph-in.github.io/docs/tools/ItsdbReference)
-   1. [Formatting Conventions](https://delph-in.github.io/docs/tools/ItsdbReference)
-   2. [Database Files](https://delph-in.github.io/docs/tools/ItsdbReference)
-      1. [Output File Format](https://delph-in.github.io/docs/tools/ItsdbReference)
-      2. [Text Input Formats](https://delph-in.github.io/docs/tools/ItsdbReference)
-         1. [Plain Text Input Format](https://delph-in.github.io/docs/tools/ItsdbReference)
-         2. [Bi-text Import Format](https://delph-in.github.io/docs/tools/ItsdbReference)
-   3. [Well Formedness (i-wf)](https://delph-in.github.io/docs/tools/ItsdbReference)
-   4. [How to make a new Skeleton](https://delph-in.github.io/docs/tools/ItsdbReference)
+1. [Page Status](https://delph-in.github.io/docs/tools/ItsdbReference#Page_Status)
+2. [Reference](https://delph-in.github.io/docs/tools/ItsdbReference#Reference)
+   1. [Formatting Conventions](https://delph-in.github.io/docs/tools/ItsdbReference#Formatting_Conventions)
+   2. [Database Files](https://delph-in.github.io/docs/tools/ItsdbReference#Database_Files)
+      1. [Output File Format](https://delph-in.github.io/docs/tools/ItsdbReference#Output_File_Format)
+      2. [Text Input Formats](https://delph-in.github.io/docs/tools/ItsdbReference#Text_Input_Formats)
+         1. [Plain Text Input Format](https://delph-in.github.io/docs/tools/ItsdbReference#Plain_Text_Input_Format)
+         2. [Bi-text Import Format](https://delph-in.github.io/docs/tools/ItsdbReference#Bi-text_Import_Format)
+   3. [Well Formedness (i-wf)](https://delph-in.github.io/docs/tools/ItsdbReference#Well_Formedness_.28i-wf.29)
+   4. [How to make a new Skeleton](https://delph-in.github.io/docs/tools/ItsdbReference#How_to_make_a_new_Skeleton)
       1. [How to make a Profile from a text input
-file](https://delph-in.github.io/docs/tools/ItsdbReference)
+file](https://delph-in.github.io/docs/tools/ItsdbReference#How_to_make_a_Profile_from_a_text_input_file)
 
 This page includes some low level information about [\[incr
 tsdb()\]](http://www.delph-in.net/itsdb) ([ItsdbTop](https://delph-in.github.io/docs/tools/ItsdbTop)). You may
@@ -225,5 +225,4 @@ If there are translations, then it also makes an output file. This is
 useful for automatically scoring machine translation.
 
 - It gets confused if there are more than 9 translations ...
-
-Last update: 2013-03-21 by MichaelGoodman [[edit](https://github.com/delph-in/docs/wiki/ItsdbReference/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

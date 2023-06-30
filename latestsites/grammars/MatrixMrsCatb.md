@@ -22,17 +22,17 @@ we will also link it to this pages.
 
 Contents
 
-1. [Cathedral and the Bazaar (cb)](https://delph-in.github.io/docs/grammars/MatrixMrsCatb)
+1. [Cathedral and the Bazaar (cb)](https://delph-in.github.io/docs/grammars/MatrixMrsCatb#Cathedral_and_the_Bazaar_.28cb.29)
 2. [The Cathedral and the Bazaar in different
-languages](https://delph-in.github.io/docs/grammars/MatrixMrsCatb)
-3. [Timeline](https://delph-in.github.io/docs/grammars/MatrixMrsCatb)
-4. [Formatting Guidelines](https://delph-in.github.io/docs/grammars/MatrixMrsCatb)
-   1. [Profile Name](https://delph-in.github.io/docs/grammars/MatrixMrsCatb)
-   2. [Markup](https://delph-in.github.io/docs/grammars/MatrixMrsCatb)
-   3. [Structure](https://delph-in.github.io/docs/grammars/MatrixMrsCatb)
-   4. [Quotations](https://delph-in.github.io/docs/grammars/MatrixMrsCatb)
-   5. [Typos](https://delph-in.github.io/docs/grammars/MatrixMrsCatb)
-   6. [Sentence Numbering](https://delph-in.github.io/docs/grammars/MatrixMrsCatb)
+languages](https://delph-in.github.io/docs/grammars/MatrixMrsCatb#The_Cathedral_and_the_Bazaar_in_different_languages)
+3. [Timeline](https://delph-in.github.io/docs/grammars/MatrixMrsCatb#Timeline)
+4. [Formatting Guidelines](https://delph-in.github.io/docs/grammars/MatrixMrsCatb#Formatting_Guidelines)
+   1. [Profile Name](https://delph-in.github.io/docs/grammars/MatrixMrsCatb#Profile_Name)
+   2. [Markup](https://delph-in.github.io/docs/grammars/MatrixMrsCatb#Markup)
+   3. [Structure](https://delph-in.github.io/docs/grammars/MatrixMrsCatb#Structure)
+   4. [Quotations](https://delph-in.github.io/docs/grammars/MatrixMrsCatb#Quotations)
+   5. [Typos](https://delph-in.github.io/docs/grammars/MatrixMrsCatb#Typos)
+   6. [Sentence Numbering](https://delph-in.github.io/docs/grammars/MatrixMrsCatb#Sentence_Numbering)
 
 # The Cathedral and the Bazaar in different languages
 
@@ -222,5 +222,4 @@ in the comment.
 
 Having many misaligned sentences makes cross language comparison just
 that much harder, ...
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/MatrixMrsCatb/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

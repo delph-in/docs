@@ -26,10 +26,10 @@ control](https://en.wikipedia.org/wiki/Distributed_version_control).
 Contents
 
 1. [Version Control for Grammar
-Development](https://delph-in.github.io/docs/tools/VersionControlForGrammarDevelopment)
-   1. [Subversion](https://delph-in.github.io/docs/tools/VersionControlForGrammarDevelopment)
-   2. [Git](https://delph-in.github.io/docs/tools/VersionControlForGrammarDevelopment)
-   3. [General Suggestions](https://delph-in.github.io/docs/tools/VersionControlForGrammarDevelopment)
+Development](https://delph-in.github.io/docs/tools/VersionControlForGrammarDevelopment#Version_Control_for_Grammar_Development)
+   1. [Subversion](https://delph-in.github.io/docs/tools/VersionControlForGrammarDevelopment#Subversion)
+   2. [Git](https://delph-in.github.io/docs/tools/VersionControlForGrammarDevelopment#Git)
+   3. [General Suggestions](https://delph-in.github.io/docs/tools/VersionControlForGrammarDevelopment#General_Suggestions)
 
 ## Subversion
 
@@ -108,5 +108,4 @@ file:
              tsdb/home/
              tsdb/current/
              trees/
-
-Last update: 2020-03-26 by MichaelGoodman [[edit](https://github.com/delph-in/docs/wiki/VersionControlForGrammarDevelopment/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

@@ -74,5 +74,4 @@ can run the following under zhong/cmn/zhs.
     $ art -a "ace -g zhs.dat" tsdb/gold/YOUR_NEW_PROFILE
 
 Finally, don't forget submitting your new profile into the repository.
-
-Last update: 2015-03-19 by SanghounSong [[edit](https://github.com/delph-in/docs/wiki/ZhongRegressionTest/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

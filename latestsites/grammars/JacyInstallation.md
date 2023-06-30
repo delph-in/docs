@@ -1,14 +1,14 @@
 {% raw %}Contents
 
-1. [Setting up Jacy](https://delph-in.github.io/docs/grammars/JacyInstallation)
-   1. [Calling Jacy from Emacs](https://delph-in.github.io/docs/grammars/JacyInstallation)
-   2. [Using JACY with PET](https://delph-in.github.io/docs/grammars/JacyInstallation)
+1. [Setting up Jacy](https://delph-in.github.io/docs/grammars/JacyInstallation#Setting_up_Jacy)
+   1. [Calling Jacy from Emacs](https://delph-in.github.io/docs/grammars/JacyInstallation#Calling_Jacy_from_Emacs)
+   2. [Using JACY with PET](https://delph-in.github.io/docs/grammars/JacyInstallation#Using_JACY_with_PET)
 2. [Using JACY with \[incr
-tsdb()\]](https://delph-in.github.io/docs/grammars/JacyInstallation)
-   1. [Using JACY with itsdb and PET](https://delph-in.github.io/docs/grammars/JacyInstallation)
-3. [Graphical User Interface](https://delph-in.github.io/docs/grammars/JacyInstallation)
-   1. [LUI](https://delph-in.github.io/docs/grammars/JacyInstallation)
-   2. [CLIM](https://delph-in.github.io/docs/grammars/JacyInstallation)
+tsdb()\]](https://delph-in.github.io/docs/grammars/JacyInstallation#Using_JACY_with_.5Bincr_tsdb.28.29.5D)
+   1. [Using JACY with itsdb and PET](https://delph-in.github.io/docs/grammars/JacyInstallation#Using_JACY_with_itsdb_and_PET)
+3. [Graphical User Interface](https://delph-in.github.io/docs/grammars/JacyInstallation#Graphical_User_Interface)
+   1. [LUI](https://delph-in.github.io/docs/grammars/JacyInstallation#LUI)
+   2. [CLIM](https://delph-in.github.io/docs/grammars/JacyInstallation#CLIM)
 
 # Setting up Jacy
 
@@ -204,5 +204,4 @@ Implementation](https://delph-in.github.io/docs/tools/LkbLui) (recommended)
 
 CLIM is used for some displays (the parse compare/treebanking window and
 the type hierarchy). It should work out of the box for Japanese.
-
-Last update: 2012-02-07 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/JacyInstallation/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

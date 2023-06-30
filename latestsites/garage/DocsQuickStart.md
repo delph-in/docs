@@ -1,17 +1,17 @@
 {% raw %}# Updating the docs
-The DELPH-IN docs are generated from the content in any GitHub repository including the [DELPH-IN wiki](https://github.com/delph-in/docs/wiki) and the [DELPH-IN docs repo](https://github.com/delph-in/docs). Pages from a repository are included in the docs simply by adding a row to a configuration file, [as described below](https://delph-in.github.io/docs/garage/DocsQuickStart). Pages are copied from the original repository, as is, except that the links are fixed up to keep readers within the docs site. 
+The DELPH-IN docs are generated from the content in any GitHub repository including the [DELPH-IN wiki](https://github.com/delph-in/docs/wiki) and the [DELPH-IN docs repo](https://github.com/delph-in/docs). Pages from a repository are included in the docs simply by adding a row to a configuration file, [as described below](https://delph-in.github.io/docs/garage/DocsQuickStart#how-to-add-pages-to-the-docs). Pages are copied from the original repository, as is, except that the links are fixed up to keep readers within the docs site. 
 
 This is all managed in a git repository, so changes are tracked, can be reverted, etc.  Mistakes can be cleaned up, don't worry about messing things up!
 
 ## How to Add Pages to the Docs
 1. Create the pages you want in the [DELPH-IN wiki](https://github.com/delph-in/docs/wiki) or the [DELPH-IN docs repo](https://github.com/delph-in/docs). 
-2. Edit the [sitesdefinitions.json file](https://github.com/delph-in/docs/tree/main/sitesdefinitions.json) in the docs repository to include the new pages. You can simply click the edit button on that link to update the sitesdefinitions.json file, no need to clone, etc. For more information see [The Site Definition File](https://delph-in.github.io/docs/garage/DocsQuickStart) below.
-3. [Run the workflow](https://github.com/delph-in/docs/actions/workflows/BuildDocs.yml) to regenerate the documentation by clicking on the `Run Workflow` button on that link.  It takes about 10 minutes to regenerate.  Leaving the defaults will do the right thing. For more information see [Running the Workflow](https://delph-in.github.io/docs/garage/DocsQuickStart) below.
+2. Edit the [sitesdefinitions.json file](https://github.com/delph-in/docs/tree/main/sitesdefinitions.json) in the docs repository to include the new pages. You can simply click the edit button on that link to update the sitesdefinitions.json file, no need to clone, etc. For more information see [The Site Definition File](https://delph-in.github.io/docs/garage/DocsQuickStart#the-site-definition-file) below.
+3. [Run the workflow](https://github.com/delph-in/docs/actions/workflows/BuildDocs.yml) to regenerate the documentation by clicking on the `Run Workflow` button on that link.  It takes about 10 minutes to regenerate.  Leaving the defaults will do the right thing. For more information see [Running the Workflow](https://delph-in.github.io/docs/garage/DocsQuickStart#running-the-workflow) below.
 
 ### The Site Definition File
 The Site Definition file describes all the sites, sections and documents included in the DELPH-IN documentation. It in the [JSON format](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON). 
 
-Changing/Adding/Removing anything *except the top level navigation* in the site involves simply [editing the file](https://github.com/delph-in/docs/tree/main/sitesdefinitions.json) and [re-running the workflow](https://delph-in.github.io/docs/garage/DocsQuickStart).  If you want to add or remove the *top level organization of the site* (i.e. the navigation links across the top of every page), there is a little more to do, see [Modifying the Site Structure](https://delph-in.github.io/docs/garage/DocsQuickStart) below.
+Changing/Adding/Removing anything *except the top level navigation* in the site involves simply [editing the file](https://github.com/delph-in/docs/tree/main/sitesdefinitions.json) and [re-running the workflow](https://delph-in.github.io/docs/garage/DocsQuickStart#running-the-workflow).  If you want to add or remove the *top level organization of the site* (i.e. the navigation links across the top of every page), there is a little more to do, see [Modifying the Site Structure](https://delph-in.github.io/docs/garage/DocsQuickStart#modifying-the-site-structure) below.
 
 A simplified version of the production file is below. The file has 3 initial sections that rarely need to be changed: `Comments`, `SourceRepositores`, and `Sites`.  These define what data can be included in the site and what the top level structure is.
 
@@ -86,5 +86,4 @@ More detail on the workflow is in the [DELPH-IN Docs Reference Guide](https://de
 
 ## Modifying the Site Structure
 To modify the site structure, see the [DELPH-IN Docs Reference Guide](https://delph-in.github.io/docs/garage/DelphinDocsReference).
-
-Last update: 2023-03-28 by EricZinda [[edit](https://github.com/delph-in/docs/edit/main/DocsQuickStart.md)]{% endraw %}
+<update date omitted for speed>{% endraw %}

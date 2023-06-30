@@ -22,21 +22,21 @@ address for the LKB (and other LinGO resources): lingo@delph-in.net.
 
 **Table of Contents**
 
-- [Overview](https://delph-in.github.io/docs/tools/LkbInstallation)
-- [Supported Hard- and Software Platforms](https://delph-in.github.io/docs/tools/LkbInstallation)
-- [Automated Installation](https://delph-in.github.io/docs/tools/LkbInstallation)
-- [Which Version to Use: Stable vs. Latest](https://delph-in.github.io/docs/tools/LkbInstallation)
-- [Manual Installation](https://delph-in.github.io/docs/tools/LkbInstallation)
-- [First-Time Use](https://delph-in.github.io/docs/tools/LkbInstallation)
-  - [Directory for LKB Temporary Files](https://delph-in.github.io/docs/tools/LkbInstallation)
-- [Virtual Machine Image](https://delph-in.github.io/docs/tools/LkbInstallation)
-- [Development and Supported Lisp Environments](https://delph-in.github.io/docs/tools/LkbInstallation)
-- [Further Pointers](https://delph-in.github.io/docs/tools/LkbInstallation)
-- [Trouble Shooting](https://delph-in.github.io/docs/tools/LkbInstallation)
-  - [amd64 Version](https://delph-in.github.io/docs/tools/LkbInstallation)
-  - [libXm.so.4](https://delph-in.github.io/docs/tools/LkbInstallation)
-  - [libXpm.so.4](https://delph-in.github.io/docs/tools/LkbInstallation)
-  - [uming font problem](https://delph-in.github.io/docs/tools/LkbInstallation)
+- [Overview](https://delph-in.github.io/docs/tools/LkbInstallation#overview)
+- [Supported Hard- and Software Platforms](https://delph-in.github.io/docs/tools/LkbInstallation#supported-hard--and-software-platforms)
+- [Automated Installation](https://delph-in.github.io/docs/tools/LkbInstallation#automated-installation)
+- [Which Version to Use: Stable vs. Latest](https://delph-in.github.io/docs/tools/LkbInstallation#which-version-to-use-stable-vs-latest)
+- [Manual Installation](https://delph-in.github.io/docs/tools/LkbInstallation#manual-installation)
+- [First-Time Use](https://delph-in.github.io/docs/tools/LkbInstallation#first-time-use)
+  - [Directory for LKB Temporary Files](https://delph-in.github.io/docs/tools/LkbInstallation#directory-for-lkb-temporary-files)
+- [Virtual Machine Image](https://delph-in.github.io/docs/tools/LkbInstallation#virtual-machine-image)
+- [Development and Supported Lisp Environments](https://delph-in.github.io/docs/tools/LkbInstallation#development-and-supported-lisp-environments)
+- [Further Pointers](https://delph-in.github.io/docs/tools/LkbInstallation#further-pointers)
+- [Trouble Shooting](https://delph-in.github.io/docs/tools/LkbInstallation#trouble-shooting)
+  - [amd64 Version](https://delph-in.github.io/docs/tools/LkbInstallation#amd64-version)
+  - [libXm.so.4](https://delph-in.github.io/docs/tools/LkbInstallation#libxmso4)
+  - [libXpm.so.4](https://delph-in.github.io/docs/tools/LkbInstallation#libxpmso4)
+  - [uming font problem](https://delph-in.github.io/docs/tools/LkbInstallation#uming-font-problem)
 
 <!-- markdown-toc end -->
 
@@ -440,5 +440,4 @@ Michael Goodman has filed a bug with the font in Ubuntu:
 We encourage people to file bugs in their own distributions, and/or
 confirm the bug in Ubuntu so that it gets a higher priority.
 Alternatively, if you know about fonts then please fix it...
-
-Last update: 2021-06-02 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/LkbInstallation/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

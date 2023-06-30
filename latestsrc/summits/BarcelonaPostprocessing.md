@@ -43,5 +43,4 @@ machinery. It may therefore be straightforward to reuse the code for
 output manipulation.
 
 # Notes
-
-Last update: 2009-07-19 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/BarcelonaPostprocessing/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

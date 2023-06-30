@@ -580,1514 +580,309 @@ the ERG (as of the 1214 release).</p>
 
 <h2 id="complete-inventory-of-erg-rules">Complete inventory of ERG rules</h2>
 
-<table>
-  <thead>
-    <tr>
-      <th> </th>
-      <th> </th>
-      <th> </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>Rule type</td>
-      <td>Annotations</td>
-      <td>Example</td>
-    </tr>
-    <tr>
-      <td><strong>Syntactic constructions</strong></td>
-      <td> </td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td>sb-hd_mc_c</td>
-      <td>Head+subject, main clause</td>
-      <td>C arrived.</td>
-    </tr>
-    <tr>
-      <td>sb-hd_nmc_c</td>
-      <td>Hd+subject, embedded clause</td>
-      <td>B thought [C arrived].</td>
-    </tr>
-    <tr>
-      <td>sb-hd_q_c</td>
-      <td>Hd+subj, in-situ WH</td>
-      <td>B ate what?</td>
-    </tr>
-    <tr>
-      <td>hd-cmp_u_c</td>
-      <td>Hd+complement</td>
-      <td>B [hired C].</td>
-    </tr>
-    <tr>
-      <td>hd-cmp_2_c</td>
-      <td>Hd+second complement</td>
-      <td>B [gave to C] E.</td>
-    </tr>
-    <tr>
-      <td>sp-hd_n_c</td>
-      <td>Hd+specifier, nonhd = sem hd</td>
-      <td>[Every cat] slept.</td>
-    </tr>
-    <tr>
-      <td>sp-hd_hc_c</td>
-      <td>Hd+specifier, hd = sem hd</td>
-      <td>The [very old] cat slept.</td>
-    </tr>
-    <tr>
-      <td>sp-hd_hc-cmp_c</td>
-      <td>Hd+specifier w/comop, hd = sem hd</td>
-      <td>The [more ancient] cat than mine slept.</td>
-    </tr>
-    <tr>
-      <td>aj-hd_scp_c</td>
-      <td>Hd+preceding scopal adjunct</td>
-      <td>Probably B won.</td>
-    </tr>
-    <tr>
-      <td>aj-hd_scp-xp_c</td>
-      <td>Hd+prec.scop.adj, VP head</td>
-      <td>B [probably won].</td>
-    </tr>
-    <tr>
-      <td>aj-hd_scp-pr_c</td>
-      <td>Hd+pr.scop.adj, VP hd, prd pnct</td>
-      <td>If C loses, B wins.</td>
-    </tr>
-    <tr>
-      <td>aj-hd_int_c</td>
-      <td>Hd+prec.intersective adjunct</td>
-      <td>B [quickly left].</td>
-    </tr>
-    <tr>
-      <td>aj-hd_int-inv_c</td>
-      <td>Hd+prec.int.adjnct, hd inverted</td>
-      <td>On Tuesday, can you stay?</td>
-    </tr>
-    <tr>
-      <td>aj-hd_int-rel_c</td>
-      <td>Hd+prec.int.adjnct, hd rel-vp</td>
-      <td>which [on Tuesday met Kim]</td>
-    </tr>
-    <tr>
-      <td>hd-aj_scp_c</td>
-      <td>Hd+following scopal adjunct</td>
-      <td>B wins if C loses.</td>
-    </tr>
-    <tr>
-      <td>hd-aj_scp-pr_c</td>
-      <td>Hd+foll.scop.adjnct, paird pnct</td>
-      <td>B wins, if C loses.</td>
-    </tr>
-    <tr>
-      <td>hd-aj_int-unsl_c</td>
-      <td>Hd+foll.int.adjct, no gap</td>
-      <td>B [left quietly].</td>
-    </tr>
-    <tr>
-      <td>hd-aj_int-sl_c</td>
-      <td>Hd+foll.int.adjct, gap in adj</td>
-      <td>That cafe, we [dined in].</td>
-    </tr>
-    <tr>
-      <td>hd-aj_vmod_c</td>
-      <td>Hd+foll.int.adjct, prec. NP cmp</td>
-      <td>B [saw here] a big parade.</td>
-    </tr>
-    <tr>
-      <td>hd-aj_vmod-s_c</td>
-      <td>Hd+foll.scop.adjct, prec. NP cmp</td>
-      <td>B [saw here] a big parade.</td>
-    </tr>
-    <tr>
-      <td>hd-aj_cmod_c</td>
-      <td>Conj+foll.int.adjct, prec NP cmp</td>
-      <td>B [and yesterday] C arose.</td>
-    </tr>
-    <tr>
-      <td>hd-aj_cmod-s_c</td>
-      <td>Conj+foll.scop.adjct, prec NP cmp</td>
-      <td>B [and probably] C arose.</td>
-    </tr>
-    <tr>
-      <td>aj-hdn_norm_c</td>
-      <td>Nominal head + preceding adjnct</td>
-      <td>The [big cat] slept.</td>
-    </tr>
-    <tr>
-      <td>aj-hdn_adjn_c</td>
-      <td><a href="/NomHd">NomHd</a>+prec.adj, hd pre-modified</td>
-      <td>The [big old cat] slept.</td>
-    </tr>
-    <tr>
-      <td>hdn-aj_rc_c</td>
-      <td><a href="/NomHd">NomHd</a>+following relative clause</td>
-      <td>The [cat we chased] ran.</td>
-    </tr>
-    <tr>
-      <td>hdn-aj_rc-pr_c</td>
-      <td><a href="/NomHd">NomHd</a>+foll.rel.cl, paired pnct</td>
-      <td>A [cat, which ran,] fell.</td>
-    </tr>
-    <tr>
-      <td>hdn-aj_redrel_c</td>
-      <td><a href="/NomHd">NomHd</a>+foll.predicative phrase</td>
-      <td>A [cat in a tree] fell.</td>
-    </tr>
-    <tr>
-      <td>hdn-aj_redrel-pr_c</td>
-      <td><a href="/NomHd">NomHd</a>+foll.prd.phr, paired pnct</td>
-      <td>A [cat, in a tree,] fell.</td>
-    </tr>
-    <tr>
-      <td>cl_rc-fin-nwh_c</td>
-      <td>Rel.clause from fin.S, no relpr</td>
-      <td>The cat [we chased] ran.</td>
-    </tr>
-    <tr>
-      <td>cl_rc-inf-nwh_c</td>
-      <td>Rel.cl. fr.infin VP, non-sb gap</td>
-      <td>People [to admire] sang.</td>
-    </tr>
-    <tr>
-      <td>cl_rc-inf-nwh-sb_c</td>
-      <td>Rel.cl. from infin VP, subj gap</td>
-      <td>Dogs [to chase cats] run.</td>
-    </tr>
-    <tr>
-      <td>cl_rc-instr_c</td>
-      <td>Rel.cl. fr.inf.VP,no gap, instr</td>
-      <td>Money [to buy lunch] fell.</td>
-    </tr>
-    <tr>
-      <td>cl_rc-fin-modgap_c</td>
-      <td>Rel cl. from fin-S, modifier gap</td>
-      <td>The day [we arrived] elapsed.</td>
-    </tr>
-    <tr>
-      <td>cl_rc-inf-modgap_c</td>
-      <td>Rel cl. from inf-S, modifier gap</td>
-      <td>The day [to arrive] elapsed.</td>
-    </tr>
-    <tr>
-      <td>vp_rc-redrel_c</td>
-      <td>Rel.cl. from predicative VP</td>
-      <td>Dogs [chasing cats] bark.</td>
-    </tr>
-    <tr>
-      <td>hd_optcmp_c</td>
-      <td>Head discharges optional compl</td>
-      <td>B [ate] already.</td>
-    </tr>
-    <tr>
-      <td>hdn_optcmp_c</td>
-      <td><a href="/NomHd">NomHd</a> discharges opt complement</td>
-      <td>The [picture] appeared.</td>
-    </tr>
-    <tr>
-      <td>hd_xcmp_c</td>
-      <td>Head extracts compl (to SLASH)</td>
-      <td>Who does B [admire] now?</td>
-    </tr>
-    <tr>
-      <td>hd_xsb-fin_c</td>
-      <td>Extract subject from finite hd</td>
-      <td>Who do you think [went?]</td>
-    </tr>
-    <tr>
-      <td>hd_xaj-int-vp_c</td>
-      <td>Extract int.adjunct from VP</td>
-      <td>Here we [stand.]</td>
-    </tr>
-    <tr>
-      <td>hd_xaj-int-s_c</td>
-      <td>Extract int.adjunct from S</td>
-      <td>When is he Kim?</td>
-    </tr>
-    <tr>
-      <td>hd_xaj-crd-s_c</td>
-      <td>Extract adjunct from coord S</td>
-      <td>Now B arises and C arrives.</td>
-    </tr>
-    <tr>
-      <td>flr-hd_nwh_c</td>
-      <td>Filler-head, non-wh filler</td>
-      <td>Kim, we should hire.</td>
-    </tr>
-    <tr>
-      <td>flr-hd_nwh-nc_c</td>
-      <td>Fill-head, non-wh, no NP, no comma</td>
-      <td>Today we should arrive.</td>
-    </tr>
-    <tr>
-      <td>flr-hd_nwh-nc-np_c</td>
-      <td>Fill-head, non-wh, NP, no comma</td>
-      <td>Kim we should hire.</td>
-    </tr>
-    <tr>
-      <td>flr-hd_wh-mc_c</td>
-      <td>Fill-head, wh non-subj, main cl</td>
-      <td>Who did they hire?</td>
-    </tr>
-    <tr>
-      <td>flr-hd_wh-mc-sb_c</td>
-      <td>Fill-head, wh subj, main cl</td>
-      <td>Who left?</td>
-    </tr>
-    <tr>
-      <td>flr-hd_wh-nmc-fin_c</td>
-      <td>Fill-head, wh, fin hd, embed cl</td>
-      <td>B wondered [who won.]</td>
-    </tr>
-    <tr>
-      <td>flr-hd_wh-nmc-inf_c</td>
-      <td>Fill-head, wh, inf hd, embed cl</td>
-      <td>B knew [who to hire.]</td>
-    </tr>
-    <tr>
-      <td>flr-hd_rel-fin_c</td>
-      <td>Fill-head, finite, relative cls</td>
-      <td>people [who slept]</td>
-    </tr>
-    <tr>
-      <td>flr-hd_rel-inf_c</td>
-      <td>Fill-head, inf, relative cls</td>
-      <td>people [on whom to rely]</td>
-    </tr>
-    <tr>
-      <td>hd_imp_c</td>
-      <td>Imperative clause from base VP</td>
-      <td>Hire Browne!</td>
-    </tr>
-    <tr>
-      <td>hd_yesno_c</td>
-      <td>Yes-no question from inverted S</td>
-      <td>Did B arrive?</td>
-    </tr>
-    <tr>
-      <td>hd_inv-nwh_c</td>
-      <td>Inverted non-wh declarative cls</td>
-      <td>Never [has B won here.]</td>
-    </tr>
-    <tr>
-      <td>hdn_bnp_c</td>
-      <td>Bare noun phrase (no determiner)</td>
-      <td>[Cats] sleep.</td>
-    </tr>
-    <tr>
-      <td>hdn_bnp-prd_c</td>
-      <td>Bare predicative noun phrase</td>
-      <td>B will be president.</td>
-    </tr>
-    <tr>
-      <td>hdn_bnp-pn_c</td>
-      <td>Bare NP from proper name</td>
-      <td>[Browne] arrived.</td>
-    </tr>
-    <tr>
-      <td>hdn_bnp-num_c</td>
-      <td>Bare NP from number</td>
-      <td>[42] is even.</td>
-    </tr>
-    <tr>
-      <td>hdn_bnp-qnt_c</td>
-      <td>NP from already-quantified dtr</td>
-      <td>[Some in Paris] slept.</td>
-    </tr>
-    <tr>
-      <td>hdn_bnp-sg-nmod_c</td>
-      <td>NP fr. detless bare sg N-N cpnd</td>
-      <td>It was at [eye level.]</td>
-    </tr>
-    <tr>
-      <td>hdn_bnp-sg-jmod_c</td>
-      <td>NP fr. detless bare sg adj+noun</td>
-      <td>It was at [close range.]</td>
-    </tr>
-    <tr>
-      <td>hdn_bnp-sg-nomod_c</td>
-      <td>NP fr. detless bare sg unmodfd</td>
-      <td>It was within [range.]</td>
-    </tr>
-    <tr>
-      <td>hdn_bnp-vger_c</td>
-      <td>NP from verbal gerund</td>
-      <td>Hiring them was easy.</td>
-    </tr>
-    <tr>
-      <td>np-hdn_cpd_c</td>
-      <td>Compound from proper-name+noun</td>
-      <td>The [IBM report] arrived.</td>
-    </tr>
-    <tr>
-      <td>np-hdn_cpd-pr_c</td>
-      <td>Compount, proper+noun, paired pct</td>
-      <td>The [Cupertino, Calif., company] arrived.</td>
-    </tr>
-    <tr>
-      <td>np-hdn_ttl-cpd_c</td>
-      <td>Compound from title+proper-name</td>
-      <td>[Professor Browne] left.</td>
-    </tr>
-    <tr>
-      <td>np-hdn_ttl-cpd-pl_c</td>
-      <td>Compound from title+plural proper</td>
-      <td>|Mssrs. B and C left.</td>
-    </tr>
-    <tr>
-      <td>np-hdn_nme-cpd_c</td>
-      <td>Compound from two proper names</td>
-      <td>[Pat Browne] left.</td>
-    </tr>
-    <tr>
-      <td>np-hdn_num-cpd_c</td>
-      <td>Compound from noun+number</td>
-      <td>Do [problem 6] first.</td>
-    </tr>
-    <tr>
-      <td>np-hdn_cty-cpd_c</td>
-      <td>Compound from city+state names</td>
-      <td>[Portland, Oregon] grew.</td>
-    </tr>
-    <tr>
-      <td>n-hdn_cpd_c</td>
-      <td>Compound from two normal nouns</td>
-      <td>The [guard dog] barked.</td>
-    </tr>
-    <tr>
-      <td>n-hdn_j-n-cpd_c</td>
-      <td>Compound from noun+[adj+noun]</td>
-      <td>kitchen heavy appliance</td>
-    </tr>
-    <tr>
-      <td>n-v_j-cpd_c</td>
-      <td>Compound from noun+prd_verb</td>
-      <td>a [snow-covered] town</td>
-    </tr>
-    <tr>
-      <td>n-j_j-cpd_c</td>
-      <td>Compound from noun+adj</td>
-      <td>a [dog-friendly] town</td>
-    </tr>
-    <tr>
-      <td>n-j_j-t-cpd_c</td>
-      <td>Compound from noun+trans adj</td>
-      <td>a [dog-happy] town</td>
-    </tr>
-    <tr>
-      <td>j_n-ed_c</td>
-      <td>Adj-phr from adj + noun+ed</td>
-      <td>the [long eared] dog</td>
-    </tr>
-    <tr>
-      <td>hdn-np_app_c</td>
-      <td>Appositive NP from two NPs</td>
-      <td>[Joe the plumber] spoke.</td>
-    </tr>
-    <tr>
-      <td>hdn-np_app-pr_c</td>
-      <td>Appositive fr.two NPs, w/commas</td>
-      <td>[Joe, the plumber,] spoke.</td>
-    </tr>
-    <tr>
-      <td>hdn-np_app-r_c</td>
-      <td>Appositive fr NP+propNP, no paired pnct</td>
-      <td>[The plumber Joe] arose.</td>
-    </tr>
-    <tr>
-      <td>hdn-np_app-r-pr_c</td>
-      <td>Appositive fr NP+propNP, w/commas</td>
-      <td>[The plumber, Joe,] arrived.</td>
-    </tr>
-    <tr>
-      <td>hdn-np_app-num_c</td>
-      <td>Appositive fr NP+numNP</td>
-      <td>[Joe, 22,] arose.</td>
-    </tr>
-    <tr>
-      <td>hdn-np_app-idf_c</td>
-      <td>Appositive with indef.NP modifr</td>
-      <td>[Joe, a plumber,] spoke.</td>
-    </tr>
-    <tr>
-      <td>hdn-np_app-idf-p_c</td>
-      <td>Appositive, indef.NP, parnthszd</td>
-      <td>[Joe (a plumber)] spoke.</td>
-    </tr>
-    <tr>
-      <td>hdn-np_app-nbr_c</td>
-      <td>Appositive with N-bar modifier</td>
-      <td>Kim, president of the PTA</td>
-    </tr>
-    <tr>
-      <td>np_adv_c</td>
-      <td>Modifier phrase from NP</td>
-      <td>B arrived [this week.]</td>
-    </tr>
-    <tr>
-      <td>np_adv-yr_c</td>
-      <td>Modifier phrase from year NP</td>
-      <td>Jan. 11 [2008] arrived.</td>
-    </tr>
-    <tr>
-      <td>np_adv-mnp_c</td>
-      <td>Modifier phrase from measure NP</td>
-      <td>Markets fell [50 points.]</td>
-    </tr>
-    <tr>
-      <td>hdn_np-num_c</td>
-      <td>NP from number</td>
-      <td>[700 billion] is too much.</td>
-    </tr>
-    <tr>
-      <td>n-n_num-seq_c</td>
-      <td>NP from sequence of numbers</td>
-      <td>The number is [48 205 53.]</td>
-    </tr>
-    <tr>
-      <td>hdn_color_c</td>
-      <td>noun from color adjective</td>
-      <td>[Red] suits you.</td>
-    </tr>
-    <tr>
-      <td>num-n_mnp_c</td>
-      <td>Measure NP from number+noun</td>
-      <td>A [two liter] jar broke.</td>
-    </tr>
-    <tr>
-      <td>n-num_mnp_c</td>
-      <td>Measure NP from meas-symbol+num</td>
-      <td>We dislike [$6] fuel.</td>
-    </tr>
-    <tr>
-      <td>n_mnp_c</td>
-      <td>Measure NP from bare noun</td>
-      <td>This road is [miles] long.</td>
-    </tr>
-    <tr>
-      <td>mnp_deg_c</td>
-      <td>Degree phrase fr meas NP, attrib</td>
-      <td>The [5 meter] tall tree fell.</td>
-    </tr>
-    <tr>
-      <td>mnp_deg-prd_c</td>
-      <td>Deg phrase fr meas NP, predictv</td>
-      <td>Trees are [5 meters] tall.</td>
-    </tr>
-    <tr>
-      <td>num_det_c</td>
-      <td>Determiner from number</td>
-      <td>[Ten cats] slept.</td>
-    </tr>
-    <tr>
-      <td>num_prt-nc_c</td>
-      <td>Partitive NP fr.number, no cmp</td>
-      <td>[Six] were sleeping.</td>
-    </tr>
-    <tr>
-      <td>num_prt-of_c</td>
-      <td>Partitive fr.number, of_PP cmp</td>
-      <td>[Six] of them slept.</td>
-    </tr>
-    <tr>
-      <td>num_prt-det-nc_c</td>
-      <td>Partitive fr.det+number, no cmp</td>
-      <td>[These six] slept.</td>
-    </tr>
-    <tr>
-      <td>num_prt-det-of_c</td>
-      <td>Partitive fr.det+num, of-PP cmp</td>
-      <td>[The first of them] left.</td>
-    </tr>
-    <tr>
-      <td>np_prt-poss_c</td>
-      <td>Partitive fr. possessive NP</td>
-      <td>[The cat’s] is empty.</td>
-    </tr>
-    <tr>
-      <td>np-prdp_vpmod_c</td>
-      <td>Modifier from pred.small clause</td>
-      <td>We ran, [Kim petrified].</td>
-    </tr>
-    <tr>
-      <td>np_voc-post_c</td>
-      <td>Vocative modifier fr.NP, postmod</td>
-      <td>Where are we, [Kim?]</td>
-    </tr>
-    <tr>
-      <td>np_voc-pre_c</td>
-      <td>Vocative modifier, premod</td>
-      <td>[Kim,] where are we?</td>
-    </tr>
-    <tr>
-      <td>cl_np-wh_c</td>
-      <td>NP from WH clause</td>
-      <td>[What he saw] scared him.</td>
-    </tr>
-    <tr>
-      <td>vp_cp-sb_c</td>
-      <td>VP requiring non-WH clausal subj</td>
-      <td>That B won [bothered C.]</td>
-    </tr>
-    <tr>
-      <td>vp_cp-sb-inf_c</td>
-      <td>VP requiring non-WH inf.cls subj</td>
-      <td>For B to win [bothered C.]</td>
-    </tr>
-    <tr>
-      <td>vp_np-ger_c</td>
-      <td>NP from verbal gerund</td>
-      <td>Winning money [pleased C.]</td>
-    </tr>
-    <tr>
-      <td>vp_sbrd-prd-prp_c</td>
-      <td>Pred.subord phr from prp-VP</td>
-      <td>Kim arrived, [smiling.]</td>
-    </tr>
-    <tr>
-      <td>vp_sbrd-prd-pas_c</td>
-      <td>Pred.subord phr from passive VP</td>
-      <td>Kim arrived, [inspired.]</td>
-    </tr>
-    <tr>
-      <td>vp_sbrd-prd-aj_c</td>
-      <td>Pred.subord phr from adjctv phr</td>
-      <td>Kim arrived, [very happy.]</td>
-    </tr>
-    <tr>
-      <td>vp_sbrd-prd-ell_c</td>
-      <td>Pred.subord phr, modfs ellip.VP</td>
-      <td>Kim might, [given time.]</td>
-    </tr>
-    <tr>
-      <td>j_sbrd-pre_c</td>
-      <td>Pred.subord phr fr.adj, prehead</td>
-      <td>[Unhappy,] we left.</td>
-    </tr>
-    <tr>
-      <td>vp_sbrd-pre_c</td>
-      <td>Pred.subord phr fr.VP, prehead</td>
-      <td>[Seeing Kim] they left.</td>
-    </tr>
-    <tr>
-      <td>vp_sbrd-pre-lx_c</td>
-      <td>Pred.subord phr fr.lex VP, prehd</td>
-      <td>[Smiling,] Kim arose.</td>
-    </tr>
-    <tr>
-      <td>hd-cl_fr-rel_c</td>
-      <td>Free relative clause</td>
-      <td>We run whenever Kim runs.</td>
-    </tr>
-    <tr>
-      <td>mrk-nh_evnt_c</td>
-      <td>Marker + event-based complement</td>
-      <td>B sang [and danced.]</td>
-    </tr>
-    <tr>
-      <td>mrk-nh_cl_c</td>
-      <td>Marker + clause</td>
-      <td>B sang [and C danced.]</td>
-    </tr>
-    <tr>
-      <td>mrk-nh_nom_c</td>
-      <td>Marker + NP</td>
-      <td>Cats [and some dogs] ran.</td>
-    </tr>
-    <tr>
-      <td>mrk-nh_n_c</td>
-      <td>Marker + N-bar</td>
-      <td>Every cat [and dog] ran.</td>
-    </tr>
-    <tr>
-      <td>mrk-nh_atom_c</td>
-      <td>Paired marker + phrase</td>
-      <td>[Both B] and C arrived.</td>
-    </tr>
-    <tr>
-      <td>vp-vp_crd-fin-t_c</td>
-      <td>Conjnd VP, fin, top</td>
-      <td>B [sees C and chases D.]</td>
-    </tr>
-    <tr>
-      <td>vp-vp_crd-fin-m_c</td>
-      <td>Conjnd VP, fin, mid</td>
-      <td>B rose, [sang, &amp; chased D.]</td>
-    </tr>
-    <tr>
-      <td>vp-vp_crd-fin-im_c</td>
-      <td>Conjnd VP, fin, mid, no comma</td>
-      <td>B rose [sang &amp; chased D.]</td>
-    </tr>
-    <tr>
-      <td>vp-vp_crd-nfin-t_c</td>
-      <td>Conjnd VP, nonfin, top</td>
-      <td>B’ll [see C and chase D.]</td>
-    </tr>
-    <tr>
-      <td>vp-vp_crd-nfin-m_c</td>
-      <td>Conjnd VP, nonfin, mid</td>
-      <td>B’ll rise, [sing, &amp; see D.]</td>
-    </tr>
-    <tr>
-      <td>vp-vp_crd-nfin-im_c</td>
-      <td>Conjnd VP, nonfin, mid, no comma</td>
-      <td>B’ll rise [sing &amp; see D.]</td>
-    </tr>
-    <tr>
-      <td>v-v_crd-fin-ncj_c</td>
-      <td>Conjnd V,VP, fin, no conjunctn</td>
-      <td>B [sees C, chases D.]</td>
-    </tr>
-    <tr>
-      <td>v-v_crd-nfin-ncj_c</td>
-      <td>Conjnd V,VP, nonfin. no cnjct</td>
-      <td>Be will [see C, chase D.]</td>
-    </tr>
-    <tr>
-      <td>cl-cl_crd-t_c</td>
-      <td>Conjoined clauses, non-int, top</td>
-      <td>B sang and C danced.</td>
-    </tr>
-    <tr>
-      <td>cl-cl_crd-int-t_c</td>
-      <td>Conjnd clauses, interrog, top</td>
-      <td>Who sang and who danced?</td>
-    </tr>
-    <tr>
-      <td>cl-cl_crd-m_c</td>
-      <td>Conjoined clauses, mid</td>
-      <td>B sang, [C ran, &amp; D sat.]</td>
-    </tr>
-    <tr>
-      <td>cl-cl_crd-im_c</td>
-      <td>Conjoined clauses, no cma, mid</td>
-      <td>B sang, [C ran &amp; D sat.]</td>
-    </tr>
-    <tr>
-      <td>cl-cl_crd-rc-t_c</td>
-      <td>Conjoined relative clauses</td>
-      <td>people [who fly &amp; who run]</td>
-    </tr>
-    <tr>
-      <td>pp-pp_crd-t_c</td>
-      <td>Conjnd PP, top</td>
-      <td>B is [in Paris and at work]</td>
-    </tr>
-    <tr>
-      <td>pp-pp_crd-m_c</td>
-      <td>Conjnd PP, mid</td>
-      <td>B’s [here, in P, &amp; at work]</td>
-    </tr>
-    <tr>
-      <td>pp-pp_crd-im_c</td>
-      <td>Conjnd PP, mid, no comma</td>
-      <td>B’s [here, in P &amp; at work]</td>
-    </tr>
-    <tr>
-      <td>np-np_crd-t_c</td>
-      <td>Conjoined noun phrases, top</td>
-      <td>[The cat and the dog] ran.</td>
-    </tr>
-    <tr>
-      <td>np-np_crd-i-t_c</td>
-      <td>Conjoined accus-case pro and NP</td>
-      <td>[Me and Kim] left.</td>
-    </tr>
-    <tr>
-      <td>np-np_crd-i2-t_c</td>
-      <td>Conjoined NP and accus-case pro</td>
-      <td>[Kim and me] left.</td>
-    </tr>
-    <tr>
-      <td>np-np_crd-i3-t_c</td>
-      <td>Conjoined NP and nom-case pro</td>
-      <td>B saw [Kim and I].</td>
-    </tr>
-    <tr>
-      <td>np-np_crd-m_c</td>
-      <td>Conjoined noun phrases, mid</td>
-      <td>Kim, [Pat, and Tom] ran.</td>
-    </tr>
-    <tr>
-      <td>np-np_crd-im_c</td>
-      <td>Conjoined NPs, no comma, mid</td>
-      <td>Kim, [Pat and Tom] ran.</td>
-    </tr>
-    <tr>
-      <td>np-np_crd-nc-t_c</td>
-      <td>Conjoined NPs, no comma, top</td>
-      <td>Buy [tapes, films.]</td>
-    </tr>
-    <tr>
-      <td>np-np_crd-nc-m_c</td>
-      <td>Conjoined NPs, no comma, mid</td>
-      <td>Buy books, [tapes, films.]</td>
-    </tr>
-    <tr>
-      <td>n-n_crd-nc-m_c</td>
-      <td>Conjoined nouns, no comma, mid</td>
-      <td>Buy a book, [tape, film.]</td>
-    </tr>
-    <tr>
-      <td>n-n_crd-t_c</td>
-      <td>Conjnd Ns, sym agr, nondiv, top</td>
-      <td>The [cat and dog] ran.</td>
-    </tr>
-    <tr>
-      <td>n-n_crd-div-t_c</td>
-      <td>Conjnd Ns, sym agr, div, top</td>
-      <td>The [cats and dogs] ran.</td>
-    </tr>
-    <tr>
-      <td>n-n_crd-2-t_c</td>
-      <td>Conjnd Ns, sym agr, nondiv, top</td>
-      <td>The [cat and dog] ran.</td>
-    </tr>
-    <tr>
-      <td>n-n_crd-3-t_c</td>
-      <td>Conjnd Ns, single referent, top</td>
-      <td>My [friend and guide] ran.</td>
-    </tr>
-    <tr>
-      <td>n-n_crd-m_c</td>
-      <td>Conjoined N-bars, mid</td>
-      <td>No cat, [dog, or rat] ran.</td>
-    </tr>
-    <tr>
-      <td>n-n_crd-im_c</td>
-      <td>Conjoined N-bars, no comma, mid</td>
-      <td>No cat, [dog or rat] ran.</td>
-    </tr>
-    <tr>
-      <td>n-n_crd-asym-t_c</td>
-      <td>Conjnd Ns, asym agr, sg+pl, top</td>
-      <td>The [cat and dogs] ran.</td>
-    </tr>
-    <tr>
-      <td>n-n_crd-asym2-t_c</td>
-      <td>Conjnd Ns, asym agr, pl+sg, top</td>
-      <td>The [cats and dog] ran.</td>
-    </tr>
-    <tr>
-      <td>n-j_crd-t_c</td>
-      <td>Conjoined noun +adjective</td>
-      <td>[marble and wooden] stairs</td>
-    </tr>
-    <tr>
-      <td>j-n_crd-t_c</td>
-      <td>Conjoined adjective + noun</td>
-      <td>[wooden and marble] stairs</td>
-    </tr>
-    <tr>
-      <td>j-j_crd-att-t_c</td>
-      <td>Conjnd attrib adjectives, top</td>
-      <td>the [old and young] cats</td>
-    </tr>
-    <tr>
-      <td>j-j_crd-prd-t_c</td>
-      <td>Conjnd pred adjs, top</td>
-      <td>B is [young and tall].</td>
-    </tr>
-    <tr>
-      <td>j-j_crd-prd-m_c</td>
-      <td>Conjnd pred adjs, mid</td>
-      <td>B is old, [big, and tall].</td>
-    </tr>
-    <tr>
-      <td>j-j_crd-prd-im_c</td>
-      <td>Conjnd pred adjs, no comma, mid</td>
-      <td>B is old, [big and tall].</td>
-    </tr>
-    <tr>
-      <td>jpr-jpr_crd-t_c</td>
-      <td>Conjnd subord prd phr, adj, top</td>
-      <td>B ran, [happy but tired.]</td>
-    </tr>
-    <tr>
-      <td>jpr-jpr_crd-m_c</td>
-      <td>Conjnd subord prd phr, adj, mid</td>
-      <td>B ran, hot, [fit, and low]</td>
-    </tr>
-    <tr>
-      <td>jpr-jpr_crd-im_c</td>
-      <td>Conjnd sbrd phr, adj,no-cma, mid</td>
-      <td>B ran, hot, [fit and low.]</td>
-    </tr>
-    <tr>
-      <td>jpr-vpr_crd-t_c</td>
-      <td>Conjnd sbrd prd phr, adj,V, top</td>
-      <td>B ran, [happy and freed.]</td>
-    </tr>
-    <tr>
-      <td>jpr-vpr_crd-m_c</td>
-      <td>Conjnd sbrd prd phr, adj,V, mid</td>
-      <td>B ran, hot, [fit, and lit.]</td>
-    </tr>
-    <tr>
-      <td>jpr-vpr_crd-im_c</td>
-      <td>Conjnd sbd phr, adj,V,no-cma, mid</td>
-      <td>B ran, hot, [fit and lit.]</td>
-    </tr>
-    <tr>
-      <td>vppr-vppr_crd-t_c</td>
-      <td>Conjnd subord prd phr, VP, top</td>
-      <td>B ran, [feared and loved.]</td>
-    </tr>
-    <tr>
-      <td>vppr-vppr_crd-m_c</td>
-      <td>Conjnd subord prd phr, VP, mid</td>
-      <td>B ran, torn, [bent, &amp; cut]</td>
-    </tr>
-    <tr>
-      <td>vppr-vppr_crd-im_c</td>
-      <td>Conjnd sbrd phr, VP, no-cma, mid</td>
-      <td>B ran, torn, [bent &amp; cut.]</td>
-    </tr>
-    <tr>
-      <td>ppr-ppr_crd-t_c</td>
-      <td>Conjnd sbrd prd phr, PP+XP, top</td>
-      <td>B ran, [in Rome but lost.]</td>
-    </tr>
-    <tr>
-      <td>ppr-ppr_crd-m_c</td>
-      <td>Conjnd sbrd prd phr, PP+XP, mid</td>
-      <td>B ran, sad, [in R, &amp; lost]</td>
-    </tr>
-    <tr>
-      <td>ppr-ppr_crd-im_c</td>
-      <td>Conjnd sbrd PP+XP, no-cma, mid</td>
-      <td>B ran, sad, [in R &amp; lost]</td>
-    </tr>
-    <tr>
-      <td>hd-hd_rnr_c</td>
-      <td>Right-node raising</td>
-      <td>B amdires and relies on C</td>
-    </tr>
-    <tr>
-      <td>hd-hd_rnr-nv_c</td>
-      <td>Right-node raising, not VP</td>
-      <td>B is under or replaced by C</td>
-    </tr>
-    <tr>
-      <td>np_frg_c</td>
-      <td>Fragment NP</td>
-      <td>The cat.</td>
-    </tr>
-    <tr>
-      <td>np_cnj-frg_c</td>
-      <td>Fragment conj+NP</td>
-      <td>And the cat.</td>
-    </tr>
-    <tr>
-      <td>np_nb-frg_c</td>
-      <td>Fragment N-bar</td>
-      <td>Angry cat.</td>
-    </tr>
-    <tr>
-      <td>pp_frg_c</td>
-      <td>Fragment PP</td>
-      <td>In Paris.</td>
-    </tr>
-    <tr>
-      <td>j_frg_c</td>
-      <td>Fragment adjective phrase</td>
-      <td>Angry at dogs.</td>
-    </tr>
-    <tr>
-      <td>r_scp-frg_c</td>
-      <td>Fragment scopal adverb phrase</td>
-      <td>Probably.</td>
-    </tr>
-    <tr>
-      <td>r_int-frg_c</td>
-      <td>Fragment intersective adverb</td>
-      <td>Quietly.</td>
-    </tr>
-    <tr>
-      <td>r_dsc-frg_c</td>
-      <td>Fragment discourse adverb</td>
-      <td>Yes.</td>
-    </tr>
-    <tr>
-      <td>r_cl-frg_c</td>
-      <td>Fragment clausal adverb</td>
-      <td>Because we left.</td>
-    </tr>
-    <tr>
-      <td>cl_cnj-frg_c</td>
-      <td>Fragment clause with conjunctn</td>
-      <td>And Kim stayed.</td>
-    </tr>
-    <tr>
-      <td>vp_fin-frg_c</td>
-      <td>Fragment finite VP</td>
-      <td>Chases cats.</td>
-    </tr>
-    <tr>
-      <td>vp_nfin-frg_c</td>
-      <td>Fragment nonfinite VP</td>
-      <td>To chase cats.</td>
-    </tr>
-    <tr>
-      <td>cl_cp-frg_c</td>
-      <td>Fragment embedded clause</td>
-      <td>That it chases cats.</td>
-    </tr>
-    <tr>
-      <td>cl_rel-frg_c</td>
-      <td>Fragment relative cluase</td>
-      <td>Which we assumed.</td>
-    </tr>
-    <tr>
-      <td>aj-np_frg_c</td>
-      <td>Fragment scopal modifier + NP</td>
-      <td>Probably Browne.</td>
-    </tr>
-    <tr>
-      <td>aj-np_int-frg_c</td>
-      <td>Fragment intersctv modif + NP</td>
-      <td>On Tuesday, the cat.</td>
-    </tr>
-    <tr>
-      <td>aj-pp_frg_c</td>
-      <td>Fragment scopal modif + PP</td>
-      <td>Probably in Paris.</td>
-    </tr>
-    <tr>
-      <td>aj-r_frg_c</td>
-      <td>Fragment scopal mod + adverbial</td>
-      <td>Maybe, if we can.</td>
-    </tr>
-    <tr>
-      <td>np-aj_frg_c</td>
-      <td>Fragment NP + scopal modifier</td>
-      <td>The cats, probably.</td>
-    </tr>
-    <tr>
-      <td>np-aj_rorp-frg_c</td>
-      <td>Fragment NP + PP or intsctv adv</td>
-      <td>Many problems afterwards.</td>
-    </tr>
-    <tr>
-      <td>np-aj_j-frg_c</td>
-      <td>Fragment NP + adjective phrase</td>
-      <td>Pizza ready.</td>
-    </tr>
-    <tr>
-      <td>nb-aj_frg_c</td>
-      <td>Fragment N-bar + scopal modif</td>
-      <td>Cat : a feline.</td>
-    </tr>
-    <tr>
-      <td>pp-aj_frg_c</td>
-      <td>Fragment PP + scopal modifier</td>
-      <td>In Paris before we left.</td>
-    </tr>
-    <tr>
-      <td>j-aj_frg_c</td>
-      <td>Fragment adjectv + scopal modif</td>
-      <td>Unhappy if they leave.</td>
-    </tr>
-    <tr>
-      <td>hdn-cl_prnth_c</td>
-      <td><a href="/NomHd">NomHd</a> + parenthetical clause</td>
-      <td>[Cats (they snore)] slept.</td>
-    </tr>
-    <tr>
-      <td>hdn-n_prnth_c</td>
-      <td><a href="/NomHd">NomHd</a> + parenthetical N-bar</td>
-      <td>[Some guy (democrat)] ran.</td>
-    </tr>
-    <tr>
-      <td>hdn-cl_dsh_c</td>
-      <td><a href="/NomHd">NomHd</a> + dash-marked clause</td>
-      <td>[Cats - they snore - ] ran.</td>
-    </tr>
-    <tr>
-      <td>hd-pct_c</td>
-      <td>Head + punctuation token</td>
-      <td>B [arrived -] C left.</td>
-    </tr>
-    <tr>
-      <td>cl-cl_runon_c</td>
-      <td>Run-on sentence w/two clauses</td>
-      <td>B arrived; C left.</td>
-    </tr>
-    <tr>
-      <td>cl-cl_runon-cma_c</td>
-      <td>Run-on sentence, comma-joined</td>
-      <td>B arrived, C left.</td>
-    </tr>
-    <tr>
-      <td>cl-np_runon_c</td>
-      <td>Run-on sentence fr.clause + NP</td>
-      <td>B arrived; disaster.</td>
-    </tr>
-    <tr>
-      <td>cl-np_runon-prn_c</td>
-      <td>Run-on S fr.clause + parenth NP</td>
-      <td>B arrived (disaster).</td>
-    </tr>
-    <tr>
-      <td>np-cl_numitem_c</td>
-      <td>Num+sentence</td>
-      <td>2. Browne arrived.</td>
-    </tr>
-    <tr>
-      <td>np-cl_indef_c</td>
-      <td>IndefNP+sentence</td>
-      <td>A fool, Browne arrived.</td>
-    </tr>
-    <tr>
-      <td>cl-rc_c</td>
-      <td>VP-final relative clause</td>
-      <td>It rained, which surprised C.</td>
-    </tr>
-    <tr>
-      <td>w-w_fw-seq-m_c</td>
-      <td>Seq. of italic/foreign wds, mid</td>
-      <td>[amo amas] amat</td>
-    </tr>
-    <tr>
-      <td>w-w_fw-seq-t_c</td>
-      <td>NP fr.seq.of italic/foreign wds</td>
-      <td>[[amo amas] amat]</td>
-    </tr>
-    <tr>
-      <td>xp_brck-pr_c</td>
-      <td>Paired bracketed phrase</td>
-      <td>The [sun-drenched] cat</td>
-    </tr>
-    <tr>
-      <td>xp-xp_bridge_c</td>
-      <td>Robust binary bridging rule</td>
-      <td>[We admire B] [admires C]</td>
-    </tr>
-    <tr>
-      <td>xp_bridge_c</td>
-      <td>Robust unary bridging rule</td>
-      <td>We admire B [admires C]</td>
-    </tr>
-    <tr>
-      <td><strong>Inflectional rules</strong></td>
-      <td> </td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td>n_pl_olr</td>
-      <td>Plural noun with |-s| suffix</td>
-      <td>cats</td>
-    </tr>
-    <tr>
-      <td>n_sg_ilr</td>
-      <td>Singular noun</td>
-      <td>cat</td>
-    </tr>
-    <tr>
-      <td>n_ms_ilr</td>
-      <td>Mass noun</td>
-      <td>rice</td>
-    </tr>
-    <tr>
-      <td>n_ms-cnt_ilr</td>
-      <td>Mass or count noun</td>
-      <td>[unknown noun]</td>
-    </tr>
-    <tr>
-      <td>n_pl-cur_ilr</td>
-      <td>Plural of currency noun: no |-s|</td>
-      <td>$</td>
-    </tr>
-    <tr>
-      <td>v_3s-fin_olr</td>
-      <td>Third-singular present verb</td>
-      <td>admires</td>
-    </tr>
-    <tr>
-      <td>v_n3s-bse_ilr</td>
-      <td>Non-3sing or base form verb</td>
-      <td>admire</td>
-    </tr>
-    <tr>
-      <td>v_pst_olr</td>
-      <td>Past tense verb</td>
-      <td>admired</td>
-    </tr>
-    <tr>
-      <td>v_psp_olr</td>
-      <td>Past particple verb</td>
-      <td>admired</td>
-    </tr>
-    <tr>
-      <td>v_prp_olr</td>
-      <td>Present participle verb</td>
-      <td>admiring</td>
-    </tr>
-    <tr>
-      <td>v_prp-nf_olr</td>
-      <td>Present participle verb,nonformal</td>
-      <td>admirin</td>
-    </tr>
-    <tr>
-      <td><strong>Derivational lexical rules</strong></td>
-      <td> </td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td>v_pas_odlr</td>
-      <td>Passive verb</td>
-      <td>admired</td>
-    </tr>
-    <tr>
-      <td>v_pas-p_odlr</td>
-      <td>Prepositional passive verb</td>
-      <td>referred to</td>
-    </tr>
-    <tr>
-      <td>v_pas-p-t_odlr</td>
-      <td>Prep. passive of trans. verb</td>
-      <td>added to</td>
-    </tr>
-    <tr>
-      <td>v_pas-prt-t_odlr</td>
-      <td>Passive of verb + selected PP</td>
-      <td>relied on</td>
-    </tr>
-    <tr>
-      <td>v_pas-dat_odlr</td>
-      <td>Passive of dative shift verb</td>
-      <td>given</td>
-    </tr>
-    <tr>
-      <td>v_pas-cp_odlr</td>
-      <td>Passive of cp-complement verb</td>
-      <td>said</td>
-    </tr>
-    <tr>
-      <td>v_aux-sb-inv_dlr</td>
-      <td>Subject-auxiliary inversion</td>
-      <td>Did they arrive?</td>
-    </tr>
-    <tr>
-      <td>v_aux-advadd_dlr</td>
-      <td>Addition of adverb as complement</td>
-      <td>They did not arrive.</td>
-    </tr>
-    <tr>
-      <td>v_aux-tag_dlr</td>
-      <td>Tag question auxiliary</td>
-      <td>He arrived, didn’t he?</td>
-    </tr>
-    <tr>
-      <td>v_aux-ell-ref_dlr</td>
-      <td>Elided VP compl, referentl subj</td>
-      <td>He did.</td>
-    </tr>
-    <tr>
-      <td>v_aux-ell-xpl_dlr</td>
-      <td>Elided VP compl, expletive subj</td>
-      <td>It did.</td>
-    </tr>
-    <tr>
-      <td>v_cond-inv_dlr</td>
-      <td>Conditional inversion</td>
-      <td>Had he left, we’d have left.</td>
-    </tr>
-    <tr>
-      <td>v_dat_dlr</td>
-      <td>Dative shift alternation</td>
-      <td>They gave the book to him.</td>
-    </tr>
-    <tr>
-      <td>v_np-prtcl_dlr</td>
-      <td>Particle-NP reordering</td>
-      <td>He looked the answer up.</td>
-    </tr>
-    <tr>
-      <td>v_inv-quot_dlr</td>
-      <td>Main verb inversion for quoting</td>
-      <td>He left, said Kim.</td>
-    </tr>
-    <tr>
-      <td>v_nger-intr_dlr</td>
-      <td>Nominal gerund of intrans verb</td>
-      <td>Leaving was easy.</td>
-    </tr>
-    <tr>
-      <td>v_nger-pp_dlr</td>
-      <td>Nominal gerund of PP-comp verb</td>
-      <td>Relying on Kim was wrong.</td>
-    </tr>
-    <tr>
-      <td>v_nger-tr_dlr</td>
-      <td>Nominal gerund of trans verb</td>
-      <td>The hiring of Kim was OK.</td>
-    </tr>
-    <tr>
-      <td>det_prt-of-agr_dlr</td>
-      <td>Partitive NP, PP-of, num agrmt</td>
-      <td>Some of us are ready.</td>
-    </tr>
-    <tr>
-      <td>det_prt-of-nagr_dlr</td>
-      <td>Partitive NP, PP-of, no agrmt</td>
-      <td>Each of us is ready</td>
-    </tr>
-    <tr>
-      <td>det_prt-nocmp_dlr</td>
-      <td>Partitive NP, no PP complement</td>
-      <td>Most arrived. part_nocomp</td>
-    </tr>
-    <tr>
-      <td>n_bipart_dlr</td>
-      <td>Relax bipartite constraint</td>
-      <td>The scissors isn’t sharp.</td>
-    </tr>
-    <tr>
-      <td>n_n-ed_odlr</td>
-      <td>Noun with |-ed| suffix as adj</td>
-      <td>Long-eared sheep slept.</td>
-    </tr>
-    <tr>
-      <td>v_v-re_dlr</td>
-      <td>Verb with |re-| prefix</td>
-      <td>He re-tied his shoe.</td>
-    </tr>
-    <tr>
-      <td>v_v-pre_dlr</td>
-      <td>Verb with |pre-| prefix</td>
-      <td>He pre-signed the check.</td>
-    </tr>
-    <tr>
-      <td>v_v-mis_dlr</td>
-      <td>Verb with |mis-| prefix</td>
-      <td>He mis-tied his shoe.</td>
-    </tr>
-    <tr>
-      <td>v_v-co_dlr</td>
-      <td>Verb with |co-| prefix</td>
-      <td>He co-wrote the paper.</td>
-    </tr>
-    <tr>
-      <td>v_v-un_dlr</td>
-      <td>Verb with |un-| prefix</td>
-      <td>He untied his shoes.</td>
-    </tr>
-    <tr>
-      <td>v_v-counter_dlr</td>
-      <td>Verb with |counter-| prefix</td>
-      <td>He counter-signed the bill.</td>
-    </tr>
-    <tr>
-      <td>n_det-mnth_dlr</td>
-      <td>Month name as determiner</td>
-      <td>July tenth arrived.</td>
-    </tr>
-    <tr>
-      <td>n_det-wkdy_dlr</td>
-      <td>Weekday name as determiner</td>
-      <td>We arrived Sunday morning.</td>
-    </tr>
-    <tr>
-      <td>j_n-minut_dlr</td>
-      <td>Integer as minute name</td>
-      <td>Ten sixteen is too late.</td>
-    </tr>
-    <tr>
-      <td>j_att_dlr</td>
-      <td>Attrib adj from trans pred adj</td>
-      <td>A similar cat arrived.</td>
-    </tr>
-    <tr>
-      <td>j_enough_dlr</td>
-      <td>Adj intr plus enough-complement</td>
-      <td>A big enough cat arrived.</td>
-    </tr>
-    <tr>
-      <td>j_enough-wc_dlr</td>
-      <td>Adj w/comps plus enough-complmnt</td>
-      <td>A happy enough cat arrived.</td>
-    </tr>
-    <tr>
-      <td>j_n-pre_odlr</td>
-      <td>Adj from noun plus prefix</td>
-      <td>The pre-war period endured.</td>
-    </tr>
-    <tr>
-      <td>v_j-nb-intr_dlr</td>
-      <td>Attrib adj from intrans verb</td>
-      <td>The sleeping cat stirred.</td>
-    </tr>
-    <tr>
-      <td>v_j-nb-prp-tr_dlr</td>
-      <td>Attr adj from trans prp verb</td>
-      <td>The admiring crowd ran.</td>
-    </tr>
-    <tr>
-      <td>v_j-nb-pas-tr_dlr</td>
-      <td>Attr adj from trans passive verb</td>
-      <td>The hired consultant left.</td>
-    </tr>
-    <tr>
-      <td>v_j-nb-pas-ptcl_dlr</td>
-      <td>Attr adj from passiveV+selected PP</td>
-      <td>The hoped for consultant left.</td>
-    </tr>
-    <tr>
-      <td>v_j-nme-intr_dlr</td>
-      <td>Attr adj from intr verb, nme mod</td>
-      <td>The smiling Abrams won.</td>
-    </tr>
-    <tr>
-      <td>v_j-nme-tr_dlr</td>
-      <td>Attr adj from trns verb, nme mod</td>
-      <td>Our winning Abrams smiled.</td>
-    </tr>
-    <tr>
-      <td>w_italics_dlr</td>
-      <td>Italicized word made into NP</td>
-      <td>Some say /windshield/.</td>
-    </tr>
-    <tr>
-      <td><strong>Punctuation affixation rules</strong></td>
-      <td> </td>
-      <td> </td>
-    </tr>
-    <tr>
-      <td>w_period_plr</td>
-      <td>Period affixed to end of word</td>
-      <td>cat.</td>
-    </tr>
-    <tr>
-      <td>w_qmark_plr</td>
-      <td>Question mark affixed to word</td>
-      <td>cat?</td>
-    </tr>
-    <tr>
-      <td>w_qqmark_plr</td>
-      <td>Double question mark affixed</td>
-      <td>cat??</td>
-    </tr>
-    <tr>
-      <td>w_qmark-bang_plr</td>
-      <td>Qmark and exclam point affixed</td>
-      <td>cat?!</td>
-    </tr>
-    <tr>
-      <td>w_comma_plr</td>
-      <td>Comma affixed</td>
-      <td>cat,</td>
-    </tr>
-    <tr>
-      <td>w_bang_plr</td>
-      <td>Exclamation point affixed</td>
-      <td>cat!</td>
-    </tr>
-    <tr>
-      <td>w_semicol_plr</td>
-      <td>Semicolon affixed</td>
-      <td>cat;</td>
-    </tr>
-    <tr>
-      <td>w_double_semicol_plr</td>
-      <td>Robust double semicolon</td>
-      <td>cat;;</td>
-    </tr>
-    <tr>
-      <td>w_rparen_plr</td>
-      <td>Right parenthesis affixed</td>
-      <td>cat)</td>
-    </tr>
-    <tr>
-      <td>w_comma-rp_plr</td>
-      <td>Comma wrongly before right paren</td>
-      <td>cat,)</td>
-    </tr>
-    <tr>
-      <td>w_lparen_plr</td>
-      <td>Left parenthesis prefixed</td>
-      <td>(cat</td>
-    </tr>
-    <tr>
-      <td>w_rbrack_plr</td>
-      <td>Right square bracket affixed</td>
-      <td>cat]</td>
-    </tr>
-    <tr>
-      <td>w_lbrack_plr</td>
-      <td>Left square bracket prefixed</td>
-      <td>[cat</td>
-    </tr>
-    <tr>
-      <td>w_dqright_plr</td>
-      <td>Double quote affixed to end</td>
-      <td>cat”</td>
-    </tr>
-    <tr>
-      <td>w_dqleft_plr</td>
-      <td>Double quote prefixed</td>
-      <td>“cat</td>
-    </tr>
-    <tr>
-      <td>w_sqright_plr</td>
-      <td>Single quote affixed to end</td>
-      <td>cat’</td>
-    </tr>
-    <tr>
-      <td>w_sqleft_plr</td>
-      <td>Single quote prefixed</td>
-      <td>‘cat</td>
-    </tr>
-    <tr>
-      <td>w_hyphen_plr</td>
-      <td>Hyphen affixed to end</td>
-      <td>cat-</td>
-    </tr>
-    <tr>
-      <td>w_threedot_plr</td>
-      <td>Three dots affixed to end</td>
-      <td>cat…</td>
-    </tr>
-    <tr>
-      <td>w_asterisk_plr</td>
-      <td>Asterisk affixed to end</td>
-      <td>cat*</td>
-    </tr>
-    <tr>
-      <td>w_asterisk-pre_plr</td>
-      <td>Asterisk prefixed to word</td>
-      <td>*cat</td>
-    </tr>
-    <tr>
-      <td>w_comma-nf_plr</td>
-      <td>Nonformal comma affixed</td>
-      <td>cat,</td>
-    </tr>
-    <tr>
-      <td>w_italright_plr</td>
-      <td>Italics mark |iยฆ| affixed</td>
-      <td>catiยฆ</td>
-    </tr>
-    <tr>
-      <td>w_italleft_plr</td>
-      <td>Italics mark |ยฆi| prefixed</td>
-      <td>ยฆicat</td>
-    </tr>
-    <tr>
-      <td>w_drop-ileft_plr</td>
-      <td>Ignored italics mark affixed</td>
-      <td>catiยฆ</td>
-    </tr>
-    <tr>
-      <td>w_drop-iright_plr</td>
-      <td>Ignored italics mark prefixed</td>
-      <td>catiยฆ</td>
-    </tr>
-  </tbody>
-</table>
-
-<p>Last update: 2015-08-25 by DanFlickinger [<a href="https://github.com/delph-in/docs/wiki/ErgRules/_edit">edit</a>]</p>
+<p>|                                  |                                           |                                             |
+|———————————-|——————————————-|———————————————|
+| Rule type                        | Annotations                               | Example                                     |
+| <strong>Syntactic constructions</strong>      |                                           |                                             |
+| sb-hd_mc_c                     | Head+subject, main clause                 | C arrived.                                  |
+| sb-hd_nmc_c                    | Hd+subject, embedded clause               | B thought [C arrived].                    |
+| sb-hd_q_c                      | Hd+subj, in-situ WH                       | B ate what?                                 |
+| hd-cmp_u_c                     | Hd+complement                             | B [hired C].                              |
+| hd-cmp_2_c                     | Hd+second complement                      | B [gave to C] E.                          |
+| sp-hd_n_c                      | Hd+specifier, nonhd = sem hd              | [Every cat] slept.                        |
+| sp-hd_hc_c                     | Hd+specifier, hd = sem hd                 | The [very old] cat slept.                 |
+| sp-hd_hc-cmp_c                 | Hd+specifier w/comop, hd = sem hd         | The [more ancient] cat than mine slept.   |
+| aj-hd_scp_c                    | Hd+preceding scopal adjunct               | Probably B won.                             |
+| aj-hd_scp-xp_c                 | Hd+prec.scop.adj, VP head                 | B [probably won].                         |
+| aj-hd_scp-pr_c                 | Hd+pr.scop.adj, VP hd, prd pnct           | If C loses, B wins.                         |
+| aj-hd_int_c                    | Hd+prec.intersective adjunct              | B [quickly left].                         |
+| aj-hd_int-inv_c                | Hd+prec.int.adjnct, hd inverted           | On Tuesday, can you stay?                   |
+| aj-hd_int-rel_c                | Hd+prec.int.adjnct, hd rel-vp             | which [on Tuesday met Kim]                |
+| hd-aj_scp_c                    | Hd+following scopal adjunct               | B wins if C loses.                          |
+| hd-aj_scp-pr_c                 | Hd+foll.scop.adjnct, paird pnct           | B wins, if C loses.                         |
+| hd-aj_int-unsl_c               | Hd+foll.int.adjct, no gap                 | B [left quietly].                         |
+| hd-aj_int-sl_c                 | Hd+foll.int.adjct, gap in adj             | That cafe, we [dined in].                 |
+| hd-aj_vmod_c                   | Hd+foll.int.adjct, prec. NP cmp           | B [saw here] a big parade.                |
+| hd-aj_vmod-s_c                 | Hd+foll.scop.adjct, prec. NP cmp          | B [saw here] a big parade.                |
+| hd-aj_cmod_c                   | Conj+foll.int.adjct, prec NP cmp          | B [and yesterday] C arose.                |
+| hd-aj_cmod-s_c                 | Conj+foll.scop.adjct, prec NP cmp         | B [and probably] C arose.                 |
+| aj-hdn_norm_c                  | Nominal head + preceding adjnct           | The [big cat] slept.                      |
+| aj-hdn_adjn_c                  | <a href="/NomHd">NomHd</a>+prec.adj, hd pre-modified | The [big old cat] slept.                  |
+| hdn-aj_rc_c                    | <a href="/NomHd">NomHd</a>+following relative clause | The [cat we chased] ran.                  |
+| hdn-aj_rc-pr_c                 | <a href="/NomHd">NomHd</a>+foll.rel.cl, paired pnct  | A [cat, which ran,] fell.                 |
+| hdn-aj_redrel_c                | <a href="/NomHd">NomHd</a>+foll.predicative phrase   | A [cat in a tree] fell.                   |
+| hdn-aj_redrel-pr_c             | <a href="/NomHd">NomHd</a>+foll.prd.phr, paired pnct | A [cat, in a tree,] fell.                 |
+| cl_rc-fin-nwh_c                | Rel.clause from fin.S, no relpr           | The cat [we chased] ran.                  |
+| cl_rc-inf-nwh_c                | Rel.cl. fr.infin VP, non-sb gap           | People [to admire] sang.                  |
+| cl_rc-inf-nwh-sb_c             | Rel.cl. from infin VP, subj gap           | Dogs [to chase cats] run.                 |
+| cl_rc-instr_c                  | Rel.cl. fr.inf.VP,no gap, instr           | Money [to buy lunch] fell.                |
+| cl_rc-fin-modgap_c             | Rel cl. from fin-S, modifier gap          | The day [we arrived] elapsed.             |
+| cl_rc-inf-modgap_c             | Rel cl. from inf-S, modifier gap          | The day [to arrive] elapsed.              |
+| vp_rc-redrel_c                 | Rel.cl. from predicative VP               | Dogs [chasing cats] bark.                 |
+| hd_optcmp_c                    | Head discharges optional compl            | B [ate] already.                          |
+| hdn_optcmp_c                   | <a href="/NomHd">NomHd</a> discharges opt complement | The [picture] appeared.                   |
+| hd_xcmp_c                      | Head extracts compl (to SLASH)            | Who does B [admire] now?                  |
+| hd_xsb-fin_c                   | Extract subject from finite hd            | Who do you think [went?]                  |
+| hd_xaj-int-vp_c                | Extract int.adjunct from VP               | Here we [stand.]                          |
+| hd_xaj-int-s_c                 | Extract int.adjunct from S                | When is he Kim?                             |
+| hd_xaj-crd-s_c                 | Extract adjunct from coord S              | Now B arises and C arrives.                 |
+| flr-hd_nwh_c                   | Filler-head, non-wh filler                | Kim, we should hire.                        |
+| flr-hd_nwh-nc_c                | Fill-head, non-wh, no NP, no comma        | Today we should arrive.                     |
+| flr-hd_nwh-nc-np_c             | Fill-head, non-wh, NP, no comma           | Kim we should hire.                         |
+| flr-hd_wh-mc_c                 | Fill-head, wh non-subj, main cl           | Who did they hire?                          |
+| flr-hd_wh-mc-sb_c              | Fill-head, wh subj, main cl               | Who left?                                   |
+| flr-hd_wh-nmc-fin_c            | Fill-head, wh, fin hd, embed cl           | B wondered [who won.]                     |
+| flr-hd_wh-nmc-inf_c            | Fill-head, wh, inf hd, embed cl           | B knew [who to hire.]                     |
+| flr-hd_rel-fin_c               | Fill-head, finite, relative cls           | people [who slept]                        |
+| flr-hd_rel-inf_c               | Fill-head, inf, relative cls              | people [on whom to rely]                  |
+| hd_imp_c                       | Imperative clause from base VP            | Hire Browne!                                |
+| hd_yesno_c                     | Yes-no question from inverted S           | Did B arrive?                               |
+| hd_inv-nwh_c                   | Inverted non-wh declarative cls           | Never [has B won here.]                   |
+| hdn_bnp_c                      | Bare noun phrase (no determiner)          | [Cats] sleep.                             |
+| hdn_bnp-prd_c                  | Bare predicative noun phrase              | B will be president.                        |
+| hdn_bnp-pn_c                   | Bare NP from proper name                  | [Browne] arrived.                         |
+| hdn_bnp-num_c                  | Bare NP from number                       | [42] is even.                             |
+| hdn_bnp-qnt_c                  | NP from already-quantified dtr            | [Some in Paris] slept.                    |
+| hdn_bnp-sg-nmod_c              | NP fr. detless bare sg N-N cpnd           | It was at [eye level.]                    |
+| hdn_bnp-sg-jmod_c              | NP fr. detless bare sg adj+noun           | It was at [close range.]                  |
+| hdn_bnp-sg-nomod_c             | NP fr. detless bare sg unmodfd            | It was within [range.]                    |
+| hdn_bnp-vger_c                 | NP from verbal gerund                     | Hiring them was easy.                       |
+| np-hdn_cpd_c                   | Compound from proper-name+noun            | The [IBM report] arrived.                 |
+| np-hdn_cpd-pr_c                | Compount, proper+noun, paired pct         | The [Cupertino, Calif., company] arrived. |
+| np-hdn_ttl-cpd_c               | Compound from title+proper-name           | [Professor Browne] left.                  |
+| np-hdn_ttl-cpd-pl_c            | Compound from title+plural proper         | |Mssrs. B and C left.                      |
+| np-hdn_nme-cpd_c               | Compound from two proper names            | [Pat Browne] left.                        |
+| np-hdn_num-cpd_c               | Compound from noun+number                 | Do [problem 6] first.                     |
+| np-hdn_cty-cpd_c               | Compound from city+state names            | [Portland, Oregon] grew.                  |
+| n-hdn_cpd_c                    | Compound from two normal nouns            | The [guard dog] barked.                   |
+| n-hdn_j-n-cpd_c                | Compound from noun+[adj+noun]           | kitchen heavy appliance                     |
+| n-v_j-cpd_c                    | Compound from noun+prd_verb              | a [snow-covered] town                     |
+| n-j_j-cpd_c                    | Compound from noun+adj                    | a [dog-friendly] town                     |
+| n-j_j-t-cpd_c                  | Compound from noun+trans adj              | a [dog-happy] town                        |
+| j_n-ed_c                       | Adj-phr from adj + noun+ed                | the [long eared] dog                      |
+| hdn-np_app_c                   | Appositive NP from two NPs                | [Joe the plumber] spoke.                  |
+| hdn-np_app-pr_c                | Appositive fr.two NPs, w/commas           | [Joe, the plumber,] spoke.                |
+| hdn-np_app-r_c                 | Appositive fr NP+propNP, no paired pnct   | [The plumber Joe] arose.                  |
+| hdn-np_app-r-pr_c              | Appositive fr NP+propNP, w/commas         | [The plumber, Joe,] arrived.              |
+| hdn-np_app-num_c               | Appositive fr NP+numNP                    | [Joe, 22,] arose.                         |
+| hdn-np_app-idf_c               | Appositive with indef.NP modifr           | [Joe, a plumber,] spoke.                  |
+| hdn-np_app-idf-p_c             | Appositive, indef.NP, parnthszd           | [Joe (a plumber)] spoke.                  |
+| hdn-np_app-nbr_c               | Appositive with N-bar modifier            | Kim, president of the PTA                   |
+| np_adv_c                       | Modifier phrase from NP                   | B arrived [this week.]                    |
+| np_adv-yr_c                    | Modifier phrase from year NP              | Jan. 11 [2008] arrived.                   |
+| np_adv-mnp_c                   | Modifier phrase from measure NP           | Markets fell [50 points.]                 |
+| hdn_np-num_c                   | NP from number                            | [700 billion] is too much.                |
+| n-n_num-seq_c                  | NP from sequence of numbers               | The number is [48 205 53.]                |
+| hdn_color_c                    | noun from color adjective                 | [Red] suits you.                          |
+| num-n_mnp_c                    | Measure NP from number+noun               | A [two liter] jar broke.                  |
+| n-num_mnp_c                    | Measure NP from meas-symbol+num           | We dislike [$6] fuel.                     |
+| n_mnp_c                        | Measure NP from bare noun                 | This road is [miles] long.                |
+| mnp_deg_c                      | Degree phrase fr meas NP, attrib          | The [5 meter] tall tree fell.             |
+| mnp_deg-prd_c                  | Deg phrase fr meas NP, predictv           | Trees are [5 meters] tall.                |
+| num_det_c                      | Determiner from number                    | [Ten cats] slept.                         |
+| num_prt-nc_c                   | Partitive NP fr.number, no cmp            | [Six] were sleeping.                      |
+| num_prt-of_c                   | Partitive fr.number, of_PP cmp           | [Six] of them slept.                      |
+| num_prt-det-nc_c               | Partitive fr.det+number, no cmp           | [These six] slept.                        |
+| num_prt-det-of_c               | Partitive fr.det+num, of-PP cmp           | [The first of them] left.                 |
+| np_prt-poss_c                  | Partitive fr. possessive NP               | [The cat’s] is empty.                     |
+| np-prdp_vpmod_c                | Modifier from pred.small clause           | We ran, [Kim petrified].                  |
+| np_voc-post_c                  | Vocative modifier fr.NP, postmod          | Where are we, [Kim?]                      |
+| np_voc-pre_c                   | Vocative modifier, premod                 | [Kim,] where are we?                      |
+| cl_np-wh_c                     | NP from WH clause                         | [What he saw] scared him.                 |
+| vp_cp-sb_c                     | VP requiring non-WH clausal subj          | That B won [bothered C.]                  |
+| vp_cp-sb-inf_c                 | VP requiring non-WH inf.cls subj          | For B to win [bothered C.]                |
+| vp_np-ger_c                    | NP from verbal gerund                     | Winning money [pleased C.]                |
+| vp_sbrd-prd-prp_c              | Pred.subord phr from prp-VP               | Kim arrived, [smiling.]                   |
+| vp_sbrd-prd-pas_c              | Pred.subord phr from passive VP           | Kim arrived, [inspired.]                  |
+| vp_sbrd-prd-aj_c               | Pred.subord phr from adjctv phr           | Kim arrived, [very happy.]                |
+| vp_sbrd-prd-ell_c              | Pred.subord phr, modfs ellip.VP           | Kim might, [given time.]                  |
+| j_sbrd-pre_c                   | Pred.subord phr fr.adj, prehead           | [Unhappy,] we left.                       |
+| vp_sbrd-pre_c                  | Pred.subord phr fr.VP, prehead            | [Seeing Kim] they left.                   |
+| vp_sbrd-pre-lx_c               | Pred.subord phr fr.lex VP, prehd          | [Smiling,] Kim arose.                     |
+| hd-cl_fr-rel_c                 | Free relative clause                      | We run whenever Kim runs.                   |
+| mrk-nh_evnt_c                  | Marker + event-based complement           | B sang [and danced.]                      |
+| mrk-nh_cl_c                    | Marker + clause                           | B sang [and C danced.]                    |
+| mrk-nh_nom_c                   | Marker + NP                               | Cats [and some dogs] ran.                 |
+| mrk-nh_n_c                     | Marker + N-bar                            | Every cat [and dog] ran.                  |
+| mrk-nh_atom_c                  | Paired marker + phrase                    | [Both B] and C arrived.                   |
+| vp-vp_crd-fin-t_c              | Conjnd VP, fin, top                       | B [sees C and chases D.]                  |
+| vp-vp_crd-fin-m_c              | Conjnd VP, fin, mid                       | B rose, [sang, &amp; chased D.]               |
+| vp-vp_crd-fin-im_c             | Conjnd VP, fin, mid, no comma             | B rose [sang &amp; chased D.]                 |
+| vp-vp_crd-nfin-t_c             | Conjnd VP, nonfin, top                    | B’ll [see C and chase D.]                 |
+| vp-vp_crd-nfin-m_c             | Conjnd VP, nonfin, mid                    | B’ll rise, [sing, &amp; see D.]               |
+| vp-vp_crd-nfin-im_c            | Conjnd VP, nonfin, mid, no comma          | B’ll rise [sing &amp; see D.]                 |
+| v-v_crd-fin-ncj_c              | Conjnd V,VP, fin, no conjunctn            | B [sees C, chases D.]                     |
+| v-v_crd-nfin-ncj_c             | Conjnd V,VP, nonfin. no cnjct             | Be will [see C, chase D.]                 |
+| cl-cl_crd-t_c                  | Conjoined clauses, non-int, top           | B sang and C danced.                        |
+| cl-cl_crd-int-t_c              | Conjnd clauses, interrog, top             | Who sang and who danced?                    |
+| cl-cl_crd-m_c                  | Conjoined clauses, mid                    | B sang, [C ran, &amp; D sat.]                 |
+| cl-cl_crd-im_c                 | Conjoined clauses, no cma, mid            | B sang, [C ran &amp; D sat.]                  |
+| cl-cl_crd-rc-t_c               | Conjoined relative clauses                | people [who fly &amp; who run]                |
+| pp-pp_crd-t_c                  | Conjnd PP, top                            | B is [in Paris and at work]               |
+| pp-pp_crd-m_c                  | Conjnd PP, mid                            | B’s [here, in P, &amp; at work]               |
+| pp-pp_crd-im_c                 | Conjnd PP, mid, no comma                  | B’s [here, in P &amp; at work]                |
+| np-np_crd-t_c                  | Conjoined noun phrases, top               | [The cat and the dog] ran.                |
+| np-np_crd-i-t_c                | Conjoined accus-case pro and NP           | [Me and Kim] left.                        |
+| np-np_crd-i2-t_c               | Conjoined NP and accus-case pro           | [Kim and me] left.                        |
+| np-np_crd-i3-t_c               | Conjoined NP and nom-case pro             | B saw [Kim and I].                        |
+| np-np_crd-m_c                  | Conjoined noun phrases, mid               | Kim, [Pat, and Tom] ran.                  |
+| np-np_crd-im_c                 | Conjoined NPs, no comma, mid              | Kim, [Pat and Tom] ran.                   |
+| np-np_crd-nc-t_c               | Conjoined NPs, no comma, top              | Buy [tapes, films.]                       |
+| np-np_crd-nc-m_c               | Conjoined NPs, no comma, mid              | Buy books, [tapes, films.]                |
+| n-n_crd-nc-m_c                 | Conjoined nouns, no comma, mid            | Buy a book, [tape, film.]                 |
+| n-n_crd-t_c                    | Conjnd Ns, sym agr, nondiv, top           | The [cat and dog] ran.                    |
+| n-n_crd-div-t_c                | Conjnd Ns, sym agr, div, top              | The [cats and dogs] ran.                  |
+| n-n_crd-2-t_c                  | Conjnd Ns, sym agr, nondiv, top           | The [cat and dog] ran.                    |
+| n-n_crd-3-t_c                  | Conjnd Ns, single referent, top           | My [friend and guide] ran.                |
+| n-n_crd-m_c                    | Conjoined N-bars, mid                     | No cat, [dog, or rat] ran.                |
+| n-n_crd-im_c                   | Conjoined N-bars, no comma, mid           | No cat, [dog or rat] ran.                 |
+| n-n_crd-asym-t_c               | Conjnd Ns, asym agr, sg+pl, top           | The [cat and dogs] ran.                   |
+| n-n_crd-asym2-t_c              | Conjnd Ns, asym agr, pl+sg, top           | The [cats and dog] ran.                   |
+| n-j_crd-t_c                    | Conjoined noun +adjective                 | [marble and wooden] stairs                |
+| j-n_crd-t_c                    | Conjoined adjective + noun                | [wooden and marble] stairs                |
+| j-j_crd-att-t_c                | Conjnd attrib adjectives, top             | the [old and young] cats                  |
+| j-j_crd-prd-t_c                | Conjnd pred adjs, top                     | B is [young and tall].                    |
+| j-j_crd-prd-m_c                | Conjnd pred adjs, mid                     | B is old, [big, and tall].                |
+| j-j_crd-prd-im_c               | Conjnd pred adjs, no comma, mid           | B is old, [big and tall].                 |
+| jpr-jpr_crd-t_c                | Conjnd subord prd phr, adj, top           | B ran, [happy but tired.]                 |
+| jpr-jpr_crd-m_c                | Conjnd subord prd phr, adj, mid           | B ran, hot, [fit, and low]                |
+| jpr-jpr_crd-im_c               | Conjnd sbrd phr, adj,no-cma, mid          | B ran, hot, [fit and low.]                |
+| jpr-vpr_crd-t_c                | Conjnd sbrd prd phr, adj,V, top           | B ran, [happy and freed.]                 |
+| jpr-vpr_crd-m_c                | Conjnd sbrd prd phr, adj,V, mid           | B ran, hot, [fit, and lit.]               |
+| jpr-vpr_crd-im_c               | Conjnd sbd phr, adj,V,no-cma, mid         | B ran, hot, [fit and lit.]                |
+| vppr-vppr_crd-t_c              | Conjnd subord prd phr, VP, top            | B ran, [feared and loved.]                |
+| vppr-vppr_crd-m_c              | Conjnd subord prd phr, VP, mid            | B ran, torn, [bent, &amp; cut]                |
+| vppr-vppr_crd-im_c             | Conjnd sbrd phr, VP, no-cma, mid          | B ran, torn, [bent &amp; cut.]                |
+| ppr-ppr_crd-t_c                | Conjnd sbrd prd phr, PP+XP, top           | B ran, [in Rome but lost.]                |
+| ppr-ppr_crd-m_c                | Conjnd sbrd prd phr, PP+XP, mid           | B ran, sad, [in R, &amp; lost]                |
+| ppr-ppr_crd-im_c               | Conjnd sbrd PP+XP, no-cma, mid            | B ran, sad, [in R &amp; lost]                 |
+| hd-hd_rnr_c                    | Right-node raising                        | B amdires and relies on C                   |
+| hd-hd_rnr-nv_c                 | Right-node raising, not VP                | B is under or replaced by C                 |
+| np_frg_c                       | Fragment NP                               | The cat.                                    |
+| np_cnj-frg_c                   | Fragment conj+NP                          | And the cat.                                |
+| np_nb-frg_c                    | Fragment N-bar                            | Angry cat.                                  |
+| pp_frg_c                       | Fragment PP                               | In Paris.                                   |
+| j_frg_c                        | Fragment adjective phrase                 | Angry at dogs.                              |
+| r_scp-frg_c                    | Fragment scopal adverb phrase             | Probably.                                   |
+| r_int-frg_c                    | Fragment intersective adverb              | Quietly.                                    |
+| r_dsc-frg_c                    | Fragment discourse adverb                 | Yes.                                        |
+| r_cl-frg_c                     | Fragment clausal adverb                   | Because we left.                            |
+| cl_cnj-frg_c                   | Fragment clause with conjunctn            | And Kim stayed.                             |
+| vp_fin-frg_c                   | Fragment finite VP                        | Chases cats.                                |
+| vp_nfin-frg_c                  | Fragment nonfinite VP                     | To chase cats.                              |
+| cl_cp-frg_c                    | Fragment embedded clause                  | That it chases cats.                        |
+| cl_rel-frg_c                   | Fragment relative cluase                  | Which we assumed.                           |
+| aj-np_frg_c                    | Fragment scopal modifier + NP             | Probably Browne.                            |
+| aj-np_int-frg_c                | Fragment intersctv modif + NP             | On Tuesday, the cat.                        |
+| aj-pp_frg_c                    | Fragment scopal modif + PP                | Probably in Paris.                          |
+| aj-r_frg_c                     | Fragment scopal mod + adverbial           | Maybe, if we can.                           |
+| np-aj_frg_c                    | Fragment NP + scopal modifier             | The cats, probably.                         |
+| np-aj_rorp-frg_c               | Fragment NP + PP or intsctv adv           | Many problems afterwards.                   |
+| np-aj_j-frg_c                  | Fragment NP + adjective phrase            | Pizza ready.                                |
+| nb-aj_frg_c                    | Fragment N-bar + scopal modif             | Cat : a feline.                             |
+| pp-aj_frg_c                    | Fragment PP + scopal modifier             | In Paris before we left.                    |
+| j-aj_frg_c                     | Fragment adjectv + scopal modif           | Unhappy if they leave.                      |
+| hdn-cl_prnth_c                 | <a href="/NomHd">NomHd</a> + parenthetical clause    | [Cats (they snore)] slept.                |
+| hdn-n_prnth_c                  | <a href="/NomHd">NomHd</a> + parenthetical N-bar     | [Some guy (democrat)] ran.                |
+| hdn-cl_dsh_c                   | <a href="/NomHd">NomHd</a> + dash-marked clause      | [Cats - they snore - ] ran.               |
+| hd-pct_c                        | Head + punctuation token                  | B [arrived -] C left.                     |
+| cl-cl_runon_c                  | Run-on sentence w/two clauses             | B arrived; C left.                          |
+| cl-cl_runon-cma_c              | Run-on sentence, comma-joined             | B arrived, C left.                          |
+| cl-np_runon_c                  | Run-on sentence fr.clause + NP            | B arrived; disaster.                        |
+| cl-np_runon-prn_c              | Run-on S fr.clause + parenth NP           | B arrived (disaster).                       |
+| np-cl_numitem_c                | Num+sentence                              | 2. Browne arrived.                         |
+| np-cl_indef_c                  | IndefNP+sentence                          | A fool, Browne arrived.                     |
+| cl-rc_c                         | VP-final relative clause                  | It rained, which surprised C.               |
+| w-w_fw-seq-m_c                 | Seq. of italic/foreign wds, mid           | [amo amas] amat                           |
+| w-w_fw-seq-t_c                 | NP fr.seq.of italic/foreign wds           | [[amo amas] amat]                       |
+| xp_brck-pr_c                   | Paired bracketed phrase                   | The [sun-drenched] cat                    |
+| xp-xp_bridge_c                 | Robust binary bridging rule               | [We admire B] [admires C]               |
+| xp_bridge_c                    | Robust unary bridging rule                | We admire B [admires C]                   |
+| <strong>Inflectional rules</strong>           |                                           |                                             |
+| n_pl_olr                       | Plural noun with |-s| suffix            | cats                                        |
+| n_sg_ilr                       | Singular noun                             | cat                                         |
+| n_ms_ilr                       | Mass noun                                 | rice                                        |
+| n_ms-cnt_ilr                   | Mass or count noun                        | [unknown noun]                            |
+| n_pl-cur_ilr                   | Plural of currency noun: no |-s|        | $                                           |
+| v_3s-fin_olr                   | Third-singular present verb               | admires                                     |
+| v_n3s-bse_ilr                  | Non-3sing or base form verb               | admire                                      |
+| v_pst_olr                      | Past tense verb                           | admired                                     |
+| v_psp_olr                      | Past particple verb                       | admired                                     |
+| v_prp_olr                      | Present participle verb                   | admiring                                    |
+| v_prp-nf_olr                   | Present participle verb,nonformal         | admirin                                     |
+| <strong>Derivational lexical rules</strong>   |                                           |                                             |
+| v_pas_odlr                     | Passive verb                              | admired                                     |
+| v_pas-p_odlr                   | Prepositional passive verb                | referred to                                 |
+| v_pas-p-t_odlr                 | Prep. passive of trans. verb              | added to                                    |
+| v_pas-prt-t_odlr               | Passive of verb + selected PP             | relied on                                   |
+| v_pas-dat_odlr                 | Passive of dative shift verb              | given                                       |
+| v_pas-cp_odlr                  | Passive of cp-complement verb             | said                                        |
+| v_aux-sb-inv_dlr               | Subject-auxiliary inversion               | Did they arrive?                            |
+| v_aux-advadd_dlr               | Addition of adverb as complement          | They did not arrive.                        |
+| v_aux-tag_dlr                  | Tag question auxiliary                    | He arrived, didn’t he?                      |
+| v_aux-ell-ref_dlr              | Elided VP compl, referentl subj           | He did.                                     |
+| v_aux-ell-xpl_dlr              | Elided VP compl, expletive subj           | It did.                                     |
+| v_cond-inv_dlr                 | Conditional inversion                     | Had he left, we’d have left.                |
+| v_dat_dlr                      | Dative shift alternation                  | They gave the book to him.                  |
+| v_np-prtcl_dlr                 | Particle-NP reordering                    | He looked the answer up.                    |
+| v_inv-quot_dlr                 | Main verb inversion for quoting           | He left, said Kim.                          |
+| v_nger-intr_dlr                | Nominal gerund of intrans verb            | Leaving was easy.                           |
+| v_nger-pp_dlr                  | Nominal gerund of PP-comp verb            | Relying on Kim was wrong.                   |
+| v_nger-tr_dlr                  | Nominal gerund of trans verb              | The hiring of Kim was OK.                   |
+| det_prt-of-agr_dlr             | Partitive NP, PP-of, num agrmt            | Some of us are ready.                       |
+| det_prt-of-nagr_dlr            | Partitive NP, PP-of, no agrmt             | Each of us is ready                         |
+| det_prt-nocmp_dlr              | Partitive NP, no PP complement            | Most arrived. part_nocomp                  |
+| n_bipart_dlr                   | Relax bipartite constraint                | The scissors isn’t sharp.                   |
+| n_n-ed_odlr                    | Noun with |-ed| suffix as adj           | Long-eared sheep slept.                     |
+| v_v-re_dlr                     | Verb with |re-| prefix                  | He re-tied his shoe.                        |
+| v_v-pre_dlr                    | Verb with |pre-| prefix                 | He pre-signed the check.                    |
+| v_v-mis_dlr                    | Verb with |mis-| prefix                 | He mis-tied his shoe.                       |
+| v_v-co_dlr                     | Verb with |co-| prefix                  | He co-wrote the paper.                      |
+| v_v-un_dlr                     | Verb with |un-| prefix                  | He untied his shoes.                        |
+| v_v-counter_dlr                | Verb with |counter-| prefix             | He counter-signed the bill.                 |
+| n_det-mnth_dlr                 | Month name as determiner                  | July tenth arrived.                         |
+| n_det-wkdy_dlr                 | Weekday name as determiner                | We arrived Sunday morning.                  |
+| j_n-minut_dlr                  | Integer as minute name                    | Ten sixteen is too late.                    |
+| j_att_dlr                      | Attrib adj from trans pred adj            | A similar cat arrived.                      |
+| j_enough_dlr                   | Adj intr plus enough-complement           | A big enough cat arrived.                   |
+| j_enough-wc_dlr                | Adj w/comps plus enough-complmnt          | A happy enough cat arrived.                 |
+| j_n-pre_odlr                   | Adj from noun plus prefix                 | The pre-war period endured.                 |
+| v_j-nb-intr_dlr                | Attrib adj from intrans verb              | The sleeping cat stirred.                   |
+| v_j-nb-prp-tr_dlr              | Attr adj from trans prp verb              | The admiring crowd ran.                     |
+| v_j-nb-pas-tr_dlr              | Attr adj from trans passive verb          | The hired consultant left.                  |
+| v_j-nb-pas-ptcl_dlr            | Attr adj from passiveV+selected PP        | The hoped for consultant left.              |
+| v_j-nme-intr_dlr               | Attr adj from intr verb, nme mod          | The smiling Abrams won.                     |
+| v_j-nme-tr_dlr                 | Attr adj from trns verb, nme mod          | Our winning Abrams smiled.                  |
+| w_italics_dlr                  | Italicized word made into NP              | Some say /windshield/.                      |
+| <strong>Punctuation affixation rules</strong> |                                           |                                             |
+| w_period_plr                   | Period affixed to end of word             | cat.                                        |
+| w_qmark_plr                    | Question mark affixed to word             | cat?                                        |
+| w_qqmark_plr                   | Double question mark affixed              | cat??                                       |
+| w_qmark-bang_plr               | Qmark and exclam point affixed            | cat?!                                       |
+| w_comma_plr                    | Comma affixed                             | cat,                                        |
+| w_bang_plr                     | Exclamation point affixed                 | cat!                                        |
+| w_semicol_plr                  | Semicolon affixed                         | cat;                                        |
+| w_double_semicol_plr          | Robust double semicolon                   | cat;;                                       |
+| w_rparen_plr                   | Right parenthesis affixed                 | cat)                                        |
+| w_comma-rp_plr                 | Comma wrongly before right paren          | cat,)                                       |
+| w_lparen_plr                   | Left parenthesis prefixed                 | (cat                                        |
+| w_rbrack_plr                   | Right square bracket affixed              | cat]                                       |
+| w_lbrack_plr                   | Left square bracket prefixed              | [cat                                       |
+| w_dqright_plr                  | Double quote affixed to end               | cat”                                        |
+| w_dqleft_plr                   | Double quote prefixed                     | “cat                                        |
+| w_sqright_plr                  | Single quote affixed to end               | cat’                                        |
+| w_sqleft_plr                   | Single quote prefixed                     | ‘cat                                        |
+| w_hyphen_plr                   | Hyphen affixed to end                     | cat-                                        |
+| w_threedot_plr                 | Three dots affixed to end                 | cat…                                      |
+| w_asterisk_plr                 | Asterisk affixed to end                   | cat*                                       |
+| w_asterisk-pre_plr             | Asterisk prefixed to word                 | *cat                                       |
+| w_comma-nf_plr                 | Nonformal comma affixed                   | cat,                                        |
+| w_italright_plr                | Italics mark |iยฆ| affixed              | catiยฆ                                      |
+| w_italleft_plr                 | Italics mark |ยฆi| prefixed             | ยฆicat                                      |
+| w_drop-ileft_plr               | Ignored italics mark affixed              | catiยฆ                                      |
+| w_drop-iright_plr              | Ignored italics mark prefixed             | catiยฆ                                      |</p>
+<update date="" omitted="" for="" speed="">
+</update>
 
         
       </section>

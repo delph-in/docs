@@ -89,5 +89,4 @@ DELPH-IN systems and think might be worth sharing, list it here.
   
   A docker installation of LOGON and ACE and its dependents. Some improvements over the initial [LkbMacintosh](/delph-in/docs/wiki/LkbMacintosh).
 - [Heart of Gold](https://delph-in.github.io/docs/garage/HeartofgoldTop): XML-based middleware for the integration of deep and shallow NLP components
-
-Last update: 2023-01-17 by T.J. Trimble [[edit](https://github.com/delph-in/docs/wiki/ToolsTop/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

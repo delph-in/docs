@@ -4,13 +4,13 @@ documentation --- details may change)
 
 Contents
 
-1. [Database Fields](https://delph-in.github.io/docs/grammars/JacyLexDb)
-   1. [TDL Fields](https://delph-in.github.io/docs/grammars/JacyLexDb)
-   2. [All Fields](https://delph-in.github.io/docs/grammars/JacyLexDb)
-2. [Lexicon Interaction with CVS](https://delph-in.github.io/docs/grammars/JacyLexDb)
-3. [Set Up](https://delph-in.github.io/docs/grammars/JacyLexDb)
-4. [ToDo](https://delph-in.github.io/docs/grammars/JacyLexDb)
-5. [Priveleges](https://delph-in.github.io/docs/grammars/JacyLexDb)
+1. [Database Fields](https://delph-in.github.io/docs/grammars/JacyLexDb#Database_Fields)
+   1. [TDL Fields](https://delph-in.github.io/docs/grammars/JacyLexDb#TDL_Fields)
+   2. [All Fields](https://delph-in.github.io/docs/grammars/JacyLexDb#All_Fields)
+2. [Lexicon Interaction with CVS](https://delph-in.github.io/docs/grammars/JacyLexDb#Lexicon_Interaction_with_CVS)
+3. [Set Up](https://delph-in.github.io/docs/grammars/JacyLexDb#Set_Up)
+4. [ToDo](https://delph-in.github.io/docs/grammars/JacyLexDb#ToDo)
+5. [Priveleges](https://delph-in.github.io/docs/grammars/JacyLexDb#Priveleges)
 
 # Database Fields
 
@@ -143,5 +143,4 @@ How to allow multiple people to access the same DB:
      public | semi_pred  | table | {kuribayashi=arwdxt/kuribayashi,bond=arwdxt/kuribayashi}
      public | semi_var   | table | {kuribayashi=arwdxt/kuribayashi,bond=arwdxt/kuribayashi}
     (9 rows)
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/JacyLexDb/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

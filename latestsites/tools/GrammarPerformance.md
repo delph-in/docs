@@ -15,22 +15,22 @@ written for Jacy ([JacyPerformance](https://delph-in.github.io/docs/grammars/Jac
 
 **Table of Contents**
 
-- [Things to tweak for overall performance](https://delph-in.github.io/docs/tools/GrammarPerformance)
-  - [Quick Check](https://delph-in.github.io/docs/tools/GrammarPerformance)
-    - [PET](https://delph-in.github.io/docs/tools/GrammarPerformance)
-    - [ACE](https://delph-in.github.io/docs/tools/GrammarPerformance)
-    - [LKB](https://delph-in.github.io/docs/tools/GrammarPerformance)
-    - [ToDo](https://delph-in.github.io/docs/tools/GrammarPerformance)
-  - [Key Arguments](https://delph-in.github.io/docs/tools/GrammarPerformance)
-    - [ToDo](https://delph-in.github.io/docs/tools/GrammarPerformance)
-  - [Spanning Only Rules](https://delph-in.github.io/docs/tools/GrammarPerformance)
-  - [Trigger Rules for Generation](https://delph-in.github.io/docs/tools/GrammarPerformance)
-  - [Don't copy things you won't use](https://delph-in.github.io/docs/tools/GrammarPerformance)
-  - [Ubertagging](https://delph-in.github.io/docs/tools/GrammarPerformance)
-- [Things to do to reduce noise during grammar engineering](https://delph-in.github.io/docs/tools/GrammarPerformance)
-- [Things that magically just happen](https://delph-in.github.io/docs/tools/GrammarPerformance)
-  - [Ambiguity Packing](https://delph-in.github.io/docs/tools/GrammarPerformance)
-  - [Packing under Generalization](https://delph-in.github.io/docs/tools/GrammarPerformance)
+- [Things to tweak for overall performance](https://delph-in.github.io/docs/tools/GrammarPerformance#things-to-tweak-for-overall-performance)
+  - [Quick Check](https://delph-in.github.io/docs/tools/GrammarPerformance#quick-check)
+    - [PET](https://delph-in.github.io/docs/tools/GrammarPerformance#pet)
+    - [ACE](https://delph-in.github.io/docs/tools/GrammarPerformance#ace)
+    - [LKB](https://delph-in.github.io/docs/tools/GrammarPerformance#lkb)
+    - [ToDo](https://delph-in.github.io/docs/tools/GrammarPerformance#todo)
+  - [Key Arguments](https://delph-in.github.io/docs/tools/GrammarPerformance#key-arguments)
+    - [ToDo](https://delph-in.github.io/docs/tools/GrammarPerformance#todo-1)
+  - [Spanning Only Rules](https://delph-in.github.io/docs/tools/GrammarPerformance#spanning-only-rules)
+  - [Trigger Rules for Generation](https://delph-in.github.io/docs/tools/GrammarPerformance#trigger-rules-for-generation)
+  - [Don't copy things you won't use](https://delph-in.github.io/docs/tools/GrammarPerformance#dont-copy-things-you-wont-use)
+  - [Ubertagging](https://delph-in.github.io/docs/tools/GrammarPerformance#ubertagging)
+- [Things to do to reduce noise during grammar engineering](https://delph-in.github.io/docs/tools/GrammarPerformance#things-to-do-to-reduce-noise-during-grammar-engineering)
+- [Things that magically just happen](https://delph-in.github.io/docs/tools/GrammarPerformance#things-that-magically-just-happen)
+  - [Ambiguity Packing](https://delph-in.github.io/docs/tools/GrammarPerformance#ambiguity-packing)
+  - [Packing under Generalization](https://delph-in.github.io/docs/tools/GrammarPerformance#packing-under-generalization)
 
 <!-- markdown-toc end -->
 
@@ -330,5 +330,4 @@ This can lead to confusing edges in the chart, so it can be a good idea
 to turn it off when debugging:
 
      --disable-generalization
-
-Last update: 2022-12-19 by John Carroll [[edit](https://github.com/delph-in/docs/wiki/GrammarPerformance/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

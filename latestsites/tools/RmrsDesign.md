@@ -3,14 +3,14 @@
 
 **Table of Contents**
 
-- [Sets of interests or constituencies that have a stake in the design of (R)MRS representations:](https://delph-in.github.io/docs/tools/RmrsDesign)
-- [Agenda items](https://delph-in.github.io/docs/tools/RmrsDesign)
-- [Demise of pronoun\_q\_rel](https://delph-in.github.io/docs/tools/RmrsDesign)
-- [Optionality of pronoun\_n\_rel](https://delph-in.github.io/docs/tools/RmrsDesign)
-- [PRED with internal structure](https://delph-in.github.io/docs/tools/RmrsDesign)
-- [Non-restrictive relative clauses](https://delph-in.github.io/docs/tools/RmrsDesign)
-- [Predicate Hierarchies](https://delph-in.github.io/docs/tools/RmrsDesign)
-- [EPs v. properties](https://delph-in.github.io/docs/tools/RmrsDesign)
+- [Sets of interests or constituencies that have a stake in the design of (R)MRS representations:](https://delph-in.github.io/docs/tools/RmrsDesign#sets-of-interests-or-constituencies-that-have-a-stake-in-the-design-of-rmrs-representations)
+- [Agenda items](https://delph-in.github.io/docs/tools/RmrsDesign#agenda-items)
+- [Demise of pronoun\_q\_rel](https://delph-in.github.io/docs/tools/RmrsDesign#demise-of-pronoun_q_rel)
+- [Optionality of pronoun\_n\_rel](https://delph-in.github.io/docs/tools/RmrsDesign#optionality-of-pronoun_n_rel)
+- [PRED with internal structure](https://delph-in.github.io/docs/tools/RmrsDesign#pred-with-internal-structure)
+- [Non-restrictive relative clauses](https://delph-in.github.io/docs/tools/RmrsDesign#non-restrictive-relative-clauses)
+- [Predicate Hierarchies](https://delph-in.github.io/docs/tools/RmrsDesign#predicate-hierarchies)
+- [EPs v. properties](https://delph-in.github.io/docs/tools/RmrsDesign#eps-v-properties)
 
 <!-- markdown-toc end -->
 
@@ -194,5 +194,4 @@ comparing (RSTR/BODY).
 be an EP: Tense can bear scope, but knowing which event the tense is
 associated with is enough to know what its scope possibilities are,
 so tense can be a variable property.
-
-Last update: 2021-07-01 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/RmrsDesign/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

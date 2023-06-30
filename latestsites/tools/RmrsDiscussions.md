@@ -193,5 +193,4 @@ How to relate morphosyntactic marking of plurality to semantic plurality?
   - [MRS Design for Light Verb Constructions in the Grammar Matrix](https://delph-in.github.io/docs/summits/GaliciaMrsLvc)
   - [Action Nominals in the Grammar Matrix](https://delph-in.github.io/docs/summits/GaliciaNominalization)
   - [Thai Serial Verb Constructions: an HPSG Implementation and Analysis](https://delph-in.github.io/docs/summits/GaliciaThaiSvc)
-
-Last update: 2023-06-27 by emilymbender [[edit](https://github.com/delph-in/docs/wiki/RmrsDiscussions/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

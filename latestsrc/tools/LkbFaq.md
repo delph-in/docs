@@ -301,5 +301,4 @@ repeated three times. This repetition may be benign.
 
 The GrammarEngineeringFaq page contains
 further LKB-related FAQs.
-
-Last update: 2023-06-30 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/LkbFaq/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

@@ -58,5 +58,4 @@ and how do I debug it?](https://delph-in.github.io/docs/matrix/GeFaqCyclicCheck)
 whole parse. Why not?](https://delph-in.github.io/docs/matrix/GeFaqMissingRels)
 
 Back to the Grammar Engineering FAQ.
-
-Last update: 2023-06-30 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/GeFaqDiffList/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

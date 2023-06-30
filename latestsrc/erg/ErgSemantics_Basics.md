@@ -61,7 +61,7 @@ For a blend of linguistic and technical reasons, the ERG also introduces
 intrinsic variables in the semantics of, among others, adjectives,
 adverbs, and prepositions–eventualities in all three cases (for further
 background, see the
-[ErgSemantics/Design](https://delph-in.github.io/docs/erg/ErgSemantics_Design) page).
+[ErgSemantics/Design](https://delph-in.github.io/docs/erg/ErgSemantics_Design#intrinsic-arguments-on-adjectives-and-adverbs) page).
 
 # Surface vs. Abstract Predicates (and Naming Conventions)
 
@@ -110,7 +110,7 @@ in an object-language logic). Parameters are represented as
 than one parameter.
 
 For example, proper names are represented as follows in the ‘fingerprint
-language’ (see the [ErgSemantics](https://delph-in.github.io/docs/erg/ErgSemantics)
+language’ (see the [ErgSemantics](https://delph-in.github.io/docs/erg/ErgSemantics#semantic-fingerprints)
 page for background):
 
       named(Abrams)[ARG0 x]
@@ -222,7 +222,7 @@ includes the sub-structure
 where x is the intrinsic argument of \_cat\_n\_1 and the ARG1 of
 \_white\_a\_1, and both predications share one label (viz. h). This type
 of configuration and its role in our analyses are described further on
-the [ErgSemantics/Design](https://delph-in.github.io/docs/erg/ErgSemantics_Design)
+the [ErgSemantics/Design](https://delph-in.github.io/docs/erg/ErgSemantics_Design#non-scopal-modification)
 page. When mapped to an object language, label sharing will typically
 correspond to logical conjunction, e.g. for the above something akin to
 *cat(x) ∧ white(e, x)*.
@@ -249,5 +249,4 @@ Copestake, A., Lascarides, A., & Flickinger, D. (2001). An algebra for
 semantic construction in constraint-based grammars. In *Proceedings of
 the 39th Annual Meeting of the Association for Computational
 Linguistics* (pp. 140–147). Toulouse, France.
-
-Last update: 2022-09-12 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/ErgSemantics_Basics/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

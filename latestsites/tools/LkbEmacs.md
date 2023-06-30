@@ -16,20 +16,20 @@ sub-process to *emacs* (so as to compile the LKB source code).
 
 Contents
 
-1. [Overview](https://delph-in.github.io/docs/tools/LkbEmacs)
-2. [About emacs](https://delph-in.github.io/docs/tools/LkbEmacs)
-3. [After you have emacs installed](https://delph-in.github.io/docs/tools/LkbEmacs)
-4. [Simple way to load a grammar](https://delph-in.github.io/docs/tools/LkbEmacs)
+1. [Overview](https://delph-in.github.io/docs/tools/LkbEmacs#Overview)
+2. [About emacs](https://delph-in.github.io/docs/tools/LkbEmacs#About_emacs)
+3. [After you have emacs installed](https://delph-in.github.io/docs/tools/LkbEmacs#After_you_have_emacs_installed)
+4. [Simple way to load a grammar](https://delph-in.github.io/docs/tools/LkbEmacs#Simple_way_to_load_a_grammar)
 5. [Working with other scripts in
-Emacs](https://delph-in.github.io/docs/tools/LkbEmacs)
+Emacs](https://delph-in.github.io/docs/tools/LkbEmacs#Working_with_other_scripts_in_Emacs)
    1. [Proposal to Standardize Configuration
-Settings](https://delph-in.github.io/docs/tools/LkbEmacs)
+Settings](https://delph-in.github.io/docs/tools/LkbEmacs#Proposal_to_Standardize_Configuration_Settings)
       1. [Working with Greek
-(UTF-8)](https://delph-in.github.io/docs/tools/LkbEmacs)
+(UTF-8)](https://delph-in.github.io/docs/tools/LkbEmacs#Working_with_Greek_.28UTF-8.29)
       2. [Working with Japanese
-(EUC)](https://delph-in.github.io/docs/tools/LkbEmacs)
-         1. 1. [ACL 8.0](https://delph-in.github.io/docs/tools/LkbEmacs)
-         1. 2. [Other Components](https://delph-in.github.io/docs/tools/LkbEmacs)
+(EUC)](https://delph-in.github.io/docs/tools/LkbEmacs#Working_with_Japanese_.28EUC.29)
+         1. 1. [ACL 8.0](https://delph-in.github.io/docs/tools/LkbEmacs#ACL_8.0)
+         1. 2. [Other Components](https://delph-in.github.io/docs/tools/LkbEmacs#Other_Components)
 
 # About emacs
 
@@ -262,5 +262,4 @@ If you use the [LkbLexDb](/LkbLexDb), don't forget to specify the
 encoding when you install the lexical database:
 
     bash install-lexdb.sh jap ~/jap/lexdb.fld ~/jap/lexdb.dfn "-E EUC_JP"
-
-Last update: 2019-07-16 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/LkbEmacs/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

@@ -5,23 +5,23 @@ This page is under construction. Please expand and correct if you can.
 Contents
 
 1. [Instructions on how to set up an MT
-system](https://delph-in.github.io/docs/garage/MtSetup)
+system](https://delph-in.github.io/docs/garage/MtSetup#Instructions_on_how_to_set_up_an_MT_system)
    1. [Two ways to set up an MT
-system](https://delph-in.github.io/docs/garage/MtSetup)
-2. [The Rephrasing method](https://delph-in.github.io/docs/garage/MtSetup)
-   1. [Requested files and settings](https://delph-in.github.io/docs/garage/MtSetup)
-   2. [Using the system](https://delph-in.github.io/docs/garage/MtSetup)
-3. [The Transfer Grammar method](https://delph-in.github.io/docs/garage/MtSetup)
+system](https://delph-in.github.io/docs/garage/MtSetup#Two_ways_to_set_up_an_MT_system)
+2. [The Rephrasing method](https://delph-in.github.io/docs/garage/MtSetup#The_Rephrasing_method)
+   1. [Requested files and settings](https://delph-in.github.io/docs/garage/MtSetup#Requested_files_and_settings)
+   2. [Using the system](https://delph-in.github.io/docs/garage/MtSetup#Using_the_system)
+3. [The Transfer Grammar method](https://delph-in.github.io/docs/garage/MtSetup#The_Transfer_Grammar_method)
    1. [Install LOGON and add your grammar(s) to the
-repository](https://delph-in.github.io/docs/garage/MtSetup)
-   2. [Creating CPU's](https://delph-in.github.io/docs/garage/MtSetup)
+repository](https://delph-in.github.io/docs/garage/MtSetup#Install_LOGON_and_add_your_grammar.28s.29_to_the_repository)
+   2. [Creating CPU's](https://delph-in.github.io/docs/garage/MtSetup#Creating_CPU.27s)
    3. [Create lisp files for your grammars and the MT
-system](https://delph-in.github.io/docs/garage/MtSetup)
+system](https://delph-in.github.io/docs/garage/MtSetup#Create_lisp_files_for_your_grammars_and_the_MT_system)
    4. [Setting the \*translate-grid\*
-values](https://delph-in.github.io/docs/garage/MtSetup)
-   5. [Setting the VPM](https://delph-in.github.io/docs/garage/MtSetup)
+values](https://delph-in.github.io/docs/garage/MtSetup#Setting_the_.2Atranslate-grid.2A_values)
+   5. [Setting the VPM](https://delph-in.github.io/docs/garage/MtSetup#Setting_the_VPM)
    6. [Starting the MT system from
-Emacs](https://delph-in.github.io/docs/garage/MtSetup)
+Emacs](https://delph-in.github.io/docs/garage/MtSetup#Starting_the_MT_system_from_Emacs)
 
 ## Two ways to set up an MT system
 
@@ -248,5 +248,4 @@ In order to parse a string with the parsing grammar, type:
 Type in the input string and press enter. Press transfer on the MRS that
 pops up, and the MRS is transferred. Then press generate and English
 strings are generated.
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/MtSetup/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

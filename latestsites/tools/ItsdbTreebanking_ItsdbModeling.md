@@ -12,18 +12,18 @@ correct.
 
 Contents
 
-1. [Page Status](https://delph-in.github.io/docs/tools/ItsdbTreebanking_ItsdbModeling)
-2. [Overview](https://delph-in.github.io/docs/tools/ItsdbTreebanking_ItsdbModeling)
-3. [Training a Scoring Model](https://delph-in.github.io/docs/tools/ItsdbTreebanking_ItsdbModeling)
-   1. [Scoring](https://delph-in.github.io/docs/tools/ItsdbTreebanking_ItsdbModeling)
+1. [Page Status](https://delph-in.github.io/docs/tools/ItsdbTreebanking_ItsdbModeling#Page_Status)
+2. [Overview](https://delph-in.github.io/docs/tools/ItsdbTreebanking_ItsdbModeling#Overview)
+3. [Training a Scoring Model](https://delph-in.github.io/docs/tools/ItsdbTreebanking_ItsdbModeling#Training_a_Scoring_Model)
+   1. [Scoring](https://delph-in.github.io/docs/tools/ItsdbTreebanking_ItsdbModeling#Scoring)
    2. [Using a Scoring Model in PET and the
-LKB](https://delph-in.github.io/docs/tools/ItsdbTreebanking_ItsdbModeling)
-   3. [Calculating a Baseline](https://delph-in.github.io/docs/tools/ItsdbTreebanking_ItsdbModeling)
+LKB](https://delph-in.github.io/docs/tools/ItsdbTreebanking_ItsdbModeling#Using_a_Scoring_Model_in_PET_and_the_LKB)
+   3. [Calculating a Baseline](https://delph-in.github.io/docs/tools/ItsdbTreebanking_ItsdbModeling#Calculating_a_Baseline)
 4. [Training a scoring model using a batch
-script](https://delph-in.github.io/docs/tools/ItsdbTreebanking_ItsdbModeling)
+script](https://delph-in.github.io/docs/tools/ItsdbTreebanking_ItsdbModeling#Training_a_scoring_model_using_a_batch_script)
 5. [Using TADM directly to train a ranking
-model](https://delph-in.github.io/docs/tools/ItsdbTreebanking_ItsdbModeling)
-   1. [Calling tadm](https://delph-in.github.io/docs/tools/ItsdbTreebanking_ItsdbModeling)
+model](https://delph-in.github.io/docs/tools/ItsdbTreebanking_ItsdbModeling#Using_TADM_directly_to_train_a_ranking_model)
+   1. [Calling tadm](https://delph-in.github.io/docs/tools/ItsdbTreebanking_ItsdbModeling#Calling_tadm)
 
 # Training a Scoring Model
 
@@ -175,5 +175,4 @@ To train a model:
 To evaluate a model:
 
     evaluate para_df-smooth.par test_df.eve.gz
-
-Last update: 2012-09-27 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/ItsdbTreebanking_ItsdbModeling/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

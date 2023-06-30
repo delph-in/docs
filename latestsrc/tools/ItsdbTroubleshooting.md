@@ -10,16 +10,16 @@ correct.
 
 Contents
 
-1. [Page Status](https://delph-in.github.io/docs/tools/ItsdbTroubleshooting)
-2. [Debugging Distributed Mode](https://delph-in.github.io/docs/tools/ItsdbTroubleshooting)
-   1. [communication error -6](https://delph-in.github.io/docs/tools/ItsdbTroubleshooting)
-   2. [communication error -7](https://delph-in.github.io/docs/tools/ItsdbTroubleshooting)
-   3. [client exit for 'user'](https://delph-in.github.io/docs/tools/ItsdbTroubleshooting)
+1. [Page Status](https://delph-in.github.io/docs/tools/ItsdbTroubleshooting#Page_Status)
+2. [Debugging Distributed Mode](https://delph-in.github.io/docs/tools/ItsdbTroubleshooting#Debugging_Distributed_Mode)
+   1. [communication error -6](https://delph-in.github.io/docs/tools/ItsdbTroubleshooting#communication_error_-6)
+   2. [communication error -7](https://delph-in.github.io/docs/tools/ItsdbTroubleshooting#communication_error_-7)
+   3. [client exit for 'user'](https://delph-in.github.io/docs/tools/ItsdbTroubleshooting#client_exit_for_.27user.27)
       1. [parse-interactively(): error \`maximum number of active
 sessions
-exhausted'](https://delph-in.github.io/docs/tools/ItsdbTroubleshooting)
-3. [Keyboard Freeze](https://delph-in.github.io/docs/tools/ItsdbTroubleshooting)
-4. [Podium font too big](https://delph-in.github.io/docs/tools/ItsdbTroubleshooting)
+exhausted'](https://delph-in.github.io/docs/tools/ItsdbTroubleshooting#parse-interactively.28.29:_error_.60maximum_number_of_active_sessions_exhausted.27)
+3. [Keyboard Freeze](https://delph-in.github.io/docs/tools/ItsdbTroubleshooting#Keyboard_Freeze)
+4. [Podium font too big](https://delph-in.github.io/docs/tools/ItsdbTroubleshooting#Podium_font_too_big)
 
 # Debugging Distributed Mode
 
@@ -100,5 +100,4 @@ may have to stop scim first, as it ovewrites the file when it stops
 Add a scaling factor to your .swishrc
 
     tk scaling -displayof . 1.0
-
-Last update: 2012-08-07 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/ItsdbTroubleshooting/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

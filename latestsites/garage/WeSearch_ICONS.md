@@ -135,5 +135,4 @@ constraint types) for modeling information structure. Committed to
 distributing a set of desiderata for how ICONS will be handles by the
 processing machinery along with examples (grammar + sentences) before
 Sofia.
-
-Last update: 2012-05-04 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/WeSearch_ICONS/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

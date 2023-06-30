@@ -29,5 +29,4 @@ definition, or you see something aligned funny.
 funny. Check your close brackets, commas, and ampersands.
 
 Back to the Grammar Engineering FAQ.
-
-Last update: 2023-06-30 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/GeFaqTabIndentation/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

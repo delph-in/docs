@@ -183,5 +183,4 @@ forth. To install the WSJ skeleton add-on, use the following command:
 
 Only SVN users whose home sites hold a PTB license can be granted read
 access to this add-on component.
-
-Last update: 2019-12-06 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/LogonExtras/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

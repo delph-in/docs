@@ -1,13 +1,13 @@
 {% raw %}Contents
 
-1. [Overview](https://delph-in.github.io/docs/garage/RedwoodsTop)
-2. [Current Development Status](https://delph-in.github.io/docs/garage/RedwoodsTop)
-3. [Data Format](https://delph-in.github.io/docs/garage/RedwoodsTop)
-4. [Expanding and Exporting](https://delph-in.github.io/docs/garage/RedwoodsTop)
-5. [Standard Splits](https://delph-in.github.io/docs/garage/RedwoodsTop)
-6. [History](https://delph-in.github.io/docs/garage/RedwoodsTop)
-7. [Bibliography](https://delph-in.github.io/docs/garage/RedwoodsTop)
-8. [Acknowledgements](https://delph-in.github.io/docs/garage/RedwoodsTop)
+1. [Overview](https://delph-in.github.io/docs/garage/RedwoodsTop#Overview)
+2. [Current Development Status](https://delph-in.github.io/docs/garage/RedwoodsTop#Current_Development_Status)
+3. [Data Format](https://delph-in.github.io/docs/garage/RedwoodsTop#Data_Format)
+4. [Expanding and Exporting](https://delph-in.github.io/docs/garage/RedwoodsTop#Expanding_and_Exporting)
+5. [Standard Splits](https://delph-in.github.io/docs/garage/RedwoodsTop#Standard_Splits)
+6. [History](https://delph-in.github.io/docs/garage/RedwoodsTop#History)
+7. [Bibliography](https://delph-in.github.io/docs/garage/RedwoodsTop#Bibliography)
+8. [Acknowledgements](https://delph-in.github.io/docs/garage/RedwoodsTop#Acknowledgements)
 
 # Overview
 
@@ -284,5 +284,4 @@ project](http://www.edinburghstanfordlink.org/projects/intro.html)),
 the LinGO Laboratory), and the [Norwegian LOGON
 Initiative](http://www.emmtee.net/) (through financial support to Dan
 Flickinger and Stephan Oepen).
-
-Last update: 2022-11-02 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/RedwoodsTop/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

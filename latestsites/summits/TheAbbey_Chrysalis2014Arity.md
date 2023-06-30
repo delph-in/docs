@@ -470,5 +470,4 @@ Sandy.) I see that it doesn't scale very well.
 
 Woodley/Ann: They are both benefactive in that example, which is an
 argument against benefactive actually being a role.
-
-Last update: 2014-02-16 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/TheAbbey_Chrysalis2014Arity/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

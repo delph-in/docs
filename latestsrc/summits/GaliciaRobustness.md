@@ -91,5 +91,4 @@ Dan: Yes, could map genre to every token.
 Berthold: In Hausa, different conventions for indicating tone and vowel length. Or only partially indicating.
 
 Dan: For genre, don't have a good sense of how much benefit there would be, haven't pushed this point. Worth measuring. In chart mapping, would there be a way to say, "I don't want robust"? Would need additional types.
-
-Last update: 2023-06-29 by Guy Emerson [[edit](https://github.com/delph-in/docs/wiki/GaliciaRobustness/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

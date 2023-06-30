@@ -8,9 +8,9 @@ framework for computational semantics characterised by a flat structure
 true scopal ambiguities can be left ambiguous, or fully specified if
 needed. This RFC aims to be a reference document for developers writing
 code to process MRSs. See below for the [formal
-properties](https://delph-in.github.io/docs/garage/MrsRfc) of MRS objects. For ways to
+properties](https://delph-in.github.io/docs/garage/MrsRfc#formal-properties) of MRS objects. For ways to
 represent MRS objects textually, see the [serialization
-formats](https://delph-in.github.io/docs/garage/MrsRfc) section.
+formats](https://delph-in.github.io/docs/garage/MrsRfc#serialization-formats) section.
 
 Unless otherwise noted, most information below is adapted from Copestake
 et al. (2005). The reader is referred to this paper for more information
@@ -520,5 +520,4 @@ IC     := Variable ICReln Variable
 ICReln := ConstName
 ConstName := Token
 ```
-
-Last update: 2021-09-02 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/MrsRFC/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}
