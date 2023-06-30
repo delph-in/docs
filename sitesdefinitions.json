@@ -971,6 +971,8 @@
         {"Page": "Season of Docs", "SrcDir": "docswiki", "SrcFile": "GoogleSeasonOfDocs2023ProjectProposal.md"}
       ]},
       {"Section": "<todo>", "Pages": [
+        {"Page": "DelphinNtt", "SrcDir": "docswiki", "SrcFile": "DelphinNtt.md", "BaseReferrer": "grammars/JacyTop.md", "Referrer": "grammars/JacyTop.md"},
+        {"Page": "GeFaq", "SrcDir": "docswiki", "SrcFile": "GeFaq.md", "BaseReferrer": "matrix/GrammarEngineeringFAQ.md", "Referrer": "matrix/GrammarEngineeringFAQ.md", "FileMissing": true},
         {"Page": "DelphinNews", "SrcDir": "docswiki", "SrcFile": "DelphinNews.md", "BaseReferrer": "home/Home.md", "Referrer": "home/Home.md"},
         {"Page": "EmilyBender", "SrcDir": "docswiki", "SrcFile": "EmilyBender.md", "BaseReferrer": "home/DelphinNews.md", "Referrer": "home/DelphinNews.md", "FileMissing": true},
         {"Page": "FrancisBond", "SrcDir": "docswiki", "SrcFile": "FrancisBond.md", "BaseReferrer": "home/DelphinNews.md", "Referrer": "home/DelphinNews.md", "FileMissing": true},

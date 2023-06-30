@@ -1,10 +1,3 @@
-* Fix 404 https://delph-in.github.io/GrammarEngineeringFaq
-      (This is on all of the FAQ pages at the bottom)
-      * Debug why some links from
-      https://delph-in.github.io/docs/matrix/GrammarEngineeringFAQ/
-      are broken .... answer has to do with those being missing pages in the underlying wiki. So link shouldn't have been added.
-            example: clicking on this breaks: The LKB says that the Unification of rule-x and rule-y failed at path <>. What’s that about? 
-            Theory: it is because these links are using "/foo" and that is root relative
 All links within a page are broken:
       https://delph-in.github.io/docs/summits/SummitTop/
 
