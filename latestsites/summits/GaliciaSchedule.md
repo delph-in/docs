@@ -97,7 +97,7 @@ Please upload your presentations [here](https://github.com/delph-in/docs/tree/ma
 
 | Time | Content | Leader (Scribe) |
 | :--- | :---    | :--- |
-| 10:30-12:00 | DELPH-IN documentation & the new DELPH-IN documentation system | Eric |
+| 10:30-12:00 | [DELPH-IN documentation & the new DELPH-IN documentation system](https://github.com/delph-in/docs/blob/main/summits/2023/Summit2023Docs.pdf) | Eric |
 | 12:00-12:30 | *Break* ||
 | 12:30-14:00 | Applying large language models in conjunction with DELPH-IN technologies | Alexandre |
 | 14:00-15:30 | *Lunch (at the Rectorate; organized)* ||
@@ -124,4 +124,4 @@ Please upload your presentations [here](https://github.com/delph-in/docs/tree/ma
 3. Full Forest Treebanker (FFTB): Olga
 4. PyDelphin and Delphin-viz tools: Berthold request
 
-Last update: 2023-06-30 by John Carroll [[edit](https://github.com/delph-in/docs/wiki/GaliciaSchedule/_edit)]{% endraw %}
+Last update: 2023-06-30 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/GaliciaSchedule/_edit)]{% endraw %}
