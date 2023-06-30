@@ -19,5 +19,5 @@ language) is that you are exceeding the limit on maximal lexical rule
 applications (the value of **maximal-lex-rule-applications** set in
 lkb/globals.lsp). This value can be changed by editing that file.
 
-Back to the Grammar Engineering FAQ.
+[Back to the Grammar Engineering FAQ](https://delph-in.github.io/docs/matrix/GrammarEngineeringFAQ).
 <update date omitted for speed>{% endraw %}

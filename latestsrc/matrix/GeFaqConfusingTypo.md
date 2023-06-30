@@ -24,5 +24,5 @@ rules?](https://delph-in.github.io/docs/matrix/GeFaqViewEntry)
 - [I'm trying to add a new feature, and the LKB doesn't like it. What
 should I do?](https://delph-in.github.io/docs/matrix/GeFaqNewFeature)
 
-Back to the Grammar Engineering FAQ.
+[Back to the Grammar Engineering FAQ](https://delph-in.github.io/docs/matrix/GrammarEngineeringFAQ).
 <update date omitted for speed>{% endraw %}

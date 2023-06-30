@@ -21,5 +21,5 @@ usually its more efficient to use the tab indentation of tdl mode to
 find the spot where somethings wrong. See [FAQ: How do I use tab to help
 me figure out where my syntax error is?](https://delph-in.github.io/docs/matrix/GeFaqTabIndentation)
 
-Back to the Grammar Engineering FAQ.
+[Back to the Grammar Engineering FAQ](https://delph-in.github.io/docs/matrix/GrammarEngineeringFAQ).
 <update date omitted for speed>{% endraw %}

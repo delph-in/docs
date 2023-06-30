@@ -14,5 +14,5 @@ head-final, and head-only. In fact, to take full advantage of the
 Matrix, you almost certainly want to inherit from much more specific
 subtypes of those types.
 
-Back to the Grammar Engineering FAQ.
+[Back to the Grammar Engineering FAQ](https://delph-in.github.io/docs/matrix/GrammarEngineeringFAQ).
 <update date omitted for speed>{% endraw %}

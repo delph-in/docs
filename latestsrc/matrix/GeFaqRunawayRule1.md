@@ -45,5 +45,5 @@ Once you've fixed the bug, don't forget to reset the edge limit to
 something big enough for the grammar to parse your sentences with (e.g.
 4000 edges)!
 
-Back to the Grammar Engineering FAQ.
+[Back to the Grammar Engineering FAQ](https://delph-in.github.io/docs/matrix/GrammarEngineeringFAQ).
 <update date omitted for speed>{% endraw %}

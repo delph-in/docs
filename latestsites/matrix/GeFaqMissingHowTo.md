@@ -38,5 +38,5 @@ highlight all descendants and ancestors of that edge.
 spans the whole chart (accounts for all the words), but the LKB
 still says no parses found. What might be going on?](https://delph-in.github.io/docs/matrix/GeFaqRootFail)
 
-Back to the Grammar Engineering FAQ.
+[Back to the Grammar Engineering FAQ](https://delph-in.github.io/docs/matrix/GrammarEngineeringFAQ).
 <update date omitted for speed>{% endraw %}

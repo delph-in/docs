@@ -88,5 +88,5 @@ overgenerating.
 - [When I try to generate, the LKB says "Probable circular lexical
 rule". How do I debug this?](https://delph-in.github.io/docs/matrix/GeFaqCircularLexRule)
 
-Back to the Grammar Engineering FAQ.
+[Back to the Grammar Engineering FAQ](https://delph-in.github.io/docs/matrix/GrammarEngineeringFAQ).
 <update date omitted for speed>{% endraw %}

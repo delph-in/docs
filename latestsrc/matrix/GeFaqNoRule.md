@@ -37,5 +37,5 @@ coded. Why?](https://delph-in.github.io/docs/matrix/GeFaqForgottenConstraint)
 inheriting a constraint from its supertype. What might be going
 on?](https://delph-in.github.io/docs/matrix/GeFaqConfusingTypo)
 
-Back to the Grammar Engineering FAQ.
+[Back to the Grammar Engineering FAQ](https://delph-in.github.io/docs/matrix/GrammarEngineeringFAQ).
 <update date omitted for speed>{% endraw %}

@@ -13,5 +13,5 @@ add the .txt extension, even when it is superfluous. You may need to
 configure your directory browser to "show extensions" in order to see
 what's going on.
 
-Back to the Grammar Engineering FAQ.
+[Back to the Grammar Engineering FAQ](https://delph-in.github.io/docs/matrix/GrammarEngineeringFAQ).
 <update date omitted for speed>{% endraw %}

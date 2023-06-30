@@ -30,5 +30,5 @@ rules?](https://delph-in.github.io/docs/matrix/GeFaqViewEntry)
 type?](https://delph-in.github.io/docs/matrix/GeFaqViewType)
 - [In which files does order matter?](https://delph-in.github.io/docs/matrix/GeFaqOrderMatters)
 
-Back to the Grammar Engineering FAQ.
+[Back to the Grammar Engineering FAQ](https://delph-in.github.io/docs/matrix/GrammarEngineeringFAQ).
 <update date omitted for speed>{% endraw %}

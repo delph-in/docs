@@ -57,5 +57,5 @@ and how do I debug it?](https://delph-in.github.io/docs/matrix/GeFaqCyclicCheck)
 - [Some of my relations/qeqs aren't showing up in the MRS for the
 whole parse. Why not?](https://delph-in.github.io/docs/matrix/GeFaqMissingRels)
 
-Back to the Grammar Engineering FAQ.
+[Back to the Grammar Engineering FAQ](https://delph-in.github.io/docs/matrix/GrammarEngineeringFAQ).
 <update date omitted for speed>{% endraw %}

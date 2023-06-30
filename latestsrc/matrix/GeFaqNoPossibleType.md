@@ -25,5 +25,5 @@ The error message will specify the path at which the problem is
 occuring. &lt;&gt; is the empty path, i.e., the outermost pair of square
 brackets.
 
-Back to the Grammar Engineering FAQ.
+[Back to the Grammar Engineering FAQ](https://delph-in.github.io/docs/matrix/GrammarEngineeringFAQ).
 <update date omitted for speed>{% endraw %}

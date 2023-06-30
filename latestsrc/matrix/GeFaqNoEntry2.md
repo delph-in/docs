@@ -9,5 +9,5 @@ affix).
 Also, see [this FAQ: I've added a rule to my grammar but the LKB doesn't
 seem to have found it. What's happening?](https://delph-in.github.io/docs/matrix/GeFaqNoRule)
 
-Back to the Grammar Engineering FAQ.
+[Back to the Grammar Engineering FAQ](https://delph-in.github.io/docs/matrix/GrammarEngineeringFAQ).
 <update date omitted for speed>{% endraw %}

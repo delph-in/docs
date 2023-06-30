@@ -13,5 +13,5 @@ identified, but note that the actual error may be earlier.
 - [The LKB says I'm missing a right bracket, but I can't figure out
 where. What should I do?](https://delph-in.github.io/docs/matrix/GeFaqRightBracket)
 
-Back to the Grammar Engineering FAQ.
+[Back to the Grammar Engineering FAQ](https://delph-in.github.io/docs/matrix/GrammarEngineeringFAQ).
 <update date omitted for speed>{% endraw %}

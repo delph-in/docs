@@ -12,5 +12,5 @@ error, you may have a corrupted version of the file. Open the file in
 emacs and look to see if there are any extraneous characters (especially
 at the beginning).
 
-Back to the Grammar Engineering FAQ.
+[Back to the Grammar Engineering FAQ](https://delph-in.github.io/docs/matrix/GrammarEngineeringFAQ).
 <update date omitted for speed>{% endraw %}

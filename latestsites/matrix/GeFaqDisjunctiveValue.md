@@ -37,5 +37,5 @@ nom+dat subsume nom and acc and nom and dat, respectively.
 value?](https://delph-in.github.io/docs/matrix/GeFaqNegValue)
 - [How do I browse the type hierarchy?](https://delph-in.github.io/docs/matrix/GeFaqViewHierarchy)
 
-Back to the Grammar Engineering FAQ.
+[Back to the Grammar Engineering FAQ](https://delph-in.github.io/docs/matrix/GrammarEngineeringFAQ).
 <update date omitted for speed>{% endraw %}

@@ -9,5 +9,5 @@ Shift-Insert. Alternatively, after selecting the desired text using the
 mouse cursor, you should be able to paste (from a separate clipboard)
 using the middle button of your mouse.
 
-Back to the Grammar Engineering FAQ.
+[Back to the Grammar Engineering FAQ](https://delph-in.github.io/docs/matrix/GrammarEngineeringFAQ).
 <update date omitted for speed>{% endraw %}

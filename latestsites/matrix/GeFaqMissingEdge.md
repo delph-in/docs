@@ -21,5 +21,5 @@ daughter(s) of the missing edge and determine which rule (grammar rule
 or lexical rule) should be licensing the edge. Then, follow the
 directions for doing [interactive unification](https://delph-in.github.io/docs/matrix/GeFaqInteractiveUnify).
 
-Back to the Grammar Engineering FAQ.
+[Back to the Grammar Engineering FAQ](https://delph-in.github.io/docs/matrix/GrammarEngineeringFAQ).
 <update date omitted for speed>{% endraw %}

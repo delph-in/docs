@@ -213,5 +213,5 @@ used features in a readable format.
 - [for lexical
 entries](http://depts.washington.edu/uwcl/docs/geo2.pdf)
 
-Back to the Grammar Engineering FAQ.
+[Back to the Grammar Engineering FAQ](https://delph-in.github.io/docs/matrix/GrammarEngineeringFAQ).
 <update date omitted for speed>{% endraw %}

@@ -36,5 +36,5 @@ return will cause it to be run again.
 - M-x goto-char: In your TDL file, move to the character position
 indicated by an LKB error.
 
-Back to the Grammar Engineering FAQ.
+[Back to the Grammar Engineering FAQ](https://delph-in.github.io/docs/matrix/GrammarEngineeringFAQ).
 <update date omitted for speed>{% endraw %}

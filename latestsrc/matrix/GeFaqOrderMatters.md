@@ -29,5 +29,5 @@ type?](https://delph-in.github.io/docs/matrix/GeFaqViewType)
 - [How do I look at fully specified lexical entries or
 rules?](https://delph-in.github.io/docs/matrix/GeFaqViewEntry)
 
-Back to the Grammar Engineering FAQ.
+[Back to the Grammar Engineering FAQ](https://delph-in.github.io/docs/matrix/GrammarEngineeringFAQ).
 <update date omitted for speed>{% endraw %}

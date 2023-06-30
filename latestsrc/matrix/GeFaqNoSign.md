@@ -27,5 +27,5 @@ error is output, and the word won't appear in the chart.
 and the other required words are not in the input string. \[Confirm
 this.\]
 
-Back to the Grammar Engineering FAQ.
+[Back to the Grammar Engineering FAQ](https://delph-in.github.io/docs/matrix/GrammarEngineeringFAQ).
 <update date omitted for speed>{% endraw %}

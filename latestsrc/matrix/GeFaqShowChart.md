@@ -9,5 +9,5 @@ If you have tried to parse a sentence but the LKB didn't find any
 parses, you can still look at the chart by selecting "Parse &gt; Show
 parse chart" from the LKB top menu.
 
-Back to the Grammar Engineering FAQ.
+[Back to the Grammar Engineering FAQ](https://delph-in.github.io/docs/matrix/GrammarEngineeringFAQ).
 <update date omitted for speed>{% endraw %}

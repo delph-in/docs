@@ -299,6 +299,6 @@ repeated three times. This repetition may be benign.
 
 # Further FAQs
 
-The GrammarEngineeringFaq page contains
+The [GrammarEngineeringFaq](https://delph-in.github.io/docs/matrix/GrammarEngineeringFAQ) page contains
 further LKB-related FAQs.
 <update date omitted for speed>{% endraw %}

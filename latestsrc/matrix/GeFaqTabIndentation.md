@@ -28,5 +28,5 @@ definition, or you see something aligned funny.
 - The syntax error is probably in the line above the line that aligned
 funny. Check your close brackets, commas, and ampersands.
 
-Back to the Grammar Engineering FAQ.
+[Back to the Grammar Engineering FAQ](https://delph-in.github.io/docs/matrix/GrammarEngineeringFAQ).
 <update date omitted for speed>{% endraw %}

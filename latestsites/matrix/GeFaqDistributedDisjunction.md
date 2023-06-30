@@ -8,5 +8,5 @@ be the same. The more general case ('distributed disjunction') is not
 possible within tdl however. You cannot state that the value of FOO is x
 just in case the value of BAR is y.
 
-Back to the Grammar Engineering FAQ.
+[Back to the Grammar Engineering FAQ](https://delph-in.github.io/docs/matrix/GrammarEngineeringFAQ).
 <update date omitted for speed>{% endraw %}

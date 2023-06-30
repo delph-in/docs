@@ -35,5 +35,5 @@ chart?](https://delph-in.github.io/docs/matrix/GeFaqSpanningEdge)
 conditions?](/GeFaqMultipleRoot)
 - [In which files does order matter?](https://delph-in.github.io/docs/matrix/GeFaqOrderMatters)
 
-Back to the Grammar Engineering FAQ.
+[Back to the Grammar Engineering FAQ](https://delph-in.github.io/docs/matrix/GrammarEngineeringFAQ).
 <update date omitted for speed>{% endraw %}

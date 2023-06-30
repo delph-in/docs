@@ -61,5 +61,5 @@ If you want to add a feature to a type that's already declared in the
 matrix, you need to write a [type addendum
 statement](https://delph-in.github.io/docs/matrix/GeFaqTypeAddendum).
 
-Back to the Grammar Engineering FAQ.
+[Back to the Grammar Engineering FAQ](https://delph-in.github.io/docs/matrix/GrammarEngineeringFAQ).
 <update date omitted for speed>{% endraw %}

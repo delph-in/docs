@@ -20,5 +20,5 @@ the LKB itself when switching between grammars.
 - [When I close the LKB Top Menu, is Lisp supposed to exit as
 well?](https://delph-in.github.io/docs/matrix/GeFaqClickX)
 
-Back to the Grammar Engineering FAQ.
+[Back to the Grammar Engineering FAQ](https://delph-in.github.io/docs/matrix/GrammarEngineeringFAQ).
 <update date omitted for speed>{% endraw %}

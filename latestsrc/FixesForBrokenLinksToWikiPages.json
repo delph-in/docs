@@ -343,9 +343,6 @@
       ]}
     ],
     "tools": [
-      {"Section": "LKB", "Pages": [
-        {"Page": "GrammarEngineeringFaq", "SrcDir": "docswiki", "SrcFile": "GrammarEngineeringFaq.md", "BaseReferrer": "tools/LkbTop.md", "Referrer": "tools/LkbTop.md", "FileMissing": true}
-      ]},
       {"Section": "Formats", "Pages": [
         {"Page": "RestfulTop", "SrcDir": "docswiki", "SrcFile": "RestfulTop.md", "BaseReferrer": "tools/MrsRFC.md", "Referrer": "tools/MrsRFC.md"}
       ]}

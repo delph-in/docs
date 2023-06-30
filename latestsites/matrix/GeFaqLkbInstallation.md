@@ -87,5 +87,5 @@ has improved markedly in recent versions.
 sluggish speed of a CD drive compared to a hard disk.
 - Can't install your own software.
 
-Back to the Grammar Engineering FAQ.
+[Back to the Grammar Engineering FAQ](https://delph-in.github.io/docs/matrix/GrammarEngineeringFAQ).
 <update date omitted for speed>{% endraw %}

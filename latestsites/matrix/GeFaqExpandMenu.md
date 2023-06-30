@@ -9,5 +9,5 @@ the features available through the menu, select "Options &gt; Expand
 Menu". To go back to the smaller menu, select "Options &gt; Shrink
 Menu".
 
-Back to the Grammar Engineering FAQ.
+[Back to the Grammar Engineering FAQ](https://delph-in.github.io/docs/matrix/GrammarEngineeringFAQ).
 <update date omitted for speed>{% endraw %}

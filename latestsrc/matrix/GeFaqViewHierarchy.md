@@ -12,5 +12,5 @@ with the specified type and all its descendants.
 entire hierarchy may either be impractical and/or impossible and you
 will need to look at specific subsets of the hierarchy.
 
-Back to the Grammar Engineering FAQ.
+[Back to the Grammar Engineering FAQ](https://delph-in.github.io/docs/matrix/GrammarEngineeringFAQ).
 <update date omitted for speed>{% endraw %}

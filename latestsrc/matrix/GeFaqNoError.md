@@ -24,5 +24,5 @@ missing?](https://delph-in.github.io/docs/matrix/GeFaqMissingEdge)
 - [How can I tell if an edge is missing in the parse
 chart?](https://delph-in.github.io/docs/matrix/GeFaqMissingHowTo)
 
-Back to the Grammar Engineering FAQ.
+[Back to the Grammar Engineering FAQ](https://delph-in.github.io/docs/matrix/GrammarEngineeringFAQ).
 <update date omitted for speed>{% endraw %}

@@ -7,5 +7,5 @@ This breaks the connection between the STEM values of the input and
 output. Add **inflecting-lex-rule**as a supertype to the rule in
 question, and it should work better.
 
-Back to the Grammar Engineering FAQ.
+[Back to the Grammar Engineering FAQ](https://delph-in.github.io/docs/matrix/GrammarEngineeringFAQ).
 <update date omitted for speed>{% endraw %}

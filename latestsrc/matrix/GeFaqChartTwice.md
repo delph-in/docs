@@ -19,5 +19,5 @@ the chart. Unless you also have an independent lexical entry for
 *Bastille*, the entry for just day won't be included in any complete
 parses, but the algorithm doesn't know this.
 
-Back to the Grammar Engineering FAQ.
+[Back to the Grammar Engineering FAQ](https://delph-in.github.io/docs/matrix/GrammarEngineeringFAQ).
 <update date omitted for speed>{% endraw %}

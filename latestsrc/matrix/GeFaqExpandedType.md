@@ -16,5 +16,5 @@ type?](https://delph-in.github.io/docs/matrix/GeFaqViewType)
 - [How do I browse the type hierarchy?](https://delph-in.github.io/docs/matrix/GeFaqViewHierarchy)
 - [How do I do interactive unification?](https://delph-in.github.io/docs/matrix/GeFaqInteractiveUnify)
 
-Back to the Grammar Engineering FAQ.
+[Back to the Grammar Engineering FAQ](https://delph-in.github.io/docs/matrix/GrammarEngineeringFAQ).
 <update date omitted for speed>{% endraw %}
