@@ -115,7 +115,7 @@ system](http://www.delph-in.net/matrix) which elicits a high-level
 linguistic description from the user and outputs a working DELPH-IN
 style fragment. The analyses provided by the customization system and
 best practices for accessing them are documented in the pages under
-[MatrixDocTop](https://delph-in.github.io/docs/matrix/MatrixDocTop).
+[MatrixDocTop](https://delph-in.github.io/docs/howto/MatrixDocTop).
 
 Grammar writers beginning new grammars and interested in systematic
 exploration of the analysis space are encouraged to explore the CLIMB

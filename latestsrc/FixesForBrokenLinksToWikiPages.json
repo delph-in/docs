@@ -310,20 +310,14 @@
         {"Page": "_Footer.md", "SrcDir": "docswiki", "SrcFile": "_Footer.md", "BaseReferrer": "<not included from site docswiki>", "Referrer": "<not included or linked to>/_Footer.md"}
       ]}
     ],
+    "home": [
+      {"Section": "DELPH-IN", "Pages": [
+        {"Page": "DelphinNews", "SrcDir": "docswiki", "SrcFile": "DelphinNews.md", "BaseReferrer": "home/Home.md", "Referrer": "home/Home.md"}
+      ]}
+    ],
     "grammars": [
       {"Section": "Japanese (JACY)", "Pages": [
         {"Page": "DelphinNtt", "SrcDir": "docswiki", "SrcFile": "DelphinNtt.md", "BaseReferrer": "grammars/JacyTop.md", "Referrer": "grammars/JacyTop.md"}
-      ]}
-    ],
-    "tools": [
-      {"Section": "[incr tsdb()]", "Pages": [
-        {"Page": "FftbTreebankUpdateTutorial", "SrcDir": "docswiki", "SrcFile": "FftbTreebankUpdateTutorial.md", "BaseReferrer": "tools/ItsdbProfileManipulation.md", "Referrer": "tools/ItsdbProfileManipulation.md"}
-      ]},
-      {"Section": "Formats", "Pages": [
-        {"Page": "GaliciaMrsLvc", "SrcDir": "docswiki", "SrcFile": "GaliciaMrsLvc.md", "BaseReferrer": "tools/RmrsDiscussions.md", "Referrer": "tools/RmrsDiscussions.md"},
-        {"Page": "GaliciaNominalization", "SrcDir": "docswiki", "SrcFile": "GaliciaNominalization.md", "BaseReferrer": "tools/RmrsDiscussions.md", "Referrer": "tools/RmrsDiscussions.md"},
-        {"Page": "GaliciaThaiSvc", "SrcDir": "docswiki", "SrcFile": "GaliciaThaiSvc.md", "BaseReferrer": "tools/RmrsDiscussions.md", "Referrer": "tools/RmrsDiscussions.md"},
-        {"Page": "RestfulTop", "SrcDir": "docswiki", "SrcFile": "RestfulTop.md", "BaseReferrer": "tools/MrsRFC.md", "Referrer": "tools/MrsRFC.md"}
       ]}
     ],
     "summits": [
@@ -331,6 +325,19 @@
         {"Page": "GaliciaGrammarEfficiency", "SrcDir": "docswiki", "SrcFile": "GaliciaGrammarEfficiency.md", "BaseReferrer": "summits/GaliciaSchedule.md", "Referrer": "summits/GaliciaSchedule.md"},
         {"Page": "GaliciaMatrixHypotheses", "SrcDir": "docswiki", "SrcFile": "GaliciaMatrixHypotheses.md", "BaseReferrer": "summits/GaliciaSchedule.md", "Referrer": "summits/GaliciaSchedule.md"},
         {"Page": "GaliciaRobustness", "SrcDir": "docswiki", "SrcFile": "GaliciaRobustness.md", "BaseReferrer": "summits/GaliciaSchedule.md", "Referrer": "summits/GaliciaSchedule.md"}
+      ]}
+    ],
+    "tools": [
+      {"Section": "Formats", "Pages": [
+        {"Page": "GaliciaMrsLvc", "SrcDir": "docswiki", "SrcFile": "GaliciaMrsLvc.md", "BaseReferrer": "tools/RmrsDiscussions.md", "Referrer": "tools/RmrsDiscussions.md"},
+        {"Page": "GaliciaNominalization", "SrcDir": "docswiki", "SrcFile": "GaliciaNominalization.md", "BaseReferrer": "tools/RmrsDiscussions.md", "Referrer": "tools/RmrsDiscussions.md"},
+        {"Page": "GaliciaThaiSvc", "SrcDir": "docswiki", "SrcFile": "GaliciaThaiSvc.md", "BaseReferrer": "tools/RmrsDiscussions.md", "Referrer": "tools/RmrsDiscussions.md"},
+        {"Page": "RestfulTop", "SrcDir": "docswiki", "SrcFile": "RestfulTop.md", "BaseReferrer": "tools/MrsRFC.md", "Referrer": "tools/MrsRFC.md"}
+      ]}
+    ],
+    "matrix": [
+      {"Section": "FAQ", "Pages": [
+        {"Page": "GeFaq", "SrcDir": "docswiki", "SrcFile": "GeFaq.md", "BaseReferrer": "matrix/GrammarEngineeringFAQ.md", "Referrer": "matrix/GrammarEngineeringFAQ.md", "FileMissing": true}
       ]}
     ]
   }

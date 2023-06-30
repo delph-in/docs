@@ -24,8 +24,6 @@ toc:
         url: "/DelphinWelcome/"
       - title: "Applications"
         url: "/DelphinApplications/"
-      - title: "DELPH-IN News"
-        url: "/DelphinNews/"
   - title: "Projects"
     children:
       - title: "Archive"

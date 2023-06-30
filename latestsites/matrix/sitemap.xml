@@ -1,9 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://delph-in.github.io/docs/matrix/GeFaq/</loc>
-</url>
-<url>
 <loc>https://delph-in.github.io/docs/matrix/GeFaqChartTwice/</loc>
 </url>
 <url>
@@ -184,9 +181,6 @@
 <loc>https://delph-in.github.io/docs/matrix/MatrixDevTop/</loc>
 </url>
 <url>
-<loc>https://delph-in.github.io/docs/matrix/MatrixDocTop/</loc>
-</url>
-<url>
 <loc>https://delph-in.github.io/docs/matrix/MatrixDoc_AdnominalPossession/</loc>
 </url>
 <url>
@@ -362,6 +356,6 @@
 </url>
 <url>
 <loc>https://delph-in.github.io/docs/matrix/nav.html</loc>
-<lastmod>2023-06-30T08:10:01+00:00</lastmod>
+<lastmod>2023-06-30T11:34:02+00:00</lastmod>
 </url>
 </urlset>

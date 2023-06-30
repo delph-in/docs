@@ -1,5 +1,5 @@
 {% raw %}SIG discussion at [Tomar, 2014](https://delph-in.github.io/docs/summits/TomarTop) on the [Grammar
-Matrix](https://delph-in.github.io/docs/matrix/MatrixDocTop) in individual grammars (what is used, what has
+Matrix](https://delph-in.github.io/docs/howto/MatrixDocTop) in individual grammars (what is used, what has
 been changed), led by [Antske](https://delph-in.github.io/docs/garage/AntskeFokkens).
 
 * * *

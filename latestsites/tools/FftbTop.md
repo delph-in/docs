@@ -91,7 +91,7 @@ You can also just do it automatically:
 
     fftb -g grm.dat new/profile --gold gold/profile --auto 
 
-For beginners, here is a tutorial about manually updating items which are easy to update and yet were missed by the automatic tool.
+For beginners, here is a [tutorial](https://delph-in.github.io/docs/tools/FftbTreebankUpdateTutorial) about manually updating items which are easy to update and yet were missed by the automatic tool.
 
 ## Training a ranking model
 

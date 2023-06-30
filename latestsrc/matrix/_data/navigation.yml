@@ -70,8 +70,6 @@ toc:
         url: "/MatrixValidationDebugging/"
   - title: "Matrix Doc"
     children:
-      - title: "Overview"
-        url: "/MatrixDocTop/"
       - title: "Adnominal Possession"
         url: "/MatrixDoc_AdnominalPossession/"
       - title: "Argument Optionality"
@@ -152,8 +150,6 @@ toc:
         url: "/GeFaqFindTypeForFeatures/"
       - title: "Forgotten Constraint"
         url: "/GeFaqForgottenConstraint/"
-      - title: "GeFaq"
-        url: "/GeFaq/"
       - title: "Goto Char"
         url: "/GeFaqGotoChar/"
       - title: "Grammar Documentation"
