@@ -5,6 +5,7 @@
     * Had line breaks
     * Pages didn't exist
 
+* Virtual2021Participants doesn't render the table correctly
 * Font is small
 * Linking between pages scrolls down a tiny bit
 * Testing removal (what happens if something is removed from the wiki?)
