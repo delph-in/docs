@@ -122,5 +122,4 @@ if need be)
 - [ClaudeZhang](/ClaudeZhang)
 - [YiZhang](https://delph-in.github.io/docs/garage/YiZhang)
 - [LiljaØvrelid](/Lilja%C3%98vrelid)
-
-Last update: 2020-07-14 by CarlosGómez [[edit](https://github.com/delph-in/docs/wiki/VirtualParticipants/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

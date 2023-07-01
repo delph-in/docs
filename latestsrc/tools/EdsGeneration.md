@@ -144,5 +144,4 @@ strings in the ERG (e.g. \_now\_a\_1). With these limitations (and
 doubtlessly others), nevertheless, generation is possible for a large
 proportion of exemplars from the MRS test suite; more systematic (batch)
 testing is pending.
-
-Last update: 2015-11-25 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/EdsGeneration/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

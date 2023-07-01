@@ -58,5 +58,4 @@ sudo cp -r yzlui.app /Applications
 ```
 
 If the last stop doesn't work, this maybe because Mac hides the extension of the file. In this case, note which file appears in the Finder as type "Application" and move it to the Applications folder manually.
-
-Last update: 2022-08-31 by T.J. Trimble [[edit](https://github.com/delph-in/docs/wiki/AceLui/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

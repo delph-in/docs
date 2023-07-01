@@ -171,5 +171,4 @@ moderately better parse selection accuracy (due to the reduced search
 space). End-to-end parsing results for these experiments are presented
 in the slides from his [MSc
 presentation](http://www.delph-in.net/2013/ltg/fares.slides.pdf).
-
-Last update: 2017-08-09 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/LtgOslo_Delphin/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

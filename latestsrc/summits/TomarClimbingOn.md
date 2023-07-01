@@ -73,5 +73,4 @@ right points to the grammarian.
 
 Antske: Given the time constraints, something can be done on
 prioritization. Let me know if you have specific requests.
-
-Last update: 2014-07-16 by AntskeFokkens [[edit](https://github.com/delph-in/docs/wiki/TomarClimbingOn/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

@@ -45,5 +45,4 @@ Please add times **in UTC**:
 | Ping Xue | July 19--23 | Will attend most meetings |
 | Yanfei Fang| July 19-23 | Will attend most meetings |
 | Glenn Slayden | July 19-23 | |
-
-Last update: 2021-07-18 by John Carroll [[edit](https://github.com/delph-in/docs/wiki/Virtual2021Participants/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

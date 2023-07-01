@@ -27,5 +27,4 @@ way to promote co-operation. Sometimes American groups can join European
 funded initiatives. It is hard to get funding for DELPH-IN, given the
 way we present ourselves externally (website! show more
 results/achievements!).
-
-Last update: 2009-07-26 by BartCramer [[edit](https://github.com/delph-in/docs/wiki/BarcelonaCooperation/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

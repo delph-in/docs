@@ -26,5 +26,4 @@ be oe)
 - unknown words and numbers
 - gold JaCY profiles in CVS DONE
 - web demonstrator
-
-Last update: 2008-12-01 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/MachineTranslationTop/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

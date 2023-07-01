@@ -81,5 +81,4 @@ transfer as a first choice.
 Well, these are possibilities, among many more …
 
 Lars 270913
-
-Last update: 2013-09-27 by LarsHellan [[edit](https://github.com/delph-in/docs/wiki/SaarlandValence/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

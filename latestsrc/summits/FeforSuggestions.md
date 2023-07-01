@@ -12,5 +12,4 @@ people repeat themselves).
 - Start planning of sessions sufficiently early, so that there is a
 first draft ready when people have to start planning trips. This
 also helps for people to argue for funding.
-
-Last update: 2006-06-17 by AnetteFrank [[edit](https://github.com/delph-in/docs/wiki/FeforSuggestions/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

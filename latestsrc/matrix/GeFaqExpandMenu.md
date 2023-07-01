@@ -10,5 +10,4 @@ Menu". To go back to the smaller menu, select "Options &gt; Shrink
 Menu".
 
 [Back to the Grammar Engineering FAQ](https://delph-in.github.io/docs/matrix/GrammarEngineeringFAQ).
-
-Last update: 2023-06-30 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/GeFaqExpandMenu/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

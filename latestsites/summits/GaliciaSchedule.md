@@ -123,5 +123,4 @@ Please upload your presentations [here](https://github.com/delph-in/docs/tree/ma
 2. The New DELPH-IN Documentation System: Eric
 3. Full Forest Treebanker (FFTB): Olga
 4. PyDelphin and Delphin-viz tools: Berthold request
-
-Last update: 2023-06-30 by John Carroll [[edit](https://github.com/delph-in/docs/wiki/GaliciaSchedule/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

@@ -318,5 +318,4 @@ anaphora resolution
 to make it useful.
 
 Guy: Volunteers to be the aesthetic consultant on slide design
-
-Last update: 2015-08-07 by LuisMorgadoCosta [[edit](https://github.com/delph-in/docs/wiki/SingaporeTutorialPlanning/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

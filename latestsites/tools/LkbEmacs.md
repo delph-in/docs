@@ -262,5 +262,4 @@ If you use the [LkbLexDb](/LkbLexDb), don't forget to specify the
 encoding when you install the lexical database:
 
     bash install-lexdb.sh jap ~/jap/lexdb.fld ~/jap/lexdb.dfn "-E EUC_JP"
-
-Last update: 2019-07-16 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/LkbEmacs/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

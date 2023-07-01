@@ -89,5 +89,4 @@ known to he outside world. (For some people it is the only thing they
 can do etc.). It should be very good though, to make clear to the world
 how our research can be useful. [DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger):
 Especially if we want to get governmental funding.  
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/LisbonExpectationsDiscussion/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

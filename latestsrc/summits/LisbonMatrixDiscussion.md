@@ -135,5 +135,4 @@ A student implemented some of it, but it might not be distributable.
 **Ivan S:**
 
 I have it here on my laptop.
-
-Last update: 2005-08-25 by ScottDrellishak [[edit](https://github.com/delph-in/docs/wiki/LisbonMatrixDiscussion/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

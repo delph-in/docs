@@ -39,5 +39,4 @@ oe: the developers list is currently the best channel
 
 Francis: Policy at NTU is that if anyone receives help on developers,
 they are responsible for putting the info on the wiki as well
-
-Last update: 2013-07-31 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/SaarlandBusinessMeeting/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

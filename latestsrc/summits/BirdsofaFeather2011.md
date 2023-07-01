@@ -106,5 +106,4 @@ file.](http://faculty.washington.edu/ebender/BoaF-annotations/all.txt)
 
 Please visit the
 [BirdsofaFeather2011Summary](https://delph-in.github.io/docs/summits/BirdsofaFeather2011Summary) page.
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/BirdsofaFeather2011/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

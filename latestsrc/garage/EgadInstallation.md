@@ -17,5 +17,4 @@ Delphin::XYZ..." to "use egad::XYZ...".
 Egad is undergoing a rewrite into Python, and the resulting module will
 be easier to setup and use. We suggest you wait for that version. See
 <https://launchpad.net/egad> for developments.
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/EgadInstallation/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

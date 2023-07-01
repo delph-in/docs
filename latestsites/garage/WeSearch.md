@@ -9,5 +9,4 @@ One of the early results released publicly by the project is the
 the summer of 2012. Please watch this page for updates or email
 jread@ifi.uio.no if you would like to be notified when WDC is made
 available.
-
-Last update: 2012-07-02 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/WeSearch/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

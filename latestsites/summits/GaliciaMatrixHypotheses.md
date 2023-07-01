@@ -166,5 +166,4 @@ processing are distinct) that may be wrong
 
 Emily: thanks us all for an interesting discussion.
 
-
-Last update: 2023-06-29 by Glenn Slayden [[edit](https://github.com/delph-in/docs/wiki/GaliciaMatrixHypotheses/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

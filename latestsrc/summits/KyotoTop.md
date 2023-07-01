@@ -120,5 +120,4 @@ If you have any questions or comments, please email
 - Takayuki Kuribayashi (NICT)
 - Eric Nichols (NAIST)
 - Kyonghee Paik (Waseda)
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/KyotoTop/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

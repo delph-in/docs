@@ -26,5 +26,4 @@ occuring. &lt;&gt; is the empty path, i.e., the outermost pair of square
 brackets.
 
 [Back to the Grammar Engineering FAQ](https://delph-in.github.io/docs/matrix/GrammarEngineeringFAQ).
-
-Last update: 2023-06-30 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/GeFaqNoPossibleType/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

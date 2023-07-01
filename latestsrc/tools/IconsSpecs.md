@@ -59,5 +59,4 @@ satisfying all of the input ICONS elements, there are leftover
 realization ICONS elements, I don't currently consider that grounds for
 rejecting the result. This allows inputs with empty ICONS lists to still
 generate, for instance.
-
-Last update: 2013-08-05 by GlennSlayden [[edit](https://github.com/delph-in/docs/wiki/IconsSpecs/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

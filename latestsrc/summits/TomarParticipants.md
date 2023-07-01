@@ -95,5 +95,4 @@ port).
 - [YiZhang](https://delph-in.github.io/docs/garage/YiZhang) (unfortunately i can't make it)
 - [LuisMorgadoCosta](https://delph-in.github.io/docs/garage/LuisMorgadoCosta) (July 14-July 18, sim ao porto)
 - [DavidInman](/DavidInman) (July 14-18)
-
-Last update: 2014-07-09 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/TomarParticipants/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

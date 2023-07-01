@@ -55,5 +55,4 @@ paper
 - Finished with a round of thanks to the local organizer (Emily), the
 program Chairs (Stephan and Francis) and the Utilika Foundation.
 ^///^
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/SuquamishBusinessMeeting/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

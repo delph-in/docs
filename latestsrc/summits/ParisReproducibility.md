@@ -71,5 +71,4 @@ Francis: perhaps we should put it in a Readme in the skeleton file,
 which goes into the svn and then we can link to it from the wiki.
 
 Oe, Emily: that makes sense :smiley:
-
-Last update: 2010-07-03 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/ParisReproducibility/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

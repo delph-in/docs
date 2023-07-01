@@ -283,5 +283,4 @@ share some distinguishing syntactic feature (e.g. a boolean type called
 *inalienable*), as defined on the Other Features subpage. The user can
 then easily add constraints to the lexical items, lexical rules, and
 phrase structure rules that are added by the library currently.
-
-Last update: 2019-04-26 by ElizabethNielsen [[edit](https://github.com/delph-in/docs/wiki/MatrixDoc_AdnominalPossession/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

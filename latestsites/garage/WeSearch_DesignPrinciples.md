@@ -17,5 +17,4 @@ distinction corresponds to morphosyntactic differences
 predicates required for decomposition exist, then it is good.
 
 cf. Copestake et al 2005 and "Slacker Semantics" (Copestake 2009)
-
-Last update: 2012-07-03 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/WeSearch_DesignPrinciples/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

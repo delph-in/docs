@@ -222,5 +222,4 @@ Chinese. In the short term, we have been ok with just using square. We
 will try to, if we produce something with the Chinese thing in Zhong, we
 will put a little note somewhere in Zhong this is how we did this is how
 it worked.
-
-Last update: 2017-01-18 by DavidMoeljadi [[edit](https://github.com/delph-in/docs/wiki/CapitolHillChartMap/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

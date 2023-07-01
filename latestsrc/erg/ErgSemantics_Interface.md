@@ -149,5 +149,4 @@ follows (e.g. in lkb/mrsglobals.lsp in the ERG):
       (setf *normalize-predicates-p* t)
 
 # References
-
-Last update: 2019-05-25 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/ErgSemantics_Interface/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

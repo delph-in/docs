@@ -121,5 +121,4 @@ means for increasing it
 - Breakout sessions
 
 **19:00** Jazz concert in the park!
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/KyotoSchedule/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

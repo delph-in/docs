@@ -90,5 +90,4 @@ EB: None of this looks relevant to your work.
 GE: But parasitic gaps are the kind of thing HPSG would be good at.
 
 EB: Yes, fun to show off :slightly\_smiling\_face:
-
-Last update: 2019-07-18 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/CambridgeWhInfoStructure/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

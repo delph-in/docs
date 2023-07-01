@@ -242,5 +242,4 @@ Make sure all predicates are either in lexical entries or C-CONT.
 This should work in the LKB SVN as well as the LOGON tree, and is the
 basis for ranking and selective unpacking in generation and also in
 parsing.
-
-Last update: 2020-05-21 by JohnCarroll [[edit](https://github.com/delph-in/docs/wiki/LkbGeneration/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

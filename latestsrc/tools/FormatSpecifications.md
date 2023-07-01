@@ -54,5 +54,4 @@ effort
 
 The best action is to set up a page let people add info, mark it as
 proposal/draft, and request for comments
-
-Last update: 2011-06-28 by PetterHaugereid [[edit](https://github.com/delph-in/docs/wiki/FormatSpecifications/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

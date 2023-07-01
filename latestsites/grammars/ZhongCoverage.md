@@ -102,5 +102,4 @@ generation.
 # History of Coverage
 
 See [ZhongHistory](https://delph-in.github.io/docs/grammars/ZhongHistory)
-
-Last update: 2015-03-20 by SanghounSong [[edit](https://github.com/delph-in/docs/wiki/ZhongCoverage/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

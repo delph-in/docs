@@ -73,5 +73,4 @@ The YY input mode (see the corresponding section in
 where yy.txt contains inputs like:
 
     (42, 0, 1, <0:11>, 1, "Tokenization", 0, "null", "NNP" 0.7677 "NN" 0.2323)
-
-Last update: 2019-07-17 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/AceUse/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

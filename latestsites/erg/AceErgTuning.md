@@ -77,5 +77,4 @@ ungrammatical structures such as subject-verb number mismatch and
 missing determiners.
 
 - ace -G erg-2018.dat -g ..../erg-2018/ace/config-educ.tdl
-
-Last update: 2022-08-23 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/AceErgTuning/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

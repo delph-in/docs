@@ -157,5 +157,4 @@ to your left, go up one flight and through the green door.
 |                    16:30-18:00 *SIG Session 8*                     |                                                                                                                                                               |
 |                            16:30 in 126                            |                                                         Noun incorporation (Angelina McMillan-Major)                                                          |
 |                                                                    |                                                                                                                                                               |
-
-Last update: 2018-07-28 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/DiderotSchedule/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

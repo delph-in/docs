@@ -330,5 +330,4 @@ This can lead to confusing edges in the chart, so it can be a good idea
 to turn it off when debugging:
 
      --disable-generalization
-
-Last update: 2022-12-19 by John Carroll [[edit](https://github.com/delph-in/docs/wiki/GrammarPerformance/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

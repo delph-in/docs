@@ -223,5 +223,4 @@ WP: Would you like something like FEAT &lt; value, value, value &gt; =
 \[nn\] (+) \[mm\]?
 
 EB: That would be nice :slightly\_smiling\_face:
-
-Last update: 2020-01-09 by GuyEmerson [[edit](https://github.com/delph-in/docs/wiki/CambridgeExtractionAppend/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

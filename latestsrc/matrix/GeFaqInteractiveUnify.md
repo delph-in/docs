@@ -40,5 +40,4 @@ point at which the two feature structures didn't unify (there may be
 more). This information should be useful for debugging.
 
 [Back to the Grammar Engineering FAQ](https://delph-in.github.io/docs/matrix/GrammarEngineeringFAQ).
-
-Last update: 2023-06-30 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/GeFaqInteractiveUnify/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

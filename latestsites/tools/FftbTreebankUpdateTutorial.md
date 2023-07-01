@@ -66,5 +66,4 @@ Occasionally, you will try all the boxes and will not arrive at the situation wh
 
 File a bug or otherwise record this, and move on to the next item.
 
-
-Last update: 2023-06-23 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/FftbTreebankUpdateTutorial/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

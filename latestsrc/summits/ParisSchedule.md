@@ -122,5 +122,4 @@ Room 1 = larger room = ? Room 2 = smaller room = ?
 ## July 6
 
 See [ParisOpen](https://delph-in.github.io/docs/summits/ParisOpen)
-
-Last update: 2015-10-30 by GlennSlayden [[edit](https://github.com/delph-in/docs/wiki/ParisSchedule/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

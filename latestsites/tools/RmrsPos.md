@@ -101,5 +101,4 @@ suitable for exchange between different POS inventories.
 | q := u        | quantifier (needs to be distinguished for scoping code) | this\_q\_1                          |                           |
 | x := u        | other closed class                                      | ahem\_x\_1                          |                           |
 | u             | unknown                                                 |                                     |                           |
-
-Last update: 2013-03-06 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/RmrsPos/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

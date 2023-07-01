@@ -88,5 +88,4 @@ constructions in your sentence and links to pertinent pages?
 - ACL tutorial, with video lecture?
 - Series of short videos (\~7mins)?
 - [WikiBook](/WikiBook)
-
-Last update: 2018-06-21 by AlexanderKoller [[edit](https://github.com/delph-in/docs/wiki/DiderotOldSchoolSemantics/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

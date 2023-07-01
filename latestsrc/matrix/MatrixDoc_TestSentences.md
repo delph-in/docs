@@ -25,5 +25,4 @@ modifications to or enhancements of this library that are either in
 progress or planned. \]</span>
 
 # References
-
-Last update: 2012-08-30 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/MatrixDoc_TestSentences/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

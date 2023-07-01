@@ -1797,5 +1797,4 @@ editors = {K. Klar, M. Langdon, and S. Silver},\
 pages = {85-99},\
 publisher = {The Hague: Mouton}\
 }
-
-Last update: 2018-01-04 by OlgaZamaraeva [[edit](https://github.com/delph-in/docs/wiki/MatrixDoc_Lexicon/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

@@ -356,5 +356,4 @@ David: can I propose that what bothers Emily about merging 'e' and 'x',
 is that, in the syntax you are eventually get down to the point where a
 role needs to get filled. But grammars differ about preference for where
 this happens, whether something's a predicate or not.
-
-Last update: 2016-06-21 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/StanfordVerbalNouns/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

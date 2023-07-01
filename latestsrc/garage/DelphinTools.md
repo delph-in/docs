@@ -169,5 +169,4 @@ of the dependency used to create them.
                         /vmrs/0
                         /omrs/
                         /imrs/0/
-
-Last update: 2017-01-24 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/DelphinTools/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

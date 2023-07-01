@@ -11,5 +11,4 @@
 - [StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen)
 - TimOGorman
 - [WoodleyPackard](/WoodleyPackard)
-
-Last update: 2014-11-15 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/CcsGroup/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

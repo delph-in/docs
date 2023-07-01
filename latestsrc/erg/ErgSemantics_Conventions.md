@@ -17,5 +17,4 @@ any given EP description each ARG position mentioned describes a
 different ARG value.
 - ARG1\|2 or similar to underspecifications between just two
 positions?
-
-Last update: 2013-12-04 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/ErgSemantics_Conventions/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

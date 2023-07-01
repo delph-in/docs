@@ -137,5 +137,4 @@ T5: Wrapper & computation types ("Emerson-Turing types"):	Guy, tutorial offer
 
 T6: Treebanking over the net with semantic discriminators, Berthold, tutorial request (there is no system, so hard to do a tutorial).
 
-
-Last update: 2022-10-19 by Guy Emerson [[edit](https://github.com/delph-in/docs/wiki/Fairhaven2022Schedule/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

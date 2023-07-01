@@ -48,5 +48,4 @@ Rebecca: one way of describing a domain
 Ned: could be a good way of characterizing domain of phenomena
 
 Tim: Looking not a phenomena, but what are the differences
-
-Last update: 2013-07-31 by PrescottKlassen [[edit](https://github.com/delph-in/docs/wiki/SaarlandPackagingPhenomenalCorpora/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

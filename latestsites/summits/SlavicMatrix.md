@@ -76,5 +76,4 @@ you were asking about the things observed in Little Prince? Pro-drop
 Tania: there are a lot of fragments.. Emily: they are independent Varya:
 Word order in terms of information structure could be interesting, but
 it is mostly neutral
-
-Last update: 2011-06-28 by AntskeFokkens [[edit](https://github.com/delph-in/docs/wiki/SlavicMatrix/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}
