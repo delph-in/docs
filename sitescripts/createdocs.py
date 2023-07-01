@@ -273,10 +273,14 @@ def get_rerouted_link(repositories_definitions, pages_definitions, file_definiti
         # See if we can find that definition
         for definition in pages_definitions:
             if definition["SrcDir"] == src_dir and definition["SrcFile"] == target_path_and_file:
-                # Found it! just return a full link to it
-                extra = ('?' + query) if query is not None and query != "" else ""
-                extra += ('#' + fragment) if fragment is not None and fragment != "" else ""
-                return "relative_success", None, target_file, f"{definition['AbsoluteLink']}{extra}"
+                if definition["Section"] == "<todo>":
+                    # This page is marked as being ignored so remove the link
+                    return "relative_ignore", "Wiki page is marked as <todo> so links are removed to it", target_path_and_file, ""
+                else:
+                    # Found it! just return a full link to it
+                    extra = ('?' + query) if query is not None and query != "" else ""
+                    extra += ('#' + fragment) if fragment is not None and fragment != "" else ""
+                    return "relative_success", None, target_file, f"{definition['AbsoluteLink']}{extra}"
 
         # If if it doesn't exist, return the proper link that *would have* accessed it
         return "relative_broken", "Wiki page doesn't exist", target_path_and_file, ""
