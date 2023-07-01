@@ -376,5 +376,4 @@ Emily: That would be available, because the predicates in the SEM-I map
 to ERG entries.
 
 Glenn: Time to finish!
-
-Last update: 2016-06-22 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/StanfordSenses/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

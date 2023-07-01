@@ -458,5 +458,4 @@ Sample searches:
 over P\_NP\_I\*, nor a version of the LOGON data loaded that has
 abbreviations for node labels, though that should be possible in
 principle.)
-
-Last update: 2018-06-19 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/WeSearch_UnderspecifedAttachment/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

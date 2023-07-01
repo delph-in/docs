@@ -185,5 +185,4 @@ adverb, mostly to implement Jongbok's approach to aux negation as in
 - Another inflectional rule which doesn't change spelling, and which
 makes an unflected noun stem into a word which is underspecified for
 mass or count (a word like "paper")
-
-Last update: 2013-09-17 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/ErgTreebankingRules/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

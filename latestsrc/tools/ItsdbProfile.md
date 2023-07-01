@@ -162,5 +162,4 @@ and so on.
       tree :string                          # phrase structure tree (CSLI labels)
       mrs :string                           # mrs for this reading
       flags :string                         # arbitrary annotation (e.g. BLEU)
-
-Last update: 2012-08-07 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/ItsdbProfile/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

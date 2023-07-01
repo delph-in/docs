@@ -182,5 +182,4 @@ OZ: And developer-friendly, too! Need far fewer regression tests…
 
 BC: If English prime was good enough for Montague, then Russian prime
 should be good enough for you :slightly\_smiling\_face:
-
-Last update: 2019-07-18 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/CambridgeWhQLibrary/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

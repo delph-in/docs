@@ -108,5 +108,4 @@ file:
              tsdb/home/
              tsdb/current/
              trees/
-
-Last update: 2020-03-26 by MichaelGoodman [[edit](https://github.com/delph-in/docs/wiki/VersionControlForGrammarDevelopment/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

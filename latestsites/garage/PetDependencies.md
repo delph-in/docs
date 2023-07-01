@@ -208,5 +208,4 @@ This requires the [XML-RPC-C library](http://xmlrpc-c.sourceforge.net/).
 For debian-based distros, run:
 
       sudo apt-get install libxmlrpc-c3-dev
-
-Last update: 2014-03-30 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/PetDependencies/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

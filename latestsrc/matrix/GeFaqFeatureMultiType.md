@@ -31,5 +31,4 @@ should I do?](https://delph-in.github.io/docs/matrix/GeFaqNewFeature)
 at path (...)". What is causing this?](https://delph-in.github.io/docs/matrix/GeFaqNoPossibleType)
 
 [Back to the Grammar Engineering FAQ](https://delph-in.github.io/docs/matrix/GrammarEngineeringFAQ).
-
-Last update: 2023-06-30 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/GeFaqFeatureMultiType/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

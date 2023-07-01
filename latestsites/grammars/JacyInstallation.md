@@ -204,5 +204,4 @@ Implementation](https://delph-in.github.io/docs/tools/LkbLui) (recommended)
 
 CLIM is used for some displays (the parse compare/treebanking window and
 the type hierarchy). It should work out of the box for Japanese.
-
-Last update: 2012-02-07 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/JacyInstallation/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

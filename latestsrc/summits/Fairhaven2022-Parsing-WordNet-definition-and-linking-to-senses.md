@@ -56,5 +56,4 @@
 - Luis: If we have one sense that perfectly matches the MRS of one of the word in the compositional, we use that sense
 - Francis: How to not tag "hot dog" as "a dog that is hot"
 - Eric: If we get the different representations in MRS (i.e. the WN sense that is different from the MRS), we can't have that representation. So "red deer" can be interpreted as "a deer that is red" (mapping to the sense "red" and "deer" in WN). But "hot dog" cannot be interpreted as "a dog that is hot" (mapping to the sense "hot" and "dog" in WN).
-
-Last update: 2022-07-20 by Yi-Chien Lin [[edit](https://github.com/delph-in/docs/wiki/Fairhaven2022-Parsing-WordNet-definition-and-linking-to-senses/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

@@ -14,5 +14,4 @@ procedure to be applied for fixing the problem.
 # RHEL8
 
       dnf install libnsl glibc.i686
-
-Last update: 2020-12-08 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/LogonRedhat/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

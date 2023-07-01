@@ -9,5 +9,4 @@ February 2017; near Oslo.
 - [Working Meeting on Meaning Construction for Universal
 Dependencies](http://moin.delph-in.net/SynSem/MeaningConstruction);
 March 2018; in Oslo.
-
-Last update: 2018-03-15 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/SynSem/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

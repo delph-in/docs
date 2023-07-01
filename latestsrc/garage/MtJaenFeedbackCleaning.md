@@ -435,5 +435,4 @@ not affecting too many unambiguous translations.
 | NO\_P\_REL-POSS\_REL-OMTR                                  | 0.0470393     | 1.3171      | 28              | 36                |
 | MOTTE-IRU--HOLD\_MTR                                       | 0.27638       | 1.3819      | 5               | 0                 |
 | UDEF-DEF-POSSESSOR\_Q                                      | 0.05542       | 1.6626      | 30              | 38                |
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/MtJaenFeedbackCleaning/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

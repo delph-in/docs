@@ -99,5 +99,4 @@ Over waffles:
 Can we treat \_bother\_v\_rel as underspecified between taking clausal
 (h) and nominal (x) subject? In logic, no, but again MRSs are
 descriptions, not directly representations.
-
-Last update: 2012-05-01 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/WeSearch_UnderspecifiedPreds/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

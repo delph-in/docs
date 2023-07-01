@@ -362,5 +362,4 @@ Guy: But at least you can't reply with just a *yes* or *no*.
 Emily: What does the typological literature call this?
 
 Olga: Constituent questions, or information questions.
-
-Last update: 2018-06-19 by GlennSlayden [[edit](https://github.com/delph-in/docs/wiki/DiderotWhQuestionsLibrary/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

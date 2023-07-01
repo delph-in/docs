@@ -115,5 +115,4 @@ coordination.
 
 Work on the Grammar Matrix is currently supported by an NSF CAREER grant
 (BCS-0644097).
-
-Last update: 2023-06-30 by emilymbender [[edit](https://github.com/delph-in/docs/wiki/MatrixTop/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

@@ -46,5 +46,4 @@ something big enough for the grammar to parse your sentences with (e.g.
 4000 edges)!
 
 [Back to the Grammar Engineering FAQ](https://delph-in.github.io/docs/matrix/GrammarEngineeringFAQ).
-
-Last update: 2023-06-30 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/GeFaqRunawayRule1/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

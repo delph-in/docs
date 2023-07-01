@@ -51,5 +51,4 @@ analyses which should be documented. These, too, are noted on the
 
 - [ErgSemantics](https://delph-in.github.io/docs/erg/ErgSemantics) Main Page
 - [How to Cite this Work](https://delph-in.github.io/docs/erg/ErgSemantics_HowToCite)
-
-Last update: 2014-11-04 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/ErgSemantics_Discovery/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

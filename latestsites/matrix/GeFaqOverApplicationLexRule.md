@@ -8,5 +8,4 @@ output. Add **inflecting-lex-rule**as a supertype to the rule in
 question, and it should work better.
 
 [Back to the Grammar Engineering FAQ](https://delph-in.github.io/docs/matrix/GrammarEngineeringFAQ).
-
-Last update: 2023-06-30 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/GeFaqOverApplicationLexRule/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

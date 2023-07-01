@@ -238,5 +238,4 @@ Berthold: It would be nice to link both ways, from demo to ESD pages and
 from ESD pages to demos.
 
 John/Dan: Or just a link to the ESD pages at the top of the demo.
-
-Last update: 2018-08-30 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/DiderotEsdFocusGroup/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

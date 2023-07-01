@@ -68,5 +68,4 @@ You also need to add the following to the matrix.tdl:
     orthog := cons &
       [ FROM string,
         TO string ].
-
-Last update: 2012-08-13 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/ChartMappingSetup/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

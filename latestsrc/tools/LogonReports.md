@@ -49,5 +49,4 @@ Japanese–English MT. LOGON [Technical Report \#
 2007-21](http://www.emmtee.net/reports/21.pdf) reviews some of the
 design decisions and challenges in adapting the original LOGON
 technology to other language pairs.
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/LogonReports/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

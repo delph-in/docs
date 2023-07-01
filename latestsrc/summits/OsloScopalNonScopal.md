@@ -660,5 +660,4 @@ Woodley: So do it with verbs:
 whose dog that smiled barked.*
 
 \[ This didn't parse in 1214, but does parse in trunk. \]
-
-Last update: 2017-08-12 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/OsloScopalNonScopal/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

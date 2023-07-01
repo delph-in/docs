@@ -626,550 +626,76 @@ by a complete reference for all the command-line options.</p>
 
 <p>Complete Reference:</p>
 
-<table>
-  <thead>
-    <tr>
-      <th style="text-align: center"> </th>
-      <th style="text-align: center"> </th>
-      <th style="text-align: center"> </th>
-      <th style="text-align: center"> </th>
-      <th style="text-align: center"> </th>
-      <th style="text-align: center"> </th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align: center">Option</td>
-      <td style="text-align: center">Description</td>
-      <td style="text-align: center">Task</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center">Version</td>
-    </tr>
-    <tr>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center">P</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center">T</td>
-      <td style="text-align: center">G</td>
-    </tr>
-    <tr>
-      <td style="text-align: center"><strong>General options</strong></td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: center">-V</td>
-      <td style="text-align: center">Show ACE version number.</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: center">-h</td>
-      <td style="text-align: center">Show a short synopsis of usage</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: center">-v</td>
-      <td style="text-align: center">Increase verbosity; up to 3 -v options can be used if desired. The additional output is unlikely to be useful except for debugging.</td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: center">–license-info</td>
-      <td style="text-align: center">Show ACE’s license</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: center"><strong>Grammar loading/compiling</strong></td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: center">-g filename</td>
-      <td style="text-align: center">Identify the grammar to be used. Normally, a compiled grammar image. When compiling a grammar, the location of that grammar’s config.tdl file.</td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center">0.9</td>
-    </tr>
-    <tr>
-      <td style="text-align: center">-G filename</td>
-      <td style="text-align: center">Enable grammar-compilation mode, and specify where to save the compiled grammar.</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center">0.9</td>
-    </tr>
-    <tr>
-      <td style="text-align: center">–gen-qc</td>
-      <td style="text-align: center">Generate a quickcheck skeleton based on the unification failures encountered during this run.</td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center">0.9.31</td>
-    </tr>
-    <tr>
-      <td style="text-align: center"><strong>Alternative modes</strong></td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: center">-e</td>
-      <td style="text-align: center">Generate, rather than parse.</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center">0.9</td>
-    </tr>
-    <tr>
-      <td style="text-align: center">-l</td>
-      <td style="text-align: center">Enable LUI mode. You must have a working <em>yzlui</em> binary in your PATH.</td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: center">–input-from-lui</td>
-      <td style="text-align: center">Inputs to parse are provided by LUI instead of stdin.</td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: center">–lui-fd=N</td>
-      <td style="text-align: center">LUI front-end is already running and connected to file descriptor N.</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: center">–generation-server=fr</td>
-      <td style="text-align: center">Operate as the generator in the LOGON architecture: read MRSes from ~/tmp/.transfer.$USER.fr</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: center">-E</td>
-      <td style="text-align: center">Run the REPP preprocessor on each input and output the result; do not perform token mapping or any further parsing.</td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: center">-m hostname</td>
-      <td style="text-align: center">Join an <em>arbiter</em> grid of parsers.</td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: center">-t</td>
-      <td style="text-align: center">Run as a [incr tsdb()] client.</td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: center">-O</td>
-      <td style="text-align: center">Full-forest parse results; output chart edges instead of derivations.</td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: center">–itsdb-forest</td>
-      <td style="text-align: center">Full-forest parse results with structured output; use with –tsdb-stdout and not with -O</td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center">0.9.7</td>
-    </tr>
-    <tr>
-      <td style="text-align: center"><strong>Input/output options</strong></td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: center">-f</td>
-      <td style="text-align: center">Format each EP on its own line when printing MRSes.</td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: center">-y</td>
-      <td style="text-align: center">Enable YY input mode (experimental).</td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center">0.9.4</td>
-    </tr>
-    <tr>
-      <td style="text-align: center">–yy-rules</td>
-      <td style="text-align: center">when in YY mode, require input tokens to undergo specific lexical rules</td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center">0.9.4</td>
-    </tr>
-    <tr>
-      <td style="text-align: center">-q</td>
-      <td style="text-align: center">Suppress printing the input sentence in cases of successful parsing.</td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: center">-R</td>
-      <td style="text-align: center">Do not output results.</td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: center">-T</td>
-      <td style="text-align: center">Only output MRSes, not trees.</td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: center">–udx(=all)</td>
-      <td style="text-align: center">decorate lexeme nodes with their type; “–udx=all” decorates rule nodes too</td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center">0.9.24</td>
-    </tr>
-    <tr>
-      <td style="text-align: center">–tsdb-stdout</td>
-      <td style="text-align: center">produce structured output as expected by tsdb</td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center">0.9.24</td>
-    </tr>
-    <tr>
-      <td style="text-align: center">–tsdb-notes</td>
-      <td style="text-align: center">output structured run and parse notes</td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: center">–report-labels</td>
-      <td style="text-align: center">add a tree with the labels (e.g., DT, VP as specified in parse-nodes.tdl in ERG defined in config in the parameter parse-node-labels)</td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center">0.9.24</td>
-    </tr>
-    <tr>
-      <td style="text-align: center">–rooted-derivations</td>
-      <td style="text-align: center">include the root in the derivation (if multiple roots apply, the first listed in roots.tdl will be used)</td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: center">–show-realization-mrses</td>
-      <td style="text-align: center">output the final MRS for each realization</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: center">–show-realization-trees</td>
-      <td style="text-align: center">output the derivation for each realization</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: center">–show-probability</td>
-      <td style="text-align: center">output the probability from the parse reranker</td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: center"><strong>Processing/filtering/robustness options</strong></td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: center">-n count</td>
-      <td style="text-align: center">Use selective unpacking to enumerate only the top <em>count</em> results.</td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: center">-1</td>
-      <td style="text-align: center">Equivalent to <em>-n 1</em>.</td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: center">-X</td>
-      <td style="text-align: center">Stop when the first result is found, rather than generating the complete packed forest. Not recommended.</td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: center">-r roots</td>
-      <td style="text-align: center">Supplies a space-delimited list of root instances (overriding the setting compiled into the grammar image).</td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: center">-L lexemes</td>
-      <td style="text-align: center">Disable certain lexemes when parsing.</td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: center">-p</td>
-      <td style="text-align: center">Turn off packing.</td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: center">–equivalence-packing</td>
-      <td style="text-align: center">Disable packing under subsumption; only pack edges that are fully equivalent.</td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: center">–disable-generalization</td>
-      <td style="text-align: center">Turn off subsumption under generalization (useful for debugging)</td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center">0.9.17</td>
-    </tr>
-    <tr>
-      <td style="text-align: center">–disable-subsumption-test</td>
-      <td style="text-align: center">Turn off the subsumption check in generation (underspecified generation)</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: center">–ubertagging=0.001</td>
-      <td style="text-align: center">enable <a href="https://delph-in.github.io/docs/garage/UtTop">ubertagging</a></td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center">0.9.21</td>
-    </tr>
-    <tr>
-      <td style="text-align: center">–pcfg=pcfg</td>
-      <td style="text-align: center">use a pcfg approximation to parse (c-saw) and combine its results with the HPSG</td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: center"><strong>Performance</strong></td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: center">-i</td>
-      <td style="text-align: center">Perform a fine-grained timing profile of the operation requested (experimental).</td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center">0.9.3</td>
-    </tr>
-    <tr>
-      <td style="text-align: center">–max-chart-megabytes=X</td>
-      <td style="text-align: center">Use up to X megabytes of RAM on chart edges before terminating the forest creation portion of parsing.</td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: center">–max-unpack-megabytes=X</td>
-      <td style="text-align: center">Use up to X megabytes of total RAM for chart edges and unpacking operations before cancelling a parse.</td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: center">–max-words=X</td>
-      <td style="text-align: center">ignore sentences with more than X words (default 70)</td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center">0.9.26</td>
-    </tr>
-    <tr>
-      <td style="text-align: center">–timeout=X</td>
-      <td style="text-align: center">Use up to X seconds of time before cancelling a parse. Off by default.</td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: center"><strong>Undocumented options</strong></td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: center">-j</td>
-      <td style="text-align: center">Reserved for experimental modes.</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: center">-s</td>
-      <td style="text-align: center">Don’t unspecialize extra constraints implied by input EPs.</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: center">-F</td>
-      <td style="text-align: center">Show all potential PRED values associated to the input tokens by the lexicon and morphology subsystems.</td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: center">-P</td>
-      <td style="text-align: center">Broken.</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: center">–packed-edge-ids</td>
-      <td style="text-align: center">Show internal edge IDs instead of sanitized ones. Can be useful for debugging.</td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: center">–show-gen-chart</td>
-      <td style="text-align: center">With -l and -e, browse the chart after attempting generation.</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: center">–maxent=model.mem</td>
-      <td style="text-align: center">Read model.mem and use it for disambiguation.</td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: center">–tnt-model=/…/path</td>
-      <td style="text-align: center">Invoke TNT for tagging, using the given model.</td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: center">–tnt-max-tags=N</td>
-      <td style="text-align: center">Allow TNT to suggest up to N tags per word.</td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-    </tr>
-    <tr>
-      <td style="text-align: center">–transfer-config=file.txt</td>
-      <td style="text-align: center">Only enable transfer rules whose names are listed in file.txt (one per line).</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center">:white_check_mark:</td>
-      <td style="text-align: center"> </td>
-      <td style="text-align: center"> </td>
-    </tr>
-  </tbody>
-</table>
-
-<p>Last update: 2021-09-02 by Alexandre Rademaker [<a href="https://github.com/delph-in/docs/wiki/AceOptions/_edit">edit</a>]</p>
+<p>|                                             |                                                                                                                                                |                      |                      |                      |         |
+|:——————————————-:|:———————————————————————————————————————————————-:|:——————–:|:——————–:|:——————–:|:——-:|
+|                   Option                    |                                                                  Description                                                                   |         Task         |                      |                      | Version |
+|                                             |                                                                                                                                                |          P           |                      |          T           |    G    |
+|             <strong>General options</strong>             |                                                                                                                                                |                      |                      |                      |         |
+|                     -V                      |                                                            Show ACE version number.                                                            |                      |                      |                      |         |
+|                     -h                      |                                                         Show a short synopsis of usage                                                         |                      |                      |                      |         |
+|                     -v                      |      Increase verbosity; up to 3 -v options can be used if desired. The additional output is unlikely to be useful except for debugging.       | :white_check_mark: | :white_check_mark: | :white_check_mark: |         |
+|               –license-info                |                                                               Show ACE’s license                                                               |                      |                      |                      |         |
+|        <strong>Grammar loading/compiling</strong>        |                                                                                                                                                |                      |                      |                      |         |
+|                 -g filename                 | Identify the grammar to be used. Normally, a compiled grammar image. When compiling a grammar, the location of that grammar’s config.tdl file. | :white_check_mark: | :white_check_mark: | :white_check_mark: |   0.9   |
+|                 -G filename                 |                                Enable grammar-compilation mode, and specify where to save the compiled grammar.                                |                      |                      |                      |   0.9   |
+|                  –gen-qc                   |                         Generate a quickcheck skeleton based on the unification failures encountered during this run.                          | :white_check_mark: |                      | :white_check_mark: | 0.9.31  |
+|            <strong>Alternative modes</strong>            |                                                                                                                                                |                      |                      |                      |         |
+|                     -e                      |                                                          Generate, rather than parse.                                                          |                      |                      | :white_check_mark: |   0.9   |
+|                     -l                      |                                     Enable LUI mode. You must have a working <em>yzlui</em> binary in your PATH.                                      | :white_check_mark: | :white_check_mark: | :white_check_mark: |         |
+|              –input-from-lui               |                                             Inputs to parse are provided by LUI instead of stdin.                                              | :white_check_mark: |                      |                      |         |
+|                 –lui-fd=N                  |                                      LUI front-end is already running and connected to file descriptor N.                                      |                      |                      |                      |         |
+|           –generation-server=fr            |                         Operate as the generator in the LOGON architecture: read MRSes from ~/tmp/.transfer.$USER.fr                          |                      |                      | :white_check_mark: |         |
+|                     -E                      |              Run the REPP preprocessor on each input and output the result; do not perform token mapping or any further parsing.               | :white_check_mark: |                      |                      |         |
+|                 -m hostname                 |                                                       Join an <em>arbiter</em> grid of parsers.                                                       | :white_check_mark: | :white_check_mark: | :white_check_mark: |         |
+|                     -t                      |                                                        Run as a [incr tsdb()] client.                                                        | :white_check_mark: | :white_check_mark: | :white_check_mark: |         |
+|                     -O                      |                                     Full-forest parse results; output chart edges instead of derivations.                                      | :white_check_mark: |                      |                      |         |
+|               –itsdb-forest                |                            Full-forest parse results with structured output; use with –tsdb-stdout and not with -O                            | :white_check_mark: |                      |                      |  0.9.7  |
+|          <strong>Input/output options</strong>           |                                                                                                                                                |                      |                      |                      |         |
+|                     -f                      |                                              Format each EP on its own line when printing MRSes.                                               | :white_check_mark: | :white_check_mark: | :white_check_mark: |         |
+|                     -y                      |                                                      Enable YY input mode (experimental).                                                      | :white_check_mark: |                      |                      |  0.9.4  |
+|                 –yy-rules                  |                                    when in YY mode, require input tokens to undergo specific lexical rules                                     | :white_check_mark: |                      |                      |  0.9.4  |
+|                     -q                      |                                      Suppress printing the input sentence in cases of successful parsing.                                      | :white_check_mark: |                      |                      |         |
+|                     -R                      |                                                             Do not output results.                                                             | :white_check_mark: |                      | :white_check_mark: |         |
+|                     -T                      |                                                         Only output MRSes, not trees.                                                          | :white_check_mark: |                      |                      |         |
+|                 –udx(=all)                 |                                  decorate lexeme nodes with their type; “–udx=all” decorates rule nodes too                                   | :white_check_mark: |                      | :white_check_mark: | 0.9.24  |
+|                –tsdb-stdout                |                                                 produce structured output as expected by tsdb                                                  | :white_check_mark: |                      | :white_check_mark: | 0.9.24  |
+|                –tsdb-notes                 |                                                     output structured run and parse notes                                                      | :white_check_mark: |                      | :white_check_mark: |         |
+|               –report-labels               |     add a tree with the labels (e.g., DT, VP as specified in parse-nodes.tdl in ERG defined in config in the parameter parse-node-labels)      | :white_check_mark: |                      | :white_check_mark: | 0.9.24  |
+|            –rooted-derivations             |                    include the root in the derivation (if multiple roots apply, the first listed in roots.tdl will be used)                    | :white_check_mark: |                      | :white_check_mark: |         |
+|          –show-realization-mrses           |                                                   output the final MRS for each realization                                                    |                      |                      | :white_check_mark: |         |
+|          –show-realization-trees           |                                                   output the derivation for each realization                                                   |                      |                      | :white_check_mark: |         |
+|             –show-probability              |                                                 output the probability from the parse reranker                                                 | :white_check_mark: |                      |                      |         |
+| <strong>Processing/filtering/robustness options</strong> |                                                                                                                                                |                      |                      |                      |         |
+|                  -n count                   |                                       Use selective unpacking to enumerate only the top <em>count</em> results.                                       | :white_check_mark: |                      | :white_check_mark: |         |
+|                     -1                      |                                                             Equivalent to <em>-n 1</em>.                                                              | :white_check_mark: |                      | :white_check_mark: |         |
+|                     -X                      |                    Stop when the first result is found, rather than generating the complete packed forest. Not recommended.                    | :white_check_mark: | :white_check_mark: | :white_check_mark: |         |
+|                  -r roots                   |                  Supplies a space-delimited list of root instances (overriding the setting compiled into the grammar image).                   | :white_check_mark: |                      |                      |         |
+|                 -L lexemes                  |                                                     Disable certain lexemes when parsing.                                                      | :white_check_mark: |                      |                      |         |
+|                     -p                      |                                                               Turn off packing.                                                                | :white_check_mark: | :white_check_mark: | :white_check_mark: |         |
+|            –equivalence-packing            |                                 Disable packing under subsumption; only pack edges that are fully equivalent.                                  | :white_check_mark: |                      | :white_check_mark: |         |
+|          –disable-generalization           |                                        Turn off subsumption under generalization (useful for debugging)                                        | :white_check_mark: | :white_check_mark: | :white_check_mark: | 0.9.17  |
+|         –disable-subsumption-test          |                                    Turn off the subsumption check in generation (underspecified generation)                                    |                      |                      | :white_check_mark: |         |
+|             –ubertagging=0.001             |                                                          enable <a href="https://delph-in.github.io/docs/garage/UtTop">ubertagging</a>                                                           | :white_check_mark: |                      |                      | 0.9.21  |
+|                 –pcfg=pcfg                 |                                use a pcfg approximation to parse (c-saw) and combine its results with the HPSG                                 | :white_check_mark: |                      |                      |         |
+|               <strong>Performance</strong>               |                                                                                                                                                |                      |                      |                      |         |
+|                     -i                      |                                Perform a fine-grained timing profile of the operation requested (experimental).                                | :white_check_mark: | :white_check_mark: | :white_check_mark: |  0.9.3  |
+|           –max-chart-megabytes=X           |                     Use up to X megabytes of RAM on chart edges before terminating the forest creation portion of parsing.                     | :white_check_mark: | :white_check_mark: | :white_check_mark: |         |
+|          –max-unpack-megabytes=X           |                     Use up to X megabytes of total RAM for chart edges and unpacking operations before cancelling a parse.                     | :white_check_mark: | :white_check_mark: | :white_check_mark: |         |
+|                –max-words=X                |                                              ignore sentences with more than X words (default 70)                                              | :white_check_mark: |                      |                      | 0.9.26  |
+|                 –timeout=X                 |                                     Use up to X seconds of time before cancelling a parse. Off by default.                                     | :white_check_mark: | :white_check_mark: | :white_check_mark: |         |
+|          <strong>Undocumented options</strong>           |                                                                                                                                                |                      |                      |                      |         |
+|                     -j                      |                                                        Reserved for experimental modes.                                                        |                      |                      |                      |         |
+|                     -s                      |                                           Don’t unspecialize extra constraints implied by input EPs.                                           |                      |                      | :white_check_mark: |         |
+|                     -F                      |                    Show all potential PRED values associated to the input tokens by the lexicon and morphology subsystems.                     | :white_check_mark: |                      |                      |         |
+|                     -P                      |                                                                    Broken.                                                                     |                      |                      |                      |         |
+|              –packed-edge-ids              |                                 Show internal edge IDs instead of sanitized ones. Can be useful for debugging.                                 | :white_check_mark: |                      | :white_check_mark: |         |
+|              –show-gen-chart               |                                         With -l and -e, browse the chart after attempting generation.                                          |                      |                      | :white_check_mark: |         |
+|             –maxent=model.mem              |                                                 Read model.mem and use it for disambiguation.                                                  | :white_check_mark: |                      | :white_check_mark: |         |
+|            –tnt-model=/…/path            |                                                 Invoke TNT for tagging, using the given model.                                                 | :white_check_mark: |                      |                      |         |
+|              –tnt-max-tags=N               |                                                  Allow TNT to suggest up to N tags per word.                                                   | :white_check_mark: |                      |                      |         |
+|         –transfer-config=file.txt          |                                 Only enable transfer rules whose names are listed in file.txt (one per line).                                  |                      | :white_check_mark: |                      |         |</p>
+<update date="" omitted="" for="" speed="">
+</update>
 
         
       </section>

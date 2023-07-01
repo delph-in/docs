@@ -112,5 +112,4 @@ Extraction
 
 DELPH-IN partners very actively pursue these areas in an ensemble of
 funded projects and many other forms of exchange and collaboration.
-
-Last update: 2020-08-30 by DanFlickinger [[edit](https://github.com/delph-in/docs/wiki/OldOverviews/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

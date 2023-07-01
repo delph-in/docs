@@ -321,5 +321,4 @@ we shouldn't expect that, right?).
                    _write_v_to.
                  ARG0 e, ARG1 x:
                    ...
-
-Last update: 2019-04-22 by MichaelGoodman [[edit](https://github.com/delph-in/docs/wiki/SemiRfc/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

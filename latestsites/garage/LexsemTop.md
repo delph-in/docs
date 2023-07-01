@@ -40,5 +40,4 @@ of Informatics, University of Oslo Oslo, Norway, 2008
 *[Exploiting Semantic Information for HPSG Parse
 Selection](http://dx.doi.org/10.1007/s11168-010-9069-7)*. Research
 on Language and Computation, **8(1)**, 1–22.
-
-Last update: 2013-07-29 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/LexsemTop/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

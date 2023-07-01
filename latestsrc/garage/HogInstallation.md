@@ -33,5 +33,4 @@ How to get [ChaSen](http://chasen.naist.jp/):
 #### SuSE/Fedora
 
 install the chasen and ipadic packages
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/HogInstallation/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

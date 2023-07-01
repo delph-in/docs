@@ -119,7 +119,7 @@ means a comprehensive list. Projects are listed in alphabetic order.
 - The [Attribute Logic Engine
 (ALE)](http://www.cs.toronto.edu/~gpenn/ale.html), developed by Bob
 Carpenter and Gerald Penn since the early 1990s: one of the early
-wide-spread computational tools (based on Prolog) for the
+widespread computational tools (based on Prolog) for the
 development of typed feature structure grammars and still in active
 use in several research efforts.
 - The [Algorithms for Linguistic Processing
@@ -155,5 +155,4 @@ Cambridge and Sussex Universities (UK): integrating and extending
 several strands of research on robust statistical parsing and
 automated grammar and lexicon induction, in order to develop and
 distribute a new, parsing toolkit for English.
-
-Last update: 2020-08-31 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/OldProjects/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

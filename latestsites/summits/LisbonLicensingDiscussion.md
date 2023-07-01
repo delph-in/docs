@@ -119,5 +119,4 @@ appropriate.
 member in charge of doing further research on a license for the wiki.
 She is encouraged to contact those who have already contributed to the
 wiki in deciding on a license for it.
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/LisbonLicensingDiscussion/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

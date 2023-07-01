@@ -99,5 +99,4 @@ translations)
 7. synergy --- it is nice to reuse/complement existing markup
 8. diversity --- it can be interesting to experiment with a mixture of
 corpora, of different text types
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/FeforParCorp/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

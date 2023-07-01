@@ -108,5 +108,4 @@
 | Browne tried to.                              | Ο Βασιλης προσπαθησε .                                           |
 | Don't bark!                                   | Μη γαυγιζεις !                                                   |
 | The dog arrived barking.                      | Ο σκυλος εφτασε γαυγιζοντας .                                    |
-
-Last update: 2006-06-22 by AlexandrosPoulis [[edit](https://github.com/delph-in/docs/wiki/MatrixMrsTestSuiteGr/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

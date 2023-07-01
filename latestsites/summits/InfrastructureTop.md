@@ -14,5 +14,4 @@ common ways of utilization.
 # University of Oslo
 
 # University of Washington
-
-Last update: 2010-07-03 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/InfrastructureTop/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

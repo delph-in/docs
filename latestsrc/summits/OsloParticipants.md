@@ -92,5 +92,4 @@ time; Enjoy this event!)
 - [YiZhang](https://delph-in.github.io/docs/garage/YiZhang)
 - [LiljaØvrelid](/Lilja%C3%98vrelid)
 - [TestUser](/TestUser)
-
-Last update: 2017-08-03 by BertholdCrysmann [[edit](https://github.com/delph-in/docs/wiki/OsloParticipants/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

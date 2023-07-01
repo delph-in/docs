@@ -132,5 +132,4 @@ macros](http://svn.emmtee.net/ltg/tex/mrs.sty) for MRS formatting
 for the syntax trees. Note that mrs.sty assumes relsize.sty has been
 loaded, and qtree.sty requires pict2e.sty (which it will load
 automatically).
-
-Last update: 2019-03-26 by MichaelGoodman [[edit](https://github.com/delph-in/docs/wiki/LogonOnline/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

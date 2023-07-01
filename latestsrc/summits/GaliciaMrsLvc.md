@@ -138,5 +138,4 @@ Hei:
 Emily:
 Which one is the LVC?
 
-
-Last update: 2023-06-27 by emilymbender [[edit](https://github.com/delph-in/docs/wiki/GaliciaMrsLvc/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

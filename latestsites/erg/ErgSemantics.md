@@ -150,5 +150,4 @@ dynamically annotated treebank of the Wall Street Journal. In (p.
 Oepen, S., Flickinger, D., Toutanova, K., & Manning, C. D. (2004). LinGO
 Redwoods. A rich and dynamic treebank for HPSG. Research on Language and
 Computation, 2(4), 575-596.
-
-Last update: 2023-01-05 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/ErgSemantics/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

@@ -49,5 +49,4 @@ parser; cf. [JerezTop](https://delph-in.github.io/docs/summits/JerezTop) discuss
 - change lexicon during runtime (not possible for the built-in
 lexicon, but probably for lexDB)
 - change model during runtime
-
-Last update: 2006-06-14 by UlrichSchaefer [[edit](https://github.com/delph-in/docs/wiki/FeforPetApi/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

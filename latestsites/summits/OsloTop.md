@@ -61,5 +61,4 @@ on the [OsloSchedule](https://delph-in.github.io/docs/summits/OsloSchedule) page
 
 [Emily's photos](https://erbonzo.smugmug.com/Travel/DELPH-IN-2017/)
 Password: Akershus
-
-Last update: 2017-08-12 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/OsloTop/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

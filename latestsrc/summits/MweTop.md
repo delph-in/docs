@@ -21,5 +21,4 @@ NLP](http://web.mysites.ntu.edu.sg/fcbond/open/pubs/2002-cicling-mwe.pdf).
 In *Alexander Gelbuk, editor, Computational Linguistics and
 Intelligent Text Processing: Third International Conference:
 CICLing-2002* 1–15, Springer-Verlag, Hiedelberg/Berlin.
-
-Last update: 2021-08-30 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/MweTop/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

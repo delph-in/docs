@@ -30,5 +30,4 @@ unsuitable for the multi-user mode.
 To stop the postgres server gracefully:
 
     /usr/bin/pg_ctl -D /local/scratch/$USER/pg-data stop
-
-Last update: 2009-04-10 by AnnCopestake [[edit](https://github.com/delph-in/docs/wiki/LexDbSimplePsql/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

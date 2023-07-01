@@ -130,5 +130,4 @@ To see examples of constituency representation extracted with this tool
 and how a treebank extracted with its help looks like, you may want to
 check the online search service over our CINTIL-Treebank, which is found
 [here](http://lxcenter.di.fc.ul.pt/services/en/LXServicesSearcher.html).
-
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/VistaExtractionTop/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

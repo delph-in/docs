@@ -292,5 +292,4 @@ extraction
 Dan: but this is no-longer a self-help approach. Are there comments that
 some of you have been holding back as illuminating conclusions? No? Ok
 let’s go eat.
-
-Last update: 2014-10-15 by TJTrimble [[edit](https://github.com/delph-in/docs/wiki/TomarRobustParsing/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

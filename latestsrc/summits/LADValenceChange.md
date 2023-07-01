@@ -747,5 +747,4 @@ corresponding lexical types. Probably something to think of in the
 design.
 
 Emily/Chris: Yes, thanks.
-
-Last update: 2016-03-24 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/LADValenceChange/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}

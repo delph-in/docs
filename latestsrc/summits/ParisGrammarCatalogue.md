@@ -67,5 +67,4 @@ people do it maybe 1000
 
 bart: we should create a framework for this catalogue so it's there, and
 fill in values later
-
-Last update: 2010-10-20 by MichaelGoodman [[edit](https://github.com/delph-in/docs/wiki/ParisGrammarCatalogue/_edit)]{% endraw %}
+<update date omitted for speed>{% endraw %}
