@@ -55,12 +55,12 @@ Verb reduplication](https://delph-in.github.io/docs/garage/LADIndonesianMorpholo
 
 ## Contributors
 
-- [DavidMoeljadi](https://delph-in.github.io/docs/garage/DavidMoeljadi)
-- [FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond)
-- [SanghounSong](https://delph-in.github.io/docs/garage/SanghounSong)
-- [DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger)
-- [MichaelGoodman](https://delph-in.github.io/docs/garage/MichaelGoodman)
-- [LuisMorgadoCosta](https://delph-in.github.io/docs/garage/LuisMorgadoCosta)
+- DavidMoeljadi
+- FrancisBond
+- SanghounSong
+- DanFlickinger
+- MichaelGoodman
+- LuisMorgadoCosta
 
 ## References
 
@@ -87,4 +87,5 @@ This grammar was supported in part by
 Manipulation of Meaning* (MOE ARC41/13)
 - MOE Tier 2 grant *Grammar Matrix Reloaded: Syntax and Semantics of
 Affectedness* (MOE ARC21/13)
-<update date omitted for speed>{% endraw %}
+
+Last update: 2018-04-13 by DavidMoeljadi [[edit](https://github.com/delph-in/docs/wiki/IndraTop/_edit)]{% endraw %}

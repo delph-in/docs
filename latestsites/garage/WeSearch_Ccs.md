@@ -149,7 +149,7 @@ Saturday);
 14).
 
 Participants are asked to make their own travel arrangements and email
-their arrival and departure times to [StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen), who
+their arrival and departure times to StephanOepen, who
 will make hotel reservations. Please keep receipts and (if applicable)
 boarding passes, which you will have to submit for reimbursement to the
 University of Oslo after completion of your travels. With a bit of luck,
@@ -165,4 +165,5 @@ interpreted as an ‘original’ document.
 
 - Stephan Oepen, University of Oslo, Department of Informatics, Boks
 1080 Blindern, 0317 Oslo
-<update date omitted for speed>{% endraw %}
+
+Last update: 2014-11-20 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/WeSearch_Ccs/_edit)]{% endraw %}

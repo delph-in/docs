@@ -407,4 +407,5 @@ journal = {The Philosophical Review},\
 volume = {66},\
 issue = { 2 }\
 }
-<update date omitted for speed>{% endraw %}
+
+Last update: 2013-02-23 by VaryaGracheva [[edit](https://github.com/delph-in/docs/wiki/MatrixDoc_TenseAspectMood/_edit)]{% endraw %}

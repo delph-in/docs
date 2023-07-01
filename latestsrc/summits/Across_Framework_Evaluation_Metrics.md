@@ -120,4 +120,5 @@ Although there seemed to be agreement that we should try and produce
 data sets (from WSJ sec 0, Wikipedia and maybe some TREC question sets),
 and get gold standard treebanks from DELPH-IN HPSG, Tokyo HPSG, CCG and
 Rasp at least, there were no concrete action points decided on....
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/Across_Framework_Evaluation_Metrics/_edit)]{% endraw %}

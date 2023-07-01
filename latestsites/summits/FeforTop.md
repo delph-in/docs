@@ -43,10 +43,10 @@ put together the programme for each of the sections:
 |----------------|----------------|-------------------------------------------|--------------------------------------|-----------------------------------------------------------------|
 | **Start**      | **End**        | **Session**                               | **Schedule**                         | **Coordinator**                                                 |
 | 13-jun 09:30   |                | Organisation meeting for all participants |                                      |                                                                 |
-| 13-jun         | 14-jun (lunch) | Grammars                                  | [FeforGrammarians](https://delph-in.github.io/docs/summits/FeforGrammarians) | [DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger)                                  |
-| 13-jun         | 14-jun (lunch) | Processing Tools                          | [FeforProcessors](https://delph-in.github.io/docs/summits/FeforProcessors)   | [AnnCopestake](https://delph-in.github.io/docs/garage/AnnCopestake)                                    |
-| 14-jun         | 15-jun (lunch) | Processing Tools                          | [FeforRmrs](https://delph-in.github.io/docs/summits/FeforRmrs)               | [AnnCopestake](https://delph-in.github.io/docs/garage/AnnCopestake) and [DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger) |
-| 15-jun (lunch) | 17-jun         | Plenary Session                           | [FeforPlenum](https://delph-in.github.io/docs/summits/FeforPlenum)           | [StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen) and [EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender)     |
+| 13-jun         | 14-jun (lunch) | Grammars                                  | [FeforGrammarians](https://delph-in.github.io/docs/summits/FeforGrammarians) | DanFlickinger                                  |
+| 13-jun         | 14-jun (lunch) | Processing Tools                          | [FeforProcessors](https://delph-in.github.io/docs/summits/FeforProcessors)   | AnnCopestake                                    |
+| 14-jun         | 15-jun (lunch) | Processing Tools                          | [FeforRmrs](https://delph-in.github.io/docs/summits/FeforRmrs)               | AnnCopestake and DanFlickinger |
+| 15-jun (lunch) | 17-jun         | Plenary Session                           | [FeforPlenum](https://delph-in.github.io/docs/summits/FeforPlenum)           | StephanOepen and EmilyBender     |
 
 [FeforDiscussionCompilations](https://delph-in.github.io/docs/summits/FeforDiscussionCompilations)
 
@@ -137,4 +137,5 @@ organizers](https://delph-in.github.io/docs/summits/FeforSuggestions).
 # Photos
 
 Please post conference photos on [FeforPhotos](https://delph-in.github.io/docs/summits/FeforPhotos)!
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/FeforTop/_edit)]{% endraw %}

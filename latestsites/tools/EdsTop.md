@@ -89,7 +89,7 @@ provided by [Kuhlmann & Oepen
 (2016)](http://www.mitpressjournals.org/doi/pdf/10.1162/COLI_a_00268).
 
 This page was initiated and is maintained by
-[StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen), who is also the original developer of the
+StephanOepen, who is also the original developer of the
 EDS design and supporting Lisp code (which is part of the LKB, as well
 as of the stand-alone Lisp MRS library). Additional details of the
 conversion process from MRS are discussed on the
@@ -261,7 +261,7 @@ The EDS graphs are formally (if not necessarily linguistically) very
 similar to [Abstract Meaning Representation](http://amr.isi.edu/) (AMR),
 and it is straightforward to serialize the bulk of the information in an
 EDS in AMR-like PenMan syntax (we are grateful to
-[MichaelGoodman](https://delph-in.github.io/docs/garage/MichaelGoodman), who inspired this serialization
+MichaelGoodman, who inspired this serialization
 option). For cross-framework interoperability, the EDS implementation in
 Common Lisp supports (trivial) conversion of EDS graphs into the
 tree-like format (with node re-entrancies, as needed) of AMRs, where the
@@ -409,4 +409,5 @@ output in format-specific ways.
 # Semantic Wellformedness Testing
 
 # References
-<update date omitted for speed>{% endraw %}
+
+Last update: 2020-08-22 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/EdsTop/_edit)]{% endraw %}

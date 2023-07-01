@@ -38,6 +38,7 @@ see it just now.
 gathering](https://delph-in.github.io/docs/garage/WeSearch_UnderspecifiedPreds) last year (at Hankø). We said
 that our MRSs (as produced by the ERG, say) can be viewed as
 descriptions of underspecified representations, i.e. these predicate
-symbol are underspecified… (but [AlexLascarides](https://delph-in.github.io/docs/garage/AlexLascarides) was
+symbol are underspecified… (but AlexLascarides was
 unfortunately not present at that meeting).
-<update date omitted for speed>{% endraw %}
+
+Last update: 2013-07-31 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/SaarlandArity/_edit)]{% endraw %}

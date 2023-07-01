@@ -3,8 +3,8 @@
 This is a collection of frequently asked questions related to using the
 LKB and the Grammar Matrix for grammar engineering. Please help
 contribute or improve any questions and/or answers. Please prefix page
-names for answers with '[GeFaq](https://delph-in.github.io/docs/garage/GeFaq)'. See also the [Grammar
-Engineering Glossary](/GeGlossary).
+names for answers with 'GeFaq'. See also the Grammar
+Engineering Glossary.
 
 * * *
 
@@ -211,4 +211,5 @@ pop-up menu. Why not?
 doesn't work in Emacs after running incr
 tsdb()](https://delph-in.github.io/docs/matrix/GeFaqKeyboardNotWorking)
 - [How do I paste into the LKB Parse dialogue?](https://delph-in.github.io/docs/matrix/GeFaqPasteShortcut)
-<update date omitted for speed>{% endraw %}
+
+Last update: 2023-07-01 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/GrammarEngineeringFAQ/_edit)]{% endraw %}

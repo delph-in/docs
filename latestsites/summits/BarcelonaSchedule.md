@@ -4,7 +4,7 @@ This page provides scheduling details for the 2009 DELPH-IN Summit, held
 in Barcelona. For general information about the meeting, please see the
 [BarcelonaTop](https://delph-in.github.io/docs/summits/BarcelonaTop) page. As in previous years, we have
 prepared the schedule jointly and incrementally, with
-[EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender) and [StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen) trying to
+EmilyBender and StephanOepen trying to
 coordinate. With only hours remaining until the start of the meeting, we
 have arrived at a stable draft schedule, only expecting to make minor
 revisions along the way, as the group sees fit.
@@ -105,4 +105,5 @@ summit@delph-in.net.
 | 12:30 |  –  | 13:30 | Sub-Group Activities                             |
 | 13:30 |  –  | 14:30 | *Lunch*                                          |
 | 14:30 |  –  | 16:30 | Sub-Group Activities                             |
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/BarcelonaSchedule/_edit)]{% endraw %}

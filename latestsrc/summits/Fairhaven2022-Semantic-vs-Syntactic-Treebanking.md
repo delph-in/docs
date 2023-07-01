@@ -69,4 +69,5 @@
 - Weiwei: no
 - Emily: we are out of time
 - Dan: i will follow up with that separately
-<update date omitted for speed>{% endraw %}
+
+Last update: 2022-07-19 by taraw28 [[edit](https://github.com/delph-in/docs/wiki/Fairhaven2022-Semantic-vs-Syntactic-Treebanking/_edit)]{% endraw %}

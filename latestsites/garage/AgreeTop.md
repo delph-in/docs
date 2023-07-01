@@ -3,9 +3,9 @@
 **A project to develop a system for processing DELPH-IN style TDL
 grammars within the .NET and Mono managed runtime environments.**
 
-[UW CLMS](http://www.compling.uw.edu/) thesis work of *[GlennSlayden](https://delph-in.github.io/docs/garage/GlennSlayden)*.<br/>
-&nbsp; &nbsp; M.S. and Ph.C. advisor *[EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender)*.<br/>
-&nbsp; &nbsp; Thesis reader *[StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen)*.<br/>
+[UW CLMS](http://www.compling.uw.edu/) thesis work of *GlennSlayden*.<br/>
+&nbsp; &nbsp; M.S. and Ph.C. advisor *EmilyBender*.<br/>
+&nbsp; &nbsp; Thesis reader *StephanOepen*.<br/>
 &nbsp; &nbsp; *Spencer Rarrick* helped with MaxEnt parse selection, generation, and testing with [Jacy](https://delph-in.github.io/docs/grammars/JacyTop).<br/>
 
 citation:<br>
@@ -266,4 +266,5 @@ David A. Wroblewski. 1987. Nondestructive graph unification. In *Proceedings of 
 
 <img src="http://www.agree-grammar.com/webshare/20100918.png" title="http://www.agree-grammar.com/webshare/20100918.png" class="external_image" alt="http://www.agree-grammar.com/webshare/20100918.png" />
 
-<update date omitted for speed>{% endraw %}
+
+Last update: 2022-09-20 by Glenn Slayden [[edit](https://github.com/delph-in/docs/wiki/AgreeTop/_edit)]{% endraw %}

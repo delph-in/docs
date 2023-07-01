@@ -22,4 +22,5 @@ find the spot where somethings wrong. See [FAQ: How do I use tab to help
 me figure out where my syntax error is?](https://delph-in.github.io/docs/matrix/GeFaqTabIndentation)
 
 [Back to the Grammar Engineering FAQ](https://delph-in.github.io/docs/matrix/GrammarEngineeringFAQ).
-<update date omitted for speed>{% endraw %}
+
+Last update: 2023-06-30 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/GeFaqRightBracket/_edit)]{% endraw %}

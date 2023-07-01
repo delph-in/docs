@@ -1,6 +1,6 @@
 {% raw %}## Discussion II: Strategies for documentation of grammars and tools
 
-[FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond) presented a brief introduction and introduced
+FrancisBond presented a brief introduction and introduced
 some recent work at Kyoto Unviersity with Jacy [DELPH-IN Documentation:
 Grammars and
 Treebanks](http://www.kecl.ntt.co.jp/icl/mtg/members/bond/pubs/2005-delphin-documentation.pdf).
@@ -62,8 +62,8 @@ implementation, different phenomena with examples, types. So, it is
 documented by writing the grammar. This is a good way to document
 things.
 - As we are now expanding the wiki, we need to decide on a licence for
-it fast. [FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond), egged on by
-[AnnCopestake](https://delph-in.github.io/docs/garage/AnnCopestake), suggested the [Creative Commons Deed
+it fast. FrancisBond, egged on by
+AnnCopestake, suggested the [Creative Commons Deed
 (Attribution 2.5)](http://creativecommons.org/licenses/by/2.5/).
 This would allow people to use the wikied documentation in other
 works as long as it is attributed.
@@ -98,4 +98,5 @@ development.
 - Set up a standard for peer reviewd documentation
 - Make DELPH-IN documenation available to the wider community
 - Compare the grammars (how do we want to compare?)
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/LisbonDocumentationDiscussion/_edit)]{% endraw %}

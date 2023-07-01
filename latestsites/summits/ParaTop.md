@@ -1,6 +1,6 @@
 {% raw %}This page describes various approaches to paraphrasing using the
-DELPH-IN tools. This page was initiated by [FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond)
-and [DarrenAppling](https://delph-in.github.io/docs/garage/DarrenAppling); please feel free to make additions
+DELPH-IN tools. This page was initiated by FrancisBond
+and DarrenAppling; please feel free to make additions
 or corrections as you see fit.
 
 # How to Paraphrase
@@ -35,4 +35,5 @@ Bond, Francis, Eric Nichols, Darren Scott Appling, Michael Paul (2008)
 Training
 Data](http://www2.nict.go.jp/x/x161/en/member/bond/pubs/2008-iwslt-smt-para.pdf),
 In IWSLT-2008.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/ParaTop/_edit)]{% endraw %}

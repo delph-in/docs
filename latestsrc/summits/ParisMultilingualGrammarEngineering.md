@@ -43,4 +43,5 @@
     What are 'goals' of a grammar?
       Of course, one is applications
       One could be learning about/describing grammar (as opposed to just parsing)
-<update date omitted for speed>{% endraw %}
+
+Last update: 2010-07-04 by MichaelGoodman [[edit](https://github.com/delph-in/docs/wiki/ParisMultilingualGrammarEngineering/_edit)]{% endraw %}

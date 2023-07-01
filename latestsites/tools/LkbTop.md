@@ -115,4 +115,5 @@ Science from Scientific Publications;
 Any opinions, findings and conclusions or recommendations expressed in
 this material are those of the author(s) and do not necessarily reflect
 the views of the funding bodies.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2023-06-30 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/LkbTop/_edit)]{% endraw %}

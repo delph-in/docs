@@ -24,7 +24,7 @@ long time
 - SHORT-CLIMB can be downloaded
 [here](http://www.coli.uni-saarland.de/~afokkens/materials/short_climb.tar.gz)
 - Please send requests, questions and bugs reports to
-[AntskeFokkens](https://delph-in.github.io/docs/garage/AntskeFokkens) by email (for bug reports: please
+AntskeFokkens by email (for bug reports: please
 include your library and the to-be-modified TDL file)
 
 ## Creating a SHORT-CLIMB library
@@ -195,4 +195,5 @@ replacement option (see below)
 
 replaces the type definition of type\_name in the original grammar by
 the new definition below *complete=on*.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2017-01-17 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/ClimbShortClimb/_edit)]{% endraw %}

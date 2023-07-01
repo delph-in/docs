@@ -5,7 +5,7 @@
 This page provides background information on phenomena and
 implementations included in gCLIMB for German.
 
-In this document, *I* and *me* refers to [AntskeFokkens](https://delph-in.github.io/docs/garage/AntskeFokkens).
+In this document, *I* and *me* refers to AntskeFokkens.
 
 **Disclaimer**
 
@@ -232,4 +232,5 @@ linguistic precision grammars. PhD thesis. Saarland University.\
 **NB** References to this work in the documentation are already written.
 Please contact me if you are interested in this information before the
 PhD is done.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2012-12-31 by AntskeFokkens [[edit](https://github.com/delph-in/docs/wiki/Climb_GClimb_German/_edit)]{% endraw %}

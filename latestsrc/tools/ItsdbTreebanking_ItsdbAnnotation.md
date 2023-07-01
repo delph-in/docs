@@ -3,7 +3,7 @@
 This page presents user-supplied information, hence may be inaccurate in
 some details, or not necessarily reflect use patterns anticipated by the
 [\[incr tsdb()\]](http://www.delph-in.net/itsdb) developers. This page
-was initiated by [FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond); please feel free to make
+was initiated by FrancisBond; please feel free to make
 additions or corrections as you see fit. However, before revising this
 page, one should be reasonably confident of the information given being
 correct.
@@ -150,4 +150,5 @@ Cut*. Be certain (as in positive) that you are removing these
 annotations for Run 2, not the hand-coded real annotations you
 constructed painstakingly for Run 1, as clear cutting fells all the
 trees.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2012-08-07 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/ItsdbTreebanking_ItsdbAnnotation/_edit)]{% endraw %}

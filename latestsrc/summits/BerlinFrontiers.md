@@ -3,7 +3,7 @@
 ## Expanding our research to new languages and applications and setting new research goals
 
 Moderator: [HansUszoreit](/HansUszoreit) Scribe:
-[ValiaKordoni](https://delph-in.github.io/docs/garage/ValiaKordoni)
+ValiaKordoni
 
 [slides](http://www.coli.uni-saarland.de/~kordoni/DELPH-IN-BERLIN.ppt)
 
@@ -71,4 +71,5 @@ October, accompanying them, in a prose field, with short
 description in order to know how the text in the various
 translations correlate to each other; -- guidelines Wiki subpage
 to be created by Oslo;
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/BerlinFrontiers/_edit)]{% endraw %}

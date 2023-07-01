@@ -86,7 +86,7 @@ In addition to the three configurations above, the LOGON *flop* and
 user-provided (locally compiled) binary. These are activated by the
 --local option; please see the [source
 code](http://svn.emmtee.net/trunk/bin/cheap) for further information (or
-contact [StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen) directly). Furthermore, the
+contact StephanOepen directly). Furthermore, the
 selection of a specific *cheap* configuration can be short-circuited by
 virtue of the $LOGONCHEAP environment variable (in which case, no extra
 command-line option must be supplied), e.g.
@@ -105,4 +105,5 @@ As of mid-2011, PET binaries are compiled in the standard LOGON build
 environment, a 32-bit CentOS 4.9 distribution. The actual binaries
 reside in $LOGONROOT/uio/bin/linux.x86.32, with associated shared
 libraries in $LOGONROOT/uio/lib/linux.x86.32.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2021-06-18 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/LogonPet/_edit)]{% endraw %}

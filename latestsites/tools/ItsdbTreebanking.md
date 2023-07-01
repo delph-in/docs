@@ -3,7 +3,7 @@
 This page presents user-supplied information, hence may be inaccurate in
 some details, or not necessarily reflect use patterns anticipated by the
 [\[incr tsdb()\]](http://www.delph-in.net/itsdb) developers. This page
-was initiated by [FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond); please feel free to make
+was initiated by FrancisBond; please feel free to make
 additions or corrections as you see fit. However, before revising this
 page, one should be reasonably confident of the information given being
 correct.
@@ -50,4 +50,5 @@ and so on
 # Exploring a Treebank with the [incr tsdb()] GUI
 
 If you have an already treebanked corpus (such as the ones that come with the ERG releases), you can look at the gold trees using the [incr tsdb()] graphical interface. In the [incr tsdb()] podium, select the treebank profile and then go to Browse-->Results. To access the gold tree for a particular example, first click on the corresponding number in the "derivation" column. A window will open displaying the tree in the bracketed text format. Click on that text line, and you should see the tree visualization.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2023-06-23 by Francis Bond [[edit](https://github.com/delph-in/docs/wiki/ItsdbTreebanking/_edit)]{% endraw %}

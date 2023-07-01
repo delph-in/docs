@@ -1,6 +1,6 @@
 {% raw %}# Encoding LP constraints in a constraint-based framework without adding LP constraints to the formalism.
 
-This sketch (initially written by [AnnCopestake](https://delph-in.github.io/docs/garage/AnnCopestake))
+This sketch (initially written by AnnCopestake)
 illustrates how an encoding of a bit-vector style implementation of
 linear precedence could be done directly in a constraint-based
 formalism. The approach is inspired by Daniels and Meurers. The point is
@@ -314,4 +314,5 @@ Bad things:
 1. POSVECs in feature structures could be confusing. This is a very
 low-level sort of thing to have in a grammar.
 2. The approach may not be expressive enough.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2006-12-16 by AnnCopestake [[edit](https://github.com/delph-in/docs/wiki/LkbLpconstraints/_edit)]{% endraw %}

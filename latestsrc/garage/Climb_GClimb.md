@@ -35,4 +35,5 @@ is currently used to provide details on implementations and design
 that do not fit in papers with a fixed page limit. In the future, it
 will provide more detailed documentation on CLIMB for Germanic
 languages. \]</span>
-<update date omitted for speed>{% endraw %}
+
+Last update: 2012-12-29 by AntskeFokkens [[edit](https://github.com/delph-in/docs/wiki/Climb_GClimb/_edit)]{% endraw %}

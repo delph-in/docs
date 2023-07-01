@@ -53,7 +53,7 @@ Contents
 | 9:30-10:00         | Dynamic Semantic Publishing at the BBC (Ontotext)                                                                                                                                                                                |
 | 10.00-10.15        | [Negation: library proxy presentation + negation/modifier scope interaction cross-linguistically](http://www.delph-in.net/2012/negation.pdf) (Emily) \[short\]                                                                   |
 | 10:15-10:30        | [Information structure with ICONS](http://www.delph-in.net/2012/sanghoun.pdf) (Sanghoun)                                                                                                                                         |
-| 10:30-10:45        | [Short discussion/Intro to SIG: ICONS: Integrating ICONS into generation (and eventually also transfer) (Sanghoun/Dan, Scribe: Emily)](https://delph-in.github.io/docs/garage/SofiaIcons)                                                                               |
+| 10:30-10:45        | Short discussion/Intro to SIG: ICONS: Integrating ICONS into generation (and eventually also transfer) (Sanghoun/Dan, Scribe: Emily)                                                                               |
 | 10:45-11:00        | Discussion                                                                                                                                                                                                                       |
 | 11:00-11:30        | Coffee break                                                                                                                                                                                                                     |
 | **11:30-13:00**    | *Session 2*                                                                                                                                                                                                                      |
@@ -162,4 +162,5 @@ Kiril, Francis, bec)
 woodley, yi, jonathon, angelina, Francis) \[friday early afternoon\]
 - \[4\] (Pretty) Small Group: Next Steps in Experimentation with ERG
 (Super)Tagging (bec, oe, dan, angelina) \[friday afternoon\]
-<update date omitted for speed>{% endraw %}
+
+Last update: 2012-07-12 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/SofiaSchedule/_edit)]{% endraw %}

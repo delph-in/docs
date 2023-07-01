@@ -10,7 +10,7 @@ below).
 
 tdl-mode.el (available
 [here](http://svn.emmtee.net/trunk/lingo/lkb/src/tdl-mode.el)) creates a
-mode for editing [TDL](https://delph-in.github.io/docs/garage/TdlRfc) called tdl-mode that provides syntax
+mode for editing TDL called tdl-mode that provides syntax
 highlighting and lines up elements in the tdl expressions.
 
 Install with:
@@ -82,4 +82,5 @@ extremely useful:
 Older versions of emacs use insert-string(), while newer versions use
 insert(). The newest version of lkb.el can handle both (thanks to
 Stephan Oepen and Joshua Crowgey).
-<update date omitted for speed>{% endraw %}
+
+Last update: 2020-05-02 by AlexandreRademaker [[edit](https://github.com/delph-in/docs/wiki/LkbMode/_edit)]{% endraw %}

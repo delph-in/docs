@@ -2,9 +2,9 @@
 Grammar](http://krg.khu.ac.kr).
 
 The Korean Resource Grammar was originally built by
-[JongBokKim](https://delph-in.github.io/docs/garage/JongBokKim) and [JaehyungYang](/JaehyungYang). A revised
+JongBokKim and [JaehyungYang](/JaehyungYang). A revised
 matrix-compliant version has been rebuilt by
-[SanghounSong](https://delph-in.github.io/docs/garage/SanghounSong) and [FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond) --- the KRG
+SanghounSong and FrancisBond --- the KRG
 now both parses and generates.
 
 ### Encoding Issues
@@ -13,7 +13,7 @@ now both parses and generates.
 linux. Instead, we recommend you enter it though emacs.
 - To show Korean in the output either
   - use pangolui (see *Alternative Lui Implementations* on the
-[LkbLui](https://delph-in.github.io/docs/tools/LkbLui) page) ([FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond) recommends
+[LkbLui](https://delph-in.github.io/docs/tools/LkbLui) page) (FrancisBond recommends
 this)
   - specify Korean fonts in the .luirc (see [LuiRc](https://delph-in.github.io/docs/tools/LuiRc))
 
@@ -28,4 +28,5 @@ Korean sentences. This script will operate the pre-processor for
 parsing and generation.
 - lkb/test: If you want to test each grammar module with a small size
 of lexicon, please take this.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-10 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/KrgTop/_edit)]{% endraw %}

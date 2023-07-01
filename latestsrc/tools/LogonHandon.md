@@ -75,4 +75,5 @@ This process should take a little while (thirty minutes to two hours,
 maybe, depending on the type of machine that you have available). It
 should result in new files kf.a.mtr, kf.n.mtr, and kf.nn.mtr, containing
 on the order of 15,000 transfer rules.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/LogonHandon/_edit)]{% endraw %}

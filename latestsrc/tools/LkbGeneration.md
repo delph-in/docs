@@ -1,5 +1,5 @@
 {% raw %}This page was adapted from [JacyGeneration](https://delph-in.github.io/docs/grammars/JacyGeneration) by
-[MichaelGoodman](https://delph-in.github.io/docs/garage/MichaelGoodman), and therefore many of the examples are
+MichaelGoodman, and therefore many of the examples are
 from the [JACY](https://delph-in.github.io/docs/grammars/JacyTop) Grammar.
 
 Contents
@@ -242,4 +242,5 @@ Make sure all predicates are either in lexical entries or C-CONT.
 This should work in the LKB SVN as well as the LOGON tree, and is the
 basis for ranking and selective unpacking in generation and also in
 parsing.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2020-05-21 by JohnCarroll [[edit](https://github.com/delph-in/docs/wiki/LkbGeneration/_edit)]{% endraw %}

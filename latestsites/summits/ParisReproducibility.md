@@ -1,7 +1,7 @@
 {% raw %}# Discussion on Reproducibility from the 6th DELPH-IN Summit
 
-Moderator: [StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen); Scribe:
-[FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond)
+Moderator: StephanOepen; Scribe:
+FrancisBond
 
 Start with mail from Rebecca:
 
@@ -30,7 +30,7 @@ Start with mail from Rebecca:
     help get more DELPH-IN work published (eg particular results that need
     to be published so they can be referenced?)
 
-[YiZhang](https://delph-in.github.io/docs/garage/YiZhang): we were having issues with people not getting the
+YiZhang: we were having issues with people not getting the
 same results, and hard to verify --- different data sets may give
 differences of more than 20% exact match for parsing accuracy. We should
 set up a standard train/dev/text split for various grammars.
@@ -71,4 +71,5 @@ Francis: perhaps we should put it in a Readme in the skeleton file,
 which goes into the svn and then we can link to it from the wiki.
 
 Oe, Emily: that makes sense :smiley:
-<update date omitted for speed>{% endraw %}
+
+Last update: 2010-07-03 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/ParisReproducibility/_edit)]{% endraw %}

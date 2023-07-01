@@ -107,7 +107,7 @@ photos](http://picasaweb.google.com/bec.dridan/NagashiSMen)
 # Contact
 
 If you have any questions or comments, please email
-[FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond) (<mailto:bond@ieee.org>):
+FrancisBond (<mailto:bond@ieee.org>):
 
     Francis Bond <bond@ieee.org>            Tel: 0774-95-1391 (Japan +81)
     NICT Language Infrastructure Group      Fax: 0774-95-1308 (Japan +81)   
@@ -120,4 +120,5 @@ If you have any questions or comments, please email
 - Takayuki Kuribayashi (NICT)
 - Eric Nichols (NAIST)
 - Kyonghee Paik (Waseda)
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/KyotoTop/_edit)]{% endraw %}

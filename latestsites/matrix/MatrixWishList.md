@@ -13,4 +13,5 @@ everything filled out. Something like an extra button with "Insert
 sample choices for Japanese" (or possibly even some other language).
 This would allow people to play with a sample grammar without having
 to fill out several pages of forms.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2007-05-02 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/MatrixWishList/_edit)]{% endraw %}

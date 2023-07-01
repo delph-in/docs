@@ -3,7 +3,7 @@
 This page presents user-supplied information, hence may be inaccurate in
 some details, or not necessarily reflect use patterns anticipated by the
 [\[incr tsdb()\]](http://www.delph-in.net/itsdb) developers. This page
-was initiated by [FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond); please feel free to make
+was initiated by FrancisBond; please feel free to make
 additions or corrections as you see fit. However, before revising this
 page, one should be reasonably confident of the information given being
 correct.
@@ -85,4 +85,5 @@ results per item.
 There is a macro for writing [\[incr
 tsdb()\]](http://www.delph-in.net/itsdb) in the wiki:
 &lt;&lt;itsdb&gt;&gt;.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2020-07-31 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/ItsdbTop/_edit)]{% endraw %}

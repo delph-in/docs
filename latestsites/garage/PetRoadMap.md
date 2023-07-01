@@ -8,7 +8,7 @@ fixed](http://pet.opendfki.de/wiki/Programming%20Style%20Guide)
 - have a sub-group working out a list of deprecated things
 - (decided to not be an issue) copyright notice updates
 - include C++ REPP implementation (work in progress by
-[RebeccaDridan](https://delph-in.github.io/docs/garage/RebeccaDridan))
+RebeccaDridan)
 - Put most of TODO and this page into tickets
 
 This is a list of possible topics to discuss in this session. Please add
@@ -28,4 +28,5 @@ functionality where possible
     - necessary resources (data to train / models, training
 scripts, etc)
 - release plans / procedures (LOGON?)
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/PetRoadMap/_edit)]{% endraw %}

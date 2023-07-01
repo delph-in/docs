@@ -2,7 +2,7 @@
 
 This page is intended as a collection of pointers related to *using* the
 ERG (for parsing or generation), with an eye towards first-time users.
-The page was initiated by [StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen), who intends to
+The page was initiated by StephanOepen, who intends to
 maintain it over time. Seeing that it will be important for the
 information provided here to be accurate and up-to-date, please be both
 pedantic and conservative in making (non-trivial) revisions.
@@ -205,4 +205,5 @@ everyone use the *trunk*; more testers would be welcome):
 - 2013/02/14: \#12918 @ login.coli.uni-saarland.de \[oe\]
 - 2016/05/23: \#12918 @ login.coli.uni-saarland.de \[oe\]
 - 2016/05/24: \#12918 @ patas.ling.washington.edu \[oe\]
-<update date omitted for speed>{% endraw %}
+
+Last update: 2021-06-04 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/ErgProcessing/_edit)]{% endraw %}

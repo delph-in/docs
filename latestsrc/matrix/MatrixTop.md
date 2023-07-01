@@ -1,6 +1,6 @@
 {% raw %}# Page Authorship
 
-This page is written and maintained by [EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender).
+This page is written and maintained by EmilyBender.
 Please send comments by email.
 
 # Overview
@@ -115,4 +115,5 @@ coordination.
 
 Work on the Grammar Matrix is currently supported by an NSF CAREER grant
 (BCS-0644097).
-<update date omitted for speed>{% endraw %}
+
+Last update: 2023-06-30 by emilymbender [[edit](https://github.com/delph-in/docs/wiki/MatrixTop/_edit)]{% endraw %}

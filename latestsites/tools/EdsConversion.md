@@ -2,12 +2,12 @@
 
 For the first ten or so years of EDS support, there used to be only one
 implementation of the conversion procedure, maintained by
-[StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen) as part of the Common Lisp MRS library
+StephanOepen as part of the Common Lisp MRS library
 (which is typically loaded as part of the LKB, but is at times also
 compiled stand-alone, for example to link with the PET parser). Starting
-around 2014, [RebeccaDridan](https://delph-in.github.io/docs/garage/RebeccaDridan) has developed a C++
+around 2014, RebeccaDridan has developed a C++
 implementation of basic MRS manipulation, including conversion to EDS;
-and in 2016 [MichaelGoodman](https://delph-in.github.io/docs/garage/MichaelGoodman) is adding EDS support to
+and in 2016 MichaelGoodman is adding EDS support to
 the [pyDelphin](https://github.com/delph-in/pydelphin) libraries.
 Although the basic conversion procedure (see below) is straightforward,
 there are some ‘disambiguation heuristics’ involved that need to be
@@ -187,4 +187,5 @@ their ‘competition’. Seeing as the relevant sets of modifiers in these
 constructions (in English) tend to be post-head, such a simple heuristic
 might actually come to the right result. However, it does not quite seem
 linguistically very well founded ...
-<update date omitted for speed>{% endraw %}
+
+Last update: 2016-07-13 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/EdsConversion/_edit)]{% endraw %}

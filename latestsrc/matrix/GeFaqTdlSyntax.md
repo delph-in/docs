@@ -9,7 +9,7 @@ your grammar, or the LKB will interpret what you wrote differently from
 how you intended.
 
 A fuller, more formal description of TDL syntax can be found
-[here](https://delph-in.github.io/docs/garage/TdlRfc).
+here.
 
 Typical type definitions looks like this:
 
@@ -155,4 +155,5 @@ figure out where that is in my file?](https://delph-in.github.io/docs/matrix/GeF
 one?](https://delph-in.github.io/docs/matrix/GeFaqTypeAddendum)
 
 [Back to the Grammar Engineering FAQ](https://delph-in.github.io/docs/matrix/GrammarEngineeringFAQ).
-<update date omitted for speed>{% endraw %}
+
+Last update: 2023-06-30 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/GeFaqTdlSyntax/_edit)]{% endraw %}

@@ -220,4 +220,5 @@ need something, it fits in easily on top of that. As opposed to saying,
 oh what you really need is something else - no trap doors.
 
 Stephan: Time... for the bus...
-<update date omitted for speed>{% endraw %}
+
+Last update: 2016-06-27 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/StanfordUtility/_edit)]{% endraw %}

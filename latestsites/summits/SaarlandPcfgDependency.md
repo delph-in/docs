@@ -1,6 +1,6 @@
 {% raw %}PCFG and dependency conversion+parsing with [DeepBank](https://delph-in.github.io/docs/garage/DeepBank)(s) SIG
 
-Notes provided by [AngelinaIvanova](https://delph-in.github.io/docs/garage/AngelinaIvanova)
+Notes provided by AngelinaIvanova
 
 * * *
 
@@ -53,4 +53,5 @@ get rid of non-lexical elements of MRS.
 
 There is no (easy) way to go back from bilexical dependencies to
 MRS-like structures.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2013-08-07 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/SaarlandPcfgDependency/_edit)]{% endraw %}

@@ -2,8 +2,8 @@
 
 ### Participants
 
-- Moderator: [OlgaZamaraeva](https://delph-in.github.io/docs/garage/OlgaZamaraeva) (OZ)
-- Scribe: [MichaelGoodman](https://delph-in.github.io/docs/garage/MichaelGoodman) (MWG) (the scribe
+- Moderator: OlgaZamaraeva (OZ)
+- Scribe: MichaelGoodman (MWG) (the scribe
 apologizes for not always keeping up with who said what when.)
 - Other Participants (in order of appearance): Dan Flickinger (DPF),
 Guy Emerson (GE), Woodley Packard (WP), Ann Copestake (AAC), David
@@ -96,4 +96,5 @@ who Kim saw?" then "Yes, Sandy" is a valid answer.
 - DI: But not "No, Sandy"
 - GE: "What do you know who Kim gave?"
 - FCB: In Japanese it's fine, just answer all whs.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2019-07-16 by MichaelGoodman [[edit](https://github.com/delph-in/docs/wiki/CambridgeWhEvents/_edit)]{% endraw %}

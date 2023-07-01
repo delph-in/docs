@@ -109,4 +109,5 @@ Password: Tomar
 - sweaglesw.org slash delphin dash 2014 dash tomar (Woodley's photos)
 - davidinman dot net(work) stroke portugal stroke tomar dot
 hypertextmarkuplanguage
-<update date omitted for speed>{% endraw %}
+
+Last update: 2014-07-24 by DavidInman [[edit](https://github.com/delph-in/docs/wiki/TomarTop/_edit)]{% endraw %}

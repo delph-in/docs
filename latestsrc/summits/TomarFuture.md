@@ -1,7 +1,7 @@
 {% raw %}# Discussion: The Future of DELPH-IN
 
-Moderator: [StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen); Scribe:
-[EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender)
+Moderator: StephanOepen; Scribe:
+EmilyBender
 
 # Subjective Impressions
 
@@ -243,4 +243,5 @@ one better placed than us.
 
 oe: Thank you for that optimistic note, and thank you all for the
 treatment.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2014-07-15 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/TomarFuture/_edit)]{% endraw %}

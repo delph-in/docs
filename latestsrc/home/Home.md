@@ -139,7 +139,7 @@ further documentation and up-to-date information on aspects of
 installation or usage of DELPH-IN technology. Mostly to enforce some
 discipline among ourselves, these pages require that users are
 registered to the wiki server in order to obtain write access. Please
-create a [WikiName](https://delph-in.github.io/docs/garage/WikiName) for yourself, which may require obtaining
+create a WikiName for yourself, which may require obtaining
 a ‘textcha’ to protect against wiki spam; once registered at the wiki,
 to request write access please contact info *at* delph-in.net. The
 developers do hope that active DELPH-IN users will contribute to these
@@ -150,7 +150,7 @@ pages over time.
 Some information from the earlier years of DELPH-IN collaborations is
 preserved on the following pages, for historical interest:
 
-- [Earlier DELPH-IN news items](https://delph-in.github.io/docs/garage/DelphinNews)
+- Earlier DELPH-IN news items
 - [Links to earlier DELPH-IN-related projects](https://delph-in.github.io/docs/home/OldProjects)
 - [Earlier overviews of the DELPH-IN consortium](https://delph-in.github.io/docs/garage/OldOverviews)
 
@@ -164,4 +164,5 @@ is a link to the archive near the top of the page.
 
 There is also an active [stack-exchange style
 forum](http://discourse.delph-in.net), using the Discourse platform.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2023-06-28 by Francis Bond [[edit](https://github.com/delph-in/docs/wiki/Home/_edit)]{% endraw %}

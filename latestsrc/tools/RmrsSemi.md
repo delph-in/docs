@@ -11,9 +11,9 @@ For more information see:
 for scalable machine
 translation](http://web.mysites.ntu.edu.sg/fcbond/open/pubs/2005-summit-semi.pdf)
 
-This page was constructed by [FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond), based on
-information from [DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger) and
-[StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen).
+This page was constructed by FrancisBond, based on
+information from DanFlickinger and
+StephanOepen.
 
 ### The SEM-I in MT
 
@@ -142,4 +142,5 @@ output.
     PERF : PERF
       + >> +
       * >> !
-<update date omitted for speed>{% endraw %}
+
+Last update: 2017-04-24 by MichaelGoodman [[edit](https://github.com/delph-in/docs/wiki/RmrsSemi/_edit)]{% endraw %}

@@ -330,4 +330,5 @@ a Crosslinguistic Grammar
 Resource](http://cslipublications.stanford.edu/HPSG/6/drellishak-bender.pdf).
 Stephan Müller, ed. Proceedings of the 12th International Conference on
 Head-Driven Phrase Structure Grammar. Stanford: CSLI.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2018-08-22 by LaurieDermer [[edit](https://github.com/delph-in/docs/wiki/MatrixDoc_Coordination/_edit)]{% endraw %}

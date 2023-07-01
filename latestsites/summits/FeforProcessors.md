@@ -13,10 +13,10 @@ negotiations of interface standards and so on.
 
 Participants should feel free to add additional information to sessions
 (obviously large scale additions are best done with new pages), but
-should email [AnnCopestake](https://delph-in.github.io/docs/garage/AnnCopestake) with suggestions of changes to
+should email AnnCopestake with suggestions of changes to
 schedule and topics. Names below are of presenters and also of proposers
 of discussion topics: leaders of discussions and scribes will be added
-when we can work out load. Please email [AnnCopestake](https://delph-in.github.io/docs/garage/AnnCopestake) to
+when we can work out load. Please email AnnCopestake to
 volunteer.
 
 ## 13-Jun
@@ -37,15 +37,15 @@ volunteer.
 |---------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 09:30 - 10:30 | [Small group activities](https://delph-in.github.io/docs/summits/FeforSmallGroups)                                                                                                                  |
 | 10:30 - 11:00 | Coffee                                                                                                                                                      |
-| 11:00 - 12:30 | Presentation/Demonstration: [LkbTrollet](https://delph-in.github.io/docs/tools/LkbTrollet): tool for multilingual grammar engineering - a wrapper around the LKB ([PavelMihaylov](https://delph-in.github.io/docs/garage/PavelMihaylov)) |
+| 11:00 - 12:30 | Presentation/Demonstration: [LkbTrollet](https://delph-in.github.io/docs/tools/LkbTrollet): tool for multilingual grammar engineering - a wrapper around the LKB (PavelMihaylov) |
 |               | Other tools, small groups                                                                                                                                   |
 | 12:30 - 14:00 | Lunch                                                                                                                                                       |
 | 14:00         | Begin joint discussion on [MRS/RMRS](https://delph-in.github.io/docs/summits/FeforRmrs)                                                                                                             |
 
 ## Testing (technology and practice for developers)
 
-- Automated testing ([FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond),
-[UlrichSchaefer](https://delph-in.github.io/docs/garage/UlrichSchaefer), cf. also
+- Automated testing (FrancisBond,
+UlrichSchaefer, cf. also
 [TestingWithAnt](https://delph-in.github.io/docs/garage/TestingWithAnt))
   
   - Everyone agreed it was a good idea, and that we neeed a
@@ -61,13 +61,13 @@ testing with [SciBorg](/SciBorg) at Cambridge
 ## Interfaces, preprocessors and standoff annotation
 
 - [FeforStandoffAnnotationInterface](https://delph-in.github.io/docs/summits/FeforStandoffAnnotationInterface)
-/ SMAF ([BenWaldron](https://delph-in.github.io/docs/garage/BenWaldron) and
-[UlrichSchaefer](https://delph-in.github.io/docs/garage/UlrichSchaefer))
+/ SMAF (BenWaldron and
+UlrichSchaefer)
   
   - Everyone: collect examples of deep/shallow interface issues so
 we can design a language for the interface
-- Preprocessors ([FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond))
-- PET API (proposal, discussion) ([UlrichSchaefer](https://delph-in.github.io/docs/garage/UlrichSchaefer))
+- Preprocessors (FrancisBond)
+- PET API (proposal, discussion) (UlrichSchaefer)
   
   - Uli to start outline on the wiki: [FeforPetApi](https://delph-in.github.io/docs/garage/FeforPetApi)
 - Grammar interfaces: clear interface for robustness-related grammar
@@ -84,9 +84,10 @@ appropriate.
 
 - Presentation/Demonstration: Trollet: tool for multilingual grammar
 engineering - a wrapper around the LKB
-([PavelMihaylov](https://delph-in.github.io/docs/garage/PavelMihaylov))
+(PavelMihaylov)
 
 ## Discussion on lexicon building
 
 - Now plenary session only
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/FeforProcessors/_edit)]{% endraw %}

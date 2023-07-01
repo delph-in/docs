@@ -46,4 +46,5 @@
 | Processing engines         | [LKB](https://delph-in.github.io/docs/tools/LkbTop), [PET](https://delph-in.github.io/docs/garage/PetTop), [HoG](/HogTop)                                             |
 | Operating systems          | Linux                                                                                    |
 | Notes                      |                                                                                          |
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/JacySummary/_edit)]{% endraw %}

@@ -41,4 +41,5 @@ Additionally, the [Fairhaven Village Inn](https://www.fairhavenvillageinn.com) i
 
 There may also be opportunities for housing through Western Washington University's summer [guest housing program](https://housing.wwu.edu/guest-housing), but at the moment it is unclear due to COVID policies.
 
-<update date omitted for speed>{% endraw %}
+
+Last update: 2022-08-03 by Francis Bond [[edit](https://github.com/delph-in/docs/wiki/FairhavenTop/_edit)]{% endraw %}

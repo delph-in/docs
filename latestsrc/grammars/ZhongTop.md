@@ -3,7 +3,7 @@ languages, including Mandarin Chinese (simplified and traditional),
 Cantonese, Min, etc. Currently Simplified Mandarin is the best supported
 language. This grammar is based off ManGO
 (<http://moin.delph-in.net/MandarinGrammarOnline>) created by Justin
-Yang ([JustinChunleiYang](https://delph-in.github.io/docs/garage/JustinChunleiYang)) and Dan Flickinger
+Yang (JustinChunleiYang) and Dan Flickinger
 (<http://lingo.stanford.edu/dan/>).
 
 #### Note on naming
@@ -87,18 +87,18 @@ Grammar.
 
 ## Contributors
 
-- [FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond)
-- [SanghounSong](https://delph-in.github.io/docs/garage/SanghounSong)
+- FrancisBond
+- SanghounSong
 - [ZhenzhenFan](/ZhenzhenFan)
-- [JustinChunleiYang](https://delph-in.github.io/docs/garage/JustinChunleiYang)
-- [DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger)
-- [MichaelGoodman](https://delph-in.github.io/docs/garage/MichaelGoodman)
+- JustinChunleiYang
+- DanFlickinger
+- MichaelGoodman
 - [BoChen](/BoChen)
-- [HuiZhenWang](https://delph-in.github.io/docs/garage/HuiZhenWang)
+- HuiZhenWang
 - [JoannaSio](/JoannaSio)
-- [LuisMorgadoCosta](https://delph-in.github.io/docs/garage/LuisMorgadoCosta)
-- [ShanWang](https://delph-in.github.io/docs/garage/ShanWang)
-- [WenjieWang](https://delph-in.github.io/docs/garage/WenjieWang)
+- LuisMorgadoCosta
+- ShanWang
+- WenjieWang
 
 This grammar was supported in part by:
 
@@ -106,4 +106,5 @@ This grammar was supported in part by:
 Manipulation of Meaning* (MOE ARC41/13)
 - MOE Tier 2 grant *Grammar Matrix Reloaded: Syntax and Semantics of
 Affectedness* (MOE ARC21/13)
-<update date omitted for speed>{% endraw %}
+
+Last update: 2022-04-26 by Francis Bond [[edit](https://github.com/delph-in/docs/wiki/ZhongTop/_edit)]{% endraw %}

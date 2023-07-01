@@ -4,7 +4,7 @@
 
 ## Gtest Reminder
 
-\- You need [PyDelphin](https://delph-in.github.io/docs/garage/PyDelphin) installed and findable by python if
+\- You need PyDelphin installed and findable by python if
 you have not installed pyDelphin through pip, you may need to do this:
 export PYTHONPATH=\~/PathToPyDelphin/
 
@@ -133,4 +133,5 @@ EMB: So just a diff on the gold standard with the MRS that come out. The
 generation profiles could be stored and compared.
 
 MWG: Thanks everyone.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2017-01-07 by LuisMorgadoCosta [[edit](https://github.com/delph-in/docs/wiki/CapitolHillGenerationTesting/_edit)]{% endraw %}

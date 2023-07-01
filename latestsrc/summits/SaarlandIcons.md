@@ -1,5 +1,5 @@
-{% raw %}Discussion moderated by [SanghounSong](https://delph-in.github.io/docs/garage/SanghounSong), scribed by
-[MichaelGoodman](https://delph-in.github.io/docs/garage/MichaelGoodman)
+{% raw %}Discussion moderated by SanghounSong, scribed by
+MichaelGoodman
 
 Apologies for the many ..., where the scribe's fingers were slower than
 the speakers' lips.
@@ -116,4 +116,5 @@ rather than a formal interpretation
 
 As requested, here is a start of a wiki page on [IconsSpecs](https://delph-in.github.io/docs/tools/IconsSpecs)
 --Emily
-<update date omitted for speed>{% endraw %}
+
+Last update: 2013-08-01 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/SaarlandIcons/_edit)]{% endraw %}

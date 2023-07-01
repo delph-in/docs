@@ -53,4 +53,5 @@ length of the RELS and HCONS lists.
 and how do I debug it?](https://delph-in.github.io/docs/matrix/GeFaqCyclicCheck)
 
 [Back to the Grammar Engineering FAQ](https://delph-in.github.io/docs/matrix/GrammarEngineeringFAQ).
-<update date omitted for speed>{% endraw %}
+
+Last update: 2023-06-30 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/GeFaqMissingRels/_edit)]{% endraw %}

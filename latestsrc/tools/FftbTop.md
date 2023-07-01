@@ -173,7 +173,7 @@ visit a rejected item that you want to reclaim.
 You can wrap a proxy server round fftb and treebank remotely.
 
 Here is the configuration for [nginx](https://www.nginx.com/), thanks to
-[AlexandreRademaker](https://delph-in.github.io/docs/garage/AlexandreRademaker). with minor tweaks to get it
+AlexandreRademaker. with minor tweaks to get it
 running on Ubuntu. This serves it at localhost:8080/private/. Call fftb
 without --browser.
 
@@ -270,4 +270,5 @@ At least when running inside a docker container, fftb crashes if it
 can't find the environment variable LOGNAME. To set it use
 
     export LOGNAME=myuser
-<update date omitted for speed>{% endraw %}
+
+Last update: 2023-04-26 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/FftbTop/_edit)]{% endraw %}

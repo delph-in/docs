@@ -14,4 +14,5 @@ configure your directory browser to "show extensions" in order to see
 what's going on.
 
 [Back to the Grammar Engineering FAQ](https://delph-in.github.io/docs/matrix/GrammarEngineeringFAQ).
-<update date omitted for speed>{% endraw %}
+
+Last update: 2023-06-30 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/GeFaqTdlTxt/_edit)]{% endraw %}

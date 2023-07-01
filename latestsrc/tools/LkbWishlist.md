@@ -54,7 +54,7 @@ example, if the LKB could read the english.tdl file, ...
 [LkbFos](https://delph-in.github.io/docs/tools/LkbFos), these and other list-like windows (such as the
 'Apply all lex rules' window) obey the \*parse-tree-font-size\* user
 parameter.
-- **Comments in TDL**: although the [TdlRfc](https://delph-in.github.io/docs/garage/TdlRfc) specification
+- **Comments in TDL**: although the TdlRfc specification
 does not provide a way to comment out a section of TDL by wrapping
 it in a definition, [LkbFos](https://delph-in.github.io/docs/tools/LkbFos) fully implements the
 BlockComment facility. There is partial support for block comments
@@ -78,4 +78,5 @@ windows for some (most?) encodings
   
   These points are (mostly) implemented in [LkbFos](https://delph-in.github.io/docs/tools/LkbFos), although
 some work is required to pre-select the Unicode fonts to be used.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2019-07-17 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/LkbWishlist/_edit)]{% endraw %}

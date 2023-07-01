@@ -221,4 +221,5 @@ fine)
 
 -- You should see the debugger attach successfully and should be able to
 set breakpoints and step through the execution.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2023-05-01 by emilymbender [[edit](https://github.com/delph-in/docs/wiki/Updating_the_Customization_System/_edit)]{% endraw %}

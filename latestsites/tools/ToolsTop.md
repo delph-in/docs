@@ -49,7 +49,7 @@ DELPH-IN systems and think might be worth sharing, list it here.
 - [Typediff](/delph-in/docs/wiki/TypediffTop) (Ned Letcher)
   
   A web app for exploring DELPH-IN grammar types used in the processing of input.
-- [Vista extraction](/delph-in/docs/wiki/VistaExtractionTop) ([JoaoSilva](https://delph-in.github.io/docs/garage/JoaoSilva))
+- [Vista extraction](/delph-in/docs/wiki/VistaExtractionTop) (JoaoSilva)
   
   Tool for extracting vistas from the files exported by the grammar. Vistas are grammatical representations that collect only a part of the linguistic information encoded in the fully-fledged HPSG grammatical representation.
 - [DELPH-IN VIZ](https://github.com/delph-in/delphin-viz) (NedLetcher) 
@@ -89,4 +89,5 @@ DELPH-IN systems and think might be worth sharing, list it here.
   
   A docker installation of LOGON and ACE and its dependents. Some improvements over the initial [LkbMacintosh](/delph-in/docs/wiki/LkbMacintosh).
 - [Heart of Gold](https://delph-in.github.io/docs/garage/HeartofgoldTop): XML-based middleware for the integration of deep and shallow NLP components
-<update date omitted for speed>{% endraw %}
+
+Last update: 2023-01-17 by T.J. Trimble [[edit](https://github.com/delph-in/docs/wiki/ToolsTop/_edit)]{% endraw %}

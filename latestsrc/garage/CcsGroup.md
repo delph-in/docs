@@ -1,14 +1,15 @@
-{% raw %}- [EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender)
+{% raw %}- EmilyBender
 - [JohanBos](/JohanBos)
 - [SilvieCinkova](/SilvieCinkova)
-- [AnnCopestake](https://delph-in.github.io/docs/garage/AnnCopestake)
+- AnnCopestake
 - [CleoCondoravdi](/CleoCondoravdi)
 - [DickCrouch](/DickCrouch)
-- [DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger)
+- DanFlickinger
 - [JanHajič](/JanHaji%C4%8D)
-- [AlexanderKoller](https://delph-in.github.io/docs/garage/AlexanderKoller)
-- [AlexLascarides](https://delph-in.github.io/docs/garage/AlexLascarides)
-- [StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen)
+- AlexanderKoller
+- AlexLascarides
+- StephanOepen
 - TimOGorman
 - [WoodleyPackard](/WoodleyPackard)
-<update date omitted for speed>{% endraw %}
+
+Last update: 2014-11-15 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/CcsGroup/_edit)]{% endraw %}

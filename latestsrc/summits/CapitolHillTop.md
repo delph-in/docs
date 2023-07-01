@@ -82,24 +82,24 @@ mini-meeting](https://delph-in.github.io/docs/summits/CapitolHillTop#Grammar_Eng
 ## Participants
 
 Organizer\
-[FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond)
+FrancisBond
 
 Host\
-[GlennSlayden](https://delph-in.github.io/docs/garage/GlennSlayden)
+GlennSlayden
 
 Participants  
 - Emily Bender (in and out, according to other obligations)
-- [MichaelGoodman](https://delph-in.github.io/docs/garage/MichaelGoodman) (maybe not every day)
-- [OlgaZamaraeva](https://delph-in.github.io/docs/garage/OlgaZamaraeva) (mostly for evening fun/social and to
+- MichaelGoodman (maybe not every day)
+- OlgaZamaraeva (mostly for evening fun/social and to
 offer help as a local; I can also provide crash space for someone)
-- [SanghounSong](https://delph-in.github.io/docs/garage/SanghounSong) (probably everyday 2-6)
-- [FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond) (every day)
+- SanghounSong (probably everyday 2-6)
+- FrancisBond (every day)
 - Fan Zhenzhen (every day)
-- [DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger) (Monday afternoon to Thursday)
-- [LuisMorgadoCosta](https://delph-in.github.io/docs/garage/LuisMorgadoCosta) (every day)
-- [DavidMoeljadi](https://delph-in.github.io/docs/garage/DavidMoeljadi) (every day)
+- DanFlickinger (Monday afternoon to Thursday)
+- LuisMorgadoCosta (every day)
+- DavidMoeljadi (every day)
 - Ping Xue
-- [JoshuaCrowgey](https://delph-in.github.io/docs/garage/JoshuaCrowgey) (Tuesday and Thursday)
+- JoshuaCrowgey (Tuesday and Thursday)
   
   - (add your name here)
 
@@ -121,4 +121,5 @@ Please add your name below if you plan to go:
 ## Photos
 
 Sanghoun's photos: [link](https://goo.gl/photos/yNf2KheYyyz9Wojz5)
-<update date omitted for speed>{% endraw %}
+
+Last update: 2017-01-15 by SanghounSong [[edit](https://github.com/delph-in/docs/wiki/CapitolHillTop/_edit)]{% endraw %}

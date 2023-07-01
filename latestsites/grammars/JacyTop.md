@@ -22,32 +22,32 @@ grammar that can be used as the basis for the development of further
 grammars. After that, it has been used in research on parse ranking with
 lexical semantics and [machine translation](https://delph-in.github.io/docs/garage/MtJaen).
 
-Current development is mainly being done by [FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond)
+Current development is mainly being done by FrancisBond
 ([NTU](http://www3.ntu.edu.sg/home/fcbond/)), with help from Takayuki
 Kuribayashi.
 
 [Melanie Siegel](http://www.melaniesiegel.de) (Hochschule Darmstadt) is
 the original principal JACY developer. Major contributions came from
-[EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender) (University of Washington), especially
+EmilyBender (University of Washington), especially
 concerning the MRS construction and numeral expressions.
-[StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen) (Universitetet i Oslo & CSLI Stanford)
+StephanOepen (Universitetet i Oslo & CSLI Stanford)
 contributed support on the grammar development environment, Japanese
 font encodings and inclusion of [ChaSen](http://chasen.naist.jp). Ulrich
 Callmeier (acrolinx GmbH) contributed the requirements for letting the
 grammar run on his fast and efficient PET system. Akira Ohtani,
-[ChikaraHashimoto](https://delph-in.github.io/docs/garage/ChikaraHashimoto), [FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond),
+ChikaraHashimoto, FrancisBond,
 [SanaeFujita](/SanaeFujita), Shigeko Nariyama and Takaaki Tanaka
-([NTT](https://delph-in.github.io/docs/garage/DelphinNtt) Communication Science Laboratories - Machine
+(NTT Communication Science Laboratories - Machine
 Translation Research Group) contributed grammar extensions, especially
 for verbal compounds and relative sentence constructions, and many
-lexicon entries. [UlrichSchaefer](https://delph-in.github.io/docs/garage/UlrichSchaefer) integrated
+lexicon entries. UlrichSchaefer integrated
 [ChaSen](http://chasen.naist.jp), Japanese Named Entity Recognition via
 [SProUT](http://sprout.dfki.de) and
 [PET](https://delph-in.github.io/docs/garage/PetTop) with the Jacy grammar into
 the [Heart of Gold](http://heartofgold.dfki.de) middleware for robust
 parsing of Japanese text, adding automatic translations of Chasen's
 EUC-JP byte offsets to Unicode character counts. Woodley Packard has
-helped with making things work with ACE. [GlennSlayden](https://delph-in.github.io/docs/garage/GlennSlayden)
+helped with making things work with ACE. GlennSlayden
 tested with AGREE. [Michael Goodman](http://www.goodmami.org/) helped
 move to github and many enhancements.
 
@@ -158,4 +158,5 @@ and Computation, Taipei 1999.
 
 Siegel, Melanie (1998): Japanese Particles in an HPSG Grammar.
 Verbmobil-Report 220. Universität des Saarlandes.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2021-06-03 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/JacyTop/_edit)]{% endraw %}

@@ -130,4 +130,5 @@ A:
 Chair:
 
 - Ok, then let's thank Guy and Alex.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2016-06-18 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/StanfordDMRSGraphDescriptionLanguage/_edit)]{% endraw %}

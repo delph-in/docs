@@ -80,4 +80,5 @@ Emily: Time spent grammar engineering is a win in and of itself :) Also have a g
 Sharon: Sounds like the priorities are working on the choices file and working on the analyzer and looking for funding.
 
 Olga/Luis: Funding means commitment and responsibilities.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2021-07-22 by mcmillanmajora [[edit](https://github.com/delph-in/docs/wiki/Virtual2021Sahaptin/_edit)]{% endraw %}

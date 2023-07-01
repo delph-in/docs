@@ -202,7 +202,7 @@ constrain it.
 
 ## Notes
 
-\[Scribe: [EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender)\]
+\[Scribe: EmilyBender\]
 
 Ann: The notion of the feature called INDEX is distinct from what that
 feature is pointing to. A DMRS has an index which is a node --- that's
@@ -708,4 +708,5 @@ something more complicated…
 
 Ann: The mutual selection would be a problem for me, even if there
 wasn't a SLASH involved.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2016-06-21 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/StanfordAlgebraAdditions/_edit)]{% endraw %}

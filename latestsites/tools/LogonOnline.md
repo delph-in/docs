@@ -3,7 +3,7 @@
 This page presents user-supplied information, hence may be inaccurate in
 some details, or not necessarily reflect use patterns anticipated by the
 original LOGON developers. The functionality documented here may still
-change. This page was initiated by [EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender); please
+change. This page was initiated by EmilyBender; please
 feel free to make additions or corrections as you see fit. However,
 before revising this page, one should be reasonably confident of the
 information given being correct.
@@ -132,4 +132,5 @@ macros](http://svn.emmtee.net/ltg/tex/mrs.sty) for MRS formatting
 for the syntax trees. Note that mrs.sty assumes relsize.sty has been
 loaded, and qtree.sty requires pict2e.sty (which it will load
 automatically).
-<update date omitted for speed>{% endraw %}
+
+Last update: 2019-03-26 by MichaelGoodman [[edit](https://github.com/delph-in/docs/wiki/LogonOnline/_edit)]{% endraw %}

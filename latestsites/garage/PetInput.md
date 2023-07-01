@@ -8,7 +8,7 @@ XML-based input formats have been developed. Please see the
 [PetInputFsc](https://delph-in.github.io/docs/garage/PetInputFsc) page for an alternate, lattice-based XML
 input mode.
 
-This page was predominantly authored by [StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen),
+This page was predominantly authored by StephanOepen,
 who is its current maintainer. Please do not make substantial changes
 unless you (a) are quite certain of the technical correctness of your
 revisions and (b) believe strongly that your changes are compatible with
@@ -489,4 +489,5 @@ encode the parser input. See the [PetInputFsc](https://delph-in.github.io/docs/g
 [PetInputChart](https://delph-in.github.io/docs/garage/PetInputChart) and [SmafTop](https://delph-in.github.io/docs/tools/SmafTop) pages for the
 so-called FSC, PIC (deprecated as of mid-2010), and SMAF (deprecated as
 of mid-2010) mode, respectively.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2023-06-15 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/PetInput/_edit)]{% endraw %}

@@ -101,4 +101,5 @@ DF:There are cases where there are MRSs in the 2 languages (Norwegian
 and English), that are all correct, and one has to make an expert
 decision of which one is the best one according to the preferred
 analysis.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2006-06-29 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/FeforMRSinTranslation/_edit)]{% endraw %}

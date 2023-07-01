@@ -94,7 +94,7 @@ consider:
 
 ## Notes from scribe
 
-=== Scribe: [EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender) ===
+=== Scribe: EmilyBender ===
 
 oe: \[Goes through notes on the wiki\]
 
@@ -376,4 +376,5 @@ Emily: That would be available, because the predicates in the SEM-I map
 to ERG entries.
 
 Glenn: Time to finish!
-<update date omitted for speed>{% endraw %}
+
+Last update: 2016-06-22 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/StanfordSenses/_edit)]{% endraw %}

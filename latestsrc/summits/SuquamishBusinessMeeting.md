@@ -24,7 +24,7 @@ with the web site <http://www.delph-in.net>
 LREC. Standing committee to think about this
   - Come up with a DELPH-IN Manifesto/Mission Statement. Possibly to
 be used as boilerplate in grant applications/papers.
-[StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen) to write draft
+StephanOepen to write draft
   - Encourage everyone to remember to properly cite each other.
 - Remind scribes to post notes, participants to read over and edit
   - Please add your own notes and check the scribe's output
@@ -55,4 +55,5 @@ paper
 - Finished with a round of thanks to the local organizer (Emily), the
 program Chairs (Stephan and Francis) and the Utilika Foundation.
 ^///^
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/SuquamishBusinessMeeting/_edit)]{% endraw %}

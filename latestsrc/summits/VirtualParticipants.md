@@ -10,48 +10,48 @@ but please leave UTC as the first entry):
 
 - [EliasAamodt](/EliasAamodt)
 - [GabrielAguilaMultner](/GabrielAguilaMultner)
-- [TaliAradGreshler](https://delph-in.github.io/docs/garage/TaliAradGreshler)
-- [TaniaAvgustinova](https://delph-in.github.io/docs/garage/TaniaAvgustinova) (Monday-Friday, 13:00-21:00
+- TaliAradGreshler
+- TaniaAvgustinova (Monday-Friday, 13:00-21:00
 UTC)
-- [TimBaldwin](https://delph-in.github.io/docs/garage/TimBaldwin)
-- [EmmaBateman](https://delph-in.github.io/docs/garage/EmmaBateman)
+- TimBaldwin
+- EmmaBateman
 - [DorotheeBeermann](/DorotheeBeermann)
 - [NuriaBel](/NuriaBel)
-- [EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender) (Monday-Friday, 13:00-4:00 UTC)
-- [FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond) (Monday-Friday, 0:00-15:00 UTC)
-- [AntonioBranco](https://delph-in.github.io/docs/garage/AntonioBranco)
+- EmilyBender (Monday-Friday, 13:00-4:00 UTC)
+- FrancisBond (Monday-Friday, 0:00-15:00 UTC)
+- AntonioBranco
 - [ToreBruland](/ToreBruland)
-- [JanBuys](https://delph-in.github.io/docs/garage/JanBuys) (Monday-Friday, 06:00-21:00 UTC)
+- JanBuys (Monday-Friday, 06:00-21:00 UTC)
 - [UlrichCallmeier](/UlrichCallmeier)
-- [JohnCarroll](https://delph-in.github.io/docs/garage/JohnCarroll) (Monday-Friday, 07:00-21:00 UTC)
+- JohnCarroll (Monday-Friday, 07:00-21:00 UTC)
 - [YufeiChen](/YufeiChen)
 - [CleoCondoravdi](/CleoCondoravdi)
 - [ElizabethConrad](/ElizabethConrad)
-- [AnnCopestake](https://delph-in.github.io/docs/garage/AnnCopestake) (Monday-Thursday, 07:00-23:00 GMT,
+- AnnCopestake (Monday-Thursday, 07:00-23:00 GMT,
 Friday TBD but probably 13:00 GMT onwards at best)
-- [JoshuaCrowgey](https://delph-in.github.io/docs/garage/JoshuaCrowgey)
-- [BertholdCrysmann](https://delph-in.github.io/docs/garage/BertholdCrysmann)
+- JoshuaCrowgey
+- BertholdCrysmann
 - [BrunoCuconato](/BrunoCuconato)
-- [ChrisCurtis](https://delph-in.github.io/docs/garage/ChrisCurtis) (Monday-Friday, variable but
+- ChrisCurtis (Monday-Friday, variable but
 \~11:00-23:00 UTC, with punctures)
 - [PaulaCzarnowska](/PaulaCzarnowska) (Monday-Friday, 08:00-22:00 UTC)
 - [LaurieDermer](/LaurieDermer)
-- [RebeccaDridan](https://delph-in.github.io/docs/garage/RebeccaDridan) (Monday-Friday, 22:00-13:00 UTC)
-- [GuyEmerson](https://delph-in.github.io/docs/garage/GuyEmerson) (Monday-Friday, 07:00-23:00 UTC)
+- RebeccaDridan (Monday-Friday, 22:00-13:00 UTC)
+- GuyEmerson (Monday-Friday, 07:00-23:00 UTC)
 - [ZhenzhenFan](/ZhenzhenFan)
-- [DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger)
-- [AntskeFokkens](https://delph-in.github.io/docs/garage/AntskeFokkens)
+- DanFlickinger
+- AntskeFokkens
 - [SanaeFujita](/SanaeFujita)
 - [ClaireGardent](/ClaireGardent)
 - [AjdaGokcen](/AjdaGokcen)
-- [MichaelGoodman](https://delph-in.github.io/docs/garage/MichaelGoodman) (Monday-Friday, 0:00-15:00 UTC)
+- MichaelGoodman (Monday-Friday, 0:00-15:00 UTC)
 - [CarlosGómez](/CarlosG%C3%B3mez) (will try to attend plenary Tuesday
 14:30-17:00 UTC)
 - [JonasGroschwitz](/JonasGroschwitz) (Mon-Fri, available 7:00-17:00
 UTC, but will mostly join only the plenary, i.e. 14-17)
 - [MichaelHaeger](/MichaelHaeger)
 - [DagHaug](/DagHaug)
-- [PetterHaugereid](https://delph-in.github.io/docs/garage/PetterHaugereid)
+- PetterHaugereid
 - [LarsHellan](/LarsHellan)
 - [FabiolaHenri](/FabiolaHenri)
 - [AurelieHerbelot](/AurelieHerbelot)
@@ -59,67 +59,68 @@ UTC, but will mostly join only the plenary, i.e. 14-17)
 - [KristenHowell](/KristenHowell)
 - [DavidInman](/DavidInman)
 - [MartinKay](/MartinKay)
-- [BerndKiefer](https://delph-in.github.io/docs/garage/BerndKiefer)
-- [JongBokKim](https://delph-in.github.io/docs/garage/JongBokKim)
+- BerndKiefer
+- JongBokKim
 - [PrescottKlassen](/PrescottKlassen)
-- [AlexanderKoller](https://delph-in.github.io/docs/garage/AlexanderKoller) (can only attend sporadically,
+- AlexanderKoller (can only attend sporadically,
 Mon-Fri, 6:00-17:00 UTC)
 - [FrantišekKratochvíl](/Franti%C5%A1ekKratochv%C3%ADl)
 - [AlexanderKuhnle](/AlexanderKuhnle)
 - [TakayukiKuribayashi](/TakayukiKuribayashi)
-- [AlexLascarides](https://delph-in.github.io/docs/garage/AlexLascarides)
+- AlexLascarides
 - [TuấnAnhLê](/Tu%E1%BA%A5nAnhL%C3%AA)
-- [TuanAnhLe](https://delph-in.github.io/docs/garage/TuanAnhLe)
+- TuanAnhLe
 - Gyu-minLee
-- [NedLetcher](https://delph-in.github.io/docs/garage/NedLetcher)
+- NedLetcher
 - [MatthiasLindemann](/MatthiasLindemann)
 - [MontserratMarimon](/MontserratMarimon)
 - [AngelinaMcMillanMajor](/AngelinaMcMillanMajor) (Monday-Friday,
 13:00-3:00 UTC)
-- [NuritMelnik](https://delph-in.github.io/docs/garage/NuritMelnik)
+- NuritMelnik
 - [YusukeMiyao](/YusukeMiyao)
-- [DavidMoeljadi](https://delph-in.github.io/docs/garage/DavidMoeljadi) (Monday-Friday, 7:00-17:00 UTC)
+- DavidMoeljadi (Monday-Friday, 7:00-17:00 UTC)
 - [MathieuMorey](/MathieuMorey)
-- [LuisMorgadoCosta](https://delph-in.github.io/docs/garage/LuisMorgadoCosta) (Monday-Friday, 1:00-17:00 UTC)
-- [DavidMott](https://delph-in.github.io/docs/garage/DavidMott)
+- LuisMorgadoCosta (Monday-Friday, 1:00-17:00 UTC)
+- DavidMott
 - [EwaMuszynska](/EwaMuszynska)
 - [ElizabethNielsen](/ElizabethNielsen)
-- [StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen)
-- [PetyaOsenova](https://delph-in.github.io/docs/garage/PetyaOsenova)
+- StephanOepen
+- PetyaOsenova
 - [RomanPearah](/RomanPearah)
 - [WoodleyPackard](/WoodleyPackard)
 - [AdamPrzepiorkowski](/AdamPrzepiorkowski)
-- [ZinaPozen](https://delph-in.github.io/docs/garage/ZinaPozen)
-- [AlexandreRademaker](https://delph-in.github.io/docs/garage/AlexandreRademaker) (Monday-Friday,
+- ZinaPozen
+- AlexandreRademaker (Monday-Friday,
 9:00AM-10:00PM UTC)
-- [UlrichSchaefer](https://delph-in.github.io/docs/garage/UlrichSchaefer) (Monday-Friday, 6:00-20:00 UTC, can
+- UlrichSchaefer (Monday-Friday, 6:00-20:00 UTC, can
 only attend sporadically)
 - [MelanieSiegel](/MelanieSiegel)
-- [JoaoSilva](https://delph-in.github.io/docs/garage/JoaoSilva)
+- JoaoSilva
 - [KirilSimov](/KirilSimov)
 - [JoannaSio](/JoannaSio)
-- [GlennSlayden](https://delph-in.github.io/docs/garage/GlennSlayden)
-- [SanghounSong](https://delph-in.github.io/docs/garage/SanghounSong) (Monday-Friday, 0:00-15:00 UTC)
+- GlennSlayden
+- SanghounSong (Monday-Friday, 0:00-15:00 UTC)
 - [ShaneSteinertThrelkeld](/ShaneSteinertThrelkeld)
 - [LonnyStrunk](/LonnyStrunk)
-- [WeiweiSun](https://delph-in.github.io/docs/garage/WeiweiSun)
-- [LilingTan](https://delph-in.github.io/docs/garage/LilingTan)
+- WeiweiSun
+- LilingTan
 - TJTrimble
 - [JunichiTsujii](/JunichiTsujii)
-- [HansUszkoreit](https://delph-in.github.io/docs/garage/HansUszkoreit)
+- HansUszkoreit
 - [AntoineVenant](/AntoineVenant)
 - [RuiWang](/RuiWang)
-- [WenjieWang](https://delph-in.github.io/docs/garage/WenjieWang)
+- WenjieWang
 - [TomWasow](/TomWasow)
 - [HuangyangXiao](/HuangyangXiao)
 - [HuiyuanXie](/HuiyuanXie)
-- [FeiyuXu](https://delph-in.github.io/docs/garage/FeiyuXu)
+- FeiyuXu
 - [PingXue](/PingXue)
-- [JustinChunleiYang](https://delph-in.github.io/docs/garage/JustinChunleiYang) (Tuesday, Thursday, Friday,
+- JustinChunleiYang (Tuesday, Thursday, Friday,
 0:00-15:00 UTC)
-- [OlgaZamaraeva](https://delph-in.github.io/docs/garage/OlgaZamaraeva) (Mon-Fri 15:00-02:00 UTC; 13:00-5:00
+- OlgaZamaraeva (Mon-Fri 15:00-02:00 UTC; 13:00-5:00
 if need be)
 - [ClaudeZhang](/ClaudeZhang)
-- [YiZhang](https://delph-in.github.io/docs/garage/YiZhang)
+- YiZhang
 - [LiljaØvrelid](/Lilja%C3%98vrelid)
-<update date omitted for speed>{% endraw %}
+
+Last update: 2020-07-14 by CarlosGómez [[edit](https://github.com/delph-in/docs/wiki/VirtualParticipants/_edit)]{% endraw %}

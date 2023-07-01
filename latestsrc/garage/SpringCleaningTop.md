@@ -10,9 +10,9 @@ the empty set).
 
 ## Authors
 
-[AntskeFokkens](https://delph-in.github.io/docs/garage/AntskeFokkens): Spring Cleaning algorithm
+AntskeFokkens: Spring Cleaning algorithm
 
-[YiZhang](https://delph-in.github.io/docs/garage/YiZhang): Grammar Compression
+YiZhang: Grammar Compression
 
 ## References
 
@@ -38,4 +38,5 @@ All experiments reported below were carried out on 2012-12-12 and
 ### Results
 
 ### Grammars (versions used, original sources)
-<update date omitted for speed>{% endraw %}
+
+Last update: 2012-12-13 by AntskeFokkens [[edit](https://github.com/delph-in/docs/wiki/SpringCleaningTop/_edit)]{% endraw %}

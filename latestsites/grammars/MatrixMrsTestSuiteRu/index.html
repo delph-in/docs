@@ -395,117 +395,554 @@
 
 <h2 id="russian-mrs-test-suite">Russian MRS Test Suite</h2>
 
-<p>|      |                                                                                                   |                                               |
-|——|—————————————————————————————————|———————————————–|
-| 11   | Шёл дождь.                                                                                        | It rained.                                    |
-| 21   | Aбрамс лаял.                                                                                      | Abrams barked.                                |
-| 31   | Окно открылось.                                                                                   | The window opened.                            |
-| 41   | Aбрамс преследовал Брауна.                                                                        | Abrams chased Browne.                         |
-| 51   | Aбрамс вручил Брауну сигарету. Aбрамс передал Брауну сигарету                                     | Abrams handed Browne the cigarette.           |
-| 61   | Aбрамс вручил сигарету Брауну. Aбрамс передал сигарету Брауну.                                    | Abrams handed the cigarette to Browne.        |
-| 71   | Aбрамс поспорил с Брауном на сигарету, что шёл дождь.                                             | Abrams bet Browne a cigarette that it rained. |
-| 81   | Aбрамс знал, что идёт дождь. Aбрамс знал, что шёл дождь.                                          | Abrams knew that it rained.                   |
-| 91   | Aбрамс намеревался лаять. Aбрамс собирался залаять.                                               | Abrams intended to bark.                      |
-| 101  | Aбрамс хотел, чтобы Браун лаял.                                                                   | Abrams intended Browne to bark.               |
-| 111  | Каждая кошка лаяла.                                                                               | Every cat barked.                             |
-| 121  | Каждая кошка преследовала какую-нибудь собаку.                                                    | Every cat chased some dog.                    |
-| 131  | Моя кошка лаяла.                                                                                  | My cat barked.                                |
-| 141  | Оно лаяло.                                                                                        | It barked.                                    |
-| 151  | Кошка преследовала это.                                                                           | The cat chased it.                            |
-| 161  | Кошка преследовала саму себя.                                                                     | The cat chased itself.                        |
-| 171  | Кошка преследовала одного.                                                                        | The cat chased one.                           |
-| 181  | Моя лаяла.                                                                                        | Mine barked.                                  |
-| 191  | То открылось.                                                                                     | That opened.                                  |
-| 201  | Кошки лают.                                                                                       | Cats bark.                                    |
-| 211  | Табак прибыл.                                                                                     | Tobacco arrived.                              |
-| 221  | Некоторые лают.                                                                                   | Some bark.                                    |
-| 231  | Некоторые из кошек лают.                                                                          | Some of the cats bark.                        |
-| 241  | Ни одна кошка не лаяла. Никакая кошка не лаяла.                                                   | No cat barked.                                |
-| 251  | Собака лаяла?                                                                                     | Did the dog bark?                             |
-| 261  | Какая собака лаяла? Какая собака лаяла?                                                           | Which dog barked?                             |
-| 271  | Чья собака лаяла?                                                                                 | Whose dog barked?                             |
-| 281  | Преследуй Брауна!                                                                                 | Chase Browne!                                 |
-| 291  | Абрамс интересовался, которая собака лает.                                                        | Abrams wondered which dog barked.             |
-| 301  | Абрама интересовался, лаял ли Браун.                                                              | Abrams wondered whether Browne barked.        |
-| 311  | Собака, которую Браун преследовал, лаяла.                                                         | The dog that Browne chased barked.            |
-| 321  | Собака, которую надо преследовать, лает.                                                          | The dog to chase is barking.                  |
-| 331  | Собака преследовалась Брауном. Собака была преследована Брауном.                                  | The dog was chased by Browne.                 |
-| 341  | Собака, преследуемая Брауном, лаяла.                                                              | The dog chased by Browne barked.              |
-| 351  | Собака лает.                                                                                      | The dog is barking.                           |
-| 361  | Собака лаяла.                                                                                     | The dog has barked.                           |
-| 371  | Собака лаяла.                                                                                     | The dog has been barking.                     |
-| 381  | Собака лаяла.                                                                                     | The dog had been barking.                     |
-| 391  | Собака будет лаять.                                                                               | The dog will bark.                            |
-| 401  | Собака собирается (за)лаять.                                                                      | The dog is going to bark.                     |
-| 411  | Собака могла лаять.                                                                               | The dog could bark.                           |
-| 421  | Собака не могла лаять.                                                                            | The dog couldn’t bark.                        |
-| 431  | Старая собака лаяла.                                                                              | The old dog barked.                           |
-| 441  | Собака тихо лаяла.                                                                                | The dog barked softly.                        |
-| 451  | Собака, вероятно / возможно, лаяла. Собака наверно лаяла.                                         | The dog probably barked.                      |
-| 461  | Собака лаяла в саду.                                                                              | The dog barked in the garden.                 |
-| 471  | Собака лает сейчас.                                                                               | The dog barks now.                            |
-| 481  | Садовая собака лаяла. Собака из сада лаяла.                                                       | The garden dog barked.                        |
-| 491  | Собака из табачного сада лаяла.                                                                   | The tobacco garden dog barked.                |
-| 501  | Кошка старая. Кошка стара.                                                                        | The cat is old.                               |
-| 511  | Кошка находится в саду. Кошка в саду.                                                             | The cat is in the garden.                     |
-| 521  | Лающая собака преследовала Брауна.                                                                | The barking dog chased Browne.                |
-| 531  | Преследуемые собаки лают.                                                                         | Chased dogs bark.                             |
-| 541  | Преследование кошек – старо. Преследовать кошку – старо.                                          | Chasing the cat is old.                       |
-| 551  | (То,) что кошка преследует Брауна, старо.                                                         | That the cat chases Browne is old.            |
-| 561  | Собаки преследуют всё, что лает.                                                                  | Dogs chase whatever barks.                    |
-| 571  | Собака лаяла каждый день.                                                                         | The dog barked every day.                     |
-| 581  | Когда лаяла собака?                                                                               | When did the dog bark?                        |
-| 591  | Три собаки лают. Три из собак лают.                                                               | Three of the dogs bark.                       |
-| 601  | Три лают.                                                                                         | Three bark.                                   |
-| 611  | Собака Брауна лает.                                                                               | Browne’s dog barks.                           |
-| 621  | Браунова лает. Брауна лает.                                                                       | Browne’s barks.                               |
-| 631  | Двадцать три собаки лают.                                                                         | Twenty three dogs bark.                       |
-| 641  | Двести двадцать собак лают.                                                                       | Two hundred twenty dogs bark.                 |
-| 651  | Абрамс прибыл на машине.                                                                          | Abrams arrived by car.                        |
-| 661  | Абрамс продолжал лаять.                                                                           | Abrams kept barking.                          |
-| 671  | Браун впихнул кошку.                                                                              | Browne squeezed the cat in.                   |
-| 681  | Браун пропихнул кошку.                                                                            | Browne squeezed in the cat.                   |
-| 691  | Фотография Абрамса прибыла.                                                                       | The picture of Abrams arrived.                |
-| 701  | Абрамс вытер стол начисто. Абрамс чисто вытер стол.                                               | Abrams wiped the table clean.                 |
-| 711  | Абрамс положил Брауна в сад.                                                                      | Abrams put Browne in the garden.              |
-| 721  | Собака будет лаять, если прибудет Браун.                                                          | The dog will bark if Browne arrives.          |
-| 731  | Абрамс и Браун прибыли. Абрамс с Брауном прибыли.                                                 | Abrams and Browne arrived.                    |
-| 741  | Абрамс, Браун и собака прибыли.                                                                   | Abrams, Browne, and the dog arrived.          |
-| 751  | Собака прибыла и залаяла.                                                                         | The dog arrived and barked.                   |
-| 761  | Собака прибыла и Браун залаял.                                                                    | The dog arrived and Browne barked.            |
-| 771  | Собака лаяла, не так ли?                                                                          | The dog barked, didn’t it?                    |
-| 781  | Очевидно, что собака лаяла.                                                                       | It is obvious that the dog barked.            |
-| 791  | Абрамс обещал Брауну лаять.                                                                       | Abrams promised Browne to bark.               |
-| 801  | Кажется, Абрамс лает.                                                                             | Abrams seems to bark.                         |
-| 811  | Абрамс верит, что Браун лает.                                                                     | Abrams believes Browne to be barking.         |
-| 821  | Абрамса раздражало, что Браун лает.                                                               | It bothered Abrams that Browne barked.        |
-| 831  | Абрамсу потребовалось десять минут, чтобы прибыть.                                                | It took Abrams ten minutes to arrive.         |
-| 841  | Абрамс оставил лаять Брауну.                                                                      | Abrams left it to Browne to bark.             |
-| 851  | Абрамс кажется Брауну старым. Абрамс воспринимается Брауном как старый.                           | Abrams strikes Browne as old.                 |
-| 861  | Браун считает Абрамса старым.                                                                     | Browne considers Abrams old.                  |
-| 871  | Абрамсу понравилась идея, что Браун может лаять.                                                  | Abrams liked the idea that Browne could bark. |
-| 881  | Абрамс лаял от десяти до трех.                                                                    | Abrams barked from ten to three.              |
-| 891  | Абрамс был очень стар.                                                                            | Abrams was very old.                          |
-| 901  | Почти каждая собака лаяла.                                                                        | Nearly every dog barked.                      |
-| 911  | Абрамс лаял очень тихо.                                                                           | Abrams barked very softly.                    |
-| 921  | Преследование кошек Брауном смущало Абрамса. Преследование кошек Брауном раздражало Абрамса.      | Browne’s chasing of cats bothered Abrams.     |
-| 931  | Брауна раздражало, что Абрамс преследовал кошек. Брауна смущало, что Абрамс преследовал кошек.    | It bothered Browne that Abrams chased cats.   |
-| 941  | Наступило третье июня.                                                                            | June third arrived.                           |
-| 951  | Абрамс прибыл в три (часа) дватцать (минут). Абрамс прибыл в двдцать минут четвёртого.            | Abrams arrived at three twenty.               |
-| 961  | Браун прибыл во втормик утром.                                                                    | Browne arrived on Tuesday morning.            |
-| 971  | Кошки нашли способ лаять.                                                                         | The cats found a way to bark.                 |
-| 981  | Более счастливая собака преследовала Брауна. Собака, которая была счастливее, преследовала Петра. | The happier dog chased Browne.                |
-| 991  | В саду были кошки.                                                                                | There were cats in the garden.                |
-| 1001 | Та собака преследовала Брауна.                                                                    | That dog chased Browne.                       |
-| 1011 | Кто-то преследовал Брауна.                                                                        | Somebody chased Abrams.                       |
-| 1021 | Насколько счастлив был Абрамс?                                                                    | How happy was Abrams?                         |
-| 1031 | Число пять раздражает / смущает Брауна.                                                           | The number five bothers Browne.               |
-| 1041 | Абрамс (с)мог. Абрамс (с)мог бы.                                                                  | Abrams could.                                 |
-| 1051 | Браун пытался.                                                                                    | Browne tried to.                              |
-| 1061 | Не лай!                                                                                           | Don’t bark!                                   |
-| 1071 | Собака прибыла, лая.                                                                              | The dog arrived barking.                      |</p>
-<update date="" omitted="" for="" speed="">
-</update>
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th> </th>
+      <th> </th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>11</td>
+      <td>Шёл дождь.</td>
+      <td>It rained.</td>
+    </tr>
+    <tr>
+      <td>21</td>
+      <td>Aбрамс лаял.</td>
+      <td>Abrams barked.</td>
+    </tr>
+    <tr>
+      <td>31</td>
+      <td>Окно открылось.</td>
+      <td>The window opened.</td>
+    </tr>
+    <tr>
+      <td>41</td>
+      <td>Aбрамс преследовал Брауна.</td>
+      <td>Abrams chased Browne.</td>
+    </tr>
+    <tr>
+      <td>51</td>
+      <td>Aбрамс вручил Брауну сигарету. Aбрамс передал Брауну сигарету</td>
+      <td>Abrams handed Browne the cigarette.</td>
+    </tr>
+    <tr>
+      <td>61</td>
+      <td>Aбрамс вручил сигарету Брауну. Aбрамс передал сигарету Брауну.</td>
+      <td>Abrams handed the cigarette to Browne.</td>
+    </tr>
+    <tr>
+      <td>71</td>
+      <td>Aбрамс поспорил с Брауном на сигарету, что шёл дождь.</td>
+      <td>Abrams bet Browne a cigarette that it rained.</td>
+    </tr>
+    <tr>
+      <td>81</td>
+      <td>Aбрамс знал, что идёт дождь. Aбрамс знал, что шёл дождь.</td>
+      <td>Abrams knew that it rained.</td>
+    </tr>
+    <tr>
+      <td>91</td>
+      <td>Aбрамс намеревался лаять. Aбрамс собирался залаять.</td>
+      <td>Abrams intended to bark.</td>
+    </tr>
+    <tr>
+      <td>101</td>
+      <td>Aбрамс хотел, чтобы Браун лаял.</td>
+      <td>Abrams intended Browne to bark.</td>
+    </tr>
+    <tr>
+      <td>111</td>
+      <td>Каждая кошка лаяла.</td>
+      <td>Every cat barked.</td>
+    </tr>
+    <tr>
+      <td>121</td>
+      <td>Каждая кошка преследовала какую-нибудь собаку.</td>
+      <td>Every cat chased some dog.</td>
+    </tr>
+    <tr>
+      <td>131</td>
+      <td>Моя кошка лаяла.</td>
+      <td>My cat barked.</td>
+    </tr>
+    <tr>
+      <td>141</td>
+      <td>Оно лаяло.</td>
+      <td>It barked.</td>
+    </tr>
+    <tr>
+      <td>151</td>
+      <td>Кошка преследовала это.</td>
+      <td>The cat chased it.</td>
+    </tr>
+    <tr>
+      <td>161</td>
+      <td>Кошка преследовала саму себя.</td>
+      <td>The cat chased itself.</td>
+    </tr>
+    <tr>
+      <td>171</td>
+      <td>Кошка преследовала одного.</td>
+      <td>The cat chased one.</td>
+    </tr>
+    <tr>
+      <td>181</td>
+      <td>Моя лаяла.</td>
+      <td>Mine barked.</td>
+    </tr>
+    <tr>
+      <td>191</td>
+      <td>То открылось.</td>
+      <td>That opened.</td>
+    </tr>
+    <tr>
+      <td>201</td>
+      <td>Кошки лают.</td>
+      <td>Cats bark.</td>
+    </tr>
+    <tr>
+      <td>211</td>
+      <td>Табак прибыл.</td>
+      <td>Tobacco arrived.</td>
+    </tr>
+    <tr>
+      <td>221</td>
+      <td>Некоторые лают.</td>
+      <td>Some bark.</td>
+    </tr>
+    <tr>
+      <td>231</td>
+      <td>Некоторые из кошек лают.</td>
+      <td>Some of the cats bark.</td>
+    </tr>
+    <tr>
+      <td>241</td>
+      <td>Ни одна кошка не лаяла. Никакая кошка не лаяла.</td>
+      <td>No cat barked.</td>
+    </tr>
+    <tr>
+      <td>251</td>
+      <td>Собака лаяла?</td>
+      <td>Did the dog bark?</td>
+    </tr>
+    <tr>
+      <td>261</td>
+      <td>Какая собака лаяла? Какая собака лаяла?</td>
+      <td>Which dog barked?</td>
+    </tr>
+    <tr>
+      <td>271</td>
+      <td>Чья собака лаяла?</td>
+      <td>Whose dog barked?</td>
+    </tr>
+    <tr>
+      <td>281</td>
+      <td>Преследуй Брауна!</td>
+      <td>Chase Browne!</td>
+    </tr>
+    <tr>
+      <td>291</td>
+      <td>Абрамс интересовался, которая собака лает.</td>
+      <td>Abrams wondered which dog barked.</td>
+    </tr>
+    <tr>
+      <td>301</td>
+      <td>Абрама интересовался, лаял ли Браун.</td>
+      <td>Abrams wondered whether Browne barked.</td>
+    </tr>
+    <tr>
+      <td>311</td>
+      <td>Собака, которую Браун преследовал, лаяла.</td>
+      <td>The dog that Browne chased barked.</td>
+    </tr>
+    <tr>
+      <td>321</td>
+      <td>Собака, которую надо преследовать, лает.</td>
+      <td>The dog to chase is barking.</td>
+    </tr>
+    <tr>
+      <td>331</td>
+      <td>Собака преследовалась Брауном. Собака была преследована Брауном.</td>
+      <td>The dog was chased by Browne.</td>
+    </tr>
+    <tr>
+      <td>341</td>
+      <td>Собака, преследуемая Брауном, лаяла.</td>
+      <td>The dog chased by Browne barked.</td>
+    </tr>
+    <tr>
+      <td>351</td>
+      <td>Собака лает.</td>
+      <td>The dog is barking.</td>
+    </tr>
+    <tr>
+      <td>361</td>
+      <td>Собака лаяла.</td>
+      <td>The dog has barked.</td>
+    </tr>
+    <tr>
+      <td>371</td>
+      <td>Собака лаяла.</td>
+      <td>The dog has been barking.</td>
+    </tr>
+    <tr>
+      <td>381</td>
+      <td>Собака лаяла.</td>
+      <td>The dog had been barking.</td>
+    </tr>
+    <tr>
+      <td>391</td>
+      <td>Собака будет лаять.</td>
+      <td>The dog will bark.</td>
+    </tr>
+    <tr>
+      <td>401</td>
+      <td>Собака собирается (за)лаять.</td>
+      <td>The dog is going to bark.</td>
+    </tr>
+    <tr>
+      <td>411</td>
+      <td>Собака могла лаять.</td>
+      <td>The dog could bark.</td>
+    </tr>
+    <tr>
+      <td>421</td>
+      <td>Собака не могла лаять.</td>
+      <td>The dog couldn’t bark.</td>
+    </tr>
+    <tr>
+      <td>431</td>
+      <td>Старая собака лаяла.</td>
+      <td>The old dog barked.</td>
+    </tr>
+    <tr>
+      <td>441</td>
+      <td>Собака тихо лаяла.</td>
+      <td>The dog barked softly.</td>
+    </tr>
+    <tr>
+      <td>451</td>
+      <td>Собака, вероятно / возможно, лаяла. Собака наверно лаяла.</td>
+      <td>The dog probably barked.</td>
+    </tr>
+    <tr>
+      <td>461</td>
+      <td>Собака лаяла в саду.</td>
+      <td>The dog barked in the garden.</td>
+    </tr>
+    <tr>
+      <td>471</td>
+      <td>Собака лает сейчас.</td>
+      <td>The dog barks now.</td>
+    </tr>
+    <tr>
+      <td>481</td>
+      <td>Садовая собака лаяла. Собака из сада лаяла.</td>
+      <td>The garden dog barked.</td>
+    </tr>
+    <tr>
+      <td>491</td>
+      <td>Собака из табачного сада лаяла.</td>
+      <td>The tobacco garden dog barked.</td>
+    </tr>
+    <tr>
+      <td>501</td>
+      <td>Кошка старая. Кошка стара.</td>
+      <td>The cat is old.</td>
+    </tr>
+    <tr>
+      <td>511</td>
+      <td>Кошка находится в саду. Кошка в саду.</td>
+      <td>The cat is in the garden.</td>
+    </tr>
+    <tr>
+      <td>521</td>
+      <td>Лающая собака преследовала Брауна.</td>
+      <td>The barking dog chased Browne.</td>
+    </tr>
+    <tr>
+      <td>531</td>
+      <td>Преследуемые собаки лают.</td>
+      <td>Chased dogs bark.</td>
+    </tr>
+    <tr>
+      <td>541</td>
+      <td>Преследование кошек – старо. Преследовать кошку – старо.</td>
+      <td>Chasing the cat is old.</td>
+    </tr>
+    <tr>
+      <td>551</td>
+      <td>(То,) что кошка преследует Брауна, старо.</td>
+      <td>That the cat chases Browne is old.</td>
+    </tr>
+    <tr>
+      <td>561</td>
+      <td>Собаки преследуют всё, что лает.</td>
+      <td>Dogs chase whatever barks.</td>
+    </tr>
+    <tr>
+      <td>571</td>
+      <td>Собака лаяла каждый день.</td>
+      <td>The dog barked every day.</td>
+    </tr>
+    <tr>
+      <td>581</td>
+      <td>Когда лаяла собака?</td>
+      <td>When did the dog bark?</td>
+    </tr>
+    <tr>
+      <td>591</td>
+      <td>Три собаки лают. Три из собак лают.</td>
+      <td>Three of the dogs bark.</td>
+    </tr>
+    <tr>
+      <td>601</td>
+      <td>Три лают.</td>
+      <td>Three bark.</td>
+    </tr>
+    <tr>
+      <td>611</td>
+      <td>Собака Брауна лает.</td>
+      <td>Browne’s dog barks.</td>
+    </tr>
+    <tr>
+      <td>621</td>
+      <td>Браунова лает. Брауна лает.</td>
+      <td>Browne’s barks.</td>
+    </tr>
+    <tr>
+      <td>631</td>
+      <td>Двадцать три собаки лают.</td>
+      <td>Twenty three dogs bark.</td>
+    </tr>
+    <tr>
+      <td>641</td>
+      <td>Двести двадцать собак лают.</td>
+      <td>Two hundred twenty dogs bark.</td>
+    </tr>
+    <tr>
+      <td>651</td>
+      <td>Абрамс прибыл на машине.</td>
+      <td>Abrams arrived by car.</td>
+    </tr>
+    <tr>
+      <td>661</td>
+      <td>Абрамс продолжал лаять.</td>
+      <td>Abrams kept barking.</td>
+    </tr>
+    <tr>
+      <td>671</td>
+      <td>Браун впихнул кошку.</td>
+      <td>Browne squeezed the cat in.</td>
+    </tr>
+    <tr>
+      <td>681</td>
+      <td>Браун пропихнул кошку.</td>
+      <td>Browne squeezed in the cat.</td>
+    </tr>
+    <tr>
+      <td>691</td>
+      <td>Фотография Абрамса прибыла.</td>
+      <td>The picture of Abrams arrived.</td>
+    </tr>
+    <tr>
+      <td>701</td>
+      <td>Абрамс вытер стол начисто. Абрамс чисто вытер стол.</td>
+      <td>Abrams wiped the table clean.</td>
+    </tr>
+    <tr>
+      <td>711</td>
+      <td>Абрамс положил Брауна в сад.</td>
+      <td>Abrams put Browne in the garden.</td>
+    </tr>
+    <tr>
+      <td>721</td>
+      <td>Собака будет лаять, если прибудет Браун.</td>
+      <td>The dog will bark if Browne arrives.</td>
+    </tr>
+    <tr>
+      <td>731</td>
+      <td>Абрамс и Браун прибыли. Абрамс с Брауном прибыли.</td>
+      <td>Abrams and Browne arrived.</td>
+    </tr>
+    <tr>
+      <td>741</td>
+      <td>Абрамс, Браун и собака прибыли.</td>
+      <td>Abrams, Browne, and the dog arrived.</td>
+    </tr>
+    <tr>
+      <td>751</td>
+      <td>Собака прибыла и залаяла.</td>
+      <td>The dog arrived and barked.</td>
+    </tr>
+    <tr>
+      <td>761</td>
+      <td>Собака прибыла и Браун залаял.</td>
+      <td>The dog arrived and Browne barked.</td>
+    </tr>
+    <tr>
+      <td>771</td>
+      <td>Собака лаяла, не так ли?</td>
+      <td>The dog barked, didn’t it?</td>
+    </tr>
+    <tr>
+      <td>781</td>
+      <td>Очевидно, что собака лаяла.</td>
+      <td>It is obvious that the dog barked.</td>
+    </tr>
+    <tr>
+      <td>791</td>
+      <td>Абрамс обещал Брауну лаять.</td>
+      <td>Abrams promised Browne to bark.</td>
+    </tr>
+    <tr>
+      <td>801</td>
+      <td>Кажется, Абрамс лает.</td>
+      <td>Abrams seems to bark.</td>
+    </tr>
+    <tr>
+      <td>811</td>
+      <td>Абрамс верит, что Браун лает.</td>
+      <td>Abrams believes Browne to be barking.</td>
+    </tr>
+    <tr>
+      <td>821</td>
+      <td>Абрамса раздражало, что Браун лает.</td>
+      <td>It bothered Abrams that Browne barked.</td>
+    </tr>
+    <tr>
+      <td>831</td>
+      <td>Абрамсу потребовалось десять минут, чтобы прибыть.</td>
+      <td>It took Abrams ten minutes to arrive.</td>
+    </tr>
+    <tr>
+      <td>841</td>
+      <td>Абрамс оставил лаять Брауну.</td>
+      <td>Abrams left it to Browne to bark.</td>
+    </tr>
+    <tr>
+      <td>851</td>
+      <td>Абрамс кажется Брауну старым. Абрамс воспринимается Брауном как старый.</td>
+      <td>Abrams strikes Browne as old.</td>
+    </tr>
+    <tr>
+      <td>861</td>
+      <td>Браун считает Абрамса старым.</td>
+      <td>Browne considers Abrams old.</td>
+    </tr>
+    <tr>
+      <td>871</td>
+      <td>Абрамсу понравилась идея, что Браун может лаять.</td>
+      <td>Abrams liked the idea that Browne could bark.</td>
+    </tr>
+    <tr>
+      <td>881</td>
+      <td>Абрамс лаял от десяти до трех.</td>
+      <td>Abrams barked from ten to three.</td>
+    </tr>
+    <tr>
+      <td>891</td>
+      <td>Абрамс был очень стар.</td>
+      <td>Abrams was very old.</td>
+    </tr>
+    <tr>
+      <td>901</td>
+      <td>Почти каждая собака лаяла.</td>
+      <td>Nearly every dog barked.</td>
+    </tr>
+    <tr>
+      <td>911</td>
+      <td>Абрамс лаял очень тихо.</td>
+      <td>Abrams barked very softly.</td>
+    </tr>
+    <tr>
+      <td>921</td>
+      <td>Преследование кошек Брауном смущало Абрамса. Преследование кошек Брауном раздражало Абрамса.</td>
+      <td>Browne’s chasing of cats bothered Abrams.</td>
+    </tr>
+    <tr>
+      <td>931</td>
+      <td>Брауна раздражало, что Абрамс преследовал кошек. Брауна смущало, что Абрамс преследовал кошек.</td>
+      <td>It bothered Browne that Abrams chased cats.</td>
+    </tr>
+    <tr>
+      <td>941</td>
+      <td>Наступило третье июня.</td>
+      <td>June third arrived.</td>
+    </tr>
+    <tr>
+      <td>951</td>
+      <td>Абрамс прибыл в три (часа) дватцать (минут). Абрамс прибыл в двдцать минут четвёртого.</td>
+      <td>Abrams arrived at three twenty.</td>
+    </tr>
+    <tr>
+      <td>961</td>
+      <td>Браун прибыл во втормик утром.</td>
+      <td>Browne arrived on Tuesday morning.</td>
+    </tr>
+    <tr>
+      <td>971</td>
+      <td>Кошки нашли способ лаять.</td>
+      <td>The cats found a way to bark.</td>
+    </tr>
+    <tr>
+      <td>981</td>
+      <td>Более счастливая собака преследовала Брауна. Собака, которая была счастливее, преследовала Петра.</td>
+      <td>The happier dog chased Browne.</td>
+    </tr>
+    <tr>
+      <td>991</td>
+      <td>В саду были кошки.</td>
+      <td>There were cats in the garden.</td>
+    </tr>
+    <tr>
+      <td>1001</td>
+      <td>Та собака преследовала Брауна.</td>
+      <td>That dog chased Browne.</td>
+    </tr>
+    <tr>
+      <td>1011</td>
+      <td>Кто-то преследовал Брауна.</td>
+      <td>Somebody chased Abrams.</td>
+    </tr>
+    <tr>
+      <td>1021</td>
+      <td>Насколько счастлив был Абрамс?</td>
+      <td>How happy was Abrams?</td>
+    </tr>
+    <tr>
+      <td>1031</td>
+      <td>Число пять раздражает / смущает Брауна.</td>
+      <td>The number five bothers Browne.</td>
+    </tr>
+    <tr>
+      <td>1041</td>
+      <td>Абрамс (с)мог. Абрамс (с)мог бы.</td>
+      <td>Abrams could.</td>
+    </tr>
+    <tr>
+      <td>1051</td>
+      <td>Браун пытался.</td>
+      <td>Browne tried to.</td>
+    </tr>
+    <tr>
+      <td>1061</td>
+      <td>Не лай!</td>
+      <td>Don’t bark!</td>
+    </tr>
+    <tr>
+      <td>1071</td>
+      <td>Собака прибыла, лая.</td>
+      <td>The dog arrived barking.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Last update: 2011-10-09 by anonymous [<a href="https://github.com/delph-in/docs/wiki/MatrixMrsTestSuiteRu/_edit">edit</a>]</p>
 
         
       </section>

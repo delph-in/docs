@@ -153,4 +153,5 @@ FCB: If you could add a little documentation as it did this, it would be
 great!
 
 OE: I use the pet debugging mode
-<update date omitted for speed>{% endraw %}
+
+Last update: 2020-07-22 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/VirtualLkbFos/_edit)]{% endraw %}

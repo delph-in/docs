@@ -88,4 +88,5 @@ sluggish speed of a CD drive compared to a hard disk.
 - Can't install your own software.
 
 [Back to the Grammar Engineering FAQ](https://delph-in.github.io/docs/matrix/GrammarEngineeringFAQ).
-<update date omitted for speed>{% endraw %}
+
+Last update: 2023-06-30 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/GeFaqLkbInstallation/_edit)]{% endraw %}

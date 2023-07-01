@@ -106,16 +106,16 @@ Two funded projects currently use and extend DELPH-IN technologies,
 [LAP](http://www.mn.uio.no/ifi/english/research/projects/clarino/) (the
 Language Analysis Portal, part of the Norwegian CLARIN(O) initiative).
 
-Work in [WeSearch](https://delph-in.github.io/docs/garage/WeSearch) by [AngelinaIvanova](https://delph-in.github.io/docs/garage/AngelinaIvanova) (on
+Work in [WeSearch](https://delph-in.github.io/docs/garage/WeSearch) by AngelinaIvanova (on
 relating bi-lexical dependency representations and DELPH-IN HPSG
-analyses), by [RebeccaDridan](https://delph-in.github.io/docs/garage/RebeccaDridan) (on, among things,
+analyses), by RebeccaDridan (on, among things,
 ubertagging for faster and more accurate parsing), and by
-[StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen) and off-site collaborators (on working
+StephanOepen and off-site collaborators (on working
 towards documentation of ERG Semantic Analyses) are presented
 individually at the 2013 Summit.
 
 Another [WeSearch](https://delph-in.github.io/docs/garage/WeSearch) activity has been collaborative work with
-[DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger) on enabling the ERG to analyse inputs
+DanFlickinger on enabling the ERG to analyse inputs
 annotated (optionally) with (two types of) candidate phrase boundaries,
 or candidate target bi-lexical dependencies. Following are some example
 inputs (using GML mark-up; see below) that exemplify this functionality:
@@ -171,4 +171,5 @@ moderately better parse selection accuracy (due to the reduced search
 space). End-to-end parsing results for these experiments are presented
 in the slides from his [MSc
 presentation](http://www.delph-in.net/2013/ltg/fares.slides.pdf).
-<update date omitted for speed>{% endraw %}
+
+Last update: 2017-08-09 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/LtgOslo_Delphin/_edit)]{% endraw %}

@@ -27,4 +27,5 @@ John: The discussion so far has used the term *overgeneration*; however, particu
 Dan: Although coverage of resource grammars such as the ERG is now quite impressive, performance is still an issue. The DELPH-IN parsers have improved a lot over the years, but most recent progress has been incremental. There have been no large jumps in speed since generalisation packing was added to ACE. It's time now for grammarians to take up the baton and refine their grammars so they can be processed more efficiently.
 
 Woodley: It might be possible to make the parse chart more compact by packing edges with different spans. E.g. with the sentence "The cat chased the mouse under the table", "mouse" and "mouse under the table" could potentially be packed since they behave the same with respect to combination with "the" and "chased". Unfortunately, experiments with an implementation have not led to sigificant improvements in performance.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2023-06-29 by John Carroll [[edit](https://github.com/delph-in/docs/wiki/GaliciaGrammarEfficiency/_edit)]{% endraw %}

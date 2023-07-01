@@ -1,24 +1,24 @@
 {% raw %}# History
 
-The LKB was originally developed by [AnnCopestake](https://delph-in.github.io/docs/garage/AnnCopestake) (as
+The LKB was originally developed by AnnCopestake (as
 part of the [ACQUILEX
 project](http://www.cl.cam.ac.uk/Research/NL/acquilex)) at the
 [University of Cambridge](http://www.cl.cam.ac.uk). She continues to
 work on the system, but in the mid- and late 1990s, the software was
 substantially extended in terms of functionality and processing
-efficiency by [JohnCarroll](https://delph-in.github.io/docs/garage/JohnCarroll), [RobMalouf](/RobMalouf) and
-[StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen). Most of this work was performed under the
+efficiency by JohnCarroll, [RobMalouf](/RobMalouf) and
+StephanOepen. Most of this work was performed under the
 auspices of the [LinGO Laboratory](http://lingo.stanford.edu/) at
-Stanford University. [DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger), the main developer
+Stanford University. DanFlickinger, the main developer
 of the LinGO [English Resource Grammar](http://www.delph-in.net/erg),
 has had a great deal of influence on LKB system design. As part of the
 EU [Deep-Thought](http://www.project-deepthought.net/) project,
-[BenWaldron](https://delph-in.github.io/docs/garage/BenWaldron) became involved with LKB development
+BenWaldron became involved with LKB development
 (specifically, he took over development of the lexical database; see the
 [LkbLexDb](/LkbLexDb) page) and has since been an active contributor.
 The current distribution also includes code by others, most notably
-[BerndKiefer](https://delph-in.github.io/docs/garage/BerndKiefer), [FrederikFouvry](https://delph-in.github.io/docs/garage/FrederikFouvry) and
-[EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender).
+BerndKiefer, FrederikFouvry and
+EmilyBender.
 
 The LKB has a reasonably active user base with an estimated several
 hundred installations world-wide. Part of the LKB source code is used as
@@ -68,4 +68,5 @@ the images and state the operating system. You may be asked to provide
 sample grammars that illustrate the problem. Do not send bug reports to
 any individual developer: at best they will be forwarded to the lingo
 address, and at worst ignored.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/LkbUserGroup/_edit)]{% endraw %}

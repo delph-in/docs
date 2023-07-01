@@ -281,4 +281,5 @@ English lets us do, except maybe in echo question land.
 Dan: This slope isn't slippery: The wh words 'launch' the param-icons,
 and the grammar can have constraints on which constructions allow them
 to attach (meaning which event variables are available to them).
-<update date omitted for speed>{% endraw %}
+
+Last update: 2020-07-22 by GuyEmerson [[edit](https://github.com/delph-in/docs/wiki/OsloQuestionRepresentation/_edit)]{% endraw %}

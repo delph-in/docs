@@ -247,4 +247,5 @@ lexent type name
 14. Attach subord clause high \[EMB: subordinate clauses are understood
 as clauses with all arguments overt; do not include in+order+to
 purposives, etc.\]
-<update date omitted for speed>{% endraw %}
+
+Last update: 2020-07-23 by AlexandreRademaker [[edit](https://github.com/delph-in/docs/wiki/ErgTreebankingGuidelines/_edit)]{% endraw %}

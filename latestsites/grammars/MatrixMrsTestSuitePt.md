@@ -111,4 +111,5 @@
 | 1051 | O Bobi tentou.                                          | Browne tried to.                              |
 | 1061 | Não ladres!                                             | Don't bark!                                   |
 | 1071 | O cão chegou a ladrar.                                  | The dog arrived barking.                      |
-<update date omitted for speed>{% endraw %}
+
+Last update: 2013-07-31 by FranciscoCosta [[edit](https://github.com/delph-in/docs/wiki/MatrixMrsTestSuitePt/_edit)]{% endraw %}

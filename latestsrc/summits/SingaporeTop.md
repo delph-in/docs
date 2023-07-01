@@ -123,4 +123,5 @@ photos](https://davidinman.smugmug.com/Singapore-DELPHIN/) Password:
 nanyang
 - [Chris Curtis's
 photos](https://www.flickr.com/photos/135722802@N07/albums)
-<update date omitted for speed>{% endraw %}
+
+Last update: 2015-09-25 by ChrisCurtis [[edit](https://github.com/delph-in/docs/wiki/SingaporeTop/_edit)]{% endraw %}

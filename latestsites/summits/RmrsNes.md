@@ -2,16 +2,16 @@
 
 ## Participants
 
-- [EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender) (scribe)
-- [DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger)
-- [VaryaGracheva](https://delph-in.github.io/docs/garage/VaryaGracheva)
-- [MichaelGoodman](https://delph-in.github.io/docs/garage/MichaelGoodman)
+- EmilyBender (scribe)
+- DanFlickinger
+- VaryaGracheva
+- MichaelGoodman
 - [PrescottKlassen](/PrescottKlassen)
 - [WoodleyPackard](/WoodleyPackard)
-- [ZinaPozen](https://delph-in.github.io/docs/garage/ZinaPozen)
+- ZinaPozen
 - [MeganSchneider](/MeganSchneider)
-- [GlennSlayden](https://delph-in.github.io/docs/garage/GlennSlayden)
-- [SanghounSong](https://delph-in.github.io/docs/garage/SanghounSong)
+- GlennSlayden
+- SanghounSong
 
 ## Notes
 
@@ -327,4 +327,5 @@ position of compounds: *a University of Washington professor* If the
 post-modification/complementation when creating the named entity phrase,
 it could make these systematically eligible for that position, on the
 named entity reading.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2013-02-28 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/RmrsNes/_edit)]{% endraw %}

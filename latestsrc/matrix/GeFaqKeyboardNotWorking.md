@@ -51,4 +51,5 @@ changed on February 25, 2009, so you should only have to do this if your
 account was created before that date.
 
 [Back to the Grammar Engineering FAQ](https://delph-in.github.io/docs/matrix/GrammarEngineeringFAQ).
-<update date omitted for speed>{% endraw %}
+
+Last update: 2023-06-30 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/GeFaqKeyboardNotWorking/_edit)]{% endraw %}

@@ -44,8 +44,8 @@ attachment](https://delph-in.github.io/docs/garage/WeSearch_UnderspecifedAttachm
 arity](https://delph-in.github.io/docs/garage/WeSearch_UnderspecifiedPreds)
   - [specification of co-reference: \*''I bit her
 tongue''](https://delph-in.github.io/docs/garage/WeSearch_VariablePropertySharing)
-  - And other topics: [PEST examples
-discussion](https://delph-in.github.io/docs/garage/WeSearch_PestExamples),
+  - And other topics: PEST examples
+discussion,
 [etc.](/WeSearch/Hank%C3%B8TheRest)
 - From the [Sofia Summit](https://delph-in.github.io/docs/summits/SofiaTop), July 2012:
   
@@ -193,4 +193,5 @@ How to relate morphosyntactic marking of plurality to semantic plurality?
   - [MRS Design for Light Verb Constructions in the Grammar Matrix](https://delph-in.github.io/docs/summits/GaliciaMrsLvc)
   - [Action Nominals in the Grammar Matrix](https://delph-in.github.io/docs/summits/GaliciaNominalization)
   - [Thai Serial Verb Constructions: an HPSG Implementation and Analysis](https://delph-in.github.io/docs/summits/GaliciaThaiSvc)
-<update date omitted for speed>{% endraw %}
+
+Last update: 2023-06-27 by emilymbender [[edit](https://github.com/delph-in/docs/wiki/RmrsDiscussions/_edit)]{% endraw %}

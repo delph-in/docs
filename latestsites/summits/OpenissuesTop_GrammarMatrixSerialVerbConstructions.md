@@ -1,4 +1,4 @@
-{% raw %}Mentor: [EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender) (ebender at u dot washington dot edu,
+{% raw %}Mentor: EmilyBender (ebender at u dot washington dot edu,
 <http://faculty.washington.edu/ebender>)
 
 Co-mentors: [DorotheeBeermann](/DorotheeBeermann)
@@ -97,4 +97,5 @@ School](http://sils.shoin.ac.jp/grad) Ph.D thesis, 2004
 Hashimoto and Francis Bond. In Proceedings of the 12th International
 Conference on HPSG, pp.143-156. 2005 8.
 <http://hpsg2005.di.fc.ul.pt/>
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/OpenissuesTop_GrammarMatrixSerialVerbConstructions/_edit)]{% endraw %}

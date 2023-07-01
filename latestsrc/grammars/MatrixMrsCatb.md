@@ -13,7 +13,7 @@ anyway as a matter of courtesy and he was enthusiastic about us using
 it. There will be some clean up work involved in getting the
 translations aligned (there are several versions of the essay).
 
-It was proposed (by [FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond)) and accepted (by
+It was proposed (by FrancisBond) and accepted (by
 everyone) at the Kyoto Summit (2008) that we use this as a multilingual
 shared test suite to enable us to compare parses across different
 grammars. This page describes the steps we are taking to prepare the
@@ -222,4 +222,5 @@ in the comment.
 
 Having many misaligned sentences makes cross language comparison just
 that much harder, ...
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/MatrixMrsCatb/_edit)]{% endraw %}

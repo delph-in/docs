@@ -1,6 +1,6 @@
 {% raw %}## Discussion: Scopal and Non-Scopal Modifiers
 
-Moderator: [GuyEmerson](https://delph-in.github.io/docs/garage/GuyEmerson) Scribe: [EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender)
+Moderator: GuyEmerson Scribe: EmilyBender
 
     Kim didn't speak for a long time.
     Kim deliberately didn't speak.
@@ -660,4 +660,5 @@ Woodley: So do it with verbs:
 whose dog that smiled barked.*
 
 \[ This didn't parse in 1214, but does parse in trunk. \]
-<update date omitted for speed>{% endraw %}
+
+Last update: 2017-08-12 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/OsloScopalNonScopal/_edit)]{% endraw %}

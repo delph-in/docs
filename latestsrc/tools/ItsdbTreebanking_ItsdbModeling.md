@@ -3,7 +3,7 @@
 This page presents user-supplied information, hence may be inaccurate in
 some details, or not necessarily reflect use patterns anticipated by the
 [\[incr tsdb()\]](http://www.delph-in.net/itsdb) developers. This page
-was initiated by [FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond); please feel free to make
+was initiated by FrancisBond; please feel free to make
 additions or corrections as you see fit. However, before revising this
 page, one should be reasonably confident of the information given being
 correct.
@@ -35,7 +35,7 @@ tsdb()\]](http://www.delph-in.net/itsdb) training and evaluation code
 assumes a small number of patches to TADM that have yet to be
 incorporated into the [SourceForge
 repository](http://tadm.sourceforge.net/); feel free to contact
-[StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen) for details. A pre-compiled binary is
+StephanOepen for details. A pre-compiled binary is
 available as part of the [LOGON tree](https://delph-in.github.io/docs/tools/LogonTop), and quite generally all
 [\[incr tsdb()\]](http://www.delph-in.net/itsdb) machine learning and
 experimentation (MLE) functionality is best supported in the LOGON
@@ -175,4 +175,5 @@ To train a model:
 To evaluate a model:
 
     evaluate para_df-smooth.par test_df.eve.gz
-<update date omitted for speed>{% endraw %}
+
+Last update: 2012-09-27 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/ItsdbTreebanking_ItsdbModeling/_edit)]{% endraw %}

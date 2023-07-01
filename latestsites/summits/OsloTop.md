@@ -3,7 +3,7 @@
 
 # Background
 
-The 2017 DELPH-IN Summit will be hosted by [StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen)
+The 2017 DELPH-IN Summit will be hosted by StephanOepen
 at the [University of
 Oslo](http://www.mn.uio.no/ifi/english/about/getting-around/) from
 Monday, August 7, to Friday, August 11, 2017. Following the ‘classic’
@@ -11,8 +11,8 @@ format for these meetings, the first three days (Monday through
 Wednesday) will be organized as one plenary session, with updates from
 DELPH-IN member sites, discussions, demonstrations, and more. The
 [programme](https://delph-in.github.io/docs/summits/OsloSchedule) for these days will be constructed
-collectively beforehand, with [EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender) and
-[DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger) acting as the 2017 Programme Chairs. The
+collectively beforehand, with EmilyBender and
+DanFlickinger acting as the 2017 Programme Chairs. The
 final two days (Thursday and Friday) will be (even) more informal in
 nature and provide opportunities for more specialized ‘sub-group’
 discussions, typically with two parallel sessions and three to five
@@ -61,4 +61,5 @@ on the [OsloSchedule](https://delph-in.github.io/docs/summits/OsloSchedule) page
 
 [Emily's photos](https://erbonzo.smugmug.com/Travel/DELPH-IN-2017/)
 Password: Akershus
-<update date omitted for speed>{% endraw %}
+
+Last update: 2017-08-12 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/OsloTop/_edit)]{% endraw %}

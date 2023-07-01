@@ -88,7 +88,7 @@ below).
 
 The LUI design foresees the option of having alternate implementation of
 the LUI functionality and protocol. For exampke,
-[PavelMihaylov](https://delph-in.github.io/docs/garage/PavelMihaylov) has adapted the original LUI source code
+PavelMihaylov has adapted the original LUI source code
 to use the Pango
 font rendering engine, for better international character support. Each
 alternate implementation should define its own application name, say
@@ -148,7 +148,7 @@ following might work:
 
 The first public LUI release is in August 2005. For a few months prior
 to the release date, the new tools have only been tested by one active
-LKB grammarian (our thanks go to [DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger)).
+LKB grammarian (our thanks go to DanFlickinger).
 Unexpected behavior may comprise a bug. LUI maintains a log file
 describing your session in the file `/tmp/yzlui.debug.username` (where
 *username* corresponds to your own user id). Please report bugs to the
@@ -180,4 +180,5 @@ Change "no" to "yes", save and exit the editor, then restart
     sudo service nscd restart
 
 LUI should then run fine. Thanks to Stephan Oepen for finding the fix at http://bugs.launchpad.net/ubuntu/+source/eglibc/+bug/574726
-<update date omitted for speed>{% endraw %}
+
+Last update: 2022-04-08 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/LkbLui/_edit)]{% endraw %}

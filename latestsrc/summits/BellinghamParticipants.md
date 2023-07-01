@@ -4,43 +4,43 @@ Summit](https://delph-in.github.io/docs/summits/BellinghamTop), but is now defun
 
 - [EliasAamodt](/EliasAamodt)
 - [GabrielAguilaMultner](/GabrielAguilaMultner)
-- [TaliAradGreshler](https://delph-in.github.io/docs/garage/TaliAradGreshler)
-- [TaniaAvgustinova](https://delph-in.github.io/docs/garage/TaniaAvgustinova)
-- [TimBaldwin](https://delph-in.github.io/docs/garage/TimBaldwin) (Hopefully a cameo appearance on Mon)
+- TaliAradGreshler
+- TaniaAvgustinova
+- TimBaldwin (Hopefully a cameo appearance on Mon)
 - [DorotheeBeermann](/DorotheeBeermann)
 - [NuriaBel](/NuriaBel)
-- [EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender) (Monday to Friday)
-- [FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond) (Monday to Friday if all goes well)
-- [AntonioBranco](https://delph-in.github.io/docs/garage/AntonioBranco)
+- EmilyBender (Monday to Friday)
+- FrancisBond (Monday to Friday if all goes well)
+- AntonioBranco
 - [ToreBruland](/ToreBruland)
-- [JanBuys](https://delph-in.github.io/docs/garage/JanBuys)
+- JanBuys
 - [UlrichCallmeier](/UlrichCallmeier)
-- [JohnCarroll](https://delph-in.github.io/docs/garage/JohnCarroll)
+- JohnCarroll
 - [YufeiChen](/YufeiChen)
 - [CleoCondoravdi](/CleoCondoravdi)
-- [AnnCopestake](https://delph-in.github.io/docs/garage/AnnCopestake)
-- [JoshuaCrowgey](https://delph-in.github.io/docs/garage/JoshuaCrowgey)
-- [BertholdCrysmann](https://delph-in.github.io/docs/garage/BertholdCrysmann)
+- AnnCopestake
+- JoshuaCrowgey
+- BertholdCrysmann
 - [BrunoCuconato](/BrunoCuconato)
-- [ChrisCurtis](https://delph-in.github.io/docs/garage/ChrisCurtis) (Monday to Friday, tentatively)
+- ChrisCurtis (Monday to Friday, tentatively)
 - [PaulaCzarnowska](/PaulaCzarnowska)
 - [LaurieDermer](/LaurieDermer)
-- [RebeccaDridan](https://delph-in.github.io/docs/garage/RebeccaDridan)
-- [GuyEmerson](https://delph-in.github.io/docs/garage/GuyEmerson)
+- RebeccaDridan
+- GuyEmerson
 - [ZhenzhenFan](/ZhenzhenFan)
-- [DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger)
-- [AntskeFokkens](https://delph-in.github.io/docs/garage/AntskeFokkens)
+- DanFlickinger
+- AntskeFokkens
 - [SanaeFujita](/SanaeFujita)
 - [ClaireGardent](/ClaireGardent)
 - [AjdaGokcen](/AjdaGokcen)
-- [MichaelGoodman](https://delph-in.github.io/docs/garage/MichaelGoodman) (Unfortunately not, given the
+- MichaelGoodman (Unfortunately not, given the
 current [travel
 restrictions](https://www.ntu.edu.sg/Pages/Novel-Coronavirus-FAQs.aspx),
 but I'd be happy to participate remotely if possible)
 - [BrandonGraves](/BrandonGraves)
 - [MichaelHaeger](/MichaelHaeger)
 - [DagHaug](/DagHaug)
-- [PetterHaugereid](https://delph-in.github.io/docs/garage/PetterHaugereid)
+- PetterHaugereid
 - [LarsHellan](/LarsHellan)
 - [FabiolaHenri](/FabiolaHenri)
 - [AurelieHerbelot](/AurelieHerbelot)
@@ -48,57 +48,58 @@ but I'd be happy to participate remotely if possible)
 - [KristenHowell](/KristenHowell)
 - [DavidInman](/DavidInman)
 - [MartinKay](/MartinKay)
-- [BerndKiefer](https://delph-in.github.io/docs/garage/BerndKiefer)
-- [JongBokKim](https://delph-in.github.io/docs/garage/JongBokKim)
+- BerndKiefer
+- JongBokKim
 - [PrescottKlassen](/PrescottKlassen)
-- [AlexanderKoller](https://delph-in.github.io/docs/garage/AlexanderKoller)
+- AlexanderKoller
 - [FrantišekKratochvíl](/Franti%C5%A1ekKratochv%C3%ADl)
 - [AlexanderKuhnle](/AlexanderKuhnle)
 - [TakayukiKuribayashi](/TakayukiKuribayashi)
-- [AlexLascarides](https://delph-in.github.io/docs/garage/AlexLascarides) (sorry I can't come, but have a
+- AlexLascarides (sorry I can't come, but have a
 great meeting)
 - [TuấnAnhLê](/Tu%E1%BA%A5nAnhL%C3%AA)
-- [TuanAnhLe](https://delph-in.github.io/docs/garage/TuanAnhLe)
-- [NedLetcher](https://delph-in.github.io/docs/garage/NedLetcher)
+- TuanAnhLe
+- NedLetcher
 - [MontserratMarimon](/MontserratMarimon)
 - [AngelinaMcMillanMajor](/AngelinaMcMillanMajor)
-- [NuritMelnik](https://delph-in.github.io/docs/garage/NuritMelnik)
+- NuritMelnik
 - [YusukeMiyao](/YusukeMiyao)
-- [DavidMoeljadi](https://delph-in.github.io/docs/garage/DavidMoeljadi)
+- DavidMoeljadi
 - [MathieuMorey](/MathieuMorey)
-- [LuisMorgadoCosta](https://delph-in.github.io/docs/garage/LuisMorgadoCosta)
-- [DavidMott](https://delph-in.github.io/docs/garage/DavidMott)
+- LuisMorgadoCosta
+- DavidMott
 - [EwaMuszynska](/EwaMuszynska)
 - [ElizabethNielsen](/ElizabethNielsen)
-- [StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen)
-- [PetyaOsenova](https://delph-in.github.io/docs/garage/PetyaOsenova)
+- StephanOepen
+- PetyaOsenova
 - [RomanPearah](/RomanPearah)
 - [WoodleyPackard](/WoodleyPackard) (Monday to Friday and then some)
 - [AdamPrzepiorkowski](/AdamPrzepiorkowski)
-- [ZinaPozen](https://delph-in.github.io/docs/garage/ZinaPozen)
-- [AlexandreRademaker](https://delph-in.github.io/docs/garage/AlexandreRademaker) (Monday to Friday)
-- [UlrichSchaefer](https://delph-in.github.io/docs/garage/UlrichSchaefer)
+- ZinaPozen
+- AlexandreRademaker (Monday to Friday)
+- UlrichSchaefer
 - [MelanieSiegel](/MelanieSiegel)
-- [JoaoSilva](https://delph-in.github.io/docs/garage/JoaoSilva)
+- JoaoSilva
 - [KirilSimov](/KirilSimov)
 - [JoannaSio](/JoannaSio)
-- [GlennSlayden](https://delph-in.github.io/docs/garage/GlennSlayden)
-- [SanghounSong](https://delph-in.github.io/docs/garage/SanghounSong) (Unfortunately not in-person, but I
+- GlennSlayden
+- SanghounSong (Unfortunately not in-person, but I
 would like to participate online.)
-- [WeiweiSun](https://delph-in.github.io/docs/garage/WeiweiSun)
-- [LilingTan](https://delph-in.github.io/docs/garage/LilingTan)
+- WeiweiSun
+- LilingTan
 - TJTrimble
 - [JunichiTsujii](/JunichiTsujii)
-- [HansUszkoreit](https://delph-in.github.io/docs/garage/HansUszkoreit)
+- HansUszkoreit
 - [AntoineVenant](/AntoineVenant)
 - [RuiWang](/RuiWang)
-- [WenjieWang](https://delph-in.github.io/docs/garage/WenjieWang)
+- WenjieWang
 - [TomWasow](/TomWasow)
 - [HuiyuanXie](/HuiyuanXie)
-- [FeiyuXu](https://delph-in.github.io/docs/garage/FeiyuXu)
+- FeiyuXu
 - [PingXue](/PingXue)
-- [JustinChunleiYang](https://delph-in.github.io/docs/garage/JustinChunleiYang)
-- [OlgaZamaraeva](https://delph-in.github.io/docs/garage/OlgaZamaraeva) (Mon-Fri, most likely)
-- [YiZhang](https://delph-in.github.io/docs/garage/YiZhang)
+- JustinChunleiYang
+- OlgaZamaraeva (Mon-Fri, most likely)
+- YiZhang
 - [LiljaØvrelid](/Lilja%C3%98vrelid)
-<update date omitted for speed>{% endraw %}
+
+Last update: 2020-06-22 by GlennSlayden [[edit](https://github.com/delph-in/docs/wiki/BellinghamParticipants/_edit)]{% endraw %}

@@ -4,7 +4,7 @@ them.
 
 # Serialization Formats
 
-- [MrsRfc](https://delph-in.github.io/docs/garage/MrsRfc)
+- MrsRfc
 
 # SEM-I
 
@@ -52,4 +52,5 @@ be articulated to rule this one out?
       [ "_chase_v_1_rel" LBL: h13 ARG0: e2 ARG1: x4 ARG2: x8 ]
       [ "_chase_v_1_rel" LBL: h13 ARG0: e14 ARG1: x8 ARG2: x4 ] >
       HCONS: < h1 qeq h13 h5 qeq h11 h9 qeq h12 > ]
-<update date omitted for speed>{% endraw %}
+
+Last update: 2013-11-17 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/RmrsWellformedness/_edit)]{% endraw %}

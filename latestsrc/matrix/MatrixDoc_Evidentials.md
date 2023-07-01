@@ -179,4 +179,5 @@ author={Sarah E. Murray},\
 year={2017},\
 publisher={Oxford University Press}\
 }
-<update date omitted for speed>{% endraw %}
+
+Last update: 2018-01-11 by MichaelHaeger [[edit](https://github.com/delph-in/docs/wiki/MatrixDoc_Evidentials/_edit)]{% endraw %}

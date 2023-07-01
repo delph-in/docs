@@ -17,4 +17,5 @@ The question of interlingua remains, in relation to parallel corpora for
 the languages we are working on. There is room to play, either by
 looking at LOGON, or following the way things are done in Washington,
 where interlingua is based on pairs of languages.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2007-08-24 by ValiaKordoni [[edit](https://github.com/delph-in/docs/wiki/BerlinMT/_edit)]{% endraw %}

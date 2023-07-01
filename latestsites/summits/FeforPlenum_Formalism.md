@@ -92,4 +92,5 @@ for lexical definitions.
 
 Francis mentioned that there will work with defaults in the japanese
 grammar.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2013-10-14 by GlennSlayden [[edit](https://github.com/delph-in/docs/wiki/FeforPlenum_Formalism/_edit)]{% endraw %}

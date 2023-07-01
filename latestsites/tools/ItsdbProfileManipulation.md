@@ -3,7 +3,7 @@
 This page presents user-supplied information, hence may be inaccurate in
 some details, or not necessarily reflect use patterns anticipated by the
 [\[incr tsdb()\]](http://www.delph-in.net/itsdb) developers. This page
-was initiated by [FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond); please feel free to make
+was initiated by FrancisBond; please feel free to make
 additions or corrections as you see fit. However, before revising this
 page, one should be reasonably confident of the information given being
 correct.
@@ -87,4 +87,5 @@ delphin mkprof path-to-profile --relations current-relations-file --refresh
 ```
 
 This [tutorial](https://delph-in.github.io/docs/tools/FftbTreebankUpdateTutorial) may be relevant for updating very old treebanks.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2023-04-26 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/ItsdbProfileManipulation/_edit)]{% endraw %}

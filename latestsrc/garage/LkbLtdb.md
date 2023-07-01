@@ -42,9 +42,9 @@ The LTDB has been updated by Francis Bond, Luis Morgado da Costa and
 Michael Wayne Goodman, using
 [PyDelphin](https://github.com/delph-in/pydelphin) and visualization
 from [delphin-viz](https://github.com/delph-in/delphin-viz). The
-software was originally written by [ChikaraHashimoto](https://delph-in.github.io/docs/garage/ChikaraHashimoto)
-and [FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond) in perl, and used the html output
-provided by [StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen).
+software was originally written by ChikaraHashimoto
+and FrancisBond in perl, and used the html output
+provided by StephanOepen.
 
 ## Sample In Line Documentation
 
@@ -67,7 +67,7 @@ provided by [StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen).
     """
                             [SYNSEM.LOCAL.CAT.HEAD.CASE kara-case].
 
-Comments should appear inside the [TDL doc-strings](https://delph-in.github.io/docs/garage/TdlRfc). They should
+Comments should appear inside the TDL doc-strings. They should
 be written in
 [reStructuredText](http://docutils.sourceforge.net/rst.html). There are
 two special things recognized.
@@ -133,7 +133,7 @@ appropriate Apache configuration file. That could be
 ### Tool Support
 
 As of 2018-11-4, docstrings are supported by the latest
-[LKB-FOS](https://delph-in.github.io/docs/tools/LkbFos) and [PyDelphin](https://delph-in.github.io/docs/garage/PyDelphin), PET and ACE, with support
+[LKB-FOS](https://delph-in.github.io/docs/tools/LkbFos) and PyDelphin, PET and ACE, with support
 in the LOGON LKB promised soon.
 
 Currently, the LKB does NOT support doc-strings in instances (such as
@@ -170,4 +170,5 @@ Corpora (LINC-2005), 31--40, Cheju, Korea.
   - add screenshots
   - link to some running Lexical Type Databases (like
 [this](https://delph-in.github.io/docs/grammars/JacyLexTypes))
-<update date omitted for speed>{% endraw %}
+
+Last update: 2021-06-03 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/LkbLtdb/_edit)]{% endraw %}

@@ -51,4 +51,5 @@ version string for every commit.
 ## Comments
 
 (add your comments here, and/or edit the proposal above)
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-07-25 by MichaelGoodman [[edit](https://github.com/delph-in/docs/wiki/GrammarVersionRfc/_edit)]{% endraw %}

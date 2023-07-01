@@ -1,6 +1,6 @@
 {% raw %}# Using Apache Ant for Testing DELPH-IN Tools and Resources
 
-([UlrichSchaefer](https://delph-in.github.io/docs/garage/UlrichSchaefer))
+(UlrichSchaefer)
 
 A short description of SProUTomat can be found
 [here](http://www.dfki.de/~uschaefer/sproutomat/). Here is the [LREC-06
@@ -83,4 +83,5 @@ the near future)
 BTW Heart of Gold already uses a (quite) small ant build script for
 compiling, starting, generating stylsheets etc.: file hog/build.xml in
 the source tree
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/TestingWithAnt/_edit)]{% endraw %}

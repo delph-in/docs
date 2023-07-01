@@ -64,4 +64,5 @@ Searching will search across all unversioned sites and the *latest* version of a
 # Template
 Starting with https://mmistakes.github.io/minimal-mistakes/ since it has been used by others for docs. We can change as needed
 
-<update date omitted for speed>{% endraw %}
+
+Last update: 2023-06-30 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/ERDW_StructureForNewDocsSite/_edit)]{% endraw %}

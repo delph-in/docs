@@ -80,7 +80,7 @@ Ann: No
 
 Woodley: Mike offered to take MRSes and featurize them for people
 
-Mike: I have a tutorial in the [PyDelphin](https://delph-in.github.io/docs/garage/PyDelphin) which I’ll cover
+Mike: I have a tutorial in the PyDelphin which I’ll cover
 this. It works now.
 
 T.J. Jared did it successfully.
@@ -147,4 +147,5 @@ be mapped. You’d be able to “just run it.” A live API for this would be
 more compelling than “just a file format.”
 
 Moderator-Tim: conclude.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2014-07-16 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/TomarShallowTools/_edit)]{% endraw %}

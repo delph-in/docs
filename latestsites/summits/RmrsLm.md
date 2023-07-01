@@ -2,16 +2,16 @@
 
 ## Participants
 
-- [FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond)
+- FrancisBond
 - [PrescottKlassen](/PrescottKlassen)
-- [ZinaPozen](https://delph-in.github.io/docs/garage/ZinaPozen)
-- [SanghounSong](https://delph-in.github.io/docs/garage/SanghounSong)
+- ZinaPozen
+- SanghounSong
 - [SpencerRarricks](/SpencerRarricks)
-- [MichaelGoodman](https://delph-in.github.io/docs/garage/MichaelGoodman)
-- [EmilyBender](https://delph-in.github.io/docs/garage/EmilyBender) (scribe)
-- [GlennSlayden](https://delph-in.github.io/docs/garage/GlennSlayden)
+- MichaelGoodman
+- EmilyBender (scribe)
+- GlennSlayden
 - [WoodleyPackard](/WoodleyPackard)
-- [DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger) (by Skype)
+- DanFlickinger (by Skype)
 
 ## Use cases
 
@@ -606,4 +606,5 @@ of the 10th International Conference on Theoretical and
 Methodological Issues in Machine Translation, Skövde, Sweden, 2007.
 - E. Velldal. Empirical Realization Ranking Ph.D. thesis, Department
 of Informatics, University of Oslo Oslo, Norway, 2008
-<update date omitted for speed>{% endraw %}
+
+Last update: 2020-07-17 by GlennSlayden [[edit](https://github.com/delph-in/docs/wiki/RmrsLm/_edit)]{% endraw %}

@@ -63,4 +63,5 @@ This takes a couple of hours, then remove the java in logon.
     $rm -f logon/bin/java
 
 Reset up the FFTB for INDRA (see [IndraTreebanking](https://delph-in.github.io/docs/tools/IndraTreebanking)).
-<update date omitted for speed>{% endraw %}
+
+Last update: 2015-07-06 by DavidMoeljadi [[edit](https://github.com/delph-in/docs/wiki/IndraPreprocessing/_edit)]{% endraw %}

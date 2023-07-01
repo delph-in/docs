@@ -2240,4 +2240,5 @@ Dan: But you'll say that for *Any book will kill you.*
 Alex: So that's like *John surprised Mary.*
 
 Dan: Not part of the linguistic signal.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2014-11-13 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/WeSearch_CcsDayOne/_edit)]{% endraw %}

@@ -51,7 +51,7 @@ Contact Emily and Francis with suggestions for changes.
 |                              12:50-13:50 *Lunch* (on site)                               |                                                                                                                                                                    |
 |                      13:50-15:35 *Plenary Session 7* (Chair: Mike)                       |                                                                                                                                                                    |
 |                                       13:50-14:15                                        |                                       [ERG Semantic Documentation](https://delph-in.github.io/docs/erg/ErgSemantics): Progress report & outlook (Emily, oe, Dan)                                       |
-|                                       14:15-14:35                                        |                        Discussion: [Usability/ease of set-up](https://delph-in.github.io/docs/summits/SaarlandUseability) (Moderator: Ann, Scribe: Mathieu) [PaperCuts](https://delph-in.github.io/docs/garage/PaperCuts)                         |
+|                                       14:15-14:35                                        |                        Discussion: [Usability/ease of set-up](https://delph-in.github.io/docs/summits/SaarlandUseability) (Moderator: Ann, Scribe: Mathieu) PaperCuts                         |
 |                                       14:35-14:55                                        |                     Discussion: [Packaging phenomena-annotated corpora](https://delph-in.github.io/docs/summits/SaarlandPackagingPhenomenalCorpora) (Moderator: Ned, Scribe: Prescott)                     |
 |                                       14:55-15:20                                        |                                                  [CLIMB Update](http://www.delph-in.net/2013/climb.pdf) (Antske)                                                   |
 |                                       15:20-15:35                                        |                                             [Site update Melbourne](http://www.delph-in.net/2013/melbourne.pdf) (Tim)                                              |
@@ -177,7 +177,8 @@ sprints](http://www.booksprints.net/))
   - something on chart mapping?
   - something on language modeling?
   - something on unspoken MRS conventions?
-- [PaperCuts](https://delph-in.github.io/docs/garage/PaperCuts)
+- PaperCuts
 - Work towards releasing MRS Testsuite treebanks as a parallel
 treebank resource
-<update date omitted for speed>{% endraw %}
+
+Last update: 2013-09-04 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/SaarlandSchedule/_edit)]{% endraw %}

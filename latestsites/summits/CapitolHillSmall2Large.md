@@ -229,4 +229,5 @@ DPF: You can be dragged into comparatives, relative clauses…
 FCB: Which is nice, since it’s a good reason to look at it!
 
 Everyone happily leaves the room to have some sushi.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2017-01-10 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/CapitolHillSmall2Large/_edit)]{% endraw %}

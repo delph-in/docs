@@ -13,11 +13,11 @@ Cost\
 There will be a 100 EUR fee to cover workshop expenses.
 
 Participants\
-[FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond), Ann Copestake,
-[DanFlickinger](https://delph-in.github.io/docs/garage/DanFlickinger), [ChikaraHashimoto](https://delph-in.github.io/docs/garage/ChikaraHashimoto),
-[BerndKiefer](https://delph-in.github.io/docs/garage/BerndKiefer), [EricNichols](/EricNichols),
-[StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen), [UlrichSchaefer](https://delph-in.github.io/docs/garage/UlrichSchaefer),
-[TakaakiTanaka](/TakaakiTanaka), [BenWaldron](https://delph-in.github.io/docs/garage/BenWaldron)
+FrancisBond, Ann Copestake,
+DanFlickinger, ChikaraHashimoto,
+BerndKiefer, [EricNichols](/EricNichols),
+StephanOepen, UlrichSchaefer,
+[TakaakiTanaka](/TakaakiTanaka), BenWaldron
 
 Contents
 
@@ -302,4 +302,5 @@ however, maintaining two distinct branches is not a good thing,
 and once flop(1) performance with Boost were resolved, some
 testing of the ERG on \`main' should fairly quickly allow
 merging of the two branches, i hope.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/JerezTop/_edit)]{% endraw %}

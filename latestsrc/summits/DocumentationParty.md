@@ -85,4 +85,5 @@ an option.
 Montse/Luis [FreeLing](/FreeLing) might be good beta testers
 
 OpenFST --- should be reversible SPRouT --- reversible?
-<update date omitted for speed>{% endraw %}
+
+Last update: 2021-06-02 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/DocumentationParty/_edit)]{% endraw %}

@@ -175,4 +175,5 @@ conditions.
 
 1\. adding support for left/right/inner joins. See
 <https://github.com/delph-in/pydelphin/issues/321>.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2020-11-04 by AlexandreRademaker [[edit](https://github.com/delph-in/docs/wiki/TsqlRfc/_edit)]{% endraw %}

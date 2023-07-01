@@ -16,7 +16,7 @@ interface. The *Variable Property Mapping* (VPM) facility is a
 bi-directional tool that relates grammar-internal and -external encoding
 on the basis of a declarative specification of the mapping relations.
 
-This page was predominantly authored by [StephanOepen](https://delph-in.github.io/docs/garage/StephanOepen),
+This page was predominantly authored by StephanOepen,
 who is the original VPM designer and current maintainer. Please do not
 make substantial changes unless you (a) are reasonably sure of the
 technical correctness of your revisions and (b) believe strongly that
@@ -287,4 +287,5 @@ backward-application of variable type mappings?
 - If variable type mappings only apply in the forward direction, why
 bother with &lt;&gt; operators (instead of just &gt;&gt;), and
 what's the point of the semarg &lt;&lt; u line in the example?
-<update date omitted for speed>{% endraw %}
+
+Last update: 2017-02-23 by MichaelGoodman [[edit](https://github.com/delph-in/docs/wiki/RmrsVpm/_edit)]{% endraw %}

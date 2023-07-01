@@ -87,4 +87,5 @@ You can install nltk.tag.stanford answering the query. In addition, you
 may want to register JAVAHOME in your bashrc, too. For example,
 
     export JAVAHOME=/usr/bin/java
-<update date omitted for speed>{% endraw %}
+
+Last update: 2015-01-22 by SanghounSong [[edit](https://github.com/delph-in/docs/wiki/ZhongPreprocessing/_edit)]{% endraw %}

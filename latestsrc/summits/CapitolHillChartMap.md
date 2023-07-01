@@ -2,7 +2,7 @@
 
 ## Lead by: Francis Bond
 
-\[scribed by [David](https://delph-in.github.io/docs/garage/DavidMoeljadi)\]
+\[scribed by David\]
 
 FCB: ...the very complete goal, trying make the reduplication that we
 have semi-working with the chart mapping where we expect to have a bit
@@ -222,4 +222,5 @@ Chinese. In the short term, we have been ok with just using square. We
 will try to, if we produce something with the Chinese thing in Zhong, we
 will put a little note somewhere in Zhong this is how we did this is how
 it worked.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2017-01-18 by DavidMoeljadi [[edit](https://github.com/delph-in/docs/wiki/CapitolHillChartMap/_edit)]{% endraw %}

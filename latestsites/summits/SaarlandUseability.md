@@ -1,5 +1,5 @@
 {% raw %}Rough transcript from DELPH-IN 2013 Summit discussion about usability
-and ease of set-up + [PaperCuts](https://delph-in.github.io/docs/garage/PaperCuts). If your comments are not
+and ease of set-up + PaperCuts. If your comments are not
 accurately represented, please make the necessary changes.
 
 Ann: Huge barrier to use DELPH-IN stuff, talking to students.
@@ -71,4 +71,5 @@ they find annoying; the solution exists but no consensus on how to solve
 it or no one has time to solve it; plea for people to take these more
 seriously or list what annoys them; preferably with easy solutions e.g.
 treebanking to classic
-<update date omitted for speed>{% endraw %}
+
+Last update: 2013-07-31 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/SaarlandUseability/_edit)]{% endraw %}

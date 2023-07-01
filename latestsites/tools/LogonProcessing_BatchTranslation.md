@@ -295,4 +295,5 @@ with less than, say, six gbytes of main memory. In order to use
 parallelization of batch processing (e.g. using the --count switch to
 the batch script), twelve or more gbytes of RAM and at least two cpus
 should be available.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2008-11-30 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/LogonProcessing_BatchTranslation/_edit)]{% endraw %}

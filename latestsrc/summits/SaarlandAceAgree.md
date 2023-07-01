@@ -5,7 +5,7 @@
 For most people: go to the ACE website and download ACE from one of the
 links there (rather than checking it out from subversion
 
-Liling: ACE is not on the [FrontPage](https://delph-in.github.io/docs/garage/FrontPage)
+Liling: ACE is not on the FrontPage
 
 Woodley: someone should add that with a link to [AceTop](https://delph-in.github.io/docs/tools/AceTop)
 
@@ -162,4 +162,5 @@ give you these binaries if you want to be an early adopter
 Agree Concepts - Three object types:
 
 Functor - Monad - Identity
-<update date omitted for speed>{% endraw %}
+
+Last update: 2023-06-30 by Glenn Slayden [[edit](https://github.com/delph-in/docs/wiki/SaarlandAceAgree/_edit)]{% endraw %}

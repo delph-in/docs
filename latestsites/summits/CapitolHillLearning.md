@@ -2,7 +2,7 @@
 intro to the new work Sanghoun is doing.
 
 Discussion at the [2017 Grammar Engineering Meeting](https://delph-in.github.io/docs/summits/CapitolHillTop) led
-by [SanghounSong](https://delph-in.github.io/docs/garage/SanghounSong), scribed by [FrancisBond](https://delph-in.github.io/docs/garage/FrancisBond).
+by SanghounSong, scribed by FrancisBond.
 
 3 topics (SSH)
 
@@ -107,4 +107,5 @@ compare results from csaw with typediff
     --pcfg=something.pcfg 
 
 See [AceCsaw](https://delph-in.github.io/docs/tools/AceCsaw) for more information.
-<update date omitted for speed>{% endraw %}
+
+Last update: 2017-08-11 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/CapitolHillLearning/_edit)]{% endraw %}
