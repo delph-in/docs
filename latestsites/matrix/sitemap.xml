@@ -160,10 +160,19 @@
 <loc>https://delph-in.github.io/docs/matrix/GeFaqViewType/</loc>
 </url>
 <url>
+<loc>https://delph-in.github.io/docs/matrix/GeGlossaryMC/</loc>
+</url>
+<url>
+<loc>https://delph-in.github.io/docs/matrix/GeGlossaryVC/</loc>
+</url>
+<url>
 <loc>https://delph-in.github.io/docs/matrix/GrammarDevelopment/</loc>
 </url>
 <url>
 <loc>https://delph-in.github.io/docs/matrix/GrammarEngineeringFAQ/</loc>
+</url>
+<url>
+<loc>https://delph-in.github.io/docs/matrix/GrammarEngineeringGlossary/</loc>
 </url>
 <url>
 <loc>https://delph-in.github.io/docs/matrix/MatrixCustomizationUnitTesting/</loc>
@@ -305,6 +314,6 @@
 </url>
 <url>
 <loc>https://delph-in.github.io/docs/matrix/nav.html</loc>
-<lastmod>2023-07-01T06:49:48+00:00</lastmod>
+<lastmod>2023-07-01T07:13:24+00:00</lastmod>
 </url>
 </urlset>

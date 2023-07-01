@@ -101,7 +101,7 @@ Please upload your presentations [here](https://github.com/delph-in/docs/tree/ma
 | 12:00-12:30 | *Break* ||
 | 12:30-14:00 | Large language models and DELPH-IN technologies | Alexandre (John) |
 | 14:00-15:30 | *Lunch (at the Rectorate; organized)* ||
-| 15:30-17:00 | [Searching DELPH-IN corpora & the Linguistic Type Database (LTDB)](https://github.com/delph-in/docs/blob/main/summits/2023/ltdb-update-2023.pdf) [notes] | Francis (Emily) |
+| 15:30-17:00 | [Searching DELPH-IN corpora & the Linguistic Type Database (LTDB)](https://github.com/delph-in/docs/blob/main/summits/2023/ltdb-update-2023.pdf) [[notes](https://delph-in.github.io/docs/summits/GaliciaLtdb)] | Francis (Emily) |
 | 17:00-17:30 | *Break* ||
 | 17:30-19:00 | Pre-processing and token mapping of non-English languages for HPSG grammars | Alexandre |
 

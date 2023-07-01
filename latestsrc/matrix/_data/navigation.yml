@@ -228,3 +228,11 @@ toc:
         url: "/GeFaqViewHierarchy/"
       - title: "View Type"
         url: "/GeFaqViewType/"
+  - title: "Grammar Engineering Glossary"
+    children:
+      - title: "Index"
+        url: "/GrammarEngineeringGlossary/"
+      - title: "Main Clause"
+        url: "/GeGlossaryMC/"
+      - title: "Verb Clause"
+        url: "/GeGlossaryVC/"

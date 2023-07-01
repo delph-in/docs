@@ -164,8 +164,8 @@ You can also click on the row that represents the run you just did and you'll se
 
 If it failed, click on the row that represents the run you just did and you'll see an error file. If you open this file, all of the errors encountered will be listed.  Fix those and rerun the workflow.  In rare cases, you might need to click on the run, and then on the box that represents the "build" part of the workflow. That will expand all the details of the run and show you why it failed.  The biggest source of failure is not formatting the JSON file correctly.
 
-## The `<todo>` Section
-Note that any section named `<todo>` that is included in the docs will *not* be included in the output.  However, any pages in it will be counted as "valid" when linked to, even if they don't exist in the site. This is a mechanism for removing them from being added to the "Fixes for Broken Links to Wiki Pages" output file that the build generates.
+## The `<ignore>` Section
+Note that any section named `<ignore>` that is included in the docs will *not* be included in the output.  However, any pages in it will be counted as "not broken" when linked to, even if they don't exist in the site. This is a mechanism for removing them from being added to the "Fixes for Broken Links to Wiki Pages" output file that the build generates.  Note that the any links to them will have the link removed as well.
 
 ## Running `createdocs.py` Directly for Testing
 The `createdocs.py` script is usually run by the `BuildDocs.yml` workflow in the `.github` folder.  However, it is just a Python script and it can be run directly from the command line for testing purposes.  If you run it with no arguments, it will tell you what arguments it expects and then fail, like this:
@@ -197,4 +197,4 @@ Note that running `createdocs.py` directly won't actually publish the site anywh
 
 Running in test mode is useful for debugging the script by placing interesting edge cases, etc into the `testdata` folder and referencing them from the `testsitesdefinitions.json` file. 
 
-Last update: 2023-03-28 by EricZinda [[edit](https://github.com/delph-in/docs/edit/main/DelphinDocsReference.md)]{% endraw %}
+Last update: 2023-07-01 by EricZinda [[edit](https://github.com/delph-in/docs/edit/main/DelphinDocsReference.md)]{% endraw %}
