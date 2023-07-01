@@ -2,7 +2,7 @@
   * Has links in it to pages that don't exist: The LKB says that I am trying to unify a NULL with CONS. What could the problem be?
   * But they show up as links on the site.  Issues:
     * Used / to start
-    * Had line breaks
+    * Had line breaks in link definitions
     * Pages didn't exist
 
 * Virtual2021Participants doesn't render the table correctly
