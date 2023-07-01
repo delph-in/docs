@@ -174,12 +174,9 @@ def convert_child(repositories_definitions, pages_definitions, file_definition, 
                 if keep_link:
                     new_children.append(child)
                 else:
-                    if hasattr(child, "children") and len(child.children) == 1:
-                        new_children.append(child.children[0])
-                    else:
-                        # This is not the structure we were expecting so don't mess
-                        # with it
-                        new_children.append(child)
+                    if hasattr(child, "children"):
+                        for item in child.children:
+                            new_children.append(item)
 
                 links += more_links
 

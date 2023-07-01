@@ -1,6 +1,11 @@
-All links within a page are broken:
-      https://delph-in.github.io/docs/summits/SummitTop/
+* Grammar Engineering FAQ: https://delph-in.github.io/docs/matrix/GrammarEngineeringFAQ/
+  * Has links in it to pages that don't exist: The LKB says that I am trying to unify a NULL with CONS. What could the problem be?
+  * But they show up as links on the site.  Issues:
+    * Used / to start
+    * Had line breaks
+    * Pages didn't exist
 
+* Linking between pages scrolls down a tiny bit
 * Testing removal (what happens if something is removed from the wiki?)
 * 404 at root DNS name: https://delph-in.github.io/
 * If we are presenting lists of discussions, include dates
