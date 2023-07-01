@@ -5,6 +5,7 @@
     * Had line breaks
     * Pages didn't exist
 
+* Font is small
 * Linking between pages scrolls down a tiny bit
 * Testing removal (what happens if something is removed from the wiki?)
 * 404 at root DNS name: https://delph-in.github.io/
