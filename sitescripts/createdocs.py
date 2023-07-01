@@ -273,9 +273,9 @@ def get_rerouted_link(repositories_definitions, pages_definitions, file_definiti
         # See if we can find that definition
         for definition in pages_definitions:
             if definition["SrcDir"] == src_dir and definition["SrcFile"] == target_path_and_file:
-                if definition["Section"] == "<todo>":
+                if definition["Section"] == "<ignore>":
                     # This page is marked as being ignored so remove the link
-                    return "relative_ignore", "Wiki page is marked as <todo> so links are removed to it", target_path_and_file, ""
+                    return "relative_ignore", "Wiki page is marked as <ignore> so links are removed to it", target_path_and_file, ""
                 else:
                     # Found it! just return a full link to it
                     extra = ('?' + query) if query is not None and query != "" else ""
@@ -410,7 +410,7 @@ def populate_sites_src(sites_definition, root_address, src_root, dst_root):
         path_lower = get_site_relative_page_link(file_site, dst_relative_path).lower()
         docs[file_site][path_lower] = copy.deepcopy(fileDefinition)
 
-        if fileDefinition["Section"] != "<todo>":
+        if fileDefinition["Section"] != "<ignore>":
             # links += convert_and_copy_doc(sites_definition["Pages"], parser, fileDefinition, src_file, dst_file)
             try:
                 links += convert_and_copy_doc(sites_definition["SourceRepositories"], sites_definition["Sites"], sites_definition["Pages"], parser, index_file, fileDefinition, src_file, dst_file)

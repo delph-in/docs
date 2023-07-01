@@ -465,6 +465,11 @@
         {"Page": "View Entry", "SrcDir": "docswiki", "SrcFile": "GeFaqViewEntry.md", "Referrer": "matrix/GeFaqExpandedType.md"},
         {"Page": "View Hierarchy", "SrcDir": "docswiki", "SrcFile": "GeFaqViewHierarchy.md", "Referrer": "matrix/GeFaqDisjunctiveValue.md"},
         {"Page": "View Type", "SrcDir": "docswiki", "SrcFile": "GeFaqViewType.md", "Referrer": "matrix/GeFaqExpandedType.md"}
+      ]},
+      {"Section": "Grammar Engineering Glossary", "Pages": [
+        {"Page": "Index", "SrcDir": "docswiki", "SrcFile": "GrammarEngineeringGlossary.md", "BaseReferrer": "matrix/GrammarEngineeringFAQ.md", "Referrer": "matrix/GrammarEngineeringFAQ.md"},
+        {"Page": "Main Clause", "SrcDir": "docswiki", "SrcFile": "GeGlossaryMC.md", "BaseReferrer": "matrix/GrammarEngineeringFAQ.md", "Referrer": "matrix/GrammarEngineeringGlossary.md"},
+        {"Page": "Verb Clause", "SrcDir": "docswiki", "SrcFile": "GeGlossaryVC.md", "BaseReferrer": "matrix/GrammarEngineeringFAQ.md", "Referrer": "matrix/GrammarEngineeringGlossary.md"}
       ]}
     ],
     "summits": [
@@ -482,7 +487,8 @@
         {"Page": "Improving Robustness in Grammars", "SrcDir": "docswiki", "SrcFile": "GaliciaRobustness.md", "BaseReferrer": "summits/GaliciaSchedule.md", "Referrer": "summits/GaliciaSchedule.md"},
         {"Page": "MRS for Light Verb Constructions", "SrcDir": "docswiki", "SrcFile": "GaliciaMrsLvc.md", "BaseReferrer": "tools/RmrsDiscussions.md", "Referrer": "tools/RmrsDiscussions.md"},
         {"Page": "Grammar Matrix Action Nominalization", "SrcDir": "docswiki", "SrcFile": "GaliciaNominalization.md", "BaseReferrer": "tools/RmrsDiscussions.md", "Referrer": "tools/RmrsDiscussions.md"},
-        {"Page": "Thai Serial Verb Constructions", "SrcDir": "docswiki", "SrcFile": "GaliciaThaiSvc.md", "BaseReferrer": "tools/RmrsDiscussions.md", "Referrer": "tools/RmrsDiscussions.md"}
+        {"Page": "Thai Serial Verb Constructions", "SrcDir": "docswiki", "SrcFile": "GaliciaThaiSvc.md", "BaseReferrer": "tools/RmrsDiscussions.md", "Referrer": "tools/RmrsDiscussions.md"},
+        {"Page": "Galicia LTDB", "SrcDir": "docswiki", "SrcFile": "GaliciaLtdb.md", "BaseReferrer": "summits/GaliciaSchedule.md", "Referrer": "summits/GaliciaSchedule.md"}
       ]},
       {"Section": "Fairhaven 2022", "Pages": [
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "FairhavenTop.md", "Referrer": "summits/SummitTop.md"},
@@ -970,7 +976,8 @@
         {"Page": "Background", "SrcDir": "docswiki", "SrcFile": "ERDW_StructureForNewDocsSite.md"},
         {"Page": "Season of Docs", "SrcDir": "docswiki", "SrcFile": "GoogleSeasonOfDocs2023ProjectProposal.md"}
       ]},
-      {"Section": "<todo>", "Pages": [
+      {"Section": "<ignore>", "Pages": [
+        {"Page": "RestfulTop", "SrcDir": "docswiki", "SrcFile": "RestfulTop.md", "BaseReferrer": "tools/MrsRFC.md", "Referrer": "tools/MrsRFC.md"},
         {"Page": "DelphinNtt", "SrcDir": "docswiki", "SrcFile": "DelphinNtt.md", "BaseReferrer": "grammars/JacyTop.md", "Referrer": "grammars/JacyTop.md"},
         {"Page": "GeFaq", "SrcDir": "docswiki", "SrcFile": "GeFaq.md", "BaseReferrer": "matrix/GrammarEngineeringFAQ.md", "Referrer": "matrix/GrammarEngineeringFAQ.md", "FileMissing": true},
         {"Page": "DelphinNews", "SrcDir": "docswiki", "SrcFile": "DelphinNews.md", "BaseReferrer": "home/Home.md", "Referrer": "home/Home.md"},

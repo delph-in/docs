@@ -15,7 +15,7 @@
   "Pages":
   {
     "concept": [
-      {"Section": "<todo>", "Pages": [
+      {"Section": "<ignore>", "Pages": [
         {"Page": "Test Ignore", "SrcDir": "docswiki", "SrcFile": "GeFaq.md"}
       ]},
       {"Section": "Erg Semantics", "Pages": [
