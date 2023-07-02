@@ -1,6 +1,6 @@
 {% raw %}# Program
 
-This is the draft program for the [[2023 DELPH-IN Summit|GaliciaTop]].
+This is the program for the [[2023 DELPH-IN Summit|GaliciaTop]].
 
 Monday to Wednesday morning will be plenary sessions. Thursday and Friday will be Special Interest Groups (SIGs). There are informal social activities planned for Monday and Tuesday evenings. The excursion will be on Wednesday afternoon, and the conference dinner on Thursday evening. 
 
@@ -124,4 +124,4 @@ Please upload your presentations [here](https://github.com/delph-in/docs/tree/ma
 3. Full Forest Treebanker (FFTB): Olga
 4. PyDelphin and Delphin-viz tools: Berthold request
 
-Last update: 2023-06-30 by John Carroll [[edit](https://github.com/delph-in/docs/wiki/GaliciaSchedule/_edit)]{% endraw %}
+Last update: 2023-07-01 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/GaliciaSchedule/_edit)]{% endraw %}
