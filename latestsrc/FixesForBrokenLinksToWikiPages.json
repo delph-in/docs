@@ -307,6 +307,11 @@
         {"Page": "_Footer.md", "SrcDir": "docswiki", "SrcFile": "_Footer.md", "BaseReferrer": "<not included from site docswiki>", "Referrer": "<not included or linked to>/_Footer.md"}
       ]}
     ],
+    "summits": [
+      {"Section": "Galicia 2023", "Pages": [
+        {"Page": "GaliciaLLM", "SrcDir": "docswiki", "SrcFile": "GaliciaLLM.md", "BaseReferrer": "summits/GaliciaSchedule.md", "Referrer": "summits/GaliciaSchedule.md"}
+      ]}
+    ],
     "matrix": [
       {"Section": "FAQ", "Pages": [
         {"Page": "GeFaqChartNoPopups", "SrcDir": "docswiki", "SrcFile": "GeFaqChartNoPopups.md", "BaseReferrer": "matrix/GrammarEngineeringFAQ.md", "Referrer": "matrix/GrammarEngineeringFAQ.md", "FileMissing": true},
