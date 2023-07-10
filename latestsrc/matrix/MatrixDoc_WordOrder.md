@@ -11,7 +11,7 @@ tech-report: Fokkens
 This document presents background information on the word order library
 of the Grammar Matrix Customization System (Bender et al., 2002; Bender
 and Flickinger, 2005; Bender et al., 2010). General instructions on
-using the questionnaire can be found [here](https://delph-in.github.io/docs/howto/MatrixDocTop).
+using the questionnaire can be found [here](https://delph-in.github.io/docs/matrix/MatrixDocTop).
 
 # Citing the Word Order Library
 

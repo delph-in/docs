@@ -12,7 +12,7 @@ The customization system can be accessed from the following web page:
 ## Where can I find instructions on filling out the questionnaire?
 
 Most of the libraries in the Grammar Matrix have at least some
-documentation on the [MatrixDoc](https://delph-in.github.io/docs/howto/MatrixDocTop) pages.
+documentation on the [MatrixDoc](https://delph-in.github.io/docs/matrix/MatrixDocTop) pages.
 
 Note that filling out the questionnaire is an iterative process. To get
 as much as possible out of the customization system, you should develop

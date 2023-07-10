@@ -11,7 +11,7 @@ library of the Grammar Matrix Customization System (Bender et al., 2002;
 Bender and Flickinger, 2005; Bender et al., 2010) and provides
 instructions for filling out this section of the questionnaire. General
 instructions for using the questionnaire can be found
-[here](https://delph-in.github.io/docs/howto/MatrixDocTop).
+[here](https://delph-in.github.io/docs/matrix/MatrixDocTop).
 
 # Citing the Clausal Modifier Library
 

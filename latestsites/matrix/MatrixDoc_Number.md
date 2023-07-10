@@ -9,7 +9,7 @@ background information on the number library of the Grammar Matrix
 Customization System (Bender et al., 2002; Bender and Flickinger, 2005;
 Bender et al., 2010). General instructions on using the questionnaire
 can be found
-[here](https://delph-in.github.io/docs/howto/MatrixDocTop#general-instructions-on-how-to-use-the-questionnaire).
+[here](https://delph-in.github.io/docs/matrix/MatrixDocTop#general-instructions-on-how-to-use-the-questionnaire).
 
 # Citing the Number Library
 
