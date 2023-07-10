@@ -70,6 +70,8 @@ toc:
         url: "/MatrixValidationDebugging/"
   - title: "Matrix Doc"
     children:
+      - title: "Getting Started"
+        url: "/MatrixDocTop/"
       - title: "Adnominal Possession"
         url: "/MatrixDoc_AdnominalPossession/"
       - title: "Argument Optionality"
