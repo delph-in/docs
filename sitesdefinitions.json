@@ -385,6 +385,7 @@
         {"Page": "Validation Debugging", "SrcDir": "docswiki", "SrcFile": "MatrixValidationDebugging.md", "Referrer": "matrix/MatrixDevTop.md"}
       ]},
       {"Section": "Matrix Doc", "Pages": [
+        {"Page": "Getting Started", "SrcDir": "docswiki", "SrcFile": "MatrixDocTop.md", "Referrer": "matrix/MatrixGettingStarted.md"},
         {"Page": "Adnominal Possession", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_AdnominalPossession.md", "Referrer": "concept/MatrixDocTop.md"},
         {"Page": "Argument Optionality", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_ArgumentOptionality.md", "Referrer": "concept/MatrixDocTop.md"},
         {"Page": "Case", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_Case.md", "Referrer": "concept/MatrixDocTop.md"},
