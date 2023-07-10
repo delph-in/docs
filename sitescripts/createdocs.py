@@ -247,7 +247,6 @@ def parse_relative_link(SrcFile, link):
 #
 # Returns: StateOfLink, LinkStateMessage, The file the link is targeting (if any), rerouted link that should be used in new site
 def get_rerouted_link(repositories_definitions, pages_definitions, file_definition, original_link):
-    src_site = file_definition["Site"]
     src_dir = file_definition["SrcDir"]
     src_file_path = os.path.dirname(file_definition["SrcFile"])
     if len(src_file_path) > 0:
@@ -271,19 +270,28 @@ def get_rerouted_link(repositories_definitions, pages_definitions, file_definiti
         target_path_and_file = urllib.parse.urljoin(src_file_path, target_file)
 
         # See if we can find that definition
+        found_data = None
         for definition in pages_definitions:
             if definition["SrcDir"] == src_dir and definition["SrcFile"] == target_path_and_file:
                 if definition["Section"] == "<ignore>":
                     # This page is marked as being ignored so remove the link
                     return "relative_ignore", "Wiki page is marked as <ignore> so links are removed to it", target_path_and_file, ""
-                else:
-                    # Found it! just return a full link to it
-                    extra = ('?' + query) if query is not None and query != "" else ""
-                    extra += ('#' + fragment) if fragment is not None and fragment != "" else ""
-                    return "relative_success", None, target_file, f"{definition['AbsoluteLink']}{extra}"
 
-        # If if it doesn't exist, return the proper link that *would have* accessed it
-        return "relative_broken", "Wiki page doesn't exist", target_path_and_file, ""
+                else:
+                    # Found one! just return a full link to it
+                    # If it is included in the site more than once, return the one marked as definitive if there is one
+                    # Otherwise return the last one
+                    if found_data is None or ("DefinitiveLink" in definition and definition["DefinitiveLink"] is True):
+                        extra = ('?' + query) if query is not None and query != "" else ""
+                        extra += ('#' + fragment) if fragment is not None and fragment != "" else ""
+                        found_data = "relative_success", None, target_file, f"{definition['AbsoluteLink']}{extra}"
+
+        if found_data:
+            return found_data
+
+        else:
+            # If if it doesn't exist, return the proper link that *would have* accessed it
+            return "relative_broken", "Wiki page doesn't exist", target_path_and_file, ""
 
     else:
         # non-relative link

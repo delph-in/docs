@@ -9,6 +9,9 @@ In the Github wiki:
   - They can have "#" to link to a heading within that page
 - links with "http(s)" are public websites
  
+## Test links to docs included in more than one place
+[doc in more than one place](GrammarEngineeringFAQ)
+
 # Examples
 ## Legit
 another wiki page in the same wiki: [ErgSemantics](ErgSemantics)
@@ -52,5 +55,4 @@ A poorly formed link to ? (github interprets as a subproject in github) [/Capito
 A (kind of) poorly formed link to a heading (used _ instead of -, links to topic but not to heading) [DelphinApplications#Robot_Control](/DelphinApplications#Robot_Control)
 
 A poorly formed attempt to link to a local wiki doc MatrixDoc_Lexicon#A_Features_Analyses (/MatrixDoc/Lexicon#A_Features_Analyses)[/MatrixDoc/Lexicon#A_Features_Analyses]
-
 
