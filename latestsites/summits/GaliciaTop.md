@@ -1,6 +1,6 @@
 {% raw %}# Overview
 
-The 19th DELPH-IN [Summit](https://delph-in.github.io/docs/summits/SummitTop) will take place on June 26-30 2023, in A Coruña, Galicia, Spain.
+The 19th DELPH-IN [Summit](https://delph-in.github.io/docs/summits/SummitTop) took place on June 26-30 2023, in A Coruña, Galicia, Spain.
 
 Info for the online participants can be found in the discussion area.
 
@@ -11,15 +11,15 @@ Please register at the [2023 participants page](https://delph-in.github.io/docs/
 The event is generously sponsored by the [LyS Group](http://www.grupolys.org/lys_en.html). There will be no registration fee.
 
 ### Organization
-The local organization is handled by Olga Zamaraeva and the [LyS Group](http://www.grupolys.org/lys_en.html) from Universidade da Coruña with the help of [Océano Azul](https://oceano-azul.es/). To contact the local organizers, you can use: congreso.delphin2023@udc.es
+The local organization is handled by Olga Zamaraeva and the [LyS Group](http://www.grupolys.org/lys_en.html) from Universidade da Coruña with the help of [Océano Azul](https://oceano-azul.es/). 
 
 ## Optional pre-summit workshop
 
-A pre-summit [workshop on Lexical Resources](https://delph-in.github.io/docs/summits/GaliciaLexicalResources) is going to be on Friday, June 23, mainly dealing with integrating wordnet lexicons with HPSG grammars, led by Francis Bond and Dan Flickinger.
+A pre-summit [workshop on Lexical Resources](https://delph-in.github.io/docs/summits/GaliciaLexicalResources) was on Friday, June 23, led by Francis Bond.
 
 # Program
 
-The [summit program](https://github.com/delph-in/docs/wiki/GaliciaSchedule) is almost finalised. The program co-chairs this year are John Carroll and Petter Haugereid.
+The [summit program](https://github.com/delph-in/docs/wiki/GaliciaSchedule) is finalised. The program co-chairs this year are John Carroll and Petter Haugereid.
 
 Note: We are adopting a "Spanish" schedule, starting at 10:00 or 10:30 and running till 19:00. This is mainly because restaurants here do not serve food until 20:30 and it would be unreasonable to expect that people will be going to bed early. This is similar to what was done in [Barcelona](https://delph-in.github.io/docs/summits/BarcelonaSchedule), our last summit in Spain in 2009.
 
@@ -73,4 +73,4 @@ The San Juan party is the biggest holiday in A Coruña, when the whole town is o
 
 Please take a look at the [Local Guide](https://delph-in.github.io/docs/summits/GaliciaLocalGuide) for some info about the weather, sightseeing, eating out etc.
 
-Last update: 2023-06-25 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/GaliciaTop/_edit)]{% endraw %}
+Last update: 2023-07-05 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/GaliciaTop/_edit)]{% endraw %}

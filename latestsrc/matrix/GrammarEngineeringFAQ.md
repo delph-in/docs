@@ -3,8 +3,8 @@
 This is a collection of frequently asked questions related to using the
 LKB and the Grammar Matrix for grammar engineering. Please help
 contribute or improve any questions and/or answers. Please prefix page
-names for answers with 'GeFaq'. See also the Grammar
-Engineering Glossary.
+names for answers with 'GeFaq'. See also the [Grammar
+Engineering Glossary](https://delph-in.github.io/docs/matrix/GrammarEngineeringGlossary).
 
 * * *
 

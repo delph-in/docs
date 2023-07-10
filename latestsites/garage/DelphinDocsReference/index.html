@@ -720,8 +720,8 @@
 
 <p>If it failed, click on the row that represents the run you just did and you’ll see an error file. If you open this file, all of the errors encountered will be listed.  Fix those and rerun the workflow.  In rare cases, you might need to click on the run, and then on the box that represents the “build” part of the workflow. That will expand all the details of the run and show you why it failed.  The biggest source of failure is not formatting the JSON file correctly.</p>
 
-<h2 id="the-todo-section">The <code class="language-plaintext highlighter-rouge">&lt;todo&gt;</code> Section</h2>
-<p>Note that any section named <code class="language-plaintext highlighter-rouge">&lt;todo&gt;</code> that is included in the docs will <em>not</em> be included in the output.  However, any pages in it will be counted as “valid” when linked to, even if they don’t exist in the site. This is a mechanism for removing them from being added to the “Fixes for Broken Links to Wiki Pages” output file that the build generates.</p>
+<h2 id="the-ignore-section">The <code class="language-plaintext highlighter-rouge">&lt;ignore&gt;</code> Section</h2>
+<p>Note that any section named <code class="language-plaintext highlighter-rouge">&lt;ignore&gt;</code> that is included in the docs will <em>not</em> be included in the output.  However, any pages in it will be counted as “not broken” when linked to, even if they don’t exist in the site. This is a mechanism for removing them from being added to the “Fixes for Broken Links to Wiki Pages” output file that the build generates.  Note that the any links to them will have the link removed as well.</p>
 
 <h2 id="running-createdocspy-directly-for-testing">Running <code class="language-plaintext highlighter-rouge">createdocs.py</code> Directly for Testing</h2>
 <p>The <code class="language-plaintext highlighter-rouge">createdocs.py</code> script is usually run by the <code class="language-plaintext highlighter-rouge">BuildDocs.yml</code> workflow in the <code class="language-plaintext highlighter-rouge">.github</code> folder.  However, it is just a Python script and it can be run directly from the command line for testing purposes.  If you run it with no arguments, it will tell you what arguments it expects and then fail, like this:</p>
@@ -751,7 +751,7 @@ AssertionError
 
 <p>Running in test mode is useful for debugging the script by placing interesting edge cases, etc into the <code class="language-plaintext highlighter-rouge">testdata</code> folder and referencing them from the <code class="language-plaintext highlighter-rouge">testsitesdefinitions.json</code> file.</p>
 
-<p>Last update: 2023-03-28 by EricZinda [<a href="https://github.com/delph-in/docs/edit/main/DelphinDocsReference.md">edit</a>]</p>
+<p>Last update: 2023-07-01 by EricZinda [<a href="https://github.com/delph-in/docs/edit/main/DelphinDocsReference.md">edit</a>]</p>
 
         
       </section>

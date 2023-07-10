@@ -309,7 +309,7 @@
     ],
     "summits": [
       {"Section": "Galicia 2023", "Pages": [
-        {"Page": "GaliciaLtdb", "SrcDir": "docswiki", "SrcFile": "GaliciaLtdb.md", "BaseReferrer": "summits/GaliciaSchedule.md", "Referrer": "summits/GaliciaSchedule.md"}
+        {"Page": "GaliciaLLM", "SrcDir": "docswiki", "SrcFile": "GaliciaLLM.md", "BaseReferrer": "summits/GaliciaSchedule.md", "Referrer": "summits/GaliciaSchedule.md"}
       ]}
     ],
     "matrix": [
@@ -336,15 +336,7 @@
         {"Page": "GeFaqTwoLexEdges", "SrcDir": "docswiki", "SrcFile": "GeFaqTwoLexEdges.md", "BaseReferrer": "matrix/GrammarEngineeringFAQ.md", "Referrer": "matrix/GrammarEngineeringFAQ.md", "FileMissing": true},
         {"Page": "GeFaqUnifyingNullWithCons", "SrcDir": "docswiki", "SrcFile": "GeFaqUnifyingNullWithCons.md", "BaseReferrer": "matrix/GrammarEngineeringFAQ.md", "Referrer": "matrix/GrammarEngineeringFAQ.md", "FileMissing": true},
         {"Page": "GeFaqWordNotInChart", "SrcDir": "docswiki", "SrcFile": "GeFaqWordNotInChart.md", "BaseReferrer": "matrix/GrammarEngineeringFAQ.md", "Referrer": "matrix/GrammarEngineeringFAQ.md", "FileMissing": true},
-        {"Page": "GeFaqWordToWordRule", "SrcDir": "docswiki", "SrcFile": "GeFaqWordToWordRule.md", "BaseReferrer": "matrix/GrammarEngineeringFAQ.md", "Referrer": "matrix/GrammarEngineeringFAQ.md", "FileMissing": true},
-        {"Page": "GeGlossaryMC", "SrcDir": "docswiki", "SrcFile": "GeGlossaryMC.md", "BaseReferrer": "matrix/GrammarEngineeringFAQ.md", "Referrer": "matrix/GrammarEngineeringGlossary.md"},
-        {"Page": "GeGlossaryVC", "SrcDir": "docswiki", "SrcFile": "GeGlossaryVC.md", "BaseReferrer": "matrix/GrammarEngineeringFAQ.md", "Referrer": "matrix/GrammarEngineeringGlossary.md"},
-        {"Page": "GrammarEngineeringGlossary", "SrcDir": "docswiki", "SrcFile": "GrammarEngineeringGlossary.md", "BaseReferrer": "matrix/GrammarEngineeringFAQ.md", "Referrer": "matrix/GrammarEngineeringFAQ.md"}
-      ]}
-    ],
-    "tools": [
-      {"Section": "Formats", "Pages": [
-        {"Page": "RestfulTop", "SrcDir": "docswiki", "SrcFile": "RestfulTop.md", "BaseReferrer": "tools/MrsRFC.md", "Referrer": "tools/MrsRFC.md"}
+        {"Page": "GeFaqWordToWordRule", "SrcDir": "docswiki", "SrcFile": "GeFaqWordToWordRule.md", "BaseReferrer": "matrix/GrammarEngineeringFAQ.md", "Referrer": "matrix/GrammarEngineeringFAQ.md", "FileMissing": true}
       ]}
     ]
   }
