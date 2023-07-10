@@ -532,6 +532,13 @@ def convert_to_flat_definition(pages_definitions):
                 site_name = site[0]
                 for section in site[1]:
                     for page in section["Pages"]:
+                        # Remove any information only fields so they
+                        # Don't show up in the links report
+                        if "Referrer" in page:
+                            page.pop("Referrer")
+                        if "BaseReferrer" in page:
+                            page.pop("BaseReferrer")
+
                         page_definition = {"Site": site_name, "Section": section["Section"]}
                         page_definition.update(page)
                         converted["Pages"].append(page_definition)
