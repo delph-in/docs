@@ -71,6 +71,7 @@
         {"Page": "FeatureForestTrainer.md", "SrcDir": "docswiki", "SrcFile": "FeatureForestTrainer.md", "BaseReferrer": "<not included from site docswiki>", "Referrer": "<not included or linked to>/FeatureForestTrainer.md"},
         {"Page": "FieldMappings.md", "SrcDir": "docswiki", "SrcFile": "FieldMappings.md", "BaseReferrer": "<not included from site docswiki>", "Referrer": "<not included or linked to>/FieldMappings.md"},
         {"Page": "FortuneCookies.md", "SrcDir": "docswiki", "SrcFile": "FortuneCookies.md", "BaseReferrer": "<not included from site docswiki>", "Referrer": "<not included or linked to>/FortuneCookies.md"},
+        {"Page": "GaliciaLLM.md", "SrcDir": "docswiki", "SrcFile": "GaliciaLLM.md", "BaseReferrer": "<not included from site docswiki>", "Referrer": "<not included or linked to>/GaliciaLLM.md"},
         {"Page": "GenerationModel.md", "SrcDir": "docswiki", "SrcFile": "GenerationModel.md", "BaseReferrer": "<not included from site docswiki>", "Referrer": "<not included or linked to>/GenerationModel.md"},
         {"Page": "GeneratorImplementationNotes.md", "SrcDir": "docswiki", "SrcFile": "GeneratorImplementationNotes.md", "BaseReferrer": "<not included from site docswiki>", "Referrer": "<not included or linked to>/GeneratorImplementationNotes.md"},
         {"Page": "GgDataSets.md", "SrcDir": "docswiki", "SrcFile": "GgDataSets.md", "BaseReferrer": "<not included from site docswiki>", "Referrer": "<not included or linked to>/GgDataSets.md"},
@@ -305,11 +306,6 @@
         {"Page": "ZhongPhenomena.md", "SrcDir": "docswiki", "SrcFile": "ZhongPhenomena.md", "BaseReferrer": "<not included from site docswiki>", "Referrer": "<not included or linked to>/ZhongPhenomena.md"},
         {"Page": "ZhongToDoList.md", "SrcDir": "docswiki", "SrcFile": "ZhongToDoList.md", "BaseReferrer": "<not included from site docswiki>", "Referrer": "<not included or linked to>/ZhongToDoList.md"},
         {"Page": "_Footer.md", "SrcDir": "docswiki", "SrcFile": "_Footer.md", "BaseReferrer": "<not included from site docswiki>", "Referrer": "<not included or linked to>/_Footer.md"}
-      ]}
-    ],
-    "summits": [
-      {"Section": "Galicia 2023", "Pages": [
-        {"Page": "GaliciaLLM", "SrcDir": "docswiki", "SrcFile": "GaliciaLLM.md", "BaseReferrer": "summits/GaliciaSchedule.md", "Referrer": "summits/GaliciaSchedule.md"}
       ]}
     ],
     "matrix": [
