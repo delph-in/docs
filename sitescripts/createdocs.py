@@ -358,7 +358,7 @@ def convert_asset_link(original_link):
                 return
     else:
         # Absolute path. Is it to Github?
-        if split_url.hostname.lower() != "github.com" and split_url.hostname.lower() != "www.github.com":
+        if split_url.hostname is None or (split_url.hostname.lower() != "github.com" and split_url.hostname.lower() != "www.github.com"):
             return
 
     # At this point we believe we have a link to github. Now see if it is an asset in a repository.

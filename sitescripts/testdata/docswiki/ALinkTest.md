@@ -1,5 +1,6 @@
 These are all examples of links that appear in the wild in the wiki, some need to be fixed, some are legit.
 
+
 In the Github wiki:
 - links with no starting slashes are links to other wiki topics in the same wiki
   - They can have "#" to link to a heading within that page
@@ -10,6 +11,8 @@ In the Github wiki:
 - links with "http(s)" are public websites
  
 ## Test links to github assets 
+[foo barrio](mailto:foo.barrio@nm.ps).
+
 These should stay the same:
 [https://github.com/delph-in/erg/blob/main/www/esd/the-garden-dog-tried-not-to-bark.png?raw=true](https://github.com/delph-in/erg/blob/main/www/esd/the-garden-dog-tried-not-to-bark.png?raw=true)
 [/delph-in/erg/blob/main/www/esd/the-garden-dog-tried-not-to-bark.png?raw=true](/delph-in/erg/blob/main/www/esd/the-garden-dog-tried-not-to-bark.png?raw=true)
