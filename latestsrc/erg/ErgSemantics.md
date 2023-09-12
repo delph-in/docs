@@ -23,7 +23,7 @@ associated parsing and parse selection algorithms.
 
 As an example, below is the ERS for the sentence *The garden dog tried not to bark.*
 
-![](https://github.com/delph-in/erg/blob/68737b723743d0f6208ab37d2dfe69a0d9de7ec4/www/esd/the-garden-dog-tried-not-to-bark.png)
+![](https://github.com/delph-in/erg/blob/main/www/esd/the-garden-dog-tried-not-to-bark.png?raw=true)
 
 # Structure of the Documentation
 
@@ -149,4 +149,4 @@ Oepen, S., Flickinger, D., Toutanova, K., & Manning, C. D. (2004). LinGO
 Redwoods. A rich and dynamic treebank for HPSG. Research on Language and
 Computation, 2(4), 575-596.
 
-Last update: 2023-09-11 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/ErgSemantics/_edit)]{% endraw %}
+Last update: 2023-09-12 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/ErgSemantics/_edit)]{% endraw %}
