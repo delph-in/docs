@@ -9,6 +9,15 @@ In the Github wiki:
   - They can have "#" to link to a heading within that page
 - links with "http(s)" are public websites
  
+## Test links to github assets 
+These should stay the same:
+[https://github.com/delph-in/erg/blob/main/www/esd/the-garden-dog-tried-not-to-bark.png?raw=true](https://github.com/delph-in/erg/blob/main/www/esd/the-garden-dog-tried-not-to-bark.png?raw=true)
+[/delph-in/erg/blob/main/www/esd/the-garden-dog-tried-not-to-bark.png?raw=true](/delph-in/erg/blob/main/www/esd/the-garden-dog-tried-not-to-bark.png?raw=true)
+
+These should get "raw=true" added to its query:
+[https://github.com/delph-in/erg/blob/main/www/esd/the-garden-dog-tried-not-to-bark.png](https://github.com/delph-in/erg/blob/main/www/esd/the-garden-dog-tried-not-to-bark.png)
+[/delph-in/erg/blob/main/www/esd/the-garden-dog-tried-not-to-bark.png](/delph-in/erg/blob/main/www/esd/the-garden-dog-tried-not-to-bark.png)
+
 ## Test links to docs included in more than one place
 [doc in more than one place](GrammarEngineeringFAQ)
 

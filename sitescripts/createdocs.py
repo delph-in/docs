@@ -252,6 +252,12 @@ def get_rerouted_link(repositories_definitions, pages_definitions, file_definiti
     if len(src_file_path) > 0:
         src_file_path += "/"
 
+    # If this is a link to a github asset, leave it alone, but make sure
+    # that "raw=true" is added to it
+    github_asset_link = convert_asset_link(original_link)
+    if github_asset_link is not None:
+        return "github_asset_link_unchecked", None, None, github_asset_link
+
     path, query, fragment = parse_relative_link(file_definition["SrcFile"], original_link)
     if path is not None:
         # This is a relative link
@@ -328,6 +334,47 @@ def get_rerouted_link(repositories_definitions, pages_definitions, file_definiti
             else:
                 # just a plain old broken link
                 return "absolute_broken", result["Message"], None, ""
+
+
+# links to things like images in github need to be handled specially since a common mistake is to
+# browse to the image in a repository and just copy the url.  It needs to have "raw=true" at the top
+# or it will include all the window dressing around the image as well and won't render right in the site
+# This function makes sure the link has that if it is, indeed, a link to an image asset
+def convert_asset_link(original_link):
+    # If the link is an absolute github link or a "root relative link" (which starts with a "/" like
+    # "/delph-in/erg/...", then it is a link to something in Github
+    # Next we need to verify that it is a link to an asset in a repository. The heuristic used for that is
+    # (maybe too?) simple: look for a segment in the path with "/blob/
+    # If all of that checks out, then make sure "raw=true" is at the end
+    split_url = urllib.parse.urlparse(original_link)
+
+    if split_url.scheme == "" and split_url.netloc == "":
+        if split_url.path != "":
+            path = split_url.path
+            path_parts = path.split('/')
+            if path_parts[0] != "":
+                # Leading "/" means it is "root relative" and would be interpreted as "http://www.github.com" + <path> when run in the wiki
+                # This isn't root relative so return
+                return
+    else:
+        # Absolute path. Is it to Github?
+        if split_url.hostname.lower() != "github.com" and split_url.hostname.lower() != "www.github.com":
+            return
+
+    # At this point we believe we have a link to github. Now see if it is an asset in a repository.
+    if original_link.find("/blob/") == -1:
+        # Not a link to an asset since it doesn't have "/blob/" in the path
+        return
+
+    # Make sure it has "raw=true" at the end
+    if split_url.query.find("raw=true") != -1:
+        # Has it, this link is fine
+        return original_link
+    else:
+        url_parts = list(split_url)
+        query = split_url.query + "raw=true" if split_url.query == "" else split_url.query + "&raw=true"
+        url_parts[4] = query
+        return urllib.parse.urlunparse(url_parts)
 
 
 # See if a url would have been valid in the original wiki
