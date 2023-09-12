@@ -60,7 +60,7 @@ generally feeding a word graph (as, for example, obtained from a speech
 recognizer) into the parser.
 
 Following is a discussion of the YY [input
-example](http://svn.delph-in.net/erg/tags/0902/pet/sample.yy) provided
+example](https://github.com/delph-in/erg/blob/main/pet/sample.yy?raw=true) provided
 with the ERG (as of early 2009). In this example, the words are shown on
 separate lines for clarity. In the actual input given to PET, all YY
 tokens must appear as a single line (terminated by newline), as each
@@ -490,4 +490,4 @@ encode the parser input. See the [PetInputFsc](https://delph-in.github.io/docs/g
 so-called FSC, PIC (deprecated as of mid-2010), and SMAF (deprecated as
 of mid-2010) mode, respectively.
 
-Last update: 2023-06-15 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/PetInput/_edit)]{% endraw %}
+Last update: 2023-09-12 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/PetInput/_edit)]{% endraw %}

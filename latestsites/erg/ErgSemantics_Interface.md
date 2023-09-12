@@ -27,15 +27,15 @@ ERG 1214 release (in mid-2016).
 # A High-Level Tour
 
 As of the 1214 release, the ERG SEM-I is comprised of four files, viz.
-[erg.smi](http://svn.delph-in.net/erg/tags/1214/etc/erg.smi), providing
+[erg.smi](https://github.com/delph-in/erg/blob/main/etc/erg.smi?raw=true), providing
 (a) and (b) from the above list, plus a few manually curated parts of
 (c);
-[hierarchy.smi](http://svn.delph-in.net/erg/tags/1214/etc/hierarchy.smi),
+[hierarchy.smi](https://github.com/delph-in/erg/blob/main/etc/hierarchy.smi?raw=true),
 setting up a partial (multi-rooted), multiple-inheritance *hierarchy* of
 semantic predicates;
-[abstract.smi](http://svn.delph-in.net/erg/tags/1214/etc/abstract.smi),
+[abstract.smi](https://github.com/delph-in/erg/blob/main/etc/abstract.smi?raw=true),
 listing the inventory of *abstract* predicates; and
-[surface.smi](http://svn.delph-in.net/erg/tags/1214/etc/surface.smi),
+[surface.smi](https://github.com/delph-in/erg/blob/main/etc/surface.smi?raw=true),
 spelling out the (much larger) inventory of *surface* predicates. For
 the distinction between abstract vs. surface predicates, please see the
 [ErgSemantics/Basics](https://delph-in.github.io/docs/erg/ErgSemantics_Basics) page.
@@ -101,7 +101,7 @@ of existentials vs. universals (see above) and the (playful) addition of
 a predicate abstraction (called nn) over different ways of realizing an
 underspecified relation between two nominals, e.g. (generated from the
 sample input in
-[nn.mrs](http://svn.delph-in.net/erg/tags/1214/mrs/nn.mrs)):
+[nn.mrs](https://github.com/delph-in/erg/blob/main/mrs/nn.mrs?raw=true)):
 
       A jungle lion arrived.
       A jungle's lion arrived.
@@ -150,4 +150,4 @@ follows (e.g. in lkb/mrsglobals.lsp in the ERG):
 
 # References
 
-Last update: 2019-05-25 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/ErgSemantics_Interface/_edit)]{% endraw %}
+Last update: 2023-09-12 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/ErgSemantics_Interface/_edit)]{% endraw %}
