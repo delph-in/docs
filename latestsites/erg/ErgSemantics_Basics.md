@@ -208,6 +208,8 @@ the nominal constituent, via a qeq constraint:
       [ARG0 x, RSTR h1]
       { h1 =q h0 }
 
+More at [[ErgSemantics_Quantification]]
+
 # Non-Scopal Modification
 
 Among non-scopal argument relations there is a distinguished class where
@@ -250,4 +252,4 @@ semantic construction in constraint-based grammars. In *Proceedings of
 the 39th Annual Meeting of the Association for Computational
 Linguistics* (pp. 140–147). Toulouse, France.
 
-Last update: 2022-09-12 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/ErgSemantics_Basics/_edit)]{% endraw %}
+Last update: 2023-08-27 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/ErgSemantics_Basics/_edit)]{% endraw %}
