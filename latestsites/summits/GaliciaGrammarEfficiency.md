@@ -2,7 +2,7 @@
 
 Scribe: John
 
-Dan: Presents his [slides](https://github.com/delph-in/docs/blob/main/summits/2023/Efficiency.pdf). Also discusses use of the new LKB-FOS functions - outlined by John in his presentation on Monday - which display counts of chart entries in each cell, and print reasons for subsumption failure between two passive edges (meaning that they could not straightforwardly be packed). He also shows LUI parse chart for a short sentence, and interactively inspects a chart cell containing multiple applications of the same rule (abbreviated as HMSN) - which might indicate overgeneration.
+Dan: Presents his [slides](https://github.com/delph-in/docs/blob/main/summits/2023/Efficiency.pdf?raw=true). Also discusses use of the new LKB-FOS functions - outlined by John in his presentation on Monday - which display counts of chart entries in each cell, and print reasons for subsumption failure between two passive edges (meaning that they could not straightforwardly be packed). He also shows LUI parse chart for a short sentence, and interactively inspects a chart cell containing multiple applications of the same rule (abbreviated as HMSN) - which might indicate overgeneration.
 
 Dan: It might be useful to have a tool that counts how many edges from e.g. HMSN occur in the chart. Or the number from each rule.
 

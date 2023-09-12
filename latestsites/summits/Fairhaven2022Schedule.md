@@ -21,27 +21,27 @@ Please upload your presentations [here](https://github.com/delph-in/docs/tree/ma
 | :--- | :---    | :--- |
 | 9:30--11:00 | **1.1 Welcome and Site Updates** |
 ||Welcome & Introductions | Francis, Luis & All |
-||[Final site report for Stanford](https://github.com/delph-in/docs/blob/main/summits/2022/stanfordsite.pdf) (8)|Dan|
+||[Final site report for Stanford](https://github.com/delph-in/docs/blob/main/summits/2022/stanfordsite.pdf?raw=true) (8)|Dan|
 ||IBM and FGV (8)|Alexandre|
-||[UW](https://github.com/delph-in/docs/blob/main/summits/2022/UW-site-update-2022.pdf) (8)|Emily|
-||[Bergen](https://github.com/delph-in/docs/blob/main/summits/2022/BergenUpdate.pdf) (8)|Petter|
-||[Cambridge](https://github.com/delph-in/docs/blob/main/summits/2022/cambridge.pdf) (8)|Guy|
-||[NTT, NICT, NTU, Palacký](https://github.com/delph-in/docs/blob/main/summits/2022/ntu-update-2022.pdf) (8)|Francis|
+||[UW](https://github.com/delph-in/docs/blob/main/summits/2022/UW-site-update-2022.pdf?raw=true) (8)|Emily|
+||[Bergen](https://github.com/delph-in/docs/blob/main/summits/2022/BergenUpdate.pdf?raw=true) (8)|Petter|
+||[Cambridge](https://github.com/delph-in/docs/blob/main/summits/2022/cambridge.pdf?raw=true) (8)|Guy|
+||[NTT, NICT, NTU, Palacký](https://github.com/delph-in/docs/blob/main/summits/2022/ntu-update-2022.pdf?raw=true) (8)|Francis|
 ||Diderot (8)|Berthold|
 ||Perplexity Game Engine (8)|Eric|
 |11:00--11:30| *Break* ||
 |11:30--13:00 | **1.2 English Resource Grammar (Chair: Francis)**||
-| |  [ERG 2022 release plans](https://github.com/delph-in/docs/blob/main/summits/2022/erg2022.pdf)  (10+10)  | Dan |
-| | 🗪 [Linking ERG lexicon and English WordNet](https://github.com/delph-in/docs/blob/main/summits/2022/ergwordnet.pdf)  (60) ([[minutes\|Fairhaven2022-Linking-ERG-and-Wordnet]]) | Dan (Mike)
+| |  [ERG 2022 release plans](https://github.com/delph-in/docs/blob/main/summits/2022/erg2022.pdf?raw=true)  (10+10)  | Dan |
+| | 🗪 [Linking ERG lexicon and English WordNet](https://github.com/delph-in/docs/blob/main/summits/2022/ergwordnet.pdf?raw=true)  (60) ([[minutes\|Fairhaven2022-Linking-ERG-and-Wordnet]]) | Dan (Mike)
 |13:00--14:00 | *Lunch* ||
 |14:00--15:30 | **1.3 Language Learning (Chair: Joanna)** ||
-|| [CHILL (Chinese Intelligent Language Learning)](https://github.com/delph-in/docs/blob/main/summits/2022/lmc-delphin2022-chill.pdf) (10+10)| Luis |
-|| 🗪 [Spanish Grammar Checking with SRG](https://github.com/delph-in/docs/blob/main/summits/2022/OZ-DELPH_IN_2022_SRG.pdf) (60)| Olga (Luis)|
+|| [CHILL (Chinese Intelligent Language Learning)](https://github.com/delph-in/docs/blob/main/summits/2022/lmc-delphin2022-chill.pdf?raw=true) (10+10)| Luis |
+|| 🗪 [Spanish Grammar Checking with SRG](https://github.com/delph-in/docs/blob/main/summits/2022/OZ-DELPH_IN_2022_SRG.pdf?raw=true) (60)| Olga (Luis)|
 |15:30--16:00 | *Break* ||
 |16:00--17:30 | **1.4 New stuff (Chair: Dan)** ||
-|| [LKB-FOS Update](https://github.com/delph-in/docs/blob/main/summits/2022/lkb-fos-update-22.pdf) (20+20) | John |
-|| [Neural Supertagging for ERG](https://github.com/delph-in/docs/blob/main/summits/2022/OZ-DELPH_IN_2022_supertagging.pdf) (10+10) | Olga |
-|| [Bernoulli Fields: probability distributions for vague semantics and pragmatics](https://github.com/delph-in/docs/blob/main/summits/2022/bernoulli.pdf) (10+10)| Guy |
+|| [LKB-FOS Update](https://github.com/delph-in/docs/blob/main/summits/2022/lkb-fos-update-22.pdf?raw=true) (20+20) | John |
+|| [Neural Supertagging for ERG](https://github.com/delph-in/docs/blob/main/summits/2022/OZ-DELPH_IN_2022_supertagging.pdf?raw=true) (10+10) | Olga |
+|| [Bernoulli Fields: probability distributions for vague semantics and pragmatics](https://github.com/delph-in/docs/blob/main/summits/2022/bernoulli.pdf?raw=true) (10+10)| Guy |
 
 ## Tuesday
 
@@ -50,8 +50,8 @@ Please upload your presentations [here](https://github.com/delph-in/docs/tree/ma
 | 9:30--11:00 | **2.1 Matrix (Chair: Glenn)** |
 ||Inference for Adnominal Possession (10+10)| Allison |
 ||Inference for valence changing morphology (10+10)|Yi-Chien|
-||[Improving morphotactic inference when roots aren't identified](https://github.com/delph-in/docs/blob/main/summits/2022/morphotactic-inference-roots.pdf) (10+10)|Tara |
-||[Templates for Test by Generation on the Matrix page](https://github.com/delph-in/docs/blob/main/summits/2022/Reviving%20Test%20by%20Generation.pdf) (10+10) |Rosetta|
+||[Improving morphotactic inference when roots aren't identified](https://github.com/delph-in/docs/blob/main/summits/2022/morphotactic-inference-roots.pdf?raw=true) (10+10)|Tara |
+||[Templates for Test by Generation on the Matrix page](https://github.com/delph-in/docs/blob/main/summits/2022/Reviving%20Test%20by%20Generation.pdf?raw=true) (10+10) |Rosetta|
 |11:00--11:30| *Break* ||
 |11:30--13:00 | **2.2 Matrix Reloaded (Chair: Olga)**||
 | |  Improving Inter-libraries Interactions  (10+10)  | Tom |
@@ -59,11 +59,11 @@ Please upload your presentations [here](https://github.com/delph-in/docs/tree/ma
 |13:00--14:00 | *Lunch* ||
 |14:00--15:30 | **2.3 Linguistic Phenomena (Chair: Emily)** ||
 || Semantic vs Syntactic Treebanking (20+20) ([minutes](https://github.com/delph-in/docs/wiki/Fairhaven2022-Semantic-vs-Syntactic-Treebanking)) | Berthold (Tara) |
-|| [Ground Promotion in Norwegian](https://github.com/delph-in/docs/blob/main/summits/2022/GroundProm.pdf) (10+10)| Petter |
-|| [Chinese Nominal Phrases (Mandarin, Cantonese)](https://github.com/delph-in/docs/blob/main/summits/2022/DELPH-IN%20SIO.pdf) (10+10)| Joanna|
+|| [Ground Promotion in Norwegian](https://github.com/delph-in/docs/blob/main/summits/2022/GroundProm.pdf?raw=true) (10+10)| Petter |
+|| [Chinese Nominal Phrases (Mandarin, Cantonese)](https://github.com/delph-in/docs/blob/main/summits/2022/DELPH-IN%20SIO.pdf?raw=true) (10+10)| Joanna|
 |15:30--16:00 | *Break* ||
 |16:00--17:30 | **2.4 Documentation (Chair: Woodley)** ||
-|| [Linguistic Type Database (new and improved)](https://github.com/delph-in/docs/blob/main/summits/2022/ltdb-update-2022.pdf) (10+10) | Francis |
+|| [Linguistic Type Database (new and improved)](https://github.com/delph-in/docs/blob/main/summits/2022/ltdb-update-2022.pdf?raw=true) (10+10) | Francis |
 || 🗪 Improving the ERG Semantic Documentation for users (60) ([minutes](https://github.com/delph-in/docs/wiki/Fairhaven2022-ERG-docs)) | Eric (Olga) |
 
 ## Wednesday

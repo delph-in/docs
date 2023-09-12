@@ -1,6 +1,6 @@
 {% raw %}Notes from discussion of MRS design for light verb constructions at [Galicia Summit](https://delph-in.github.io/docs/summits/GaliciaSchedule).
 
-* [Tara's slides](https://github.com/delph-in/docs/blob/main/summits/2023/lvc-mrs-design-2023.pdf)
+* [Tara's slides](https://github.com/delph-in/docs/blob/main/summits/2023/lvc-mrs-design-2023.pdf?raw=true)
 * Scribe: Emily
 
 Questions:

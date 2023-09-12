@@ -2,7 +2,7 @@
 
 Discussion at the [Galicia Summit](https://delph-in.github.io/docs/summits/GaliciaTop) (2023-06-29)
 
-[Slides](https://github.com/delph-in/docs/blob/main/summits/2023/GM-refactoring-SIG.pdf)
+[Slides](https://github.com/delph-in/docs/blob/main/summits/2023/GM-refactoring-SIG.pdf?raw=true)
 
 Erik: Can we test hypotheses by, e.g. adding a rule that deletes information and sees what breaks.
 

@@ -1,6 +1,6 @@
 {% raw %}Searching DELPH-IN corpora & the Linguistic Type Database (LTDB)
 
-* [Francis's slides](https://github.com/delph-in/docs/blob/main/summits/2023/ltdb-update-2023.pdf)
+* [Francis's slides](https://github.com/delph-in/docs/blob/main/summits/2023/ltdb-update-2023.pdf?raw=true)
 * Scribe: Emily
 
 * * *

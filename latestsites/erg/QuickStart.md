@@ -65,7 +65,7 @@ NOTE: parsed 1 / 1 sentences, avg 1415k, time 0.00952s
 ```
 
 If you want the [latest
-features](https://github.com/delph-in/pydelphin/blob/master/CHANGELOG.md)
+features](https://github.com/delph-in/pydelphin/blob/master/CHANGELOG.md?raw=true)
 of [PyDelphin](https://delph-in.github.io/docs/tools/PyDelphinTop), you might try getting it from its [GitHub
 repository](https://github.com/delph-in/pydelphin) (you'll need to have
 git installed) and switching to the develop branch:

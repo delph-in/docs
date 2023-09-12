@@ -2,7 +2,7 @@
 
 Main techniques:
 - Expand lexicon (e.g. top N most frequent words in a corpus)
-- Add generic entries (triggered by POS-tagging or chart mapping; see [slides](https://github.com/delph-in/docs/blob/main/summits/2023/robustness.pdf) for examples)
+- Add generic entries (triggered by POS-tagging or chart mapping; see [slides](https://github.com/delph-in/docs/blob/main/summits/2023/robustness.pdf?raw=true) for examples)
 - Add chart mapping for dates, measures, numerals, etc.
 - Add rules for frequent but mildly ungrammatical constructions (e.g. dropping articles in headlines)
 - For parsing a large corpus, reduce computational cost (e.g. shrink feature structures with "min" types, reduce search space with supertagging or chunking or PCFG)

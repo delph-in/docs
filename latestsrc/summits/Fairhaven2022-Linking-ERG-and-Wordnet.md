@@ -4,7 +4,7 @@
 
 **Scribe:** Mike
 
-**Slides:** [ergwordnet.pdf](https://github.com/delph-in/docs/blob/main/summits/2022/ergwordnet.pdf)
+**Slides:** [ergwordnet.pdf](https://github.com/delph-in/docs/blob/main/summits/2022/ergwordnet.pdf?raw=true)
 
 ## Minutes
 

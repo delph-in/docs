@@ -1,6 +1,6 @@
 {% raw %}Notes from [Galicia Summit](https://delph-in.github.io/docs/summits/GaliciaSchedule) discussion of serial verb constructions in Thai.
 
-* [Vipasha's slides](https://github.com/delph-in/docs/blob/main/summits/2023/ThaiSVC.pdf)
+* [Vipasha's slides](https://github.com/delph-in/docs/blob/main/summits/2023/ThaiSVC.pdf?raw=true)
 * Scribe: Emily
 
 Dan: VP VP vs. nested structure in the one with the kitchen. Another way you might look for evidence is to consider coordination, where there would be different predictions about what part of that sentence could be coordinated. Can you run to come buy a book and go eat a cookie? If you could, that would strongly favor the left tree.

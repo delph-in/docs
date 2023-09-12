@@ -189,7 +189,7 @@ How to relate morphosyntactic marking of plurality to semantic plurality?
   - [Improving the ERG Semantic Documentation for users](https://delph-in.github.io/docs/summits/Fairhaven2022-ERG-docs)
 - From the [2023 Galicia Summit](https://delph-in.github.io/docs/summits/GaliciaSchedule), June 2023
   
-  - [Possible Insights from a Hierarchy of Construction Types](https://github.com/delph-in/docs/blob/main/summits/2023/petter.pdf)](https://github.com/delph-in/docs/blob/main/summits/2023/petter.pdf)
+  - [Possible Insights from a Hierarchy of Construction Types](https://github.com/delph-in/docs/blob/main/summits/2023/petter.pdf?raw=true)](https://github.com/delph-in/docs/blob/main/summits/2023/petter.pdf)
   - [MRS Design for Light Verb Constructions in the Grammar Matrix](https://delph-in.github.io/docs/summits/GaliciaMrsLvc)
   - [Action Nominals in the Grammar Matrix](https://delph-in.github.io/docs/summits/GaliciaNominalization)
   - [Thai Serial Verb Constructions: an HPSG Implementation and Analysis](https://delph-in.github.io/docs/summits/GaliciaThaiSvc)

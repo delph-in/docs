@@ -1,7 +1,7 @@
 {% raw %}# Multilingual Shapeworld
 
 The language file for the ERG (trunk version) can be found
-[here](https://github.com/AlexKuhnle/ShapeWorld/blob/master/shapeworld/realizers/dmrs/languages/english.json).
+[here](https://github.com/AlexKuhnle/ShapeWorld/blob/master/shapeworld/realizers/dmrs/languages/english.json?raw=true).
 Below an incomplete list of words and constructions which another
 language would ideally provide. Note that not all of the entries are
 required for every data generator.

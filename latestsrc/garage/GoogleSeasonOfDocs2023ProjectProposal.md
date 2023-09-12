@@ -128,7 +128,7 @@ All of the following include the time to learn the tools, read existing document
 *Include here any additional information that is relevant to your proposal.*
 *Previous experience with technical writers or documentation:*
 
-The project organizer has managed documentation and worked with writers for many projects such as the Microsoft .Net Framework, Visual Studio, Microsoft Access, Microsoft Investor (website). He has written documentation for open source projects such as [SWI Prolog](https://www.swi-prolog.org/pldoc/doc_for?object=section(%27packages/mqi.html%27)), [swiplserver](https://www.swi-prolog.org/packages/mqi/prologmqi.html), [InductorHtn](https://github.com/EricZinda/InductorHtn/blob/master/gettingstarted.md), and [Inductor Prolog](https://github.com/EricZinda/InductorProlog/blob/master/gettingstarted.md).
+The project organizer has managed documentation and worked with writers for many projects such as the Microsoft .Net Framework, Visual Studio, Microsoft Access, Microsoft Investor (website). He has written documentation for open source projects such as [SWI Prolog](https://www.swi-prolog.org/pldoc/doc_for?object=section(%27packages/mqi.html%27)), [swiplserver](https://www.swi-prolog.org/packages/mqi/prologmqi.html), [InductorHtn](https://github.com/EricZinda/InductorHtn/blob/master/gettingstarted.md?raw=true), and [Inductor Prolog](https://github.com/EricZinda/InductorProlog/blob/master/gettingstarted.md?raw=true).
 
 *Previous participation in Google Season of Docs, Google Summer of Code or others*
 

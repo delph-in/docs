@@ -1,6 +1,6 @@
 {% raw %}Notes from discussion of action nominalization in the Grammar Matrix at the [Galicia Summit](https://delph-in.github.io/docs/summits/GaliciaSchedule)
 
-* [Keren's slides](https://github.com/delph-in/docs/blob/main/summits/2023/ActionNominalsInTheGrammarMatrix.pdf)
+* [Keren's slides](https://github.com/delph-in/docs/blob/main/summits/2023/ActionNominalsInTheGrammarMatrix.pdf?raw=true)
 * Scribe: Emily
 
 Dan: The ex focused on simple transitive verbs & their nominalizations, but of course there at least examples with three examples:

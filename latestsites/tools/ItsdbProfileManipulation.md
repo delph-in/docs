@@ -79,7 +79,7 @@ Note the difference in the number of @-signs before the word "PET". This shows t
 2@@gcc 3.4@2.0 (19-aug-09; beta)@@PET(tom cheap v0.99.14svn_cm) [... more things here ] @complete
 ```
 
-- Repeat the same process for all the diffs in all your outdated profiles. You need to do this for each item in each relevant file. NB: The SRG `util` folder has [some code which will do this automatically](https://github.com/delph-in/srg/blob/main/util/update_profile.py), given the file name and the positions to insert new columns. 
+- Repeat the same process for all the diffs in all your outdated profiles. You need to do this for each item in each relevant file. NB: The SRG `util` folder has [some code which will do this automatically](https://github.com/delph-in/srg/blob/main/util/update_profile.py?raw=true), given the file name and the positions to insert new columns. 
 - After you've done this for all relevant files, you need you "refresh" the profile using e.g. pydelphin tools:
 
 ```

@@ -4,7 +4,7 @@
 
 **Scriber:** Rosetta Pendleton; I paraphrased a bunch.
 
-**Slides:** [Speeding up the web Questionnaire.pdf](https://github.com/delph-in/docs/blob/main/summits/2022/Speeding%20up%20the%20Web%20Questionnaire.pdf)
+**Slides:** [Speeding up the web Questionnaire.pdf](https://github.com/delph-in/docs/blob/main/summits/2022/Speeding%20up%20the%20Web%20Questionnaire.pdf?raw=true)
 
 **About:** The Matrix Customization system (Web Questionnaire) can be very slow especially when loading a large choices file. There are also some issues about saving progress in between navigating between subsections of the questionnaire. This is a discussion to mitigate these issues.
 

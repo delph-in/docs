@@ -138,7 +138,7 @@ Mandarin, we get exactly what we put in.
 
 David: (On using INDRA and PyDElphin for pos tagging) Used universal POS
 tags and did it through changing
-[labels.tdl](https://github.com/davidmoeljadi/INDRA/blob/master/labels.tdl).
+[labels.tdl](https://github.com/davidmoeljadi/INDRA/blob/master/labels.tdl?raw=true).
 For an ambiguous sentence, we could get more than one set of pos tags.
 If INDRA cannot parse the sentence, we cannot get the pos tags at all.
 
