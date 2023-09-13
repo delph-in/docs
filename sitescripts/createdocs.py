@@ -16,7 +16,7 @@ from marko import Parser
 from marko.ext.gfm import GFM
 from marko.md_renderer import MarkdownRenderer
 from marko.renderer import Renderer
-from marko.inline import Link
+from marko.inline import Link, Image
 import createblanksite
 
 
@@ -147,7 +147,7 @@ def convert_and_copy_doc(repositories_definitions, sites_definitions, pages_defi
 # in the new site structure
 def convert_child(repositories_definitions, pages_definitions, file_definition, node):
     links = []
-    if isinstance(node, Link):
+    if isinstance(node, Link) or isinstance(node, Image):
         link_data = copy.deepcopy(file_definition)
 
         # Remember the original information in the link

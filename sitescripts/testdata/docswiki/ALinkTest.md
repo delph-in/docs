@@ -1,3 +1,6 @@
+![https://github.com/delph-in/erg/blob/main/www/esd/essence/the-cheerful-children-wanted-to-sing-and-dance.png](https://github.com/delph-in/erg/blob/main/www/esd/essence/the-cheerful-children-wanted-to-sing-and-dance.png "https://github.com/delph-in/erg/blob/main/www/esd/essence/the-cheerful-children-wanted-to-sing-and-dance.png")
+
+
 These are all examples of links that appear in the wild in the wiki, some need to be fixed, some are legit.
 
 
@@ -18,6 +21,10 @@ These should stay the same:
 [/delph-in/erg/blob/main/www/esd/the-garden-dog-tried-not-to-bark.png?raw=true](/delph-in/erg/blob/main/www/esd/the-garden-dog-tried-not-to-bark.png?raw=true)
 
 These should get "raw=true" added to its query:
+<img src="https://github.com/delph-in/erg/blob/main/www/esd/essence/the-cheerful-children-wanted-to-sing-and-dance.png" title="https://github.com/delph-in/erg/blob/main/www/esd/essence/the-cheerful-children-wanted-to-sing-and-dance.png" class="external_image" alt="https://github.com/delph-in/erg/blob/main/www/esd/essence/the-cheerful-children-wanted-to-sing-and-dance.png" />
+![https://github.com/delph-in/erg/blob/main/www/esd/essence/the-cheerful-children-wanted-to-sing-and-dance.png](https://github.com/delph-in/erg/blob/main/www/esd/essence/the-cheerful-children-wanted-to-sing-and-dance.png "https://github.com/delph-in/erg/blob/main/www/esd/essence/the-cheerful-children-wanted-to-sing-and-dance.png")
+
+
 [https://github.com/delph-in/erg/blob/main/www/esd/the-garden-dog-tried-not-to-bark.png](https://github.com/delph-in/erg/blob/main/www/esd/the-garden-dog-tried-not-to-bark.png)
 [/delph-in/erg/blob/main/www/esd/the-garden-dog-tried-not-to-bark.png](/delph-in/erg/blob/main/www/esd/the-garden-dog-tried-not-to-bark.png)
 
