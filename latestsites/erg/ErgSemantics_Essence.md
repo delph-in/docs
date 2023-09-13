@@ -47,8 +47,8 @@ as well as others (like relative clauses and certain types of
 comparatives):
 
       (1) The cheerful children wanted to sing and dance.
-<img src="https://github.com/delph-in/erg/blob/main/www/esd/essence/the-cheerful-children-wanted-to-sing-and-dance.png" title="https://github.com/delph-in/erg/blob/main/www/esd/essence/the-cheerful-children-wanted-to-sing-and-dance.png" class="external_image" alt="https://github.com/delph-in/erg/blob/main/www/esd/essence/the-cheerful-children-wanted-to-sing-and-dance.png" />
 
+![https://github.com/delph-in/erg/blob/main/www/esd/essence/the-cheerful-children-wanted-to-sing-and-dance.png](https://github.com/delph-in/erg/blob/main/www/esd/essence/the-cheerful-children-wanted-to-sing-and-dance.png?raw=true "https://github.com/delph-in/erg/blob/main/www/esd/essence/the-cheerful-children-wanted-to-sing-and-dance.png")
 
 In this example, the instance variable *x<sub>6</sub>* (highlighted in
 red) is the first argument of both the (semantics of the) attribute
@@ -80,8 +80,7 @@ of (language-specific) syntax.
       (2h) To Sandy, the book was given by Kim.
       ...
 
-<img src="https://github.com/delph-in/erg/blob/main/www/esd/essence/kim-gave-sandy-the-book.png" title="https://github.com/delph-in/erg/blob/main/www/esd/essence/kim-gave-sandy-the-book.png" class="external_image" alt="https://github.com/delph-in/erg/blob/main/www/esd/essence/kim-gave-sandy-the-book.png" />
-
+![https://github.com/delph-in/erg/blob/main/www/esd/essence/kim-gave-sandy-the-book.png](https://github.com/delph-in/erg/blob/main/www/esd/essence/kim-gave-sandy-the-book.png?raw=true "https://github.com/delph-in/erg/blob/main/www/esd/essence/kim-gave-sandy-the-book.png")
 
 Similar normalization effects are obtained for other constructions, for
 example in (3) and (4) below. Lexical knowledge in the ERG enables the
@@ -99,8 +98,7 @@ the ERS (in red).
       (3a) This technique is impossible to apply.
       (3b) It is impossible to apply this technique.
 
-<img src="https://github.com/delph-in/erg/blob/main/www/esd/essence/this-technique-is-impossible-to-apply.png" title="https://github.com/delph-in/erg/blob/main/www/esd/essence/this-technique-is-impossible-to-apply.png" class="external_image" alt="https://github.com/delph-in/erg/blob/main/www/esd/essence/this-technique-is-impossible-to-apply.png" />
-
+![https://github.com/delph-in/erg/blob/main/www/esd/essence/this-technique-is-impossible-to-apply.png](https://github.com/delph-in/erg/blob/main/www/esd/essence/this-technique-is-impossible-to-apply.png?raw=true "https://github.com/delph-in/erg/blob/main/www/esd/essence/this-technique-is-impossible-to-apply.png")
 
 Another frequent variation in syntactic structure that is normalized at
 the level of ERS pertains to what at times are called restrictive
@@ -113,11 +111,9 @@ example:
       (4c) The dog barking (behind the fence) scared me.
       (4d) The dog I think Kim told to bark scared me.
 
-<img src="https://github.com/delph-in/erg/blob/main/www/esd/essence/the-barking-dog-scared-me.png" title="https://github.com/delph-in/erg/blob/main/www/esd/essence/the-barking-dog-scared-me.png" class="external_image" alt="https://github.com/delph-in/erg/blob/main/www/esd/essence/the-barking-dog-scared-me.png" />
+![https://github.com/delph-in/erg/blob/main/www/esd/essence/the-barking-dog-scared-me.png](https://github.com/delph-in/erg/blob/main/www/esd/essence/the-barking-dog-scared-me.png?raw=true "https://github.com/delph-in/erg/blob/main/www/esd/essence/the-barking-dog-scared-me.png")
 
-
-<img src="https://github.com/delph-in/erg/blob/main/www/esd/essence/the-dog-i-think-kim-told-to-bark-scared-me.png" title="https://github.com/delph-in/erg/blob/main/www/esd/essence/the-dog-i-think-kim-told-to-bark-scared-me.png" class="external_image" alt="https://github.com/delph-in/erg/blob/main/www/esd/essence/the-dog-i-think-kim-told-to-bark-scared-me.png" />
-
+![https://github.com/delph-in/erg/blob/main/www/esd/essence/the-dog-i-think-kim-told-to-bark-scared-me.png](https://github.com/delph-in/erg/blob/main/www/esd/essence/the-dog-i-think-kim-told-to-bark-scared-me.png?raw=true "https://github.com/delph-in/erg/blob/main/www/esd/essence/the-dog-i-think-kim-told-to-bark-scared-me.png")
 
 In the ERS analyses for (4a) through (4d), there will always be an
 instance of the \_bark\_v\_1 relation (albeit with different tense
@@ -186,9 +182,8 @@ associated handle constraints shown in red (*h<sub>6</sub>* and
 *h<sub>8</sub>*) in these ERSs relate the restriction argument of *all*
 to the appropriate elementary predications.
 
-<img src="https://github.com/delph-in/erg/blob/main/www/esd/essence/all-funny-jokes-are-short.png" title="https://github.com/delph-in/erg/blob/main/www/esd/essence/all-funny-jokes-are-short.png" class="external_image" alt="https://github.com/delph-in/erg/blob/main/www/esd/essence/all-funny-jokes-are-short.png" />
-<img src="https://github.com/delph-in/erg/blob/main/www/esd/essence/all-short-jokes-are-funny.png" title="https://github.com/delph-in/erg/blob/main/www/esd/essence/all-short-jokes-are-funny.png" class="external_image" alt="https://github.com/delph-in/erg/blob/main/www/esd/essence/all-short-jokes-are-funny.png" />
-
+![https://github.com/delph-in/erg/blob/main/www/esd/essence/all-funny-jokes-are-short.png](https://github.com/delph-in/erg/blob/main/www/esd/essence/all-funny-jokes-are-short.png?raw=true "https://github.com/delph-in/erg/blob/main/www/esd/essence/all-funny-jokes-are-short.png")
+![https://github.com/delph-in/erg/blob/main/www/esd/essence/all-short-jokes-are-funny.png](https://github.com/delph-in/erg/blob/main/www/esd/essence/all-short-jokes-are-funny.png?raw=true "https://github.com/delph-in/erg/blob/main/www/esd/essence/all-short-jokes-are-funny.png")
 
 In fact, the handle topology is the only difference between these two
 ERSs: They are identical in predicate–argument structure but differ in
@@ -250,8 +245,7 @@ and neg, respectively.
 
       (1) The meteorologist says it probably won't rain.
 
-<img src="https://github.com/delph-in/erg/blob/main/www/esd/essence/the-metereologist-said-it-probably-wont-rain.png" title="https://github.com/delph-in/erg/blob/main/www/esd/essence/the-metereologist-said-it-probably-wont-rain.png" class="external_image" alt="https://github.com/delph-in/erg/blob/main/www/esd/essence/the-metereologist-said-it-probably-wont-rain.png" />
-
+![https://github.com/delph-in/erg/blob/main/www/esd/essence/the-metereologist-said-it-probably-wont-rain.png](https://github.com/delph-in/erg/blob/main/www/esd/essence/the-metereologist-said-it-probably-wont-rain.png?raw=true "https://github.com/delph-in/erg/blob/main/www/esd/essence/the-metereologist-said-it-probably-wont-rain.png")
 
 By using =q constraints rather than direct handle equality, we leave
 open the possibility of quantifiers coming in between scopal operators
@@ -287,11 +281,9 @@ predication:
       (1b) Kim looked the answer up.
       (1c) Kim looked up the chimney.
 
-<img src="https://github.com/delph-in/erg/blob/main/www/esd/essence/kim-looked-up-the-answer.png" title="https://github.com/delph-in/erg/blob/main/www/esd/essence/kim-looked-up-the-answer.png" class="external_image" alt="https://github.com/delph-in/erg/blob/main/www/esd/essence/kim-looked-up-the-answer.png" />
+![https://github.com/delph-in/erg/blob/main/www/esd/essence/kim-looked-up-the-answer.png](https://github.com/delph-in/erg/blob/main/www/esd/essence/kim-looked-up-the-answer.png?raw=true "https://github.com/delph-in/erg/blob/main/www/esd/essence/kim-looked-up-the-answer.png")
 
-
-<img src="https://github.com/delph-in/erg/blob/main/www/esd/essence/kim-looked-up-the-chimney.png" title="https://github.com/delph-in/erg/blob/main/www/esd/essence/kim-looked-up-the-chimney.png" class="external_image" alt="https://github.com/delph-in/erg/blob/main/www/esd/essence/kim-looked-up-the-chimney.png" />
-
+![https://github.com/delph-in/erg/blob/main/www/esd/essence/kim-looked-up-the-chimney.png](https://github.com/delph-in/erg/blob/main/www/esd/essence/kim-looked-up-the-chimney.png?raw=true "https://github.com/delph-in/erg/blob/main/www/esd/essence/kim-looked-up-the-chimney.png")
 
 Similarly, the so-called causative–inchoative alternation gives rise to
 systematic predicate distinctions, corresponding to different usages of,
@@ -312,9 +304,8 @@ specific interpretations, this allows us to differentiate the ARG1 of
 \_break\_v\_cause (roughly, ‘agent’) from ARG1 of \_break\_v\_1
 (roughly, ‘theme’).
 
-<img src="https://github.com/delph-in/erg/blob/main/www/esd/essence/kim-broke-the-window.png" title="https://github.com/delph-in/erg/blob/main/www/esd/essence/kim-broke-the-window.png" class="external_image" alt="https://github.com/delph-in/erg/blob/main/www/esd/essence/kim-broke-the-window.png" />
-<img src="https://github.com/delph-in/erg/blob/main/www/esd/essence/the-window-broke.png" title="https://github.com/delph-in/erg/blob/main/www/esd/essence/the-window-broke.png" class="external_image" alt="https://github.com/delph-in/erg/blob/main/www/esd/essence/the-window-broke.png" />
-
+![https://github.com/delph-in/erg/blob/main/www/esd/essence/kim-broke-the-window.png](https://github.com/delph-in/erg/blob/main/www/esd/essence/kim-broke-the-window.png?raw=true "https://github.com/delph-in/erg/blob/main/www/esd/essence/kim-broke-the-window.png")
+![https://github.com/delph-in/erg/blob/main/www/esd/essence/the-window-broke.png](https://github.com/delph-in/erg/blob/main/www/esd/essence/the-window-broke.png?raw=true "https://github.com/delph-in/erg/blob/main/www/esd/essence/the-window-broke.png")
 
 # Further ERS Contents
 
