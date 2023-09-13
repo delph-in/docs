@@ -21,7 +21,7 @@ These should stay the same:
 [/delph-in/erg/blob/main/www/esd/the-garden-dog-tried-not-to-bark.png?raw=true](/delph-in/erg/blob/main/www/esd/the-garden-dog-tried-not-to-bark.png?raw=true)
 
 These should get "raw=true" added to its query:
-<img src="https://github.com/delph-in/erg/blob/main/www/esd/essence/the-cheerful-children-wanted-to-sing-and-dance.png" title="https://github.com/delph-in/erg/blob/main/www/esd/essence/the-cheerful-children-wanted-to-sing-and-dance.png" class="external_image" alt="https://github.com/delph-in/erg/blob/main/www/esd/essence/the-cheerful-children-wanted-to-sing-and-dance.png" />
+markdown images are in the form: ![alt text](Isolated.png "Title")
 ![https://github.com/delph-in/erg/blob/main/www/esd/essence/the-cheerful-children-wanted-to-sing-and-dance.png](https://github.com/delph-in/erg/blob/main/www/esd/essence/the-cheerful-children-wanted-to-sing-and-dance.png "https://github.com/delph-in/erg/blob/main/www/esd/essence/the-cheerful-children-wanted-to-sing-and-dance.png")
 
 
