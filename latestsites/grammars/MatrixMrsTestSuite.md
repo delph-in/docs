@@ -14,7 +14,7 @@ tsdb()\]](http://www.delph-in.net/itsdb) software package):
 - [Norwegian](https://delph-in.github.io/docs/grammars/MatrixMrsTestSuiteNo)
 - [Greek](https://delph-in.github.io/docs/grammars/MatrixMrsTestSuiteGr)
 - [French](https://delph-in.github.io/docs/grammars/MatrixMrsTestSuiteFr)
-- [Spanish](/MatrixMrsTestSuiteEs)
+- [Spanish](https://github.com/delph-in/srg/blob/main/tsdb/txt-id/mrs/mrs-updated.txt?raw=true)
 - [German](https://delph-in.github.io/docs/grammars/MatrixMrsTestSuiteDe)
 - [Swedish](https://delph-in.github.io/docs/grammars/MatrixMrsTestSuiteSv)
 - [Mandarin](https://delph-in.github.io/docs/grammars/MatrixMrsTestSuiteZhTw) (Taiwan; Traditional characters)
@@ -434,4 +434,4 @@ English
 - Similar constructions that aren't translations end with X\[6-9\].
   - This may have a different MRS, but a similar phenomenon.
 
-Last update: 2021-09-15 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/MatrixMrsTestSuite/_edit)]{% endraw %}
+Last update: 2023-09-21 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/MatrixMrsTestSuite/_edit)]{% endraw %}
