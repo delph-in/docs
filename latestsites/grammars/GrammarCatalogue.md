@@ -10,7 +10,7 @@ generating metadata.
 | [English Resource Grammar (ERG)](https://delph-in.github.io/docs/grammars/GrammarCatalogue#ERG)                  | English                                                | DanFlickinger                        |
 | [Jacy Japanese Grammar (Jacy)](https://delph-in.github.io/docs/grammars/GrammarCatalogue#Jacy)                   | Japanese                                               | FrancisBond                            |
 | [GG](https://delph-in.github.io/docs/grammars/GrammarCatalogue#GG)                                               | German                                                 |                                                       |
-| [SRG](https://delph-in.github.io/docs/grammars/GrammarCatalogue#SRG)                                             | Spanish                                                | [MontserratMarimon](/MontserratMarimon)               |
+| [SRG](https://delph-in.github.io/docs/grammars/GrammarCatalogue#SRG)                                             | Spanish                                                | [OlgaZamaraeva](/MontserratMarimon)               |
 | [PorGram](https://delph-in.github.io/docs/grammars/GrammarCatalogue#PorGram)                                     | Portuguese                                             | [Alexandre Rademaker](https://github.com/arademaker/) |
 | [LXGram](https://delph-in.github.io/docs/grammars/GrammarCatalogue#LXGram)                                       | Portuguese                                             | AntonioBranco                        |
 | [KRG](https://delph-in.github.io/docs/grammars/GrammarCatalogue#KRG)                                             | Korean                                                 | JongBokKim                              |
@@ -618,4 +618,4 @@ to this:
 
      grammar_metrics=$(mktemp -p ./)
 
-Last update: 2023-06-26 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/GrammarCatalogue/_edit)]{% endraw %}
+Last update: 2023-09-22 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/GrammarCatalogue/_edit)]{% endraw %}
