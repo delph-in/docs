@@ -674,6 +674,21 @@ in assets/render.js:</p>
 
 <p>The code can be found on github: <a href="https://github.com/fcbond/ltdb">https://github.com/fcbond/ltdb</a></p>
 
+<h3 id="flask-branch-installation-instructions-use-this-unless-you-know-what-you-are-doing">Flask branch installation instructions (use this unless you know what you are doing)</h3>
+
+<ul>
+  <li>Checkout the flask branch and switch to it</li>
+  <li>Run <code class="language-plaintext highlighter-rouge">./deploy.sh</code></li>
+  <li>Check that the database works: copy the local address from the terminal output and open it in the browser (Firefox recommended). You should be able to then use the ERG and the PorGram databases which come with the repository.</li>
+  <li>Move any treebanks you would like to include under <code class="language-plaintext highlighter-rouge">your/grammar/tsdb/gold/</code></li>
+  <li>If you want to build your own database: create a virtual environment, activate it, and install <code class="language-plaintext highlighter-rouge">pydelphin</code></li>
+  <li>Build your database: navigate to <code class="language-plaintext highlighter-rouge">scripts</code> and run <code class="language-plaintext highlighter-rouge">python3 grm2db.py your/grammar/METADATA</code> (you should have a <code class="language-plaintext highlighter-rouge">METADATA file</code>; model it on the PorGram one, for example)</li>
+  <li>The database gets saved under <code class="language-plaintext highlighter-rouge">/tmp/some-temporary-filename</code>. You should copy or move it from there to <code class="language-plaintext highlighter-rouge">web/db/</code> (where the other grammars are).</li>
+  <li>Now if you refresh your browser window, you should be able to see your database under the options.</li>
+</ul>
+
+<h3 id="main-branch-installation-instructions-may-be-outdated">Main branch installation instructions (may be outdated?..)</h3>
+
 <p>There is a README file that describes how to build the database. The
 code makes certain assumptions:</p>
 
@@ -749,7 +764,7 @@ Corpora (LINC-2005), 31–40, Cheju, Korea.</li>
   </li>
 </ul>
 
-<p>Last update: 2021-06-03 by Olga Zamaraeva [<a href="https://github.com/delph-in/docs/wiki/LkbLtdb/_edit">edit</a>]</p>
+<p>Last update: 2023-10-23 by Olga Zamaraeva [<a href="https://github.com/delph-in/docs/wiki/LkbLtdb/_edit">edit</a>]</p>
 
         
       </section>

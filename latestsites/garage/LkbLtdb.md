@@ -113,6 +113,19 @@ in assets/render.js:
 
 The code can be found on github: <https://github.com/fcbond/ltdb>
 
+### Flask branch installation instructions (use this unless you know what you are doing)
+
+- Checkout the flask branch and switch to it
+- Run `./deploy.sh`
+- Check that the database works: copy the local address from the terminal output and open it in the browser (Firefox recommended). You should be able to then use the ERG and the PorGram databases which come with the repository.
+- Move any treebanks you would like to include under `your/grammar/tsdb/gold/`
+- If you want to build your own database: create a virtual environment, activate it, and install `pydelphin`
+- Build your database: navigate to `scripts` and run `python3 grm2db.py your/grammar/METADATA` (you should have a `METADATA file`; model it on the PorGram one, for example)
+- The database gets saved under `/tmp/some-temporary-filename`. You should copy or move it from there to `web/db/` (where the other grammars are).
+- Now if you refresh your browser window, you should be able to see your database under the options.
+
+### Main branch installation instructions (may be outdated?..)
+
 There is a README file that describes how to build the database. The
 code makes certain assumptions:
 
@@ -171,4 +184,4 @@ Corpora (LINC-2005), 31--40, Cheju, Korea.
   - link to some running Lexical Type Databases (like
 [this](https://delph-in.github.io/docs/grammars/JacyLexTypes))
 
-Last update: 2021-06-03 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/LkbLtdb/_edit)]{% endraw %}
+Last update: 2023-10-23 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/LkbLtdb/_edit)]{% endraw %}
