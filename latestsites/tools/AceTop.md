@@ -1,7 +1,7 @@
 {% raw %}
 ACE (the Answer Constraint Engine) is a processor for DELPH-IN grammars,
 supporting both parsing and generation. ACE was written by and is
-maintained by [WoodleyPackard](/WoodleyPackard), and is distributed as
+maintained by Woodley Packard, and is distributed as
 free software under the MIT license. This page serves to link to the
 following pages:
 
@@ -35,4 +35,4 @@ interested parties, e.g. the (unstable) development trunk:
 
       svn co http://sweaglesw.org/svn/ace/trunk ace
 
-Last update: 2022-07-22 by Francis Bond [[edit](https://github.com/delph-in/docs/wiki/AceTop/_edit)]{% endraw %}
+Last update: 2023-12-12 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/AceTop/_edit)]{% endraw %}
