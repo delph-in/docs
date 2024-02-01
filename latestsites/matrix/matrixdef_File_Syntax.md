@@ -1,4 +1,4 @@
-{% raw %}**matrixdef File Syntax**
+{% raw %}# matrixdef File Syntax
 
 The file matrixdef defines the Matrix customization web interface,
 specifically the form fields that appear, their possible values, and the
@@ -38,13 +38,13 @@ The last three parts of a form field definition are irrelevant for
 keywords Section and Label, and the last, Width, is only relevant only
 the Text keyword. Irrelevant parts of a definition are ignored.
 
-**Section, Label, and Separator**
+## Section, Label, and Separator
 
 Section produces a heading in the HTML file. Label allows arbitrary HTML
 to be added to the page, such as notes or labels. Separator adds a
 horizontal line across the page.
 
-**Check**
+## Check
 
 Checkboxes are boolean (yes/no) choices for the user-linguist to choose.
 They are defined as follows:
@@ -60,7 +60,7 @@ for this is as follows:
 
 Check variable-name "friendly\_name" "HTML before" "HTML after" \["Javascript onclick" \["VariableName1ToSwitchOn"\[\|"VariableName2ToSwitchOn"\]\]\] 
 
-**Iterables**
+## Iterables
 
 Iterables define a section of choices that can be entered multiple times
 by a user. A button which copies the definition of choices within an
@@ -128,7 +128,7 @@ Note that if an iterable is activated by some choice, filled out, and
 then the choice that it switches on is deactivated, the iterable and its
 data will be lost. This is intended behavior.
 
-**Radio Buttons**
+## Radio Buttons
 
 Radio buttons have additional syntax associated with them. Whereas the
 other form field definitions consist of single lines separated by blank
@@ -165,7 +165,7 @@ for this is as follows:
 
 Radio variable-name "friendly\_name" "HTML before" "HTML after" \["VariableName1ToSwitchOn"\|"VariableName2ToSwitchOn"\] 
 
-**Select and Multiselect**
+## Select and Multiselect
 
 Select creates drop-downs via HTML select elements. A Select element
 must be followed by one or more lines specifying the values in the
@@ -190,7 +190,7 @@ e.g., fillregex p=number\[0-9\]+\_name n=1, where the arguments in this
 example are p=pattern and n=1. Possible arguments are defined in
 deffile.py.
 
-**Text and [TextArea](/TextArea)**
+## Text and [TextArea](/TextArea)
 
 Text inserts a small text input box, while TextArea inserts a larger
 one. The syntax is as follows:
@@ -204,21 +204,21 @@ There is also an OnChange flag that allows [JavaScript](/JavaScript) to
 be associated with the OnChange event of the text field (that is, code
 that is executed when the text box changes).
 
-**Hidden**
+## Hidden
 
 Add information to the HTML page hidden from the user, such as text to
 be shown via some [JavaScript](/JavaScript) interactivity or
 [JavaScript](/JavaScript).
 
-**File**
+## File
 
 Define a file to be uploaded.
 
-**Button**
+## Button
 
 Define a button with a [JavaScript](/JavaScript) handler attached.
 
-**Fill commands**
+## Fill commands
 
 The possible fill commands are as follows:
 
@@ -243,7 +243,14 @@ and MultiSelect blocks:
       . tverb "Any transitive verb" "any transitive verb"
       . aux "Any auxiliary verb" "any auxiliary verb"
 
-**Choice Caching**
+### Examples
+
+fillvalues p=nominalization l=1 
+
+(this will give you a dropdown with only values from the Nominalization
+page).
+
+## Choice Caching
 
 A questionnaire page does not have direct access to the choices file or
 other questionnaire subpages, so if you need values from other pages you
@@ -264,7 +271,7 @@ following:
 
         Cache nouns noun[0-9]+$ name
 
-**Toggling an element on a choice**
+## Toggling an element on a choice
 
 As described above, several of the UI elements can automatically be
 toggled on or off given a choice on another subpage. The functionality
@@ -302,14 +309,7 @@ will be lost (**on loading the page they are from**). This is intended
 behavior. Ideally, the choice would be removed in any case, but this is
 future work.
 
-### Examples
-
-fillvalues p=nominalization l=1 
-
-(this will give you a dropdown with only values from the Nominalization
-page).
-
-### Common mistakes
+## Common mistakes
 
 - Using the same loop name for
 [BeginInter/EndIter](/BeginInter/EndIter) will lead to an error. If
@@ -337,4 +337,4 @@ at the end:
 
         Radio neg-infl-type "Negative inflection type" "On: "
 
-Last update: 2022-09-14 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/matrixdef_File_Syntax/_edit)]{% endraw %}
+Last update: 2024-01-31 by taraw28 [[edit](https://github.com/delph-in/docs/wiki/matrixdef_File_Syntax/_edit)]{% endraw %}

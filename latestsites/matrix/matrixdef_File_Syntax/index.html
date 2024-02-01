@@ -487,7 +487,7 @@
 
       <section class="page__content e-content" itemprop="text">
         
-        <p><strong>matrixdef File Syntax</strong></p>
+        <h1 id="matrixdef-file-syntax">matrixdef File Syntax</h1>
 
 <p>The file matrixdef defines the Matrix customization web interface,
 specifically the form fields that appear, their possible values, and the
@@ -529,13 +529,13 @@ sometimes onClick. See below for details.</li>
 keywords Section and Label, and the last, Width, is only relevant only
 the Text keyword. Irrelevant parts of a definition are ignored.</p>
 
-<p><strong>Section, Label, and Separator</strong></p>
+<h2 id="section-label-and-separator">Section, Label, and Separator</h2>
 
 <p>Section produces a heading in the HTML file. Label allows arbitrary HTML
 to be added to the page, such as notes or labels. Separator adds a
 horizontal line across the page.</p>
 
-<p><strong>Check</strong></p>
+<h2 id="check">Check</h2>
 
 <p>Checkboxes are boolean (yes/no) choices for the user-linguist to choose.
 They are defined as follows:</p>
@@ -551,7 +551,7 @@ for this is as follows:</p>
 
 <p>Check variable-name ”friendly_name” ”HTML before” ”HTML after” [“Javascript onclick” [“VariableName1ToSwitchOn”[|“VariableName2ToSwitchOn”]]] </p>
 
-<p><strong>Iterables</strong></p>
+<h2 id="iterables">Iterables</h2>
 
 <p>Iterables define a section of choices that can be entered multiple times
 by a user. A button which copies the definition of choices within an
@@ -628,7 +628,7 @@ iterable will appear, else, it will not.</p>
 then the choice that it switches on is deactivated, the iterable and its
 data will be lost. This is intended behavior.</p>
 
-<p><strong>Radio Buttons</strong></p>
+<h2 id="radio-buttons">Radio Buttons</h2>
 
 <p>Radio buttons have additional syntax associated with them. Whereas the
 other form field definitions consist of single lines separated by blank
@@ -668,7 +668,7 @@ for this is as follows:</p>
 
 <p>Radio variable-name ”friendly_name” ”HTML before” ”HTML after” [“VariableName1ToSwitchOn”|“VariableName2ToSwitchOn”] </p>
 
-<p><strong>Select and Multiselect</strong></p>
+<h2 id="select-and-multiselect">Select and Multiselect</h2>
 
 <p>Select creates drop-downs via HTML select elements. A Select element
 must be followed by one or more lines specifying the values in the
@@ -700,7 +700,7 @@ e.g., fillregex p=number[0-9]+_name n=1, where the arguments in this
 example are p=pattern and n=1. Possible arguments are defined in
 deffile.py.</p>
 
-<p><strong>Text and <a href="/TextArea">TextArea</a></strong></p>
+<h2 id="text-and-textarea">Text and <a href="/TextArea">TextArea</a></h2>
 
 <p>Text inserts a small text input box, while TextArea inserts a larger
 one. The syntax is as follows:</p>
@@ -715,21 +715,21 @@ length, in characters, of the input.</p>
 be associated with the OnChange event of the text field (that is, code
 that is executed when the text box changes).</p>
 
-<p><strong>Hidden</strong></p>
+<h2 id="hidden">Hidden</h2>
 
 <p>Add information to the HTML page hidden from the user, such as text to
 be shown via some <a href="/JavaScript">JavaScript</a> interactivity or
 <a href="/JavaScript">JavaScript</a>.</p>
 
-<p><strong>File</strong></p>
+<h2 id="file">File</h2>
 
 <p>Define a file to be uploaded.</p>
 
-<p><strong>Button</strong></p>
+<h2 id="button">Button</h2>
 
 <p>Define a button with a <a href="/JavaScript">JavaScript</a> handler attached.</p>
 
-<p><strong>Fill commands</strong></p>
+<h2 id="fill-commands">Fill commands</h2>
 
 <p>The possible fill commands are as follows:</p>
 
@@ -785,7 +785,14 @@ and MultiSelect blocks:</p>
   . aux "Any auxiliary verb" "any auxiliary verb"
 </code></pre></div></div>
 
-<p><strong>Choice Caching</strong></p>
+<h3 id="examples">Examples</h3>
+
+<p>fillvalues p=nominalization l=1 </p>
+
+<p>(this will give you a dropdown with only values from the Nominalization
+page).</p>
+
+<h2 id="choice-caching">Choice Caching</h2>
 
 <p>A questionnaire page does not have direct access to the choices file or
 other questionnaire subpages, so if you need values from other pages you
@@ -808,7 +815,7 @@ following:</p>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    Cache nouns noun[0-9]+$ name
 </code></pre></div></div>
 
-<p><strong>Toggling an element on a choice</strong></p>
+<h2 id="toggling-an-element-on-a-choice">Toggling an element on a choice</h2>
 
 <p>As described above, several of the UI elements can automatically be
 toggled on or off given a choice on another subpage. The functionality
@@ -848,14 +855,7 @@ will be lost (<strong>on loading the page they are from</strong>). This is inten
 behavior. Ideally, the choice would be removed in any case, but this is
 future work.</p>
 
-<h3 id="examples">Examples</h3>
-
-<p>fillvalues p=nominalization l=1 </p>
-
-<p>(this will give you a dropdown with only values from the Nominalization
-page).</p>
-
-<h3 id="common-mistakes">Common mistakes</h3>
+<h2 id="common-mistakes">Common mistakes</h2>
 
 <ul>
   <li>Using the same loop name for
@@ -887,7 +887,7 @@ at the end:</li>
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>    Radio neg-infl-type "Negative inflection type" "On: "
 </code></pre></div></div>
 
-<p>Last update: 2022-09-14 by EricZinda [<a href="https://github.com/delph-in/docs/wiki/matrixdef_File_Syntax/_edit">edit</a>]</p>
+<p>Last update: 2024-01-31 by taraw28 [<a href="https://github.com/delph-in/docs/wiki/matrixdef_File_Syntax/_edit">edit</a>]</p>
 
         
       </section>
