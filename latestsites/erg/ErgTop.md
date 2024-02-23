@@ -14,7 +14,7 @@ You can get started quickly with a local compiled copy of the ERG and the ACE pa
 
 - The most recent stable version of the ERG:
   
-       $ svn checkout http://svn.delph-in.net/erg/tags/2020
+       $ svn checkout http://svn.delph-in.net/erg/tags/2023
 - The latest version of the ERG grammar files:
   
        $ svn checkout http://svn.delph-in.net/erg/trunk
@@ -145,4 +145,4 @@ Computational Linguistics.
 Yao, X., Bouma, G., & Zhang, Y. (2012). Semantics-based question
 generation and implementation. Dialogue & Discourse, 3(2), 11-42.
 
-Last update: 2023-01-05 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/ErgTop/_edit)]{% endraw %}
+Last update: 2024-02-22 by Dan Flickinger [[edit](https://github.com/delph-in/docs/wiki/ErgTop/_edit)]{% endraw %}

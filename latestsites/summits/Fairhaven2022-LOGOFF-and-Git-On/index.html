@@ -1229,9 +1229,9 @@ For currently inactive projects, or ones that do not require much support, Steph
 <h2 id="identifying-authors">Identifying Authors</h2>
 
 <div class="language-console highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gp">$</span><span class="w"> </span>svn log <span class="nt">--quiet</span> http://svn.delph-in.net/ <span class="se">\</span>
-  | <span class="nb">grep</span> <span class="s1">'^r[0-9]'</span> | <span class="nb">cut</span> <span class="nt">-d</span><span class="s1">'|'</span> <span class="nt">-f2</span> | <span class="nb">sed</span> <span class="nt">-e</span> <span class="s1">'s/^ *//'</span> <span class="nt">-e</span> <span class="s1">'s/ *$//'</span> <span class="se">\</span>
-  | <span class="nb">sort</span> | <span class="nb">uniq</span> <span class="nt">-c</span> | <span class="nb">sort</span> <span class="nt">-nk1</span> <span class="se">\</span>
-  <span class="o">&gt;</span> authors.txt
+<span class="gp">  | grep '^r[0-9]' | cut -d'|' -f2 | sed -e 's/^ *//' -e 's/ *$</span>//<span class="s1">' \
+</span><span class="go">  | sort | uniq -c | sort -nk1 \
+</span><span class="gp">  &gt;</span><span class="w"> </span>authors.txt
 </code></pre></div></div>
 
 <p>(email addresses have been partially redacted)</p>
