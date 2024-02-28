@@ -477,7 +477,7 @@
       {"Section": "Summits", "Pages": [
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "SummitTop.md", "Referrer": "summits/BellinghamTop.md"}
       ]},
-      {"Section": "Galicia 2023", "Pages": [
+      {"Section": "Olomouc 2024", "Pages": [
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "OlomoucTop.md"},
         {"Page": "Participants", "SrcDir": "docswiki", "SrcFile": "OlomoucParticipants.md"}
       ]},
