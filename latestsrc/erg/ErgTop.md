@@ -15,6 +15,10 @@ You can get started quickly with a local compiled copy of the ERG and the ACE pa
 - The most recent stable version of the ERG:
   
        $ svn checkout http://svn.delph-in.net/erg/tags/2023
+- To compile it into a grammar that the ACE parser can use, follow that with:
+  
+       $ cd 2023/ace
+       $ ace -G grammar.dat -g ./config.tdl
 - The latest version of the ERG grammar files:
   
        $ svn checkout http://svn.delph-in.net/erg/trunk
@@ -145,4 +149,4 @@ Computational Linguistics.
 Yao, X., Bouma, G., & Zhang, Y. (2012). Semantics-based question
 generation and implementation. Dialogue & Discourse, 3(2), 11-42.
 
-Last update: 2024-02-22 by Dan Flickinger [[edit](https://github.com/delph-in/docs/wiki/ErgTop/_edit)]{% endraw %}
+Last update: 2024-02-27 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/ErgTop/_edit)]{% endraw %}
