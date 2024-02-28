@@ -24,7 +24,7 @@ best practice.
 
 ## Previous and Future Meetings
 
-- 2024 — 20th Summit: Olomouc (July 01-05, co-located with HPSG 08-10)
+- 2024 — 20th Summit: [Olomouc](https://delph-in.github.io/docs/summits/OlomoucTop) (July 01-05, co-located with HPSG 08-10)
 - 2023 — 19th Summit: [Galicia/A Coruña](https://delph-in.github.io/docs/summits/GaliciaTop) (June 26-30)
 - 2022 — 18th Summit: [Bellingham/Fairhaven](https://delph-in.github.io/docs/summits/FairhavenTop) (July 18-22)
 - 2021 — 17th Summit: [Virtual](https://delph-in.github.io/docs/summits/Virtual2021Top) (July 19-23)

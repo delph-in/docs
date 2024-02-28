@@ -20,6 +20,12 @@ toc:
     children:
       - title: "Overview"
         url: "/SummitTop/"
+  - title: "Olomouc 2024"
+    children:
+      - title: "Overview"
+        url: "/OlomoucTop/"
+      - title: "Participants"
+        url: "/OlomoucParticipants/"
   - title: "Galicia 2023"
     children:
       - title: "Overview"

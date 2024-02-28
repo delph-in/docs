@@ -334,11 +334,5 @@
         {"Page": "GeFaqWordNotInChart", "SrcDir": "docswiki", "SrcFile": "GeFaqWordNotInChart.md", "BaseReferrer": "matrix/GrammarEngineeringFAQ.md", "Referrer": "matrix/GrammarEngineeringFAQ.md", "FileMissing": true},
         {"Page": "GeFaqWordToWordRule", "SrcDir": "docswiki", "SrcFile": "GeFaqWordToWordRule.md", "BaseReferrer": "matrix/GrammarEngineeringFAQ.md", "Referrer": "matrix/GrammarEngineeringFAQ.md", "FileMissing": true}
       ]}
-    ],
-    "summits": [
-      {"Section": "Summits", "Pages": [
-        {"Page": "OlomoucParticipants", "SrcDir": "docswiki", "SrcFile": "OlomoucParticipants.md", "BaseReferrer": "summits/SummitTop.md", "Referrer": "summits/OlomoucTop.md"},
-        {"Page": "OlomoucTop", "SrcDir": "docswiki", "SrcFile": "OlomoucTop.md", "BaseReferrer": "summits/SummitTop.md", "Referrer": "summits/SummitTop.md"}
-      ]}
     ]
   }
