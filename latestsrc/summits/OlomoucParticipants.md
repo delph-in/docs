@@ -14,5 +14,6 @@ Please add times **in UTC**:
 -------|------ | ----- | ---------|
 |Francis Bond|July 1-5 | in person, 8:00-17:00 UTC |I hope to see you at HPSG too|
 |Joann Sio|July 1-5 | in person, 8:00-17:00 UTC |Welcome to Olomouc|
+|Alexandre Rademaker|July 1-5 | in person, 8:00-17:00 UTC |I hope to be at HPSG too|
 
-Last update: 2024-02-28 by Francis Bond [[edit](https://github.com/delph-in/docs/wiki/OlomoucParticipants/_edit)]{% endraw %}
+Last update: 2024-02-28 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/OlomoucParticipants/_edit)]{% endraw %}
