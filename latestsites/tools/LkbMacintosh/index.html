@@ -607,44 +607,16 @@
         
         <h1 id="running-the-lkb-on-macos">Running the LKB on macOS</h1>
 
-<p>There are three recommended ways of running the LKB on macOS: the first
-is to use ‘LKB-FOS’ (the fully open source version of the LKB); the
-other two involve running a Linux version of the LKB in a virtual
-machine.</p>
+<p>There are three recommended ways of running the LKB on macOS. The first is to use <a href="https://delph-in.github.io/docs/tools/LkbFos">LkbFos</a>.</p>
 
-<p>LKB-FOS is based on the version of the LKB that has been developed over
-the past several years in Allegro CL on Linux. There are currently
-pre-built native binaries of LKB-FOS for macOS and Linux. See
-<a href="https://delph-in.github.io/docs/tools/LkbFos">LkbFos</a> for more information and installation instructions.</p>
-
-<p>An alternative approach is to run a Linux version of the LKB in a
-virtual machine. The most convenient way to to this is with
-<a href="https://wiki.ling.washington.edu/bin/view.cgi/Main/KnoppixLKB">Ubuntu+LKB</a>,
-a <a href="http://www.virtualbox.org/">VirtualBox</a> appliance based on Ubuntu
+<p>The other two involve running a Linux version of the LKB in a virtual machine. The most convenient way to do this is with <a href="https://wiki.ling.washington.edu/bin/view.cgi/Main/KnoppixLKB">Ubuntu+LKB</a>, a <a href="http://www.virtualbox.org/">VirtualBox</a> appliance based on Ubuntu
 Linux.</p>
 
-<p>If you want to run the full <a href="http://www.emmtee.net/">LOGON</a> software
-infrastructure, including the LKB, <a href="http://www.delph-in.net/itsdb">[incr
-tsdb()]</a> and associated tools, you
-should use a different virtual machine approach. This is based on
-<em>Docker</em>. Since Docker VMs are minimal and headless, the graphical
-display needs to be redirected to an X11 server (<em>XQuartz</em>) on your
-macOS machine. Lluís Padró has kindly created a Linux image with all
-LOGON requirements (which are basically <em>emacs</em>, plus some X11 and
-rendering libraries) and a script that takes care of the needed display
-redirections and volume mappings. The
-<a href="http://www.cs.upc.edu/~padro/docker-logon.tgz">download</a> contains the
-Linux image, the dockerfile to re-create it (not needed, but helpful if
-you want to re-create the image yourself), the script to launch the VM,
-and a README explaining it all. Although this approach works quite well,
-note that the VM session often does not survive if the machine running
-it goes to sleep.</p>
+<p>If you want to run the full <a href="http://www.emmtee.net/">LOGON</a> software infrastructure, including the LKB, [[incr tsdb()] (http://www.delph-in.net/itsdb) and associated tools, you should use a different virtual machine approach. This is based on <em>Docker</em>. Since Docker VMs are minimal and headless, the graphical display needs to be redirected to an X11 server (<em>XQuartz</em>) on your macOS machine. Lluís Padró has kindly created a Linux image with all LOGON requirements (which are basically <em>emacs</em>, plus some X11 and rendering libraries) and a script that takes care of the needed display redirections and volume mappings. The <a href="http://www.cs.upc.edu/~padro/docker-logon.tgz">download</a> contains the Linux image, the dockerfile to re-create it (not needed, but helpful if you want to re-create the image yourself), the script to launch the VM, and a README explaining it all. Although this approach works quite well, note that the VM session often does not survive if the machine running it goes to sleep.</p>
 
-<p>An updated version of the Docker-based approach created by Lluís Padró
-is available <a href="https://github.com/arademaker/docker-logon">here</a>, this
-version is maintained by AlexandreRademaker.</p>
+<p>An updated version of the Docker-based approach created by Lluís Padró is available <a href="https://github.com/arademaker/docker-logon">here</a>, this version is maintained by <a href="https://github.com/arademaker">@arademaker</a>.</p>
 
-<p>Last update: 2019-01-29 by AlexandreRademaker [<a href="https://github.com/delph-in/docs/wiki/LkbMacintosh/_edit">edit</a>]</p>
+<p>Last update: 2024-03-26 by Alexandre Rademaker [<a href="https://github.com/delph-in/docs/wiki/LkbMacintosh/_edit">edit</a>]</p>
 
         
       </section>

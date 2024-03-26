@@ -1,0 +1,3 @@
+{% raw %}... Placeholder for Olomouc Schedule ...
+
+Last update: 2024-03-26 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/OlomoucSchedule/_edit)]{% endraw %}

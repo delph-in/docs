@@ -26,6 +26,8 @@ toc:
         url: "/OlomoucTop/"
       - title: "Participants"
         url: "/OlomoucParticipants/"
+      - title: "Schedule"
+        url: "/OlomoucSchedule/"
   - title: "Galicia 2023"
     children:
       - title: "Overview"

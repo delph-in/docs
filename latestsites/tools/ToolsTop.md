@@ -85,9 +85,9 @@ DELPH-IN systems and think might be worth sharing, list it here.
 - http://github.com/delph-in/homebrew-delphin
   
   Homebrew package repository (tap) of DELPH-IN tools, including ACE and PyDelphin.
-- https://github.com/own-pt/docker-delphin
+- https://github.com/LR-POR/delphin-docker
   
-  A docker installation of LOGON and ACE and its dependents. Some improvements over the initial [LkbMacintosh](/delph-in/docs/wiki/LkbMacintosh).
+  This is a docker installation of LOGON, ACE, and its dependents. It has some improvements over the initial [LkbMacintosh](/delph-in/docs/wiki/LkbMacintosh).
 - [Heart of Gold](https://delph-in.github.io/docs/garage/HeartofgoldTop): XML-based middleware for the integration of deep and shallow NLP components
 
-Last update: 2023-01-17 by T.J. Trimble [[edit](https://github.com/delph-in/docs/wiki/ToolsTop/_edit)]{% endraw %}
+Last update: 2024-03-26 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/ToolsTop/_edit)]{% endraw %}

@@ -18,5 +18,7 @@ Please add times **in UTC**:
 |Olga Zamaraeva|July 1-5 | in person | Also hope to be there for HPSG|
 |John Carroll|July 1-5 | in person | |
 |Ann Copestake|July 1-5 | in person | |
+|Guy Emerson|July 1-5|in person||
+|Eric Zinda|July 1-5|in person||
 
-Last update: 2024-02-29 by anncopestake [[edit](https://github.com/delph-in/docs/wiki/OlomoucParticipants/_edit)]{% endraw %}
+Last update: 2024-03-25 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/OlomoucParticipants/_edit)]{% endraw %}
