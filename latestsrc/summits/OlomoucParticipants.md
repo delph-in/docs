@@ -13,12 +13,14 @@ Please add times **in UTC**:
 | Name | Dates | Mode (Virtual/In-Person) | Comments |
 -------|------ | ----- | ---------|
 |Francis Bond|July 1-5 | in person, 8:00-17:00 UTC |I hope to see you at HPSG too|
-|Joann Sio|July 1-5 | in person, 8:00-17:00 UTC |Welcome to Olomouc|
+|Joanna Sio|July 1-5 | in person, 8:00-17:00 UTC |Welcome to Olomouc|
 |Alexandre Rademaker|July 1-5 | in person, 8:00-17:00 UTC |I hope to be at HPSG too|
 |Olga Zamaraeva|July 1-5 | in person | Also hope to be there for HPSG|
 |John Carroll|July 1-5 | in person | |
 |Ann Copestake|July 1-5 | in person | |
 |Guy Emerson|July 1-5|in person||
 |Eric Zinda|July 1-5|in person||
+|Emily M. Bender|July 1-5|in person | also HPSG! |
+|Luis Morgado da Costa|July 1-5|in person | and a couple days before and after |
 
-Last update: 2024-03-25 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/OlomoucParticipants/_edit)]{% endraw %}
+Last update: 2024-04-09 by lmorgadodacosta [[edit](https://github.com/delph-in/docs/wiki/OlomoucParticipants/_edit)]{% endraw %}
