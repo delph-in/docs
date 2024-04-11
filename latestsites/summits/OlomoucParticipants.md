@@ -22,5 +22,8 @@ Please add times **in UTC**:
 |Eric Zinda|July 1-5|in person||
 |Emily M. Bender|July 1-5|in person | also HPSG! |
 |Luis Morgado da Costa|July 1-5|in person | and a couple days before and after |
+|Chris Curtis|July 1-5|in person...?||
+|Sanghoun Song|July 1-5|in person||
+|Kangsan Noh|July 1-5|in person | also HPSG |
 
-Last update: 2024-04-09 by lmorgadodacosta [[edit](https://github.com/delph-in/docs/wiki/OlomoucParticipants/_edit)]{% endraw %}
+Last update: 2024-04-11 by sanghoun [[edit](https://github.com/delph-in/docs/wiki/OlomoucParticipants/_edit)]{% endraw %}
