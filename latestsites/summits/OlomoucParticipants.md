@@ -25,5 +25,8 @@ Please add times **in UTC**:
 |Chris Curtis|July 1-5|in person...?||
 |Sanghoun Song|July 1-5|in person||
 |Kangsan Noh|July 1-5|in person | also HPSG |
+|Tara Wueger|July 1-5|in person||
+|Keren Ruditsky|July 1-5|in person||
+|Michael Goodman|July 1&ndash;3|in person||
 
-Last update: 2024-04-11 by sanghoun [[edit](https://github.com/delph-in/docs/wiki/OlomoucParticipants/_edit)]{% endraw %}
+Last update: 2024-04-12 by Michael Wayne Goodman [[edit](https://github.com/delph-in/docs/wiki/OlomoucParticipants/_edit)]{% endraw %}
