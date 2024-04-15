@@ -28,5 +28,6 @@ Please add times **in UTC**:
 |Tara Wueger|July 1-5|in person||
 |Keren Ruditsky|July 1-5|in person||
 |Michael Goodman|July 1&ndash;3|in person||
+|Dan Flickinger|July 1-5|in person|also HPSG |
 
-Last update: 2024-04-12 by Michael Wayne Goodman [[edit](https://github.com/delph-in/docs/wiki/OlomoucParticipants/_edit)]{% endraw %}
+Last update: 2024-04-14 by Francis Bond [[edit](https://github.com/delph-in/docs/wiki/OlomoucParticipants/_edit)]{% endraw %}
