@@ -29,5 +29,6 @@ Please add times **in UTC**:
 |Keren Ruditsky|July 1-5|in person||
 |Michael Goodman|July 1&ndash;3|in person||
 |Dan Flickinger|July 1-5|in person|also HPSG |
+|Petter Haugereid|July 1-4|in person||
 
-Last update: 2024-04-14 by Francis Bond [[edit](https://github.com/delph-in/docs/wiki/OlomoucParticipants/_edit)]{% endraw %}
+Last update: 2024-04-18 by Petter Haugereid [[edit](https://github.com/delph-in/docs/wiki/OlomoucParticipants/_edit)]{% endraw %}
