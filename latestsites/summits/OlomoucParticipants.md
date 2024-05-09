@@ -28,8 +28,9 @@ Please add times **in UTC**:
 |Tara Wueger|July 1-5|in person||
 |Keren Ruditsky|July 1-5|in person||
 |Carly Crowther|July 1-5|in person| also HPSG |
+|Emily Luedke|July 1-5|in person| also HPSG |
 |Michael Goodman|July 1&ndash;3|in person||
 |Dan Flickinger|July 1-5|in person|also HPSG |
 |Petter Haugereid|July 1-4|in person||
 
-Last update: 2024-05-06 by carlycrowther8 [[edit](https://github.com/delph-in/docs/wiki/OlomoucParticipants/_edit)]{% endraw %}
+Last update: 2024-05-08 by eeluedke [[edit](https://github.com/delph-in/docs/wiki/OlomoucParticipants/_edit)]{% endraw %}
