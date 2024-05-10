@@ -9,7 +9,7 @@ This is all managed in a git repository, so changes are tracked, can be reverted
 3. [Run the workflow](https://github.com/delph-in/docs/actions/workflows/BuildDocs.yml) to regenerate the documentation by clicking on the `Run Workflow` button on that link.  It takes about 10 minutes to regenerate.  Leaving the defaults will do the right thing. For more information see [Running the Workflow](#running-the-workflow) below.
 
 ### The Site Definition File
-The Site Definition file describes all the sites, sections and documents included in the DELPH-IN documentation. It in the [JSON format](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON). 
+The Site Definition file describes all the sites, sections and documents included in the DELPH-IN documentation. It is in the [JSON format](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/JSON). 
 
 Changing/Adding/Removing anything *except the top level navigation* in the site involves simply [editing the file](https://github.com/delph-in/docs/tree/main/sitesdefinitions.json) and [re-running the workflow](#running-the-workflow).  If you want to add or remove the *top level organization of the site* (i.e. the navigation links across the top of every page), there is a little more to do, see [Modifying the Site Structure](#modifying-the-site-structure) below.
 
