@@ -151,7 +151,7 @@ The format is designed to make it easy to move files around, redefine sections, 
 To run the workflow:
 1. Click on the `Actions` tab at the top of the DELPH-IN docs repository on GitHub.  
 2. Then click `BuildDocs` on the left side of the page. At this point you'll see a record of previous runs (if they weren't deleted)
-3. Finally, click the `Run Workflow` button the right side and then `Run Workflow` on the UI that appears
+3. Finally, click the `Run Workflow` button on the right side and then `Run Workflow` on the UI that appears
 
 At this point the workflow will begin running and you'll see its status.  When done, it will have a green checkmark for success or a red X for failure.  If it was successful the docs have been immediately published and you can browse them live. It takes about 10 minutes to run. 
 
@@ -198,4 +198,4 @@ Note that running `createdocs.py` directly won't actually publish the site anywh
 
 Running in test mode is useful for debugging the script by placing interesting edge cases, etc into the `testdata` folder and referencing them from the `testsitesdefinitions.json` file. 
 
-Last update: 2023-07-10 by EricZinda [[edit](https://github.com/delph-in/docs/edit/main/DelphinDocsReference.md)]{% endraw %}
+Last update: 2024-05-10 by omahs [[edit](https://github.com/delph-in/docs/edit/main/DelphinDocsReference.md)]{% endraw %}

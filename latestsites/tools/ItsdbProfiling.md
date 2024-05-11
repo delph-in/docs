@@ -56,7 +56,7 @@ MRSes.
 
 First select the profile with MRSes as the Gold Profile (middle click).
 Then create a new profile with the same skeleton, and select it (left
-click). Set Process---Switches---transfer. Make sure you have a trasnfer
+click). Set Process---Switches---transfer. Make sure you have a transfer
 grammar loaded. Then do Process--All Items.
 
 ### Translation
@@ -89,10 +89,10 @@ that take two arguments, the item itself and an optional tagger, and
 return a tokenized string suitable for **pet**: in this case the
 yy-tokenization.
 
-chasen-preprocess-for-pet calls an external morpholigical analyzer
+chasen-preprocess-for-pet calls an external morphological analyzer
 ([ChaSen](/ChaSen)) and reformats the output.
 
 rasp-preprocess-for-pet assumes the input is of the form *word\_pos
 word\_pos* and associates each word with its POS in the input chart.
 
-Last update: 2012-08-07 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/ItsdbProfiling/_edit)]{% endraw %}
+Last update: 2024-05-10 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/ItsdbProfiling/_edit)]{% endraw %}
