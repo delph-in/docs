@@ -32,5 +32,6 @@ Please add times **in UTC**:
 |Michael Goodman|July 1&ndash;3|in person||
 |Dan Flickinger|July 1-5|in person|also HPSG |
 |Petter Haugereid|July 1-4|in person||
+|Elizabeth Conrad|July 1, 4-5|Virtual, 12-16 UTC|
 
-Last update: 2024-05-08 by eeluedke [[edit](https://github.com/delph-in/docs/wiki/OlomoucParticipants/_edit)]{% endraw %}
+Last update: 2024-05-21 by Elizabeth Conrad [[edit](https://github.com/delph-in/docs/wiki/OlomoucParticipants/_edit)]{% endraw %}
