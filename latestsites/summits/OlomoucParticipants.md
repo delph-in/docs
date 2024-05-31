@@ -5,33 +5,37 @@ Any member of the DELPHIN organization is invited and is encouraged to register 
 Please register your planned participation by editing this table to indicate which dates you'll
 be attending, your mode of participation (i.e. Virtual or In-Person) and, if virtual, during which hours on those dates you can attend.
 
+Please add if you are planning to come to the banquet and excursion (and if so how many people).\
+If with kids, please add X+Y (for adults and kids).
+The excursion will be to a nearby town or castle (TBD).
+
 Please add times **in UTC**:
 [worldtimeserver](https://www.worldtimeserver.com/meeting-planner-times.aspx?Day=1&Mon=7&Y=2024&L0=UTC&L1=CZ&L2=SG&L3=BR-RJ&L4=US-WA&L5=&L6=&L7=)
 
 8:00-16:00 UTC is 10:00-18:00 Czech time.
 
-| Name | Dates | Mode (Virtual/In-Person) | Comments |
--------|------ | ----- | ---------|
-|Francis Bond|July 1-5 | in person, 8:00-17:00 UTC |I hope to see you at HPSG too|
-|Joanna Sio|July 1-5 | in person, 8:00-17:00 UTC |Welcome to Olomouc|
-|Alexandre Rademaker|July 1-5 | in person, 8:00-17:00 UTC |I hope to be at HPSG too|
-|Olga Zamaraeva|July 1-5 | in person | Also hope to be there for HPSG|
-|John Carroll|July 1-5 | in person | |
-|Ann Copestake|July 1-5 | in person | |
-|Guy Emerson|July 1-5|in person||
-|Eric Zinda|July 1-5|in person||
-|Emily M. Bender|July 1-5|in person | also HPSG! |
-|Luis Morgado da Costa|July 1-5|in person | and a couple days before and after |
-|Chris Curtis|July 1-5|in person...?||
-|Sanghoun Song|July 1-5|in person||
-|Kangsan Noh|July 1-5|in person | also HPSG |
-|Tara Wueger|July 1-5|in person||
-|Keren Ruditsky|July 1-5|in person||
-|Carly Crowther|July 1-5|in person| also HPSG |
-|Emily Luedke|July 1-5|in person| also HPSG |
-|Michael Goodman|July 1&ndash;3|in person||
-|Dan Flickinger|July 1-5|in person|also HPSG |
-|Petter Haugereid|July 1-4|in person||
-|Elizabeth Conrad|July 1, 4-5|Virtual, 12-17 UTC|
+| Name | Dates | Mode (Virtual/In-Person) | Excursion | Banquet | Comments |
+-------|------ | ----- | ---------|---------|---------|
+|Francis Bond|July 1-5 | in person, 8:00-17:00 UTC |2|2|I hope to see you at HPSG too|
+|Joanna Sio|July 1-5 | in person, 8:00-17:00 UTC |0|0|Welcome to Olomouc, off to Paris for the middle of the week for another conference!|
+|Alexandre Rademaker|July 1-5 | in person, 8:00-17:00 UTC |1|1|I hope to be at HPSG too|
+|Olga Zamaraeva|July 1-5 | in person ||| Also hope to be there for HPSG|
+|John Carroll|July 1-5 | in person ||| |
+|Ann Copestake|July 1-5 | in person | |||
+|Guy Emerson|July 1-5|in person||||
+|Eric Zinda|July 1-5|in person||||
+|Emily M. Bender|July 1-5|in person ||| also HPSG! |
+|Luis Morgado da Costa|July 1-5|in person ||| and a couple days before and after |
+|Chris Curtis|July 1-5|in person...?||||
+|Sanghoun Song|July 1-5|in person||||
+|Kangsan Noh|July 1-5|in person ||| also HPSG |
+|Tara Wueger|July 1-5|in person||||
+|Keren Ruditsky|July 1-5|in person||||
+|Carly Crowther|July 1-5|in person||| also HPSG |
+|Emily Luedke|July 1-5|in person||| also HPSG |
+|Michael Goodman|July 1&ndash;3|in person||||
+|Dan Flickinger|July 1-5|in person|||also HPSG |
+|Petter Haugereid|July 1-4|in person|||
+|Elizabeth Conrad|July 1, 4-5|Virtual, 12-17 UTC||||
 
-Last update: 2024-05-28 by Elizabeth Conrad [[edit](https://github.com/delph-in/docs/wiki/OlomoucParticipants/_edit)]{% endraw %}
+Last update: 2024-05-30 by Francis Bond [[edit](https://github.com/delph-in/docs/wiki/OlomoucParticipants/_edit)]{% endraw %}
