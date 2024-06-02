@@ -33,9 +33,9 @@ Please add times **in UTC**:
 |Keren Ruditsky|July 1-5|in person||||
 |Carly Crowther|July 1-5|in person||| also HPSG |
 |Emily Luedke|July 1-5|in person||| also HPSG |
-|Michael Goodman|July 1&ndash;3|in person||||
+|Michael Goodman|July 1&ndash;3|in person|2+3|0||
 |Dan Flickinger|July 1-5|in person|||also HPSG |
 |Petter Haugereid|July 1-4|in person|||
 |Elizabeth Conrad|July 1, 4-5|Virtual, 12-17 UTC||||
 
-Last update: 2024-05-30 by Francis Bond [[edit](https://github.com/delph-in/docs/wiki/OlomoucParticipants/_edit)]{% endraw %}
+Last update: 2024-06-01 by Michael Wayne Goodman [[edit](https://github.com/delph-in/docs/wiki/OlomoucParticipants/_edit)]{% endraw %}
