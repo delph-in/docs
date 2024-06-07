@@ -21,7 +21,7 @@ Please add times **in UTC**:
 |Alexandre Rademaker|July 1-5 | in person, 8:00-17:00 UTC |1|1|I hope to be at HPSG too|
 |Olga Zamaraeva|July 1-5 | in person ||| Also hope to be there for HPSG|
 |John Carroll|July 1-5 | in person ||| |
-|Ann Copestake|July 1-5 | in person | |||
+|Ann Copestake|July 1-5 | in person |1|1|leaving Friday morning|
 |Guy Emerson|July 1-5|in person||||
 |Eric Zinda|July 1-5|in person||||
 |Emily M. Bender|July 1-5|in person ||| also HPSG! |
@@ -38,4 +38,4 @@ Please add times **in UTC**:
 |Petter Haugereid|July 1-4|in person|||
 |Elizabeth Conrad|July 1, 4-5|Virtual, 12-17 UTC||||
 
-Last update: 2024-06-01 by Michael Wayne Goodman [[edit](https://github.com/delph-in/docs/wiki/OlomoucParticipants/_edit)]{% endraw %}
+Last update: 2024-06-06 by anncopestake [[edit](https://github.com/delph-in/docs/wiki/OlomoucParticipants/_edit)]{% endraw %}
