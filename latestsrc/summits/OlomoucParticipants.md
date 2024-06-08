@@ -37,5 +37,6 @@ Please add times **in UTC**:
 |Dan Flickinger|July 1-5|in person|||also HPSG |
 |Petter Haugereid|July 1-4|in person|||
 |Elizabeth Conrad|July 1, 4-5|Virtual, 12-17 UTC||||
+|Chun Hei Lo|July 1&ndash;5|Virtual||||
 
-Last update: 2024-06-06 by anncopestake [[edit](https://github.com/delph-in/docs/wiki/OlomoucParticipants/_edit)]{% endraw %}
+Last update: 2024-06-07 by aaronlolo326 [[edit](https://github.com/delph-in/docs/wiki/OlomoucParticipants/_edit)]{% endraw %}

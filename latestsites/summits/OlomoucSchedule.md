@@ -31,7 +31,7 @@ Please upload your presentations [here](https://github.com/delph-in/docs/tree/ma
 | 9:50-10:30 | Semantics of Classifiers | Francis & Joanna ||
 | 10:30-11:00 | *Break* ||
 | 11:00-12:30 | **Theory and Applications (Chair: TBD)**||
-|| Judicious Incoherence: Towards a Resource-bounded Theory of NLU (10+20) | Guy |
+|| Judicious Incoherence: Towards a Resource-bounded Cognitive Theory of Language Understanding (10+20) | Guy |
 || Robots and CALL (Grounding Grammatical Error Detection) (10+20) | Luis |
 || Mapping MRS to Logic for Automatic Solving of Logic Problems (10+20) | Alexandre |
 | 12:30-14:00 | *Lunch (in town)* ||
@@ -118,4 +118,4 @@ Please upload your presentations [here](https://github.com/delph-in/docs/tree/ma
 - Luis: Treebanking with HPC
 - Francis and Dan: WordNet and ERG
 
-Last update: 2024-06-06 by Dan Flickinger [[edit](https://github.com/delph-in/docs/wiki/OlomoucSchedule/_edit)]{% endraw %}
+Last update: 2024-06-07 by Guy Emerson [[edit](https://github.com/delph-in/docs/wiki/OlomoucSchedule/_edit)]{% endraw %}
