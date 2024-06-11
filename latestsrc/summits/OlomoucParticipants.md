@@ -14,29 +14,30 @@ Please add times **in UTC**:
 
 8:00-16:00 UTC is 10:00-18:00 Czech time.
 
-| Name | Dates | Mode (Virtual/In-Person) | Excursion | Banquet | Comments |
--------|------ | ----- | ---------|---------|---------|
-|Francis Bond|July 1-5 | in person, 8:00-17:00 UTC |2|2|I hope to see you at HPSG too|
-|Joanna Sio|July 1-5 | in person, 8:00-17:00 UTC |0|0|Welcome to Olomouc, off to Paris for the middle of the week for another conference!|
-|Alexandre Rademaker|July 1-5 | in person, 8:00-17:00 UTC |1|1|I hope to be at HPSG too|
-|Olga Zamaraeva|July 1-5 | in person ||| Also hope to be there for HPSG|
-|John Carroll|July 1-5 | in person ||| |
-|Ann Copestake|July 1-5 | in person |1|1|leaving Friday morning|
-|Guy Emerson|July 1-5|in person||||
-|Eric Zinda|July 1-5|in person||||
-|Emily M. Bender|July 1-5|in person ||| also HPSG! |
-|Luis Morgado da Costa|July 1-5|in person ||| and a couple days before and after |
-|Chris Curtis|July 1-5|in person...?||||
-|Sanghoun Song|July 1-5|in person||||
-|Kangsan Noh|July 1-5|in person ||| also HPSG |
-|Tara Wueger|July 1-5|in person||||
-|Keren Ruditsky|July 1-5|in person||||
-|Carly Crowther|July 1-5|in person||| also HPSG |
-|Emily Luedke|July 1-5|in person||| also HPSG |
-|Michael Goodman|July 1&ndash;3|in person|2+3|0||
-|Dan Flickinger|July 1-5|in person|||also HPSG |
-|Petter Haugereid|July 1-4|in person|||
-|Elizabeth Conrad|July 1, 4-5|Virtual, 12-17 UTC||||
-|Chun Hei Lo|July 1&ndash;5|Virtual||||
+| Name | Dates | Mode (Virtual/In-Person) | Excursion | Banquet | T-Shirt| Comments |
+-------|------ | ----- | ---------|---------|---------|---------|
+|Francis Bond|July 1-5 | in person|2|2|M, XXXL| I hope to see you at HPSG too|
+|Joanna Sio|July 1-5 | in person |0|0|M,XXL|Welcome to Olomouc, off to Paris for the middle of the week for another conference!|
+|Alexandre Rademaker|July 1-5 | in person|1|1||I hope to be at HPSG too|
+|Olga Zamaraeva|July 1-5 | in person |||| Also hope to be there for HPSG|
+|John Carroll|July 1-5 | in person |||| |
+|Ann Copestake|July 1-5 | in person |1|1||leaving Friday morning|
+|Guy Emerson|July 1-5|in person|||||
+|Eric Zinda|July 1-5|in person|||||
+|Emily M. Bender|July 1-5|in person |||| also HPSG! |
+|Luis Morgado da Costa|July 1-5|in person |||| and a couple days before and after |
+|Chris Curtis|July 1-5|in person...?|||||
+|Sanghoun Song|July 1-5|in person|||||
+|Kangsan Noh|July 1-5|in person |||| also HPSG |
+|Tara Wueger|July 1-5|in person|||||
+|Keren Ruditsky|July 1-5|in person|||||
+|Carly Crowther|July 1-5|in person|||| also HPSG |
+|Emily Luedke|July 1-5|in person|||| also HPSG |
+|Michael Goodman|July 1&ndash;3|in person|2+3|0|||
+|Dan Flickinger|July 1-5|in person||||also HPSG |
+|Petter Haugereid|July 1-4|in person||||
+|Miša Krátka|July 1-5|in person||||student|
+|Elizabeth Conrad|July 1, 4-5|Virtual, 12-17 UTC|||||
+|Chun Hei Lo|July 1&ndash;5|Virtual|||||
 
-Last update: 2024-06-07 by aaronlolo326 [[edit](https://github.com/delph-in/docs/wiki/OlomoucParticipants/_edit)]{% endraw %}
+Last update: 2024-06-10 by Francis Bond [[edit](https://github.com/delph-in/docs/wiki/OlomoucParticipants/_edit)]{% endraw %}

@@ -2,11 +2,11 @@
 
 |Day    | Morning | Afternoon | Evening |
 |----------|---------|-----------|---------|\
-|Monday    |Plenary  | Plenary   | Stand-up and Karaoke at [Variace](https://variace.eu/) from 20:00|
-|Tuesday   |Plenary  | Plenary   | Maybe [Bar Zahrada "Garden Bar"](https://barzahrada.cz/)        |
-|Wednesday | Plenary | Excursion |         |\
-|Thursday  | SIGs    | SIGs      | Banquet |
-|Friday    | SIGs    | SIGs      | Maybe [Svijanský Šenk "Svijany's Pub"](http://svijansky-senk.cz/) |
+|[Monday](https://delph-in.github.io/docs/summits/OlomoucSchedule#monday)       |Plenary  | Plenary   | Stand-up and Karaoke at [Variace](https://variace.eu/) from 20:00|
+|[Tuesday](https://delph-in.github.io/docs/summits/OlomoucSchedule#tuesday)     |Plenary  | Plenary   | Maybe [Bar Zahrada "Garden Bar"](https://barzahrada.cz/)        |
+|[Wednesday](https://delph-in.github.io/docs/summits/OlomoucSchedule#wednesday) | Plenary | Excursion to [Helfštýn Castle](https://helfstyn.cz/en)||
+|[Thursday](https://delph-in.github.io/docs/summits/OlomoucSchedule#thursday)   | SIGs    | SIGs      | Banquet |
+|[Friday](https://delph-in.github.io/docs/summits/OlomoucSchedule#friday)       | SIGs    | SIGs      | Maybe [Svijanský Šenk "Svijany's Pub"](http://svijansky-senk.cz/) |
 
 # Full Program
 
@@ -118,4 +118,4 @@ Please upload your presentations [here](https://github.com/delph-in/docs/tree/ma
 - Luis: Treebanking with HPC
 - Francis and Dan: WordNet and ERG
 
-Last update: 2024-06-07 by Guy Emerson [[edit](https://github.com/delph-in/docs/wiki/OlomoucSchedule/_edit)]{% endraw %}
+Last update: 2024-06-10 by Francis Bond [[edit](https://github.com/delph-in/docs/wiki/OlomoucSchedule/_edit)]{% endraw %}
