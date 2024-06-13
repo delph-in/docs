@@ -34,19 +34,19 @@ Please add times **in UTC**:
 |Guy Emerson|July 1-5|in person|||||
 |Eric Zinda|July 1-5|in person|1|1|M||
 |Emily M. Bender|July 1-5|in person |1|1|M| also HPSG! |
-|Luis Morgado da Costa|July 1-5|in person |||| and a couple days before and after |
+|Luis Morgado da Costa|July 1-5|in person |1|1|| and a couple days before and after |
 |Chris Curtis|July 1-5|in person...?|||||
 |Sanghoun Song|July 1-5|in person|||||
 |Kangsan Noh|July 1-5|in person |||| also HPSG |
 |Tara Wueger|July 1-5|in person| 1 | 1 | S | student |
 |Keren Ruditsky|July 1-5|in person|1|1|M|student|
 |Carly Crowther|July 1-5|in person|||| also HPSG |
-|Emily Luedke|July 1-5|in person|1|1|M| also HPSG |
+|Emily Luedke|July 1-5|in person|1|1|M| student |
 |Michael Goodman|July 1&ndash;3|in person|2+3|0|||
-|Dan Flickinger|July 1-5|in person||||also HPSG |
+|Dan Flickinger|July 1-5|in person|1|1|L|also HPSG |
 |Petter Haugereid|July 1-4|in person||||
 |Miša Krátka|July 1-5|in person||||student|
 |Elizabeth Conrad|July 1, 4-5|Virtual, 12-17 UTC|||||
 |Chun Hei Lo|July 1&ndash;5|Virtual|||||
 
-Last update: 2024-06-11 by Keren Ruditsky [[edit](https://github.com/delph-in/docs/wiki/OlomoucParticipants/_edit)]{% endraw %}
+Last update: 2024-06-12 by eeluedke [[edit](https://github.com/delph-in/docs/wiki/OlomoucParticipants/_edit)]{% endraw %}
