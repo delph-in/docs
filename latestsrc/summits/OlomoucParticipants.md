@@ -40,7 +40,7 @@ Please add times **in UTC**:
 |Kangsan Noh|July 1-5|in person |||| also HPSG |
 |Tara Wueger|July 1-5|in person| 1 | 1 | S | student |
 |Keren Ruditsky|July 1-5|in person|1|1|M|student|
-|Carly Crowther|July 1-5|in person|||| also HPSG |
+|Carly Crowther|July 1-5|in person|1|1|M| student & also HPSG |
 |Emily Luedke|July 1-5|in person|1|1|M| student |
 |Michael Goodman|July 1&ndash;3|in person|2+3|0|||
 |Dan Flickinger|July 1-5|in person|1|1|L|also HPSG |
@@ -49,4 +49,4 @@ Please add times **in UTC**:
 |Elizabeth Conrad|July 1, 4-5|Virtual, 12-17 UTC|||||
 |Chun Hei Lo|July 1&ndash;5|Virtual|||||
 
-Last update: 2024-06-12 by eeluedke [[edit](https://github.com/delph-in/docs/wiki/OlomoucParticipants/_edit)]{% endraw %}
+Last update: 2024-06-13 by carlycrowther8 [[edit](https://github.com/delph-in/docs/wiki/OlomoucParticipants/_edit)]{% endraw %}
