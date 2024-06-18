@@ -58,14 +58,14 @@ Please upload your presentations [here](https://github.com/delph-in/docs/tree/ma
 | | Questioning Large Language Models’ Linguistic Knowledge (A Stochastic Parrot) (10+20) | Sanghoun & Kangsan |
 | | Discussion: Using DELPH-IN grammars in conjunction with LLMs (and not so L LMs) | Ann & Dan |
 | 12:30-14:00 | *Lunch (in town)* ||
-| 14:00-15:40 | **Pragmatics (Chair: TBD)** ||
-|| Pragmatics and Sense in Perplexity (10+20) | Eric |
-|| Discussion: A new approach to implementing pragmatics in Perplexity (60) | Eric |
+| 14:00-15:40 | **Pragmatics and Grammar (Chair: TBD)** ||
+|| Pragmatics and Sense in Perplexity (30) | Eric |
+|| Discussion: A new approach to implementing pragmatics in Perplexity (30) | Eric |
+|| Update on the Spanish Resource Grammar (20+20) | Olga |
 | 15:40-16:10 | *Break* ||
-| 16:10-18:00 | **Grammar Engineering (Chair: TBD)** ||
+| 16:10-17:20 | **Grammar Engineering (Chair: TBD)** ||
 || Action Nominals in the Grammar Matrix (10+20) | Keren |
 || Light Verb Constructions in the Matrix (20+20) | Tara |
-|| Update on the Spanish Resource Grammar (20+20) | Olga |
 | | **Social Program** ||
 | 20:00-late | Maybe [Bar Zahrada "Garden Bar"](https://barzahrada.cz/) | Francis |
 
@@ -117,5 +117,6 @@ Please upload your presentations [here](https://github.com/delph-in/docs/tree/ma
 - Elizabeth: Understanding and using the SEM-I (semantic interface)
 - Luis: Treebanking with HPC
 - Francis and Dan: WordNet and ERG
+- Olga and Dan: Distinguishing machine-written from human-authored text using DELPH-IN resources
 
-Last update: 2024-06-10 by Francis Bond [[edit](https://github.com/delph-in/docs/wiki/OlomoucSchedule/_edit)]{% endraw %}
+Last update: 2024-06-17 by Dan Flickinger [[edit](https://github.com/delph-in/docs/wiki/OlomoucSchedule/_edit)]{% endraw %}
