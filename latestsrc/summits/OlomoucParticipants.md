@@ -27,7 +27,7 @@ Please add times **in UTC**:
 -------|------ | ----- | ---------|---------|---------|---------|
 |Francis Bond|July 1-5 | in person|2|2|M, XXXL| I hope to see you at HPSG too|
 |Joanna Sio|July 1-5 | in person |0|0|M,XXL|Welcome to Olomouc, off to Paris for the middle of the week for another conference!|
-|Alexandre Rademaker|July 1-5 | in person|1|1||I hope to be at HPSG too|
+|Alexandre Rademaker|July 1-5 | in person|1|1|XL|I will be at HPSG too|
 |Olga Zamaraeva|July 1-5 | in person |1|1|XS,S| Also there for HPSG|
 |John Carroll|July 1-5 | in person |1|1|M|Might arrive a little late on Monday morning|
 |Ann Copestake|July 1-5 | in person |1|1||leaving Friday morning|
@@ -49,4 +49,4 @@ Please add times **in UTC**:
 |Elizabeth Conrad|July 1, 4-5|Virtual, 12-17 UTC|||no shirt!||
 |Chun Hei Lo|July 1&ndash;5|Virtual|||||
 
-Last update: 2024-06-22 by Petter Haugereid [[edit](https://github.com/delph-in/docs/wiki/OlomoucParticipants/_edit)]{% endraw %}
+Last update: 2024-06-24 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/OlomoucParticipants/_edit)]{% endraw %}
