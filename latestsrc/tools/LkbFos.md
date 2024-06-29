@@ -9,7 +9,7 @@ compilers, runtime environments or code libraries. The source code is in
 the DELPH-IN public repository
 <http://svn.delph-in.net/lkb/branches/fos/>. For convenience,
 precompiled binaries for macOS and Linux can be downloaded from
-[lkb\_fos.tgz](http://users.sussex.ac.uk/~johnca/lkb_fos.tgz) \[96.4
+[lkb\_fos.tgz](http://users.sussex.ac.uk/~johnca/lkb_fos.tgz) \[89.6
 MB\]. A Windows binary may be available at some point in the future.
 
 LKB-FOS has been developed using the tools and libraries *SBCL*,
@@ -56,12 +56,11 @@ should accomplish this (it can go in your \~/.bash\_profile file or
 \~/.profile file, as appropriate).
    
    `export LD_LIBRARY_PATH=$DELPHINHOME/lkb_fos/lib/linux.x86.64:$LD_LIBRARY_PATH`
-5. [Linux only] LKB-FOS requires the Unix application *xclip*, which is not
-installed by default in all Linux distributions; in Ubuntu, to download
-and install it you can run the command `sudo apt-get install xclip`.\
-[macOS only] LKB-FOS requires the open source application *XQuartz*; if you
+5. [macOS only] LKB-FOS requires the open source application *XQuartz*; if you
 don't already have *XQuartz*, download it from <https://www.xquartz.org>
-and install it.
+and install it.\
+[Linux only] LKB-FOS used to require the Unix application *xclip*, but no
+longer does.
 
 The LKB-FOS binary for Linux is lkb.linux\_x86\_64.
 
@@ -143,23 +142,11 @@ and new features.
 
 ### Text Entry
 
-Text fields in dialogs do not respond to mouse or trackpad gestures
-(clicking / dragging), but expect keyboard commands using the arrow
-keys, backspace key and standard *emacs* key bindings. Useful commands
-for text fields are:
-
-    Ctrl-space: set mark
-    Esc-B / Esc-F: go backwards / forwards one word
-    Esc-Backspace / Esc-D: delete previous / next word
-    Ctrl-A Ctrl-K: a quick two-command combination to clear the text field
-
-The following keyboard commands have been added for the convenience of users
-who are more familiar with Common User Access (CUA) interfaces:
-
-    Ctrl-C: copy to clipboard the text between cursor and mark
-    Ctrl-X: cut to clipboard the text between cursor and mark
-    Ctrl-V: paste from clipboard at cursor
-    Ctrl-Z: undo the last change
+Text fields in dialogs respond to the standard CUA keyboard commands
+(Ctrl-C, Ctrl-X, Ctrl-V for copy/cut/paste) and Ctrl-A for select all.
+At present there is no undo command. The mouse maybe used to reposition
+the cursor and to make a selection by dragging. However, double-,
+triple- and shift-click gestures are not recognised.
 
 ### Fonts
 
@@ -221,7 +208,10 @@ If you are using the LKB on a high-DPI display, you might want to
 increase the size of text in menus and in dialog buttons and labels. You
 can do this by putting the following in your \~/.lkbrc file:
 
-    (setq clim:*default-text-style* (clim:make-text-style :sans-serif :roman 18))
+    (setq mcclim-truetype::*dpi* 96)
+
+The default value is 72. You can experiment with different values, depending
+on your display and personal preference.
 
 ### Copying Text
 
@@ -235,7 +225,7 @@ clipboard; to paste it, click the middle mouse button.
 ## Problems
 
 In macOS 10.12 and upwards, the 'App Translocation' security feature
-prevents LKB.app from working properly the first time it is launched. To
+might prevent LKB.app from working properly the first time it is launched. To
 fix this, drag LKB.app to the Desktop and then back again. You may also
 need to authorise it in the General tab of Security & Privacy in
 System Preferences. These two steps should be enough to allow it to run.
@@ -269,4 +259,4 @@ If you encounter an unexpected problem using LKB-FOS, please check
 a solution has already been posted there; if it hasn't then create a new topic.
 
 
-Last update: 2023-06-20 by John Carroll [[edit](https://github.com/delph-in/docs/wiki/LkbFos/_edit)]{% endraw %}
+Last update: 2024-06-28 by John Carroll [[edit](https://github.com/delph-in/docs/wiki/LkbFos/_edit)]{% endraw %}

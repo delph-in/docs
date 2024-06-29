@@ -616,7 +616,7 @@ compilers, runtime environments or code libraries. The source code is in
 the DELPH-IN public repository
 <a href="http://svn.delph-in.net/lkb/branches/fos/">http://svn.delph-in.net/lkb/branches/fos/</a>. For convenience,
 precompiled binaries for macOS and Linux can be downloaded from
-<a href="http://users.sussex.ac.uk/~johnca/lkb_fos.tgz">lkb_fos.tgz</a> [96.4
+<a href="http://users.sussex.ac.uk/~johnca/lkb_fos.tgz">lkb_fos.tgz</a> [89.6
 MB]. A Windows binary may be available at some point in the future.</p>
 
 <p>LKB-FOS has been developed using the tools and libraries <em>SBCL</em>,
@@ -671,12 +671,11 @@ should accomplish this (it can go in your ~/.bash_profile file or
 
     <p><code class="language-plaintext highlighter-rouge">export LD_LIBRARY_PATH=$DELPHINHOME/lkb_fos/lib/linux.x86.64:$LD_LIBRARY_PATH</code></p>
   </li>
-  <li>[Linux only] LKB-FOS requires the Unix application <em>xclip</em>, which is not
-installed by default in all Linux distributions; in Ubuntu, to download
-and install it you can run the command <code class="language-plaintext highlighter-rouge">sudo apt-get install xclip</code>.<br />
-[macOS only] LKB-FOS requires the open source application <em>XQuartz</em>; if you
+  <li>[macOS only] LKB-FOS requires the open source application <em>XQuartz</em>; if you
 don’t already have <em>XQuartz</em>, download it from <a href="https://www.xquartz.org">https://www.xquartz.org</a>
-and install it.</li>
+and install it.<br />
+[Linux only] LKB-FOS used to require the Unix application <em>xclip</em>, but no
+longer does.</li>
 </ol>
 
 <p>The LKB-FOS binary for Linux is lkb.linux_x86_64.</p>
@@ -764,25 +763,11 @@ and new features.</p>
 
 <h3 id="text-entry">Text Entry</h3>
 
-<p>Text fields in dialogs do not respond to mouse or trackpad gestures
-(clicking / dragging), but expect keyboard commands using the arrow
-keys, backspace key and standard <em>emacs</em> key bindings. Useful commands
-for text fields are:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Ctrl-space: set mark
-Esc-B / Esc-F: go backwards / forwards one word
-Esc-Backspace / Esc-D: delete previous / next word
-Ctrl-A Ctrl-K: a quick two-command combination to clear the text field
-</code></pre></div></div>
-
-<p>The following keyboard commands have been added for the convenience of users
-who are more familiar with Common User Access (CUA) interfaces:</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Ctrl-C: copy to clipboard the text between cursor and mark
-Ctrl-X: cut to clipboard the text between cursor and mark
-Ctrl-V: paste from clipboard at cursor
-Ctrl-Z: undo the last change
-</code></pre></div></div>
+<p>Text fields in dialogs respond to the standard CUA keyboard commands
+(Ctrl-C, Ctrl-X, Ctrl-V for copy/cut/paste) and Ctrl-A for select all.
+At present there is no undo command. The mouse maybe used to reposition
+the cursor and to make a selection by dragging. However, double-,
+triple- and shift-click gestures are not recognised.</p>
 
 <h3 id="fonts">Fonts</h3>
 
@@ -847,8 +832,11 @@ you are using a Unicode <em>locale</em> such as en_US.UTF-8.</p>
 increase the size of text in menus and in dialog buttons and labels. You
 can do this by putting the following in your ~/.lkbrc file:</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(setq clim:*default-text-style* (clim:make-text-style :sans-serif :roman 18))
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(setq mcclim-truetype::*dpi* 96)
 </code></pre></div></div>
+
+<p>The default value is 72. You can experiment with different values, depending
+on your display and personal preference.</p>
 
 <h3 id="copying-text">Copying Text</h3>
 
@@ -862,7 +850,7 @@ clipboard; to paste it, click the middle mouse button.</p>
 <h2 id="problems">Problems</h2>
 
 <p>In macOS 10.12 and upwards, the ‘App Translocation’ security feature
-prevents LKB.app from working properly the first time it is launched. To
+might prevent LKB.app from working properly the first time it is launched. To
 fix this, drag LKB.app to the Desktop and then back again. You may also
 need to authorise it in the General tab of Security &amp; Privacy in
 System Preferences. These two steps should be enough to allow it to run.</p>
@@ -897,7 +885,7 @@ Ignoring (part of) entry for X_-_BRIDGE_LE
 <a href="https://delphinqa.ling.washington.edu/about">DELPH-IN Discourse</a> to see if
 a solution has already been posted there; if it hasn’t then create a new topic.</p>
 
-<p>Last update: 2023-06-20 by John Carroll [<a href="https://github.com/delph-in/docs/wiki/LkbFos/_edit">edit</a>]</p>
+<p>Last update: 2024-06-28 by John Carroll [<a href="https://github.com/delph-in/docs/wiki/LkbFos/_edit">edit</a>]</p>
 
         
       </section>

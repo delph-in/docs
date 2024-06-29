@@ -644,10 +644,6 @@ the “wrong” agreement from overpopulating the gen-chart.) This
 turned out to be particularly problematic in Zulu, which inflects
 for both objects and subjects and makes a ~18-way distinction in
 each case.</li>
-  <li><strong>Filter in parse chart windows to suppress lexical items with
-unfulfilled morphological rules</strong> otherwise the display is fairly
-unusable for grammars with a substantial number of orthographemic
-rules.</li>
   <li><strong>treebanking support</strong>: provide ACE-like tsdb output? add support
 for connection to [incr() tsdb] and FFTB?</li>
   <li><strong>alternative web interface</strong>: would it be possible to have an
@@ -697,9 +693,15 @@ windows for some (most?) encodings</li>
     <p>These points are (mostly) implemented in <a href="https://delph-in.github.io/docs/tools/LkbFos">LkbFos</a>, although
 some work is required to pre-select the Unicode fonts to be used.</p>
   </li>
+  <li><strong>Filter in parse chart windows to suppress lexical items with
+unfulfilled morphological rules</strong> otherwise the display is fairly
+unusable for grammars with a substantial number of orthographemic
+rules. In <a href="https://delph-in.github.io/docs/tools/LkbFos">LkbFos</a>, set the parameter
+*show-incomplete-lex-rule-chains* to NIL to stop such
+lexical items being displayed.</li>
 </ul>
 
-<p>Last update: 2019-07-17 by FrancisBond [<a href="https://github.com/delph-in/docs/wiki/LkbWishlist/_edit">edit</a>]</p>
+<p>Last update: 2024-06-28 by John Carroll [<a href="https://github.com/delph-in/docs/wiki/LkbWishlist/_edit">edit</a>]</p>
 
         
       </section>
