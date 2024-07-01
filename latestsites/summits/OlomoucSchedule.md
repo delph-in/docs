@@ -10,6 +10,8 @@
 
 Note that Friday and Saturday are public holidays in Czechia: [Saints Cyril and Methodius Day](https://en.wikipedia.org/wiki/Cyril_and_Methodius) and [Jan Huss day](https://en.wikipedia.org/wiki/Jan_Hus).  These celebrate, among other things, the creation of the Glagolitic alphabet (the ancestor of Cyrillic) and the orthographic reform of writing a diacritic to replace a digraph (*cz* to *č*: by Huss in his De Orthographia Bohemica (1412)). 
 
+Zoom: link https://cesnet.zoom.us/j/97067901742
+
 # Full Program
 
 This is the program for the [[2024 DELPH-IN Summit|OlomoucTop]].
@@ -121,4 +123,4 @@ Please upload your presentations [here](https://github.com/delph-in/docs/tree/ma
 - Francis and Dan: WordNet and ERG
 - Olga and Dan: Distinguishing machine-written from human-authored text using DELPH-IN resources
 
-Last update: 2024-06-27 by Dan Flickinger [[edit](https://github.com/delph-in/docs/wiki/OlomoucSchedule/_edit)]{% endraw %}
+Last update: 2024-06-30 by Francis Bond [[edit](https://github.com/delph-in/docs/wiki/OlomoucSchedule/_edit)]{% endraw %}

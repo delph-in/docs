@@ -36,9 +36,9 @@ Please add times **in UTC**:
 |Eric Zinda|July 1-5|in person|1|1|M||
 |Emily M. Bender|July 1-5|in person |1|1|M| also HPSG! |
 |Luis Morgado da Costa|July 1-5|in person |1|1|| and a couple days before and after |
-|Chris Curtis|July 1-5|in person...?|||||
-|Sanghoun Song|July 1-5|in person|||||
-|Kangsan Noh|July 1-5|in person |||| also HPSG |
+|Chris Curtis|July 1-5|virtual |||| had to cancel the trip 👎|
+|Sanghoun Song|July 1-5|in person|1|1|XXL||
+|Kangsan Noh|July 1-5|in person |1|1|M| also HPSG |
 |Tara Wueger|July 1-5|in person| 1 | 1 | S | student |
 |Keren Ruditsky|July 1-5|in person|1|1|M|student|
 |Carly Crowther|July 1-5|in person|1|1|M| student & also HPSG |
@@ -48,6 +48,6 @@ Please add times **in UTC**:
 |Petter Haugereid|July 1-4|in person|1|0|M|
 |Miša Krátka|July 1-5|in person||||student|
 |Elizabeth Conrad|July 1, 4-5|Virtual, 12-17 UTC|||no shirt!||
-|Chun Hei Lo|July 1&ndash;5|Virtual|||||
+|Chun Hei Lo|July 1&ndash;5|Virtual||||Mon: 0700-1600 UTC <br> Tue: 0700-1030 UTC <br> Thurs and Fri: TBC given the SIGs schedule!|
 
-Last update: 2024-06-26 by Francis Bond [[edit](https://github.com/delph-in/docs/wiki/OlomoucParticipants/_edit)]{% endraw %}
+Last update: 2024-07-01 by aaronlolo326 [[edit](https://github.com/delph-in/docs/wiki/OlomoucParticipants/_edit)]{% endraw %}
