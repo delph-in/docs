@@ -334,5 +334,10 @@
         {"Page": "GeFaqWordNotInChart", "SrcDir": "docswiki", "SrcFile": "GeFaqWordNotInChart.md", "BaseReferrer": "matrix/GrammarEngineeringFAQ.md", "Referrer": "matrix/GrammarEngineeringFAQ.md", "FileMissing": true},
         {"Page": "GeFaqWordToWordRule", "SrcDir": "docswiki", "SrcFile": "GeFaqWordToWordRule.md", "BaseReferrer": "matrix/GrammarEngineeringFAQ.md", "Referrer": "matrix/GrammarEngineeringFAQ.md", "FileMissing": true}
       ]}
+    ],
+    "summits": [
+      {"Section": "Olomouc 2024", "Pages": [
+        {"Page": "OlomoucGeneration", "SrcDir": "docswiki", "SrcFile": "OlomoucGeneration.md", "BaseReferrer": "summits/OlomoucSchedule.md", "Referrer": "summits/OlomoucSchedule.md"}
+      ]}
     ]
   }
