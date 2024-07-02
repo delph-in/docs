@@ -53,23 +53,23 @@ Please upload your presentations [here](https://github.com/delph-in/docs/tree/ma
 
 | Time | Content | Presenter (Scribe) |
 | :--- | :---    | :--- |
-| 9:00-10:30 | **Tools and Systems (Chair: TBD)** |
+| 9:00-10:30 | **Tools and Systems (Chair: Ann)** |
 || [LKB-FOS Update](https://github.com/delph-in/docs/blob/main/summits/2024/lkb-fos-update-24.pdf?raw=true) (10+20) | John |
 || Implementing Some Functionalities of PyDelphin in Lean (10+20) | Alexandre |
 || Hosting DELPH-IN Parsers/Demo @VU Amsterdam (10+20) | Luis |
 | 10:30-11:00 | *Break* ||
-| 11:00-12:30 | **Studying Large Language Models (Chair: TBD)**||
+| 11:00-12:30 | **Studying Large Language Models (Chair: Luis)**||
 | | Questioning Large Language Models’ Linguistic Knowledge (A Stochastic Parrot) (10+20) | Sanghoun & Kangsan |
 | | Discussion: Using DELPH-IN grammars in conjunction with LLMs (and not so L LMs) | Ann & Dan |
 | 12:30-14:00 | *Lunch (in town)* ||
-| 14:00-15:40 | **Pragmatics and Grammar (Chair: TBD)** ||
+| 14:00-15:40 | **Pragmatics and Grammar (Chair: Petter)** ||
 || [Pragmatics and Sense in Perplexity (30)](https://github.com/delph-in/docs/blob/main/summits/2024/Summit2024PerplexityInterpretations.pdf?raw=true) | Eric |
 || Discussion: A new approach to implementing pragmatics in Perplexity (30) | Eric |
 || Update on the Spanish Resource Grammar (20+20) | Olga |
 | 15:40-16:10 | *Break* ||
-| 16:10-17:30 | **Grammar Engineering (Chair: TBD)** ||
+| 16:10-17:30 | **Grammar Engineering (Chair: Sanghoun)** ||
 || Action Nominals in the Grammar Matrix (20+20) | Keren |
-|| Light Verb Constructions in the Matrix (20+20) | Tara |
+|| [Light Verb Constructions in the Matrix](https://github.com/delph-in/docs/blob/main/summits/2024/lvc-matrix-2024.pdf?raw=true) (20+20) | Tara |
 | | **Social Program** ||
 | 20:00-late | Maybe [Bar Zahrada "Garden Bar"](https://barzahrada.cz/) | Francis |
 
@@ -77,7 +77,7 @@ Please upload your presentations [here](https://github.com/delph-in/docs/tree/ma
 
 | Time | Content | Presenter (Scribe) |
 | :--- | :---    | :--- |
-| 9:00-10:30 | **Grammatical Theory and Engineering (Chair: TBD)** |
+| 9:00-10:30 | **Grammatical Theory and Engineering (Chair: Michael)** |
 || Adapting P&P functional categories in a typed feature structure grammar (20+20) | Petter |
 || Discussion: Constraining agreement in the Spanish grammar (and general issues with large grammars) (50) | Olga |
 | 10:30-11:00 | *Break* ||
@@ -124,4 +124,4 @@ Please upload your presentations [here](https://github.com/delph-in/docs/tree/ma
 - Olga and Dan: Distinguishing machine-written from human-authored text using DELPH-IN resources
 - Olga and Ann: Funding for DELPH-IN related research
 
-Last update: 2024-07-02 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/OlomoucSchedule/_edit)]{% endraw %}
+Last update: 2024-07-02 by Dan Flickinger [[edit](https://github.com/delph-in/docs/wiki/OlomoucSchedule/_edit)]{% endraw %}
