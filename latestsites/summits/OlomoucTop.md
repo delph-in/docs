@@ -63,4 +63,4 @@ Please take a look at the [Practical Guide](https://sinofon.cz/practical-informa
 The local organization is handled by Francis Bond and Joanna Sio.
 
 
-Last update: 2024-06-11 by Francis Bond [[edit](https://github.com/delph-in/docs/wiki/OlomoucTop/_edit)]{% endraw %}
+Last update: 2024-07-04 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/OlomoucTop/_edit)]{% endraw %}

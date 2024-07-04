@@ -5,7 +5,7 @@
 |[Monday](https://delph-in.github.io/docs/summits/OlomoucSchedule#monday)       |Plenary  | Plenary   | 20:00 Stand-up and Karaoke at [Variace](https://variace.eu/) [Song Catalog](https://www.karafun.com/karaoke/)|
 |[Tuesday](https://delph-in.github.io/docs/summits/OlomoucSchedule#tuesday)     |Plenary  | Plenary   | 18:30 [Bar Zahrada "Garden Bar"](https://barzahrada.cz/)        |
 |[Wednesday](https://delph-in.github.io/docs/summits/OlomoucSchedule#wednesday) | Plenary | Excursion to [Helfštýn Castle](https://helfstyn.cz/en) 14:00-18:00||
-|[Thursday](https://delph-in.github.io/docs/summits/OlomoucSchedule#thursday)   | SIGs    | SIGs      | 20:00 Banquet [Bistro Nro 66](https://www.facebook.com/Nro669) |
+|[Thursday](https://delph-in.github.io/docs/summits/OlomoucSchedule#thursday)   | SIGs    | SIGs      | 19:00 Banquet [Bistro Nro 66](https://www.facebook.com/Nro669) |
 |[Friday](https://delph-in.github.io/docs/summits/OlomoucSchedule#friday)       | SIGs    | SIGs      | Maybe [Svijanský Šenk "Svijany's Pub"](http://svijansky-senk.cz/) |
 
 Note that Friday and Saturday are public holidays in Czechia: [Saints Cyril and Methodius Day](https://en.wikipedia.org/wiki/Cyril_and_Methodius) and [Jan Huss day](https://en.wikipedia.org/wiki/Jan_Hus).  These celebrate, among other things, the creation of the Glagolitic alphabet (the ancestor of Cyrillic) and the orthographic reform of writing a diacritic to replace a digraph (*cz* to *č*: by Huss in his *De Orthographia Bohemica* (1412)). 
@@ -78,7 +78,7 @@ Please upload your presentations [here](https://github.com/delph-in/docs/tree/ma
 | Time | Content | Presenter (Scribe) |
 | :--- | :---    | :--- |
 | 9:00-10:30 | **Grammatical Theory and Engineering (Chair: Michael)** |
-|| Adapting P&P functional categories in a typed feature structure grammar (20+20) | Petter |
+|| [Adapting P&P functional categories in a typed feature structure grammar](https://github.com/delph-in/docs/blob/main/summits/2024/P-and-P-categories.pdf?raw=true) (20+20) | Petter |
 || Discussion: [Constraining agreement in the Spanish grammar (and general issues with large grammars)](https://github.com/delph-in/docs/blob/main/summits/2024/OZ-DELPH_IN_2024_AGR.pdf?raw=true) (50) | Olga |
 | 10:30-11:00 | *Break* ||
 | 11:00-12:00 | **Business Meeting and Planning SIGs (Chair: Dan)**||
@@ -91,26 +91,26 @@ Please upload your presentations [here](https://github.com/delph-in/docs/tree/ma
 
 | Time | Content | Leader (Scribe) |
 | :--- | :---    | :--- |
-| 9:00-10:30 | SIGs | TBD |
+| 9:00-10:30 | (1) Funding opportunities -- (2) Lexical Type DB | Ann + Olga -- Francis |
 | 10:30-11:00 | *Break* ||
-| 11:00-12:30 | SIGs | TBD |
+| 11:00-12:30 | Distinguishing human vs. LLM authoring | Olga + Dan |
 | 12:30-14:00 | *Lunch (in town)* ||
-| 14:00-15:30 | SIGs | TBD |
+| 14:00-15:30 | (1) Synthesizing text -- (2) Korean grammar | Guy -- Sanghoun + Francis |
 | 15:30-16:00 | *Break* ||
-| 16:00-17:30 | SIGs | TBD |
-| 20:00-late | **Conference Banquet** | Francis |
+| 16:00-17:30 | SEM-I (semantic interface) | Elizabeth |
+| 19:00-late | **Conference Banquet** | Francis |
 
 ## Friday
 
 | Time | Content | Leader (Scribe) |
 | :--- | :---    | :--- |
-| 9:00-10:30 | SIGs | TBD |
+| 9:00-10:30 | Abui | Frantisek + Francis |
 | 10:30-11:00 | *Break* ||
-| 11:00-12:30 | SIGs | TBD |
+| 11:00-12:30 | Matrix-driven updating | Tara |
 | 12:30-14:00 | *Lunch (in town)* ||
-| 14:00-15:30 | SIGs | TBD |
+| 14:00-15:30 | Demo wishlist | Luis |
 | 15:30-16:00 | *Break* ||
-| 16:00-17:30 | SIGs | TBD |
+| 16:00-17:30 | WordNet+ERG | Francis + Dan |
 | | **Social Program** ||
 | 20:00-late | Maybe [Svijanský Šenk "Svijany's Pub"](http://svijansky-senk.cz/) | Francis |
 
@@ -118,11 +118,21 @@ Please upload your presentations [here](https://github.com/delph-in/docs/tree/ma
 
 - Francis (and Frantisek, Luis, Olga): Abui morphology
 - Francis: Linguistic Type Database
-- Elizabeth: Understanding and using the SEM-I (semantic interface)
+  - what do people want? an actual release, predicate search
+  - searching treebanks with [grewmatch](https://match.grew.fr/) a tree matcher/rewriter that UD uses from INRIA
+  - web version
+  - more statistics over the rules/types computed and displayed
+- Elizabeth: Understanding and using the SEM-I (semantic interface) and algebra (Afternoons)
 - Luis: Treebanking with HPC
+- Luis: New Demo Specifications and Wishlist
 - Francis and Dan: WordNet and ERG
 - Olga and Dan: Distinguishing machine-written from human-authored text using DELPH-IN resources
 - Olga and Ann: Funding for DELPH-IN related research
 - Guy: synthetic data
+- Francis, Sanghoun: reviving the KRG
+- Tara: chasing the matrix, updating existing grammars to learn from new matrix libraries.
 
-Last update: 2024-07-02 by Francis Bond [[edit](https://github.com/delph-in/docs/wiki/OlomoucSchedule/_edit)]{% endraw %}
+Please give your preferences in [this spreadsheet](https://docs.google.com/spreadsheets/d/1zPBiB9JAgOdxdZqiWcmVoPU3-uPpllfFQJvImppmFKg/edit?usp=sharing).
+
+
+Last update: 2024-07-03 by Francis Bond [[edit](https://github.com/delph-in/docs/wiki/OlomoucSchedule/_edit)]{% endraw %}
