@@ -571,11 +571,12 @@ actually re-parsing the sentence. This will display the old parse
 chart, but the problematic edges will unify during interactive
 unification.</li>
   <li>The lexical rule is being removed by lexical filtering, e.g. because it underspecifies TRAITS (or similar). See <a href="https://delphinqa.ling.washington.edu/t/help-debugging-a-unification-surprise-involving-lexical-rules/875/4">here</a>.</li>
+  <li>(Applicable to ace only, not the LKB): If the value of <code class="language-plaintext highlighter-rouge">parsing-roots</code> in <code class="language-plaintext highlighter-rouge">ace/config.tdl</code> is a string that does not correspond to something in <code class="language-plaintext highlighter-rouge">roots.tdl</code>, ace will refuse to put any edges into the spanning cell of the chart, even if they can be built interactively. Discovered in Olomouc, during KRG discussion</li>
 </ul>
 
 <p><a href="https://delph-in.github.io/docs/matrix/GrammarEngineeringFAQ">Back to the Grammar Engineering FAQ</a>.</p>
 
-<p>Last update: 2023-06-30 by EricZinda [<a href="https://github.com/delph-in/docs/wiki/GeFaqUnifySurprise/_edit">edit</a>]</p>
+<p>Last update: 2024-07-05 by emilymbender [<a href="https://github.com/delph-in/docs/wiki/GeFaqUnifySurprise/_edit">edit</a>]</p>
 
         
       </section>

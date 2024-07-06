@@ -195,6 +195,7 @@
         {"Page": "NoraSegmentation.md", "SrcDir": "docswiki", "SrcFile": "NoraSegmentation.md", "BaseReferrer": "<not included from site docswiki>", "Referrer": "<not included or linked to>/NoraSegmentation.md"},
         {"Page": "NoraTop.md", "SrcDir": "docswiki", "SrcFile": "NoraTop.md", "BaseReferrer": "<not included from site docswiki>", "Referrer": "<not included or linked to>/NoraTop.md"},
         {"Page": "NorsygTop.md", "SrcDir": "docswiki", "SrcFile": "NorsygTop.md", "BaseReferrer": "<not included from site docswiki>", "Referrer": "<not included or linked to>/NorsygTop.md"},
+        {"Page": "OlomoucWordNetERG.md", "SrcDir": "docswiki", "SrcFile": "OlomoucWordNetERG.md", "BaseReferrer": "<not included from site docswiki>", "Referrer": "<not included or linked to>/OlomoucWordNetERG.md"},
         {"Page": "Papercuts.md", "SrcDir": "docswiki", "SrcFile": "Papercuts.md", "BaseReferrer": "<not included from site docswiki>", "Referrer": "<not included or linked to>/Papercuts.md"},
         {"Page": "PhonologyTop_InterWiki.md", "SrcDir": "docswiki", "SrcFile": "PhonologyTop_InterWiki.md", "BaseReferrer": "<not included from site docswiki>", "Referrer": "<not included or linked to>/PhonologyTop_InterWiki.md"},
         {"Page": "PlatsNavigering.md", "SrcDir": "docswiki", "SrcFile": "PlatsNavigering.md", "BaseReferrer": "<not included from site docswiki>", "Referrer": "<not included or linked to>/PlatsNavigering.md"},
@@ -332,12 +333,20 @@
         {"Page": "GeFaqTwoLexEdges", "SrcDir": "docswiki", "SrcFile": "GeFaqTwoLexEdges.md", "BaseReferrer": "matrix/GrammarEngineeringFAQ.md", "Referrer": "matrix/GrammarEngineeringFAQ.md", "FileMissing": true},
         {"Page": "GeFaqUnifyingNullWithCons", "SrcDir": "docswiki", "SrcFile": "GeFaqUnifyingNullWithCons.md", "BaseReferrer": "matrix/GrammarEngineeringFAQ.md", "Referrer": "matrix/GrammarEngineeringFAQ.md", "FileMissing": true},
         {"Page": "GeFaqWordNotInChart", "SrcDir": "docswiki", "SrcFile": "GeFaqWordNotInChart.md", "BaseReferrer": "matrix/GrammarEngineeringFAQ.md", "Referrer": "matrix/GrammarEngineeringFAQ.md", "FileMissing": true},
-        {"Page": "GeFaqWordToWordRule", "SrcDir": "docswiki", "SrcFile": "GeFaqWordToWordRule.md", "BaseReferrer": "matrix/GrammarEngineeringFAQ.md", "Referrer": "matrix/GrammarEngineeringFAQ.md", "FileMissing": true}
+        {"Page": "GeFaqWordToWordRule", "SrcDir": "docswiki", "SrcFile": "GeFaqWordToWordRule.md", "BaseReferrer": "matrix/GrammarEngineeringFAQ.md", "Referrer": "matrix/GrammarEngineeringFAQ.md", "FileMissing": true},
+        {"Page": "OlomoucKoreanGrammar", "SrcDir": "docswiki", "SrcFile": "OlomoucKoreanGrammar.md", "BaseReferrer": "matrix/GeFaqUnifySurprise.md", "Referrer": "matrix/GeFaqUnifySurprise.md"}
       ]}
     ],
     "summits": [
       {"Section": "Olomouc 2024", "Pages": [
-        {"Page": "OlomoucGeneration", "SrcDir": "docswiki", "SrcFile": "OlomoucGeneration.md", "BaseReferrer": "summits/OlomoucSchedule.md", "Referrer": "summits/OlomoucSchedule.md"}
+        {"Page": "OlomoucAbuiMorphology", "SrcDir": "docswiki", "SrcFile": "OlomoucAbuiMorphology.md", "BaseReferrer": "summits/OlomoucSchedule.md", "Referrer": "summits/OlomoucSchedule.md"},
+        {"Page": "OlomoucMatrixDrivenUpdating", "SrcDir": "docswiki", "SrcFile": "OlomoucMatrixDrivenUpdating.md", "BaseReferrer": "summits/OlomoucSchedule.md", "Referrer": "summits/OlomoucSchedule.md"}
+      ]}
+    ],
+    "tools": [
+      {"Section": "Formats", "Pages": [
+        {"Page": "OlomoucGeneration", "SrcDir": "docswiki", "SrcFile": "OlomoucGeneration.md", "BaseReferrer": "tools/RmrsDiscussions.md", "Referrer": "tools/RmrsDiscussions.md"},
+        {"Page": "OlomoucSEMI", "SrcDir": "docswiki", "SrcFile": "OlomoucSEMI.md", "BaseReferrer": "tools/RmrsDiscussions.md", "Referrer": "tools/RmrsDiscussions.md"}
       ]}
     ]
   }

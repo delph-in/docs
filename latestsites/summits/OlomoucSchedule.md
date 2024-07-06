@@ -95,18 +95,18 @@ Please upload your presentations [here](https://github.com/delph-in/docs/tree/ma
 | 10:30-11:00 | *Break* ||
 | 11:00-12:30 | Distinguishing human vs. LLM authoring | Olga + Dan |
 | 12:30-14:00 | *Lunch (in town)* ||
-| 14:00-15:30 | (1) Synthesizing text -- (2) Korean grammar | Guy -- Sanghoun + Francis |
+| 14:00-15:30 | (1) Synthesizing text -- (2) Korean grammar notes | Guy -- Sanghoun + Francis |
 | 15:30-16:00 | *Break* ||
-| 16:00-17:30 | SEM-I (semantic interface) | Elizabeth |
+| 16:00-17:30 | SEM-I (semantic interface) notes | Elizabeth |
 | 19:00-late | **Conference Banquet** | Francis |
 
 ## Friday
 
 | Time | Content | Leader (Scribe) |
 | :--- | :---    | :--- |
-| 9:00-10:30 | Abui | Frantisek + Francis |
+| 9:00-10:30 | Abui notes | Frantisek + Francis |
 | 10:30-11:00 | *Break* ||
-| 11:00-12:30 | Matrix-driven updating | Tara |
+| 11:00-12:30 | Matrix-driven updating notes | Tara |
 | 12:30-14:00 | *Lunch (in town)* ||
 | 14:00-15:30 | Demo wishlist | Luis |
 | 15:30-16:00 | *Break* ||
@@ -135,4 +135,4 @@ Please upload your presentations [here](https://github.com/delph-in/docs/tree/ma
 Please give your preferences in [this spreadsheet](https://docs.google.com/spreadsheets/d/1zPBiB9JAgOdxdZqiWcmVoPU3-uPpllfFQJvImppmFKg/edit?usp=sharing).
 
 
-Last update: 2024-07-03 by Francis Bond [[edit](https://github.com/delph-in/docs/wiki/OlomoucSchedule/_edit)]{% endraw %}
+Last update: 2024-07-05 by emilymbender [[edit](https://github.com/delph-in/docs/wiki/OlomoucSchedule/_edit)]{% endraw %}

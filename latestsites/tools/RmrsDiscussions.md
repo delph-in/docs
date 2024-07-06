@@ -193,5 +193,9 @@ How to relate morphosyntactic marking of plurality to semantic plurality?
   - [MRS Design for Light Verb Constructions in the Grammar Matrix](https://delph-in.github.io/docs/summits/GaliciaMrsLvc)
   - [Action Nominals in the Grammar Matrix](https://delph-in.github.io/docs/summits/GaliciaNominalization)
   - [Thai Serial Verb Constructions: an HPSG Implementation and Analysis](https://delph-in.github.io/docs/summits/GaliciaThaiSvc)
+- From the [2024 Olomouc Summit](https://delph-in.github.io/docs/summits/OlomoucSchedule), July 2024
+  
+  - Generation with DELPH-IN grammars: formal specs, possible improvements
+  - SEM-I: What, Why, How?
 
-Last update: 2023-06-27 by emilymbender [[edit](https://github.com/delph-in/docs/wiki/RmrsDiscussions/_edit)]{% endraw %}
+Last update: 2024-07-05 by emilymbender [[edit](https://github.com/delph-in/docs/wiki/RmrsDiscussions/_edit)]{% endraw %}
