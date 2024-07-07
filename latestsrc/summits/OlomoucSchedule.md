@@ -41,7 +41,7 @@ Please upload your presentations [here](https://github.com/delph-in/docs/tree/ma
 | 12:30-14:00 | *Lunch (in town)* ||
 | 14:00-15:40 | **Syntax; Communicating DELPH-IN Research (Chair: Olga)** ||
 || [Aligning the ERG with the Cambridge Grammar of the English Language](https://github.com/delph-in/docs/blob/main/summits/2024/cgel-erg.pdf?raw=true) (20+20) | Dan |
-|| [Discussion: How to talk about DELPH-IN research to the rest of the NLP world](https://github.com/delph-in/docs/blob/main/summits/2024/how-to-talk-discussion.pdf?raw=true) (60) | Emily (Guy) |
+|| [Discussion: How to talk about DELPH-IN research to the rest of the NLP world](https://github.com/delph-in/docs/blob/main/summits/2024/how-to-talk-discussion.pdf?raw=true) (60) notes | Emily (Guy) |
 | 15:40-16:10 | *Break* ||
 | 16:10-18:00 | **Language Generation (Chair: Guy)** ||
 || [Referring Expression Generation using MRSs composed via the MRS Algebra](https://github.com/delph-in/docs/blob/main/summits/2024/conrad_REG_with_MRS.pdf?raw=true) (20+20) | Elizabeth (Liz) |
@@ -95,7 +95,7 @@ Please upload your presentations [here](https://github.com/delph-in/docs/tree/ma
 | 10:30-11:00 | *Break* ||
 | 11:00-12:30 | Distinguishing human vs. LLM authoring | Olga + Dan |
 | 12:30-14:00 | *Lunch (in town)* ||
-| 14:00-15:30 | (1) Synthesizing text -- (2) Korean grammar notes | Guy -- Sanghoun + Francis |
+| 14:00-15:30 | (1) Synthesizing text notes -- (2) Korean grammar notes | Guy -- Sanghoun + Francis |
 | 15:30-16:00 | *Break* ||
 | 16:00-17:30 | SEM-I (semantic interface) notes | Elizabeth |
 | 19:00-late | **Conference Banquet** | Francis |
@@ -110,7 +110,7 @@ Please upload your presentations [here](https://github.com/delph-in/docs/tree/ma
 | 12:30-14:00 | *Lunch (in town)* ||
 | 14:00-15:30 | Demo wishlist | Luis |
 | 15:30-16:00 | *Break* ||
-| 16:00-17:30 | WordNet+ERG | Francis + Dan |
+| 16:00-17:30 | WordNet+ERG notes | Francis + Dan|
 | | **Social Program** ||
 | 20:00-late | Maybe [Svijanský Šenk "Svijany's Pub"](http://svijansky-senk.cz/) | Francis |
 
@@ -135,4 +135,4 @@ Please upload your presentations [here](https://github.com/delph-in/docs/tree/ma
 Please give your preferences in [this spreadsheet](https://docs.google.com/spreadsheets/d/1zPBiB9JAgOdxdZqiWcmVoPU3-uPpllfFQJvImppmFKg/edit?usp=sharing).
 
 
-Last update: 2024-07-05 by emilymbender [[edit](https://github.com/delph-in/docs/wiki/OlomoucSchedule/_edit)]{% endraw %}
+Last update: 2024-07-06 by Guy Emerson [[edit](https://github.com/delph-in/docs/wiki/OlomoucSchedule/_edit)]{% endraw %}

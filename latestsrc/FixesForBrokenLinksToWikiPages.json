@@ -195,7 +195,6 @@
         {"Page": "NoraSegmentation.md", "SrcDir": "docswiki", "SrcFile": "NoraSegmentation.md", "BaseReferrer": "<not included from site docswiki>", "Referrer": "<not included or linked to>/NoraSegmentation.md"},
         {"Page": "NoraTop.md", "SrcDir": "docswiki", "SrcFile": "NoraTop.md", "BaseReferrer": "<not included from site docswiki>", "Referrer": "<not included or linked to>/NoraTop.md"},
         {"Page": "NorsygTop.md", "SrcDir": "docswiki", "SrcFile": "NorsygTop.md", "BaseReferrer": "<not included from site docswiki>", "Referrer": "<not included or linked to>/NorsygTop.md"},
-        {"Page": "OlomoucWordNetERG.md", "SrcDir": "docswiki", "SrcFile": "OlomoucWordNetERG.md", "BaseReferrer": "<not included from site docswiki>", "Referrer": "<not included or linked to>/OlomoucWordNetERG.md"},
         {"Page": "Papercuts.md", "SrcDir": "docswiki", "SrcFile": "Papercuts.md", "BaseReferrer": "<not included from site docswiki>", "Referrer": "<not included or linked to>/Papercuts.md"},
         {"Page": "PhonologyTop_InterWiki.md", "SrcDir": "docswiki", "SrcFile": "PhonologyTop_InterWiki.md", "BaseReferrer": "<not included from site docswiki>", "Referrer": "<not included or linked to>/PhonologyTop_InterWiki.md"},
         {"Page": "PlatsNavigering.md", "SrcDir": "docswiki", "SrcFile": "PlatsNavigering.md", "BaseReferrer": "<not included from site docswiki>", "Referrer": "<not included or linked to>/PlatsNavigering.md"},
@@ -340,7 +339,10 @@
     "summits": [
       {"Section": "Olomouc 2024", "Pages": [
         {"Page": "OlomoucAbuiMorphology", "SrcDir": "docswiki", "SrcFile": "OlomoucAbuiMorphology.md", "BaseReferrer": "summits/OlomoucSchedule.md", "Referrer": "summits/OlomoucSchedule.md"},
-        {"Page": "OlomoucMatrixDrivenUpdating", "SrcDir": "docswiki", "SrcFile": "OlomoucMatrixDrivenUpdating.md", "BaseReferrer": "summits/OlomoucSchedule.md", "Referrer": "summits/OlomoucSchedule.md"}
+        {"Page": "OlomoucCommunicating", "SrcDir": "docswiki", "SrcFile": "OlomoucCommunicating.md", "BaseReferrer": "summits/OlomoucSchedule.md", "Referrer": "summits/OlomoucSchedule.md"},
+        {"Page": "OlomoucMatrixDrivenUpdating", "SrcDir": "docswiki", "SrcFile": "OlomoucMatrixDrivenUpdating.md", "BaseReferrer": "summits/OlomoucSchedule.md", "Referrer": "summits/OlomoucSchedule.md"},
+        {"Page": "OlomoucSynthetic", "SrcDir": "docswiki", "SrcFile": "OlomoucSynthetic.md", "BaseReferrer": "summits/OlomoucSchedule.md", "Referrer": "summits/OlomoucCommunicating.md"},
+        {"Page": "OlomoucWordNetERG", "SrcDir": "docswiki", "SrcFile": "OlomoucWordNetERG.md", "BaseReferrer": "summits/OlomoucSchedule.md", "Referrer": "summits/OlomoucSchedule.md"}
       ]}
     ],
     "tools": [
