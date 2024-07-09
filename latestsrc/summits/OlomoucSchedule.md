@@ -34,12 +34,12 @@ Please upload your presentations [here](https://github.com/delph-in/docs/tree/ma
 || [UW](https://github.com/delph-in/docs/blob/main/summits/2024/UW-site-update.pdf?raw=true) (6) | Emily |
 | 9:50-10:30 | Semantics of Classifiers | Francis & Joanna ||
 | 10:30-11:00 | *Break* ||
-| 11:00-12:30 | **Theory and Applications (Chair: Emily)**||
+| 11:00-12:30 | **Theory and Applications (Chair: Emily)**  [📹](https://compling.upol.cz/data/2024_DELPH-IN/01-Theory-and-Applications.mp4)
 || [Judicious Incoherence: Towards a Resource-bounded Cognitive Theory of Language Understanding](https://github.com/delph-in/docs/blob/main/summits/2024/incoherence.pdf?raw=true) (10+20) | Guy |
 || [Robots and CALL (Grounding Grammatical Error Detection)](https://github.com/delph-in/docs/blob/main/summits/2024/delphin-2024-lmc-GRAIL.pdf?raw=true) (10+20) | Luis |
 || [Mapping MRS to Logic for Automatic Solving of Logic Problems](https://github.com/delph-in/docs/blob/main/summits/2024/mrs-to-logic-24-ar.pdf?raw=true) (10+20) | Alexandre |
 | 12:30-14:00 | *Lunch (in town)* ||
-| 14:00-15:40 | **Syntax; Communicating DELPH-IN Research (Chair: Olga)** ||
+| 14:00-15:40 | **Syntax; Communicating DELPH-IN Research (Chair: Olga)** [📹](https://compling.upol.cz/data/2024_DELPH-IN/01-Syntax-Communicating.mp4)||
 || [Aligning the ERG with the Cambridge Grammar of the English Language](https://github.com/delph-in/docs/blob/main/summits/2024/cgel-erg.pdf?raw=true) (20+20) | Dan |
 || [Discussion: How to talk about DELPH-IN research to the rest of the NLP world](https://github.com/delph-in/docs/blob/main/summits/2024/how-to-talk-discussion.pdf?raw=true) (60) notes | Emily (Guy) |
 | 15:40-16:10 | *Break* ||
@@ -53,16 +53,16 @@ Please upload your presentations [here](https://github.com/delph-in/docs/tree/ma
 
 | Time | Content | Presenter (Scribe) |
 | :--- | :---    | :--- |
-| 9:00-10:30 | **Tools and Systems (Chair: Ann)** |
+| 9:00-10:30 | **Tools and Systems (Chair: Ann)**  [📹](https://compling.upol.cz/data/2024_DELPH-IN/02-Tools-and-Systems.mp4)|
 || [LKB-FOS Update](https://github.com/delph-in/docs/blob/main/summits/2024/lkb-fos-update-24.pdf?raw=true) (10+20) | John |
 || Implementing Some Functionalities of PyDelphin in Lean (10+20) | Alexandre |
 || [Hosting DELPH-IN Parsers/Demo @VU Amsterdam](https://github.com/delph-in/docs/blob/main/summits/2024/delphin-2024-lmc-vudemo.pdf?raw=true) (10+20) | Luis |
 | 10:30-11:00 | *Break* ||
-| 11:00-12:30 | **Studying Large Language Models (Chair: Luis)**||
+| 11:00-12:30 | **Studying Large Language Models (Chair: Luis)** [📹](https://compling.upol.cz/data/2024_DELPH-IN/02-LLMs.mp4)||
 | | Questioning Large Language Models’ Linguistic Knowledge (A Stochastic Parrot) (10+20) | Sanghoun & Kangsan |
 | | Discussion: Using DELPH-IN grammars in conjunction with LLMs (and not so L LMs) [notes](https://github.com/delph-in/docs/blob/main/summits/2024/DELPH-IN-2024-LLM-discussion-notes.pdf?raw=true) | Ann & Dan |
 | 12:30-14:00 | *Lunch (in town)* ||
-| 14:00-15:40 | **Pragmatics and Grammar (Chair: Petter)** ||
+| 14:00-15:40 | **Pragmatics and Grammar (Chair: Petter)** [📹](https://compling.upol.cz/data/2024_DELPH-IN/02-Pragmatics-and-Grammar.mp4) ||
 || [Pragmatics and Sense in Perplexity](https://github.com/delph-in/docs/blob/main/summits/2024/Summit2024PerplexityInterpretations.pdf?raw=true) (30) | Eric |
 || Discussion: A new approach to implementing pragmatics in Perplexity (30) | Eric |
 || [Update on the Spanish Resource Grammar](https://github.com/delph-in/docs/blob/main/summits/2024/OZ-DELPH_IN_2024_SRG.pdf?raw=true) (20+20) | Olga |
@@ -77,7 +77,7 @@ Please upload your presentations [here](https://github.com/delph-in/docs/tree/ma
 
 | Time | Content | Presenter (Scribe) |
 | :--- | :---    | :--- |
-| 9:00-10:30 | **Grammatical Theory and Engineering (Chair: Michael)** |
+| 9:00-10:30 | **Grammatical Theory and Engineering (Chair: Michael)** [📹](https://compling.upol.cz/data/2024_DELPH-IN/03-Grammatical-Theory-and-Engineering.mp4)|
 || [Adapting P&P functional categories in a typed feature structure grammar](https://github.com/delph-in/docs/blob/main/summits/2024/P-and-P-categories.pdf?raw=true) (20+20) | Petter |
 || Discussion: [Constraining agreement in the Spanish grammar (and general issues with large grammars)](https://github.com/delph-in/docs/blob/main/summits/2024/OZ-DELPH_IN_2024_AGR.pdf?raw=true) (50) | Olga |
 | 10:30-11:00 | *Break* ||
@@ -135,4 +135,4 @@ Please upload your presentations [here](https://github.com/delph-in/docs/tree/ma
 Please give your preferences in [this spreadsheet](https://docs.google.com/spreadsheets/d/1zPBiB9JAgOdxdZqiWcmVoPU3-uPpllfFQJvImppmFKg/edit?usp=sharing).
 
 
-Last update: 2024-07-06 by Guy Emerson [[edit](https://github.com/delph-in/docs/wiki/OlomoucSchedule/_edit)]{% endraw %}
+Last update: 2024-07-08 by Francis Bond [[edit](https://github.com/delph-in/docs/wiki/OlomoucSchedule/_edit)]{% endraw %}
