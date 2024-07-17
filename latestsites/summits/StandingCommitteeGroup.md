@@ -1,8 +1,10 @@
-{% raw %}- EmilyBender
-- FrancisBond
-- JohnCarroll
-- AnnCopestake
-- DanFlickinger
-- StephanOepen
+{% raw %}These are the members of the DELPH-IN Standing Committee.
 
-Last update: 2020-07-31 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/StandingCommitteeGroup/_edit)]{% endraw %}
+- Emily Bender
+- Francis Bond
+- John Carroll
+- Guy Emerson
+- Dan Flickinger
+- Stephan Oepen
+
+Last update: 2024-07-16 by Francis Bond [[edit](https://github.com/delph-in/docs/wiki/StandingCommitteeGroup/_edit)]{% endraw %}
