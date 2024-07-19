@@ -52,7 +52,7 @@ Group](http://www.mn.uio.no/ifi/english/research/groups/ltg/)
 Research Group](https://www.sussex.ac.uk/research/centres/ai-research-group/)
 - [University of Washington](http://www.washington.edu/) (US),
 [Computational Linguistics Laboratory](http://www.washington.edu/)
-- [Vrije Universiteit Amsterdam](https://vu.nl/en/) (Netherlands),
+- [Vrije Universiteit Amsterdam](https://vu.nl/en/) (Netherlands), [Computational Linguistics & Text Mining Lab](http://www.cltl.nl/)
 - [Western Norway University of Applied Sciences](https://www.hvl.no/en) (Norway), [Department of Language, Literature, Mathematics and Interpreting](https://www.hvl.no/en/about/management/faculty-of-education-arts-and-sports/department-of-language-literature-mathematics-and-interpreting/)
 
 ### Former members
@@ -166,4 +166,4 @@ is a link to the archive near the top of the page.
 There is also an active [stack-exchange style
 forum](http://discourse.delph-in.net), using the Discourse platform.
 
-Last update: 2024-07-17 by Francis Bond [[edit](https://github.com/delph-in/docs/wiki/Home/_edit)]{% endraw %}
+Last update: 2024-07-18 by lmorgadodacosta [[edit](https://github.com/delph-in/docs/wiki/Home/_edit)]{% endraw %}
