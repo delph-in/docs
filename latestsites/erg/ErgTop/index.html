@@ -390,35 +390,41 @@
 <p>The English Resource Grammar (ERG) is a
 general-purpose computational grammar that, in combination with
 specialized processing tools, can map running English text to highly
-normalized logical-form representations of meaning.  A broad-coverage, linguistically precise <a href="https://en.wikipedia.org/wiki/Head-driven_phrase_structure_grammar">HPSG</a>-based grammar of English, the ERG is semantically grounded in <a href="https://en.wikipedia.org/wiki/Minimal_recursion_semantics">Minimal Recursion Semantics</a> (MRS), which is a form of flat semantic representation capable of supporting underspecification.  The ERG is developed as part of the international <a href="https://github.com/delph-in/docs/wiki">Deep Linguistic Processing with HPSG Initiative</a> (DELPH-IN) and can be processed by a number of parsing and realization systems, including the <a href="https://delph-in.github.io/docs/tools/LkbTop">LKB</a> grammar engineering environment, as well as the more efficient <a href="https://delph-in.github.io/docs/garage/PetTop">PET</a> and <a href="http://sweaglesw.org/linguistics/ace/">ACE</a> run-time parsers, for applications.</p>
+normalized logical-form representations of meaning.  A broad-coverage, linguistically precise <a href="https://en.wikipedia.org/wiki/Head-driven_phrase_structure_grammar">HPSG</a>-based grammar of English, the ERG is semantically grounded in <a href="https://en.wikipedia.org/wiki/Minimal_recursion_semantics">Minimal Recursion Semantics</a> (MRS), which is a form of flat semantic representation capable of supporting underspecification.  The ERG is developed as part of the international <a href="https://github.com/delph-in/docs/wiki">Deep Linguistic Processing with HPSG Initiative</a> (DELPH-IN) and can be processed by a number of parsing and realization systems, including the <a href="https://delph-in.github.io/docs/tools/LkbTop">LKB</a> grammar engineering environment, as well as the <a href="http://sweaglesw.org/linguistics/ace/">ACE</a> run-time parser, for applications.</p>
 
-<p>On-line demos of the ERG are available:</p>
+<p>An on-line demos of the ERG is available:</p>
 
 <ul>
-  <li>http://erg.delph-in.net</li>
   <li>http://delph-in.github.io/delphin-viz/demo/</li>
 </ul>
 
-<p>You can get started quickly with a local compiled copy of the ERG and the ACE parser via <a href="https://delph-in.github.io/docs/erg/QuickStart">these instructions</a>.  For more detailed investigation and experimentation with the grammar, you can obtain a local copy of the grammar source via SVN:</p>
+<p>You can get started quickly with a local compiled copy of the ERG and the ACE parser via <a href="https://delph-in.github.io/docs/erg/QuickStart">these instructions</a>.  For more detailed investigation and experimentation with the grammar, you can obtain a local copy of the grammar source via Github.</p>
 
 <ul>
   <li>
     <p>The most recent stable version of the ERG:</p>
 
-    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> $ svn checkout http://svn.delph-in.net/erg/tags/2023
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> $ wget https://github.com/delph-in/erg/archive/2023.tar.gz   (alternatively, .../archive/2023.zip)
 </code></pre></div>    </div>
   </li>
   <li>
     <p>To compile it into a grammar that the ACE parser can use, follow that with:</p>
 
-    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> $ cd 2023/ace
- $ ace -G grammar.dat -g ./config.tdl
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> $ tar xzvf 2023.tar.gz; cd 2023
+ $ ace -G erg.dat -g ace/config.tdl
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>To parse a sentence and produce the semantics (MRS) for the first (most probable) analysis:</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> $ ace -g erg.dat -1Tf
+ $ Cats are not amused by children whose dogs bark.
 </code></pre></div>    </div>
   </li>
   <li>
     <p>The latest version of the ERG grammar files:</p>
 
-    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> $ svn checkout http://svn.delph-in.net/erg/trunk
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> $ git clone https://github.com/delph-in/erg.git
 </code></pre></div>    </div>
   </li>
 </ul>
@@ -432,9 +438,7 @@ interface to it for parsing or generation:</p>
 <ul>
   <li><a href="https://delph-in.github.io/docs/erg/ErgSemantics">The Semantics Produced by the ERG</a></li>
   <li><a href="https://delph-in.github.io/docs/erg/ErgLeTypes">Lexical Types</a></li>
-  <li><a href="http://compling.hss.ntu.edu.sg/ltdb/cgi/ERG_1214/ltypes.cgi">Linguistic Type
-Database</a>,
-with example sentences in Redwoods Treebank</li>
+  <li>[Linguistic Type Database (LkbLtdb) coming soon for ERG 2023, with example sentences in Redwoods Treebank</li>
   <li><a href="https://delph-in.github.io/docs/erg/ErgRules">Syntactic and Lexical Rules</a></li>
   <li><a href="https://delph-in.github.io/docs/erg/ErgTreebankingRules">Lexical and Phrasal Distinctions</a></li>
   <li><a href="https://delph-in.github.io/docs/erg/ErgTokenization">Tokenization Assumptions</a></li>
@@ -462,9 +466,9 @@ Copestake 2006), extraction of glossary sentences (Reiplinger et al
 Searchbench (Schäfer et al 2011).</p>
 
 <h1 id="history">History</h1>
-<p>The early development and first application of the ERG was in the <a href="http://verbmobil.dfki.de/">VerbMobil</a> spoken language machine translation project. CSLI’s <a href="https://www-csli.stanford.edu/groups/lingo-project">Linguistic Grammars Online</a> Lab was responsible for building the English grammar for the deep-processing component of Verbmobil, which utilized a semantic transfer approach, requiring both parsing and generation of conversational English dialogues. Since then, the ERG has been used in a commercial application providing automatic response to customer email messages, in a second machine translation research project <a href="http://www.emmtee.net/">LOGON</a> for Norwegian to English, and for the past decade in grammar correction, beginning in an online English Language Arts course offered to elementary school students as part of Stanford University’s <a href="https://en.wikipedia.org/wiki/Education_Program_for_Gifted_Youth">Education Program for Gifted Youth</a>.  This course became part of the spin-off company Redbird’s offerings, and most recently part of McGraw-Hill Education’s product line as their <a href="https://www.mheducation.com/prek-12/explore/redbird/language-arts-writing.html">Language Arts and Writing</a> course.  The ERG is also being used to detect and explain grammatical errors in student writing products for second-language learners of English offered by the Beijing-based company Up366.</p>
+<p>The early development and first application of the ERG was in the <a href="http://verbmobil.dfki.de/">VerbMobil</a> spoken language machine translation project. CSLI’s <a href="https://www-csli.stanford.edu/groups/lingo-project">Linguistic Grammars Online</a> Lab was responsible for building the English grammar for the deep-processing component of Verbmobil, which utilized a semantic transfer approach, requiring both parsing and generation of conversational English dialogues. Since then, the ERG has been used in a commercial application providing automatic response to customer email messages, in a second machine translation research project <a href="http://www.emmtee.net/">LOGON</a> for Norwegian to English, and for the past decade in grammar correction, beginning in an online English Language Arts course offered to elementary school students as part of Stanford University’s <a href="https://en.wikipedia.org/wiki/Education_Program_for_Gifted_Youth">Education Program for Gifted Youth</a>.  This course became part of the spin-off company Redbird’s offerings, and most recently part of McGraw-Hill Education’s product line as their <a href="https://www.mheducation.com/prek-12/explore/redbird/language-arts-writing.html">Language Arts and Writing</a> course.  The ERG has also been used to detect and explain grammatical errors in student writing products for second-language learners of English offered by the Beijing-based company Up366.</p>
 
-<p><a href="https://www-csli.stanford.edu/people/daniel-flickinger">Dan Flickinger</a> (CSLI) is the principal ERG developer. Other individuals who have made major contributions to the grammar are Emily Bender (University of Washington), Ann Copestake (University of Cambridge), Rob Malouf (San Diego State University) and Stephan Oepen (University of Oslo).  Several former graduate students (Brady Clark, Judith Tonhauser, Kathryn Campbell-Kibler, Martina Faller, Ash Asudeh, Susanne Riehemann) and visiting graduate students (Jesse Tseng, University of Edinburgh; Ken Bame, Ohio State University; Judith Eckle-Kohler, University of Stuttgart) also did detailed work, including building the lexicon, developing test suites, isolating phenomena found in corpora and developing analyses in the HPSG formalism.  Jeff Smith (Professor, San Jose State University) has also spent time at CSLI developing various aspects of the grammar.  In addition to this direct implementation work, weekly technical project meetings have provided an important forum for critique of specific analyses, particularly from Stanford profesors Ivan Sag and Tom Wasow.</p>
+<p>Dan Flickinger, formerly at CSLI, Stanford University, is the principal ERG developer. Other individuals who have made major contributions to the grammar are Emily Bender (University of Washington), Ann Copestake (University of Cambridge), Rob Malouf (San Diego State University) and Stephan Oepen (University of Oslo).  Several former graduate students (Brady Clark, Judith Tonhauser, Kathryn Campbell-Kibler, Martina Faller, Ash Asudeh, Susanne Riehemann) and visiting graduate students (Jesse Tseng, University of Edinburgh; Ken Bame, Ohio State University; Judith Eckle-Kohler, University of Stuttgart) also did detailed work, including building the lexicon, developing test suites, isolating phenomena found in corpora and developing analyses in the HPSG formalism.  Jeff Smith (Professor, San Jose State University) has also spent time at CSLI developing various aspects of the grammar.  In addition to this direct implementation work, weekly technical project meetings provided an important forum for critique of specific analyses, particularly from Stanford professors Ivan Sag and Tom Wasow.</p>
 
 <h1 id="references">References</h1>
 
@@ -551,7 +555,7 @@ Computational Linguistics.</p>
 <p>Yao, X., Bouma, G., &amp; Zhang, Y. (2012). Semantics-based question
 generation and implementation. Dialogue &amp; Discourse, 3(2), 11-42.</p>
 
-<p>Last update: 2024-02-27 by EricZinda [<a href="https://github.com/delph-in/docs/wiki/ErgTop/_edit">edit</a>]</p>
+<p>Last update: 2024-07-23 by Dan Flickinger [<a href="https://github.com/delph-in/docs/wiki/ErgTop/_edit">edit</a>]</p>
 
         
       </section>

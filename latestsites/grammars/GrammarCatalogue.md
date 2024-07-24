@@ -50,23 +50,23 @@ generating metadata.
 | maintainer                  | DanFlickinger                                                                                    |
 | contributors                | DanFlickinger; [RobMalouf](/RobMalouf); EmilyBender; StephanOepen |
 | contact                     | <mailto:erg@delph-in.net>                                                                                                |
-| website                     | <http://www.delph-in.net/erg>                                                                                     |
-| demo                        | <http://erg.delph-in.net/>                                                                                        |
+| website                     | <https://github.com/delph-in/docs/wiki/ErgTop>                                                                       |
+| demo                        | <http://delph-in.github.io/delphin-viz/demo/>                                                                                        |
 | documentation               | <https://github.com/delph-in/docs/wiki/ErgTop>                                                                            |
-| issue tracker               |                                                                                                                   |
-| version control             | svn co <http://svn.delph-in.net/erg/trunk>                                                                        |
-| latest revision             | 20743                                                                                                             |
-| latest release              | 1214                                                                                                              |
+| issue tracker               | <https://github.com/delph-in/erg/issues>                                                                                                                |
+| version control             | <https://github.com/delph-in/erg>                                                                        |
+| latest revision             | [4eba9c6](https://github.com/delph-in/erg/commit/4eba9c616910606d1dd229f2704b012ad22e7ba8)                                                                                                          |
+| latest release              | 2023                                                                                                              |
 | canonical citation          | Flickinger 2000 (\[<http://lingo.stanford.edu/danf/ergbib.txt> .bib\])                                            |
 | license                     | \[<http://svn.delph-in.net/erg/trunk/LICENSE> MIT\]                                                               |
 | grammar type                | \[Resource grammar\]                                                                                              |
-| required external resources | TnT POS tagger (for unknown word handling)                                                                        |
+| required external resources | none                                                                        |
 | associated resources        | parse ranking model; realization ranking model; unknown word handling; Redwoods treebank                          |
-| lexical items               | 38294                                                                                                             |
-| lexical rules               | 81                                                                                                                |
-| grammar rules               | 212                                                                                                               |
-| features                    | 215                                                                                                               |
-| types (with glb)            | 9086                                                                                                              |
+| lexical items               | 43955                                                                                                             |
+| lexical rules               | 101                                                                                                                |
+| grammar rules               | 295                                                                                                               |
+| features                    | 264                                                                                                               |
+| types (with glb)            | 12063                                                                                                              |
 
 <a name="Jacy"/>
 
@@ -618,4 +618,4 @@ to this:
 
      grammar_metrics=$(mktemp -p ./)
 
-Last update: 2023-09-22 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/GrammarCatalogue/_edit)]{% endraw %}
+Last update: 2024-07-23 by Dan Flickinger [[edit](https://github.com/delph-in/docs/wiki/GrammarCatalogue/_edit)]{% endraw %}

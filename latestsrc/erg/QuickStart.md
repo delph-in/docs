@@ -12,23 +12,23 @@ getting the latest version (since this wiki was last updated) are as
 follows:
 
 ```
-~$ wget http://sweaglesw.org/linguistics/ace/download/ace-0.9.29-x86-64.tar.gz -q -O - | tar xz
-~$ sudo mv ace-0.9.29 /opt/
+~$ wget http://sweaglesw.org/linguistics/ace/download/ace-0.9.34-x86-64.tar.gz -q -O - | tar xz
+~$ sudo mv ace-0.9.34 /opt/
 ```
 
 To make ACE accessible as a command, at its directory to the PATH
 variable (e.g., in .bashrc)
 
 ```
-PATH=/opt/ace-0.9.29:"$PATH"
+PATH=/opt/ace-0.9.34:"$PATH"
 ```
 
 Confirm that it is installed:
 
 ```
 ~$ ace -V
-ACE version 0.9.29
-compiled at 23:08:25 on Nov 19 2018
+ACE version 0.9.30
+compiled at 23:05:01 on Nov 21 2018
 ```
 
 ## Download the ERG
@@ -133,4 +133,4 @@ reading results for                2    2 results
 If you want a more full-featured setup for grammar development, you
 might look into the full LOGON distribution: [LogonTop](https://delph-in.github.io/docs/tools/LogonTop)
 
-Last update: 2022-09-12 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/QuickStart/_edit)]{% endraw %}
+Last update: 2024-07-23 by Dan Flickinger [[edit](https://github.com/delph-in/docs/wiki/QuickStart/_edit)]{% endraw %}
