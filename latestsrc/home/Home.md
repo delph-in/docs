@@ -18,33 +18,20 @@ researchers from the following institutions, among others:
 [Linguistic Modeling Department](http://lml.bas.bg/)
 - [University of Cambridge](http://www.cam.ac.uk/) (UK), [Department
 of Computer Science and Technology](http://www.cst.cam.ac.uk/)
-- [DFKI Saarbrücken GmbH](http://www.dfki.de/) (Germany), [Language
-Technology Lab](http://www.dfki.de/lt/) (co-founder)
 - [Getulio Vargas Foundation](https://portal.fgv.br) (Brazil), [Applied
 Mathematics Department](https://emap.fgv.br)
 - [IBM Research](https://www.research.ibm.com/) (Brazil), [Brazil
 Research Lab](https://www.ibm.com/blogs/research/category/ibmres-bra/)
 - [Kyung Hee University](http://www.kyunghee.ac.kr/) (Korea),
 [School of English](http://khenglish.khu.ac.kr/)
-- [Melbourne University](http://www.unimelb.edu.au/) (Australia),
-[Language Technology Group](http://www.cs.mu.oz.au/research/lt/)
 - [Norwegian University of Science and
 Technology](http://www.ntnu.no/) (Norway), [Department of Language
 and Communication Studies](http://mime.hf.ntnu.no/hf/isk/)
 - [Palacký University Olomouc](https://www.upol.cz/en/) (Czechia),
 [Department of Asian Studies](https://kas.upol.cz/en/)
-- [Saarland University](http://www.uni-saarland.de/) (Germany),
-[Department for Computational
-Linguistics](http://www.coli.uni-sb.de/)
-- [Universtitat de Barcelona](http://www.ub.edu/) (Spain), [Grup de
-Recerca Interuniversitari en Aplicacions Lingüístiques
-(GRIAL)](http://grial.uab.es/)
 - [CNRS](http://www.cnrs.fr/) & [Université Paris
 Diderot](http://www.univ-paris-diderot.fr/) (France), [Laboratoire
 de Linguistique Formelle (UMR 7110)](http://www.llf.cnrs.fr/)
-- [Universtitat Pompeu Fabra](http://www.upf.edu/) (Spain), [Institut
-Universitari de Lingüística Aplicada
-(IULA)](http://www.iula.upf.edu/)
 - [University of Oslo](http://www.uio.no/) (Norway), [Language
 Technology
 Group](http://www.mn.uio.no/ifi/english/research/groups/ltg/)
@@ -57,18 +44,31 @@ Research Group](https://www.sussex.ac.uk/research/centres/ai-research-group/)
 
 ### Former members
 
+- [DFKI Saarbrücken GmbH](http://www.dfki.de/) (Germany), [Language
+Technology Lab](http://www.dfki.de/lt/) (co-founder)
+- [Melbourne University](http://www.unimelb.edu.au/) (Australia),
+[Language Technology Group](http://www.cs.mu.oz.au/research/lt/)
 - [Nanyang Technological University](http://www.ntu.edu.sg/)
 (Singapore), [Division of Linguistics and Multilingual
 Studies](http://www.ntu.edu.sg/HSS/Linguistics/)
-- [National Institute of Information and Communications Technology](https://www.nict.go.jp/en/) (NICT), Japan
+- [National Institute of Information and Communications Technology](https://www.nict.go.jp/en/) (NICT: Japan)
 - [NTT Communication Science
 Laboratories](http://www.kecl.ntt.co.jp/) (Japan),
 [Interaction Research Group](http://www.kecl.ntt.co.jp/icl/icl/interaction_research.html)
+- [Saarland University](http://www.uni-saarland.de/) (Germany),
+[Department for Computational
+Linguistics](http://www.coli.uni-sb.de/)
 - [Stanford University](http://www.stanford.edu/) (US), [LinGO
 Laboratory at CSLI](http://lingo.stanford.edu/) (co-founder)
+- [Universtitat de Barcelona](http://www.ub.edu/) (Spain), [Grup de
+Recerca Interuniversitari en Aplicacions Lingüístiques
+(GRIAL)](http://grial.uab.es/)
 - [University of Lisbon](http://www.ul.pt/) (Portugal), [Natural
 Language and Speech Group](http://nlx.di.fc.ul.pt/)
-- [University of Tokyo](https://www.u-tokyo.ac.jp/en/)
+- [Universtitat Pompeu Fabra](http://www.upf.edu/) (Spain), [Institut
+Universitari de Lingüística Aplicada
+(IULA)](http://www.iula.upf.edu/)
+- [University of Tokyo](https://www.u-tokyo.ac.jp/en/) (Japan)
 
 The DELPH-IN collaboration is open to additional partners and individuals
 who share our goals and are interested in contributing to the common task.
@@ -166,4 +166,4 @@ is a link to the archive near the top of the page.
 There is also an active [stack-exchange style
 forum](http://discourse.delph-in.net), using the Discourse platform.
 
-Last update: 2024-07-18 by lmorgadodacosta [[edit](https://github.com/delph-in/docs/wiki/Home/_edit)]{% endraw %}
+Last update: 2024-08-18 by Francis Bond [[edit](https://github.com/delph-in/docs/wiki/Home/_edit)]{% endraw %}
