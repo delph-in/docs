@@ -166,4 +166,6 @@ is a link to the archive near the top of the page.
 There is also an active [stack-exchange style
 forum](http://discourse.delph-in.net), using the Discourse platform.
 
-Last update: 2024-08-18 by Francis Bond [[edit](https://github.com/delph-in/docs/wiki/Home/_edit)]{% endraw %}
+DELPH-IN is organized by a [standing commitee](https://delph-in.github.io/docs/summits/StandingCommitteeGroup/), but it is pretty informal.
+
+Last update: 2024-08-28 by Francis Bond [[edit](https://github.com/delph-in/docs/wiki/Home/_edit)]{% endraw %}
