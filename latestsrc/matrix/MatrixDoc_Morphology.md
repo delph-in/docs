@@ -7,7 +7,7 @@ Matrix Customization questionnaire and presents background information
 on the person library of the Grammar Matrix Customization System (Bender
 et al., 2002; Bender and Flickinger, 2005; Bender et al., 2010). General
 instructions on using the questionnaire can be found
-[here](/MatrixDocTop#General_instructions_on_how_to_use_the_questionnaire).
+[here](/delph-in/docs/wiki/MatrixDocTop#general-instructions-on-how-to-use-the-questionnaire).
 
 The Morphology page interacts with virtually every library in the
 customization system. On the Lexicon page, the user can define various
@@ -22,7 +22,7 @@ The standard citation for the morphology library is Goodman 2012, an
 initial version was made and described in [Drellishak
 2009](http://depts.washington.edu/uwcl/matrix/sfd/Drellishak%20-%20Widespread%20but%20Not%20Universal.pdf).
 The full references can be found
-[here](/MatrixDoc/Morphology#References).
+[here](/delph-in/docs/wiki/MatrixDoc_Morphology#references).
 
 # Options
 
@@ -80,4 +80,4 @@ progress or planned. \]</span>
 Goodman, Michael. 2012. Generation of Machine-Readable Morphological
 Rules from Human-Readable Input.
 
-Last update: 2015-01-24 by TJTrimble [[edit](https://github.com/delph-in/docs/wiki/MatrixDoc_Morphology/_edit)]{% endraw %}
+Last update: 2024-09-13 by taraw28 [[edit](https://github.com/delph-in/docs/wiki/MatrixDoc_Morphology/_edit)]{% endraw %}
