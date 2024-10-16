@@ -32,6 +32,7 @@ variables and other conventions)
 - [MatrixCustomizationWebTesting](https://delph-in.github.io/docs/matrix/MatrixCustomizationWebTesting)
 - [MatrixMorphology](https://delph-in.github.io/docs/matrix/MatrixMorphology)
 - [PythonIdioms](https://delph-in.github.io/docs/matrix/PythonIdioms)
+- [Running the web interface locally](https://github.com/delph-in/matrix/blob/trunk/web/README.md?raw=true)
 - [MatrixTDBProcedures](https://delph-in.github.io/docs/matrix/MatrixTDBProcedures) (Current as of Sept 2009,
 for MatrixTDB2)
 - [MatrixTDB2Tables](https://delph-in.github.io/docs/matrix/MatrixTDB2Tables) (2009 version switched to
@@ -253,4 +254,4 @@ detailed below explains the directories and files for a single branch
     matrix.py    [Python script for running customize, tests, install, etc.]
     matrix.cgi   [CGI script to handle web requests]
 
-Last update: 2021-06-04 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/MatrixDevTop/_edit)]{% endraw %}
+Last update: 2024-10-15 by emilymbender [[edit](https://github.com/delph-in/docs/wiki/MatrixDevTop/_edit)]{% endraw %}
