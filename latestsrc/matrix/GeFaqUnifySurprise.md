@@ -83,6 +83,10 @@ unification.
 - The lexical rule is being removed by lexical filtering, e.g. because it underspecifies TRAITS (or similar). See [here](https://delphinqa.ling.washington.edu/t/help-debugging-a-unification-surprise-involving-lexical-rules/875/4).
 - (Applicable to ace only, not the LKB): If the value of `parsing-roots` in `ace/config.tdl` is a string that does not correspond to something in `roots.tdl`, ace will refuse to put any edges into the spanning cell of the chart, even if they can be built interactively. Discovered in Olomouc, during KRG discussion
 
+## The sentence is parsed by the LKB, but an edge I am interested in is not in the parse chart. I can build it interactively, and I can see it in the ACE parse chart.
+
+- The LKB hides some of the packed edges (at least when using LUI). You can [parse the sentence without packing](https://github.com/delph-in/docs/wiki/LkbFos#features-and-enhancements), and you should see the edge. See [here](https://delphinqa.ling.washington.edu/t/an-edge-is-in-the-tree-but-not-in-the-chart/1087).
+
 [Back to the Grammar Engineering FAQ](https://delph-in.github.io/docs/matrix/GrammarEngineeringFAQ).
 
-Last update: 2024-07-05 by emilymbender [[edit](https://github.com/delph-in/docs/wiki/GeFaqUnifySurprise/_edit)]{% endraw %}
+Last update: 2024-10-25 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/GeFaqUnifySurprise/_edit)]{% endraw %}
