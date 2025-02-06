@@ -33,6 +33,11 @@ jobs:
           path: version_check
           fetch-depth: 1
 
+      # Work around the fact that this workflow will get disabled if the
+      # *this* repository hasn't been changed in 60 days
+      - name: Keep alive after 60 days
+        uses: gautamkrishnar/keepalive-workflow@v2
+
       # Create a file containing the SHA of the current main commit from the wiki
       - name: Create cache file
         run: |
