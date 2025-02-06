@@ -40,6 +40,8 @@ jobs:
       # *this* repository hasn't been changed in 60 days
       - name: Keep alive after 60 days
         uses: gautamkrishnar/keepalive-workflow@v2
+        with:
+          use_api: false
 
       # Create a file containing the SHA of the current main commit from the wiki
       - name: Create cache file
