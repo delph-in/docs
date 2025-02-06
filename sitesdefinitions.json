@@ -479,8 +479,7 @@
       ]},
       {"Section": "Amsterdam 2025", "Pages": [
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "AmsterdamTop.md"},
-        {"Page": "Participants", "SrcDir": "docswiki", "SrcFile": "AmsterdamParticipants.md"},
-        {"Page": "Schedule", "SrcDir": "docswiki", "SrcFile": "AmsterdamSchedule.md"}
+        {"Page": "Participants", "SrcDir": "docswiki", "SrcFile": "AmsterdamParticipants.md"}
       ]},
       {"Section": "Olomouc 2024", "Pages": [
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "OlomoucTop.md"},
