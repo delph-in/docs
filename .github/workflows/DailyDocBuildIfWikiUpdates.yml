@@ -18,7 +18,7 @@ jobs:
   # The output of this job (wiki_changed) will be 'true' or 'false' depending on whether the wiki has changed
   # since the last time it was run
   check_if_wiki_changes:
-    permissions: write-all
+#    permissions: write-all
 
     name: Check if there are wiki changes
     # Don't run this while in a branch
@@ -38,10 +38,10 @@ jobs:
 
       # Work around the fact that this workflow will get disabled if the
       # *this* repository hasn't been changed in 60 days
-      - name: Keep alive after 60 days
-        uses: gautamkrishnar/keepalive-workflow@v2
-        with:
-          use_api: false
+#      - name: Keep alive after 60 days
+#        uses: gautamkrishnar/keepalive-workflow@v2
+#        with:
+#          use_api: false
 
       # Create a file containing the SHA of the current main commit from the wiki
       - name: Create cache file
