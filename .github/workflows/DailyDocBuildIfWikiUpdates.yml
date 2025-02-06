@@ -30,7 +30,7 @@ jobs:
     steps:
       # Checkout the wiki
       - name: Checkout DELPH-IN wiki
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           repository: delph-in/docs.wiki
           path: version_check
