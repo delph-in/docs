@@ -9,6 +9,9 @@ on:
     # Run every day at 6:45 (to avoid high load times at Github)
     - cron: '45 6 * * *'
 
+permissions:
+  contents: write
+
 #  schedule:
 #    # Run every 15 minutes for testing
 #    - cron: '*/15 * * * *'
