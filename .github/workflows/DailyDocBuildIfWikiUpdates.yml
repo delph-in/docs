@@ -9,8 +9,6 @@ on:
     # Run every day at 6:45 (to avoid high load times at Github)
     - cron: '45 6 * * *'
 
-permissions:
-  contents: write
 
 #  schedule:
 #    # Run every 15 minutes for testing
@@ -20,6 +18,8 @@ jobs:
   # The output of this job (wiki_changed) will be 'true' or 'false' depending on whether the wiki has changed
   # since the last time it was run
   check_if_wiki_changes:
+    permissions: write-all
+
     name: Check if there are wiki changes
     # Don't run this while in a branch
     if: ${{ github.ref == 'refs/heads/main'}}
