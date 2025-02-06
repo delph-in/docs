@@ -1,0 +1,29 @@
+{% raw %}The following is a list of participants registered for the [**2025 DELPH-IN Summit**](https://delph-in.github.io/docs/summits/AmsterdamTop), to be held at [Vrije Universiteit (VU) Amsterdam](https://vu.nl/en), in the Netherlands, during the week of July 7-11, 2025.  Any member of the DELPHIN organization is invited and is encouraged to register here.
+
+Details about the banquet and excursion will follow.
+
+We will try to keep costs as low as possible (taking into consideration that accommodation costs will be high). However, a registration fee will be needed for in-person participants. The registration would cover coffee/snacks during the day, excursion and banquet. Virtual participation is free.
+
+**Registration cost may still change!**
+| Type    | **Tentative Price** |
+|-------  | -----: |
+| General | 150 (?) |
+| Student | 100 (?) | 
+
+Please register your planned participation by editing this table to indicate which dates you'll
+be attending, your mode of participation (i.e. Virtual or In-Person) and, if virtual, during which hours on those dates you can attend.
+
+Please add times **in LOCAL Netherlands Time**:
+[worldtimeserver](https://www.worldtimeserver.com/meeting-planner-times.aspx?Day=7&Mon=7&Y=2024&L0=UTC&L1=NL&L2=SG&L3=BR-RJ&L4=US-WA&L5=&L6=&L7=) (E.g. 8:00-16:00 UTC is 10:00-18:00 Netherlands Time.)
+
+| Name | Dates/Time | Mode (Virtual/In-Person) | Comments |
+|-------|------|-----|---------|
+|Luis Morgado da Costa|July 7-11|in person | will start procuring some Port |
+|Francis Bond|July 7-11 in person | |probably also 12-13 if anyone is free|
+|Leolani (VU's Robot)|July 7-11| in person | beep-bop beep-bop |
+|DeepSeek |July 7-9 (8am-5pm NL Time)| virtual | **Participation DENIED!** |
+|John Carroll|July 7-11|in person | |
+|Olga Zamaraeva|July 7-11|in person | |
+
+
+Last update: 2025-02-03 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/AmsterdamParticipants/_edit)]{% endraw %}

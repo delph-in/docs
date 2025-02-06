@@ -24,6 +24,7 @@ best practice.
 
 ## Previous and Future Meetings
 
+- 2025 — 21st Summit: [Amsterdam](https://delph-in.github.io/docs/summits/AmsterdamTop) (July 07-11)
 - 2024 — 20th Summit: [Olomouc](https://delph-in.github.io/docs/summits/OlomoucTop) (July 01-05, co-located with HPSG 08-10)
 - 2023 — 19th Summit: [Galicia/A Coruña](https://delph-in.github.io/docs/summits/GaliciaTop) (June 26-30)
 - 2022 — 18th Summit: [Bellingham/Fairhaven](https://delph-in.github.io/docs/summits/FairhavenTop) (July 18-22)
@@ -109,4 +110,4 @@ this needs to be done before people indicate interest.
 - SIG scheduler should lock the schedule page before beginning the
 scheduling process.
 
-Last update: 2024-01-12 by Francis Bond [[edit](https://github.com/delph-in/docs/wiki/SummitTop/_edit)]{% endraw %}
+Last update: 2025-02-02 by lmorgadodacosta [[edit](https://github.com/delph-in/docs/wiki/SummitTop/_edit)]{% endraw %}

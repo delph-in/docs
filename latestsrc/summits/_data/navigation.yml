@@ -20,6 +20,12 @@ toc:
     children:
       - title: "Overview"
         url: "/SummitTop/"
+  - title: "Amsterdam 2025"
+    children:
+      - title: "Overview"
+        url: "/AmsterdamTop/"
+      - title: "Participants"
+        url: "/AmsterdamParticipants/"
   - title: "Olomouc 2024"
     children:
       - title: "Overview"
