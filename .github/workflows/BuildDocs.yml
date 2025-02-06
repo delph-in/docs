@@ -80,26 +80,26 @@ jobs:
           ref-to-teaser-path: ./main/latestsites/refToTeaser.json
 
       # Upload any output data so users can get at it
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         if: ${{ failure() }}
         with:
           name: Site Errors
           path: main/latestsrc/SiteErrors.json
           if-no-files-found: ignore # 'warn' or 'ignore' are also available, defaults to `warn`
 
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with:
           name: All Pages
           path: main/latestsrc/AllPages.json
           if-no-files-found: ignore # 'warn' or 'ignore' are also available, defaults to `warn`
 
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with:
           name: All Links (working, broken, local, external, etc)
           path: main/latestsrc/AllLinks.json
           if-no-files-found: ignore # 'warn' or 'ignore' are also available, defaults to `warn`
 
-      - uses: actions/upload-artifact@v3
+      - uses: actions/upload-artifact@v4
         with:
           name: Fixes for broken links To Wiki pages
           path: main/latestsrc/FixesForBrokenLinksToWikiPages.json
