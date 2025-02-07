@@ -24,8 +24,7 @@ jobs:
     runs-on: ubuntu-latest
     # Store whether the wiki has changed or not in the output of this workflow
     outputs:
-      wiki_changed: ${{ steps.check_sha.outputs.cache-hit != 'true' || steps.date.outputs.date == '1' || steps.date.outputs.date == '7'
-    }}
+      wiki_changed: ${{ steps.check_sha.outputs.cache-hit != 'true' }}
     steps:
         # Work around the fact that this workflow will get disabled if the
         # *this* repository hasn't been changed in 60 days
