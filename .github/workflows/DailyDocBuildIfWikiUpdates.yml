@@ -23,11 +23,12 @@ jobs:
     if: ${{ github.ref == 'refs/heads/main'}}
     runs-on: ubuntu-latest
     # Store whether the wiki has changed or not in the output of this workflow
+    # Work around the fact that this workflow will get disabled if the
+    # *this* repository hasn't been changed in 60 days by forcing a build on the 1st and 15th of every month
+    # The build will update this repository and reset the 60 day timer
     outputs:
-      wiki_changed: ${{ steps.check_sha.outputs.cache-hit != 'true' || env.DATE == '01' || env.DATE == '07' }}
+      wiki_changed: ${{ steps.check_sha.outputs.cache-hit != 'true' || env.DATE == '01' || env.DATE == '15' }}
     steps:
-        # Work around the fact that this workflow will get disabled if the
-        # *this* repository hasn't been changed in 60 days
       - name: Get current day
         id: date
         run: echo "DATE=$(date +'%d')" >> $GITHUB_ENV
