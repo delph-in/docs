@@ -23,8 +23,11 @@ Please add times **in LOCAL Netherlands Time**:
 |Leolani (VU's Robot)|July 7-11| in person | beep-bop beep-bop |
 |DeepSeek |July 7-9 (8am-5pm NL Time)| virtual | **Participation DENIED!** |
 |John Carroll|July 7-11|in person | |
-|Olga Zamaraeva|July 7-11|in person |
-|Alex Lascarides| July 7-8| virtual | Sorry I can't be there in person | |
+|Olga Zamaraeva|July 7-11|in person | |
+|Alex Lascarides| July 7-8| virtual | Sorry I can't be there in person |
+|Ann Copestake|July 7-9|in person | possibly also 10 and 11 |
+|Weiwei Sun|July 7-11|in person| |
+|Dan Flickinger|July 7-11|in person | |
 
 
-Last update: 2025-02-25 by Alex Lascarides [[edit](https://github.com/delph-in/docs/wiki/AmsterdamParticipants/_edit)]{% endraw %}
+Last update: 2025-02-26 by Dan Flickinger [[edit](https://github.com/delph-in/docs/wiki/AmsterdamParticipants/_edit)]{% endraw %}
