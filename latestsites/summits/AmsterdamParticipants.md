@@ -29,6 +29,7 @@ Please add times **in LOCAL Netherlands Time**:
 |Weiwei Sun|July 7-11|in person| |
 |Dan Flickinger|July 7-11|in person | |
 |Eric Zinda|July 7-11|in person | |
+|Emily Luedke|July 7-11|in person | |
 
 
-Last update: 2025-03-10 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/AmsterdamParticipants/_edit)]{% endraw %}
+Last update: 2025-03-11 by eeluedke [[edit](https://github.com/delph-in/docs/wiki/AmsterdamParticipants/_edit)]{% endraw %}
