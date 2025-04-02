@@ -32,5 +32,6 @@ Please add times **in LOCAL Netherlands Time**:
 |Emily Luedke|July 7-11|in person | |
 |Emily M. Bender|July 7-11|in person| |
 |Spencer Brooks|July 7-11|in person | |
+|Guy Emerson|July 7-11|in person||
 
-Last update: 2025-03-31 by spencer-brooks [[edit](https://github.com/delph-in/docs/wiki/AmsterdamParticipants/_edit)]{% endraw %}
+Last update: 2025-04-01 by Guy Emerson [[edit](https://github.com/delph-in/docs/wiki/AmsterdamParticipants/_edit)]{% endraw %}
