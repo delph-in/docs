@@ -35,5 +35,6 @@ Please add times **in LOCAL Netherlands Time**:
 |Guy Emerson|July 7-11|in person||
 |Tara Wueger|July 7-11|in person||
 |Petter Haugereid|July 7-11|in person||
+|David Inman|July 7-11|in person|also 6, 12|
 
-Last update: 2025-04-09 by Petter Haugereid [[edit](https://github.com/delph-in/docs/wiki/AmsterdamParticipants/_edit)]{% endraw %}
+Last update: 2025-04-10 by davidainman [[edit](https://github.com/delph-in/docs/wiki/AmsterdamParticipants/_edit)]{% endraw %}
