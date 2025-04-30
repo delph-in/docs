@@ -52,5 +52,7 @@ Please take a look at the [Amsterdam's Official Guide](https://www.iamsterdam.co
 # Organization
 The local organization is handled by Luis Morgado da Costa ([l.g.de.passos.morgado.da.costa@vu.nl](mailto:l.g.de.passos.morgado.da.costa@vu.nl)).
 
+# Program
+The program committee this year are Olga Zamaraeva and Ann Copestake. 
 
-Last update: 2025-02-02 by Francis Bond [[edit](https://github.com/delph-in/docs/wiki/AmsterdamTop/_edit)]{% endraw %}
+Last update: 2025-04-29 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/AmsterdamTop/_edit)]{% endraw %}
