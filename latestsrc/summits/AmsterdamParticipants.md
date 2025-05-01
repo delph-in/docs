@@ -36,5 +36,7 @@ Please add times **in LOCAL Netherlands Time**:
 |Tara Wueger|July 7-11|in person||
 |Petter Haugereid|July 7-11|in person||
 |David Inman|July 7-11|in person|also 6, 12|
+|Elizabeth Conrad|July 7-11|virtual| |
+|Michael Goodman|July 7&ndash;9, 3pm&ndash;6pm NL time|virtual| Wishing I could be there in person |
 
-Last update: 2025-04-10 by davidainman [[edit](https://github.com/delph-in/docs/wiki/AmsterdamParticipants/_edit)]{% endraw %}
+Last update: 2025-04-30 by Michael Wayne Goodman [[edit](https://github.com/delph-in/docs/wiki/AmsterdamParticipants/_edit)]{% endraw %}
