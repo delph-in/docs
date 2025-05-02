@@ -1,6 +1,6 @@
 {% raw %}# Overview
 
-The 21th DELPH-IN [Summit](https://delph-in.github.io/docs/summits/SummitTop) will take place over July 07-11 2025, at [Vrije Universiteit (VU) Amsterdam](https://vu.nl/en), in the Netherlands.
+The 21st DELPH-IN [Summit](https://delph-in.github.io/docs/summits/SummitTop) will take place over July 07-11 2025, at [Vrije Universiteit (VU) Amsterdam](https://vu.nl/en), in the Netherlands.
 
 ## Registration
 
@@ -55,4 +55,4 @@ The local organization is handled by Luis Morgado da Costa ([l.g.de.passos.morga
 # Program
 The program committee this year are Olga Zamaraeva and Ann Copestake (delphinsummit@gmail.com). 
 
-Last update: 2025-04-30 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/AmsterdamTop/_edit)]{% endraw %}
+Last update: 2025-05-01 by lmorgadodacosta [[edit](https://github.com/delph-in/docs/wiki/AmsterdamTop/_edit)]{% endraw %}
