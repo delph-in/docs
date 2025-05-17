@@ -39,5 +39,6 @@ Please add times **in LOCAL Netherlands Time**:
 |Elizabeth Conrad|July 7-11 -- 3pm-EOD NL time|virtual| |
 |Michael Goodman|July 7&ndash;9, 3pm&ndash;6pm NL time|virtual| Wishing I could be there in person |
 |Vipasha Bansal|July 7-11|in person||
+|Antske Fokkens| July 7-11 (maybe evening 7th)|in person||
 
-Last update: 2025-05-09 by Elizabeth Conrad [[edit](https://github.com/delph-in/docs/wiki/AmsterdamParticipants/_edit)]{% endraw %}
+Last update: 2025-05-16 by antske [[edit](https://github.com/delph-in/docs/wiki/AmsterdamParticipants/_edit)]{% endraw %}
