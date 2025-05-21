@@ -151,8 +151,8 @@ coreference   : "#" IDENTIFIER SPACING
 //       terminals are used directly with an explicit SPACE instead of in
 //       a production with SPACING.
 
-letterset     : "%(letter-set" SPACE? letterset_def SPACE? ")"
-wildcard      : "%(wild-card" SPACE? wildcard_def SPACE? ")"
+letterset     : "%(letter-set" SPACE? letterset_def SPACE? ")" SPACING
+wildcard      : "%(wild-card" SPACE? wildcard_def SPACE? ")" SPACING
 letterset_def : "(" LETTERSETVAR SPACE CHARACTERS ")"
 wildcard_def  : "(" WILDCARDVAR SPACE CHARACTERS ")"
 LETTERSETVAR  : /![^ ]/
@@ -562,4 +562,4 @@ Something like
 - [Mailing list discussion about docstrings
 (Aug 2018)](http://lists.delph-in.net/archives/developers/2018/002792.html)
 
-Last update: 2022-08-07 by Glenn Slayden [[edit](https://github.com/delph-in/docs/wiki/TdlRFC/_edit)]{% endraw %}
+Last update: 2025-05-20 by Michael Wayne Goodman [[edit](https://github.com/delph-in/docs/wiki/TdlRFC/_edit)]{% endraw %}
