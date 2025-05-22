@@ -5,24 +5,23 @@ general-purpose computational grammar that, in combination with
 specialized processing tools, can map running English text to highly
 normalized logical-form representations of meaning.  A broad-coverage, linguistically precise [HPSG](https://en.wikipedia.org/wiki/Head-driven_phrase_structure_grammar)-based grammar of English, the ERG is semantically grounded in [Minimal Recursion Semantics](https://en.wikipedia.org/wiki/Minimal_recursion_semantics) (MRS), which is a form of flat semantic representation capable of supporting underspecification.  The ERG is developed as part of the international [Deep Linguistic Processing with HPSG Initiative](https://github.com/delph-in/docs/wiki) (DELPH-IN) and can be processed by a number of parsing and realization systems, including the [LKB](https://delph-in.github.io/docs/tools/LkbTop) grammar engineering environment, as well as the [ACE](http://sweaglesw.org/linguistics/ace/) run-time parser, for applications.
 
-An on-line demos of the ERG is available:
+An on-line demo of the ERG is available:
 
 - http://delph-in.github.io/delphin-viz/demo/
 
 You can get started quickly with a local compiled copy of the ERG and the ACE parser via [these instructions](https://delph-in.github.io/docs/erg/QuickStart).  For more detailed investigation and experimentation with the grammar, you can obtain a local copy of the grammar source via Github.
 
-- The most recent stable version of the ERG:
+- Get the most recent stable version of the ERG:
   
-       $ wget https://github.com/delph-in/erg/archive/2023.tar.gz   (alternatively, .../archive/2023.zip)
-- To compile it into a grammar that the ACE parser can use, follow that with:
+       $ wget https://github.com/delph-in/erg/releases/download/2025/erg-2025-x86-64-0.9.34.dat.bz2 | bunzip2
+- Assuming you have a local installation of the ACE parser, call it with the ERG as follows, and type in a sentence to parse:
   
-       $ tar xzvf 2023.tar.gz; cd 2023
-       $ ace -G erg.dat -g ace/config.tdl
-- To parse a sentence and produce the semantics (MRS) for the first (most probable) analysis:
-  
-       $ ace -g erg.dat -1Tf
+       $ ace -g erg-2025-x86-64-0.9.34.dat -1Tf
        $ Cats are not amused by children whose dogs bark.
-- The latest version of the ERG grammar files:
+- The most recent stable version of the ERG source files is here:
+  
+       $ wget https://github.com/delph-in/erg/archive/2025.tar.gz   (alternatively, .../archive/2025.zip)
+- The latest version of the ERG source files can be downloaded here:
   
        $ git clone https://github.com/delph-in/erg.git
 
@@ -34,7 +33,7 @@ interface to it for parsing or generation:
 
 - [The Semantics Produced by the ERG](https://delph-in.github.io/docs/erg/ErgSemantics)
 - [Lexical Types](https://delph-in.github.io/docs/erg/ErgLeTypes)
-- [Linguistic Type Database (LkbLtdb) coming soon for ERG 2023, with example sentences in Redwoods Treebank
+- [Linguistic Type Database (LkbLtdb) for ERG 2025, with example sentences in Redwoods Treebank
 - [Syntactic and Lexical Rules](https://delph-in.github.io/docs/erg/ErgRules)
 - [Lexical and Phrasal Distinctions](https://delph-in.github.io/docs/erg/ErgTreebankingRules)
 - [Tokenization Assumptions](https://delph-in.github.io/docs/erg/ErgTokenization)
@@ -150,4 +149,4 @@ Computational Linguistics.
 Yao, X., Bouma, G., & Zhang, Y. (2012). Semantics-based question
 generation and implementation. Dialogue & Discourse, 3(2), 11-42.
 
-Last update: 2024-07-23 by Dan Flickinger [[edit](https://github.com/delph-in/docs/wiki/ErgTop/_edit)]{% endraw %}
+Last update: 2025-05-22 by Dan Flickinger [[edit](https://github.com/delph-in/docs/wiki/ErgTop/_edit)]{% endraw %}

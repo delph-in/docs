@@ -392,7 +392,7 @@ general-purpose computational grammar that, in combination with
 specialized processing tools, can map running English text to highly
 normalized logical-form representations of meaning.  A broad-coverage, linguistically precise <a href="https://en.wikipedia.org/wiki/Head-driven_phrase_structure_grammar">HPSG</a>-based grammar of English, the ERG is semantically grounded in <a href="https://en.wikipedia.org/wiki/Minimal_recursion_semantics">Minimal Recursion Semantics</a> (MRS), which is a form of flat semantic representation capable of supporting underspecification.  The ERG is developed as part of the international <a href="https://github.com/delph-in/docs/wiki">Deep Linguistic Processing with HPSG Initiative</a> (DELPH-IN) and can be processed by a number of parsing and realization systems, including the <a href="https://delph-in.github.io/docs/tools/LkbTop">LKB</a> grammar engineering environment, as well as the <a href="http://sweaglesw.org/linguistics/ace/">ACE</a> run-time parser, for applications.</p>
 
-<p>An on-line demos of the ERG is available:</p>
+<p>An on-line demo of the ERG is available:</p>
 
 <ul>
   <li>http://delph-in.github.io/delphin-viz/demo/</li>
@@ -402,27 +402,26 @@ normalized logical-form representations of meaning.  A broad-coverage, linguisti
 
 <ul>
   <li>
-    <p>The most recent stable version of the ERG:</p>
+    <p>Get the most recent stable version of the ERG:</p>
 
-    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> $ wget https://github.com/delph-in/erg/archive/2023.tar.gz   (alternatively, .../archive/2023.zip)
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> $ wget https://github.com/delph-in/erg/releases/download/2025/erg-2025-x86-64-0.9.34.dat.bz2 | bunzip2
 </code></pre></div>    </div>
   </li>
   <li>
-    <p>To compile it into a grammar that the ACE parser can use, follow that with:</p>
+    <p>Assuming you have a local installation of the ACE parser, call it with the ERG as follows, and type in a sentence to parse:</p>
 
-    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> $ tar xzvf 2023.tar.gz; cd 2023
- $ ace -G erg.dat -g ace/config.tdl
-</code></pre></div>    </div>
-  </li>
-  <li>
-    <p>To parse a sentence and produce the semantics (MRS) for the first (most probable) analysis:</p>
-
-    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> $ ace -g erg.dat -1Tf
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> $ ace -g erg-2025-x86-64-0.9.34.dat -1Tf
  $ Cats are not amused by children whose dogs bark.
 </code></pre></div>    </div>
   </li>
   <li>
-    <p>The latest version of the ERG grammar files:</p>
+    <p>The most recent stable version of the ERG source files is here:</p>
+
+    <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> $ wget https://github.com/delph-in/erg/archive/2025.tar.gz   (alternatively, .../archive/2025.zip)
+</code></pre></div>    </div>
+  </li>
+  <li>
+    <p>The latest version of the ERG source files can be downloaded here:</p>
 
     <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> $ git clone https://github.com/delph-in/erg.git
 </code></pre></div>    </div>
@@ -438,7 +437,7 @@ interface to it for parsing or generation:</p>
 <ul>
   <li><a href="https://delph-in.github.io/docs/erg/ErgSemantics">The Semantics Produced by the ERG</a></li>
   <li><a href="https://delph-in.github.io/docs/erg/ErgLeTypes">Lexical Types</a></li>
-  <li>[Linguistic Type Database (LkbLtdb) coming soon for ERG 2023, with example sentences in Redwoods Treebank</li>
+  <li>[Linguistic Type Database (LkbLtdb) for ERG 2025, with example sentences in Redwoods Treebank</li>
   <li><a href="https://delph-in.github.io/docs/erg/ErgRules">Syntactic and Lexical Rules</a></li>
   <li><a href="https://delph-in.github.io/docs/erg/ErgTreebankingRules">Lexical and Phrasal Distinctions</a></li>
   <li><a href="https://delph-in.github.io/docs/erg/ErgTokenization">Tokenization Assumptions</a></li>
@@ -555,7 +554,7 @@ Computational Linguistics.</p>
 <p>Yao, X., Bouma, G., &amp; Zhang, Y. (2012). Semantics-based question
 generation and implementation. Dialogue &amp; Discourse, 3(2), 11-42.</p>
 
-<p>Last update: 2024-07-23 by Dan Flickinger [<a href="https://github.com/delph-in/docs/wiki/ErgTop/_edit">edit</a>]</p>
+<p>Last update: 2025-05-22 by Dan Flickinger [<a href="https://github.com/delph-in/docs/wiki/ErgTop/_edit">edit</a>]</p>
 
         
       </section>
