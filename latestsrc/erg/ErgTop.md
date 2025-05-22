@@ -33,7 +33,7 @@ interface to it for parsing or generation:
 
 - [The Semantics Produced by the ERG](https://delph-in.github.io/docs/erg/ErgSemantics)
 - [Lexical Types](https://delph-in.github.io/docs/erg/ErgLeTypes)
-- [Linguistic Type Database (LkbLtdb) for ERG 2025, with example sentences in Redwoods Treebank
+- [Linguistic Type Database](https://delph-in.github.io/docs/garage/LkbLtdb) for ERG 2025, with example sentences in Redwoods Treebank
 - [Syntactic and Lexical Rules](https://delph-in.github.io/docs/erg/ErgRules)
 - [Lexical and Phrasal Distinctions](https://delph-in.github.io/docs/erg/ErgTreebankingRules)
 - [Tokenization Assumptions](https://delph-in.github.io/docs/erg/ErgTokenization)

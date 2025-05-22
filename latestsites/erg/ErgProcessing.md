@@ -9,23 +9,48 @@ pedantic and conservative in making (non-trivial) revisions.
 
 # Choice of Run-Time Environment
 
-To parse running text using the ERG, a number of tools are required.
-Basically, there are three possible paths towards a software environment
-supporting the ERG: (a) a [‘full-blown’ DELPH-IN distribution
-for](https://delph-in.github.io/docs/erg/ErgProcessing#logon) Linux; (b) [the stand-alone ACE or PET
-parsers](https://delph-in.github.io/docs/erg/ErgProcessing#standalone), which can be compiled in various
-operating environments; and (c) a ‘thin’, portable client against the
+To parse running text using the ERG, a number of tools are available.
+There are currently four possible paths towards a software environment
+supporting the ERG: (a) the ACE parser and generator, which can be compiled in
+both Linux and MacOS; (b) a rich grammar development environment called the
+LKB including a parser and a generator, also available for Linux and MacOS; (c) a
+[‘full-blown’ DELPH-IN distribution
+for](https://delph-in.github.io/docs/erg/ErgProcessing#logon) Linux; and (d) a ‘thin’, portable client against the
 [RESTful on-line interface](https://delph-in.github.io/docs/erg/ErgProcessing#restful). Each of these
 choices has distinct advantages and limitations—discussed briefly in the
-individual sections below. All three are regularly used and, thus,
-‘suported’ by the ERG developers, who will be happy to try and assist
+individual sections below. All four are regularly used and, thus,
+‘supported’ by the ERG developers, who will be happy to try and assist
 with installation and usage questions. Please contact lingo@delph-in.net
 for support.
+
+# (A) Parsing and Generation with ACE
+
+For ‘core’ parsing or realization functionality using the ERG, the
+stand-alone Answer Constraint Engine (ACE) parser–generator (implemented
+in ANSI C) serves well for experimentation and for application development.
+ACE can be compiled and run on Linux and MacOS, and is also available in
+pre-compiled form, making available both a command-line and programmatic
+interface.
+
+For instructions on how to obtain and run ACE, including pre-compiled
+snapshots of recent ERG releases, please see the [QuickStart](https://delph-in.github.io/docs/erg/QuickStart) page.
+
+For some advice on using options to improve the utility of the ERG with
+ACE, please see the [AceErgTuning](https://delph-in.github.io/docs/erg/AceErgTuning) page.
+
+# (B) Grammar Development, Parsing and Generation with the LKB
+
+The [LKB](https://delph-in.github.io/docs/tools/LkbFos) (Linguistic Knowledge Builder) is a richly featured environment for grammar
+development implemented in Common Lisp, and now available as a fully-open source platform.
+The LKB includes a very efficient parser and generator, as well as integration with the
+competence and performance profiling toolkit [\[incr tsdb()\]](https://delph-in.github.io/docs/tools/ItsdbTop).
+
+For instructions on how to obtain and run the LKB using the open-source Lisp, please see the [LKB FOS Installation](https://delph-in.github.io/docs/tools/LkbFos/#Installation) page.
 
 <a name="logon"/>
 
 
-# (A) The LOGON Distribution: Installation
+# (C) The LOGON Distribution: Installation
 
 For Linux users, the most straightforward way of installing the full
 DELPH-IN toolchain is through the so-called LOGON distribution (see the
@@ -93,7 +118,7 @@ record various statistics, for example: (a) producing a single analysis
 in all cases (meaning the grammar was able to assign a parse to each of
 these utterances, and reflecting that the ‘--best 1’ option in our
 example command asks for only the most probable analysis to be
-extracted); (b) taking between 110 and 190 miliseconds per sentence; or
+extracted); (b) taking between 110 and 190 milliseconds per sentence; or
 (c) requiring between 26 and 45 megabytes of dynamic memory while
 parsing one sentence. More detailed information about the batch parsing
 process is available through the
@@ -151,7 +176,7 @@ four interface representations shown in the above.
 <a name="standalone"/>
 
 
-# ACE and FFTB in the LOGON Distribution
+# ACE and FFTB for treebanking in the LOGON Distribution
 
 Pre-compiled binaries of the Answer Constraint Engine (ACE)
 parser–generator and its Full-Forest Treebanker (FFTB) are bundled with
@@ -164,30 +189,10 @@ invoke the ACE parser and full-forest treebanker from within the
 integrated LOGON distribution are available on the
 [LogonAnswer](https://delph-in.github.io/docs/tools/LogonAnswer) page.
 
-# (B) Stand-Alone Parsing (and Generation) with ACE or PET
-
-The LOGON distribution bundles several of the DELPH-IN tools and
-grammars, including various interfaces for data in- and output. For
-‘core’ parsing or realization functionality using the ERG, the
-stand-alone Answer Constraint Engine (ACE) parser–generator (implemented
-in ANSI C), or the PET parser (implemented in ANSI C++) may be
-sufficient. These tools can in principle be compiled for a wide range of
-operating environments (with known success stories on Linux and MacOS
-for ACE, and Linux and Windows for PET), but are also available in
-pre-compiled form. Furthermore, the stand-alone parsers provide a more
-light-weight software installation and make available both a
-command-line and programmatic interface.
-
-For instructions on how to obtain and run ACE, including pre-compiled
-snapshots of recent ERG releases, please see the [AceTop](https://delph-in.github.io/docs/tools/AceTop) page.
-
-For some advice on using options to improve the utility of the ERG with
-ACE, please see the [AceErgTuning](https://delph-in.github.io/docs/erg/AceErgTuning) page.
-
 <a name="restful"/>
 
 
-# (C) RESTful Interactions with the On-Line ERG Service
+# (D) RESTful Interactions with the On-Line ERG Service
 
 As of mid-2016, a programmatic RESTful on-line interface to ERG parsing
 is available, including a sample ‘thin’ client in Python and integration
@@ -206,4 +211,4 @@ everyone use the *trunk*; more testers would be welcome):
 - 2016/05/23: \#12918 @ login.coli.uni-saarland.de \[oe\]
 - 2016/05/24: \#12918 @ patas.ling.washington.edu \[oe\]
 
-Last update: 2021-06-04 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/ErgProcessing/_edit)]{% endraw %}
+Last update: 2025-05-22 by Dan Flickinger [[edit](https://github.com/delph-in/docs/wiki/ErgProcessing/_edit)]{% endraw %}
