@@ -4,11 +4,14 @@ Details about the banquet and excursion will follow.
 
 We will try to keep costs as low as possible (taking into consideration that accommodation costs will be high). However, a registration fee will be needed for in-person participants. The registration would cover coffee/snacks during the day, excursion and banquet. Virtual participation is free.
 
-**Registration cost may still change!**
-| Type    | **Tentative Price** |
-|-------  | -----: |
-| General | 150 (?) |
-| Student | 100 (?) | 
+**Registration Cost:**
+
+| Type    | Tentative Price |
+|---------|----------------:|
+| General | 150 euros       |
+| Student | 100 euros       |
+
+**Note:** Registration will be collected **in cash** during the first day of the conference. 
 
 Please register your planned participation by editing this table to indicate which dates you'll
 be attending, your mode of participation (i.e. Virtual or In-Person) and, if virtual, during which hours on those dates you can attend.
@@ -41,4 +44,4 @@ Please add times **in LOCAL Netherlands Time**:
 |Vipasha Bansal|July 7-11|in person||
 |Antske Fokkens| July 7-11 (maybe evening 7th)|in person||
 
-Last update: 2025-05-16 by antske [[edit](https://github.com/delph-in/docs/wiki/AmsterdamParticipants/_edit)]{% endraw %}
+Last update: 2025-05-27 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/AmsterdamParticipants/_edit)]{% endraw %}
