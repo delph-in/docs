@@ -44,5 +44,6 @@ Please add times **in LOCAL Netherlands Time**:
 |Vipasha Bansal|July 7-11|in person||
 |Antske Fokkens| July 7-11 (maybe evening 7th)|in person||
 |Alexandre Rademaker| July 7-11|virtual||
+|Sanghoun Song|July 7-11|in person||
 
-Last update: 2025-05-29 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/AmsterdamParticipants/_edit)]{% endraw %}
+Last update: 2025-05-31 by sanghoun [[edit](https://github.com/delph-in/docs/wiki/AmsterdamParticipants/_edit)]{% endraw %}
