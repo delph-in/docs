@@ -45,6 +45,6 @@ Please add times **in LOCAL Netherlands Time**:
 |Antske Fokkens| July 7-11 (maybe evening 7th)|in person||
 |Alexandre Rademaker| July 7-11|virtual||
 |Sanghoun Song|July 7-11|in person||
-Lars Hellan July 7-11  Probably virtual, but hopefully not
+|Lars Hellan | July 7-11 | Probably virtual, but hopefully not ||
 
-Last update: 2025-05-31 by larshellan [[edit](https://github.com/delph-in/docs/wiki/AmsterdamParticipants/_edit)]{% endraw %}
+Last update: 2025-06-02 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/AmsterdamParticipants/_edit)]{% endraw %}
