@@ -22,9 +22,9 @@ Please add times **in LOCAL Netherlands Time**:
 | Name | Dates/Time | Mode (Virtual/In-Person) | Comments |
 |-------|------|-----|---------|
 |Luis Morgado da Costa|July 7-11|in person | will start procuring some Port |
-|Francis Bond|July 7-11 in person | |probably also 12-13 if anyone is free|
+|Francis Bond|July 7-11 | in person |probably also 12-13 if anyone is free|
 |Leolani (VU's Robot)|July 7-11| in person | beep-bop beep-bop |
-|DeepSeek |July 7-9 (8am-5pm NL Time)| virtual | **Participation DENIED!** |
+|LLMs |July 7-9 (8am-5pm NL Time)| virtual | **Participation DENIED!** |
 |John Carroll|July 7-11|in person | |
 |Olga Zamaraeva|July 7-11|in person | |
 |Alex Lascarides| July 7-8| virtual | Sorry I can't be there in person |
@@ -47,4 +47,4 @@ Please add times **in LOCAL Netherlands Time**:
 |Sanghoun Song|July 7-11|in person||
 |Lars Hellan | July 7-11 | Probably virtual, but hopefully not ||
 
-Last update: 2025-06-02 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/AmsterdamParticipants/_edit)]{% endraw %}
+Last update: 2025-06-03 by lmorgadodacosta [[edit](https://github.com/delph-in/docs/wiki/AmsterdamParticipants/_edit)]{% endraw %}
