@@ -28,7 +28,7 @@ Please add times **in LOCAL Netherlands Time**:
 |John Carroll|July 7-11|in person | |
 |Olga Zamaraeva|July 7-11|in person | |
 |Alex Lascarides| July 7-8| virtual | Sorry I can't be there in person |
-|Ann Copestake|July 7-9|in person | possibly also 10 and 11 |
+|Ann Copestake|July 7-11|in person | |
 |Weiwei Sun|July 7-11|in person| |
 |Dan Flickinger|July 7-11|in person | |
 |Eric Zinda|July 7-11|in person | |
@@ -47,4 +47,4 @@ Please add times **in LOCAL Netherlands Time**:
 |Sanghoun Song|July 7-11|in person||
 |Lars Hellan | July 7-11 | Probably virtual, but hopefully not ||
 
-Last update: 2025-06-03 by lmorgadodacosta [[edit](https://github.com/delph-in/docs/wiki/AmsterdamParticipants/_edit)]{% endraw %}
+Last update: 2025-06-05 by anncopestake [[edit](https://github.com/delph-in/docs/wiki/AmsterdamParticipants/_edit)]{% endraw %}
