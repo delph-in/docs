@@ -46,6 +46,7 @@ Please add times **in LOCAL Netherlands Time**:
 |Alexandre Rademaker| July 7-11|virtual||
 |Sanghoun Song|July 7-11|in person||
 |Lars Hellan | July 7-11 | Probably virtual, but hopefully not ||
+|Glenn Slayden| July 7-9 | virtual ||
 |Michael Sullivan | July 7-9 | in person ||
 
-Last update: 2025-06-09 by mjs227 [[edit](https://github.com/delph-in/docs/wiki/AmsterdamParticipants/_edit)]{% endraw %}
+Last update: 2025-06-10 by Glenn Slayden [[edit](https://github.com/delph-in/docs/wiki/AmsterdamParticipants/_edit)]{% endraw %}
