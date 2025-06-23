@@ -9,7 +9,7 @@ compilers, runtime environments or code libraries. The source code is in
 the DELPH-IN public repository
 <http://svn.delph-in.net/lkb/branches/fos/>. For convenience,
 precompiled binaries for macOS and Linux can be downloaded from
-[lkb\_fos.tgz](http://users.sussex.ac.uk/~johnca/lkb_fos.tgz) \[89.6
+[lkb\_fos.tgz](http://users.sussex.ac.uk/~johnca/lkb_fos.tgz) \[92.4
 MB\]. A Windows binary may be available at some point in the future.
 
 LKB-FOS has been developed using the tools and libraries *SBCL*,
@@ -98,6 +98,11 @@ over-running the chart edge limit. A couple of minor
 packing/unpacking issues have been resolved and packing is now
 turned on by default. To revert to the previous behaviour, execute
 `(setq *chart-packing-p* nil)`
+- The parser also offers packing under generalisation (extending the
+standard approach of packing under subsumption): in this, corresponding
+pairs of types may be generalised to the more general type of the
+two `(setq *generalising-p* t)` – the default – or generalised to
+their least common supertype `(setq *generalising-p* :lcs)`
 - Multilingual support: SBCL has excellent support for Unicode and
 McCLIM works well for Unicode output, so LKB-FOS can work with
 grammars using any language script.
@@ -215,19 +220,16 @@ on your display and personal preference.
 
 ### Copying Text
 
-To copy from a 'text-like' window such as Lkb Top or Scoped MRS, shift-drag
-across the text (or alternatively shift-left-click at one end of the text and
-shift-right-click at the other end). On macOS, you will then need to type
-Command-C – or select Copy from the XQuartz Edit menu – to get the text into
-the system clipboard. On Linux, the highlighted text goes straight into the
-clipboard; to paste it, click the middle mouse button.
+Unfortunately, it is not currently possible to copy textual output from
+windows such as Lkb Top or Scoped MRS. This feature will be available in a
+future release.
 
 ## Problems
 
 In macOS 10.12 and upwards, the 'App Translocation' security feature
 might prevent LKB.app from working properly the first time it is launched. To
 fix this, drag LKB.app to the Desktop and then back again. You may also
-need to authorise it in the General tab of Security & Privacy in
+need to authorise it in the Security section of Privacy & Security in
 System Preferences. These two steps should be enough to allow it to run.
 
 Unanticipated errors may cause the LKB graphical interface to become
@@ -259,4 +261,4 @@ If you encounter an unexpected problem using LKB-FOS, please check
 a solution has already been posted there; if it hasn't then create a new topic.
 
 
-Last update: 2024-06-28 by John Carroll [[edit](https://github.com/delph-in/docs/wiki/LkbFos/_edit)]{% endraw %}
+Last update: 2025-06-22 by John Carroll [[edit](https://github.com/delph-in/docs/wiki/LkbFos/_edit)]{% endraw %}

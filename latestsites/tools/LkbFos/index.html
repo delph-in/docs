@@ -616,7 +616,7 @@ compilers, runtime environments or code libraries. The source code is in
 the DELPH-IN public repository
 <a href="http://svn.delph-in.net/lkb/branches/fos/">http://svn.delph-in.net/lkb/branches/fos/</a>. For convenience,
 precompiled binaries for macOS and Linux can be downloaded from
-<a href="http://users.sussex.ac.uk/~johnca/lkb_fos.tgz">lkb_fos.tgz</a> [89.6
+<a href="http://users.sussex.ac.uk/~johnca/lkb_fos.tgz">lkb_fos.tgz</a> [92.4
 MB]. A Windows binary may be available at some point in the future.</p>
 
 <p>LKB-FOS has been developed using the tools and libraries <em>SBCL</em>,
@@ -716,6 +716,11 @@ over-running the chart edge limit. A couple of minor
 packing/unpacking issues have been resolved and packing is now
 turned on by default. To revert to the previous behaviour, execute
 <code class="language-plaintext highlighter-rouge">(setq *chart-packing-p* nil)</code></li>
+  <li>The parser also offers packing under generalisation (extending the
+standard approach of packing under subsumption): in this, corresponding
+pairs of types may be generalised to the more general type of the
+two <code class="language-plaintext highlighter-rouge">(setq *generalising-p* t)</code> – the default – or generalised to
+their least common supertype <code class="language-plaintext highlighter-rouge">(setq *generalising-p* :lcs)</code></li>
   <li>Multilingual support: SBCL has excellent support for Unicode and
 McCLIM works well for Unicode output, so LKB-FOS can work with
 grammars using any language script.</li>
@@ -840,19 +845,16 @@ on your display and personal preference.</p>
 
 <h3 id="copying-text">Copying Text</h3>
 
-<p>To copy from a ‘text-like’ window such as Lkb Top or Scoped MRS, shift-drag
-across the text (or alternatively shift-left-click at one end of the text and
-shift-right-click at the other end). On macOS, you will then need to type
-Command-C – or select Copy from the XQuartz Edit menu – to get the text into
-the system clipboard. On Linux, the highlighted text goes straight into the
-clipboard; to paste it, click the middle mouse button.</p>
+<p>Unfortunately, it is not currently possible to copy textual output from
+windows such as Lkb Top or Scoped MRS. This feature will be available in a
+future release.</p>
 
 <h2 id="problems">Problems</h2>
 
 <p>In macOS 10.12 and upwards, the ‘App Translocation’ security feature
 might prevent LKB.app from working properly the first time it is launched. To
 fix this, drag LKB.app to the Desktop and then back again. You may also
-need to authorise it in the General tab of Security &amp; Privacy in
+need to authorise it in the Security section of Privacy &amp; Security in
 System Preferences. These two steps should be enough to allow it to run.</p>
 
 <p>Unanticipated errors may cause the LKB graphical interface to become
@@ -885,7 +887,7 @@ Ignoring (part of) entry for X_-_BRIDGE_LE
 <a href="https://delphinqa.ling.washington.edu/about">DELPH-IN Discourse</a> to see if
 a solution has already been posted there; if it hasn’t then create a new topic.</p>
 
-<p>Last update: 2024-06-28 by John Carroll [<a href="https://github.com/delph-in/docs/wiki/LkbFos/_edit">edit</a>]</p>
+<p>Last update: 2025-06-22 by John Carroll [<a href="https://github.com/delph-in/docs/wiki/LkbFos/_edit">edit</a>]</p>
 
         
       </section>
