@@ -7,9 +7,10 @@ We will try to keep costs as low as possible (taking into consideration that acc
 **Registration Cost:**
 
 | Type    | Tentative Price |
-|---------|----------------:|
-| General | 150 euros       |
-| Student | 100 euros       |
+|---------|---------------------:|
+| General | 150 euros            |
+| Student | 100 euros            |
+| Excursion + Banquet (Plus-ones) |  80 euros|
 
 **Note:** Registration will be collected **in cash** during the first day of the conference. 
 
@@ -22,23 +23,23 @@ Please add times **in LOCAL Netherlands Time**:
 | Name | Dates/Time | Mode (Virtual/In-Person) | Comments | Dietary Restrictions | Excursion Plus-ones | No Eduroam |
 |-------|------|-----|---------|---------|---------|---------|
 |Luis Morgado da Costa|July 7-11|in person | will start procuring some Port ||||
-|Francis Bond|July 7-11 | in person |probably also 12-13 if anyone is free||||
+|Francis Bond|July 7-11 | in person |probably also 12-13 if anyone is free| no cucumber | just me ||
 |Leolani (VU's Robot)|July 7-11| in person | beep-bop beep-bop ||||
 |LLMs |July 7-9 (8am-5pm NL Time)| virtual | **Participation DENIED!** | |||
 |John Carroll|July 7-11|in person | ||||
-|Olga Zamaraeva|July 7-11|in person | ||||
+|Olga Zamaraeva|July 7-11|in person |  | -- | -- | -- |
 |Alex Lascarides| July 7-8| virtual | Sorry I can't be there in person | |||
-|Ann Copestake|July 7-11|in person | | |||
+|Ann Copestake|July 7-11|in person | | no chocolate| just me||
 |Weiwei Sun|July 7-11|in person| ||||
-|Dan Flickinger|July 7-11|in person | ||||
+|Dan Flickinger|July 7-11|in person | |  | ||
 |Eric Zinda|July 7-11|in person | ||||
 |Emily Luedke|July 7-11|in person | ||||
 |Emily M. Bender|July 7-11|in person| ||||
-|Spencer Brooks|July 7-11|in person | ||||
-|Guy Emerson|July 7-11|in person|||||
+|Spencer Brooks|July 7-11|in person | |no red meat (e.g., beef/pork), no shellfish|||
+|Guy Emerson|July 7-11|in person||vegetarian|||
 |Tara Wueger|July 7-11|in person|||||
 |Petter Haugereid|July 7-11|in person|||||
-|David Inman|July 7-11|in person|also 6, 12||||
+|David Inman|July 7-11|in person|also 6, 12|no biggies|just me|have eduroam|
 |Elizabeth Conrad|July 7-11 -- 3pm-EOD NL time|virtual| ||||
 |Michael Goodman|July 7&ndash;9, 3pm&ndash;6pm NL time|virtual| Wishing I could be there in person ||||
 |Vipasha Bansal|July 7-11|in person|||||
@@ -49,4 +50,4 @@ Please add times **in LOCAL Netherlands Time**:
 |Glenn Slayden| July 7-9 | virtual |||||
 |Michael Sullivan | July 7-9 | in person |||||
 
-Last update: 2025-06-20 by lmorgadodacosta [[edit](https://github.com/delph-in/docs/wiki/AmsterdamParticipants/_edit)]{% endraw %}
+Last update: 2025-06-23 by spencer-brooks [[edit](https://github.com/delph-in/docs/wiki/AmsterdamParticipants/_edit)]{% endraw %}
