@@ -26,12 +26,12 @@ Please add times **in LOCAL Netherlands Time**:
 |Francis Bond|July 7-11 | in person |probably also 12-13 if anyone is free| no cucumber | just me ||
 |Leolani (VU's Robot)|July 7-11| in person | beep-bop beep-bop ||||
 |LLMs |July 7-9 (8am-5pm NL Time)| virtual | **Participation DENIED!** | |||
-|John Carroll|July 7-11|in person | ||||
+|John Carroll|July 7-11|in person | || just me ||
 |Olga Zamaraeva|July 7-11|in person |  | -- | -- | -- |
 |Alex Lascarides| July 7-8| virtual | Sorry I can't be there in person | |||
 |Ann Copestake|July 7-11|in person | | no chocolate| just me||
 |Weiwei Sun|July 7-11|in person| ||||
-|Dan Flickinger|July 7-11|in person | |  | ||
+|Dan Flickinger|July 7-11|in person | |  | just me|no eduroam|
 |Eric Zinda|July 7-11|in person | ||||
 |Emily Luedke|July 7-11|in person | ||||
 |Emily M. Bender|July 7-11|in person| ||||
@@ -39,7 +39,7 @@ Please add times **in LOCAL Netherlands Time**:
 |Guy Emerson|July 7-11|in person||vegetarian|||
 |Tara Wueger|July 7-11|in person|||||
 |Petter Haugereid|July 7-11|in person|||||
-|David Inman|July 7-11|in person|also 6, 12|no biggies|just me|have eduroam|
+|David Inman|July 7-11|in person|also 6, 12|don't worry about it|just me|have eduroam|
 |Elizabeth Conrad|July 7-11 -- 3pm-EOD NL time|virtual| ||||
 |Michael Goodman|July 7&ndash;9, 3pm&ndash;6pm NL time|virtual| Wishing I could be there in person ||||
 |Vipasha Bansal|July 7-11|in person|||||
@@ -50,4 +50,4 @@ Please add times **in LOCAL Netherlands Time**:
 |Glenn Slayden| July 7-9 | virtual |||||
 |Michael Sullivan | July 7-9 | in person |||||
 
-Last update: 2025-06-23 by spencer-brooks [[edit](https://github.com/delph-in/docs/wiki/AmsterdamParticipants/_edit)]{% endraw %}
+Last update: 2025-06-24 by John Carroll [[edit](https://github.com/delph-in/docs/wiki/AmsterdamParticipants/_edit)]{% endraw %}
