@@ -32,7 +32,7 @@ Please add times **in LOCAL Netherlands Time**:
 |Ann Copestake|July 7-11|in person | | no chocolate| just me||
 |Weiwei Sun|July 7-11|in person| ||||
 |Dan Flickinger|July 7-11|in person | |  | just me|no eduroam|
-|Eric Zinda|July 7-11|in person | ||||
+|Eric Zinda|July 7-10|in person | |||no eduroam|
 |Emily Luedke|July 7-11|in person | ||||
 |Emily M. Bender|July 7-11|in person| ||||
 |Spencer Brooks|July 7-11|in person | |no red meat (e.g., beef/pork), no shellfish|||
@@ -50,4 +50,4 @@ Please add times **in LOCAL Netherlands Time**:
 |Glenn Slayden| July 7-9 | virtual |||||
 |Michael Sullivan | July 7-9 | in person |||||
 
-Last update: 2025-06-24 by John Carroll [[edit](https://github.com/delph-in/docs/wiki/AmsterdamParticipants/_edit)]{% endraw %}
+Last update: 2025-06-25 by EricZinda [[edit](https://github.com/delph-in/docs/wiki/AmsterdamParticipants/_edit)]{% endraw %}
