@@ -45,9 +45,9 @@ Please add times **in LOCAL Netherlands Time**:
 |Vipasha Bansal|July 7-11|in person|||||
 |Antske Fokkens| July 7-11 (maybe evening 7th)|in person|||||
 |Alexandre Rademaker| July 7-11|virtual|||||
-|Sanghoun Song|July 7-11|in person|||||
+|Sanghoun Song|July 7-11|in person|||me plus two|have eduroam|
 |Lars Hellan | July 7-11 | Probably virtual, but hopefully not |||||
 |Glenn Slayden| July 7-9 | virtual |||||
 |Michael Sullivan | July 7-9 | in person |||||
 
-Last update: 2025-06-26 by eeluedke [[edit](https://github.com/delph-in/docs/wiki/AmsterdamParticipants/_edit)]{% endraw %}
+Last update: 2025-06-29 by sanghoun [[edit](https://github.com/delph-in/docs/wiki/AmsterdamParticipants/_edit)]{% endraw %}
