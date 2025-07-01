@@ -22,7 +22,7 @@ Please add times **in LOCAL Netherlands Time**:
 
 | Name | Dates/Time | Mode (Virtual/In-Person) | Comments | Dietary Restrictions | Excursion Plus-ones | No Eduroam |
 |-------|------|-----|---------|---------|---------|---------|
-|Luis Morgado da Costa|July 7-11|in person | will start procuring some Port ||||
+|Luis Morgado da Costa|July 7-11|in person | will start procuring some Port |Pescatarian|||
 |Francis Bond|July 7-11 | in person |probably also 12-13 if anyone is free| no cucumber | just me ||
 |Leolani (VU's Robot)|July 7-11| in person | beep-bop beep-bop ||||
 |LLMs |July 7-9 (8am-5pm NL Time)| virtual | **Participation DENIED!** | |||
@@ -42,12 +42,12 @@ Please add times **in LOCAL Netherlands Time**:
 |David Inman|July 7-11|in person|also 6, 12|don't worry about it|just me|have eduroam|
 |Elizabeth Conrad|July 7-11 -- 3pm-EOD NL time|virtual| ||||
 |Michael Goodman|July 7&ndash;9, 3pm&ndash;6pm NL time|virtual| Wishing I could be there in person ||||
-|Vipasha Bansal|July 7-11|in person|||||
+|Vipasha Bansal|July 7-11|in person||vegetarian|||
 |Antske Fokkens| July 7-11 (maybe evening 7th)|in person|||||
 |Alexandre Rademaker| July 7-11|virtual|||||
 |Sanghoun Song|July 7-11|in person|||me plus two|have eduroam|
-|Lars Hellan | July 7-11 | Probably virtual, but hopefully not |||||
+|Lars Hellan | July 7-11 | virtual |||||
 |Glenn Slayden| July 7-9 | virtual |||||
 |Michael Sullivan | July 7-9 | in person |||||
 
-Last update: 2025-06-29 by sanghoun [[edit](https://github.com/delph-in/docs/wiki/AmsterdamParticipants/_edit)]{% endraw %}
+Last update: 2025-07-01 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/AmsterdamParticipants/_edit)]{% endraw %}
