@@ -7,11 +7,18 @@ The 21st DELPH-IN [Summit](https://delph-in.github.io/docs/summits/SummitTop) wi
 The program committee this year are Olga Zamaraeva and Ann Copestake (delphinsummit@gmail.com). 
 
 The program (subject to change) can be found here.
-Zoom: TBA.
+
+Zoom links are available inside the schedule. There will be different zoom links each day.
 
 ## Registration
 
 Please register at the [2025 participants page](https://delph-in.github.io/docs/summits/AmsterdamParticipants).  We will do our best to make it a hybrid event, please let us know if you intend to attend locally or virtually, as well as your availability (for scheduling purposes).
+
+## Venue
+
+The first three plenary days will happen in **Room HG-05A36**, on the **5th floor (Wing A)** of VU Amsterdam's **Main Building**. Finding your way inside this building is not very intuitive. There are different wings, elevators that bring you to floors locked behind access cards, and the rather infamous even-odd floor elevator segregation. To help you with this task, we have prepared a [visual guide to help you find our room (HG-05A36)](https://github.com/delph-in/docs/wiki/AmsterdamDirections).
+
+If you get lost or prefer the help of a human,  [Hans (our rather famous campus host)](https://www.linkedin.com/posts/vrije-universiteit-amsterdam_meet-hans-activity-7026829778225635328-A3Kf/) or one of his colleagues will most surely help you!
 
 <br>
 
@@ -57,7 +64,7 @@ Please take a look at the [Amsterdam's Official Guide](https://www.iamsterdam.co
 
 
 # Organization
-The local organization is handled by Luis Morgado da Costa ([l.g.de.passos.morgado.da.costa@vu.nl](mailto:l.g.de.passos.morgado.da.costa@vu.nl)).
+The local organization is handled by Luis Morgado da Costa ([l.g.de.passos.morgado.da.costa@vu.nl](mailto:l.g.de.passos.morgado.da.costa@vu.nl)) and Ellie Smith.
 
 
-Last update: 2025-07-02 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/AmsterdamTop/_edit)]{% endraw %}
+Last update: 2025-07-04 by lmorgadodacosta [[edit](https://github.com/delph-in/docs/wiki/AmsterdamTop/_edit)]{% endraw %}
