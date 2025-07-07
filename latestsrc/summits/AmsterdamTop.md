@@ -6,7 +6,7 @@ The 21st DELPH-IN [Summit](https://delph-in.github.io/docs/summits/SummitTop) wi
 
 The program committee this year are Olga Zamaraeva and Ann Copestake (delphinsummit@gmail.com). 
 
-The program (subject to change) can be found here.
+The program (subject to change) can be found [here](https://delph-in.github.io/docs/summits/AmsterdamSchedule), or if that doesn't work: https://github.com/delph-in/docs/wiki/AmsterdamSchedule
 
 Zoom links are available inside the schedule. There will be different zoom links each day.
 
@@ -67,4 +67,4 @@ Please take a look at the [Amsterdam's Official Guide](https://www.iamsterdam.co
 The local organization is handled by Luis Morgado da Costa ([l.g.de.passos.morgado.da.costa@vu.nl](mailto:l.g.de.passos.morgado.da.costa@vu.nl)) and Ellie Smith.
 
 
-Last update: 2025-07-04 by lmorgadodacosta [[edit](https://github.com/delph-in/docs/wiki/AmsterdamTop/_edit)]{% endraw %}
+Last update: 2025-07-06 by Francis Bond [[edit](https://github.com/delph-in/docs/wiki/AmsterdamTop/_edit)]{% endraw %}

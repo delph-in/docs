@@ -50,5 +50,6 @@ Please add times **in LOCAL Netherlands Time**:
 |Glenn Slayden| July 7-9 | virtual |||||
 |Michael Sullivan | July 7-9 | in person |||||
 |Chris Curtis | July 7-11 | virtual | the plans were, in fact, not the best-laid ||||
+|Isaac Schifferer | July 7-10 (afternoons only) | virtual |||||
 
-Last update: 2025-07-01 by curtosis [[edit](https://github.com/delph-in/docs/wiki/AmsterdamParticipants/_edit)]{% endraw %}
+Last update: 2025-07-06 by Isaac Schifferer [[edit](https://github.com/delph-in/docs/wiki/AmsterdamParticipants/_edit)]{% endraw %}

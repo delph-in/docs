@@ -26,6 +26,10 @@ toc:
         url: "/AmsterdamTop/"
       - title: "Participants"
         url: "/AmsterdamParticipants/"
+      - title: "Schedule"
+        url: "/AmsterdamSchedule/"
+      - title: "Directions"
+        url: "/AmsterdamDirections/"
   - title: "Olomouc 2024"
     children:
       - title: "Overview"
