@@ -1,0 +1,97 @@
+ERG discussion
+
+Dan: I received an email from someone trying to set up a 25th anniversary on the Cambridge Grammar of the English Language for 2027. This may be a publicity tool for advertising what we're doing in DELPH-IN, and why it's relevant, especially to the linguistics community.
+
+Dan: The book is very thorough and has a lot of positive and negative examples. The underlying theoretical assumptions are highly compatible with HPSG, as Pullum was one of the developers of GPSG.
+
+Dan: One benefit of linking ERG to CGEL is to point to a human-readable explanation of a rule. Going backwards, you can go from an ERG parse to the particular CGEL rules that license it.
+
+Dan: I have built a profile of 15,000 examples taken from CGEL, associated with page numbers. Rules and lexical types are extracted directly from those parses. Reverse-frequency search of a new sentence tells where the rules are described in CGEL. One of the issues with this reverse lookup is that it returns every example, even if the phenomenon only incidentally occurs but it is not the point of the discussion around the example.
+
+Dan: Next step is to set this up on one of our servers, provide the URL to some colleagues, and test to see if this provides the service that I imagine it does. Then we should see if we can provide the same service for Norwegian, Spanish, and make these somewhat opaque grammars more transparent to linguists by linking particular sentences to documentation in grammars.
+
+Luis: Do you have an open agenda to let people have an online grammar for people to use?
+
+Dan: That was my initial idea. But I kind of don't care, though I think it would be in their interest to do so.
+
+Luis: Rephrasing: do you think they would be happy with the syntactic parse that you provide? That is, that you will be happier linking to them than they to you?
+
+Dan: That's probably true. I don't think Cambridge themselves will care about these details, what they'll care about is selling their books.
+
+Luis: They don't need to agree with our tree to get something back [getting a reference to the relevant page number].
+
+Dan: We may need to crowdsource checking to see if we get the right page number, perhaps from linguist colleagues or teachers of second language English. Pullum might be able to do some of that.
+
+Guy: Cambridge makes a lot of money from assessing English as a second language. I can imagine that CEGL is too challenging for most second language learners but this is still a good proof of concept of how you can link to another resource. You could link to different levels of technical resources, like English textbooks, perhaps in other languages. If you could get that to work, Cambridge would be very interested.
+
+Ann: There is a simplified CEGL.
+
+Dan: Okay, the methodology is straightforward and it's not expensive so much. Of course, if it's not derivative from CEGL it's more complicated.
+
+Guy: It's also possible that by linking it to CEGL, if another resource is linked to CEGL, then that will get you there. You've done the heavy lifting of connecting it to CEGL, and now if another textbook can link it to CEGL, you can go from CEGL to the other textbook. You can also say, this uses some strange grammar that isn't covered by your textbook, but if you look at this more complicated textbook it covers it.
+
+Dan: I can also use mal rules, and I have linked mal-rules to their well-formed counterpart.
+
+Glenn: During the course of running those sentences from CEGL did you find any bugs in the ERG or differences in grammatical judgments? And if Cambridge is looking for solutions, why not put it in the public domain?
+
+Dan: That doesn't fit their economic model just yet. Last year I spoke of a few mismatches at the phenomenal level in both directions, such as this annoying gap phenomenon that I can't handle in the ERG yet, e.g. "So difficult a problem was proposed yesterday that no one could find a solution." And then there are a few instances like the do-be construction that aren't discussed in the book but I have in the grammar. But these are in the minority, there aren't that many of them.
+
+Dan: There's a few dozen cases where we disagree about grammaticality, and which I think Pullum and Huddleston are flat wrong. But there's this annoying thing called dialects, and they just assume that the way you say things in central England is just the way English works everywhere. But some of the ones I think they are just flat wrong and I have inertial argument, which is that you would have to change so many things in the grammar to rule it out that it just can't be right. Not a great argument, but I like it.
+
+Eric: One of the challenges I have is I feed a sentence into ACE, get a bunch of parses out, and I'll see a bunch of interpretations, and I hope these annotations will help me understand what reading 3 thought the sentence was.
+
+Dan: You could do this costly way of going back, but if the description is part of the docstring, that will help you. I also think adding these semantic tags will help you see "Oh you're thinking of rose as a flower, not a person." If you could easily discard the senses you don't want, that should help. It would be nice to have a tool that helps you do a quick disambiguation.
+
+John: The PDFs of each chapter are available online.
+
+Luis: You are on the VU network, and sometimes VU has these subscriptions. But Chris points out online that Archive has a version of the student's introduction available online.
+
+Dan: That's great to know.
+
+Luis: Do you have a business plan around this? Do you think this is something you can get something out of if you provide it?
+
+Dan: Not at all, in no way.
+
+John: Cambridge Press is extremely conservative about what they will provide and what they will make available to the public.
+
+Ann: Thinking of Cambridge University Assessment as a single entity is a mistake. You should consider talking to someone who is well connected, and that may make a big difference.
+
+[They discuss someone by name, and decide that he is not sufficiently connected to Cambridge assessment anymore]
+
+Luis: I was just reading the introduction, and the chapters of the student's introduction align perfectly with the CGEL.
+
+Dan: Any other suggestions?
+
+Luis: One thing is to be agnostic about how pretty or ugly your tree is. Another option is to hover on your tree and have your ugly-named rule link to where that rule is described in CGEL. This would help with understanding the tree.
+
+Dan: Yes. That would take some augmentation of our current environment though.
+
+Luis: No, I have code that will allow hovering on a node to display the docstring. So we could implement this.
+
+Eric: This would also be useful on the demo.
+
+Luis: Yes, this is one of the tasks I listed on my to-do yesterday. I think this will go into the SIG for demos. I want to have the power of the docstrings that is showable to humans other than the grammarian. Maybe you want to have a tag in the grammar that says this is the outward facing docstring, and this is the internal docstring for the grammar engineers.
+
+Eric: I would like to ask ACE to parse a string using particular rules.
+
+Emily: What I think you're actually asking for is examples from the treebank.
+
+Francis: And LTDB gives you that.
+
+Dan: It would be nice to do searches over configurations.
+
+Luis: Would it be better to have a sequence of types rather than just one type?
+
+Dan: This is an interesting question, and I am currently just linking with atomic types, as associating with the head-complement rule is a little too general for associating with specific discussions in CGEL.
+
+Luis: On average how many examples do you have for each section? You could also try to see how frequent each n-gram for the tree structure is just in relation to this section, and see if a pairing is more informative than just the one type. Because you're getting frequencies by type, but if you're getting frequencies by pairs or triples, it might be more useful.
+
+Dan: I see what you mean abstractly and I can't think of any operational way to get there.
+
+Glenn: Is it that all of these constructions would appear in the chart, and that would be enough?
+
+Luis: Not the chart, but the final correct tree.
+
+Dan: There are about 8, 9 examples per page and each page is roughly a section.
+
+Luis: It would be worth trying just to check. You're currently looking at individual types. Maybe pairs would not appear in all trees.
