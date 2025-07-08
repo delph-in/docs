@@ -30,7 +30,7 @@ Presentation materials should be uploaded [here](https://github.com/delph-in/doc
 |  **09:00-09:30**        | **Welcome & Introductions (Chair: Olga, Ann, Luis)**        |     Organizers + Participants                     |
 | **09:30-10:00**| **Site and other updates (Chair: Olga)** | |
 |              | VU Amsterdam                   |      Luis                    |
-|              | Olomouc                   |             Francis             |
+|              | [Olomouc](https://github.com/delph-in/docs/blob/main/summits/2025/upol-update-2025.pdf?raw=true)  |             Francis             |
 |              | [UW](https://github.com/delph-in/docs/blob/main/summits/2025/UW-site-update-2025.pdf?raw=true)                   |        Emily B.                  |
 |              | [UDC](https://github.com/delph-in/docs/blob/main/summits/2025/DELPHIN_UDC_update.pdf?raw=true)                   |          Olga                |
 |              | [Cambridge](https://github.com/delph-in/docs/blob/main/summits/2025/cambridge.pdf?raw=true) | Guy |
@@ -41,14 +41,14 @@ Presentation materials should be uploaded [here](https://github.com/delph-in/doc
 | **11:00-12:30** | **Large grammars and applications (Chair: John)** ||
 | 11:00–11:30  | [ERG lexicon + WordNet](https://github.com/delph-in/docs/blob/main/summits/2025/ERG+WN.pdf?raw=true) |           Dan               |
 | 11:30–12:00  | [Comparing LLM-generated and human-authored news with ERG](https://github.com/delph-in/docs/blob/main/summits/2025/LLM-syntax-Olga-Dan-Francis-Carlos.pdf?raw=true)                     |               Olga, Dan, Francis           |
-| 12:00–12:30  | LTDB update and an introduction to the Grammar Codex  |              Francis           |
+| 12:00–12:30  | [LTDB update and an introduction to the Grammar Codex](https://github.com/delph-in/docs/blob/main/summits/2025/ltdb-update-2025.pdf?raw=true)   |              Francis           |
 | 12:30–14:00  | *Lunch*                             |                          |
-|**14:00-16:00**| ** (Chair: TBD)** ||
+|**14:00-16:00**| **Linguistic research (Chair: Sanghoun)** ||
 | 14:00–15:00  | Valence dictionaries and semantic features                     |        Lars                  |
 | 15:00–15:30 |               Phonological reconstruction       |            Weiwei              |
 | 15:30–16:00  |     Typology, diachrony, computation              |            David              |
 | 16:00–16:30  | *Break*                             |                          |
-|**16:30-18:00**|**Grammar Matrix (Chair: TBD)**||
+|**16:30-18:00**|**Grammar Matrix (Chair: Petter)**||
 | 16:30–17:00  | A Noun Incorporation Library for the LinGO Grammar Matrix                    |       Emily L.                   |
 | 17:00–17:30  | Modeling Light Verb Constructions in the LinGO Grammar Matrix                     |      Tara                    |
 | 17:30–18:00  | Automatic Derivation of Semantic Representations for Thai Serial Verbs                   |      Vipasha                    |
@@ -64,21 +64,20 @@ Presentation materials should be uploaded [here](https://github.com/delph-in/doc
 |--------------|-------------------------------------|--------------------------|
 | **09:00–11:00**   | **Parsing (Chair: Francis)** |  |
 | 09:00–09:30  | [LKB-FOS update](https://github.com/delph-in/docs/blob/main/summits/2025/lkb-fos-update-25.pdf?raw=true)                      | John                     |
-| 09:30–10:00  |  Incremental approach to parsing                    | Petter                          |
+| 09:30–10:00  |  [An incremental approach to parsing](https://github.com/delph-in/docs/blob/main/summits/2025/petter.pdf?raw=true) | Petter                          |
 | 10:00–11:00  | Defaults and defeasible constraints in the LKB (Discussion)       | Spencer (TBD)                          |
 | 11:00–11:30  | *Break*                             |                          |
-| **11:00–12:30**   | **Theory; big picture; AI (Chair: Luis)** |  |
+| **11:00–12:30**   | **Theory and big picture (Chair: Luis)** |  |
 | 11:00–11:30  | [Computational complexity and linguistic theory](https://github.com/delph-in/docs/blob/main/summits/2025/complexity-linguistics.pdf?raw=true) | Guy |
 | 11:30–12:00  |         Exploring Graph Representations of Logical Forms for Language Modeling            |         Michael S.                 |
-| 12:00–12:30  |         AI Con & book tour      |        Emily B.                  |
+| 12:00–12:30  |         [The AI Con](https://thecon.ai) & book tour      |        Emily B.                  |
 | 12:30–14:00  | *Lunch*                             |                          |
-| **14:00–16:00**   | **Linguistic modeling (Chair: Emily B.)** |  |
+| **14:00–16:00**   | **Discussions: Chair: Emily B.** |  |
 | 14:00–15:00  | ERG and the Cambridge Grammar anniversary (disc.)    |           Dan (TBD)              |
-| 15:00–15:30  | Computational simulation of production in First Language Acquisition                     |        Weiwei                  |
-|15:30-16:00|Cantonese aspect|Francis|
+|15:00-16:00 | Linking DELPH-IN (discussion) | Ann (TBD)|
 | 16:00–16:30  | *Break*                             |                          |
-| **16:30–18:00**   | **Semantics (Chair: TBD)** |  |
-| 16:30–17:00  | Compositional SemBanking of English as a Second or Foreign Language                     |       Weiwei                   |
+| **16:30–18:00**   | **Semantics (Chair: Guy)** |  |
+| 16:30–17:00  | Cantonese aspect|Francis|       Weiwei                   |
 | 17:00–18:00  | MRS algebra (discussion)                     |          Liz (TBD)                |
 | evening   | Free time and Social Activities                     |                          |
 
@@ -90,10 +89,11 @@ Presentation materials should be uploaded [here](https://github.com/delph-in/doc
 
 | Time         | Content                             | Presenter (Scribe)       |
 |--------------|-------------------------------------|--------------------------|
-|**morning**|**Outward connections, contd. (Chair: TBD)**||
-|9:00-10:00| Using DELPH-IN to evaluate processing theories (Discussion) | David (TBD) |
+|**morning**|**Outward connections (Chair: Dan)**||
+| 9:00–09:30  | Computational simulation of production in First Language Acquisition                     |        Weiwei|\
+|09:30-10:00|Compositional SemBanking of English as a Second or Foreign Language                     | Weiwei|
 |10:00-10:30|*Break*||
-| 10:30–11:30  | Linking DELPH-IN (Discussion)                     |        Ann (TBD)                  |
+|10:30-11:30| Using DELPH-IN to evaluate processing theories (Discussion) | David (TBD) |
 | 11:30–12:30  | Business Meeting and SIG Planning   |      John                    |
 | 12:30–14:00  | *Lunch*                             |                          |
 |**afternoon**|**Organized social program**||
@@ -151,4 +151,4 @@ Presentation materials should be uploaded [here](https://github.com/delph-in/doc
 
 Please provide your SIG preferences [here](https://delph-in.github.io/docs/summits/AmsterdamSchedule).
 
-Last update: 2025-07-07 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/AmsterdamSchedule/_edit)]{% endraw %}
+Last update: 2025-07-07 by Petter Haugereid [[edit](https://github.com/delph-in/docs/wiki/AmsterdamSchedule/_edit)]{% endraw %}
