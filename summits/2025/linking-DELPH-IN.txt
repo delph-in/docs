@@ -1,0 +1,118 @@
+Ann: Linking DELPH-IN is about 1) talking to people we are not talking to; 2) increasing scope of DELPH-IN technology
+
+“DELPH-IN is not a cult” 
+
+We are not less like that (we talk more to other people than many do; in fact we are very open to all sorts of ideas)
+
+Areas: English as foreign language
+
+Structure for discussion:
+
+Are there ways of making our resources more visible?
+What are we missing in terms of outreach?
+What are we missing in terms of internal connections? (e.g. humanities, want to connect to linguistics)
+Formalism translations (from HPSG to other formalisms)
+Reaching to broad linguistic community
+Dan could make strong claims against the Cambridge grammar; Grammar Matrix could make strong claims and get visibility by getting pushback
+
+Olga: Funding? I am giving up; it’s been harder and harder to get it (for DELPH-IN)
+
+Ann: What I propose is preliminary to funding.
+
+EMB: What, Who, and How: who we talk to, what we say, how we say it.
+
+Dan: We focus on multiple languages (for a long time). Resources are scattered, status unclear. Do we have something positive to say about those efforts?
+
+Ann: Very important, it’s what makes DELPH-IN interesting. But it’s very frustrating that you can’t make things run sometimes, etc.
+
+EMB: Not only Spanish, but also Thai grammar is now with a second developer. We can always say: this is linguistically interesting. Practically interesting is another thing.
+
+Ann: Reconstruction (Weiwei’s work) can be interesting in the context of medium-size grammars
+
+(Discussion about the Thai grammar)
+
+Glenn: Thai lexicon has 50K entries  
+
+Dan: Short-term, internally, we can take the 21 grammars and evaluate what they are capable of. Spanish grammar has big coverage. German grammar should be good on certain genres like business meeting scheduling.
+
+Glenn: there’s two different issues: construction coverage and (???)
+
+EMB: Did you include GClimb?
+
+Dan: Is there an easy version of that?
+
+Antske: No, but we can try to get this done after the meeting.
+
+(Discussion on type names; importance of readability of type names)
+
+Luis: if only the lexicon is missing, we could help the grammars grow relatively easily. Language education is a good example of having clear goals for parity between grammars. Graded MRS testsuite?
+
+Francis: Basic vocabulary for 30 languages with example sentences. But it is not trivial to expand a grammar with a good written grammar.
+
+Luis: That’s why I said, if it is only the lexicon that is missing. If you have well-defined types…
+
+Everyone: But you don’t.
+
+Antske: What about supertagging?
+
+Olga: We had a paper on BERT-based supertagging for improving parsing speed
+
+Dan: I think Antske means, using supertagging to improve [???]
+
+EMB: More linguistically motivated grammars tend to not be useful for running text (morphophonological analyzer is assumed); tagging (super-, uber-) could be used here
+
+Luis: Teaching LLMs grammar (using the ERG): could be a way to expand lexicon. LLMs are not bad at grammaticality judgments, but still bad at explaining why. 
+
+Glenn: I gave a presentation about bootstrapping of lexicon for ERG, pre-LLM, it was based on translations between English and other languages. But there was not enough data to build statistical model for most languages. Now the situation with translation is probably different.
+
+Ann: Weiwei’s work from a few years ago is highly relevant (suggests SIG). Transformers could be better for certain things that newer LLMs. Let’s move to next topic. Relationships between formalisms. AMR, UD. 
+Dan: People mention it a lot. People feel the overhead is too big. They want “standard” format, which maybe is UD in some contexts. 
+
+Olga: UD is “standard” because the pipeline is very simple. Contexts for UD: synthetic data generation and Matrix grammars; we have grammars, UD has treebanks. Would be good to connect the two.
+
+Michael S.: I had a hard time finding documentation for the grammar. A centralized documentation place would be very useful
+
+Eric: Reverse treebank lookup.
+
+EMB: ERG semantic documentation pages, but they are more about semantic phenomena (“fingerprints”). This interface needs to be revived.
+
+Luis: Who is the author of the fingerprints interface? 
+
+EMB: WeSearch (but who?)
+
+Luis: Ned Letcher had some search interface.
+
+Guy: Does Saarland see any collaboration possibilities? Koller was connected to DELPH-IN
+
+Michael S.: Now, neuro-symbolic does not tend to refer to grammars. Maybe Vera Demberg.
+
+Ann: Converting between formalisms is hard to do properly, easy to spend a lot of time without good final result. Need to be careful. I don’t think converting to/from UD will work at all, because UD is inconsistent for different languages. They want to keep things simple, and then that does not work. Maybe only something “quick and dirty”.
+
+Dan: Inevitably lossy mapping; you throw away careful linguistic analysis.
+
+Francis: English corpora in UD are very poor. We could enrich their resources. 
+
+EMB: Visualize, format things attractively, but then link back to the full analysis. 
+
+Francis: GREW-match (graph-searching interface?)
+
+Dan: We have a separate motivation to pursue GREW, that then takes us all the way to UD. AMR people may have done similar work. 
+
+EMB: Transfer to GREW is less lossy than trying to comply with UD.
+
+Francis: GREW is a graph, so it should be non-lossy.
+Ann: Need to define a stopping point, otherwise risk wasting indefinite amount of time trying to get it 100%.
+
+Eric: Applications: 1) precision search for the Cambridge grammar; 2) reducing datasets requiring to train LLMs; 2) small-world NLU; 3) generating grounding datasets for LLMs, Shapeworld. Others?
+
+All: Language learning
+
+David: Going to MRS without the parse
+
+Ann: Robotics?
+
+Luis: Suggests a SIG. Generally, where control is necessary, grammars will be useful There will be an LLM part and a grammar part. Two systems interacting, one overtaking when necessary. 
+
+Glenn: In the future, DELPH-IN can grow into the infrastructure of safety over LLMs.
+
+
