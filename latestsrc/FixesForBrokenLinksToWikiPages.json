@@ -309,6 +309,18 @@
         {"Page": "_Footer.md", "SrcDir": "docswiki", "SrcFile": "_Footer.md", "BaseReferrer": "<not included from site docswiki>", "Referrer": "<not included or linked to>/_Footer.md"}
       ]}
     ],
+    "summits": [
+      {"Section": "Amsterdam 2025", "Pages": [
+        {"Page": "AmsterdamDefaults", "SrcDir": "docswiki", "SrcFile": "AmsterdamDefaults.md", "BaseReferrer": "summits/AmsterdamSchedule.md", "Referrer": "summits/AmsterdamSchedule.md"}
+      ]},
+      {"Section": "Olomouc 2024", "Pages": [
+        {"Page": "OlomoucAbuiMorphology", "SrcDir": "docswiki", "SrcFile": "OlomoucAbuiMorphology.md", "BaseReferrer": "summits/OlomoucSchedule.md", "Referrer": "summits/OlomoucSchedule.md"},
+        {"Page": "OlomoucCommunicating", "SrcDir": "docswiki", "SrcFile": "OlomoucCommunicating.md", "BaseReferrer": "summits/OlomoucSchedule.md", "Referrer": "summits/OlomoucSchedule.md"},
+        {"Page": "OlomoucMatrixDrivenUpdating", "SrcDir": "docswiki", "SrcFile": "OlomoucMatrixDrivenUpdating.md", "BaseReferrer": "summits/OlomoucSchedule.md", "Referrer": "summits/OlomoucSchedule.md"},
+        {"Page": "OlomoucSynthetic", "SrcDir": "docswiki", "SrcFile": "OlomoucSynthetic.md", "BaseReferrer": "summits/OlomoucSchedule.md", "Referrer": "summits/OlomoucCommunicating.md"},
+        {"Page": "OlomoucWordNetERG", "SrcDir": "docswiki", "SrcFile": "OlomoucWordNetERG.md", "BaseReferrer": "summits/OlomoucSchedule.md", "Referrer": "summits/OlomoucSchedule.md"}
+      ]}
+    ],
     "matrix": [
       {"Section": "FAQ", "Pages": [
         {"Page": "GeFaqChartNoPopups", "SrcDir": "docswiki", "SrcFile": "GeFaqChartNoPopups.md", "BaseReferrer": "matrix/GrammarEngineeringFAQ.md", "Referrer": "matrix/GrammarEngineeringFAQ.md", "FileMissing": true},
@@ -335,15 +347,6 @@
         {"Page": "GeFaqWordNotInChart", "SrcDir": "docswiki", "SrcFile": "GeFaqWordNotInChart.md", "BaseReferrer": "matrix/GrammarEngineeringFAQ.md", "Referrer": "matrix/GrammarEngineeringFAQ.md", "FileMissing": true},
         {"Page": "GeFaqWordToWordRule", "SrcDir": "docswiki", "SrcFile": "GeFaqWordToWordRule.md", "BaseReferrer": "matrix/GrammarEngineeringFAQ.md", "Referrer": "matrix/GrammarEngineeringFAQ.md", "FileMissing": true},
         {"Page": "OlomoucKoreanGrammar", "SrcDir": "docswiki", "SrcFile": "OlomoucKoreanGrammar.md", "BaseReferrer": "matrix/GeFaqUnifySurprise.md", "Referrer": "matrix/GeFaqUnifySurprise.md"}
-      ]}
-    ],
-    "summits": [
-      {"Section": "Olomouc 2024", "Pages": [
-        {"Page": "OlomoucAbuiMorphology", "SrcDir": "docswiki", "SrcFile": "OlomoucAbuiMorphology.md", "BaseReferrer": "summits/OlomoucSchedule.md", "Referrer": "summits/OlomoucSchedule.md"},
-        {"Page": "OlomoucCommunicating", "SrcDir": "docswiki", "SrcFile": "OlomoucCommunicating.md", "BaseReferrer": "summits/OlomoucSchedule.md", "Referrer": "summits/OlomoucSchedule.md"},
-        {"Page": "OlomoucMatrixDrivenUpdating", "SrcDir": "docswiki", "SrcFile": "OlomoucMatrixDrivenUpdating.md", "BaseReferrer": "summits/OlomoucSchedule.md", "Referrer": "summits/OlomoucSchedule.md"},
-        {"Page": "OlomoucSynthetic", "SrcDir": "docswiki", "SrcFile": "OlomoucSynthetic.md", "BaseReferrer": "summits/OlomoucSchedule.md", "Referrer": "summits/OlomoucCommunicating.md"},
-        {"Page": "OlomoucWordNetERG", "SrcDir": "docswiki", "SrcFile": "OlomoucWordNetERG.md", "BaseReferrer": "summits/OlomoucSchedule.md", "Referrer": "summits/OlomoucSchedule.md"}
       ]}
     ],
     "tools": [

@@ -29,14 +29,14 @@ Presentation materials should be uploaded [here](https://github.com/delph-in/doc
 |--------------|-------------------------------------|--------------------------|
 |  **09:00-09:30**        | **Welcome & Introductions (Chair: Olga, Ann, Luis)**        |     Organizers + Participants                     |
 | **09:30-10:00**| **Site and other updates (Chair: Olga)** | |
-|              | VU Amsterdam                   |      Luis                    |
+|              | [VU Amsterdam](https://github.com/delph-in/docs/blob/main/summits/2025/delphin-2025-vu-site-update.pdf?raw=true)                   |      Luis                    |
 |              | [Olomouc](https://github.com/delph-in/docs/blob/main/summits/2025/upol-update-2025.pdf?raw=true)  |             Francis             |
 |              | [UW](https://github.com/delph-in/docs/blob/main/summits/2025/UW-site-update-2025.pdf?raw=true)                   |        Emily B.                  |
 |              | [UDC](https://github.com/delph-in/docs/blob/main/summits/2025/DELPHIN_UDC_update.pdf?raw=true)                   |          Olga                |
 |              | [Cambridge](https://github.com/delph-in/docs/blob/main/summits/2025/cambridge.pdf?raw=true) | Guy |
 |              | [Perplexity](https://github.com/delph-in/docs/blob/main/summits/2025/PerplexitySite2025.pptx?raw=true)                    |              Eric            |
 |              | [Irvine](https://github.com/delph-in/docs/blob/main/summits/2025/update_UCI.pdf?raw=true) | David |
-| 10:00–10:30  | DELPH-IN demo update                     |                  Luis        |
+| 10:00–10:30  | [DELPH-IN demo update](https://github.com/delph-in/docs/blob/main/summits/2025/delphin-2025-lmc-vudemo.pdf?raw=true)                     |                  Luis        |
 | 10:30–11:00  | *Break*                             |                          |
 | **11:00-12:30** | **Large grammars and applications (Chair: John)** ||
 | 11:00–11:30  | [ERG lexicon + WordNet](https://github.com/delph-in/docs/blob/main/summits/2025/ERG+WN.pdf?raw=true) |           Dan               |
@@ -44,14 +44,14 @@ Presentation materials should be uploaded [here](https://github.com/delph-in/doc
 | 12:00–12:30  | [LTDB update and an introduction to the Grammar Codex](https://github.com/delph-in/docs/blob/main/summits/2025/ltdb-update-2025.pdf?raw=true)   |              Francis           |
 | 12:30–14:00  | *Lunch*                             |                          |
 |**14:00-16:00**| **Linguistic research (Chair: Sanghoun)** ||
-| 14:00–15:00  | Valence dictionaries and semantic features                     |        Lars                  |
+| 14:00–15:00  | Valence dictionaries and semantic features, [part 1](https://github.com/delph-in/docs/blob/main/summits/2025/Hellan%20Part%201%20-%20NorVal%20basic.pptx?raw=true), [part 2](https://github.com/delph-in/docs/blob/main/summits/2025/Hellan%20Part%202-%20meta-features.ppt?raw=true), [part 3](https://github.com/delph-in/docs/blob/main/summits/2025/Hellan%20Part%203%20-%20NorVal-to-EngVal.pptx?raw=true)                     |        Lars                  |
 | 15:00–15:30 |               Phonological reconstruction       |            Weiwei              |
-| 15:30–16:00  |     Typology, diachrony, computation              |            David              |
+| 15:30–16:00  |     [Typology, diachrony, computation](https://github.com/delph-in/docs/blob/main/summits/2025/Inman_Typology_Diachrony_Computation.pdf?raw=true)              |            David              |
 | 16:00–16:30  | *Break*                             |                          |
 |**16:30-18:00**|**Grammar Matrix (Chair: Petter)**||
-| 16:30–17:00  | A Noun Incorporation Library for the LinGO Grammar Matrix                    |       Emily L.                   |
-| 17:00–17:30  | Modeling Light Verb Constructions in the LinGO Grammar Matrix                     |      Tara                    |
-| 17:30–18:00  | Automatic Derivation of Semantic Representations for Thai Serial Verbs                   |      Vipasha                    |
+| 16:30–17:00  | [A Noun Incorporation Library for the LinGO Grammar Matrix](https://github.com/delph-in/docs/blob/main/summits/2025/NI_Matrix_Library.pdf?raw=true)                    |       Emily L.                   |
+| 17:00–17:30  | [Modeling Light Verb Constructions in the LinGO Grammar Matrix](https://github.com/delph-in/docs/blob/main/summits/2025/lvcs_delphin_2025.pdf?raw=true)                     |      Tara                    |
+| 17:30–18:00  | [Automatic Derivation of Semantic Representations for Thai Serial Verbs](https://github.com/delph-in/docs/blob/main/summits/2025/Thai_SVCs.pdf?raw=true)                   |      Vipasha                    |
 | evening   | Free time and social activities       |                          |
 
 * * *
@@ -65,20 +65,20 @@ Presentation materials should be uploaded [here](https://github.com/delph-in/doc
 | **09:00–11:00**   | **Parsing (Chair: Francis)** |  |
 | 09:00–09:30  | [LKB-FOS update](https://github.com/delph-in/docs/blob/main/summits/2025/lkb-fos-update-25.pdf?raw=true)                      | John                     |
 | 09:30–10:00  |  [An incremental approach to parsing](https://github.com/delph-in/docs/blob/main/summits/2025/petter.pdf?raw=true) | Petter                          |
-| 10:00–11:00  | Defaults and defeasible constraints in the LKB (Discussion)       | Spencer (TBD)                          |
-| 11:00–11:30  | *Break*                             |                          |
-| **11:00–12:30**   | **Theory and big picture (Chair: Luis)** |  |
-| 11:00–11:30  | [Computational complexity and linguistic theory](https://github.com/delph-in/docs/blob/main/summits/2025/complexity-linguistics.pdf?raw=true) | Guy |
-| 11:30–12:00  |         Exploring Graph Representations of Logical Forms for Language Modeling            |         Michael S.                 |
-| 12:00–12:30  |         [The AI Con](https://thecon.ai) & book tour      |        Emily B.                  |
-| 12:30–14:00  | *Lunch*                             |                          |
-| **14:00–16:00**   | **Discussions: Chair: Emily B.** |  |
-| 14:00–15:00  | ERG and the Cambridge Grammar anniversary (disc.)    |           Dan (TBD)              |
-|15:00-16:00 | Linking DELPH-IN (discussion) | Ann (TBD)|
+| 10:00–11:00  | [Defaults and defeasible constraints in the LKB (Discussion)](https://github.com/user-attachments/files/21116464/Brooks.Handout.Slides.pdf) notes| Spencer (Emily)                          |
+| 11:00–11:15  | *SHORT Break*                             |                          |
+| **11:15–12:15**   | **Theory (Chair: Luis)** |  |
+| 11:15–11:45  | [Computational complexity and linguistic theory](https://github.com/delph-in/docs/blob/main/summits/2025/complexity-linguistics.pdf?raw=true) | Guy |
+| 11:45–12:15  |         [Exploring Graph Representations of Logical Forms for Language Modeling](https://github.com/delph-in/docs/blob/main/summits/2025/michael_sullivan_lflms.pdf?raw=true)            |         Michael S.                 |
+| 12:15–13:30  | *Lunch*                             |                          |
+|**13:30-16:00**|**Big Picture** (Chair: Olga)||
+| 13:30–14:30  | [ERG and the Cambridge Grammar anniversary (disc.)](https://github.com/delph-in/docs/blob/main/summits/2025/ERG-CGEL.pdf?raw=true) [notes](https://github.com/delph-in/docs/blob/main/summits/2025/ERG_CGEL_discussion_notes.txt?raw=true)    |           Dan (David)              |
+| 14:30–15:00  |        **Invited talk:** [The AI Con](https://thecon.ai) & book tour      |        Emily B.                  |
+|15:00-16:00 | Linking DELPH-IN (discussion, [notes](https://github.com/delph-in/docs/blob/main/summits/2025/linking-DELPH-IN.txt?raw=true)) | Ann (Olga)|
 | 16:00–16:30  | *Break*                             |                          |
 | **16:30–18:00**   | **Semantics (Chair: Guy)** |  |
 | 16:30–17:00  | Cantonese aspect|Francis|       Weiwei                   |
-| 17:00–18:00  | MRS algebra (discussion)                     |          Liz (TBD)                |
+| 17:00–18:00  | MRS algebra (discussion)                     |          Liz (Emily)                |
 | evening   | Free time and Social Activities                     |                          |
 
 * * *
@@ -144,11 +144,15 @@ Presentation materials should be uploaded [here](https://github.com/delph-in/doc
 
 ## SIG Suggestions
 
-- SIG 1 Topic | Leaders TBD
-- SIG 2 Topic | Leaders TBD
-- SIG 3 Topic | Leaders TBD
-- SIG 4 Topic | Leaders TBD
+- Liz: Implementing a version of the MRS algebra without syntax (I'll make any time work, but prefer later in the day)
+- Olga: Syntax and digital humanities 
+- Bond: DELPH-IN with grew!  https://match.grew.fr/  let's get something working!
+- Luis: DELPH-IN Demos (plural -- what & where). Which demos do we have and want to explore futher
+- Luis: Using DELPH-IN Grammars to help/study how (Baby)LMs learn 
+- Luis: DELPH-IN & Robots -- ideas on multimodality, grounding and others...   
+- **Name: Topic (constraints, e.g. "Only Thursday afternoon")**
+- **Add your SIG suggestion here!** 
 
 Please provide your SIG preferences [here](https://delph-in.github.io/docs/summits/AmsterdamSchedule).
 
-Last update: 2025-07-07 by Petter Haugereid [[edit](https://github.com/delph-in/docs/wiki/AmsterdamSchedule/_edit)]{% endraw %}
+Last update: 2025-07-09 by lmorgadodacosta [[edit](https://github.com/delph-in/docs/wiki/AmsterdamSchedule/_edit)]{% endraw %}

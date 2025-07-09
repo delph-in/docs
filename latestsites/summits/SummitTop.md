@@ -96,6 +96,7 @@ host for online participants
 presentations/updates, discussion, requests for tutorials, allowing
 time for those agreeing to give tutorials to prepare ahead of the
 Summit
+  - Program chair also reserves a restaurant for the standing committee meeting (in consultation with the local organizer(s))
 - No parallel grammarian/developers sessions
 - Internet access in the meeting room(s)
 
@@ -110,4 +111,4 @@ this needs to be done before people indicate interest.
 - SIG scheduler should lock the schedule page before beginning the
 scheduling process.
 
-Last update: 2025-02-02 by lmorgadodacosta [[edit](https://github.com/delph-in/docs/wiki/SummitTop/_edit)]{% endraw %}
+Last update: 2025-07-08 by Francis Bond [[edit](https://github.com/delph-in/docs/wiki/SummitTop/_edit)]{% endraw %}
