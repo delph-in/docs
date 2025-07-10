@@ -93,14 +93,14 @@ Presentation materials should be uploaded [here](https://github.com/delph-in/doc
 | 9:00–09:30  | Computational simulation of production in First Language Acquisition                     |        Weiwei|\
 |09:30-10:00|Compositional SemBanking of English as a Second or Foreign Language                     | Weiwei|
 |10:00-10:30|*Break*||
-|10:30-11:30| Using DELPH-IN to evaluate processing theories (Discussion) | David (TBD) |
+|10:30-11:30| [Using DELPH-IN to evaluate processing theories (Discussion)](https://github.com/delph-in/docs/blob/main/summits/2025/Processing_Hawkins.pdf?raw=true) | David (TBD) |
 | 11:30–12:30  | Business Meeting and SIG Planning   |      John                    |
 | 12:30–14:00  | *Lunch*                             |                          |
 |**afternoon**|**Organized social program**||
-|14:00-16:00|Beer/Tea In de Waag (Castle)||
-| 16:30-18:00  | Canal cruise                           |                          |
+|14:00-16:00|Beer/Tea In de Waag (Castle)| Leaving the VU @1:30pm|
+| 16:30-18:00  | Canal cruise [https://maps.app.goo.gl/of2cL4TchZdaEjPV7](https://maps.app.goo.gl/of2cL4TchZdaEjPV7)                          | Arrive by 4:15pm or be stranded |
 |18:00-19:00|Group photos/leg stretching||
-|19:00-21:00|Banquet (walking distance from the cruise drop-off)||
+|19:00-21:00|Banquet (walking distance from the cruise drop-off) [https://maps.app.goo.gl/3M7asnHsSx7RWi156](https://maps.app.goo.gl/3M7asnHsSx7RWi156)| Arrive by 7:30pm or be starving|
 
 * * *
 
@@ -112,13 +112,13 @@ Presentation materials should be uploaded [here](https://github.com/delph-in/doc
 
 | Time         | Content                             | Leader (Scribe)          |
 |--------------|-------------------------------------|--------------------------|
-| 09:00–10:30  | SIG Session 1                       |                          |
+| 09:00–10:30  | A: Small grammars                       |      Ann                    |
 | 10:30–11:00  | *Break*                             |                          |
-| 11:00–12:30  | SIG Session 2                       |                          |
+| 11:00–12:30  | A: ERG+WordNet; B: Baby LMs                 |    A: Dan; B: Luis         |
 | 12:30–14:00  | *Lunch*                             |                          |
-| 14:00–15:30  | SIG Session 3                       |                          |
+| 14:00–15:30  | A: Syntax and Digital Humanities                       |     Olga                     |
 | 15:30–16:00  | *Break*                             |                          |
-| 16:00–17:30  | SIG Session 4                       |                          |
+| 16:00–17:30  | A: MRS Algebra                       |        Liz                  |
 | evening   | Free time and social activities           |                          |
 
 * * *
@@ -131,13 +131,13 @@ Presentation materials should be uploaded [here](https://github.com/delph-in/doc
 
 | Time         | Content                             | Leader (Scribe)          |
 |--------------|-------------------------------------|--------------------------|
-| 09:00–10:30  | SIG Session 5                       |                          |
+| 09:00–10:30  | A: Demos                       |                  Luis        |
 | 10:30–11:00  | *Break*                             |                          |
-| 11:00–12:30  | SIG Session 6                       |                          |
+| 11:00–12:30  | A: Hawkins word order; B: Robots                      |       A: David; B: Luis                 |
 | 12:30–14:00  | *Lunch*                             |                          |
-| 14:00–15:30  | SIG Session 7                       |                          |
+| 14:00–15:30  | A: Grew (graphs)                       |           Francis               |
 | 15:30–16:00  | *Break*                             |                          |
-| 16:00–17:30  | SIG Session 8                       |                          |
+| 16:00–17:30  | A: Mal-rules                       |             Luis, Weiwei             |
 | evening   | Free time and social activities           |                          |
 
 * * *
@@ -148,11 +148,16 @@ Presentation materials should be uploaded [here](https://github.com/delph-in/doc
 - Olga: Syntax and digital humanities 
 - Bond: DELPH-IN with grew!  https://match.grew.fr/  let's get something working!
 - Luis: DELPH-IN Demos (plural -- what & where). Which demos do we have and want to explore futher
-- Luis: Using DELPH-IN Grammars to help/study how (Baby)LMs learn 
-- Luis: DELPH-IN & Robots -- ideas on multimodality, grounding and others...   
+- Luis/Guy: Using DELPH-IN Grammars to help/study how (Baby)LMs learn (Last session on Thursday or first session on Friday would work best)
+- Luis: DELPH-IN & Robots -- ideas on multimodality, grounding and others...  
+- Ann: Using smaller grammars for tasks (e.g., starting point for semantic parsing) 
+- David: Hawkins' processing hypotheses and corpus parsing
+- Dan: Linking ERG lexicon to WordNet: issues to resolve
+- Spencer: Default unification
+- Weiwei/Luis: Ambiguity and Mal-rules in Grammatical Error Detection  
 - **Name: Topic (constraints, e.g. "Only Thursday afternoon")**
 - **Add your SIG suggestion here!** 
 
-Please provide your SIG preferences [here](https://delph-in.github.io/docs/summits/AmsterdamSchedule).
+Please provide your SIG preferences [here](https://docs.google.com/spreadsheets/d/1YfKSzlQKR5aamN93hCbEZDTkx8mnmsNpt0rf2po4n5E/edit?usp=sharing).
 
-Last update: 2025-07-09 by lmorgadodacosta [[edit](https://github.com/delph-in/docs/wiki/AmsterdamSchedule/_edit)]{% endraw %}
+Last update: 2025-07-10 by lmorgadodacosta [[edit](https://github.com/delph-in/docs/wiki/AmsterdamSchedule/_edit)]{% endraw %}
