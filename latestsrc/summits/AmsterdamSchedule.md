@@ -65,7 +65,7 @@ Presentation materials should be uploaded [here](https://github.com/delph-in/doc
 | **09:00–11:00**   | **Parsing (Chair: Francis)** |  |
 | 09:00–09:30  | [LKB-FOS update](https://github.com/delph-in/docs/blob/main/summits/2025/lkb-fos-update-25.pdf?raw=true)                      | John                     |
 | 09:30–10:00  |  [An incremental approach to parsing](https://github.com/delph-in/docs/blob/main/summits/2025/petter.pdf?raw=true) | Petter                          |
-| 10:00–11:00  | [Defaults and defeasible constraints in the LKB (Discussion)](https://github.com/user-attachments/files/21116464/Brooks.Handout.Slides.pdf) notes| Spencer (Emily)                          |
+| 10:00–11:00  | [Defaults and defeasible constraints in the LKB (Discussion)](https://github.com/delph-in/docs/blob/main/summits/2025/Brooks-Amsterdam-Defaults.pdf?raw=true) notes| Spencer (Emily)                          |
 | 11:00–11:15  | *SHORT Break*                             |                          |
 | **11:15–12:15**   | **Theory (Chair: Luis)** |  |
 | 11:15–11:45  | [Computational complexity and linguistic theory](https://github.com/delph-in/docs/blob/main/summits/2025/complexity-linguistics.pdf?raw=true) | Guy |
@@ -78,7 +78,7 @@ Presentation materials should be uploaded [here](https://github.com/delph-in/doc
 | 16:00–16:30  | *Break*                             |                          |
 | **16:30–18:00**   | **Semantics (Chair: Guy)** |  |
 | 16:30–17:00  | Cantonese aspect|Francis|       Weiwei                   |
-| 17:00–18:00  | MRS algebra (discussion)                     |          Liz (Emily)                |
+| 17:00–18:00  | MRS algebra (discussion)  (notes)                   |          Liz (Emily)                |
 | evening   | Free time and Social Activities                     |                          |
 
 * * *
@@ -114,9 +114,9 @@ Presentation materials should be uploaded [here](https://github.com/delph-in/doc
 |--------------|-------------------------------------|--------------------------|
 | 09:00–10:30  | A: Small grammars                       |      Ann                    |
 | 10:30–11:00  | *Break*                             |                          |
-| 11:00–12:30  | A: ERG+WordNet; B: Baby LMs                 |    A: Dan; B: Luis         |
+| 11:00–12:30  | A: ERG+WordNet; B: Baby LMs ([Aurelie's work](https://github.com/delph-in/docs/blob/main/summits/2025/links-to-intension.txt?raw=true))               |    A: Dan; B: Luis         |
 | 12:30–14:00  | *Lunch*                             |                          |
-| 14:00–15:30  | A: Syntax and Digital Humanities                       |     Olga                     |
+| 14:00–15:30  | A: [Syntax and Digital Humanities](https://github.com/delph-in/docs/blob/main/summits/2025/digital-humanities.pdf?raw=true)                       |     Olga                     |
 | 15:30–16:00  | *Break*                             |                          |
 | 16:00–17:30  | A: MRS Algebra                       |        Liz                  |
 | evening   | Free time and social activities           |                          |
@@ -160,4 +160,4 @@ Presentation materials should be uploaded [here](https://github.com/delph-in/doc
 
 Please provide your SIG preferences [here](https://docs.google.com/spreadsheets/d/1YfKSzlQKR5aamN93hCbEZDTkx8mnmsNpt0rf2po4n5E/edit?usp=sharing).
 
-Last update: 2025-07-10 by lmorgadodacosta [[edit](https://github.com/delph-in/docs/wiki/AmsterdamSchedule/_edit)]{% endraw %}
+Last update: 2025-07-10 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/AmsterdamSchedule/_edit)]{% endraw %}

@@ -66,5 +66,10 @@ Please take a look at the [Amsterdam's Official Guide](https://www.iamsterdam.co
 # Organization
 The local organization is handled by Luis Morgado da Costa ([l.g.de.passos.morgado.da.costa@vu.nl](mailto:l.g.de.passos.morgado.da.costa@vu.nl)) and Ellie Smith.
 
+<br>
 
-Last update: 2025-07-06 by Francis Bond [[edit](https://github.com/delph-in/docs/wiki/AmsterdamTop/_edit)]{% endraw %}
+
+# Photos
+[Sanghoun's](https://drive.google.com/drive/u/0/folders/1x6v5gTm9u0w9lqz0FtwhUWwu2duHjV0V)
+
+Last update: 2025-07-11 by sanghoun [[edit](https://github.com/delph-in/docs/wiki/AmsterdamTop/_edit)]{% endraw %}

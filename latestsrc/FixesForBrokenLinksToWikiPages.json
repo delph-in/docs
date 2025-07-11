@@ -311,6 +311,7 @@
     ],
     "summits": [
       {"Section": "Amsterdam 2025", "Pages": [
+        {"Page": "AmsterdamAlgebra", "SrcDir": "docswiki", "SrcFile": "AmsterdamAlgebra.md", "BaseReferrer": "summits/AmsterdamSchedule.md", "Referrer": "summits/AmsterdamSchedule.md"},
         {"Page": "AmsterdamDefaults", "SrcDir": "docswiki", "SrcFile": "AmsterdamDefaults.md", "BaseReferrer": "summits/AmsterdamSchedule.md", "Referrer": "summits/AmsterdamSchedule.md"}
       ]},
       {"Section": "Olomouc 2024", "Pages": [
