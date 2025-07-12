@@ -93,7 +93,7 @@ Presentation materials should be uploaded [here](https://github.com/delph-in/doc
 | 9:00–09:30  | Computational simulation of production in First Language Acquisition                     |        Weiwei|\
 |09:30-10:00|Compositional SemBanking of English as a Second or Foreign Language                     | Weiwei|
 |10:00-10:30|*Break*||
-|10:30-11:30| [Using DELPH-IN to evaluate processing theories (Discussion)](https://github.com/delph-in/docs/blob/main/summits/2025/Processing_Hawkins.pdf?raw=true) | David (TBD) |
+|10:30-11:30| [Using DELPH-IN to evaluate processing theories (Discussion)](https://github.com/delph-in/docs/blob/main/summits/2025/Processing_Hawkins.pdf?raw=true) Notes | David (TBD) |
 | 11:30–12:30  | Business Meeting and SIG Planning   |      John                    |
 | 12:30–14:00  | *Lunch*                             |                          |
 |**afternoon**|**Organized social program**||
@@ -135,9 +135,9 @@ Presentation materials should be uploaded [here](https://github.com/delph-in/doc
 | 10:30–11:00  | *Break*                             |                          |
 | 11:00–12:30  | A: Hawkins word order; B: Robots                      |       A: David; B: Luis                 |
 | 12:30–14:00  | *Lunch*                             |                          |
-| 14:00–15:30  | A: Grew (graphs)                       |           Francis               |
+| 14:00–15:30  | A: Mal-rules                       |             Luis, Weiwei             |
 | 15:30–16:00  | *Break*                             |                          |
-| 16:00–17:30  | A: Mal-rules                       |             Luis, Weiwei             |
+| 16:00–17:30  | A: Grew (graphs)                       |           Francis               |
 | evening   | Free time and social activities           |                          |
 
 * * *
@@ -160,4 +160,4 @@ Presentation materials should be uploaded [here](https://github.com/delph-in/doc
 
 Please provide your SIG preferences [here](https://docs.google.com/spreadsheets/d/1YfKSzlQKR5aamN93hCbEZDTkx8mnmsNpt0rf2po4n5E/edit?usp=sharing).
 
-Last update: 2025-07-10 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/AmsterdamSchedule/_edit)]{% endraw %}
+Last update: 2025-07-11 by Guy Emerson [[edit](https://github.com/delph-in/docs/wiki/AmsterdamSchedule/_edit)]{% endraw %}
