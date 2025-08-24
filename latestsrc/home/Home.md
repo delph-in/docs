@@ -11,7 +11,7 @@ themselves to a shared format for grammatical representation and to a
 rigid scheme of evaluation, as well as to the general use of open-source
 licensing and transparency.
 
-DELPH-IN is a long-standing collaboration over many years involving
+DELPH-IN is a long-standing collaboration (since 2005) involving
 researchers from the following institutions, among others:
 
 - [Bulgarian Academy of Science](http://www.bas.bg/) (Bulgaria),
@@ -168,4 +168,4 @@ forum](http://discourse.delph-in.net), using the Discourse platform.
 
 DELPH-IN is organized by a [standing commitee](https://delph-in.github.io/docs/summits/StandingCommitteeGroup/), but it is pretty informal.
 
-Last update: 2024-08-28 by Francis Bond [[edit](https://github.com/delph-in/docs/wiki/Home/_edit)]{% endraw %}
+Last update: 2025-08-23 by Francis Bond [[edit](https://github.com/delph-in/docs/wiki/Home/_edit)]{% endraw %}
