@@ -29,19 +29,18 @@ added as part of Trimble 2014 (forthcoming).
 
 # Table of Contents
 
-- [Options](/MatrixDoc/Lexicon#Options)
+- [Options](https://delph-in.github.io/docs/matrix/MatrixDoc_Lexicon#options)
   
-  - [General Information](/MatrixDoc/Lexicon#General)
-  - [Nouns](/MatrixDoc/Lexicon#Nouns)
-  - [Verbs](/MatrixDoc/Lexicon#Verbs)
-  - [Adjectives](/MatrixDoc/Lexicon#Adjectives)
-  - [Auxiliaries](/MatrixDoc/Lexicon#Auxiliaries)
-  - [Copulas](/MatrixDoc/Lexicon#Copulas)
-  - [Determiners](/MatrixDoc/Lexicon#Determiners)
-  - [Case Marking
-Adpositions](/MatrixDoc/Lexicon#Case_Marking_Adpositions)
-- [Analyses](/MatrixDoc/Lexicon#Analyses)
-- [References](/MatrixDoc/Lexicon#References)
+  - [General Information](https://delph-in.github.io/docs/matrix/MatrixDoc_Lexicon#general)
+  - [Nouns](https://delph-in.github.io/docs/matrix/MatrixDoc_Lexicon#nouns)
+  - [Verbs](https://delph-in.github.io/docs/matrix/MatrixDoc_Lexicon#verbs)
+  - [Adjectives](https://delph-in.github.io/docs/matrix/MatrixDoc_Lexicon#adjectives)
+  - [Auxiliaries](https://delph-in.github.io/docs/matrix/MatrixDoc_Lexicon#auxiliaries)
+  - [Copulas](https://delph-in.github.io/docs/matrix/MatrixDoc_Lexicon#copulas)
+  - [Determiners](https://delph-in.github.io/docs/matrix/MatrixDoc_Lexicon#determiners)
+  - [Case Marking Adpositions](https://delph-in.github.io/docs/matrix/MatrixDoc_Lexicon#case-marking-adpositions)
+- [Analyses](https://delph-in.github.io/docs/matrix/MatrixDoc_Lexicon#analyses)
+- [References](https://delph-in.github.io/docs/matrix/MatrixDoc_Lexicon#references)
 
 # Options
 
@@ -1798,4 +1797,4 @@ pages = {85-99},\
 publisher = {The Hague: Mouton}\
 }
 
-Last update: 2018-01-04 by OlgaZamaraeva [[edit](https://github.com/delph-in/docs/wiki/MatrixDoc_Lexicon/_edit)]{% endraw %}
+Last update: 2025-11-11 by Dan Flickinger [[edit](https://github.com/delph-in/docs/wiki/MatrixDoc_Lexicon/_edit)]{% endraw %}
