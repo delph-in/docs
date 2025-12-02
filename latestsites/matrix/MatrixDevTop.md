@@ -43,6 +43,7 @@ See the section on [matrix.py](https://delph-in.github.io/docs/matrix/MatrixDevT
 Matrix development)
 - [MatrixLibraryDevelopment](https://delph-in.github.io/docs/matrix/MatrixLibraryDevelopment)
 - [MatrixLibraryWishList](https://delph-in.github.io/docs/matrix/MatrixLibraryWishList)
+- MatrixDocstrings
 
 # Matrix Repository <a name="repository"/>
 
@@ -254,4 +255,4 @@ detailed below explains the directories and files for a single branch
     matrix.py    [Python script for running customize, tests, install, etc.]
     matrix.cgi   [CGI script to handle web requests]
 
-Last update: 2024-10-15 by emilymbender [[edit](https://github.com/delph-in/docs/wiki/MatrixDevTop/_edit)]{% endraw %}
+Last update: 2025-12-01 by elshire7311 [[edit](https://github.com/delph-in/docs/wiki/MatrixDevTop/_edit)]{% endraw %}
