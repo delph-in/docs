@@ -113,6 +113,8 @@ in assets/render.js:
 
 The code can be found on github: <https://github.com/fcbond/ltdb>
 
+For an extra detailed description for installing the Flask branch and using LTDB (especially on a virtual machine on a MacOS), see this page.
+
 ### Flask branch installation instructions (use this unless you know what you are doing)
 
 - Checkout the flask branch and switch to it
@@ -184,4 +186,4 @@ Corpora (LINC-2005), 31--40, Cheju, Korea.
   - link to some running Lexical Type Databases (like
 [this](https://delph-in.github.io/docs/grammars/JacyLexTypes))
 
-Last update: 2023-10-23 by Olga Zamaraeva [[edit](https://github.com/delph-in/docs/wiki/LkbLtdb/_edit)]{% endraw %}
+Last update: 2025-12-03 by elshire7311 [[edit](https://github.com/delph-in/docs/wiki/LkbLtdb/_edit)]{% endraw %}
