@@ -24,6 +24,8 @@ This page is current as of 02-10-16 - CMC
 For experimental regression testing on Mac, see
 [MatrixRegressionTestingSetupMac](https://delph-in.github.io/docs/matrix/MatrixRegressionTestingSetupMac)
 
+For regression testing on a 2025 MacOS with an M4 chip, see MatrixRegressionTestingSetupMacM4
+
 ## Setting up a VirtualBox virtual machine
 
 This section describes setting up a VirtualBox virtual machine to run
@@ -140,4 +142,4 @@ customization system installation, either by using the -C argument (e.g.
 python matrix.py -C gmcs/ r) or by setting the CUSTOMIZATIONROOT
 environment variable.
 
-Last update: 2019-10-17 by KristenHowell [[edit](https://github.com/delph-in/docs/wiki/MatrixRegressionTestingSetup/_edit)]{% endraw %}
+Last update: 2025-12-06 by elshire7311 [[edit](https://github.com/delph-in/docs/wiki/MatrixRegressionTestingSetup/_edit)]{% endraw %}
