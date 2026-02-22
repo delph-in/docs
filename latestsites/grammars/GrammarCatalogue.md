@@ -438,7 +438,7 @@ generating metadata.
 | contributors                | DavidMoeljadi; FrancisBond; SanghounSong; DanFlickinger; MichaelGoodman; LuisMorgadoCosta |
 | contact                     | <mailto:davidmoeljadi@gmail.com>                                                                                                                                                                        |
 | website                     | <http://moin.delph-in.net/IndraTop>                                                                                                                                                              |
-| demo                        | <http://chimpanzee.ling.washington.edu/demophin/indra/>                                                                                                                                          |
+| demo                        | <https://uakari2.ling.washington.edu/demophin/>                                                                                                                                                  |
 | documentation               | <http://moin.delph-in.net/IndraTop>                                                                                                                                                              |
 | issue tracker               | <https://github.com/davidmoeljadi/INDRA>                                                                                                                                                         |
 | version control             | <https://github.com/davidmoeljadi/INDRA>                                                                                                                                                         |
@@ -618,4 +618,4 @@ to this:
 
      grammar_metrics=$(mktemp -p ./)
 
-Last update: 2024-07-23 by Dan Flickinger [[edit](https://github.com/delph-in/docs/wiki/GrammarCatalogue/_edit)]{% endraw %}
+Last update: 2026-02-21 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/GrammarCatalogue/_edit)]{% endraw %}

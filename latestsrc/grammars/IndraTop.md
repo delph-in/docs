@@ -7,10 +7,8 @@ et al., 2005).
 
 ## Online Demo
 
-Using [Demophin](http://compling.hss.ntu.edu.sg/demophin/indra/)
-(temporary server:
-[Demophin](http://chimpanzee.ling.washington.edu/demophin/indra/)) or
-[delphin-viz Demo](http://delph-in.github.io/delphin-viz/demo/). You can
+Using [demo](https://uakari2.ling.washington.edu/demophin/)) or
+[delphin-viz demo](http://delph-in.github.io/delphin-viz/demo/). You can
 parse simple sentences such as *Adi tidur di sini* "Adi sleeps here" and
 *Adi mengejar Budi* "Adi chases Budi".
 
@@ -88,4 +86,4 @@ Manipulation of Meaning* (MOE ARC41/13)
 - MOE Tier 2 grant *Grammar Matrix Reloaded: Syntax and Semantics of
 Affectedness* (MOE ARC21/13)
 
-Last update: 2018-04-13 by DavidMoeljadi [[edit](https://github.com/delph-in/docs/wiki/IndraTop/_edit)]{% endraw %}
+Last update: 2026-02-21 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/IndraTop/_edit)]{% endraw %}

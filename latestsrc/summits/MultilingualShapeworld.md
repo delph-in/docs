@@ -6,7 +6,7 @@ Below an incomplete list of words and constructions which another
 language would ideally provide. Note that not all of the entries are
 required for every data generator.
 
-[DMRS demo](http://chimpanzee.ling.washington.edu/demophin/erg/)
+[demo](https://uakari2.ling.washington.edu/demophin/)
 
 Attributes:
 
@@ -178,4 +178,4 @@ strings and types.
 Moving to semantic-interface-2016   := "../jacy.smi". fixes the
 string/type issue, I don't know how to deal with the \_rel issue.
 
-Last update: 2017-08-10 by FrancisBond [[edit](https://github.com/delph-in/docs/wiki/MultilingualShapeworld/_edit)]{% endraw %}
+Last update: 2026-02-21 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/MultilingualShapeworld/_edit)]{% endraw %}
