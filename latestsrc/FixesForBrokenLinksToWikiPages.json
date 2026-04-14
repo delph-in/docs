@@ -316,6 +316,11 @@
         {"Page": "AmsterdamDefaults", "SrcDir": "docswiki", "SrcFile": "AmsterdamDefaults.md", "BaseReferrer": "summits/AmsterdamSchedule.md", "Referrer": "summits/AmsterdamSchedule.md"},
         {"Page": "AmsterdamHawkins", "SrcDir": "docswiki", "SrcFile": "AmsterdamHawkins.md", "BaseReferrer": "summits/AmsterdamSchedule.md", "Referrer": "summits/AmsterdamSchedule.md"}
       ]},
+      {"Section": "Summits", "Pages": [
+        {"Page": "BergenParticipants", "SrcDir": "docswiki", "SrcFile": "BergenParticipants.md", "BaseReferrer": "summits/SummitTop.md", "Referrer": "summits/BergenTop.md"},
+        {"Page": "BergenSchedule", "SrcDir": "docswiki", "SrcFile": "BergenSchedule.md", "BaseReferrer": "summits/SummitTop.md", "Referrer": "summits/BergenTop.md"},
+        {"Page": "BergenTop", "SrcDir": "docswiki", "SrcFile": "BergenTop.md", "BaseReferrer": "summits/SummitTop.md", "Referrer": "summits/SummitTop.md"}
+      ]},
       {"Section": "Olomouc 2024", "Pages": [
         {"Page": "OlomoucAbuiMorphology", "SrcDir": "docswiki", "SrcFile": "OlomoucAbuiMorphology.md", "BaseReferrer": "summits/OlomoucSchedule.md", "Referrer": "summits/OlomoucSchedule.md"},
         {"Page": "OlomoucCommunicating", "SrcDir": "docswiki", "SrcFile": "OlomoucCommunicating.md", "BaseReferrer": "summits/OlomoucSchedule.md", "Referrer": "summits/OlomoucSchedule.md"},
