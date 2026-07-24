@@ -74,9 +74,11 @@ jobs:
       # createdocs.py already detects these as proposed fixes; this step auto-applies the safe ones
       # (pages that ARE linked to from an already-included page, so Site/Section is trustworthy) and
       # leaves genuinely unlinked/orphaned pages for a human to triage.
-      - name: Auto-register newly discoverable wiki pages
+      # It also prunes registered pages whose source file has actually disappeared (deleted/renamed
+      # wiki page), which otherwise fails the *entire* build until a human hand-edits the file.
+      - name: Auto-register new pages / prune stale ones
         id: autoregister
-        run: python $GITHUB_WORKSPACE/main/sitescripts/apply_new_pages.py $GITHUB_WORKSPACE/main/sitesdefinitions.json $GITHUB_WORKSPACE/main/latestsrc/FixesForBrokenLinksToWikiPages.json
+        run: python $GITHUB_WORKSPACE/main/sitescripts/apply_new_pages.py $GITHUB_WORKSPACE/main/sitesdefinitions.json $GITHUB_WORKSPACE/ $GITHUB_WORKSPACE/main/latestsrc/FixesForBrokenLinksToWikiPages.json
 
       # If new pages were registered above, re-run so latestsrc/latestsites actually include them
       # in this same build (otherwise they'd only appear after the next run)
