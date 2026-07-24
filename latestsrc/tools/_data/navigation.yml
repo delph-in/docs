@@ -306,3 +306,7 @@ toc:
         url: "/SafDtd/"
       - title: "Icons Specs"
         url: "/IconsSpecs/"
+      - title: "OlomoucGeneration"
+        url: "/OlomoucGeneration/"
+      - title: "OlomoucSEMI"
+        url: "/OlomoucSEMI/"

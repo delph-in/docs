@@ -43,7 +43,7 @@ See the section on [matrix.py](https://delph-in.github.io/docs/matrix/MatrixDevT
 Matrix development)
 - [MatrixLibraryDevelopment](https://delph-in.github.io/docs/matrix/MatrixLibraryDevelopment)
 - [MatrixLibraryWishList](https://delph-in.github.io/docs/matrix/MatrixLibraryWishList)
-- MatrixDocstrings
+- [MatrixDocstrings](https://delph-in.github.io/docs/matrix/MatrixDocstrings)
 
 # Matrix Repository <a name="repository"/>
 

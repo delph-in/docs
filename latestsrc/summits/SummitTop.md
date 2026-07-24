@@ -24,7 +24,7 @@ best practice.
 
 ## Previous and Future Meetings
 
-- 2026 — 22nd Summit: Bergen (July 27-31)
+- 2026 — 22nd Summit: [Bergen](https://delph-in.github.io/docs/summits/BergenTop) (July 27-31)
 - 2025 — 21st Summit: [Amsterdam](https://delph-in.github.io/docs/summits/AmsterdamTop) (July 07-11)
 - 2024 — 20th Summit: [Olomouc](https://delph-in.github.io/docs/summits/OlomoucTop) (July 01-05, co-located with HPSG 08-10)
 - 2023 — 19th Summit: [Galicia/A Coruña](https://delph-in.github.io/docs/summits/GaliciaTop) (June 26-30)

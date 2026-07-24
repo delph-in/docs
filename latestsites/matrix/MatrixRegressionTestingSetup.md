@@ -24,7 +24,7 @@ This page is current as of 02-10-16 - CMC
 For experimental regression testing on Mac, see
 [MatrixRegressionTestingSetupMac](https://delph-in.github.io/docs/matrix/MatrixRegressionTestingSetupMac)
 
-For regression testing on a 2025 MacOS with an M4 chip, see MatrixRegressionTestingSetupMacM4
+For regression testing on a 2025 MacOS with an M4 chip, see [MatrixRegressionTestingSetupMacM4](https://delph-in.github.io/docs/matrix/MatrixRegressionTestingSetupMacM4)
 
 ## Setting up a VirtualBox virtual machine
 

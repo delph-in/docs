@@ -65,7 +65,7 @@ Presentation materials should be uploaded [here](https://github.com/delph-in/doc
 | **09:00–11:00**   | **Parsing (Chair: Francis)** |  |
 | 09:00–09:30  | [LKB-FOS update](https://github.com/delph-in/docs/blob/main/summits/2025/lkb-fos-update-25.pdf?raw=true)                      | John                     |
 | 09:30–10:00  |  [An incremental approach to parsing](https://github.com/delph-in/docs/blob/main/summits/2025/petter.pdf?raw=true) | Petter                          |
-| 10:00–11:00  | [Defaults and defeasible constraints in the LKB (Discussion)](https://github.com/delph-in/docs/blob/main/summits/2025/Brooks-Amsterdam-Defaults.pdf?raw=true) notes| Spencer (Emily)                          |
+| 10:00–11:00  | [Defaults and defeasible constraints in the LKB (Discussion)](https://github.com/delph-in/docs/blob/main/summits/2025/Brooks-Amsterdam-Defaults.pdf?raw=true) [notes](https://delph-in.github.io/docs/summits/AmsterdamDefaults)| Spencer (Emily)                          |
 | 11:00–11:15  | *SHORT Break*                             |                          |
 | **11:15–12:15**   | **Theory (Chair: Luis)** |  |
 | 11:15–11:45  | [Computational complexity and linguistic theory](https://github.com/delph-in/docs/blob/main/summits/2025/complexity-linguistics.pdf?raw=true) | Guy |
@@ -78,7 +78,7 @@ Presentation materials should be uploaded [here](https://github.com/delph-in/doc
 | 16:00–16:30  | *Break*                             |                          |
 | **16:30–18:00**   | **Semantics (Chair: Guy)** |  |
 | 16:30–17:00  | Cantonese aspect|Francis|       Weiwei                   |
-| 17:00–18:00  | MRS algebra (discussion)  (notes)                   |          Liz (Emily)                |
+| 17:00–18:00  | MRS algebra (discussion)  ([notes](https://delph-in.github.io/docs/summits/AmsterdamAlgebra))                   |          Liz (Emily)                |
 | evening   | Free time and Social Activities                     |                          |
 
 * * *
@@ -93,7 +93,7 @@ Presentation materials should be uploaded [here](https://github.com/delph-in/doc
 | 9:00–09:30  | Computational simulation of production in First Language Acquisition                     |        Weiwei|\
 |09:30-10:00|Compositional SemBanking of English as a Second or Foreign Language                     | Weiwei|
 |10:00-10:30|*Break*||
-|10:30-11:30| [Using DELPH-IN to evaluate processing theories (Discussion)](https://github.com/delph-in/docs/blob/main/summits/2025/Processing_Hawkins.pdf?raw=true) Notes | David (TBD) |
+|10:30-11:30| [Using DELPH-IN to evaluate processing theories (Discussion)](https://github.com/delph-in/docs/blob/main/summits/2025/Processing_Hawkins.pdf?raw=true) [Notes](https://delph-in.github.io/docs/summits/AmsterdamHawkins) | David (TBD) |
 | 11:30–12:30  | Business Meeting and SIG Planning   |      John                    |
 | 12:30–14:00  | *Lunch*                             |                          |
 |**afternoon**|**Organized social program**||

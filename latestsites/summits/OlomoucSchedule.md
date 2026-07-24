@@ -41,11 +41,11 @@ Please upload your presentations [here](https://github.com/delph-in/docs/tree/ma
 | 12:30-14:00 | *Lunch (in town)* ||
 | 14:00-15:40 | **Syntax; Communicating DELPH-IN Research (Chair: Olga)** [📹](https://compling.upol.cz/data/2024_DELPH-IN/01-Syntax-Communicating.mp4)||
 || [Aligning the ERG with the Cambridge Grammar of the English Language](https://github.com/delph-in/docs/blob/main/summits/2024/cgel-erg.pdf?raw=true) (20+20) | Dan |
-|| [Discussion: How to talk about DELPH-IN research to the rest of the NLP world](https://github.com/delph-in/docs/blob/main/summits/2024/how-to-talk-discussion.pdf?raw=true) (60) notes | Emily (Guy) |
+|| [Discussion: How to talk about DELPH-IN research to the rest of the NLP world](https://github.com/delph-in/docs/blob/main/summits/2024/how-to-talk-discussion.pdf?raw=true) (60) [notes](https://delph-in.github.io/docs/summits/OlomoucCommunicating) | Emily (Guy) |
 | 15:40-16:10 | *Break* ||
 | 16:10-18:00 | **Language Generation (Chair: Guy)** ||
 || [Referring Expression Generation using MRSs composed via the MRS Algebra](https://github.com/delph-in/docs/blob/main/summits/2024/conrad_REG_with_MRS.pdf?raw=true) (20+20) | Elizabeth (Liz) |
-|| [Discussion: Generation with DELPH-IN grammars: formal specs, possible improvements](https://github.com/delph-in/docs/tree/main/summits/2024/generation-notes.pdf) (60) notes | Ann (Emily) |
+|| [Discussion: Generation with DELPH-IN grammars: formal specs, possible improvements](https://github.com/delph-in/docs/tree/main/summits/2024/generation-notes.pdf) (60) [notes](https://delph-in.github.io/docs/tools/OlomoucGeneration) | Ann (Emily) |
 | | **Social Program** ||
 | 20:00-late | Stand-up and Karaoke at [Variace](https://variace.eu/) | Francis |
 
@@ -95,22 +95,22 @@ Please upload your presentations [here](https://github.com/delph-in/docs/tree/ma
 | 10:30-11:00 | *Break* ||
 | 11:00-12:30 | Distinguishing human vs. LLM authoring | Olga + Dan |
 | 12:30-14:00 | *Lunch (in town)* ||
-| 14:00-15:30 | (1) Synthesizing text notes -- (2) Korean grammar notes | Guy -- Sanghoun + Francis |
+| 14:00-15:30 | (1) Synthesizing text [notes](https://delph-in.github.io/docs/summits/OlomoucSynthetic) -- (2) Korean grammar [notes](https://delph-in.github.io/docs/matrix/OlomoucKoreanGrammar) | Guy -- Sanghoun + Francis |
 | 15:30-16:00 | *Break* ||
-| 16:00-17:30 | SEM-I (semantic interface) notes | Elizabeth |
+| 16:00-17:30 | SEM-I (semantic interface) [notes](https://delph-in.github.io/docs/tools/OlomoucSEMI) | Elizabeth |
 | 19:00-late | **Conference Banquet** | Francis |
 
 ## Friday
 
 | Time | Content | Leader (Scribe) |
 | :--- | :---    | :--- |
-| 9:00-10:30 | Abui notes | Frantisek + Francis |
+| 9:00-10:30 | Abui [notes](https://delph-in.github.io/docs/summits/OlomoucAbuiMorphology) | Frantisek + Francis |
 | 10:30-11:00 | *Break* ||
-| 11:00-12:30 | Matrix-driven updating notes | Tara |
+| 11:00-12:30 | Matrix-driven updating [notes](https://delph-in.github.io/docs/summits/OlomoucMatrixDrivenUpdating) | Tara |
 | 12:30-14:00 | *Lunch (in town)* ||
 | 14:00-15:30 | Demo wishlist | Luis |
 | 15:30-16:00 | *Break* ||
-| 16:00-17:30 | WordNet+ERG notes | Francis + Dan|
+| 16:00-17:30 | WordNet+ERG [notes](https://delph-in.github.io/docs/summits/OlomoucWordNetERG) | Francis + Dan|
 | | **Social Program** ||
 | 20:00-late | Maybe [Svijanský Šenk "Svijany's Pub"](http://svijansky-senk.cz/) | Francis |
 

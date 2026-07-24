@@ -66,6 +66,8 @@ toc:
         url: "/VistaExtractionTop/"
       - title: "Phenomena"
         url: "/PhenomenaTop/"
+      - title: "LkbLtdb_MacOS_VM_Installation"
+        url: "/LkbLtdb_MacOS_VM_Installation/"
   - title: "Completed Projects"
     children:
       - title: "Redwoods"

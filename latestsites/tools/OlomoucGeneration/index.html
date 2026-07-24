@@ -1,0 +1,900 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>DELPH-IN</title>
+<meta name="description" content="DELPH-IN Documentation">
+
+
+  <meta name="author" content="DELPH-IN">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en_US">
+<meta property="og:site_name" content="DELPH-IN">
+<meta property="og:title" content="DELPH-IN">
+<meta property="og:url" content="https://delph-in.github.io/docs/tools/OlomoucGeneration/">
+
+
+  <meta property="og:description" content="DELPH-IN Documentation">
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+
+<link rel="canonical" href="https://delph-in.github.io/docs/tools/OlomoucGeneration/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "DELPH-IN",
+      "url": "https://delph-in.github.io/docs/tools/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+  <link href="/docs/tools/feed.xml" type="application/atom+xml" rel="alternate" title="DELPH-IN Feed">
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/docs/tools/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--delphin_page wide">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+          <a class="site-logo" href="/docs/tools/"><img src="/docs/tools/assets/images/Delph-In.png" alt="DELPH-IN"></a>
+        
+        <a class="site-title" href="/docs/tools/">
+          DELPH-IN
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/home/Home">Home</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/howto/DelphinWelcome">How-To</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/erg/ErgTop">ERG</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/tools/ToolsTop">Tools</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/grammars/GrammarsOverview">Grammars</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/matrix/MatrixDocsOverview">Matrix</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/summits/SummitTop">Summits</a>
+            </li><li class="masthead__menu-item">
+              <a href="https://delph-in.github.io/docs/garage/GarageTop">Garage</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+
+
+<div id="main" role="main">
+  
+  <div class="sidebar sticky">
+  
+  
+    
+      
+      
+      
+      
+    
+    
+      
+
+<nav class="nav__list">
+  
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Toggle Menu</label>
+  <ul class="nav__items">
+    
+      <li>
+        
+          <span class="nav__sub-title">Tools</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/ToolsTop/">Overview</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">PyDelphin</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/PyDelphinTop/">Overview</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">LKB</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/LkbTop/">Overview</a></li>
+          
+            <li><a href="/docs/tools/LkbInstallation/">Installation</a></li>
+          
+            <li><a href="/docs/tools/LkbFos/">Fully Open Source Version</a></li>
+          
+            <li><a href="/docs/tools/LkbMacintosh/">Macintosh Version</a></li>
+          
+            <li><a href="/docs/tools/LkbCourses/">Courses</a></li>
+          
+            <li><a href="/docs/tools/LkbConventions/">Conventions</a></li>
+          
+            <li><a href="/docs/tools/LkbGeneration/">Generation</a></li>
+          
+            <li><a href="/docs/tools/LkbCompilation/">Compilation</a></li>
+          
+            <li><a href="/docs/tools/LkbEmacs/">Emacs</a></li>
+          
+            <li><a href="/docs/tools/LkbTrollet/">Trollet</a></li>
+          
+            <li><a href="/docs/tools/LkbSppp/">Simple PreProcessor Protocol</a></li>
+          
+            <li><a href="/docs/tools/RmrsVpm/">Variable Property Mapping (VPM)</a></li>
+          
+            <li><a href="/docs/tools/LkbLpconstraints/">LkbLpconstraints</a></li>
+          
+            <li><a href="/docs/tools/LkbUserGroup/">User Group</a></li>
+          
+            <li><a href="/docs/tools/LkbFaq/">FAQ</a></li>
+          
+            <li><a href="/docs/tools/LkbMode/">Emacs FAQ</a></li>
+          
+            <li><a href="/docs/tools/LkbWishlist/">Wish list</a></li>
+          
+            <li><a href="/docs/tools/LkbBugs/">Bugs</a></li>
+          
+            <li><a href="/docs/tools/LkbCopyright/">Copyright</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">ACE Parser</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/AceTop/">Overview</a></li>
+          
+            <li><a href="/docs/tools/AceInstall/">Install</a></li>
+          
+            <li><a href="/docs/tools/AceConfiguration/">Configuration</a></li>
+          
+            <li><a href="/docs/tools/AceOptions/">Options</a></li>
+          
+            <li><a href="/docs/tools/AceUse/">Examples</a></li>
+          
+            <li><a href="/docs/tools/AceLui/">LUI Mode</a></li>
+          
+            <li><a href="/docs/tools/AceCsaw/">Csaw</a></li>
+          
+            <li><a href="/docs/tools/AceTransfer/">Transfer</a></li>
+          
+            <li><a href="/docs/tools/AceExperimental/">Experimental</a></li>
+          
+            <li><a href="/docs/tools/AceFaq/">Faq</a></li>
+          
+            <li><a href="/docs/tools/AceWishlist/">Wish list</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">LKB LUI</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/LkbLui/">Overview</a></li>
+          
+            <li><a href="/docs/tools/LuiRc/">User Configuration</a></li>
+          
+            <li><a href="/docs/tools/LuiUi/">UI Quick Reference</a></li>
+          
+            <li><a href="/docs/tools/LuiTree/">Tree</a></li>
+          
+            <li><a href="/docs/tools/LuiAvm/">Feature Structure (AVM)</a></li>
+          
+            <li><a href="/docs/tools/LuiUnification/">Unification</a></li>
+          
+            <li><a href="/docs/tools/LuiMrs/">MRS Display</a></li>
+          
+            <li><a href="/docs/tools/LuiChart/">Chart Browser</a></li>
+          
+            <li><a href="/docs/tools/LuiWishlist/">Wish list</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">LKB LexDB</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/LexDbSimplePsql/">Simple PSQL</a></li>
+          
+            <li><a href="/docs/tools/LexDbInitialize/">Initialization</a></li>
+          
+            <li><a href="/docs/tools/LexDbPsqlInitialize/">PSQL Initialization</a></li>
+          
+            <li><a href="/docs/tools/LexDbFieldMappings/">Field Mappings</a></li>
+          
+            <li><a href="/docs/tools/LkbLexDbMultiUser/">Multi-User</a></li>
+          
+            <li><a href="/docs/tools/LkbLexDbSingleUser/">Single User</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">[incr tsdb()]</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/ItsdbTop/">Overview</a></li>
+          
+            <li><a href="/docs/tools/TsdbTop/">Deep Dive</a></li>
+          
+            <li><a href="/docs/tools/ItsdbDerivations/">Derivations</a></li>
+          
+            <li><a href="/docs/tools/ItsdbProfileManipulation/">Profile Manipulation</a></li>
+          
+            <li><a href="/docs/tools/ItsdbProfile/">Profile</a></li>
+          
+            <li><a href="/docs/tools/ItsdbProfiling/">Profiling</a></li>
+          
+            <li><a href="/docs/tools/ItsdbDistributedProcessing/">Distributed Processing</a></li>
+          
+            <li><a href="/docs/tools/ItsdbBatch/">Batch</a></li>
+          
+            <li><a href="/docs/tools/ItsdbReference/">Reference</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTroubleshooting/">Troubleshooting</a></li>
+          
+            <li><a href="/docs/tools/GeFaqTsdbRc/">FAQ</a></li>
+          
+            <li><a href="/docs/tools/ItsdbWishlist/">Wish List</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Logon</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/LogonTop/">Overview</a></li>
+          
+            <li><a href="/docs/tools/LogonInstallation/">Installation</a></li>
+          
+            <li><a href="/docs/tools/LogonRedhat/">Red Hat</a></li>
+          
+            <li><a href="/docs/tools/LogonUbuntu/">Ubuntu</a></li>
+          
+            <li><a href="/docs/tools/LogonArch/">Arch Linux</a></li>
+          
+            <li><a href="/docs/tools/LogonDebian/">Debian</a></li>
+          
+            <li><a href="/docs/tools/LogonHandon/">Hands-On Release</a></li>
+          
+            <li><a href="/docs/tools/LogonSvn/">SVN</a></li>
+          
+            <li><a href="/docs/tools/LogonProcessing_BatchGeneration/">Batch Generation</a></li>
+          
+            <li><a href="/docs/tools/LogonProcessing_BatchTranslation/">Batch Translation</a></li>
+          
+            <li><a href="/docs/tools/LogonPet/">PET Integration</a></li>
+          
+            <li><a href="/docs/tools/LogonAnswer/">ACE Integration</a></li>
+          
+            <li><a href="/docs/tools/LogonExtras/">Extras</a></li>
+          
+            <li><a href="/docs/tools/LogonReports/">Reports</a></li>
+          
+            <li><a href="/docs/tools/LogonProcessing/">Processing</a></li>
+          
+            <li><a href="/docs/tools/LogonProcessing_BatchParsing/">Batch Parsing</a></li>
+          
+            <li><a href="/docs/tools/LogonModeling/">Modeling</a></li>
+          
+            <li><a href="/docs/tools/LogonOnline/">Online</a></li>
+          
+            <li><a href="/docs/tools/LogonTransfer/">Transfer</a></li>
+          
+            <li><a href="/docs/tools/LogonVpm/">Variable Property Mapping</a></li>
+          
+            <li><a href="/docs/tools/NoJa/">Setting up New Languages</a></li>
+          
+            <li><a href="/docs/tools/LogonIdiosyncrasies/">Idiosyncrasies</a></li>
+          
+            <li><a href="/docs/tools/LogonWishlist/">Wishlist</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Grammar Tips</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/GrammarPerformance/">Grammar Performance</a></li>
+          
+            <li><a href="/docs/tools/VersionControlForGrammarDevelopment/">Grammar Version Control</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Treebanking</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/TreebankingTop/">Overview</a></li>
+          
+            <li><a href="/docs/tools/FftbTop/">Full Forest Treebanker (FFTB)</a></li>
+          
+            <li><a href="/docs/tools/FftbTreebankUpdateTutorial/">FFTB Treebank Update Tutorial</a></li>
+          
+            <li><a href="/docs/tools/FftbWishlist/">Full Forest Treebanker Wishlist</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking/">[incr tsdb()] Treebanking</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking_ItsdbAnnotation/">[incr tsdb()] Treebanking Annotation</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking_ItsdbUpdating/">[incr tsdb()] Treebanking Updating</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking_ItsdbExporting/">[incr tsdb()] Treebanking Exporting</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking_ItsdbModeling/">[incr tsdb()] Treebanking Modeling</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking_ItsdbUpdating/">[incr tsdb()] Treebanking Updating</a></li>
+          
+            <li><a href="/docs/tools/ItsdbCustomization/">[incr tsdb()] Treebanking Customization</a></li>
+          
+            <li><a href="/docs/tools/ItsdbTreebanking_ItsdbModeling/">[incr tsdb()] Treebanking Modeling</a></li>
+          
+            <li><a href="/docs/tools/IndraTreebanking/">Indra</a></li>
+          
+        </ul>
+        
+      </li>
+    
+      <li>
+        
+          <span class="nav__sub-title">Formats</span>
+        
+
+        
+        <ul>
+          
+            <li><a href="/docs/tools/DelphinRFCs/">Delphin RFCs</a></li>
+          
+            <li><a href="/docs/tools/PredicateRfc/">Predicate RFC</a></li>
+          
+            <li><a href="/docs/tools/MrsRFC/">MRS Format RFC</a></li>
+          
+            <li><a href="/docs/tools/MrsIsomorphism/">MRS Isomorphism</a></li>
+          
+            <li><a href="/docs/tools/EdsTop/">EDS Format</a></li>
+          
+            <li><a href="/docs/tools/EdsConversion/">EDS Conversion</a></li>
+          
+            <li><a href="/docs/tools/EdsGeneration/">EDS Generation</a></li>
+          
+            <li><a href="/docs/tools/SemiRfc/">SEM-I RFC</a></li>
+          
+            <li><a href="/docs/tools/TdlRFC/">TDL RFC</a></li>
+          
+            <li><a href="/docs/tools/TsqlRfc/">TSQL RFC</a></li>
+          
+            <li><a href="/docs/tools/GrammarVersionRfc/">Grammar Version RFC</a></li>
+          
+            <li><a href="/docs/tools/GrammarConfigurationRfc/">Grammar Configuration RFC</a></li>
+          
+            <li><a href="/docs/tools/TsdbSchemaRfc/">TSDB Schema RFC</a></li>
+          
+            <li><a href="/docs/tools/MatrixChoicesRfc/">Matrix Choices RFC</a></li>
+          
+            <li><a href="/docs/tools/RmrsTop/">(R)MRS Overview</a></li>
+          
+            <li><a href="/docs/tools/RmrsWellformedness/">(R)MRS Wellformedness</a></li>
+          
+            <li><a href="/docs/tools/RmrsPos/">(R)MRS Predicate Naming</a></li>
+          
+            <li><a href="/docs/tools/RmrsSpan/">(R)MRS Span</a></li>
+          
+            <li><a href="/docs/tools/RmrsDesign/">(R)MRS Design</a></li>
+          
+            <li><a href="/docs/tools/RmrsParaphrasing/">(R)MRS Paraphrasing</a></li>
+          
+            <li><a href="/docs/tools/RmrsModel/">(R)MRS Model</a></li>
+          
+            <li><a href="/docs/tools/RmrsDistributional/">(R)MRS Distributional</a></li>
+          
+            <li><a href="/docs/tools/RmrsSemi/">(R)MRS Semi</a></li>
+          
+            <li><a href="/docs/tools/RmrsDmrs/">(R)MRS Dmrs</a></li>
+          
+            <li><a href="/docs/tools/RmrsFaq/">(R)MRS Faq</a></li>
+          
+            <li><a href="/docs/tools/RmrsDiscussions/">(R)MRS Discussions</a></li>
+          
+            <li><a href="/docs/tools/TransferRules/">Transfer Rules</a></li>
+          
+            <li><a href="/docs/tools/FormatSpecifications/">Format Specifications</a></li>
+          
+            <li><a href="/docs/tools/ErgGml/">Grammar Markup Language</a></li>
+          
+            <li><a href="/docs/tools/SmafTop/">SMAF</a></li>
+          
+            <li><a href="/docs/tools/SmafLkb/">SMAF in LKB</a></li>
+          
+            <li><a href="/docs/tools/SmafPet/">SMAF in PET</a></li>
+          
+            <li><a href="/docs/tools/SmafSample/">SMAF Sample</a></li>
+          
+            <li><a href="/docs/tools/SmafDtd/">SMAF DTD</a></li>
+          
+            <li><a href="/docs/tools/SafTop/">SAF Overview</a></li>
+          
+            <li><a href="/docs/tools/SafDtd/">SAF DTD</a></li>
+          
+            <li><a href="/docs/tools/IconsSpecs/">Icons Specs</a></li>
+          
+            <li><a href="/docs/tools/OlomoucGeneration/" class="active">OlomoucGeneration</a></li>
+          
+            <li><a href="/docs/tools/OlomoucSEMI/">OlomoucSEMI</a></li>
+          
+        </ul>
+        
+      </li>
+    
+  </ul>
+</nav>
+
+    
+  
+  </div>
+
+
+
+  <article class="page h-entry" itemscope itemtype="https://schema.org/CreativeWork">
+    
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          
+
+
+        </header>
+      
+
+      <section class="page__content e-content" itemprop="text">
+        
+        <p><a href="https://github.com/delph-in/docs/tree/main/summits/2024/generation-notes.pdf">Slides</a></p>
+
+<p><em>Scribe: Emily</em></p>
+
+<p>Ann: Discussion of generation usually heuristic; lack of clarity around some corner contexts. Can we be clearer what the sem representation is and maybe make it clearer for people who are trying to produce MRSes as input for generation.</p>
+
+<p>Ann: We have to talk about the strings explicitly in the definition of a TFS grammar – not like the theoretical HPSG approach of appending strings in larger feature structures. Input to a parser is a list of strings (already tokenized).</p>
+
+<p>[Scribe isn’t copying down text from <a href="https://github.com/delph-in/docs/tree/main/summits/2024/generation-notes.pdf">slides</a>.]</p>
+
+<p>Ann: Chart parsing assumes you know the order of the strings; chart generation assumes you know the way that things are coindexed. To do this, have to be able to find the lexical entries, because that’s what you start with in the chart.</p>
+
+<p>Ann: Want to talk about efficiency/flexibility trade off. Maybe should be parameterized.</p>
+
+<p>EMB: Does no merging or relation names rule out having classifiers specialize noun relations?</p>
+
+<p>Guy: It’s already being done in e.g. Petter’s grammar and it works there…</p>
+
+<p>Ann: Not sure what you mean exactly.</p>
+
+<p>Guy: Each relation name is just a type, with subhierarchies. Unify two relations to get to shared subtype.</p>
+
+<p>Dan: If they started as to relations in one MRS list, there is no mechanism to push them together. Can’t say that the two words (classifier and noun) each start off with their own predicates, which then get merged. That’s not supported.</p>
+
+<p>Petter: All my lex entries start off underspecified…</p>
+
+<p>Ann: Two issues: (1) Can you find a bag of lexical entries from the MRS which are guaranteed to be the only ones you need when you generate. (2) If the output has somehow merged two MRSes so they’ve overlapped, then the system would have to have some way to finding the two different lexical entries.</p>
+
+<p>Ann: The algebra says there’s a bag of EPs and those are combined from daughters to produce the phrase. It doesn’t allow for there being an overlap there.</p>
+
+<p>Emily: What if the classifiers are semantically empty and the nouns get put into the initial bag through underspecified PRED matching well enough.</p>
+
+<p>Ann: Assumed the classifiers also had a semantic contribution, and further specializes the noun’s semantics.</p>
+
+<p>Guy/Francis: Need a unary rule for generic nouns when classifiers are used without nouns.</p>
+
+<p>Dan: Like “many/some are here”.</p>
+
+<p>Francis: There are some logical equivalences that it’s hard to know whether or not they are allowed: I have no bananas/I don’t have any bananas. Don’t know which one a language/grammar allows. Maybe do something outside generation that tries the second if the first doens’t work.</p>
+
+<p>Ann: Yes a paraphrase component is something we could have. Another way of parameterizing it.</p>
+
+<p>Guy: A set of acceptable operations that can be used to be counted as equivalence.</p>
+
+<p>Ann: Paraphrase is a separate thing to do completely outside. I’m thinking about things like sorts on variables (tense, etc). Does it matter that something ends up being generic past, vs. something more specific.</p>
+
+<p>Guy: Could extend notion of equivlance to include paraphrase.</p>
+
+<p>Ann: No – part of generation is checking equivalence, and need to be able to check that along the way. Accepting arbitrary paraphrases wouldn’t work as a component in that sort of equivalence for the generator.</p>
+
+<p>John: Right, because otherwise we’d be back to shake and bake, with no filtering.</p>
+
+<p>Guy: Notion of MRS equivalent needs to be strong enough to be fit into this generation paradigm?</p>
+
+<p>Ann: Paraphrase rules can talk about semantic equivalence, but not MRS equivalent in terms of what’s formally included in the generator.</p>
+
+<p>John: Very strong design constraint that the indexes are not string positions as in parsing, but EPs covered in the input. Can’t cover one EP more than once and you’ve got to cover all of them. Without that it’s not tractable. MRS equivalence has to satisfy that – has to have all of the EPs in some form or other.</p>
+
+<p>John: Difference in sorts within an EP is fine. But coalescing two is not good at all. Nor is losing one.</p>
+
+<p>Emily: And specializing a PRED value is okay?</p>
+
+<p>John: Should be.</p>
+
+<p>Dan: Yes, we use it for e.g. can v. be-able-to. Have an underspecified relation type, which can be used in generator input and gets specialized to whichever fits (e.g. in a given tense).</p>
+
+<p>Guy: Triggers more than one lex entry?</p>
+
+<p>Dan: Yes.</p>
+
+<p>Francis: Same for much/many, articles.</p>
+
+<p>Alexandre: Those entries never appear in parsing, right?</p>
+
+<p>Dan: Never is really strong. In can/able-to always end up with most specific. But e.g. underspecified prepositional predications sometimes stay underspecified in parsing.</p>
+
+<p>Ann: Breaks heuristic of parsing to see what the input MRSes should be.</p>
+
+<p>Ann: Obviously can’t do this too much, or the search space gets too big. Don’t konw if we constrain that ahead of time, or what happens if you put in a whole sequence of coindexed EPs with no PRED values.</p>
+
+<p>John: Differences between ace and lkb often seem to boil down to MRS equivalence, because it’s not fully specified.</p>
+
+<p>Ann: I think we should be able to specify it tightly.</p>
+
+<p>Dan: If we can get LKB and ace to implement same specification and then see if both ace and LKB give the same outputs.</p>
+
+<p>John: MRS equivalence testsuite would be nice.</p>
+
+<p>Dan: Thoughts about semantically empty lexical entries?</p>
+
+<p>John: No new ideas, sorry.</p>
+
+<p>Dan: There’s a messy long file of descriptions of which MRSes are compatible with semantically empty lexical entries. E.g. is in “The dog is barking” – is contributing tense/aspect but no predication. Need to know from that MRS that which forms of be should be added to the chart.</p>
+
+<p>Ann: Interesting experiment would be to look at how important the tight specification of those rules is. Make things less error prone by relaxing them, but check efficiency hit. It’s not just the problem of having to introducing one lexical entry — because the sentence can be arbitrarily long.</p>
+
+<p>John: A parse bank might help in writing trigger rules.</p>
+
+<p>Ann: Tried that about 20 years ago (autogenerating trigger rules). MPhil student found some examples that were missing in the existing trigger rules. But could be maybe a bit sloppier …</p>
+
+<p>Dan: I was thinking more of other ways to improve the robustness of that brittle resource, but not trying to think big brain about how to do it differently.</p>
+
+<p>Ann: ML problem where input is MRS and output is predict which null semantic entries should go into the chart based on input MRS.</p>
+
+<p>Guy: Analogous to supertagging? MRS input and try to predict what lexical entries should be. Maybe analogous because the trigger rules are something we use to cut down the search space.</p>
+
+<p>Ann: Interesting because you could think of the list of indicies in the MRS as equivalent to the things you are tagging. Does this trigger or not?</p>
+
+<p>Dan: If you thought of the supertag as directing you to put in two – _bark_v_rel triggers both bark and be.</p>
+
+<p>Francis: And it will be linked to it, right?</p>
+
+<p>EMB: Do sem empty things stay linked to the parts of the MRS that triggered them?</p>
+
+<p>John: Clever stuff with modification that has a filter at every point that drops impossible bits of MRSes because of modification needs …</p>
+
+<p>Dan: The dog is barking and was sleeping.</p>
+
+<p>John: Oh that’s different.</p>
+
+<p>Ann: Skolemization might help here, but don’t remember the details here.</p>
+
+<p>John: It’s not just modification – when you lose access to the index and you still need to attach things to it.</p>
+
+<p>Ann: What we call skolemization isn’t really skolemization at all. (Potentially dramatically misleading, but we’ve always called it that.)</p>
+
+<p>John: Something like reifying…</p>
+
+<p>Ann: If you’re doing DMRS then that happens becasue of the links anyway. That’s where that information is stored.</p>
+
+<p>EMB: Do we try to unify is(TENSE present) with sleeping(TENSE past) and fail, or do we know not to try?</p>
+
+<p>Ann/John: Think so, but don’t remember.</p>
+
+<p>Guy: Four things to formalize:</p>
+<ol>
+  <li>MRS equivalence</li>
+  <li>how to initialize the chart such that we can definitely reach everything that is MRS equivalent</li>
+</ol>
+
+<p>Ann: 2. doesn’t need any new formalization.</p>
+
+<p>Guy: But isn’t it dependent on notion of MRS equivalence?</p>
+
+<p>Dan: Doesn’t can/able-to thing fit in here?</p>
+
+<p>Guy: We want to ensure that the notion of MRS equivalence is strong enough that we can make sure that given lexical look-up can be sure to reach everything.</p>
+
+<p>Ann: There are some notions of MRS equivalence that you might like but where you can’t do that.</p>
+
+<p>John: Semantically contentful rules also need to be thrown in with the right indexing as well.</p>
+
+<p>Dan: In some sense part of lexical look-up.</p>
+
+<p>Guy: 3. How to efficiently construct the chart. Back to Emily’s point about unnecessary unifications.</p>
+
+<p>Ann: Lots of work on that one already.</p>
+
+<p>Guy: 4. Whether we can prune that space; trigger rules which constrain lexical lookup and still get the generation you want.</p>
+
+<p>Ann: Trigger rules are a heuristic. Important for practical generation, but not for the formalization of what the meaning space is.</p>
+
+<p>Guy: Could still be important practical generation.</p>
+
+<p>Ann: Even if ace and the lkb did different things there, and one was more liberal than the other, so long as one wasn’t excluding something that had to be there, it wouldn’t matter. Free for a developer to do something clever.</p>
+
+<p>John: Trouble with something like supertagging is that it makes mistakes. Generation chart filtering might do the same. We might want to make that trade-off for efficiency (make it toggle-able).</p>
+
+<p>Ann: That’s not about what generation does formally. And the sort of thing that only Woodley and John can do.</p>
+
+<p>John: If it’s separate like a supertagger, then I think anyone could do it.</p>
+
+<p>Guy: Then we need a formal definition of that interface.</p>
+
+<p>Ann: Trivial: For this MRS, these are the entries we needed.</p>
+
+<p>John: MRS equivalence is the biggest pain for developers. Behind most problems in generation have to do with it. Berthold pushes the generator quite hard and finds places where lkb/ace differ that are really hard to track down.</p>
+
+<p>Ann: I think it was cleaner but slower, and I think it was made less clean but faster. Would rather it was parameterizable, built on a notion of equivalence which was clean, then with clear things added to it.</p>
+
+<p>Ann: There might be a definition embedded in code that I wrote when the LKB was somewhat efficient, and we might be able to look at that and work out what the definition of it. There are probably some things where we all agreed on what we were doing, and others where we didn’t.</p>
+
+<p>Dan: In an ideal world… [scribe got distracted]</p>
+
+<p>John: I’d like to do that. No, wait. I’d like that to be happened.</p>
+
+<p>Last update: 2024-07-01 by emilymbender [<a href="https://github.com/delph-in/docs/wiki/OlomoucGeneration/_edit">edit</a>]</p>
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+<!--Scroll the navbar to the current page-->
+<script type="text/javascript">
+  let el = document.querySelector('.nav__list .active');
+  if(el){
+    el.scrollIntoView({block: "center", inline: "start"});
+  }
+</script>
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+        
+      
+    
+
+    
+      <li><a href="/docs/tools/feed.xml"><i class="fas fa-fw fa-rss-square" aria-hidden="true"></i> Feed</a></li>
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2026 DELPH-IN. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/docs/tools/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/docs/tools/assets/js/lunr/lunr.min.js"></script>
+<script src="/docs/tools/assets/js/lunr/lunr-store.js"></script>
+<script src="/docs/tools/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

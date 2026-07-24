@@ -42,6 +42,8 @@ toc:
         url: "/MatrixDoc_TestByGeneration/"
       - title: "Wish List"
         url: "/MatrixWishList/"
+      - title: "MatrixDocstrings"
+        url: "/MatrixDocstrings/"
   - title: "Grammar Engineering"
     children:
       - title: "Dev Blueprints"
@@ -68,6 +70,8 @@ toc:
         url: "/MatrixTDB2Tables/"
       - title: "Validation Debugging"
         url: "/MatrixValidationDebugging/"
+      - title: "MatrixRegressionTestingSetupMacM4"
+        url: "/MatrixRegressionTestingSetupMacM4/"
   - title: "Matrix Doc"
     children:
       - title: "Getting Started"
@@ -230,6 +234,8 @@ toc:
         url: "/GeFaqViewHierarchy/"
       - title: "View Type"
         url: "/GeFaqViewType/"
+      - title: "OlomoucKoreanGrammar"
+        url: "/OlomoucKoreanGrammar/"
   - title: "Grammar Engineering Glossary"
     children:
       - title: "Index"

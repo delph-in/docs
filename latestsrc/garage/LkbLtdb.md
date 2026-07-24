@@ -113,7 +113,7 @@ in assets/render.js:
 
 The code can be found on github: <https://github.com/fcbond/ltdb>
 
-For an extra detailed description for installing the Flask branch and using LTDB (especially on a virtual machine on a MacOS), see this page.
+For an extra detailed description for installing the Flask branch and using LTDB (especially on a virtual machine on a MacOS), see [this page](https://delph-in.github.io/docs/garage/LkbLtdb_MacOS_VM_Installation).
 
 ### Flask branch installation instructions (use this unless you know what you are doing)
 

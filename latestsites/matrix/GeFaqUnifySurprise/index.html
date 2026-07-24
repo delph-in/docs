@@ -221,6 +221,8 @@
           
             <li><a href="/docs/matrix/MatrixWishList/">Wish List</a></li>
           
+            <li><a href="/docs/matrix/MatrixDocstrings/">MatrixDocstrings</a></li>
+          
         </ul>
         
       </li>
@@ -256,6 +258,8 @@
             <li><a href="/docs/matrix/MatrixTDB2Tables/">TDB2 Tables</a></li>
           
             <li><a href="/docs/matrix/MatrixValidationDebugging/">Validation Debugging</a></li>
+          
+            <li><a href="/docs/matrix/MatrixRegressionTestingSetupMacM4/">MatrixRegressionTestingSetupMacM4</a></li>
           
         </ul>
         
@@ -439,6 +443,8 @@
           
             <li><a href="/docs/matrix/GeFaqViewType/">View Type</a></li>
           
+            <li><a href="/docs/matrix/OlomoucKoreanGrammar/">OlomoucKoreanGrammar</a></li>
+          
         </ul>
         
       </li>
@@ -571,7 +577,7 @@ actually re-parsing the sentence. This will display the old parse
 chart, but the problematic edges will unify during interactive
 unification.</li>
   <li>The lexical rule is being removed by lexical filtering, e.g. because it underspecifies TRAITS (or similar). See <a href="https://delphinqa.ling.washington.edu/t/help-debugging-a-unification-surprise-involving-lexical-rules/875/4">here</a>.</li>
-  <li>(Applicable to ace only, not the LKB): If the value of <code class="language-plaintext highlighter-rouge">parsing-roots</code> in <code class="language-plaintext highlighter-rouge">ace/config.tdl</code> is a string that does not correspond to something in <code class="language-plaintext highlighter-rouge">roots.tdl</code>, ace will refuse to put any edges into the spanning cell of the chart, even if they can be built interactively. Discovered in Olomouc, during KRG discussion</li>
+  <li>(Applicable to ace only, not the LKB): If the value of <code class="language-plaintext highlighter-rouge">parsing-roots</code> in <code class="language-plaintext highlighter-rouge">ace/config.tdl</code> is a string that does not correspond to something in <code class="language-plaintext highlighter-rouge">roots.tdl</code>, ace will refuse to put any edges into the spanning cell of the chart, even if they can be built interactively. Discovered in Olomouc, during <a href="https://delph-in.github.io/docs/matrix/OlomoucKoreanGrammar">KRG discussion</a></li>
 </ul>
 
 <h2 id="the-sentence-is-parsed-by-the-lkb-but-an-edge-i-am-interested-in-is-not-in-the-parse-chart-i-can-build-it-interactively-and-i-can-see-it-in-the-ace-parse-chart">The sentence is parsed by the LKB, but an edge I am interested in is not in the parse chart. I can build it interactively, and I can see it in the ACE parse chart.</h2>
