@@ -28,8 +28,7 @@
     {"SiteFullName": "DELPH-IN", "SiteNavigationName": "Garage", "Site": "garage"}
   ],
   "Pages":
-  {
-    "home": [
+  {    "home": [
       {"Section": "DELPH-IN Docs", "Pages": [
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "Home.md"},
         {"Page": "Welcome", "SrcDir": "docswiki", "SrcFile": "DelphinWelcome.md", "Referrer": "home/Home.md"},
@@ -76,7 +75,7 @@
         {"Page": "Design", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Design.md"},
         {"Page": "Conventions", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Conventions.md"},
         {"Page": "Semantics Interface (SEM-I)", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Interface.md"},
-                {"Page": "Semantics Discovery", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Discovery.md"}
+        {"Page": "Semantics Discovery", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Discovery.md"}
       ]},
       {"Section": "Inventory", "Pages": [
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "ErgSemantics_Inventory.md"},
@@ -280,7 +279,9 @@
         {"Page": "SMAF DTD", "SrcDir": "docswiki", "SrcFile": "SmafDtd.md", "Referrer": "tools/SmafTop.md"},
         {"Page": "SAF Overview", "SrcDir": "docswiki", "SrcFile": "SafTop.md", "Referrer": "tools/SafFspp.md"},
         {"Page": "SAF DTD", "SrcDir": "docswiki", "SrcFile": "SafDtd.md", "Referrer": "tools/SafTop.md"},
-        {"Page": "Icons Specs", "SrcDir": "docswiki", "SrcFile": "IconsSpecs.md"}
+        {"Page": "Icons Specs", "SrcDir": "docswiki", "SrcFile": "IconsSpecs.md"},
+        {"Page": "OlomoucGeneration", "SrcDir": "docswiki", "SrcFile": "OlomoucGeneration.md", "BaseReferrer": "tools/RmrsDiscussions.md", "Referrer": "tools/RmrsDiscussions.md"},
+        {"Page": "OlomoucSEMI", "SrcDir": "docswiki", "SrcFile": "OlomoucSEMI.md", "BaseReferrer": "tools/RmrsDiscussions.md", "Referrer": "tools/RmrsDiscussions.md"}
       ]}
     ],
     "grammars": [
@@ -368,7 +369,8 @@
         {"Page": "Regression Testing", "SrcDir": "docswiki", "SrcFile": "MatrixRegressionTesting.md", "Referrer": "concept/Updating_the_Customization_System.md"},
         {"Page": "Test Sentences", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_TestSentences.md", "Referrer": "concept/MatrixDocTop.md"},
         {"Page": "Test By Generation", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_TestByGeneration.md", "Referrer": "concept/MatrixDocTop.md"},
-        {"Page": "Wish List", "SrcDir": "docswiki", "SrcFile": "MatrixWishList.md", "Referrer": "home/MatrixTop.md"}
+        {"Page": "Wish List", "SrcDir": "docswiki", "SrcFile": "MatrixWishList.md", "Referrer": "home/MatrixTop.md"},
+        {"Page": "MatrixDocstrings", "SrcDir": "docswiki", "SrcFile": "MatrixDocstrings.md", "BaseReferrer": "matrix/MatrixDevTop.md", "Referrer": "matrix/MatrixDevTop.md"}
       ]},
       {"Section": "Grammar Engineering", "Pages": [
         {"Page": "Dev Blueprints", "SrcDir": "docswiki", "SrcFile": "MatrixDevBlueprints.md", "Referrer": "matrix/MatrixDevTop.md"},
@@ -382,10 +384,11 @@
         {"Page": "Regression Testing Setup (Mac)", "SrcDir": "docswiki", "SrcFile": "MatrixRegressionTestingSetupMac.md", "Referrer": "matrix/MatrixRegressionTestingSetup.md"},
         {"Page": "TDB Procedures", "SrcDir": "docswiki", "SrcFile": "MatrixTDBProcedures.md", "Referrer": "matrix/MatrixDevTop.md"},
         {"Page": "TDB2 Tables", "SrcDir": "docswiki", "SrcFile": "MatrixTDB2Tables.md", "Referrer": "matrix/MatrixDevTop.md"},
-        {"Page": "Validation Debugging", "SrcDir": "docswiki", "SrcFile": "MatrixValidationDebugging.md", "Referrer": "matrix/MatrixDevTop.md"}
+        {"Page": "Validation Debugging", "SrcDir": "docswiki", "SrcFile": "MatrixValidationDebugging.md", "Referrer": "matrix/MatrixDevTop.md"},
+        {"Page": "MatrixRegressionTestingSetupMacM4", "SrcDir": "docswiki", "SrcFile": "MatrixRegressionTestingSetupMacM4.md", "BaseReferrer": "matrix/MatrixRegressionTestingSetup.md", "Referrer": "matrix/MatrixRegressionTestingSetup.md"}
       ]},
       {"Section": "Matrix Doc", "Pages": [
-        {"Page": "Getting Started", "SrcDir": "docswiki", "SrcFile": "MatrixDocTop.md", "DefinitiveLink":true, "Referrer": "matrix/MatrixGettingStarted.md"},
+        {"Page": "Getting Started", "SrcDir": "docswiki", "SrcFile": "MatrixDocTop.md", "DefinitiveLink": true, "Referrer": "matrix/MatrixGettingStarted.md"},
         {"Page": "Adnominal Possession", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_AdnominalPossession.md", "Referrer": "concept/MatrixDocTop.md"},
         {"Page": "Argument Optionality", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_ArgumentOptionality.md", "Referrer": "concept/MatrixDocTop.md"},
         {"Page": "Case", "SrcDir": "docswiki", "SrcFile": "MatrixDoc_Case.md", "Referrer": "concept/MatrixDocTop.md"},
@@ -465,7 +468,8 @@
         {"Page": "Unify Surprise", "SrcDir": "docswiki", "SrcFile": "GeFaqUnifySurprise.md", "Referrer": "matrix/GrammarEngineeringFAQ.md"},
         {"Page": "View Entry", "SrcDir": "docswiki", "SrcFile": "GeFaqViewEntry.md", "Referrer": "matrix/GeFaqExpandedType.md"},
         {"Page": "View Hierarchy", "SrcDir": "docswiki", "SrcFile": "GeFaqViewHierarchy.md", "Referrer": "matrix/GeFaqDisjunctiveValue.md"},
-        {"Page": "View Type", "SrcDir": "docswiki", "SrcFile": "GeFaqViewType.md", "Referrer": "matrix/GeFaqExpandedType.md"}
+        {"Page": "View Type", "SrcDir": "docswiki", "SrcFile": "GeFaqViewType.md", "Referrer": "matrix/GeFaqExpandedType.md"},
+        {"Page": "OlomoucKoreanGrammar", "SrcDir": "docswiki", "SrcFile": "OlomoucKoreanGrammar.md", "BaseReferrer": "matrix/GeFaqUnifySurprise.md", "Referrer": "matrix/GeFaqUnifySurprise.md"}
       ]},
       {"Section": "Grammar Engineering Glossary", "Pages": [
         {"Page": "Index", "SrcDir": "docswiki", "SrcFile": "GrammarEngineeringGlossary.md", "BaseReferrer": "matrix/GrammarEngineeringFAQ.md", "Referrer": "matrix/GrammarEngineeringFAQ.md"},
@@ -475,18 +479,29 @@
     ],
     "summits": [
       {"Section": "Summits", "Pages": [
-        {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "SummitTop.md", "Referrer": "summits/BellinghamTop.md"}
+        {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "SummitTop.md", "Referrer": "summits/BellinghamTop.md"},
+        {"Page": "BergenParticipants", "SrcDir": "docswiki", "SrcFile": "BergenParticipants.md", "BaseReferrer": "summits/SummitTop.md", "Referrer": "summits/BergenTop.md"},
+        {"Page": "BergenSchedule", "SrcDir": "docswiki", "SrcFile": "BergenSchedule.md", "BaseReferrer": "summits/SummitTop.md", "Referrer": "summits/BergenTop.md"},
+        {"Page": "BergenTop", "SrcDir": "docswiki", "SrcFile": "BergenTop.md", "BaseReferrer": "summits/SummitTop.md", "Referrer": "summits/SummitTop.md"}
       ]},
       {"Section": "Amsterdam 2025", "Pages": [
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "AmsterdamTop.md"},
         {"Page": "Participants", "SrcDir": "docswiki", "SrcFile": "AmsterdamParticipants.md"},
         {"Page": "Schedule", "SrcDir": "docswiki", "SrcFile": "AmsterdamSchedule.md"},
-        {"Page": "Directions", "SrcDir": "docswiki", "SrcFile": "AmsterdamDirections.md"}        
+        {"Page": "Directions", "SrcDir": "docswiki", "SrcFile": "AmsterdamDirections.md"},
+        {"Page": "AmsterdamAlgebra", "SrcDir": "docswiki", "SrcFile": "AmsterdamAlgebra.md", "BaseReferrer": "summits/AmsterdamSchedule.md", "Referrer": "summits/AmsterdamSchedule.md"},
+        {"Page": "AmsterdamDefaults", "SrcDir": "docswiki", "SrcFile": "AmsterdamDefaults.md", "BaseReferrer": "summits/AmsterdamSchedule.md", "Referrer": "summits/AmsterdamSchedule.md"},
+        {"Page": "AmsterdamHawkins", "SrcDir": "docswiki", "SrcFile": "AmsterdamHawkins.md", "BaseReferrer": "summits/AmsterdamSchedule.md", "Referrer": "summits/AmsterdamSchedule.md"}
       ]},
       {"Section": "Olomouc 2024", "Pages": [
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "OlomoucTop.md"},
         {"Page": "Participants", "SrcDir": "docswiki", "SrcFile": "OlomoucParticipants.md"},
-        {"Page": "Schedule", "SrcDir": "docswiki", "SrcFile": "OlomoucSchedule.md"}
+        {"Page": "Schedule", "SrcDir": "docswiki", "SrcFile": "OlomoucSchedule.md"},
+        {"Page": "OlomoucAbuiMorphology", "SrcDir": "docswiki", "SrcFile": "OlomoucAbuiMorphology.md", "BaseReferrer": "summits/OlomoucSchedule.md", "Referrer": "summits/OlomoucSchedule.md"},
+        {"Page": "OlomoucCommunicating", "SrcDir": "docswiki", "SrcFile": "OlomoucCommunicating.md", "BaseReferrer": "summits/OlomoucSchedule.md", "Referrer": "summits/OlomoucSchedule.md"},
+        {"Page": "OlomoucMatrixDrivenUpdating", "SrcDir": "docswiki", "SrcFile": "OlomoucMatrixDrivenUpdating.md", "BaseReferrer": "summits/OlomoucSchedule.md", "Referrer": "summits/OlomoucSchedule.md"},
+        {"Page": "OlomoucSynthetic", "SrcDir": "docswiki", "SrcFile": "OlomoucSynthetic.md", "BaseReferrer": "summits/OlomoucSchedule.md", "Referrer": "summits/OlomoucCommunicating.md"},
+        {"Page": "OlomoucWordNetERG", "SrcDir": "docswiki", "SrcFile": "OlomoucWordNetERG.md", "BaseReferrer": "summits/OlomoucSchedule.md", "Referrer": "summits/OlomoucSchedule.md"}
       ]},
       {"Section": "Galicia 2023", "Pages": [
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "GaliciaTop.md"},
@@ -894,7 +909,8 @@
         {"Page": "Testing With Ant", "SrcDir": "docswiki", "SrcFile": "TestingWithAnt.md", "Referrer": "summits/JerezTop.md"},
         {"Page": "Typediff", "SrcDir": "docswiki", "SrcFile": "TypediffTop.md"},
         {"Page": "Vista Extraction", "SrcDir": "docswiki", "SrcFile": "VistaExtractionTop.md"},
-        {"Page": "Phenomena", "SrcDir": "docswiki", "SrcFile": "PhenomenaTop.md", "Referrer": "summits/SofiaCLIMBAndReducingComplexity.md"}
+        {"Page": "Phenomena", "SrcDir": "docswiki", "SrcFile": "PhenomenaTop.md", "Referrer": "summits/SofiaCLIMBAndReducingComplexity.md"},
+        {"Page": "LkbLtdb_MacOS_VM_Installation", "SrcDir": "docswiki", "SrcFile": "LkbLtdb_MacOS_VM_Installation.md", "BaseReferrer": "garage/LkbLtdb.md", "Referrer": "garage/LkbLtdb.md"}
       ]},
       {"Section": "Completed Projects", "Pages": [
         {"Page": "Redwoods", "SrcDir": "docswiki", "SrcFile": "RedwoodsTop.md"},
@@ -1076,7 +1092,7 @@
         {"Page": "Chart_Mapping", "SrcDir": "docswiki", "SrcFile": "Chart_Mapping.md", "BaseReferrer": "garage/PetRobustness.md", "Referrer": "garage/PetRobustness.md", "FileMissing": true},
         {"Page": "DanFlickinger", "SrcDir": "docswiki", "SrcFile": "DanFlickinger.md", "BaseReferrer": "erg/ErgTokenization.md", "Referrer": "erg/ErgTokenization.md", "FileMissing": true},
         {"Page": "NedLetcher", "SrcDir": "docswiki", "SrcFile": "NedLetcher.md", "BaseReferrer": "erg/ErgApi.md", "Referrer": "erg/ErgApi.md", "FileMissing": true}
-     ]}
+      ]}
     ]
   }
 }

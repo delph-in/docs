@@ -69,6 +69,20 @@ jobs:
       # process and copy all pages into the sites
       - run: python $GITHUB_WORKSPACE/main/sitescripts/createdocs.py https://delph-in.github.io/docs $GITHUB_WORKSPACE/ $GITHUB_WORKSPACE/main/latestsrc/ $GITHUB_WORKSPACE/main/latestsites/ $GITHUB_WORKSPACE/main/sitesdefinitions.json ${{ github.event.inputs.quickAndDirty }} ${{ github.event.inputs.externalUrlCheck }}
 
+      # Some wiki pages exist but aren't registered in sitesdefinitions.json, so createdocs.py
+      # never renders them (e.g. a new summit's "XxxTop" page linked from SummitTop but never added).
+      # createdocs.py already detects these as proposed fixes; this step auto-applies the safe ones
+      # (pages that ARE linked to from an already-included page, so Site/Section is trustworthy) and
+      # leaves genuinely unlinked/orphaned pages for a human to triage.
+      - name: Auto-register newly discoverable wiki pages
+        id: autoregister
+        run: python $GITHUB_WORKSPACE/main/sitescripts/apply_new_pages.py $GITHUB_WORKSPACE/main/sitesdefinitions.json $GITHUB_WORKSPACE/main/latestsrc/FixesForBrokenLinksToWikiPages.json
+
+      # If new pages were registered above, re-run so latestsrc/latestsites actually include them
+      # in this same build (otherwise they'd only appear after the next run)
+      - name: Rebuild with newly registered pages
+        if: steps.autoregister.outputs.changed == 'true'
+        run: python $GITHUB_WORKSPACE/main/sitescripts/createdocs.py https://delph-in.github.io/docs $GITHUB_WORKSPACE/ $GITHUB_WORKSPACE/main/latestsrc/ $GITHUB_WORKSPACE/main/latestsites/ $GITHUB_WORKSPACE/main/sitesdefinitions.json ${{ github.event.inputs.quickAndDirty }} ${{ github.event.inputs.externalUrlCheck }}
 
       # Build the index using the new site data
       - name: Build Search Index
