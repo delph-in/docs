@@ -62,7 +62,7 @@ jobs:
       # specified path, and overwrite the file created in the "Create cache file" step in the path
       - name: Check SHA
         id: check_sha
-        uses: actions/cache@v3
+        uses: actions/cache@v4
         with:
           path: check-SHA
           key: check-SHA-${{ steps.head_sha.outputs.head_sha }}

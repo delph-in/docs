@@ -1,6 +1,7 @@
 .idea/
 env/
 __pycache__/
+.claude/
 
 **/.DS_Store
 
