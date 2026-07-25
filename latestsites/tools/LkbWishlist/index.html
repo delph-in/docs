@@ -613,8 +613,8 @@
 
 <p>This page is for listing wishlist items in the LKB. Just because they
 are here doesn’t, of course, mean that anyone will implement them for
-you. In some cases, there has been relevant discussion on the developers
-mailing list (e.g., non-ASCII encodings).</p>
+you. In some cases, there has been relevant discussion on DELPH-IN
+Discourse (e.g., non-ASCII encodings).</p>
 
 <ul>
   <li><strong>Head-daughter shown in trees</strong>: It would be nice if the graphical
@@ -648,41 +648,40 @@ the “wrong” agreement from overpopulating the gen-chart.) This
 turned out to be particularly problematic in Zulu, which inflects
 for both objects and subjects and makes a ~18-way distinction in
 each case.</li>
-  <li><strong>treebanking support</strong>: provide ACE-like tsdb output? add support
-for connection to [incr() tsdb] and FFTB?</li>
-  <li><strong>alternative web interface</strong>: would it be possible to have an
+  <li><strong>Alternative web interface</strong>: would it be possible to have an
 alternative UI to the McCLIM? A web interface like what Babel2 (FCG
 implementation, one demo at</li>
 </ul>
 <p><a href="https://www.fcg-net.org/demos/planning/">https://www.fcg-net.org/demos/planning/</a>) does would be nice and
 may solve some problems with the fonts?!</p>
-<ul>
-  <li><strong>shared configuration files</strong>: would it be possible for the LKB and
-ACE/PET to share some or all of their configuration files? For
-example, if the LKB could read the english.tdl file, …</li>
-</ul>
 
 <h3 id="in-progress--done">In Progress / Done</h3>
 
 <ul>
+  <li><strong>Treebanking support</strong>: <a href="https://delph-in.github.io/docs/tools/LkbFos">LkbFos</a> can now output full parse
+forests in [incr tsdb()] format. However, still no support
+for connection to [incr tsdb()] itself or to FFTB.</li>
+  <li><strong>Shared configuration files</strong>: LkbFos now supports the
+TDL-inspired DELPH-IN configuration file format (e.g. for the ERG,
+via config.tdl and english.tdl).</li>
   <li><strong>Control over font size in show-gen-output windows</strong>: in
-<a href="https://delph-in.github.io/docs/tools/LkbFos">LkbFos</a>, these and other list-like windows (such as the
+LkbFos, these and other list-like windows (such as the
 ‘Apply all lex rules’ window) obey the *parse-tree-font-size* user
 parameter.</li>
   <li><strong>Comments in TDL</strong>: although the TdlRfc specification
 does not provide a way to comment out a section of TDL by wrapping
-it in a definition, <a href="https://delph-in.github.io/docs/tools/LkbFos">LkbFos</a> fully implements the
+it in a definition, LkbFos fully implements the
 BlockComment facility. There is partial support for block comments
 in the ‘classic’ LKB, but they are only allowed between definitions.</li>
   <li><strong>Support for multibyte encodings in the error messages</strong>: for TDL
 reading errors, the classic version of the LKB (unhelpfully) reports
-byte positions — <a href="https://delph-in.github.io/docs/tools/LkbFos">LkbFos</a> reports line numbers and
+byte positions — LkbFos reports line numbers and
 character positions.</li>
   <li><strong>Consistent treatment of infl-pos</strong>: the user-defined function
 find-infl-pos controls location(s) of lexical rule application for
 multiwords. It seems to work as expected in parsing, but not in
 manual lexical rule application or generation. This issue is
-currently being fixed in <a href="https://delph-in.github.io/docs/tools/LkbFos">LkbFos</a>.</li>
+currently being fixed in LkbFos.</li>
   <li>
     <p><strong>Proper support in the display/entry for non-ASCII encodings</strong></p>
 
@@ -694,18 +693,18 @@ currently being fixed in <a href="https://delph-in.github.io/docs/tools/LkbFos">
 windows for some (most?) encodings</li>
     </ul>
 
-    <p>These points are (mostly) implemented in <a href="https://delph-in.github.io/docs/tools/LkbFos">LkbFos</a>, although
+    <p>These points are (mostly) implemented in LkbFos, although
 some work is required to pre-select the Unicode fonts to be used.</p>
   </li>
   <li><strong>Filter in parse chart windows to suppress lexical items with
 unfulfilled morphological rules</strong> otherwise the display is fairly
 unusable for grammars with a substantial number of orthographemic
-rules. In <a href="https://delph-in.github.io/docs/tools/LkbFos">LkbFos</a>, set the parameter
+rules. In LkbFos, set the parameter
 *show-incomplete-lex-rule-chains* to NIL to stop such
 lexical items being displayed.</li>
 </ul>
 
-<p>Last update: 2024-06-28 by John Carroll [<a href="https://github.com/delph-in/docs/wiki/LkbWishlist/_edit">edit</a>]</p>
+<p>Last update: 2026-07-25 by John Carroll [<a href="https://github.com/delph-in/docs/wiki/LkbWishlist/_edit">edit</a>]</p>
 
         
       </section>

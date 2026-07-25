@@ -16,7 +16,7 @@ Please register at the [2026 participants page](https://delph-in.github.io/docs/
 
 ## Venue
 
-The first three plenary days will happen in **Room C225**, on the **2nd floor (Section C)** of Western Norway University of Applied Sciences' **Main Building** [(Google link)](https://maps.app.goo.gl/rBqzCGeozDrWkkqg7). Once inside the building, take the big stairs one floor up, and then walk until you find the room. Or you can use [MazeMap](https://use.mazemap.com/#v=1&campusid=9&zlevel=1&center=5.350563,60.368798&zoom=18.4&desttype=identifier&dest=Kronstad%201-C225&starttype=identifier&start=Kronstad%201-A101).
+The first three plenary days will happen in **Room C225**, on the **2nd floor (Section C)** of Western Norway University of Applied Sciences' **Main Building** [(Google link)](https://maps.app.goo.gl/rBqzCGeozDrWkkqg7). Enter the building via the main entrance (entrance A), take the big stairs one floor up, and then walk until you find the room. Or you can use [MazeMap](https://use.mazemap.com/#v=1&campusid=9&zlevel=1&center=5.350563,60.368798&zoom=18.4&desttype=identifier&dest=Kronstad%201-C225&starttype=identifier&start=Kronstad%201-A101).
 
 It will be summer holidays on campus, so you will need key cards in order to get in (and out). You will be provided with key cards when you arrive. Someone will be at the main entrance to open the door for you at the beginning of day one (Monday 27). If you arrive later, contact Petter Haugereid ([phau@hvl.no](mailto:phau@hvl.no)), and he will come and open the door for you.
 
@@ -52,7 +52,17 @@ Apart from these three, there are lots of hotels in the city center, and access 
 <br>
 
 
-# Local Guide
+# Excursion
+The excursion on Wednesday will be a bus trip to the island of Herdla, north-west of Bergen. Herdla is a nature reserve and is known for its rich birdlife. During the Second World War, there was an airfield on the island.
+
+We will depart from the campus. The bus trip takes approximately 45 minutes. Once there, there are several options:
+
+i) You can walk past the old airfield to a small beach, observing the bird life. The walk takes about 30 minutes each way.<br>
+ii) You can inspect the World War 2 fortifications.<br>
+iii) You can play a game of disc golf (bring your own frisbee). <br>
+There will be refreshments.
+
+We will stay at Herdla for about two hours. Afterwards, we will return to campus. It may rain, so bring appropriate clothing.
 
 <br>
 
@@ -65,4 +75,4 @@ The local organization is handled by Petter Haugereid ([phau@hvl.no](mailto:phau
 
 # Photos
 
-Last update: 2026-06-24 by Petter Haugereid [[edit](https://github.com/delph-in/docs/wiki/BergenTop/_edit)]{% endraw %}
+Last update: 2026-07-24 by Petter Haugereid [[edit](https://github.com/delph-in/docs/wiki/BergenTop/_edit)]{% endraw %}

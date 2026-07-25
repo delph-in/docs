@@ -24,7 +24,7 @@ Please add times **in LOCAL Norwegian Time**:
 | Alex Lascarides | July 28 | online | I will try! ||| no |
 | Alexandre Rademaker | July 27-31 | online | I would love to attend in person ||| no |
 | John Carroll | July 27-31 | in person |||| no |
-| Stephan Oepen | July 27–29 | in person |||| no |
+| Stephan Oepen | July 27–29 | in person || no seafood || no |
 | Emily M. Bender | July 27-31 |in person ||low salt, to the extent possible|| no |
 | Ann Copestake | July 27-31 | in person | leaving morning of 31st|| +1 | no |
 | Spencer Brooks | July 27-31 | in person || no pork, beef, shellfish/seafood || yes |
@@ -40,4 +40,4 @@ Please add times **in LOCAL Norwegian Time**:
 | Vipasha Bansal | July 27-31 | online |||| no || 
 
 
-Last update: 2026-07-24 by emilymbender [[edit](https://github.com/delph-in/docs/wiki/BergenParticipants/_edit)]{% endraw %}
+Last update: 2026-07-24 by Stephan Oepen [[edit](https://github.com/delph-in/docs/wiki/BergenParticipants/_edit)]{% endraw %}

@@ -28,7 +28,7 @@ Presentation materials should be uploaded [here](https://github.com/delph-in/doc
 |--------------|-------------------------------------|--------------------------|
 |  **09:00-09:30**        | **Welcome & Introductions (Chair: Petter, Luis)**        |     Organizers + Participants                     |
 | **09:30-10:00**| **Site and other updates (Chair: Luis)** | |
-|              | Bergen                  |        Petter\
+|              | [Bergen](https://github.com/delph-in/docs/blob/main/summits/2026/Welcome_HVL.pdf?raw=true)                  |        Petter\
 |              | UW                  |        Emily B.\
 |              | Cambridge | Ann C. |
 |              | VU Amsterdam                   |      Luis                     |
@@ -97,7 +97,7 @@ Presentation materials should be uploaded [here](https://github.com/delph-in/doc
 | | DELPH-IN 2046: How can we maintain DELPH-IN tools and support DELPH-IN research 20 years in the future?  | Spencer B. |
 | **12:00–12:30**  | ***Business Meeting and SIG Planning***   |      John, Luis       |
 | **12:30–14:00** | ***Lunch*** 🍴🥗🍱🥘                              |                          |
-|**afternoon**|**Organized social program**||
+|**afternoon**|**Organized social program: Bus trip to the island Herdla**||
 
 * * *
 
@@ -119,6 +119,7 @@ Presentation materials should be uploaded [here](https://github.com/delph-in/doc
 | 14:00–15:30  |                       |                         |
 | 15:30–16:00  | *Break*                             |                          |
 | 16:00–17:30  |                       |                         |
+| 20:00–22:00  | **Banquet at Fløirestauranten**             |                         |
 
 * * *
 
@@ -150,5 +151,6 @@ Presentation materials should be uploaded [here](https://github.com/delph-in/doc
 - Lars H.: Verbal Semantics Classification
 - Spencer B.: LKB Default Unification
 - Liz C.: How to evaluate similarity of MRS structures?
+- John C.: The Grammar Configuration File Format
 
-Last update: 2026-07-13 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/BergenSchedule/_edit)]{% endraw %}
+Last update: 2026-07-25 by John Carroll [[edit](https://github.com/delph-in/docs/wiki/BergenSchedule/_edit)]{% endraw %}

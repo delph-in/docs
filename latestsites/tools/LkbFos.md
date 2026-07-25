@@ -9,7 +9,7 @@ compilers, runtime environments or code libraries. The source code is in
 the DELPH-IN public repository
 <http://svn.delph-in.net/lkb/branches/fos/>. For convenience,
 precompiled binaries for macOS and Linux can be downloaded from
-[lkb\_fos.tgz](http://users.sussex.ac.uk/~johnca/lkb_fos.tgz) \[92.4
+[lkb\_fos.tgz](http://users.sussex.ac.uk/~johnca/lkb_fos.tgz) \[93.3
 MB\]. A Windows binary may be available at some point in the future.
 
 LKB-FOS has been developed using the tools and libraries *SBCL*,
@@ -127,7 +127,9 @@ type constraints, and also docstrings on types in 'tooltips' windows.
 and generation.
 - Bug fixes and enhancements, as suggested in [LkbBugs](https://delph-in.github.io/docs/tools/LkbBugs) and
 [LkbWishlist](https://delph-in.github.io/docs/tools/LkbWishlist).
-- Support for the revised DELPH-IN TDL format, as specified in TdlRfc.
+- Support for the revised DELPH-IN TDL format, as specified in TdlRfc,
+and for loading grammars using the TDL-inspired DELPH-IN configuration
+file format.
 - A new handy command 'Evaluate Lisp expression...' in the Lkb Top
 Advanced menu.
 
@@ -261,4 +263,4 @@ If you encounter an unexpected problem using LKB-FOS, please check
 a solution has already been posted there; if it hasn't then create a new topic.
 
 
-Last update: 2025-06-22 by John Carroll [[edit](https://github.com/delph-in/docs/wiki/LkbFos/_edit)]{% endraw %}
+Last update: 2026-07-25 by John Carroll [[edit](https://github.com/delph-in/docs/wiki/LkbFos/_edit)]{% endraw %}
