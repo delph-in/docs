@@ -52,17 +52,27 @@ Apart from these three, there are lots of hotels in the city center, and access 
 <br>
 
 
-# Excursion
+# Social activities
+
+## Excursion
 The excursion on Wednesday will be a bus trip to the island of Herdla, north-west of Bergen. Herdla is a nature reserve and is known for its rich birdlife. During the Second World War, there was an airfield on the island.
 
-We will depart from the campus. The bus trip takes approximately 45 minutes. Once there, there are several options:
+We will depart from the campus at 14:00. The bus trip takes approximately 45 minutes. Once there, there are several options:
 
 i) You can walk past the old airfield to a small beach, observing the bird life. The walk takes about 30 minutes each way.<br>
 ii) You can inspect the World War 2 fortifications.<br>
 iii) You can play a game of disc golf (bring your own frisbee). <br>
 There will be refreshments.
 
-We will stay at Herdla for about two hours. Afterwards, we will return to campus. It may rain, so bring appropriate clothing.
+We will stay at Herdla for about two hours. Afterwards, we will return to Bergen. It may rain, so bring appropriate clothing. We will be back in Bergen around 18:00.
+
+## Banquet
+
+The banquet on Thursday will be held at Fløirestauranten, located on the hillside above Bergen. It will start at 20:00.
+
+The restaurant is at the upper station of the Fløibanen funicular, and we will take the funicular up to the restaurant together. We will meet at the lower station at 19:30. 
+
+Those who wish, may walk down after the meal. Otherwise, we will take the funicular down again.
 
 <br>
 
@@ -75,4 +85,4 @@ The local organization is handled by Petter Haugereid ([phau@hvl.no](mailto:phau
 
 # Photos
 
-Last update: 2026-07-24 by Petter Haugereid [[edit](https://github.com/delph-in/docs/wiki/BergenTop/_edit)]{% endraw %}
+Last update: 2026-07-25 by Petter Haugereid [[edit](https://github.com/delph-in/docs/wiki/BergenTop/_edit)]{% endraw %}
