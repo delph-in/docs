@@ -31,7 +31,7 @@ Please add times **in LOCAL Norwegian Time**:
 | Isaac Schifferer | July 27-31 | in person |||| yes |
 | Elizabeth Conrad | July 27-31 | online |||| no |
 | Luis Morgado da Costa | July 27-31 | in person || pescatarian (no meat) || no |
-| Chris Curtis | July 27-31 | in person ||| no |
+| Chris Curtis | July 27-31 | ~in person~ online | had to cancel trip 😞  || no |
 | Emily Luedke | July 27-31 | in person || vegan || yes |
 | Anantha Rao | July 27-31 | online ||n/a||yes|
 | Glenn Slayden | July 27-31 | online ||||no|
@@ -40,4 +40,4 @@ Please add times **in LOCAL Norwegian Time**:
 | Vipasha Bansal | July 27-31 | online |||| no || 
 
 
-Last update: 2026-07-24 by Stephan Oepen [[edit](https://github.com/delph-in/docs/wiki/BergenParticipants/_edit)]{% endraw %}
+Last update: 2026-07-26 by curtosis [[edit](https://github.com/delph-in/docs/wiki/BergenParticipants/_edit)]{% endraw %}

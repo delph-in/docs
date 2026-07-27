@@ -29,20 +29,20 @@ Presentation materials should be uploaded [here](https://github.com/delph-in/doc
 |  **09:00-09:30**        | **Welcome & Introductions (Chair: Petter, Luis)**        |     Organizers + Participants                     |
 | **09:30-10:00**| **Site and other updates (Chair: Luis)** | |
 |              | [Bergen](https://github.com/delph-in/docs/blob/main/summits/2026/Welcome_HVL.pdf?raw=true)                  |        Petter\
-|              | UW                  |        Emily B.\
-|              | Cambridge | Ann C. |
-|              | VU Amsterdam                   |      Luis                     |
+|              | [UW](https://github.com/delph-in/docs/blob/main/summits/2026/UW-site-update.pdf?raw=true)                   |        Emily B.\
+|              | [ Cambridge ](https://github.com/delph-in/docs/blob/main/summits/2026/Cambridge_update_2026.pdf?raw=true) | Ann C. |
+|              | [VU Amsterdam](https://github.com/delph-in/docs/blob/main/summits/2026/DELPH-IN%202026-VUAmsterdam-SiteUpdate.pdf?raw=true)                   |      Luis                     |
 |              | Olomouc (⚠ @13:30) |             Francis              |
 | **10:00–10:30**  |   ***Break***  ☕ 🍪               |               |
 |**10:30-12:00**| **Grammars & Wordnets (Chair: Luis)** ||
-| 10:30–11:00  | Incorporating Wordnet verb synsets in a hierarchy of construction types | Petter  |
-| 11:00–12:00  | Aligning WordNet senses with ERG lexical types | Dan                   |
+| 10:30–11:00  | [Incorporating Wordnet verb synsets in a hierarchy of construction types](https://github.com/delph-in/docs/blob/main/summits/2026/Petter_Wordnet.pdf?raw=true) | Petter  |
+| 11:00–12:00  | [Aligning WordNet senses with ERG lexical types](https://github.com/delph-in/docs/blob/main/summits/2026/ERG-WN-align.pdf?raw=true) | Dan                   |
 | **12:00–13:30**  | ***Lunch*** 🍴🥗🍱🥘                           |                          |
-|**13:30-15:30**| **DELPH-IN Tools (Chair: ???)** ||
+|**13:30-15:30**| **DELPH-IN Tools (Chair: Stephan)** ||
 | 13:30–13:35  |  Olomouc Site Update     |     Francis   |
 | 13:35–14:30  |  LTDB and Grammary (Demo: now with tree search)   | Francis                         |
 | 14:30–15:00  |  Grammarium (DELPH-IN Demo) Updates           |  Luis |
-| 15:00–15:30  |   LKB-FOS Update     |    John                   |
+| 15:00–15:30  |   [LKB-FOS Update](https://github.com/delph-in/docs/blob/main/summits/2026/lkb-fos-update-26.pdf?raw=true)     |    John                   |
 | **15:30–16:00**  |   ***Break***  ☕ 🍪                              |                          |
 | **16:00-17:00** | **Plenary Discussion (Scribe: ???)** ||
 |   |  What makes an approach to modelling language 'symbolic'?           |    Ann                  |
@@ -57,7 +57,7 @@ Presentation materials should be uploaded [here](https://github.com/delph-in/doc
 
 | Time         | Content                             | Presenter       |
 |--------------|-------------------------------------|--------------------------|
-| **09:00–10:30**   | **Grammar Matrix (Chair: ???)** |  |
+| **09:00–10:30**   | **Grammar Matrix (Chair: Petter)** |  |
 | 09:00–09:30  | Noun incorporation library for the Grammar Matrix       |  Emily L.         |
 | 09:30–10:00  | PIGGY: Precise, Interpretable Grammar-based Generation, yippee  | Liz      |
 | 10:00–10:30  | Using Grammatical Features to Improve Morphotactic Inference in the AGGREGATION System | Isaac        |
@@ -65,7 +65,7 @@ Presentation materials should be uploaded [here](https://github.com/delph-in/doc
 | **11:00-12:00** | **Plenary Discussion (Scribe: ???)** ||
 |    | Potpourri of issues with non-grammar-based MRS Composition | Liz          |
 | **12:00–13:30**  | ***Lunch*** 🍴🥗🍱🥘                           |                          |
-|**13:30-15:30**|**Grammars & Lexicons (Chair: ???)**||
+|**13:30-15:30**|**Grammars & Lexicons (Chair: Dan)**||
 | 13:30–14:00  |  Expanding the Cantonese grammar   | Francis                        |
 | 14:00–14:30  |  From Zhong to MRG (Mandarin Resource Grammar)        | Luis                         |
 | 14:30–15:30  |  Tropes        | Francis                         |
@@ -88,7 +88,7 @@ Presentation materials should be uploaded [here](https://github.com/delph-in/doc
 
 | Time         | Content                             | Presenter      |
 |--------------|-------------------------------------|--------------------------|
-|**9:00–10:00**|**LLMs (Chair: ???)**||
+|**9:00–10:00**|**LLMs (Chair: Luis)**||
 | 9:00–10:00  | Development of genuinely open LLMs for European languages    |   Stephan    |\
 | **10:00-10:45** | **Plenary Discussion (Scribe: ???)** ||
 |  | Revising the analysis of proper names in the ERG         |  Dan|
@@ -151,6 +151,6 @@ Presentation materials should be uploaded [here](https://github.com/delph-in/doc
 - Lars H.: Verbal Semantics Classification
 - Spencer B.: LKB Default Unification
 - Liz C.: How to evaluate similarity of MRS structures?
-- John C.: The Grammar Configuration File Format
+- John C.: DELPH-IN Unified Grammar Configuration File Format
 
-Last update: 2026-07-25 by John Carroll [[edit](https://github.com/delph-in/docs/wiki/BergenSchedule/_edit)]{% endraw %}
+Last update: 2026-07-27 by John Carroll [[edit](https://github.com/delph-in/docs/wiki/BergenSchedule/_edit)]{% endraw %}
