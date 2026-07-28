@@ -41,11 +41,11 @@ Presentation materials should be uploaded [here](https://github.com/delph-in/doc
 |**13:30-15:30**| **DELPH-IN Tools (Chair: Stephan)** ||
 | 13:30–13:35  |  Olomouc Site Update     |     Francis   |
 | 13:35–14:30  |  LTDB and Grammary (Demo: now with tree search)   | Francis                         |
-| 14:30–15:00  |  Grammarium (DELPH-IN Demo) Updates           |  Luis |
+| 14:30–15:00  |  [Grammarium (DELPH-IN Demo) Updates](https://github.com/delph-in/docs/blob/main/summits/2026/DELPH-IN2026-Grammarium.pdf?raw=true)           |  Luis |
 | 15:00–15:30  |   [LKB-FOS Update](https://github.com/delph-in/docs/blob/main/summits/2026/lkb-fos-update-26.pdf?raw=true)     |    John                   |
 | **15:30–16:00**  |   ***Break***  ☕ 🍪                              |                          |
-| **16:00-17:00** | **Plenary Discussion (Scribe: ???)** ||
-|   |  What makes an approach to modelling language 'symbolic'?           |    Ann                  |
+| **16:00-17:00** | **Plenary Discussion (Scribe: Emily B.)** ||
+|   |  [What makes an approach to modelling language 'symbolic'?](https://github.com/delph-in/docs/blob/main/summits/2026/symbolic_.pdf?raw=true)           |    Ann                  |
 
 * * *
 ## Tuesday
@@ -60,17 +60,16 @@ Presentation materials should be uploaded [here](https://github.com/delph-in/doc
 | **09:00–10:30**   | **Grammar Matrix (Chair: Petter)** |  |
 | 09:00–09:30  | Noun incorporation library for the Grammar Matrix       |  Emily L.         |
 | 09:30–10:00  | PIGGY: Precise, Interpretable Grammar-based Generation, yippee  | Liz      |
-| 10:00–10:30  | Using Grammatical Features to Improve Morphotactic Inference in the AGGREGATION System | Isaac        |
+| 10:00–10:30  | [Using Grammatical Features to Improve Morphotactic Inference in the AGGREGATION System](https://github.com/delph-in/docs/blob/main/summits/2026/Schifferer_morphotactics.pdf?raw=true) | Isaac        |
 | **10:30–11:00**  |   ***Break***  ☕ 🍪               |               |
-| **11:00-12:00** | **Plenary Discussion (Scribe: ???)** ||
+| **11:00-12:00** | **Plenary Discussion (Scribe: Emily B.)** ||
 |    | Potpourri of issues with non-grammar-based MRS Composition | Liz          |
-| **12:00–13:30**  | ***Lunch*** 🍴🥗🍱🥘                           |                          |
-|**13:30-15:30**|**Grammars & Lexicons (Chair: Dan)**||
-| 13:30–14:00  |  Expanding the Cantonese grammar   | Francis                        |
+| **12:00–14:00**  | ***Lunch*** 🍴🥗🍱🥘                           |                          |
+|**14:00-15:30**|**Grammars & Lexicons (Chair: Dan)**||
 | 14:00–14:30  |  From Zhong to MRG (Mandarin Resource Grammar)        | Luis                         |
 | 14:30–15:30  |  Tropes        | Francis                         |
 | **15:30–16:00**  |   ***Break***  ☕ 🍪                              |                          |
-| **16:00-16:30** | **Blitz Rounds 5+5 (Chair: ???)** ||
+| **16:00-16:30** | **Blitz Rounds 5+5 (Chair: Emily)** ||
 | 16:00–16:10  | ACL 2026 paper "More Aligned, Less Diverse? Analyzing the Grammar and Lexicon of Two Generations of LLMs" | Dan  |
 | 16:10–16:20  | Event-based Knowledge Graphs with ERG | Luis  |
 | 16:20–16:30  | Pronunciation Assessment (Project) | Luis  |
@@ -153,4 +152,4 @@ Presentation materials should be uploaded [here](https://github.com/delph-in/doc
 - Liz C.: How to evaluate similarity of MRS structures?
 - John C.: DELPH-IN Unified Grammar Configuration File Format
 
-Last update: 2026-07-27 by John Carroll [[edit](https://github.com/delph-in/docs/wiki/BergenSchedule/_edit)]{% endraw %}
+Last update: 2026-07-28 by Isaac Schifferer [[edit](https://github.com/delph-in/docs/wiki/BergenSchedule/_edit)]{% endraw %}
