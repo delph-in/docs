@@ -482,7 +482,9 @@
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "SummitTop.md", "Referrer": "summits/BellinghamTop.md"},
         {"Page": "BergenParticipants", "SrcDir": "docswiki", "SrcFile": "BergenParticipants.md", "BaseReferrer": "summits/SummitTop.md", "Referrer": "summits/BergenTop.md"},
         {"Page": "BergenSchedule", "SrcDir": "docswiki", "SrcFile": "BergenSchedule.md", "BaseReferrer": "summits/SummitTop.md", "Referrer": "summits/BergenTop.md"},
-        {"Page": "BergenTop", "SrcDir": "docswiki", "SrcFile": "BergenTop.md", "BaseReferrer": "summits/SummitTop.md", "Referrer": "summits/SummitTop.md"}
+        {"Page": "BergenTop", "SrcDir": "docswiki", "SrcFile": "BergenTop.md", "BaseReferrer": "summits/SummitTop.md", "Referrer": "summits/SummitTop.md"},
+        {"Page": "BergenNonGrammarComposition", "SrcDir": "docswiki", "SrcFile": "BergenNonGrammarComposition.md", "BaseReferrer": "summits/BergenSchedule.md", "Referrer": "summits/BergenSchedule.md"},
+        {"Page": "BergenSymbolic", "SrcDir": "docswiki", "SrcFile": "BergenSymbolic.md", "BaseReferrer": "summits/BergenSchedule.md", "Referrer": "summits/BergenSchedule.md"}
       ]},
       {"Section": "Amsterdam 2025", "Pages": [
         {"Page": "Overview", "SrcDir": "docswiki", "SrcFile": "AmsterdamTop.md"},

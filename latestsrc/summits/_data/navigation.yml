@@ -26,6 +26,10 @@ toc:
         url: "/BergenSchedule/"
       - title: "BergenTop"
         url: "/BergenTop/"
+      - title: "BergenNonGrammarComposition"
+        url: "/BergenNonGrammarComposition/"
+      - title: "BergenSymbolic"
+        url: "/BergenSymbolic/"
   - title: "Amsterdam 2025"
     children:
       - title: "Overview"

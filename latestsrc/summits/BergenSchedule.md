@@ -39,13 +39,13 @@ Presentation materials should be uploaded [here](https://github.com/delph-in/doc
 | 11:00–12:00  | [Aligning WordNet senses with ERG lexical types](https://github.com/delph-in/docs/blob/main/summits/2026/ERG-WN-align.pdf?raw=true) | Dan                   |
 | **12:00–13:30**  | ***Lunch*** 🍴🥗🍱🥘                           |                          |
 |**13:30-15:30**| **DELPH-IN Tools (Chair: Stephan)** ||
-| 13:30–13:35  |  Olomouc Site Update     |     Francis   |
-| 13:35–14:30  |  LTDB and Grammary (Demo: now with tree search)   | Francis                         |
+| 13:30–13:35  |  [Olomouc Site Update](https://github.com/delph-in/docs/blob/main/summits/2026/upol-update-2026.pdf?raw=true)     |     Francis   |
+| 13:35–14:30  |  [LTDB and Grammary (Demo: now with tree search)](https://github.com/delph-in/docs/blob/main/summits/2026/ltdb-2026-summit.pdf?raw=true)   | Francis                         |
 | 14:30–15:00  |  [Grammarium (DELPH-IN Demo) Updates](https://github.com/delph-in/docs/blob/main/summits/2026/DELPH-IN2026-Grammarium.pdf?raw=true)           |  Luis |
 | 15:00–15:30  |   [LKB-FOS Update](https://github.com/delph-in/docs/blob/main/summits/2026/lkb-fos-update-26.pdf?raw=true)     |    John                   |
 | **15:30–16:00**  |   ***Break***  ☕ 🍪                              |                          |
 | **16:00-17:00** | **Plenary Discussion (Scribe: Emily B.)** ||
-|   |  [What makes an approach to modelling language 'symbolic'?](https://github.com/delph-in/docs/blob/main/summits/2026/symbolic_.pdf?raw=true)           |    Ann                  |
+|   |  [What makes an approach to modelling language 'symbolic'?](https://github.com/delph-in/docs/blob/main/summits/2026/symbolic_.pdf?raw=true) [(Notes)](https://delph-in.github.io/docs/summits/BergenSymbolic)          |    Ann                  |
 
 * * *
 ## Tuesday
@@ -63,18 +63,18 @@ Presentation materials should be uploaded [here](https://github.com/delph-in/doc
 | 10:00–10:30  | [Using Grammatical Features to Improve Morphotactic Inference in the AGGREGATION System](https://github.com/delph-in/docs/blob/main/summits/2026/Schifferer_morphotactics.pdf?raw=true) | Isaac        |
 | **10:30–11:00**  |   ***Break***  ☕ 🍪               |               |
 | **11:00-12:00** | **Plenary Discussion (Scribe: Emily B.)** ||
-|    | Potpourri of issues with non-grammar-based MRS Composition | Liz          |
+|    | Potpourri of issues with non-grammar-based MRS Composition [(Notes)](https://delph-in.github.io/docs/summits/BergenNonGrammarComposition)| Liz          |
 | **12:00–14:00**  | ***Lunch*** 🍴🥗🍱🥘                           |                          |
 |**14:00-15:30**|**Grammars & Lexicons (Chair: Dan)**||
-| 14:00–14:30  |  From Zhong to MRG (Mandarin Resource Grammar)        | Luis                         |
-| 14:30–15:30  |  Tropes        | Francis                         |
+| 14:00–14:30  |  [From Zhong to MRG (Mandarin Resource Grammar)](https://github.com/delph-in/docs/blob/main/summits/2026/DELPH-IN%202026%20-%20MRG.pdf?raw=true)        | Luis                         |
+| 14:30–15:30  |  [Tropes](https://github.com/delph-in/docs/blob/main/summits/2026/tropes-talk.pdf?raw=true)        | Francis                         |
 | **15:30–16:00**  |   ***Break***  ☕ 🍪                              |                          |
 | **16:00-16:30** | **Blitz Rounds 5+5 (Chair: Emily)** ||
-| 16:00–16:10  | ACL 2026 paper "More Aligned, Less Diverse? Analyzing the Grammar and Lexicon of Two Generations of LLMs" | Dan  |
-| 16:10–16:20  | Event-based Knowledge Graphs with ERG | Luis  |
-| 16:20–16:30  | Pronunciation Assessment (Project) | Luis  |
+| 16:00–16:10  | [ACL 2026 paper "More Aligned, Less Diverse? Analyzing the Grammar and Lexicon of Two Generations of LLMs"](https://github.com/delph-in/docs/blob/main/summits/2026/Blitz-ACL26.pdf?raw=true) | Dan  |
+| 16:10–16:20  | [Event-based Knowledge Graphs with ERG](https://github.com/delph-in/docs/blob/main/summits/2026/DELPH-IN%202026%20-%20Event-based%20KGs%20with%20ERG.pdf?raw=true) | Luis  |
+| 16:20–16:30  | [Pronunciation Assessment](https://github.com/delph-in/docs/blob/main/summits/2026/DELPH-IN%202026%20-%20Pronunciation%20Assessment.pdf?raw=true) | Luis  |
 | **16:30-17:30** | **Plenary Discussion (Scribe: ???)** ||
-|  | Teaching HPSG (Gathering advice on how best to teach it) | Francis |
+|  | [Teaching HPSG (Gathering advice on how best to teach it)](https://github.com/delph-in/docs/blob/main/summits/2026/teaching-discussion.pdf?raw=true) | Francis |
 
 * * *
 
@@ -89,10 +89,10 @@ Presentation materials should be uploaded [here](https://github.com/delph-in/doc
 |--------------|-------------------------------------|--------------------------|
 |**9:00–10:00**|**LLMs (Chair: Luis)**||
 | 9:00–10:00  | Development of genuinely open LLMs for European languages    |   Stephan    |\
-| **10:00-10:45** | **Plenary Discussion (Scribe: ???)** ||
+| **10:00-10:45** | **Plenary Discussion (Scribe: Stephan)** ||
 |  | Revising the analysis of proper names in the ERG         |  Dan|
 | **10:45–11:15**  | ***Break***  ☕ 🍪 |  |
-| **11:15-12:00** | **Plenary Discussion (Scribe: ???)** ||
+| **11:15-12:00** | **Plenary Discussion (Scribe: Isaac)** ||
 | | DELPH-IN 2046: How can we maintain DELPH-IN tools and support DELPH-IN research 20 years in the future?  | Spencer B. |
 | **12:00–12:30**  | ***Business Meeting and SIG Planning***   |      John, Luis       |
 | **12:30–14:00** | ***Lunch*** 🍴🥗🍱🥘                              |                          |
@@ -147,9 +147,11 @@ Presentation materials should be uploaded [here](https://github.com/delph-in/doc
 
 - **Name: Topic (constraints, e.g. "Only Thursday afternoon")**
 - **Add your SIG suggestion here!** 
-- Lars H.: Verbal Semantics Classification
+- Lars H.: Verbal Semantics Classification (only Friday)
 - Spencer B.: LKB Default Unification
 - Liz C.: How to evaluate similarity of MRS structures?
 - John C.: DELPH-IN Unified Grammar Configuration File Format
+- Luis M.C.: Grammar Lexicons and Wordnets (incl. maintenance)
+- Dan: Presentation, maintenance, and demos for DELPH-IN grammars
 
-Last update: 2026-07-28 by Isaac Schifferer [[edit](https://github.com/delph-in/docs/wiki/BergenSchedule/_edit)]{% endraw %}
+Last update: 2026-07-29 by lmorgadodacosta [[edit](https://github.com/delph-in/docs/wiki/BergenSchedule/_edit)]{% endraw %}
