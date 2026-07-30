@@ -10,10 +10,10 @@ Ecosystems:
 
 ### Ecosystems (rough topics added post-discussion)
 Spencer: Most interested in LKB/[incr tsdb()] \
-Dan: Need to do succession planning around John handing off LKB. More immediate is ACE, its treebanker, and its batch processing tool/ART. Single author for all of the software, only a few people know how to compile it from source (names?). Woodley is still somewhat available but not actively involved. \
-John: Woodley is probably the only person currently who can build LUI \
-Luis: No Metal Mac version of YZ LUI? \
-John: There is a Mac Intel x86-64 LUI executable that works on Rosetta (maclui); however Rosetta will be withdrawn in a future version of macOS \
+Dan: Need to do succession planning. Not too worried about the state of the LKB ecosystem. More immediate concern is ACE, its treebanker, and its batch processing tool/ART. Single author for all of the software, only a few people know how to compile it from source (names?). Woodley is still somewhat available but not actively involved. \
+John: There is also LUI. Woodley is probably the only person currently who can (re-)build it \
+Luis: On Linux, we have yzlui. However, there is no Metal Mac version of yzlui \
+John: There is a Mac x86-64 LUI executable that works on Rosetta (maclui), available from Woodley's ftp site; however Rosetta will be withdrawn in a future version of macOS \
 Luis: Can we convince Woodley to do one last effort to get ready for handoff? Some libraries are not well documented for compilation \
 Dan: Maybe some incomplete info on ACE website. Woodley insists on version consistency, i.e. software requires the same version for all tools. \
 Emily: Maybe Isaac can do some of this with RA time, needs a defined list of things to do. Main thing is creating/updating documentation \
