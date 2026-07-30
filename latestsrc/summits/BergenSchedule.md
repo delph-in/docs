@@ -88,12 +88,12 @@ Presentation materials should be uploaded [here](https://github.com/delph-in/doc
 | Time         | Content                             | Presenter      |
 |--------------|-------------------------------------|--------------------------|
 |**9:00–10:00**|**LLMs (Chair: Luis)**||
-| 9:00–10:00  | Development of genuinely open LLMs for European languages    |   Stephan    |\
+| 9:00–10:00  | [Transparent Language Model Development in Europe](https://github.com/delph-in/docs/tree/main/summits/2026/hplt.pdf)    |   Stephan    |\
 | **10:00-10:45** | **Plenary Discussion (Scribe: Stephan)** ||
 |  | Revising the analysis of proper names in the ERG         |  Dan|
 | **10:45–11:15**  | ***Break***  ☕ 🍪 |  |
 | **11:15-12:00** | **Plenary Discussion (Scribe: Isaac)** ||
-| | DELPH-IN 2046: How can we maintain DELPH-IN tools and support DELPH-IN research 20 years in the future?  | Spencer B. |
+| | DELPH-IN 2046: How can we maintain DELPH-IN tools and support DELPH-IN research 20 years in the future? [(Notes)](https://github.com/delph-in/docs/tree/main/summits/2026/delphin2046_scribenotes.md) | Spencer B. |
 | **12:00–12:30**  | ***Business Meeting and SIG Planning***   |      John, Luis       |
 | **12:30–14:00** | ***Lunch*** 🍴🥗🍱🥘                              |                          |
 |**afternoon**|**Organized social program: Bus trip to the island Herdla**||
@@ -109,15 +109,15 @@ Presentation materials should be uploaded [here](https://github.com/delph-in/doc
 
 **Zoom Link (Room B):** https://hvl.zoom.us/j/66080047313?pwd=ECE4WtnW6ZHZuUPXwl5n6qSGa0kgaf.1
 
-| Time         | Content                             | Leader (Scribe)          |
+| Time         | Content     (Room: C225)                        | Leader (Scribe)          |
 |--------------|-------------------------------------|--------------------------|
-| 09:00–10:30  |                        |                       |
+| 09:00–10:30  | Projects and Funding                       |                       |
 | 10:30–11:00  | *Break*                             |                          |
-| 11:00–12:30  |                |         |
+| 11:00–12:30  |  Maintenance and documentation of DELPH-IN tools (non-demos)              |         |
 | 12:30–14:00  | *Lunch*                             |                          |
-| 14:00–15:30  |                       |                         |
+| 14:00–15:30  |  Presentation, maintenance, and demos for DELPH-IN grammars                     |                         |
 | 15:30–16:00  | *Break*                             |                          |
-| 16:00–17:30  |                       |                         |
+| 16:00–17:30  |  Grammar Lexicons and Wordnets                     |                         |
 | 20:00–22:00  | **Banquet at Fløirestauranten**             |                         |
 
 * * *
@@ -131,27 +131,31 @@ Presentation materials should be uploaded [here](https://github.com/delph-in/doc
 
 **Zoom Link (Room B):** https://hvl.zoom.us/j/67925762871?pwd=9sLvRsDKI3JzykLxqlRBIpjNM5kj9l.1
 
-| Time         | Content                             | Leader (Scribe)          |
+| Time         | Content                            | Leader (Scribe)          |
 |--------------|-------------------------------------|--------------------------|
-| 09:00–10:30  |                        |                       |
-| 10:30–11:00  | *Break*                             |                          |
-| 11:00–12:30  |                |         |
-| 12:30–14:00  | *Lunch*                             |                          |
-| 14:00–15:30  |                       |                         |
+| 09:00–10:30  | -                        |         -              |
+| 10:30–11:00  | -                            |     -                     |
+| 11:00–12:30  |  -              |         |-
+| 12:30–14:00  | -                             |           -               |
+| 14:00–15:30  |  DELPH-IN Unified Grammar Configuration File Format  (Room: C225)                   |                         |
 | 15:30–16:00  | *Break*                             |                          |
-| 16:00–17:30  |                       |                         |
+| 16:00–17:30  |  Verbal Semantics Classification (Room: C225); <br>  How to evaluate similarity of MRS structures?  (Room: D226)                   |                         |
 
 * * *
 
 ## SIG Suggestions
+
+[Please fill out your SIG preferences here!](https://docs.google.com/spreadsheets/d/1gnew1TCfUUT-i7cmVqGZJfqOyUSIuYoE91hH34wGiJw/edit?gid=0#gid=0)  (max: 5.5 points)
 
 - **Name: Topic (constraints, e.g. "Only Thursday afternoon")**
 - **Add your SIG suggestion here!** 
 - Lars H.: Verbal Semantics Classification (only Friday)
 - Spencer B.: LKB Default Unification
 - Liz C.: How to evaluate similarity of MRS structures?
-- John C.: DELPH-IN Unified Grammar Configuration File Format
+- John C.: DELPH-IN Unified Grammar Configuration File Format (Thursday after 15:00 if possible)
 - Luis M.C.: Grammar Lexicons and Wordnets (incl. maintenance)
 - Dan: Presentation, maintenance, and demos for DELPH-IN grammars
+- Spencer+: Maintenance and documentation of DELPH-IN tools (non-demos)  
+- Spencer+: Projects and Funding
 
 Last update: 2026-07-29 by lmorgadodacosta [[edit](https://github.com/delph-in/docs/wiki/BergenSchedule/_edit)]{% endraw %}
