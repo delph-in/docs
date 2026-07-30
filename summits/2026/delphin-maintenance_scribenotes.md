@@ -4,24 +4,24 @@ Follow-up from DELPH-IN 2046 session
 **NOTE:** Need a more complete list of the tools under each ecosystem and who maintains them/holds the institutional knowledge
 
 Ecosystems:
-* LKB: [incr tsdb()] (plus use of LUI)
+* LKB: [incr tsdb()] (plus use of LUI as alternative for graphical display)
 * ACE: ART, FTTB, LUI
-* Pydelphin
+* PyDelphin
 
 ### Ecosystems (rough topics added post-discussion)
 Spencer: Most interested in LKB/[incr tsdb()] \
 Dan: Need to do succession planning. Not too worried about the state of the LKB ecosystem. More immediate concern is ACE, its treebanker, and its batch processing tool/ART. Single author for all of the software, only a few people know how to compile it from source (names?). Woodley is still somewhat available but not actively involved. \
 John: There is also LUI. Woodley is probably the only person currently who can (re-)build it \
 Luis: On Linux, we have yzlui. However, there is no Metal Mac version of yzlui \
-John: There is a Mac x86-64 LUI executable that works on Rosetta (maclui), available from Woodley's ftp site; however Rosetta will be withdrawn in a future version of macOS \
+John: There is a Mac x86-64 LUI executable (maclui) that works on Metal Mac via Rosetta. maclui available from Woodley's ftp site. However, Rosetta will be withdrawn in a future version of macOS \
 Luis: Can we convince Woodley to do one last effort to get ready for handoff? Some libraries are not well documented for compilation \
 Dan: Maybe some incomplete info on ACE website. Woodley insists on version consistency, i.e. software requires the same version for all tools. \
 Emily: Maybe Isaac can do some of this with RA time, needs a defined list of things to do. Main thing is creating/updating documentation \
-Dan: Areas of importance: ACE ecosystem. Python universe (Michael Goodman) which imports some functionality from other tools. John is still good with LKB
+Dan: Areas of importance: ACE ecosystem. Python universe (Michael Goodman) which imports some functionality from other tools. John is still good for LKB
 
 ### PET
 John: Need to talk about PET? \
-Dan: PET is another parser from late 90s, supplanted by ACE, which could also do generation and has a different set of debugging tools. PET has been on the sideline since the 2000s. Probably no reason to keep PET running. 2025 ERG still has PET subdirectory, but docstrings cause PET compiler to break if not stripped out \
+Dan: PET is another parser from late 90s, supplanted by ACE - which can in addition do generation and interface with LUI. PET has been on the sideline since the 2000s. Probably no reason to keep PET running. 2025 ERG still has PET subdirectory, but docstrings cause PET compiler to break if not stripped out \
 Emily: Matrix grammars still have PET subdirectory, haven’t tried to compile with PET \
 Luis: Same for Zhong/MRG \
 Dan: We can recommend to remove support for PET \
@@ -69,7 +69,7 @@ Dan: Should talk a little about the demise of the Oslo-based public-facing repos
 Luis: Some cost associated with having parsing tool publicly available online, department is OK with paying some, probably should be mostly GUI-based and restrict parsing at scale \
 Dan: How can we access parsing at scale? There is some desire for this \
 Luis: Grammarium can do this, it’s behind a login. Could have a self-hosted machine where non-DELPH-IN people could do this. \
-Dan: We are thinking too small, if people at ACL are interested and want to use it, we should have a stable way for people with no internal knowledge of the system to use the tools \
+Dan: We are thinking too small, if CL people in general are interested and want to use it, we should have a stable way for people with no internal knowledge of the system to use the tools \
 Dan: Places where outside people can have access: Grammarium, Grammary (aimed a little more at grammar writers/linguists). What other tools might we need? \
 Luis: Thinks of Grammarium as an outward-facing demo, even though we sometimes use it for more substantial tasks \
 Ann/Emily: Wait for Francis to talk more about this \
@@ -83,20 +83,20 @@ Emily: Label pages as DEPRECATED and include a link to newer documentation? \
 John: The old information is irrelevant \
 Luis: Similar thing will be true for other tools \
 Ann: Cares about archiving but doesn’t see a point in preserving this stuff \
-Emily: Outward-facing site could not show archived pages, but they could still exist in the docs, may take a little work to configure that. Current site is a curated set of the Github docs, generated/updated with daily cron jobs \
+Emily: Outward-facing github.io site should not show archived pages, but they could still exist in the wiki docs, may take a little work to configure that. Current site is a curated set of the Github docs, generated/updated with daily cron jobs \
 Spencer: Several links on the external site are broken \
 Dan: Many links have been broken by the Stanford and Oslo servers no longer being up, no one has made an effort to restore/fix these yet \
 Emily: Can we find some missing things on Internet Archive? \
 Spencer: Links work on internal site but not external one \
 Emily: May be pages that are not exported, e.g. LKB installation \
-Spencer: But LKB-FOS is also broken \
+Spencer: But LKB-FOS link is also broken \
 Luis: In the external site’s search functionality, page names are not indexed \
 Emily: Grammarium should be added to ToolsTop page \
 Spencer: and LTDB \
 Ann: Is there a process for removing things from the list of tools? There are several that are probably not in use anymore \
 Emily: Some historical interest in old tools, but should be separated from current tools \
 Ann: Agrees that they should still be archived \
-Emily/Dan: Need a webmaster \
+Emily/Dan: This would be a task for a webmaster \
 Ann: Schedule a standing short summit session for updating pages? \
 Multiple people: Agree \
 Emily: Are there notes from the previous session where there was some debate about deleting/archiving things? Was it just me who was opposed to getting rid of things? \
