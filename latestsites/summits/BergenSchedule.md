@@ -109,13 +109,13 @@ Presentation materials should be uploaded [here](https://github.com/delph-in/doc
 
 **Zoom Link (Room B):** https://hvl.zoom.us/j/66080047313?pwd=ECE4WtnW6ZHZuUPXwl5n6qSGa0kgaf.1
 
-| Time         | Content     (Room: C225)                        | Leader (Scribe)          |
+| Time         | Content     (Room: C225)                        | Scribe          |
 |--------------|-------------------------------------|--------------------------|
 | 09:00–10:30  | Projects and Funding                       |                       |
 | 10:30–11:00  | *Break*                             |                          |
-| 11:00–12:30  |  Maintenance and documentation of DELPH-IN tools (non-demos)              |         |
+| 11:00–12:30  |  Maintenance and documentation of DELPH-IN tools (non-demos) [(Notes)](https://github.com/delph-in/docs/tree/main/summits/2026/delphin-maintenance_scribenotes.md)             | Isaac        |
 | 12:30–14:00  | *Lunch*                             |                          |
-| 14:00–15:30  |  Presentation, maintenance, and demos for DELPH-IN grammars                     |                         |
+| 14:00–15:30  |  [Presentation, maintenance, and demos for DELPH-IN grammars](https://github.com/delph-in/docs/wiki/2026-SIG%E2%80%90notes-(Presentation,-maintenance,-and-demos-for-DELPH%E2%80%90IN-grammars))             | Luis           |
 | 15:30–16:00  | *Break*                             |                          |
 | 16:00–17:30  |  Grammar Lexicons and Wordnets                     |                         |
 | 20:00–22:00  | **Banquet at Fløirestauranten**             |                         |
@@ -131,7 +131,7 @@ Presentation materials should be uploaded [here](https://github.com/delph-in/doc
 
 **Zoom Link (Room B):** https://hvl.zoom.us/j/67925762871?pwd=9sLvRsDKI3JzykLxqlRBIpjNM5kj9l.1
 
-| Time         | Content                            | Leader (Scribe)          |
+| Time         | Content                            | Scribe          |
 |--------------|-------------------------------------|--------------------------|
 | 09:00–10:30  | -                        |         -              |
 | 10:30–11:00  | -                            |     -                     |
@@ -158,4 +158,4 @@ Presentation materials should be uploaded [here](https://github.com/delph-in/doc
 - Spencer+: Maintenance and documentation of DELPH-IN tools (non-demos)  
 - Spencer+: Projects and Funding
 
-Last update: 2026-07-29 by lmorgadodacosta [[edit](https://github.com/delph-in/docs/wiki/BergenSchedule/_edit)]{% endraw %}
+Last update: 2026-07-30 by lmorgadodacosta [[edit](https://github.com/delph-in/docs/wiki/BergenSchedule/_edit)]{% endraw %}

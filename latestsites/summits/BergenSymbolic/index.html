@@ -1419,7 +1419,22 @@
 
 <p>Ann: I want to get into the confusion around the underlying terms. Gemma talks about LLMs as producing symbolic or near-symbolic categories. There may be some problem with that, but what I want to talk about here is the assumption that we know what this term means. That assumption that can’t necessarily be taken for granted.</p>
 
-<p>Last update: 2026-07-28 by emilymbender [<a href="https://github.com/delph-in/docs/wiki/BergenSymbolic/_edit">edit</a>]</p>
+<p>Ann, later: Sharing some comments from Weiwei, who was attending online:</p>
+
+<p>The discussion was very interesting. I didn’t get a chance to discuss some topics. Below are some of my thoughts.</p>
+
+<ol>
+  <li>If ACL forbids the use of ‘symbolic’, I think some people may use ‘knowledge-based system’ instead. When people are talking about so-called neuro-symbolic integration in machine learning, they are usually thinking about integrating some ‘knowledge’ into their system. Finding a definition or description of ‘knowledge’ is even harder than ‘symbolic’ — that’s my intuition. If we take ‘knowledge’ overlaps with ‘justified truth’, then the term ‘knowledge-based approach’ suggests correctness.</li>
+  <li>‘Knowledge-based’ may not be an aspect of ‘symbolic’. Nevertheless, we do find, in general, symbolic systems are convenient to integrate some types of ‘knowledge. But why? Firstly, human has the ability to symbolise things. It sounds trivial - human develop over 7000 languages, all of which are extremely complex symbolic systems. All of them give human a powerful tool to abstract away from unnecessary details, noises, and sometimes some unknowns. The abstraction then makes talking about relationships between elements easier, including both syntagmatic and paradigmatic relations.</li>
+  <li>After obtaining a set of symbols, a fundamental mathematical job is characterise potential operators over them. If a symbolic system is of a limited size, it is usually flexible to define quite  specific operators, as rules. So my feeling is that some people use ‘symbolic’ to mean ‘rule-based’. This is quite different from the systems that use continuous numbers. I recall how people were struggling with Probabilistic Graphical Models. Neural Networks are similar. The curse is the scale - symbolic systems, more precisely specific operators, are difficult to scale up. Being symbolic suggests some inflexibility.</li>
+  <li>An important aspect related to the above flexibility/inflexibility is ‘sparseness’. Take phrase-structure rules in PCFG as an example. Let’s assume the grammar is binary and the number of non-terminals is N and the number of terminals is T. If there is no restrictions of rules, then we will have N<em>(N+T)</em>(N+T) + N*T rules. A way to improve the capability of a PCFG is simply increase N. Computing with such a grammar is not practical, though it is ‘dense’. Linguistic grammars are usually quite sparse, e.g. we can refer to empirical statistics of the PCFG-approximation of ERG (Zhang and Krieger 2011). Parsing is still practical for a sparse PCFG with very large number of non-terminals.</li>
+</ol>
+
+<p>For me four keys words are important to technically characterise ‘symbolic’: abstraction, (syntagmatic/paradigmatic) relations, operators, and sparseness. And when we think about the application of a symbolic system, another aspect, i.e. knowledge, should be considered.</p>
+
+<p>End comments from Weiwei</p>
+
+<p>Last update: 2026-07-30 by anncopestake [<a href="https://github.com/delph-in/docs/wiki/BergenSymbolic/_edit">edit</a>]</p>
 
         
       </section>

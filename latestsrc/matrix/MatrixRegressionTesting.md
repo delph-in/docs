@@ -70,6 +70,17 @@ Or, a number of tests starting with some string:
 
     (py3env) [~/matrix/trunk] ./rtest.py adj*
 
+### Expected regression test output
+
+As of July 30, 2026, the expected regression test output is as follows:
+```
+************* SUMMARY *************
+Passed  599/608 tests
+Failed    0/608 tests
+Errors    0/608 tests
+Skipped   9/608 tests (run rtest.py --list --skipped --verbose for more info)
+```
+
 ### Creating a new regression test
 
 To add a new regression test:
@@ -377,4 +388,4 @@ placed there and named by the scripts.
 Language name in choices file used as the basis of the naming. We need a
 convention for them :slightly\_smiling\_face:
 
-Last update: 2022-03-01 by Guy Emerson [[edit](https://github.com/delph-in/docs/wiki/MatrixRegressionTesting/_edit)]{% endraw %}
+Last update: 2026-07-30 by spencer-brooks [[edit](https://github.com/delph-in/docs/wiki/MatrixRegressionTesting/_edit)]{% endraw %}
