@@ -73,8 +73,8 @@ Presentation materials should be uploaded [here](https://github.com/delph-in/doc
 | 16:00–16:10  | [ACL 2026 paper "More Aligned, Less Diverse? Analyzing the Grammar and Lexicon of Two Generations of LLMs"](https://github.com/delph-in/docs/blob/main/summits/2026/Blitz-ACL26.pdf?raw=true) | Dan  |
 | 16:10–16:20  | [Event-based Knowledge Graphs with ERG](https://github.com/delph-in/docs/blob/main/summits/2026/DELPH-IN%202026%20-%20Event-based%20KGs%20with%20ERG.pdf?raw=true) | Luis  |
 | 16:20–16:30  | [Pronunciation Assessment](https://github.com/delph-in/docs/blob/main/summits/2026/DELPH-IN%202026%20-%20Pronunciation%20Assessment.pdf?raw=true) | Luis  |
-| **16:30-17:30** | **Plenary Discussion (Scribe: ???)** ||
-|  | [Teaching HPSG (Gathering advice on how best to teach it)](https://github.com/delph-in/docs/blob/main/summits/2026/teaching-discussion.pdf?raw=true) | Francis |
+| **16:30-17:30** | **Plenary Discussion (Scribe: Dan)** ||
+|  | [Teaching HPSG (Gathering advice on how best to teach it)](https://github.com/delph-in/docs/blob/main/summits/2026/teaching-discussion.pdf?raw=true) [(Notes)](https://github.com/delph-in/docs/blob/main/summits/2026/Notes-teaching.pdf?raw=true)| Francis |
 
 * * *
 
@@ -90,7 +90,7 @@ Presentation materials should be uploaded [here](https://github.com/delph-in/doc
 |**9:00–10:00**|**LLMs (Chair: Luis)**||
 | 9:00–10:00  | [Transparent Language Model Development in Europe](https://github.com/delph-in/docs/tree/main/summits/2026/hplt.pdf)    |   Stephan    |\
 | **10:00-10:45** | **Plenary Discussion (Scribe: Stephan)** ||
-|  | Revising the analysis of proper names in the ERG         |  Dan|
+|  | [Revising the analysis of proper names in the ERG](https://github.com/delph-in/docs/tree/main/summits/2026/ERG-names.pdf)         |  Dan|
 | **10:45–11:15**  | ***Break***  ☕ 🍪 |  |
 | **11:15-12:00** | **Plenary Discussion (Scribe: Isaac)** ||
 | | DELPH-IN 2046: How can we maintain DELPH-IN tools and support DELPH-IN research 20 years in the future? [(Notes)](https://github.com/delph-in/docs/tree/main/summits/2026/delphin2046_scribenotes.md) | Spencer B. |
@@ -117,7 +117,7 @@ Presentation materials should be uploaded [here](https://github.com/delph-in/doc
 | 12:30–14:00  | *Lunch*                             |                          |
 | 14:00–15:30  |  [Presentation, maintenance, and demos for DELPH-IN grammars](https://github.com/delph-in/docs/wiki/2026-SIG%E2%80%90notes-(Presentation,-maintenance,-and-demos-for-DELPH%E2%80%90IN-grammars))             | Luis           |
 | 15:30–16:00  | *Break*                             |                          |
-| 16:00–17:30  |  Grammar Lexicons and Wordnets                     |                         |
+| 16:00–17:30  |  Grammar Lexicons and Wordnets [(Notes)](https://github.com/delph-in/docs/tree/main/summits/2026/Notes-SIG-Wordnet.pdf)                    |                         |
 | 20:00–22:00  | **Banquet at Fløirestauranten**             |                         |
 
 * * *
@@ -126,10 +126,10 @@ Presentation materials should be uploaded [here](https://github.com/delph-in/doc
 
 **Rooms:** C225 and D226
 
-**Zoom Link (Room A):** https://hvl.zoom.us/my/krn1.c225.vm
+**Zoom Link (Room C225):** https://hvl.zoom.us/my/krn1.c225.vm
 **Password:** 168061
 
-**Zoom Link (Room B):** https://hvl.zoom.us/j/67925762871?pwd=9sLvRsDKI3JzykLxqlRBIpjNM5kj9l.1
+**Zoom Link (Room D226):** https://hvl.zoom.us/j/67925762871?pwd=9sLvRsDKI3JzykLxqlRBIpjNM5kj9l.1
 
 | Time         | Content                            | Scribe          |
 |--------------|-------------------------------------|--------------------------|
@@ -137,9 +137,9 @@ Presentation materials should be uploaded [here](https://github.com/delph-in/doc
 | 10:30–11:00  | -                            |     -                     |
 | 11:00–12:30  |  -              |         |-
 | 12:30–14:00  | -                             |           -               |
-| 14:00–15:30  |  DELPH-IN Unified Grammar Configuration File Format  (Room: C225)                   |                         |
+| 14:00–15:30  |  [DELPH-IN Unified Grammar Configuration File Format](https://github.com/delph-in/docs/blob/main/summits/2026/grammar-config.pdf?raw=true)  (Room: C225)                   |                         |
 | 15:30–16:00  | *Break*                             |                          |
-| 16:00–17:30  |  Verbal Semantics Classification (Room: C225); <br>  How to evaluate similarity of MRS structures?  (Room: D226)                   |                         |
+| 16:00–17:30  |  How to evaluate similarity of MRS structures? (Room: C225); <br>  Verbal Semantics Classification  (Room: D226)                   |                         |
 
 * * *
 
@@ -158,4 +158,4 @@ Presentation materials should be uploaded [here](https://github.com/delph-in/doc
 - Spencer+: Maintenance and documentation of DELPH-IN tools (non-demos)  
 - Spencer+: Projects and Funding
 
-Last update: 2026-07-30 by lmorgadodacosta [[edit](https://github.com/delph-in/docs/wiki/BergenSchedule/_edit)]{% endraw %}
+Last update: 2026-07-31 by John Carroll [[edit](https://github.com/delph-in/docs/wiki/BergenSchedule/_edit)]{% endraw %}
