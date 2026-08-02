@@ -111,7 +111,7 @@ Presentation materials should be uploaded [here](https://github.com/delph-in/doc
 
 | Time         | Content     (Room: C225)                        | Scribe          |
 |--------------|-------------------------------------|--------------------------|
-| 09:00–10:30  | Projects and Funding                       |                       |
+| 09:00–10:30  | Projects and Funding                       | Spencer                      |
 | 10:30–11:00  | *Break*                             |                          |
 | 11:00–12:30  |  Maintenance and documentation of DELPH-IN tools (non-demos) [(Notes)](https://github.com/delph-in/docs/tree/main/summits/2026/delphin-maintenance_scribenotes.md)             | Isaac        |
 | 12:30–14:00  | *Lunch*                             |                          |
@@ -158,4 +158,4 @@ Presentation materials should be uploaded [here](https://github.com/delph-in/doc
 - Spencer+: Maintenance and documentation of DELPH-IN tools (non-demos)  
 - Spencer+: Projects and Funding
 
-Last update: 2026-07-31 by John Carroll [[edit](https://github.com/delph-in/docs/wiki/BergenSchedule/_edit)]{% endraw %}
+Last update: 2026-08-01 by spencer-brooks [[edit](https://github.com/delph-in/docs/wiki/BergenSchedule/_edit)]{% endraw %}
