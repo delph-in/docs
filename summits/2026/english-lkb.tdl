@@ -1,0 +1,142 @@
+;;; -*- Mode: tdl; Coding: utf-8; -*-
+;;;
+;;;  Copyright (c) 1994-2018
+;;;    Dan Flickinger, Rob Malouf, Emily M. Bender
+;;;    see LICENSE for conditions
+;;;
+;;;  english.tdl
+;;;
+;;;  Top-level load file for PET for the English grammar
+;;;
+;;;  File created: 3-Nov-94 by Rob Malouf
+;;;
+;;;  $Id: english.tdl 28806 2020-07-01 12:58:34Z oe $
+
+:begin :type.
+
+;;
+;;  Basic definitions and macros
+;;
+
+:include "fundamentals".
+
+;;
+;;  Lexical types (i.e., primitive word classes)
+;;
+
+:include "lextypes".
+
+;;
+;;  Token mapping
+;;
+:include "tmt".
+
+;;
+;;  Syntactic rules
+;;
+
+:include "syntax".
+:include "ctype".
+
+;;
+;;  Lexical rules
+;;
+
+:include "lexrules".
+
+;; Dependency annotation support for rule types
+
+;;:include "dts".
+
+;; Delimiters (strong and weak brackets)
+
+:include "delims".
+
+:include "auxverbs".
+
+:include "letypes". ; NB in lkb/script these leaf types are cached - little difference
+
+:include "mtr".     ; NB loaded with other types, not later as in ace/config.tdl
+
+:end :type.
+
+;;
+;; token mapping: manipulate the token lattice prior to lexical look-up
+;;
+:begin :instance :status token-mapping-rule. ; !!! english.tdl loads these in middle of types
+:include "tmr/gml".
+:include "tmr/ptb".
+:include "tmr/spelling".
+:include "tmr/ne1".
+:include "tmr/split".
+:include "tmr/ne2".
+:include "tmr/class".
+:include "tmr/ne3".
+:include "tmr/punctuation".
+:include "tmr/pos".
+:include "tmr/finis".
+:end :instance.
+
+;; DPF 2017-04-30 - Be sure to use ACE version of at least 0.9.24 or else
+;; disable these rules in order to get generation of unknown proper names.
+;;
+:begin :instance :status post-generation-mapping-rule.
+:include "tmr/post-generation".
+:end :instance.
+
+;;
+;; lexical filtering: reduce the chart after lexical instantiation and the
+;; application of lexical rules, right before we turn loose syntactic rules.
+;;
+:begin :instance :status lexical-filtering-rule.
+:include "lfr.tdl".
+:end :instance.
+
+;;
+;; Lexicon entries (instances of status lex-entry or generic-lex-entry)
+;;
+
+:begin :instance :status lex-entry.
+:include "lexicon".
+:include "lexicon-rbst".  ; *** not in lkb/script
+:include "ple".
+:end :instance.
+
+:begin :instance :status generic-lex-entry.
+:include "gle".
+:include "gle-gen".       ; *** in lkb/script this is in lex-entry above
+:end :instance.
+
+;;
+;; grammar rules and lexical rules (instances of status rule)
+;;
+
+:begin :instance :status rule.
+:include "constructions".
+;:include "bridges".
+:end :instance.
+
+:begin :instance :status lex-rule.
+:include "inflr".
+:include "lexrinst".
+;:include "lexrinst-tok". ; *** commented out in lkb/script - rules seem to feed themselves
+:end :instance.
+
+;;
+;; parse-tree labels (instances)
+;;
+
+:begin :instance :status label. ; !!! :status label added
+:include "parse-nodes".   ; *** duplicates parse-node-labels parameter in config.tdl
+:end :instance.
+
+;;
+;; start symbols of the grammar (instances)
+;;
+
+:begin :instance :status root.  ; !!! :status root added
+:include "roots".
+:end :instance.
+
+
+

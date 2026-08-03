@@ -1,0 +1,111 @@
+;;; Files to load
+
+grammar-top               := "../english-lkb.tdl".
+variable-property-mapping := "../semi.vpm".
+maxent-model              := "../redwoods.mem".  ; !!! must also set *unpacking-scoring-hook*
+
+:begin :config ACE.
+preprocessor              := "../rpp/tokenizer.rpp".
+preprocessor-modules      := ../rpp/xml.rpp ../rpp/ascii.rpp ../rpp/lgt.rpp ../rpp/quotes.rpp ../rpp/wiki.rpp ../rpp/gml.rpp ../rpp/html.rpp.          ; !!! ACE needs these unquoted
+:end :config.
+:begin :config LKB.
+preprocessor              := "../rpp/setup.lsp".
+:end :config.
+
+generation-ignore-lexemes := "../lkb/nogen-lex.set".     ; *** remove from lkb/globals.lsp
+generation-ignore-rules   := "../lkb/nogen-rules.set".   ; *** remove from lkb/globals.lsp
+:begin :config LKB.
+parse-ignore-rules        := "../lkb/noparse-rules.set". ; *** no equivalent in ACE
+:end :config.
+parse-node-labels         := "../parse-nodes.tdl".       ; *** duplicates :include in english.tdl
+generation-trigger-rules  := "../trigger.mtr".
+version                   := "../Version.lsp".
+
+semantic-interface-2016   := "../etc/erg.smi".
+:begin :config ACE.
+semantic-interface-top-type := top.
+:end :config.
+
+idiom-rules               := "../idioms.mtr".
+non-idiom-root            := root_non_idiom.
+
+:begin :config ACE.
+irregular-forms           := ../irregs.tab.              ; !!! ACE needs these unquoted
+:end :config.
+:begin :config LKB.
+irregular-forms           := "../irregs.tab".
+:end :config.
+
+:begin :config ACE.
+quickcheck-code           := "ace-erg-qc.txt".
+:end :config.
+:begin :config LKB.
+quickcheck-code           := "checkpaths.lsp".
+:end :config.
+
+:begin :config ACE.
+post-model-path           := "english-postagger.hmm".
+:end :config.
+
+:begin :config LKB.
+preload-lisp-files        := "globals.lsp" "user-fns.lsp" "patches.lsp".
+load-lkb-preferences      := "user-prefs.lsp".           ; NB must come after globals.lsp
+postload-lisp-files       := "mrsglobals.lsp".           ; !!! settings.lsp missing
+:end :config.
+
+;;; !!! should also load eds.vpm
+;;; !!! for specialised use (SEM-I construction, transfer, MWE paraphrasing): abstract.vpm mt.lsp paraphraser.mtr
+;;; !!! does not write erg.hds
+
+
+;;; Parameters: the only ones that correspond exactly between ACE/LKB. Many more don't
+;;; correspond. Ordered similarly to the example in GrammarConfigurationRfc
+
+;; Types
+top-type            := *top*.
+
+;; Feature Paths
+orth-path           := ORTH.
+label-path          := LNAME.
+
+;; Lists
+list-type           := *list*.
+cons-type           := *cons*.
+null-type           := *null*.
+diff-list-type      := *diff-list*.
+
+;; Processing
+parsing-roots       := root_strict root_frag.    ; NB value as in lkb/script, not ace/config.tdl
+generation-roots    := root_gen_nofocus.
+deleted-daughters   :=
+  ARGS HD-DTR NH-DTR LCONJ-DTR RCONJ-DTR DTR DTR1 DTR2 DTRA DTRB.
+parsing-packing-restrictor := RELS HCONS ICONS RNAME +TI +LL +TG.
+chart-dependencies  :=                                   ; !!! PET uses dot notation for paths
+  "SYNSEM LKEYS --+COMPKEY" "SYNSEM LOCAL CAT HEAD MINORS MIN"
+  "SYNSEM LKEYS --+OCOMPKEY" "SYNSEM LOCAL CAT HEAD MINORS MIN"
+  "SYNSEM LKEYS --COMPHD" "SYNSEM LOCAL CAT HEAD"
+  "SYNSEM LKEYS --+ARGIND" "SYNSEM --SIND".
+spanning-only-rules :=
+  aj-hd_int-inv_c
+  aj-r_frg_c np-aj_frg_c cl_rel-frg_c aj-np_int-frg_c
+  pp-aj_frg_c j-aj_frg_c np_nb-frg_c np-cl_numitem_c np-cl_lettitem_c 
+  cl_cp-frg_c cl-np_runon-prn_c conj-frg_c hd-aj_scp-noclpnct_c. ; also vp_sl-frg_c if used
+index-accessibility-filtering := enabled.
+ortho-max-rules     := 7.
+
+;; Token mapping types and paths
+token-type              := token.
+token-form-path         := +FORM.
+token-id-path           := +ID.
+token-from-path         := +FROM.
+token-to-path           := +TO.
+token-postags-path      := +TNT +TAGS.
+token-posprobs-path     := +TNT +PRBS.
+lexicon-tokens-path     := TOKENS +LIST.
+lexicon-last-token-path := TOKENS +LAST.
+
+;; Chart mapping rule features
+lattice-mapping-input-path    := +INPUT.
+lattice-mapping-output-path   := +OUTPUT.
+lattice-mapping-context-path  := +CONTEXT.
+lattice-mapping-position-path := +POSITION.
