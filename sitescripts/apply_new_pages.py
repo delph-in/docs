@@ -1,3 +1,4 @@
+import datetime
 import json
 import os
 import sys
@@ -8,6 +9,12 @@ import sys
 # aren't linked from anywhere in the built sites, so there's no reliable Site/Section
 # to file them under automatically.
 UNRESOLVED_SITE = "<not included or linked to>"
+
+# This Section name is a deliberate blackhole: it holds links to pages that are
+# never expected to exist (personal wiki-username pages, wiki system pages, etc),
+# used to suppress "broken link" reports. Entries here are meant to stay
+# FileMissing forever, so stale-page removal must never touch this section.
+IGNORE_SECTION = "<ignore>"
 
 
 def load(path):
@@ -69,6 +76,49 @@ def merge_new_pages(sitesdefinitions_tree, fixes_tree):
     return added
 
 
+# Registered pages whose source file has actually disappeared (deleted/renamed
+# wiki page) currently take down the *entire* build: createdocs.py throws trying
+# to open a nonexistent file and the whole run fails with "assert False" until a
+# human notices and hand-edits sitesdefinitions.json. This prunes those entries
+# instead -- but only once a page has been seen missing on two separate runs
+# (tracked via a "MissingSince" marker persisted back into sitesdefinitions.json),
+# as cheap insurance against a one-off flaky checkout wrongly deleting a real page.
+# The "<ignore>" section is a deliberate blackhole for permanently-missing pages
+# and is never touched.
+def remove_stale_pages(pages_tree, input_content_root):
+    removed = []
+    flagged = []
+    recovered = []
+
+    for site_name, sections in pages_tree.items():
+        for section in sections:
+            if section["Section"] == IGNORE_SECTION:
+                continue
+
+            surviving_pages = []
+            for page in section["Pages"]:
+                src_path = os.path.join(input_content_root, page["SrcDir"], page["SrcFile"])
+                if os.path.exists(src_path):
+                    if page.pop("MissingSince", None) is not None:
+                        recovered.append({"Site": site_name, "Section": section["Section"], "SrcFile": page["SrcFile"]})
+                    surviving_pages.append(page)
+                elif "MissingSince" in page:
+                    removed.append({"Site": site_name, "Section": section["Section"], "SrcFile": page["SrcFile"],
+                                     "MissingSince": page["MissingSince"]})
+                else:
+                    page["MissingSince"] = datetime.date.today().isoformat()
+                    flagged.append({"Site": site_name, "Section": section["Section"], "SrcFile": page["SrcFile"]})
+                    surviving_pages.append(page)
+
+            section["Pages"] = surviving_pages
+
+    # Drop sections that are now empty so the tree doesn't accumulate clutter
+    for site_name in list(pages_tree.keys()):
+        pages_tree[site_name] = [s for s in pages_tree[site_name] if s["Pages"]]
+
+    return removed, flagged, recovered
+
+
 # Render just the "Pages" tree in the same layout createdocs.py's
 # log_json_tree_to_file() uses, so that untouched entries produce an
 # unchanged diff and only newly added pages show up.
@@ -107,36 +157,52 @@ def write_sitesdefinitions(path, original_text, pages_tree):
 
 
 if __name__ == "__main__":
-    if len(sys.argv) != 3:
-        print("Usage: apply_new_pages.py <sitesdefinitions.json> <FixesForBrokenLinksToWikiPages.json>")
+    if len(sys.argv) != 4:
+        print("Usage: apply_new_pages.py <sitesdefinitions.json> <input_content_root> <FixesForBrokenLinksToWikiPages.json>")
         sys.exit(1)
 
     sitesdefinitions_path = sys.argv[1]
-    fixes_path = sys.argv[2]
+    input_content_root = sys.argv[2]
+    fixes_path = sys.argv[3]
 
     with open(sitesdefinitions_path, "r") as txt_file:
         original_text = txt_file.read()
     sitesdefinitions_tree = json.loads(original_text)
 
-    if not os.path.exists(fixes_path):
-        print(f"No fixes file at {fixes_path}, nothing to do")
-        sys.exit(0)
+    added = []
+    if os.path.exists(fixes_path):
+        fixes_tree = load(fixes_path)
+        added = merge_new_pages(sitesdefinitions_tree, fixes_tree)
+    else:
+        print(f"No fixes file at {fixes_path}, skipping auto-add")
 
-    fixes_tree = load(fixes_path)
-
-    added = merge_new_pages(sitesdefinitions_tree, fixes_tree)
+    removed, flagged, recovered = remove_stale_pages(sitesdefinitions_tree["Pages"], input_content_root)
 
     github_output = os.environ.get("GITHUB_OUTPUT")
+    changed = bool(added or removed or flagged or recovered)
+
     if added:
-        write_sitesdefinitions(sitesdefinitions_path, original_text, sitesdefinitions_tree["Pages"])
         print(f"Added {len(added)} previously-unregistered page(s):")
         for entry in added:
             print(f'  {entry["Site"]} / {entry["Section"]}: {entry["SrcFile"]}')
-        if github_output:
-            with open(github_output, "a") as out:
-                out.write("changed=true\n")
+    if flagged:
+        print(f"Flagged {len(flagged)} page(s) as missing (will be removed if still missing next run):")
+        for entry in flagged:
+            print(f'  {entry["Site"]} / {entry["Section"]}: {entry["SrcFile"]}')
+    if removed:
+        print(f"Removed {len(removed)} page(s) confirmed missing since a prior run:")
+        for entry in removed:
+            print(f'  {entry["Site"]} / {entry["Section"]}: {entry["SrcFile"]} (missing since {entry["MissingSince"]})')
+    if recovered:
+        print(f"{len(recovered)} previously-flagged page(s) reappeared, unflagged:")
+        for entry in recovered:
+            print(f'  {entry["Site"]} / {entry["Section"]}: {entry["SrcFile"]}')
+
+    if changed:
+        write_sitesdefinitions(sitesdefinitions_path, original_text, sitesdefinitions_tree["Pages"])
     else:
-        print("No new pages to register")
-        if github_output:
-            with open(github_output, "a") as out:
-                out.write("changed=false\n")
+        print("No changes to sitesdefinitions.json")
+
+    if github_output:
+        with open(github_output, "a") as out:
+            out.write(f"changed={'true' if changed else 'false'}\n")
