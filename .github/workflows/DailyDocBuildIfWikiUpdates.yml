@@ -72,6 +72,12 @@ jobs:
     # Make sure check_if_wiki_changes has run first
     needs: check_if_wiki_changes
     if: contains(needs.check_if_wiki_changes.outputs.wiki_changed, 'true')
+    # Shared with BuildDocsOnWikiEdit.yml's build job so a gollum-triggered build
+    # and this daily fallback can never race the "commit + push to main" step in
+    # BuildDocs.yml -- they queue instead of running concurrently.
+    concurrency:
+      group: builddocs-main
+      cancel-in-progress: false
     # Call a shared workflow in the same repo to do the build
     uses: ./.github/workflows/BuildDocs.yml
     with:

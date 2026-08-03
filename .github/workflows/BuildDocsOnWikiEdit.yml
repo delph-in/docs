@@ -1,0 +1,25 @@
+name: BuildDocsOnWikiEdit
+
+# "gollum" fires as soon as a wiki page is created, edited, or renamed --
+# no polling, so new/updated pages go live within a single BuildDocs run
+# instead of waiting for the next scheduled check (see DailyDocBuildIfWikiUpdates.yml,
+# which still runs once a day as a fallback in case a gollum event is ever missed,
+# and to keep this repo from going dormant after 60 days of inactivity).
+on:
+  gollum:
+
+jobs:
+  build:
+    name: Build docs after a wiki edit
+    if: ${{ github.ref == 'refs/heads/main' }}
+    # Shared with DailyDocBuildIfWikiUpdates.yml's build job so back-to-back wiki
+    # edits queue their builds instead of racing the "commit + push to main" step
+    # in BuildDocs.yml.
+    concurrency:
+      group: builddocs-main
+      cancel-in-progress: false
+    # Call the shared workflow in this repo to do the actual build
+    uses: ./.github/workflows/BuildDocs.yml
+    with:
+      quickAndDirty: 'false'
+      externalUrlCheck: 'false'
