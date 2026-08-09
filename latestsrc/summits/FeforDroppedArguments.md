@@ -3,7 +3,7 @@ include pronoun rels? Is it sufficient to constrain the u variable with
 e.g., png or definiteness information?
 
 [Emily's slides
-(pdf)](http://faculty.washington.edu/ebender/prodrop.pdf)
+(pdf)](https://github.com/delph-in/docs/blob/main/summits/2006/prodrop.pdf?raw=true)
 
 The 'eat' example can be misleading, since then we have to worry about
 whether there's two separate relations. 'earlier' as in "The earlier
@@ -91,4 +91,4 @@ A final worry: How does this affect the MRS to RMRS conversion?
 
 See also [FeforPng](https://delph-in.github.io/docs/summits/FeforPng).
 
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/FeforDroppedArguments/_edit)]{% endraw %}
+Last update: 2026-08-09 by Dan Flickinger [[edit](https://github.com/delph-in/docs/wiki/FeforDroppedArguments/_edit)]{% endraw %}

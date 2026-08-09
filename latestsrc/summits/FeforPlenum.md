@@ -6,7 +6,7 @@
 |-------------|--------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------|
 | 12:30-14:30 | Lunch                                                                                                                                |                                             |
 | 14:30-15:30 | [FeforGrammarians](https://delph-in.github.io/docs/summits/FeforGrammarians),[FeforProcessors](https://delph-in.github.io/docs/summits/FeforProcessors), and [FeforRmrs](https://delph-in.github.io/docs/summits/FeforRmrs) Summary                          | Ann Copestake, Dan Flickinger               |
-| 15:30-16:00 | [Whence the Matrix?](https://github.com/delph-in/docs/blob/main/summits/2006/Whence_the_Matrix.pdf?raw=true)                                                    | Emily Bender                                |
+| 15:30-16:00 | [Whence the Matrix?](https://github.com/delph-in/docs/blob/main/summits/2006/Fefor_Whence_the_Matrix.pdf?raw=true)                                                    | Emily Bender                                |
 | 16:00-16:30 | Coffee Break                                                                                                                         |                                             |
 | 16:30-17:00 | [Deep Lexical Acquisition for the ERG and JACY](http://www.csse.unimelb.edu.au/~tim/pubs/delpin2006-ohp.pdf)                         | Tim Baldwin                                 |
 | 17:00-17:30 | [Joint Force Deep Lexical Acquisition: Prospect and Rumination](http://www.coli.uni-saarland.de/~yzhang/files/zhang-delphin2006.pdf) | Yi Zhang                                    |
