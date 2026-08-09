@@ -3,7 +3,7 @@
 ### Jul-31
 
 - Short Site Updates (5-15 min: presenter bracketed)
-  - *[UW](http://faculty.washington.edu/ebender/papers/DELPHIN08-UWupdate.pdf)*
+  - *[UW](https://github.com/delph-in/docs/blob/main/summits/2008/DELPHIN08-UWupdate.pdf?raw=true)*
 (EmilyBender)
   - *Saarbruecken (UdS & DFKI)* (HansUszkoreit)
   - *NICT* (FrancisBond)
@@ -38,10 +38,10 @@ Matrix](http://students.washington.edu/lpoulson/Kyotopresentation.pdf)*
 More detailed updates.
 
 - Grammars
-  - *Next steps in simplifying DELPH-IN MRS representations*
+  - *[Next steps](https://github.com/delph-in/docs/blob/main/summits/2008/dpfmrs.pdf?raw=true) in simplifying DELPH-IN MRS representations*
 (DanFlickinger)
   - *[Radical non-configurationality and semantic
-composition](http://faculty.washington.edu/ebender/papers/Bender-DELPHIN08.pdf)*
+composition](https://github.com/delph-in/docs/blob/main/summits/2008/Bender-DELPHIN08.pdf?raw=true)*
 (EmilyBender)
   - *The Spanish Resource Grammar*
 ([MontserratMarimon](/MontserratMarimon))
@@ -122,4 +122,4 @@ means for increasing it
 
 **19:00** Jazz concert in the park!
 
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/KyotoSchedule/_edit)]{% endraw %}
+Last update: 2026-08-09 by Dan Flickinger [[edit](https://github.com/delph-in/docs/wiki/KyotoSchedule/_edit)]{% endraw %}
