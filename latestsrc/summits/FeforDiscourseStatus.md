@@ -1,7 +1,7 @@
 {% raw %}Notes on discussion of representation of discourse status and separating
 it from quantifier rels.
 
-[Emily's slides](http://faculty.washington.edu/ebender/def_q_rel.pdf)
+[Emily's slides](https://github.com/delph-in/docs/blob/main/summits/2006/def_q_rel.pdf?raw=true)
 
 Lars and Dorothee's presentation on the treatment of definiteness in
 [NorSource](/NorSource): We show how the morpho-syntactic encoding of
@@ -49,4 +49,4 @@ relations?
 Emily might make a first attempt at adapting the proposal of Borthen and
 Haugereid 2005 and including it in the Matrix.
 
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/FeforDiscourseStatus/_edit)]{% endraw %}
+Last update: 2026-08-09 by Dan Flickinger [[edit](https://github.com/delph-in/docs/wiki/FeforDiscourseStatus/_edit)]{% endraw %}

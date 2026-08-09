@@ -1,5 +1,5 @@
-{% raw %}Dan presented a plethora of reasons to abandon the EP representation of
-illocutionary force as message relations in favor of a represenation as
+{% raw %}Dan presented a plethora of [reasons](https://github.com/delph-in/docs/blob/main/summits/2006/nomsg.pdf?raw=true) to abandon the EP representation of
+illocutionary force as message relations in favor of a representation as
 a feature of events. No one expressed any strong desire to keep them
 around, but it was noted that we should make the shift in a coordinated
 fashion. Dan has produced a message-free version of the ERG, which will
@@ -8,4 +8,4 @@ experiment with removing messages from all the grammars (including the
 Matrix) over the next six months, with tentative plans to move in a
 coordinated fashion to a message-free universe around 1/2007.
 
-Last update: 2006-06-17 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/FeforMessageDemise/_edit)]{% endraw %}
+Last update: 2026-08-09 by Dan Flickinger [[edit](https://github.com/delph-in/docs/wiki/FeforMessageDemise/_edit)]{% endraw %}

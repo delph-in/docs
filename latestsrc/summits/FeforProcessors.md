@@ -37,7 +37,7 @@ volunteer.
 |---------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | 09:30 - 10:30 | [Small group activities](https://delph-in.github.io/docs/summits/FeforSmallGroups)                                                                                                                  |
 | 10:30 - 11:00 | Coffee                                                                                                                                                      |
-| 11:00 - 12:30 | Presentation/Demonstration: [LkbTrollet](https://delph-in.github.io/docs/tools/LkbTrollet): tool for multilingual grammar engineering - a wrapper around the LKB (PavelMihaylov) |
+| 11:00 - 12:30 | [Presentation](https://github.com/delph-in/docs/blob/main/summits/2006/trollet.pdf?raw=true)/Demonstration: [LkbTrollet](https://delph-in.github.io/docs/tools/LkbTrollet): tool for multilingual grammar engineering - a wrapper around the LKB (PavelMihaylov) |
 |               | Other tools, small groups                                                                                                                                   |
 | 12:30 - 14:00 | Lunch                                                                                                                                                       |
 | 14:00         | Begin joint discussion on [MRS/RMRS](https://delph-in.github.io/docs/summits/FeforRmrs)                                                                                                             |
@@ -90,4 +90,4 @@ engineering - a wrapper around the LKB
 
 - Now plenary session only
 
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/FeforProcessors/_edit)]{% endraw %}
+Last update: 2026-08-09 by Dan Flickinger [[edit](https://github.com/delph-in/docs/wiki/FeforProcessors/_edit)]{% endraw %}
