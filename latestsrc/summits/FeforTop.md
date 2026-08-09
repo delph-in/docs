@@ -42,7 +42,7 @@ put together the programme for each of the sections:
 - |                |                |                                           |                                      |                                                                 |
 |----------------|----------------|-------------------------------------------|--------------------------------------|-----------------------------------------------------------------|
 | **Start**      | **End**        | **Session**                               | **Schedule**                         | **Coordinator**                                                 |
-| 13-jun 09:30   |                | Organisation meeting for all participants |                                      |                                                                 |
+| 13-jun 09:30   |                | [Organisation](https://github.com/delph-in/docs/blob/main/summits/2006/intro.pdf?raw=true) meeting for all participants |                                      |                                                                 |
 | 13-jun         | 14-jun (lunch) | Grammars                                  | [FeforGrammarians](https://delph-in.github.io/docs/summits/FeforGrammarians) | DanFlickinger                                  |
 | 13-jun         | 14-jun (lunch) | Processing Tools                          | [FeforProcessors](https://delph-in.github.io/docs/summits/FeforProcessors)   | AnnCopestake                                    |
 | 14-jun         | 15-jun (lunch) | Processing Tools                          | [FeforRmrs](https://delph-in.github.io/docs/summits/FeforRmrs)               | AnnCopestake and DanFlickinger |
@@ -138,4 +138,4 @@ organizers](https://delph-in.github.io/docs/summits/FeforSuggestions).
 
 Please post conference photos on [FeforPhotos](https://delph-in.github.io/docs/summits/FeforPhotos)!
 
-Last update: 2011-10-09 by anonymous [[edit](https://github.com/delph-in/docs/wiki/FeforTop/_edit)]{% endraw %}
+Last update: 2026-08-09 by Dan Flickinger [[edit](https://github.com/delph-in/docs/wiki/FeforTop/_edit)]{% endraw %}

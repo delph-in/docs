@@ -4,7 +4,7 @@ Moderators: Berthold Crysmann and Stephan Oepen Scribe: Petter Haugereid
 
 ### Stephan's list of possible formalism extensions:
 
-[Introductory Slides](http://www.delph-in.net/2006/formalism.pdf)
+[Introductory Slides](https://github.com/delph-in/docs/blob/main/summits/2006/formalism.pdf?raw=true)
 
 Default unification
 
@@ -90,7 +90,7 @@ for lexical definitions.
 
 ### Defaults
 
-Francis mentioned that there will work with defaults in the japanese
+Francis mentioned that there will be work with defaults in the Japanese
 grammar.
 
-Last update: 2013-10-14 by GlennSlayden [[edit](https://github.com/delph-in/docs/wiki/FeforPlenum_Formalism/_edit)]{% endraw %}
+Last update: 2026-08-09 by Dan Flickinger [[edit](https://github.com/delph-in/docs/wiki/FeforPlenum_Formalism/_edit)]{% endraw %}
