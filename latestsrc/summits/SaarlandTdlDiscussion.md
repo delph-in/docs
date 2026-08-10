@@ -1,6 +1,6 @@
 {% raw %}# TDL formalism discussion
 
-[Yi's slides](http://www.delph-in.net/2013/tdl.pdf)
+[Yi's slides](https://github.com/delph-in/docs/blob/main/summits/2013/tdl.pdf?raw=true)
 
 ### Open questions:
 
@@ -38,4 +38,4 @@ Woodley: do grammarians want disjunctions?
 
 oe: we should have mechanism for conseratively changing as needed
 
-Last update: 2013-07-29 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/SaarlandTdlDiscussion/_edit)]{% endraw %}
+Last update: 2026-08-10 by Dan Flickinger [[edit](https://github.com/delph-in/docs/wiki/SaarlandTdlDiscussion/_edit)]{% endraw %}
