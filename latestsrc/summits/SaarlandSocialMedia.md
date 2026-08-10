@@ -1,6 +1,6 @@
 {% raw %}Discussion: Parsing Social Media Data
 
-First, [Tim's slides](http://www.delph-in.net/2013/tim.pdf)
+First, [Tim's slides](https://github.com/delph-in/docs/blob/main/summits/2013/tim.pdf?raw=true)
 
 Glenn: Should we hold this on twitter?
 
@@ -122,4 +122,4 @@ Tim: Natively electronic?
 
 Francis: Yes, very Singlish, but no sentence boundaries.
 
-Last update: 2013-08-04 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/SaarlandSocialMedia/_edit)]{% endraw %}
+Last update: 2026-08-10 by Dan Flickinger [[edit](https://github.com/delph-in/docs/wiki/SaarlandSocialMedia/_edit)]{% endraw %}
