@@ -153,7 +153,7 @@ original procedure used in the construction of [WikiWoods](https://delph-in.gith
 in-line mark-up of layout information that may be relevant to parsing.
 
 In another recently completed MSc thesis, [Fares
-(2013)](http://www.delph-in.net/2013/ltg/Fares:13.pdf) applies machine
+(2013)](https://github.com/delph-in/docs/blob/main/summits/2013/Fares:13.pdf?raw=true) applies machine
 learning (binary, CRF-based classification) to the tasks of
 *tokenization* (i.e. deciding on token boundaries, in either the
 PTB-like *initial* tokenization scheme, or the ERG-defined *lexical*
@@ -165,11 +165,11 @@ assigning ERG lexical types. When putting these together, i.e. parsing
 inputs with disambiguated ERG tokenization and annoated with lexical
 types (selectively, i.e. only constraining the parser when lexical
 categorization was above an experimentally set confidence threshold),
-improvements in parsing effiency of factors between two and three were
+improvements in parsing efficiency of factors between two and three were
 obtained, with mildly increased coverage (due to fewer time-outs) and
 moderately better parse selection accuracy (due to the reduced search
 space). End-to-end parsing results for these experiments are presented
 in the slides from his [MSc
-presentation](http://www.delph-in.net/2013/ltg/fares.slides.pdf).
+presentation](https://github.com/delph-in/docs/blob/main/summits/2013/fares.slides.pdf?raw=true).
 
-Last update: 2017-08-09 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/LtgOslo_Delphin/_edit)]{% endraw %}
+Last update: 2026-08-10 by Dan Flickinger [[edit](https://github.com/delph-in/docs/wiki/LtgOslo_Delphin/_edit)]{% endraw %}

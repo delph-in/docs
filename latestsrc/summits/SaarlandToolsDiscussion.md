@@ -1,6 +1,6 @@
 {% raw %}## Preliminary notes of the DELPH-IN tools discussion at the Saarland meeting
 
-Mike, [presenting](http://www.delph-in.net/2013/tools.pdf) the following
+Mike, [presenting](https://github.com/delph-in/docs/blob/main/summits/2013/tools.pdf?raw=true) the following
 tools:
 
 - STAG
@@ -37,4 +37,4 @@ Not a cycle, but introduces an EQ link.
 
 Ann: Apart from this example it is not a problem.
 
-Last update: 2013-08-06 by StephanOepen [[edit](https://github.com/delph-in/docs/wiki/SaarlandToolsDiscussion/_edit)]{% endraw %}
+Last update: 2026-08-10 by Dan Flickinger [[edit](https://github.com/delph-in/docs/wiki/SaarlandToolsDiscussion/_edit)]{% endraw %}
