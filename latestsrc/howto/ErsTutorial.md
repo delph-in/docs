@@ -4,7 +4,7 @@ This page gives information for the ERS tutorials at LREC and
 [NAACL](http://naacl.org/naacl-hlt-2016/t1.html) 2016.
 
 - [Final version of
-slides](http://faculty.washington.edu/ebender/papers/ERS-tutorial.pdf)
+slides](https://github.com/delph-in/docs/blob/main/summits/2016/ERS-tutorial.pdf?raw=true)
 (from NAACL)
 
 # English Resource Semantics: Getting Started
@@ -86,4 +86,4 @@ instructions](http://depts.washington.edu/uwcl/twiki/bin/view.cgi/Main/KnoppixLK
 for KnoppixLKB. Our thanks go to David Brodbeck for his assistance in
 preparing the tutorial VirtualBox appliance.
 
-Last update: 2021-05-10 by Alexandre Rademaker [[edit](https://github.com/delph-in/docs/wiki/ErsTutorial/_edit)]{% endraw %}
+Last update: 2026-08-10 by Dan Flickinger [[edit](https://github.com/delph-in/docs/wiki/ErsTutorial/_edit)]{% endraw %}
