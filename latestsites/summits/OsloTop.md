@@ -1,4 +1,4 @@
-{% raw %}<img src="http://www.computational-semantics.com/webshare/20170808-delphin-oslo.jpg" title="http://www.computational-semantics.com/webshare/20170808-delphin-oslo.jpg" class="external_image" alt="http://www.computational-semantics.com/webshare/20170808-delphin-oslo.jpg" />
+{% raw %}<img src="https://github.com/delph-in/docs/blob/main/summits/2017/20170808-delphin-oslo.jpg" title="http://www.computational-semantics.com/webshare/20170808-delphin-oslo.jpg" class="external_image" alt="http://www.computational-semantics.com/webshare/20170808-delphin-oslo.jpg" />
 
 
 # Background
@@ -62,4 +62,4 @@ on the [OsloSchedule](https://delph-in.github.io/docs/summits/OsloSchedule) page
 [Emily's photos](https://erbonzo.smugmug.com/Travel/DELPH-IN-2017/)
 Password: Akershus
 
-Last update: 2017-08-12 by EmilyBender [[edit](https://github.com/delph-in/docs/wiki/OsloTop/_edit)]{% endraw %}
+Last update: 2026-08-10 by Dan Flickinger [[edit](https://github.com/delph-in/docs/wiki/OsloTop/_edit)]{% endraw %}
