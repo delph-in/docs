@@ -142,7 +142,7 @@ workflows. In the year to come, it is expected that the core
 DELPH-IN toolchain will be made available through the LAP.
 
 Finally, two recent MSc projects at LTG have contributed to DELPH-IN
-advancement. [Solberg (2012)](https://www.duo.uio.no/handle/10852/34914)
+advancement. [Solberg (2012)](https://github.com/delph-in/docs/blob/main/summits/2013/solberg.pdf?raw=true)
 develops a generic infrastructure for extracting ‘*relevant linguistic
 content*’ from Wikipedia dumps, preparing a forthcoming new revision 2.0
 of the [WikiWoods](https://delph-in.github.io/docs/garage/WikiWoods) Corpus, seeking to address some of the
@@ -153,7 +153,7 @@ original procedure used in the construction of [WikiWoods](https://delph-in.gith
 in-line mark-up of layout information that may be relevant to parsing.
 
 In another recently completed MSc thesis, [Fares
-(2013)](https://github.com/delph-in/docs/blob/main/summits/2013/Fares:13.pdf?raw=true) applies machine
+(2013)](https://github.com/delph-in/docs/blob/main/summits/2013/Fares13.pdf?raw=true) applies machine
 learning (binary, CRF-based classification) to the tasks of
 *tokenization* (i.e. deciding on token boundaries, in either the
 PTB-like *initial* tokenization scheme, or the ERG-defined *lexical*
@@ -172,4 +172,4 @@ space). End-to-end parsing results for these experiments are presented
 in the slides from his [MSc
 presentation](https://github.com/delph-in/docs/blob/main/summits/2013/fares.slides.pdf?raw=true).
 
-Last update: 2026-08-10 by Dan Flickinger [[edit](https://github.com/delph-in/docs/wiki/LtgOslo_Delphin/_edit)]{% endraw %}
+Last update: 2026-08-11 by Dan Flickinger [[edit](https://github.com/delph-in/docs/wiki/LtgOslo_Delphin/_edit)]{% endraw %}
