@@ -51,14 +51,14 @@ jobs:
 
       # This repo
       - name: Checkout docs
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           path: main
           fetch-depth: 0
 
       # This repo's wiki (the Official docs wiki)
       - name: Checkout docs wiki repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
         with:
           repository: delph-in/docs.wiki
           path: docswiki
@@ -96,26 +96,26 @@ jobs:
           ref-to-teaser-path: ./main/latestsites/refToTeaser.json
 
       # Upload any output data so users can get at it
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         if: ${{ failure() }}
         with:
           name: Site Errors
           path: main/latestsrc/SiteErrors.json
           if-no-files-found: ignore # 'warn' or 'ignore' are also available, defaults to `warn`
 
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: All Pages
           path: main/latestsrc/AllPages.json
           if-no-files-found: ignore # 'warn' or 'ignore' are also available, defaults to `warn`
 
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: All Links (working, broken, local, external, etc)
           path: main/latestsrc/AllLinks.json
           if-no-files-found: ignore # 'warn' or 'ignore' are also available, defaults to `warn`
 
-      - uses: actions/upload-artifact@v4
+      - uses: actions/upload-artifact@v7
         with:
           name: Fixes for broken links To Wiki pages
           path: main/latestsrc/FixesForBrokenLinksToWikiPages.json
@@ -125,7 +125,7 @@ jobs:
 
       # Build each site with Jekyll
       - name: Setup Pages
-        uses: actions/configure-pages@v1
+        uses: actions/configure-pages@v6
 
       - name: Build Home with Jekyll
         uses: actions/jekyll-build-pages@v1
@@ -177,7 +177,7 @@ jobs:
 
 
       - name: Upload all the sites to github pages
-        uses: actions/upload-pages-artifact@v3
+        uses: actions/upload-pages-artifact@v5
         with:
           path: main/latestsites/
 
@@ -221,4 +221,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
