@@ -153,7 +153,7 @@ original procedure used in the construction of [WikiWoods](https://delph-in.gith
 in-line mark-up of layout information that may be relevant to parsing.
 
 In another recently completed MSc thesis, [Fares
-(2013)](https://github.com/delph-in/docs/blob/main/summits/2013/Fares13.pdf?raw=true) applies machine
+(2013)](https://github.com/delph-in/docs/blob/main/summits/2013/Fares:13.pdf?raw=true) applies machine
 learning (binary, CRF-based classification) to the tasks of
 *tokenization* (i.e. deciding on token boundaries, in either the
 PTB-like *initial* tokenization scheme, or the ERG-defined *lexical*
