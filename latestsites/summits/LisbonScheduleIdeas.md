@@ -21,7 +21,7 @@ are available in many cases, linked from the title cell in each slot.
 | 16:00-16:30 | Coffee break                                                                                                                                                                                                                                                               |                                                                                        |
 | 16:30       | [Statistical Approach towards Deep Lexical Acquisition](http://www.coli.uni-saarland.de/~yzhang/files/delphin-lisbon.pdf)                                                                                                                                                  | YiZhang                                                                     |
 | 17:00       | A methodology for the development of wide-coverage HPSG grammars                                                                                                                                                                                                           | [YusukeMiyao](/YusukeMiyao)                                                            |
-| 17:30       | Matrix Modules: Development and User Interface                                                                                                                                                                                                                             | EmilyBender and DanFlickinger                          |
+| 17:30       | [Matrix Modules: Development and User Interface](https://github.com/delph-in/docs/blob/main/summits/2005/MatrixModules.pdf?raw=true)                                                                                                                                                                                                                             | EmilyBender and DanFlickinger                          |
 
 ## Friday, August 19
 
@@ -67,4 +67,4 @@ are available in many cases, linked from the title cell in each slot.
 
 - [LisbonDiscussionSuggestions](https://delph-in.github.io/docs/summits/LisbonDiscussionSuggestions)
 
-Last update: 2026-08-09 by Dan Flickinger [[edit](https://github.com/delph-in/docs/wiki/LisbonScheduleIdeas/_edit)]{% endraw %}
+Last update: 2026-08-12 by Dan Flickinger [[edit](https://github.com/delph-in/docs/wiki/LisbonScheduleIdeas/_edit)]{% endraw %}
