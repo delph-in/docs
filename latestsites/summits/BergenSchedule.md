@@ -137,7 +137,7 @@ Presentation materials should be uploaded [here](https://github.com/delph-in/doc
 | 10:30–11:00  | -                            |     -                     |
 | 11:00–12:30  |  -              |         |-
 | 12:30–14:00  | -                             |           -               |
-| 14:00–15:30  |  [DELPH-IN Unified Grammar Configuration File Format](https://github.com/delph-in/docs/blob/main/summits/2026/grammar-config.pdf?raw=true) (Room: C225) <br> Example grammar files: [lkb/config.tdl](https://github.com/delph-in/docs/blob/main/summits/2026/config.tdl?raw=true), [english-lkb.tdl](https://github.com/delph-in/docs/blob/main/summits/2026/english-lkb.tdl?raw=true)                   |  Dan  |
+| 14:00–15:30  |  [DELPH-IN Unified Grammar Configuration File Format](https://github.com/delph-in/docs/blob/main/summits/2026/grammar-config.pdf?raw=true) [Notes](https://github.com/delph-in/docs/blob/main/summits/2026/SIG-config-Notes.pdf?raw=true) (Room: C225) <br> Example grammar files: [lkb/config.tdl](https://github.com/delph-in/docs/blob/main/summits/2026/config.tdl?raw=true), [english-lkb.tdl](https://github.com/delph-in/docs/blob/main/summits/2026/english-lkb.tdl?raw=true)                   |  Dan  |
 | 15:30–16:00  | *Break*                             |                          |
 | 16:00–17:30  |  How to evaluate similarity of MRS structures? (Room: C225); <br>  Verbal Semantics Classification  (Room: D226)                   |                         |
 
@@ -158,4 +158,4 @@ Presentation materials should be uploaded [here](https://github.com/delph-in/doc
 - Spencer+: Maintenance and documentation of DELPH-IN tools (non-demos)  
 - Spencer+: Projects and Funding
 
-Last update: 2026-08-03 by John Carroll [[edit](https://github.com/delph-in/docs/wiki/BergenSchedule/_edit)]{% endraw %}
+Last update: 2026-08-12 by Dan Flickinger [[edit](https://github.com/delph-in/docs/wiki/BergenSchedule/_edit)]{% endraw %}
