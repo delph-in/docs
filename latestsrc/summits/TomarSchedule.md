@@ -22,7 +22,7 @@ This is the schedule for the Tenth DELPH-IN Summit, [Tomar](https://delph-in.git
 |                 12:30-13:30 *Lunch*                 |                                                                                                                                                                                 |
 |    13:30-15:00 *Plenary Session 3* (Chair: João)    |                                                                                                                                                                                 |
 |                     13:30-14:00                     | [SDP: DeepBank and the ERG in the SemEval 2014 Task on Broad-Coverage Semantic Dependency Parsing; Input on 2015 Design](https://github.com/delph-in/docs/blob/main/summits/2014/sdp.pdf?raw=true) (Stephan; 20+10) |
-|                     14:00-14:30                     |                 Discussion: [‘Semantic Parsing’ and How to Talk to the Rest of the World about What we Do](https://delph-in.github.io/docs/summits/TomarSemanticParsing) (Moderator: Emily, Scribe: oe)                 |
+|                     14:00-14:30                     |                 Discussion: ‘Semantic Parsing’ and How to Talk to the Rest of the World about What we Do (Moderator: Emily, Scribe: oe)                 |
 |                     14:30-15:00                     |               Discussion: [The Future of DELPH-IN (And the Larger Unification Underground): Recruitment and Outreach](https://delph-in.github.io/docs/summits/TomarFuture) (Moderator: oe, Scribe: Emily)               |
 |             15:00-15:30 *Coffee Break*              |                                                                                                                                                                                 |
 |  15:30-17:00 *Plenary Session 4* (Chair: Sanghoun)  |                                                                                                                                                                                 |
@@ -163,4 +163,4 @@ NL Sentences
 2. MichaelGoodman: pyDelphin: MRS feature extraction,
 format conversion, and batch processing
 
-Last update: 2026-08-10 by Dan Flickinger [[edit](https://github.com/delph-in/docs/wiki/TomarSchedule/_edit)]{% endraw %}
+Last update: 2026-08-12 by Dan Flickinger [[edit](https://github.com/delph-in/docs/wiki/TomarSchedule/_edit)]{% endraw %}
