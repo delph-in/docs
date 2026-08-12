@@ -59,11 +59,11 @@ Presentation materials should be uploaded [here](https://github.com/delph-in/doc
 |--------------|-------------------------------------|--------------------------|
 | **09:00–10:30**   | **Grammar Matrix (Chair: Petter)** |  |
 | 09:00–09:30  | Noun incorporation library for the Grammar Matrix       |  Emily L.         |
-| 09:30–10:00  | PIGGY: Precise, Interpretable Grammar-based Generation, yippee  | Liz      |
+| 09:30–10:00  | [PIGGY: Precise, Interpretable Grammar-based Generation, yippee!](https://github.com/delph-in/docs/blob/main/summits/2026/PIGGY_DELPHIN_2026.pdf?raw=true)  | Liz      |
 | 10:00–10:30  | [Using Grammatical Features to Improve Morphotactic Inference in the AGGREGATION System](https://github.com/delph-in/docs/blob/main/summits/2026/Schifferer_morphotactics.pdf?raw=true) | Isaac        |
 | **10:30–11:00**  |   ***Break***  ☕ 🍪               |               |
 | **11:00-12:00** | **Plenary Discussion (Scribe: Emily B.)** ||
-|    | Potpourri of issues with non-grammar-based MRS Composition [(Notes)](https://delph-in.github.io/docs/summits/BergenNonGrammarComposition)| Liz          |
+|    | [Potpourri of issues with non-grammar-based MRS Composition](https://github.com/delph-in/docs/blob/main/summits/2026/PIGGY_DISCUSSION_2026.pdf?raw=true) [(Notes)](https://delph-in.github.io/docs/summits/BergenNonGrammarComposition)| Liz          |
 | **12:00–14:00**  | ***Lunch*** 🍴🥗🍱🥘                           |                          |
 |**14:00-15:30**|**Grammars & Lexicons (Chair: Dan)**||
 | 14:00–14:30  |  [From Zhong to MRG (Mandarin Resource Grammar)](https://github.com/delph-in/docs/blob/main/summits/2026/DELPH-IN%202026%20-%20MRG.pdf?raw=true)        | Luis                         |
@@ -158,4 +158,4 @@ Presentation materials should be uploaded [here](https://github.com/delph-in/doc
 - Spencer+: Maintenance and documentation of DELPH-IN tools (non-demos)  
 - Spencer+: Projects and Funding
 
-Last update: 2026-08-12 by Dan Flickinger [[edit](https://github.com/delph-in/docs/wiki/BergenSchedule/_edit)]{% endraw %}
+Last update: 2026-08-12 by Elizabeth Conrad [[edit](https://github.com/delph-in/docs/wiki/BergenSchedule/_edit)]{% endraw %}
