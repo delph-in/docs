@@ -30,7 +30,7 @@ Parser](http://www.coli.uni-saarland.de/~rdrid/robust-pet.pdf)*
 Matrix](http://students.washington.edu/sfd/Drellishak%20-%20DELPH-IN%202008%20-%20Matrix%20Update.pdf)*
 (Scott Drellishak)
   - *[A preliminary report: Tense and Aspect in the
-Matrix](http://students.washington.edu/lpoulson/Kyotopresentation.pdf)*
+Matrix](https://github.com/delph-in/docs/blob/main/summits/2008/Kyotopresentation.pdf?raw=true)*
 (Laurie Poulson)
 
 ### Aug-01
@@ -122,4 +122,4 @@ means for increasing it
 
 **19:00** Jazz concert in the park!
 
-Last update: 2026-08-09 by Dan Flickinger [[edit](https://github.com/delph-in/docs/wiki/KyotoSchedule/_edit)]{% endraw %}
+Last update: 2026-10-20 by Dan Flickinger [[edit](https://github.com/delph-in/docs/wiki/KyotoSchedule/_edit)]{% endraw %}
